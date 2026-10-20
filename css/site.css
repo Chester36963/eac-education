@@ -115,9 +115,12 @@ body { background: var(--paper); color: var(--ink); }
 .cover-composition { position: relative; min-height: 580px; padding: 24px 28px 26px; border: 1px solid #cfc6bb; background: #f8f6f1; box-shadow: 20px 20px 0 #e7dfd5; }
 .composition-head { display: flex; justify-content: space-between; padding-bottom: 15px; border-bottom: 1px solid #cfc6bb; color: #8f887f; font: 600 11px var(--font-stack); letter-spacing: .16em; }
 .composition-diagram { position: relative; height: 285px; margin: 18px 0 20px; overflow: hidden; border-bottom: 1px solid #cfc6bb; }
-.axis { position: absolute; display: block; background: #c8c0b6; } .axis-x { top: 57%; left: 8%; right: 8%; height: 1px; } .axis-y { top: 10%; bottom: 15%; left: 49%; width: 1px; }
-.triangle-line { position: absolute; display: block; height: 1px; background: #1b2a3a; transform-origin: left center; } .line-a { left: 18%; top: 72%; width: 55%; transform: rotate(-25deg); } .line-b { left: 18%; top: 72%; width: 60%; transform: rotate(-1deg); } .line-c { left: 73%; top: 48%; width: 60%; transform: rotate(156deg); }
-.point { position: absolute; color: #1b2a3a; font: italic 18px var(--font-serif-display); } .point-a { left: 14%; top: 70%; } .point-b { right: 17%; top: 43%; } .point-c { right: 17%; top: 67%; } .point-o { left: 47%; top: 51%; color: #a2675d; }
+.nine-point-diagram svg { display: block; width: 100%; height: 100%; }
+.diagram-edge { fill: none; stroke: #1b2a3a; stroke-width: 1.6; }
+.altitude-line { fill: none; stroke: #a9a098; stroke-width: 1; stroke-dasharray: 4 4; }
+.nine-circle { fill: rgba(162,103,93,.06); stroke: #a2675d; stroke-width: 1.7; }
+.centre-point { fill: #1b2a3a; } .orthocentre-point { fill: #a2675d; } .mid-point { fill: #f8f6f1; stroke: #a2675d; stroke-width: 2; }
+.diagram-label { fill: #1b2a3a; font: italic 18px var(--font-serif-display); } .diagram-label.small { font-size: 14px; } .diagram-label.accent { fill: #a2675d; }
 .composition-caption { display: flex; justify-content: space-between; gap: 20px; padding-bottom: 20px; border-bottom: 1px solid #cfc6bb; } .composition-caption span { color: #a2675d; font: 600 11px var(--font-stack); letter-spacing: .16em; } .composition-caption strong { color: #1b2a3a; font: 500 22px/1.08 var(--font-serif-display); text-align: right; }
 .composition-index { display: grid; grid-template-columns: 34px 1fr auto; gap: 12px; padding: 12px 0 0; color: #1b2a3a; font-size: 14px; } .composition-index span:first-child { color: #a2675d; font: 600 12px var(--font-stack); } .composition-index span:last-child { color: #8f887f; }
 .library-index { max-width: 1320px; margin: 0 auto; padding: 118px 40px 128px; }
@@ -128,6 +131,14 @@ body { background: var(--paper); color: var(--ink); }
 .index-row:hover { color: #a2675d; background: rgba(255,255,255,.38); }
 .index-no { color: #a2675d; font: 600 14px var(--font-stack); } .index-title { font: 600 30px var(--font-serif-display); } .index-title small { display: block; margin-top: 3px; color: #8f887f; font: 400 14px var(--font-serif-body); }
 .index-desc { color: #69737b; font-size: 14px; } .index-arrow { color: #a2675d; font-size: 22px; text-align: right; }
+.featured-route { display: grid; grid-template-columns: .8fr 1.2fr; gap: 80px; max-width: 1320px; margin: 0 auto; padding: 0 40px 128px; }
+.route-heading h2 { margin: 0 0 14px; color: #1b2a3a; font-size: 50px; line-height: .95; letter-spacing: -.03em; }
+.route-heading > p:last-child { max-width: 330px; margin: 0; color: #69737b; font-size: 16px; line-height: 1.6; }
+.route-steps { border-top: 1px solid #cfc6bb; }
+.route-steps a { display: grid; grid-template-columns: 46px 1fr; gap: 8px 14px; align-items: center; padding: 18px 8px; border-bottom: 1px solid #cfc6bb; color: #1b2a3a; }
+.route-steps a:hover { background: rgba(255,255,255,.38); color: #a2675d; }
+.route-steps span { grid-row: span 2; color: #a2675d; font: 600 13px var(--font-stack); }
+.route-steps strong { font: 600 25px var(--font-serif-display); } .route-steps small { color: #69737b; font-size: 13px; }
 .approach-strip { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; padding: 100px max(40px, calc((100vw - 1240px) / 2)); background: #1b2a3a; color: #f5f2ed; }
 .approach-strip h2 { margin: 0; color: #f5f2ed; font-size: 60px; line-height: .92; letter-spacing: -.04em; } .approach-strip .cover-kicker { color: #d29a8d; }
 .approach-copy { max-width: 500px; align-self: end; } .approach-copy > p { margin: 0 0 36px; color: #d2d8dc; font-size: 19px; line-height: 1.6; }
@@ -167,5 +178,6 @@ body { background: var(--paper); color: var(--ink); }
   .library-index { padding: 76px 22px 88px; }
   .index-row { grid-template-columns: 38px 1fr 24px; gap: 12px; } .index-desc { display: none; }
   .approach-strip { display: block; padding: 76px 22px; } .approach-strip h2 { font-size: 50px; margin-bottom: 42px; }
+  .featured-route { display: block; padding: 0 22px 88px; } .route-heading h2 { font-size: 42px; margin-bottom: 14px; } .route-steps { margin-top: 38px; }
   .editorial-cta { padding: 88px 22px 96px; } .editorial-cta h2 { font-size: 48px; }
 }
