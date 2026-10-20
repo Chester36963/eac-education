@@ -97,6 +97,13 @@ body { background: var(--paper); color: var(--ink); }
 .achievement-chip.is-unlocked { border-color: var(--coral); color: var(--ink); background: var(--coral-soft); }
 .loading-copy { color: var(--ink-soft); }
 .site-footer { display: flex; justify-content: space-between; gap: 20px; }
+.practice-config { margin-bottom: 42px; padding: 30px; border: 1px solid var(--line); background: #fff; }
+.practice-config h1 { margin: 0 0 6px; font-size: 40px; letter-spacing: -.02em; }
+.config-copy { margin: 0; color: var(--ink-soft); }
+.filter-grid { display: grid; grid-template-columns: 1.2fr 1.2fr 1fr auto; gap: 12px; align-items: end; margin-top: 28px; }
+.filter-grid label { color: var(--ink-soft); font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.filter-grid select { display: block; margin-top: 8px; min-width: 0; }
+.filter-grid .btn { width: auto; white-space: nowrap; }
 
 @media (max-width: 800px) {
   .site-header .header-inner { padding: 0 22px; }
@@ -110,6 +117,7 @@ body { background: var(--paper); color: var(--ink); }
   .home-cta { padding: 0 22px 72px; } .home-cta-inner { display: block; padding: 30px 24px; } .home-cta .btn { margin-top: 22px; }
   .site-footer { padding: 24px 22px; }
   .student-main { padding: 56px 22px 72px; }
+  .filter-grid { grid-template-columns: 1fr; } .filter-grid .btn { width: 100%; }
   .daily-grid, .subject-list { grid-template-columns: 1fr; }
   .daily-card h2 { font-size: 34px; }
   .library-section { margin-bottom: 64px; }
