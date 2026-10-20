@@ -1,0 +1,472 @@
+/* ============================================================================
+   EAC EDUCATION PLATFORM - DECORATIONS & FINE DETAILS
+   decorations.css - Lines, subtle visual elements, academic styling
+   ============================================================================ */
+
+/* ============================================================================
+   FINE LINE DECORATIONS - Using ::before and ::after
+   ============================================================================ */
+
+/* Top accent line for cards on hover */
+.line-accent-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--accent-rose);
+  opacity: 0;
+  transition: opacity var(--transition-smooth);
+}
+
+.line-accent-top:hover::before {
+  opacity: 1;
+}
+
+/* Left accent line for callouts */
+.line-accent-left {
+  position: relative;
+  padding-left: var(--spacing-2xl);
+}
+
+.line-accent-left::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: var(--accent-rose);
+}
+
+/* Subtle bottom divider */
+.line-divider-bottom {
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.line-divider-bottom.accent {
+  border-bottom-color: var(--accent-rose);
+  border-bottom-width: 2px;
+}
+
+/* ============================================================================
+   DECORATIVE UNDERLINES
+   ============================================================================ */
+
+/* Animated underline on hover */
+.underline-accent {
+  position: relative;
+  text-decoration: none;
+}
+
+.underline-accent::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent-rose);
+  transition: width var(--transition-smooth);
+}
+
+.underline-accent:hover::after {
+  width: 100%;
+}
+
+/* ============================================================================
+   SEPARATOR LINES - Horizontal dividers with style
+   ============================================================================ */
+
+.separator {
+  height: 1px;
+  background-color: var(--border-main);
+  margin: var(--spacing-3xl) 0;
+}
+
+.separator-thin {
+  height: 1px;
+  background-color: var(--border-light);
+  margin: var(--spacing-2xl) 0;
+}
+
+.separator-accent {
+  height: 2px;
+  background-color: var(--accent-rose);
+  margin: var(--spacing-2xl) 0;
+  opacity: 0.6;
+}
+
+/* Separator with text */
+.separator-text {
+  display: flex;
+  align-items: center;
+  color: var(--text-light);
+  font-size: var(--font-size-sm);
+  margin: var(--spacing-2xl) 0;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-lg);
+}
+
+.separator-text::before,
+.separator-text::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--border-main);
+}
+
+.separator-text::before {
+  margin-right: var(--spacing-lg);
+}
+
+.separator-text::after {
+  margin-left: var(--spacing-lg);
+}
+
+/* ============================================================================
+   CORNER DECORATIONS - Subtle corner accents
+   ============================================================================ */
+
+.corner-accent {
+  position: relative;
+}
+
+.corner-accent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid var(--accent-rose);
+  border-left: 2px solid var(--accent-rose);
+  opacity: 0.3;
+}
+
+.corner-accent::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-bottom: 2px solid var(--accent-rose);
+  border-right: 2px solid var(--accent-rose);
+  opacity: 0.3;
+}
+
+/* ============================================================================
+   BORDER ACCENTS - Enhanced borders with decorative touches
+   ============================================================================ */
+
+.border-thick {
+  border: 2px solid var(--border-main);
+}
+
+.border-thick-accent {
+  border: 2px solid var(--accent-rose);
+}
+
+.border-dashed {
+  border: 1px dashed var(--border-main);
+}
+
+.border-dashed-accent {
+  border: 1px dashed var(--accent-rose);
+}
+
+/* Gradient border effect */
+.border-gradient {
+  position: relative;
+  border: 1px solid var(--border-light);
+}
+
+.border-gradient::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-rose), transparent);
+  opacity: 0;
+  transition: opacity var(--transition-smooth);
+}
+
+.border-gradient:hover::after {
+  opacity: 1;
+}
+
+/* ============================================================================
+   INLINE DECORATIONS - Marks, highlights, emphasis
+   ============================================================================ */
+
+.mark {
+  background-color: var(--accent-rose-light);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+
+.mark-accent {
+  background-color: var(--accent-rose);
+  color: var(--bg-white);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: var(--text-light);
+}
+
+/* ============================================================================
+   BACKGROUND PATTERNS & TEXTURES
+   ============================================================================ */
+
+/* Subtle dot pattern background */
+.bg-dots {
+  background-image: radial-gradient(circle, var(--border-light) 1px, transparent 1px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Subtle line pattern (academic paper style) */
+.bg-lines {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 50px,
+    var(--border-light) 50px,
+    var(--border-light) 51px
+  );
+}
+
+/* ============================================================================
+   SHADOW ACCENTS - Enhanced shadows for depth
+   ============================================================================ */
+
+.shadow-sm {
+  box-shadow: var(--shadow-subtle);
+}
+
+.shadow-md {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.shadow-lg {
+  box-shadow: var(--shadow-hover);
+}
+
+.shadow-accent {
+  box-shadow: var(--shadow-accent);
+}
+
+.shadow-inset {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* ============================================================================
+   HOVER EFFECTS - Subtle interactions
+   ============================================================================ */
+
+.hover-lift {
+  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.hover-scale {
+  transition: transform var(--transition-smooth);
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+.hover-fade {
+  transition: opacity var(--transition-smooth);
+}
+
+.hover-fade:hover {
+  opacity: 0.8;
+}
+
+.hover-glow {
+  transition: text-shadow var(--transition-smooth);
+}
+
+.hover-glow:hover {
+  text-shadow: 0 0 8px rgba(252, 169, 169, 0.5);
+}
+
+/* ============================================================================
+   TRANSITIONS & ANIMATIONS
+   ============================================================================ */
+
+/* Smooth fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Slide in from left animation */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.4s ease-out;
+}
+
+/* Slide in from right animation */
+@keyframes slideInRight {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight 0.4s ease-out;
+}
+
+/* Subtle pulse animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Accent line animation */
+@keyframes accentLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.accent-line-animate::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: var(--accent-rose);
+  animation: accentLine 0.6s ease-out;
+}
+
+/* ============================================================================
+   ACADEMIC STYLING - For mathematical/academic content
+   ============================================================================ */
+
+/* Math expression styling */
+.math {
+  font-style: italic;
+  color: var(--navy-dark);
+}
+
+/* Equation container */
+.equation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-lg);
+  background-color: var(--bg-tertiary);
+  border-left: 3px solid var(--accent-rose);
+  border-radius: var(--radius-lg);
+  margin: var(--spacing-lg) 0;
+  font-family: 'Cambria Math', serif;
+  font-size: var(--font-size-lg);
+}
+
+/* Step-by-step solutions */
+.steps {
+  counter-reset: step-counter;
+  list-style: none;
+}
+
+.steps li {
+  counter-increment: step-counter;
+  margin-bottom: var(--spacing-2xl);
+  padding-left: var(--spacing-3xl);
+  position: relative;
+}
+
+.steps li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: var(--accent-rose);
+  color: var(--bg-white);
+  border-radius: 50%;
+  font-weight: var(--weight-semibold);
+  font-size: var(--font-size-sm);
+}
+
+/* ============================================================================
+   PRINT-SPECIFIC DECORATIONS
+   ============================================================================ */
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+
+  .separator,
+  .separator-thin,
+  .separator-accent {
+    opacity: 0.3;
+  }
+
+  .hover-lift:hover,
+  .hover-scale:hover {
+    transform: none;
+  }
+
+  .shadow-lg,
+  .shadow-accent {
+    box-shadow: none;
+  }
+}

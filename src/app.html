@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EAC Education — Practice</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/decorations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/site.css">
+
+  <style>
+    header {
+      background-color: var(--bg-white);
+      border-bottom: var(--border-light);
+      padding: var(--spacing-lg) var(--spacing-3xl);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: var(--container-xl);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: var(--font-serif-display);
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      color: var(--navy-dark);
+      text-decoration: none;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: var(--spacing-lg);
+      align-items: center;
+    }
+
+    .streak-badge {
+      padding: var(--spacing-sm) var(--spacing-lg);
+      background-color: var(--accent-rose-light);
+      border: 1px solid var(--accent-rose);
+      border-radius: 8px;
+      color: var(--accent-rose);
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    .main-container {
+      max-width: var(--container-lg);
+      margin: 0 auto;
+      padding: var(--spacing-4xl) var(--spacing-3xl);
+    }
+
+    .progress-bar {
+      margin-bottom: var(--spacing-3xl);
+    }
+
+    .progress-bar-fill {
+      height: 4px;
+      background-color: var(--border-light);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill-inner {
+      height: 100%;
+      background-color: var(--accent-rose);
+      transition: width 0.3s ease;
+    }
+
+    .progress-text {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-top: 6px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .question-container {
+      background-color: var(--bg-secondary);
+      border: var(--border-light);
+      border-radius: 12px;
+      padding: var(--spacing-3xl);
+      margin-bottom: var(--spacing-3xl);
+    }
+
+    .question-meta {
+      display: flex;
+      gap: 12px;
+      margin-bottom: var(--spacing-2xl);
+      flex-wrap: wrap;
+    }
+
+    .question-stem {
+      font-family: var(--font-serif-body);
+      font-size: 19px;
+      line-height: 2;
+      color: var(--navy-dark);
+      margin-bottom: var(--spacing-2xl);
+      font-weight: 500;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: var(--spacing-2xl);
+    }
+
+    .option {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      padding: 16px 18px;
+      border: 1px solid var(--border-light);
+      border-radius: 10px;
+      background-color: var(--bg-white);
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+
+    .option:hover {
+      border-color: var(--border-main);
+      background-color: #f9fafb;
+    }
+
+    .option.selected {
+      border-color: var(--navy-dark);
+      background-color: rgba(23, 35, 52, 0.04);
+    }
+
+    .option.correct {
+      border-color: #2d5016;
+      background-color: rgba(45, 80, 22, 0.05);
+    }
+
+    .option.wrong {
+      border-color: #8b4545;
+      background-color: rgba(139, 69, 69, 0.05);
+    }
+
+    .option-letter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      background-color: var(--navy-dark);
+      color: white;
+      border-radius: 8px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .option.selected .option-letter {
+      background-color: var(--navy-dark);
+    }
+
+    .option-text {
+      flex: 1;
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text-secondary);
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: var(--spacing-2xl);
+    }
+
+    .result-message {
+      padding: 20px 24px;
+      border-left: 4px solid;
+      border-radius: 8px;
+      margin-bottom: var(--spacing-2xl);
+      display: none;
+    }
+
+    .result-message.show {
+      display: block;
+    }
+
+    .result-message.success {
+      background-color: rgba(45, 80, 22, 0.05);
+      border-left-color: #2d5016;
+      color: #3d5a24;
+    }
+
+    .result-message.error {
+      background-color: rgba(139, 69, 69, 0.05);
+      border-left-color: #8b4545;
+      color: #6b3636;
+    }
+
+    .result-title {
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: var(--spacing-2xl);
+      color: var(--text-light);
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">EAC</a>
+      <div class="header-actions">
+        <div class="streak-badge" id="streak-display">Streak: 0</div>
+        <button class="btn btn-outline btn-sm" onclick="handleLogout()">Logout</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="main-container">
+    <!-- Progress -->
+    <div class="progress-bar">
+      <div class="progress-bar-fill">
+        <div class="progress-bar-fill-inner" id="progress-fill" style="width: 0%"></div>
+      </div>
+      <div class="progress-text" id="progress-text">Question 0 of 0</div>
+    </div>
+
+    <!-- Result Message -->
+    <div class="result-message" id="result-message"></div>
+
+    <!-- Question Container -->
+    <div class="question-container" id="question-container">
+      <div class="question-meta">
+        <span class="badge" id="difficulty-badge">Easy</span>
+        <span class="badge badge-primary" id="category-badge">Conceptual</span>
+      </div>
+
+      <div class="question-stem" id="question-stem">Loading...</div>
+
+      <div class="options" id="options-container"></div>
+
+      <div class="actions">
+        <button class="btn btn-primary" id="submit-btn" onclick="handleSubmit()">Submit Answer</button>
+        <button class="btn btn-outline" id="hint-btn" onclick="showHint()">Show Hint</button>
+        <button class="btn btn-outline" id="solution-btn" onclick="showSolution()">Show Solution</button>
+      </div>
+    </div>
+
+    <!-- Hint/Solution Panel -->
+    <div class="alert alert-info" id="hint-panel" style="display: none; margin-bottom: var(--spacing-2xl);">
+      <div class="alert-title">Hint</div>
+      <div class="alert-message" id="hint-text"></div>
+    </div>
+
+    <div class="alert alert-success" id="solution-panel" style="display: none; margin-bottom: var(--spacing-2xl);">
+      <div class="alert-title">Solution</div>
+      <div class="alert-message" id="solution-text"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>EAC Education Platform v1.0 | Phase 1 Beta</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/core/config.js"></script>
+  <script src="js/core/storage.js"></script>
+  <script src="js/core/auth.js"></script>
+  <script src="js/engine/question-engine.js"></script>
+  <script src="js/features/gamification.js"></script>
+
+  <script>
+    let currentUser = null;
+    let questionsData = null;
+    let selectedAnswer = null;
+    let isAnswerSubmitted = false;
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Check authentication
+      currentUser = Auth.getCurrentUser();
+      if (!currentUser) {
+        window.location.href = 'auth.html';
+        return;
+      }
+
+      // Load questions
+      try {
+        const response = await fetch('data/questions.json');
+        questionsData = await response.json();
+        QuestionEngine.init(questionsData);
+
+        // Load first topic/category/difficulty as demo
+        QuestionEngine.filterQuestions('four-centres', 'conceptual', 'easy');
+        loadNextQuestion();
+        updateStreakDisplay();
+      } catch (error) {
+        console.error('Error loading questions:', error);
+        showResult('Error loading questions', false);
+      }
+    });
+
+    function loadNextQuestion() {
+      selectedAnswer = null;
+      isAnswerSubmitted = false;
+      document.getElementById('hint-panel').style.display = 'none';
+      document.getElementById('solution-panel').style.display = 'none';
+
+      const question = QuestionEngine.getNextQuestion();
+      if (!question) {
+        showResult('Congratulations! You have completed all questions in this category.', true);
+        document.getElementById('question-container').style.display = 'none';
+        return;
+      }
+
+      // Update UI
+      document.getElementById('question-stem').textContent = question.stem;
+      document.getElementById('difficulty-badge').textContent = question.difficulty.toUpperCase();
+      document.getElementById('category-badge').textContent = QuestionEngine.currentCategory;
+
+      // Render options
+      const optionsContainer = document.getElementById('options-container');
+      optionsContainer.innerHTML = '';
+      for (const [letter, text] of Object.entries(question.options)) {
+        const option = document.createElement('div');
+        option.className = 'option';
+        option.innerHTML = `
+          <div class="option-letter">${letter}</div>
+          <div class="option-text">${text}</div>
+        `;
+        option.onclick = () => selectOption(letter);
+        optionsContainer.appendChild(option);
+      }
+
+      // Update progress
+      const progress = QuestionEngine.getProgress();
+      document.getElementById('progress-fill').style.width = (progress.percentage) + '%';
+      document.getElementById('progress-text').textContent = `Question ${progress.current} of ${progress.total}`;
+
+      // Render math if present
+      if (window.MathJax) {
+        MathJax.typesetPromise().catch(err => console.log(err));
+      }
+    }
+
+    function selectOption(letter) {
+      if (isAnswerSubmitted) return;
+
+      // Remove previous selection
+      document.querySelectorAll('.option').forEach(el => el.classList.remove('selected'));
+
+      // Select new option
+      document.querySelectorAll('.option').forEach(el => {
+        if (el.querySelector('.option-letter').textContent === letter) {
+          el.classList.add('selected');
+        }
+      });
+
+      selectedAnswer = letter;
+    }
+
+    function handleSubmit() {
+      if (!selectedAnswer) {
+        showResult('Please select an answer', false);
+        return;
+      }
+
+      isAnswerSubmitted = true;
+      const isCorrect = QuestionEngine.validateAnswer(selectedAnswer);
+
+      // Update progress
+      Gamification.incrementDailyCount(currentUser);
+      Gamification.updateStreak(currentUser, isCorrect);
+      Storage.saveQuestion(QuestionEngine.currentTopic, QuestionEngine.currentCategory, QuestionEngine.currentDifficulty, QuestionEngine.currentQuestion.id, isCorrect);
+      Storage.saveUser(currentUser);
+
+      // Show result
+      if (isCorrect) {
+        showResult('Correct! Well done.', true);
+        document.querySelectorAll('.option').forEach(el => {
+          if (el.querySelector('.option-letter').textContent === selectedAnswer) {
+            el.classList.remove('selected');
+            el.classList.add('correct');
+          }
+        });
+      } else {
+        const correctAnswer = QuestionEngine.currentQuestion.answer;
+        showResult('Incorrect. Try again on the next question.', false);
+        document.querySelectorAll('.option').forEach(el => {
+          if (el.querySelector('.option-letter').textContent === selectedAnswer) {
+            el.classList.remove('selected');
+            el.classList.add('wrong');
+          }
+          if (el.querySelector('.option-letter').textContent === correctAnswer) {
+            el.classList.add('correct');
+          }
+        });
+      }
+
+      updateStreakDisplay();
+
+      // Auto-load next question after delay
+      setTimeout(() => {
+        loadNextQuestion();
+        document.getElementById('result-message').classList.remove('show');
+      }, 3000);
+    }
+
+    function showHint() {
+      const hint = QuestionEngine.getHint();
+      document.getElementById('hint-text').textContent = hint;
+      document.getElementById('hint-panel').style.display = 'block';
+    }
+
+    function showSolution() {
+      const solution = QuestionEngine.getSolution();
+      document.getElementById('solution-text').textContent = solution;
+      document.getElementById('solution-panel').style.display = 'block';
+    }
+
+    function showResult(message, isSuccess) {
+      const resultEl = document.getElementById('result-message');
+      resultEl.className = isSuccess ? 'result-message success show' : 'result-message error show';
+      resultEl.innerHTML = `
+        <div class="result-title">${isSuccess ? 'Great!' : 'Oops!'}</div>
+        <div>${message}</div>
+      `;
+    }
+
+    function updateStreakDisplay() {
+      currentUser = Storage.getUser();
+      if (currentUser && currentUser.progress.streak) {
+        document.getElementById('streak-display').textContent = `Streak: ${currentUser.progress.streak.current}`;
+      }
+    }
+
+    function handleLogout() {
+      Auth.logout();
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>

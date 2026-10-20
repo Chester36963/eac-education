@@ -1,0 +1,144 @@
+{
+  "topics": [
+    {
+      "id": "four-centres",
+      "name": "Four Centres",
+      "nameZh": "四心坐標幾何",
+      "description": "Study the properties of circumcentre, incentre, centroid, and orthocentre",
+      "descriptionZh": "研究外心、內心、重心和垂心的性質",
+      "categories": [
+        {
+          "type": "conceptual",
+          "displayName": "Conceptual Questions",
+          "displayNameZh": "概念題",
+          "description": "Test your understanding of core concepts",
+          "descriptionZh": "測試您對核心概念的理解",
+          "questions": [
+            {
+              "id": "fc-con-001",
+              "difficulty": "easy",
+              "stem": "Define the circumcentre of a triangle.",
+              "stemZh": "定義三角形的外心。",
+              "options": {
+                "A": "The centre of the inscribed circle",
+                "B": "The centre of the circumscribed circle",
+                "C": "The average of the three vertices",
+                "D": "The intersection of angle bisectors"
+              },
+              "optionsZh": {
+                "A": "內切圓的圓心",
+                "B": "外接圓的圓心",
+                "C": "三個頂點的平均值",
+                "D": "角平分線的交點"
+              },
+              "answer": "B",
+              "hint": "Think about which circle passes through all three vertices of a triangle.",
+              "hintZh": "想想哪個圓經過三角形的三個頂點。",
+              "solution": "The circumcentre is the centre of the circumscribed circle that passes through all three vertices of the triangle.",
+              "solutionZh": "外心是經過三角形三個頂點的外接圓的圓心。",
+              "level": "free",
+              "source": "DSE Mock Paper",
+              "sourceZh": "DSE 模擬試卷",
+              "tags": ["definition", "circle", "fundamental"]
+            },
+            {
+              "id": "fc-con-002",
+              "difficulty": "easy",
+              "stem": "What is the incentre of a triangle?",
+              "stemZh": "什麼是三角形的內心？",
+              "options": {
+                "A": "The point where medians meet",
+                "B": "The point where angle bisectors meet",
+                "C": "The point where perpendicular bisectors meet",
+                "D": "The point where altitudes meet"
+              },
+              "optionsZh": {
+                "A": "中線的交點",
+                "B": "角平分線的交點",
+                "C": "垂直平分線的交點",
+                "D": "高線的交點"
+              },
+              "answer": "B",
+              "hint": "The incentre is related to the inscribed circle.",
+              "hintZh": "內心與內切圓有關。",
+              "solution": "The incentre is the intersection point of the three angle bisectors of a triangle.",
+              "solutionZh": "內心是三角形三條角平分線的交點。",
+              "level": "free",
+              "source": "DSE Past Paper",
+              "sourceZh": "DSE 過去試卷",
+              "tags": ["definition", "angle bisectors"]
+            }
+          ]
+        },
+        {
+          "type": "calculation",
+          "displayName": "Calculation Questions",
+          "displayNameZh": "計算題",
+          "description": "Solve problems involving calculations",
+          "descriptionZh": "解決涉及計算的問題",
+          "questions": [
+            {
+              "id": "fc-cal-001",
+              "difficulty": "medium",
+              "stem": "Given triangle ABC with A(0,0), B(4,0), C(2,3). Find the coordinates of the circumcentre.",
+              "stemZh": "已知三角形ABC，其中A(0,0), B(4,0), C(2,3)。求外心的坐標。",
+              "options": {
+                "A": "(2, 1.5)",
+                "B": "(2, 2)",
+                "C": "(2, 7/4)",
+                "D": "(1.5, 1.5)"
+              },
+              "optionsZh": {
+                "A": "(2, 1.5)",
+                "B": "(2, 2)",
+                "C": "(2, 7/4)",
+                "D": "(1.5, 1.5)"
+              },
+              "answer": "C",
+              "hint": "The circumcentre is equidistant from all three vertices.",
+              "hintZh": "外心到三個頂點的距離相等。",
+              "solution": "The circumcentre lies at (2, 7/4).",
+              "solutionZh": "外心位於 (2, 7/4)。",
+              "level": "paid",
+              "tags": ["coordinate geometry", "calculation"]
+            }
+          ]
+        },
+        {
+          "type": "proof",
+          "displayName": "Proof Questions",
+          "displayNameZh": "證明題",
+          "description": "Prove mathematical statements",
+          "descriptionZh": "證明數學陳述",
+          "questions": [
+            {
+              "id": "fc-proof-001",
+              "difficulty": "hard",
+              "stem": "Prove that the circumcentre of a right triangle is the midpoint of the hypotenuse.",
+              "stemZh": "證明直角三角形的外心是斜邊的中點。",
+              "options": {
+                "A": "Use the property of the inscribed angle",
+                "B": "Use the theorem about angles in a semicircle",
+                "C": "Use Pythagoras theorem",
+                "D": "Use the distance formula"
+              },
+              "optionsZh": {
+                "A": "使用內接角的性質",
+                "B": "使用半圓中角的定理",
+                "C": "使用勾股定理",
+                "D": "使用距離公式"
+              },
+              "answer": "B",
+              "hint": "Consider the angle subtended by the hypotenuse at the circumcentre.",
+              "hintZh": "考慮斜邊在外心處形成的角度。",
+              "solution": "By the theorem about angles in a semicircle, the angle subtended by the diameter at any point on the circle is 90 degrees.",
+              "solutionZh": "根據半圓中角的定理，直徑在圓上任何點處形成的角度為90度。",
+              "level": "paid",
+              "tags": ["proof", "geometry"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
