@@ -1,0 +1,177 @@
+/* ============================================================================
+   EAC EDUCATION PLATFORM - CSS VARIABLES & DESIGN TOKENS
+   variables.css - All colors, typography, spacing, and transitions
+   ============================================================================ */
+
+:root {
+  /* ========================================================================
+     COLORS - Extracted from Chester's original HTML design
+     ======================================================================== */
+
+  /* Primary Navy Colors */
+  --navy-dark: #172334;           /* Primary text, headings, main elements */
+  --navy-medium: #27415f;         /* Secondary text, supporting elements */
+
+  /* Slate/Gray Colors */
+  --slate: #506173;               /* Body text secondary, muted text */
+  --slate-light: #8192a5;         /* Light text, subtle indicators */
+  --blue-light: #d5dee7;          /* Borders, light dividers */
+
+  /* Accent - Soft Rose/Pink */
+  --accent-rose: #fca9a9;         /* Primary accent: hover, highlights, CTAs */
+  --accent-pink: #ffbde0;         /* Secondary accent: alternative highlights */
+  --accent-rose-light: #ffebf0;   /* Light tint for backgrounds */
+
+  /* Background Colors */
+  --bg-white: #ffffff;            /* Pure white, main background */
+  --bg-secondary: #f9fafb;        /* Warm off-white */
+  --bg-tertiary: #f1f4f7;         /* Cool gray-blue, alternate sections */
+
+  /* Text Colors */
+  --text-primary: #172334;        /* Main text - same as navy-dark */
+  --text-secondary: #506173;      /* Secondary text - same as slate */
+  --text-light: #8192a5;          /* Light text - same as slate-light */
+
+  /* Borders & Dividers */
+  --border-main: #d5dee7;         /* Standard borders - light blue */
+  --border-dark: #506173;         /* Darker borders - slate */
+
+  /* Decorative Lines (for SVG, ::before/::after) */
+  --line-color: #555555;          /* Dark gray for fine decorative lines */
+
+  /* ========================================================================
+     TYPOGRAPHY - Font families and sizes
+     ======================================================================== */
+
+  /* Font Families */
+  --font-serif-display: 'Cormorant Garamond', 'Garamond', serif;
+  --font-serif-body: 'EB Garamond', 'Garamond', serif;
+  --font-stack: var(--font-serif-body), -apple-system, 'Segoe UI', sans-serif;
+
+  /* Font Sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 15px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-h4: 20px;
+  --font-size-h3: 28px;
+  --font-size-h2: 42px;
+  --font-size-h1: 56px;
+
+  /* Font Weights */
+  --weight-light: 300;
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Line Heights */
+  --line-height-tight: 1.3;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
+  --line-height-loose: 2;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -1px;
+  --letter-spacing-sm: -0.5px;
+  --letter-spacing-normal: 0;
+  --letter-spacing-md: 0.5px;
+  --letter-spacing-lg: 1px;
+  --letter-spacing-xl: 1.5px;
+  --letter-spacing-2xl: 2px;
+  --letter-spacing-3xl: 2.5px;
+
+  /* ========================================================================
+     SPACING - Consistent spacing scale
+     ======================================================================== */
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-base: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 40px;
+  --spacing-4xl: 48px;
+  --spacing-5xl: 60px;
+  --spacing-6xl: 80px;
+
+  /* ========================================================================
+     BORDERS & LINES
+     ======================================================================== */
+
+  /* Standard Borders */
+  --border-width: 1px;
+  --border-main: 1px solid var(--blue-light);
+  --border-dark: 1px solid var(--slate);
+  --border-light: 1px solid #e9eff5;
+
+  /* Decorative Lines (for ::before, ::after, SVG) */
+  --line-thin: 1px solid var(--line-color);
+  --line-accent: 3px solid var(--accent-rose);
+  --line-divider: 1px solid var(--border-main);
+
+  /* ========================================================================
+     SHADOWS - Subtle, professional shadows
+     ======================================================================== */
+
+  --shadow-none: none;
+  --shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-hover: 0 12px 36px rgba(23, 35, 52, 0.08);
+  --shadow-accent: 0 8px 24px rgba(252, 169, 169, 0.08);
+
+  /* ========================================================================
+     TRANSITIONS & ANIMATIONS
+     ======================================================================== */
+
+  --transition-default: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.3s ease;
+  --transition-slow: 0.4s ease;
+
+  /* ========================================================================
+     BORDER RADIUS - Keep minimal for academic feel
+     ======================================================================== */
+
+  --radius-none: 0;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  /* ========================================================================
+     Z-INDEX - Layering system
+     ======================================================================== */
+
+  --z-base: 1;
+  --z-content: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 1000;
+
+  /* ========================================================================
+     CONTAINER - Width limits
+     ======================================================================== */
+
+  --container-sm: 720px;
+  --container-md: 960px;
+  --container-lg: 1200px;
+  --container-xl: 1400px;
+}
+
+/* ============================================================================
+   RESPONSIVE BREAKPOINTS (Mobile-first)
+   ============================================================================ */
+
+@media (min-width: 768px) {
+  /* Tablet and up */
+}
+
+@media (min-width: 1024px) {
+  /* Desktop and up */
+}
+
+@media (min-width: 1440px) {
+  /* Large desktop */
+}

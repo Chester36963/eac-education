@@ -1,0 +1,599 @@
+/* ============================================================================
+   EAC EDUCATION PLATFORM - RESPONSIVE DESIGN
+   responsive.css - Mobile-first breakpoints and responsive utilities
+   ============================================================================ */
+
+/* ============================================================================
+   BREAKPOINTS - Mobile first approach
+   ============================================================================ */
+
+/* Base: Mobile (320px - 767px) - Styles in base.css and components.css */
+
+/* Tablet: 768px and up */
+@media (min-width: 768px) {
+  :root {
+    /* Adjust sizes for tablets if needed */
+  }
+
+  .container {
+    padding: 0 var(--spacing-2xl);
+  }
+
+  .hide-tablet {
+    display: none !important;
+  }
+
+  .show-tablet {
+    display: block !important;
+  }
+}
+
+/* Desktop: 1024px and up */
+@media (min-width: 1024px) {
+  :root {
+    /* Adjust sizes for desktop */
+  }
+
+  .hide-desktop {
+    display: none !important;
+  }
+
+  .show-desktop {
+    display: block !important;
+  }
+}
+
+/* Large Desktop: 1440px and up */
+@media (min-width: 1440px) {
+  :root {
+    /* Adjust sizes for large screens */
+  }
+
+  .container {
+    max-width: var(--container-xl);
+    padding: 0 var(--spacing-3xl);
+  }
+}
+
+/* ============================================================================
+   MOBILE OPTIMIZATION (320px - 767px)
+   ============================================================================ */
+
+@media (max-width: 767px) {
+  body {
+    font-size: var(--font-size-md);
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: var(--spacing-md);
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: var(--spacing-sm);
+    margin-top: var(--spacing-3xl);
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 0 var(--spacing-lg);
+  }
+
+  section {
+    margin-bottom: var(--spacing-4xl);
+  }
+
+  /* Buttons */
+  .btn {
+    padding: var(--spacing-md) var(--spacing-xl);
+    font-size: var(--font-size-sm);
+    width: 100%;
+  }
+
+  .btn-block {
+    margin-bottom: var(--spacing-md);
+  }
+
+  /* Cards */
+  .card {
+    padding: var(--spacing-lg);
+  }
+
+  .card-footer {
+    flex-direction: column;
+  }
+
+  /* Forms */
+  input,
+  textarea,
+  select {
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+
+  /* Tables */
+  table {
+    font-size: var(--font-size-sm);
+  }
+
+  th, td {
+    padding: var(--spacing-md);
+  }
+
+  /* Hide elements on mobile if needed */
+  .hide-mobile {
+    display: none !important;
+  }
+
+  /* Stack grid items */
+  .grid-2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .grid-4 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ============================================================================
+   TABLET OPTIMIZATION (768px - 1023px)
+   ============================================================================ */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .container {
+    padding: 0 var(--spacing-2xl);
+  }
+
+  /* 2-column grid on tablet */
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Reduce spacing */
+  section {
+    margin-bottom: var(--spacing-5xl);
+  }
+}
+
+/* ============================================================================
+   DESKTOP OPTIMIZATION (1024px - 1439px)
+   ============================================================================ */
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .container {
+    max-width: var(--container-md);
+  }
+
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+
+/* ============================================================================
+   LARGE DESKTOP (1440px+)
+   ============================================================================ */
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  section {
+    margin-bottom: var(--spacing-6xl);
+  }
+}
+
+/* ============================================================================
+   ORIENTATION CHANGES
+   ============================================================================ */
+
+@media (orientation: landscape) and (max-height: 500px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  section {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .container {
+    padding: var(--spacing-md);
+  }
+}
+
+/* ============================================================================
+   TOUCH DEVICE OPTIMIZATION
+   ============================================================================ */
+
+@media (hover: none) and (pointer: coarse) {
+  /* Larger touch targets */
+  .btn {
+    padding: var(--spacing-lg) var(--spacing-2xl);
+    min-height: 48px;
+  }
+
+  input,
+  textarea,
+  select {
+    min-height: 48px;
+  }
+
+  /* Remove hover effects that don't work on touch */
+  .card:hover {
+    box-shadow: var(--shadow-subtle);
+  }
+
+  .btn:hover {
+    background-color: var(--bg-white);
+    border-color: var(--border-main);
+  }
+
+  /* Increase touch target area */
+  a {
+    padding: 8px 0;
+  }
+
+  /* Disable focus ring on touch */
+  .btn:focus {
+    outline: none;
+  }
+}
+
+/* ============================================================================
+   HIGH DPI / RETINA DISPLAY
+   ============================================================================ */
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  /* Fine-tune for sharp displays */
+  body {
+    letter-spacing: -0.02em;
+  }
+
+  .btn,
+  .card {
+    border-width: 0.5px;
+  }
+}
+
+/* ============================================================================
+   DARK MODE (if user prefers)
+   ============================================================================ */
+
+@media (prefers-color-scheme: dark) {
+  /* Note: If dark mode is implemented, add variables here */
+  /* For now, we're keeping light mode as primary */
+}
+
+/* ============================================================================
+   HIGH CONTRAST MODE
+   ============================================================================ */
+
+@media (prefers-contrast: more) {
+  :root {
+    --border-main: 1px solid var(--navy-dark);
+    --border-light: 1px solid var(--slate);
+  }
+
+  body {
+    letter-spacing: 0.05em;
+  }
+
+  a {
+    text-decoration: underline;
+    color: var(--navy-dark);
+  }
+
+  .btn {
+    border-width: 2px;
+  }
+}
+
+/* ============================================================================
+   REDUCED MOTION
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .btn,
+  .card,
+  a {
+    transition: none;
+  }
+}
+
+/* ============================================================================
+   PRINT MEDIA
+   ============================================================================ */
+
+@media print {
+  /* Optimize for printing */
+  body {
+    background-color: white;
+    color: black;
+    font-size: 12pt;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    color: black;
+  }
+
+  p {
+    page-break-inside: avoid;
+    orphans: 3;
+    widows: 3;
+  }
+
+  a {
+    text-decoration: underline;
+    color: black;
+    border: none;
+  }
+
+  img {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+
+  .btn,
+  .hide-print {
+    display: none !important;
+  }
+
+  table {
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tfoot {
+    display: table-footer-group;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+
+  pre {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Prevent unnecessary whitespace */
+  header,
+  footer,
+  nav {
+    display: none;
+  }
+
+  section {
+    margin-bottom: 20pt;
+  }
+
+  .separator {
+    opacity: 0.5;
+  }
+}
+
+/* ============================================================================
+   UTILITY CLASSES - Show/Hide at breakpoints
+   ============================================================================ */
+
+.show-mobile {
+  display: block;
+}
+
+.show-tablet {
+  display: none;
+}
+
+.show-desktop {
+  display: none;
+}
+
+.show-large {
+  display: none;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+.hide-tablet {
+  display: block;
+}
+
+.hide-desktop {
+  display: block;
+}
+
+.hide-large {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .show-mobile {
+    display: none;
+  }
+
+  .show-tablet {
+    display: block;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
+
+  .hide-tablet {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .show-tablet {
+    display: none;
+  }
+
+  .show-desktop {
+    display: block;
+  }
+
+  .hide-tablet {
+    display: block;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .show-desktop {
+    display: none;
+  }
+
+  .show-large {
+    display: block;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .hide-large {
+    display: none;
+  }
+}
+
+/* ============================================================================
+   GRID UTILITIES
+   ============================================================================ */
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-2xl);
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-2xl);
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-2xl);
+}
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-2xl);
+}
+
+@media (max-width: 768px) {
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    gap: var(--spacing-lg);
+  }
+}
+
+/* ============================================================================
+   FLEX UTILITIES
+   ============================================================================ */
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-sm {
+  gap: var(--spacing-sm);
+}
+
+.gap-md {
+  gap: var(--spacing-md);
+}
+
+.gap-lg {
+  gap: var(--spacing-lg);
+}
+
+.gap-xl {
+  gap: var(--spacing-xl);
+}
