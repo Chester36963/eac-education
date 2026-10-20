@@ -29,6 +29,8 @@ const Auth = {
 
   // Register new user
   register: function(email, password, username) {
+    email = email.trim().toLowerCase();
+    username = username.trim();
     // Validation
     if (!this.validateEmail(email)) {
       return { success: false, error: 'Invalid email format' };
@@ -42,10 +44,10 @@ const Auth = {
       return { success: false, error: 'Username must be at least 3 characters' };
     }
 
-    // Check if user already exists (in this session's storage)
+    // The preview supports one profile per browser; never silently overwrite progress.
     const existingUser = Storage.getUser();
-    if (existingUser && existingUser.email === email) {
-      return { success: false, error: 'Email already registered' };
+    if (existingUser) {
+      return { success: false, error: '此瀏覽器已有試用帳戶，請登入或按「直接試用」繼續。' };
     }
 
     // Create new user object
@@ -94,13 +96,14 @@ const Auth = {
 
   // Login user
   login: function(email, password) {
+    email = email.trim().toLowerCase();
     const user = Storage.getUser();
 
     if (!user) {
       return { success: false, error: 'User not found. Please register first.' };
     }
 
-    if (user.email !== email) {
+    if (user.email.toLowerCase() !== email) {
       return { success: false, error: 'Email not found' };
     }
 

@@ -37,9 +37,11 @@
               "solution": "The circumcentre is the centre of the circumscribed circle that passes through all three vertices of the triangle.",
               "solutionZh": "外心是經過三角形三個頂點的外接圓的圓心。",
               "level": "free",
-              "source": "DSE Mock Paper",
-              "sourceZh": "DSE 模擬試卷",
-              "tags": ["definition", "circle", "fundamental"]
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "subcategory": "circumcentre",
+              "skill": "definition",
+              "questionType": "mcq"
             },
             {
               "id": "fc-con-002",
@@ -64,9 +66,98 @@
               "solution": "The incentre is the intersection point of the three angle bisectors of a triangle.",
               "solutionZh": "內心是三角形三條角平分線的交點。",
               "level": "free",
-              "source": "DSE Past Paper",
-              "sourceZh": "DSE 過去試卷",
-              "tags": ["definition", "angle bisectors"]
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "subcategory": "incentre",
+              "skill": "definition",
+              "questionType": "mcq"
+            },
+            {
+              "id": "fc-con-003",
+              "subcategory": "centroid",
+              "skill": "definition",
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "stem": "Which lines meet at the centroid?",
+              "stemZh": "哪三條線相交於重心？",
+              "options": {
+                "A": "Altitudes",
+                "B": "Angle bisectors",
+                "C": "Medians",
+                "D": "Perpendicular bisectors"
+              },
+              "optionsZh": {
+                "A": "高線",
+                "B": "角平分線",
+                "C": "中線",
+                "D": "垂直平分線"
+              },
+              "answer": "C",
+              "hint": "A median joins a vertex to the midpoint of the opposite side.",
+              "hintZh": "中線連接頂點與對邊中點。",
+              "solution": "The three medians meet at the centroid.",
+              "solutionZh": "三條中線相交於重心。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "fc-con-004",
+              "subcategory": "orthocentre",
+              "skill": "definition",
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "stem": "Which lines meet at the orthocentre?",
+              "stemZh": "哪三條線相交於垂心？",
+              "options": {
+                "A": "Medians",
+                "B": "Altitudes",
+                "C": "Angle bisectors",
+                "D": "Perpendicular bisectors"
+              },
+              "optionsZh": {
+                "A": "中線",
+                "B": "高線",
+                "C": "角平分線",
+                "D": "垂直平分線"
+              },
+              "answer": "B",
+              "hint": "Each line is perpendicular to the opposite side.",
+              "hintZh": "每條線均垂直於對邊。",
+              "solution": "The orthocentre is the intersection of the three altitudes.",
+              "solutionZh": "垂心是三條高線的交點。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "fc-con-005",
+              "subcategory": "incentre",
+              "skill": "equal-distance-property",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "The incentre is equidistant from which objects?",
+              "stemZh": "內心到以下哪些對象的距離相等？",
+              "options": {
+                "A": "The three vertices",
+                "B": "The three sides",
+                "C": "The three side midpoints",
+                "D": "The four centres"
+              },
+              "optionsZh": {
+                "A": "三個頂點",
+                "B": "三條邊",
+                "C": "三邊的中點",
+                "D": "四心"
+              },
+              "answer": "B",
+              "hint": "The incircle touches all three sides.",
+              "hintZh": "內切圓與三條邊相切。",
+              "solution": "The perpendicular distances from the incentre to the three sides are all equal to the inradius.",
+              "solutionZh": "內心到三條邊的垂直距離均等於內切圓半徑。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
             }
           ]
         },
@@ -85,22 +176,84 @@
               "options": {
                 "A": "(2, 1.5)",
                 "B": "(2, 2)",
-                "C": "(2, 7/4)",
+                "C": "(2, 5/6)",
                 "D": "(1.5, 1.5)"
               },
               "optionsZh": {
                 "A": "(2, 1.5)",
                 "B": "(2, 2)",
-                "C": "(2, 7/4)",
+                "C": "(2, 5/6)",
                 "D": "(1.5, 1.5)"
               },
               "answer": "C",
               "hint": "The circumcentre is equidistant from all three vertices.",
               "hintZh": "外心到三個頂點的距離相等。",
-              "solution": "The circumcentre lies at (2, 7/4).",
-              "solutionZh": "外心位於 (2, 7/4)。",
-              "level": "paid",
-              "tags": ["coordinate geometry", "calculation"]
+              "solution": "The perpendicular bisector of AB is x = 2. Put O = (2, y). Since OA² = OC², 4 + y² = (3 − y)², giving 6y = 5. Hence O = (2, 5/6).",
+              "solutionZh": "AB 的垂直平分線為 x = 2。設 O = (2, y)，由 OA² = OC²，得 4 + y² = (3 − y)²，所以 6y = 5，外心為 (2, 5/6)。",
+              "level": "free",
+              "subcategory": "circumcentre",
+              "skill": "coordinate-method",
+              "questionType": "mcq",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習"
+            },
+            {
+              "id": "fc-cal-002",
+              "subcategory": "centroid",
+              "skill": "coordinate-method",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "A triangle has vertices (0, 0), (6, 0), (0, 9). Find its centroid.",
+              "stemZh": "三角形的頂點為 (0, 0)、(6, 0)、(0, 9)。求重心坐標。",
+              "options": {
+                "A": "(3, 4.5)",
+                "B": "(6, 9)",
+                "C": "(2, 3)",
+                "D": "(3, 3)"
+              },
+              "optionsZh": {
+                "A": "(3, 4.5)",
+                "B": "(6, 9)",
+                "C": "(2, 3)",
+                "D": "(3, 3)"
+              },
+              "answer": "C",
+              "hint": "Average the three x-coordinates and then the three y-coordinates.",
+              "hintZh": "分別求三個 x 坐標及三個 y 坐標的平均值。",
+              "solution": "G = ((0 + 6 + 0)/3, (0 + 0 + 9)/3) = (2, 3).",
+              "solutionZh": "G = ((0 + 6 + 0)/3, (0 + 0 + 9)/3) = (2, 3)。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "fc-cal-003",
+              "subcategory": "orthocentre",
+              "skill": "altitude-method",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "A(0, 0), B(8, 0), C(2, 6) form a triangle. Find its orthocentre.",
+              "stemZh": "三角形的頂點為 A(0, 0)、B(8, 0)、C(2, 6)。求垂心坐標。",
+              "options": {
+                "A": "(2, 2)",
+                "B": "(4, 2)",
+                "C": "(2, 3)",
+                "D": "(4, 3)"
+              },
+              "optionsZh": {
+                "A": "(2, 2)",
+                "B": "(4, 2)",
+                "C": "(2, 3)",
+                "D": "(4, 3)"
+              },
+              "answer": "A",
+              "hint": "The altitude from C is vertical. Find the slope of BC.",
+              "hintZh": "從 C 出發的高線是垂直線。先求 BC 的斜率。",
+              "solution": "AB is horizontal, so the altitude from C is x = 2. The slope of BC is −1, so the altitude from A is y = x. They meet at (2, 2).",
+              "solutionZh": "AB 是水平線，從 C 出發的高線為 x = 2。BC 的斜率為 −1，故從 A 出發的高線為 y = x。交點為 (2, 2)。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
             }
           ]
         },
@@ -114,8 +267,8 @@
             {
               "id": "fc-proof-001",
               "difficulty": "hard",
-              "stem": "Prove that the circumcentre of a right triangle is the midpoint of the hypotenuse.",
-              "stemZh": "證明直角三角形的外心是斜邊的中點。",
+              "stem": "Which theorem directly explains why the midpoint of the hypotenuse is the circumcentre of a right triangle?",
+              "stemZh": "哪個定理可直接解釋為何直角三角形的斜邊中點是外心？",
               "options": {
                 "A": "Use the property of the inscribed angle",
                 "B": "Use the theorem about angles in a semicircle",
@@ -129,12 +282,461 @@
                 "D": "使用距離公式"
               },
               "answer": "B",
-              "hint": "Consider the angle subtended by the hypotenuse at the circumcentre.",
-              "hintZh": "考慮斜邊在外心處形成的角度。",
-              "solution": "By the theorem about angles in a semicircle, the angle subtended by the diameter at any point on the circle is 90 degrees.",
-              "solutionZh": "根據半圓中角的定理，直徑在圓上任何點處形成的角度為90度。",
-              "level": "paid",
-              "tags": ["proof", "geometry"]
+              "hint": "Think of the hypotenuse as the diameter of a circle.",
+              "hintZh": "以斜邊作圓的直徑。",
+              "solution": "Draw the circle with the hypotenuse as diameter. Its semicircle subtends a right angle, so the right-angle vertex lies on this circle. All three vertices lie on the circle; its centre is the midpoint of the hypotenuse.",
+              "solutionZh": "以斜邊為直徑作圓。由半圓內的圓周角為直角，直角頂點在此圓上，故三個頂點共圓；圓心就是斜邊中點。",
+              "level": "free",
+              "subcategory": "circumcentre",
+              "skill": "right-triangle-property",
+              "questionType": "mcq",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polynomial",
+      "name": "Polynomials",
+      "nameZh": "多項式",
+      "description": "Factorisation, equations and theorem-led algebra",
+      "descriptionZh": "因式分解、方程同定理應用",
+      "categories": [
+        {
+          "type": "conceptual",
+          "displayName": "Conceptual Questions",
+          "displayNameZh": "概念題",
+          "questions": [
+            {
+              "id": "poly-con-001",
+              "difficulty": "easy",
+              "stem": "Which expression is a factor of x² − 9?",
+              "stemZh": "以下哪個式子是 x² − 9 的因式？",
+              "options": {
+                "A": "x − 9",
+                "B": "x − 3",
+                "C": "x + 9",
+                "D": "x² + 9"
+              },
+              "optionsZh": {
+                "A": "x − 9",
+                "B": "x − 3",
+                "C": "x + 9",
+                "D": "x² + 9"
+              },
+              "answer": "B",
+              "hint": "Use the difference of two squares.",
+              "hintZh": "留意平方差公式。",
+              "solution": "x² − 9 = (x − 3)(x + 3), so x − 3 is a factor.",
+              "solutionZh": "x² − 9 = (x − 3)(x + 3)，所以 x − 3 是其中一個因式。",
+              "level": "free",
+              "subcategory": "factorisation",
+              "skill": "difference-of-squares",
+              "questionType": "mcq",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習"
+            }
+          ]
+        },
+        {
+          "type": "calculation",
+          "displayName": "Calculation",
+          "displayNameZh": "計算題",
+          "questions": [
+            {
+              "id": "poly-cal-001",
+              "subcategory": "factorisation",
+              "skill": "common-factor",
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "stem": "Factorise 6x² − 9x.",
+              "stemZh": "分解因式：6x² − 9x。",
+              "options": {
+                "A": "3x(2x − 3)",
+                "B": "3(2x − 3)",
+                "C": "x(6x − 3)",
+                "D": "3x(2x + 3)"
+              },
+              "optionsZh": {
+                "A": "3x(2x − 3)",
+                "B": "3(2x − 3)",
+                "C": "x(6x − 3)",
+                "D": "3x(2x + 3)"
+              },
+              "answer": "A",
+              "hint": "Take out the greatest common factor of both terms.",
+              "hintZh": "提出兩項的最大公因式。",
+              "solution": "The greatest common factor is 3x. Hence 6x² − 9x = 3x(2x − 3).",
+              "solutionZh": "最大公因式是 3x，所以 6x² − 9x = 3x(2x − 3)。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "poly-cal-002",
+              "subcategory": "factorisation",
+              "skill": "quadratic-factorisation",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "Factorise x² + 5x + 6.",
+              "stemZh": "分解因式：x² + 5x + 6。",
+              "options": {
+                "A": "(x + 1)(x + 6)",
+                "B": "(x + 2)(x + 3)",
+                "C": "(x − 2)(x − 3)",
+                "D": "(x + 2)(x − 3)"
+              },
+              "optionsZh": {
+                "A": "(x + 1)(x + 6)",
+                "B": "(x + 2)(x + 3)",
+                "C": "(x − 2)(x − 3)",
+                "D": "(x + 2)(x − 3)"
+              },
+              "answer": "B",
+              "hint": "Find two numbers whose sum is 5 and product is 6.",
+              "hintZh": "找出兩個數，使它們的和為 5，積為 6。",
+              "solution": "2 + 3 = 5 and 2 × 3 = 6. Thus x² + 5x + 6 = (x + 2)(x + 3).",
+              "solutionZh": "2 + 3 = 5，2 × 3 = 6，所以 x² + 5x + 6 = (x + 2)(x + 3)。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "poly-cal-003",
+              "subcategory": "theorems",
+              "skill": "remainder-theorem",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "Find the remainder when 2x³ − 3x + 4 is divided by x − 2.",
+              "stemZh": "求 2x³ − 3x + 4 除以 x − 2 的餘式。",
+              "options": {
+                "A": "6",
+                "B": "10",
+                "C": "14",
+                "D": "20"
+              },
+              "optionsZh": {
+                "A": "6",
+                "B": "10",
+                "C": "14",
+                "D": "20"
+              },
+              "answer": "C",
+              "hint": "For division by x − a, the remainder is f(a).",
+              "hintZh": "除以 x − a 的餘式為 f(a)。",
+              "solution": "By the remainder theorem, f(2) = 2(2³) − 3(2) + 4 = 14.",
+              "solutionZh": "由餘式定理，f(2) = 2(2³) − 3(2) + 4 = 14。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "poly-cal-004",
+              "subcategory": "theorems",
+              "skill": "factor-theorem",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "x + 1 is a factor of x² + kx − 6. Find k.",
+              "stemZh": "已知 x + 1 是 x² + kx − 6 的因式。求 k。",
+              "options": {
+                "A": "5",
+                "B": "−5",
+                "C": "7",
+                "D": "−7"
+              },
+              "optionsZh": {
+                "A": "5",
+                "B": "−5",
+                "C": "7",
+                "D": "−7"
+              },
+              "answer": "B",
+              "hint": "Substitute x = −1 and set the result equal to zero.",
+              "hintZh": "代入 x = −1，並令所得結果等於零。",
+              "solution": "By the factor theorem, f(−1) = 1 − k − 6 = 0. Hence k = −5.",
+              "solutionZh": "由因式定理，f(−1) = 1 − k − 6 = 0，所以 k = −5。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "poly-cal-005",
+              "subcategory": "polynomial-equations",
+              "skill": "roots",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "Solve x² − x − 6 = 0.",
+              "stemZh": "解方程 x² − x − 6 = 0。",
+              "options": {
+                "A": "x = 2 or −3",
+                "B": "x = 3 or −2",
+                "C": "x = 1 or 6",
+                "D": "x = −1 or −6"
+              },
+              "optionsZh": {
+                "A": "x = 2 或 −3",
+                "B": "x = 3 或 −2",
+                "C": "x = 1 或 6",
+                "D": "x = −1 或 −6"
+              },
+              "answer": "B",
+              "hint": "Factorise and use the zero-product property.",
+              "hintZh": "先分解因式，再利用零積性質。",
+              "solution": "(x − 3)(x + 2) = 0, so x = 3 or x = −2.",
+              "solutionZh": "(x − 3)(x + 2) = 0，所以 x = 3 或 x = −2。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "poly-cal-006",
+              "subcategory": "theorems",
+              "skill": "factor-theorem",
+              "questionType": "mcq",
+              "difficulty": "hard",
+              "stem": "x − 2 and x + 1 are factors of x³ + ax² + bx − 6. Find a + b.",
+              "stemZh": "已知 x − 2 和 x + 1 均為 x³ + ax² + bx − 6 的因式。求 a + b。",
+              "options": {
+                "A": "−3",
+                "B": "−2",
+                "C": "2",
+                "D": "4"
+              },
+              "optionsZh": {
+                "A": "−3",
+                "B": "−2",
+                "C": "2",
+                "D": "4"
+              },
+              "answer": "A",
+              "hint": "Use f(2) = 0 and f(−1) = 0 to form two equations.",
+              "hintZh": "利用 f(2) = 0 及 f(−1) = 0 建立兩條方程。",
+              "solution": "f(2) = 0 gives 2a + b = −1. f(−1) = 0 gives a − b = 7. Therefore a = 2, b = −5, so a + b = −3.",
+              "solutionZh": "由 f(2) = 0，得 2a + b = −1；由 f(−1) = 0，得 a − b = 7。所以 a = 2，b = −5，a + b = −3。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mensuration",
+      "name": "Mensuration",
+      "nameZh": "度量",
+      "description": "Area, volume and scale reasoning",
+      "descriptionZh": "面積、體積同比例推理",
+      "categories": [
+        {
+          "type": "calculation",
+          "displayName": "Calculation Questions",
+          "displayNameZh": "計算題",
+          "questions": [
+            {
+              "id": "mens-cal-001",
+              "difficulty": "easy",
+              "stem": "A rectangle is 8 cm long and 5 cm wide. Find its area.",
+              "stemZh": "一個長方形長 8 cm、闊 5 cm。求它的面積。",
+              "options": {
+                "A": "13 cm²",
+                "B": "26 cm²",
+                "C": "40 cm²",
+                "D": "80 cm²"
+              },
+              "optionsZh": {
+                "A": "13 cm²",
+                "B": "26 cm²",
+                "C": "40 cm²",
+                "D": "80 cm²"
+              },
+              "answer": "C",
+              "hint": "Area of a rectangle = length × width.",
+              "hintZh": "長方形面積 = 長 × 闊。",
+              "solution": "Area = 8 × 5 = 40 cm².",
+              "solutionZh": "面積 = 8 × 5 = 40 cm²。",
+              "level": "free",
+              "subcategory": "area",
+              "skill": "rectangle-area",
+              "questionType": "mcq",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習"
+            },
+            {
+              "id": "mens-cal-002",
+              "subcategory": "area",
+              "skill": "circle-area",
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "stem": "A circle has radius 7 cm. Find its area in terms of π.",
+              "stemZh": "一個圓的半徑為 7 cm。以 π 表示它的面積。",
+              "options": {
+                "A": "14π cm²",
+                "B": "49π cm²",
+                "C": "7π cm²",
+                "D": "98π cm²"
+              },
+              "optionsZh": {
+                "A": "14π cm²",
+                "B": "49π cm²",
+                "C": "7π cm²",
+                "D": "98π cm²"
+              },
+              "answer": "B",
+              "hint": "Use A = πr².",
+              "hintZh": "利用 A = πr²。",
+              "solution": "A = π × 7² = 49π cm².",
+              "solutionZh": "A = π × 7² = 49π cm²。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "mens-cal-003",
+              "subcategory": "volume",
+              "skill": "prism-volume",
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "stem": "A prism has cross-sectional area 12 cm² and length 5 cm. Find its volume.",
+              "stemZh": "一個柱體的截面積為 12 cm²，長為 5 cm。求體積。",
+              "options": {
+                "A": "17 cm³",
+                "B": "30 cm³",
+                "C": "60 cm³",
+                "D": "120 cm³"
+              },
+              "optionsZh": {
+                "A": "17 cm³",
+                "B": "30 cm³",
+                "C": "60 cm³",
+                "D": "120 cm³"
+              },
+              "answer": "C",
+              "hint": "Multiply the cross-sectional area by the length.",
+              "hintZh": "將截面積乘以長度。",
+              "solution": "V = 12 × 5 = 60 cm³.",
+              "solutionZh": "V = 12 × 5 = 60 cm³。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "mens-cal-004",
+              "subcategory": "volume",
+              "skill": "cylinder-volume",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "A cylinder has radius 3 cm and height 8 cm. Find its volume.",
+              "stemZh": "一個圓柱的半徑為 3 cm，高為 8 cm。求體積。",
+              "options": {
+                "A": "24π cm³",
+                "B": "48π cm³",
+                "C": "72π cm³",
+                "D": "144π cm³"
+              },
+              "optionsZh": {
+                "A": "24π cm³",
+                "B": "48π cm³",
+                "C": "72π cm³",
+                "D": "144π cm³"
+              },
+              "answer": "C",
+              "hint": "Use V = πr²h.",
+              "hintZh": "利用 V = πr²h。",
+              "solution": "V = π × 3² × 8 = 72π cm³.",
+              "solutionZh": "V = π × 3² × 8 = 72π cm³。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "mens-cal-005",
+              "subcategory": "surface-area",
+              "skill": "cylinder-surface-area",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "Find the total surface area of a closed cylinder of radius 3 cm and height 5 cm.",
+              "stemZh": "一個密封圓柱的半徑為 3 cm，高為 5 cm。求總表面面積。",
+              "options": {
+                "A": "30π cm²",
+                "B": "39π cm²",
+                "C": "48π cm²",
+                "D": "60π cm²"
+              },
+              "optionsZh": {
+                "A": "30π cm²",
+                "B": "39π cm²",
+                "C": "48π cm²",
+                "D": "60π cm²"
+              },
+              "answer": "C",
+              "hint": "Include both circular ends and the curved surface.",
+              "hintZh": "包括兩個圓形底面及曲面。",
+              "solution": "A = 2πr² + 2πrh = 18π + 30π = 48π cm².",
+              "solutionZh": "A = 2πr² + 2πrh = 18π + 30π = 48π cm²。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "mens-cal-006",
+              "subcategory": "similar-solids",
+              "skill": "volume-scale",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "Two similar solids have corresponding lengths in the ratio 2 : 3. Find their volume ratio.",
+              "stemZh": "兩個相似立體的對應邊長之比為 2 : 3。求體積之比。",
+              "options": {
+                "A": "2 : 3",
+                "B": "4 : 9",
+                "C": "6 : 9",
+                "D": "8 : 27"
+              },
+              "optionsZh": {
+                "A": "2 : 3",
+                "B": "4 : 9",
+                "C": "6 : 9",
+                "D": "8 : 27"
+              },
+              "answer": "D",
+              "hint": "Volume scales with the cube of the length scale factor.",
+              "hintZh": "體積比等於長度比的三次方。",
+              "solution": "The volume ratio is 2³ : 3³ = 8 : 27.",
+              "solutionZh": "體積之比為 2³ : 3³ = 8 : 27。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
+            },
+            {
+              "id": "mens-cal-007",
+              "subcategory": "area",
+              "skill": "sector-area",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "stem": "A sector has radius 6 cm and angle 120°. Find its area.",
+              "stemZh": "一個扇形的半徑為 6 cm，圓心角為 120°。求面積。",
+              "options": {
+                "A": "6π cm²",
+                "B": "12π cm²",
+                "C": "18π cm²",
+                "D": "24π cm²"
+              },
+              "optionsZh": {
+                "A": "6π cm²",
+                "B": "12π cm²",
+                "C": "18π cm²",
+                "D": "24π cm²"
+              },
+              "answer": "B",
+              "hint": "A sector occupies θ/360 of the full circle.",
+              "hintZh": "扇形佔整個圓的 θ/360。",
+              "solution": "A = (120/360) × π × 6² = 12π cm².",
+              "solutionZh": "A = (120/360) × π × 6² = 12π cm²。",
+              "source": "EAC original practice",
+              "sourceZh": "EAC 原創練習",
+              "level": "free"
             }
           ]
         }

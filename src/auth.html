@@ -158,14 +158,17 @@
     }
   </style>
 </head>
-<body>
+<body class="auth-page">
+  <a class="auth-home-link" href="index.html">← EAC Education</a>
   <div class="auth-container">
     <div class="auth-card">
+      <p class="eyebrow">STUDENT STUDIO · 學生專區</p>
+      <div class="auth-preview"><strong>目前開放本機試用</strong><p>帳戶及進度只儲存在此瀏覽器，未能跨裝置同步。試用註冊請使用測試電郵及專用密碼。</p><button class="submit-btn" type="button" onclick="enterPreview()">直接試用練習室 →</button><p id="preview-error" role="alert"></p></div>
       <!-- Login Form -->
       <div id="login-form">
         <div class="auth-header">
-          <h1>Welcome Back</h1>
-          <p>Sign in to your account</p>
+          <h1>Student login</h1>
+          <p>Sign in to your student account · 登入學生帳戶</p>
         </div>
 
         <div class="success-message" id="login-success"></div>
@@ -173,17 +176,17 @@
         <form onsubmit="handleLogin(event)">
           <div class="form-group">
             <label for="login-email">Email</label>
-            <input type="email" id="login-email" placeholder="your@email.com" required>
+            <input type="email" id="login-email" autocomplete="username" placeholder="your@email.com" required>
             <div class="error-message" id="login-email-error"></div>
           </div>
 
           <div class="form-group">
             <label for="login-password">Password</label>
-            <input type="password" id="login-password" placeholder="••••••••" required>
+            <input type="password" id="login-password" autocomplete="current-password" placeholder="••••••••" required>
             <div class="error-message" id="login-password-error"></div>
           </div>
 
-          <button type="submit" class="submit-btn">Sign In</button>
+          <button type="submit" class="submit-btn">登入 / Sign in</button>
         </form>
 
         <div class="auth-toggle">
@@ -195,7 +198,7 @@
       <div id="register-form">
         <div class="auth-header">
           <h1>Get Started</h1>
-          <p>Create your EAC account</p>
+          <p>建立本機試用帳戶 · Local preview account</p>
         </div>
 
         <div class="success-message" id="register-success"></div>
@@ -203,23 +206,23 @@
         <form onsubmit="handleRegister(event)">
           <div class="form-group">
             <label for="register-email">Email</label>
-            <input type="email" id="register-email" placeholder="your@email.com" required>
+            <input type="email" id="register-email" autocomplete="email" placeholder="your@email.com" required>
             <div class="error-message" id="register-email-error"></div>
           </div>
 
           <div class="form-group">
             <label for="register-username">Username</label>
-            <input type="text" id="register-username" placeholder="Your name" required>
+            <input type="text" id="register-username" autocomplete="nickname" minlength="3" placeholder="Your name" required>
             <div class="error-message" id="register-username-error"></div>
           </div>
 
           <div class="form-group">
             <label for="register-password">Password</label>
-            <input type="password" id="register-password" placeholder="••••••••" required>
+            <input type="password" id="register-password" autocomplete="new-password" minlength="6" placeholder="••••••••" required>
             <div class="error-message" id="register-password-error"></div>
           </div>
 
-          <button type="submit" class="submit-btn">Create Account</button>
+          <button type="submit" class="submit-btn">建立試用帳戶</button>
         </form>
 
         <div class="auth-toggle">
@@ -235,6 +238,19 @@
   <script src="js/core/auth.js"></script>
 
   <script>
+    const requested = new URLSearchParams(location.search).get('next') || 'dashboard.html';
+    const destination = /^app\.html(?:\?[^#]*)?$/.test(requested) ? requested : 'dashboard.html';
+    function enterPreview() {
+      const existing = Storage.getUser();
+      if (existing) {
+        sessionStorage.setItem('currentUserId', existing.id);
+        location.href = destination;
+        return;
+      }
+      const result = Auth.register('preview@example.invalid', crypto.randomUUID(), 'Student');
+      if (result.success) location.href = destination;
+      else document.getElementById('preview-error').textContent = result.error;
+    }
     function toggleForms() {
       document.getElementById('login-form').style.display = document.getElementById('login-form').style.display === 'none' ? 'block' : 'none';
       document.getElementById('register-form').style.display = document.getElementById('register-form').style.display === 'block' ? 'none' : 'block';
@@ -260,7 +276,7 @@
         successMsg.textContent = result.message;
         successMsg.classList.add('show');
         setTimeout(() => {
-          window.location.href = 'app.html';
+          window.location.href = destination;
         }, 1500);
       } else {
         showError('login-email-error', result.error);
@@ -282,7 +298,7 @@
         successMsg.textContent = result.message;
         successMsg.classList.add('show');
         setTimeout(() => {
-          window.location.href = 'app.html';
+          window.location.href = destination;
         }, 1500);
       } else {
         showError('register-email-error', result.error);
@@ -299,7 +315,7 @@
 
     // Check if already logged in
     if (Auth.isAuthenticated()) {
-      window.location.href = 'app.html';
+      window.location.href = destination;
     }
   </script>
 </body>

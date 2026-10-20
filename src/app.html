@@ -219,12 +219,12 @@
     }
   </style>
 </head>
-<body>
+<body class="practice-page">
   <!-- Header -->
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" class="logo">EAC</a>
-      <div class="header-actions">
+      <div class="header-actions"><a href="dashboard.html" class="cover-text-link">學習主頁</a>
         <div class="streak-badge" id="streak-display">Streak: 0</div>
         <button class="btn btn-outline btn-sm" onclick="handleLogout()">Logout</button>
       </div>
@@ -236,11 +236,13 @@
     <section class="practice-config" aria-labelledby="practice-config-title">
       <div><p class="eyebrow">Choose a focused set</p><h1 id="practice-config-title">What are you working on?</h1><p class="config-copy">先揀範圍，再開始一組集中練習。</p></div>
       <div class="filter-grid">
-        <label>Topic<select id="topic-select"></select></label>
-        <label>Question type<select id="category-select"></select></label>
-        <label>Difficulty<select id="difficulty-select"></select></label>
-        <button class="btn btn-primary" id="start-set-btn" type="button">Start set →</button>
-      </div>
+        <label>Subject · 科目範疇<select id="subject-select"></select></label>
+        <label>Chapter · 課題<select id="topic-select"></select></label>
+        <label>Subcategory · 分類<select id="subcategory-select"></select></label>
+        <label>Skill · 技巧<select id="skill-select"></select></label>
+        <label>Question type · 題型<select id="type-select"></select></label>
+        <label>Difficulty · 難度<select id="difficulty-select"></select></label>
+      </div><div class="set-start"><p id="set-count" aria-live="polite"></p><button class="btn btn-primary" id="start-set-btn" type="button">開始練習 / Start set →</button></div>
     </section>
     <!-- Progress -->
     <div class="progress-bar">
@@ -251,7 +253,7 @@
     </div>
 
     <!-- Result Message -->
-    <div class="result-message" id="result-message"></div>
+    <div class="result-message" id="result-message" role="status"></div>
 
     <!-- Question Container -->
     <div class="question-container" id="question-container">
@@ -260,12 +262,12 @@
         <span class="badge badge-primary" id="category-badge">Conceptual</span>
       </div>
 
-      <div class="question-stem" id="question-stem">Loading...</div>
+      <div class="question-stem" id="question-stem">Loading...</div><p class="question-zh" id="question-zh" lang="zh-Hant"></p><p class="question-source">EAC 原創練習 · Original practice</p>
 
       <div class="options" id="options-container"></div>
 
       <div class="actions">
-        <button class="btn btn-primary" id="submit-btn" onclick="handleSubmit()">Submit Answer</button>
+        <button class="btn btn-primary" id="submit-btn" onclick="handleSubmit()">提交答案 / Check answer</button><button class="btn btn-primary" id="next-btn" onclick="loadNextQuestion()" hidden>下一題 / Next →</button>
         <button class="btn btn-outline" id="hint-btn" onclick="showHint()">Show Hint</button>
         <button class="btn btn-outline" id="solution-btn" onclick="showSolution()">Show Solution</button>
       </div>
@@ -294,206 +296,6 @@
   <script src="js/engine/question-engine.js"></script>
   <script src="js/features/gamification.js"></script>
 
-  <script>
-    let currentUser = null;
-    let questionsData = null;
-    let selectedAnswer = null;
-    let isAnswerSubmitted = false;
-
-    // Initialize on page load
-    document.addEventListener('DOMContentLoaded', async () => {
-      // Check authentication
-      currentUser = Auth.getCurrentUser();
-      if (!currentUser) {
-        window.location.href = 'auth.html';
-        return;
-      }
-
-      // Load questions
-      try {
-        const response = await fetch('data/questions.json');
-        questionsData = await response.json();
-        QuestionEngine.init(questionsData);
-
-        populateTopicSelect();
-        const params = new URLSearchParams(window.location.search);
-        if (params.get('chapter')) document.getElementById('topic-select').value = params.get('chapter');
-        updateFilterOptions();
-        document.getElementById('start-set-btn').addEventListener('click', startSelectedSet);
-        startSelectedSet();
-        updateStreakDisplay();
-      } catch (error) {
-        console.error('Error loading questions:', error);
-        showResult('Error loading questions', false);
-      }
-    });
-
-    function populateTopicSelect() {
-      const select = document.getElementById('topic-select');
-      select.innerHTML = questionsData.topics.map(topic => `<option value="${topic.id}">${topic.name}${topic.nameZh ? ` · ${topic.nameZh}` : ''}</option>`).join('');
-      select.addEventListener('change', updateFilterOptions);
-    }
-
-    function updateFilterOptions() {
-      const topic = questionsData.topics.find(item => item.id === document.getElementById('topic-select').value) || questionsData.topics[0];
-      const categorySelect = document.getElementById('category-select');
-      categorySelect.innerHTML = (topic.categories || []).map(category => `<option value="${category.type}">${category.displayName || category.type}${category.displayNameZh ? ` · ${category.displayNameZh}` : ''}</option>`).join('');
-      categorySelect.onchange = updateDifficultyOptions;
-      updateDifficultyOptions();
-    }
-
-    function updateDifficultyOptions() {
-      const topic = questionsData.topics.find(item => item.id === document.getElementById('topic-select').value) || questionsData.topics[0];
-      const category = (topic.categories || []).find(item => item.type === document.getElementById('category-select').value) || topic.categories[0];
-      const difficulties = [...new Set((category?.questions || []).map(question => question.difficulty))];
-      document.getElementById('difficulty-select').innerHTML = difficulties.map(level => `<option value="${level}">${level.charAt(0).toUpperCase() + level.slice(1)}</option>`).join('');
-    }
-
-    function startSelectedSet() {
-      QuestionEngine.filterQuestions(document.getElementById('topic-select').value, document.getElementById('category-select').value, document.getElementById('difficulty-select').value);
-      document.getElementById('question-container').style.display = 'block';
-      document.getElementById('result-message').classList.remove('show');
-      loadNextQuestion();
-    }
-
-    function loadNextQuestion() {
-      selectedAnswer = null;
-      isAnswerSubmitted = false;
-      document.getElementById('hint-panel').style.display = 'none';
-      document.getElementById('solution-panel').style.display = 'none';
-
-      const question = QuestionEngine.getNextQuestion();
-      if (!question) {
-        showResult('Congratulations! You have completed all questions in this category.', true);
-        document.getElementById('question-container').style.display = 'none';
-        return;
-      }
-
-      // Update UI
-      document.getElementById('question-stem').textContent = question.stem;
-      document.getElementById('difficulty-badge').textContent = question.difficulty.toUpperCase();
-      document.getElementById('category-badge').textContent = QuestionEngine.currentCategory;
-
-      // Render options
-      const optionsContainer = document.getElementById('options-container');
-      optionsContainer.innerHTML = '';
-      for (const [letter, text] of Object.entries(question.options)) {
-        const option = document.createElement('div');
-        option.className = 'option';
-        option.innerHTML = `
-          <div class="option-letter">${letter}</div>
-          <div class="option-text">${text}</div>
-        `;
-        option.onclick = () => selectOption(letter);
-        optionsContainer.appendChild(option);
-      }
-
-      // Update progress
-      const progress = QuestionEngine.getProgress();
-      document.getElementById('progress-fill').style.width = (progress.percentage) + '%';
-      document.getElementById('progress-text').textContent = `Question ${progress.current} of ${progress.total}`;
-
-      // Render math if present
-      if (window.MathJax) {
-        MathJax.typesetPromise().catch(err => console.log(err));
-      }
-    }
-
-    function selectOption(letter) {
-      if (isAnswerSubmitted) return;
-
-      // Remove previous selection
-      document.querySelectorAll('.option').forEach(el => el.classList.remove('selected'));
-
-      // Select new option
-      document.querySelectorAll('.option').forEach(el => {
-        if (el.querySelector('.option-letter').textContent === letter) {
-          el.classList.add('selected');
-        }
-      });
-
-      selectedAnswer = letter;
-    }
-
-    function handleSubmit() {
-      if (!selectedAnswer) {
-        showResult('Please select an answer', false);
-        return;
-      }
-
-      isAnswerSubmitted = true;
-      const isCorrect = QuestionEngine.validateAnswer(selectedAnswer);
-
-      // Update progress
-      Gamification.incrementDailyCount(currentUser);
-      Gamification.updateStreak(currentUser, isCorrect);
-      Storage.saveQuestion(QuestionEngine.currentTopic, QuestionEngine.currentCategory, QuestionEngine.currentDifficulty, QuestionEngine.currentQuestion.id, isCorrect);
-      Storage.saveUser(currentUser);
-
-      // Show result
-      if (isCorrect) {
-        showResult('Correct! Well done.', true);
-        document.querySelectorAll('.option').forEach(el => {
-          if (el.querySelector('.option-letter').textContent === selectedAnswer) {
-            el.classList.remove('selected');
-            el.classList.add('correct');
-          }
-        });
-      } else {
-        const correctAnswer = QuestionEngine.currentQuestion.answer;
-        showResult('Incorrect. Try again on the next question.', false);
-        document.querySelectorAll('.option').forEach(el => {
-          if (el.querySelector('.option-letter').textContent === selectedAnswer) {
-            el.classList.remove('selected');
-            el.classList.add('wrong');
-          }
-          if (el.querySelector('.option-letter').textContent === correctAnswer) {
-            el.classList.add('correct');
-          }
-        });
-      }
-
-      updateStreakDisplay();
-
-      // Auto-load next question after delay
-      setTimeout(() => {
-        loadNextQuestion();
-        document.getElementById('result-message').classList.remove('show');
-      }, 3000);
-    }
-
-    function showHint() {
-      const hint = QuestionEngine.getHint();
-      document.getElementById('hint-text').textContent = hint;
-      document.getElementById('hint-panel').style.display = 'block';
-    }
-
-    function showSolution() {
-      const solution = QuestionEngine.getSolution();
-      document.getElementById('solution-text').textContent = solution;
-      document.getElementById('solution-panel').style.display = 'block';
-    }
-
-    function showResult(message, isSuccess) {
-      const resultEl = document.getElementById('result-message');
-      resultEl.className = isSuccess ? 'result-message success show' : 'result-message error show';
-      resultEl.innerHTML = `
-        <div class="result-title">${isSuccess ? 'Great!' : 'Oops!'}</div>
-        <div>${message}</div>
-      `;
-    }
-
-    function updateStreakDisplay() {
-      currentUser = Storage.getUser();
-      if (currentUser && currentUser.progress.streak) {
-        document.getElementById('streak-display').textContent = `Streak: ${currentUser.progress.streak.current}`;
-      }
-    }
-
-    function handleLogout() {
-      Auth.logout();
-      window.location.href = 'index.html';
-    }
-  </script>
+  <script src="js/features/practice.js"></script>
 </body>
 </html>
