@@ -233,6 +233,15 @@
 
   <!-- Main Content -->
   <div class="main-container">
+    <section class="practice-config" aria-labelledby="practice-config-title">
+      <div><p class="eyebrow">Choose a focused set</p><h1 id="practice-config-title">What are you working on?</h1><p class="config-copy">先揀範圍，再開始一組集中練習。</p></div>
+      <div class="filter-grid">
+        <label>Topic<select id="topic-select"></select></label>
+        <label>Question type<select id="category-select"></select></label>
+        <label>Difficulty<select id="difficulty-select"></select></label>
+        <button class="btn btn-primary" id="start-set-btn" type="button">Start set →</button>
+      </div>
+    </section>
     <!-- Progress -->
     <div class="progress-bar">
       <div class="progress-bar-fill">
@@ -306,15 +315,46 @@
         questionsData = await response.json();
         QuestionEngine.init(questionsData);
 
-        // Load first topic/category/difficulty as demo
-        QuestionEngine.filterQuestions('four-centres', 'conceptual', 'easy');
-        loadNextQuestion();
+        populateTopicSelect();
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('chapter')) document.getElementById('topic-select').value = params.get('chapter');
+        updateFilterOptions();
+        document.getElementById('start-set-btn').addEventListener('click', startSelectedSet);
+        startSelectedSet();
         updateStreakDisplay();
       } catch (error) {
         console.error('Error loading questions:', error);
         showResult('Error loading questions', false);
       }
     });
+
+    function populateTopicSelect() {
+      const select = document.getElementById('topic-select');
+      select.innerHTML = questionsData.topics.map(topic => `<option value="${topic.id}">${topic.name}${topic.nameZh ? ` · ${topic.nameZh}` : ''}</option>`).join('');
+      select.addEventListener('change', updateFilterOptions);
+    }
+
+    function updateFilterOptions() {
+      const topic = questionsData.topics.find(item => item.id === document.getElementById('topic-select').value) || questionsData.topics[0];
+      const categorySelect = document.getElementById('category-select');
+      categorySelect.innerHTML = (topic.categories || []).map(category => `<option value="${category.type}">${category.displayName || category.type}${category.displayNameZh ? ` · ${category.displayNameZh}` : ''}</option>`).join('');
+      categorySelect.onchange = updateDifficultyOptions;
+      updateDifficultyOptions();
+    }
+
+    function updateDifficultyOptions() {
+      const topic = questionsData.topics.find(item => item.id === document.getElementById('topic-select').value) || questionsData.topics[0];
+      const category = (topic.categories || []).find(item => item.type === document.getElementById('category-select').value) || topic.categories[0];
+      const difficulties = [...new Set((category?.questions || []).map(question => question.difficulty))];
+      document.getElementById('difficulty-select').innerHTML = difficulties.map(level => `<option value="${level}">${level.charAt(0).toUpperCase() + level.slice(1)}</option>`).join('');
+    }
+
+    function startSelectedSet() {
+      QuestionEngine.filterQuestions(document.getElementById('topic-select').value, document.getElementById('category-select').value, document.getElementById('difficulty-select').value);
+      document.getElementById('question-container').style.display = 'block';
+      document.getElementById('result-message').classList.remove('show');
+      loadNextQuestion();
+    }
 
     function loadNextQuestion() {
       selectedAnswer = null;
