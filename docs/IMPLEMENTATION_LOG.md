@@ -20,3 +20,11 @@ EAC Education serves Form 1–6 mathematics, with future primary expansion. The 
 Automated Chromium browser checks passed: preview entry, fresh registration, logout and case-normalized login; all chapters and populated subcategories/skills; selected chapter preserved through login; answer counted once; dashboard totals/accuracy and achievements; no horizontal overflow at 390px on the four pages; no page JavaScript errors. Desktop/mobile screenshots were reviewed. The cover construction has all nine points on its circle, complete visible triangle labels and centres. Questions are text-complete and do not refer to missing figures. No PDF was created or delivered in this website iteration.
 
 Pending: real authentication/database, cross-device progress, non-MCQ renderers, larger verified question banks, admissions information, logo and final cover approval.
+
+## Follow-up — learning loop
+
+Added additive per-question records while retaining prior aggregate data. Student home now recommends an unresolved mistake first, then an unattempted question, and offers chapter groups of skill progress plus a pending-mistake list. Correcting a question removes it from pending review. The practice studio supports all/review/unattempted modes, keeps skill/difficulty/mode in the URL, and ends each set with a score and optional retry of session mistakes. Chapter groups collapse to keep the record readable on phones. Shared bilingual skill labels live in `src/js/core/content.js`.
+
+Validation: `node --test tests/learning-record.cjs` covers legacy totals, latest-answer replacement, unique completion and independent question review status. Chromium integration checks cover wrong → dashboard review → correct → removed; session summary and retry; recommendation changes; filter persistence on refresh; completed questions excluded from new mode; legacy-record messaging; 390px overflow and page-error checks. Desktop/mobile renders were visually reviewed. No question or diagram content changed.
+
+The main-branch deployment now runs the learning-record tests and JSON validation before publishing. The deployment helper includes tests in commits so future updates keep those checks available.

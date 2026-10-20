@@ -7,38 +7,24 @@
   <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/decorations.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css">
 </head>
 <body class="student-shell">
-  <header class="site-header"><div class="header-inner"><a href="index.html" class="logo"><span class="logo-mark">E</span> EAC</a><nav class="site-nav" aria-label="Student navigation"><a href="#library">Library</a><a href="#progress">Progress</a><a href="app.html" class="btn btn-primary btn-sm">Practice now</a><button class="btn btn-outline btn-sm" onclick="handleLogout()">Log out</button></nav></div></header>
+  <header class="site-header"><div class="header-inner"><a href="index.html" class="logo"><span class="logo-mark">E</span> EAC</a><nav class="site-nav" aria-label="Student navigation"><a href="#library">Library</a><a href="#learning-record">Progress</a><a href="app.html" class="btn btn-primary btn-sm">Practice now</a><button class="btn btn-outline btn-sm" onclick="handleLogout()">Log out</button></nav></div></header>
   <main class="student-main">
     <section class="student-welcome"><p class="eyebrow">Student home / 學習主頁</p><h1 id="welcome-heading">Good afternoon.</h1><p id="welcome-copy">Choose a focused set, or continue with today's recommendation.</p></section>
     <section class="daily-grid" id="progress">
-      <article class="daily-card"><div class="daily-card-top"><span class="eyebrow">Today's direction</span><span class="daily-date" id="today-date"></span></div><h2>Keep your coordinate geometry sharp.</h2><p>Start with one short set on Four Centres, then review the method behind each answer.</p><a class="btn btn-primary" href="app.html">Begin today's set →</a></article>
+      <article class="daily-card"><div class="daily-card-top"><span class="eyebrow">Today's direction</span><span class="daily-date" id="today-date"></span></div><h2 id="recommendation-heading">揀選今日的練習。</h2><p id="recommendation-copy">正在讀取你的學習記錄。</p><a class="btn btn-primary" id="recommendation-link" href="app.html">開始練習 →</a></article>
       <aside class="streak-panel"><span class="eyebrow">Your rhythm</span><div class="streak-number" id="streak-value">0</div><p>day streak</p><div class="mini-stats"><span><strong id="accuracy-value">0%</strong> accuracy</span><span><strong id="attempted-value">0</strong> attempted</span></div></aside>
     </section>
     <section class="library-section" id="library"><div class="section-heading"><div><p class="eyebrow">Choose your next focus</p><h2>Browse the library.</h2></div><p>由大類開始，再逐層收窄到你想練嘅 skill。內容會隨住 EAC 題庫成長。</p></div><div class="subject-list" id="subject-list"><p class="loading-copy">Loading your library…</p></div></section>
+    <section class="learning-record" id="learning-record" aria-labelledby="record-heading">
+      <div class="section-heading"><div><p class="eyebrow">LEARNING RECORD · 學習記錄</p><h2 id="record-heading">Know your next step.</h2></div><p>按每題最近一次作答顯示；答對的錯題會移出待重溫清單。</p></div>
+      <p class="record-note" id="record-note">記錄只儲存在此瀏覽器。</p>
+      <div class="record-tabs" role="group" aria-label="Learning record view"><button class="record-tab is-active" type="button" id="skills-tab" aria-pressed="true">技巧進度</button><button class="record-tab" type="button" id="mistakes-tab" aria-pressed="false">待重溫錯題 <span id="mistake-count">0</span></button></div>
+      <div id="skill-records"><p class="loading-copy">載入中…</p></div>
+      <div id="mistake-records" hidden></div>
+    </section>
     <section class="progress-section"><div class="section-heading"><div><p class="eyebrow">Your record</p><h2>Small steps, visible progress.</h2></div><a class="btn btn-outline" href="app.html">Open practice</a></div><div class="achievement-row" id="achievements-container"></div></section>
   </main>
   <footer class="site-footer"><span>© 2026 EAC Education</span><span>Built for thoughtful practice.</span></footer>
   <script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/features/gamification.js"></script>
-  <script>
-    let currentUser = null;
-    document.addEventListener('DOMContentLoaded', async () => {
-      currentUser = Auth.getCurrentUser();
-      if (!currentUser) { window.location.href = 'auth.html'; return; }
-      const hour = new Date().getHours();
-      document.getElementById('welcome-heading').textContent = `${hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening'}, ${currentUser.username}.`;
-      document.getElementById('today-date').textContent = new Intl.DateTimeFormat('en-HK', { day: 'numeric', month: 'short' }).format(new Date());
-      const stats = Gamification.getStats(currentUser);
-      document.getElementById('accuracy-value').textContent = `${stats.accuracy}%`;
-      document.getElementById('attempted-value').textContent = stats.totalAttempted;
-      document.getElementById('streak-value').textContent = stats.streak.current;
-      renderAchievements(stats.achievements);
-      try { const response = await fetch('data/catalog.json'); renderLibrary(await response.json()); } catch (error) { document.getElementById('subject-list').innerHTML = '<p class="loading-copy">Your library is temporarily unavailable.</p>'; }
-    });
-    function renderLibrary(catalog) {
-      const list = document.getElementById('subject-list');
-      list.innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><span class="topic-index">${subject.id.toUpperCase()}</span><h3>${subject.name.en}<span>${subject.name['zh-Hant']}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<a class="chapter-row" href="app.html?chapter=${chapter.id}"><span><strong>${chapter.name.en}</strong><small>${chapter.name['zh-Hant']} · ${chapter.questionCount} 題</small></span><span class="chapter-arrow">→</span></a>${chapter.subcategories.map(sub => `<a class="subchapter-row" href="app.html?chapter=${chapter.id}&subcategory=${sub.id}">${sub.name.en}<small>${sub.name['zh-Hant']}</small><span>↗</span></a>`).join('')}`).join('')}</div></article>`).join('');
-    }
-    function renderAchievements(unlockedIds) { document.getElementById('achievements-container').innerHTML = CONFIG.ACHIEVEMENTS.map(item => `<span class="achievement-chip ${unlockedIds.includes(item.id) ? 'is-unlocked' : ''}">${item.name}</span>`).join(''); }
-    function handleLogout() { Auth.logout(); window.location.href = 'index.html'; }
-  </script>
+  <script src="js/core/content.js"></script><script src="js/features/dashboard.js"></script>
 </body></html>

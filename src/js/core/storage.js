@@ -64,7 +64,7 @@ const Storage = {
   },
 
   // Save progress for a specific question
-  saveQuestion: function(topicId, categoryType, difficulty, questionId, isCorrect) {
+  saveQuestion: function(topicId, categoryType, difficulty, questionId, isCorrect, details = {}) {
     try {
       const user = this.getUser();
       if (!user) return false;
@@ -90,6 +90,20 @@ const Storage = {
       if (!category.completed.includes(questionId)) {
         category.completed.push(questionId);
       }
+
+      // New records are additive: retain old aggregate progress without inventing past answers.
+      if (!user.progress.byQuestion) user.progress.byQuestion = {};
+      const previous = user.progress.byQuestion[questionId] || {};
+      user.progress.byQuestion[questionId] = {
+        attempts: (previous.attempts || 0) + 1,
+        correct: (previous.correct || 0) + (isCorrect ? 1 : 0),
+        lastCorrect: isCorrect,
+        lastAttemptAt: new Date().toISOString(),
+        topicId, categoryType, difficulty,
+        selectedAnswer: details.selectedAnswer || null,
+        skill: details.skill || null,
+        subcategory: details.subcategory || null,
+      };
 
       // Update overall progress
       user.progress.totalQuestionsAttempted = (user.progress.totalQuestionsAttempted || 0) + 1;

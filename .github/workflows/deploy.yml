@@ -16,10 +16,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js (optional - for future builds)
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
+
+      - name: Check learning records and content
+        run: |
+          node --test tests/*.cjs
+          python3 -m json.tool src/data/catalog.json > /dev/null
+          python3 -m json.tool src/data/questions.json > /dev/null
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

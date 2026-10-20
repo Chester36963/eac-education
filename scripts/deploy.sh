@@ -18,6 +18,6 @@ fi
 python3 -m json.tool src/data/catalog.json >/dev/null
 python3 -m json.tool src/data/questions.json >/dev/null
 git diff --check
-git add src docs scripts .github
+git add src docs scripts tests .github
 git commit -m "$1"
 git push origin main
