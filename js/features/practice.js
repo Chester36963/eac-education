@@ -4,20 +4,10 @@ let catalog;
 let questionsData;
 let selectedAnswer = null;
 let isAnswerSubmitted = false;
+let sessionAnswers = [];
 const el = id => document.getElementById(id);
 const bilingual = value => `${value.en} · ${value['zh-Hant']}`;
-const skillNames = {
-  definition: 'Definition · 定義', 'coordinate-method': 'Coordinates · 坐標法',
-  'right-triangle-property': 'Right triangle · 直角三角形性質',
-  'altitude-method': 'Altitudes · 高線法', 'equal-distance-property': 'Equal distances · 等距性質',
-  'difference-of-squares': 'Difference of squares · 平方差', 'common-factor': 'Common factor · 公因式',
-  'quadratic-factorisation': 'Quadratic factorisation · 二次式因式分解',
-  'remainder-theorem': 'Remainder theorem · 餘式定理', 'factor-theorem': 'Factor theorem · 因式定理',
-  roots: 'Roots · 方程的根', 'rectangle-area': 'Rectangle area · 長方形面積',
-  'circle-area': 'Circle area · 圓面積', 'sector-area': 'Sector area · 扇形面積',
-  'prism-volume': 'Prism volume · 柱體體積', 'cylinder-volume': 'Cylinder volume · 圓柱體積',
-  'cylinder-surface-area': 'Cylinder surface area · 圓柱表面面積', 'volume-scale': 'Volume ratio · 體積比'
-};
+
 function options(id, entries, all = false) {
   const select = el(id);
   select.replaceChildren();
@@ -29,10 +19,12 @@ function chapter() {
 }
 function topicQuestions() {
   const topic = questionsData.topics.find(t => t.id === chapter()?.topicId);
-  return (topic?.categories || []).flatMap(c => c.questions.map(q => ({...q, category: c.type})));
+  return (topic?.categories || []).flatMap(c => c.questions.map(q => ({...q, category: c.type, topicId: topic.id})));
 }
 function matchingQuestions() {
-  return topicQuestions().filter(q => [['subcategory', 'subcategory-select'], ['skill', 'skill-select'], ['questionType', 'type-select'], ['difficulty', 'difficulty-select']].every(([key, id]) => el(id).value === 'all' || q[key] === el(id).value));
+  const records = Storage.getUser()?.progress?.byQuestion || {};
+  const mode = el('mode-select').value;
+  return topicQuestions().filter(q => (mode !== 'review' || records[q.id]?.lastCorrect === false) && (mode !== 'new' || !records[q.id]) && [['subcategory', 'subcategory-select'], ['skill', 'skill-select'], ['questionType', 'type-select'], ['difficulty', 'difficulty-select']].every(([key, id]) => el(id).value === 'all' || q[key] === el(id).value));
 }
 function updateCount() {
   const count = matchingQuestions().length;
@@ -77,6 +69,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     updateChapter();
     if (chapter().subcategories.some(s => s.id === params.get('subcategory'))) el('subcategory-select').value = params.get('subcategory');
     updateSkills();
+    for (const [key, id] of [['mode','mode-select'], ['skill','skill-select'], ['difficulty','difficulty-select']]) {
+      const value = params.get(key);
+      if ([...el(id).options].some(o => o.value === value)) el(id).value = value;
+    }
+    updateCount();
+    el('mode-select').onchange = updateCount;
+    el('retry-mistakes-btn').onclick = retrySessionMistakes;
     el('subject-select').onchange = updateSubject;
     el('topic-select').onchange = updateChapter;
     el('subcategory-select').onchange = updateSkills;
@@ -90,12 +89,19 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 function startSelectedSet() {
-  QuestionEngine.filteredQuestions = matchingQuestions();
-  QuestionEngine.currentIndex = 0;
-  QuestionEngine.currentTopic = chapter().topicId;
+  beginSet(matchingQuestions());
   const params = new URLSearchParams({chapter: chapter().id});
-  if (el('subcategory-select').value !== 'all') params.set('subcategory', el('subcategory-select').value);
+  for (const [key, id] of [['subcategory','subcategory-select'], ['skill','skill-select'], ['difficulty','difficulty-select'], ['mode','mode-select']]) {
+    if (el(id).value !== 'all') params.set(key, el(id).value);
+  }
   history.replaceState(null, '', `app.html?${params}`);
+}
+function beginSet(questions) {
+  sessionAnswers = [];
+  el('set-summary').hidden = true;
+  QuestionEngine.filteredQuestions = questions;
+  QuestionEngine.currentIndex = 0;
+  QuestionEngine.currentTopic = questions[0]?.topicId || chapter().topicId;
   loadNextQuestion();
 }
 function loadNextQuestion() {
@@ -109,7 +115,12 @@ function loadNextQuestion() {
   const q = QuestionEngine.getNextQuestion();
   if (!q) {
     el('question-container').style.display = 'none';
-    showResult(QuestionEngine.getQuestionCount() ? '本組完成。可以轉換技巧再練習，或返回學習主頁查看進度。' : '這個組合暫時未有題目，試下調整分類或難度。', true);
+    if (sessionAnswers.length) {
+      const correct = sessionAnswers.filter(a => a.correct).length;
+      el('set-summary').hidden = false;
+      el('summary-copy').textContent = `本組答對 ${correct} / ${sessionAnswers.length} 題。${correct === sessionAnswers.length ? '可以揀下一個技巧繼續。' : '先重溫剛才未掌握的題目，再試一次。'}`;
+      el('retry-mistakes-btn').hidden = correct === sessionAnswers.length;
+    } else showResult(el('mode-select').value === 'review' ? '目前篩選範圍內沒有待重溫錯題。可以揀未做題目繼續。' : '這個組合暫時未有題目，試下調整分類或難度。', true);
     return;
   }
   el('question-container').style.display = 'block';
@@ -155,7 +166,8 @@ function handleSubmit() {
   Gamification.incrementDailyCount(currentUser);
   Gamification.updateStreak(currentUser, correct);
   Storage.saveUser(currentUser);
-  Storage.saveQuestion(QuestionEngine.currentTopic, q.category, q.difficulty, q.id, correct);
+  Storage.saveQuestion(q.topicId, q.category, q.difficulty, q.id, correct, {selectedAnswer, skill: q.skill, subcategory: q.subcategory});
+  sessionAnswers.push({question: q, correct});
   currentUser = Storage.getUser();
   Gamification.checkAchievements(currentUser);
   Storage.saveUser(currentUser);
@@ -169,6 +181,7 @@ function handleSubmit() {
   el('next-btn').hidden = false;
   showResult(correct ? '答對了。睇返方法，再繼續下一題。' : `正確答案是 ${q.answer}。先睇解析，釐清方法。`, correct);
   showSolution();
+  updateCount();
   updateStreakDisplay();
 }
 function showHint() {
@@ -190,3 +203,8 @@ function updateStreakDisplay() {
   el('streak-display').textContent = `Streak: ${Gamification.getStreakStatus(currentUser).current}`;
 }
 function handleLogout() { Auth.logout(); location.href = 'index.html'; }
+
+function retrySessionMistakes() {
+  const mistakes = sessionAnswers.filter(a => !a.correct).map(a => a.question);
+  if (mistakes.length) beginSet(mistakes);
+}

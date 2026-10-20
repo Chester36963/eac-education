@@ -236,6 +236,7 @@
     <section class="practice-config" aria-labelledby="practice-config-title">
       <div><p class="eyebrow">Choose a focused set</p><h1 id="practice-config-title">What are you working on?</h1><p class="config-copy">先揀範圍，再開始一組集中練習。</p></div>
       <div class="filter-grid">
+        <label>Practice mode · 練習模式<select id="mode-select"><option value="all">全部題目 / All questions</option><option value="review">錯題重溫 / Review mistakes</option><option value="new">未做題目 / Unattempted</option></select></label>
         <label>Subject · 科目範疇<select id="subject-select"></select></label>
         <label>Chapter · 課題<select id="topic-select"></select></label>
         <label>Subcategory · 分類<select id="subcategory-select"></select></label>
@@ -243,6 +244,10 @@
         <label>Question type · 題型<select id="type-select"></select></label>
         <label>Difficulty · 難度<select id="difficulty-select"></select></label>
       </div><div class="set-start"><p id="set-count" aria-live="polite"></p><button class="btn btn-primary" id="start-set-btn" type="button">開始練習 / Start set →</button></div>
+    </section>
+    <section class="set-summary" id="set-summary" hidden aria-labelledby="summary-heading">
+      <p class="eyebrow">SESSION REVIEW · 本組回顧</p><h2 id="summary-heading">完成這一步。</h2>
+      <p id="summary-copy"></p><div class="summary-actions"><button class="btn btn-primary" id="retry-mistakes-btn" type="button">重練本組錯題 →</button><a class="btn btn-outline" href="dashboard.html#learning-record">查看學習記錄</a></div>
     </section>
     <!-- Progress -->
     <div class="progress-bar">
@@ -296,6 +301,7 @@
   <script src="js/engine/question-engine.js"></script>
   <script src="js/features/gamification.js"></script>
 
+  <script src="js/core/content.js"></script>
   <script src="js/features/practice.js"></script>
 </body>
 </html>
