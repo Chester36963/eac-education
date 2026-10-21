@@ -101,10 +101,20 @@ const Storage = {
         lastAttemptAt: new Date().toISOString(),
         topicId, categoryType, difficulty,
         selectedAnswer: details.selectedAnswer || null,
+        assessment: details.assessment || 'automatic',
         skill: details.skill || null,
         subcategory: details.subcategory || null,
       };
 
+      // Automatic accuracy excludes written work assessed by the student.
+      if (user.progress.autoAttempted === undefined) {
+        user.progress.autoAttempted = user.progress.totalQuestionsAttempted || 0;
+        user.progress.autoCorrect = user.progress.correctAnswers || 0;
+      }
+      if (details.assessment !== 'self') {
+        user.progress.autoAttempted++;
+        if (isCorrect) user.progress.autoCorrect++;
+      }
       // Update overall progress
       user.progress.totalQuestionsAttempted = (user.progress.totalQuestionsAttempted || 0) + 1;
       user.progress.correctAnswers = (user.progress.correctAnswers || 0) + (isCorrect ? 1 : 0);

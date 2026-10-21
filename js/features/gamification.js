@@ -13,36 +13,12 @@ const Gamification = {
     const today = new Date().toDateString();
     const lastDate = user.progress.streak.lastActivityDate;
 
-    // Same day - don't change streak yet
-    if (today === lastDate) {
-      return true;
-    }
-
-    // Calculate yesterday
-    const yesterday = new Date(new Date().setDate(new Date().getDate() - 1)).toDateString();
-
-    // Consecutive day with correct answer
-    if (lastDate === yesterday && isCorrect) {
-      user.progress.streak.current++;
-      user.progress.streak.lastActivityDate = today;
-
-      // Track longest streak
-      if (user.progress.streak.current > user.progress.streak.longest) {
-        user.progress.streak.longest = user.progress.streak.current;
-      }
-
-      return true;
-    }
-
-    // Streak broken or first day
-    if (isCorrect) {
-      user.progress.streak.current = 1;
-      user.progress.streak.lastActivityDate = today;
-    } else {
-      user.progress.streak.current = 0;
-      user.progress.streak.lastActivityDate = today;
-    }
-
+    // A streak measures days spent practising, including mistakes and self-review.
+    if (today === lastDate) return true;
+    const yesterday = new Date(new Date().setDate(new Date().getDate()-1)).toDateString();
+    user.progress.streak.current = lastDate===yesterday ? user.progress.streak.current+1 : 1;
+    user.progress.streak.longest = Math.max(user.progress.streak.longest, user.progress.streak.current);
+    user.progress.streak.lastActivityDate = today;
     return true;
   },
 
@@ -98,31 +74,31 @@ const Gamification = {
     const unlocked = user.achievements.unlocked || [];
 
     // First Step - Attempt first question
-    if (user.progress.totalQuestionsAttempted === 1 && !unlocked.includes('first-step')) {
+    if (user.progress.totalQuestionsAttempted >= 1 && !unlocked.includes('first-step')) {
       newAchievements.push('first-step');
       unlocked.push('first-step');
     }
 
     // Momentum - 5-day streak
-    if (user.progress.streak.current === 5 && !unlocked.includes('momentum')) {
+    if (user.progress.streak.current >= 5 && !unlocked.includes('momentum')) {
       newAchievements.push('momentum');
       unlocked.push('momentum');
     }
 
     // Excellence - 10 consecutive correct
-    if (user.progress.correctAnswers === 10 && !unlocked.includes('excellence')) {
+    if (user.progress.correctAnswers >= 10 && !unlocked.includes('excellence')) {
       newAchievements.push('excellence');
       unlocked.push('excellence');
     }
 
     // Master - 50 questions
-    if (user.progress.totalQuestionsAttempted === 50 && !unlocked.includes('master')) {
+    if (user.progress.totalQuestionsAttempted >= 50 && !unlocked.includes('master')) {
       newAchievements.push('master');
       unlocked.push('master');
     }
 
     // Expert - 100 questions
-    if (user.progress.totalQuestionsAttempted === 100 && !unlocked.includes('expert')) {
+    if (user.progress.totalQuestionsAttempted >= 100 && !unlocked.includes('expert')) {
       newAchievements.push('expert');
       unlocked.push('expert');
     }
@@ -153,7 +129,9 @@ const Gamification = {
     if (!user || !user.progress) return 0;
     if (user.progress.totalQuestionsAttempted === 0) return 0;
 
-    return Math.round((user.progress.correctAnswers / user.progress.totalQuestionsAttempted) * 100);
+    const attempts = user.progress.autoAttempted ?? user.progress.totalQuestionsAttempted;
+    const correct = user.progress.autoCorrect ?? user.progress.correctAnswers;
+    return attempts ? Math.round((correct / attempts) * 100) : 0;
   },
 
   // Get statistics for dashboard

@@ -22,6 +22,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     const questions = data.topics.flatMap(t => t.categories.flatMap(c => c.questions.map(q => ({...q, topicId: t.id}))));
     const chapters = catalog.subjects.flatMap(s => s.chapters);
     renderLibrary(catalog);
+    byId('library-search').oninput=()=>renderLibrary(catalog,byId('library-search').value.trim());
+    const active=Learning.readSession(currentUser.id);
+    if(active){byId('dashboard-resume').hidden=false;byId('dashboard-resume-copy').textContent=`${active.ids.length} 題 · 已作答 ${Object.keys(active.answers||{}).length} 題`;}
+
     renderSkills(chapters, questions, records);
     renderMistakes(chapters, questions, records);
     renderRecommendation(chapters, questions, records);
@@ -36,7 +40,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 function route(chapter, params = {}) {
   return `app.html?${new URLSearchParams({chapter: chapter.id, ...params})}`;
 }
-function renderLibrary(catalog) {
+function renderLibrary(catalog,query='') {
+  const needle=query.toLowerCase();
+  const filtered={...catalog,subjects:catalog.subjects.map(s=>({...s,chapters:s.chapters.filter(c=>`${s.name.en} ${s.name['zh-Hant']} ${c.name.en} ${c.name['zh-Hant']} ${c.subcategories.map(sub=>`${sub.name.en} ${sub.name['zh-Hant']}`).join(' ')}`.toLowerCase().includes(needle))})).filter(s=>s.chapters.length)};
+  if(!filtered.subjects.length){byId('subject-list').textContent='沒有符合的課題，試下其他關鍵字。';return;}
+  catalog=filtered;
   byId('subject-list').innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><span class="topic-index">${subject.id.toUpperCase()}</span><h3>${subject.name.en}<span>${subject.name['zh-Hant']}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<a class="chapter-row" href="${route(chapter)}"><span><strong>${chapter.name.en}</strong><small>${chapter.name['zh-Hant']} · ${chapter.questionCount} 題</small></span><span class="chapter-arrow">→</span></a>${chapter.subcategories.map(sub => `<a class="subchapter-row" href="${route(chapter,{subcategory:sub.id})}">${sub.name.en}<small>${sub.name['zh-Hant']}</small><span>↗</span></a>`).join('')}`).join('')}</div></article>`).join('');
 }
 function renderSkills(chapters, questions, records) {
@@ -58,7 +66,7 @@ function renderSkills(chapters, questions, records) {
       const wrong = qs.filter(q => records[q.id]?.lastCorrect === false).length;
       const row = document.createElement('a'); row.className = 'skill-record'; row.href = route(chapter,{subcategory: sub.id,skill});
       const title = document.createElement('span'); title.className = 'skill-title'; title.textContent = skillNames[skill] || skill;
-      const meta = document.createElement('small'); meta.textContent = `${sub.name['zh-Hant']} · 已做 ${attempted}/${qs.length} · 最近答對 ${correct}${wrong ? ` · 待重溫 ${wrong}` : ''}`; title.append(meta);
+      const meta = document.createElement('small'); meta.textContent = `${sub.name['zh-Hant']} · 已做 ${attempted}/${qs.length} · 最近答對 ${correct}${wrong ? ` · 待重溫 ${wrong}` : ''}${qs.some(q=>records[q.id]?.assessment==='self')?' · 包括自評':''}`; title.append(meta);
       const meter = document.createElement('span'); meter.className = 'skill-meter'; meter.setAttribute('role','meter'); meter.setAttribute('aria-label',`${skillNames[skill] || skill} 最近答對題數`); meter.setAttribute('aria-valuemin','0'); meter.setAttribute('aria-valuemax',String(qs.length)); meter.setAttribute('aria-valuenow',String(correct));
       const fill = document.createElement('span'); fill.style.width = `${100*correct/qs.length}%`; meter.append(fill);
       const arrow = document.createElement('span'); arrow.textContent = '↗'; row.append(title,meter,arrow); section.append(row);
@@ -73,7 +81,7 @@ function renderMistakes(chapters, questions, records) {
   if (!mistakes.length) { const empty = document.createElement('p'); empty.className = 'record-empty'; empty.textContent = '目前沒有待重溫錯題。完成練習後，需要再練的題目會出現在這裏。'; container.append(empty); return; }
   for (const q of mistakes) {
     const chapter = chapters.find(c => c.topicId === q.topicId);
-    const link = document.createElement('a'); link.className = 'mistake-record'; link.href = route(chapter,{subcategory:q.subcategory,skill:q.skill,mode:'review'});
+    const link = document.createElement('a'); link.className = 'mistake-record'; link.href = route(chapter,{subcategory:q.subcategory,skill:q.skill,mode:'review',question:q.id});
     const title = document.createElement('strong'); title.textContent = q.stem;
     const zh = document.createElement('span'); zh.textContent = q.stemZh;
     const meta = document.createElement('small'); meta.textContent = `${chapter.name.en} · ${skillNames[q.skill] || q.skill} · 重練 →`;
