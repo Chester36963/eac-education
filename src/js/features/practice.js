@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
   questionLookup=new Map(allQuestions.map(q=>[q.id,q]));
   optionList(fields.subject,catalog.subjects.map(s=>[s.id,`${s.name.en} · ${s.name['zh-Hant']}`]));
   el(fields.language).value=preferences.questionLanguage||'bilingual';
+  el('reading-language').onchange=()=>{el(fields.language).value=el('reading-language').value;if(sessionState){sessionState.selection.language=el('reading-language').value;persist();renderQuestion();}};
   updateTaxonomy();
   const params=Object.fromEntries(new URLSearchParams(location.search));
   if(params.chapter){const sub=catalog.subjects.find(s=>s.chapters.some(c=>c.id===params.chapter||c.topicId===params.chapter));if(sub){params.subject=sub.id;params.chapter=sub.chapters.find(c=>c.id===params.chapter||c.topicId===params.chapter).id;}}
@@ -151,6 +152,9 @@ async function renderQuestion(){
  el('submit-btn').disabled=false;el('hint-btn').disabled=false;el('solution-btn').disabled=false;
  EACMath.clear(el('active-set'));
  const q=question(),result=sessionState.answers[q.id];isAnswerSubmitted=!!result;selectedAnswer=result?.response||sessionState.drafts[q.id]||null;
+ el('reading-language').value=sessionState.selection.language||'bilingual';
+ el('question-edition').hidden=!q.adaptation;
+ el('question-edition').textContent=q.adaptation?textPair(q.adaptation.en,q.adaptation['zh-Hant']):'';
  el('result-message').hidden=true;el('hint-panel').hidden=true;el('solution-panel').hidden=true;el('assessment-panel').hidden=true;
  el('progress-text').textContent=`第 ${sessionState.index+1} / ${queue.length} 題 · 已作答 ${Object.keys(sessionState.answers).length} 題`;
  el('active-set-title').textContent=selfTest()?'SELF CHECK · 完成後看解析':'STUDY SESSION · 逐題學習';

@@ -27,11 +27,13 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     assert.notEqual(await page.locator('.bank-question').first().getAttribute('data-question-id'),first);
     await page.goBack();assert.equal(await page.locator('#bank-page').textContent(),`1 / ${pages}`);
     await page.locator('#bank-chapters a[href*="chapter=polynomials"]').click();assert.ok((await count()).startsWith(`${polyCount} 題符合`));
+    await page.locator('.bank-refinements summary').click();
     await page.locator('#bank-subcategory').selectOption('factorisation');assert.ok(await page.locator('.bank-question').count()>0);
     await page.locator('#bank-skill').selectOption('common-factor');
     assert.ok(await page.locator('.bank-question').count()>0);
     const savedURL=page.url();await page.reload();await page.waitForFunction(()=>document.getElementById('bank-count').textContent.includes('題符合'));
     assert.equal(await page.locator('#bank-skill').inputValue(),'common-factor');assert.equal(page.url(),savedURL);
+    await page.locator('.bank-refinements summary').click();
     await page.locator('#bank-reset').click();assert.ok((await count()).startsWith(`${polyCount} 題符合`));
     await page.locator('#bank-type').selectOption('proof');assert.ok((await count()).startsWith(`${proofCount} 題符合`));
     await page.locator('[data-question-id="poly-proof-001"]').getByRole('button',{name:'預覽題目',exact:true}).click();await page.locator('#preview-practice:not([hidden])').waitFor();
@@ -56,7 +58,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     assert.equal(await page.locator('.preview-options li').count(),4);
     await page.locator('#preview-bookmark').click();assert.equal(await page.locator('#preview-bookmark').getAttribute('aria-pressed'),'true');
     await page.screenshot({path:output+'/preview-desktop.png'});
-    await page.locator('#preview-close').click();await page.locator('#bank-mode').selectOption('saved');assert.match(await count(),/^1 題符合/);
+    await page.locator('#preview-close').click();await page.locator('.bank-refinements summary').click();await page.locator('#bank-mode').selectOption('saved');assert.match(await count(),/^1 題符合/);
     await page.reload();await page.waitForFunction(()=>document.getElementById('bank-count').textContent.startsWith('1 題符合'));
     await page.getByRole('button',{name:'預覽題目',exact:true}).click();await page.locator('#preview-practice:not([hidden])').waitFor();
     await page.locator('#preview-practice').click();await page.waitForURL('**/app.html?**');
@@ -65,7 +67,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
 
     // Empty combinations can be cleared; question ordering and UI stay usable on phones.
     await open('query=__no-such-published-question__&form=1');assert.match(await count(),/^0 題符合/);assert.equal(await page.locator('#practice-selection').isVisible(),false);
-    await page.locator('#bank-reset').click();assert.ok((await count()).startsWith(`${total} 題符合`));
+    await page.locator('.bank-refinements summary').click();await page.locator('#bank-reset').click();assert.ok((await count()).startsWith(`${total} 題符合`));
     await page.locator('#bank-order').selectOption('difficulty');assert.match(await page.locator('.question-row-meta').first().textContent(),/基礎/);
     for(const width of [768,390,320]){
       await page.setViewportSize({width,height:844});await open();

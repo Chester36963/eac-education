@@ -29,11 +29,39 @@ test('verified answer corrections and broken source records cannot silently ente
  for(const id of ['m031','m087','m061'])assert.equal(get('import-mensuration-mens-'+id).answer,'C');
  assert.ok(!get('import-mensuration-mens-m025'),'missing cuboid diagram cannot be guessed');
  assert.ok(!get('import-mensuration-mens-m096'),'impossible sector data stays held');
- assert.ok(!get('import-mensuration-mens-l030'),'question repeated as solution is blocked');
+ const repaired=get('import-mensuration-mens-l030');
+ assert.ok(repaired.adaptation,'new authored solution is disclosed');
+ assert.match(repaired.solution,/704/);assert.match(repaired.solution,/23\.65/);
+ assert.notEqual(repaired.solution,repaired.stem,'original repeated solution replaced');
  for(const q of questions){
   if(q.provenance)assert.equal(q.classification.status,'rule-classified');
   if(q.options)assert.deepEqual(Object.keys(q.options),['A','B','C','D']);
  }
+});
+
+test('all 111 original holds retain a per-row recovery decision and stable identity',()=>{
+ const review=JSON.parse(fs.readFileSync(path.join(ROOT,'content/imports/1013-recovery-review.json')));
+ assert.equal(review.records.length,111);assert.equal(review.sourceSha256,audit.origin.sha256);
+ for(const r of review.records){
+  assert.ok(r.assessment.length>40,r.id);assert.ok(r.reasons.length,r.id);
+  const disposition=audit.records.find(a=>a.id===r.id);assert.ok(disposition);
+  if(r.decision==='hold')assert.equal(disposition.status,'held',r.id);
+  else{
+   assert.equal(disposition.status,'published',r.id);
+   const q=questions.find(q=>q.id===r.id);assert.ok(q.editorialCorrections?.length);
+   if(r.overrides.questionType==='structured'){
+    assert.ok(q.adaptation?.en&&q.adaptation['zh-Hant']);assert.equal(q.assessmentMode,'solution-comparison');
+    assert.ok(!q.options&&!q.answer,'missing options never replaced by invented distractors');
+   }
+  }
+ }
+ const get=id=>questions.find(q=>q.id===id);
+ assert.equal(get('import-four-centres-q242').answer,'B');
+ assert.equal(get('import-four-centres-q243').answer,'B');
+ assert.equal(get('import-four-centres-q252').answer,'C');
+ assert.equal(get('import-mensuration-mens-m075').answer,'B');
+ assert.equal(get('import-mensuration-mens-m083').answer,'C');
+ assert.ok(!get('import-four-centres-q216'),'underdetermined V cannot be repaired by closing a delimiter');
 });
 
 test('details are bounded chunks; browsing metadata never contains solutions',()=>{

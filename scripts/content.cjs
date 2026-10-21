@@ -65,11 +65,13 @@ function validate(catalog,topics,skills,assetRoot=path.join(ROOT,'src')){
           for(const field of ['options','optionsZh'])need(q[field]&&['A','B','C','D'].every(k=>typeof q[field][k]==='string'&&q[field][k].trim()),`${label}: complete bilingual A–D options required.`);
           need(['A','B','C','D'].includes(q.answer),`${label}: answer must be A–D.`);
         }else need(q.assessmentMode==='solution-comparison'||(Array.isArray(q.rubric)&&q.rubric.length&&q.rubric.every(v=>typeof v==='string'&&v.trim())),`${label}: marking rubric or explicit solution comparison required.`);
-        for(const field of ['stem','stemZh','solution','solutionZh','hint','hintZh']){
-          if(typeof q[field]==='string'){
-            const value=q[field];
+        const mathFields={...Object.fromEntries(['stem','stemZh','solution','solutionZh','hint','hintZh'].map(f=>[f,q[f]])),...Object.fromEntries(['options','optionsZh'].flatMap(f=>Object.entries(q[f]||{}).map(([k,v])=>[`${f}.${k}`,v])))};
+        for(const [field,value] of Object.entries(mathFields)){
+          if(typeof value==='string'){
             need(!/<\/?(?:script|iframe)|javascript:|\[unclear:/i.test(value),`${label}: unsafe/unclear ${field}.`);
             need((value.match(/\\\(/g)||[]).length===(value.match(/\\\)/g)||[]).length&&(value.match(/\\\[/g)||[]).length===(value.match(/\\\]/g)||[]).length,`${label}: unbalanced math delimiters in ${field}.`);
+            const prose=value.replace(/\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]/g,'');
+            need(!/\\[a-zA-Z]+\b/.test(prose),`${label}: raw TeX outside math delimiters in ${field}.`);
           }
         }
         need(Boolean(q.hint)===Boolean(q.hintZh),`${label}: optional hints must be bilingual.`);

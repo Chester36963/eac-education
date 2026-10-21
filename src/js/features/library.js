@@ -7,11 +7,12 @@
   const node=(tag,text,className)=>{const element=document.createElement(tag);if(text!==undefined)element.textContent=text;if(className)element.className=className;return element;};
   const chapter=id=>catalog.subjects.flatMap(s=>s.chapters).find(c=>c.id===id);
   const subjectFor=chapterId=>catalog.subjects.find(s=>s.chapters.some(c=>c.id===chapterId));
-  const defaultState=()=>({subject:'all',chapter:'all',subcategory:'all',skill:'all',type:'all',difficulty:'all',form:'all',mode:'all',query:'',order:'chapter',page:1});
+  const defaultState=()=>({subject:'all',chapter:'all',subcategory:'all',skill:'all',type:'all',difficulty:'all',form:'all',mode:'all',query:'',order:'chapter',language:'bilingual',page:1});
   function readState(){
     const params=Object.fromEntries(new URLSearchParams(location.search));
     state={...defaultState(),...Object.fromEntries(Object.entries(params).filter(([key])=>key in defaultState()))};
     state.page=Math.max(1,Number.parseInt(state.page,10)||1);
+    if(!['bilingual','en','zh'].includes(state.language))state.language='bilingual';
     if(state.chapter!=='all'){
       const selected=chapter(state.chapter);
       if(selected)state.subject=subjectFor(selected.id).id;else state.chapter='all';
@@ -45,6 +46,10 @@
     state.difficulty=options(controls.difficulty,Object.entries(difficulty).map(([key,label])=>[key,label,narrowed.filter(q=>q.difficulty===key).length]),state.difficulty);
     for(const key of ['form','mode','order'])byId(controls[key]).value=state[key];
     byId('bank-search').value=state.query;
+    byId('bank-language').value=state.language;
+    const applied=Object.keys(controls).filter(key=>key!=='order'&&state[key]!=='all').length;
+    byId('bank-refinement-status').textContent=applied?`${applied} 項篩選已套用`:'Refine your practice';
+    byId('bank-refinement-status').classList.toggle('is-active',!!applied);
   }
   async function runSearch(){
     const token=++searchToken,term=state.query;
@@ -60,11 +65,11 @@
     if(scroll)byId('bank-heading').scrollIntoView({block:'start',behavior:'smooth'});
   }
   function chapterLink(label,values,count){
-    const a=node('a',undefined,'bank-chapter-link');a.href=link({...defaultState(),...values});
+    const a=node('a',undefined,'bank-chapter-link');a.href=link({...defaultState(),...values,language:state.language});
     const title=node('span',label.en);title.append(node('small',label['zh-Hant']));
     a.append(title,node('span',String(count),'bank-chapter-count'));
     if(state.chapter===(values.chapter||'all')&&state.subject===(values.subject||'all'))a.setAttribute('aria-current','page');
-    a.onclick=event=>{if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();navigate({...defaultState(),...values});};
+    a.onclick=event=>{if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();navigate({...defaultState(),...values,language:state.language});};
     return a;
   }
   function renderNavigation(){
@@ -74,7 +79,7 @@
       for(const c of subject.chapters)container.append(chapterLink(c.name,{subject:subject.id,chapter:c.id},c.questionCount));
     }
   }
-  function breadcrumb(label,values){const a=node('a',label);a.href=link({...defaultState(),...values});a.onclick=event=>{if(event.metaKey||event.ctrlKey)return;event.preventDefault();navigate({...defaultState(),...values});};return a;}
+  function breadcrumb(label,values){const a=node('a',label);a.href=link({...defaultState(),...values,language:state.language});a.onclick=event=>{if(event.metaKey||event.ctrlKey)return;event.preventDefault();navigate({...defaultState(),...values,language:state.language});};return a;}
   function renderHeading(){
     const c=chapter(state.chapter),s=c?subjectFor(c.id):catalog.subjects.find(s=>s.id===state.subject);
     byId('bank-heading').textContent=c?`${c.name.en} · ${c.name['zh-Hant']}`:s?`${s.name.en} · ${s.name['zh-Hant']}`:'全部題目 / All questions';
@@ -98,12 +103,13 @@
     if(state.order==='type')selected.sort((a,b)=>Object.keys(Learning.types).indexOf(a.questionType)-Object.keys(Learning.types).indexOf(b.questionType));
     return selected;
   }
-  function questionRoute(q){const c=catalog.subjects.flatMap(s=>s.chapters).find(c=>c.topicId===q.topicId);return 'app.html?'+new URLSearchParams({chapter:c.id,question:q.id,form:'all'});}
+  function questionRoute(q){const c=catalog.subjects.flatMap(s=>s.chapters).find(c=>c.topicId===q.topicId);return 'app.html?'+new URLSearchParams({chapter:c.id,question:q.id,form:'all',language:state.language});}
   function renderRow(q){
     const article=node('article',undefined,'bank-question');article.dataset.questionId=q.id;
     const content=node('div'),meta=node('div',undefined,'question-row-meta');
-    for(const label of [q.id,Learning.types[q.questionType],difficulty[q.difficulty],`中${q.minForm}起`])meta.append(node('span',label));
-    content.append(meta,node('h3',q.stem),node('p',q.stemZh,'question-row-zh'));
+    for(const label of [Learning.types[q.questionType],difficulty[q.difficulty],`中${q.minForm}起`])meta.append(node('span',label));
+    content.append(meta,node('h3',state.language==='zh'?q.stemZh:q.stem));
+    if(state.language==='bilingual')content.append(node('p',q.stemZh,'question-row-zh'));
     const c=catalog.subjects.flatMap(s=>s.chapters).find(c=>c.topicId===q.topicId),sub=c.subcategories.find(s=>s.id===q.subcategory);
     content.append(node('span',`${c.name['zh-Hant']} / ${sub.name['zh-Hant']} / ${skillNames[q.skill]||q.skill}`,'question-row-topic'));
     const result=user?.progress?.byQuestion?.[q.id];
@@ -136,10 +142,12 @@
     try{
       const q=await QuestionBank.question(id);if(token!==previewToken||!dialog.open)return;
       if(!q)throw Error('Missing question');
-      EACMath.clear(content);const heading=node('h2',q.stem);heading.id='preview-heading';
-      content.replaceChildren(node('p',`${q.id} · ${Learning.types[q.questionType]} · ${difficulty[q.difficulty]}`,'question-row-meta'),heading,node('p',q.stemZh,'preview-zh'));
+      EACMath.clear(content);const heading=node('h2',state.language==='zh'?q.stemZh:q.stem);heading.id='preview-heading';
+      content.replaceChildren(node('p',`${Learning.types[q.questionType]} · ${difficulty[q.difficulty]}`,'question-row-meta'),heading);
+      if(state.language==='bilingual')content.append(node('p',q.stemZh,'preview-zh'));
+      if(q.adaptation)content.append(node('p',state.language==='en'?q.adaptation.en:state.language==='zh'?q.adaptation['zh-Hant']:`${q.adaptation.en}\n${q.adaptation['zh-Hant']}`,'editorial-note'));
       if(q.diagram){const figure=node('figure',undefined,'preview-figure'),img=node('img');img.src=q.diagram.src;img.alt=q.diagram.alt;figure.append(img,node('figcaption',q.diagram.caption));content.append(figure);}
-      if(q.options){const options=node('ol',undefined,'preview-options');for(const key of ['A','B','C','D']){const item=node('li',q.options[key]);if(q.optionsZh[key]!==q.options[key])item.append(node('small',q.optionsZh[key]));options.append(item);}content.append(options);}
+      if(q.options){const options=node('ol',undefined,'preview-options');for(const key of ['A','B','C','D']){const item=node('li',state.language==='zh'?q.optionsZh[key]:q.options[key]);if(state.language==='bilingual'&&q.optionsZh[key]!==q.options[key])item.append(node('small',q.optionsZh[key]));options.append(item);}content.append(options);}
       content.append(node('p',`${q.source} · ${q.sourceZh}`,'field-note'));
       if(!Learning.automatic(q))content.append(node('p',q.assessmentMode==='solution-comparison'?'附來源解析；完成後對照解析自評，未另設逐分評分準則。':'附完整解析及評分要點，完成後自行核對。','field-note'));
       byId('preview-practice').href=questionRoute(metadata.find(q=>q.id===id));byId('preview-practice').hidden=false;
@@ -167,10 +175,11 @@
     }catch(error){byId('bank-count').textContent='題庫暫時無法載入。';byId('bank-status').textContent='請重新載入，或稍後再試。';byId('bank-reload').hidden=false;byId('practice-selection').hidden=true;}
   }
   document.addEventListener('DOMContentLoaded',()=>{
+    byId('bank-language').onchange=()=>{if(loaded)navigate({language:byId('bank-language').value});};
     for(const [key,id]of Object.entries(controls))byId(id).onchange=()=>{if(loaded)navigate({[key]:byId(id).value,page:1});};
     let searchTimer;
     byId('bank-search').oninput=()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{if(loaded)navigate({query:byId('bank-search').value.trim(),page:1},{historyMode:'replace'});},150);};
-    byId('bank-reset').onclick=()=>{clearTimeout(searchTimer);if(loaded)navigate({...defaultState(),chapter:state.chapter,subject:state.subject});};
+    byId('bank-reset').onclick=()=>{clearTimeout(searchTimer);if(loaded)navigate({...defaultState(),chapter:state.chapter,subject:state.subject,language:state.language});};
     byId('bank-prev').onclick=()=>{if(loaded)navigate({page:state.page-1},{scroll:true});};
     byId('bank-next').onclick=()=>{if(loaded)navigate({page:state.page+1},{scroll:true});};
     byId('preview-close').onclick=()=>byId('question-preview').close();

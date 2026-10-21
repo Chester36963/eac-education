@@ -2,7 +2,7 @@
 
 ## 已核實的來源範圍
 
-2026-10-22：已匯入用戶提供的 `/Users/chester/Downloads/1013 webpage/index.html`。以 JSON 解碼器讀取 `const QUESTIONS`，沒有執行原 HTML 的 JavaScript。原始 898 條記錄：753 題上架、111 題待核對、34 條重複。加上原本 37 題，學生題庫共 **790 題、5 個課題、6 種題型**。完整分類及逐題原因見 `1013_IMPORT_AUDIT.md`，機讀紀錄見 `content/imports/1013-classification-audit.json`。
+2026-10-22：已匯入用戶提供的 `/Users/chester/Downloads/1013 webpage/index.html`。以 JSON 解碼器讀取 `const QUESTIONS`，沒有執行原 HTML 的 JavaScript。覆核原先 111 條暫存後修復 64 題：原始 898 條記錄現為 817 題上架、47 題待補、34 條重複。加上原本 37 題，學生題庫共 **854 題、5 個課題、6 種題型**。逐題覆核及修訂依據見 `RECOVERY_REVIEW_2026-10-22.md`；機讀紀錄見 `content/imports/1013-recovery-review.json` 和 `1013-classification-audit.json`。
 
 `S3_Ch8_Quadrilaterals_Concept_Notes.html`、同名 PDF 及 `_build_ch8/` 按用戶指示保留作設計參考，不作新增題源。來源寫有「如圖」但沒有同題圖像、題幹被截斷、選項不完整、矛盾條件或 OCR 損壞的題目保留待核對，不補猜數值。來源 Level 5/5*/5** 和 L1–L8 分開存於分類記錄，並非中一至中六年級。
 
@@ -98,12 +98,13 @@ PDF、HTML、Markdown 或圖片不會由這支 JSON 匯入程式自動轉題；�
 
 ```sh
 python3 scripts/extract-legacy.py '/Users/chester/Downloads/1013 webpage/index.html'
+python3 scripts/review-legacy.py             # 同一來源 snapshot 的版本化覆核／修訂
 python3 scripts/classify-legacy.py           # 只預覽，不寫檔
 python3 scripts/classify-legacy.py --apply   # 重建這個 collection，覆寫其已匯入記錄
 node scripts/build-content.cjs
 ```
 
-一般修題直接編輯 canonical JSON；不需重新匯入。重跑 `--apply` 前要將人工修正反映到分類／修正規則，否則該 collection 的手動變更會被原始來源及規則重建。先查看 git diff。來源 snapshot 在網站 `src/` 以外的 `content/sources/`；111 題待補內容均有 source row、題號、原因和預分類。修復時沿用 audit 內原 ID，補齊雙語和同題圖像 QA，再經 JSON importer 或 canonical 編輯上架。
+一般修題直接編輯 canonical JSON；不需重新匯入。這批 HTML 的修訂另保存於 `scripts/review-legacy.py` 及 recovery manifest；重跑 `--apply` 會讀取並套用。新增人工修訂要同步記入此處，避免下次重建遺失。來源 snapshot 在 `src/` 以外的 `content/sources/`，47 題仍暫存，逐題列明到底缺甚麼。保留原 ID，補齊雙語及同題圖像 QA，不能只移除暫存標籤。來源雜湊不同時禁止套用舊 recovery manifest。
 
 `tests/browser/imported-bank.cjs` 逐項測試所有已上架數學片段能否由 MathJax 解析，亦驗證匯入 MCQ、長答自評、缺提示題、手機預覽和全文搜尋。公式解析通過不等於每題數學結論已獨立驗算。
 

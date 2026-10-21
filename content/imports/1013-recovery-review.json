@@ -1,0 +1,2324 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-22",
+  "sourceSha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+  "policy": "Original source immutable. Translations and written adaptations explicitly labelled. No missing bound inferred from a solution. Recovery still passes the normal publication gates.",
+  "records": [
+    {
+      "id": "import-four-centres-q076",
+      "sourceTopic": "fourCentres",
+      "kind": "mc",
+      "sourceRow": 68,
+      "sourceId": "Q076",
+      "reasons": [
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stemZh": "設 \\(0<k<1\\)。直線 \\(L_1:y=kx+1\\) 及 \\(L_2:y=-kx+1\\) 交於 y 軸上的 A，並分別與 x 軸交於 B、C。D 是三角形 ABC 的垂心，O 是原點。若 \\(OA=AD\\)，求 k。",
+        "solutionZh": "\\(A=(0,1),B=(-1/k,0),C=(1/k,0)\\)。由對稱性 D 在 y 軸上。AC 斜率為 -k，故從 B 出發的高線斜率為 1/k，得 \\(D=(0,1/k^2)\\)。因 \\(0<k<1\\)，\\(AD=1/k^2-1\\)。由 \\(OA=AD\\)，得 \\(1=1/k^2-1\\)，所以 \\(k=1/\\sqrt2\\)，答案 A。"
+      },
+      "assessment": "English statement intact; Chinese translated faithfully. Altitude intersection and positive root checked.",
+      "decision": "recover",
+      "adaptation": null
+    },
+    {
+      "id": "import-four-centres-q242",
+      "sourceTopic": "fourCentres",
+      "kind": "mc",
+      "sourceRow": 124,
+      "sourceId": "Q242",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "overrides": {
+        "diagram": {
+          "src": "assets/recovery/fc-q242.svg",
+          "alt": "Reconstructed Q242: ABC is acute and AD, BE and CF meet at its orthocentre H. Which statements must be true?\n\nI. (triangle AHEsimtriangle BHD) II. (triangle EHCcongtriangle DHC) III. (angle HAB=angle HED)",
+          "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+          "qa": {
+            "questionId": "import-four-centres-q242",
+            "status": "reviewed",
+            "reviewedAt": "2026-10-22",
+            "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+          }
+        },
+        "answer": "B",
+        "hint": "",
+        "hintZh": "",
+        "solution": "I: \\(\\angle AEH=\\angle BDH=90^\\circ\\) and \\(\\angle AHE=\\angle BHD\\), so the triangles are similar by AA. II: congruence is not forced: choose an acute scalene triangle; in general \\(EH\\ne DH\\), so the two right triangles with common hypotenuse HC need not be congruent. III: \\(\\angle ADB=\\angle AEB=90^\\circ\\), so A,B,D,E are concyclic. Since A,H,D and B,H,E are collinear, \\(\\angle HAB=\\angle DAB=\\angle DEB=\\angle HED\\), using chord DB. Hence I and III only: B.",
+        "solutionZh": "I：\\(\\angle AEH=\\angle BDH=90^\\circ\\)，且 \\(\\angle AHE=\\angle BHD\\)，故由 AA，兩三角形相似。II：一般銳角不等邊三角形中 \\(EH\\ne DH\\)，只有公用斜邊 HC 不能保證全等。III：\\(\\angle ADB=\\angle AEB=90^\\circ\\)，所以 A、B、D、E 共圓。由 A、H、D 及 B、H、E 共線，\\(\\angle HAB=\\angle DAB=\\angle DEB=\\angle HED\\)，所用的同弦是 DB。只有 I、III 正確，答案 B。"
+      },
+      "adaptation": null
+    },
+    {
+      "id": "import-four-centres-q243",
+      "sourceTopic": "fourCentres",
+      "kind": "mc",
+      "sourceRow": 131,
+      "sourceId": "Q243",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "overrides": {
+        "diagram": {
+          "src": "assets/recovery/fc-q243.svg",
+          "alt": "Reconstructed Q243: The figure shows an obtuse triangle PQR. S lies on PR and (QSperp PR). Which statements must be true?\n\nI. (PS=RS) II. QS bisects (angle PQR). III. The orthocentre lies on SQ produced.",
+          "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+          "qa": {
+            "questionId": "import-four-centres-q243",
+            "status": "reviewed",
+            "reviewedAt": "2026-10-22",
+            "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+          }
+        },
+        "answer": "B"
+      },
+      "adaptation": null
+    },
+    {
+      "id": "import-four-centres-q240",
+      "sourceTopic": "fourCentres",
+      "kind": "mc",
+      "sourceRow": 133,
+      "sourceId": "Q240",
+      "reasons": [
+        "missing-same-question-visual",
+        "unbalanced-math-solutionZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "overrides": {
+        "diagram": {
+          "src": "assets/recovery/fc-q240.svg",
+          "alt": "Reconstructed Q240: In the figure, AM and BN are two medians of (triangle ABC) and meet at P. Which statements must be true?\n\nI. P is equidistant from the three sides. II. A, B, M and N are concyclic. III. (MNparallel AB). IV. Perimeter of (triangle ABC>AM+BN).",
+          "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+          "qa": {
+            "questionId": "import-four-centres-q240",
+            "status": "reviewed",
+            "reviewedAt": "2026-10-22",
+            "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+          }
+        },
+        "solutionZh": "P 是形心，並非內心，所以 I 不必成立。一般三角形中 A、B、M、N 不必共圓，所以 II 不必成立。M、N 分別是 BC、AC 的中點，由中點定理，\\(MN\\parallel AB\\)，III 正確。中線長滿足 \\(AM<(AB+AC)/2\\) 及 \\(BN<(AB+BC)/2\\)。相加得 \\(AM+BN<AB+(AC+BC)/2<AB+AC+BC\\)，所以 IV 正確。只有 III、IV 正確，答案 D。"
+      },
+      "adaptation": null
+    },
+    {
+      "id": "import-four-centres-q252",
+      "sourceTopic": "fourCentres",
+      "kind": "mc",
+      "sourceRow": 136,
+      "sourceId": "Q252",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "overrides": {
+        "diagram": {
+          "src": "assets/recovery/fc-q252.svg",
+          "alt": "Reconstructed Q252: PQS is a circle. PQ is produced to R and RS is tangent at S. I is the incentre of (triangle QRS). If (angle IRQ=12^circ) and (angle PSQ=70^circ), find (angle QPS).\n\n",
+          "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+          "qa": {
+            "questionId": "import-four-centres-q252",
+            "status": "reviewed",
+            "reviewedAt": "2026-10-22",
+            "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+          }
+        },
+        "answer": "C",
+        "hint": "",
+        "hintZh": ""
+      },
+      "adaptation": null
+    },
+    {
+      "id": "import-four-centres-q216",
+      "sourceTopic": "fourCentres",
+      "kind": "long",
+      "sourceRow": 33,
+      "sourceId": "Q216",
+      "reasons": [
+        "unbalanced-math-solutionZh",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Not merely a delimiter: final V is underdetermined. Circumcentre on AU does not imply AU is the perpendicular bisector of VT. Infinitely many candidate V; supplied 2A-T arithmetic also wrong. Needs corrected final condition.",
+      "overrides": {}
+    },
+    {
+      "id": "import-four-centres-q232",
+      "sourceTopic": "fourCentres",
+      "kind": "long",
+      "sourceRow": 66,
+      "sourceId": "Q232",
+      "reasons": [
+        "unbalanced-math-solutionZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "solutionZh": "第一眼訊號：\\(QR\\) 水平，所以從 \\(S\\) 作出的高線是鉛直線 \\(x=6k\\)。\n策略地圖：頂點 → 兩條高 → 三邊及面積 → 內切半徑 → 切線長定位內心 → 點圓距離。\n(a)\n\\[\nf(x)=(x-k)^2+k,\n\\]\n故\n\\[\nQ=(k,k),\\;\\; R=(15k,k).\n\\]\n\\(x_H=6k\\)。\\(QS\\) 的斜率為\n\\[\n\\frac{12k}{5k}=\\frac{12}{5},\n\\]\n所以從 \\(R\\) 作出的高線為\n\\[\ny-k=-\\frac{5}{12}(x-15k).\n\\]\n代入 \\(x=6k\\)：\n\\[\ny-k=\\frac{15k}{4},\n\\]\n故\n\\[\nH=\\left(6k,\\frac{19k}{4}\\right).\n\\]\n(c)(i)\n\\[\nQR=14k,\\; QS=13k,\\; RS=15k,\n\\]\n而\n\\[\n\\Delta=\\frac{1}{2}(14k)(12k)=84k^2,\n\\;\\; s=21k.\n\\]\n因此\n\\[\nr=\\frac\\Delta s=4k.\n\\]\n內切圓與水平邊 \\(QR:y=k\\) 相切，所以 \\(y_U=k+r=5k\\)。由 \\(Q\\) 出發在 \\(QR\\) 上的切線長為\n\\[\n\\frac{QR+QS-RS}{2}=\\frac{14k+13k-15k}{2}=6k.\n\\]\n故 \\(x_U=k+6k=7k\\)，所以\n\\[\nU=(7k,5k).\n\\]\n(iii)\n\\[\nHU=\\sqrt{(7k-6k)^2+\\left(5k-\\frac{19k}{4}\\right)^2}\n=\\frac{\\sqrt{17}}{4}k.\n\\]\n因 \\(HU<r=4k\\)，H 在內切圓內，所以最短距離為\n\\[\nr-HU=4k-\\frac{\\sqrt{17}}4k\n=\\frac{(16-\\sqrt{17})k}{4}.\n\\]\n陰濕位：點在圓內時最短距離是 \\(r-HU\\)，不是 \\(HU-r\\) 或 \\(HU+r\\)。",
+        "solution": "(a) Complete the square: \\(f(x)=(x-k)^2+k\\), giving \\(Q=(k,k),R=(15k,k)\\). (b) The altitude through S is \\(x=6k\\). QS has slope 12/5, so the altitude through R is \\(y-k=-5(x-15k)/12\\). Thus \\(H=(6k,19k/4)\\). (c) The sides are \\(13k,14k,15k\\), with area \\(84k^2\\) and semiperimeter \\(21k\\), so \\(r=4k\\). The contact length from Q along QR is \\((14k+13k-15k)/2=6k\\), giving \\(U=(7k,5k)\\). Hence \\(HU=\\sqrt{17}k/4<4k\\). The minimum distance is \\(r-HU=(16-\\sqrt{17})k/4\\)."
+      },
+      "assessment": "All triangle coordinates and lengths independently checked. Restore truncated HU<r clause from intact English; replace cluttered English with complete derivation.",
+      "decision": "recover",
+      "adaptation": null
+    },
+    {
+      "id": "import-four-centres-q228",
+      "sourceTopic": "fourCentres",
+      "kind": "long",
+      "sourceRow": 70,
+      "sourceId": "Q228",
+      "reasons": [
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Chinese reconstructed solely from intact English. Checked V(k,9), roots k±12, H(k,16), I(k,4), circumcentre(k,-7/2), radius25/2; H-prime on circle and cyclicity forces k=12, giving 20<24.",
+      "overrides": {
+        "stemZh": "設 \\(k>0\\)，\\(f(x)=-\\frac1{16}x^2+\\frac18kx-\\frac1{16}k^2+9\\)。V 是頂點，A、B 是 x 軸截點，且 \\(x_A<x_B\\)。H、I 分別是三角形 VAB 的垂心及內心。\n(a) 求 V。\n(b) 求 H、I。\n(c) C 是三角形 VAB 的外接圓，\\(g(x)=9-f(x-k)\\)。\n(i) 求 C 的方程。\n(ii) 描述由 f 的圖像變為 g 的圖像的幾何變換。\n(iii) H' 是 H 關於 x 軸的反射點，V' 是 g 的頂點。若 A、V、H'、V' 共圓，判斷 \\(V'H<2IH\\) 是否成立。"
+      },
+      "adaptation": null
+    },
+    {
+      "id": "import-four-centres-q231",
+      "sourceTopic": "fourCentres",
+      "kind": "long",
+      "sourceRow": 72,
+      "sourceId": "Q231",
+      "reasons": [
+        "unbalanced-math-solutionZh",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Requested final HI comparison truncated in both languages; cannot restore the comparison target without original source.",
+      "overrides": {}
+    },
+    {
+      "id": "import-four-centres-q238",
+      "sourceTopic": "fourCentres",
+      "kind": "long",
+      "sourceRow": 104,
+      "sourceId": "Q238",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Without the original orientation, the text permits mirror configurations S=(30,10) and S=(-30,10). Solution assumes positive-x OQ and B left of C. Need source diagram to select the intended one.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m001",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 1,
+      "sourceId": "MENS-M001",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Arc lengths alone do not ensure equal central angles: O,A,C and O,B,D collinear ordering is in the absent diagram, not the words. The source answer assumes a common angle.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m002",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 2,
+      "sourceId": "MENS-M002",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "overrides": {
+        "diagram": {
+          "src": "assets/recovery/mens-m002.svg",
+          "alt": "Reconstructed MENS-M002: In the figure, the solid consists of a right circular cone and a hemisphere with a common base. The base radius and the height of the circular cone are (3text{ cm}) and (4text{ cm}) respectively. Find the total surface area of the solid.",
+          "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+          "qa": {
+            "questionId": "import-mensuration-mens-m002",
+            "status": "reviewed",
+            "reviewedAt": "2026-10-22",
+            "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+          }
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "id": "import-mensuration-mens-m004",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 4,
+      "sourceId": "MENS-M004",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "overrides": {
+        "diagram": {
+          "src": "assets/recovery/mens-m004.svg",
+          "alt": "Reconstructed MENS-M004: In the figure, the base of a right prism is a right-angled triangle with legs 6 cm and 8 cm. The length of the prism is 10 cm. Find the volume of the prism.",
+          "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+          "qa": {
+            "questionId": "import-mensuration-mens-m004",
+            "status": "reviewed",
+            "reviewedAt": "2026-10-22",
+            "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+          }
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "id": "import-mensuration-mens-m005",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 5,
+      "sourceId": "MENS-M005",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Statements I–III are absent from both stems. Even with ring-sector dimensions there is no proposition to select; need original statements, not just a drawing.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m007",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 7,
+      "sourceId": "MENS-M007",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "overrides": {
+        "diagram": {
+          "src": "assets/recovery/mens-m007.svg",
+          "alt": "Reconstructed MENS-M007: In the figure, the base of a solid right triangular prism is a right-angled triangle with legs 8 cm and 15 cm. The length of the prism is 10 cm. Find the volume of the prism.",
+          "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+          "qa": {
+            "questionId": "import-mensuration-mens-m007",
+            "status": "reviewed",
+            "reviewedAt": "2026-10-22",
+            "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+          }
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "id": "import-mensuration-mens-m015",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 15,
+      "sourceId": "MENS-M015",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "EN asks shaded area with CG=10; ZH asks BD with GF=10. Units/options are area and solution introduces unsupported symmetry. Needs same-question original.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m022",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 22,
+      "sourceId": "MENS-M022",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Sector and semicircle dimensions determine areas, but the shaded target region is not identified in the text. Need exact source shading.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m025",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 25,
+      "sourceId": "MENS-M025",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Volume alone does not determine a cuboid surface area. Missing diagram must supply dimensions/aspect ratios.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m029",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 29,
+      "sourceId": "MENS-M029",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Rectangle/arc/intersection givens can determine labelled points, but not which region is shaded. Need exact source shading.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m036",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 36,
+      "sourceId": "MENS-M036",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Quarter-sector and midpoint are specified, but boundaries of the requested shaded region are absent.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m037",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 37,
+      "sourceId": "MENS-M037",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Same missing shaded-region boundary issue as M036; cannot publish either diagram-dependent row without its visual.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m039",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 39,
+      "sourceId": "MENS-M039",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Arc/rectangle dimensions are complete, but multiple complementary regions fit the undefined shaded target.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m047",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 47,
+      "sourceId": "MENS-M047",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "The relative placement of the two sector centres and the shaded overlap/complement are not specified.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m050",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 50,
+      "sourceId": "MENS-M050",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "BD=4 gives two possible foot positions on diameter AC=16. The diagram must identify the intended side and BCD curved boundary.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m058",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 58,
+      "sourceId": "MENS-M058",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Chord data may determine the radius but do not identify which sector/chord region is shaded.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m060",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 60,
+      "sourceId": "MENS-M060",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Square, quarter-sector and side midpoints are given, but requested shaded boundaries are absent.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m064",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 64,
+      "sourceId": "MENS-M064",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Quarter-sector midpoint wording differs between chord/arc and no shaded boundaries are described. Need original same-question visual.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-m071",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 71,
+      "sourceId": "MENS-M071",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "overrides": {
+        "stem": "A cube of side \\(a\\text{ cm}\\). The cube is then divided into 8 identical small cubes. What is the percentage increase in the total surface area of the cube?",
+        "stemZh": "一個邊長 \\(a\\) cm 的立方體。該立方體被分成 \\(8\\) 個相同的小立方體。立方體的總表面積增加了多少百分率？"
+      },
+      "adaptation": {
+        "en": "Self-contained text edition: all required measurements and relationships are stated; the incidental sketch reference is omitted.",
+        "zh-Hant": "完整文字版：所需尺寸及幾何關係已全部列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-m075",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 75,
+      "sourceId": "MENS-M075",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Source English explicitly requests volume and all original options have cubic units. Chinese area/numerical-radius drift corrected to this coherent English edition. Exact frustum and hemisphere volumes independently re-derived.",
+      "overrides": {
+        "stem": "A right circular cone has height 12 cm and base radius 9 cm. Its upper cone is removed by a plane parallel to the base, leaving a frustum of height 8 cm. Find the volume of the frustum.",
+        "stemZh": "一直立圓錐高 12 cm、底半徑 9 cm。用平行於底面的平面切去頂部小圓錐，留下高 8 cm 的截頭錐。求截頭錐的體積。",
+        "solution": "The removed cone has height \\(12-8=4\\) cm, so its radius is \\(9(4/12)=3\\) cm. The frustum volume is \\(\\frac13\\pi(9^2\\cdot12-3^2\\cdot4)=312\\pi\\text{ cm}^3\\). Answer: B.",
+        "solutionZh": "切去小錐高 \\(12-8=4\\) cm，半徑 \\(9(4/12)=3\\) cm。截頭錐體積 \\(\\frac13\\pi(9^2\\cdot12-3^2\\cdot4)=312\\pi\\text{ cm}^3\\)。答案 B。",
+        "answer": "B",
+        "hint": "",
+        "hintZh": ""
+      },
+      "adaptation": {
+        "en": "Corrected text edition: the original English volume question and cubic-unit options are retained; conflicting Chinese wording and source solution are corrected.",
+        "zh-Hant": "修訂文字版：依原英文「體積」要求及原有立方單位選項，修正中文與來源解析的歧義；所有條件已在文字列明。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-m079",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 79,
+      "sourceId": "MENS-M079",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Source English explicitly requests volume and all original options have cubic units. Chinese area/numerical-radius drift corrected to this coherent English edition. Exact frustum and hemisphere volumes independently re-derived.",
+      "overrides": {
+        "stem": "A solid consists of a hemisphere of radius \\(r\\) cm joined at its flat base to the upper base of a right circular frustum. The frustum has upper radius \\(r\\), lower radius \\(2r\\), and height \\(2r\\). Find the total volume.",
+        "stemZh": "一立體由半徑 \\(r\\) cm 的半球及一直立圓錐的截頭錐組成，半球平面與截頭錐上底接合。截頭錐上底半徑為 \\(r\\)、下底半徑為 \\(2r\\)、高為 \\(2r\\)。求總體積。",
+        "solution": "Frustum volume \\(=\\frac13\\pi(2r)[(2r)^2+(2r)r+r^2]=\\frac{14}{3}\\pi r^3\\). Add hemisphere volume \\(\\frac23\\pi r^3\\): total \\(\\frac{16}{3}\\pi r^3\\text{ cm}^3\\). Answer: A.",
+        "solutionZh": "截頭錐體積 \\(=\\frac13\\pi(2r)[(2r)^2+(2r)r+r^2]=\\frac{14}{3}\\pi r^3\\)。加上半球體積 \\(\\frac23\\pi r^3\\)，總體積為 \\(\\frac{16}{3}\\pi r^3\\text{ cm}^3\\)。答案 A。",
+        "answer": "A",
+        "hint": "",
+        "hintZh": ""
+      },
+      "adaptation": {
+        "en": "Corrected text edition: the original English volume question and cubic-unit options are retained; conflicting Chinese wording and source solution are corrected.",
+        "zh-Hant": "修訂文字版：依原英文「體積」要求及原有立方單位選項，修正中文與來源解析的歧義；所有條件已在文字列明。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-m083",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 83,
+      "sourceId": "MENS-M083",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Source English explicitly requests volume and all original options have cubic units. Chinese area/numerical-radius drift corrected to this coherent English edition. Exact frustum and hemisphere volumes independently re-derived.",
+      "overrides": {
+        "stem": "A solid consists of a right circular frustum and a hemisphere. The frustum is 8 cm high, with base radii 5 cm and 3 cm, and the hemisphere has radius 5 cm. They meet along their common circular base of radius 5 cm. Find the total volume.",
+        "stemZh": "一立體由一直立圓錐的截頭錐及半球組成。截頭錐高 8 cm，上下底半徑分別為 3 cm 及 5 cm；半球半徑為 5 cm。兩部分沿半徑為 5 cm 的共同圓形底面接合。求總體積。",
+        "solution": "The frustum volume is \\(\\frac{8\\pi}{3}(5^2+5\\cdot3+3^2)=\\frac{392}{3}\\pi\\). The hemisphere volume is \\(\\frac23\\pi(5)^3=\\frac{250}{3}\\pi\\). The total is \\(214\\pi\\text{ cm}^3\\). Answer: C.",
+        "solutionZh": "截頭錐體積 \\(\\frac{8\\pi}{3}(5^2+5\\cdot3+3^2)=\\frac{392}{3}\\pi\\)，半球體積 \\(\\frac23\\pi(5)^3=\\frac{250}{3}\\pi\\)。相加得 \\(214\\pi\\text{ cm}^3\\)，答案 C。",
+        "answer": "C",
+        "hint": "",
+        "hintZh": ""
+      },
+      "adaptation": {
+        "en": "Corrected text edition: the original English volume question and cubic-unit options are retained; conflicting Chinese wording and source solution are corrected.",
+        "zh-Hant": "修訂文字版：依原英文「體積」要求及原有立方單位選項，修正中文與來源解析的歧義；所有條件已在文字列明。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-m096",
+      "sourceTopic": "mensuration",
+      "kind": "mc",
+      "sourceRow": 96,
+      "sourceId": "MENS-M096",
+      "reasons": [
+        "answer-solution-letter-conflict",
+        "impossible-sector-perimeter-and-radius"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "EN radius 3pi with perimeter 12 is impossible; ZH perimeter 12pi differs. Statements/options/solutions disagree. Not recoverable as the same original question without choosing new givens.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-l001",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 1,
+      "sourceId": "MENS-L001",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Prism label DE=10 needs the original edge assignment: standard ABCD/EFGH labelling does not make DE the perpendicular prism length. Source solution assumes it is the length.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-l004",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 4,
+      "sourceId": "MENS-L004",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "overrides": {
+        "stem": "5. Consider the sector \\(OABC\\) of area \\(1215\\pi\\text{ cm}^2\\). The angle of the sector is \\(216^\\circ\\).\n\n(a) Find the radius of the sector.\n\n(b) By joining \\(OA\\) and \\(OC\\) together, \\(OABC\\) is folded to form an inverted right circular conical vessel. Express the capacity of the vessel in terms of \\(\\pi\\).\n(4 marks)",
+        "stemZh": "5. 扇形 \\(OABC\\) 的面積為 \\(1215\\pi\\text{ cm}^2\\)，圓心角為 \\(216^\\circ\\)。\n\n(a) 求扇形的半徑。\n\n(b) 將 \\(OA\\) 及 \\(OC\\) 接合，把 \\(OABC\\) 摺成一個倒置直立圓錐形容器。以 \\(\\pi\\) 表示該容器的容量。\n（4 分）"
+      },
+      "adaptation": {
+        "en": "Self-contained text edition: all required measurements and relationships are stated; the incidental sketch reference is omitted.",
+        "zh-Hant": "完整文字版：所需尺寸及幾何關係已全部列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l007",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 7,
+      "sourceId": "MENS-L007",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Cone immersion depth depends on which end is down and how its base touches the hemisphere. This placement exists only in the missing figure.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-l008",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 8,
+      "sourceId": "MENS-L008",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "overrides": {
+        "stem": "14. A vessel in the form of a frustum which is made by cutting off the lower part of an inverted right circular cone of base radius \\(72\\) cm and height \\(96\\) cm. The height of the vessel is \\(60\\) cm. The vessel is placed on a horizontal table. Some water is now poured into the vessel. John finds that the depth of water in the vessel is \\(28\\) cm.\n\n(a) Find the area of the wet curved surface of the vessel in terms of \\(\\pi\\).\n\n(b) John claims that the volume of water in the vessel is greater than \\(0.1\\text{ m}^3\\). Do you agree? Explain your answer.\n(8 marks)",
+        "stemZh": "14. 一個截頭錐形容器，由切除一個底半徑 \\(72\\) cm、高 \\(96\\) cm 的倒置直立圓錐的下部而成。容器的高度為 \\(60\\) cm，放在水平桌上。現將一些水倒入容器，John 發現水深為 \\(28\\) cm。\n\n(a) 以 \\(\\pi\\) 求容器的濕曲面面積。\n\n(b) John 聲稱容器中的水體積大於 \\(0.1\\text{ m}^3\\)。你是否同意？試解釋你的答案。\n（8 分）"
+      },
+      "adaptation": {
+        "en": "Self-contained text edition: all required measurements and relationships are stated; the incidental sketch reference is omitted.",
+        "zh-Hant": "完整文字版：所需尺寸及幾何關係已全部列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l010",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 10,
+      "sourceId": "MENS-L010",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "overrides": {
+        "stem": "13. \\(ABCD\\) is a trapezium with \\(\\angle ABC=90^\\circ\\) and \\(AB\\parallel DC\\). \\(E\\) is a point lying on \\(BC\\) such that \\(\\angle AED=90^\\circ\\).\n\n(a) Prove that \\(\\triangle ABE\\sim\\triangle ECD\\).\n\n(b) It is given that \\(AB=15\\) cm, \\(AE=25\\) cm and \\(CE=36\\) cm.\n\n(i) Find the length of \\(CD\\).\n(ii) Find the area of \\(\\triangle ADE\\).\n(iii) Is there a point \\(F\\) lying on \\(AD\\) such that the distance between \\(E\\) and \\(F\\) is less than \\(23\\) cm? Explain your answer.\n(8 marks)",
+        "stemZh": "13. \\(ABCD\\) 為梯形，\\(\\angle ABC=90^\\circ\\) 且 \\(AB\\parallel DC\\)。\\(E\\) 為 \\(BC\\) 上的一點，使得 \\(\\angle AED=90^\\circ\\)。\n\n(a) 證明 \\(\\triangle ABE\\sim\\triangle ECD\\)。\n\n(b) 已知 \\(AB=15\\) cm、\\(AE=25\\) cm 及 \\(CE=36\\) cm。\n\n(i) 求 \\(CD\\) 的長度。\n(ii) 求 \\(\\triangle ADE\\) 的面積。\n(iii) \\(AD\\) 上是否存在一點 \\(F\\)，使得 \\(E\\) 與 \\(F\\) 的距離小於 \\(23\\) cm？試解釋你的答案。\n（8 分）"
+      },
+      "adaptation": {
+        "en": "Self-contained text edition: all required measurements and relationships are stated; the incidental sketch reference is omitted.",
+        "zh-Hant": "完整文字版：所需尺寸及幾何關係已全部列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l015",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 15,
+      "sourceId": "MENS-L015",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Source solution assumes exactly half the sphere displaces water, requiring the sphere centre at the rim. Placement/contact must be confirmed from the source diagram.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-l019",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 19,
+      "sourceId": "MENS-L019",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "overrides": {
+        "stem": "10. A frustum of height \\(8\\) cm is made by cutting off the upper part of a solid right circular cone of base radius \\(10\\) cm. It is given that the ratio of the height of the smaller circular cone removed to the height of the frustum is \\(2:3\\). Consider the solid \\(P\\) which is formed by fixing the frustum on top of a solid right circular cylinder of base radius \\(10\\) cm.\n\n(a) Find the height and the base radius of the smaller circular cone removed.\n\n(b) If the height of the circular cylinder is \\(4\\) cm, is the total surface area of solid \\(P\\) larger than \\(1000\\text{ cm}^2\\)? Explain your answer.",
+        "stemZh": "10. 一個高 \\(8\\) cm 的截頭錐，由切除一個底半徑 \\(10\\) cm 的實心直立圓錐的上部造成。已知切除的小圓錐高與截頭錐高之比為 \\(2:3\\)。將該截頭錐固定在一個底半徑 \\(10\\) cm 的實心直立圓柱頂部而成的立體 \\(P\\)。\n\n(a) 求切除的小圓錐的高及底半徑。\n\n(b) 若圓柱的高為 \\(4\\) cm，立體 \\(P\\) 的總表面積是否大於 \\(1000\\text{ cm}^2\\)？試解釋你的答案。"
+      },
+      "adaptation": {
+        "en": "Self-contained text edition: all required measurements and relationships are stated; the incidental sketch reference is omitted.",
+        "zh-Hant": "完整文字版：所需尺寸及幾何關係已全部列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l026",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 26,
+      "sourceId": "MENS-L026",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "overrides": {
+        "stem": "14. A solid right circular cone is divided into a circular cone \\(X\\) and a frustum \\(Y\\) by a plane parallel to its base. The height and the base radius of \\(X\\) are 8 cm and 6 cm respectively. It is found that \\(Y\\) has the same volume as another right circular cone which has height and base radius equal to 13 cm and 18 cm respectively.\n\n(a) Find the height of \\(Y\\).\n\n(b) Express the total surface area of \\(Y\\) in terms of \\(\\pi\\).\n\n(c) \\(Z\\) is a sphere with surface area equal to the total surface area of \\(Y\\). Someone claims that the volume of \\(Z\\) exceeds the volume of \\(Y\\) by more than \\(1000 \\pi \\mathrm{~cm}^{3}\\). Is the claim correct? Explain your answer.",
+        "stemZh": "14. 一個實心直立圓錐被一個平行於底面的平面分成一個圓錐 \\(X\\) 及一個截頭錐 \\(Y\\)。\\(X\\) 的高及底半徑分別為 \\(8\\) cm 及 \\(6\\) cm。已知 \\(Y\\) 的體積等於另一個高 \\(13\\) cm、底半徑 \\(18\\) cm 的直立圓錐的體積。\n\n(a) 求 \\(Y\\) 的高。\n\n(b) 以 \\(\\pi\\) 表示 \\(Y\\) 的總表面積。\n\n(c) \\(Z\\) 為一個球，其表面積等於 \\(Y\\) 的總表面積。某人聲稱 \\(Z\\) 的體積比 \\(Y\\) 的體積多超過 \\(1000\\pi\\text{ cm}^3\\)。該聲稱是否正確？試解釋你的答案。"
+      },
+      "adaptation": {
+        "en": "Self-contained text edition: all required measurements and relationships are stated; the incidental sketch reference is omitted.",
+        "zh-Hant": "完整文字版：所需尺寸及幾何關係已全部列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l027",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 27,
+      "sourceId": "MENS-L027",
+      "reasons": [
+        "ocr-damaged-solution"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "solution": "(a) Let the radii of X and the whole cone be r and R. Similarity gives \\(R=5r/3\\). Thus \\(31360=\\frac{30}{3}(R^2+Rr+r^2)=\\frac{490}{9}r^2\\), so \\(r=24\\) cm and \\(R=40\\) cm.\n\n(b) Frustum slant height \\(s=\\sqrt{30^2+16^2}=34\\) cm. Total area \\(\\pi(40+24)(34)+\\pi(40^2+24^2)=4352\\pi\\text{ cm}^2\\).\n\n(c) For the cylinder, \\(2\\pi(32)h+2\\pi(32)^2=4352\\pi\\), so \\(h=36\\) cm and \\(V=\\pi(32)^2(36)=36864\\pi\\text{ cm}^3\\).",
+        "solutionZh": "(a) 設小錐及原錐半徑為 r、R。相似給出 \\(R=5r/3\\)，故 \\(31360=\\frac{30}{3}(R^2+Rr+r^2)=\\frac{490}{9}r^2\\)，得 \\(r=24\\) cm、\\(R=40\\) cm。\n\n(b) 截頭錐斜高 \\(s=\\sqrt{30^2+16^2}=34\\) cm。總面積 \\(\\pi(40+24)(34)+\\pi(40^2+24^2)=4352\\pi\\text{ cm}^2\\)。\n\n(c) 圓柱滿足 \\(2\\pi(32)h+2\\pi(32)^2=4352\\pi\\)，得 \\(h=36\\) cm，故 \\(V=\\pi(32)^2(36)=36864\\pi\\text{ cm}^3\\)。"
+      },
+      "assessment": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Worked solution independently re-derived from the original question; damaged source solution replaced.",
+        "zh-Hant": "解析按原題條件重新推導，取代來源中損壞或不完整的解析。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l028",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 28,
+      "sourceId": "MENS-L028",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Heights I/II/III are stated but their ordering from apex to base is shown only in the missing figure. Source solution places I next to the base; cannot guess that ordering.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-l030",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 30,
+      "sourceId": "MENS-L030",
+      "reasons": [
+        "solution-repeats-question"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "solution": "(a) Similarity gives the water radius \\(r=3h/4\\), so \\(V(h)=3\\pi h^3/16\\). At depth 8 cm, \\(V=96\\pi\\text{ cm}^3\\).\n\n(b)(i) The immersed sphere displaces \\(\\frac43\\pi(3)^3=36\\pi\\text{ cm}^3\\). Thus \\(3\\pi h^3/16=132\\pi\\), giving \\(h=\\sqrt[3]{704}\\approx8.896\\text{ cm}\\).\n\n(ii) The cone slant length up to depth h is \\(5h/4\\), so its wet area is \\(15\\pi h^2/16\\). The percentage increase is \\(100[(704^{1/3}/8)^2-1]\\approx23.65\\%\\), below 24%. Disagree.",
+        "solutionZh": "(a) 由相似，水面半徑 \\(r=3h/4\\)，故 \\(V(h)=3\\pi h^3/16\\)。水深 8 cm 時，水量為 \\(96\\pi\\text{ cm}^3\\)。\n\n(b)(i) 完全浸入的球排開 \\(\\frac43\\pi(3)^3=36\\pi\\text{ cm}^3\\)。所以 \\(3\\pi h^3/16=132\\pi\\)，得 \\(h=\\sqrt[3]{704}\\approx8.896\\text{ cm}\\)。\n\n(ii) 水深 h 對應的斜高為 \\(5h/4\\)，濕面積為 \\(15\\pi h^2/16\\)。增幅 \\(100[(704^{1/3}/8)^2-1]\\approx23.65\\%\\)，少於 24%，故不同意。"
+      },
+      "assessment": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Worked solution independently re-derived from the original question; damaged source solution replaced.",
+        "zh-Hant": "解析按原題條件重新推導，取代來源中損壞或不完整的解析。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l032",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 32,
+      "sourceId": "MENS-L032",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Source only gives a final percentage for (a)(ii)/(b), without complete wet-area derivation; initial cone orientation is referenced through the missing figure. Needs a verified diagram/complete solution.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-l034",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 34,
+      "sourceId": "MENS-L034",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Sector radius alone does not determine cone height; sector angle missing and final part (c) empty.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-l039",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 39,
+      "sourceId": "MENS-L039",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "overrides": {
+        "stem": "13. A closed vessel with some water, which is in the form of an inverted right circular cone. The base radius and the height of the cone are 18 cm and 24 cm respectively. Kelly finds that the depth of water in the vessel is 8 cm.\n\n(a) (i) Find the radius of the water surface.\n(ii) Find the area of the wet curved surface of the vessel in terms of \\(\\pi\\).\n\n(b) Kelly turns the vessel upside down.\n\n(i) Find the new depth of water, correct to 1 decimal place.\n(ii) Kelly claims that the wet curved surface of the vessel has increased. Do you agree? Explain your answer.\n(7 marks)",
+        "stemZh": "一個封閉的倒置直立圓錐形容器內有一些水。圓錐底半徑為 18 cm、高為 24 cm，初始水深為 8 cm。\n(a)(i) 求水面半徑。\n(ii) 以圓周率表示容器的濕曲面面積。\n(b) Kelly 把容器上下倒轉。\n(i) 求新水深，準確至一位小數。\n(ii) Kelly 聲稱容器的濕曲面面積增加了。你是否同意？解釋答案。（7 分）"
+      },
+      "adaptation": {
+        "en": "Self-contained text edition: all required measurements and relationships are stated; the incidental sketch reference is omitted.",
+        "zh-Hant": "完整文字版：所需尺寸及幾何關係已全部列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l040",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 40,
+      "sourceId": "MENS-L040",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "overrides": {
+        "stem": "12. The capacity of a hemispherical container is \\(486 \\pi \\mathrm{~cm}^{3}\\). The ratio of the base radius to the height of an inverted right circular conical vessel is \\(3: 2\\). The base radius of the vessel is 3 times the radius of the container.\n\n(a) Find the capacity of the vessel in terms of \\(\\pi\\). (3 marks)\n\n(b) Both the container and the vessel are held vertically. The container is fully filled with water. The water in the container is now poured into the vessel.\n\n(i) Find the depth of water in the vessel.\n(ii) A student then puts \\(n\\) solid metal spheres of radius 2 cm into the vessel and the spheres are totally immersed in the water. Find the least value of \\(n\\) such that the depth of water in the vessel is increased by at least 7 cm . (4 marks)",
+        "stemZh": "12. 一個半球形容器的容量為 \\(486\\pi\\text{ cm}^3\\)。一個倒置直立圓錐形容器的底半徑與高之比為 \\(3:2\\)，其底半徑為容器半徑的 \\(3\\) 倍。\n\n(a) 以 \\(\\pi\\) 求圓錐容器的容量。（3 分）\n\n(b) 兩個容器均垂直放置，半球容器完全注滿水，現將水倒入圓錐容器。\n\n(i) 求圓錐容器中水深。\n(ii) 某學生再將 \\(n\\) 個半徑 \\(2\\) cm 的實心金屬球放入圓錐容器，球完全浸入水中。求 \\(n\\) 的最小值，使圓錐容器中水深增加至少 \\(7\\) cm。（4 分）",
+        "solution": "(a) \\(\\frac23\\pi r^3=486\\pi\\) gives \\(r=9\\) cm. The cone has radius 27 cm and height 18 cm, so its capacity is \\(4374\\pi\\text{ cm}^3\\). (b)(i) Its volume below depth h is \\(3\\pi h^3/4\\). Thus \\(h_0=\\sqrt[3]{648}\\approx8.6535\\) cm. (ii) For an increase of at least 7 cm, \\(486+\\frac{32n}{3}\\geq\\frac34(h_0+7)^3\\), giving \\(n\\geq224.1287\\). The least integer is 225."
+      },
+      "adaptation": {
+        "en": "Self-contained text edition: all required measurements and relationships are stated; the incidental sketch reference is omitted.",
+        "zh-Hant": "完整文字版：所需尺寸及幾何關係已全部列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l053",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 53,
+      "sourceId": "MENS-L053",
+      "reasons": [
+        "ocr-damaged-solution"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "solution": "(a) The cumulative heights from the vertex are in the ratio \\(3:5:6\\). Volumes of similar cones scale as the cube, so \\(X:Y:Z=27:(125-27):(216-125)=27:98:91\\).\n\n(b)(i) The full cone volume is \\(\\frac13\\pi(18)^2(24)=2592\\pi\\). Thus \\(V_Z=2592\\pi\\cdot91/216=1092\\pi\\text{ cm}^3\\).\n\n(ii) Full slant height is \\(\\sqrt{18^2+24^2}=30\\). Curved areas scale as the square: \\(S_Y=\\pi(18)(30)[(5/6)^2-(3/6)^2]=240\\pi\\text{ cm}^2\\).",
+        "solutionZh": "(a) 從頂點起量的累積高度比是 \\(3:5:6\\)。相似圓錐體積按三次方變化，故 \\(X:Y:Z=27:(125-27):(216-125)=27:98:91\\)。\n\n(b)(i) 原錐體積為 \\(\\frac13\\pi(18)^2(24)=2592\\pi\\)，所以 \\(V_Z=2592\\pi\\cdot91/216=1092\\pi\\text{ cm}^3\\)。\n\n(ii) 原錐斜高為 \\(\\sqrt{18^2+24^2}=30\\)。曲面積按二次方變化，故 \\(S_Y=\\pi(18)(30)[(5/6)^2-(3/6)^2]=240\\pi\\text{ cm}^2\\)。"
+      },
+      "assessment": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Worked solution independently re-derived from the original question; damaged source solution replaced.",
+        "zh-Hant": "解析按原題條件重新推導，取代來源中損壞或不完整的解析。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l082",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 82,
+      "sourceId": "MENS-L082",
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Cone resting position in the bowl is needed to determine wet area; source solution stops at a Pythagoras hint and is incomplete.",
+      "overrides": {}
+    },
+    {
+      "id": "import-mensuration-mens-l091",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 91,
+      "sourceId": "MENS-L091",
+      "reasons": [
+        "missing-same-question-visual",
+        "unbalanced-math-solution"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "recover",
+      "assessment": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "overrides": {
+        "stem": "12. Four solid metal right circular cone of base radius 25 cm and height 28 cm are melted and recast into two different hemispheres. Given that the ratio of the radius of the smaller hemisphere to the radius of the larger hemisphere is \\(2: 3\\).\n\n(a) Find the volume of the larger hemisphere in terms of \\(\\pi\\). (3 marks)\n\n(b) Find the percentage change in total surface area. (4 marks)",
+        "stemZh": "12. 四個底半徑 \\(25\\) cm、高 \\(28\\) cm 的實心金屬直立圓錐熔化後，重鑄成兩個不同的半球。已知較小半球與較大半球的半徑比為 \\(2:3\\)。\n\n(a) 以 \\(\\pi\\) 求較大半球的體積。（3 分）\n\n(b) 求總表面積的百分數變化。（4 分）",
+        "solution": "(a) Total metal volume is \\(4\\cdot\\frac13\\pi(25)^2(28)=70000\\pi/3\\). Let the hemisphere radii be \\(2t,3t\\). Then \\(\\frac23\\pi[(2t)^3+(3t)^3]=70000\\pi/3\\), so \\(t=10\\). The larger hemisphere volume is \\(\\frac23\\pi(30)^3=18000\\pi\\text{ cm}^3\\). (b) Original total area is \\(4\\pi[25\\sqrt{25^2+28^2}+25^2]=(2500+100\\sqrt{1409})\\pi\\). Final total area, including both flat bases, is \\(3\\pi(20^2+30^2)=3900\\pi\\). The change is \\(100[3900/(2500+100\\sqrt{1409})-1]\\approx-37.64\\%\\), a decrease."
+      },
+      "adaptation": {
+        "en": "Self-contained text edition: all required measurements and relationships are stated; the incidental sketch reference is omitted.",
+        "zh-Hant": "完整文字版：所需尺寸及幾何關係已全部列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-mensuration-mens-l132",
+      "sourceTopic": "mensuration",
+      "kind": "long",
+      "sourceRow": 132,
+      "sourceId": "MENS-L132",
+      "reasons": [
+        "ocr-damaged-solution"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "solution": "(a) \\(20250=\\frac13(45)^2H\\), hence \\(H=30\\) cm. There is no pi in a square pyramid volume.\n\n(b)(i) \\(V_Q=20250-9882=10368\\). The linear scale is \\((10368/20250)^{1/3}=4/5\\), so Q has height 24 cm and base side 36 cm.\n\n(ii) Face slant height \\(s=\\sqrt{24^2+18^2}=30\\) cm. Its total area is \\(36^2+4(\\frac12\\cdot36\\cdot30)=3456\\text{ cm}^2\\).\n\n(iii) If X and Q were similar, their height ratio would be \\(16/24=2/3\\), so X would have total area \\(3456(2/3)^2=1536\\text{ cm}^2\\). This differs from 1024, so they are not similar.",
+        "solutionZh": "(a) \\(20250=\\frac13(45)^2H\\)，得 \\(H=30\\) cm。正方形底錐體的體積公式沒有圓周率。\n\n(b)(i) \\(V_Q=20250-9882=10368\\)。長度比為 \\((10368/20250)^{1/3}=4/5\\)，所以 Q 高 24 cm、底邊長 36 cm。\n\n(ii) 側面斜高 \\(s=\\sqrt{24^2+18^2}=30\\) cm。總面積 \\(36^2+4(\\frac12\\cdot36\\cdot30)=3456\\text{ cm}^2\\)。\n\n(iii) 若 X 與 Q 相似，高度比為 \\(16/24=2/3\\)，則 X 的總面積應為 \\(3456(2/3)^2=1536\\text{ cm}^2\\)，並非 1024，故不相似。"
+      },
+      "assessment": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Worked solution independently re-derived from the original question; damaged source solution replaced.",
+        "zh-Hant": "解析按原題條件重新推導，取代來源中損壞或不完整的解析。"
+      }
+    },
+    {
+      "id": "import-locus-f4d7095d86410b0c",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 8,
+      "sourceId": null,
+      "reasons": [
+        "invalid-answer",
+        "source-reports-invalid-question-or-options",
+        "unbalanced-math-solutionZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Perpendicular bisector forces k=4, but radius squared is -48: no real circle. Source is mathematically inconsistent.",
+      "overrides": {}
+    },
+    {
+      "id": "import-locus-4de4ccc36d5026d7",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 9,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(O=(0,0)\\) and \\(A=(3,0)\\). A moving point \\(P\\) satisfies \\(OP=2AP\\). Find and describe its locus.",
+        "solution": "Squaring gives \\(x^2+y^2=4[(x-3)^2+y^2]\\). Hence \\((x-4)^2+y^2=4\\): a circle with centre \\((4,0)\\) and radius 2.",
+        "solutionZh": "平方得 \\(x^2+y^2=4[(x-3)^2+y^2]\\)，整理為 \\((x-4)^2+y^2=4\\)。軌跡是圓心 \\((4,0)\\)、半徑 2 的圓。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-5ad7ff017f01f61f",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 12,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "The line \\(2x-y-8=0\\) meets the x- and y-axes at \\(A,B\\), respectively. Find the locus of \\(P\\) satisfying \\(AP=BP\\).",
+        "solution": "\\(A=(4,0),B=(0,-8)\\). Equating squared distances gives \\((x-4)^2+y^2=x^2+(y+8)^2\\), so \\(x+2y+6=0\\).",
+        "solutionZh": "\\(A=(4,0),B=(0,-8)\\)。由 \\((x-4)^2+y^2=x^2+(y+8)^2\\)，得 \\(x+2y+6=0\\)，即 AB 的中垂線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-ff803a24a3e0d94e",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 14,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "The circle \\(x^2+y^2-6x+10y-66=0\\) has centre \\(G\\). Let \\(A=(-3,3)\\). Find the locus of \\(P\\) satisfying \\(AP=GP\\).",
+        "solution": "\\(G=(3,-5)\\). From \\((x+3)^2+(y-3)^2=(x-3)^2+(y+5)^2\\), obtain \\(3x-4y-4=0\\).",
+        "solutionZh": "配方得 \\(G=(3,-5)\\)。由 \\((x+3)^2+(y-3)^2=(x-3)^2+(y+5)^2\\)，得 \\(3x-4y-4=0\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-5958937aeb20c640",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 15,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "A point \\(P\\) remains at a fixed distance \\(d\\geq0\\) from \\(L:5x+7y=94\\). Describe its locus, including the case \\(d=0\\).",
+        "solution": "\\(|5x+7y-94|=d\\sqrt{74}\\). If \\(d>0\\), the locus is two parallel lines \\(5x+7y-94=\\pm d\\sqrt{74}\\). If \\(d=0\\), it is L itself.",
+        "solutionZh": "\\(|5x+7y-94|=d\\sqrt{74}\\)。若 \\(d>0\\)，軌跡為兩條平行線 \\(5x+7y-94=\\pm d\\sqrt{74}\\)；若 \\(d=0\\)，軌跡就是 L。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": "",
+        "stemZh": "動點 \\(P\\) 與直線 \\(5x+7y=94\\) 保持固定距離 \\(d\\geq0\\)。描述其軌跡，包括 \\(d=0\\) 的情況。"
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-2768b240986133e2",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 16,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(A=(5,8),B=(6,-7)\\). Find the locus of a moving point \\(P\\) satisfying \\(PA=AB\\).",
+        "solution": "\\(AB^2=1^2+(-15)^2=226\\). Thus \\((x-5)^2+(y-8)^2=226\\).",
+        "solutionZh": "\\(AB^2=1^2+(-15)^2=226\\)。軌跡為 \\((x-5)^2+(y-8)^2=226\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-ae3fb32f55ff0c8c",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 17,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "The line \\(5x+8y+40=0\\) meets the x- and y-axes at \\(A,B\\), respectively. Find the locus of \\(P\\) satisfying \\(AP=AB\\).",
+        "solution": "\\(A=(-8,0),B=(0,-5)\\), so \\(AB^2=89\\). The locus is \\((x+8)^2+y^2=89\\).",
+        "solutionZh": "\\(A=(-8,0),B=(0,-5)\\)，故 \\(AB^2=89\\)。軌跡為 \\((x+8)^2+y^2=89\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-819c87812b652840",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 28,
+      "sourceId": null,
+      "reasons": [
+        "invalid-answer",
+        "source-reports-invalid-question-or-options"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "C at midpoint AB gives coincident lines; otherwise both angle bisectors. A written case-analysis adaptation is possible, but original MC lacks a complete valid choice.",
+      "overrides": {}
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 49,
+      "sourceId": null,
+      "reasons": [
+        "invalid-answer",
+        "source-reports-invalid-question-or-options"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "26. The coordinates of the points \\(A\\) and \\(B\\) are \\((-3,4)\\) and \\((6,8)\\) respectively. Let \\(P\\) be a moving point such that \\(P\\) is equidistant from \\(O A\\) and \\(O B\\), where \\(O\\) is the origin. Find the equation of the locus of \\(P\\).",
+        "solution": "\\(OA:4x+3y=0\\) and \\(OB:4x-3y=0\\), with equal normal lengths. Thus \\(|4x+3y|=|4x-3y|\\), giving \\(x=0\\) or \\(y=0\\). Both axes form the complete locus.",
+        "solutionZh": "\\(OA:4x+3y=0\\)、\\(OB:4x-3y=0\\)，兩法向量長度相同。由 \\(|4x+3y|=|4x-3y|\\)，得 \\(x=0\\) 或 \\(y=0\\)。完整軌跡包含兩條坐標軸。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-8e722eb03f0dab72",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 50,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(L_1:3x+8y-12=0,L_2:9x+24y=0\\). Find the locus of \\(P\\) whose perpendicular distances to \\(L_1,L_2\\) are in the ratio \\(3:5\\).",
+        "solution": "Put \\(u=3x+8y\\). Normalising both line equations gives \\(5|u-12|=3|u|\\). The branches yield \\(u=30\\) or \\(u=15/2\\), two parallel lines.",
+        "solutionZh": "設 \\(u=3x+8y\\)。把兩直線方程正規化後得 \\(5|u-12|=3|u|\\)，兩分支給出 \\(u=30\\) 或 \\(u=15/2\\)，即兩條平行線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-7ee1b449b5eedaa3",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 51,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(M=(4,4),N=(-4,-4),O=(0,0)\\). Find the locus of \\(P\\) satisfying \\(OP=OM\\).",
+        "solution": "\\(OM^2=32\\), so \\(x^2+y^2=32\\), the circle with diameter MN.",
+        "solutionZh": "\\(OM^2=32\\)，故 \\(x^2+y^2=32\\)，即以 MN 為直徑的圓。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-0549dc09e7dec6d0",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 52,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(O=(0,0),H=(4,0),K=(3,5)\\). Find the locus of \\(P\\) satisfying \\(PH=HK\\).",
+        "solution": "\\(HK^2=(-1)^2+5^2=26\\). Thus \\((x-4)^2+y^2=26\\).",
+        "solutionZh": "\\(HK^2=(-1)^2+5^2=26\\)，故 \\((x-4)^2+y^2=26\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-e1a6eb412b89dc4f",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 53,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(A=(1,5),B=(p,q)\\). The locus of \\(P\\) satisfying \\(AP=BP\\) is \\(x+2y-16=0\\). Find \\(p+q\\).",
+        "solution": "The given line is the perpendicular bisector of AB. Reflect A in it: \\(B=(1,5)-2(-5)(1,2)/5=(3,9)\\). Hence \\(p+q=12\\).",
+        "solutionZh": "已知直線是 AB 的中垂線。把 A 反射：\\(B=(1,5)-2(-5)(1,2)/5=(3,9)\\)，所以 \\(p+q=12\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-5b4f007a3b83e572",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 55,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Find the locus of a point \\(P\\) equidistant from \\(A=(2,5)\\) and \\(B=(1,-6)\\).",
+        "solution": "Equate \\((x-2)^2+(y-5)^2=(x-1)^2+(y+6)^2\\). The locus is \\(x+11y+4=0\\), the perpendicular bisector of AB.",
+        "solutionZh": "由 \\((x-2)^2+(y-5)^2=(x-1)^2+(y+6)^2\\)，得 \\(x+11y+4=0\\)，即 AB 的中垂線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-94e6769a5d5f811e",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 72,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Distinct points \\(A,B\\) lie on \\(4x-7y+k=0\\). The locus of \\(P\\) satisfying \\(AP^2+BP^2=AB^2\\) is \\(x^2+y^2-8x-6y+21=0\\). Find \\(k\\).",
+        "solution": "The locus is the circle with diameter AB. Its centre \\((4,3)\\) is the midpoint of AB and lies on their line. Thus \\(16-21+k=0\\), so \\(k=5\\).",
+        "solutionZh": "軌跡是以 AB 為直徑的圓，圓心 \\((4,3)\\) 是 AB 中點，必在線上。代入得 \\(16-21+k=0\\)，故 \\(k=5\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-781af1d4d83231ae",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 73,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "The line \\(3x+4y=12\\) meets the x- and y-axes at \\(C,D\\), respectively. Find the locus of \\(P\\) satisfying \\(CP=CD\\).",
+        "solution": "\\(C=(4,0),D=(0,3),CD=5\\). Thus \\((x-4)^2+y^2=25\\).",
+        "solutionZh": "\\(C=(4,0),D=(0,3),CD=5\\)。軌跡為 \\((x-4)^2+y^2=25\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-8fb2d0eb4577f92e",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 74,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "The line \\(12x-5y=60\\) meets the x- and y-axes at \\(A,B\\), respectively. Find the locus of \\(P\\) satisfying \\(AP=AB\\).",
+        "solution": "\\(A=(5,0),B=(0,-12),AB=13\\). Thus \\((x-5)^2+y^2=169\\).",
+        "solutionZh": "\\(A=(5,0),B=(0,-12),AB=13\\)。軌跡為 \\((x-5)^2+y^2=169\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-f91186a0882e2eb0",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 88,
+      "sourceId": null,
+      "reasons": [
+        "missing-same-question-visual"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "21. There are two intersecting straight lines \\(L_1\\) and \\(L_2\\). If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L_1\\) is equal to the perpendicular distance from \\(P\\) to \\(L_2\\), then the locus of \\(P\\) is"
+      },
+      "assessment": "Two intersecting lines plus equal perpendicular distances fully determine the two angle bisectors. B is correct; the source sketch supplies no additional given.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Self-contained text edition; the original sketch reference is omitted because all defining conditions are stated.",
+        "zh-Hant": "完整文字版：所有軌跡條件已列明，省去不含額外條件的示意圖引用。"
+      }
+    },
+    {
+      "id": "import-locus-d973a515c63aebf8",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 90,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Horizontal lines \\(L_1,L_2\\) pass through \\(A=(1,-7),B=(-2,5)\\), respectively. Find the locus of \\(P\\) whose perpendicular distance to \\(L_1\\) equals \\(PB\\).",
+        "solution": "\\(L_1:y=-7\\). Equating squared distances gives \\((y+7)^2=(x+2)^2+(y-5)^2\\), hence \\((x+2)^2=24(y+1)\\), a parabola.",
+        "solutionZh": "\\(L_1:y=-7\\)。由 \\((y+7)^2=(x+2)^2+(y-5)^2\\)，得 \\((x+2)^2=24(y+1)\\)，軌跡是拋物線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-f45b38d04a2b5ea5",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 91,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Find the locus of \\(P\\) equidistant from \\(L_1:x-2y=3\\) and \\(L_2:x+2y=-3\\).",
+        "solution": "\\(|x-2y-3|=|x+2y+3|\\). The two branches give \\(y=-3/2\\) or \\(x=0\\). Both perpendicular lines are required.",
+        "solutionZh": "\\(|x-2y-3|=|x+2y+3|\\)，兩分支給出 \\(y=-3/2\\) 或 \\(x=0\\)。須包括這兩條互相垂直的直線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-a437812a2010c9d3",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 93,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(a\\ne0\\). Find the locus of \\(P\\) equidistant from \\(L_1:x+a=0\\) and \\(L_2:y-a=0\\).",
+        "solution": "\\(|x+a|=|y-a|\\), so \\(y=x+2a\\) or \\(y=-x\\). Both lines meet at \\((-a,a)\\).",
+        "solutionZh": "\\(|x+a|=|y-a|\\)，故 \\(y=x+2a\\) 或 \\(y=-x\\)，兩線交於 \\((-a,a)\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-346224fa914239db",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 94,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(m\\ne0\\). Find and describe the locus of \\(P\\) equidistant from \\(y=mx\\) and \\(y=2mx\\).",
+        "solution": "The lines are distinct and meet at the origin. The locus comprises both angle bisectors, given by \\(\\frac{mx-y}{\\sqrt{m^2+1}}=\\pm\\frac{2mx-y}{\\sqrt{4m^2+1}}\\).",
+        "solutionZh": "兩線相異並交於原點。軌跡為兩條角平分線：\\(\\frac{mx-y}{\\sqrt{m^2+1}}=\\pm\\frac{2mx-y}{\\sqrt{4m^2+1}}\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-e9c70b4525ca5dff",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 95,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Find the locus of \\(P\\) equidistant from \\(L_1:x=2\\) and \\(L_2:y=2x+3\\).",
+        "solution": "\\(|x-2|=|2x-y+3|/\\sqrt5\\). Thus \\(\\sqrt5(x-2)=\\pm(2x-y+3)\\), both angle bisectors through \\((2,7)\\).",
+        "solutionZh": "\\(|x-2|=|2x-y+3|/\\sqrt5\\)，故 \\(\\sqrt5(x-2)=\\pm(2x-y+3)\\)，是通過 \\((2,7)\\) 的兩條角平分線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-6557cc715ce74a31",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 96,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Find the locus of \\(P\\) equidistant from \\(L_1:x-2y-6=0\\) and \\(L_2:4x+2y-10=0\\).",
+        "solution": "Normalise L2 first. Then \\(|x-2y-6|=|2x+y-5|\\), giving \\(x+3y+1=0\\) or \\(3x-y-11=0\\).",
+        "solutionZh": "先把 L2 方程除以 2。由 \\(|x-2y-6|=|2x+y-5|\\)，得 \\(x+3y+1=0\\) 或 \\(3x-y-11=0\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-63da3c21da666cc7",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 98,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "A point \\(P\\) is equidistant from \\(x=-1\\) and \\(y=1\\). Which equations form its complete locus? I. \\(x-y=0\\). II. \\(x+y=0\\). III. \\(x-y+2=0\\). Explain.",
+        "solution": "\\(|x+1|=|y-1|\\) gives \\(x+y=0\\) or \\(x-y+2=0\\). Therefore II and III together describe the complete locus; I does not.",
+        "solutionZh": "由 \\(|x+1|=|y-1|\\)，得 \\(x+y=0\\) 或 \\(x-y+2=0\\)。所以 II、III 共同組成完整軌跡，I 不正確。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-e5f79185f3201efd",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 106,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(L_1:6x+2y-9=0,L_2:3x+y+9=0\\). L1 meets the x-axis at A; L2 meets the y-axis at B. The locus \\(\\Gamma\\) is equidistant from the two lines. Test: I. \\(\\Gamma\\parallel L_1\\). II. \\(\\Gamma\\perp AB\\). III. \\(\\Gamma\\) passes through the origin. Explain.",
+        "solution": "The middle parallel is \\(3x+y+9/4=0\\). It has slope -3 and does not pass through the origin. \\(A=(3/2,0),B=(0,-9)\\), so AB has slope 6; the product is -18, not -1. Only I is true.",
+        "solutionZh": "中間平行線是 \\(3x+y+9/4=0\\)，斜率為 -3，亦不經原點。\\(A=(3/2,0),B=(0,-9)\\)，AB 斜率為 6，斜率積 -18 並非 -1。只有 I 正確。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-01b462819a5d22bf",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 109,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(A=(-4,3),B=(0,1)\\). Find the locus of \\(P\\) satisfying \\(\\angle APB=90^\\circ\\), stating any exclusions.",
+        "solution": "The circle with diameter AB has centre \\((-2,2)\\) and squared radius 5. Thus \\((x+2)^2+(y-2)^2=5\\), excluding A and B where the angle is undefined.",
+        "solutionZh": "以 AB 為直徑的圓，圓心為 \\((-2,2)\\)，半徑平方為 5。故 \\((x+2)^2+(y-2)^2=5\\)，須排除角度未定義的端點 A、B。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-641ed6cf2383b3f7",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 118,
+      "sourceId": null,
+      "reasons": [
+        "invalid-answer",
+        "source-reports-invalid-question-or-options"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Statement I lacks its compared object. Cannot determine requested truth combination from source.",
+      "overrides": {}
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 136,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "The reflection of \\(P=(x,y)\\) in the y-axis lies on \\(3x+2y-5=0\\). Find the locus of P.",
+        "solution": "The reflected point is \\((-x,y)\\). Substituting gives \\(-3x+2y-5=0\\).",
+        "solutionZh": "反射像為 \\((-x,y)\\)，代入得 \\(-3x+2y-5=0\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-1041dedc53bd54d3",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 138,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-optionsZh",
+        "missing-stem",
+        "missing-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both stems and all choices missing; solution alone cannot determine original diagram configuration.",
+      "overrides": {}
+    },
+    {
+      "id": "import-locus-28b96bc4e4777fa1",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 139,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Fixed points \\(A,B\\) lie on \\(3x-5y+24=0\\). A point \\(P\\) moves so that triangle PAB has area 3. Describe its locus.",
+        "solution": "The nonzero area requires A and B to be distinct. With fixed base AB, the perpendicular height is \\(6/AB>0\\). The locus is two parallel lines, one on each side of AB, at this distance.",
+        "solutionZh": "面積非零，故 A、B 必相異。固定底 AB 對應的高是 \\(6/AB>0\\)。軌跡是在 AB 兩側、距離皆為此高度的兩條平行線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-0ffc2b3aa04ff5bb",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 140,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Chinese question truncates at a and English/choices are absent; required area/line data only implied by solution, not verified givens.",
+      "overrides": {}
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 142,
+      "sourceId": null,
+      "reasons": [
+        "source-reports-invalid-question-or-options"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "25. The coordinates of the points \\(A\\) and \\(B\\) are \\((4,8)\\) and \\((6,-3)\\) respectively, and \\(O\\) is the origin. If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to the straight line \\(O A\\) is equal to the perpendicular distance from \\(P\\) to the straight line \\(O B\\), then the locus of \\(P\\) is",
+        "solution": "\\(OA:y=2x,OB:y=-x/2\\). Equal distances give \\(|2x-y|=|x+2y|\\), hence \\(x-3y=0\\) or \\(3x+y=0\\). The complete locus contains both angle bisectors.",
+        "solutionZh": "\\(OA:y=2x,OB:y=-x/2\\)。等距條件是 \\(|2x-y|=|x+2y|\\)，故 \\(x-3y=0\\) 或 \\(3x+y=0\\)。完整軌跡包括兩條角平分線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-661754a0273fdbcc",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 144,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Find the locus of \\(P\\) equidistant from \\(5x+4y=26\\) and \\(5x-4y=26\\).",
+        "solution": "\\(|5x+4y-26|=|5x-4y-26|\\), giving \\(y=0\\) or \\(x=26/5\\).",
+        "solutionZh": "\\(|5x+4y-26|=|5x-4y-26|\\)，得 \\(y=0\\) 或 \\(x=26/5\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-0f10207b3c4041cb",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 145,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "The distance from \\(P\\) to \\(L:4x+y-8=0\\) equals its distance to the x-axis. Test: I. The locus is one line of slope -4. II. It is two lines. III. It passes through \\((2,0)\\). Explain.",
+        "solution": "\\(|4x+y-8|=\\sqrt{17}|y|\\). The branches are \\(4x+(1\\pm\\sqrt{17})y-8=0\\), two lines through \\((2,0)\\). Only II and III are true.",
+        "solutionZh": "\\(|4x+y-8|=\\sqrt{17}|y|\\)。兩分支是 \\(4x+(1\\pm\\sqrt{17})y-8=0\\)，皆經過 \\((2,0)\\)。只有 II、III 正確。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-1451a52a342d6181",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 146,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "The distance from \\(P\\) to \\(y=-4\\) equals the distance from the origin to \\((0,1)\\). Find the locus of P.",
+        "solution": "The fixed distance is 1. Thus \\(|y+4|=1\\), so \\(y=-3\\) or \\(y=-5\\).",
+        "solutionZh": "固定距離為 1。由 \\(|y+4|=1\\)，得 \\(y=-3\\) 或 \\(y=-5\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-996bae734f95aaf8",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 147,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(\\ell_1:x-2y+4=0,\\ell_2:3x-6y-8=0\\). The first meets the x-axis at A; the second meets the y-axis at B. The locus \\(\\Gamma\\) is equidistant from the lines. Test: I. \\(\\Gamma\\parallel\\ell_1\\). II. \\(\\Gamma:3x-6y-2=0\\). III. \\(\\Gamma\\) bisects AB. Explain.",
+        "solution": "The middle parallel is \\(3x-6y+2=0\\), so I is true and II is false. \\(A=(-4,0),B=(0,-4/3)\\); their midpoint \\((-2,-2/3)\\) lies on it, so III is true.",
+        "solutionZh": "中間平行線為 \\(3x-6y+2=0\\)，所以 I 對、II 錯。\\(A=(-4,0),B=(0,-4/3)\\)，中點 \\((-2,-2/3)\\) 在線上，故 III 對。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-60ff172b3837db5b",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 150,
+      "sourceId": null,
+      "reasons": [
+        "invalid-answer",
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Does not exclude origin endpoints or coincident OA/OB. No choices or English. Original requested answer is undefined for permitted cases.",
+      "overrides": {}
+    },
+    {
+      "id": "import-locus-a7fb257cec5d1471",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 151,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Find the locus of \\(P\\) whose perpendicular distance to \\(2x+7y-10=0\\) is 4.",
+        "solution": "\\(|2x+7y-10|=4\\sqrt{53}\\), hence \\(2x+7y-10=\\pm4\\sqrt{53}\\), two parallel lines.",
+        "solutionZh": "\\(|2x+7y-10|=4\\sqrt{53}\\)，故 \\(2x+7y-10=\\pm4\\sqrt{53}\\)，軌跡為兩條平行線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-7ee569f1d582c8b5",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 152,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "A horizontal line L passes through \\((0,2)\\). Find the locus of \\(P\\) equidistant from \\(A=(2,0)\\) and L.",
+        "solution": "\\(L:y=2\\). Squaring gives \\((x-2)^2+y^2=(y-2)^2\\), hence \\(x^2-4x+4y=0\\), a parabola.",
+        "solutionZh": "\\(L:y=2\\)。由 \\((x-2)^2+y^2=(y-2)^2\\)，得 \\(x^2-4x+4y=0\\)，軌跡為拋物線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 155,
+      "sourceId": null,
+      "reasons": [
+        "invalid-answer",
+        "source-reports-invalid-question-or-options"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "26. The coordinates of the points \\(A\\) and \\(B\\) are \\((-4,4)\\) and \\((2,-2)\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(P A=P B\\). Find the equation of the locus of \\(P\\).",
+        "solution": "\\((x+4)^2+(y-4)^2=(x-2)^2+(y+2)^2\\) simplifies to \\(x-y+2=0\\), the perpendicular bisector of AB.",
+        "solutionZh": "由 \\((x+4)^2+(y-4)^2=(x-2)^2+(y+2)^2\\)，整理得 \\(x-y+2=0\\)，即 AB 的中垂線。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-51e1618a7283c641",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 160,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(A=(4,2),B=(-2,-3)\\). Find the locus of \\(P\\) satisfying \\(AP=AB\\).",
+        "solution": "\\(AB^2=(-6)^2+(-5)^2=61\\). Thus \\((x-4)^2+(y-2)^2=61\\).",
+        "solutionZh": "\\(AB^2=(-6)^2+(-5)^2=61\\)，故 \\((x-4)^2+(y-2)^2=61\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-281009323e517030",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 161,
+      "sourceId": null,
+      "reasons": [
+        "missing-options",
+        "missing-stem"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(M=(12,19),N=(4,-5)\\). Find the locus of \\(P\\) satisfying \\(PN=MN\\).",
+        "solution": "\\(MN^2=8^2+24^2=640\\). Thus \\((x-4)^2+(y+5)^2=640\\).",
+        "solutionZh": "\\(MN^2=8^2+24^2=640\\)，故 \\((x-4)^2+(y+5)^2=640\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-34418f66877769b4",
+      "sourceTopic": "locus",
+      "kind": "mc",
+      "sourceRow": 163,
+      "sourceId": null,
+      "reasons": [
+        "invalid-answer",
+        "missing-options",
+        "missing-stem",
+        "source-reports-invalid-question-or-options"
+      ],
+      "reviewedAt": "2026-10-22",
+      "overrides": {
+        "stem": "Let \\(A=(1,6),B=(3,2)\\). Find the locus of \\(P\\) satisfying \\(PA=AB\\).",
+        "solution": "\\(AB^2=2^2+(-4)^2=20\\). Thus \\((x-1)^2+(y-6)^2=20\\), equivalently \\(x^2+y^2-2x-12y+17=0\\).",
+        "solutionZh": "\\(AB^2=2^2+(-4)^2=20\\)，故 \\((x-1)^2+(y-6)^2=20\\)，即 \\(x^2+y^2-2x-12y+17=0\\)。",
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "hint": "",
+        "hintZh": ""
+      },
+      "assessment": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "decision": "recover",
+      "adaptation": {
+        "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+        "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+      }
+    },
+    {
+      "id": "import-locus-994b1ee23f1672e2",
+      "sourceTopic": "locus",
+      "kind": "long",
+      "sourceRow": 6,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Final claimed angle comparison is truncated in both languages. Numeric angle can be computed, but original claim cannot be recovered.",
+      "overrides": {}
+    },
+    {
+      "id": "import-locus-542ce5cd458a43a3",
+      "sourceTopic": "locus",
+      "kind": "long",
+      "sourceRow": 10,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both languages truncate at intercept ordering; subsequent requested geometry is missing. Worked solution cannot substitute for source question.",
+      "overrides": {}
+    },
+    {
+      "id": "import-locus-6afa4ee969876226",
+      "sourceTopic": "locus",
+      "kind": "long",
+      "sourceRow": 19,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Final claimed angle bound is missing in both languages. Earlier parts work, but cannot publish as a complete original question.",
+      "overrides": {}
+    },
+    {
+      "id": "import-locus-904b6ba3bcc112ac",
+      "sourceTopic": "locus",
+      "kind": "long",
+      "sourceRow": 43,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Question truncates near the first inequality, with most conditions and subparts missing.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-afe7b65068c2238c",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 1,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-d40ef3fd862cf545",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 3,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-08b5a8a6b79c4c8b",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 6,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-17b23d5e1e34e7b3",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 7,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-216ff9f404168657",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 8,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-91db2df506d63f63",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 10,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-2f1a1362df253538",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 11,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-9be205c1a0cd44bf",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 12,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-6373300e88ef51c2",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 14,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-61216e35f87b68c3",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 15,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-a5f51549508b07b4",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 18,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    },
+    {
+      "id": "import-sequences-433aead6f0aea9a0",
+      "sourceTopic": "asgs",
+      "kind": "long",
+      "sourceRow": 21,
+      "sourceId": null,
+      "reasons": [
+        "unbalanced-math-stem",
+        "unbalanced-math-stemZh"
+      ],
+      "reviewedAt": "2026-10-22",
+      "decision": "hold",
+      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+      "overrides": {}
+    }
+  ]
+}

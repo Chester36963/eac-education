@@ -2580,7 +2580,7 @@
           "stem": "Let \\(O\\) be the origin. The coordinates of the points \\(P\\) and \\(Q\\) are \\((r, s)\\) and \\((r+s, s-r)\\) respectively, where \\(r\\) and \\(s\\) are positive numbers. It is given that the orthocentre of \\(\\triangle O P Q\\) lies on the straight line \\(9 x-20 y=r\\). Find the slope of \\(O P\\).",
           "stemZh": "設 \\(O\\) 為原點。點 \\(P,Q\\) 的坐標分別為 \\((r,s)\\) 和 \\((r+s,s-r)\\)，其中 \\(r,s\\) 為正數。已知 \\(\\triangle OPQ\\) 的垂心在直線 \\(9x-20y=r\\) 上。求 \\(OP\\) 的斜率。",
           "hint": "The displacement from \\(P\\) to \\(Q\\) is \\((s,-r)\\), perpendicular to \\(OP=(r,s)\\), so the right angle is at \\(P\\).",
-          "hintZh": "OP\\text{ 的方向 }=(r,s),\\qquad PQ\\text{ 的方向 }=(s,-r).",
+          "hintZh": "由 P 到 Q 的位移是 \\((s,-r)\\)，與 \\(OP=(r,s)\\) 垂直，所以直角在 P。",
           "solution": "We have\n\n\\[\nOP\\text{ direction }=(r,s),\\qquad PQ\\text{ direction }=(s,-r).\n\\]\n\nThe product of their slopes is \\(rs-sr=0\\), so \\(OP\\perp PQ\\) and the triangle is right-angled at \\(P\\). Hence its orthocentre is \\(P=(r,s)\\).\n\nSubstitute \\(P\\) into \\(9x-20y=r\\):\n\n\\[\n9r-20s=r,\n\\]\n\nso\n\n\\[\n8r=20s\\quad\\Rightarrow\\quad \\frac{s}{r}=\\frac{2}{5}.\n\\]\n\nThe slope of \\(OP\\) is \\(s/r=2/5\\).",
           "solutionZh": "\\[\nOP\\text{ 的方向 }=(r,s),\\qquad PQ\\text{ 的方向 }=(s,-r).\n\\]\n兩方向的內積為\n\\[\nr(s)+s(-r)=0,\n\\]\n所以 \\(OP\\perp PQ\\)，即 \\(\\angle OPQ=90^\\circ\\)。直角三角形的垂心是直角頂點，因此垂心為 \\(P=(r,s)\\)。\n把 \\(P\\) 代入 \\(9x-20y=r\\)：\n\\[\n9r-20s=r\n\\]\n\\[\n8r=20s\n\\]\n\\[\n\\frac{s}{r}=\\frac{2}{5}.\n\\]\n而 \\(OP\\) 的斜率正是 \\(s/r\\)，故答案為 \\(2/5\\)。",
           "id": "import-four-centres-q059",
@@ -2622,13 +2622,19 @@
             "B": "\\(\\frac{2}{5}\\)",
             "C": "\\(\\frac{5}{2}\\)",
             "D": "\\(\\frac{28}{11}\\)"
-          }
+          },
+          "editorialCorrections": [
+            {
+              "field": "hintZh",
+              "reason": "Restore complete Chinese hint from intact English; source had raw/truncated TeX outside delimiters."
+            }
+          ]
         },
         {
           "stem": "Let \\(O\\) be the origin. The coordinates of \\(P,Q\\) are \\((a,b)\\) and \\((a-2b,b+2a)\\) respectively, where \\(a,b\\) are positive. The orthocentre of \\(\\triangle OPQ\\) lies on \\(8x-3y=a+b\\). Find the slope of \\(OP\\).",
           "stemZh": "設 \\(O\\) 為原點。點 \\(P,Q\\) 的坐標分別為 \\((a,b)\\) 和 \\((a-2b,b+2a)\\)，其中 \\(a,b\\) 為正數。已知 \\(\\triangle OPQ\\) 的垂心在直線 \\(8x-3y=a+b\\) 上。求 \\(OP\\) 的斜率。",
           "hint": "The direction \\((-2b,2a)\\) of \\(PQ\\) is a scaled 90-degree rotation of the direction \\((a,b)\\) of \\(OP\\), so the right angle is at \\(P\\).",
-          "hintZh": "OP\\text{ 的方向 }=(a,b),\\qquad",
+          "hintZh": "PQ 的方向 \\((-2b,2a)\\) 是 OP 方向 \\((a,b)\\) 旋轉 90 度後的倍數，所以直角在 P。",
           "solution": "We have\n\n\\[\nOP\\text{ direction }=(a,b),\\qquad\nPQ\\text{ direction }=(-2b,2a).\n\\]\n\nThe product of their slopes is\n\n\\[\na(-2b)+b(2a)=0,\n\\]\n\nso the triangle is right-angled at \\(P\\), and its orthocentre is \\(P=(a,b)\\).\n\nSubstitute \\(P\\) into \\(8x-3y=a+b\\):\n\n\\[\n8a-3b=a+b\n\\]\n\n\\[\n7a=4b.\n\\]\n\nHence the slope of \\(OP\\) is\n\n\\[\n\\frac{b}{a}=\\frac{7}{4}.\n\\]",
           "solutionZh": "\\[\nOP\\text{ 的方向 }=(a,b),\\qquad\nPQ\\text{ 的方向 }=(-2b,2a).\n\\]\n兩方向的內積為\n\\[\na(-2b)+b(2a)=0,\n\\]\n所以 \\(OP\\perp PQ\\)，即 \\(\\angle OPQ=90^\\circ\\)。因此垂心就是 \\(P=(a,b)\\)。\n把 \\(P\\) 代入 \\(8x-3y=a+b\\)：\n\\[\n8a-3b=a+b\n\\]\n\\[\n7a=4b.\n\\]\n所以\n\\[\nm_{OP}=\\frac{b}{a}=\\frac{7}{4}.\n\\]",
           "id": "import-four-centres-q071",
@@ -2670,7 +2676,13 @@
             "B": "\\(\\frac{3}{2}\\)",
             "C": "\\(\\frac{4}{7}\\)",
             "D": "\\(\\frac{7}{4}\\)"
-          }
+          },
+          "editorialCorrections": [
+            {
+              "field": "hintZh",
+              "reason": "Restore complete Chinese hint from intact English; source had raw/truncated TeX outside delimiters."
+            }
+          ]
         },
         {
           "stem": "The coordinates of \\(A\\) and \\(B\\) are \\((m^2-n^2,2mn)\\) and \\((m^2-n^2+2mn,2mn-m^2+n^2)\\) respectively, where \\(m,n\\) are positive. Let \\(O\\) be the origin. If the orthocentre of \\(\\triangle OAB\\) lies on \\(15x-4y=15m^2-19n^2\\), find the slope of \\(OB\\).",
@@ -2826,7 +2838,7 @@
           "stem": "Let \\(O\\) be the origin. The coordinates of \\(A\\) and \\(B\\) are \\((a,b)\\) and \\((-b,a)\\), where \\(a,b\\) are positive. If the circumcentre of \\(\\triangle OAB\\) lies on \\(6x+4y=a\\), find \\(a:b\\).",
           "stemZh": "設 \\(O\\) 為原點，\\(A=(a,b)\\)、\\(B=(-b,a)\\)，其中 \\(a,b\\) 為正數。若 \\(\\triangle OAB\\) 的外心位於直線 \\(6x+4y=a\\) 上，求 \\(a:b\\)。",
           "hint": "\\(OA=OB\\), and the two slopes have product \\(-1\\), so the triangle is right-angled at \\(O\\).",
-          "hintZh": "m_{OA}=\\frac{b}{a},",
+          "hintZh": "\\(OA=OB\\)，而 OA、OB 的斜率乘積為 \\(-1\\)，所以三角形在 O 有直角。",
           "solution": "The slopes are\n\n\\[\nm_{OA}=\\frac{b}{a},\n\\qquad m_{OB}=-\\frac{a}{b},\n\\]\n\nwhose product is \\(-1\\). Thus the triangle is right-angled at \\(O\\), and its circumcentre is the midpoint of \\(AB\\):\n\n\\[\nJ=\\left(\\frac{a-b}{2},\\frac{a+b}{2}\\right).\n\\]\n\nSubstituting into \\(6x+4y=a\\),\n\n\\[\n3(a-b)+2(a+b)=a,\n\\]\n\nso \\(5a-b=a\\), hence \\(b=4a\\). Therefore \\(a:b=1:4\\).",
           "solutionZh": "\\[\nm_{OA}=\\frac{b}{a},\n\\qquad m_{OB}=\\frac{a}{-b}=-\\frac{a}{b},\n\\]\n故 \\(m_{OA}m_{OB}=-1\\)，即 \\(\\angle AOB=90^\\circ\\)。直角三角形的外心是斜邊中點，所以\n\\[\nJ=\\left(\\frac{a-b}{2},\\frac{a+b}{2}\\right).\n\\]\n把 \\(J\\) 代入 \\(6x+4y=a\\)：\n\\[\n6\\left(\\frac{a-b}{2}\\right)+4\\left(\\frac{a+b}{2}\\right)=a,\n\\]\n\\[\n3a-3b+2a+2b=a.\n\\]\n因此 \\(4a=b\\)，所以 \\(a:b=1:4\\)。",
           "id": "import-four-centres-q121",
@@ -2868,7 +2880,13 @@
             "B": "\\(2:7\\)",
             "C": "\\(4:1\\)",
             "D": "\\(7:2\\)"
-          }
+          },
+          "editorialCorrections": [
+            {
+              "field": "hintZh",
+              "reason": "Restore complete Chinese hint from intact English; source had raw/truncated TeX outside delimiters."
+            }
+          ]
         },
         {
           "stem": "Let \\(O\\) be the origin, \\(P=(p,0)\\) and \\(Q=(0,q)\\), where \\(p,q>0\\). If the circumcentre of \\(\\triangle OPQ\\) lies on \\(8x-10y=11q\\), find \\(p:q\\).",
@@ -3661,6 +3679,62 @@
             "C": "\\(-10\\)",
             "D": "\\(-22\\)"
           }
+        },
+        {
+          "stem": "Let \\(0<k<1\\). The lines \\(L_1:y=kx+1\\) and \\(L_2:y=-kx+1\\) meet on the y-axis at \\(A\\), and cut the x-axis at \\(B,C\\) respectively. The point \\(D\\) is the orthocentre of \\(\\triangle ABC\\), and \\(OA=AD\\), where \\(O\\) is the origin. Find \\(k\\).",
+          "stemZh": "設 \\(0<k<1\\)。直線 \\(L_1:y=kx+1\\) 及 \\(L_2:y=-kx+1\\) 交於 y 軸上的 A，並分別與 x 軸交於 B、C。D 是三角形 ABC 的垂心，O 是原點。若 \\(OA=AD\\)，求 k。",
+          "hint": "The two lines are symmetric about the y-axis, so the triangle and its orthocentre are symmetric; write \\(D=(0,d)\\).",
+          "hintZh": "三個頂點為",
+          "solution": "The vertices are\n\n\\[\nA=(0,1),\\qquad B=\\left(-\\frac{1}{k},0\\right),\\qquad C=\\left(\\frac{1}{k},0\\right).\n\\]\n\nBy symmetry, let the orthocentre be \\(D=(0,d)\\). Since the slope of \\(AC\\) is \\(-k\\), the altitude through \\(B\\) has slope \\(1/k\\). Hence\n\n\\[\nd=\\frac{1}{k}\\left(\\frac{1}{k}\\right)=\\frac1{k^2}.\n\\]\n\nBecause \\(0<k<1\\), \\(d>1\\), so \\(AD=d-1\\). The condition \\(OA=AD\\) becomes\n\n\\[\n1=\\frac1{k^2}-1.\n\\]\n\nThus \\(1/k^2=2\\), and the positive value is\n\n\\[\nk=\\frac1{\\sqrt2}.\n\\]",
+          "solutionZh": "\\(A=(0,1),B=(-1/k,0),C=(1/k,0)\\)。由對稱性 D 在 y 軸上。AC 斜率為 -k，故從 B 出發的高線斜率為 1/k，得 \\(D=(0,1/k^2)\\)。因 \\(0<k<1\\)，\\(AD=1/k^2-1\\)。由 \\(OA=AD\\)，得 \\(1=1/k^2-1\\)，所以 \\(k=1/\\sqrt2\\)，答案 A。",
+          "id": "import-four-centres-q076",
+          "subcategory": "orthocentre",
+          "skill": "fc-altitudes",
+          "classification": {
+            "version": "2026-10-21.1",
+            "basis": "primary centre in statement; coordinate/property method in solution",
+            "status": "rule-classified",
+            "originalTopic": "Four Centres / Coordinate Geometry",
+            "sourceLevel": "Level 5"
+          },
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+          "source": "Mock · 2024/25 · P2 · Original Q39",
+          "sourceZh": "來源所列（未獨立核實）：Mock · 2024/25 · P2 · Original Q39",
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "mc",
+            "sourceId": "Q076",
+            "row": 68,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          "answer": "A",
+          "options": {
+            "A": "\\(\\frac{1}{\\sqrt2}\\)",
+            "B": "\\(\\frac{1}{2}\\)",
+            "C": "\\(\\frac{1}{\\sqrt3}\\)",
+            "D": "\\(\\frac{1}{3}\\)"
+          },
+          "optionsZh": {
+            "A": "\\(\\frac{1}{\\sqrt2}\\)",
+            "B": "\\(\\frac{1}{2}\\)",
+            "C": "\\(\\frac{1}{\\sqrt3}\\)",
+            "D": "\\(\\frac{1}{3}\\)"
+          },
+          "editorialCorrections": [
+            {
+              "field": "stemZh,solutionZh",
+              "reason": "English statement intact; Chinese translated faithfully. Altitude intersection and positive root checked.",
+              "review": "1013-recovery-review.json",
+              "date": "2026-10-22"
+            }
+          ]
         },
         {
           "stem": "The equations of the three sides of a triangle are \\(hx+4y+12=0\\), \\(hx-y-3=0\\) and \\(kx-4y+48=0\\), where \\(h\\) and \\(k\\) are positive. If the orthocentre and circumcentre both lie on the \\(y\\)-axis, find the area of the circumcircle.",
@@ -6343,6 +6417,73 @@
           }
         },
         {
+          "stem": "ABC is acute and AD, BE and CF meet at its orthocentre H. Which statements must be true?\n\nI. \\(\\triangle AHE\\sim\\triangle BHD\\) II. \\(\\triangle EHC\\cong\\triangle DHC\\) III. \\(\\angle HAB=\\angle HED\\)",
+          "stemZh": "在圖中，ABC 是銳角三角形，AD、BE、CF 交於垂心 H。下列哪項必然正確？\n\nI. \\(\\triangle AHE\\sim\\triangle BHD\\)　II. \\(\\triangle EHC\\cong\\triangle DHC\\)　III. \\(\\angle HAB=\\angle HED\\)",
+          "hint": "",
+          "hintZh": "",
+          "solution": "I: \\(\\angle AEH=\\angle BDH=90^\\circ\\) and \\(\\angle AHE=\\angle BHD\\), so the triangles are similar by AA. II: congruence is not forced: choose an acute scalene triangle; in general \\(EH\\ne DH\\), so the two right triangles with common hypotenuse HC need not be congruent. III: \\(\\angle ADB=\\angle AEB=90^\\circ\\), so A,B,D,E are concyclic. Since A,H,D and B,H,E are collinear, \\(\\angle HAB=\\angle DAB=\\angle DEB=\\angle HED\\), using chord DB. Hence I and III only: B.",
+          "solutionZh": "I：\\(\\angle AEH=\\angle BDH=90^\\circ\\)，且 \\(\\angle AHE=\\angle BHD\\)，故由 AA，兩三角形相似。II：一般銳角不等邊三角形中 \\(EH\\ne DH\\)，只有公用斜邊 HC 不能保證全等。III：\\(\\angle ADB=\\angle AEB=90^\\circ\\)，所以 A、B、D、E 共圓。由 A、H、D 及 B、H、E 共線，\\(\\angle HAB=\\angle DAB=\\angle DEB=\\angle HED\\)，所用的同弦是 DB。只有 I、III 正確，答案 B。",
+          "id": "import-four-centres-q242",
+          "subcategory": "centre-statements",
+          "skill": "fc-statements",
+          "classification": {
+            "version": "2026-10-21.1",
+            "basis": "statement-by-statement centre property test",
+            "status": "rule-classified",
+            "originalTopic": "M3 Orthocentre Altitude Statements / 垂心高線命題",
+            "sourceLevel": "Level 4"
+          },
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+          "source": "SLCSS Mock · 2023/24 · P2 · Original Q17",
+          "sourceZh": "來源所列（未獨立核實）：SLCSS Mock · 2023/24 · P2 · Original Q17",
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "mc",
+            "sourceId": "Q242",
+            "row": 124,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          "answer": "B",
+          "options": {
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "I, II and III"
+          },
+          "optionsZh": {
+            "A": "I 及 II 才正確",
+            "B": "I 及 III 才正確",
+            "C": "II 及 III 才正確",
+            "D": "I, II 及 III"
+          },
+          "diagram": {
+            "src": "assets/recovery/fc-q242.svg",
+            "alt": "Reconstructed Q242: ABC is acute and AD, BE and CF meet at its orthocentre H. Which statements must be true?\n\nI. (triangle AHEsimtriangle BHD) II. (triangle EHCcongtriangle DHC) III. (angle HAB=angle HED)",
+            "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+            "qa": {
+              "questionId": "import-four-centres-q242",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-22",
+              "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+            }
+          },
+          "editorialCorrections": [
+            {
+              "field": "diagram,answer,hint,hintZh,solution,solutionZh",
+              "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+              "review": "1013-recovery-review.json",
+              "date": "2026-10-22"
+            }
+          ]
+        },
+        {
           "stem": "OGD, OEI and OHF are the perpendicular bisectors of \\(\\triangle ABC\\), with D, E and F on AB, BC and AC. AIFC and BGEHC are straight lines. Which statements must be true?\n\nI. O is the orthocentre. II. \\(\\triangle OEH\\sim\\triangle CFH\\). III. \\(BE=CE\\).",
           "stemZh": "OGD、OEI、OHF 是 \\(\\triangle ABC\\) 三條中垂線；D、E、F 分別在 AB、BC、AC 上，AIFC 與 BGEHC 是直線。下列哪項必然正確？\n\nI. O 是垂心。　II. \\(\\triangle OEH\\sim\\triangle CFH\\)。　III. \\(BE=CE\\)。",
           "hint": "The three perpendicular bisectors meet at O, so O is the circumcentre. Do not mistake perpendicular bisectors for altitudes. Identify the circumcentre and the three side midpoints -> test statement I -> use two angle pairs to prove similarity -> use the midpoint definition for statement III.…",
@@ -6442,7 +6583,7 @@
           "stem": "G, I and J are the centroid, incentre and circumcentre of \\(\\triangle XYZ\\). If \\(\\angle XYZ=36^\\circ\\) and \\(\\angle XZY=54^\\circ\\), which statements are true?\n\nI. X is the orthocentre. II. J is the midpoint of YZ. III. G, I and J are collinear.",
           "stemZh": "G、I、J 分別為 \\(\\triangle XYZ\\) 的形心、內心、外心。若 \\(\\angle XYZ=36^\\circ\\)、\\(\\angle XZY=54^\\circ\\)，下列哪項正確？\n\nI. X 是垂心。　II. J 是 YZ 中點。　III. G、I、J 共線。",
           "hint": "First calculate the remaining angle:",
-          "hintZh": "\\angle X=180^\\circ-36^\\circ-54^\\circ=90^\\circ.",
+          "hintZh": "先求餘下的角：\\(\\angle X=180^\\circ-36^\\circ-54^\\circ=90^\\circ\\)。",
           "solution": "First calculate the remaining angle:\n\n\\[\n\\angle X=180^\\circ-36^\\circ-54^\\circ=90^\\circ.\n\\]\n\nTherefore the right-angle vertex X is the orthocentre, so statement I is true. Since YZ is the hypotenuse, its midpoint is the circumcentre J, so statement II is true. The Euler line contains the centroid, orthocentre and circumcentre; it does not generally contain the incentre. Hence G, I and J need not be collinear, so statement III is false. Therefore only I and II are true.",
           "solutionZh": "\\[\n\\angle X=180^\\circ-36^\\circ-54^\\circ=90^\\circ.\n\\]\n所以垂心在 X，I 正確；外心是斜邊 YZ 中點，II 正確。Euler 線保證 G、垂心、外心共線，不包括內心；一般不會有 G、I、J 共線，III 錯。",
           "id": "import-four-centres-q247",
@@ -6484,7 +6625,13 @@
             "B": "I 及 III 才正確",
             "C": "II 及 III 才正確",
             "D": "I, II 及 III"
-          }
+          },
+          "editorialCorrections": [
+            {
+              "field": "hintZh",
+              "reason": "Restore complete Chinese hint from intact English; source had raw/truncated TeX outside delimiters."
+            }
+          ]
         },
         {
           "stem": "G, H, I and J are the centroid, orthocentre, incentre and circumcentre of \\(\\triangle PQR\\). If J lies on PR, which statements are true?\n\nI. \\(\\angle PQR=90^\\circ\\). II. Q lies on HI. III. G, H and J are collinear.",
@@ -6639,6 +6786,73 @@
           }
         },
         {
+          "stem": "The figure shows an obtuse triangle PQR. S lies on PR and \\(QS\\perp PR\\). Which statements must be true?\n\nI. \\(PS=RS\\) II. QS bisects \\(\\angle PQR\\). III. The orthocentre lies on SQ produced.",
+          "stemZh": "圖示鈍角三角形 PQR。S 在 PR 上，且 \\(QS\\perp PR\\)。下列哪項必然正確？\n\nI. \\(PS=RS\\)　II. QS 平分 \\(\\angle PQR\\)　III. \\(\\triangle PQR\\) 的垂心在 SQ 的延長線上。",
+          "hint": "QS is an altitude. Nothing makes S the midpoint of PR, so I need not hold; nothing makes QS an angle bisector, so II need not hold. The orthocentre must lie on the line containing every altitude and, for this obtuse triangle, lies on SQ produced. Only III is necessary.",
+          "hintZh": "QS 只由「垂直 PR」保證是一條高。沒有條件說 S 是中點，所以 I 不一定成立；也沒有等腰條件保證 QS 是角平分線，所以 II 不一定成立。垂心必位於每一條高所在的直線上；鈍角三角形垂心在外部，因此位於 SQ 的適當延長線上。只有 III 正確。",
+          "solution": "QS is an altitude. Nothing makes S the midpoint of PR, so I need not hold; nothing makes QS an angle bisector, so II need not hold. The orthocentre must lie on the line containing every altitude and, for this obtuse triangle, lies on SQ produced. Only III is necessary.",
+          "solutionZh": "QS 只由「垂直 PR」保證是一條高。沒有條件說 S 是中點，所以 I 不一定成立；也沒有等腰條件保證 QS 是角平分線，所以 II 不一定成立。垂心必位於每一條高所在的直線上；鈍角三角形垂心在外部，因此位於 SQ 的適當延長線上。只有 III 正確。",
+          "id": "import-four-centres-q243",
+          "subcategory": "centre-statements",
+          "skill": "fc-statements",
+          "classification": {
+            "version": "2026-10-21.1",
+            "basis": "statement-by-statement centre property test",
+            "status": "rule-classified",
+            "originalTopic": "M3 Obtuse-Triangle Orthocentre / 鈍角三角形垂心",
+            "sourceLevel": "Level 4"
+          },
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+          "source": "WYHK Mock · 2025/26 · P2 · Original Q41",
+          "sourceZh": "來源所列（未獨立核實）：WYHK Mock · 2025/26 · P2 · Original Q41",
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "mc",
+            "sourceId": "Q243",
+            "row": 131,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          "answer": "B",
+          "options": {
+            "A": "I only",
+            "B": "III only",
+            "C": "I and II only",
+            "D": "II and III only"
+          },
+          "optionsZh": {
+            "A": "I 才正確",
+            "B": "III 才正確",
+            "C": "I 及 II 才正確",
+            "D": "II 及 III 才正確"
+          },
+          "diagram": {
+            "src": "assets/recovery/fc-q243.svg",
+            "alt": "Reconstructed Q243: The figure shows an obtuse triangle PQR. S lies on PR and (QSperp PR). Which statements must be true?\n\nI. (PS=RS) II. QS bisects (angle PQR). III. The orthocentre lies on SQ produced.",
+            "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+            "qa": {
+              "questionId": "import-four-centres-q243",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-22",
+              "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+            }
+          },
+          "editorialCorrections": [
+            {
+              "field": "diagram,answer",
+              "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+              "review": "1013-recovery-review.json",
+              "date": "2026-10-22"
+            }
+          ]
+        },
+        {
           "stem": "Which of the following must lie inside an obtuse-angled triangle?\n\nI. Incentre　II. Median　III. Orthocentre",
           "stemZh": "下列哪一項必定位於一個鈍角三角形內？\n\nI. 內心　II. 中線　III. 垂心",
           "hint": "Test each “must” statement from its definition. Locate the incentre → interpret a median as a segment → locate the orthocentre of an obtuse triangle. I is true because the internal angle bisectors meet inside every non-degenerate triangle. II is true because a median joins a vertex to the midpoint…",
@@ -6685,6 +6899,77 @@
             "C": "II 及 III 才正確",
             "D": "I, II 及 III"
           }
+        },
+        {
+          "stem": "In the figure, AM and BN are two medians of \\(\\triangle ABC\\) and meet at P. Which statements must be true?\n\nI. P is equidistant from the three sides. II. A, B, M and N are concyclic. III. \\(MN\\parallel AB\\). IV. Perimeter of \\(\\triangle ABC>AM+BN\\).",
+          "stemZh": "在圖中，AM、BN 是 \\(\\triangle ABC\\) 的兩條中線，交於 P。下列哪項必然正確？\n\nI. P 與三邊等距。　II. A、B、M、N 共圓。　III. \\(MN\\parallel AB\\)。　IV. \\(\\triangle ABC\\) 周界 \\(>AM+BN\\)。",
+          "hint": "",
+          "hintZh": "",
+          "solution": "P is the centroid, not the incentre.\n\nReject I → reject unsupported cyclicity → apply the midpoint theorem → bound the two medians.\n\nI is false: equal distances from the sides characterize the incentre. II is not a general theorem. III is true because M and N are side midpoints, hence \\(MN\\parallel AB\\). For IV, the median-length bounds are \\(AM<\\tfrac{AB+AC}{2}\\) and \\(BN<\\tfrac{BA+BC}{2}\\). Adding them carefully gives \\(AM+BN<\\tfrac{AB+AC}{2}+\\tfrac{BA+BC}{2}=AB+\\tfrac{AC+BC}{2}<AB+AC+BC\\).\n\nThus only III and IV are correct, so the answer is D.\n\nDo not infer concyclicity from the appearance of one sketch.",
+          "solutionZh": "P 是形心，並非內心，所以 I 不必成立。一般三角形中 A、B、M、N 不必共圓，所以 II 不必成立。M、N 分別是 BC、AC 的中點，由中點定理，\\(MN\\parallel AB\\)，III 正確。中線長滿足 \\(AM<(AB+AC)/2\\) 及 \\(BN<(AB+BC)/2\\)。相加得 \\(AM+BN<AB+(AC+BC)/2<AB+AC+BC\\)，所以 IV 正確。只有 III、IV 正確，答案 D。",
+          "id": "import-four-centres-q240",
+          "subcategory": "centre-statements",
+          "skill": "fc-statements",
+          "classification": {
+            "version": "2026-10-21.1",
+            "basis": "statement-by-statement centre property test",
+            "status": "rule-classified",
+            "originalTopic": "M3 Median and Centroid Statements / 中線及形心命題",
+            "sourceLevel": "Level 4"
+          },
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+          "source": "SCSG Mock · 2022/23 · P2 · Original Q39",
+          "sourceZh": "來源所列（未獨立核實）：SCSG Mock · 2022/23 · P2 · Original Q39",
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "mc",
+            "sourceId": "Q240",
+            "row": 133,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          "answer": "D",
+          "options": {
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "III and IV only"
+          },
+          "optionsZh": {
+            "A": "I 及 II 才正確",
+            "B": "I 及 III 才正確",
+            "C": "II 及 III 才正確",
+            "D": "III 及 IV 才正確"
+          },
+          "diagram": {
+            "src": "assets/recovery/fc-q240.svg",
+            "alt": "Reconstructed Q240: In the figure, AM and BN are two medians of (triangle ABC) and meet at P. Which statements must be true?\n\nI. P is equidistant from the three sides. II. A, B, M and N are concyclic. III. (MNparallel AB). IV. Perimeter of (triangle ABC>AM+BN).",
+            "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+            "qa": {
+              "questionId": "import-four-centres-q240",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-22",
+              "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+            }
+          },
+          "editorialCorrections": [
+            {
+              "field": "hint",
+              "reason": "Malformed optional source hint withheld; question and solution retained."
+            },
+            {
+              "field": "diagram,solutionZh",
+              "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+              "review": "1013-recovery-review.json",
+              "date": "2026-10-22"
+            }
+          ]
         },
         {
           "stem": "O is the circumcentre of \\(\\triangle PQR\\), whose area is A. Which statements must be true?\n\nI. \\(\\sin\\angle PRQ=\\dfrac{PQ}{2OP}\\) II. \\(A=\\dfrac32(OM)(PQ)\\) III. \\(4A(OP)=(PQ)(QR)(RP)\\)",
@@ -6781,6 +7066,73 @@
             "C": "I 及 III 才正確",
             "D": "II 及 III 才正確"
           }
+        },
+        {
+          "stem": "PQS is a circle. PQ is produced to R and RS is tangent at S. I is the incentre of \\(\\triangle QRS\\). If \\(\\angle IRQ=12^\\circ\\) and \\(\\angle PSQ=70^\\circ\\), find \\(\\angle QPS\\).",
+          "stemZh": "在圖中，PQS 是一圓。PQ 延長至 R，RS 是圓在 S 的切線。I 是 \\(\\triangle QRS\\) 的內心。若 \\(\\angle IRQ=12^\\circ\\)、\\(\\angle PSQ=70^\\circ\\)，求 \\(\\angle QPS\\)。",
+          "hint": "",
+          "hintZh": "",
+          "solution": "The given \\(12^\\circ\\) is the angle between the incentre segment \\(RI\\) and \\(RQ\\), so it is half the angle at R. Then use triangle angle sums and the tangent-chord theorem.\n\n1. Let \\(x=\\angle QPS\\), and use the angle bisector at R to find \\(\\angle QRS\\).\n2. Use \\(\\triangle PQS\\) and the collinearity of P, Q and R to find \\(\\angle SQR\\).\n3. Use the angle sum of \\(\\triangle QRS\\), then equate \\(\\angle QSR\\) to \\(x\\) by the tangent-chord theorem.\n\nLet \\(x=\\angle QPS\\). Since RI bisects \\(\\angle QRS\\),\n\nThe given angle is only half the angle at R, because RI is an angle bisector. Therefore\n\n\\[\n\\angle QRS=2(12^\\circ)=24^\\circ.\n\\]\n\nIn \\(\\triangle PQS\\),\n\n\\[\n\\angle PQS=180^\\circ-70^\\circ-x=110^\\circ-x.\n\\]\n\nAs P, Q and R are collinear,\n\n\\[\n\\angle SQR=180^\\circ-(110^\\circ-x)=70^\\circ+x.\n\\]\n\nNow use the angle sum in \\(\\triangle QRS\\):\n\n\\[\n\\angle QSR=180^\\circ-24^\\circ-(70^\\circ+x)=86^\\circ-x.\n\\]\n\nBy the tangent-chord theorem,\n\n\\[\n\\angle QSR=\\angle QPS=x\n\\]\n\nTherefore\n\n\\[\nx=86^\\circ-x\\Rightarrow 2x=86^\\circ\\Rightarrow\nx=43^\\circ.\n\\]\n\nDo not use \\(12^\\circ\\) as the whole angle at R: it is \\(\\angle IRQ\\), the angle between RQ and the angle bisector RI. Also, because P, Q and R are collinear, \\(\\angle SQR\\) is the supplement of \\(\\angle PQS\\), not the same angle.",
+          "solutionZh": "第一眼訊號 / First-Look Signal： 題目給出內心線段 \\(RI\\)、切線 \\(RS\\) 及圓內接角。先把 \\(12^\\circ\\) 還原為 R 角的一半，再用三角形角和及切線弦角定理。\n策略地圖 / Strategy Map：\n設 \\(x=\\angle QPS\\)，由內心角平分線求 \\(\\angle QRS\\)。\n在 \\(\\triangle PQS\\) 求 \\(\\angle PQS\\)，再利用 P、Q、R 共線取得 \\(\\angle SQR\\)。\n在 \\(\\triangle QRS\\) 求 \\(\\angle QSR\\)，最後用切線弦角定理與 \\(x\\) 聯立。\n設 \\(x=\\angle QPS\\)。I 是內心，所以 RI 平分 \\(\\angle QRS\\)：\n\\[\n\\angle QRS=2(12^\\circ)=24^\\circ.\n\\]\n在 \\(\\triangle PQS\\) 中，\n\\[\n\\angle PQS=180^\\circ-70^\\circ-x=110^\\circ-x.\n\\]\nP、Q、R 共線，故\n\\[\n\\angle SQR=180^\\circ-(110^\\circ-x)=70^\\circ+x.\n\\]\n在 \\(\\triangle QRS\\) 中，\n\\[\n\\angle QSR=180^\\circ-24^\\circ-(70^\\circ+x)=86^\\circ-x.\n\\]\n由切線弦角定理，\\(\\angle QSR=\\angle QPS=x\\)，所以\n\\[\nx=86^\\circ-x\\Rightarrow 2x=86^\\circ\\Rightarrow x=43^\\circ.\n\\]\n陰濕位 / Common Trap： \\(12^\\circ\\) 是 \\(\\angle IRQ\\)（R 角的一半），不是整個 \\(\\angle QRS\\)；另外，P、Q、R 共線時要使用補角關係，不能直接把 \\(\\angle PQS\\) 當成 \\(\\angle SQR\\)。",
+          "id": "import-four-centres-q252",
+          "subcategory": "centre-tangency",
+          "skill": "fc-tangent-chain",
+          "classification": {
+            "version": "2026-10-21.1",
+            "basis": "source method tag: circle/tangent chain",
+            "status": "rule-classified",
+            "originalTopic": "M4 Tangent and Incentre Angle / 切線及內心角",
+            "sourceLevel": "Level 5**"
+          },
+          "questionType": "mcq",
+          "difficulty": "challenging",
+          "minForm": 4,
+          "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+          "source": "2014 HKDSE Mathematics · P2 · Original Q41",
+          "sourceZh": "來源所列（未獨立核實）：2014 HKDSE Mathematics · P2 · Original Q41",
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "mc",
+            "sourceId": "Q252",
+            "row": 136,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          "answer": "C",
+          "options": {
+            "A": "\\(24^\\circ\\)",
+            "B": "\\(37^\\circ\\)",
+            "C": "\\(43^\\circ\\)",
+            "D": "\\(62^\\circ\\)"
+          },
+          "optionsZh": {
+            "A": "\\(24^\\circ\\)",
+            "B": "\\(37^\\circ\\)",
+            "C": "\\(43^\\circ\\)",
+            "D": "\\(62^\\circ\\)"
+          },
+          "diagram": {
+            "src": "assets/recovery/fc-q252.svg",
+            "alt": "Reconstructed Q252: PQS is a circle. PQ is produced to R and RS is tangent at S. I is the incentre of (triangle QRS). If (angle IRQ=12^circ) and (angle PSQ=70^circ), find (angle QPS).\n\n",
+            "caption": "按原題文字重建 · 不按比例 / Reconstructed from the statement · Not to scale",
+            "qa": {
+              "questionId": "import-four-centres-q252",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-22",
+              "evidence": "Same source ID and givens matched. Final standalone SVG and actual library previews inspected at 1280px and 390px, including all A–D choices. See docs/RECOVERY_REVIEW_2026-10-22.md and tests/browser/recovery-visuals.cjs."
+            }
+          },
+          "editorialCorrections": [
+            {
+              "field": "diagram,answer,hint,hintZh",
+              "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+              "review": "1013-recovery-review.json",
+              "date": "2026-10-22"
+            }
+          ]
         },
         {
           "stem": "ABCD is a circle, DF is tangent at D, and A, B and F are collinear. G is the incentre of \\(\\triangle ABC\\) and lies on BD. Given \\(\\angle ACB=36^\\circ\\) and \\(\\angle AFD=44^\\circ\\), find \\(\\angle CBD\\).",
@@ -9146,6 +9498,50 @@
           "assessmentMode": "solution-comparison"
         },
         {
+          "stem": "Let \\(k>0\\),\n\n\\[\nf(x)=x^2-2kx+k^2+k.\n\\]\n\nLet \\(Q,R\\) be the vertices of \\(y=f(x)\\) and \\(y=f(x-14k)\\). Let \\(S=(6k,13k)\\), and let \\(H\\) be the orthocentre of \\(\\triangle QRS\\).\n\n(a) Find \\(Q,R\\). (b) Find \\(H\\).\n\n(c) The incircle has centre \\(U\\) and radius \\(r\\).\n\n(i) Find \\(r\\). (ii) Find \\(U\\). (iii) Find the minimum distance from \\(H\\) to the circumference.",
+          "stemZh": "設 \\(k>0\\)，\n\n\\[\nf(x)=x^2-2kx+k^2+k.\n\\]\n\n\\(Q,R\\) 分別是 \\(y=f(x)\\) 及 \\(y=f(x-14k)\\) 的頂點；\\(S=(6k,13k)\\)，\\(H\\) 是 \\(\\triangle QRS\\) 的垂心。\n\n(a) 求 \\(Q,R\\)。 (b) 求 \\(H\\)。\n\n(c) 內切圓圓心為 \\(U\\)，半徑為 \\(r\\)。\n\n(c)(i) 求 \\(r\\)。 (ii) 求 \\(U\\)。 (iii) 求 \\(H\\) 到內切圓圓周的最短距離。",
+          "hint": "\\(QR\\) is horizontal, so the altitude from \\(S\\) is \\(x=6k\\). Vertices → two altitudes → side lengths and area → inradius → tangency length → point-to-circle distance. (a) \\(Q=(k,k),\\;\\; R=(15k,k).\\). (b) The altitude from \\(R\\) is",
+          "hintZh": "\\(QR\\) 水平，所以從 \\(S\\) 作出的高線是鉛直線 \\(x=6k\\)。",
+          "solution": "(a) Complete the square: \\(f(x)=(x-k)^2+k\\), giving \\(Q=(k,k),R=(15k,k)\\). (b) The altitude through S is \\(x=6k\\). QS has slope 12/5, so the altitude through R is \\(y-k=-5(x-15k)/12\\). Thus \\(H=(6k,19k/4)\\). (c) The sides are \\(13k,14k,15k\\), with area \\(84k^2\\) and semiperimeter \\(21k\\), so \\(r=4k\\). The contact length from Q along QR is \\((14k+13k-15k)/2=6k\\), giving \\(U=(7k,5k)\\). Hence \\(HU=\\sqrt{17}k/4<4k\\). The minimum distance is \\(r-HU=(16-\\sqrt{17})k/4\\).",
+          "solutionZh": "第一眼訊號：\\(QR\\) 水平，所以從 \\(S\\) 作出的高線是鉛直線 \\(x=6k\\)。\n策略地圖：頂點 → 兩條高 → 三邊及面積 → 內切半徑 → 切線長定位內心 → 點圓距離。\n(a)\n\\[\nf(x)=(x-k)^2+k,\n\\]\n故\n\\[\nQ=(k,k),\\;\\; R=(15k,k).\n\\]\n\\(x_H=6k\\)。\\(QS\\) 的斜率為\n\\[\n\\frac{12k}{5k}=\\frac{12}{5},\n\\]\n所以從 \\(R\\) 作出的高線為\n\\[\ny-k=-\\frac{5}{12}(x-15k).\n\\]\n代入 \\(x=6k\\)：\n\\[\ny-k=\\frac{15k}{4},\n\\]\n故\n\\[\nH=\\left(6k,\\frac{19k}{4}\\right).\n\\]\n(c)(i)\n\\[\nQR=14k,\\; QS=13k,\\; RS=15k,\n\\]\n而\n\\[\n\\Delta=\\frac{1}{2}(14k)(12k)=84k^2,\n\\;\\; s=21k.\n\\]\n因此\n\\[\nr=\\frac\\Delta s=4k.\n\\]\n內切圓與水平邊 \\(QR:y=k\\) 相切，所以 \\(y_U=k+r=5k\\)。由 \\(Q\\) 出發在 \\(QR\\) 上的切線長為\n\\[\n\\frac{QR+QS-RS}{2}=\\frac{14k+13k-15k}{2}=6k.\n\\]\n故 \\(x_U=k+6k=7k\\)，所以\n\\[\nU=(7k,5k).\n\\]\n(iii)\n\\[\nHU=\\sqrt{(7k-6k)^2+\\left(5k-\\frac{19k}{4}\\right)^2}\n=\\frac{\\sqrt{17}}{4}k.\n\\]\n因 \\(HU<r=4k\\)，H 在內切圓內，所以最短距離為\n\\[\nr-HU=4k-\\frac{\\sqrt{17}}4k\n=\\frac{(16-\\sqrt{17})k}{4}.\n\\]\n陰濕位：點在圓內時最短距離是 \\(r-HU\\)，不是 \\(HU-r\\) 或 \\(HU+r\\)。",
+          "id": "import-four-centres-q232",
+          "subcategory": "centre-transformations",
+          "skill": "fc-transform",
+          "classification": {
+            "version": "2026-10-21.1",
+            "basis": "source method tag: graph/coordinate transformation",
+            "status": "rule-classified",
+            "originalTopic": "L5 Orthocentre and Incircle Distance / 垂心及內切圓距離",
+            "sourceLevel": "Level 5*"
+          },
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 4,
+          "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+          "source": "SKHTST Mock · 2025/26 · P1 · Original Q19",
+          "sourceZh": "來源所列（未獨立核實）：SKHTST Mock · 2025/26 · P1 · Original Q19",
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "long",
+            "sourceId": "Q232",
+            "row": 66,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          "assessmentMode": "solution-comparison",
+          "editorialCorrections": [
+            {
+              "field": "solutionZh,solution",
+              "reason": "All triangle coordinates and lengths independently checked. Restore truncated HU<r clause from intact English; replace cluttered English with complete derivation.",
+              "review": "1013-recovery-review.json",
+              "date": "2026-10-22"
+            }
+          ]
+        },
+        {
           "stem": "Let \\(k>0\\),\n\n\\[\nf(x)=x^2-2kx-12x+k^2+13k+43,\n\\]\n\nwith vertex \\(U\\).\n\n(a) Use completing the square to express \\(U\\) in terms of \\(k\\).\n\n(b) Reflect the graph in the x-axis, then in the y-axis, and finally translate it 2 units right; the new vertex is \\(V\\). Also \\(W=(-k-4,3k+21)\\). The orthocentre \\(H\\) of \\(\\triangle UVW\\) lies on \\(5x-5y-36=0\\).\n\n(i) Find \\(k\\).\n\n(ii) If \\(I\\) is the incentre, find \\(IU:UH\\).",
           "stemZh": "設 \\(k>0\\)，\n\n\\[\nf(x)=x^2-2kx-12x+k^2+13k+43,\n\\]\n\n頂點為 \\(U\\)。\n\n(a) 用配方法以 \\(k\\) 表示 \\(U\\)。\n\n(b) 圖像依次關於 x 軸反射、關於 y 軸反射，再向右平移 2 單位，所得頂點為 \\(V\\)。另 \\(W=(-k-4,3k+21)\\)。\\(\\triangle UVW\\) 的垂心 \\(H\\) 在 \\(5x-5y-36=0\\) 上。\n\n(b)(i) 求 \\(k\\)。\n\n(b)(ii) 若內心為 \\(I\\)，求 \\(IU:UH\\)。",
           "hint": "\\(V\\) and \\(W\\) have the same x-coordinate, so the altitude through \\(U\\) is horizontal. Complete the square → transform the vertex → locate \\(H\\) on the given line → use another altitude → find the incentre from symmetry and area. (a) \\(f(x)=[x-(k+6)]^2+k+7,\\), so \\(U=(k+6,k+7).\\). (b)(i) The…",
@@ -9252,6 +9648,50 @@
             "attribution": "source-reported-unverified"
           },
           "assessmentMode": "solution-comparison"
+        },
+        {
+          "stem": "Let \\(k>0\\),\n\n\\[\nf(x)=-\\frac{1}{16}x^2+\\frac{1}{8}kx-\\frac{1}{16}k^2+9.\n\\]\n\nLet \\(V\\) be the vertex, and let the x-intercepts be \\(A,B\\), where \\(x_A<x_B\\). Let \\(H,I\\) be the orthocentre and incentre of \\(\\triangle VAB\\).\n\n(a) Find \\(V\\).\n\n(b) Find \\(H,I\\).\n\n(c) Let \\(C\\) be the circumcircle of \\(\\triangle VAB\\), and let \\(g(x)=9-f(x-k)\\).\n\n(i) Find the equation of \\(C\\).\n\n(ii) Describe the transformation from the graph of \\(f\\) to the graph of \\(g\\).\n\n(iii) Let \\(H'\\) be the reflection of \\(H\\) in the x-axis and \\(V'\\) the vertex of \\(g\\). If \\(A,V,H',V'\\) are concyclic, determine whether \\(V'H<2IH\\).",
+          "stemZh": "設 \\(k>0\\)，\\(f(x)=-\\frac1{16}x^2+\\frac18kx-\\frac1{16}k^2+9\\)。V 是頂點，A、B 是 x 軸截點，且 \\(x_A<x_B\\)。H、I 分別是三角形 VAB 的垂心及內心。\n(a) 求 V。\n(b) 求 H、I。\n(c) C 是三角形 VAB 的外接圓，\\(g(x)=9-f(x-k)\\)。\n(i) 求 C 的方程。\n(ii) 描述由 f 的圖像變為 g 的圖像的幾何變換。\n(iii) H' 是 H 關於 x 軸的反射點，V' 是 g 的頂點。若 A、V、H'、V' 共圓，判斷 \\(V'H<2IH\\) 是否成立。",
+          "hint": "The completed-square form is symmetric about \\(x=k\\), so all three centres lie on that line. Roots → orthocentre → inradius → circumcircle → cyclic parameter → compare exact lengths. (a) \\(f(x)=-\\frac{1}{16}(x-k)^2+9,\\), so \\(V=(k,9)\\). (b) The roots are \\(k\\pm12\\), giving \\(A=(k-12,0)\\),…",
+          "hintZh": "配方後圖像關於 \\(x=k\\) 對稱，所有中心先放在這條直線上。",
+          "solution": "The completed-square form is symmetric about \\(x=k\\), so all three centres lie on that line.\n\nRoots → orthocentre → inradius → circumcircle → cyclic parameter → compare exact lengths.\n\n(a) \\(f(x)=-\\frac{1}{16}(x-k)^2+9,\\), so \\(V=(k,9)\\).\n\n(b) The roots are \\(k\\pm12\\), giving \\(A=(k-12,0)\\), \\(B=(k+12,0)\\). An altitude calculation gives \\(H=(k,16).\\). The sides are 15,15,24 and the area is 108, so hence \\(I=(k,4).\\).\n\n(c)(i) Equating distances from \\((k,t)\\) to \\(V\\) and \\(A\\) gives \\(t=-7/2\\). Thus\n\n\\[\nC:\\; (x-k)^2+\\left(y+\\frac{7}{2}\\right)^2=\\frac{625}{4}.\n\\]\n\n(ii) Translate \\(k\\) units right, reflect in the x-axis, then translate 9 units up.\n\n(iii) \\(H'=(k,-16),\\;\\; V'=(2k,0).\\) already lies on the circle, while Substitution gives \\(k^2=144.\\), so \\(k=12\\). Then the corresponding condition and \\(20<24=2IH\\). Therefore the inequality is true.\n\nAdditional expansion and checking steps:\n\n\\(f(x)=0\\)\n\n\\[\n(x-k)^2=144,\n\\]\n\n\\(x=k\\)\n\n\\(-4/3\\)\n\n\\(x=k\\)\n\n\\(y=16\\)\n\n\\[\nr=\\frac{\\Delta}{s}\n=\\frac{(24)(9)/2}{(24+15+15)/2}=4.\n\\]\n\n\\(J=(k,t)\\)\n\n\\(JV=JA\\)\n\n\\[\n(t-9)^2=12^2+t^2,\n\\]\n\n\\[\n(2k-k)^2+\\left(\\frac{7}{2}\\right)^2=\\frac{625}{4},\n\\]\n\n\\(k>0\\)\n\n\\[\nV'H=\\sqrt{12^2+16^2}=20,\n\\;\\;\nIH=16-4=12.\n\\]\n\nCommon Trap: Do not assume the four points are cyclic without testing.",
+          "solutionZh": "第一眼訊號：配方後圖像關於 \\(x=k\\) 對稱，所有中心先放在這條直線上。\n策略地圖：配方及根 → 高線求垂心 → 面積求內切半徑 → 等距求外心 → 共圓解 \\(k\\) → 距離比較。\n(a)\n\\[\nf(x)=-\\frac{1}{16}(x-k)^2+9,\n\\]\n故 \\(V=(k,9)\\)。\n令 \\(f(x)=0\\)：\n\\[\n(x-k)^2=144,\n\\]\n所以 \\(A=(k-12,0)\\)、\\(B=(k+12,0)\\)。垂心在 \\(x=k\\) 上。\\(VA\\) 斜率為 \\(3/4\\)，故從 \\(B\\) 的高線斜率為 \\(-4/3\\)，在 \\(x=k\\) 時 \\(y=16\\)。因此\n\\[\nH=(k,16).\n\\]\n三角形的高為 9，半底為 12，斜邊為 15。設內切圓半徑為 \\(r\\)：\n\\[\nr=\\frac{\\Delta}{s}\n=\\frac{(24)(9)/2}{(24+15+15)/2}=4.\n\\]\n所以\n\\[\nI=(k,4).\n\\]\n(c)(i) 設外心為 \\(J=(k,t)\\)。由 \\(JV=JA\\)：\n\\[\n(t-9)^2=12^2+t^2,\n\\]\n得 \\(t=-7/2\\)，半徑 \\(25/2\\)。故\n\\[\nC:\\; (x-k)^2+\\left(y+\\frac{7}{2}\\right)^2=\\frac{625}{4}.\n\\]\n可描述為：先向右平移 \\(k\\) 單位，再關於 x 軸反射，再向上平移 9 單位。\n(iii)\n\\[\nH'=(k,-16),\\;\\; V'=(2k,0).\n\\]\n代入圓 \\(C\\) 可驗證 \\(H'\\) 在圓上。題設共圓遂要求 \\(V'\\) 也在 \\(C\\)：\n\\[\n(2k-k)^2+\\left(\\frac{7}{2}\\right)^2=\\frac{625}{4},\n\\]\n\\[\nk^2=144.\n\\]\n因 \\(k>0\\)，\\(k=12\\)。此時\n\\[\nV'H=\\sqrt{12^2+16^2}=20,\n\\;\\;\nIH=16-4=12.\n\\]\n所以 \\(20<24=2IH\\)，聲稱成立。\n陰濕位：\\(H'\\) 已自動在外接圓上；仍須把 \\(V'\\) 代入，才能由共圓條件求 \\(k\\)。",
+          "id": "import-four-centres-q228",
+          "subcategory": "centre-transformations",
+          "skill": "fc-transform",
+          "classification": {
+            "version": "2026-10-21.1",
+            "basis": "source method tag: graph/coordinate transformation",
+            "status": "rule-classified",
+            "originalTopic": "L5 Roots and Multiple Centres / 根與多個四心",
+            "sourceLevel": "Level 5*"
+          },
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 4,
+          "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+          "source": "CCSC Mock · 2025/26 · P1 · Original Q19",
+          "sourceZh": "來源所列（未獨立核實）：CCSC Mock · 2025/26 · P1 · Original Q19",
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "long",
+            "sourceId": "Q228",
+            "row": 70,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          "assessmentMode": "solution-comparison",
+          "editorialCorrections": [
+            {
+              "field": "stemZh",
+              "reason": "Chinese reconstructed solely from intact English. Checked V(k,9), roots k±12, H(k,16), I(k,4), circumcentre(k,-7/2), radius25/2; H-prime on circle and cyclicity forces k=12, giving 20<24.",
+              "review": "1013-recovery-review.json",
+              "date": "2026-10-22"
+            }
+          ]
         },
         {
           "stem": "Let \\(m\\) be a positive integer and\n\n\\[\n\\begin{aligned}\nf(x)&=\\frac{x^2+36mx-8x+484}{m+1}\\\\\n&\\mathrel{}+348m-456.\n\\end{aligned}\n\\]\n\n(a) Use completing the square to find the vertex of \\(y=f(x)\\).\n\n(b) Let \\(A,B\\) be the vertices of \\(y=f(x)\\) and \\(y=-f(8-x)+24\\), and let \\(C=(4-32m,12-24m)\\). Let \\(U,V\\) be the incentre and circumcentre of \\(\\triangle ABC\\).\n\n(i) Find \\(U\\). (ii) Find \\(V\\).\n\n(iii) Let \\(S=(-5-6m,12-14m)\\). Can a point \\(P\\) be chosen so that \\(VUSP\\) is a square? Explain.",

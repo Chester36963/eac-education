@@ -1,5 +1,15 @@
 # Implementation record
 
+## Library refinement, language consistency and 111-row review — 22 October 2026
+
+Simplified the library into chapter navigation, a search field and collapsed refinements, with compact inventory and no machine import IDs in listing rows. Language is visible on the listing and in the active question header; library links explicitly carry bilingual/English/Chinese, overriding an old saved Chinese preference only for that explicit navigation. In-session language and drafts survive resume. The accepted homepage illustration is unchanged.
+
+Reviewed all original 111 holds, recovering 64: Four Centres 7, Mensuration 19, Locus 38. The total is now 854, with source dispositions 817 published / 47 held / 34 duplicates. Stable starter IDs and the immutable source snapshot survive. Missing choices become disclosed written adaptations, not invented MCQs. Contradictory Chinese area wording is corrected against intact English volume stems and cubic-unit choices. Mathematical corrections include Q242/Q243/Q252, M075/M083 and independently authored L027/L030/L053/L132 solutions. Four existing malformed Chinese hints were also repaired.
+
+Seven reconstructed same-question SVGs were checked standalone and in actual desktop/mobile previews, including every option; real practice pages were checked against the published chunks. Source-dependent shading, missing bounds, inconsistent circles and underdetermined final conditions remain blocked with per-row explanations. Review and evidence are in `RECOVERY_REVIEW_2026-10-22.md`. The content gate now also rejects raw TeX outside delimiters and broken option math. Whole-bank formula parsing is a structural test, not independent certification of all source mathematics.
+
+Final verification: 20 unit/content tests, four browser suites, 35,680 formula fragments across 854 questions with zero MathJax errors, and zero raw TeX/HTML/Markdown residues in the checked question/option/hint/solution text. Screenshot review includes all seven reconstructed figures in real practice pages on desktop and mobile. The earlier 790-question log below describes the pre-recovery state.
+
 ## HTML bank classification and bounded loading — 22 October 2026
 
 Safely decoded the user-supplied `/Users/chester/Downloads/1013 webpage/index.html` as a strict JSON literal, without evaluating its scripts. Preserved the 898 source records and file SHA-256 in `content/sources/1013-webpage.json`. Added reproducible extraction, preview-first classification, per-record provenance, source aliases, editorial corrections and a complete disposition audit. The quadrilateral/statistics design references and homepage cover remain intact.

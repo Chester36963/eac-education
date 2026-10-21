@@ -17,14 +17,14 @@
 <details class="bank-taxonomy" id="bank-taxonomy" hidden><summary>按解題方法選擇 / Browse solving methods</summary><div class="bank-taxonomy-links" id="bank-taxonomy-links"></div></details>
 <section class="bank-filters" aria-label="題目篩選">
 <label class="bank-search">搜尋題目 / Search<input id="bank-search" type="search" placeholder="題號、關鍵字、課題…" autocomplete="off"></label>
-<div class="bank-filter-grid">
+<details class="bank-refinements"><summary>篩選分類、技巧與程度 <span id="bank-refinement-status">Refine your practice</span></summary><div class="bank-filter-grid">
 <label>細分類<select id="bank-subcategory"></select></label><label>技巧<select id="bank-skill"></select></label>
 <label>題型<select id="bank-type"></select></label><label>難度<select id="bank-difficulty"></select></label>
 <label>建議程度（含較早課題）<select id="bank-form"><option value="all">全部程度</option><option value="1">中一 / Form 1</option><option value="2">中二 / Form 2</option><option value="3">中三 / Form 3</option><option value="4">中四 / Form 4</option><option value="5">中五 / Form 5</option><option value="6">中六 / Form 6</option></select></label>
 <label>學習記錄<select id="bank-mode"><option value="all">全部題目</option><option value="new">未做題目</option><option value="review">待重溫錯題</option><option value="saved">我的收藏</option></select></label>
 </div><div class="bank-filter-footer"><p class="field-note">程度為練習建議，並非完整各級課程。長答及證明題附解析及自評要點。</p><button class="text-button" type="button" id="bank-reset">重設篩選</button></div>
-</section>
-<div class="bank-results-top"><p id="bank-count" role="status" aria-live="polite">載入題目中…</p><label>次序<select id="bank-order"><option value="chapter">課題次序</option><option value="difficulty">基礎 → 挑戰</option><option value="type">題型</option></select></label></div>
+</details></section>
+<div class="bank-results-top"><p id="bank-count" role="status" aria-live="polite">載入題目中…</p><div class="bank-display"><label>語言<select id="bank-language"><option value="bilingual">English + 中文</option><option value="en">English</option><option value="zh">繁體中文</option></select></label><label>次序<select id="bank-order"><option value="chapter">課題次序</option><option value="difficulty">基礎 → 挑戰</option><option value="type">題型</option></select></label></div></div>
 <div id="bank-results" class="bank-results"></div>
 <nav class="bank-pagination" aria-label="題目分頁"><button class="btn btn-outline" id="bank-prev" type="button">← 上一頁</button><span id="bank-page" aria-live="polite"></span><button class="btn btn-outline" id="bank-next" type="button">下一頁 →</button></nav>
 <p id="bank-status" role="status"></p><button class="btn btn-outline" id="bank-reload" hidden type="button">重新載入題庫</button>

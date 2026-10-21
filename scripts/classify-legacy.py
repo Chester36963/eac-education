@@ -13,6 +13,11 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CONTENT = ROOT / 'content'
 DATA = json.loads((CONTENT / 'sources/1013-webpage.json').read_text())
+REVIEW_PATH = CONTENT / 'imports/1013-recovery-review.json'
+REVIEW = json.loads(REVIEW_PATH.read_text()) if REVIEW_PATH.exists() else {'records':[]}
+if REVIEW.get('sourceSha256') and REVIEW['sourceSha256'] != DATA['origin']['sha256']:
+    raise ValueError('Recovery review belongs to a different source snapshot')
+RECOVERIES = {r['id']:r for r in REVIEW['records'] if r['decision']=='recover'}
 TOPICS = {'fourCentres': 'four-centres', 'polynomial': 'polynomial',
           'mensuration': 'mensuration', 'locus': 'locus', 'asgs': 'sequences'}
 read = lambda p: json.loads(p.read_text())
@@ -276,7 +281,7 @@ def quality(q, kind):
         # Quadratic graph as an algebraic object needs no supplied picture. Other
         # figure references are held until their same-question image is supplied.
         if re.search(r'figure|diagram|如圖|圖中|下圖|圖示|陰影|shaded|graph shows|graph below|shown below|shown in', q['stem']+' '+q['stemZh'], re.I):
-            reasons.append('missing-same-question-visual')
+            if not q.get('diagram'): reasons.append('missing-same-question-visual')
     if kind == 'mc':
         if q.get('answer') not in ['A','B','C','D']: reasons.append('invalid-answer')
         for field in ['options', 'optionsZh']:
@@ -394,6 +399,14 @@ for name, groups in DATA['questions'].items():
                 corrections.append({'field':'hint','reason':'Source hint incorrectly referred to an incentre.'})
                 q['hint'] = 'The circumcentre is equidistant from each vertex. Use the perpendicular bisector of the horizontal side.'
                 q['hintZh'] = '外心到各頂點等距。先用水平邊的中垂線建立外心的坐標條件。'
+            hint_repairs = {
+                'Q059':r'由 P 到 Q 的位移是 \((s,-r)\)，與 \(OP=(r,s)\) 垂直，所以直角在 P。',
+                'Q071':r'PQ 的方向 \((-2b,2a)\) 是 OP 方向 \((a,b)\) 旋轉 90 度後的倍數，所以直角在 P。',
+                'Q121':r'\(OA=OB\)，而 OA、OB 的斜率乘積為 \(-1\)，所以三角形在 O 有直角。',
+                'Q247':r'先求餘下的角：\(\angle X=180^\circ-36^\circ-54^\circ=90^\circ\)。'}
+            if name=='fourCentres' and original.get('id') in hint_repairs:
+                q['hintZh']=hint_repairs[original['id']]
+                corrections.append({'field':'hintZh','reason':'Restore complete Chinese hint from intact English; source had raw/truncated TeX outside delimiters.'})
             for field in ['hint','hintZh']:
                 value = q[field]
                 if value.count('\\(') != value.count('\\)') or value.count('\\[') != value.count('\\]'):
@@ -401,15 +414,25 @@ for name, groups in DATA['questions'].items():
                     q[field] = ''
             if not q['hint'] or not q['hintZh']:
                 q['hint'] = q['hintZh'] = ''
+            reviewed = RECOVERIES.get(q['id'])
+            if reviewed:
+                allowed = {'stem','stemZh','solution','solutionZh','hint','hintZh','questionType','assessmentMode','diagram','answer','options','optionsZh'}
+                if set(reviewed['overrides'])-allowed: raise ValueError('Unrecognised recovery override')
+                q.update(reviewed['overrides'])
+                if reviewed.get('adaptation'): q['adaptation'] = reviewed['adaptation']
+                if q['questionType'] not in ['mcq','diagram']:
+                    for field in ['answer','options','optionsZh']: q.pop(field,None)
+                corrections.append({'field':','.join(reviewed['overrides']), 'reason':reviewed['assessment'], 'review':'1013-recovery-review.json','date':reviewed['reviewedAt']})
             if corrections: q['editorialCorrections'] = corrections
             if len(q['solution']) < 95 and re.search(r'check against|answer\s*[:：]|^Q\d+\.', q['solution'], re.I):
                 q['solutionStatus'] = 'source-answer-or-brief-explanation'
-            reasons = quality(q,kind)
+            reasons = quality(q,'mc' if q['questionType'] in ['mcq','diagram'] else 'long')
             fingerprint = hashlib.sha256(json.dumps([name,q['stem'],q['stemZh'],q.get('options')],ensure_ascii=False,sort_keys=True).encode()).hexdigest()
             record = {'id':q['id'],'sourceTopic':name,'kind':kind,'sourceRow':index+1,
                       'sourceId':original.get('id'),'source':source,'subcategory':q['subcategory'],
                       'skill':q['skill'],'classificationBasis':explanation,
                       'reasons':reasons,'corrections':corrections}
+            if reviewed: record['recoveryReview'] = reviewed['assessment']
             if reasons:
                 record['status'] = 'held'
             elif fingerprint in seen:

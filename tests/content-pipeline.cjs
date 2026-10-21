@@ -32,6 +32,8 @@ test('validation blocks duplicate IDs, missing translation, broken taxonomy and 
   for(const [change,message]of [
     [s=>s.topics[0].categories[0].questions.push(structuredClone(question(s))),/duplicate question/i],
     [s=>delete question(s).stemZh,/stemZh required/],
+    [s=>question(s).hintZh='m=\\frac{1}{2}',/raw TeX outside math delimiters in hintZh/],
+    [s=>question(s).options.A='\\(broken',/unbalanced math delimiters in options.A/],
     [s=>question(s).skill='not-a-skill',/unknown subcategory\/skill/],
     [s=>question(s).stem='In the figure, find the answer.',/same-question diagram required/],
     [s=>{const q=s.topics.flatMap(t=>t.categories.flatMap(c=>c.questions)).find(q=>q.diagram);q.diagram.qa.questionId='wrong-id';},/reviewed same-question/],

@@ -698,7 +698,12 @@
       "skill": "fc-altitudes",
       "classificationBasis": "primary centre in statement; coordinate/property method in solution",
       "reasons": [],
-      "corrections": [],
+      "corrections": [
+        {
+          "field": "hintZh",
+          "reason": "Restore complete Chinese hint from intact English; source had raw/truncated TeX outside delimiters."
+        }
+      ],
       "status": "published"
     },
     {
@@ -712,7 +717,12 @@
       "skill": "fc-altitudes",
       "classificationBasis": "primary centre in statement; coordinate/property method in solution",
       "reasons": [],
-      "corrections": [],
+      "corrections": [
+        {
+          "field": "hintZh",
+          "reason": "Restore complete Chinese hint from intact English; source had raw/truncated TeX outside delimiters."
+        }
+      ],
       "status": "published"
     },
     {
@@ -773,7 +783,12 @@
       "skill": "fc-equal-radii",
       "classificationBasis": "primary centre in statement; coordinate/property method in solution",
       "reasons": [],
-      "corrections": [],
+      "corrections": [
+        {
+          "field": "hintZh",
+          "reason": "Restore complete Chinese hint from intact English; source had raw/truncated TeX outside delimiters."
+        }
+      ],
       "status": "published"
     },
     {
@@ -1031,11 +1046,17 @@
       "subcategory": "orthocentre",
       "skill": "fc-altitudes",
       "classificationBasis": "primary centre in statement; coordinate/property method in solution",
-      "reasons": [
-        "unbalanced-math-stemZh"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stemZh,solutionZh",
+          "reason": "English statement intact; Chinese translated faithfully. Altitude intersection and positive root checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "English statement intact; Chinese translated faithfully. Altitude intersection and positive root checked.",
+      "status": "published"
     },
     {
       "id": "import-four-centres-q106",
@@ -1852,11 +1873,17 @@
       "subcategory": "centre-statements",
       "skill": "fc-statements",
       "classificationBasis": "statement-by-statement centre property test",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "diagram,answer,hint,hintZh,solution,solutionZh",
+          "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "status": "published"
     },
     {
       "id": "import-four-centres-q254",
@@ -1897,7 +1924,12 @@
       "skill": "fc-statements",
       "classificationBasis": "statement-by-statement centre property test",
       "reasons": [],
-      "corrections": [],
+      "corrections": [
+        {
+          "field": "hintZh",
+          "reason": "Restore complete Chinese hint from intact English; source had raw/truncated TeX outside delimiters."
+        }
+      ],
       "status": "published"
     },
     {
@@ -1959,11 +1991,17 @@
       "subcategory": "centre-statements",
       "skill": "fc-statements",
       "classificationBasis": "statement-by-statement centre property test",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "diagram,answer",
+          "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "status": "published"
     },
     {
       "id": "import-four-centres-q239",
@@ -1989,17 +2027,21 @@
       "subcategory": "centre-statements",
       "skill": "fc-statements",
       "classificationBasis": "statement-by-statement centre property test",
-      "reasons": [
-        "missing-same-question-visual",
-        "unbalanced-math-solutionZh"
-      ],
+      "reasons": [],
       "corrections": [
         {
           "field": "hint",
           "reason": "Malformed optional source hint withheld; question and solution retained."
+        },
+        {
+          "field": "diagram,solutionZh",
+          "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
         }
       ],
-      "status": "held"
+      "recoveryReview": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "status": "published"
     },
     {
       "id": "import-four-centres-q250",
@@ -2039,11 +2081,17 @@
       "subcategory": "centre-tangency",
       "skill": "fc-tangent-chain",
       "classificationBasis": "source method tag: circle/tangent chain",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "diagram,answer,hint,hintZh",
+          "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "status": "published"
     },
     {
       "id": "import-four-centres-q253",
@@ -2987,11 +3035,17 @@
       "subcategory": "centre-transformations",
       "skill": "fc-transform",
       "classificationBasis": "source method tag: graph/coordinate transformation",
-      "reasons": [
-        "unbalanced-math-solutionZh"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "solutionZh,solution",
+          "reason": "All triangle coordinates and lengths independently checked. Restore truncated HU<r clause from intact English; replace cluttered English with complete derivation.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "All triangle coordinates and lengths independently checked. Restore truncated HU<r clause from intact English; replace cluttered English with complete derivation.",
+      "status": "published"
     },
     {
       "id": "import-four-centres-q225",
@@ -3045,11 +3099,17 @@
       "subcategory": "centre-transformations",
       "skill": "fc-transform",
       "classificationBasis": "source method tag: graph/coordinate transformation",
-      "reasons": [
-        "unbalanced-math-stemZh"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stemZh",
+          "reason": "Chinese reconstructed solely from intact English. Checked V(k,9), roots k±12, H(k,16), I(k,4), circumcentre(k,-7/2), radius25/2; H-prime on circle and cyclicity forces k=12, giving 20<24.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Chinese reconstructed solely from intact English. Checked V(k,9), roots k±12, H(k,16), I(k,4), circumcentre(k,-7/2), radius25/2; H-prime on circle and cyclicity forces k=12, giving 20<24.",
+      "status": "published"
     },
     {
       "id": "import-four-centres-q233",
@@ -5613,11 +5673,17 @@
       "subcategory": "surface-area",
       "skill": "mens-exposed-area",
       "classificationBasis": "identify exposed surface components",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "diagram",
+          "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-m003",
@@ -5643,11 +5709,17 @@
       "subcategory": "volume",
       "skill": "mens-direct-volume",
       "classificationBasis": "solid volume formula",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "diagram",
+          "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-m005",
@@ -5689,11 +5761,17 @@
       "subcategory": "volume",
       "skill": "mens-direct-volume",
       "classificationBasis": "solid volume formula",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "diagram",
+          "reason": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete defining relationships reconstructed as an editable same-question SVG; standalone and student preview QA completed. Answers independently checked. Q242 uses chord DB, not the invalid source chord HB; Q242/Q243 stored A corrected to B.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-m008",
@@ -6625,11 +6703,17 @@
       "subcategory": "surface-area",
       "skill": "mens-exposed-area",
       "classificationBasis": "identify exposed surface components",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh",
+          "reason": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-m072",
@@ -6683,11 +6767,17 @@
       "subcategory": "cuts-frustums",
       "skill": "mens-subtract-cones",
       "classificationBasis": "parallel cross-section and similar cone subtraction",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh,solution,solutionZh,answer,hint,hintZh",
+          "reason": "Source English explicitly requests volume and all original options have cubic units. Chinese area/numerical-radius drift corrected to this coherent English edition. Exact frustum and hemisphere volumes independently re-derived.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Source English explicitly requests volume and all original options have cubic units. Chinese area/numerical-radius drift corrected to this coherent English edition. Exact frustum and hemisphere volumes independently re-derived.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-m076",
@@ -6741,11 +6831,17 @@
       "subcategory": "cuts-frustums",
       "skill": "mens-subtract-cones",
       "classificationBasis": "parallel cross-section and similar cone subtraction",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh,solution,solutionZh,answer,hint,hintZh",
+          "reason": "Source English explicitly requests volume and all original options have cubic units. Chinese area/numerical-radius drift corrected to this coherent English edition. Exact frustum and hemisphere volumes independently re-derived.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Source English explicitly requests volume and all original options have cubic units. Chinese area/numerical-radius drift corrected to this coherent English edition. Exact frustum and hemisphere volumes independently re-derived.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-m080",
@@ -6799,11 +6895,17 @@
       "subcategory": "cuts-frustums",
       "skill": "mens-subtract-cones",
       "classificationBasis": "parallel cross-section and similar cone subtraction",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh,solution,solutionZh,answer,hint,hintZh",
+          "reason": "Source English explicitly requests volume and all original options have cubic units. Chinese area/numerical-radius drift corrected to this coherent English edition. Exact frustum and hemisphere volumes independently re-derived.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Source English explicitly requests volume and all original options have cubic units. Chinese area/numerical-radius drift corrected to this coherent English edition. Exact frustum and hemisphere volumes independently re-derived.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-m084",
@@ -7090,11 +7192,17 @@
       "subcategory": "area",
       "skill": "mens-sector",
       "classificationBasis": "sector angle/arc/area relation",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh",
+          "reason": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l005",
@@ -7150,11 +7258,17 @@
       "subcategory": "liquids-displacement",
       "skill": "mens-water-depth",
       "classificationBasis": "liquid depth and volume relation",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh",
+          "reason": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l009",
@@ -7180,11 +7294,17 @@
       "subcategory": "similar-solids",
       "skill": "mens-scale-powers",
       "classificationBasis": "length/area/volume scale relation",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh",
+          "reason": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l011",
@@ -7310,11 +7430,17 @@
       "subcategory": "cuts-frustums",
       "skill": "mens-subtract-cones",
       "classificationBasis": "parallel cross-section and similar cone subtraction",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh",
+          "reason": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l020",
@@ -7410,11 +7536,17 @@
       "subcategory": "cuts-frustums",
       "skill": "mens-subtract-cones",
       "classificationBasis": "parallel cross-section and similar cone subtraction",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh",
+          "reason": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l027",
@@ -7426,11 +7558,17 @@
       "subcategory": "cuts-frustums",
       "skill": "mens-subtract-cones",
       "classificationBasis": "parallel cross-section and similar cone subtraction",
-      "reasons": [
-        "ocr-damaged-solution"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "solution,solutionZh",
+          "reason": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l028",
@@ -7472,11 +7610,17 @@
       "subcategory": "liquids-displacement",
       "skill": "mens-displacement",
       "classificationBasis": "submerged volume changes water level",
-      "reasons": [
-        "solution-repeats-question"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "solution,solutionZh",
+          "reason": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l031",
@@ -7604,11 +7748,17 @@
       "subcategory": "liquids-displacement",
       "skill": "mens-water-depth",
       "classificationBasis": "liquid depth and volume relation",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh",
+          "reason": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l040",
@@ -7620,11 +7770,17 @@
       "subcategory": "liquids-displacement",
       "skill": "mens-displacement",
       "classificationBasis": "submerged volume changes water level",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh,solution",
+          "reason": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l041",
@@ -7805,11 +7961,17 @@
       "subcategory": "cuts-frustums",
       "skill": "mens-subtract-cones",
       "classificationBasis": "parallel cross-section and similar cone subtraction",
-      "reasons": [
-        "ocr-damaged-solution"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "solution,solutionZh",
+          "reason": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l054",
@@ -8341,12 +8503,17 @@
       "subcategory": "recasting-splitting",
       "skill": "mens-volume-conservation",
       "classificationBasis": "fixed material volume under recasting/splitting",
-      "reasons": [
-        "missing-same-question-visual",
-        "unbalanced-math-solution"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,stemZh,solution",
+          "reason": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Text contains every required defining relation; independent volume/similarity and surface-area checks confirm the stated answer. No shaded region or unexpressed label is used. Sphere count is explicitly a minimum threshold.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l092",
@@ -8920,11 +9087,17 @@
       "subcategory": "similar-solids",
       "skill": "mens-prove-similarity",
       "classificationBasis": "test similarity using corresponding dimensions",
-      "reasons": [
-        "ocr-damaged-solution"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "solution,solutionZh",
+          "reason": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Complete source statement independently solved using similarity, exact volume/area equations and boundary checks; source OCR/repeated solution replaced.",
+      "status": "published"
     },
     {
       "id": "import-mensuration-mens-l133",
@@ -9108,12 +9281,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-e337ecfa04122732",
@@ -9153,12 +9331,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-e11bcf830c488e64",
@@ -9184,12 +9367,17 @@
       "subcategory": "equal-points",
       "skill": "locus-perp-bisector",
       "classificationBasis": "equate squared distances to two points",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-5958937aeb20c640",
@@ -9201,12 +9389,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh,stemZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-2768b240986133e2",
@@ -9218,12 +9411,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-ae3fb32f55ff0c8c",
@@ -9235,12 +9433,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-12f1a5d86084fc80",
@@ -9693,12 +9896,17 @@
       "subcategory": "equal-points",
       "skill": "locus-perp-bisector",
       "classificationBasis": "equate squared distances to two points",
-      "reasons": [
-        "invalid-answer",
-        "source-reports-invalid-question-or-options"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-8e722eb03f0dab72",
@@ -9710,12 +9918,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-7ee1b449b5eedaa3",
@@ -9727,12 +9940,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-0549dc09e7dec6d0",
@@ -9744,12 +9962,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-e1a6eb412b89dc4f",
@@ -9761,12 +9984,17 @@
       "subcategory": "transformed-loci",
       "skill": "locus-transform",
       "classificationBasis": "coordinate transformation before substitution",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-78afbf481142b426",
@@ -9792,12 +10020,17 @@
       "subcategory": "equal-points",
       "skill": "locus-perp-bisector",
       "classificationBasis": "equate squared distances to two points",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-aa77975f7e4680c9",
@@ -10035,12 +10268,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-781af1d4d83231ae",
@@ -10052,12 +10290,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-8fb2d0eb4577f92e",
@@ -10069,12 +10312,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-ac9e79988d5c3773",
@@ -10270,11 +10518,17 @@
       "subcategory": "intersecting-loci",
       "skill": "locus-line-circle",
       "classificationBasis": "substitute locus into another line or circle",
-      "reasons": [
-        "missing-same-question-visual"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem",
+          "reason": "Two intersecting lines plus equal perpendicular distances fully determine the two angle bisectors. B is correct; the source sketch supplies no additional given.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Two intersecting lines plus equal perpendicular distances fully determine the two angle bisectors. B is correct; the source sketch supplies no additional given.",
+      "status": "published"
     },
     {
       "id": "import-locus-e5467e28c69c4701",
@@ -10300,12 +10554,17 @@
       "subcategory": "distance-equations",
       "skill": "locus-focus-directrix",
       "classificationBasis": "point-line equal distance or parabola",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-f45b38d04a2b5ea5",
@@ -10317,12 +10576,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-ae975d55a13dfbd8",
@@ -10348,12 +10612,17 @@
       "subcategory": "intersecting-loci",
       "skill": "locus-line-circle",
       "classificationBasis": "substitute locus into another line or circle",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-346224fa914239db",
@@ -10365,12 +10634,17 @@
       "subcategory": "intersecting-loci",
       "skill": "locus-line-circle",
       "classificationBasis": "substitute locus into another line or circle",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-e9c70b4525ca5dff",
@@ -10382,12 +10656,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-6557cc715ce74a31",
@@ -10399,12 +10678,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-3e1596b8c61091b2",
@@ -10430,12 +10714,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-30460a0b1ab8a453",
@@ -10564,12 +10853,17 @@
       "subcategory": "equal-lines",
       "skill": "locus-parallel-midline",
       "classificationBasis": "equal perpendicular distances to two lines",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-598ce7a3d5e04630",
@@ -10628,12 +10922,17 @@
       "subcategory": "diameter-circle",
       "skill": "locus-thales",
       "classificationBasis": "right-angle condition gives diameter circle",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-c3c794b88657da31",
@@ -11045,12 +11344,17 @@
       "subcategory": "transformed-loci",
       "skill": "locus-transform",
       "classificationBasis": "coordinate transformation before substitution",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-aa4f5d5555a06779",
@@ -11095,12 +11399,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-0ffc2b3aa04ff5bb",
@@ -11144,11 +11453,17 @@
       "subcategory": "equal-lines",
       "skill": "locus-angle-bisectors",
       "classificationBasis": "equal perpendicular distances to two lines",
-      "reasons": [
-        "source-reports-invalid-question-or-options"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-9404a68cc8914942",
@@ -11174,12 +11489,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-0f10207b3c4041cb",
@@ -11191,12 +11511,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-1451a52a342d6181",
@@ -11208,12 +11533,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-996bae734f95aaf8",
@@ -11225,12 +11555,17 @@
       "subcategory": "equal-lines",
       "skill": "locus-parallel-midline",
       "classificationBasis": "equal perpendicular distances to two lines",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-c678c46c4234d9cd",
@@ -11288,12 +11623,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-7ee569f1d582c8b5",
@@ -11305,12 +11645,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-08cf3d2a6e8c5fb5",
@@ -11350,12 +11695,17 @@
       "subcategory": "equal-points",
       "skill": "locus-perp-bisector",
       "classificationBasis": "equate squared distances to two points",
-      "reasons": [
-        "invalid-answer",
-        "source-reports-invalid-question-or-options"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-2ce389ef7486ef13",
@@ -11423,12 +11773,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-281009323e517030",
@@ -11440,12 +11795,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "missing-options",
-        "missing-stem"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-715f5963a58906fe",
@@ -11471,14 +11831,17 @@
       "subcategory": "fixed-distance",
       "skill": "locus-fixed-radius",
       "classificationBasis": "fixed distance determines circle centre and radius",
-      "reasons": [
-        "invalid-answer",
-        "missing-options",
-        "missing-stem",
-        "source-reports-invalid-question-or-options"
+      "reasons": [],
+      "corrections": [
+        {
+          "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+          "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+          "review": "1013-recovery-review.json",
+          "date": "2026-10-22"
+        }
       ],
-      "corrections": [],
-      "status": "held"
+      "recoveryReview": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+      "status": "published"
     },
     {
       "id": "import-locus-0437cd26dba4ec63",
@@ -13127,27 +13490,27 @@
     }
   ],
   "counts": {
-    "published": 753,
-    "held": 111,
+    "published": 817,
+    "held": 47,
     "duplicate": 34
   },
   "byTopic": {
     "fourCentres": {
-      "published": 234,
-      "held": 10
+      "published": 241,
+      "held": 3
     },
     "polynomial": {
       "published": 142,
       "duplicate": 1
     },
     "mensuration": {
-      "held": 41,
-      "published": 186,
+      "held": 22,
+      "published": 205,
       "duplicate": 7
     },
     "locus": {
-      "published": 181,
-      "held": 48,
+      "published": 219,
+      "held": 10,
       "duplicate": 25
     },
     "asgs": {
@@ -13157,19 +13520,16 @@
     }
   },
   "holdReasons": {
-    "unbalanced-math-stemZh": 21,
-    "missing-same-question-visual": 42,
-    "unbalanced-math-solutionZh": 5,
+    "unbalanced-math-solutionZh": 3,
+    "unbalanced-math-stemZh": 19,
+    "missing-same-question-visual": 22,
     "answer-solution-letter-conflict": 1,
     "impossible-sector-perimeter-and-radius": 1,
-    "ocr-damaged-solution": 3,
-    "solution-repeats-question": 1,
-    "unbalanced-math-solution": 1,
-    "invalid-answer": 7,
-    "source-reports-invalid-question-or-options": 7,
-    "missing-options": 37,
-    "missing-stem": 37,
+    "invalid-answer": 4,
+    "source-reports-invalid-question-or-options": 3,
+    "missing-options": 3,
     "missing-optionsZh": 1,
+    "missing-stem": 3,
     "missing-stemZh": 1,
     "unbalanced-math-stem": 16
   }
