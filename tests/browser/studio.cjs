@@ -141,7 +141,8 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     await page.locator('#finish-btn').click();
 
     // Bookmarks can be removed and empty saved sets remain recoverable.
-    await open('app.html?mode=saved');await page.locator('#start-set-btn').click();
+    // The randomly bookmarked item may exceed the newly saved Form 2 threshold.
+    await open('app.html?mode=saved&form=all');await page.locator('#start-set-btn').click();
     await page.locator('#bookmark-btn').click();assert.equal(await page.locator('#bookmark-btn').getAttribute('aria-pressed'),'false');
     await page.locator('#finish-btn').click();await open('app.html?mode=saved');
     assert.equal(await page.locator('#start-set-btn').isDisabled(),true);
