@@ -7,14 +7,16 @@
   <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/decorations.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css">
 </head>
 <body class="student-shell">
-  <header class="site-header"><div class="header-inner"><a href="index.html" class="logo"><span class="logo-mark">E</span> EAC</a><nav class="site-nav" aria-label="Student navigation"><a href="#library">Library</a><a href="#learning-record">Progress</a><a href="app.html" class="btn btn-primary btn-sm">Practice now</a><button class="btn btn-outline btn-sm" onclick="handleLogout()">Log out</button></nav></div></header>
+  <header class="site-header"><div class="header-inner"><a href="index.html" class="logo"><span class="logo-mark">E</span> EAC</a><nav class="site-nav" aria-label="Student navigation"><a href="#library">課題</a><a href="settings.html">設定</a><a href="#learning-record">Progress</a><a href="app.html" class="btn btn-primary btn-sm">Practice now</a><button class="btn btn-outline btn-sm" onclick="handleLogout()">Log out</button></nav></div></header>
   <main class="student-main">
     <section class="student-welcome"><p class="eyebrow">Student home / 學習主頁</p><h1 id="welcome-heading">Good afternoon.</h1><p id="welcome-copy">Choose a focused set, or continue with today's recommendation.</p></section>
+    <section class="resume-banner" id="dashboard-resume" hidden><div><strong>接住上次未完成練習</strong><p id="dashboard-resume-copy"></p></div><a class="btn btn-primary" href="app.html?resume=1">繼續練習 →</a></section>
+    <section class="studio-shortcuts" aria-label="選擇學習方式"><a href="app.html"><strong>自選練習</strong><span>揀課題、題型、題數及時間 →</span></a><a href="app.html?mode=review"><strong>錯題重溫</strong><span>集中練習仍未掌握的題目 →</span></a><a href="app.html?mode=saved"><strong>我的收藏</strong><span>重做值得再看的題目 →</span></a><a href="app.html?experience=test"><strong>自測模式</strong><span>做完一組再核對答案 →</span></a></section>
     <section class="daily-grid" id="progress">
       <article class="daily-card"><div class="daily-card-top"><span class="eyebrow">Today's direction</span><span class="daily-date" id="today-date"></span></div><h2 id="recommendation-heading">揀選今日的練習。</h2><p id="recommendation-copy">正在讀取你的學習記錄。</p><a class="btn btn-primary" id="recommendation-link" href="app.html">開始練習 →</a></article>
-      <aside class="streak-panel"><span class="eyebrow">Your rhythm</span><div class="streak-number" id="streak-value">0</div><p>day streak</p><div class="mini-stats"><span><strong id="accuracy-value">0%</strong> accuracy</span><span><strong id="attempted-value">0</strong> attempted</span></div></aside>
+      <aside class="streak-panel"><span class="eyebrow">Your rhythm</span><div class="streak-number" id="streak-value">0</div><p>day streak</p><div class="mini-stats"><span><strong id="accuracy-value">0%</strong> 自動核對正確率</span><span><strong id="attempted-value">0</strong> attempted</span></div></aside>
     </section>
-    <section class="library-section" id="library"><div class="section-heading"><div><p class="eyebrow">Choose your next focus</p><h2>Browse the library.</h2></div><p>由大類開始，再逐層收窄到你想練嘅 skill。內容會隨住 EAC 題庫成長。</p></div><div class="subject-list" id="subject-list"><p class="loading-copy">Loading your library…</p></div></section>
+    <section class="library-section" id="library"><div class="section-heading"><div><p class="eyebrow">Choose your next focus</p><h2>Browse the library.</h2></div><p>由大類開始，再逐層收窄到你想練嘅 skill。內容會隨住 EAC 題庫成長。</p></div><label class="library-search">搜尋課題 / Search chapters<input type="search" id="library-search" placeholder="例如：四心、volume、factorisation"></label><div class="subject-list" id="subject-list"><p class="loading-copy">Loading your library…</p></div></section>
     <section class="learning-record" id="learning-record" aria-labelledby="record-heading">
       <div class="section-heading"><div><p class="eyebrow">LEARNING RECORD · 學習記錄</p><h2 id="record-heading">Know your next step.</h2></div><p>按每題最近一次作答顯示；答對的錯題會移出待重溫清單。</p></div>
       <p class="record-note" id="record-note">記錄只儲存在此瀏覽器。</p>
@@ -26,5 +28,5 @@
   </main>
   <footer class="site-footer"><span>© 2026 EAC Education</span><span>Built for thoughtful practice.</span></footer>
   <script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/features/gamification.js"></script>
-  <script src="js/core/content.js"></script><script src="js/features/dashboard.js"></script>
+  <script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/features/dashboard.js"></script>
 </body></html>

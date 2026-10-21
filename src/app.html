@@ -1,307 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EAC Education — Practice</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-
-  <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/decorations.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/site.css">
-
-  <style>
-    header {
-      background-color: var(--bg-white);
-      border-bottom: var(--border-light);
-      padding: var(--spacing-lg) var(--spacing-3xl);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .header-inner {
-      max-width: var(--container-xl);
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .logo {
-      font-family: var(--font-serif-display);
-      font-size: 24px;
-      font-weight: 600;
-      letter-spacing: 3px;
-      color: var(--navy-dark);
-      text-decoration: none;
-    }
-
-    .header-actions {
-      display: flex;
-      gap: var(--spacing-lg);
-      align-items: center;
-    }
-
-    .streak-badge {
-      padding: var(--spacing-sm) var(--spacing-lg);
-      background-color: var(--accent-rose-light);
-      border: 1px solid var(--accent-rose);
-      border-radius: 8px;
-      color: var(--accent-rose);
-      font-weight: 600;
-      font-size: 13px;
-    }
-
-    .main-container {
-      max-width: var(--container-lg);
-      margin: 0 auto;
-      padding: var(--spacing-4xl) var(--spacing-3xl);
-    }
-
-    .progress-bar {
-      margin-bottom: var(--spacing-3xl);
-    }
-
-    .progress-bar-fill {
-      height: 4px;
-      background-color: var(--border-light);
-      border-radius: 2px;
-      overflow: hidden;
-    }
-
-    .progress-bar-fill-inner {
-      height: 100%;
-      background-color: var(--accent-rose);
-      transition: width 0.3s ease;
-    }
-
-    .progress-text {
-      font-size: 12px;
-      color: var(--text-light);
-      margin-top: 6px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
-    .question-container {
-      background-color: var(--bg-secondary);
-      border: var(--border-light);
-      border-radius: 12px;
-      padding: var(--spacing-3xl);
-      margin-bottom: var(--spacing-3xl);
-    }
-
-    .question-meta {
-      display: flex;
-      gap: 12px;
-      margin-bottom: var(--spacing-2xl);
-      flex-wrap: wrap;
-    }
-
-    .question-stem {
-      font-family: var(--font-serif-body);
-      font-size: 19px;
-      line-height: 2;
-      color: var(--navy-dark);
-      margin-bottom: var(--spacing-2xl);
-      font-weight: 500;
-    }
-
-    .options {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-bottom: var(--spacing-2xl);
-    }
-
-    .option {
-      display: flex;
-      gap: 16px;
-      align-items: flex-start;
-      padding: 16px 18px;
-      border: 1px solid var(--border-light);
-      border-radius: 10px;
-      background-color: var(--bg-white);
-      cursor: pointer;
-      transition: var(--transition-smooth);
-    }
-
-    .option:hover {
-      border-color: var(--border-main);
-      background-color: #f9fafb;
-    }
-
-    .option.selected {
-      border-color: var(--navy-dark);
-      background-color: rgba(23, 35, 52, 0.04);
-    }
-
-    .option.correct {
-      border-color: #2d5016;
-      background-color: rgba(45, 80, 22, 0.05);
-    }
-
-    .option.wrong {
-      border-color: #8b4545;
-      background-color: rgba(139, 69, 69, 0.05);
-    }
-
-    .option-letter {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 32px;
-      height: 32px;
-      background-color: var(--navy-dark);
-      color: white;
-      border-radius: 8px;
-      font-weight: 700;
-      flex-shrink: 0;
-    }
-
-    .option.selected .option-letter {
-      background-color: var(--navy-dark);
-    }
-
-    .option-text {
-      flex: 1;
-      font-size: 15px;
-      line-height: 1.8;
-      color: var(--text-secondary);
-    }
-
-    .actions {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: var(--spacing-2xl);
-    }
-
-    .result-message {
-      padding: 20px 24px;
-      border-left: 4px solid;
-      border-radius: 8px;
-      margin-bottom: var(--spacing-2xl);
-      display: none;
-    }
-
-    .result-message.show {
-      display: block;
-    }
-
-    .result-message.success {
-      background-color: rgba(45, 80, 22, 0.05);
-      border-left-color: #2d5016;
-      color: #3d5a24;
-    }
-
-    .result-message.error {
-      background-color: rgba(139, 69, 69, 0.05);
-      border-left-color: #8b4545;
-      color: #6b3636;
-    }
-
-    .result-title {
-      font-weight: 600;
-      margin-bottom: 6px;
-    }
-
-    footer {
-      text-align: center;
-      padding: var(--spacing-2xl);
-      color: var(--text-light);
-      font-size: 12px;
-    }
-  </style>
-</head>
-<body class="practice-page">
-  <!-- Header -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="index.html" class="logo">EAC</a>
-      <div class="header-actions"><a href="dashboard.html" class="cover-text-link">學習主頁</a>
-        <div class="streak-badge" id="streak-display">Streak: 0</div>
-        <button class="btn btn-outline btn-sm" onclick="handleLogout()">Logout</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Main Content -->
-  <div class="main-container">
-    <section class="practice-config" aria-labelledby="practice-config-title">
-      <div><p class="eyebrow">Choose a focused set</p><h1 id="practice-config-title">What are you working on?</h1><p class="config-copy">先揀範圍，再開始一組集中練習。</p></div>
-      <div class="filter-grid">
-        <label>Practice mode · 練習模式<select id="mode-select"><option value="all">全部題目 / All questions</option><option value="review">錯題重溫 / Review mistakes</option><option value="new">未做題目 / Unattempted</option></select></label>
-        <label>Subject · 科目範疇<select id="subject-select"></select></label>
-        <label>Chapter · 課題<select id="topic-select"></select></label>
-        <label>Subcategory · 分類<select id="subcategory-select"></select></label>
-        <label>Skill · 技巧<select id="skill-select"></select></label>
-        <label>Question type · 題型<select id="type-select"></select></label>
-        <label>Difficulty · 難度<select id="difficulty-select"></select></label>
-      </div><div class="set-start"><p id="set-count" aria-live="polite"></p><button class="btn btn-primary" id="start-set-btn" type="button">開始練習 / Start set →</button></div>
-    </section>
-    <section class="set-summary" id="set-summary" hidden aria-labelledby="summary-heading">
-      <p class="eyebrow">SESSION REVIEW · 本組回顧</p><h2 id="summary-heading">完成這一步。</h2>
-      <p id="summary-copy"></p><div class="summary-actions"><button class="btn btn-primary" id="retry-mistakes-btn" type="button">重練本組錯題 →</button><a class="btn btn-outline" href="dashboard.html#learning-record">查看學習記錄</a></div>
-    </section>
-    <!-- Progress -->
-    <div class="progress-bar">
-      <div class="progress-bar-fill">
-        <div class="progress-bar-fill-inner" id="progress-fill" style="width: 0%"></div>
-      </div>
-      <div class="progress-text" id="progress-text">Question 0 of 0</div>
-    </div>
-
-    <!-- Result Message -->
-    <div class="result-message" id="result-message" role="status"></div>
-
-    <!-- Question Container -->
-    <div class="question-container" id="question-container">
-      <div class="question-meta">
-        <span class="badge" id="difficulty-badge">Easy</span>
-        <span class="badge badge-primary" id="category-badge">Conceptual</span>
-      </div>
-
-      <div class="question-stem" id="question-stem">Loading...</div><p class="question-zh" id="question-zh" lang="zh-Hant"></p><p class="question-source">EAC 原創練習 · Original practice</p>
-
-      <div class="options" id="options-container"></div>
-
-      <div class="actions">
-        <button class="btn btn-primary" id="submit-btn" onclick="handleSubmit()">提交答案 / Check answer</button><button class="btn btn-primary" id="next-btn" onclick="loadNextQuestion()" hidden>下一題 / Next →</button>
-        <button class="btn btn-outline" id="hint-btn" onclick="showHint()">Show Hint</button>
-        <button class="btn btn-outline" id="solution-btn" onclick="showSolution()">Show Solution</button>
-      </div>
-    </div>
-
-    <!-- Hint/Solution Panel -->
-    <div class="alert alert-info" id="hint-panel" style="display: none; margin-bottom: var(--spacing-2xl);">
-      <div class="alert-title">Hint</div>
-      <div class="alert-message" id="hint-text"></div>
-    </div>
-
-    <div class="alert alert-success" id="solution-panel" style="display: none; margin-bottom: var(--spacing-2xl);">
-      <div class="alert-title">Solution</div>
-      <div class="alert-message" id="solution-text"></div>
-    </div>
-  </div>
-
-  <footer>
-    <p>EAC Education Platform v1.0 | Phase 1 Beta</p>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="js/core/config.js"></script>
-  <script src="js/core/storage.js"></script>
-  <script src="js/core/auth.js"></script>
-  <script src="js/engine/question-engine.js"></script>
-  <script src="js/features/gamification.js"></script>
-
-  <script src="js/core/content.js"></script>
-  <script src="js/features/practice.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EAC Education · Practice Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css">
+</head><body class="practice-page">
+<header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">學習主頁</a><a href="settings.html">設定</a><button class="btn btn-outline btn-sm" onclick="handleLogout()">登出</button></nav></div></header>
+<main class="main-container">
+<section class="resume-banner" id="resume-banner" hidden><div><strong>有一組未完成練習</strong><p id="resume-copy"></p></div><button class="btn btn-primary" id="resume-btn">繼續上次練習 →</button></section>
+<details class="practice-builder" id="practice-builder" open><summary><span class="eyebrow">BUILD YOUR PRACTICE · 自選練習</span><h1>今日想點樣練？</h1><span class="builder-toggle">展開 / 收起選擇</span></summary>
+<section class="practice-config" aria-label="練習設定">
+<div class="filter-grid">
+<label>科目範疇 / Subject<select id="subject-select"></select></label>
+<label>課題 / Chapter<select id="topic-select"></select></label>
+<label>題型 / Question type<select id="type-select"></select></label>
+<label>題目範圍<select id="mode-select"><option value="all">全部題目</option><option value="new">未做題目</option><option value="review">待重溫錯題</option><option value="saved">我的收藏</option></select></label>
+<label>練習體驗<select id="experience-select"><option value="study">學習練習 · 每題看解析</option><option value="test">自測 · 完成後看解析（自動核對題）</option></select></label>
+<label>題目語言<select id="language-select"><option value="bilingual">English + 繁體中文</option><option value="en">English</option><option value="zh">繁體中文</option></select></label>
+</div>
+<details class="advanced-filters"><summary>細分類、技巧、難度及搜尋</summary><div class="filter-grid">
+<label>分類 / Subcategory<select id="subcategory-select"></select></label>
+<label>技巧 / Skill<select id="skill-select"></select></label>
+<label>難度<select id="difficulty-select"></select></label>
+<label>建議程度（包含較早課題）<select id="form-select"><option value="all">全部程度</option><option value="1">中一 / Form 1</option><option value="2">中二 / Form 2</option><option value="3">中三 / Form 3</option><option value="4">中四 / Form 4</option><option value="5">中五 / Form 5</option><option value="6">中六 / Form 6</option></select></label>
+<label class="search-field">搜尋題目 / Search<input id="query-input" type="search" placeholder="關鍵字、題號…"></label>
+</div><p class="field-note">程度為建議練習門檻；目前題庫並非完整各級課程。</p></details>
+<div class="filter-grid session-options">
+<label>每組題數<select id="length-select"><option value="5">5 題</option><option value="10">10 題</option><option value="20">20 題</option><option value="all">全部符合題目</option></select></label>
+<label>題目次序<select id="order-select"><option value="sequence">由課題次序開始</option><option value="random">隨機排列</option></select></label>
+<label>練習時間<select id="timer-select"><option value="0">不限時</option><option value="5">5 分鐘</option><option value="10">10 分鐘</option><option value="20">20 分鐘</option></select></label>
+</div><div class="set-start"><p id="set-count" aria-live="polite">載入題庫中…</p><button class="btn btn-primary" id="start-set-btn" type="button" disabled>開始練習 →</button></div><button class="text-button" id="reset-filters-btn" type="button">重設篩選</button>
+</section></details>
+<section class="studio-empty" id="studio-empty"><p class="eyebrow">YOUR CHOICE, YOUR PACE</p><h2>先揀範圍，再開始。</h2><p>可以跨課題混合練習，亦可以集中做一個技巧。長答及證明題提供評分要點供自評。</p></section>
+<section class="active-set" id="active-set" hidden>
+<div class="session-toolbar"><div><p class="eyebrow" id="active-set-title">PRACTICE SESSION</p><p id="progress-text" aria-live="polite"></p></div><span id="session-clock" role="timer">00:00</span><div class="session-actions"><button class="text-button" id="pause-btn">儲存並暫停</button><button class="text-button" id="finish-btn">結束本組</button></div></div>
+<p id="timer-notice" class="field-note" hidden>練習時間已到。你可以繼續完成，或結束本組查看回顧。</p>
+<div class="progress-bar"><div class="progress-bar-fill"><div id="progress-fill"></div></div></div>
+<nav id="question-nav" class="question-nav" aria-label="本組題目"></nav>
+<div class="result-message" id="result-message" role="status" hidden></div>
+<article class="question-container" id="question-container" aria-label="練習題目">
+<div class="question-topline"><div class="question-meta"><span class="badge" id="difficulty-badge"></span><span class="badge" id="category-badge"></span><span class="badge" id="type-badge"></span></div><button class="bookmark-button" id="bookmark-btn" aria-pressed="false">收藏題目 ☆</button></div>
+<p class="question-source" id="question-source"></p><div class="question-stem" id="question-stem"></div><p class="question-zh" id="question-zh"></p>
+<figure class="question-figure" id="question-figure" hidden><img id="question-image" alt=""><figcaption id="diagram-caption"></figcaption></figure>
+<div class="options" id="options-container"></div>
+<label class="written-answer" id="numeric-answer-wrap" hidden>輸入數值（可用分數，如 5/6）<input id="numeric-answer" type="text" inputmode="text" autocomplete="off"></label>
+<label class="written-answer" id="written-answer-wrap" hidden>寫下你的推導或證明<textarea id="written-answer" rows="7" placeholder="可以先在紙上作答，再在這裏記下關鍵步驟。"></textarea></label>
+<div class="assessment-panel" id="assessment-panel" hidden><strong>按評分要點自行核對</strong><p>這份作答以自評記錄，不計入自動核對正確率。</p><ul id="rubric-list"></ul><div class="summary-actions"><button class="btn btn-primary" id="self-correct-btn">已符合要點</button><button class="btn btn-outline" id="self-wrong-btn">仍需重練</button></div></div>
+<div class="actions"><button class="btn btn-primary" id="submit-btn">核對答案</button><button class="btn btn-primary" id="next-btn" hidden>下一題 →</button><button class="btn btn-outline" id="hint-btn">提示</button><button class="btn btn-outline" id="solution-btn">解析</button><button class="text-button" id="skip-btn">暫時跳過 →</button></div>
+</article>
+<section class="answer-panel" id="hint-panel" hidden><h3>Hint · 提示</h3><p id="hint-text"></p></section>
+<section class="answer-panel" id="solution-panel" hidden><h3>Solution · 解析</h3><p id="solution-text"></p></section>
+</section>
+<section class="set-summary" id="set-summary" hidden><p class="eyebrow">SESSION REVIEW · 本組回顧</p><h2>完成這一步。</h2><p id="summary-copy"></p><div class="summary-actions"><button class="btn btn-primary" id="retry-mistakes-btn">重練本組錯題 →</button><button class="btn btn-outline" id="retry-skipped-btn">練習跳過題目 →</button><a class="btn btn-outline" href="dashboard.html#learning-record">學習記錄</a></div><div id="summary-questions"></div></section>
+<p id="studio-status" role="status" aria-live="polite"></p>
+</main><footer class="site-footer"><span>© 2026 EAC Education</span><span>學生練習室 · 進度儲存在此瀏覽器</span></footer>
+<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/features/gamification.js"></script><script src="js/features/practice.js"></script>
+</body></html>

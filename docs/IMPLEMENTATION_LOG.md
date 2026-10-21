@@ -28,3 +28,19 @@ Added additive per-question records while retaining prior aggregate data. Studen
 Validation: `node --test tests/learning-record.cjs` covers legacy totals, latest-answer replacement, unique completion and independent question review status. Chromium integration checks cover wrong → dashboard review → correct → removed; session summary and retry; recommendation changes; filter persistence on refresh; completed questions excluded from new mode; legacy-record messaging; 390px overflow and page-error checks. Desktop/mobile renders were visually reviewed. No question or diagram content changed.
 
 The main-branch deployment now runs the learning-record tests and JSON validation before publishing. The deployment helper includes tests in commits so future updates keep those checks available.
+
+## Practice studio expansion — 21 October 2026
+
+Expanded the working student flow from a fixed MCQ sequence to a configurable practice set. Students can mix chapters, select unattempted/mistake/bookmarked questions, filter by subcategory/skill/difficulty/type, search by text or ID, select a suggested Form 1–6 threshold, choose question language, set length, shuffle order and optional reminder duration. Form thresholds are editorial guidance, not a claim of complete official syllabus coverage.
+
+Study mode gives feedback after each answer. Self-test mode supports automatically checked formats and defers solutions until completion. Navigation, skipping, bookmarks, per-question drafts, pausing and resuming preserve the exact question order and active elapsed time. Existing unfinished work is protected before a replacement set starts. Results include solutions and retry of incorrect or skipped questions.
+
+The question bank now contains 37 original bilingual questions across six formats: MCQ, short answer, structured, proof, diagram and original DSE-style long questions. Numeric short answers accept decimals and fractions through a restricted parser. Written responses use explicit student self-assessment and are excluded from automatic accuracy. These are starter questions, not a complete syllabus or official past-paper collection.
+
+Added an original rectangle-area diagram linked to mens-diag-001. The question ID, ABCD labels, 8 cm / 6 cm dimensions, diagonal AC, right angles and answer B (24 square centimetres) match the question. Desktop and mobile renders were visually reviewed, including the full A–D options; the figure is labelled not to scale. No PDF was generated.
+
+Dashboard shortcuts now open custom practice, mistakes, bookmarks and self-tests. Chapter search and empty-state recovery work; pending sessions can be resumed. Settings provide a display name, default language, suggested level and JSON record export without password hashes. Export is a backup only; import is not implemented. Local browser storage remains the only account/progress persistence. Secure authentication, cross-device sync, teacher administration and admissions content remain future work.
+
+Corrected practice streaks to count days of participation, including wrong answers and written self-review, once per day. Automatic accuracy is tracked independently while preserving legacy records.
+
+Validation: unit/content tests cover numeric parsing, taxonomy integrity, all six formats, diagram linkage, combined filters, shuffle integrity, legacy progress, self-assessment and streaks. The Playwright integration script at tests/browser/studio.cjs checks complete set creation, feedback, fractions, bookmarks, written work, delayed solutions, timer reminders, pause/resume, overwrite protection, settings/export and mobile layouts at 390px. All checks passed with no page JavaScript errors. Reviewed screenshots are retained as local QA evidence in /tmp/eac-studio-qa/; these are not website content.

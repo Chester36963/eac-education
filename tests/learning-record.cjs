@@ -37,3 +37,15 @@ test('correct, wrong, correct attempts update review status independently for ea
   run("Storage.saveQuestion('four-centres','conceptual','easy','q1',true)");
   assert.equal(run('Object.values(Storage.getUser().progress.byQuestion).filter(q => !q.lastCorrect).length'),1);
 });
+
+test('self-assessment stays separate from automatic accuracy and preserves legacy totals',()=>{
+  const run=storageFixture({id:'legacy',progress:{totalQuestionsAttempted:8,correctAnswers:5}});
+  run("Storage.saveQuestion('polynomial','calculation','medium','written',true,{assessment:'self'})");
+  assert.equal(run('Storage.getUser().progress.autoAttempted'),8);
+  assert.equal(run('Storage.getUser().progress.autoCorrect'),5);
+  run("Storage.saveQuestion('polynomial','calculation','medium','numeric',true)");
+  assert.equal(run('Storage.getUser().progress.autoAttempted'),9);
+  assert.equal(run('Storage.getUser().progress.autoCorrect'),6);
+  assert.equal(run('Storage.getUser().progress.totalQuestionsAttempted'),10);
+  assert.equal(run("Storage.getUser().progress.byQuestion.written.assessment"),'self');
+});

@@ -34,9 +34,21 @@ This is a frontend prototype. It keeps one profile and progress record in this b
 
 - `src/data/catalog.json`: subjects, chapter IDs, mappings to question topic IDs, subcategories and skills.
 - `src/data/questions.json`: bilingual original questions, options, correct answers, hints and worked solutions.
-- All currently published questions are MCQs. Other question types remain schema options for later implementation.
+- The current 37-question original starter library includes MCQ, numeric short answer, structured, proof, diagram MCQ and DSE-style long questions. Written work is explicitly self-assessed using supplied rubrics; it is not automatically marked.
 - Question metadata must point to a real subcategory and skill. Update chapter question counts when adding content.
 - Keep source attribution accurate; do not label original questions as official DSE past questions.
+
+## Student options
+
+`app.html` supports cross-chapter sets, unattempted/mistake/bookmark filters, six question formats, suggested Form 1–6 thresholds, bilingual/English/Traditional Chinese question text, 5/10/20/all questions, ordered/random sets, and optional reminder countdowns. The suggested thresholds are editorial starter-bank guidance, not a complete official year-by-year syllabus.
+
+Study mode shows feedback after each answer. Self-test mode includes automatically checked formats only and defers feedback until the set ends. Students can navigate question numbers, skip, bookmark, pause and resume, retry mistakes and skipped questions. The countdown is a reminder rather than a forced submission deadline.
+
+`settings.html` saves display name, default question language and suggested level. It exports a learning-record JSON backup excluding password hashes. Backup import and cloud sync are not implemented.
+
+## Verification
+
+Run `node --test tests/*.cjs` for content, arithmetic-input and storage checks. The main-branch workflow runs these before deployment. `tests/browser/studio.cjs` is the optional Playwright integration suite; set `PLAYWRIGHT_MODULE` to the installed Playwright package if it is not on the default Node resolution path.
 
 ## Before a public account launch
 

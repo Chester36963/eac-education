@@ -30,7 +30,13 @@ Questions are grouped under `topics[].categories[].questions[]` in `src/data/que
 }
 ```
 
-Current rendering supports MCQs only. Do not advertise other formats as available. Categories such as `conceptual` and `calculation` describe reasoning, not question format. Skill labels are shared in `src/js/core/content.js`.
+Rendering supports all six formats. Categories such as `conceptual` and `calculation` describe reasoning, not question format. Skill labels are shared in `src/js/core/content.js`; format labels and pure selection/answer helpers live in `src/js/core/learning.js`.
+
+- MCQ and diagram MCQ use `options`, `optionsZh` and a correct letter `answer`.
+- Numeric short answers use `answerValue` and optional absolute `tolerance` (default 1e-8). Inputs accept finite decimal numbers or a single numeric fraction; no expression evaluation is used.
+- Structured, proof and DSE-style long questions use `rubric` (an array of marking points) instead of a machine-marked answer. Students submit written working and explicitly self-assess against the model solution. Rubric wording is currently Traditional Chinese; question and solution text support English / Traditional Chinese / both.
+- Diagram questions carry `diagram.src`, `diagram.alt` and `diagram.caption`. The original `mens-diag-001` SVG is paired only with that same question and labelled not to scale.
+- `minForm` is an editorial suggested minimum practice level. A selected level includes earlier levels. It does not claim full official syllabus coverage.
 
 Question IDs must be globally unique and stable across deployments; learning records use them as keys. Graph/diagram questions require their own reviewed, same-question visual before publishing.
 
@@ -48,18 +54,21 @@ The local profile is stored under `eac_user`. Existing `progress.byTopic` aggreg
   "categoryType": "calculation",
   "difficulty": "easy",
   "selectedAnswer": "A",
+  "assessment": "automatic",
   "skill": "common-factor",
   "subcategory": "factorisation"
 }
 ```
 
-- All attempts contribute to overall accuracy, including retries.
+- All attempts including retries contribute to overall attempt totals. `autoAttempted` and `autoCorrect` count only automatically checked work. Existing totals initialise these counters on first use, preserving the older MCQ history. Written self-assessment uses `assessment: "self"` and is excluded from automatic accuracy.
 - Review mode includes questions whose latest result is wrong; a later correct answer removes the question from pending review.
 - New-question mode includes records without a per-question attempt.
 - Skill progress shows attempted unique questions and latest correct results, not an inferred mastery score.
 - Legacy users retain their totals. Their old aggregate records cannot reveal individual correctness; do not invent historical mistake or skill records.
 - A set is a snapshot. Correcting an item during review does not remove it from the in-progress sequence. Completing the set offers a session summary and retry of that session's wrong answers.
 - Recommendations prioritise the most recently attempted unresolved mistake, then the first unattempted question in catalog order, then revision. This is a deterministic local recommendation.
-- The shareable practice URL preserves chapter, subcategory, skill, difficulty and practice mode. Refresh starts that selection again; it does not restore an unfinished session.
+- The practice URL preserves selection controls. `eac_active_set` separately holds user ID, ordered question IDs, question index, submitted answers, draft responses, selection settings and active elapsed milliseconds. Refresh or returning to the studio offers resume, rather than silently overwriting a pending set. The dashboard also exposes a resume link. Completed summaries are shown for the current page visit; answers remain in learning records after completion.
+- Bookmarks are stored in the profile's `bookmarks` ID array. Saved-only mode filters current published questions against those IDs.
+- Local `eac_preferences` stores `questionLanguage` and `form`. Settings also update the profile display name. Export excludes authentication fields and does not currently support import.
 
 This remains a single-browser preview. Formal authentication, cloud progress and account migration are a future backend phase.

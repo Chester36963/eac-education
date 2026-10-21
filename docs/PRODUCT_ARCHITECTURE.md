@@ -11,9 +11,10 @@ The visual direction is premium academic: editorial serif typography, generous w
 | Surface | Purpose | First version |
 | --- | --- | --- |
 | `index.html` | Public brand and admissions entry | Existing shell, ready for future teacher content |
-| `auth.html` | Student and teacher sign-in/register entry | Existing local prototype; backend-ready boundary |
-| `dashboard.html` | Daily recommendation, progress, topic browser | Framework target |
-| `app.html` | Practice session and answer feedback | Existing engine; taxonomy controls to be added |
+| `auth.html` | Student sign-in and local preview | Single-browser prototype; no teacher or cloud accounts |
+| `dashboard.html` | Recommendation, skill records, topic search | Live local records, mistakes, resume entry and practice shortcuts |
+| `app.html` | Configurable practice studio | Six formats, study/self-test, bookmarks, persisted drafts and resume |
+| `settings.html` | Student preferences and record export | Local name, question language, suggested level and JSON backup |
 | Teacher console | Manage questions, taxonomy, sources and student data | Phase 2, requires Supabase |
 
 ## Learning information architecture
@@ -37,11 +38,13 @@ The taxonomy is stored separately from question records so that a new subcategor
 
 ## Question types
 
-The content model supports `mcq`, `short-answer`, `structured`, `proof`, `diagram`, and `dse-long`. The first visible practice flow can begin with MCQ while the same question record can later render the other formats.
+The current starter bank contains 37 original questions across `mcq`, `short-answer`, `structured`, `proof`, `diagram`, and `dse-long`. MCQs and numeric short answers are checked automatically. Structured, proof and long questions use a written draft, model solution and explicit self-assessment rubric. These records are labelled self-assessed and excluded from automatic accuracy. The diagram format currently contains an original geometry MCQ, not an interactive graph editor.
+
+Students may build cross-chapter sets, select suggested level, subcategory, skill, difficulty and format, choose number/order of questions, and select question language. Study mode provides per-question feedback; self-test mode defers feedback until completion and includes automatically checked formats only. Reminder countdowns do not force submission. The studio stores drafts, submitted answers, set order, current question and active elapsed time in a separate user-bound local session. A new set requires acknowledgement before replacing an unfinished set; prior learning results remain intact.
 
 ## Delivery workflow
 
-1. Run `./scripts/dev.sh` once to start a local server at `http://127.0.0.1:4173/src/`.
+1. Run `./scripts/dev.sh` once to start a local server at `http://127.0.0.1:4173/` (document root: `src/`).
 2. Edit files in `src/`; refresh the browser to inspect the result.
 3. Run `./scripts/deploy.sh "Describe the change"`.
 4. The script checks required files, creates a commit, and pushes `main` to `origin`.
