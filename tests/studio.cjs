@@ -36,13 +36,14 @@ test('all six supported formats contain complete, linked bilingual content',()=>
     const qs=questions.filter(q=>q.topicId===chapter.topicId);
     assert.equal(qs.length,chapter.questionCount);
     for(const q of qs){
-      for(const key of ['stem','stemZh','hint','hintZh','solution','solutionZh'])assert.ok(q[key],`${q.id}: ${key}`);
+      for(const key of ['stem','stemZh','solution','solutionZh'])assert.ok(q[key],`${q.id}: ${key}`);
+      assert.equal(Boolean(q.hint),Boolean(q.hintZh),`${q.id}: optional hints are paired`);
       const sub=chapter.subcategories.find(s=>s.id===q.subcategory);assert.ok(sub?.skills.includes(q.skill),q.id);
       assert.ok(q.minForm>=1&&q.minForm<=6);
       if(q.questionType==='short-answer') assert.ok(Number.isFinite(q.answerValue));
       else if(Learning.automatic(q)){
         assert.ok(q.options[q.answer],q.id);assert.deepEqual(Object.keys(q.options),['A','B','C','D']);
-      }else assert.ok(q.rubric.length);
+      }else assert.ok(q.rubric?.length||q.assessmentMode==='solution-comparison');
       if(q.questionType==='diagram'){
         assert.ok(q.diagram.alt.includes(q.id)||q.diagram.src.includes(q.id));
         const svg=fs.readFileSync(path.join(root,'src',q.diagram.src),'utf8');

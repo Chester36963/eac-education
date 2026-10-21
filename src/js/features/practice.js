@@ -1,5 +1,5 @@
 /* The studio builds a real set, then keeps its drafts and answers separate from filters. */
-let currentUser, catalog, questionsData, allQuestions=[], sessionState=null, queue=[], lastSet=[], lastSelection=null;
+let currentUser, catalog, allQuestions=[],questionLookup=new Map(), sessionState=null, queue=[], lastSet=[], lastSelection=null,renderToken=0,searchToken=0,queryIds=null,searchTerm='';
 let selectedAnswer=null, isAnswerSubmitted=false, questionId=null;
 const el=id=>document.getElementById(id);
 const preferences=Storage.getPreferences();
@@ -13,7 +13,7 @@ function optionList(id,entries,all=true){
 }
 function chapters(){return catalog.subjects.filter(s=>el(fields.subject).value==='all'||s.id===el(fields.subject).value).flatMap(s=>s.chapters);}
 function scope(){const ch=el(fields.chapter).value;return chapters().filter(c=>ch==='all'||c.id===ch);}
-function filters(){return {topics:scope().map(c=>c.topicId),subcategory:el(fields.subcategory).value,skill:el(fields.skill).value,type:el(fields.type).value,difficulty:el(fields.difficulty).value,form:el(fields.form).value,mode:el(fields.mode).value,query:el('query-input').value.trim(),question:questionId};}
+function filters(){return {topics:scope().map(c=>c.topicId),subcategory:el(fields.subcategory).value,skill:el(fields.skill).value,type:el(fields.type).value,difficulty:el(fields.difficulty).value,form:el(fields.form).value,mode:el(fields.mode).value,query:el('query-input').value.trim(),queryIds,question:questionId};}
 function matchingQuestions(){
  const qs=Learning.select(allQuestions,filters(),Storage.getUser());
  return el(fields.experience).value==='test'?qs.filter(q=>Learning.automatic(q)):qs;
@@ -60,7 +60,8 @@ function applySelections(values){
 document.addEventListener('DOMContentLoaded',async()=>{
  currentUser=Auth.getCurrentUser();if(!currentUser){location.href=`auth.html?next=${encodeURIComponent('app.html'+location.search)}`;return;}
  try{
-  [questionsData,catalog]=await Promise.all([QuestionBank.all(),QuestionBank.catalog()]);allQuestions=Learning.flatten(questionsData);
+  [allQuestions,catalog]=await Promise.all([QuestionBank.index(),QuestionBank.catalog()]);
+  questionLookup=new Map(allQuestions.map(q=>[q.id,q]));
   optionList(fields.subject,catalog.subjects.map(s=>[s.id,`${s.name.en} · ${s.name['zh-Hant']}`]));
   el(fields.language).value=preferences.questionLanguage||'bilingual';
   updateTaxonomy();
@@ -73,7 +74,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
    if(['subject','chapter','subcategory','skill','type','form','experience'].includes(key))updateTaxonomy(key);else updateCount();
    if(key==='language'&&sessionState){sessionState.selection.language=el(id).value;persist();renderQuestion();}
   };
-  el('query-input').oninput=()=>{questionId=null;updateCount();};
+  let queryTimer;el('query-input').oninput=()=>{questionId=null;clearTimeout(queryTimer);queryTimer=setTimeout(refreshSearch,200);};
   el('start-set-btn').onclick=()=>startSelectedSet();
   el('reset-filters-btn').onclick=()=>{questionId=null;el('query-input').value='';applySelections({subject:'all',chapter:'all',form:'all',mode:'all',experience:'study'});};
   el('resume-btn').onclick=resumeSession;
@@ -87,11 +88,21 @@ document.addEventListener('DOMContentLoaded',async()=>{
   for(const id of ['numeric-answer','written-answer'])el(id).oninput=()=>{if(sessionState){sessionState.drafts[queue[sessionState.index].id]=el(id).value;persist();}};
   const saved=Learning.readSession(currentUser.id);
   if(saved){el('resume-banner').hidden=false;el('resume-copy').textContent=`${saved.ids.length} 題 · 已記錄 ${Object.keys(saved.answers||{}).length} 題。可接住未完成的位置。`;}
+  await refreshSearch();
   if(params.resume==='1'&&saved)resumeSession();
   else if((params.chapter||params.question)&&!saved)startSelectedSet(true);
  }catch(error){el('studio-status').textContent='無法載入題庫，請重新整理或使用網站 HTTP 網址。';}
 });
-function startSelectedSet(fromLink=false){
+async function refreshSearch(){
+ const token=++searchToken,term=el('query-input').value.trim();
+ if(!term){queryIds=null;searchTerm='';updateCount();return true;}
+ if(term===searchTerm){updateCount();return true;}
+ el('start-set-btn').disabled=true;el('set-count').textContent='正在搜尋完整題幹…';
+ try{const ids=await QuestionBank.search(term);if(token!==searchToken)return false;queryIds=ids;searchTerm=term;updateCount();return true;}
+ catch(error){if(token===searchToken)el('studio-status').textContent='完整搜尋暫時無法載入，請重試。';return false;}
+}
+async function startSelectedSet(fromLink=false){
+ if(!await refreshSearch())return;
  const saved=Learning.readSession(currentUser.id);
  if(!fromLink&&(sessionState||saved)&&!confirm('開始新一組會取代未完成的練習；已作答的學習記錄會保留。繼續？'))return;
  let qs=matchingQuestions();if(el(fields.order).value==='random')qs=Learning.shuffle(qs);
@@ -105,15 +116,15 @@ function startSelectedSet(fromLink=false){
 function beginSet(qs,selection=selections()){
  if(!qs.length)return;
  queue=qs;sessionState={userId:currentUser.id,ids:qs.map(q=>q.id),index:0,answers:{},drafts:{},selection:{...selection},elapsedMs:0,runningSince:Date.now()};
- el('resume-banner').hidden=true;el('set-summary').hidden=true;el('practice-builder').open=false;el('studio-empty').hidden=true;el('active-set').hidden=false;
+ el('resume-banner').hidden=true;el('set-summary').hidden=true;el('practice-builder').open=false;el('studio-empty').hidden=true;el('active-set').hidden=true;
  persist();renderQuestion();
 }
 function resumeSession(){
  const saved=Learning.readSession(currentUser.id);if(!saved)return;
- const found=saved.ids.map(id=>allQuestions.find(q=>q.id===id));
+ const found=saved.ids.map(id=>questionLookup.get(id));
  if(found.some(q=>!q)){el('studio-status').textContent='上次練習的題目已有更新。請重新選擇一組，已作答進度仍然保留。';return;}
  sessionState=saved;queue=found;sessionState.answers||={};sessionState.drafts||={};sessionState.elapsedMs=Number(sessionState.elapsedMs)||0;sessionState.runningSince=Date.now();
- applySelections(saved.selection||{});el('resume-banner').hidden=true;el('studio-empty').hidden=true;el('set-summary').hidden=true;el('active-set').hidden=false;el('practice-builder').open=false;persist();renderQuestion();
+ applySelections(saved.selection||{});el('resume-banner').hidden=true;el('studio-empty').hidden=true;el('set-summary').hidden=true;el('active-set').hidden=true;el('practice-builder').open=false;persist();renderQuestion();
 }
 function elapsed(){return (sessionState?.elapsedMs||0)+(sessionState?.runningSince?Date.now()-sessionState.runningSince:0);}
 function persist(){if(sessionState&&!Learning.saveSession(sessionState))el('studio-status').textContent='瀏覽器未能儲存續做記錄，請保持此頁開啟。';}
@@ -128,16 +139,25 @@ setInterval(()=>{
 },1000);
 function question(){return queue[sessionState.index];}
 function selfTest(){return sessionState.selection.experience==='test';}
-function textPair(en,zh){const lang=sessionState.selection.language;return lang==='en'?en:lang==='zh'?zh:`${en}\n\n${zh}`;}
-function renderQuestion(){
+function textPair(en,zh){const lang=sessionState?.selection?.language||lastSelection?.language||'bilingual';return lang==='en'?en:lang==='zh'?zh:`${en}\n\n${zh}`;}
+async function renderQuestion(){
+ const token=++renderToken,id=question().id;
+ el('active-set').inert=true;el('active-set').setAttribute('aria-busy','true');el('studio-status').textContent='正在載入題目…';
+ el('submit-btn').disabled=true;el('hint-btn').disabled=true;el('solution-btn').disabled=true;
+ try{
+  const full=await QuestionBank.question(id);if(token!==renderToken||!sessionState)return;
+  if(!full)throw Error('Question unavailable');queue[sessionState.index]=full;
+ }catch(error){if(token===renderToken){el('studio-status').textContent='題目暫時無法載入，請重新開始這組練習。';el('active-set').hidden=true;el('active-set').inert=false;el('practice-builder').open=true;}return;}
+ el('submit-btn').disabled=false;el('hint-btn').disabled=false;el('solution-btn').disabled=false;
+ EACMath.clear(el('active-set'));
  const q=question(),result=sessionState.answers[q.id];isAnswerSubmitted=!!result;selectedAnswer=result?.response||sessionState.drafts[q.id]||null;
  el('result-message').hidden=true;el('hint-panel').hidden=true;el('solution-panel').hidden=true;el('assessment-panel').hidden=true;
  el('progress-text').textContent=`第 ${sessionState.index+1} / ${queue.length} 題 · 已作答 ${Object.keys(sessionState.answers).length} 題`;
  el('active-set-title').textContent=selfTest()?'SELF CHECK · 完成後看解析':'STUDY SESSION · 逐題學習';
  el('progress-fill').style.width=`${100*Object.keys(sessionState.answers).length/queue.length}%`;
- el('question-nav').replaceChildren();queue.forEach((item,i)=>{const b=document.createElement('button');b.type='button';b.textContent=i+1;b.className=i===sessionState.index?'is-current':'';b.classList.toggle('is-answered',!!sessionState.answers[item.id]);b.setAttribute('aria-label',`第 ${i+1} 題${sessionState.answers[item.id]?' 已作答':''}`);if(i===sessionState.index)b.setAttribute('aria-current','step');b.onclick=()=>{sessionState.index=i;persist();renderQuestion();};el('question-nav').append(b);});
+ el('question-nav').replaceChildren();queue.forEach((item,i)=>{if(i!==0&&i!==queue.length-1&&Math.abs(i-sessionState.index)>10)return;const b=document.createElement('button');b.type='button';b.textContent=i+1;b.className=i===sessionState.index?'is-current':'';b.classList.toggle('is-answered',!!sessionState.answers[item.id]);b.setAttribute('aria-label',`第 ${i+1} 題${sessionState.answers[item.id]?' 已作答':''}`);if(i===sessionState.index)b.setAttribute('aria-current','step');b.onclick=()=>{sessionState.index=i;persist();renderQuestion();};el('question-nav').append(b);});
  el('difficulty-badge').textContent=labels[q.difficulty];el('category-badge').textContent=skillNames[q.skill]||q.skill;el('type-badge').textContent=Learning.types[q.questionType];
- el('question-source').textContent=`${q.id} · EAC 原創練習${Learning.automatic(q)?' · 自動核對':' · 按要點自評'}`;
+ el('question-source').textContent=`${q.id} · ${q.sourceZh||q.source}${Learning.automatic(q)?' · 自動核對':q.assessmentMode==='solution-comparison'?' · 對照來源解析自評':' · 按要點自評'}`;
  el('question-stem').textContent=sessionState.selection.language==='zh'?q.stemZh:q.stem;
  el('question-zh').textContent=q.stemZh;el('question-zh').hidden=sessionState.selection.language!=='bilingual';
  el('question-figure').hidden=!q.diagram;if(q.diagram){el('question-image').src=q.diagram.src;el('question-image').alt=q.diagram.alt;el('diagram-caption').textContent=q.diagram.caption;}
@@ -158,8 +178,10 @@ function renderQuestion(){
  el('numeric-answer').disabled=el('written-answer').disabled=!!result;
  el('submit-btn').hidden=!!result;el('submit-btn').textContent=manual?'提交作答並看評分要點':selfTest()?'記錄答案':'核對答案';
  el('next-btn').hidden=!result;el('next-btn').textContent=sessionState.index===queue.length-1?'完成並查看回顧 →':'下一題 →';
- el('skip-btn').hidden=!!result;el('hint-btn').hidden=selfTest();el('solution-btn').hidden=selfTest();
+ el('skip-btn').hidden=!!result;el('hint-btn').hidden=selfTest()||!q.hint;el('solution-btn').hidden=selfTest();
  renderBookmark();if(result&&!selfTest()){showResult(result.assessment==='self'?`已記錄自評：${result.correct?'符合要點':'仍需重練'}`:result.correct?'答對了，睇返解題方法。':'需要再練，先釐清解析。',result.correct);showSolution();}
+ if(result&&selfTest())showResult('答案已記錄，完成本組後再看解析。',true);
+ el('active-set').hidden=false;el('active-set').inert=false;el('active-set').setAttribute('aria-busy','false');el('studio-status').textContent='';el('active-set').dataset.questionId=q.id;EACMath.render(el('active-set'));
 }
 function renderBookmark(){const saved=(Storage.getUser().bookmarks||[]).includes(question().id);el('bookmark-btn').textContent=saved?'已收藏 ★':'收藏題目 ☆';el('bookmark-btn').setAttribute('aria-pressed',String(saved));}
 function toggleBookmark(){if(Learning.toggleBookmark(question().id)){renderBookmark();updateCount();}else el('studio-status').textContent='未能儲存收藏，請檢查瀏覽器儲存空間。';}
@@ -170,7 +192,7 @@ function handleSubmit(){
  if(!value){showResult('請先輸入或選擇答案。',false);return;}
  if(q.questionType==='short-answer'&&!Number.isFinite(Learning.number(value))){showResult('請輸入數值或分數，例如 0.5 或 1/2。單位無需輸入。',false);return;}
  if(!Learning.automatic(q)){
-  el('assessment-panel').hidden=false;el('rubric-list').replaceChildren();for(const text of q.rubric){const li=document.createElement('li');li.textContent=text;el('rubric-list').append(li);}showSolution();el('submit-btn').hidden=true;return;
+  el('assessment-panel').hidden=false;el('rubric-list').replaceChildren();for(const text of q.rubric||['此題沒有獨立評分準則。請對照來源解析，核對推理步驟與結論，再記錄自評。']){const li=document.createElement('li');li.textContent=text;el('rubric-list').append(li);}EACMath.render(el('rubric-list'));showSolution();el('submit-btn').hidden=true;return;
  }
  recordAnswer(Learning.check(q,value),'automatic');
 }
@@ -178,11 +200,11 @@ function recordAnswer(correct,assessment){
  if(isAnswerSubmitted)return;const q=question(),value=response();if(!value)return;
  if(!Storage.saveQuestion(q.topicId,q.category,q.difficulty,q.id,correct,{selectedAnswer:value,skill:q.skill,subcategory:q.subcategory,assessment})) {showResult('未能儲存作答，請檢查瀏覽器儲存空間後再試。',false);return;}
  currentUser=Storage.getUser();Gamification.incrementDailyCount(currentUser);Gamification.updateStreak(currentUser,correct);Gamification.checkAchievements(currentUser);Storage.saveUser(currentUser);
- sessionState.answers[q.id]={response:value,correct,assessment};persist();renderQuestion();if(selfTest())showResult('答案已記錄，完成本組後再看解析。',true);updateCount();
+ sessionState.answers[q.id]={response:value,correct,assessment};persist();renderQuestion();updateCount();
 }
 function nextQuestion(){if(sessionState.index===queue.length-1)finishSession();else{sessionState.index++;persist();renderQuestion();}}
-function showHint(){if(selfTest())return;const q=question();el('hint-text').textContent=textPair(q.hint,q.hintZh);el('hint-panel').hidden=false;}
-function showSolution(){if(selfTest())return;const q=question();el('solution-text').textContent=textPair(q.solution,q.solutionZh);el('solution-panel').hidden=false;}
+function showHint(){if(selfTest())return;const q=question();EACMath.clear(el('hint-text'));el('hint-text').textContent=textPair(q.hint,q.hintZh);el('hint-panel').hidden=false;EACMath.render(el('hint-text'));}
+function showSolution(){if(selfTest())return;const q=question();EACMath.clear(el('solution-text'));el('solution-text').textContent=(q.solutionStatus==='source-answer-or-brief-explanation'?'來源只附答案或簡短解釋；未提供完整推導。\n\n':'')+textPair(q.solution,q.solutionZh);el('solution-panel').hidden=false;EACMath.render(el('solution-text'));}
 function showResult(text,success){el('result-message').textContent=text;el('result-message').className=`result-message ${success?'success':'error'}`;el('result-message').hidden=false;}
 function finishSession(){
  if(!sessionState)return;const answers=sessionState.answers,answered=Object.keys(answers).length;
@@ -191,8 +213,10 @@ function finishSession(){
  const auto=Object.values(answers).filter(a=>a.assessment==='automatic'),correct=auto.filter(a=>a.correct).length,self=Object.values(answers).filter(a=>a.assessment==='self').length;
  el('summary-copy').textContent=`已作答 ${answered}/${queue.length} 題 · 自動核對答對 ${correct}/${auto.length} 題${self?` · 自評 ${self} 題`:''} · 跳過 ${queue.length-answered} 題。`;
  el('retry-mistakes-btn').hidden=!lastSet.some(q=>q.result?.correct===false);el('retry-skipped-btn').hidden=!lastSet.some(q=>!q.result);
- el('summary-questions').replaceChildren();
- for(const {question:q,result}of lastSet){const details=document.createElement('details');details.className='summary-question';const title=document.createElement('summary');title.textContent=`${result?(result.correct?'✓':'↻'):'—'} ${q.stemZh} · ${result?(result.assessment==='self'?'自評':'已核對'):'未作答'}`;const answer=document.createElement('p');answer.textContent=`你的作答：${result?.response||'未作答'}\n\n${textPair(q.solution,q.solutionZh)}`;details.append(title,answer);el('summary-questions').append(details);}
+ EACMath.clear(el('summary-questions'));el('summary-questions').replaceChildren();
+ for(const {question:q,result}of lastSet.slice(0,100)){const details=document.createElement('details');details.className='summary-question';const title=document.createElement('summary');title.textContent=`${result?(result.correct?'✓':'↻'):'—'} ${q.stemZh} · ${result?(result.assessment==='self'?'自評':'已核對'):'未作答'}`;const answer=document.createElement('p');details.ontoggle=async()=>{if(!details.open||answer.dataset.loaded)return;const full=await QuestionBank.question(q.id).catch(()=>null);if(!full){answer.textContent='解析未能載入，收起再展開可重試。';return;}answer.dataset.loaded='1';answer.textContent=`你的作答：${result?.response||'未作答'}\n\n${textPair(full.solution,full.solutionZh)}`;EACMath.render(details);};details.append(title,answer);el('summary-questions').append(details);}
+ if(lastSet.length>100){const note=document.createElement('p');note.textContent=`此頁顯示首 100 題；全部 ${lastSet.length} 題的作答記錄已保留，可在學習主頁查看或重練錯題。`;el('summary-questions').append(note);}
+ EACMath.render(el('summary-questions'));
  pauseClock();Learning.clearSession();sessionState=null;el('active-set').hidden=true;el('set-summary').hidden=false;el('practice-builder').open=false;el('studio-empty').hidden=true;
 }
 function handleLogout(){pauseClock();Auth.logout();location.href='index.html';}

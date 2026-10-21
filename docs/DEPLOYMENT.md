@@ -36,7 +36,7 @@ This is a frontend prototype. It keeps one profile and progress record in this b
 - `content/skills.json`: shared bilingual skill labels.
 - `content/chapters/<topic-id>.json`: canonical bilingual questions, options, answers, hints, solutions and reviewed diagram evidence.
 - Run `node scripts/build-content.cjs`; do not edit generated `src/data/` files manually. See QUESTION_BANK_WORKFLOW.md for validated JSON imports and the complete source audit.
-- The current 37-question original starter library includes MCQ, numeric short answer, structured, proof, diagram MCQ and DSE-style long questions. Written work is explicitly self-assessed using supplied rubrics; it is not automatically marked.
+- The current 790-question library includes 37 stable originals and 753 usable unique imported questions across five chapters. Another 111 source records await content/visual repair and 34 duplicate rows map to their published originals. Written work uses a genuine rubric or explicitly compares against the supplied solution; it is not automatically marked. See 1013_IMPORT_AUDIT.md.
 - Question metadata must point to a real subcategory and skill. Chapter, subcategory and skill counts update automatically.
 - Keep source attribution accurate; do not label original questions as official DSE past questions.
 

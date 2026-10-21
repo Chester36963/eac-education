@@ -1,4 +1,22 @@
-# Implementation record — 20 October 2026
+# Implementation record
+
+## HTML bank classification and bounded loading — 22 October 2026
+
+Safely decoded the user-supplied `/Users/chester/Downloads/1013 webpage/index.html` as a strict JSON literal, without evaluating its scripts. Preserved the 898 source records and file SHA-256 in `content/sources/1013-webpage.json`. Added reproducible extraction, preview-first classification, per-record provenance, source aliases, editorial corrections and a complete disposition audit. The quadrilateral/statistics design references and homepage cover remain intact.
+
+Organised the bank as subject → chapter → subcategory → primary skill, with format and difficulty independent. Five chapters now contain 37 subcategories and 73 skills with published questions. The supplied levels are preserved as source attainment/method labels, separately from editorial minimum-form recommendations. Detailed source method tags and statement/solution rules determine the primary skill; the audit records the rule basis and does not claim every solution was independently verified.
+
+Source accounting: 753 usable unique questions published, 111 held for missing text/visuals, invalid options/conditions or OCR damage, 34 duplicate rows linked to originals. The existing 37 stable starter IDs remain unchanged: total 790 questions (Four Centres 247, Locus 181, Polynomials 154, Sequences & Series 10, Mensuration 198). Confirmed answer/key corrections and source formatting repairs are logged in `docs/1013_IMPORT_AUDIT.md`. Held diagram questions receive no borrowed images or invented givens.
+
+Added pinned local MathJax SVG rendering for lists, previews, practice, hints, solutions and summaries. Optional source hints may be absent; source-only answers are labelled as brief, and written questions without marking schemes use explicit solution comparison instead of invented rubrics/marks. Question and source text remain textContent, never executable HTML.
+
+Manifest schema 2 separates metadata, bounded full-question chunks and search shards. Browsing, dashboard and set building use metadata; only visited/previewed questions load their chunk (at most 32 questions/about 192 KiB). Full-text search runs on demand in a worker with four fetches and a 24-shard cache; obsolete jobs stop. Detail cache is bounded at 32 responses, manifest revisions remain pinned per page, resume IDs use a Map, bookmarks use a Set, navigation is windowed and summary details load on expansion. Whole-chapter/aggregate files are compatibility/export artifacts only. First global search still scans all search shards; static storage is not a server query service.
+
+Validation: 19 unit/content checks and all three Playwright suites passed. Parsed 34,272 mathematical fragments across all 790 published questions with zero MathJax parse errors; separate residue scan found no raw TeX/HTML/Markdown outside math. Imported MCQ corrections, source-comparison self-assessment, missing-hint behavior, full-text search outside excerpts, one-chunk fetches, six original formats, bookmarks, drafts/resume and 320/390/768px views were checked. Reviewed actual desktop/mobile screenshots, including the unchanged same-question `mens-diag-001` original SVG (ABCD, diagonal AC, 8 cm/6 cm and all A–D options). All 42 imported records explicitly dependent on absent visuals remain held. No PDF was requested or generated. Local QA evidence: `/tmp/eac-import-qa/`, `/tmp/eac-library-qa/`, `/tmp/eac-studio-qa/`.
+
+A real 30,000-item synthetic build using the supplied question mix completed in 2.818 seconds; index parsing 30 ms and average combined filtering 1.43 ms. The index is 20.6 MB uncompressed / 1.49 MB gzip, with 942 bounded detail chunks. Build memory and first-search network limitations are documented in `QUESTION_BANK_SCALE.md`; this is not a simultaneous-student production load test.
+
+## Earlier work — 20 October 2026
 
 ## Decisions carried forward
 

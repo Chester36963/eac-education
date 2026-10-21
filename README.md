@@ -28,9 +28,9 @@ Open http://127.0.0.1:4173/. The question catalog is at http://127.0.0.1:4173/li
 | `app.html` | Configurable practice sets, six question formats, study/self-test, drafts, pause/resume and review |
 | `settings.html` | Name, language, suggested level and learning-record export |
 
-The current bank contains **37 EAC original bilingual questions**: Four Centres 13, Polynomials 12 and Mensuration 12. Formats are MCQ, numeric short answer, structured, proof, diagram MCQ and original DSE-style long questions. Written work is self-assessed and excluded from automatic accuracy. Suggested year levels do not imply full official syllabus coverage.
+The current bank contains **790 bilingual questions across five chapters**: Four Centres 247, Polynomials 154, Mensuration 198, Locus 181 and Sequences & Series 10. This includes the 37 stable EAC starter questions and 753 usable unique questions imported from the supplied HTML. All 898 source rows are accounted for: 753 published, 111 held for missing/invalid content or visuals, and 34 duplicates linked to their published originals. Source-reported exam/mock labels are preserved, not independently authenticated. See `docs/1013_IMPORT_AUDIT.md` for the classification, corrections and held records. Written work is self-assessed and excluded from automatic accuracy.
 
-No additional source bank was supplied in this project. The quadrilateral HTML/PDF notes and `_build_ch8/` are design references, not imported question content.
+The supplied `/Users/chester/Downloads/1013 webpage/index.html` is the imported question source. The quadrilateral HTML/PDF notes and `_build_ch8/` remain design references. Missing same-question figures are held for review; no borrowed diagrams or guessed data were inserted.
 
 ## Content source and imports
 
@@ -46,7 +46,7 @@ scripts/
   watch-content.cjs
 ```
 
-Edit canonical source under `content/`. The build derives question counts and produces a revision manifest, compact search index and individual chapter files under `src/data/`. Do not hand-edit generated output. Question IDs remain stable across deployments so learning records and bookmarks keep working.
+Edit canonical source under `content/`. The build derives counts and produces a revision manifest, metadata index, bounded question chunks (at most 32 questions / about 192 KiB), and search shards. Browsing/dashboard/set building load metadata; preview and practice fetch only the relevant chunk. Full-text search runs on demand in a worker. Locally vendored MathJax renders bilingual TeX. Whole-chapter and aggregate JSON remain compatibility/export artifacts, not normal page startup requests. Question IDs remain stable across deployments.
 
 ```sh
 node scripts/build-content.cjs

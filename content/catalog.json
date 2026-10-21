@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "2.0",
   "audiences": [
     "form-1",
     "form-2",
@@ -36,7 +36,10 @@
               "skills": [
                 "definition",
                 "coordinate-method",
-                "right-triangle-property"
+                "right-triangle-property",
+                "fc-equal-radii",
+                "fc-bisectors",
+                "fc-hypotenuse"
               ]
             },
             {
@@ -47,7 +50,9 @@
               },
               "skills": [
                 "definition",
-                "equal-distance-property"
+                "equal-distance-property",
+                "fc-angle-bisector",
+                "fc-distance-sides"
               ]
             },
             {
@@ -58,7 +63,9 @@
               },
               "skills": [
                 "definition",
-                "coordinate-method"
+                "coordinate-method",
+                "fc-average",
+                "fc-median-ratio"
               ]
             },
             {
@@ -69,11 +76,184 @@
               },
               "skills": [
                 "definition",
-                "altitude-method"
+                "altitude-method",
+                "fc-altitudes"
+              ]
+            },
+            {
+              "id": "centre-relations",
+              "name": {
+                "en": "Relations between centres",
+                "zh-Hant": "多中心關係"
+              },
+              "skills": [
+                "fc-euler",
+                "fc-centre-ratios"
+              ]
+            },
+            {
+              "id": "centre-parameters",
+              "name": {
+                "en": "Parameters and constraints",
+                "zh-Hant": "參數與條件"
+              },
+              "skills": [
+                "fc-parameter"
+              ]
+            },
+            {
+              "id": "centre-statements",
+              "name": {
+                "en": "Properties and statement tests",
+                "zh-Hant": "性質與命題判斷"
+              },
+              "skills": [
+                "fc-statements"
+              ]
+            },
+            {
+              "id": "centre-angles",
+              "name": {
+                "en": "Angles and radii",
+                "zh-Hant": "角度與半徑"
+              },
+              "skills": [
+                "fc-incentre-angle",
+                "fc-radius-area"
+              ]
+            },
+            {
+              "id": "centre-loci",
+              "name": {
+                "en": "Locus linked to centres",
+                "zh-Hant": "軌跡與四心"
+              },
+              "skills": [
+                "fc-locus-bisector"
+              ]
+            },
+            {
+              "id": "centre-tangency",
+              "name": {
+                "en": "Circles and tangency chains",
+                "zh-Hant": "圓與切線解題鏈"
+              },
+              "skills": [
+                "fc-tangent-chain"
+              ]
+            },
+            {
+              "id": "centre-transformations",
+              "name": {
+                "en": "Graphs and transformations",
+                "zh-Hant": "圖像與坐標變換"
+              },
+              "skills": [
+                "fc-transform"
               ]
             }
           ],
           "topicId": "four-centres"
+        },
+        {
+          "id": "locus",
+          "topicId": "locus",
+          "name": {
+            "en": "Locus",
+            "zh-Hant": "軌跡"
+          },
+          "description": {
+            "en": "Locus practice, organised by solving method.",
+            "zh-Hant": "由等距條件建立軌跡，再處理交點、變換及幾何應用。"
+          },
+          "subcategories": [
+            {
+              "id": "fixed-distance",
+              "name": {
+                "en": "Fixed distance and circles",
+                "zh-Hant": "定距與圓"
+              },
+              "skills": [
+                "locus-fixed-radius",
+                "locus-distance-ratio"
+              ]
+            },
+            {
+              "id": "equal-points",
+              "name": {
+                "en": "Equidistant from two points",
+                "zh-Hant": "到兩點等距"
+              },
+              "skills": [
+                "locus-perp-bisector"
+              ]
+            },
+            {
+              "id": "equal-lines",
+              "name": {
+                "en": "Equidistant from lines",
+                "zh-Hant": "到直線等距"
+              },
+              "skills": [
+                "locus-parallel-midline",
+                "locus-angle-bisectors",
+                "locus-parallel-distance"
+              ]
+            },
+            {
+              "id": "diameter-circle",
+              "name": {
+                "en": "Right angles and diameter circles",
+                "zh-Hant": "直角與直徑圓"
+              },
+              "skills": [
+                "locus-thales"
+              ]
+            },
+            {
+              "id": "transformed-loci",
+              "name": {
+                "en": "Moving points and transformations",
+                "zh-Hant": "動點與坐標變換"
+              },
+              "skills": [
+                "locus-transform",
+                "locus-moving-centre"
+              ]
+            },
+            {
+              "id": "area-loci",
+              "name": {
+                "en": "Area and distance to a line",
+                "zh-Hant": "面積與點線距離"
+              },
+              "skills": [
+                "locus-fixed-area"
+              ]
+            },
+            {
+              "id": "distance-equations",
+              "name": {
+                "en": "Distance equations and conics",
+                "zh-Hant": "距離方程與曲線"
+              },
+              "skills": [
+                "locus-focus-directrix",
+                "locus-expand-distances"
+              ]
+            },
+            {
+              "id": "intersecting-loci",
+              "name": {
+                "en": "Intersecting loci and geometry",
+                "zh-Hant": "軌跡交點與綜合幾何"
+              },
+              "skills": [
+                "locus-line-circle",
+                "locus-coordinate-chain"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -115,7 +295,10 @@
               },
               "skills": [
                 "remainder-theorem",
-                "factor-theorem"
+                "factor-theorem",
+                "poly-direct-remainder",
+                "poly-factor-parameters",
+                "poly-multiple-conditions"
               ]
             },
             {
@@ -125,11 +308,103 @@
                 "zh-Hant": "多項式方程"
               },
               "skills": [
-                "roots"
+                "roots",
+                "poly-root-nature",
+                "poly-transformed-roots",
+                "poly-root-relations"
+              ]
+            },
+            {
+              "id": "division-identities",
+              "name": {
+                "en": "Division and identities",
+                "zh-Hant": "除法恆等式"
+              },
+              "skills": [
+                "poly-division-identity",
+                "poly-compare-coefficients",
+                "poly-higher-remainder"
+              ]
+            },
+            {
+              "id": "transformed-polynomials",
+              "name": {
+                "en": "Transformed polynomial arguments",
+                "zh-Hant": "多項式代換"
+              },
+              "skills": [
+                "poly-substitution",
+                "poly-quotient-sign"
               ]
             }
           ],
           "topicId": "polynomial"
+        },
+        {
+          "id": "sequences",
+          "topicId": "sequences",
+          "name": {
+            "en": "Sequences & Series",
+            "zh-Hant": "數列與級數"
+          },
+          "description": {
+            "en": "Sequences & Series practice, organised by solving method.",
+            "zh-Hant": "等差、等比數列及級數，連接對數、根與係數和綜合應用。"
+          },
+          "subcategories": [
+            {
+              "id": "geometric-sums",
+              "name": {
+                "en": "Geometric terms and sums",
+                "zh-Hant": "等比通項與和"
+              },
+              "skills": [
+                "seq-geometric-sum"
+              ]
+            },
+            {
+              "id": "log-products",
+              "name": {
+                "en": "Logarithms of sequence products",
+                "zh-Hant": "數列乘積與對數"
+              },
+              "skills": [
+                "seq-product-sum",
+                "seq-log-gp"
+              ]
+            },
+            {
+              "id": "mixed-ap-gp",
+              "name": {
+                "en": "AP and GP constraints",
+                "zh-Hant": "等差等比條件聯立"
+              },
+              "skills": [
+                "seq-middle-term"
+              ]
+            },
+            {
+              "id": "roots-sequences",
+              "name": {
+                "en": "Roots and sequences",
+                "zh-Hant": "根與係數連接數列"
+              },
+              "skills": [
+                "seq-vieta"
+              ]
+            },
+            {
+              "id": "sequence-applications",
+              "name": {
+                "en": "Interleaving and infinite sums",
+                "zh-Hant": "交錯數列與無窮級數"
+              },
+              "skills": [
+                "seq-interleave",
+                "seq-infinite"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -160,7 +435,9 @@
               "skills": [
                 "rectangle-area",
                 "circle-area",
-                "sector-area"
+                "sector-area",
+                "mens-sector",
+                "mens-composite-area"
               ]
             },
             {
@@ -171,7 +448,8 @@
               },
               "skills": [
                 "prism-volume",
-                "cylinder-volume"
+                "cylinder-volume",
+                "mens-direct-volume"
               ]
             },
             {
@@ -181,7 +459,8 @@
                 "zh-Hant": "表面面積"
               },
               "skills": [
-                "cylinder-surface-area"
+                "cylinder-surface-area",
+                "mens-exposed-area"
               ]
             },
             {
@@ -191,7 +470,51 @@
                 "zh-Hant": "相似立體"
               },
               "skills": [
-                "volume-scale"
+                "volume-scale",
+                "mens-scale-powers",
+                "mens-prove-similarity"
+              ]
+            },
+            {
+              "id": "cuts-frustums",
+              "name": {
+                "en": "Parallel cuts and frustums",
+                "zh-Hant": "平行切割與錐台"
+              },
+              "skills": [
+                "mens-subtract-cones"
+              ]
+            },
+            {
+              "id": "liquids-displacement",
+              "name": {
+                "en": "Liquids and displacement",
+                "zh-Hant": "液體與排水"
+              },
+              "skills": [
+                "mens-water-depth",
+                "mens-displacement"
+              ]
+            },
+            {
+              "id": "recasting-splitting",
+              "name": {
+                "en": "Recasting and splitting",
+                "zh-Hant": "重鑄與分割"
+              },
+              "skills": [
+                "mens-volume-conservation",
+                "mens-split-ratio"
+              ]
+            },
+            {
+              "id": "maps-scale",
+              "name": {
+                "en": "Maps and scale",
+                "zh-Hant": "地圖與比例尺"
+              },
+              "skills": [
+                "mens-map-scale"
               ]
             }
           ],

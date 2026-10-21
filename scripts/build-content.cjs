@@ -13,7 +13,7 @@ try{
     else{fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,body);}
   }
   if(stale.length)throw Error('Published content is stale. Run node scripts/build-content.cjs:\n'+stale.join('\n'));
-  if(!check)for(const directory of ['data','data/chapters']){
+  if(!check)for(const directory of ['data','data/chapters','data/search']){
     const folder=path.join(ROOT,'src',directory);
     for(const name of fs.readdirSync(folder)){
       const relative=directory+'/'+name;

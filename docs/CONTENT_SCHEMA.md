@@ -34,11 +34,19 @@ Rendering supports all six formats. Categories such as `conceptual` and `calcula
 
 - MCQ and diagram MCQ use `options`, `optionsZh` and a correct letter `answer`.
 - Numeric short answers use `answerValue` and optional absolute `tolerance` (default 1e-8). Inputs accept finite decimal numbers or a single numeric fraction; no expression evaluation is used.
-- Structured, proof and DSE-style long questions use `rubric` (an array of marking points) instead of a machine-marked answer. Students submit written working and explicitly self-assess against the model solution. Rubric wording is currently Traditional Chinese; question and solution text support English / Traditional Chinese / both.
+- Structured, proof and DSE-style long questions use a genuine `rubric` or explicit `assessmentMode: "solution-comparison"` when the source supplies worked solutions without a marking scheme. No marks/rubrics are invented. Written work is explicitly self-assessed, never included in automatic accuracy. Hints are optional paired fields; malformed source hints are withheld with an editorial note. A brief source answer is labelled `solutionStatus: "source-answer-or-brief-explanation"` rather than claimed as a full derivation.
 - Diagram questions carry `diagram.src`, `diagram.alt`, `diagram.caption` and a `diagram.qa` record with same `questionId`, reviewed status, review date and evidence. The original `mens-diag-001` SVG is paired only with that same question and labelled not to scale. Evidence fields cannot substitute for actually inspecting the question visual.
 - `minForm` is an editorial suggested minimum practice level. A selected level includes earlier levels. It does not claim full official syllabus coverage.
 
 Question IDs must be globally unique and stable across deployments; learning records use them as keys. Graph/diagram questions require their own reviewed, same-question visual before publishing.
+
+## Imported provenance and delivery
+
+Imported records have `provenance` (collection, original file SHA-256, source topic/type/id/row/set/number and attribution status), `classification` (version, primary-method basis, original topic and source level), optional `editorialCorrections` and duplicate `sourceAliases`. Missing source attribution is explicitly labelled as not supplied. Original source rows, including rejected records, are retained outside the published `src/` directory.
+
+`data/bank.json` schema version 2 points to the catalog, abbreviated metadata index, per-chapter bounded detail chunks and full-text search shards. Each metadata row has a `chunk` path and balanced-formula excerpts. It has no answer/solution. A normal preview or practice question fetches one chunk, never a whole chapter. The worker loads full-text shards only when searching, retains at most 24 shards, and stops obsolete jobs. Detail request cache retains at most 32 responses. `QuestionBank.all()` and full chapter JSON remain compatibility/export paths only.
+
+Formulas use `\\( … \\)` / `\\[ … \\]`, rendered by the pinned local MathJax 3.2.2 SVG bundle. Source text is inserted using `textContent`; embedded HTML/scripts are never executed. Raw dollar-delimited mathematical source is normalized while escaped currency is preserved.
 
 ## Browser learning records
 

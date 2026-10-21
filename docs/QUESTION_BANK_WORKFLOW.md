@@ -2,9 +2,9 @@
 
 ## 已核實的來源範圍
 
-2026-10-21 已檢查整個 `/Users/chester/Downloads/Chester ip` 專案。網站題庫包含 **37 道 EAC 原創題、3 個課題、6 種題型**：Four Centres 13、Polynomials 12、Mensuration 12。這是目前可上架的全部網站題目，並非完整中一至中六題庫。
+2026-10-22：已匯入用戶提供的 `/Users/chester/Downloads/1013 webpage/index.html`。以 JSON 解碼器讀取 `const QUESTIONS`，沒有執行原 HTML 的 JavaScript。原始 898 條記錄：753 題上架、111 題待核對、34 條重複。加上原本 37 題，學生題庫共 **790 題、5 個課題、6 種題型**。完整分類及逐題原因見 `1013_IMPORT_AUDIT.md`，機讀紀錄見 `content/imports/1013-classification-audit.json`。
 
-`S3_Ch8_Quadrilaterals_Concept_Notes.html`、同名 PDF 及 `_build_ch8/` 按用戶指示保留作設計參考，不作新增題源。未取得其他題庫路徑之前，不把參考筆記、招生文案或電腦其他資料當成學生題目。
+`S3_Ch8_Quadrilaterals_Concept_Notes.html`、同名 PDF 及 `_build_ch8/` 按用戶指示保留作設計參考，不作新增題源。來源寫有「如圖」但沒有同題圖像、題幹被截斷、選項不完整、矛盾條件或 OCR 損壞的題目保留待核對，不補猜數值。來源 Level 5/5*/5** 和 L1–L8 分開存於分類記錄，並非中一至中六年級。
 
 ## 單一內容來源
 
@@ -82,7 +82,7 @@ PDF、HTML、Markdown 或圖片不會由這支 JSON 匯入程式自動轉題；�
 
 ## 發佈架構
 
-`src/data/bank.json` 是當前版本 manifest，指向帶內容雜湊的 catalog、精簡題目索引及每課題 JSON。公開目錄首先只載入分類與索引；開啟題目預覽時才讀取該課題的選項、答案及解析。練習室目前為跨課題組題載入所有課題；並未聲稱已完成大型題庫的伺服器查詢。
+`src/data/bank.json` schemaVersion 2 指向 catalog、精簡 metadata、每批最多 32 題／約 192 KiB 的 detail chunk，以及全文搜尋分片。目錄、dashboard、自選組題先載入 metadata；預覽及練習只取當前題目的 chunk，不再載入所有課題解析。全文搜尋輸入後才交由 worker 讀取分片，最多並行 4 個請求，快取最多 24 個搜尋分片；detail 請求快取上限 32 個。
 
 `questions.json` 和 `catalog.json` 保留為相容產物，並非第二份人工維護來源。上架題數、細分類題數及技巧題數由建置程式計算，不手改數字。建置會清理已失效的雜湊產物。
 
@@ -93,3 +93,18 @@ PDF、HTML、Markdown 或圖片不會由這支 JSON 匯入程式自動轉題；�
 學生可在 `library.html` 逐層篩選、搜尋中英文課題/技巧/題文、按題型或難度排序、分頁、預覽、收藏，再練習一題或整個範圍。篩選保存在網址，重新整理及返回上一頁會還原。未登入也可瀏覽，收藏與練習記錄需本機試用。
 
 單元測試涵蓋欄位、題號、分類、題圖紀錄、產物一致性、預覽不寫檔、修訂保護及按需載入。`tests/browser/library.cjs` 另測完整目錄操作、登入返回、分享篩選及 320/390/768px 排版；`tests/browser/studio.cjs` 驗證原有六題型及續做流程。
+
+## 重建本次 HTML 匯入
+
+```sh
+python3 scripts/extract-legacy.py '/Users/chester/Downloads/1013 webpage/index.html'
+python3 scripts/classify-legacy.py           # 只預覽，不寫檔
+python3 scripts/classify-legacy.py --apply   # 重建這個 collection，覆寫其已匯入記錄
+node scripts/build-content.cjs
+```
+
+一般修題直接編輯 canonical JSON；不需重新匯入。重跑 `--apply` 前要將人工修正反映到分類／修正規則，否則該 collection 的手動變更會被原始來源及規則重建。先查看 git diff。來源 snapshot 在網站 `src/` 以外的 `content/sources/`；111 題待補內容均有 source row、題號、原因和預分類。修復時沿用 audit 內原 ID，補齊雙語和同題圖像 QA，再經 JSON importer 或 canonical 編輯上架。
+
+`tests/browser/imported-bank.cjs` 逐項測試所有已上架數學片段能否由 MathJax 解析，亦驗證匯入 MCQ、長答自評、缺提示題、手機預覽和全文搜尋。公式解析通過不等於每題數學結論已獨立驗算。
+
+三萬題本機合成測試以現有題目組合重複建立：建置約 2.8 秒，metadata 解析約 30 ms，組合篩選平均約 1.43 ms；索引約 20.6 MB，gzip 約 1.49 MB，942 個 detail chunks，最大 196571 bytes。這是本機測量，非多人線上壓力測試。全域首次搜尋仍需按需讀取全部搜尋分片，低速網絡會較慢；未來更大題庫或跨裝置帳戶可轉為後端搜尋 API，保留現有 ID 和分類。完整紀錄見 `docs/QUESTION_BANK_SCALE.md`。

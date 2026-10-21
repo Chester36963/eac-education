@@ -54,7 +54,7 @@ function validate(catalog,topics,skills,assetRoot=path.join(ROOT,'src')){
         need(Object.hasOwn(Learning.types,q.questionType),`${label}: unsupported question type.`);
         need(catalog.difficultyLevels.includes(q.difficulty),`${label}: unknown difficulty.`);
         need(Number.isInteger(q.minForm)&&q.minForm>=1&&q.minForm<=6,`${label}: minForm must be 1–6.`);
-        for(const field of ['stem','stemZh','hint','hintZh','solution','solutionZh','source','sourceZh']){
+        for(const field of ['stem','stemZh','solution','solutionZh','source','sourceZh']){
           need(typeof q[field]==='string'&&!!q[field].trim(),`${label}: ${field} required.`);
           if(typeof q[field]==='string')need(!/<\/?(?:script|iframe)|javascript:|\[unclear:/i.test(q[field]),`${label}: unsafe/unclear ${field}.`);
         }
@@ -64,7 +64,15 @@ function validate(catalog,topics,skills,assetRoot=path.join(ROOT,'src')){
         }else if(Learning.automatic(q)){
           for(const field of ['options','optionsZh'])need(q[field]&&['A','B','C','D'].every(k=>typeof q[field][k]==='string'&&q[field][k].trim()),`${label}: complete bilingual A–D options required.`);
           need(['A','B','C','D'].includes(q.answer),`${label}: answer must be A–D.`);
-        }else need(Array.isArray(q.rubric)&&q.rubric.length&&q.rubric.every(v=>typeof v==='string'&&v.trim()),`${label}: marking rubric required.`);
+        }else need(q.assessmentMode==='solution-comparison'||(Array.isArray(q.rubric)&&q.rubric.length&&q.rubric.every(v=>typeof v==='string'&&v.trim())),`${label}: marking rubric or explicit solution comparison required.`);
+        for(const field of ['stem','stemZh','solution','solutionZh','hint','hintZh']){
+          if(typeof q[field]==='string'){
+            const value=q[field];
+            need(!/<\/?(?:script|iframe)|javascript:|\[unclear:/i.test(value),`${label}: unsafe/unclear ${field}.`);
+            need((value.match(/\\\(/g)||[]).length===(value.match(/\\\)/g)||[]).length&&(value.match(/\\\[/g)||[]).length===(value.match(/\\\]/g)||[]).length,`${label}: unbalanced math delimiters in ${field}.`);
+          }
+        }
+        need(Boolean(q.hint)===Boolean(q.hintZh),`${label}: optional hints must be bilingual.`);
         const needsDiagram=q.questionType==='diagram'||/\b(?:in the (?:figure|diagram|graph)|(?:figure|diagram|graph) (?:shows|below))\b|如圖|圖中|下圖|圖示/i.test(`${q.stem} ${q.stemZh}`);
         if(needsDiagram)need(!!q.diagram,`${label}: same-question diagram required.`);
         if(q.diagram){
@@ -110,22 +118,41 @@ function compile(source){
     chapter.coverage={types:countBy(qs,'questionType'),difficulty:countBy(qs,'difficulty'),minForm:countBy(qs,'minForm')};
     for(const sub of chapter.subcategories){const rows=qs.filter(q=>q.subcategory===sub.id);sub.questionCount=rows.length;sub.skillCounts=Object.fromEntries(sub.skills.map(skill=>[skill,rows.filter(q=>q.skill===skill).length]));}
   }
-  const files=new Map();const chapterManifest=[];
+  const files=new Map();const chapterManifest=[],chunkFor=new Map(),searchFiles=[];
   for(const topic of topics){
     const body=json(topic),revision=hash(body),file=`data/chapters/${topic.id}.${revision}.json`;
-    files.set(file,body);chapterManifest.push({topicId:topic.id,path:file,questionCount:questions.filter(q=>q.topicId===topic.id).length});
+    files.set(file,body);
+    const rows=questions.filter(q=>q.topicId===topic.id),chunks=[];
+    let batch=[],bytes=0;
+    const flush=()=>{
+      if(!batch.length)return;
+      const text=JSON.stringify({questions:batch})+'\n',name=`data/chapters/${topic.id}-chunk.${hash(text)}.json`;
+      files.set(name,text);chunks.push(name);for(const q of batch)chunkFor.set(q.id,name);batch=[];bytes=0;
+    };
+    for(const q of rows){const size=Buffer.byteLength(JSON.stringify(q));if(batch.length&&(batch.length>=32||bytes+size>192*1024))flush();batch.push(q);bytes+=size;}flush();
+    for(let start=0;start<rows.length;start+=128){
+      const body=JSON.stringify({questions:rows.slice(start,start+128).map(q=>({id:q.id,text:[q.id,q.stem,q.stemZh,q.source,q.sourceZh,skills[q.skill]].join(' ').normalize('NFKC').toLowerCase()}))})+'\n';
+      const name=`data/search/${topic.id}.${hash(body)}.json`;files.set(name,body);searchFiles.push(name);
+    }
+    chapterManifest.push({topicId:topic.id,path:file,chunks,questionCount:rows.length});
   }
   const index=questions.map(q=>{
     const subject=catalog.subjects.find(s=>s.chapters.some(c=>c.topicId===q.topicId)),chapter=subject.chapters.find(c=>c.topicId===q.topicId),sub=chapter.subcategories.find(s=>s.id===q.subcategory);
-    return {...Object.fromEntries(['id','topicId','category','subcategory','skill','questionType','difficulty','minForm','stem','stemZh','source','sourceZh'].map(k=>[k,q[k]])),searchText:[...Object.values(subject.name),...Object.values(chapter.name),...Object.values(sub.name),skills[q.skill]].join(' ')};
+    const excerpt=(value,limit)=>{
+      if(value.length<=limit)return value;
+      let short=value.slice(0,limit);
+      for(const [open,close]of [['\\(','\\)'],['\\[','\\]']])if(short.lastIndexOf(open)>short.lastIndexOf(close))short=short.slice(0,short.lastIndexOf(open));
+      return short.trim()+'…';
+    };
+    return {...Object.fromEntries(['id','topicId','category','subcategory','skill','questionType','difficulty','minForm'].map(k=>[k,q[k]])),stem:excerpt(q.stem,200),stemZh:excerpt(q.stemZh,120),chunk:chunkFor.get(q.id),searchText:[...Object.values(subject.name),...Object.values(chapter.name),...Object.values(sub.name),skills[q.skill]].join(' ')};
   });
-  const indexBody=json({questions:index}),indexFile=`data/question-index.${hash(indexBody)}.json`;
+  const indexBody=JSON.stringify({questions:index})+'\n',indexFile=`data/question-index.${hash(indexBody)}.json`;
   const catalogBody=json(catalog),catalogFile=`data/catalog.${hash(catalogBody)}.json`;
   files.set(indexFile,indexBody);files.set(catalogFile,catalogBody);
   files.set('data/questions.json',json({topics}));files.set('data/catalog.json',catalogBody);
   files.set('js/core/content.js','/* Generated by scripts/build-content.cjs from content/skills.json. */\nconst skillNames = '+JSON.stringify(skills,null,2)+';\n');
   const revision=hash(json([...files]));
-  files.set('data/bank.json',json({schemaVersion:1,revision,totalQuestions:questions.length,chapterCount:topics.length,catalog:catalogFile,index:indexFile,chapters:chapterManifest}));
+  files.set('data/bank.json',json({schemaVersion:2,revision,totalQuestions:questions.length,chapterCount:topics.length,catalog:catalogFile,index:indexFile,search:searchFiles,chapters:chapterManifest}));
   return files;
 }
 module.exports={ROOT,read,json,hash,validId,validate,readSource,compile};

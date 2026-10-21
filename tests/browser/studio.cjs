@@ -41,6 +41,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     await page.locator('#length-select').selectOption('10');
     await page.locator('#order-select').selectOption('random');
     await page.locator('#start-set-btn').click();
+    await page.locator('#active-set:not([hidden])').waitFor();
     assert.equal(await page.locator('#question-nav button').count(),10);
     assert.equal(await page.evaluate(()=>new Set(queue.map(q=>q.id)).size),10);
     await page.locator('#bookmark-btn').click();
@@ -57,7 +58,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     await page.locator('#finish-btn').click();
     assert.equal(await page.locator('.summary-question').count(),10);
     assert.match(await page.locator('#summary-copy').textContent(),/跳過 10 題/);
-    await page.locator('#retry-skipped-btn').click();assert.equal(await page.locator('#question-nav button').count(),10);
+    await page.locator('#retry-skipped-btn').click();await page.locator('#active-set:not([hidden])').waitFor();assert.equal(await page.locator('#question-nav button').count(),10);
 
     // Exact diagram, correct MCQ, bookmark mode and persistent draft selection.
     await freshSet('chapter=mensuration-core&question=mens-diag-001&type=diagram');
@@ -90,7 +91,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     assert.equal(await page.evaluate(()=>Storage.getUser().progress.autoAttempted),autoBefore);
     assert.equal(await page.evaluate(()=>Storage.getUser().progress.byQuestion['poly-proof-001'].assessment),'self');
     await page.locator('#next-btn').click();assert.match(await page.locator('#summary-copy').textContent(),/自評 1 題/);
-    await page.locator('#retry-mistakes-btn').click();await page.locator('#written-answer').fill('Let n be an integer; (n+1)^2-n^2=2n+1 is odd.');
+    await page.locator('#retry-mistakes-btn').click();await page.locator('#active-set:not([hidden])').waitFor();await page.locator('#written-answer').fill('Let n be an integer; (n+1)^2-n^2=2n+1 is odd.');
     await page.locator('#submit-btn').click();await page.locator('#self-correct-btn').click();await page.locator('#next-btn').click();
 
     for(const [chapter,id,type] of [['four-centres','fc-str-001','structured'],['polynomials','poly-long-001','dse-long']]){
@@ -108,6 +109,8 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     assert.equal(await page.locator('#hint-btn').isVisible(),false);
     const correct=await page.evaluate(()=>question().answer);
     await page.locator(`.option[data-letter="${correct}"]`).click();await page.locator('#submit-btn').click();
+    await page.locator('#result-message:not([hidden])').waitFor();
+    assert.match(await page.locator('#result-message').textContent(),/答案已記錄/);
     assert.equal(await page.locator('#solution-panel').isVisible(),false);
     assert.equal(await page.locator('.option.correct').count(),0);
     await page.locator('#next-btn').click();
@@ -119,16 +122,17 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     assert.equal(await page.evaluate(()=>sessionState.selection.experience),'test');
     await page.locator('#finish-btn').click();
     await page.locator('.summary-question').first().locator('summary').click();
-    assert.equal(await page.locator('.summary-question').first().locator('p').isVisible(),true);
+    await page.locator('.summary-question').first().locator('p[data-loaded="1"]').waitFor();
 
     // Saved-only selection, reset, searchable bank and no-data recovery.
     await open('app.html?mode=saved');assert.match(await page.locator('#set-count').textContent(),/1 題符合/);
-    await page.locator('#start-set-btn').click();assert.equal(await page.evaluate(()=>question().id),bookmarked);
+    await page.locator('#start-set-btn').click();await page.locator('#active-set:not([hidden])').waitFor();assert.equal(await page.evaluate(()=>question().id),bookmarked);
     await page.locator('#finish-btn').click();
     await page.locator('#practice-builder > summary').click();
     await page.locator('#reset-filters-btn').click();
     await page.locator('.advanced-filters > summary').click();
-    await page.locator('#query-input').fill('no-question');assert.equal(await page.locator('#start-set-btn').isDisabled(),true);
+    await page.locator('#query-input').fill('no-question');await page.waitForFunction(()=>document.getElementById('set-count').textContent.includes('暫時沒有'));
+    assert.equal(await page.locator('#start-set-btn').isDisabled(),true);
     await page.locator('#reset-filters-btn').click();assert.ok((await page.locator('#set-count').textContent()).startsWith(`${totalQuestions} 題`));
 
     // Profile preferences, safe export and applied question language.
@@ -139,7 +143,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     const downloadPromise=page.waitForEvent('download');await page.locator('#export-btn').click();const download=await downloadPromise;
     const exported=JSON.parse(fs.readFileSync(await download.path(),'utf8'));assert.ok(exported.progress);assert.equal('passwordHash' in exported,false);
     await open('app.html');assert.equal(await page.locator('#language-select').inputValue(),'zh');assert.equal(await page.locator('#form-select').inputValue(),'2');
-    await page.locator('#start-set-btn').click();assert.equal(await page.locator('#question-zh').isVisible(),false);
+    await page.locator('#start-set-btn').click();await page.locator('#active-set:not([hidden])').waitFor();assert.equal(await page.locator('#question-zh').isVisible(),false);
     assert.equal(await page.locator('#question-stem').textContent(),await page.evaluate(()=>question().stemZh));
     await page.locator('#finish-btn').click();
 

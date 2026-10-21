@@ -15,9 +15,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   byId('skills-tab').onclick = () => setRecordTab('skills');
   byId('mistakes-tab').onclick = () => setRecordTab('mistakes');
   try {
-    const [catalog, data] = await Promise.all([QuestionBank.catalog(), QuestionBank.all()]);
+    const [catalog, questions] = await Promise.all([QuestionBank.catalog(), QuestionBank.index()]);
     const records = currentUser.progress.byQuestion || {};
-    const questions = data.topics.flatMap(t => t.categories.flatMap(c => c.questions.map(q => ({...q, topicId: t.id}))));
     const chapters = catalog.subjects.flatMap(s => s.chapters);
     renderLibrary(catalog);
     byId('library-search').oninput=()=>renderLibrary(catalog,byId('library-search').value.trim());
