@@ -3,34 +3,34 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css">
 <link rel="stylesheet" href="css/math.css"><script src="js/core/math.js"></script><script defer src="vendor/mathjax/tex-svg.js"></script>
-</head><body class="practice-page">
-<header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">學習主頁</a><a href="library.html">題庫目錄</a><a href="settings.html">設定</a><button class="btn btn-outline btn-sm" onclick="handleLogout()">登出</button></nav></div></header>
+<link rel="stylesheet" href="css/journey.css"></head><body class="practice-page">
+<header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">開始溫習</a><a href="library.html">題庫</a><a href="dashboard.html?view=record">溫習記錄</a><a href="settings.html">設定</a></nav></div></header>
 <main class="main-container">
 <section class="resume-banner" id="resume-banner" hidden><div><strong>有一組未完成練習</strong><p id="resume-copy"></p></div><button class="btn btn-primary" id="resume-btn">繼續上次練習 →</button></section>
-<details class="practice-builder" id="practice-builder" open><summary><span class="eyebrow">BUILD YOUR PRACTICE · 自選練習</span><h1>今日想點樣練？</h1><span class="builder-toggle">展開 / 收起選擇</span></summary>
+<details class="practice-builder" id="practice-builder" open><summary><span class="eyebrow">PRACTICE · 練習</span><h1>揀一課，開始練習。</h1><span class="builder-toggle">調整課題及題數</span></summary>
 <section class="practice-config" aria-label="練習設定">
-<div class="filter-grid">
+<p class="journey-guide">先做 5 題選擇題，逐題核對答案。不用設定時間；完成後會列出需要重練的題目。</p>
+<div class="practice-primary">
+<label>課題<select id="topic-select"></select></label>
+<label>每組題數<select id="length-select"><option value="5">5 題</option><option value="10">10 題</option><option value="20">20 題</option><option value="all">全部符合題目</option></select></label>
+</div>
+<details class="advanced-filters"><summary>其他選擇：技巧、題型、難度及自測</summary><div class="filter-grid">
 <label>科目範疇 / Subject<select id="subject-select"></select></label>
-<label>課題 / Chapter<select id="topic-select"></select></label>
 <label>題型 / Question type<select id="type-select"></select></label>
 <label>題目範圍<select id="mode-select"><option value="all">全部題目</option><option value="new">未做題目</option><option value="review">待重溫錯題</option><option value="saved">我的收藏</option></select></label>
 <label>練習體驗<select id="experience-select"><option value="study">學習練習 · 每題看解析</option><option value="test">自測 · 完成後看解析（自動核對題）</option></select></label>
 <label>題目語言<select id="language-select"><option value="bilingual">English + 繁體中文</option><option value="en">English</option><option value="zh">繁體中文</option></select></label>
-</div>
-<details class="advanced-filters"><summary>細分類、技巧、難度及搜尋</summary><div class="filter-grid">
 <label>分類 / Subcategory<select id="subcategory-select"></select></label>
 <label>技巧 / Skill<select id="skill-select"></select></label>
 <label>難度<select id="difficulty-select"></select></label>
 <label>建議程度（包含較早課題）<select id="form-select"><option value="all">全部程度</option><option value="1">中一 / Form 1</option><option value="2">中二 / Form 2</option><option value="3">中三 / Form 3</option><option value="4">中四 / Form 4</option><option value="5">中五 / Form 5</option><option value="6">中六 / Form 6</option></select></label>
 <label class="search-field">搜尋題目 / Search<input id="query-input" type="search" placeholder="關鍵字、題號…"></label>
-</div><p class="field-note">程度為建議練習門檻；目前題庫並非完整各級課程。</p></details>
-<div class="filter-grid session-options">
-<label>每組題數<select id="length-select"><option value="5">5 題</option><option value="10">10 題</option><option value="20">20 題</option><option value="all">全部符合題目</option></select></label>
 <label>題目次序<select id="order-select"><option value="sequence">由課題次序開始</option><option value="random">隨機排列</option></select></label>
 <label>練習時間<select id="timer-select"><option value="0">不限時</option><option value="5">5 分鐘</option><option value="10">10 分鐘</option><option value="20">20 分鐘</option></select></label>
-</div><div class="set-start"><p id="set-count" aria-live="polite">載入題庫中…</p><button class="btn btn-primary" id="start-set-btn" type="button" disabled>開始練習 →</button></div><button class="text-button" id="reset-filters-btn" type="button">重設篩選</button>
+</div><p class="field-note">長答及證明題須自行對照解法；自測模式會在整組完成後顯示解析。</p><button class="text-button" id="reset-filters-btn" type="button">重設全部選擇</button></details>
+<div class="set-start"><p id="set-count" aria-live="polite">載入題庫中…</p><button class="btn btn-primary" id="start-set-btn" type="button" disabled>開始 5 題練習 →</button></div>
 </section></details>
-<section class="studio-empty" id="studio-empty"><p class="eyebrow">YOUR CHOICE, YOUR PACE</p><h2>先揀範圍，再開始。</h2><p>可以跨課題混合練習，亦可以集中做一個技巧。長答及證明題提供評分要點供自評。</p></section>
+<section class="studio-empty" id="studio-empty"><h2>未諗到溫邊課？</h2><p>由最近上過的一課開始。作答時先試自己的方法；卡住可以看提示，核對後再讀解析。</p><a class="text-button" href="dashboard.html">返回課題選擇 →</a></section>
 <section class="active-set" id="active-set" hidden>
 <div class="session-toolbar"><div><p class="eyebrow" id="active-set-title">PRACTICE SESSION</p><p id="progress-text" aria-live="polite"></p></div><span id="session-clock" role="timer">00:00</span><div class="session-actions"><button class="text-button" id="pause-btn">儲存並暫停</button><button class="text-button" id="finish-btn">結束本組</button></div></div>
 <p id="timer-notice" class="field-note" hidden>練習時間已到。你可以繼續完成，或結束本組查看回顧。</p>
@@ -39,9 +39,10 @@
 <div class="result-message" id="result-message" role="status" hidden></div>
 <article class="question-container" id="question-container" aria-label="練習題目">
 <div class="question-topline"><div class="question-meta"><span class="badge" id="difficulty-badge"></span><span class="badge" id="category-badge"></span><span class="badge" id="type-badge"></span></div><button class="bookmark-button" id="bookmark-btn" aria-pressed="false">收藏題目 ☆</button></div>
-<div class="question-reading-tools"><p class="question-source" id="question-source"></p><label>題目語言 <select id="reading-language" aria-label="即時切換題目語言"><option value="bilingual">English + 中文</option><option value="en">English</option><option value="zh">繁體中文</option></select></label></div><div class="question-stem" id="question-stem"></div><p class="question-zh" id="question-zh"></p>
+<div class="question-reading-tools"><p class="question-source" id="question-source"></p><select id="reading-language" aria-label="即時切換題目語言" hidden><option value="bilingual">English + 中文</option><option value="en">English</option><option value="zh">繁體中文</option></select><div class="language-switch" data-language-select="reading-language" role="group" aria-label="題目語言"><button type="button" data-language="en" aria-pressed="false">English</button><button type="button" data-language="bilingual" aria-pressed="true">中英對照</button><button type="button" data-language="zh" aria-pressed="false">繁體中文</button></div></div><div class="question-stem" id="question-stem"></div><p class="question-zh" id="question-zh"></p>
 <figure class="question-figure" id="question-figure" hidden><img id="question-image" alt=""><figcaption id="diagram-caption"></figcaption></figure>
-<p class="editorial-note" id="question-edition" hidden></p>
+<details class="edition-details" id="question-edition-wrap" hidden><summary>題目編訂說明</summary><p class="editorial-note" id="question-edition"></p></details>
+<p class="question-guidance" id="question-guidance">選一個答案，再按「核對答案」。</p>
 <div class="options" id="options-container"></div>
 <label class="written-answer" id="numeric-answer-wrap" hidden>輸入數值（可用分數，如 5/6）<input id="numeric-answer" type="text" inputmode="text" autocomplete="off"></label>
 <label class="written-answer" id="written-answer-wrap" hidden>寫下你的推導或證明<textarea id="written-answer" rows="7" placeholder="可以先在紙上作答，再在這裏記下關鍵步驟。"></textarea></label>
@@ -51,7 +52,7 @@
 <section class="answer-panel" id="hint-panel" hidden><h3>Hint · 提示</h3><p id="hint-text"></p></section>
 <section class="answer-panel" id="solution-panel" hidden><h3>Solution · 解析</h3><p id="solution-text"></p></section>
 </section>
-<section class="set-summary" id="set-summary" hidden><p class="eyebrow">SESSION REVIEW · 本組回顧</p><h2>完成這一步。</h2><p id="summary-copy"></p><div class="summary-actions"><button class="btn btn-primary" id="retry-mistakes-btn">重練本組錯題 →</button><button class="btn btn-outline" id="retry-skipped-btn">練習跳過題目 →</button><a class="btn btn-outline" href="dashboard.html#learning-record">學習記錄</a></div><div id="summary-questions"></div></section>
+<section class="set-summary" id="set-summary" hidden><p class="eyebrow">REVIEW · 本組結果</p><h2>這組練完，下一步呢？</h2><p id="summary-copy"></p><p class="summary-next" id="summary-next"></p><div class="summary-actions"><button class="btn btn-primary" id="retry-mistakes-btn">重練本組錯題 →</button><button class="btn btn-outline" id="retry-skipped-btn">完成未答題目 →</button><a class="btn btn-outline" href="dashboard.html">選擇下一課 →</a><a class="text-button" href="dashboard.html?view=record">查看溫習記錄</a></div><h3>逐題核對解法</h3><div id="summary-questions"></div></section>
 <p id="studio-status" role="status" aria-live="polite"></p>
 </main><footer class="site-footer"><span>© 2026 EAC Education</span><span>學生練習室 · 進度儲存在此瀏覽器</span></footer>
 <script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/gamification.js"></script><script src="js/features/practice.js"></script>

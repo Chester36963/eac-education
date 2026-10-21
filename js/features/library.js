@@ -47,6 +47,7 @@
     for(const key of ['form','mode','order'])byId(controls[key]).value=state[key];
     byId('bank-search').value=state.query;
     byId('bank-language').value=state.language;
+    EACMath.syncLanguages();
     const applied=Object.keys(controls).filter(key=>key!=='order'&&state[key]!=='all').length;
     byId('bank-refinement-status').textContent=applied?`${applied} 項篩選已套用`:'Refine your practice';
     byId('bank-refinement-status').classList.toggle('is-active',!!applied);
@@ -83,7 +84,7 @@
   function renderHeading(){
     const c=chapter(state.chapter),s=c?subjectFor(c.id):catalog.subjects.find(s=>s.id===state.subject);
     byId('bank-heading').textContent=c?`${c.name.en} · ${c.name['zh-Hant']}`:s?`${s.name.en} · ${s.name['zh-Hant']}`:'全部題目 / All questions';
-    byId('bank-description').textContent=c?.description?.['zh-Hant']||'由課題收窄至分類、技巧、題型及難度；可先預覽，再開始練習。';
+    byId('bank-description').textContent=c?.description?.['zh-Hant']||'在課題目錄揀一課，或直接搜尋。按「睇題目」可看完整內容。';
     const trail=byId('bank-breadcrumb');trail.replaceChildren(breadcrumb('數學題庫',{}));
     if(s)trail.append(node('span','/'),breadcrumb(s.name['zh-Hant'],{subject:s.id}));
     if(c)trail.append(node('span','/'),breadcrumb(c.name['zh-Hant'],{subject:s.id,chapter:c.id}));
@@ -114,7 +115,7 @@
     content.append(node('span',`${c.name['zh-Hant']} / ${sub.name['zh-Hant']} / ${skillNames[q.skill]||q.skill}`,'question-row-topic'));
     const result=user?.progress?.byQuestion?.[q.id];
     if(result)content.append(node('small',`${result.lastCorrect?'最近答對':'待重溫'}${result.assessment==='self'?' · 自評':''}`));
-    const actions=node('div',undefined,'bank-question-actions'),preview=node('button','預覽題目','text-button');preview.type='button';preview.onclick=()=>showPreview(q.id);
+    const actions=node('div',undefined,'bank-question-actions'),preview=node('button','睇題目','text-button');preview.type='button';preview.onclick=()=>showPreview(q.id);
     const practise=node('a','練習這題 →');practise.href=questionRoute(q);actions.append(preview,practise);article.append(content,actions);return article;
   }
   function render(){
@@ -125,10 +126,10 @@
     byId('bank-count').textContent=`${selected.length} 題符合${selected.length?` · 顯示 ${start+1}–${Math.min(start+pageSize,selected.length)}`:''}`;
     byId('bank-page').textContent=`${state.page} / ${pageCount}`;
     byId('bank-prev').disabled=state.page===1;byId('bank-next').disabled=state.page===pageCount;
-    const practise=byId('practice-selection');practise.href=link({},true);practise.hidden=!selected.length;
+    const practise=byId('practice-selection');practise.href=link({length:'5'},true);practise.hidden=!selected.length;
     if(!selected.length){
       const empty=node('div',undefined,'bank-empty');empty.append(node('h3','暫時沒有符合題目。'),node('p','可以放寬分類或程度，亦可以重設篩選。'));
-      if(!user&&['saved','review'].includes(state.mode)){const login=node('a','登入本機試用，查看收藏及作答記錄 →');login.href='auth.html?next='+encodeURIComponent(link());empty.append(login);}
+      if(!user&&['saved','review'].includes(state.mode)){const login=node('a','開始第一組練習，建立溫習記錄 →');login.href='dashboard.html';empty.append(login);}
       results.append(empty);
     }
     EACMath.render(results);
@@ -159,7 +160,7 @@
     const saved=(user?.bookmarks||[]).includes(previewId),button=byId('preview-bookmark');button.textContent=saved?'已收藏 ★':'收藏 ☆';button.setAttribute('aria-pressed',String(saved));
   }
   function bookmark(){
-    if(!user){byId('preview-status').textContent='收藏功能需要登入本機試用。';const a=node('a',' 前往登入 →');a.href='auth.html?next='+encodeURIComponent(link());byId('preview-status').append(a);return;}
+    if(!user){user=Auth.ensureLocalSession();if(!user){byId('preview-status').textContent='無法儲存收藏，請允許瀏覽器儲存網站資料。';return;}}
     if(!Learning.toggleBookmark(previewId)){byId('preview-status').textContent='未能儲存收藏，請檢查瀏覽器儲存空間。';return;}
     user=Storage.getUser();updateBookmark();render();
   }
@@ -169,12 +170,13 @@
       [catalog,metadata]=await Promise.all([QuestionBank.catalog(),QuestionBank.index()]);user=Auth.getCurrentUser();
       if(user){byId('library-account').textContent='設定';byId('library-account').href='settings.html';}
       readState();refreshFilters();await runSearch();render();
-      byId('bank-inventory').replaceChildren(...[[metadata.length,'已上架題目'],[catalog.subjects.flatMap(s=>s.chapters).length,'個課題'],[new Set(metadata.map(q=>q.questionType)).size,'種題型']].map(([count,label])=>{const item=node('span');item.append(node('strong',String(count)),document.createTextNode(label));return item;}));
+      byId('bank-inventory').replaceChildren(node('span',`${metadata.length} 題 · ${catalog.subjects.flatMap(s=>s.chapters).length} 個課題`));
       byId('bank-status').textContent='';byId('bank-reload').hidden=true;loaded=true;
       if(innerWidth<=650)byId('bank-navigation').open=false;
     }catch(error){byId('bank-count').textContent='題庫暫時無法載入。';byId('bank-status').textContent='請重新載入，或稍後再試。';byId('bank-reload').hidden=false;byId('practice-selection').hidden=true;}
   }
   document.addEventListener('DOMContentLoaded',()=>{
+    EACMath.bindLanguages();
     byId('bank-language').onchange=()=>{if(loaded)navigate({language:byId('bank-language').value});};
     for(const [key,id]of Object.entries(controls))byId(id).onchange=()=>{if(loaded)navigate({[key]:byId(id).value,page:1});};
     let searchTimer;

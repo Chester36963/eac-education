@@ -1,0 +1,92 @@
+/* Shared study navigation and a single, readable route into practice. */
+.studio-nav [aria-current="page"] { color:var(--ink); border-bottom:2px solid currentColor; padding-bottom:6px; }
+.study-steps { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; list-style:none; padding:22px 0; margin:0 0 32px; border-block:1px solid var(--line); }
+.study-steps li { display:flex; align-items:start; gap:14px; margin:0; }
+.study-steps b { font:400 26px/1.2 var(--font-serif-display); color:#697369; }
+.study-steps strong,.study-steps small { display:block; }
+.study-steps strong { font-size:15px; font-weight:500; }
+.study-steps small { color:var(--ink-soft); margin-top:5px; font-size:12px; line-height:1.7; }
+.student-main { max-width:1060px; padding-top:44px; }
+.student-welcome { margin-bottom:28px; }
+.student-welcome h1 { font-size:clamp(32px,4vw,46px); }
+.student-shell .daily-grid { display:block; margin-bottom:40px; }
+.student-shell .daily-card { padding:24px 0; border:0; border-bottom:1px solid var(--line); background:transparent; }
+.student-shell .daily-card h2 { font-size:26px; margin:12px 0; color:var(--ink); }
+.student-shell .daily-card p { color:var(--ink-soft); }
+.student-shell .daily-card .btn { background:var(--ink); border-color:var(--ink); }
+.student-shell .daily-card-top { margin-bottom:0; }
+.student-shell .subject-list { display:block; }
+.student-shell .subject-block { display:grid; grid-template-columns:190px minmax(0,1fr); gap:24px; border:0; border-top:1px solid var(--line); padding:20px 0; margin:0; background:transparent; }
+.student-shell .chapter-list { border:0; }
+.student-shell .subject-heading { display:block; padding:0; border:0; }
+.student-shell .topic-index { display:none; }
+.student-shell .subject-heading h3 { font-size:22px; }
+.student-shell .chapter-row { padding:16px 0; }
+.student-shell .chapter-row strong { font-size:22px; font-weight:500; }
+.student-shell .chapter-row small { line-height:1.8; }
+.student-shell .chapter-arrow { font-size:14px; white-space:nowrap; }
+.student-shell .section-heading h2 { font-size:30px; }
+.student-shell .section-heading p { font-size:14px; color:var(--ink-soft); margin-top:10px; }
+.record-overview { display:flex; flex-wrap:wrap; align-items:center; gap:18px; border-block:1px solid var(--line); padding:20px 0; margin-bottom:20px; }
+.record-overview p { flex-basis:100%; margin:0; }
+.record-overview a { font-size:14px; }
+.journey-guide { color:var(--ink-soft); font-size:14px; line-height:1.8; margin:12px 0 24px; }
+.bank-language-row { display:flex; align-items:center; gap:24px; padding:20px 0; border-bottom:1px solid var(--line); font-size:13px; color:var(--ink-soft); }
+.bank-intro .text-button { display:inline-block; margin-top:12px; }
+.practice-page .practice-builder { margin:0 0 24px; border:0; border-bottom:1px solid var(--line); }
+.practice-page .studio-empty h2 { margin-top:0; }
+.practice-page .practice-builder { background:transparent; }
+.practice-page .practice-builder>summary { padding:20px 0; }
+.practice-page .practice-builder h1 { font-size:32px; }
+.practice-page .practice-config { padding:0 0 24px; }
+.practice-primary { display:grid; grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:24px; }
+.practice-page .practice-primary label { display:block; font-size:14px; }
+.practice-page .advanced-filters { margin-top:20px; border:0; border-top:1px solid var(--line); }
+.practice-page .advanced-filters>summary { padding:16px 0; font-size:14px; cursor:pointer; }
+.practice-page .set-start { margin-top:18px; padding-top:18px; }
+.practice-page .studio-empty { padding:20px 0; border:0; background:none; }
+.practice-page .studio-empty h2 { font-size:22px; }
+.practice-page .studio-empty p { max-width:600px; font-size:14px; line-height:1.9; }
+.practice-page .session-toolbar { padding-block:12px; }
+.practice-page .question-container { padding:28px 0; border:0; box-shadow:none; background:transparent; }
+.practice-page .question-meta { gap:8px; }
+.practice-page .badge { border:0; padding:0 10px 0 0; background:none; font-size:12px; }
+.practice-page .question-meta #category-badge { display:none; }
+.practice-page .question-reading-tools { align-items:center; padding:14px 0; border-block:1px solid var(--line); margin:18px 0 24px; }
+.language-switch { display:flex; align-items:center; gap:4px; flex-shrink:0; }
+.language-switch button { border:1px solid transparent; background:transparent; color:var(--ink-soft); padding:7px 10px; font-size:13px; cursor:pointer; min-height:36px; }
+.language-switch button[aria-pressed="true"] { color:var(--ink); border-color:var(--ink); background:#f3f5f2; }
+.language-switch button:focus-visible { outline:2px solid var(--ink); outline-offset:2px; }
+.question-guidance { font-size:13px; color:var(--ink-soft); padding:12px 0; margin:0; line-height:1.8; }
+.edition-details { margin:16px 0; color:var(--ink-soft); font-size:12px; }
+.edition-details>summary { cursor:pointer; }
+.practice-page .set-summary h2 { font-size:32px; }
+.practice-page .set-summary h3 { margin:32px 0 12px; font-size:20px; }
+.summary-next { padding:16px 0; font-size:15px; line-height:1.8; }
+.summary-answer-copy { white-space:pre-line; }
+.summary-options { list-style:none; padding:0; margin:20px 0; }
+.summary-options li { display:flex; align-items:baseline; gap:12px; padding:8px 0; border-bottom:1px solid var(--line); }
+.summary-options strong { font-weight:500; }
+.summary-options span { white-space:pre-line; line-height:1.7; }
+.summary-question summary { font-size:15px; line-height:1.9; }
+@media(max-width:650px){
+ .header-inner { flex-wrap:wrap; gap:12px; }
+ .studio-nav { gap:18px; flex-wrap:wrap; justify-content:flex-start; }
+ .studio-nav a { font-size:13px; }
+ .study-steps { gap:14px; }
+ .study-steps li { display:block; }
+ .study-steps b { display:block; margin-bottom:9px; font-size:22px; }
+ .study-steps small { font-size:11px; }
+ .student-shell .subject-block { grid-template-columns:1fr; gap:8px; }
+ .student-shell .subject-heading h3 { font-size:18px; }
+ .student-shell .chapter-row strong { font-size:21px; }
+ .student-main { padding-top:32px; }
+ .practice-primary { grid-template-columns:1fr; gap:16px; }
+ .practice-page .question-reading-tools { flex-direction:column-reverse; align-items:flex-start; gap:12px; }
+ .language-switch { width:100%; }
+ .language-switch button { flex:1; }
+ .bank-language-row { flex-direction:column; align-items:flex-start; gap:10px; }
+ .practice-page .session-actions { gap:10px; }
+ .practice-page .question-container { padding-top:20px; }
+}
+#active-set[aria-busy="true"]{visibility:hidden}

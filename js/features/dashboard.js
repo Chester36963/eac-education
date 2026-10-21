@@ -2,15 +2,21 @@
 let currentUser;
 const byId = id => document.getElementById(id);
 document.addEventListener('DOMContentLoaded', async () => {
-  currentUser = Auth.getCurrentUser();
-  if (!currentUser) { location.href = 'auth.html'; return; }
-  const hour = new Date().getHours();
-  byId('welcome-heading').textContent = `${hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening'}, ${currentUser.username}.`;
+  currentUser = Auth.ensureLocalSession();
+  if (!currentUser) { byId('welcome-copy').textContent='瀏覽器未能儲存進度，請允許此網站使用本機儲存後重試。'; return; }
+  const recordView=new URLSearchParams(location.search).get('view')==='record'||location.hash==='#learning-record';
+  for(const selector of ['.study-steps','.daily-grid','.library-section'])document.querySelector(selector).hidden=recordView;
+  byId('dashboard-resume').hidden=true;
+  byId('learning-record').hidden=!recordView;
+  byId('welcome-heading').textContent=recordView?'睇返進度，溫返未熟。':'今日，溫邊一課？';
+  byId('welcome-copy').textContent=recordView?'按每題最近一次作答整理。答對後，該題會移出待重溫清單。':'揀一個課題，先做 5 題。逐題核對解法，再重做未掌握的題目。';
+  document.querySelectorAll('.studio-nav a').forEach(a=>{a.removeAttribute('aria-current');if(a.getAttribute('href')===(recordView?'dashboard.html?view=record':'dashboard.html'))a.setAttribute('aria-current','page');});
   byId('today-date').textContent = new Intl.DateTimeFormat('en-HK', {day: 'numeric', month: 'short'}).format(new Date());
   const stats = Gamification.getStats(currentUser);
   byId('accuracy-value').textContent = `${stats.accuracy}%`;
   byId('attempted-value').textContent = stats.totalAttempted;
   byId('streak-value').textContent = stats.streak.isActive ? stats.streak.current : 0;
+  byId('record-overview-copy').textContent=stats.totalAttempted?`累計作答 ${stats.totalAttempted} 次 · 自動核對正確率 ${stats.accuracy}%。書面題自評另行記錄。`:'未有作答記錄。先選一課做 5 題，完成後再回來看需要重溫的技巧。';
   byId('achievements-container').innerHTML = CONFIG.ACHIEVEMENTS.map(item => `<span class="achievement-chip ${stats.achievements.includes(item.id) ? 'is-unlocked' : ''}">${item.name}</span>`).join('');
   byId('skills-tab').onclick = () => setRecordTab('skills');
   byId('mistakes-tab').onclick = () => setRecordTab('mistakes');
@@ -21,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderLibrary(catalog);
     byId('library-search').oninput=()=>renderLibrary(catalog,byId('library-search').value.trim());
     const active=Learning.readSession(currentUser.id);
-    if(active){byId('dashboard-resume').hidden=false;byId('dashboard-resume-copy').textContent=`${active.ids.length} 題 · 已作答 ${Object.keys(active.answers||{}).length} 題`;}
+    if(active&&!recordView){byId('dashboard-resume').hidden=false;byId('dashboard-resume-copy').textContent=`${active.ids.length} 題 · 已作答 ${Object.keys(active.answers||{}).length} 題`;}
 
     renderSkills(chapters, questions, records);
     renderMistakes(chapters, questions, records);
@@ -35,7 +41,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 function route(chapter, params = {}) {
-  return `app.html?${new URLSearchParams({chapter: chapter.id, ...params})}`;
+  return `app.html?${new URLSearchParams({chapter: chapter.id, type:'all', length:'5', language:Storage.getPreferences().questionLanguage||'bilingual', ...params})}`;
 }
 function renderLibrary(catalog,query='') {
   const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -43,14 +49,14 @@ function renderLibrary(catalog,query='') {
   const filtered={...catalog,subjects:catalog.subjects.map(s=>({...s,chapters:s.chapters.filter(c=>`${s.name.en} ${s.name['zh-Hant']} ${c.name.en} ${c.name['zh-Hant']} ${c.subcategories.map(sub=>`${sub.name.en} ${sub.name['zh-Hant']}`).join(' ')}`.toLowerCase().includes(needle))})).filter(s=>s.chapters.length)};
   if(!filtered.subjects.length){byId('subject-list').textContent='沒有符合的課題，試下其他關鍵字。';return;}
   catalog=filtered;
-  byId('subject-list').innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><span class="topic-index">${escape(subject.id.toUpperCase())}</span><h3>${escape(subject.name.en)}<span>${escape(subject.name['zh-Hant'])}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<a class="chapter-row" href="${route(chapter)}"><span><strong>${escape(chapter.name.en)}</strong><small>${escape(chapter.name['zh-Hant'])} · ${chapter.questionCount} 題</small></span><span class="chapter-arrow">→</span></a>${chapter.subcategories.map(sub => `<a class="subchapter-row" href="${route(chapter,{subcategory:sub.id})}">${escape(sub.name.en)}<small>${escape(sub.name['zh-Hant'])}</small><span>↗</span></a>`).join('')}`).join('')}</div></article>`).join('');
+  byId('subject-list').innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><h3>${escape(subject.name.en)}<span>${escape(subject.name['zh-Hant'])}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<a class="chapter-row" href="${route(chapter,{type:chapter.coverage.types.mcq?'mcq':'all'})}"><span><strong>${escape(chapter.name.en)}</strong><small>${escape(chapter.name['zh-Hant'])} · ${chapter.questionCount} 題${chapter.coverage.types.mcq?'':' · 書面作答，對照解法自評'}</small></span><span class="chapter-arrow">做 5 題 →</span></a>`).join('')}</div></article>`).join('');
 }
 function renderSkills(chapters, questions, records) {
   const container = byId('skill-records');
   container.replaceChildren();
   for (const chapter of chapters) {
     const section = document.createElement('details'); section.className = 'skill-chapter';
-    section.open = chapter === chapters[0];
+    section.open = false;
     const heading = document.createElement('summary');
     const name = document.createElement('span'); name.textContent = `${chapter.name.en} · ${chapter.name['zh-Hant']}`;
     const chapterQuestions = questions.filter(q => q.topicId === chapter.topicId);
@@ -75,6 +81,7 @@ function renderSkills(chapters, questions, records) {
 function renderMistakes(chapters, questions, records) {
   const mistakes = questions.filter(q => records[q.id]?.lastCorrect === false).sort((a,b) => records[b.id].lastAttemptAt.localeCompare(records[a.id].lastAttemptAt));
   byId('mistake-count').textContent = mistakes.length;
+  byId('review-all-link').hidden=!mistakes.length;
   const container = byId('mistake-records'); container.replaceChildren();
   if (!mistakes.length) { const empty = document.createElement('p'); empty.className = 'record-empty'; empty.textContent = '目前沒有待重溫錯題。完成練習後，需要再練的題目會出現在這裏。'; container.append(empty); return; }
   for (const q of mistakes) {
@@ -85,14 +92,16 @@ function renderMistakes(chapters, questions, records) {
     const meta = document.createElement('small'); meta.textContent = `${chapter.name.en} · ${skillNames[q.skill] || q.skill} · 重練 →`;
     link.append(title,zh,meta); container.append(link);
   }
+  EACMath.render(container);
 }
 function renderRecommendation(chapters, questions, records) {
   const wrong = questions.filter(q => records[q.id]?.lastCorrect === false).sort((a,b) => records[b.id].lastAttemptAt.localeCompare(records[a.id].lastAttemptAt))[0];
   const unseen = questions.find(q => !records[q.id]);
+  if(!Object.keys(records).length){document.querySelector('.daily-grid').hidden=true;return;}
   const next = wrong || unseen || questions[0];
   if (!next) return;
   const chapter = chapters.find(c => c.topicId === next.topicId);
-  const params = {subcategory: next.subcategory, skill: next.skill};
+  const params = {subcategory: next.subcategory, skill: next.skill,type:'all'};
   if (wrong) {
     params.mode = 'review';
     byId('recommendation-heading').textContent = '先釐清一個未掌握的技巧。';

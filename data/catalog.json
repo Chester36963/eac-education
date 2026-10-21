@@ -223,8 +223,8 @@
             },
             "difficulty": {
               "easy": 4,
-              "medium": 134,
-              "hard": 75,
+              "medium": 135,
+              "hard": 74,
               "challenging": 41
             },
             "minForm": {
@@ -270,9 +270,9 @@
               "skills": [
                 "locus-perp-bisector"
               ],
-              "questionCount": 42,
+              "questionCount": 41,
               "skillCounts": {
-                "locus-perp-bisector": 42
+                "locus-perp-bisector": 41
               }
             },
             {
@@ -370,18 +370,18 @@
               }
             }
           ],
-          "questionCount": 219,
+          "questionCount": 218,
           "coverage": {
             "types": {
               "mcq": 96,
-              "structured": 123
+              "structured": 122
             },
             "difficulty": {
               "medium": 133,
-              "hard": 86
+              "hard": 85
             },
             "minForm": {
-              "4": 219
+              "4": 218
             }
           }
         }
@@ -785,9 +785,9 @@
           "questionCount": 217,
           "coverage": {
             "types": {
-              "mcq": 86,
+              "mcq": 85,
               "short-answer": 2,
-              "structured": 127,
+              "structured": 128,
               "dse-long": 1,
               "diagram": 1
             },
