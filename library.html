@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EAC Education · Question Library 題庫</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css"><link rel="stylesheet" href="css/library.css">
+</head><body class="question-library">
+<header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">學習主頁</a><a href="app.html">自選練習</a><a href="auth.html?next=library.html" id="library-account">登入</a></nav></div></header>
+<main class="bank-main">
+<section class="bank-intro"><div><p class="eyebrow">EAC EDUCATION · MATHEMATICS</p><h1>Question Library <span>數學題庫</span></h1><p>選課題，揀技巧，開始練習。</p></div><div class="bank-inventory" id="bank-inventory" aria-live="polite">正在整理題庫…</div></section>
+<div class="bank-layout">
+<aside class="bank-sidebar"><details open id="bank-navigation"><summary>課題目錄 / Chapters</summary><nav id="bank-chapters" aria-label="課題分類"><p>載入中…</p></nav></details></aside>
+<section class="bank-content" aria-labelledby="bank-heading">
+<nav class="bank-breadcrumb" id="bank-breadcrumb" aria-label="分類路徑"></nav>
+<div class="bank-heading-row"><div><h2 id="bank-heading">全部題目</h2><p id="bank-description">每個分類顯示目前已上架的題數。</p></div><a class="btn btn-primary" href="app.html" id="practice-selection">練習這個範圍 →</a></div>
+<section class="bank-filters" aria-label="題目篩選">
+<label class="bank-search">搜尋題目 / Search<input id="bank-search" type="search" placeholder="題號、關鍵字、課題…" autocomplete="off"></label>
+<div class="bank-filter-grid">
+<label>細分類<select id="bank-subcategory"></select></label><label>技巧<select id="bank-skill"></select></label>
+<label>題型<select id="bank-type"></select></label><label>難度<select id="bank-difficulty"></select></label>
+<label>建議程度（含較早課題）<select id="bank-form"><option value="all">全部程度</option><option value="1">中一 / Form 1</option><option value="2">中二 / Form 2</option><option value="3">中三 / Form 3</option><option value="4">中四 / Form 4</option><option value="5">中五 / Form 5</option><option value="6">中六 / Form 6</option></select></label>
+<label>學習記錄<select id="bank-mode"><option value="all">全部題目</option><option value="new">未做題目</option><option value="review">待重溫錯題</option><option value="saved">我的收藏</option></select></label>
+</div><div class="bank-filter-footer"><p class="field-note">程度為練習建議，並非完整各級課程。長答及證明題附解析及自評要點。</p><button class="text-button" type="button" id="bank-reset">重設篩選</button></div>
+</section>
+<div class="bank-results-top"><p id="bank-count" role="status" aria-live="polite">載入題目中…</p><label>次序<select id="bank-order"><option value="chapter">課題次序</option><option value="difficulty">基礎 → 挑戰</option><option value="type">題型</option></select></label></div>
+<div id="bank-results" class="bank-results"></div>
+<nav class="bank-pagination" aria-label="題目分頁"><button class="btn btn-outline" id="bank-prev" type="button">← 上一頁</button><span id="bank-page" aria-live="polite"></span><button class="btn btn-outline" id="bank-next" type="button">下一頁 →</button></nav>
+<p id="bank-status" role="status"></p><button class="btn btn-outline" id="bank-reload" hidden type="button">重新載入題庫</button>
+</section></div>
+</main>
+<dialog class="bank-preview" id="question-preview" aria-labelledby="preview-heading"><div class="preview-header"><p class="eyebrow">QUESTION PREVIEW · 題目預覽</p><button class="preview-close" type="button" id="preview-close" aria-label="關閉題目預覽">×</button></div><div id="preview-content"></div><div class="preview-actions"><a class="btn btn-primary" id="preview-practice" href="app.html">練習這一題 →</a><button class="btn btn-outline" type="button" id="preview-bookmark" aria-pressed="false">收藏 ☆</button></div><p class="field-note" id="preview-status" role="status"></p></dialog>
+<footer class="site-footer"><span>© 2026 EAC Education</span><span>逐題分類 · 原創練習 · 本機學習記錄</span></footer>
+<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/library.js"></script>
+</body></html>

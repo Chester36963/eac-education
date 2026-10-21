@@ -297,7 +297,7 @@
               "sourceZh": "EAC 原創練習",
               "level": "free",
               "answerValue": 0.8333333333333334,
-              "tolerance": 1e-05,
+              "tolerance": 0.00001,
               "minForm": 3
             },
             {
@@ -1056,7 +1056,13 @@
               "diagram": {
                 "src": "assets/mens-diag-001.svg",
                 "alt": "Original same-question diagram: rectangle ABCD, AB=8 cm, BC=6 cm, diagonal AC.",
-                "caption": "EAC 原創題圖 · 不按比例 / Not to scale"
+                "caption": "EAC 原創題圖 · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "mens-diag-001",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-21",
+                  "evidence": "Original rectangle diagram and its complete options visually reviewed on desktop and 390px mobile; 8 cm × 6 cm, diagonal AC, answer B = 24 cm². See docs/IMPLEMENTATION_LOG.md."
+                }
               },
               "minForm": 1
             }

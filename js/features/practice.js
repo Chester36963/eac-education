@@ -45,8 +45,9 @@ function updateTaxonomy(level='subject'){
  updateCount();
 }
 function setValue(key,value){const select=el(fields[key]);if([...select.options].some(o=>o.value===value&&!o.disabled))select.value=value;}
-function selections(){return Object.fromEntries(Object.entries(fields).map(([key,id])=>[key,el(id).value]));}
+function selections(){return {...Object.fromEntries(Object.entries(fields).map(([key,id])=>[key,el(id).value])),query:el('query-input').value.trim()};}
 function applySelections(values){
+ el('query-input').value=values.query||'';
  setValue('subject',values.subject||'all');updateTaxonomy('subject');
  setValue('chapter',values.chapter||'all');updateTaxonomy('chapter');
  for(const key of ['form','experience'])if(values[key])setValue(key,values[key]);
@@ -59,8 +60,7 @@ function applySelections(values){
 document.addEventListener('DOMContentLoaded',async()=>{
  currentUser=Auth.getCurrentUser();if(!currentUser){location.href=`auth.html?next=${encodeURIComponent('app.html'+location.search)}`;return;}
  try{
-  const rs=await Promise.all([fetch('data/questions.json'),fetch('data/catalog.json')]);if(rs.some(r=>!r.ok))throw Error();
-  [questionsData,catalog]=await Promise.all(rs.map(r=>r.json()));allQuestions=Learning.flatten(questionsData);
+  [questionsData,catalog]=await Promise.all([QuestionBank.all(),QuestionBank.catalog()]);allQuestions=Learning.flatten(questionsData);
   optionList(fields.subject,catalog.subjects.map(s=>[s.id,`${s.name.en} · ${s.name['zh-Hant']}`]));
   el(fields.language).value=preferences.questionLanguage||'bilingual';
   updateTaxonomy();

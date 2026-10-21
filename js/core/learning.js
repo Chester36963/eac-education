@@ -38,7 +38,7 @@ const Learning = {
       (filters.mode!=='review' || records[q.id]?.lastCorrect===false) &&
       (filters.mode!=='new' || !records[q.id]) &&
       (filters.mode!=='saved' || (user.bookmarks || []).includes(q.id)) &&
-      (!filters.query || `${q.id} ${q.stem} ${q.stemZh} ${q.skill}`.toLowerCase().includes(filters.query.toLowerCase())) &&
+      (!filters.query || `${q.id} ${q.stem} ${q.stemZh} ${q.skill} ${q.searchText||''}`.toLowerCase().includes(filters.query.toLowerCase())) &&
       (!filters.question || q.id===filters.question));
   },
   sessionKey: 'eac_active_set',
