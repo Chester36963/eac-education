@@ -1,362 +1,86 @@
-# EAC Education Platform - Phase 1 Complete
+# EAC Education
 
-**Status:** Phase 1 Implementation Complete - Ready for Testing & GitHub Deployment
+Bilingual mathematics practice for Form 1–6, built around teacher-authored questions and a quiet academic interface.
 
-A premium, academically-designed mathematics question bank for DSE students. Built with elegant serif typography, subtle rose accents, and gamification mechanics to encourage continuous learning.
+- Website: https://chester36963.github.io/eac-education/
+- Repository: https://github.com/Chester36963/eac-education
+- Deployment branch: `main`
+- Published directory: `src/`
 
-## 🎯 What's Included
+## Start locally
 
-### Phase 1a: Foundation (CSS System)
-- Complete CSS variable system with Navy + Rose palette
-- Responsive breakpoints (mobile-first)
-- 10+ reusable component classes
-- Decorative line system for academic elegance
-- Typography hierarchy with Garamond serif fonts
-- **Files:** 5 CSS files (~41KB unminified)
+Requires Node.js and Python 3.
 
-### Phase 1b-1f: Core Features
-- **Authentication System** (Register/Login)
-- **Question Engine** (Display & validation)
-- **User Progress Tracking** (localStorage)
-- **Gamification** (Streaks, achievements)
-- **Dashboard** (Statistics & progress)
-- **Complete HTML Pages** (Landing, Auth, App, Dashboard)
-
-### Phase 1g: Deployment
-- **GitHub Actions** (Automatic CI/CD)
-- **GitHub Pages** (Static hosting)
-- Push to main branch → Auto deploy
-
----
-
-## 📁 Directory Structure
-
-```
-eac-education/
-├── .github/
-│   └── workflows/deploy.yml          # GitHub Actions workflow
-├── src/
-│   ├── index.html                    # Landing page
-│   ├── auth.html                     # Login/Register
-│   ├── app.html                      # Question engine
-│   ├── dashboard.html                # Progress dashboard
-│   ├── css/
-│   │   ├── variables.css             # All design tokens
-│   │   ├── base.css                  # Typography & resets
-│   │   ├── components.css            # UI components
-│   │   ├── decorations.css           # Fine lines & effects
-│   │   └── responsive.css            # Media queries
-│   ├── js/
-│   │   ├── core/
-│   │   │   ├── config.js             # Configuration
-│   │   │   ├── auth.js               # Authentication
-│   │   │   └── storage.js            # localStorage wrapper
-│   │   ├── engine/
-│   │   │   └── question-engine.js    # Question logic
-│   │   └── features/
-│   │       └── gamification.js       # Streaks & achievements
-│   ├── data/
-│   │   └── questions.json            # Question database (starter)
-│   └── CSS_SYSTEM.md                 # CSS documentation
-├── docs/
-│   └── DEPLOYMENT.md                 # GitHub Pages setup
-└── README.md                         # This file
+```sh
+./scripts/dev.sh
 ```
 
----
+Open http://127.0.0.1:4173/. The question catalog is at http://127.0.0.1:4173/library.html. The server watches `content/`, validates changes and rebuilds published data. Refresh after saving. If Node is not on PATH, set `EAC_NODE_BIN=/absolute/path/to/node`. Use `./scripts/dev.sh 4174` if another server is using 4173.
 
-## 🎨 Design System
+## Current website
 
-### Colors
-- **Navy Dark:** #172334 (primary text)
-- **Navy Medium:** #27415f (secondary)
-- **Slate:** #506173 (body text)
-- **Accent Rose:** #fca9a9 (hover, highlights)
-- **Backgrounds:** White, warm off-white, cool gray-blue
+| Page | Working behavior |
+| --- | --- |
+| `index.html` | Brand cover, original nine-point-circle illustration and catalog-driven chapter links |
+| `library.html` | Public bilingual question search, taxonomy, counts, pagination, previews and practice links |
+| `auth.html` | Single-browser preview profile, registration/login and destination preservation |
+| `dashboard.html` | Daily recommendation, mistakes, bookmarks, resume link and skill records |
+| `app.html` | Configurable practice sets, six question formats, study/self-test, drafts, pause/resume and review |
+| `settings.html` | Name, language, suggested level and learning-record export |
 
-### Typography
-- **Display Font:** Cormorant Garamond (elegant, academic)
-- **Body Font:** EB Garamond (classic serif)
-- **Sizes:** 9 predefined scales (12px - 56px)
+The current bank contains **37 EAC original bilingual questions**: Four Centres 13, Polynomials 12 and Mensuration 12. Formats are MCQ, numeric short answer, structured, proof, diagram MCQ and original DSE-style long questions. Written work is self-assessed and excluded from automatic accuracy. Suggested year levels do not imply full official syllabus coverage.
 
-### Components
-- Buttons (4 variants × 3 sizes)
-- Cards (header, body, footer)
-- Badges & tags
-- Forms & inputs
-- Alerts (success, error, warning)
-- Progress indicators
+No additional source bank was supplied in this project. The quadrilateral HTML/PDF notes and `_build_ch8/` are design references, not imported question content.
 
----
+## Content source and imports
 
-## 🚀 Getting Started
+```text
+content/
+  catalog.json
+  skills.json
+  chapters/<topic-id>.json
 
-### Continuous website workflow
-
-This project is designed to stay on one repository and one deployed URL. Configure the new GitHub repository once:
-
-```bash
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+scripts/
+  build-content.cjs
+  import-questions.cjs
+  watch-content.cjs
 ```
 
-Then use `./scripts/dev.sh` for local refreshes and `./scripts/deploy.sh "Describe the change"` to validate, commit and push `main`. GitHub Actions deploys the `src/` folder after every push.
+Edit canonical source under `content/`. The build derives question counts and produces a revision manifest, compact search index and individual chapter files under `src/data/`. Do not hand-edit generated output. Question IDs remain stable across deployments so learning records and bookmarks keep working.
 
-### Local Setup (No Build Required)
-
-1. **Clone or download the repo**
-2. **Open `src/index.html` in your browser**
-3. Or use Live Server extension in VS Code for auto-refresh
-
-### Features to Try
-
-1. **Landing Page** (`index.html`)
-   - Browse topics (Four Centres, Polynomials, Sequences)
-   - See all components in action
-
-2. **Register/Login** (`auth.html`)
-   - Create test account
-   - Login with credentials
-
-3. **Practice Questions** (`app.html`)
-   - Select topic, category, difficulty
-   - Answer multiple choice questions
-   - View streaks and progress
-
-4. **Dashboard** (`dashboard.html`)
-   - See your statistics
-   - Track achievements
-   - View accuracy rates
-
----
-
-## 💾 Data Persistence
-
-All user data is stored in **localStorage** (browser storage):
-- User account info
-- Practice progress
-- Streaks and achievements
-- Settings & preferences
-
-**Note:** Data is device-specific. Each device has its own data store.
-
----
-
-## 📊 Current Capabilities
-
-### ✅ Working
-- Complete authentication system (register/login)
-- Question display with multiple choice options
-- Answer validation & feedback
-- Streak tracking (current & longest)
-- Daily question limit (2 for free users)
-- Achievement system
-- Progress dashboard
-- Responsive design (mobile, tablet, desktop)
-- Dark mode support in CSS system
-
-### 🔄 Ready for Phase 2
-- Backend database migration (Supabase)
-- Multi-device sync
-- PDF generation
-- Admin panel for content management
-- Leaderboards
-- More questions (starter has 3 example questions)
-
----
-
-## 🔐 Authentication
-
-### Test Account
-For quick testing:
-```
-Email: test@example.com
-Password: password123
-Username: Test Student
+```sh
+node scripts/build-content.cjs
+node scripts/import-questions.cjs /absolute/path/to/bank.json
+node scripts/import-questions.cjs /absolute/path/to/bank.json --apply
 ```
 
-**Note:** Account stored locally. Each browser/device is separate.
+Imports are preview-only by default. Unchanged questions are skipped. Conflicting IDs require an explicit reviewed correction using `--replace`. New questions must have complete bilingual text, taxonomy, source, answers/solutions and any required reviewed diagrams. PDF/HTML/OCR conversion is a separate editorial step; the importer accepts structured JSON.
 
-### Real Usage
-- Students register with email + password
-- Password stored as hash (client-side)
-- Session persists for 30 days
-- Logout clears session
+See [the question-bank workflow](docs/QUESTION_BANK_WORKFLOW.md), [content schema](docs/CONTENT_SCHEMA.md) and [architecture](docs/PRODUCT_ARCHITECTURE.md).
 
----
+## Verify and deploy
 
-## 🎮 Gamification System
-
-### Streaks
-- Maintained by answering correctly each day
-- Resets if you miss a day
-- Tracks longest streak
-
-### Achievements
-- **First Step**: Attempt 1st question
-- **Momentum**: 5-day streak
-- **Excellence**: 10 consecutive correct
-- **Master**: 50 total questions
-- **Expert**: 100 total questions
-
-### Daily Limits
-- **Free:** 2 questions/day
-- **Premium:** Unlimited (future)
-
----
-
-## 📱 Responsive Design
-
-| Device | Resolution | Layout |
-|--------|-----------|--------|
-| Mobile | 320px-767px | Single column, optimized |
-| Tablet | 768px-1023px | 2-column where applicable |
-| Desktop | 1024px+ | Full layouts, generous spacing |
-
----
-
-## 🔧 Configuration
-
-Key settings in `src/js/core/config.js`:
-- Daily question limit
-- Topics & categories
-- Achievement definitions
-- Storage keys
-- UI timeouts
-
-To modify, edit `config.js` and refresh browser.
-
----
-
-## 📚 Questions Format
-
-Example structure in `src/data/questions.json`:
-```json
-{
-  "id": "fc-con-001",
-  "difficulty": "easy",
-  "stem": "Question text",
-  "options": { "A": "...", "B": "...", "C": "...", "D": "..." },
-  "answer": "B",
-  "hint": "Helpful hint",
-  "solution": "Detailed explanation"
-}
+```sh
+node scripts/build-content.cjs --check
+node --test tests/*.cjs
+./scripts/deploy.sh "Describe the update"
 ```
 
-Currently contains **3 example questions** (Four Centres topic).
+The deploy script rebuilds content, tests it, commits and pushes to the existing `main`. GitHub Actions verifies source/output consistency and tests before publishing. Keep the same repository and URL for future updates.
 
----
+Browser integration tests require Playwright:
 
-## 🌐 Deployment
-
-### GitHub Pages Setup
-
-1. **Create GitHub repo** named `eac-education`
-2. **Clone repo locally**
-3. **Add all files** from `src/` to repo root
-4. **Commit & push**:
-   ```bash
-   git add .
-   git commit -m "Initial Phase 1 release"
-   git push origin main
-   ```
-5. **GitHub Actions automatically:**
-   - Runs workflow (`.github/workflows/deploy.yml`)
-   - Deploys `src/` to GitHub Pages
-   - Website live in ~30 seconds
-
-### Access Your Site
-```
-https://your-username.github.io/eac-education/
+```sh
+node tests/browser/studio.cjs
+node tests/browser/library.cjs
 ```
 
-### Custom Domain (Optional)
-1. Update `cname` in `.github/workflows/deploy.yml`
-2. Point domain DNS to GitHub Pages
-3. Commit & push
+Set `PLAYWRIGHT_MODULE` to an installed Playwright package path if it is not available through normal Node module resolution. The suites cover the practice flow, the public catalog and responsive layouts. Browser tests are run locally; the deployment workflow runs unit/content tests.
 
----
+## Account boundary
 
-## 📊 Project Statistics
+This is the agreed frontend-first prototype. Profiles, bookmarks, drafts and progress are stored in one browser. The preview entry can resume that local profile. It is not secure production authentication, and no real student identity, account recovery or cross-device sync is provided.
 
-| Metric | Value |
-|--------|-------|
-| CSS Files | 5 (41KB unminified) |
-| JavaScript Files | 5 (core + engine + gamification) |
-| HTML Pages | 4 (landing, auth, app, dashboard) |
-| Total Questions (starter) | 3 |
-| Components | 10+ |
-| CSS Variables | 50+ |
-| Responsive Breakpoints | 4 major |
-| Animations | 5+ |
+The static question files include solutions and are suitable for practice, not confidential examinations. Formal authentication, cloud records, teacher permissions and protected content require the backend phase. Learning-record export currently has no import/restore feature.
 
----
-
-## 🎯 Next Phase Ideas
-
-**Phase 2:**
-- Backend database (Supabase/Firebase)
-- Multi-device sync
-- PDF generation for offline practice
-- Admin panel for content management
-
-**Phase 3:**
-- Leaderboards & competition
-- Timed practice sessions
-- Advanced analytics
-- Performance recommendations
-
-**Phase 4:**
-- Mobile app (React Native)
-- AI-powered question recommendations
-- Video explanations
-- Teacher portal
-
----
-
-## 🤝 Contributing
-
-To add more questions:
-1. Edit `src/data/questions.json`
-2. Follow the format above
-3. Push to main
-4. Site auto-updates in ~30 seconds
-
----
-
-## 📝 License
-
-EAC Education Platform © 2025. All rights reserved.
-
----
-
-## 🆘 Troubleshooting
-
-### Issues with questions not loading?
-- Check browser console (F12) for errors
-- Ensure `data/questions.json` exists
-- Verify JSON syntax is valid
-
-### Storage not persisting?
-- Check if localStorage is enabled
-- Try incognito/private mode
-- Clear cache and refresh
-
-### GitHub Pages not updating?
-- Check GitHub Actions (Settings → Actions)
-- Verify `.github/workflows/deploy.yml` exists
-- Try force refresh (Ctrl+Shift+R)
-
----
-
-## 📞 Support
-
-For issues or questions:
-1. Check this README
-2. Review inline code comments
-3. Check CSS_SYSTEM.md for CSS help
-4. Review console errors (F12)
-
----
-
-**Phase 1: Complete & Ready for Testing**
-**Next: Deploy to GitHub Pages and test live**
+Implementation decisions and verified changes are recorded in [the implementation log](docs/IMPLEMENTATION_LOG.md).

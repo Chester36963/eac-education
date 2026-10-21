@@ -2,6 +2,9 @@
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
+const path=require('node:path');
+const publishedCatalog=JSON.parse(fs.readFileSync(path.join(__dirname,'../../src/data/catalog.json')));
+const totalQuestions=publishedCatalog.subjects.flatMap(s=>s.chapters).reduce((n,c)=>n+c.questionCount,0);
 const output=process.env.EAC_QA_OUTPUT||'/tmp/eac-studio-qa';
 fs.mkdirSync(output,{recursive:true});
 const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
@@ -28,11 +31,11 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     assert.equal(await page.locator('.studio-shortcuts a').count(),4);
     await page.locator('#library-search').fill('polynomials');assert.equal(await page.locator('.subject-block').count(),1);
     await page.locator('#library-search').fill('no-such-topic');assert.match(await page.locator('#subject-list').textContent(),/沒有符合/);
-    await page.locator('#library-search').fill('');assert.equal(await page.locator('.subject-block').count(),3);
+    await page.locator('#library-search').fill('');assert.equal(await page.locator('.subject-block').count(),publishedCatalog.subjects.length);
     await open('app.html');
     assert.equal(await page.locator('#active-set').isVisible(),false);
     assert.equal(await page.locator('#subject-select').inputValue(),'all');
-    assert.match(await page.locator('#set-count').textContent(),/37 題/);
+    assert.ok((await page.locator('#set-count').textContent()).startsWith(`${totalQuestions} 題`));
     assert.equal(await page.locator('#type-select option:not([disabled])').count(),7);
     await page.screenshot({path:output+'/builder-desktop.png',fullPage:true});
     await page.locator('#length-select').selectOption('10');
@@ -126,7 +129,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     await page.locator('#reset-filters-btn').click();
     await page.locator('.advanced-filters > summary').click();
     await page.locator('#query-input').fill('no-question');assert.equal(await page.locator('#start-set-btn').isDisabled(),true);
-    await page.locator('#reset-filters-btn').click();assert.match(await page.locator('#set-count').textContent(),/37 題/);
+    await page.locator('#reset-filters-btn').click();assert.ok((await page.locator('#set-count').textContent()).startsWith(`${totalQuestions} 題`));
 
     // Profile preferences, safe export and applied question language.
     await open('settings.html');

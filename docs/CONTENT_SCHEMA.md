@@ -2,11 +2,11 @@
 
 ## Catalog
 
-`src/data/catalog.json` groups subjects → chapters → subcategories → skills. Names use `{ "en": "...", "zh-Hant": "..." }`. Chapter `topicId` maps the catalog chapter ID to the question-bank topic ID (e.g. `polynomials` → `polynomial`). Each subcategory has a stable ID and an array of skill IDs. Chapter `questionCount` must match actual question records.
+`content/catalog.json` is the canonical taxonomy: subjects → chapters → subcategories → skills. Names use `{ "en": "...", "zh-Hant": "..." }`. Chapter `topicId` maps the catalog chapter ID to the question-bank topic ID (e.g. `polynomials` → `polynomial`). Each subcategory has a stable ID and an array of skill IDs. Labels live in `content/skills.json`. The build produces `src/data/catalog.json`, including computed chapter/subcategory/skill counts and format/difficulty coverage. Do not hand-edit generated counts.
 
 ## Current question record
 
-Questions are grouped under `topics[].categories[].questions[]` in `src/data/questions.json`.
+Canonical questions live in `content/chapters/<topic-id>.json` under `categories[].questions[]`. The build creates the backwards-compatible `src/data/questions.json` and versioned chapter shards. See QUESTION_BANK_WORKFLOW.md for import, validation and deployment commands.
 
 ```json
 {
@@ -35,7 +35,7 @@ Rendering supports all six formats. Categories such as `conceptual` and `calcula
 - MCQ and diagram MCQ use `options`, `optionsZh` and a correct letter `answer`.
 - Numeric short answers use `answerValue` and optional absolute `tolerance` (default 1e-8). Inputs accept finite decimal numbers or a single numeric fraction; no expression evaluation is used.
 - Structured, proof and DSE-style long questions use `rubric` (an array of marking points) instead of a machine-marked answer. Students submit written working and explicitly self-assess against the model solution. Rubric wording is currently Traditional Chinese; question and solution text support English / Traditional Chinese / both.
-- Diagram questions carry `diagram.src`, `diagram.alt` and `diagram.caption`. The original `mens-diag-001` SVG is paired only with that same question and labelled not to scale.
+- Diagram questions carry `diagram.src`, `diagram.alt`, `diagram.caption` and a `diagram.qa` record with same `questionId`, reviewed status, review date and evidence. The original `mens-diag-001` SVG is paired only with that same question and labelled not to scale. Evidence fields cannot substitute for actually inspecting the question visual.
 - `minForm` is an editorial suggested minimum practice level. A selected level includes earlier levels. It does not claim full official syllabus coverage.
 
 Question IDs must be globally unique and stable across deployments; learning records use them as keys. Graph/diagram questions require their own reviewed, same-question visual before publishing.

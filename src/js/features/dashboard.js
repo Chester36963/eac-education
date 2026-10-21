@@ -15,9 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   byId('skills-tab').onclick = () => setRecordTab('skills');
   byId('mistakes-tab').onclick = () => setRecordTab('mistakes');
   try {
-    const responses = await Promise.all([fetch('data/catalog.json'), fetch('data/questions.json')]);
-    if (responses.some(r => !r.ok)) throw new Error('Content unavailable');
-    const [catalog, data] = await Promise.all(responses.map(r => r.json()));
+    const [catalog, data] = await Promise.all([QuestionBank.catalog(), QuestionBank.all()]);
     const records = currentUser.progress.byQuestion || {};
     const questions = data.topics.flatMap(t => t.categories.flatMap(c => c.questions.map(q => ({...q, topicId: t.id}))));
     const chapters = catalog.subjects.flatMap(s => s.chapters);
@@ -41,11 +39,12 @@ function route(chapter, params = {}) {
   return `app.html?${new URLSearchParams({chapter: chapter.id, ...params})}`;
 }
 function renderLibrary(catalog,query='') {
+  const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const needle=query.toLowerCase();
   const filtered={...catalog,subjects:catalog.subjects.map(s=>({...s,chapters:s.chapters.filter(c=>`${s.name.en} ${s.name['zh-Hant']} ${c.name.en} ${c.name['zh-Hant']} ${c.subcategories.map(sub=>`${sub.name.en} ${sub.name['zh-Hant']}`).join(' ')}`.toLowerCase().includes(needle))})).filter(s=>s.chapters.length)};
   if(!filtered.subjects.length){byId('subject-list').textContent='沒有符合的課題，試下其他關鍵字。';return;}
   catalog=filtered;
-  byId('subject-list').innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><span class="topic-index">${subject.id.toUpperCase()}</span><h3>${subject.name.en}<span>${subject.name['zh-Hant']}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<a class="chapter-row" href="${route(chapter)}"><span><strong>${chapter.name.en}</strong><small>${chapter.name['zh-Hant']} · ${chapter.questionCount} 題</small></span><span class="chapter-arrow">→</span></a>${chapter.subcategories.map(sub => `<a class="subchapter-row" href="${route(chapter,{subcategory:sub.id})}">${sub.name.en}<small>${sub.name['zh-Hant']}</small><span>↗</span></a>`).join('')}`).join('')}</div></article>`).join('');
+  byId('subject-list').innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><span class="topic-index">${escape(subject.id.toUpperCase())}</span><h3>${escape(subject.name.en)}<span>${escape(subject.name['zh-Hant'])}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<a class="chapter-row" href="${route(chapter)}"><span><strong>${escape(chapter.name.en)}</strong><small>${escape(chapter.name['zh-Hant'])} · ${chapter.questionCount} 題</small></span><span class="chapter-arrow">→</span></a>${chapter.subcategories.map(sub => `<a class="subchapter-row" href="${route(chapter,{subcategory:sub.id})}">${escape(sub.name.en)}<small>${escape(sub.name['zh-Hant'])}</small><span>↗</span></a>`).join('')}`).join('')}</div></article>`).join('');
 }
 function renderSkills(chapters, questions, records) {
   const container = byId('skill-records');

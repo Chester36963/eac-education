@@ -15,9 +15,10 @@ if [[ "$#" -lt 1 || -z "$1" ]]; then
   exit 1
 fi
 
-python3 -m json.tool src/data/catalog.json >/dev/null
-python3 -m json.tool src/data/questions.json >/dev/null
+NODE_BIN="${EAC_NODE_BIN:-node}"
+"${NODE_BIN}" scripts/build-content.cjs
+"${NODE_BIN}" --test tests/*.cjs
 git diff --check
-git add src docs scripts tests .github
+git add src content docs scripts tests .github README.md .gitignore
 git commit -m "$1"
 git push origin main

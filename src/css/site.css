@@ -308,6 +308,7 @@ a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid
 @media(max-width:480px) { .skill-chapter summary { font-size: 19px; } }
 /* Studio controls and real study states. */
 .practice-page .result-message:not([hidden]) { display: block; }
+@media(max-width:650px){.practice-page .site-header .header-inner,.question-library .site-header .header-inner{padding:16px 20px;flex-wrap:wrap;gap:14px}.practice-page .studio-nav,.question-library .studio-nav{flex-wrap:wrap;gap:16px}.practice-page .studio-nav a,.question-library .studio-nav a{font-size:13px}}
 .practice-page select, .settings-main select { appearance:auto; -webkit-appearance:menulist; padding-right:28px; }
 .practice-page .practice-config { padding-bottom:26px; }
 .studio-empty { margin-bottom:0; }

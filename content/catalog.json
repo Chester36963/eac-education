@@ -1,0 +1,217 @@
+{
+  "version": "1.1",
+  "audiences": [
+    "form-1",
+    "form-2",
+    "form-3",
+    "form-4",
+    "form-5",
+    "form-6"
+  ],
+  "subjects": [
+    {
+      "id": "coordinate-geometry",
+      "name": {
+        "en": "Coordinate Geometry",
+        "zh-Hant": "坐標幾何"
+      },
+      "chapters": [
+        {
+          "id": "four-centres",
+          "name": {
+            "en": "Four Centres",
+            "zh-Hant": "四心坐標幾何"
+          },
+          "description": {
+            "en": "Locate and reason about the four centres of a triangle.",
+            "zh-Hant": "掌握三角形四心嘅位置、性質同解題方法。"
+          },
+          "subcategories": [
+            {
+              "id": "circumcentre",
+              "name": {
+                "en": "Circumcentre",
+                "zh-Hant": "外心"
+              },
+              "skills": [
+                "definition",
+                "coordinate-method",
+                "right-triangle-property"
+              ]
+            },
+            {
+              "id": "incentre",
+              "name": {
+                "en": "Incentre",
+                "zh-Hant": "內心"
+              },
+              "skills": [
+                "definition",
+                "equal-distance-property"
+              ]
+            },
+            {
+              "id": "centroid",
+              "name": {
+                "en": "Centroid",
+                "zh-Hant": "重心"
+              },
+              "skills": [
+                "definition",
+                "coordinate-method"
+              ]
+            },
+            {
+              "id": "orthocentre",
+              "name": {
+                "en": "Orthocentre",
+                "zh-Hant": "垂心"
+              },
+              "skills": [
+                "definition",
+                "altitude-method"
+              ]
+            }
+          ],
+          "topicId": "four-centres"
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": {
+        "en": "Algebra",
+        "zh-Hant": "代數"
+      },
+      "chapters": [
+        {
+          "id": "polynomials",
+          "name": {
+            "en": "Polynomials",
+            "zh-Hant": "多項式"
+          },
+          "description": {
+            "en": "Factorisation, identities and theorem-led algebra.",
+            "zh-Hant": "由因式分解、恆等式到定理應用。"
+          },
+          "subcategories": [
+            {
+              "id": "factorisation",
+              "name": {
+                "en": "Factorisation",
+                "zh-Hant": "因式分解"
+              },
+              "skills": [
+                "difference-of-squares",
+                "common-factor",
+                "quadratic-factorisation"
+              ]
+            },
+            {
+              "id": "theorems",
+              "name": {
+                "en": "Remainder & factor theorems",
+                "zh-Hant": "餘式及因式定理"
+              },
+              "skills": [
+                "remainder-theorem",
+                "factor-theorem"
+              ]
+            },
+            {
+              "id": "polynomial-equations",
+              "name": {
+                "en": "Polynomial equations",
+                "zh-Hant": "多項式方程"
+              },
+              "skills": [
+                "roots"
+              ]
+            }
+          ],
+          "topicId": "polynomial"
+        }
+      ]
+    },
+    {
+      "id": "mensuration",
+      "name": {
+        "en": "Mensuration",
+        "zh-Hant": "度量"
+      },
+      "chapters": [
+        {
+          "id": "mensuration-core",
+          "name": {
+            "en": "Mensuration",
+            "zh-Hant": "度量"
+          },
+          "description": {
+            "en": "Area, volume, surface area and scale reasoning.",
+            "zh-Hant": "面積、體積、表面面積同比例推理。"
+          },
+          "subcategories": [
+            {
+              "id": "area",
+              "name": {
+                "en": "Area",
+                "zh-Hant": "面積"
+              },
+              "skills": [
+                "rectangle-area",
+                "circle-area",
+                "sector-area"
+              ]
+            },
+            {
+              "id": "volume",
+              "name": {
+                "en": "Volume",
+                "zh-Hant": "體積"
+              },
+              "skills": [
+                "prism-volume",
+                "cylinder-volume"
+              ]
+            },
+            {
+              "id": "surface-area",
+              "name": {
+                "en": "Surface area",
+                "zh-Hant": "表面面積"
+              },
+              "skills": [
+                "cylinder-surface-area"
+              ]
+            },
+            {
+              "id": "similar-solids",
+              "name": {
+                "en": "Similar solids",
+                "zh-Hant": "相似立體"
+              },
+              "skills": [
+                "volume-scale"
+              ]
+            }
+          ],
+          "topicId": "mensuration"
+        }
+      ]
+    }
+  ],
+  "questionTypes": [
+    "mcq",
+    "short-answer",
+    "structured",
+    "proof",
+    "diagram",
+    "dse-long"
+  ],
+  "difficultyLevels": [
+    "easy",
+    "medium",
+    "hard",
+    "challenging"
+  ]
+}

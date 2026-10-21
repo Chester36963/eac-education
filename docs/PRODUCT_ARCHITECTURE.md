@@ -14,6 +14,7 @@ The visual direction is premium academic: editorial serif typography, generous w
 | `auth.html` | Student sign-in and local preview | Single-browser prototype; no teacher or cloud accounts |
 | `dashboard.html` | Recommendation, skill records, topic search | Live local records, mistakes, resume entry and practice shortcuts |
 | `app.html` | Configurable practice studio | Six formats, study/self-test, bookmarks, persisted drafts and resume |
+| `library.html` | Public question catalog | Bilingual search, taxonomy, counts, pagination, previews and practice links |
 | `settings.html` | Student preferences and record export | Local name, question language, suggested level and JSON backup |
 | Teacher console | Manage questions, taxonomy, sources and student data | Phase 2, requires Supabase |
 
@@ -35,6 +36,8 @@ The first content spine is:
 - Mensuration → Mensuration
 
 The taxonomy is stored separately from question records so that a new subcategory or skill does not require rewriting UI code.
+
+Canonical source files now live in `content/`, with one file per chapter and shared taxonomy/skill definitions. A deterministic Node build validates them, derives counts, and publishes a revision manifest, compact search index and content-hashed chapter files. The public library loads a full chapter only when a question preview is opened; the studio still loads all chapters for cross-chapter practice. A preview-first JSON import command supports additive imports and explicit corrections without renaming student record IDs. All pages consume this shared data through `QuestionBank`; the homepage chapter list also updates from the catalog. See QUESTION_BANK_WORKFLOW.md.
 
 ## Question types
 

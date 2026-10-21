@@ -239,7 +239,7 @@
 
   <script>
     const requested = new URLSearchParams(location.search).get('next') || 'dashboard.html';
-    const destination = /^(?:app|settings)\.html(?:\?[^#]*)?$/.test(requested) ? requested : 'dashboard.html';
+    const destination = /^(?:app|settings|library)\.html(?:\?[^#]*)?$/.test(requested) ? requested : 'dashboard.html';
     function enterPreview() {
       const existing = Storage.getUser();
       if (existing) {

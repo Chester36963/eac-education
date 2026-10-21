@@ -12,7 +12,7 @@ Run from the project root:
 ./scripts/dev.sh
 ```
 
-Open http://127.0.0.1:4173/index.html. Save changes and refresh. The server uses `src/` as its document root, matching deployment. If port 4173 already has an older server, stop that process in its terminal before restarting, or run `./scripts/dev.sh 4174`.
+Open http://127.0.0.1:4173/index.html or http://127.0.0.1:4173/library.html. Save changes and refresh. The server uses `src/` as its document root, matching deployment; it also watches canonical `content/` JSON files and rebuilds valid changes. Node.js is required; set `EAC_NODE_BIN` to an absolute Node executable path if it is not on PATH. If port 4173 already has an older server, stop that process in its terminal before restarting, or run `./scripts/dev.sh 4174`.
 
 Use the HTTP preview; opening HTML with `file://` cannot reliably load the JSON question library.
 
@@ -22,7 +22,7 @@ Use the HTTP preview; opening HTML with `file://` cannot reliably load the JSON 
 ./scripts/deploy.sh "Describe the update"
 ```
 
-The script validates the JSON files and whitespace, commits website/documentation/script/workflow changes, and pushes `main`. The existing GitHub Actions workflow deploys `src/` to `gh-pages`. No new repository is needed. Deployment timing varies; check the repository's Actions page for success.
+The script builds and validates canonical content, runs unit tests and whitespace checks, commits website/content/documentation/script/workflow changes, and pushes `main`. GitHub Actions checks the generated output matches its source and runs tests before deploying `src/` to `gh-pages`. No new repository is needed. Deployment timing varies; check the repository's Actions page for success.
 
 ## Try the student flow
 
@@ -32,10 +32,12 @@ This is a frontend prototype. It keeps one profile and progress record in this b
 
 ## Add content
 
-- `src/data/catalog.json`: subjects, chapter IDs, mappings to question topic IDs, subcategories and skills.
-- `src/data/questions.json`: bilingual original questions, options, correct answers, hints and worked solutions.
+- `content/catalog.json`: subjects, chapter IDs, mappings to question topic IDs, subcategories and skills.
+- `content/skills.json`: shared bilingual skill labels.
+- `content/chapters/<topic-id>.json`: canonical bilingual questions, options, answers, hints, solutions and reviewed diagram evidence.
+- Run `node scripts/build-content.cjs`; do not edit generated `src/data/` files manually. See QUESTION_BANK_WORKFLOW.md for validated JSON imports and the complete source audit.
 - The current 37-question original starter library includes MCQ, numeric short answer, structured, proof, diagram MCQ and DSE-style long questions. Written work is explicitly self-assessed using supplied rubrics; it is not automatically marked.
-- Question metadata must point to a real subcategory and skill. Update chapter question counts when adding content.
+- Question metadata must point to a real subcategory and skill. Chapter, subcategory and skill counts update automatically.
 - Keep source attribution accurate; do not label original questions as official DSE past questions.
 
 ## Student options
@@ -48,7 +50,7 @@ Study mode shows feedback after each answer. Self-test mode includes automatical
 
 ## Verification
 
-Run `node --test tests/*.cjs` for content, arithmetic-input and storage checks. The main-branch workflow runs these before deployment. `tests/browser/studio.cjs` is the optional Playwright integration suite; set `PLAYWRIGHT_MODULE` to the installed Playwright package if it is not on the default Node resolution path.
+Run `node scripts/build-content.cjs --check` and `node --test tests/*.cjs` for pipeline, import, content, arithmetic-input and storage checks. The main-branch workflow runs these before deployment. `tests/browser/studio.cjs` and `tests/browser/library.cjs` are the optional Playwright integration suites; set `PLAYWRIGHT_MODULE` to the installed Playwright package if it is not on the default Node resolution path.
 
 ## Before a public account launch
 

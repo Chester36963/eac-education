@@ -3,7 +3,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css">
 </head><body class="practice-page">
-<header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">學習主頁</a><a href="settings.html">設定</a><button class="btn btn-outline btn-sm" onclick="handleLogout()">登出</button></nav></div></header>
+<header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">學習主頁</a><a href="library.html">題庫目錄</a><a href="settings.html">設定</a><button class="btn btn-outline btn-sm" onclick="handleLogout()">登出</button></nav></div></header>
 <main class="main-container">
 <section class="resume-banner" id="resume-banner" hidden><div><strong>有一組未完成練習</strong><p id="resume-copy"></p></div><button class="btn btn-primary" id="resume-btn">繼續上次練習 →</button></section>
 <details class="practice-builder" id="practice-builder" open><summary><span class="eyebrow">BUILD YOUR PRACTICE · 自選練習</span><h1>今日想點樣練？</h1><span class="builder-toggle">展開 / 收起選擇</span></summary>
@@ -52,5 +52,5 @@
 <section class="set-summary" id="set-summary" hidden><p class="eyebrow">SESSION REVIEW · 本組回顧</p><h2>完成這一步。</h2><p id="summary-copy"></p><div class="summary-actions"><button class="btn btn-primary" id="retry-mistakes-btn">重練本組錯題 →</button><button class="btn btn-outline" id="retry-skipped-btn">練習跳過題目 →</button><a class="btn btn-outline" href="dashboard.html#learning-record">學習記錄</a></div><div id="summary-questions"></div></section>
 <p id="studio-status" role="status" aria-live="polite"></p>
 </main><footer class="site-footer"><span>© 2026 EAC Education</span><span>學生練習室 · 進度儲存在此瀏覽器</span></footer>
-<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/features/gamification.js"></script><script src="js/features/practice.js"></script>
+<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/gamification.js"></script><script src="js/features/practice.js"></script>
 </body></html>

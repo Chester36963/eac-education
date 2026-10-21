@@ -23,6 +23,7 @@ jobs:
 
       - name: Check learning records and content
         run: |
+          node scripts/build-content.cjs --check
           node --test tests/*.cjs
           python3 -m json.tool src/data/catalog.json > /dev/null
           python3 -m json.tool src/data/questions.json > /dev/null
