@@ -16,5 +16,21 @@ const EACMath=(()=>{
     }).catch(error=>{root.dataset.mathError=error.message;});
     return chain;
   }
-  return {clear,render};
+  function syncLanguages(){
+    document.querySelectorAll('[data-language-select]').forEach(group=>{
+      const select=document.getElementById(group.dataset.languageSelect);
+      group.querySelectorAll('[data-language]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.language===select.value)));
+    });
+  }
+  function bindLanguages(){
+    document.querySelectorAll('[data-language-select]').forEach(group=>{
+      const select=document.getElementById(group.dataset.languageSelect);
+      group.querySelectorAll('[data-language]').forEach(button=>button.onclick=()=>{
+        if(select.value===button.dataset.language)return;
+        select.value=button.dataset.language;select.dispatchEvent(new Event('change',{bubbles:true}));syncLanguages();
+      });
+    });
+    syncLanguages();
+  }
+  return {clear,render,bindLanguages,syncLanguages};
 })();

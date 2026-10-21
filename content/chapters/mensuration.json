@@ -137,7 +137,7 @@
           "questionType": "mcq",
           "difficulty": "medium",
           "stem": "Find the total surface area of a closed cylinder of radius 3 cm and height 5 cm.",
-          "stemZh": "一個密封圓柱的半徑為 3 cm，高為 5 cm。求總表面面積。",
+          "stemZh": "一個密封圓柱的半徑為 3 cm，高為 5 cm。求總表面積。",
           "options": {
             "A": "30π cm²",
             "B": "39π cm²",
@@ -230,8 +230,8 @@
           "stemZh": "長方形長 12 cm、闊 7 cm。求面積（cm²），只需輸入數值。",
           "solution": "Area = 12×7 = 84 cm².",
           "solutionZh": "面積 = 12×7 = 84 cm²。",
-          "hint": "Start with the relevant definition or formula.",
-          "hintZh": "先寫出相關的定義或公式。",
+          "hint": "Multiply length by width.",
+          "hintZh": "長方形面積等於長乘闊。",
           "source": "EAC original practice",
           "sourceZh": "EAC 原創練習",
           "level": "free",
@@ -248,8 +248,8 @@
           "stemZh": "柱體截面積為 18 cm²，長 7 cm。求體積（cm³）。",
           "solution": "V = 18×7 = 126 cm³.",
           "solutionZh": "V = 18×7 = 126 cm³。",
-          "hint": "Start with the relevant definition or formula.",
-          "hintZh": "先寫出相關的定義或公式。",
+          "hint": "Multiply cross-sectional area by the length of the prism.",
+          "hintZh": "柱體體積等於截面積乘長度。",
           "source": "EAC original practice",
           "sourceZh": "EAC 原創練習",
           "level": "free",
@@ -263,17 +263,17 @@
           "skill": "cylinder-surface-area",
           "difficulty": "medium",
           "stem": "A closed cylinder has radius 4 cm and height 9 cm. (a) Find its volume. (b) Find its total surface area. Give exact answers in terms of π.",
-          "stemZh": "一個密封圓柱半徑為 4 cm，高為 9 cm。(a) 求體積；(b) 求總表面面積，以 π 表示答案。",
+          "stemZh": "一個密封圓柱半徑為 4 cm，高為 9 cm。(a) 求體積；(b) 求總表面積，以 π 表示答案。",
           "solution": "(a) V=πr²h=π×16×9=144π cm³.\n(b) A=2πr²+2πrh=32π+72π=104π cm².",
           "solutionZh": "(a) V=πr²h=144π cm³。\n(b) A=2πr²+2πrh=32π+72π=104π cm²。",
-          "hint": "Start with the relevant definition or formula.",
-          "hintZh": "先寫出相關的定義或公式。",
+          "hint": "Use the volume formula, then include the two circular faces when finding total surface area.",
+          "hintZh": "先用圓柱體積公式。求總表面積時，要包括兩個圓形底面。",
           "source": "EAC original practice",
           "sourceZh": "EAC 原創練習",
           "level": "free",
           "rubric": [
             "體積公式及答案 144π cm³ 正確。",
-            "包括兩個底面，總表面面積為 104π cm²。",
+            "包括兩個底面，總表面積為 104π cm²。",
             "使用正確平方及立方單位。"
           ],
           "minForm": 3
@@ -284,12 +284,12 @@
           "subcategory": "similar-solids",
           "skill": "volume-scale",
           "difficulty": "hard",
-          "stem": "Original DSE-style long question (8 marks). Two similar closed cylinders A and B have radii in the ratio 2:3. A has radius 4 cm and height 10 cm. (a) Find the radius and height of B. (b) Find both volumes. (c) Find the ratio of their total surface areas. Explain each scale factor.",
-          "stemZh": "原創 DSE 風格長題（8 分）。兩個相似密封圓柱 A、B 的半徑比為 2:3。A 的半徑為 4 cm，高為 10 cm。(a) 求 B 的半徑及高；(b) 求兩者體積；(c) 求總表面面積之比，並解釋各比例因子。",
+          "stem": "Two similar closed cylinders A and B have radii in the ratio 2:3. A has radius 4 cm and height 10 cm. (a) Find the radius and height of B. (b) Find both volumes. (c) Find the ratio of their total surface areas. Explain each scale factor.",
+          "stemZh": "兩個相似密封圓柱 A、B 的半徑比為 2:3。A 的半徑為 4 cm，高為 10 cm。(a) 求 B 的半徑及高；(b) 求兩者體積；(c) 求總表面積之比，並解釋各比例因子。",
           "solution": "(a) Linear scale factor is 3/2, so B has radius 6 cm and height 15 cm.\n(b) VA=π×4²×10=160π cm³; VB=π×6²×15=540π cm³. Volume ratio is 8:27.\n(c) Surface areas scale as the square of corresponding lengths, giving 4:9.",
           "solutionZh": "(a) 長度比例因子為 3/2，B 半徑為 6 cm，高為 15 cm。\n(b) VA=160π cm³，VB=540π cm³，體積比為 8:27。\n(c) 面積比等於長度比的平方，故為 4:9。",
-          "hint": "Start with the relevant definition or formula.",
-          "hintZh": "先寫出相關的定義或公式。",
+          "hint": "Corresponding lengths have ratio 2:3. Square that ratio for areas and cube it for volumes.",
+          "hintZh": "對應長度比為 2:3。面積比取平方，體積比取三次方。",
           "source": "EAC original practice",
           "sourceZh": "EAC 原創練習",
           "level": "free",
@@ -311,8 +311,8 @@
           "stemZh": "圖中 ABCD 為長方形，AB=8 cm、BC=6 cm。求三角形 ABC 的面積。",
           "solution": "Area of triangle ABC = ½×AB×BC = ½×8×6 = 24 cm².",
           "solutionZh": "三角形 ABC 面積 = ½×8×6 = 24 cm²。",
-          "hint": "Start with the relevant definition or formula.",
-          "hintZh": "先寫出相關的定義或公式。",
+          "hint": "AB and BC are perpendicular. Use them as the base and height of triangle ABC.",
+          "hintZh": "AB 垂直 BC，可以分別作為三角形 ABC 的底和高。",
           "source": "EAC original practice",
           "sourceZh": "EAC 原創練習",
           "level": "free",
@@ -480,7 +480,7 @@
           "stemZh": "圖中所示為一個直立棱柱，底面為一直角三角形，兩股分別為 6 cm 及 8 cm。棱柱的長度為 10 cm。求該棱柱的體積。",
           "hint": "Prism volume = base area × height.",
           "hintZh": "棱柱體積 = 底面積 × 長度。",
-          "solution": "Check against the options: C.",
+          "solution": "The base area is \\(\\frac12(6)(8)=24\\text{ cm}^2\\). The volume is \\(24(10)=240\\text{ cm}^3\\). Answer B.",
           "solutionZh": "底面積 \\(=\\frac12(6)(8)=24\\text{ cm}^2\\)。體積 \\(=24\\times10=240\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m004",
           "subcategory": "volume",
@@ -541,7 +541,10 @@
               "date": "2026-10-22"
             }
           ],
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Replace stale English answer C; both languages and the stored key must give B = 240 cm³.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "The base radius of a right circular cone is 2 times the base radius of a right circular cylinder while the height of the circular cylinder is 3 times the height of the circular cone. If the volume of the circular cone is \\(36\\pi\\text{ cm}^3\\), then the volume of the circular cylinder is",
@@ -596,7 +599,7 @@
           "stemZh": "圖中，該實心直立三角棱柱的底面為一直角三角形，兩股分別為 8 cm 及 15 cm。棱柱的長度為 10 cm。求該棱柱的體積。",
           "hint": "Prism volume = base area × height.",
           "hintZh": "三角底面積 = ½ × 底 × 高。",
-          "solution": "Check against the options: D.",
+          "solution": "The base area is \\(\\frac12(8)(15)=60\\text{ cm}^2\\). The volume is \\(60(10)=600\\text{ cm}^3\\). Answer B.",
           "solutionZh": "底面積 \\(=\\frac12(8)(15)=60\\text{ cm}^2\\)。體積 \\(=60\\times10=600\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m007",
           "subcategory": "volume",
@@ -657,7 +660,10 @@
               "date": "2026-10-22"
             }
           ],
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Replace stale English answer D; both languages and the stored key must give B = 600 cm³.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "The base of a solid right pyramid is a square of side \\(18\\text{ cm}\\). If the height of the pyramid is \\(12\\text{ cm}\\), then the total surface area of the pyramid is",
@@ -1127,10 +1133,10 @@
           },
           "answer": "C",
           "options": {
-            "A": "\\(I and II only\\)",
-            "B": "\\(I and III only\\)",
-            "C": "\\(II and III only\\)",
-            "D": "\\(I, II and III\\)"
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "I, II and III"
           },
           "optionsZh": {
             "A": "I and I只有 I",
@@ -1240,7 +1246,7 @@
           "stemZh": "一個實心直立錐體的底面為邊長 \\(6\\) cm 的正六邊形。若錐體的總表面積為 \\(396\\text{ cm}^2\\)，求錐體的體積，準確至最接近的 \\(\\text{cm}^3\\)。",
           "hint": "Pyramid volume = \\(\\frac{1}{3}\\) × base area × height.",
           "hintZh": "錐體體積 = \\(\\frac{1}{3}\\) × 底面積 × 高。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "正六邊形底面積 \\(=6(\\sqrt3/4)(6)^2=54\\sqrt3\\)。斜高 \\(l\\)：\\(54\\sqrt3+6\\times\\frac12(6)l=396\\)，得 \\(l\\approx16.8\\)。角錐高 \\(h=\\sqrt{l^2-(3\\sqrt3)^2}\\approx16.0\\)。體積 \\(=\\frac13(54\\sqrt3)(16.0)\\approx498\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m021",
           "subcategory": "surface-area",
@@ -1289,7 +1295,7 @@
           "stemZh": "一個實心球的半徑與一個實心直立圓柱的底半徑相等。若圓柱的高與底半徑之比為 \\(2:3\\)，則球的表面積與圓柱總表面積之比為",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "設半徑 \\(r\\)，圓柱高 \\(2r/3\\)。球面積 \\(4\\pi r^2\\)，圓柱總面積 \\(2\\pi r^2+2\\pi r(2r/3)=10\\pi r^2/3\\)。比為 \\(4:10/3=6:5\\)。答案 C。",
           "id": "import-mensuration-mens-m023",
           "subcategory": "surface-area",
@@ -1338,7 +1344,7 @@
           "stemZh": "一個直立圓柱的底半徑為 \\(R\\)，一個直立圓錐的底半徑為 \\(r\\)。若圓柱體積為圓錐的 \\(9\\) 倍，且兩立體高度相同，則 \\(R:r=\\)",
           "hint": "Use relevant volume/area formulas. Watch units.",
           "hintZh": "運用相關立體體積/面積公式，小心單位。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "\\(\\pi R^2h=9\\times\\frac13\\pi r^2h=3\\pi r^2h\\)，故 \\(R^2=3r^2\\)，\\(R:r=\\sqrt3:1\\)。",
           "id": "import-mensuration-mens-m024",
           "subcategory": "volume",
@@ -1387,7 +1393,7 @@
           "stemZh": "一個實心直立圓錐的底半徑為 \\(16\\) cm。若圓錐的總表面積為 \\(800\\pi\\text{ cm}^2\\)，則圓錐的體積為",
           "hint": "Curved surface area \\(=\\pi r l\\). Slant height \\(l=\\sqrt{r^2+h^2}\\).",
           "hintZh": "圓錐曲面面積 = \\(\\pi r l\\)，總面積 = 曲面 + 底。斜高 \\(l=\\sqrt{r^2+h^2}\\)。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "\\(\\pi(16)^2+\\pi(16)l=800\\pi\\)，得 \\(16l=544\\)，\\(l=34\\)。高 \\(h=\\sqrt{34^2-16^2}=30\\)。體積 \\(=\\frac13\\pi(16)^2(30)=2560\\pi\\text{ cm}^3\\)。答案 A。",
           "id": "import-mensuration-mens-m026",
           "subcategory": "surface-area",
@@ -1436,7 +1442,7 @@
           "stemZh": "若一個半徑 \\(r\\) cm 的球體積為 \\(2304\\pi\\text{ cm}^3\\)，則一個底半徑 \\(r\\) cm、高 \\(8\\) cm 的直立圓錐體積為",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "\\(\\frac43\\pi r^3=2304\\pi\\)，得 \\(r^3=1728\\)，\\(r=12\\)。圓錐體積 \\(=\\frac13\\pi(12)^2(8)=384\\pi\\text{ cm}^3\\)。答案 A。",
           "id": "import-mensuration-mens-m027",
           "subcategory": "volume",
@@ -1485,7 +1491,7 @@
           "stemZh": "一個直立圓柱的底半徑為一個直立圓錐底半徑的 \\(3\\) 倍，而圓錐體積為圓柱的 \\(2\\) 倍。求圓柱的高與圓錐的高之比。",
           "hint": "Similar solids: area ratio \\(=k^2\\), volume ratio \\(=k^3\\).",
           "hintZh": "相似立體：線性比例 \\(k\\)，面積比例 \\(k^2\\)，體積比例 \\(k^3\\)。",
-          "solution": "Check against the options: D.",
+          "solution": "The supplied source gives answer D; it does not include a full derivation.",
           "solutionZh": "設圓錐半徑 \\(r\\)、圓柱半徑 \\(3r\\)。\\(\\frac13\\pi r^2h_{錐}=2\\pi(3r)^2h_{柱}=18\\pi r^2h_{柱}\\)，得 \\(h_{錐}=54h_{柱}\\)。圓柱高：圓錐高 \\(=1:54\\)。答案 D。",
           "id": "import-mensuration-mens-m028",
           "subcategory": "volume",
@@ -1534,7 +1540,7 @@
           "stemZh": "一個實心半球的半徑為一個實心直立圓錐底半徑的一半。若圓錐的高等於實心半球的直徑，則實心半球與實心圓錐的體積比為",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "半球半徑 \\(r\\)，圓錐半徑 \\(2r\\)，圓錐高 \\(2r\\)。\\(V_{半}=\\frac23\\pi r^3\\)，\\(V_{錐}=\\frac13\\pi(2r)^2(2r)=\\frac83\\pi r^3\\)。比為 \\(\\frac23:\\frac83=1:4\\)。答案 A。",
           "id": "import-mensuration-mens-m030",
           "subcategory": "similar-solids",
@@ -1639,7 +1645,7 @@
           "stemZh": "一個半球與一個球的體積和為 \\(8928\\pi\\text{ cm}^3\\)。若球的表面積為半球總表面積的 \\(3\\) 倍，則半球的半徑為",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "設半球半徑 \\(r\\)、球半徑 \\(R\\)。\\(4\\pi R^2=3(3\\pi r^2)\\)，得 \\(R=\\frac32r\\)。\\(\\frac23\\pi r^3+\\frac43\\pi(\\frac32r)^3=8928\\pi\\)，即 \\(\\frac{31}{6}\\pi r^3=8928\\pi\\)，得 \\(r^3=1728\\)，\\(r=12\\) cm。答案 A。",
           "id": "import-mensuration-mens-m032",
           "subcategory": "surface-area",
@@ -1688,7 +1694,7 @@
           "stemZh": "一個實心半球的半徑為 \\(18\\) cm。半球體積為一個實心直立圓柱體積的 \\(4\\) 倍，而半球的總表面積為圓柱曲面面積的 \\(3\\) 倍。求圓柱的底半徑。",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "半球體積 \\(=\\frac23\\pi(18)^3=3888\\pi\\)，圓柱體積 \\(=972\\pi\\)。半球總面積 \\(3\\pi(18)^2=972\\pi=6\\pi rh\\)，故 \\(rh=162\\)。又 \\(\\pi r^2h=972\\pi\\)，即 \\(rh=972/r\\)。\\(972/r=162\\)，得 \\(r=6\\) cm。答案 B。",
           "id": "import-mensuration-mens-m033",
           "subcategory": "surface-area",
@@ -1734,11 +1740,11 @@
         },
         {
           "stem": "The base radius and the height of a right circular cylinder are 4 cm and 6 cm respectively. The perimeter of the base of a right circular cone is \\(12 \\pi \\mathrm{~cm}\\). If the volume of the circular cylinder and the volume of the circular cone are the same, the slant height of the circular cone is",
-          "stemZh": "一個直立圓柱的底半徑及高分別為 \\(4\\) cm 及 \\(6\\) cm。一個直立圓錐的底周界為 \\(12\\pi\\text{ cm}\\)。若圓柱體積與圓錐體積相等，求圓錐的高。",
+          "stemZh": "一直立圓柱的底半徑及高分別為 4 cm 及 6 cm。一直立圓錐的底周界為 \\(12\\pi\\) cm。若兩者體積相等，求圓錐的斜高。",
           "hint": "Use relevant volume/area formulas. Watch units.",
           "hintZh": "運用相關立體體積/面積公式，小心單位。",
-          "solution": "Check against the options: C.",
-          "solutionZh": "圓柱體積 \\(=\\pi(4)^2(6)=96\\pi\\)。圓錐底周界 \\(12\\pi\\)，得半徑 \\(6\\) cm。\\(\\frac13\\pi(6)^2h=96\\pi\\)，得 \\(h=8\\) cm。答案 A。",
+          "solution": "The cylinder volume is \\(96\\pi\\text{ cm}^3\\). From \\(2\\pi r=12\\pi\\), \\(r=6\\) cm. Equal volumes give \\(\\frac13\\pi(6)^2h=96\\pi\\), so \\(h=8\\) cm. The requested slant height is \\(\\sqrt{6^2+8^2}=10\\) cm. Answer C.",
+          "solutionZh": "圓柱體積為 \\(96\\pi\\text{ cm}^3\\)。由 \\(2\\pi r=12\\pi\\) 得 \\(r=6\\) cm。由體積相等，\\(\\frac13\\pi(6)^2h=96\\pi\\)，得垂直高度 \\(h=8\\) cm。題目求斜高，因此答案為 \\(\\sqrt{6^2+8^2}=10\\) cm，選 C。",
           "id": "import-mensuration-mens-m034",
           "subcategory": "volume",
           "skill": "mens-direct-volume",
@@ -1766,7 +1772,7 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "answer": "A",
+          "answer": "C",
           "options": {
             "A": "\\(8 cm\\)",
             "B": "\\(9 cm\\)",
@@ -1779,15 +1785,18 @@
             "C": "\\(  10 \\mathrm{~cm}\\).",
             "D": "\\(  12 \\mathrm{~cm}\\)."
           },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: English and options ask for slant height, not vertical height. Restore Chinese target and recompute.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "Suppose that the angles of two sectors are equal, and the radius of the larger sector is equal to three times the radius of the smaller sector. If the difference of the arc lengths of the two sectors is \\(4\\pi\\text{ cm}\\) and the difference of the areas of the two sectors is \\(20\\pi\\text{ cm}^2\\), then the angle of one of the sectors is",
-          "stemZh": "設兩個扇形的角相等，且較大扇形的半徑為較小扇形半徑的 \\(3\\) 倍。若兩扇形的弧長差為 \\(4\\pi\\text{ cm}\\)，面積差為 \\(24\\pi\\text{ cm}^2\\)，求較小扇形的半徑。",
+          "stemZh": "兩扇形的圓心角相等，較大扇形的半徑是較小扇形的 3 倍。兩扇形的弧長差為 \\(4\\pi\\) cm，面積差為 \\(20\\pi\\text{ cm}^2\\)。求每個扇形的圓心角。",
           "hint": "Use arc length \\(l=r\\theta\\) and sector area \\(A=\\frac{1}{2}r^2\\theta\\).",
           "hintZh": "運用扇形弧長公式 \\(l=r\\theta\\) 同埋扇形面積公式 \\(A=\\frac{1}{2}r^2\\theta\\)。",
-          "solution": "Check against the options: B.",
-          "solutionZh": "弧長差 \\(=2\\times\\text{小弧}=4\\pi\\)，小弧 \\(=2\\pi\\)。面積差 \\(=8\\times\\text{小面積}=24\\pi\\)，小面積 \\(=3\\pi\\)。由 \\(A=\\frac12rs\\)：\\(3\\pi=\\frac12r(2\\pi)\\)，得 \\(r=3\\) cm。角 \\(\\theta=s/r=2\\pi/3=120^\\circ\\)。答案 A。",
+          "solution": "Let the smaller radius and arc length be r and s. Then \\(2s=4\\pi\\), so \\(s=2\\pi\\). The area difference is eight times the smaller area, giving \\(A=20\\pi/8=5\\pi/2\\). From \\(A=rs/2\\), \\(r=5/2\\). Thus \\(\\theta=360s/(2\\pi r)=144^\\circ\\). Answer B.",
+          "solutionZh": "設小扇形的半徑及弧長為 r、s。由 \\(2s=4\\pi\\) 得 \\(s=2\\pi\\)。面積差是小扇形面積的 8 倍，所以小扇形面積 \\(A=20\\pi/8=5\\pi/2\\)。由 \\(A=rs/2\\) 得 \\(r=5/2\\)。因此圓心角 \\(\\theta=360s/(2\\pi r)=144^\\circ\\)，選 B。",
           "id": "import-mensuration-mens-m035",
           "subcategory": "area",
           "skill": "mens-sector",
@@ -1815,7 +1824,7 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "answer": "A",
+          "answer": "B",
           "options": {
             "A": "\\(120^\\circ\\)",
             "B": "\\(144^\\circ\\)",
@@ -1828,14 +1837,17 @@
             "C": "\\(148^\\circ\\)",
             "D": "\\(150^\\circ\\)"
           },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Restore the English 20π area difference and angle target; previous Chinese 24π and radius target were a different question.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "If the curved surface area of a right circular cylinder of base radius 2𝑎 cm and height 6𝑎 cm is 624 cm² , then the total surface area of a solid hemisphere of radius 5𝑎 cm is",
           "stemZh": "若一個底半徑 \\(2a\\) cm、高 \\(6a\\) cm 的直立圓柱曲面面積為 \\(624\\text{ cm}^2\\)，則一個半徑 \\(5a\\) cm 的實心半球總表面積為",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "圓柱曲面 \\(=2\\pi(2a)(6a)=24\\pi a^2=624\\)，得 \\(\\pi a^2=26\\)。半球總面積 \\(=3\\pi(5a)^2=75\\pi a^2=75\\times26=1950\\text{ cm}^2\\)。答案 B。",
           "id": "import-mensuration-mens-m038",
           "subcategory": "surface-area",
@@ -1880,11 +1892,11 @@
           "solutionStatus": "source-answer-or-brief-explanation"
         },
         {
-          "stem": "A and B are two solid hemispheres. The diameter of B is greater than the diameter of A by 24 cm. If the difference of the total surface areas of A and B is 864pi cm², find the volume of B.",
+          "stem": "A and B are two solid hemispheres. The diameter of B is greater than the diameter of A by 24 cm. If the difference of the total surface areas of A and B is 864π cm², find the volume of B.",
           "stemZh": "\\(A\\) 及 \\(B\\) 為兩個實心半球。\\(B\\) 的直徑比 \\(A\\) 的直徑大 \\(24\\) cm。若 \\(A\\) 與 \\(B\\) 的總表面積差為 \\(864\\pi\\text{ cm}^2\\)，求 \\(B\\) 的體積。",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "設半徑 \\(r\\) 及 \\(r+12\\)。\\(3\\pi[(r+12)^2-r^2]=3\\pi(24r+144)=864\\pi\\)，得 \\(r=6\\)，B 半徑 \\(18\\) cm。B 體積 \\(=\\frac23\\pi(18)^3=3888\\pi\\text{ cm}^3\\)。答案 C。",
           "id": "import-mensuration-mens-m040",
           "subcategory": "surface-area",
@@ -1921,10 +1933,10 @@
             "D": "\\(7776\\pi \\text{cm}^3\\)"
           },
           "optionsZh": {
-            "A": "1152pi cm³",
-            "B": "2304pi cm³",
-            "C": "3888pi cm³",
-            "D": "7776pi cm³"
+            "A": "1152π cm³",
+            "B": "2304π cm³",
+            "C": "3888π cm³",
+            "D": "7776π cm³"
           },
           "solutionStatus": "source-answer-or-brief-explanation"
         },
@@ -1933,7 +1945,7 @@
           "stemZh": "一個實心直立圓柱的高等於一個實心直立圓錐的高。圓柱的底半徑為圓錐底半徑的兩倍，而圓柱體積為 \\(600\\text{ cm}^3\\)。求圓錐的體積。",
           "hint": "Use relevant volume/area formulas. Watch units.",
           "hintZh": "運用相關立體體積/面積公式，小心單位。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "設圓錐半徑 \\(r\\)、圓柱半徑 \\(2r\\)、高 \\(h\\)。\\(V_{柱}/V_{錐}=\\pi(2r)^2h/[(1/3)\\pi r^2h]=12\\)。故 \\(V_{錐}=600/12=50\\text{ cm}^3\\)。答案 A。",
           "id": "import-mensuration-mens-m041",
           "subcategory": "volume",
@@ -1982,7 +1994,7 @@
           "stemZh": "一個實心球的半徑與一個實心直立圓柱的底半徑相等。若圓柱的高與底半徑之比為 \\(3:5\\)，則球的表面積與圓柱總表面積之比為",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "設半徑 \\(r\\)，圓柱高 \\(3r/5\\)。球面積 \\(4\\pi r^2\\)，圓柱總面積 \\(2\\pi r^2+2\\pi r(3r/5)=16\\pi r^2/5\\)。比為 \\(4:16/5=5:4\\)。答案 C。",
           "id": "import-mensuration-mens-m042",
           "subcategory": "surface-area",
@@ -2031,7 +2043,7 @@
           "stemZh": "兩個球的體積和為 \\(10080\\pi\\text{ cm}^3\\)。較小球與較大球的半徑比為 \\(2:3\\)。求兩球表面積之差。",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "設半徑 \\(2k,3k\\)。\\(\\frac43\\pi(8k^3+27k^3)=10080\\pi\\)，得 \\(k=6\\)，半徑 \\(12,18\\)。表面積差 \\(=4\\pi(18^2-12^2)=720\\pi\\text{ cm}^2\\)。答案 C。",
           "id": "import-mensuration-mens-m043",
           "subcategory": "surface-area",
@@ -2080,7 +2092,7 @@
           "stemZh": "兩個球的體積和為 \\(4992\\pi\\text{ cm}^3\\)。若較大球與較小球的半徑比為 \\(7:5\\)，則兩球的表面積和為",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: D.",
+          "solution": "The supplied source gives answer D; it does not include a full derivation.",
           "solutionZh": "設半徑 \\(7k,5k\\)。\\(\\frac43\\pi(343k^3+125k^3)=4992\\pi\\)，得 \\(k=2\\)，半徑 \\(14,10\\)。表面積和 \\(=4\\pi(14^2+10^2)=1184\\pi\\text{ cm}^2\\)。答案 D。",
           "id": "import-mensuration-mens-m044",
           "subcategory": "surface-area",
@@ -2129,7 +2141,7 @@
           "stemZh": "若一個底半徑 \\(3a\\) cm、高 \\(4b\\) cm 的直立圓柱體積為 \\(324\\text{ cm}^3\\)，則一個底半徑 \\(5a\\) cm、高 \\(6b\\) cm 的直立圓錐體積為",
           "hint": "Use relevant volume/area formulas. Watch units.",
           "hintZh": "運用相關立體體積/面積公式，小心單位。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "\\(V_{柱}=\\pi(3a)^2(4b)=36\\pi a^2b=324\\)，得 \\(\\pi a^2b=9\\)。\\(V_{錐}=\\frac13\\pi(5a)^2(6b)=50\\pi a^2b=50\\times9=450\\text{ cm}^3\\)。答案 C。",
           "id": "import-mensuration-mens-m045",
           "subcategory": "volume",
@@ -2178,7 +2190,7 @@
           "stemZh": "若一個實心直立圓柱的曲面面積及總表面積分別為 \\(81\\text{ cm}^2\\) 及 \\(121\\text{ cm}^2\\)，求圓柱的體積，準確至最接近的 \\(\\text{cm}^3\\)。",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "兩底面 \\(=121-81=40\\)，故 \\(\\pi r^2=20\\)。\\(2\\pi rh=81\\)，\\(rh=81/(2\\pi)\\)。\\(V=\\pi r^2h=20\\times81/(2\\pi r)=810/(\\pi r)\\)，\\(r=\\sqrt{20/\\pi}\\)，得 \\(V\\approx102\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m046",
           "subcategory": "surface-area",
@@ -2227,7 +2239,7 @@
           "stemZh": "一個實心金屬球被切成兩個半球。總表面積增加或減少的百分率為何？",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: D.",
+          "solution": "The supplied source gives answer D; it does not include a full derivation.",
           "solutionZh": "原球表面積 \\(4\\pi r^2\\)。兩半球總面積 \\(=2\\times3\\pi r^2=6\\pi r^2\\)。增加 \\((6-4)\\pi r^2=2\\pi r^2\\)，百分率 \\(=2/4=50\\%\\)。答案 D。",
           "id": "import-mensuration-mens-m048",
           "subcategory": "surface-area",
@@ -2276,7 +2288,7 @@
           "stemZh": "一個實心半球的半徑及一個實心直立圓柱的底半徑分別為 \\(10\\) cm 及 \\(6\\) cm。若兩立體的總表面積相等，求圓柱的體積。",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "半球總面積 \\(=3\\pi(10)^2=300\\pi\\)。圓柱總面積 \\(=2\\pi(6)^2+2\\pi(6)h=72\\pi+12\\pi h=300\\pi\\)，得 \\(h=19\\)。體積 \\(=\\pi(6)^2(19)=684\\pi\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m049",
           "subcategory": "surface-area",
@@ -2325,7 +2337,7 @@
           "stemZh": "一個試管形立體由一個高 \\(h\\) 的圓柱及一個半徑 \\(r\\) 的半球組成。已知圓柱的曲面面積為半球曲面面積的兩倍。求圓柱體積：半球體積。",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "\\(2\\pi rh=2(2\\pi r^2)=4\\pi r^2\\)，得 \\(h=2r\\)。\\(V_{柱}=\\pi r^2(2r)=2\\pi r^3\\)，\\(V_{半}=\\frac23\\pi r^3\\)。比為 \\(2:\\frac23=3:1\\)。答案 C。",
           "id": "import-mensuration-mens-m051",
           "subcategory": "surface-area",
@@ -2374,7 +2386,7 @@
           "stemZh": "一個實心半球的半徑及一個實心直立圓柱的底半徑分別為 \\(12\\) cm 及 \\(9\\) cm。若兩立體的總表面積相等，求圓柱的體積。",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "半球總面積 \\(=3\\pi(12)^2=432\\pi\\)。圓柱總面積 \\(=2\\pi(9)^2+2\\pi(9)h=162\\pi+18\\pi h=432\\pi\\)，得 \\(h=15\\)。體積 \\(=\\pi(9)^2(15)=1215\\pi\\text{ cm}^3\\)。答案 C。",
           "id": "import-mensuration-mens-m052",
           "subcategory": "surface-area",
@@ -2411,10 +2423,10 @@
             "D": "\\(2511\\pi \\text{cm}^3\\)"
           },
           "optionsZh": {
-            "A": "270pi cm³",
-            "B": "567pi cm³",
-            "C": "1215pi cm³",
-            "D": "2511pi cm³"
+            "A": "270π cm³",
+            "B": "567π cm³",
+            "C": "1215π cm³",
+            "D": "2511π cm³"
           },
           "solutionStatus": "source-answer-or-brief-explanation"
         },
@@ -2423,7 +2435,7 @@
           "stemZh": "若一個底半徑 \\(4r\\text{ cm}\\)、高 \\(9h\\text{ cm}\\) 的直立圓柱體積為 \\(864\\pi\\text{ cm}^3\\)，則一個底半徑 \\(3r\\text{ cm}\\)、高 \\(2h\\text{ cm}\\) 的直立圓錐體積為",
           "hint": "Use relevant volume/area formulas. Watch units.",
           "hintZh": "運用相關立體體積/面積公式，小心單位。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "\\(\\pi(4r)^2(9h)=144\\pi r^2h=864\\pi\\)，得 \\(r^2h=6\\)。\\(V_{錐}=\\frac13\\pi(3r)^2(2h)=6\\pi r^2h=36\\pi\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m053",
           "subcategory": "volume",
@@ -2472,7 +2484,7 @@
           "stemZh": "一個實心直立圓錐的斜高及總表面積分別為 \\(10\\) cm 及 \\(96\\pi\\text{ cm}^2\\)。若一個實心球的半徑等於圓錐的底半徑，則球的體積為",
           "hint": "Curved surface area \\(=\\pi r l\\). Slant height \\(l=\\sqrt{r^2+h^2}\\).",
           "hintZh": "圓錐曲面面積 = \\(\\pi r l\\)，總面積 = 曲面 + 底。斜高 \\(l=\\sqrt{r^2+h^2}\\)。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "\\(\\pi r^2+10\\pi r=96\\pi\\)，即 \\(r^2+10r-96=0\\)，解得 \\(r=6\\)。球體積 \\(=\\frac43\\pi(6)^3=288\\pi\\text{ cm}^3\\)。答案 C。",
           "id": "import-mensuration-mens-m054",
           "subcategory": "surface-area",
@@ -2521,7 +2533,7 @@
           "stemZh": "一個圓的直徑為 \\(13\\) cm。該圓被一條長 \\(12\\) cm 的弦分成一個大弓形及一個小弓形。求大弓形的周界，準確至最接近的 \\(1\\) cm。",
           "hint": "Segment area = sector area - triangle area.",
           "hintZh": "弓形面積 = 扇形面積 - 三角形面積。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "半徑 \\(6.5\\) cm、半弦 \\(6\\) cm，圓心至弦距離 \\(2.5\\) cm。弦對應小弓形角 \\(=2\\cos^{-1}(2.5/6.5)\\approx134.8^\\circ\\)。大弧長 \\(=(360-134.8)/360\\times13\\pi\\approx25.5\\) cm。周界 \\(=25.5+12\\approx38\\) cm。答案 A。",
           "id": "import-mensuration-mens-m055",
           "subcategory": "area",
@@ -2570,7 +2582,7 @@
           "stemZh": "一個底半徑 \\(R\\) 的直立圓柱體積為另一個底半徑 \\(r\\) 的直立圓錐體積的 \\(4\\) 倍。若圓柱與圓錐高度相同，則 \\(R:r=\\)",
           "hint": "Use relevant volume/area formulas. Watch units.",
           "hintZh": "運用相關立體體積/面積公式，小心單位。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "\\(\\pi R^2h=4\\times\\frac13\\pi r^2h\\)，得 \\(R^2/r^2=4/3\\)，\\(R:r=2:\\sqrt3\\)。答案 A。",
           "id": "import-mensuration-mens-m056",
           "subcategory": "volume",
@@ -2619,7 +2631,7 @@
           "stemZh": "若一個直立圓柱的體積等於一個立方體的體積，而圓柱的曲面面積等於立方體的總表面積，則圓柱的底半徑與立方體邊長之比為",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "設立方邊長 \\(s\\)。\\(\\pi r^2h=s^3\\) 及 \\(2\\pi rh=6s^2\\)。第二式得 \\(h=3s^2/(\\pi r)\\)，代入第一式：\\(\\pi r^2\\cdot3s^2/(\\pi r)=3rs=s^3\\)，得 \\(r=s/3\\)。比為 \\(1:3\\)。答案 A。",
           "id": "import-mensuration-mens-m057",
           "subcategory": "surface-area",
@@ -2668,7 +2680,7 @@
           "stemZh": "設 \\(R\\) cm 為一個實心半球的半徑，\\(r\\) cm 為一個實心直立圓柱的底半徑。半球體積為圓柱體積的兩倍。若半球的曲面面積等於圓柱的曲面面積，求 \\(R:r\\)。",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "曲面相等：\\(2\\pi R^2=2\\pi rh\\)，得 \\(rh=R^2\\)。體積：\\(\\frac23\\pi R^3=2\\pi r^2h=2\\pi r(R^2)\\)，得 \\(R/3=r\\)。\\(R:r=3:1\\)。答案 C。",
           "id": "import-mensuration-mens-m059",
           "subcategory": "surface-area",
@@ -2783,11 +2795,11 @@
         },
         {
           "stem": "Suppose that the angles of two sectors are equal, and the radius of the larger sector is equal to three times the radius of the smaller sectors. If the difference of the arc lengths of the two sectors is 4π cm and the sum of the areas of the two sectors is 25π cm², then the angle of each of the two sectors is",
-          "stemZh": "設兩個扇形的角相等，且較大扇形的半徑為較小扇形半徑的 \\(3\\) 倍。若兩扇形的弧長差為 \\(4\\pi\\) cm，而兩扇形的面積和為 \\(40\\pi\\text{ cm}^2\\)，求較小扇形的半徑。",
+          "stemZh": "兩扇形的圓心角相等，較大扇形的半徑是較小扇形的 3 倍。兩扇形的弧長差為 \\(4\\pi\\) cm，面積和為 \\(25\\pi\\text{ cm}^2\\)。求每個扇形的圓心角。",
           "hint": "Use arc length \\(l=r\\theta\\) and sector area \\(A=\\frac{1}{2}r^2\\theta\\).",
           "hintZh": "運用扇形弧長公式 \\(l=r\\theta\\) 同埋扇形面積公式 \\(A=\\frac{1}{2}r^2\\theta\\)。",
-          "solution": "Check against the options: C.",
-          "solutionZh": "弧長差 \\(=2\\times\\text{小弧}=4\\pi\\)，小弧 \\(=2\\pi\\)。面積和 \\(=\\text{小面積}+9\\times\\text{小面積}=10\\times\\text{小面積}=40\\pi\\)，小面積 \\(=4\\pi\\)。\\(r=2A/s=2(4\\pi)/(2\\pi)=4\\) cm。角 \\(=2\\pi/4=\\pi/2=90^\\circ\\)。",
+          "solution": "The smaller arc length is \\(2\\pi\\) cm. Areas are in the ratio 1:9, so the smaller area is \\(25\\pi/10=5\\pi/2\\text{ cm}^2\\). Using \\(A=rs/2\\) gives \\(r=5/2\\) cm. The angle is \\(360s/(2\\pi r)=144^\\circ\\). Answer C.",
+          "solutionZh": "小扇形弧長為 \\(2\\pi\\) cm。面積比為 1:9，所以小扇形面積為 \\(25\\pi/10=5\\pi/2\\text{ cm}^2\\)。由 \\(A=rs/2\\) 得 \\(r=5/2\\) cm。圓心角為 \\(360s/(2\\pi r)=144^\\circ\\)，選 C。",
           "id": "import-mensuration-mens-m062",
           "subcategory": "area",
           "skill": "mens-sector",
@@ -2815,7 +2827,7 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "answer": "A",
+          "answer": "C",
           "options": {
             "A": "\\(72°\\)",
             "B": "\\(126°\\)",
@@ -2828,14 +2840,17 @@
             "C": "144°.",
             "D": "162°."
           },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Restore the English 25π sum and angle target; previous Chinese 40π and stored key A were inconsistent.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "The total surface area of a solid hemisphere and the curved surface area of a solid right circular cylinder are equal. The ratio of the radius of the hemisphere to the base radius of the circular cylinder is \\(2:3\\). If the volume of the hemisphere is \\(144\\pi\\text{ cm}^3\\), then the volume of the circular cylinder is",
           "stemZh": "一個實心半球的總表面積與一個實心直立圓柱的曲面面積相等。半球半徑與圓柱底半徑之比為 \\(2:3\\)。若半球的體積為 \\(144\\pi\\text{ cm}^3\\)，求圓柱的體積。",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: D.",
+          "solution": "The supplied source gives answer D; it does not include a full derivation.",
           "solutionZh": "設半徑 \\(2k,3k\\)。\\(3\\pi(2k)^2=2\\pi(3k)h\\)，得 \\(h=2k\\)。\\(\\frac23\\pi(2k)^3=144\\pi\\)，得 \\(k=3\\)。圓柱體積 \\(=\\pi(3k)^2(2k)=18\\pi k^3=486\\pi\\text{ cm}^3\\)。答案 D。",
           "id": "import-mensuration-mens-m063",
           "subcategory": "similar-solids",
@@ -2884,7 +2899,7 @@
           "stemZh": "已知一個半球的體積為一個直立圓錐體積的兩倍。若半球的半徑等於圓錐的底半徑，則圓錐的底半徑與圓錐的高之比為",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: D.",
+          "solution": "The supplied source gives answer D; it does not include a full derivation.",
           "solutionZh": "\\(\\frac23\\pi r^3=2\\times\\frac13\\pi r^2h\\)，得 \\(r=h\\)。底半徑：高 \\(=1:1\\)。答案 D。",
           "id": "import-mensuration-mens-m065",
           "subcategory": "volume",
@@ -2933,7 +2948,7 @@
           "stemZh": "若一個扇形的半徑及周界分別為 \\(4\\) cm 及 \\(20\\) cm，則扇形的面積為",
           "hint": "Sector perimeter = 2 radii + arc length. Find arc length first.",
           "hintZh": "扇形周界 = 兩條半徑 + 弧長。先搵弧長，再用面積公式。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "周界 \\(=2(4)+s=20\\)，得弧長 \\(s=12\\) cm。面積 \\(=\\frac12(4)(12)=24\\text{ cm}^2\\)。答案 C。",
           "id": "import-mensuration-mens-m066",
           "subcategory": "area",
@@ -2995,7 +3010,7 @@
           "stemZh": "一個圓柱的高等於其底直徑。若圓柱的體積為 \\(1458\\pi\\text{ cm}^3\\)，則圓柱的總表面積為",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "設半徑 \\(r\\)、高 \\(2r\\)。\\(2\\pi r^3=1458\\pi\\)，得 \\(r=9\\)。總面積 \\(=2\\pi r^2+2\\pi r(2r)=6\\pi r^2=486\\pi\\text{ cm}^2\\)。答案 B。",
           "id": "import-mensuration-mens-m067",
           "subcategory": "surface-area",
@@ -3044,7 +3059,7 @@
           "stemZh": "若一個底半徑 \\(4r\\text{ cm}\\)、高 \\(9h\\text{ cm}\\) 的直立圓柱體積為 \\(864\\pi\\text{ cm}^3\\)，則一個底半徑 \\(3r\\text{ cm}\\)、高 \\(2h\\text{ cm}\\) 的直立圓錐體積為",
           "hint": "Use relevant volume/area formulas. Watch units.",
           "hintZh": "運用相關立體體積/面積公式，小心單位。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "\\(\\pi(4r)^2(9h)=144\\pi r^2h=864\\pi\\)，得 \\(r^2h=6\\)。\\(V_{錐}=\\frac13\\pi(3r)^2(2h)=6\\pi r^2h=36\\pi\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m068",
           "subcategory": "volume",
@@ -3093,7 +3108,7 @@
           "stemZh": "一個實心直立圓柱的高及總表面積分別為 \\(13\\) cm 及 \\(396\\pi\\text{ cm}^2\\)。若一個實心半球的半徑等於圓柱的底半徑，則半球的體積為",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "\\(2\\pi r^2+2\\pi r(13)=396\\pi\\)，即 \\(r^2+13r-198=0\\)，解得 \\(r=9\\)。半球體積 \\(=\\frac23\\pi(9)^3=486\\pi\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m069",
           "subcategory": "surface-area",
@@ -3142,7 +3157,7 @@
           "stemZh": "一個實心直立棱柱的底面為邊長 \\(6\\) cm 的正方形。若棱柱的總表面積為 \\(288\\text{ cm}^2\\)，則棱柱的體積為",
           "hint": "Prism volume = base area × height.",
           "hintZh": "柱體體積 = 底面積 × 高。先搵底面積。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "底面積 \\(36\\) cm²。\\(2(36)+4(6)h=288\\)，得 \\(24h=216\\)，\\(h=9\\) cm。體積 \\(=36\\times9=324\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m070",
           "subcategory": "surface-area",
@@ -3191,7 +3206,7 @@
           "stemZh": "一個邊長 \\(a\\) cm 的立方體。該立方體被分成 \\(8\\) 個相同的小立方體。立方體的總表面積增加了多少百分率？",
           "hint": "Cube volume \\(=a^3\\), surface area \\(=6a^2\\).",
           "hintZh": "立方體體積 \\(=\n\n(a)^3\\)，表面積 \\(=6a^2\\)。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "原表面積 \\(6a^2\\)。8 個小立方體邊長 \\(a/2\\)，新總面積 \\(=8\\times6(a/2)^2=12a^2\\)。增加 \\((12-6)/6=100\\%\\)。答案 B。",
           "id": "import-mensuration-mens-m071",
           "subcategory": "surface-area",
@@ -3252,7 +3267,7 @@
           "stemZh": "兩個實心半球的總表面積差為 \\(189\\pi\\text{ cm}^2\\)。已知兩半球的半徑比為 \\(3:4\\)。求兩半球的體積和。",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: D.",
+          "solution": "The supplied source gives answer D; it does not include a full derivation.",
           "solutionZh": "設半徑 \\(3k,4k\\)。\\(3\\pi(16k^2-9k^2)=189\\pi\\)，得 \\(k=3\\)，半徑 \\(9,12\\)。體積和 \\(=\\frac23\\pi(9^3+12^3)=1638\\pi\\text{ cm}^3\\)。答案 D。",
           "id": "import-mensuration-mens-m072",
           "subcategory": "similar-solids",
@@ -3311,11 +3326,11 @@
         },
         {
           "stem": "\\(O\\) is the centre of the sector \\(OAB\\). The ratio of its radius to its arc length is \\(2:3\\). If the area of the sector \\(OAB\\) is \\(192\\text{ cm}^2\\), which of the following are true? I. \\(\\angle AOB<90^\\circ\\) II. The radius of the sector \\(OAB\\) is 16 cm. III. The perimeter of \\(\\triangle OAB\\) is less than 54 cm.",
-          "stemZh": "\\(O\\) 為扇形 \\(OAB\\) 的圓心。其半徑與弧長之比為 \\(2:3\\)。若扇形 \\(OAB\\) 的面積為 \\(192\\text{ cm}^2\\)，下列哪項必為正確？I. \\(\\angle AOB<90^\\circ\\) II. 扇形 \\(OAB\\) 的半徑為 \\(16\\) cm III. 扇形 \\(OAB\\) 的弧長為 \\(24\\) cm",
+          "stemZh": "O 為扇形 OAB 的圓心，其半徑與弧長之比為 2:3，面積為 \\(192\\text{ cm}^2\\)。下列哪些敘述正確？\nI. \\(\\angle AOB<90^\\circ\\)\nII. 半徑為 16 cm。\nIII. 三角形 OAB 的周界小於 54 cm。",
           "hint": "Use arc length \\(l=r\\theta\\) and sector area \\(A=\\frac{1}{2}r^2\\theta\\).",
           "hintZh": "運用扇形弧長公式 \\(l=r\\theta\\) 同埋扇形面積公式 \\(A=\\frac{1}{2}r^2\\theta\\)。",
-          "solution": "Check against the options: D.",
-          "solutionZh": "設半徑 \\(2k\\)、弧長 \\(3k\\)。\\(A=\\frac12(2k)(3k)=3k^2=192\\)，得 \\(k=8\\)。半徑 \\(16\\) cm，弧長 \\(24\\) cm。角 \\(=24/16=1.5\\) rad \\(\\approx85.9^\\circ<90^\\circ\\)。I、II、III 全部正確。答案 D。",
+          "solution": "With arc length s = 3r/2, \\(192=rs/2=3r^2/4\\), so r = 16 and s = 24. The angle is \\(24(360)/(2\\pi(16))\\approx85.94^\\circ\\), so I and II are true. By the cosine rule, \\(AB=\\sqrt{16^2+16^2-2(16)^2\\cos85.94^\\circ}\\approx21.81\\) cm. Thus the triangle perimeter is approximately 53.81 cm, below 54 cm. All three are true; answer D.",
+          "solutionZh": "由弧長 \\(s=3r/2\\) 及 \\(192=rs/2=3r^2/4\\)，得 r = 16、s = 24。圓心角為 \\(24(360)/(2\\pi(16))\\approx85.94^\\circ\\)，故 I、II 正確。由餘弦公式，弦長 \\(AB\\approx21.81\\) cm，三角形周界約為 53.81 cm，小於 54 cm，故 III 亦正確。答案 D。",
           "id": "import-mensuration-mens-m073",
           "subcategory": "area",
           "skill": "mens-sector",
@@ -3345,10 +3360,10 @@
           },
           "answer": "D",
           "options": {
-            "A": "\\(I and II only\\)",
-            "B": "\\(I and III only\\)",
-            "C": "\\(II and III only\\)",
-            "D": "\\(I, II and III\\)"
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "I, II and III"
           },
           "optionsZh": {
             "A": "I and I只有 I",
@@ -3356,14 +3371,17 @@
             "C": "II and II只有 I",
             "D": "I、II 及 III"
           },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Restore statement III about the triangle perimeter; Chinese arc-length statement was a different proposition.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "The slant height and the total surface area of a solid right circular cone are 10 cm and \\(96\\pi\\text{ cm}^2\\) respectively. If the radius of a solid hemisphere is equal to the base radius of the circular cone, then the volume of the hemisphere is",
           "stemZh": "一個實心直立圓錐的斜高及總表面積分別為 \\(10\\) cm 及 \\(96\\pi\\text{ cm}^2\\)。若一個實心半球的半徑等於圓錐的底半徑，則半球的體積為",
           "hint": "Curved surface area \\(=\\pi r l\\). Slant height \\(l=\\sqrt{r^2+h^2}\\).",
           "hintZh": "圓錐曲面面積 = \\(\\pi r l\\)，總面積 = 曲面 + 底。斜高 \\(l=\\sqrt{r^2+h^2}\\)。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "\\(\\pi r^2+10\\pi r=96\\pi\\)，解得 \\(r=6\\)。半球體積 \\(=\\frac23\\pi(6)^3=144\\pi\\text{ cm}^3\\)。答案 A。",
           "id": "import-mensuration-mens-m074",
           "subcategory": "surface-area",
@@ -3469,11 +3487,11 @@
         },
         {
           "stem": "The base of a right pyramid is a rectangle. The length and the breadth of the base are 18 cm and 16 cm respectively. The height of the pyramid is 12 cm. The pyramid is divided into a pyramid \\(X\\) and a frustum \\(Y\\) by a plane parallel to its base. If the breadth of the base of \\(X\\) is 12 cm, then the volume of \\(Y\\) is",
-          "stemZh": "一個直立錐體的底面為長方形，長及闊分別為 \\(18\\) cm 及 \\(16\\) cm，錐體高 \\(12\\) cm。該錐體被一個平行於底面的平面分成一個錐體 \\(X\\) 及一個截頭錐 \\(Y\\)。若 \\(X\\) 的高為 \\(4\\) cm，求 \\(Y\\) 的體積。",
+          "stemZh": "一直立錐體的底面為長方形，長 18 cm、闊 16 cm，高為 12 cm。用平行於底面的平面將它分成上方小錐體 X 及下方截頭錐 Y。若 X 的底面闊為 12 cm，求 Y 的體積。",
           "hint": "Pyramid volume = \\(\\frac{1}{3}\\) × base area × height.",
           "hintZh": "錐體體積 = \\(\\frac{1}{3}\\) × 底面積 × 高。",
-          "solution": "Check against the options: B.",
-          "solutionZh": "先把截頭體補成完整大立體並求線性比例 \n\n(k)。面積用 (k^2)，體積用 (k^3)，截頭體用大立體減小立體。",
+          "solution": "The original volume is \\(18(16)(12)/3=1152\\text{ cm}^3\\). The small pyramid has length scale \\(12/16=3/4\\), so its volume is \\(1152(3/4)^3=486\\text{ cm}^3\\). The frustum volume is \\(1152-486=666\\text{ cm}^3\\). Answer B.",
+          "solutionZh": "原錐體體積為 \\(18(16)(12)/3=1152\\text{ cm}^3\\)。小錐體的長度比為 \\(12/16=3/4\\)，體積為 \\(1152(3/4)^3=486\\text{ cm}^3\\)。所以截頭錐體積為 \\(1152-486=666\\text{ cm}^3\\)，選 B。",
           "id": "import-mensuration-mens-m076",
           "subcategory": "cuts-frustums",
           "skill": "mens-subtract-cones",
@@ -3501,28 +3519,31 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "answer": "A",
+          "answer": "B",
           "options": {
-            "A": "\\(486 cm\\(^3\\)\\)",
-            "B": "\\(666 cm\\(^3\\)\\)",
-            "C": "\\(688 cm\\(^3\\)\\)",
-            "D": "\\(944 cm\\(^3\\)\\)"
+            "A": "\\(486\\text{ cm}^3\\)",
+            "B": "\\(666\\text{ cm}^3\\)",
+            "C": "\\(688\\text{ cm}^3\\)",
+            "D": "\\(944\\text{ cm}^3\\)"
           },
           "optionsZh": {
-            "A": "486 cm\\(^3\\).",
-            "B": "666 cm\\(^3\\).",
-            "C": "688 cm\\(^3\\).",
-            "D": "944 cm\\(^3\\)."
+            "A": "\\(486\\text{ cm}^3\\)",
+            "B": "\\(666\\text{ cm}^3\\)",
+            "C": "\\(688\\text{ cm}^3\\)",
+            "D": "\\(944\\text{ cm}^3\\)"
           },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Restore small base breadth 12 cm, not a 4 cm height; recompute and repair nested option delimiters.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
-          "stem": "The base radius of a circular cone is 6 cm. The upper part of the circular cone is cut so that a frustum with height half of the height of the circular cone is made. If the volume of the frustum is 168pi cm³, find the height of the frustum.",
+          "stem": "The base radius of a circular cone is 6 cm. The upper part of the circular cone is cut so that a frustum with height half of the height of the circular cone is made. If the volume of the frustum is 168π cm³, find the height of the frustum.",
           "stemZh": "一個圓錐的底半徑為 \\(6\\) cm。切除圓錐的上部，造成一個高為圓錐高一半的截頭錐。若截頭錐的體積為 \\(168\\pi\\text{ cm}^3\\)，求截頭錐的高。",
           "hint": "Frustum = large cone - small cone. Use similarity ratio.",
           "hintZh": "截頭錐 = 大錐 - 細錐。相似體比例係關鍵。",
-          "solution": "Check against the options: C.",
-          "solutionZh": "設原錐高 \\(h\\)，上部小錐高 \\(h/2\\)、半徑 \\(3\\) cm。\\(V_{截}=\\frac13\\pi(6)^2h-\\frac13\\pi(3)^2(h/2)=12\\pi h-1.5\\pi h=10.5\\pi h=168\\pi\\)，得 \\(h=16\\)。截頭錐高 \\(=h/2=8\\) cm。答案 C。",
+          "solution": "Let the original cone height be H. The removed cone has half its height and one eighth its volume. Thus \\(168\\pi=(7/8)(1/3)\\pi(6)^2H\\), so H = 16 cm. The frustum height is H/2 = 8 cm. Answer C.",
+          "solutionZh": "設原圓錐高為 H。切去的小圓錐高為一半，體積為原來的八分之一。因此 \\(168\\pi=(7/8)(1/3)\\pi(6)^2H\\)，得 H = 16 cm。截頭錐高為 H/2 = 8 cm，選 C。",
           "id": "import-mensuration-mens-m077",
           "subcategory": "cuts-frustums",
           "skill": "mens-subtract-cones",
@@ -3563,15 +3584,18 @@
             "C": "8 cm",
             "D": "12 cm"
           },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Derive frustum height 8 cm; replace generic hints and, for M081, incorrect key A.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "A solid metal sphere is put into an empty container in the shape of a right circular cylinder. The container is placed on a horizontal table. The internal base diameter of the container is equal to the diameter of the sphere. Water is then poured into the container until the water level just reaches the top of the sphere. If the depth of the water in the container is 6 cm after the sphere is removed, then the surface area of the sphere is",
-          "stemZh": "一個實心金屬球被放入一個空的直立圓柱形容器中。容器放置在水平桌面上，容器內底直徑等於球的直徑。然後將水倒入容器中，直至水位剛好到達球頂。若水的體積為 \\(288\\pi\\text{ cm}^3\\)，求球的半徑。",
+          "stemZh": "一實心金屬球放在水平桌上的空直立圓柱形容器內。容器內底直徑等於球的直徑。加水至剛好到達球頂，然後取出球。若此時水深為 6 cm，求球的表面積。",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: A.",
-          "solutionZh": "逐個暴露面列式：圓柱曲面 \\(2\\pi rh\\)、圓錐曲面 \\(\\pi rl\\)、球面 \\(4\\pi r^2\\)。先分清曲面積與總表面積。",
+          "solution": "Let the sphere radius be r cm. Before removal the water volume is \\(2\\pi r^3-4\\pi r^3/3=2\\pi r^3/3\\). After removal it is \\(\\pi r^2(6)\\). Hence \\(r=3(6)/2=9\\) cm. The surface area is \\(4\\pi r^2=324\\pi\\text{ cm}^2\\). Answer A.",
+          "solutionZh": "設球半徑為 r cm。取球前水的體積為 \\(2\\pi r^3-4\\pi r^3/3=2\\pi r^3/3\\)。取球後為 \\(\\pi r^2(6)\\)。因此 \\(r=3(6)/2=9\\) cm，球表面積為 \\(4\\pi r^2=324\\pi\\text{ cm}^2\\)，選 A。",
           "id": "import-mensuration-mens-m078",
           "subcategory": "liquids-displacement",
           "skill": "mens-water-depth",
@@ -3612,7 +3636,10 @@
             "C": "\\(648\\pi\\text{ cm}^2\\)",
             "D": "\\(1296\\pi\\text{ cm}^2\\)"
           },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Restore the English water-depth condition and surface-area target; the prior Chinese water volume and radius request were unrelated.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "A solid consists of a hemisphere of radius \\(r\\) cm joined at its flat base to the upper base of a right circular frustum. The frustum has upper radius \\(r\\), lower radius \\(2r\\), and height \\(2r\\). Find the total volume.",
@@ -3675,11 +3702,11 @@
           ]
         },
         {
-          "stem": "The height and the base radius of a right circular cone are 30 cm and 10 cm respectively. A frustum is made by cutting off the upper part of the circular cone. If the volume of the frustum is 784pi cm³, then the height of the frustum is",
+          "stem": "The height and the base radius of a right circular cone are 30 cm and 10 cm respectively. A frustum is made by cutting off the upper part of the circular cone. If the volume of the frustum is 784π cm³, then the height of the frustum is",
           "stemZh": "一個直立圓錐的高及底半徑分別為 \\(30\\) cm 及 \\(10\\) cm。切除圓錐上部造成一個截頭錐。若截頭錐的體積為 \\(784\\pi\\text{ cm}^3\\)，則截頭錐的高為",
           "hint": "Frustum = large cone - small cone. Use similarity ratio.",
           "hintZh": "截頭錐 = 大錐 - 細錐。相似體比例係關鍵。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "原錐體積 \\(=\\frac13\\pi(10)^2(30)=1000\\pi\\)。上部小錐體積 \\(=1000\\pi-784\\pi=216\\pi\\)。\\((h_{小}/30)^3=216/1000\\)，得 \\(h_{小}=18\\)。截頭錐高 \\(=30-18=12\\) cm。答案 B。",
           "id": "import-mensuration-mens-m080",
           "subcategory": "cuts-frustums",
@@ -3724,12 +3751,12 @@
           "solutionStatus": "source-answer-or-brief-explanation"
         },
         {
-          "stem": "The base radius of a right circular cone is 6 cm. The upper part of the circular cone is cut so that a frustum with height half of the height of the circular cone is made. If the volume of the frustum is 168pi cm³, find the height of the frustum.",
+          "stem": "The base radius of a right circular cone is 6 cm. The upper part of the circular cone is cut so that a frustum with height half of the height of the circular cone is made. If the volume of the frustum is 168π cm³, find the height of the frustum.",
           "stemZh": "一個圓錐的底半徑為 \\(6\\) cm。切除圓錐的上部，造成一個高為圓錐高一半的截頭錐。若截頭錐的體積為 \\(168\\pi\\text{ cm}^3\\)，求截頭錐的高。",
           "hint": "Frustum = large cone - small cone. Use similarity ratio.",
           "hintZh": "截頭錐 = 大錐 - 細錐。相似體比例係關鍵。",
-          "solution": "Check against the options: C.",
-          "solutionZh": "先把截頭體補成完整大立體並求線性比例 \n\n(k)。面積用 (k^2)，體積用 (k^3)，截頭體用大立體減小立體。",
+          "solution": "Let the original cone height be H. The removed cone has half its height and one eighth its volume. Thus \\(168\\pi=(7/8)(1/3)\\pi(6)^2H\\), so H = 16 cm. The frustum height is H/2 = 8 cm. Answer C.",
+          "solutionZh": "設原圓錐高為 H。切去的小圓錐高為一半，體積為原來的八分之一。因此 \\(168\\pi=(7/8)(1/3)\\pi(6)^2H\\)，得 H = 16 cm。截頭錐高為 H/2 = 8 cm，選 C。",
           "id": "import-mensuration-mens-m081",
           "subcategory": "cuts-frustums",
           "skill": "mens-subtract-cones",
@@ -3757,7 +3784,7 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "answer": "A",
+          "answer": "C",
           "options": {
             "A": "\\(2 cm\\)",
             "B": "\\(4 cm\\)",
@@ -3770,14 +3797,17 @@
             "C": "8 cm",
             "D": "12 cm"
           },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Derive frustum height 8 cm; replace generic hints and, for M081, incorrect key A.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "A solid right circular cone is divided into three parts by two planes parallel to the base to form the right circular cone P, the middle frustum Q and the bottom frustum R. The heights of P, Q and R are the same. If the volume of P is 18 cm³, then the volume of R is",
           "stemZh": "一個實心直立圓錐被兩個平行於底面的平面分成三部分：頂部為圓錐 \\(P\\)，中部為截頭錐 \\(Q\\)，底部為截頭錐 \\(R\\)。\\(P\\)、\\(Q\\)、\\(R\\) 的高相等。若 \\(P\\) 的體積為 \\(18\\text{ cm}^3\\)，求 \\(R\\) 的體積。",
           "hint": "Frustum = large cone - small cone. Use similarity ratio.",
           "hintZh": "截頭錐 = 大錐 - 細錐。相似體比例係關鍵。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "P 高 \\(h\\)、半徑 \\(r\\)，\\(V_P=\\frac13\\pi r^2h=18\\)。總高 \\(3h\\)、底半徑 \\(3r\\)。\\(V_{總}=\\frac13\\pi(3r)^2(3h)=27\\times18=486\\)。頂部兩段高 \\(2h\\)：\\(V_{上兩段}=\\frac13\\pi(2r)^2(2h)=8\\times18=144\\)。\\(V_R=486-144=342\\text{ cm}^3\\)。答案 B。",
           "id": "import-mensuration-mens-m082",
           "subcategory": "cuts-frustums",
@@ -3808,16 +3838,16 @@
           },
           "answer": "B",
           "options": {
-            "A": "\\(126 \\mathrm { c m } ^ { 3 } .\\)",
-            "B": "\\(342 \\(\\mathrm { c m } ^ { 3 } .\\)\\)",
-            "C": "\\(468 \\(\\mathrm { c m } ^ { 3 }\\)\\)",
-            "D": "\\(486 \\(\\mathsf { c m } ^ { 3 } .\\)\\)"
+            "A": "\\(126 \\mathrm{cm} ^ { 3 } .\\)",
+            "B": "\\(342 \\mathrm{cm} ^ { 3 } .\\)",
+            "C": "\\(468 \\mathrm{cm} ^ { 3 }\\)",
+            "D": "\\(486 \\mathrm{cm} ^ { 3 } .\\)"
           },
           "optionsZh": {
-            "A": "\\(126 \\mathrm { c m } ^ { 3 } .\\)",
-            "B": "342 \\(\\mathrm { c m } ^ { 3 } .\\)",
-            "C": "468 \\(\\mathrm { c m } ^ { 3 }\\)",
-            "D": "486 \\(\\mathsf { c m } ^ { 3 } .\\)"
+            "A": "\\(126 \\mathrm{cm} ^ { 3 } .\\)",
+            "B": "342 \\(\\mathrm{cm} ^ { 3 } .\\)",
+            "C": "468 \\(\\mathrm{cm} ^ { 3 }\\)",
+            "D": "486 \\(\\mathrm{cm} ^ { 3 } .\\)"
           },
           "solutionStatus": "source-answer-or-brief-explanation"
         },
@@ -3883,11 +3913,11 @@
         },
         {
           "stem": "A solid metal sphere is put into an empty container in the shape of a right circular cylinder. The container is placed on a horizontal table. The internal base diameter of the container is equal to the diameter of the sphere. Water is then poured into the container until the water level just reaches the top of the sphere. If the depth of the water in the container is 12 cm after the sphere is removed, then the surface area of the sphere is",
-          "stemZh": "一個實心金屬球被放入一個空的直立圓柱形容器中。容器放置在水平桌面上，容器內底直徑等於球的直徑。然後將水倒入容器中，直至水位剛好到達球頂。若水的體積為 \\(288\\pi\\text{ cm}^3\\)，求球的半徑。",
+          "stemZh": "一實心金屬球放在水平桌上的空直立圓柱形容器內。容器內底直徑等於球的直徑。加水至剛好到達球頂，然後取出球。若此時水深為 12 cm，求球的表面積。",
           "hint": "Curved surface area \\(=2\\pi r h\\). Total area = curved + 2 circles.",
           "hintZh": "圓柱曲面面積 = \\(2\\pi r h\\)，總面積 = 曲面 + 2個圓。",
-          "solution": "Check against the options: B.",
-          "solutionZh": "球半徑等於圓柱半徑 \\(r\\)。水位到球頂即 \\(2r\\)。水體積 \\(=\\pi r^2(2r)-\\frac43\\pi r^3=\\frac23\\pi r^3=288\\pi\\)，得 \\(r=6\\sqrt[3]{2}\\)。球表面積 \\(=4\\pi r^2\\approx432\\pi\\text{ cm}^2\\)。答案 A。",
+          "solution": "Let the sphere radius be r cm. Before removal the water volume is \\(2\\pi r^3-4\\pi r^3/3=2\\pi r^3/3\\). After removal it is \\(\\pi r^2(12)\\). Hence \\(r=3(12)/2=18\\) cm. The surface area is \\(4\\pi r^2=1296\\pi\\text{ cm}^2\\). Answer B.",
+          "solutionZh": "設球半徑為 r cm。取球前水的體積為 \\(2\\pi r^3-4\\pi r^3/3=2\\pi r^3/3\\)。取球後為 \\(\\pi r^2(12)\\)。因此 \\(r=3(12)/2=18\\) cm，球表面積為 \\(4\\pi r^2=1296\\pi\\text{ cm}^2\\)，選 B。",
           "id": "import-mensuration-mens-m084",
           "subcategory": "liquids-displacement",
           "skill": "mens-water-depth",
@@ -3915,7 +3945,7 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "answer": "A",
+          "answer": "B",
           "options": {
             "A": "\\(432\\pi\\text{ cm}^2\\)",
             "B": "\\(1296\\pi\\text{ cm}^2\\)",
@@ -3928,14 +3958,17 @@
             "C": "\\(1944\\pi\\text{ cm}^2\\).",
             "D": "\\(2592\\pi\\text{ cm}^2\\)."
           },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "adaptation": {
+            "en": "Editorially reviewed edition: Restore the English water-depth condition and surface-area target; the prior Chinese water volume and radius request were unrelated.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "A right circular cylinder of base radius 24 cm is filled with some water. A solid in the shape of a right pyramid with a square base of side 12 cm and height 18 cm is put into the cylinder so that the pyramid is totally immersed in the water. Find the rise in water level in the cylinder.",
           "stemZh": "一個底半徑 \\(24\\) cm 的直立圓柱盛有一些水。將一個底為邊長 \\(12\\) cm 正方形、高 \\(18\\) cm 的實心直立錐體放入圓柱中，使錐體完全浸沒於水中。求水位上升的高度。",
           "hint": "Pyramid volume = \\(\\frac{1}{3}\\) × base area × height.",
           "hintZh": "錐體體積 = \\(\\frac{1}{3}\\) × 底面積 × 高。",
-          "solution": "Check against the options: A.",
+          "solution": "The supplied source gives answer A; it does not include a full derivation.",
           "solutionZh": "錐體體積 \\(=\\frac13(12)^2(18)=864\\text{ cm}^3\\)。圓柱底面積 \\(=\\pi(24)^2=576\\pi\\)。水位升 \\(=864/(576\\pi)=3/(2\\pi)\\) cm。答案 A。",
           "id": "import-mensuration-mens-m085",
           "subcategory": "liquids-displacement",
@@ -3972,20 +4005,20 @@
             "D": "\\(54/\\pi cm\\)"
           },
           "optionsZh": {
-            "A": "3/(2pi) cm",
-            "B": "9/(2pi) cm",
-            "C": "18/pi cm",
-            "D": "54/pi cm"
+            "A": "3/(2π) cm",
+            "B": "9/(2π) cm",
+            "C": "18/π cm",
+            "D": "54/π cm"
           },
           "solutionStatus": "source-answer-or-brief-explanation"
         },
         {
-          "stem": "The volume of a sphere is \\(972\\pi\\text{ cm}^3\\). If the sphere is melted and recast into a cylinder of height 18 cm, then the radius of the cylinder is",
-          "stemZh": "一個球的體積為 \\(972\\pi\\text{ cm}^3\\)。若將球熔化重鑄成一個高 \\(18\\) cm 的圓柱，則圓柱的半徑為",
+          "stem": "A metal sphere has volume \\(972\\pi\\text{ cm}^3\\). It is melted and recast, without loss of material, into a cylinder of height 18 cm. Find the exact radius of the cylinder.",
+          "stemZh": "一金屬球的體積為 \\(972\\pi\\text{ cm}^3\\)。將它熔化並重鑄成高 18 cm 的圓柱，過程中沒有材料損失。求圓柱半徑的準確值。",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: C.",
-          "solutionZh": "先寫重鑄前後總體積相等，再按件數建立體積方程；求出新半徑或高度後，才代入表面積公式。",
+          "solution": "Conservation of volume gives \\(18\\pi r^2=972\\pi\\), hence \\(r^2=54\\) and \\(r=3\\sqrt6\\) cm (the positive root). None of the original MC choices equals this value.",
+          "solutionZh": "由體積守恆，\\(18\\pi r^2=972\\pi\\)，所以 \\(r^2=54\\)。半徑取正值，故 \\(r=3\\sqrt6\\) cm。原來的四個選項均不等於此值。",
           "id": "import-mensuration-mens-m086",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -3996,7 +4029,7 @@
             "originalTopic": "Mensuration / 求積法",
             "sourceLevel": "Level 4-5"
           },
-          "questionType": "mcq",
+          "questionType": "structured",
           "difficulty": "medium",
           "minForm": 4,
           "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
@@ -4013,20 +4046,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "answer": "A",
-          "options": {
-            "A": "\\(6 cm\\)",
-            "B": "\\(8 cm\\)",
-            "C": "\\(9 cm\\)",
-            "D": "\\(18 cm\\)"
-          },
-          "optionsZh": {
-            "A": "6 cm",
-            "B": "8 cm",
-            "C": "9 cm",
-            "D": "18 cm"
-          },
-          "solutionStatus": "source-answer-or-brief-explanation"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: All original MC choices (6,8,9,18) are invalid. Preserve the complete numerical givens as a disclosed written-answer adaptation, without inventing distractors.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。原選項沒有正確答案，因此保留原有數據，改作書面作答。"
+          }
         },
         {
           "stem": "The base radius and height of a metal cylinder are 3 cm and 8 cm respectively. The cylinder is melted and recast into two spheres. If the ratio of the radii of the two spheres is \\(1: 2\\), find the difference between the surface areas of the two spheres correct to 2 decimal places.",
@@ -4089,7 +4113,7 @@
           "stemZh": "一個球熔化後重鑄成一個底半徑與高相等的圓錐。求總表面積的百分數變化。",
           "hint": "Curved surface area \\(=\\pi r l\\). Slant height \\(l=\\sqrt{r^2+h^2}\\).",
           "hintZh": "圓錐曲面面積 = \\(\\pi r l\\)，總面積 = 曲面 + 底。斜高 \\(l=\\sqrt{r^2+h^2}\\)。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "球體積 \\(\\frac43\\pi r^3\\) = 圓錐 \\(\\frac13\\pi h^3\\)，得 \\(h=\\sqrt[3]{4}r\\)。球面積 \\(4\\pi r^2\\)。圓錐總面積 \\(=\\pi h^2+\\pi h\\sqrt{2}h=\\pi h^2(1+\\sqrt2)\\approx6.08\\pi r^2\\)。變化 \\(=(6.08-4)/4\\approx52.1\\%\\)。答案 C。",
           "id": "import-mensuration-mens-m088",
           "subcategory": "recasting-splitting",
@@ -4138,7 +4162,7 @@
           "stemZh": "一個邊長 \\(12\\) cm 的實心金屬立方體熔化後，重鑄成 \\(8\\) 個相同的錐體。每個錐體的底面為邊長 \\(6\\) cm 的正方形。求每個錐體的高。",
           "hint": "Pyramid volume = \\(\\frac{1}{3}\\) × base area × height.",
           "hintZh": "錐體體積 = \\(\\frac{1}{3}\\) × 底面積 × 高。",
-          "solution": "Check against the options: D.",
+          "solution": "The supplied source gives answer D; it does not include a full derivation.",
           "solutionZh": "立方體體積 \\(=12^3=1728\\)。每個錐體 \\(=1728/8=216\\) cm³。\\(\\frac13(6\\times6)h=216\\)，得 \\(h=18\\) cm。答案 D。",
           "id": "import-mensuration-mens-m089",
           "subcategory": "recasting-splitting",
@@ -4187,7 +4211,7 @@
           "stemZh": "五個半徑 \\(10\\) cm、高 \\(32\\) cm 的相同直立圓錐被重鑄成一個半球。求半球的總表面積。",
           "hint": "Curved surface area \\(=\\pi r l\\). Slant height \\(l=\\sqrt{r^2+h^2}\\).",
           "hintZh": "圓錐曲面面積 = \\(\\pi r l\\)，總面積 = 曲面 + 底。斜高 \\(l=\\sqrt{r^2+h^2}\\)。",
-          "solution": "Check against the options: B.",
+          "solution": "The supplied source gives answer B; it does not include a full derivation.",
           "solutionZh": "5 個圓錐體積 \\(=5\\times\\frac13\\pi(10)^2(32)=\\frac{16000}{3}\\pi\\)。半球 \\(\\frac23\\pi R^3=\\frac{16000}{3}\\pi\\)，得 \\(R=20\\) cm。半球總面積 \\(=3\\pi(20)^2=1200\\pi\\text{ cm}^2\\)。答案 B。",
           "id": "import-mensuration-mens-m090",
           "subcategory": "recasting-splitting",
@@ -4224,10 +4248,10 @@
             "D": "\\(2000\\pi \\text{cm}^2\\)"
           },
           "optionsZh": {
-            "A": "800pi cm²",
-            "B": "1200pi cm²",
-            "C": "1600pi cm²",
-            "D": "2000pi cm²"
+            "A": "800π cm²",
+            "B": "1200π cm²",
+            "C": "1600π cm²",
+            "D": "2000π cm²"
           },
           "solutionStatus": "source-answer-or-brief-explanation"
         },
@@ -4236,7 +4260,7 @@
           "stemZh": "兩個實心球的體積和為 \\(1344\\pi\\text{ cm}^3\\)。若較大球與較小球的直徑比為 \\(5:1\\)，則兩球的表面積和為",
           "hint": "Sphere volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\).",
           "hintZh": "球體積 \\(=\\frac{4}{3}\\pi r^3\\)，球面積 \\(=4\\pi r^2\\)。半球總面積 \\(=3\\pi r^2\\)。",
-          "solution": "Check against the options: C.",
+          "solution": "The supplied source gives answer C; it does not include a full derivation.",
           "solutionZh": "設半徑 \\(5k,k\\)。\\(\\frac43\\pi(125k^3+k^3)=1344\\pi\\)，得 \\(k=2\\)，半徑 \\(10,2\\)。表面積和 \\(=4\\pi(10^2+2^2)=416\\pi\\text{ cm}^2\\)。答案 C。",
           "id": "import-mensuration-mens-m091",
           "subcategory": "surface-area",
@@ -4316,10 +4340,10 @@
           },
           "answer": "D",
           "options": {
-            "A": "\\(\\(296 \\\\pi \\mathrm{~cm}^{2}\\)\\)",
-            "B": "\\(\\(\\quad 592 \\\\pi \\mathrm{~cm}^{2}\\)\\)",
-            "C": "\\(\\(888 \\\\pi \\mathrm{~cm}^{2}\\)\\)",
-            "D": "\\(\\(\\quad 1184 \\\\pi \\mathrm{~cm}^{2}\\)\\)"
+            "A": "\\(296 \\pi \\mathrm{~cm}^{2}\\)",
+            "B": "\\(\\quad 592 \\pi \\mathrm{~cm}^{2}\\)",
+            "C": "\\(888 \\pi \\mathrm{~cm}^{2}\\)",
+            "D": "\\(\\quad 1184 \\pi \\mathrm{~cm}^{2}\\)"
           },
           "optionsZh": {
             "A": "\\(296 \\pi \\mathrm{~cm}^{2}\\).",
@@ -4364,10 +4388,10 @@
           },
           "answer": "B",
           "options": {
-            "A": "\\(\\(6 \\\\pi \\mathrm{~cm}^{3}\\)\\)",
-            "B": "\\(\\(36 \\\\pi \\mathrm{~cm}^{3}\\)\\)",
-            "C": "\\(\\(\\quad 108 \\\\pi \\mathrm{~cm}^{3}\\)\\)",
-            "D": "\\(\\(\\quad 288 \\\\pi \\mathrm{~cm}^{3}\\)\\)"
+            "A": "\\(6 \\pi \\mathrm{~cm}^{3}\\)",
+            "B": "\\(36 \\pi \\mathrm{~cm}^{3}\\)",
+            "C": "\\(\\quad 108 \\pi \\mathrm{~cm}^{3}\\)",
+            "D": "\\(\\quad 288 \\pi \\mathrm{~cm}^{3}\\)"
           },
           "optionsZh": {
             "A": "\\(6 \\pi \\mathrm{~cm}^{3}\\).",
@@ -5023,8 +5047,8 @@
           "stemZh": "13. 一個大直立圓錐 \\(X\\) 被一個平行於底面的平面分成一個高 \\(6\\) cm 的圓錐 \\(Y\\) 及一個高 \\(3\\) cm 的截頭錐 \\(Z\\)。截頭錐的體積為 \\(114\\pi\\text{ cm}^3\\)。\n\n(a) 以 \\(\\pi\\) 求 \\(X\\) 的體積。\n\n(b) \\(X\\) 的總表面積是否小於 \\(0.04\\text{ m}^2\\)？試解釋你的答案。",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n截頭錐：大錐 - 細錐，用相似比例。",
-          "solution": "13. A large right circular cone \\(X\\) is divided into a right circular cone \\(Y\\) of height 6 cm and a frustum \\(Z\\) of height 3 cm by a plane which is parallel to its base. The volume of the frustum is \\(114 \\pi \\mathrm{~cm}^{3}\\) (a) Find the volume of \\(X\\) in terms of \\(\\pi\\). (b) Is the total surface area of \\(X\\) smaller than \\(0.04 \\mathrm{~m}^{2}\\). Explain your answer. a) Let \\(y \\mathrm{~cm}^{3}\\) be the nlume \\[\\left(\\frac{6}{6+3}\\right)^{3} =\\frac{y}{x+114 \\pi} \\\\ \\frac{1}{27} =\\frac{y}{y+114 \\pi} \\\\ 27 x =8 y+912 \\pi \\\\ y =48 \\pi\\] 3 ( ) 3 3 \\[(3\\) marks \\()\\] \\[(4\\) marks \\()\\] b) Let rcm lac the redices of the langer are. \\[\\frac{1}{3} \\pi r^{2}(9) =162 \\\\ r =\\sqrt{54} \\\\ T \\cdot t a \\text { surtace once } =\\pi \\sqrt{54} \\sqrt{54+9^{2}}+\\pi(\\sqrt{54})^{2} \\\\ =437.880 \\ldots \\mathrm{~cm}^{2} \\\\ =0.0437880 \\mathrm{~m}^{2} \\\\ =0.04 \\mathrm{~m}^{2} y \\sqrt{\\left(\\sqrt{6} t_{0}\\right.}\\]",
-          "solutionZh": "（a）設 Y 體積 y。Y 高 6，Z 高 3：\n\\[\n\\left(\\frac{6}{9}\\right)^3=\\frac{y}{y+114\\pi},\\quad \\frac1{27}=\\frac{y}{y+114\\pi},\\quad y=48\\pi.\n\\]\nX = 48π + 114π = 162π。\n（b）(1/3)πr²(9) = 162π，r = √54。總面積 ≈ 437.88 cm² = 0.0438 m² > 0.04 m²。",
+          "solution": "(a) The heights of Y and X are 6 cm and 9 cm, so \\(V_Y/V_X=(6/9)^3=8/27\\). Hence \\(V_Z/V_X=19/27\\), giving \\(V_X=114\\pi(27/19)=162\\pi\\text{ cm}^3\\).\n(b) From \\(\\pi r^2(9)/3=162\\pi\\), \\(r^2=54\\). The slant height is \\(\\sqrt{54+81}=\\sqrt{135}\\) cm. Total surface area is \\(\\pi(54+\\sqrt{54}\\sqrt{135})=\\pi(54+27\\sqrt{10})\\approx437.88\\text{ cm}^2\\). This is approximately 0.0438 m², greater than 0.04 m². Therefore it is not smaller.",
+          "solutionZh": "(a) Y、X 高分別為 6、9 cm，故 \\(V_Y/V_X=(6/9)^3=8/27\\)。因此 \\(V_Z/V_X=19/27\\)，\\(V_X=114\\pi(27/19)=162\\pi\\text{ cm}^3\\)。\n(b) 由 \\(\\pi r^2(9)/3=162\\pi\\) 得 \\(r^2=54\\)。斜高為 \\(\\sqrt{135}\\) cm。總表面積為 \\(\\pi(54+27\\sqrt{10})\\approx437.88\\text{ cm}^2\\)，約為 0.0438 m²，大於 0.04 m²，所以不是較小。",
           "id": "import-mensuration-mens-l020",
           "subcategory": "cuts-frustums",
           "skill": "mens-subtract-cones",
@@ -5052,7 +5076,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Replace corrupted source working and correct the erroneous 1/27 ratio to 8/27.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "12. A vessel in the form of a frustum is made by cutting off the lower part of an inverted right circular cone of base radius 36 cm and height 48 cm. The height of the vessel is 30 cm. The vessel is placed on a horizontal table. Some water is now poured into the vessel. Nathan finds that the depth of water in the vessel is 24 cm.\n\n(a) Find the area of the wet curved surface of the vessel in terms of \\(\\pi\\). (4 marks)\n\n(b) Nathan claims that when \\(0.2\\text{ m}^3\\) of water is poured into the vessel, it will overflow. Do you agree? Explain your answer. (3 marks)",
@@ -5164,7 +5192,7 @@
         },
         {
           "stem": "13. A cylindrical vessel of radius \\(12\\) cm contains water. When two metal spheres of radius \\(6\\) cm are immersed, the water depth is \\(22\\) cm. (a) Find the wet surface area after taking the spheres out. (b) The water is poured into an inverted cone of base radius \\(27\\) cm and height \\(36\\) cm. Is the conical wet surface area greater? (8 marks)",
-          "stemZh": "13. 一個半徑 \\(12\\) cm 的圓柱形容器盛水。將兩個半徑 \\(6\\) cm 的金屬球浸入水中，水深為 \\(22\\) cm。\n\n(a) 取出金屬球後，求濕表面面積。\n\n(b) 將水倒入一個底半徑 \\(27\\) cm、高 \\(36\\) cm 的倒置圓錐。圓錐的濕表面面積是否較大？（8 分）",
+          "stemZh": "13. 一個半徑 \\(12\\) cm 的圓柱形容器盛水。將兩個半徑 \\(6\\) cm 的金屬球浸入水中，水深為 \\(22\\) cm。\n\n(a) 取出金屬球後，求濕表面積。\n\n(b) 將水倒入一個底半徑 \\(27\\) cm、高 \\(36\\) cm 的倒置圓錐。圓錐的濕表面積是否較大？（8 分）",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n排水 = 物體體積。",
           "solution": "13. Let the new depth in the cylinder be \\(h\\). Then \\(\\pi(12)^2(22)-\\pi(12)^2h=2\\cdot\\frac43\\pi(6)^3\\), so \\(h=18\\). The wet surface area is \\(2\\pi(12)(18)+\\pi(12)^2=576\\pi\\). In the cone, \\(r/H=27/36=3/4\\), and the water volume is \\(2592\\pi\\), giving \\(H=24,r=18\\). The conical wet curved surface is \\(\\pi(18)(30)=540\\pi<576\\pi\\). The claim is not correct.",
@@ -5200,7 +5228,7 @@
         },
         {
           "stem": "14. A vessel is a frustum cut from an inverted right circular cone of base radius \\(18\\) cm and height \\(24\\) cm. The height of the vessel is \\(16\\) cm. A solid sphere of radius \\(6\\) cm is placed in the fully filled vessel and totally immersed. (a) Find the volume of water in terms of \\(\\pi\\). (b) After the sphere is removed without loss of water, decide whether the decrease in wet surface area is less than \\(125\\text{ cm}^2\\). (8 marks)",
-          "stemZh": "14. 一個截頭錐形容器，取自一個底半徑 \\(18\\) cm、高 \\(24\\) cm 的倒置直立圓錐，容器高 \\(16\\) cm。將一個半徑 \\(6\\) cm 的實心球放入完全注滿水的容器中，球完全浸入。\n\n(a) 以 \\(\\pi\\) 求水的體積。\n\n(b) 取出球後沒有水損失，判斷濕表面面積的減少量是否少於 \\(125\\text{ cm}^2\\)。（8 分）",
+          "stemZh": "14. 一個截頭錐形容器，取自一個底半徑 \\(18\\) cm、高 \\(24\\) cm 的倒置直立圓錐，容器高 \\(16\\) cm。將一個半徑 \\(6\\) cm 的實心球放入完全注滿水的容器中，球完全浸入。\n\n(a) 以 \\(\\pi\\) 求水的體積。\n\n(b) 取出球後沒有水損失，判斷濕表面積的減少量是否少於 \\(125\\text{ cm}^2\\)。（8 分）",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n排水 = 物體體積。",
           "solution": "14. By similar cones, the frustum dimensions give water volume \\(2208\\pi\\). After the sphere is removed, the water level drops according to the displaced volume \\(\\frac43\\pi6^3\\). Comparing the lateral wet surface areas gives a decrease of about \\(128.1138\\text{ cm}^2\\), which is greater than \\(125\\text{ cm}^2\\). The claim is not correct.",
@@ -5368,7 +5396,7 @@
         },
         {
           "stem": "13. The baige radius and the height of an inverted right circular conical vessel are 18 cm and 24 cm respectively. Water is poured into the vessel until the depth of water is 8 cm .\n\n(a) Find the volume of water in terms of \\( \\pi \\).\n(2 marks)\n(@) A metal sphere of radius 3 cm is put into the vessel. The sphere is totally immersed in the water.\n\n(i) Find the depth of water.\n(ii) Someone claims that the wet surface area of the vessel is increased by more than \\( 24 \\% \\) after the sphere is put into the vessel. Do you agree? Explain your answer.\n(5 marks)",
-          "stemZh": "13. 一個倒置直立圓錐形容器的底半徑及高分別為 \\(18\\) cm 及 \\(24\\) cm。將水倒入容器至水深 \\(8\\) cm。\n\n(a) 以 \\(\\pi\\) 求水的體積。（2 分）\n\n(b) 將一個半徑 \\(3\\) cm 的金屬球放入容器，球完全浸入水中。\n\n(i) 求水深。\n(ii) 某人聲稱放入球後，容器的濕表面面積增加超過 \\(24\\%\\)。你是否同意？試解釋你的答案。（5 分）",
+          "stemZh": "13. 一個倒置直立圓錐形容器的底半徑及高分別為 \\(18\\) cm 及 \\(24\\) cm。將水倒入容器至水深 \\(8\\) cm。\n\n(a) 以 \\(\\pi\\) 求水的體積。（2 分）\n\n(b) 將一個半徑 \\(3\\) cm 的金屬球放入容器，球完全浸入水中。\n\n(i) 求水深。\n(ii) 某人聲稱放入球後，容器的濕表面積增加超過 \\(24\\%\\)。你是否同意？試解釋你的答案。（5 分）",
           "hint": "Sphere: V = (4/3)πr³, S = 4πr². Water displaced = object volume.",
           "hintZh": "球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n排水 = 物體體積。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
           "solution": "(a) Similarity gives the water radius \\(r=3h/4\\), so \\(V(h)=3\\pi h^3/16\\). At depth 8 cm, \\(V=96\\pi\\text{ cm}^3\\).\n\n(b)(i) The immersed sphere displaces \\(\\frac43\\pi(3)^3=36\\pi\\text{ cm}^3\\). Thus \\(3\\pi h^3/16=132\\pi\\), giving \\(h=\\sqrt[3]{704}\\approx8.896\\text{ cm}\\).\n\n(ii) The cone slant length up to depth h is \\(5h/4\\), so its wet area is \\(15\\pi h^2/16\\). The percentage increase is \\(100[(704^{1/3}/8)^2-1]\\approx23.65\\%\\), below 24%. Disagree.",
@@ -5527,8 +5555,8 @@
           "stemZh": "11. 一個半球形碗的半徑為 \\(r\\) cm。一個底半徑 \\(36\\) cm、高 \\(48\\) cm 的倒置直立圓錐形容器垂直放置。容器的外曲面面積為碗的 \\(7.5\\) 倍。\n\n(a) 求 \\(r\\)。\n\n(b) 最初容器中有一些水，深度為 \\(h\\) cm。用半球碗將水倒入容器，倒了 \\(5\\frac{1}{4}\\) 碗水後沒有溢出，水深增加至 \\(4h\\) cm。求 \\(h\\)。",
           "hint": "Sphere: V = (4/3)πr³, S = 4πr². Water displaced = object volume.",
           "hintZh": "球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n排水 = 物體體積。",
-          "solution": "11. A bowl in the shape of a hemisphere has a radius of \\(r \\mathrm{~cm}\\). An inverted right circular conical container with a base radius of 36 cm and a height of 48 cm is held vertically. The curved surface area of the container is 7.5 times that of the bowl. (a) Find \\(r\\). (b) Initially, there is some water in a container with a depth of \\(h \\mathrm{~cm}\\). A hemispherical bowl is used to pour water into the container. After pouring \\(5 \\frac{1}{4}\\) bowls of water into the container without overflowing, the depth of the water increases to \\(4 h \\mathrm{~cm}\\). Find \\(h\\). (a) \\[ 7.5\\left(\\frac{1}{2}\\left(4 \\pi r^{2}\\right)\\right)=\\pi(36) \\sqrt{36^{2}+48^{2}} 1 \\mathrm{M}\\) for area of sphere +1 M for \\(\\pi r \\mathrm{l}\\] \\[ r=12 \\] (b) Volume of water poured into the container \\[ =\\frac{21}{4}\\left[\\frac{1}{2} \\times \\frac{4}{3} \\pi(12)^{3}\\right] \\\\ =6048 \\pi \\mathrm{~cm}^{3}\\] for volume of sphere Let \\(V \\mathrm{~cm}^{3}\\) be the initial volume of water in the container. \\(\\left(\\frac{4 h}{h}\\right)^{3} =\\frac{V+6048 \\pi}{V} \\\\ V =96 \\pi\\) for the ratio of similar object Capacity of the container \\( =\\frac{1}{3} \\pi(36)^{2}(48) \\\\ =20736 \\pi \\mathrm{~cm}^{3}\\) for volume of cone \\(\\left(\\frac{h}{48}\\right)^{3} =\\frac{96 \\pi}{20736 \\pi} \\\\ h =8\\) Volume of water poured into the container \\(=\\frac{21}{4}\\left[\\frac{1}{2} \\times \\frac{4}{3} \\pi(12)^{3}\\right]\\) for volume of sphere \\(=6048 \\pi \\mathrm{~cm}^{3}\\) Original volume of water \\(=\\frac{1}{3} \\pi(0.75 h)^{2}(h)\\) for volume of cone \\(=\\frac{3}{16} \\pi h^{3} \\mathrm{~cm}^{3}\\) \\(\\left(\\frac{4 h}{h}\\right)^{3}=\\frac{\\frac{3}{16} \\pi h^{3}}{6048 \\pi+\\frac{3}{16} \\pi h^{3}}\\) \\(6048 \\pi+\\frac{3}{16} \\pi h^{3}=12 \\pi h^{3}\\) \\(h^{3} =512 \\\\ h =8\\)",
-          "solutionZh": "（a）7.5×(1/2)(4πr²) = π(36)√(36²+48²)，r = 12 cm。\n（b）倒入水量 = (21/4)[(1/2)(4/3)π(12)³] = 6048π。(4h/h)³ = (V+6048π)/V，V = 96π。容量 = 20736π：\n\\[\n\\left(\\frac{h}{48}\\right)^3=\\frac{96\\pi}{20736\\pi},\\quad h=8.\n\\]",
+          "solution": "(a) The cone slant height is 60 cm, so \\(7.5(2\\pi r^2)=\\pi(36)(60)\\), giving r = 12 cm.\n(b) The added volume is \\(\\frac{21}{4}\\frac23\\pi(12)^3=6048\\pi\\text{ cm}^3\\). If the initial water volume is V, quadrupling its depth multiplies its volume by 64. Thus \\(63V=6048\\pi\\) and \\(V=96\\pi\\). The cone capacity is \\(\\pi(36)^2(48)/3=20736\\pi\\text{ cm}^3\\). Therefore \\((h/48)^3=96/20736=1/216\\), giving h = 8 cm.",
+          "solutionZh": "(a) 圓錐斜高為 60 cm。由 \\(7.5(2\\pi r^2)=\\pi(36)(60)\\) 得 r = 12 cm。\n(b) 加水量為 \\(\\frac{21}{4}\\frac23\\pi(12)^3=6048\\pi\\text{ cm}^3\\)。設原水體積為 V；水深變成 4 倍，體積變成 64 倍。因此 \\(63V=6048\\pi\\)，得 \\(V=96\\pi\\)。圓錐容量為 \\(20736\\pi\\text{ cm}^3\\)，所以 \\((h/48)^3=96/20736=1/216\\)，得 h = 8 cm。",
           "id": "import-mensuration-mens-l036",
           "subcategory": "liquids-displacement",
           "skill": "mens-water-depth",
@@ -5556,7 +5584,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Replace mismatched delimiters and marking-code fragments with complete bilingual working.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "14. An inverted right circular cone is of base radius 120 cm and height 64 cm . A container in the form of a frustum is made by cutting off the lower part of the inverted right circular cone. The height of the container is 48 cm . The container is placed with its smaller circular face on a horizontal table. Some water is now poured into the container. It is known that the area of the wet curved surface of the container is \\(5355 \\pi \\mathrm{~cm}^{2}\\).\n\n(a) Find the depth of water in the container.\n\n(b) Someone claims that the volume of water in the container is less than \\(0.2 \\mathrm{~m}^{3}\\). Do you agree? Explain your answer.",
@@ -5596,7 +5628,7 @@
         },
         {
           "stem": "12. There are two hemispherical vessels held vertically on a horizontal surface. The vessels are fully filled with water. The ratio of the wet surface area of the smaller hemispherical vessel to the wet surface area of the larger hemispherical vessel is \\(16: 25\\). The radius of the smaller hemispherical vessel is 10 cm .\n\n(a) Express, in terms of \\(\\pi\\), the total volume of water in the two hemispherical vessels.\n\n(b) Another vessel \\(X\\) is in the form of a frustum which is made by cutting off the upper part of a right circular cone. The radii of the upper base and the lower base of \\(X\\) are 10 cm and 15 cm respectively. \\(X\\) is placed on a horizontal ground. The water in the two hemispherical vessels is poured into \\(X\\). If the water can just fill up \\(X\\), find the height of \\(X\\).",
-          "stemZh": "12. 兩個半球形容器垂直放在水平面上，均完全注滿水。較小半球與較大半圓的濕表面面積比為 \\(16:25\\)，較小半球半徑為 \\(10\\) cm。\n\n(a) 以 \\(\\pi\\) 求兩個半球容器中總水體積。\n\n(b) 另一個容器 \\(X\\) 為截頭錐，由切除一個直立圓錐的上部造成。\\(X\\) 的上底半徑及下底半徑分別為 \\(10\\) cm 及 \\(15\\) cm。將 \\(X\\) 放在水平地面，把兩個半球容器中的水倒入 \\(X\\)，水剛好注滿 \\(X\\)。求 \\(X\\) 的高。",
+          "stemZh": "12. 兩個半球形容器垂直放在水平面上，均完全注滿水。較小半球與較大半圓的濕表面積比為 \\(16:25\\)，較小半球半徑為 \\(10\\) cm。\n\n(a) 以 \\(\\pi\\) 求兩個半球容器中總水體積。\n\n(b) 另一個容器 \\(X\\) 為截頭錐，由切除一個直立圓錐的上部造成。\\(X\\) 的上底半徑及下底半徑分別為 \\(10\\) cm 及 \\(15\\) cm。將 \\(X\\) 放在水平地面，把兩個半球容器中的水倒入 \\(X\\)，水剛好注滿 \\(X\\)。求 \\(X\\) 的高。",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n排水 = 物體體積。",
           "solution": "12. There are two hemispherical vessels held vertically on a horizontal surface. The vessels are fully filled with water. The ratio of the wet surface area of the smaller hemispherical vessel to the wet surface area of the larger hemispherical vessel is \\(16: 25\\). The radius of the smaller hemispherical vessel is 10 cm . (a) Express, in terms of \\(\\pi\\), the total volume of water in the two hemispherical vessels. ( 3 marks) (b) Another vessel \\(X\\) is in the form of a frustum which is made by cutting off the upper part of a right circular cone. The radii of the upper base and the lower base of \\(X\\) are 10 cm and 15 cm respectively. \\(X\\) is placed on a horizontal ground. The water in the two hemispherical vessels is poured into \\(X\\). If the water can just fill up \\(X\\), find the height of \\(X\\). 12. (a) Let \\(x \\mathrm{~cm}\\) be the radius of the larger hemispherical vessel. \\[\\frac{16}{25}=\\left(\\frac{10}{x}\\right)^{2} 1 \\mathrm{M}\\] Wet surface area of the smaller vessel \\(=2 \\pi(10)^{2} \\mathrm{~cm}^{2}=200 \\pi \\mathrm{~cm}^{2}\\) Wet surface area of the larger vessel \\[=\\frac{25}{16} \\times 200 \\pi \\mathrm{~cm}^{2} 1 \\mathrm{M}\\] \\[=312.5 \\pi \\mathrm{~cm}^{2}\\] Let \\(x \\mathrm{~cm}\\) be the radius of the larger vessel. \\[2 \\pi x^{2}=312.5 \\pi\\] \\[ x=12.5 \\] \\[\\text { Total volume of water } =\\frac{1}{2} \\times \\frac{4}{3} \\pi\\left(12.5^{3}+10^{3}\\right) \\mathrm{cm}^{3} 1 \\mathrm{M} \\text { for the volume of one hemisphere } \\\\ =\\underline{\\underline{1968.75 \\pi \\mathrm{~cm}^{3}}} 1 \\mathrm{~A}\\] (b) Let \\(H \\mathrm{~cm}\\) and \\(h \\mathrm{~cm}\\) be the heights of the upper part of the cone being cut off and the frustum respectively. \\[\\frac{H}{H+h}=\\frac{10}{15} 1 \\mathrm{M} \\\\ H=2 h \\\\ \\frac{1}{3} \\pi(15)^{2}(H+h)-\\frac{1}{3} \\pi(10)^{2} H=1968.75 \\pi 1 \\mathrm{M} \\text { for the volume of frustum } \\\\ 225(3 h)-100(2 h)=5906.25 \\\\ 475 h=5906.25 \\\\ h \\approx 12.43421053 \\] ∴ The height of the frustum is \\(\\underline{12.4 \\mathrm{~cm}}\\) (corr. to 3 sig. fig.).",
@@ -5804,7 +5836,7 @@
           "hint": "Similar solids: area ratio = k², volume ratio = k³.",
           "hintZh": "相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
           "solution": "13. The painting cost (in $) of a solid is a sum of two parts, one part is constant and the other part varies as the surface area (in \\(\\mathrm{cm}^{2}\\) ) of the solid. The painting cost for a solid with surface area \\(200 \\mathrm{~cm}^{2}\\) is \\(\\$ 300\\) while the painting cost for a solid with surface area \\(250 \\mathrm{~cm}^{2}\\) is \\(\\$ 360\\). Suppose the surface area of solid \\(A\\) is \\(720 \\mathrm{~cm}^{2}\\) and the volume of Solid \\(A\\) is \\(1000 \\mathrm{~cm}^{3}\\). (a) Find the painting cost of \\(\\operatorname{solid} A\\). (b) Solids \\(A\\) and \\(B\\) are similar solids. The painting cost of solid \\(A\\) is at \\(40 \\%\\) higher than that of solid \\(B\\). Mary claims that the volume of solid \\(B\\) is at least \\(580 \\mathrm{~cm}^{3}\\). Do you agree? Explain your answer. (4 marks) (a) Let \\(\\$ C\\) be the painting cost of a solid and \\(S \\mathrm{~cm}^{2}\\) be its surface area. Let \\(C=k_{1}+k_{2} S\\), where \\(k_{1}\\) and \\(k_{2}\\) are non-zero constants. So, we have \\(300=k_{1}+k_{2}(200)\\) and \\(360=k_{1}+k_{2}(250)\\). 1 M either Solving, we have \\(k_{1}=60\\) and \\(k_{2}=1.2\\). both correct Painting cost of solid \\(A\\) \\[=\\$[60+1.2(720)]\\] \\[=\\underline{\\underline{\\$ 924}}\\] (b) Let \\(V_{A} \\mathrm{~cm}^{3}\\) and \\(V_{B} \\mathrm{~cm}^{3}\\) be the volumes of solids \\(A\\) and \\(B\\) respectively, and let \\(S_{A} \\mathrm{~cm}^{2}\\) and \\(S_{B} \\mathrm{~cm}^{2}\\) be the surface area of solids \\(A\\) and \\(B\\) respectively. The painting cost of the Solid \\(B=\\$ 924 \\div(1+40 \\%)\\) \\(=\\underline{\\underline{\\$ 660}}\\) \\(660=60+1.2 S_{B}\\) \\(S_{B}=500\\) Note that solids \\(A\\) and \\(B\\) are similar. \\(\\frac{V_{A}}{V_{B}}=\\left(\\frac{S_{A}}{S_{B}}\\right)^{\\frac{3}{2}}\\) \\(\\frac{1000}{V_{B}}=\\left(\\frac{720}{500}\\right)^{\\frac{3}{2}}\\) \\(V_{B} \\approx 578.7037037<580\\) Thus, the claim is incorrect. f.t. ----(4)",
-          "solutionZh": "設 C = k₁ + k₂S。\n（a）300 = k₁ + 200k₂，360 = k₁ + 250k₂。解得 k₁ = 60，k₂ = 1.2。Solid A 面積 720：\n\\[\nC=60+1.2(720)=\\$924.\n\\]\n（b）Solid B 費用 = 924 ÷ 1.4 = 660。660 = 60 + 1.2S_B，S_B = 500。A、B 相似：\n\\[\n\\frac{1000}{V_B}=\\left(\\frac{720}{500}\\right)^{3/2},\\quad V_B\\approx578.7<580.\n\\]\nMary 聲稱不正確。",
+          "solutionZh": "設 C = k₁ + k₂S。\n（a）300 = k₁ + 200k₂，360 = k₁ + 250k₂。解得 k₁ = 60，k₂ = 1.2。Solid A 面積 720：\n\\[\nC=60+1.2(720)=\\$924.\n\\]\n（b）Solid B 費用 = 924 ÷ 1.4 = 660。660 = 60 + 1.2S_B，\\(S_B\\) = 500。A、B 相似：\n\\[\n\\frac{1000}{V_B}=\\left(\\frac{720}{500}\\right)^{3/2},\\quad V_B\\approx578.7<580.\n\\]\nMary 聲稱不正確。",
           "id": "import-mensuration-mens-l044",
           "subcategory": "similar-solids",
           "skill": "mens-scale-powers",
@@ -5839,8 +5871,8 @@
           "stemZh": "14. 一個直立圓錐 \\(W\\) 被一個平行於底面的平面分成兩部分：上部為小圓錐 \\(X\\)，下部為截頭錐 \\(Y\\)。已知 \\(Y\\) 的曲面面積為 \\(X\\) 的 \\(8\\) 倍，且 \\(Y\\) 的體積比 \\(X\\) 多 \\(8000\\pi\\text{ cm}^3\\)。\n\n(a) 以 \\(\\pi\\) 求 \\(X\\) 的體積。（4 分）\n\n(b) 設 \\(X\\) 的高為 \\(15\\) cm。Mr. Cheung 聲稱圓錐 \\(W\\) 的總表面積大於一個半徑 \\(21\\) cm 的球的表面積。你是否同意？試解釋你的答案。（5 分）",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
-          "solution": "14.(a) Let \\(V_{X} \\mathrm{~cm}^{3}\\) and \\(V_{Y} \\mathrm{~cm}^{3}\\) be the volumes of \\(X\\) and \\(Y\\) respectively. \n Let \\(h_{X} \\mathrm{~cm}\\) and \\(h_{Y} \\mathrm{~cm}\\) be the height of \\(X\\) and \\(Y\\) respectively. \n \\(\\frac{h_{X}}{h_{X}+h_{Y}}=\\sqrt{\\frac{1}{1+8}}=\\frac{1}{3}\\) {*}{\\(\\left\\{1 \\mathrm{M} \\\\ +1 \\mathrm{~A}\\right.\\)} \n \\(\\frac{V_{X}}{V_{X}+V_{Y}}=\\left(\\frac{1}{3}\\right)^{3}=\\frac{1}{27}\\) \n \\(\\frac{V_{X}}{V_{X}+V_{X}+8000 \\pi}=\\frac{1}{27}\\) 1 M \n \\(25 V_{X}=8000 \\pi\\) \n \\(V_{X}=320 \\pi\\) \n ∴ The volume of \\(X\\) is \\(320 \\pi \\mathrm{~cm}^{3}\\) \n \n (b) Volume of \\(W\\) \n \\(=320 \\pi \\times 27=8640 \\pi \\mathrm{~cm}^{3}\\) \n Height of \\(W\\) \n \\(=15 \\times 3=45 \\mathrm{~cm}\\) \n Let \\(r \\mathrm{~cm}\\) be the base radius of \\(W\\) \n \\(\\frac{1}{3} \\pi r^{2} \\times 45=8640 \\pi\\) for volume of cone \n \\(r=24\\) \n Alternate Method: \n Let \\(r_{w}\\) be the base radius of \\(X\\) \n \\(\\frac{1}{3} \\pi r_{w}{ }^{2} \\times 15=320 \\pi\\) 1 M for volume of cone \n \\(r_{w}=8\\) \n \\(r=3 \\times 8=24\\) \n Total surface area of \\(W\\) \n \\(=\\pi \\times 24 \\times \\sqrt{24^{2}+45^{2}}+\\pi \\times 24^{2}\\) for \\(\\pi r l\\) \n \\(=1800 \\pi \\mathrm{~cm}^{2}\\) \n Surface area of sphere \n \\(=4 \\pi \\times 21^{2}\\) 1 M for \\(4 \\pi r^{2}\\) \n \\(=1764 \\pi \\mathrm{~cm}^{2}\\) \n \\(<1800 \\pi \\mathrm{~cm}^{2}\\) \n The total surface area of \\(W\\) is greater than the surface area of sphere. \n The claim is agreed. 1f.t. \n -------(9)",
-          "solutionZh": "（a）h_X/(h_X+h_Y) = √(1/9) = 1/3。V_X/(V_X+V_Y) = 1/27。V_Y = 8V_X + 8000π：\n\\[\n\\frac{V_X}{2V_X+8000\\pi}=\\frac1{27},\\quad V_X=320\\pi.\n\\]\n（b）W = 320π×27 = 8640π，高 45。(1/3)πr²(45) = 8640π，r = 24。W 總面積 = π(24)√(24²+45²) + π(24)² = 1800π。球面積 = 4π(21)² = 1764π < 1800π，同意聲稱。",
+          "solution": "(a) The curved areas of X and W are in the ratio 1:9. Their corresponding length ratio is 1:3, so their volume ratio is 1:27. Since \\(V_Y=26V_X\\) and \\(V_Y-V_X=8000\\pi\\), \\(25V_X=8000\\pi\\) and \\(V_X=320\\pi\\text{ cm}^3\\).\n(b) W has volume \\(8640\\pi\\text{ cm}^3\\) and height 45 cm. From \\(\\pi r^2(45)/3=8640\\pi\\), r = 24 cm. Its slant height is \\(\\sqrt{24^2+45^2}=51\\) cm. Total surface area is \\(\\pi(24)(51)+\\pi(24)^2=1800\\pi\\text{ cm}^2\\). The sphere area is \\(4\\pi(21)^2=1764\\pi\\text{ cm}^2\\). The claim is true.",
+          "solutionZh": "(a) X 與 W 的曲面積比為 1:9，對應長度比為 1:3，體積比為 1:27。因此 \\(V_Y=26V_X\\)。由 \\(V_Y-V_X=8000\\pi\\) 得 \\(25V_X=8000\\pi\\)，所以 \\(V_X=320\\pi\\text{ cm}^3\\)。\n(b) W 體積為 \\(8640\\pi\\text{ cm}^3\\)，高為 45 cm。由圓錐體積公式得底半徑 24 cm，畢氏定理給出斜高 51 cm。總表面積為 \\(\\pi(24)(51)+\\pi(24)^2=1800\\pi\\text{ cm}^2\\)。球表面積為 \\(4\\pi(21)^2=1764\\pi\\text{ cm}^2\\)，所以同意聲稱。",
           "id": "import-mensuration-mens-l045",
           "subcategory": "cuts-frustums",
           "skill": "mens-subtract-cones",
@@ -5868,11 +5900,15 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Replace OCR marking-code residue and false Chinese VY=8VX+8000π with the independently derived 26:1 volume ratio.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "11. Circular frustum container \\( X \\) is obtained by removing the lower part of a right circular cone. Suppose the upper base and the lower base are parallel. It is given that the radius of the upper base and the lower base of \\( X \\) are 60 cm and 20 cm respectively. The height of \\( X \\) is 120 cm .\n\n(a) Find the capacity of \\( X \\).\n(3 marks)\n\n(b) Some water is poured into thex container \\( X \\). Suppose the height of the water level is 30 cm . Find the wet surface area.\n(4 marks) P. 9",
-          "stemZh": "11. 圓形截頭錐形容器 \\(X\\)，由切除一個直立圓錐的下部造成，上底與下底平行。已知 \\(X\\) 的上底半徑及下底半徑分別為 \\(60\\) cm 及 \\(20\\) cm，\\(X\\) 的高為 \\(120\\) cm。\n\n(a) 求 \\(X\\) 的容量。（3 分）\n\n(b) 將一些水倒入容器 \\(X\\)，水位高度為 \\(30\\) cm。求濕表面面積。（4 分）",
+          "stemZh": "11. 圓形截頭錐形容器 \\(X\\)，由切除一個直立圓錐的下部造成，上底與下底平行。已知 \\(X\\) 的上底半徑及下底半徑分別為 \\(60\\) cm 及 \\(20\\) cm，\\(X\\) 的高為 \\(120\\) cm。\n\n(a) 求 \\(X\\) 的容量。（3 分）\n\n(b) 將一些水倒入容器 \\(X\\)，水位高度為 \\(30\\) cm。求濕表面積。（4 分）",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n排水 = 物體體積。",
           "solution": "11. Circular frustum container \\( X \\) is obtained by removing the lower part of a right circular cone. Suppose the upper base and the lower base are parallel. It is given that the radius of the upper base and the lower base of \\( X \\) are 60 cm and 20 cm respectively. The height of \\( X \\) is 120 cm . (a) Find the capacity of \\( X \\). (3 marks) (b) Some water is poured into the container \\( X \\). Suppose the height of the water level is 30 cm . Find the wet surface area. (4 marks) (a) Let \\( h \\mathrm{~cm} \\) be the height of the lower part of the cone \\[\\frac{h}{h+120}=\\frac{20}{60} \\\\ \\frac{h}{h+120}=\\frac{1}{3} \\\\ 3 h=h+120 \\\\ h=60\\] \\[ 1 A \\] Capacity of \\( x \\) \\(=\\frac{1}{3} \\pi(60)^{2}(10)-\\frac{1}{3} \\pi(20)^{2}(60) \\\\ =208000 \\pi \\mathrm{~cm}^{3}\\) 1 A (b) Let \\( r \\mathrm{~cm} \\) be the radius of the water surface \\[\\frac{r}{20}=\\frac{30+60}{60} \\\\ r=\\frac{3}{2} \\times 20 \\\\ r=30 \\\\ \\text { Required orea } =\\pi(30) \\sqrt{30^{2}+90^{2}}-\\pi(20) \\sqrt{20^{2}+60^{2}}+\\pi(20)^{2} \\\\ =\\pi(30) \\sqrt{9000}-\\pi(20) \\sqrt{4000}+400 \\pi \\\\ =6220 \\mathrm{~cm}^{3} /(500 \\sqrt{10}+400) \\pi \\mathrm{cm}^{3} \\text { } \\text { }\\] \\( 1 A \\)",
@@ -5984,7 +6020,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
           "solution": "12. (a) Let \\(V_{B} \\mathrm{~cm}^{3}\\) be the volume of \\(B\\). \\[\\frac{V_{B}}{\\frac{1}{3} \\pi(42)^{2}(56)}=\\frac{2^{3}-1^{3}}{4^{3}}\\] \\[V_{B}=\\frac{7203}{2} \\pi \\mathrm{~cm}^{3}\\] (b) Let \\(S_{A}, S_{B}, S_{C}\\) and \\(S_{D}\\) be the curved surface areas of \\(A, B, C\\) and \\(D\\). \\[\\frac{S_{A}}{\\pi(42) \\sqrt{56^{2}+42^{2}}}=\\frac{1^{2}}{4^{2}}\\] \\[S_{A} =\\frac{735}{4} \\pi \\\\ \\frac{S_{B}}{\\pi(42) \\sqrt{56^{2}+42^{2}}} =\\frac{2^{2}-1^{2}}{4^{2}}\\] \\[S_{B}=\\frac{2205}{4} \\pi \\\\ \\frac{S_{C}}{\\pi(42) \\sqrt{56^{2}+42^{2}}}=\\frac{3^{2}-2^{2}}{4^{2}}\\] \\[S_{C} =\\frac{3675}{4} \\pi \\\\ \\frac{S_{D}}{\\pi(42) \\sqrt{56^{2}+42^{2}}} =\\frac{4^{2}-3^{2}}{4^{2}}\\] \\[S_{D}=\\frac{5145}{4} \\pi \\\\ S_{B}-S_{A}=\\frac{2205}{4} \\pi-\\frac{735}{4} \\pi=\\frac{735}{2} \\pi \\\\ S_{D}-S_{C}=\\frac{5145}{4} \\pi-\\frac{3675}{4} \\pi=\\frac{735}{2} \\pi=S_{B}-S_{A}\\] It is disagreed that the difference between them is smaller.",
-          "solutionZh": "（a）V_B/[(1/3)π(42)²(56)] = 7/64，V_B = 7203π/2。\n（b）S_A = 735π/4，S_B = 2205π/4 等，按 1²:(2²−1²):(3²−2²):(4²−3²)。",
+          "solutionZh": "（a）\\(V_B\\)/[(1/3)π(42)²(56)] = 7/64，\\(V_B\\) = 7203π/2。\n（b）\\(S_A\\) = 735π/4，\\(S_B\\) = 2205π/4 等，按 1²:(2²−1²):(3²−2²):(4²−3²)。",
           "id": "import-mensuration-mens-l049",
           "subcategory": "cuts-frustums",
           "skill": "mens-subtract-cones",
@@ -6091,8 +6127,8 @@
           "stemZh": "13. 一個截頭錐形容器，由切除一個倒置直立圓錐的下部造成。上底半徑及下底半徑分別為 \\(16\\) cm 及 \\(4\\) cm，截頭錐高 \\(36\\) cm。\n\n(a) 以 \\(\\pi\\) 求容器的容量。（2 分）\n\n(b) 容器中有 \\(10000\\text{ cm}^3\\) 水。Sam 放入 \\(n\\) 個半徑 \\(3\\) cm 的實心金屬球，球完全浸入水中。\n\n(i) 求 \\(n\\) 的最大值，使容器中的水不會溢出。\n(ii) Sam 聲稱容器現時的濕曲面面積少於 \\(2350\\text{ cm}^2\\)。你是否同意？試解釋你的答案。（5 分）",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n排水 = 物體體積。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
-          "solution": "13. (a) Let h cm be the height of the removed circular cone. \\[\\frac{4}{h}=\\frac{16}{h+36},\\) so \\(h=12.\\] The height of the original cone is \\(48\\) cm. The capacity of the vessel is \\(\\frac{1}{3}\\pi(16)^2(48)-\\frac{1}{3}\\pi(4)^2(12) =4032\\pi\\text{ cm}^3.\\) ------------------(2) (b) (i) The volume of each sphere is \\[\\frac{4}{3}\\pi(3)^3=36\\pi\\text{ cm}^3.\\] For no overflow, \\(10000+36\\pi n\\le 4032\\pi.\\) \\[n\\le \\frac{4032\\pi-10000}{36\\pi}\\approx 23.58.\\] Therefore, the maximum value of n is 23. (ii) The capacity of the removed cone is \\[\\frac{1}{3}\\pi(4)^2(12)=64\\pi\\text{ cm}^3.\\] The curved surface area of the removed cone is \\(\\pi(4)\\sqrt{4^2+12^2}=16\\pi\\sqrt{10}.\\) Let A \\(\\text{cm}^2\\) be the wetted curved surface area of the vessel after putting 23 spheres into it. By similarity, \\(\\frac{A+16\\pi\\sqrt{10}}{16\\pi\\sqrt{10}} =\\left(\\frac{10000+23(36\\pi)+64\\pi}{64\\pi}\\right)^{2/3}.\\) Hence \\(A\\approx 2375.641967>2350.\\) Therefore, the wetted curved surface area of the vessel now is not less than \\(2350\\text{ cm}^2\\). I do not agree with Sam. ------------------(5)",
-          "solutionZh": "（a）4/h = 16/(h+36)，h = 12。原錐高 48：\n\\[\nV=\\frac13\\pi(16)^2(48)-\\frac13\\pi(4)^2(12)=4032\\pi.\n\\]\n（b）（i）每球 36π。10000 + 36πn ≤ 4032π，n ≤ 23.58，n = 23。\n（b）（ii）被切小錐 = 64π，曲面 = 16π√10。由相似求浸水曲面 ≈ 2375.6 > 2350，Sam 錯。",
+          "solution": "(a) Let the removed cone height be h. Similarity gives \\(4/h=16/(h+36)\\), hence h = 12 cm. Capacity is \\(\\pi[(16)^2(48)-(4)^2(12)]/3=4032\\pi\\text{ cm}^3\\).\n(b)(i) Each sphere displaces \\(36\\pi\\text{ cm}^3\\). From \\(10000+36\\pi n\\le4032\\pi\\), the greatest integer n is 23.\n(ii) Including the virtual removed cone, the occupied volume below the waterline is \\(10000+(23)(36\\pi)+64\\pi=10000+892\\pi\\). Let H be the height above the virtual apex; then radius = H/3 and \\(\\pi H^3/27=10000+892\\pi\\). The wetted curved area is \\(\\pi\\sqrt{10}(H^2/9-16)\\approx2375.6\\text{ cm}^2\\), greater than 2350 cm². Disagree.",
+          "solutionZh": "(a) 設切去的小圓錐高為 h。由相似，\\(4/h=16/(h+36)\\)，得 h = 12 cm。容器容量為 \\(\\pi[(16)^2(48)-(4)^2(12)]/3=4032\\pi\\text{ cm}^3\\)。\n(b)(i) 每球排水量為 \\(36\\pi\\text{ cm}^3\\)。由 \\(10000+36\\pi n\\le4032\\pi\\) 得最大整數 n = 23。\n(ii) 連同底部虛擬小圓錐，水面以下的體積為 \\(10000+892\\pi\\)。設水面距虛擬頂點高為 H，則半徑為 H/3，且 \\(\\pi H^3/27=10000+892\\pi\\)。濕曲面積為 \\(\\pi\\sqrt{10}(H^2/9-16)\\approx2375.6\\text{ cm}^2\\)，大於 2350 cm²，所以不同意。",
           "id": "import-mensuration-mens-l052",
           "subcategory": "liquids-displacement",
           "skill": "mens-displacement",
@@ -6120,7 +6156,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Repair mismatched math delimiters and supply the missing waterline-area derivation.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "12. An inverted right circular cone is divided into three parts by two planes which are parallel to\nthe base of the cone. The bottom part is the cone X, the middle part is the frustum Y and the\ntop part is the frustum Z. The ratio of the height of X to that of Y to that of Z is 3 : 2 : 1.\n\n(a) Find the ratio of the volume of X to that of Y to that of Z.\n(2 marks)\n\n(b) It is given that the height and the base radius of the original cone are 24 cm and 18 cm\nrespectively.\n\n(i) Find the volume of Z in terms of π.\n(ii) Find the curved surface area of Y in terms of π.\n(5 marks)",
@@ -6284,7 +6324,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。",
           "solution": "(a) Let \\(l\\) be the slant height of the circular cone. Since the curved surface area is \\(700\\pi\\), \\[\\pi(14)l=700\\pi.\\] Thus \\[ l=50. \\] The height is \\[\\sqrt{50^2-14^2}=48\\text{ cm}.\\] (b)(i) Since the curved surface area of \\(Y\\) is 15 times that of \\(X\\), the whole cone has curved surface area \\(16\\) times that of \\(X\\). Therefore the linear scale factor from \\(X\\) to the whole cone is \\(1:4\\), and the volume of \\(X\\) is \\(\\frac{1}{64}\\) of the volume of the whole cone. The volume of the whole cone is \\(\\frac{1}{3}\\pi(14)^2(48)=3136\\pi.\\) Hence \\(V_Y=3136\\pi\\left(1-\\frac{1}{64}\\right)=3087\\pi\\text{ cm}^3.\\) (b)(ii) If the diameter of each sphere is \\(d\\), then \\(2\\cdot \\frac{4}{3}\\pi\\left(\\frac{d}{2}\\right)^3=3087\\pi.\\) Solving gives \\(d=21.\\) Final answers: (a) \\(48\\text{ cm}\\); (b)(i) \\(3087\\pi\\text{ cm}^3\\); (b)(ii) \\(21\\text{ cm}\\).",
-          "solutionZh": "（a）π(14)l = 700π，l = 50。h = √(50²−14²) = 48 cm。\n（b）（i）Y 曲面 = 15 倍 X，整錐 = 16 倍 X。X:整 = 1:4，V_X = 整錐 1/64。整錐 = (1/3)π(14)²(48) = 3136π：\n\\[\nV_Y=3136\\pi\\left(1-\\frac1{64}\\right)=3087\\pi\\text{ cm}^3.\n\\]\n（b）（ii）2(4/3)π(d/2)³ = 3087π，d = 21 cm。",
+          "solutionZh": "（a）π(14)l = 700π，l = 50。h = √(50²−14²) = 48 cm。\n（b）（i）Y 曲面 = 15 倍 X，整錐 = 16 倍 X。X:整 = 1:4，\\(V_X\\) = 整錐 1/64。整錐 = (1/3)π(14)²(48) = 3136π：\n\\[\nV_Y=3136\\pi\\left(1-\\frac1{64}\\right)=3087\\pi\\text{ cm}^3.\n\\]\n（b）（ii）2(4/3)π(d/2)³ = 3087π，d = 21 cm。",
           "id": "import-mensuration-mens-l057",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -6356,7 +6396,7 @@
           "hint": "Sphere: V = (4/3)πr³, S = 4πr². Water displaced = object volume.",
           "hintZh": "圓柱：體積 \\(\\pi r^2 h\\)，曲面 \\(2\\pi r h\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
           "solution": "(a) The volume of the original sphere is \\[\\frac43\\pi(10)^3=\\frac{4000\\pi}{3}.\\] Since the cylinders are similar and their linear ratio is \\(2:3:5\\), their volume ratio is \\[2^3:3^3:5^3=8:27:125.\\] Thus \\[V_Y=\\frac{27}{160}\\cdot\\frac{4000\\pi}{3}=225\\pi.\\] (b)(i) \\(\\pi r_2^2(9)=225\\pi\\) \\(r_2^2=25\\) \\(r_2=5.\\) (b)(ii) Since \\(r_2:r_3=3:5\\), \\(r_3=\\frac53(5)=\\frac{25}{3}.\\) Since the cylinders are similar, \\(h_Z=\\frac53(9)=15.\\) Total surface area of \\(Z\\): \\(2\\pi r_3^2+2\\pi r_3h_Z =2\\pi\\left(\\frac{25}{3}\\right)^2+2\\pi\\left(\\frac{25}{3}\\right)(15) =\\frac{3500\\pi}{9}.\\) Surface area of the sphere: \\(4\\pi(10)^2=400\\pi.\\) Since \\(\\frac{3500\\pi}{9}<400\\pi,\\) the claim is not correct. Final answers: (a) \\(225\\pi\\); (b)(i) \\(r_2=5\\); (b)(ii) disagree.",
-          "solutionZh": "（a）球 = 4000π/3。線性比 2:3:5，體積比 8:27:125：\n\\[\nV_Y=\\frac{27}{160}\\cdot\\frac{4000\\pi}{3}=225\\pi.\n\\]\n（b）（i）r₂ = 5。\n（b）（ii）r₃ = 25/3，h_Z = 15。",
+          "solutionZh": "（a）球 = 4000π/3。線性比 2:3:5，體積比 8:27:125：\n\\[\nV_Y=\\frac{27}{160}\\cdot\\frac{4000\\pi}{3}=225\\pi.\n\\]\n（b）（i）r₂ = 5。\n（b）（ii）r₃ = 25/3，\\(h_Z\\) = 15。",
           "id": "import-mensuration-mens-l059",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -6621,7 +6661,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。",
           "solution": "(a) Let the height be \\(h\\) cm. Then \\[\\frac13\\pi(96)^2h=86016\\pi,\\] so \\[ h=28. \\] The slant height is \\[\\sqrt{96^2+28^2}=100.\\] Therefore, the curved surface area is \\[\\pi(96)(100)=\\boxed{9600\\pi\\text{ cm}^2}.\\] (b)(i) Since the volume of \\(Y\\) is \\(63\\) times the volume of \\(X\\), \\(V_X:V_{\\text{whole}}=1:64.\\) Thus the linear ratio of \\(X\\) to the whole cone is \\(1:4\\), and the curved surface area ratio is \\(1:16\\). Therefore, \\(\\text{curved surface area of }Y =9600\\pi\\left(1-\\frac1{16}\\right) =\\boxed{9000\\pi\\text{ cm}^2}.\\) (ii) The volume of \\(Y\\) is \\[86016\\pi\\cdot\\frac{63}{64}.\\] Let the radius of each sphere be \\(r\\) cm. Then \\[2352\\left(\\frac43\\pi r^3\\right)=86016\\pi\\cdot\\frac{63}{64}.\\] Hence \\[r^3=27,\\qquad r=\\boxed{3\\text{ cm}}.\\]",
-          "solutionZh": "（a）(1/3)π(96)²h = 86016π，h = 28。斜高 100，曲面 = 9600π。\n（b）（i）V_X:V_整 = 1:64，線性比 1:4，曲面比 1:16。Y 曲面 = 9000π。",
+          "solutionZh": "（a）(1/3)π(96)²h = 86016π，h = 28。斜高 100，曲面 = 9600π。\n（b）（i）\\(V_X\\):V_整 = 1:64，線性比 1:4，曲面比 1:16。Y 曲面 = 9000π。",
           "id": "import-mensuration-mens-l066",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -6657,7 +6697,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。",
           "solution": "The volume of the sphere is \\(\\frac43\\pi(9)^3=972\\pi.\\) Since the base areas of \\(A\\) and \\(B\\) are in the ratio \\(1:4\\), their linear scale is \\(1:2\\), so their volumes are in the ratio \\(1:8\\). Also, the volumes of \\(A\\) and \\(C\\) are in the ratio \\(1:27\\). Therefore, \\(V_A:V_B:V_C=1:8:27.\\) (a) \\[V_C=972\\pi\\cdot\\frac{27}{1+8+27}=\\boxed{729\\pi\\ \\text{cm}^3}.\\] (b) Let the base radius of \\(C\\) be \\(r\\) cm. Since the height of \\(C\\) is \\(27\\) cm, \\[\\frac13\\pi r^2(27)=729\\pi,\\] so \\(r=9\\). Since the linear scale of \\(B:C\\) is \\(2:3\\), the base radius and height of \\(B\\) are \\(6\\) cm and \\(18\\) cm respectively. The slant height of \\(B\\) is \\[\\sqrt{6^2+18^2}=6\\sqrt{10}.\\] Therefore, the total surface area of \\(B\\) is \\[\\pi(6)^2+\\pi(6)(6\\sqrt{10}) =\\boxed{36\\pi(1+\\sqrt{10})\\ \\text{cm}^2}.\\]",
-          "solutionZh": "球 972π。V_A:V_B:V_C = 1:8:27。\n（a）V_C = 729π。\n（b）(1/3)πr²(27) = 729π，r = 9。",
+          "solutionZh": "球 972π。\\(V_A\\):\\(V_B\\):\\(V_C\\) = 1:8:27。\n（a）\\(V_C\\) = 729π。\n（b）(1/3)πr²(27) = 729π，r = 9。",
           "id": "import-mensuration-mens-l067",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -6693,7 +6733,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。",
           "solution": "(a) The total volume of the \\(9\\) spheres is \\[9\\left(\\frac43\\pi(6)^3\\right)=2592\\pi.\\] Let the height of the cone be \\(h\\) cm. Then \\[\\frac13\\pi(18)^2h=2592\\pi,\\] so \\[h=\\boxed{24\\text{ cm}}.\\] (b) The slant height of the whole cone is \\[\\sqrt{18^2+24^2}=30.\\] The curved surface area of the whole cone is \\[\\pi(18)(30)=540\\pi.\\] Since \\(V_X:V_Y=8:19\\), we have \\[V_X:V_{\\text{whole}}=8:27.\\] Thus the linear ratio of \\(X\\) to the whole cone is \\(2:3\\), and the curved surface area ratio is \\(4:9\\). Hence \\[\\text{curved surface area of }Y =540\\pi\\left(1-\\frac49\\right) =\\boxed{300\\pi\\text{ cm}^2}.\\]",
-          "solutionZh": "（a）9 球 2592π。(1/3)π(18)²h = 2592π，h = 24。\n（b）斜高 30，曲面 540π。V_X:V_Y = 8:19。Y 曲面 = 300π。",
+          "solutionZh": "（a）9 球 2592π。(1/3)π(18)²h = 2592π，h = 24。\n（b）斜高 30，曲面 540π。\\(V_X\\):\\(V_Y\\) = 8:19。Y 曲面 = 300π。",
           "id": "import-mensuration-mens-l068",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -6765,7 +6805,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n圓柱：體積 \\(\\pi r^2 h\\)，曲面 \\(2\\pi r h\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。",
           "solution": "12. (a) Let the curved surface area of the original cone be \\(S\\). Since the ratio of the curved surface area of \\(X\\) to that of \\(Y\\) is \\(1:8\\), the curved surface area of \\(X\\) is \\(\\frac{1}{9}S.\\) For similar cones, the ratio of curved surface areas is the square of the ratio of corresponding lengths. Hence the ratio of the base radius of \\(X\\) to the base radius of the original cone is \\(1:3.\\) Therefore, the ratio of the volume of \\(X\\) to the volume of the original cone is \\(1:27.\\) The volume of the original cone is \\(\\frac13\\pi(18)^2(54)=5832\\pi.\\) Hence the volume of \\(Y\\) is \\(\\left(1-\\frac{1}{27}\\right)(5832\\pi)=5616\\pi\\text{ cm}^3.\\) ------------------(3) (b) Let \\(h\\) cm be the height of \\(Z\\). Since \\(Y\\) is recast into \\(Z\\), \\(\\pi(6)^2h=5616\\pi.\\) Thus \\(h=156.\\) The total surface area of \\(Z\\) is \\(2\\pi(6)^2+2\\pi(6)(156)=1944\\pi\\text{ cm}^2.\\) The volume ratio of \\(W\\) to \\(Z\\) is the same as the volume ratio of \\(X\\) to \\(Y\\): \\(1:26.\\) Since \\(W\\) and \\(Z\\) are similar, their total surface areas are in the ratio \\(1:26^{2/3}.\\) Therefore, the total surface area of \\(W\\) is \\(\\frac{1944\\pi}{26^{2/3}}\\text{ cm}^2.\\) \\[\\frac{1944\\pi}{26^{2/3}}\\approx 695.9<700.\\] Therefore, the total surface area of \\(W\\) does not exceed \\(700\\text{ cm}^2\\). ------------------(4)",
-          "solutionZh": "（a）X:Y 曲面比 1:8，X 佔 S/9。相似立體曲面比 = 線性比²，半徑比 1:3。V_X:V_整 = 1:27。原錐 = (1/3)π(18)²(54) = 5832π。V_Y = 5832π×26/27 = 5616π。\n（b）X 斜高 = (1/3)√(18²+54²) = 6√10。Y 曲面 = π(18)(6√82) − π(6)(6√10) = 108√82π − 36√10π。",
+          "solutionZh": "（a）X:Y 曲面比 1:8，X 佔 S/9。相似立體曲面比 = 線性比²，半徑比 1:3。\\(V_X\\):V_整 = 1:27。原錐 = (1/3)π(18)²(54) = 5832π。\\(V_Y\\) = 5832π×26/27 = 5616π。\n（b）X 斜高 = (1/3)√(18²+54²) = 6√10。Y 曲面 = π(18)(6√82) − π(6)(6√10) = 108√82π − 36√10π。",
           "id": "import-mensuration-mens-l070",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -6800,8 +6840,8 @@
           "stemZh": "12. 有兩個相似的金屬直立圓錐，記為 \\(A\\) 及 \\(B\\)。兩圓錐的曲面面積和為 \\(680\\pi\\text{ cm}^2\\)，\\(A\\) 與 \\(B\\) 的體積比為 \\(1:8\\)，\\(A\\) 的高為 \\(15\\) cm。\n\n(a) 以 \\(\\pi\\) 求 \\(B\\) 的體積。\n\n(b) 將 \\(B\\) 熔化重鑄成兩個相同的實心直立圓錐，記為 \\(C\\)，其底半徑為 \\(w\\) cm。某工匠量得 \\(w^3=2048\\)，並聲稱圓錐 \\(A\\)、\\(B\\)、\\(C\\) 全部相似。該聲稱是否正確？試解釋你的答案。",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
-          "solution": "12. There are two similar metal right circular cones. Denote these two circular cones by \\(A\\) and \\(B\\) respectively. The sum of the curved surface areas of these two cones is \\(680 \\pi \\mathrm{~cm}^{2}\\). The ratio of the volume of \\(A\\) to the volume of \\(B\\) is \\(1: 8\\). The height of \\(A\\) is 15 cm . (a) Find, in terms of \\(\\pi\\), the volume of \\(B\\). (b) \\(B\\) is melted and recast into two identical solid right circular cones. Denote each of the two identical cones by \\(C\\) where their base radii are \\(w \\mathrm{~cm}\\). The craftsman finds that \\(w^{3}=2048\\) and claims that all the cones \\(A\\), \\(B\\) and \\(C\\) are similar. Is the claim correct? Explain your answer. (a) \\[\\because \\frac{\\text { curred surface area of } A}{\\text { curred surface area of } B}=\\left(\\frac{1}{8}\\right)^{\\frac{2}{3}}=\\frac{1}{4} \\) iM ∴ curved sinface area of \\(B=\\frac{4}{5}(680 \\pi)=544 \\pi 1 \\mathrm{~A}\\] \\[ \\pi r \\sqrt{30^{2}+r^{2}}=544 \\pi 1 M(\\pi r l) \\\\ r^{2}\\left(900+r^{2}\\right)=544^{2} \\\\ r^{4}+900 r^{2}-544^{2}=0 \\\\ r^{2}=256 2 r^{2}=-1156 \\text { (rej) } \\\\ \\therefore r= \\pm 16 \\text { IA }\\] ∴ wolume of \\(B=\\frac{1}{3} \\pi(16)^{2}(30)=256 \\pi \\mathrm{~cm}^{3} (\\mathrm{M}+1 \\mathrm{~A}\\) (b) \\[\\frac{\\text { radius of } C}{\\text { radius of } B}=\\frac{w}{16}\\] \\[\\left(\\frac{\\text { radius of } C}{\\text { radius of } B}\\right)^{3}=\\frac{w^{3}}{4096}=\\frac{2048}{4096}=\\frac{1}{2} \\mathrm{iM}\\] \\(\\left.\\because \\frac{\\text { volume of } C}{\\text { colume of } B}=\\frac{2560 \\pi \\frac{1}{2}}{2560 \\pi}=\\frac{1}{2}=\\left(\\frac{\\text { radius of } C}{\\text { radius of } B}\\right)^{3} \\\\ \\therefore \\text { The claim is correct. }\\right\\}\\) (At.t.",
-          "solutionZh": "A:B 體積比 1:8，線性比 1:2，曲面比 1:4。B 曲面 = 544π。πr√(30²+r²) = 544π，r² = 256，r = 16。\n（a）B = (1/3)π(16)²(30) = 2560π。\n（b）(w/16)³ = w³/4096 = 2048/4096 = 1/2。V_C/V_B = 1/2，體積比 = 線性比³，相似正確。",
+          "solution": "(a) A:B have length ratio 1:2, curved-area ratio 1:4 and heights 15:30. Thus B has curved area \\(544\\pi\\text{ cm}^2\\). If its radius is r, \\(r\\sqrt{r^2+30^2}=544\\). Squaring gives \\((r^2-256)(r^2+1156)=0\\), so r = 16 cm. Its volume is \\(\\pi(16)^2(30)/3=2560\\pi\\text{ cm}^3\\).\n(b) Each C has volume \\(1280\\pi\\). Since \\(w^3=2048\\), \\((w/16)^3=1/2=V_C/V_B\\). For cones, \\(V/r^3=\\pi h/(3r)\\), so C and B have the same height-to-radius ratio and are similar. A is already similar to B. Agree.",
+          "solutionZh": "(a) A:B 長度比為 1:2，曲面積比為 1:4，高分別為 15、30 cm。因此 B 曲面積為 \\(544\\pi\\text{ cm}^2\\)。設 B 半徑為 r，則 \\(r\\sqrt{r^2+30^2}=544\\)。平方整理得 \\((r^2-256)(r^2+1156)=0\\)，所以 r = 16 cm。體積為 \\(\\pi(16)^2(30)/3=2560\\pi\\text{ cm}^3\\)。\n(b) 每個 C 體積為 \\(1280\\pi\\)。由 \\(w^3=2048\\)，\\((w/16)^3=1/2=V_C/V_B\\)。圓錐滿足 \\(V/r^3=\\pi h/(3r)\\)，因此 C、B 的高與半徑之比相等，兩者相似。A 本來已與 B 相似，所以同意。",
           "id": "import-mensuration-mens-l071",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -6829,7 +6869,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Replace OCR marking fragments and justify why the volume/radius comparison establishes cone similarity.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "12. A solid circular cone is divided into a cone \\(X\\) and a frustum \\(Y\\) by a plane parallel to its base. It is given that the radii of the upper base and the lower base of the frustum \\(Y\\) are \\(r\\text{ cm}\\) and \\(3r\\text{ cm}\\) respectively. The height of the frustum \\(Y\\) is \\(2r\\text{ cm}\\).\n\n(a) Find, in terms of \\(\\pi\\) and \\(r\\), the volume of \\(Y\\).\n\n(b) \\(Y\\) is melted and recast into \\(k\\) identical solid hemispheres \\(Z\\) with radius \\(r\\text{ cm}\\). Find \\(k\\).\n\n(c) Find the least number of solid hemispheres \\(Z\\) such that the total surface area of the hemispheres would exceed that of \\(Y\\).\n(7 marks)",
@@ -6981,7 +7025,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。",
           "solution": "14. Let the removed cone height be \\(h\\). Then \\(\\frac{h}{h+8}=\\frac9{15}\\), so \\(h=12\\). The volume is \\(\\frac13\\pi(15)^2(20)-\\frac13\\pi(9)^2(12)=1176\\pi\\). The slant height of \\(X\\) is \\(10\\), so the linear scale factor to \\(Y\\) is \\(12/10\\). Thus \\(V_Y=1176\\pi(1.2)^3=2032.128\\pi\\approx6384>6000\\), so the claim is not correct. For the sphere, \\(\\frac43\\pi r^3=2032.128\\pi\\), giving \\(r\\approx11.5\\) cm.",
-          "solutionZh": "h/(h+8) = 9/15，h = 12。V = 1176π。X 斜高 10，至 Y 比 1.2。V_Y = 2032.128π ≈ 6384 > 6000，不正確。(4/3)πr³ = 2032.128π，r ≈ 11.5。",
+          "solutionZh": "h/(h+8) = 9/15，h = 12。V = 1176π。X 斜高 10，至 Y 比 1.2。\\(V_Y\\) = 2032.128π ≈ 6384 > 6000，不正確。(4/3)πr³ = 2032.128π，r ≈ 11.5。",
           "id": "import-mensuration-mens-l076",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -7048,12 +7092,12 @@
           "assessmentMode": "solution-comparison"
         },
         {
-          "stem": "14. A solid metal right prism of base area \\(75 \\mathrm{~cm}^{2}\\) and height 126 cm is melted and recast into two similar solid right pyramids . The bases of the two pyramids are squares . The ratio of the base area of the smaller pyramid to the base area of the larger pyramid is \\(16: 25\\).\n\n(a) Find the volume of the larger pyramid .\n\n(b) Now a craftsman measures the height of the larger pyramid to be 30 cm .\nThe craftsman claims that the total surface area of the smaller pyramid exceeds \\(1500 \\mathrm{~cm}^{2}\\). Do you agree ? Explain your answer .\nAnswers written in the margins will not be marked .\nAnswers written in the margins will not be marked .",
+          "stem": "14. A solid metal right prism of base area \\(75 \\mathrm{~cm}^{2}\\) and height 126 cm is melted and recast into two similar solid right pyramids . The bases of the two pyramids are squares . The ratio of the base area of the smaller pyramid to the base area of the larger pyramid is \\(16: 25\\).\n\n(a) Find the volume of the larger pyramid .\n\n(b) Now a craftsman measures the height of the larger pyramid to be 30 cm .\nThe craftsman claims that the total surface area of the smaller pyramid exceeds \\(1500 \\mathrm{~cm}^{2}\\). Do you agree ? Explain your answer .",
           "stemZh": "14. 一個底面積 \\(75\\text{ cm}^2\\)、高 \\(126\\) cm 的實心直立棱柱熔化後，重鑄成兩個相似的實心直立錐體，兩錐底面均為正方形。較小錐與較大錐的底面積比為 \\(16:25\\)。\n\n(a) 求較大錐的體積。\n\n(b) 某工匠量得較大錐的高為 \\(30\\) cm，他聲稱較小錐的總表面積超過 \\(1500\\text{ cm}^2\\)。你是否同意？試解釋你的答案。",
           "hint": "Similar solids: area ratio = k², volume ratio = k³.",
           "hintZh": "柱體：體積 = 底面積 × 高。\n錐體：體積 \\(\\frac{1}{3}\\) × 底面積 × 高。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
-          "solution": "14. A solid metal right prism of base area \\(75 \\mathrm{~cm}^{2}\\) and height 126 cm is melted and recast into two similar solid right pyramids . The bases of the two pyramids are squares . The ratio of the base area of the smaller pyramid to the base area of the larger pyramid is \\(16: 25\\). (a) Find the volume of the larger pyramid . (b) Now a craftsman measures the height of the larger pyramid to be 30 cm . The craftsman claims that the total surface area of the smaller pyramid exceeds \\(1500 \\mathrm{~cm}^{2}\\). Do you agree ? Explain your answer . (a) \\[ \\because \\) Area ratio of the smaller pyramid to the larger pyramid \\(=16: 25\\] Length ratio of the smaller pyramid to the larger pyramid \\(=\\sqrt{16}: \\sqrt{25}=4: 5\\) ∴ Volume ratio of the lengths of the smaller pyramid to the larger pyramid \\[=\\sqrt{16}^{3}: \\sqrt{25}^{3}=4^{3}: 5^{3}=64: 125\\] \\[\\text { Volume of the larger pyramid } =75(126) \\mathrm{cm}^{3} \\times \\frac{125}{125+64} \\\\ =\\underline{\\underline{6250 \\mathrm{~cm}^{3}}}\\] (b) \\[\\frac{1}{3}(30 \\mathrm{~cm})\\) (Base area of the larger pyramid) \\(=6250 \\mathrm{~cm}^{3}\\] Base area of the larger pyramid \\(=625 \\mathrm{~cm}^{2}\\) Length of one side of the square base of the larger pyramid \\(=\\sqrt{625 \\mathrm{~cm}^{2}}=25 \\mathrm{~cm}\\) Total surface area of the larger pyramid \\(=625 \\mathrm{~cm}^{2}+4 \\cdot \\frac{1}{2}(25) \\sqrt{30^{2}+\\left(\\frac{25}{2}\\right)^{2}} \\mathrm{~cm}^{2}\\) \\(=625 \\mathrm{~cm}^{2}+4 \\cdot \\frac{1}{2}(25)(32.5) \\mathrm{cm}^{2}=2250 \\mathrm{~cm}^{2}\\) Total surface area of the smaller pyramid \\( =2250 \\mathrm{~cm}^{2} \\times \\frac{16}{25}\\) \\(=1440 \\mathrm{~cm}^{2}<1500 \\mathrm{~cm}^{2}\\) \\(\\therefore \\) The claim is disagreed [ f.t.] [Alternative way for 14 (b)] (b) Height of the smaller pyramid \\(=30 \\mathrm{~cm} \\times \\frac{4}{5}=24 \\mathrm{~cm}\\) \\(\\frac{1}{3}(24 \\mathrm{~cm})\\) (Base area of the smaller pyramid) \\(=75(126) \\mathrm{cm}^{3}-6250 \\mathrm{~cm}^{3}=3200 \\mathrm{~cm}^{3}\\) Base area of the smaller pyramid \\(=400 \\mathrm{~cm}^{2}\\) Length of one side of the square base of the smaller pyramid \\(=\\sqrt{400 \\mathrm{~cm}^{2}}=20 \\mathrm{~cm}\\) Total surface area of the smaller pyramid \\( =400 \\mathrm{~cm}^{2}+4 \\cdot \\frac{1}{2}(20) \\sqrt{24^{2}+\\left(\\frac{20}{2}\\right)^{2}} \\mathrm{~cm}^{2}\\) \\[ =400 \\mathrm{~cm}^{2}+4 \\cdot \\frac{1}{2}(20)(26) \\mathrm{cm}^{2} \\\\ =1440 \\mathrm{~cm}^{2} <1500 \\mathrm{~cm}^{2}\\] ∴ The claim is disagreed . [ f.t.]",
-          "solutionZh": "棱柱 = 75×126 = 9450。底面積比 16:25，線性比 4:5，體積比 64:125。\n（a）大角錐 = 9450×125/189 = 6250 cm³。\n（b）(1/3)(30)(底面積) = 6250，底面積 = 625，邊長 25。大角錐總面積 = 625 + 4(1/2)(25)(32.5) = 2250。小角錐 = 2250×16/25 = 1440 < 1500，不同意。",
+          "solution": "(a) The original prism volume is \\(75(126)=9450\\text{ cm}^3\\). The pyramid length ratio is 4:5, hence the volume ratio is 64:125. The larger volume is \\(9450(125/189)=6250\\text{ cm}^3\\).\n(b) Its base area is \\(3(6250)/30=625\\text{ cm}^2\\), so its base side is 25 cm. The face slant height is \\(\\sqrt{30^2+12.5^2}=32.5\\) cm. Its total area is \\(625+4(25)(32.5)/2=2250\\text{ cm}^2\\). The smaller total area is \\(2250(16/25)=1440\\text{ cm}^2\\), below 1500 cm². Disagree.",
+          "solutionZh": "(a) 原棱柱體積為 \\(75(126)=9450\\text{ cm}^3\\)。兩錐體長度比為 4:5，體積比為 64:125。因此較大錐體體積為 \\(9450(125/189)=6250\\text{ cm}^3\\)。\n(b) 大錐體底面積為 \\(3(6250)/30=625\\text{ cm}^2\\)，底邊長為 25 cm。三角形側面的斜高為 \\(\\sqrt{30^2+12.5^2}=32.5\\) cm。總表面積為 \\(625+4(25)(32.5)/2=2250\\text{ cm}^2\\)。小錐體總表面積為 \\(2250(16/25)=1440\\text{ cm}^2\\)，小於 1500 cm²，所以不同意。",
           "id": "import-mensuration-mens-l078",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -7081,7 +7125,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Remove repeated examination boilerplate and replace malformed solution markup with complete working.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "13. The height and the base radius of a solid right circular cone are 24 cm and 18 cm respectively. The circular cone is divided into three parts by two planes parallel to its base. The heights of the three parts are equal. Express, in terms of \\(\\pi\\), (a) the volume of the middle part, (b) the total surface area of the middle part. (8 marks)",
@@ -7197,7 +7245,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。",
           "solution": "14. (a) Let \\( A_{x} \\mathrm{~cm}^{2}, A_{y} \\mathrm{~cm}^{2} \\) and \\( A_{z} \\mathrm{~cm}^{2} \\) be the curved surface area of \\( X, Y \\) and \\( Z \\) respectively \\(A_{x}:\\left(A_{x}+A_{y}\\right):\\left(A_{x}+A_{y}+A_{z}\\right)=1^{2}: 3^{2}: 4^{2} \\\\ =1: 9: 16 \\\\ \\therefore A_{x}: A_{y}: A_{z}=1: 8: 7\\) Let \\( l \\mathrm{~cm} \\) be the slant height of the cone \\[\\pi(20)(l) \\times \\frac{8}{16} =520 \\pi \\\\ l =52\\] \\[\\therefore \\text { Height of the cone } =\\sqrt{52^{2}-20^{2}} \\\\ =48 \\mathrm{~cm}\\] (b) \\[\\text { Volume of } Y =\\frac{1}{3} \\pi(20)^{2}(48) \\times \\frac{3^{3}-1^{3}}{4^{3}} \\\\ =2600 \\pi \\mathrm{~cm}^{3}\\] (c) Total surface area of \\( Y=520 \\pi+\\pi\\left(20 \\times \\frac{1}{4}\\right)^{2}+\\pi\\left(20 \\times \\frac{3}{4}\\right)^{2} \\) \\(=770 \\pi \\mathrm{~cm}^{2}\\) Let \\( r \\mathrm{~cm} \\) be the radius of the sphere \\(\\frac{4}{3} \\pi r^{3} =2600 \\pi \\\\ r =\\sqrt[3]{1950}\\) \\(\\text { Total surface area of the sphere } =4 \\pi(\\sqrt[3]{1950})^{2} \\\\ \\approx 624.3331554 \\pi \\mathrm{~cm}^{2} \\\\ <770 \\pi \\mathrm{~cm}^{2}\\) ∴ No. The total surface area of the sphere does not exceed that of frustum \\( Y \\).",
-          "solutionZh": "（a）A_x:(A_x+A_y):(A_x+A_y+A_z) = 1:9:16。A_x:A_y:A_z = 1:8:7。π(20)l×8/16 = 520π，l = 52。高 = 48。\n（b）Y = (1/3)π(20)²(48)×(27−1)/64 = 2600π。\n（c）Y 總面積 = 770π。(4/3)πr³ = 2600π，r = ∛1950。球面積 ≈ 624π < 770π，不超過。",
+          "solutionZh": "（a）\\(A_x\\):(\\(A_x\\)+\\(A_y\\)):(\\(A_x\\)+\\(A_y\\)+\\(A_z\\)) = 1:9:16。\\(A_x\\):\\(A_y\\):\\(A_z\\) = 1:8:7。π(20)l×8/16 = 520π，l = 52。高 = 48。\n（b）Y = (1/3)π(20)²(48)×(27−1)/64 = 2600π。\n（c）Y 總面積 = 770π。(4/3)πr³ = 2600π，r = ∛1950。球面積 ≈ 624π < 770π，不超過。",
           "id": "import-mensuration-mens-l083",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -7341,7 +7389,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。",
           "solution": "14. (a) Let \\(h\\) cm be the height of the circular cone. Since each sphere has radius \\(6\\) cm, \\[\\frac{1}{3}\\pi(24)^2h=30\\left(\\frac{4}{3}\\pi(6)^3\\right).\\] Therefore \\[192\\pi h=8640\\pi,\\] so \\[ h=45. \\] The height of the circular cone is \\(45\\) cm. (b)(i) Since \\(V_X:V_{\\text{whole cone}}=1:(1+7)=1:8\\), the linear scale factor of cone \\(X\\) to the whole cone is \\(\\sqrt[3]{\\frac{1}{8}}=\\frac{1}{2}.\\) The slant height of the whole cone is \\(\\sqrt{24^2+45^2}=51\\text{ cm}.\\) The curved surface area of the whole cone is \\(\\pi(24)(51)=1224\\pi.\\) The curved surface area of cone \\(X\\) is \\(\\left(\\frac{1}{2}\\right)^2(1224\\pi)=306\\pi.\\) Hence the curved surface area of frustum \\(Y\\) is \\(1224\\pi-306\\pi=918\\pi\\text{ cm}^2.\\) (ii) The base radius of \\(X\\) is \\(12\\) cm. Thus the total surface area of \\(X\\) is \\[306\\pi+\\pi(12)^2=450\\pi.\\] The total surface area of \\(Y\\) is \\[918\\pi+\\pi(12)^2+\\pi(24)^2=1638\\pi.\\] Therefore the required ratio is \\[450\\pi:1638\\pi=25:91.\\]",
-          "solutionZh": "（a）(1/3)π(24)²h = 30(4/3)π(6)³，h = 45。\n（b）（i）V_X:V_整 = 1:8，線性比 1:2。",
+          "solutionZh": "（a）(1/3)π(24)²h = 30(4/3)π(6)³，h = 45。\n（b）（i）\\(V_X\\):V_整 = 1:8，線性比 1:2。",
           "id": "import-mensuration-mens-l087",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -7604,8 +7652,8 @@
           "stemZh": "14. 一個實心金屬直立圓錐的高及底半徑分別為 \\(72\\) cm 及 \\(21\\) cm。沿一個平行於底面、距底 \\(24\\) cm 的平面把圓錐切成一個小圓錐及一個截頭錐 \\(F\\)。\n\n(a) 以 \\(\\pi\\) 求截頭錐 \\(F\\) 的體積。（3 分）\n\n(b) 以 \\(\\pi\\) 求截頭錐 \\(F\\) 的總表面積。（3 分）\n\n(c) 將截頭錐 \\(F\\) 熔化重鑄成四個相同實心立方體。四個立方體的總表面積是否超過 \\(F\\) 的總表面積？試解釋你的答案。（3 分）",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。",
-          "solution": "14. (a) \\[\\text{Volume of }F =\\frac{1}{3}\\pi(21^2)(72)\\left[1-\\left(\\frac{72-24}{72}\\right)^3\\right].\\] \\[=10584\\pi\\left[1-\\left(\\frac{2}{3}\\right)^3\\right] =7448\\pi\\text{ cm}^3.\\] ------------------(3) (b) \\[\\text{Total surface area of }F =\\pi(21)\\sqrt{21^2+72^2}\\left[1-\\left(\\frac{72-24}{72}\\right)^2\\right] +\\pi(21)^2+\\pi\\left[21\\left(\\frac{72-24}{72}\\right)\\right]^2.\\] \\[=1512\\pi\\text{ cm}^2.\\] ------------------(3) (c) Let x cm be the side length of each cube. \\[4x^3=7448\\pi.\\] \\[x^3=1862\\pi,\\) so \\(x=\\sqrt[3]{1862\\pi}.\\] The total surface area of the four cubes is \\(4\\times 6\\left(\\sqrt[3]{1862\\pi}\\right)^2\\text{ cm}^2\\) \\[\\approx 7791.677009\\text{ cm}^2.\\] The total surface area of F is \\(1512\\pi\\text{ cm}^2\\approx 4750.088092\\text{ cm}^2.\\) Therefore, the total surface area of the four cubes exceeds the total surface area of F. ------------------(3)",
-          "solutionZh": "（a）V_F = (1/3)π(21)²(72)[1−(2/3)³] = 7448π。\n（b）總面積 = 1512π。",
+          "solution": "(a) The removed cone has height 48 cm and radius 14 cm. Thus \\(V_F=\\pi[(21)^2(72)-(14)^2(48)]/3=7448\\pi\\text{ cm}^3\\).\n(b) Original and small slant heights are 75 and 50 cm. The frustum curved area is \\(\\pi(21+14)(25)=875\\pi\\). Add both circular faces to get \\(875\\pi+441\\pi+196\\pi=1512\\pi\\text{ cm}^2\\).\n(c) Each cube has volume \\(1862\\pi\\text{ cm}^3\\). Total cube area is \\(24(1862\\pi)^{2/3}\\approx7791.7\\text{ cm}^2\\), exceeding \\(1512\\pi\\approx4750.1\\text{ cm}^2\\). Yes.",
+          "solutionZh": "(a) 切去的小圓錐高 48 cm、半徑 14 cm。故 \\(V_F=\\pi[(21)^2(72)-(14)^2(48)]/3=7448\\pi\\text{ cm}^3\\)。\n(b) 大、小圓錐斜高分別為 75、50 cm。截頭錐曲面積為 \\(\\pi(21+14)(25)=875\\pi\\)。加上兩個底面，總表面積為 \\(875\\pi+441\\pi+196\\pi=1512\\pi\\text{ cm}^2\\)。\n(c) 每個立方體體積為 \\(1862\\pi\\text{ cm}^3\\)。四個立方體總表面積為 \\(24(1862\\pi)^{2/3}\\approx7791.7\\text{ cm}^2\\)，大於 \\(1512\\pi\\approx4750.1\\text{ cm}^2\\)，所以是。",
           "id": "import-mensuration-mens-l095",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -7633,7 +7681,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Repair mixed delimiters and complete missing Chinese part (c), preserving exact values.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "14. The height and the base radius of a solid metal right circular cone are 72 cm and 21 cm respectively. The cone is cut by a plane parallel to its base at a height of 24 cm from the base, dividing it into a smaller cone and a frustum \\(F\\).\n\n(a) Find the volume of the frustum \\(F\\) in terms of \\(\\pi\\).\n\n(b) Find the total surface area of the frustum \\(F\\) in terms of \\(\\pi\\).\n\n(c) The frustum \\(F\\) is melted and recast into four identical solid cubes. Does the total surface area of the four cubes exceed the total surface area of \\(F\\) ? Explain your answer.\n(3 marks)",
@@ -7893,7 +7945,7 @@
           "hint": "Sphere: V = (4/3)πr³, S = 4πr². Water displaced = object volume.",
           "hintZh": "球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
           "solution": "14. A metallic sphere of diameter 10 cm is melted and recast into 2 similar right circular cones. A and B. (a) Find the total surface area and volume of the sphere in terms of \\( \\pi \\). ◯ (2 marks) (b) It is given that the base radius and the height of \\( A \\) are 5 cm and 12 cm respoctively (i) Find the volume of \\( B \\) in terms of \\( \\pi \\). (ii) Jula claims that the total surface area after recasting increases by over \\( 50 \\% \\). Do you agree? Explain your answer. ( 6 marks)",
-          "solutionZh": "（a）球半徑 5。面積 = 100π，體積 = 500π/3。\n（b）（i）A = (1/3)π(5)²(12) = 100π。B = 500π/3 − 100π = 200π/3。\n（b）（ii）A、B 相似，V_A:V_B = 3:2，線性比 ∛(3/2)。A 斜高 13，曲面 65π，底面 25π，總面積 90π。B 線性比 = ∛(2/3)，B 總面積 = 90π×(2/3)^(2/3) ≈ 63.44π。兩錐總面積 ≈ 153.44π。增加 = (153.44π−100π)/100π ≈ 53.44% > 50%，同意。",
+          "solutionZh": "（a）球半徑 5。面積 = 100π，體積 = 500π/3。\n（b）（i）A = (1/3)π(5)²(12) = 100π。B = 500π/3 − 100π = 200π/3。\n（b）（ii）A、B 相似，\\(V_A\\):\\(V_B\\) = 3:2，線性比 ∛(3/2)。A 斜高 13，曲面 65π，底面 25π，總面積 90π。B 線性比 = ∛(2/3)，B 總面積 = 90π×(2/3)^(2/3) ≈ 63.44π。兩錐總面積 ≈ 153.44π。增加 = (153.44π−100π)/100π ≈ 53.44% > 50%，同意。",
           "id": "import-mensuration-mens-l103",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -7964,8 +8016,8 @@
           "stemZh": "13. 一個半徑 \\(12\\) cm 的實心金屬半球熔化後，重鑄成兩個實心金屬直立圓錐 \\(X\\) 及 \\(Y\\)。\\(X\\) 的底半徑及曲面面積分別為 \\(8\\) cm 及 \\(80\\pi\\text{ cm}^2\\)。\n\n(a) 求半球的體積。\n\n(b) 求 \\(X\\) 的體積。\n\n(c) 設 \\(Y\\) 的底半徑為 \\(16\\) cm。Mr. Yip 聲稱若 \\(Y\\) 被一個平行於底面的平面分成兩部分，上部可與 \\(X\\) 完全相同。你是否同意？試解釋你的答案。",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n重鑄前後體積不變。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
-          "solution": "13. (a) volume of the hemisphere \\(=\\frac{1}{2} \\times \\frac{4}{3} \\pi(12)^{3}\\) \\[ =1152 \\pi \\mathrm{~cm}^{3} \\\\ \\approx 3620 \\mathrm{~cm}^{3}\\] (b) slant height of \\(X =\\frac{80 \\pi}{\\pi(8)}\\) \\[ =10 \\mathrm{~cm} \\\\ \\text { height of } X =\\sqrt{10^{2}-8^{2}} \\\\ =6 \\mathrm{~cm} \\\\ \\therefore \\text { volume of } X =\\frac{1}{3} \\pi(8)^{2}(6) \\\\ =128 \\pi \\mathrm{~cm}^{3} \\\\ \\approx 402 \\mathrm{~cm}^{3}\\] (c) volume of \\(Y=1152 \\pi-128 \\pi=1024 \\pi\\) height of \\(Y=\\frac{1024 \\pi}{\\frac{1}{3} \\pi(16)^{2}}=12\\) Note that \\(\\frac{\\text { volume of } Y}{\\text { volume of } X}=\\frac{1024 \\pi}{128 \\pi}=\\frac{8}{1}\\) and \\( \\frac{\\text { radius of } Y}{\\text { radius of } X}=\\frac{16}{8}=\\frac{2}{1}\\) As \\(\\frac{\\text { volume of } Y}{\\text { volume of } X}=\\left(\\frac{\\text { radius of } Y}{\\text { radius of } X}\\right)^{3}\\) \\[\\therefore Y\\) is similar to \\(X\\] As volume of \\(Y>\\) volume of \\(X\\), i.e. the upper part can be identical to \\(X\\). \\(\\therefore \\) Mr. Yip's claim is correct. f.t. volume of \\(Y =1152 \\pi-128 \\pi=1024 \\pi\\) height of \\(Y =\\frac{1024 \\pi}{\\frac{1}{3} \\pi(16)^{2}}=12\\) Note that \\(\\frac{\\text { height of } Y}{\\text { height of } X}=\\frac{12}{6}=\\frac{2}{1}\\) and \\[\\frac{\\text { radius of } Y}{\\text { radius of } X}=\\frac{16}{8}=\\frac{2}{1}\\] As \\(\\frac{\\text { height of } Y}{\\text { height of } X}=\\frac{\\text { radius of } Y}{\\text { radius of } X}\\) \\(\\therefore Y\\) is similar to \\(X\\) As height of \\(Y>\\) height of \\(X, \\) (or radius of \\(Y>\\) radius of \\(X\\) ) i.e. the upper part can be identical to \\(X\\). \\(\\therefore \\) Mr. Yip's claim is correct. f.t.",
-          "solutionZh": "（a）半球 = 1152π。\n（b）X 斜高 = 10，高 = 6。X = 128π。\n（c）Y = 1024π，高 = 12。",
+          "solution": "(a) Hemisphere volume is \\(2\\pi(12)^3/3=1152\\pi\\text{ cm}^3\\).\n(b) From \\(\\pi(8)l=80\\pi\\), l = 10 cm. The height of X is \\(\\sqrt{10^2-8^2}=6\\) cm, and its volume is \\(128\\pi\\text{ cm}^3\\).\n(c) Y has volume \\(1152\\pi-128\\pi=1024\\pi\\text{ cm}^3\\). With radius 16 cm its height is 12 cm. Thus radius and height of Y are both twice those of X. A parallel cut halfway down from the apex of Y produces an upper cone with radius 8 cm and height 6 cm, identical to X. Agree.",
+          "solutionZh": "(a) 半球體積為 \\(2\\pi(12)^3/3=1152\\pi\\text{ cm}^3\\)。\n(b) 由 \\(\\pi(8)l=80\\pi\\) 得斜高 10 cm。X 高為 \\(\\sqrt{10^2-8^2}=6\\) cm，體積為 \\(128\\pi\\text{ cm}^3\\)。\n(c) Y 體積為 \\(1024\\pi\\text{ cm}^3\\)。由底半徑 16 cm 得高 12 cm。因此 Y 的半徑及高均為 X 的兩倍。在距頂點 6 cm 處作平行於底面的切割，上方小圓錐的半徑為 8 cm、高為 6 cm，與 X 全等，所以同意。",
           "id": "import-mensuration-mens-l105",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -7993,15 +8045,19 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Replace broken source delimiters and complete the actual cut-and-congruence argument in part (c).",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "12. The radii of two solid metal spheres are 4 cm and 8 cm respectively. They are melted and recast into a solid right circular cone X. It is given that the height of X is 16 cm.\n\n(a) Find the base radius of X. (2 marks)\n\n(b) Express the total surface area of X in terms of \\(\\pi\\). (3 marks)\n\n(c) X is divided into a circular cone Y and a frustum Z by a plane parallel to its base. The volume of Z is 7 times the volume of Y. Someone claims that the total surface area of Z is greater than the total surface area of X. Do you agree? Explain your answer. (3 marks)",
           "stemZh": "12. 兩個實心金屬球的半徑分別為 \\(4\\) cm 及 \\(8\\) cm，熔化後重鑄成一個實心直立圓錐 \\(X\\)。已知 \\(X\\) 的高為 \\(16\\) cm。\n\n(a) 求 \\(X\\) 的底半徑。（2 分）\n\n(b) 以 \\(\\pi\\) 求 \\(X\\) 的總表面積。（3 分）\n\n(c) \\(X\\) 被一個平行於底面的平面分成一個圓錐 \\(Y\\) 及一個截頭錐 \\(Z\\)。\\(Z\\) 的體積為 \\(Y\\) 的 \\(7\\) 倍。某人聲稱 \\(Z\\) 的總表面積大於 \\(X\\) 的總表面積。你是否同意？試解釋你的答案。（3 分）",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
-          "solution": "12. (a) Let r cm be the base radius of X. \\[\\frac{4}{3}\\pi(4)^3+\\frac{4}{3}\\pi(8)^3=\\frac{1}{3}\\pi r^2(16).\\] \\[304=16r^2,\\) so \\(r^2=144.\\] \\(r=12\\) or \\(-12\\) (rejected). Therefore, the base radius of X is 12 cm. ------------------(2) (b) Let \\(\\ell\\) cm be the slant height of X. \\[\\ell=\\sqrt{12^2+16^2}=20.\\] The total surface area of X is \\(\\pi(12)^2+\\pi(12)(20)=384\\pi\\text{ cm}^2.\\) ------------------(3) (c) Since the volume of Z is 7 times the volume of Y, the volume of X is 8 times the volume of Y. Hence the linear scale factor from Y to X is \\(1:2\\). The radius and slant height of Y are 6 cm and 10 cm respectively. The total surface area of Z is \\(\\pi(12)(20)-\\pi(6)(10)+\\pi(12)^2+\\pi(6)^2.\\) \\[=240\\pi-60\\pi+144\\pi+36\\pi =360\\pi\\text{ cm}^2.\\] Since \\(360\\pi<384\\pi,\\) the claim is disagreed. ------------------(3)",
-          "solutionZh": "（a）(4/3)π(4)³ + (4/3)π(8)³ = (1/3)πr²(16)，r = 12。\n（b）斜高 20。總面積 = 384π。",
+          "solution": "(a) Conservation of volume gives \\(\\frac43\\pi(4^3+8^3)=\\frac13\\pi r^2(16)\\). Thus \\(16r^2=2304\\), giving r = 12 cm.\n(b) Slant height is 20 cm, so total area is \\(\\pi(12)(20)+\\pi(12)^2=384\\pi\\text{ cm}^2\\).\n(c) Y is one eighth of the original volume, so its radius and slant height are 6 and 10 cm. Z has curved area \\(\\pi(12)(20)-\\pi(6)(10)=180\\pi\\). Its two plane faces have total area \\(\\pi(12)^2+\\pi(6)^2=180\\pi\\). Thus its total area is \\(360\\pi\\text{ cm}^2\\), less than \\(384\\pi\\text{ cm}^2\\). Disagree.",
+          "solutionZh": "(a) 由體積守恆，\\(\\frac43\\pi(4^3+8^3)=\\frac13\\pi r^2(16)\\)。所以 \\(16r^2=2304\\)，得 r = 12 cm。\n(b) 斜高為 20 cm，總表面積為 \\(\\pi(12)(20)+\\pi(12)^2=384\\pi\\text{ cm}^2\\)。\n(c) Y 體積是原來的八分之一，半徑及斜高分別為 6、10 cm。Z 曲面積為 \\(180\\pi\\)，兩個底面面積和亦為 \\(180\\pi\\)。故 Z 總表面積為 \\(360\\pi\\text{ cm}^2\\)，小於原來的 \\(384\\pi\\text{ cm}^2\\)，所以不同意。",
           "id": "import-mensuration-mens-l106",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -8029,7 +8085,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Correct the OCR equation 304=16r² to 2304=16r² and complete omitted Chinese part (c).",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "12. 42 identical solid metal spheres with radius 6 cm are melted and recast into 2 similar solid right circular cones. The ratio of the height of the smaller circular cone to the height of the larger circular cone is \\(1: 3\\).\n\n(a) Find the volume of the larger circular cone in terms of \\(\\pi\\).\n\n(b) If the base radius of the larger circular cone is 36 cm , find the total surface area of the smaller circular cone in terms of \\(\\pi\\).",
@@ -8073,7 +8133,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n圓柱：體積 \\(\\pi r^2 h\\)，曲面 \\(2\\pi r h\\)。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
           "solution": "13. A metal circular cone \\(X\\) with height 20 cm was melted and recast into another metal circular cone \\(Y\\) and a metal circular cylinder \\(Z\\). It is given that \\(X\\) and \\(Y\\) are similar. The volume of \\(Z\\) is \\(1176 \\pi \\mathrm{~cm}^{3}\\) and its base radius is 7 cm . The height of \\(Z\\) is equal to twice the height of \\(Y\\). (a) Find the height of \\(Z\\). (b) Find the base radius of \\(Y\\). (c) Someone claims that the sum of the curved surface area of \\(Y\\) and the curved surface area of \\(Z\\) is greater than the curved surface area of \\(X\\). Do you agree? Explain your answer. (a) Let \\(h \\mathrm{~cm}\\) be the height of \\(Z\\). \\[\\pi(7)^{2} \\times h =1176 \\pi \\\\ h =24\\] The height of \\(Z\\) is 24 cm . (b) The height of \\(Y\\) is \\(\\frac{1}{2} \\times 24=12 \\mathrm{~cm}\\). Let \\(V \\mathrm{~cm}^{3}\\) be the volume of \\(Y\\). \\( \\frac{\\text { volume of } Y}{\\text { volume of } X}=\\left(\\frac{12}{20}\\right)^{3} \\\\ \\frac{V \\mathrm{~cm}^{3}}{\\text { volume of } X}=\\frac{27}{125} \\\\ \\text { volume of } X=\\frac{125}{27} \\mathrm{Vcm}^{3}\\) volume of \\(X=\\) volume of \\(Y+\\) volume of \\(Z\\) \\(\\frac{125}{27} V =V+1176 \\pi \\\\ \\frac{98}{27} V =1176 \\pi \\\\ V =324 \\pi\\) Let \\(r \\mathrm{~cm}\\) be the base radius of \\(Y\\). The base radius of \\(Y\\) is 9 cm . \\(\\frac{1}{3} \\times \\pi(r)^{2} \\times 12 =324 \\pi \\\\ r =9\\) 13. [Continued] (c) base radius of \\(X\\) \\[=\\left(\\frac{20}{12}\\right)(9)\\] \\[=15 \\mathrm{~cm}\\] the curved surface area of \\(X\\) \\[ =\\pi(15)\\left(\\sqrt{20^{2}+15^{2}}\\right) \\mathrm{cm}^{2} \\\\ =375 \\pi \\mathrm{~cm}^{2}\\] the curved surface area of \\(Y\\) \\[=\\pi(9)\\left(\\sqrt{12^{2}+9^{2}}\\right) \\mathrm{cm}^{2}\\] \\[=135 \\pi \\mathrm{~cm}^{2}\\] the curved surface area of \\(Z\\) \\[=2 \\pi(7)(24) \\mathrm{cm}^{2}\\] \\[=336 \\pi \\mathrm{~cm}^{2}\\] The total sum of curved surface area of \\(Y\\) and \\(Z\\) \\(=135 \\pi+336 \\pi \\mathrm{~cm}^{2}\\) \\(=471 \\pi \\mathrm{~cm}^{2}\\) \\(>375 \\pi \\mathrm{~cm}^{2}\\) ∴ The claim is agreed.",
-          "solutionZh": "（a）(1/3)π(7)²H_Z = 1176π，H_Z = 24。Y 高 = 12。\n（b）X 與 Y 相似。X 高 20，Y 高 12，線性比 3/5。V_X = (1/3)πr²(20) = 1176π + V_Y。V_Y = (1/3)π(3r/5)²(12)。解得 r = 20，Y 半徑 = 12。\n（c）Y 曲面 = π(12)(15) = 180π。Z 曲面 = 2π(7)(24) = 336π。X 曲面 = π(20)(25) = 500π。180π + 336π = 516π > 500π，同意。",
+          "solutionZh": "（a）(1/3)π(7)²\\(H_Z\\) = 1176π，\\(H_Z\\) = 24。Y 高 = 12。\n（b）X 與 Y 相似。X 高 20，Y 高 12，線性比 3/5。\\(V_X\\) = (1/3)πr²(20) = 1176π + \\(V_Y\\)。\\(V_Y\\) = (1/3)π(3r/5)²(12)。解得 r = 20，Y 半徑 = 12。\n（c）Y 曲面 = π(12)(15) = 180π。Z 曲面 = 2π(7)(24) = 336π。X 曲面 = π(20)(25) = 500π。180π + 336π = 516π > 500π，同意。",
           "id": "import-mensuration-mens-l108",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -8217,7 +8277,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n重鑄前後體積不變。",
           "solution": "12. (a) Let \\(h\\) cm be the height of the circular cone. By conservation of volume, \\[\\frac13\\pi(18)^2h=9\\left(\\frac43\\pi(6)^3\\right).\\] Hence \\[108\\pi h=2592\\pi,\\] so \\[ h=24. \\] Therefore, the height of the circular cone is \\(24\\) cm. (b) The volume ratio is \\[V_X:V_Y=8:19,\\] so \\[V_X:V_{\\text{whole cone}}=8:27.\\] Thus the linear scale factor from \\(X\\) to the whole cone is \\[\\sqrt[3]{\\frac8{27}}=\\frac23.\\] The slant height of the whole cone is \\[\\sqrt{18^2+24^2}=30.\\] Hence the radius and slant height of the smaller cone \\(X\\) are \\[12 \\text{and} 20\\] respectively. Therefore, the curved surface area of the frustum \\(Y\\) is \\[\\pi(18+12)(30-20)=300\\pi.\\]",
-          "solutionZh": "（a）(1/3)π(18)²h = 9(4/3)π(6)³，h = 24。\n（b）V_X:V_Y = 8:19，V_X:V_整 = 8:27。線性比 2:3。",
+          "solutionZh": "（a）(1/3)π(18)²h = 9(4/3)π(6)³，h = 24。\n（b）\\(V_X\\):\\(V_Y\\) = 8:19，\\(V_X\\):V_整 = 8:27。線性比 2:3。",
           "id": "import-mensuration-mens-l112",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -8541,7 +8601,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。",
           "solution": "(a) Let the base radius of \\(X\\) be \\(r\\) cm. Then the height of \\(X\\) is \\(\\frac r3\\). Hence \\[\\frac13\\pi r^2\\left(\\frac r3\\right)+\\frac43\\pi r^3=4875\\pi.\\] So \\[\\frac{13}{9}r^3=4875,\\qquad r^3=3375,\\qquad r=\\boxed{15}.\\] (b) The volume of \\(X\\) is \\[\\frac13\\pi(15)^2(5)=375\\pi.\\] The volume of \\(Z\\) is equal to the volume of \\(Y\\), which is \\[\\frac43\\pi(15)^3=4500\\pi.\\] Thus \\[\\frac{V_Z}{V_X}=12.\\] If \\(X\\) and \\(Z\\) were similar, their curved surface area ratio would be \\[12^{2/3}.\\] The curved surface area of \\(X\\) is \\[\\pi(15)\\sqrt{15^2+5^2}=75\\pi\\sqrt{10}.\\] But \\[\\frac{3000}{75\\pi\\sqrt{10}}\\ne 12^{2/3}.\\] Therefore, \\(X\\) and \\(Z\\) are not similar.",
-          "solutionZh": "（a）X 高 r/3：\n\\[\n\\frac13\\pi r^2\\left(\\frac r3\\right)+\\frac43\\pi r^3=4875\\pi,\\quad r=15.\n\\]\n（b）X = 375π，Z = 4500π。V_Z/V_X = 12。",
+          "solutionZh": "（a）X 高 r/3：\n\\[\n\\frac13\\pi r^2\\left(\\frac r3\\right)+\\frac43\\pi r^3=4875\\pi,\\quad r=15.\n\\]\n（b）X = 375π，Z = 4500π。\\(V_Z\\)/\\(V_X\\) = 12。",
           "id": "import-mensuration-mens-l121",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -8577,7 +8637,7 @@
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。",
           "solution": "(a) The height of cone \\(Q\\) is \\(40-16=24\\) cm. By similarity, \\[\\frac{r_Q}{75}=\\frac{24}{40},\\] so \\(r_Q=45\\) cm. The slant heights of the original cone and \\(Q\\) are \\(85\\) cm and \\(51\\) cm respectively. Hence the curved surface area of \\(P\\) is \\(\\pi(75)(85)-\\pi(45)(51)=4080\\pi.\\) Therefore, the total surface area of \\(P\\) is \\(4080\\pi+\\pi(75)^2+\\pi(45)^2=\\boxed{11730\\pi\\ \\text{cm}^2}.\\) (b) The volume of \\(P\\) is \\[\\frac13\\pi(75)^2(40)-\\frac13\\pi(45)^2(24)=58800\\pi.\\] If \\(P\\) and \\(R\\) were similar, then \\[\\frac{V_P}{V_R}=\\left(\\frac{16}{7}\\right)^3=\\frac{4096}{343}.\\] However, \\[\\frac{V_P}{V_R}=\\frac{58800\\pi}{7350\\pi}=8.\\] Since \\(8\\ne\\frac{4096}{343}\\), \\(P\\) and \\(R\\) are not similar.",
-          "solutionZh": "（a）Q 高 24，半徑 45。原斜高 85，Q 斜高 51。P 曲面 = 4080π。總面積 = 11730π。\n（b）P = 58800π。若 P、R 相似，體積比應為 (16/7)³ = 4096/343。但 V_P/V_R = 8 ≠ 4096/343，不相似。",
+          "solutionZh": "（a）Q 高 24，半徑 45。原斜高 85，Q 斜高 51。P 曲面 = 4080π。總面積 = 11730π。\n（b）P = 58800π。若 P、R 相似，體積比應為 (16/7)³ = 4096/343。但 \\(V_P\\)/\\(V_R\\) = 8 ≠ 4096/343，不相似。",
           "id": "import-mensuration-mens-l122",
           "subcategory": "similar-solids",
           "skill": "mens-prove-similarity",
@@ -8729,12 +8789,12 @@
           "assessmentMode": "solution-comparison"
         },
         {
-          "stem": "14. There are two similar solid metalic cylinders \\( X \\) and \\( Y \\). The ratio of the curved surface area of \\( X \\) to the curved surface area of \\( Y \\) is \\( 16: 25 \\). The volume of \\( X \\) is \\( 6144 \\pi \\mathrm{~cm}^{3} \\).\n\n(a) Express, in terms of \\( \\pi \\), the volume of \\( Y \\).\n(3 marks)\n\n(b) The two cylinders are melted and recast into two solid right circular cones. Denote these two circular cones by \\( A \\) and \\( B \\). The height and the base radius of \\( A \\) are 42 cm and 12 cm respectively. It is given that the height of \\( B \\) is 84 cm . Are \\( A \\) and \\( B \\) similar? Explain your answer.\n(4 marks)\nPage 15 of 29\nPage 16 of 29",
+          "stem": "14. There are two similar solid metalic cylinders \\( X \\) and \\( Y \\). The ratio of the curved surface area of \\( X \\) to the curved surface area of \\( Y \\) is \\( 16: 25 \\). The volume of \\( X \\) is \\( 6144 \\pi \\mathrm{~cm}^{3} \\).\n\n(a) Express, in terms of \\( \\pi \\), the volume of \\( Y \\).\n(3 marks)\n\n(b) The two cylinders are melted and recast into two solid right circular cones. Denote these two circular cones by \\( A \\) and \\( B \\). The height and the base radius of \\( A \\) are 42 cm and 12 cm respectively. It is given that the height of \\( B \\) is 84 cm . Are \\( A \\) and \\( B \\) similar? Explain your answer.\n(4 marks)",
           "stemZh": "14. 有兩個相似的實心金屬圓柱 \\(X\\) 及 \\(Y\\)。\\(X\\) 與 \\(Y\\) 的曲面面積比為 \\(16:25\\)，\\(X\\) 的體積為 \\(6144\\pi\\text{ cm}^3\\)。\n\n(a) 以 \\(\\pi\\) 求 \\(Y\\) 的體積。（3 分）\n\n(b) 兩圓柱熔化後重鑄成兩個實心直立圓錐，記為 \\(A\\) 及 \\(B\\)。\\(A\\) 的高及底半徑分別為 \\(42\\) cm 及 \\(12\\) cm，已知 \\(B\\) 的高為 \\(84\\) cm。\\(A\\) 與 \\(B\\) 是否相似？試解釋你的答案。（4 分）",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n圓柱：體積 \\(\\pi r^2 h\\)，曲面 \\(2\\pi r h\\)。\n重鑄前後體積不變。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。",
-          "solution": "14. There are two similar solid metalic cylinders \\( X \\) and \\( Y \\). The ratio of the curved surface area of \\( X \\) to the curved surface area of \\( Y \\) is \\( 16: 25 \\). The volume of \\( X \\) is \\( 6144 \\pi \\mathrm{~cm}^{3} \\). (a) Express, in terms of \\( \\pi \\), the volume of \\( Y \\). (3 marks) (b) The two cylinders are melted and recast into two solid right circular cones. Denote these two circular cones by \\( A \\) and \\( B \\). The height and the base radius of \\( A \\) are 42 cm and 12 cm respectively. It is given that the height of \\( B \\) is 84 cm . Are \\( A \\) and \\( B \\) similar? Explain your answer. (4 marks) (a) \\[\\frac{\\text { Volume of } Y}{\\text { Volume of } X} =(\\sqrt{25})^{3}-1 \\mathrm{M} \\\\ \\text { Volume of } Y =\\frac{125}{64}(6144 \\pi) \\mathrm{cm}^{3}-1 \\mathrm{M} \\\\ =1200 \\pi \\mathrm{~cm}^{3}-1 \\mathrm{~A}\\] (b) Volume of \\( A=\\frac{1}{3} \\pi(12)^{2} \\) (42) Let \\( r \\mathrm{~cm} \\) be the base radius of \\( B \\). missing unit ✓ \\(\\frac{1}{3} \\pi r^{2}(84) =16128 \\pi \\\\ r =24\\) \\[ -1 A \\] (b) Volume \\[\\text { of } A =\\frac{1}{3} \\pi(12)^{2}(42) \\\\ =2016 \\pi \\mathrm{~cm}^{3}-1 A \\\\ \\text { of } B =(6144 \\pi+12000 \\pi-2016 \\pi) \\mathrm{cm}^{3} \\\\ =16128 \\pi \\mathrm{~cm}^{3}\\] IA \\[ \\text { missing unit } \\checkmark \\frac{1}{3} \\pi r^{2}(84) =16128 \\pi \\\\ r =24 \\) \" \\(\\frac{\\text { Volume of } A}{\\text { Volume of } B}=\\frac{2016 \\pi}{16128 \\pi}=\\frac{1}{8} \\\\ \\frac{\\text { Base radius of } A}{\\text { Base radius of } B}=\\frac{12}{24}=\\frac{1}{2} \\\\ \\left(\\frac{\\text { Base radius of } A}{\\text { Base radius of } B}\\right)^{3}=\\left(\\frac{1}{2}\\right)^{3}=\\frac{1}{8}=\\frac{\\text { Volume of } A}{\\text { Volume of } B}\\] \\( \\therefore A \\) and \\( B \\) are similar 1 A f.t",
-          "solutionZh": "曲面比 16:25，線性比 4:5，體積比 64:125。\n（a）Y = 6144π×125/64 = 12000π。\n（b）A = 2016π。B = 16128π。(1/3)πr²(84) = 16128π，r = 24。V_A/V_B = 1/8 = (12/24)³，A、B 相似。",
+          "solution": "(a) The cylinder length ratio X:Y is 4:5 and volume ratio 64:125. Thus \\(V_Y=6144\\pi(125/64)=12000\\pi\\text{ cm}^3\\).\n(b) The total recast volume is \\(18144\\pi\\text{ cm}^3\\). Cone A has volume \\(\\pi(12)^2(42)/3=2016\\pi\\text{ cm}^3\\), so B has volume \\(16128\\pi\\text{ cm}^3\\). From \\(\\pi r^2(84)/3=16128\\pi\\), r = 24 cm. Radius ratio A:B = 12:24 = 1:2, equal to height ratio 42:84, so they are similar.",
+          "solutionZh": "(a) X:Y 長度比為 4:5，體積比為 64:125。故 \\(V_Y=6144\\pi(125/64)=12000\\pi\\text{ cm}^3\\)。\n(b) 重鑄後總體積為 \\(18144\\pi\\text{ cm}^3\\)。A 體積為 \\(2016\\pi\\text{ cm}^3\\)，所以 B 體積為 \\(16128\\pi\\text{ cm}^3\\)。由 \\(\\pi r^2(84)/3=16128\\pi\\) 得 r = 24 cm。半徑比 A:B = 12:24 = 1:2，等於高度比 42:84，因此兩圓錐相似。",
           "id": "import-mensuration-mens-l127",
           "subcategory": "recasting-splitting",
           "skill": "mens-volume-conservation",
@@ -8762,7 +8822,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Remove source page numbers, marking fragments and mismatched delimiters; show both cone dimensions for similarity.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "12. The height and the base radius of a solid right circular cone are 120 cm and 64 cm respectively. The circular cone is divided into three parts by two planes which are parallel to its base. The heights of the upper part, middle part and lower part of the cone are in the ratio \\(1:3:4\\).\n\n(a) Find the volume of the middle part of the cone in terms of \\(\\pi\\). (3 marks)\n\n(b) A frustum \\(X\\) has a height of 10 cm and a total surface area of \\(400\\pi\\text{ cm}^2\\). Are the middle part of the cone and the frustum \\(X\\) similar? Explain your answer. (4 marks)",
@@ -8841,8 +8905,8 @@
           "stemZh": "13. 一個實心直立圓錐的底半徑及高分別為 \\(75\\) cm 及 \\(40\\) cm。該圓錐被一個平行於底面的平面分成一個截頭錐 \\(P\\) 及一個直立圓錐 \\(Q\\)。已知 \\(Q\\) 的高為 \\(24\\) cm。\n\n(a) 以 \\(\\pi\\) 求 \\(P\\) 的總表面積。\n\n(b) 另一個實心直立圓錐被一個平行於底面的平面分成一個截頭錐 \\(R\\) 及一個直立圓錐 \\(S\\)。\\(R\\) 的高及體積分別為 \\(7\\) cm 及 \\(7350\\pi\\text{ cm}^3\\)。\\(P\\) 與 \\(R\\) 是否相似？試解釋你的答案。",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。",
-          "solution": "13. The base radius and the height of a solid right circular cone are 75 cm and 40 cm respectively. The cone is divided into a frustum \\(P\\) and a right circular cone \\(Q\\) by a plane which is parallel to its base. It is given that the height of \\(Q\\) is 24 cm . (a) Express, in terms of \\(\\pi\\), the total surface area of \\(P\\). (b) Another solid right circular cone is divided into a frustum \\(R\\) and a right circular cone \\(S\\) by a plane which is parallel to its base. The height and the volume of \\(R\\) are 7 cm and \\(7350 \\pi \\mathrm{~cm}^{3}\\) respectively. Are \\(P\\) and \\(R\\) similar? Explain your answer. (a) Let orm be the base \\[\\Sigma 7 =\\sqrt{24^{2}+45^{2}} \\\\ =51\\) (m shoul height) curved surface area of 0 curred surface area of whole \\(C=\\frac{12}{A_{c}}=\\left(\\frac{45}{75}\\right)^{2}\\) \\(A_{c} = =45.51\\left(\\frac{25}{9}\\right) \\text { } \\\\ =6375 \\pi \\text { curved curface } \\\\ \\text { area of amy } \\\\ \\text { cone/formstum) }\\] Total surface area of 8 \\( =6375 \\pi-\\pi 45 \\cdot 51+245^{2}+\\pi 75^{2} \\mathrm{~cm} \\text { (arred cor P+ } \\\\ =1730 \\pi \\mathrm{~cm}^{2} \\text { (A zcirdes) }\\)",
-          "solutionZh": "（a）Q 高 24、半徑 45。原斜高 85，Q 斜高 51，P 斜高 34。P 曲面 = 4080π。總面積 = 11730π。\n（b）R 高 7、體積 7350π。P 體積 = 58800π。體積比 8 ≠ (16/7)³ ≈ 11.94，不相似。",
+          "solution": "(a) The small cone has radius \\(75(24/40)=45\\) cm. The original and small slant heights are 85 and 51 cm, so the frustum slant height is 34 cm. Its curved area is \\(\\pi(75+45)(34)=4080\\pi\\text{ cm}^2\\). Including both circular faces, the total is \\(4080\\pi+\\pi(75)^2+\\pi(45)^2=11730\\pi\\text{ cm}^2\\).\n(b) P has height 16 cm and volume \\(\\pi[(75)^2(40)-(45)^2(24)]/3=58800\\pi\\text{ cm}^3\\). The volume ratio P:R is 8:1, so similarity would require a height ratio 2:1. The actual height ratio is 16:7. They are not similar.",
+          "solutionZh": "(a) 小圓錐半徑為 \\(75(24/40)=45\\) cm。大、小圓錐斜高分別為 85、51 cm，故截頭錐斜高為 34 cm。曲面積為 \\(\\pi(75+45)(34)=4080\\pi\\text{ cm}^2\\)。加上兩個圓形底面，總表面積為 \\(4080\\pi+\\pi(75)^2+\\pi(45)^2=11730\\pi\\text{ cm}^2\\)。\n(b) P 高為 16 cm，體積為 \\(58800\\pi\\text{ cm}^3\\)。P:R 體積比為 8:1，若相似則高度比應為 2:1，但實際為 16:7，所以不相似。",
           "id": "import-mensuration-mens-l130",
           "subcategory": "similar-solids",
           "skill": "mens-prove-similarity",
@@ -8870,7 +8934,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Replace unreadable OCR solution, restore missing part (b), and verify both exposed faces and similarity ratios.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "14. The slant height and the curved surface area of the solid metal right circular cone \\(X\\) are \\(85\\text{ cm}\\) and \\(3060\\pi\\text{ cm}^2\\) respectively.\n\n(a) Find the volume of \\(X\\) in terms of \\(\\pi\\).\n\n(b) \\(X\\) is melted and recast into two similar solid right circular cones \\(Y\\) and \\(Z\\). The ratio of the base area of \\(Y\\) to the base area of \\(Z\\) is \\(16:25\\).\n\n(i) Find the volume of \\(Z\\) in terms of \\(\\pi\\).\n(ii) It is found that the total surface area of \\(Z\\) is \\(3025\\pi\\text{ cm}^2\\). Are \\(X\\) and \\(Z\\) similar? Explain your answer.\n(9 marks)",
@@ -8913,7 +8981,7 @@
           "stemZh": "14. 一個實心直立錐體 \\(A\\) 的底面為邊長 \\(45\\) cm 的正方形，\\(A\\) 的體積為 \\(20250\\text{ cm}^3\\)。\n\n(a) 求錐體的高。（2 分）\n\n(b) 該錐體被一個平行於底面的平面分成一個截頭錐 \\(P\\) 及一個錐體 \\(Q\\)。已知 \\(P\\) 的體積為 \\(9882\\text{ cm}^3\\)。\n\n(i) 求 \\(Q\\) 的高。\n(ii) 求 \\(Q\\) 的總表面積。\n(iii) 另一個實心直立錐體 \\(X\\) 的底面為正方形，\\(X\\) 的高及總表面積分別為 \\(16\\) cm 及 \\(1024\\text{ cm}^2\\)。\\(Q\\) 與 \\(X\\) 是否相似？試解釋你的答案。\n（6 分）",
           "hint": "Similar solids: area ratio = k², volume ratio = k³.",
           "hintZh": "錐體：體積 \\(\\frac{1}{3}\\) × 底面積 × 高。\n截頭錐：大錐 - 細錐，用相似比例。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。",
-          "solution": "(a) \\(20250=\\frac13(45)^2H\\), hence \\(H=30\\) cm. There is no pi in a square pyramid volume.\n\n(b)(i) \\(V_Q=20250-9882=10368\\). The linear scale is \\((10368/20250)^{1/3}=4/5\\), so Q has height 24 cm and base side 36 cm.\n\n(ii) Face slant height \\(s=\\sqrt{24^2+18^2}=30\\) cm. Its total area is \\(36^2+4(\\frac12\\cdot36\\cdot30)=3456\\text{ cm}^2\\).\n\n(iii) If X and Q were similar, their height ratio would be \\(16/24=2/3\\), so X would have total area \\(3456(2/3)^2=1536\\text{ cm}^2\\). This differs from 1024, so they are not similar.",
+          "solution": "(a) \\(20250=\\frac13(45)^2H\\), hence \\(H=30\\) cm. There is no π in a square pyramid volume.\n\n(b)(i) \\(V_Q=20250-9882=10368\\). The linear scale is \\((10368/20250)^{1/3}=4/5\\), so Q has height 24 cm and base side 36 cm.\n\n(ii) Face slant height \\(s=\\sqrt{24^2+18^2}=30\\) cm. Its total area is \\(36^2+4(\\frac12\\cdot36\\cdot30)=3456\\text{ cm}^2\\).\n\n(iii) If X and Q were similar, their height ratio would be \\(16/24=2/3\\), so X would have total area \\(3456(2/3)^2=1536\\text{ cm}^2\\). This differs from 1024, so they are not similar.",
           "solutionZh": "(a) \\(20250=\\frac13(45)^2H\\)，得 \\(H=30\\) cm。正方形底錐體的體積公式沒有圓周率。\n\n(b)(i) \\(V_Q=20250-9882=10368\\)。長度比為 \\((10368/20250)^{1/3}=4/5\\)，所以 Q 高 24 cm、底邊長 36 cm。\n\n(ii) 側面斜高 \\(s=\\sqrt{24^2+18^2}=30\\) cm。總面積 \\(36^2+4(\\frac12\\cdot36\\cdot30)=3456\\text{ cm}^2\\)。\n\n(iii) 若 X 與 Q 相似，高度比為 \\(16/24=2/3\\)，則 X 的總面積應為 \\(3456(2/3)^2=1536\\text{ cm}^2\\)，並非 1024，故不相似。",
           "id": "import-mensuration-mens-l132",
           "subcategory": "similar-solids",
@@ -9033,8 +9101,8 @@
           "stemZh": "13. 一個實心直立圓錐的底半徑及高分別為 \\(20\\) cm 及 \\(48\\) cm。該圓錐被兩個平行於底面的平面分成一個截頭錐 \\(P\\)、一個截頭錐 \\(Q\\) 及一個圓錐 \\(R\\)。已知 \\(P\\) 與 \\(Q\\) 相似，\\(P\\) 的高 \\(12\\) cm 大於 \\(Q\\) 的高。\n\n(a) 以 \\(\\pi\\) 求 \\(P\\) 的體積。\n\n(b) 另一個實心直立圓錐被一個平行於底面的平面分成一個截頭錐 \\(S\\) 及一個圓錐 \\(T\\)。\\(S\\) 的高為 \\(16\\) cm，\\(S\\) 的總表面積等於 \\(P\\) 與 \\(Q\\) 的總表面積之和。\\(P\\) 與 \\(S\\) 是否相似？試解釋你的答案。",
           "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
           "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\n截頭錐：大錐 - 細錐，用相似比例。\n相似立體：面積比 \\(k^2\\)，體積比 \\(k^3\\)。",
-          "solution": "13. (a) The upper base radius of \\(P\\) \\(=20 \\times \\frac{48-12}{48} \\mathrm{~cm}\\) \n The volume of \\(P\\) \\(=\\frac{\\pi}{3}\\left[(20)^{2}(48)-(15)^{2}(48-12)\\right] \\mathrm{cm}^{3}\\) \n \\[=\\underline{\\underline{3700 \\pi \\mathrm{~cm}^{3}}}\\] } \n \n {*}{(b) Slant height of the original circle cone \\(P+Q+R\\) \\(=\\sqrt{20^{2}+48^{2}} \\mathrm{~cm}\\)} \n Total surface area of \\(P\\) \\( =\\pi\\left[(20)(52)-(15)\\left(52 \\times \\frac{48-12}{48}\\right)+20^{2}+15^{2}\\right] \\mathrm{cm}^{2} \\\\ =1080 \\pi \\mathrm{~cm}^{2}\\) \n {*}{Total surface area of \\(S =\\) Sum of the total surface areas of \\(P\\) and \\(Q\\) \\(=1080 \\pi\\left[1+\\left(\\frac{15}{20}\\right)^{2}\\right] \\mathrm{cm}^{2}\\)} \n \n {*}{\\(\\frac{\\text { Total surface area of } S}{\\text { Total surface area of } P}=\\frac{1687.5 \\pi}{1080 \\pi}=\\frac{25}{16}\\)} {*}{} \n {*}{} \n { } \n f.t.",
-          "solutionZh": "（a）P 上底半徑 15：\n\\[\nV_P=\\frac{\\pi}{3}[(20)^2(48)-(15)^2(36)]=3700\\pi.\n\\]\n（b）原斜高 52，P 斜高 13。總面積 = 1080π。",
+          "solution": "(a) P is the lower frustum because it is taller than the similar frustum Q. Its upper radius is \\(20(36/48)=15\\) cm. Thus \\(V_P=\\pi[(20)^2(48)-(15)^2(36)]/3=3700\\pi\\text{ cm}^3\\).\n(b) The original slant height is 52 cm, and P has slant height 13 cm. Its total surface area is \\(\\pi(20+15)(13)+\\pi(20)^2+\\pi(15)^2=1080\\pi\\text{ cm}^2\\). The length ratio Q:P is 3:4, so \\(A_Q/A_P=9/16\\) and \\(A_S/A_P=25/16\\). If S and P were similar, their height ratio would be 5:4. But their actual height ratio is 16:12 = 4:3. Therefore they are not similar.",
+          "solutionZh": "(a) P 比相似的 Q 高，所以 P 是下方的截頭錐。其上底半徑為 \\(20(36/48)=15\\) cm。因此 \\(V_P=\\pi[(20)^2(48)-(15)^2(36)]/3=3700\\pi\\text{ cm}^3\\)。\n(b) 原圓錐斜高為 52 cm，P 斜高為 13 cm。P 總表面積為 \\(\\pi(20+15)(13)+\\pi(20)^2+\\pi(15)^2=1080\\pi\\text{ cm}^2\\)。Q:P 長度比為 3:4，故面積比為 9:16，\\(A_S/A_P=25/16\\)。若 S 與 P 相似，則高度比應為 5:4，但實際高度比為 16:12 = 4:3，所以不相似。",
           "id": "import-mensuration-mens-l135",
           "subcategory": "similar-solids",
           "skill": "mens-prove-similarity",
@@ -9062,7 +9130,11 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "adaptation": {
+            "en": "Editorially reviewed edition: Replace OCR residue and finish the previously missing similarity conclusion in both languages.",
+            "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+          }
         },
         {
           "stem": "14. The base radius and the height of a solid right circular cone are 75 cm and 40 cm respectively. The cone is divided into a frustum \\(P\\) and a right circular cone \\(Q\\) by a plane which is parallel to its base. It is given that the height of \\(P\\) is 16 cm .\n\n(a) Express, in terms of \\(\\pi\\), the total surface area of \\(P\\).\n\n(b) Another solid right circular cone is divided into a frustum \\(R\\) and a right circular cone \\(S\\) by a plane which is parallel to its base. The height and the volume of \\(R\\) are 7 cm and \\(7350 \\pi \\mathrm{~cm}^{3}\\) respectively. Are \\(P\\) and \\(R\\) similar? Explain your answer.",

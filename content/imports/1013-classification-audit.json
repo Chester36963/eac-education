@@ -12915,9 +12915,12 @@
       "subcategory": "equal-points",
       "skill": "locus-perp-bisector",
       "classificationBasis": "equate squared distances to two points",
-      "reasons": [],
+      "reasons": [
+        "needs-original-equal-side-pairing"
+      ],
       "corrections": [],
-      "status": "published"
+      "status": "held",
+      "reviewNote": "The kite statement does not identify the pairs of equal adjacent sides. The supplied solution assumes OA=AB and OC=BC. The alternative OA=OC and AB=BC also permits C in quadrant IV and a different perpendicular bisector, so the question is underdetermined. Supply the original side markings; do not infer them from the answer."
     },
     {
       "id": "import-locus-3bd2495982b966ab",
@@ -13490,8 +13493,8 @@
     }
   ],
   "counts": {
-    "published": 817,
-    "held": 47,
+    "published": 816,
+    "held": 48,
     "duplicate": 34
   },
   "byTopic": {
@@ -13509,8 +13512,8 @@
       "duplicate": 7
     },
     "locus": {
-      "published": 219,
-      "held": 10,
+      "published": 218,
+      "held": 11,
       "duplicate": 25
     },
     "asgs": {
@@ -13531,6 +13534,7 @@
     "missing-optionsZh": 1,
     "missing-stem": 3,
     "missing-stemZh": 1,
-    "unbalanced-math-stem": 16
+    "unbalanced-math-stem": 16,
+    "needs-original-equal-side-pairing": 1
   }
 }

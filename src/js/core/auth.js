@@ -4,6 +4,16 @@
    ============================================================================ */
 
 const Auth = {
+  // A local study profile is the existing browser record, not a cloud account.
+  ensureLocalSession: function() {
+    const existing = Storage.getUser();
+    if (existing) {
+      sessionStorage.setItem('currentUserId', existing.id);
+      return existing;
+    }
+    const result = this.register('preview@example.invalid', crypto.randomUUID(), 'Student');
+    return result.success ? result.user : null;
+  },
   // Simple hash function for password (client-side)
   hashPassword: function(password) {
     let hash = 0;

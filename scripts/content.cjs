@@ -70,8 +70,18 @@ function validate(catalog,topics,skills,assetRoot=path.join(ROOT,'src')){
           if(typeof value==='string'){
             need(!/<\/?(?:script|iframe)|javascript:|\[unclear:/i.test(value),`${label}: unsafe/unclear ${field}.`);
             need((value.match(/\\\(/g)||[]).length===(value.match(/\\\)/g)||[]).length&&(value.match(/\\\[/g)||[]).length===(value.match(/\\\]/g)||[]).length,`${label}: unbalanced math delimiters in ${field}.`);
+            const stack=[];let validMath=true;
+            for(const token of value.match(/\\[()\[\]]/g)||[]){
+              if(token==='\\('||token==='\\['){if(stack.length)validMath=false;stack.push(token);}
+              else if(stack.pop()!==(token==='\\)'?'\\(':'\\['))validMath=false;
+            }
+            need(validMath&&!stack.length,`${label}: nested or mismatched math delimiters in ${field}.`);
+            need(!/\\{2,}pi\b/.test(value),`${label}: double-escaped math residue in ${field}.`);
+            need(!/勾股定理/.test(value),`${label}: use the Hong Kong term 畢氏定理 in ${field}.`);
             const prose=value.replace(/\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]/g,'');
+            need(!/\{\*\}/.test(prose),`${label}: OCR residue in ${field}.`);
             need(!/\\[a-zA-Z]+\b/.test(prose),`${label}: raw TeX outside math delimiters in ${field}.`);
+            need(!/(?<=[0-9)])pi\b|\b(?:cm|mm|km|m)\s*\^\s*\{?[23]|[A-Za-z0-9)]\^[23]\b/.test(prose),`${label}: unformatted pi, power or unit in ${field}.`);
           }
         }
         need(Boolean(q.hint)===Boolean(q.hintZh),`${label}: optional hints must be bilingual.`);

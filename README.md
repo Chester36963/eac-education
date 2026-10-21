@@ -23,14 +23,16 @@ Open http://127.0.0.1:4173/. The question catalog is at http://127.0.0.1:4173/li
 | --- | --- |
 | `index.html` | Brand cover, original nine-point-circle illustration and catalog-driven chapter links |
 | `library.html` | Public bilingual question search, taxonomy, counts, pagination, previews and practice links |
-| `auth.html` | Single-browser preview profile, registration/login and destination preservation |
-| `dashboard.html` | Daily recommendation, mistakes, bookmarks, resume link and skill records |
+| `auth.html` | Compatibility entry explaining local records; no registration/trial gate |
+| `dashboard.html` | Start with chapter → five questions → review; records at `?view=record` |
 | `app.html` | Configurable practice sets, six question formats, study/self-test, drafts, pause/resume and review |
 | `settings.html` | Name, language, suggested level and learning-record export |
 
-The current bank contains **854 bilingual questions across five chapters**: Four Centres 254, Polynomials 154, Mensuration 217, Locus 219 and Sequences & Series 10. This includes the 37 stable EAC starter questions and 817 usable unique questions imported from the supplied HTML. All 898 source rows are accounted for: 817 published, 47 held for missing/invalid content or visuals, and 34 duplicates linked to their published originals. A per-record review recovered 64 of the original 111 holds, with labelled translations, written adaptations, re-derived solutions and seven reviewed reconstructed diagrams. Source-reported exam/mock labels are preserved, not independently authenticated. See `docs/RECOVERY_REVIEW_2026-10-22.md` and `docs/1013_IMPORT_AUDIT.md`. Written work is self-assessed and excluded from automatic accuracy.
+The current bank contains **853 bilingual questions across five chapters**: Four Centres 254, Polynomials 154, Mensuration 217, Locus 218 and Sequences & Series 10. This includes the 37 stable EAC starter questions and 816 usable unique questions imported from the supplied HTML. All 898 source rows are accounted for: 816 published, 48 held for missing/invalid content or visuals, and 34 duplicates linked to their published originals. A per-record review recovered 64 of the original 111 holds, with labelled translations, written adaptations, re-derived solutions and seven reviewed reconstructed diagrams. A subsequent UI/content review corrected 27 specific question/solution issues and newly held one underdetermined kite question. See `docs/UI_CONTENT_REVIEW_2026-10-22.md`. Source-reported exam/mock labels are preserved, not independently authenticated. See `docs/RECOVERY_REVIEW_2026-10-22.md` and `docs/1013_IMPORT_AUDIT.md`. Written work is self-assessed and excluded from automatic accuracy.
 
 The supplied `/Users/chester/Downloads/1013 webpage/index.html` is the imported question source. The quadrilateral HTML/PDF notes and `_build_ch8/` remain design references. Indispensable missing figures remain held; reconstructed figures use only the same question's explicit givens. No borrowed diagrams or guessed bounds were inserted. The library has collapsible refinements and an explicit English / bilingual / Chinese choice carried into practice; the question header also offers immediate language switching.
+
+Start revision at `dashboard.html`: choose a chapter, answer five questions, review explanations and retry mistakes. The library is optional browsing. Chapter starts use MCQs where available; Sequences & Series currently uses labelled written self-assessment. Advanced options remain inside a disclosure; English / 中英對照 / 繁體中文 controls are visible in the question header.
 
 ## Content source and imports
 
@@ -73,13 +75,14 @@ Browser integration tests require Playwright:
 ```sh
 node tests/browser/studio.cjs
 node tests/browser/library.cjs
+node tests/browser/study-journey.cjs
 ```
 
 Set `PLAYWRIGHT_MODULE` to an installed Playwright package path if it is not available through normal Node module resolution. The suites cover the practice flow, the public catalog and responsive layouts. Browser tests are run locally; the deployment workflow runs unit/content tests.
 
 ## Account boundary
 
-This is the agreed frontend-first prototype. Profiles, bookmarks, drafts and progress are stored in one browser. The preview entry can resume that local profile. It is not secure production authentication, and no real student identity, account recovery or cross-device sync is provided.
+This is the agreed frontend-first prototype. Profiles, bookmarks, drafts and progress are stored in one browser. Study pages automatically reuse or create that local profile without a trial/login screen. It is not secure production authentication, and no real student identity, account recovery or cross-device sync is provided.
 
 The static question files include solutions and are suitable for practice, not confidential examinations. Formal authentication, cloud records, teacher permissions and protected content require the backend phase. Learning-record export currently has no import/restore feature.
 

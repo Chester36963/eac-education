@@ -23,6 +23,10 @@ function updateCount(){
  const chosen=max==='all'?n:Math.min(n,Number(max));
  el('set-count').textContent=n?`${n} 題符合 · 本組 ${chosen} 題${el(fields.experience).value==='test'?' · 自測只包括可自動核對題目':''}`:'暫時沒有符合題目。可以放寬篩選，或按「重設篩選」。';
  el('start-set-btn').disabled=!n;
+ el('start-set-btn').textContent=n?`開始 ${chosen} 題練習 →`:'暫時沒有符合題目';
+ document.querySelector('.journey-guide').textContent=el(fields.type).value==='mcq'?'選擇題：先作答，再逐題核對解法。預設不限時；完成後可集中重練錯題。':'每題會顯示作答方式。選擇題及數值短答會自動核對；書面題請先在紙上完成，再對照解法自評。';
+ const refined=['subcategory','skill','difficulty','form','mode'].filter(k=>el(fields[k]).value!=='all').length+(el(fields.experience).value==='test'?1:0)+(el('query-input').value.trim()?1:0);
+ document.querySelector('.advanced-filters>summary').textContent=`其他選擇：技巧、題型、難度及自測${refined?`（${refined} 項已套用）`:''}`;
 }
 function updateTaxonomy(level='subject'){
  if(level==='subject')optionList(fields.chapter,chapters().map(c=>[c.id,`${c.name.en} · ${c.name['zh-Hant']}`]));
@@ -58,7 +62,7 @@ function applySelections(values){
  updateCount();
 }
 document.addEventListener('DOMContentLoaded',async()=>{
- currentUser=Auth.getCurrentUser();if(!currentUser){location.href=`auth.html?next=${encodeURIComponent('app.html'+location.search)}`;return;}
+ currentUser=Auth.ensureLocalSession();if(!currentUser){el('studio-status').textContent='無法儲存本機練習記錄，請允許網站儲存資料後重試。';return;}
  try{
   [allQuestions,catalog]=await Promise.all([QuestionBank.index(),QuestionBank.catalog()]);
   questionLookup=new Map(allQuestions.map(q=>[q.id,q]));
@@ -69,7 +73,10 @@ document.addEventListener('DOMContentLoaded',async()=>{
   const params=Object.fromEntries(new URLSearchParams(location.search));
   if(params.chapter){const sub=catalog.subjects.find(s=>s.chapters.some(c=>c.id===params.chapter||c.topicId===params.chapter));if(sub){params.subject=sub.id;params.chapter=sub.chapters.find(c=>c.id===params.chapter||c.topicId===params.chapter).id;}}
   questionId=params.question||null;
-  applySelections({...params,form:params.form||((params.chapter||params.question)?'all':preferences.form)||'all'});
+  const firstChapter=catalog.subjects.flatMap(s=>s.chapters).find(c=>allQuestions.some(q=>q.topicId===c.topicId&&q.questionType==='mcq'&&(preferences.form==='all'||!preferences.form||q.minForm<=Number(preferences.form))))||catalog.subjects.flatMap(s=>s.chapters)[0];
+  const simpleStart=!Object.keys(params).some(k=>!['language','resume'].includes(k));
+  applySelections({...simpleStart?{chapter:firstChapter.id,type:'mcq'}:{},...params,form:params.form||((params.chapter||params.question)?'all':preferences.form)||'all'});
+  EACMath.bindLanguages();
   for(const [key,id] of Object.entries(fields))el(id).onchange=()=>{
    questionId=null;
    if(['subject','chapter','subcategory','skill','type','form','experience'].includes(key))updateTaxonomy(key);else updateCount();
@@ -117,6 +124,7 @@ async function startSelectedSet(fromLink=false){
 function beginSet(qs,selection=selections()){
  if(!qs.length)return;
  queue=qs;sessionState={userId:currentUser.id,ids:qs.map(q=>q.id),index:0,answers:{},drafts:{},selection:{...selection},elapsedMs:0,runningSince:Date.now()};
+ document.querySelector('#practice-builder h1').textContent='這組練習的設定';
  el('resume-banner').hidden=true;el('set-summary').hidden=true;el('practice-builder').open=false;el('studio-empty').hidden=true;el('active-set').hidden=true;
  persist();renderQuestion();
 }
@@ -125,6 +133,7 @@ function resumeSession(){
  const found=saved.ids.map(id=>questionLookup.get(id));
  if(found.some(q=>!q)){el('studio-status').textContent='上次練習的題目已有更新。請重新選擇一組，已作答進度仍然保留。';return;}
  sessionState=saved;queue=found;sessionState.answers||={};sessionState.drafts||={};sessionState.elapsedMs=Number(sessionState.elapsedMs)||0;sessionState.runningSince=Date.now();
+ document.querySelector('#practice-builder h1').textContent='這組練習的設定';
  applySelections(saved.selection||{});el('resume-banner').hidden=true;el('studio-empty').hidden=true;el('set-summary').hidden=true;el('active-set').hidden=true;el('practice-builder').open=false;persist();renderQuestion();
 }
 function elapsed(){return (sessionState?.elapsedMs||0)+(sessionState?.runningSince?Date.now()-sessionState.runningSince:0);}
@@ -140,7 +149,7 @@ setInterval(()=>{
 },1000);
 function question(){return queue[sessionState.index];}
 function selfTest(){return sessionState.selection.experience==='test';}
-function textPair(en,zh){const lang=sessionState?.selection?.language||lastSelection?.language||'bilingual';return lang==='en'?en:lang==='zh'?zh:`${en}\n\n${zh}`;}
+function textPair(en,zh){const lang=sessionState?.selection?.language||lastSelection?.language||'bilingual';return lang==='en'||en===zh?en:lang==='zh'?zh:`${en}\n\n${zh}`;}
 async function renderQuestion(){
  const token=++renderToken,id=question().id;
  el('active-set').inert=true;el('active-set').setAttribute('aria-busy','true');el('studio-status').textContent='正在載入題目…';
@@ -153,7 +162,9 @@ async function renderQuestion(){
  EACMath.clear(el('active-set'));
  const q=question(),result=sessionState.answers[q.id];isAnswerSubmitted=!!result;selectedAnswer=result?.response||sessionState.drafts[q.id]||null;
  el('reading-language').value=sessionState.selection.language||'bilingual';
- el('question-edition').hidden=!q.adaptation;
+ EACMath.syncLanguages();
+ el('question-edition-wrap').hidden=!q.adaptation;
+ el('question-edition-wrap').open=false;
  el('question-edition').textContent=q.adaptation?textPair(q.adaptation.en,q.adaptation['zh-Hant']):'';
  el('result-message').hidden=true;el('hint-panel').hidden=true;el('solution-panel').hidden=true;el('assessment-panel').hidden=true;
  el('progress-text').textContent=`第 ${sessionState.index+1} / ${queue.length} 題 · 已作答 ${Object.keys(sessionState.answers).length} 題`;
@@ -161,7 +172,7 @@ async function renderQuestion(){
  el('progress-fill').style.width=`${100*Object.keys(sessionState.answers).length/queue.length}%`;
  el('question-nav').replaceChildren();queue.forEach((item,i)=>{if(i!==0&&i!==queue.length-1&&Math.abs(i-sessionState.index)>10)return;const b=document.createElement('button');b.type='button';b.textContent=i+1;b.className=i===sessionState.index?'is-current':'';b.classList.toggle('is-answered',!!sessionState.answers[item.id]);b.setAttribute('aria-label',`第 ${i+1} 題${sessionState.answers[item.id]?' 已作答':''}`);if(i===sessionState.index)b.setAttribute('aria-current','step');b.onclick=()=>{sessionState.index=i;persist();renderQuestion();};el('question-nav').append(b);});
  el('difficulty-badge').textContent=labels[q.difficulty];el('category-badge').textContent=skillNames[q.skill]||q.skill;el('type-badge').textContent=Learning.types[q.questionType];
- el('question-source').textContent=`${q.id} · ${q.sourceZh||q.source}${Learning.automatic(q)?' · 自動核對':q.assessmentMode==='solution-comparison'?' · 對照來源解析自評':' · 按要點自評'}`;
+ el('question-source').textContent=sessionState.selection.language==='en'?q.source:q.sourceZh||q.source;
  el('question-stem').textContent=sessionState.selection.language==='zh'?q.stemZh:q.stem;
  el('question-zh').textContent=q.stemZh;el('question-zh').hidden=sessionState.selection.language!=='bilingual';
  el('question-figure').hidden=!q.diagram;if(q.diagram){el('question-image').src=q.diagram.src;el('question-image').alt=q.diagram.alt;el('diagram-caption').textContent=q.diagram.caption;}
@@ -177,15 +188,19 @@ async function renderQuestion(){
   el('options-container').append(b);
  }
  const numeric=q.questionType==='short-answer',manual=!Learning.automatic(q);
+ el('question-guidance').textContent=manual?'先在紙上完成推導，然後在下面記下答案。按「核對書面作答」查看解法，再記錄是否掌握。':numeric?'輸入數值或分數，例如 5/6。單位不用輸入，再按「核對答案」。':'選一個答案，再按「核對答案」。卡住可以先看提示。';
  el('numeric-answer-wrap').hidden=!numeric;el('written-answer-wrap').hidden=!manual;
  el('numeric-answer').value=numeric?(result?.response||sessionState.drafts[q.id]||''):'';el('written-answer').value=manual?(result?.response||sessionState.drafts[q.id]||''):'';
  el('numeric-answer').disabled=el('written-answer').disabled=!!result;
- el('submit-btn').hidden=!!result;el('submit-btn').textContent=manual?'提交作答並看評分要點':selfTest()?'記錄答案':'核對答案';
+ el('submit-btn').hidden=!!result;el('submit-btn').textContent=manual?'核對書面作答':selfTest()?'記錄答案':'核對答案';
  el('next-btn').hidden=!result;el('next-btn').textContent=sessionState.index===queue.length-1?'完成並查看回顧 →':'下一題 →';
  el('skip-btn').hidden=!!result;el('hint-btn').hidden=selfTest()||!q.hint;el('solution-btn').hidden=selfTest();
  renderBookmark();if(result&&!selfTest()){showResult(result.assessment==='self'?`已記錄自評：${result.correct?'符合要點':'仍需重練'}`:result.correct?'答對了，睇返解題方法。':'需要再練，先釐清解析。',result.correct);showSolution();}
  if(result&&selfTest())showResult('答案已記錄，完成本組後再看解析。',true);
- el('active-set').hidden=false;el('active-set').inert=false;el('active-set').setAttribute('aria-busy','false');el('studio-status').textContent='';el('active-set').dataset.questionId=q.id;EACMath.render(el('active-set'));
+ el('active-set').hidden=false;el('active-set').dataset.questionId=q.id;
+ await EACMath.render(el('active-set'));
+ if(token!==renderToken||!sessionState)return;
+ el('active-set').inert=false;el('active-set').setAttribute('aria-busy','false');el('studio-status').textContent='';
 }
 function renderBookmark(){const saved=(Storage.getUser().bookmarks||[]).includes(question().id);el('bookmark-btn').textContent=saved?'已收藏 ★':'收藏題目 ☆';el('bookmark-btn').setAttribute('aria-pressed',String(saved));}
 function toggleBookmark(){if(Learning.toggleBookmark(question().id)){renderBookmark();updateCount();}else el('studio-status').textContent='未能儲存收藏，請檢查瀏覽器儲存空間。';}
@@ -216,11 +231,29 @@ function finishSession(){
  lastSet=queue.map(q=>({question:q,result:answers[q.id]}));
  const auto=Object.values(answers).filter(a=>a.assessment==='automatic'),correct=auto.filter(a=>a.correct).length,self=Object.values(answers).filter(a=>a.assessment==='self').length;
  el('summary-copy').textContent=`已作答 ${answered}/${queue.length} 題 · 自動核對答對 ${correct}/${auto.length} 題${self?` · 自評 ${self} 題`:''} · 跳過 ${queue.length-answered} 題。`;
+ el('summary-next').textContent=Object.values(answers).some(a=>!a.correct)?'先展開答錯的題目，找出錯在哪一步，再按「重練本組錯題」。':answered<queue.length?'還有題目未完成。可以先補做，再選下一課。':'這組已全部掌握。可以選下一課；下次回來再試一次，看看方法是否記得。';
  el('retry-mistakes-btn').hidden=!lastSet.some(q=>q.result?.correct===false);el('retry-skipped-btn').hidden=!lastSet.some(q=>!q.result);
  EACMath.clear(el('summary-questions'));el('summary-questions').replaceChildren();
- for(const {question:q,result}of lastSet.slice(0,100)){const details=document.createElement('details');details.className='summary-question';const title=document.createElement('summary');title.textContent=`${result?(result.correct?'✓':'↻'):'—'} ${q.stemZh} · ${result?(result.assessment==='self'?'自評':'已核對'):'未作答'}`;const answer=document.createElement('p');details.ontoggle=async()=>{if(!details.open||answer.dataset.loaded)return;const full=await QuestionBank.question(q.id).catch(()=>null);if(!full){answer.textContent='解析未能載入，收起再展開可重試。';return;}answer.dataset.loaded='1';answer.textContent=`你的作答：${result?.response||'未作答'}\n\n${textPair(full.solution,full.solutionZh)}`;EACMath.render(details);};details.append(title,answer);el('summary-questions').append(details);}
+ for(const [i,{question:q,result}]of lastSet.slice(0,100).entries()){
+  const details=document.createElement('details');details.className='summary-question';
+  const title=document.createElement('summary');title.textContent=`${i+1}. ${result?(result.correct?'已掌握':'需要重練'):'未作答'}${result?.assessment==='self'?' · 自行核對':''}`;
+  const answer=document.createElement('p');answer.className='summary-answer-copy';
+  details.ontoggle=async()=>{
+   if(!details.open||answer.dataset.loaded)return;
+   const full=await QuestionBank.question(q.id).catch(()=>null);
+   if(!full){answer.textContent='解析未能載入，收起再展開可重試。';return;}
+   EACMath.clear(answer);answer.dataset.loaded='1';
+   const stem=document.createElement('p');stem.className='summary-answer-copy';stem.textContent=textPair(full.stem,full.stemZh);details.insertBefore(stem,answer);
+   if(full.diagram){const figure=document.createElement('figure');figure.className='question-figure';const img=document.createElement('img');img.src=full.diagram.src;img.alt=full.diagram.alt;const caption=document.createElement('figcaption');caption.textContent=full.diagram.caption;figure.append(img,caption);details.insertBefore(figure,answer);}
+   if(full.options){const options=document.createElement('ul');options.className='summary-options';for(const [letter,text]of Object.entries(full.options)){const item=document.createElement('li');const mark=document.createElement('strong');mark.textContent=letter+'.';const copy=document.createElement('span');copy.textContent=textPair(text,full.optionsZh?.[letter]||text);item.append(mark,copy);options.append(item);}details.insertBefore(options,answer);}
+   answer.textContent=`你的作答：${result?.response||'未作答'}\n\n${textPair(full.solution,full.solutionZh)}`;EACMath.render(details);
+  };
+  details.append(title,answer);el('summary-questions').append(details);
+ }
  if(lastSet.length>100){const note=document.createElement('p');note.textContent=`此頁顯示首 100 題；全部 ${lastSet.length} 題的作答記錄已保留，可在學習主頁查看或重練錯題。`;el('summary-questions').append(note);}
  EACMath.render(el('summary-questions'));
  pauseClock();Learning.clearSession();sessionState=null;el('active-set').hidden=true;el('set-summary').hidden=false;el('practice-builder').open=false;el('studio-empty').hidden=true;
+ document.querySelector('#practice-builder h1').textContent='想再練？調整課題及題數';
+ el('set-summary').scrollIntoView({block:'start',behavior:'smooth'});
 }
 function handleLogout(){pauseClock();Auth.logout();location.href='index.html';}

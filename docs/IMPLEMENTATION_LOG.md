@@ -1,5 +1,15 @@
 # Implementation record
 
+## Simplified revision journey and content-quality correction — 22 October 2026
+
+Replaced competing trial/login/start paths with direct local revision: chapter → five questions → explanation review → retry mistakes. Consistent navigation links start, library, records and settings. Records are at `dashboard.html?view=record`; advanced practice controls are collapsed. The accepted nine-point-circle cover is retained.
+
+Visible English / 中英對照 / 繁體中文 buttons preserve drafts and synchronize reading/setup state. MathJax finishes before active questions become visible and interactive. Results retain the same-question figure and compact options without duplicate identical bilingual text. Written-only chapters are labelled; skill and mistake links include written work instead of imposing MCQ-only filters.
+
+Normalized notation, local terms and source residue across 349 published records; the cumulative audit also contains one newly held record (350 entries total). Corrected 27 specific question/solution issues, replaced generic starter hints, and held `import-locus-c09d69a6562cc424` for missing equal-side pairing. Current bank: 853 = 816 imports + 37 starters. Source audit: 816 published / 48 held / 34 duplicates. Source snapshot unchanged.
+
+Verification and limitations are documented in `UI_CONTENT_REVIEW_2026-10-22.md`. Earlier sections below are historical snapshots.
+
 ## Library refinement, language consistency and 111-row review — 22 October 2026
 
 Simplified the library into chapter navigation, a search field and collapsed refinements, with compact inventory and no machine import IDs in listing rows. Language is visible on the listing and in the active question header; library links explicitly carry bilingual/English/Chinese, overriding an old saved Chinese preference only for that explicit navigation. In-session language and drafts survive resume. The accepted homepage illustration is unchanged.

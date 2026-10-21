@@ -40,7 +40,7 @@ const output='/tmp/eac-import-qa';fs.mkdirSync(output,{recursive:true});
     for(const q of rows)for(const [field,value]of Object.entries(q)){
      const entries=typeof value==='string'?[[field,value]]:['options','optionsZh'].includes(field)?Object.entries(value).map(([k,v])=>[field+'.'+k,v]):[];
      for(const [name,text]of entries)for(const match of text.matchAll(/\\\(([\s\S]*?)\\\)|\\\[([\s\S]*?)\\\]/g)){
-      count++;try{const node=await MathJax.tex2svgPromise(match[1]??match[2],{display:match[2]!==undefined});const error=node.querySelector('[data-mjx-error]');if(error)failures.push({id:q.id,field:name,tex:match[1]??match[2],error:error.getAttribute('data-mjx-error')});}catch(error){failures.push({id:q.id,field:name,error:error.message});}
+      count++;try{const node=await MathJax.tex2svgPromise(match[1]??match[2],{display:match[2]!==undefined});const error=node.querySelector('[data-mjx-error],[data-mml-node="merror"]');const undefinedCommand=[...node.querySelectorAll('[data-mml-node="mtext"]')].find(n=>/^\\[A-Za-z]+/.test(n.getAttribute('data-latex')||n.textContent));if(error||undefinedCommand)failures.push({id:q.id,field:name,tex:match[1]??match[2],error:error?.getAttribute('data-mjx-error')||'Undefined TeX command'});}catch(error){failures.push({id:q.id,field:name,error:error.message});}
      }
     }
     return {failures,count};
@@ -67,7 +67,7 @@ const output='/tmp/eac-import-qa';fs.mkdirSync(output,{recursive:true});
    await page.screenshot({path:output+'/preview-'+width+'.png'});
   }
   await page.setViewportSize({width:1440,height:1000});
-  await page.goto(base+'auth.html');await page.getByRole('button',{name:'直接試用練習室'}).click();await page.waitForURL('**/dashboard.html');
+  await page.goto(base+'auth.html');await page.getByRole('button',{name:'開始溫習'}).click();await page.waitForURL('**/dashboard.html');
   const practise=async id=>{
    await page.evaluate(()=>localStorage.removeItem('eac_active_set'));
    await page.goto(base+'app.html?question='+id+'&form=all');

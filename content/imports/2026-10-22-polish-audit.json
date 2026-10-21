@@ -1,0 +1,1406 @@
+{
+  "date": "2026-10-22",
+  "changes": [
+    {
+      "id": "fc-con-001",
+      "reason": "Use a precise, single-answer identification question rather than asking students to select a definition with overlapping informal descriptions."
+    },
+    {
+      "id": "fc-sa-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "fc-sa-002",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "fc-str-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "fc-proof-002",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "fc-proof-001",
+      "reason": "Replace an ambiguous theorem-name MCQ (several offered methods can prove the result) with a concrete application of the same hypotenuse-midpoint skill."
+    },
+    {
+      "id": "import-four-centres-q082",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q169",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q081",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q209",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q185",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q080",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q179",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q211",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q187",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q174",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q083",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q180",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q168",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q186",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q188",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q088",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q214",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q173",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q086",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q172",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q183",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q170",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q171",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q181",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q182",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q190",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q085",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q084",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q213",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q212",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q087",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q189",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q175",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q176",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q177",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q241",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q239",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q253",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q012",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q150",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q215",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q015",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q013",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q192",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q037",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q191",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q160",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q140",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q016",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q014",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q159",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q141",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q142",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q032",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q143",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q144",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q006",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q145",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q035",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q217",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q003",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q031",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q151",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q193",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q194",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q019",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q018",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q198",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q004",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q146",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q218",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q030",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q201",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q204",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q207",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q161",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q206",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q028",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q158",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q197",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q219",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q011",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q157",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q165",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q259",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q226",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q205",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q208",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q227",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q221",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q163",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q200",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q008",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q021",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q010",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q033",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q220",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q235",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q236",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q234",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q232",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q225",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q224",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q147",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q228",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q233",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q257",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q164",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q230",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q229",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q034",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q005",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q256",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q202",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q166",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q009",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q007",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q222",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q203",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q162",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q199",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q152",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q002",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q153",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q149",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q196",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q155",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q022",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q148",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q195",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q029",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q237",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q154",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q167",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q261",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q156",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q024",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-four-centres-q260",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-2f8c849b079b0280",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-a3f8ddbccd4a0d37",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-cb3e0e89acf39c53",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-308d87cb39e5df70",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-511f3edbcda73df5",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-e337ecfa04122732",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-031ac6c1344642e2",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-e11bcf830c488e64",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-12f1a5d86084fc80",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-d5ed93ef1f63fd28",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-6a60f468c2e6d124",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-e937086e515557fa",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-3bc33ee7f0544536",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-7b049601458af24f",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-6745d8ec52b7432e",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-ebe5edb8044b465d",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-39a7ce6042b96443",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-5109b51963782286",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-08278b5bbbbf1344",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-e2e7654140b74b34",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-3136d08b58ae7638",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-8b5001e00f65089f",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-4535494b524f948e",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-d4704e70dc7a4959",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-b6323575a4d80d60",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-04dfb23922ce54de",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-a5d9c33670990e47",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-d0ccbc11a0d1cc7e",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-706d2ddb691ffc92",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-6786ab4bc138f18a",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-59761e3985b515cd",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-78afbf481142b426",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-aa77975f7e4680c9",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-560526520fd28bbe",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-c5181599715fcb71",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-56b1ee44340cb3f0",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-0aa9831b28d51429",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-501be4826b50fdd5",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-7b8a777262121d37",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-5143cfc3e914be3a",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-4592ba99c8dad533",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-fe0694b2fb10defb",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-42ad23f968801947",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-ac9e79988d5c3773",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-e4c5a5389a916da3",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-63e25d00b0359a5c",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-f21a0de6ebe733c1",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-967f3762bdb51834",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-cee980fe6c8c06f5",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-d27dc296d4a109d2",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-7b8ab081249b7918",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-2d7e5afe501f20ce",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-f91186a0882e2eb0",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-e5467e28c69c4701",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-ae975d55a13dfbd8",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-3e1596b8c61091b2",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-30460a0b1ab8a453",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-0371340e73bfa150",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-f02f58bef868da13",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-20fa464447fe87f0",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-3354656331d5d8b5",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-c3e6771a90eeb1c7",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-a6d24b4bc8dcb49f",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-004a50c663a1c91c",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-3fcfc16693b6ffa1",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-aa4f5d5555a06779",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-35a50a5780937a71",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-9404a68cc8914942",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-08cf3d2a6e8c5fb5",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-c2743abb02cacb92",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-2ce389ef7486ef13",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-660e65192f74ce9f",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-191037581f652933",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-956a1f6d1c4d2d26",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-0437cd26dba4ec63",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-c09d69a6562cc424",
+      "reason": "The kite statement does not identify the pairs of equal adjacent sides. The supplied solution assumes OA=AB and OC=BC. The alternative OA=OC and AB=BC also permits C in quadrant IV and a different perpendicular bisector, so the question is underdetermined. Supply the original side markings; do not infer them from the answer.",
+      "decision": "hold"
+    },
+    {
+      "id": "import-locus-e25a8efd1fdf9bd7",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-f55231eae3c6d097",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-356d0d6bd9448c4d",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-12c06603b5c04582",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-f74644143f0cf3dd",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-aeaf3768231f9243",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-b29c65c337d0feab",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-17df25096612f389",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-363a476160b04ac4",
+      "reason": "Translate the existing complete Chinese line equation and givens; replace the garbled English line and tentative source-solution commentary with a complete derivation."
+    },
+    {
+      "id": "import-locus-4022ea79944888bd",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-ef1fb30b4b4c4826",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-7724cc02645c7871",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-ed03b92ac3963cdb",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-fdf7822e423e7ca4",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-5e2317ca6d3021a7",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-244ba273cc261cb4",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-22848749f24cef31",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-dfa3d2d47a770e95",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-locus-c39e2d8588ba8675",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "mens-cal-005",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "mens-sa-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "mens-sa-002",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "mens-str-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "mens-long-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "mens-diag-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m004",
+      "reason": "Replace stale English answer C; both languages and the stored key must give B = 240 cm³."
+    },
+    {
+      "id": "import-mensuration-mens-m007",
+      "reason": "Replace stale English answer D; both languages and the stored key must give B = 600 cm³."
+    },
+    {
+      "id": "import-mensuration-mens-m018",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m021",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m023",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m024",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m026",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m027",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m028",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m030",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m032",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m033",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m034",
+      "reason": "English and options ask for slant height, not vertical height. Restore Chinese target and recompute."
+    },
+    {
+      "id": "import-mensuration-mens-m035",
+      "reason": "Restore the English 20π area difference and angle target; previous Chinese 24π and radius target were a different question."
+    },
+    {
+      "id": "import-mensuration-mens-m038",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m040",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m041",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m042",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m043",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m044",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m045",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m046",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m048",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m049",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m051",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m052",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m053",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m054",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m055",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m056",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m057",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m059",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m062",
+      "reason": "Restore the English 25π sum and angle target; previous Chinese 40π and stored key A were inconsistent."
+    },
+    {
+      "id": "import-mensuration-mens-m063",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m065",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m066",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m067",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m068",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m069",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m070",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m071",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m072",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m073",
+      "reason": "Restore statement III about the triangle perimeter; Chinese arc-length statement was a different proposition."
+    },
+    {
+      "id": "import-mensuration-mens-m074",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m076",
+      "reason": "Restore small base breadth 12 cm, not a 4 cm height; recompute and repair nested option delimiters."
+    },
+    {
+      "id": "import-mensuration-mens-m077",
+      "reason": "Derive frustum height 8 cm; replace generic hints and, for M081, incorrect key A."
+    },
+    {
+      "id": "import-mensuration-mens-m078",
+      "reason": "Restore the English water-depth condition and surface-area target; the prior Chinese water volume and radius request were unrelated."
+    },
+    {
+      "id": "import-mensuration-mens-m080",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m081",
+      "reason": "Derive frustum height 8 cm; replace generic hints and, for M081, incorrect key A."
+    },
+    {
+      "id": "import-mensuration-mens-m082",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m084",
+      "reason": "Restore the English water-depth condition and surface-area target; the prior Chinese water volume and radius request were unrelated."
+    },
+    {
+      "id": "import-mensuration-mens-m085",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m086",
+      "reason": "All original MC choices (6,8,9,18) are invalid. Preserve the complete numerical givens as a disclosed written-answer adaptation, without inventing distractors."
+    },
+    {
+      "id": "import-mensuration-mens-m088",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m089",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m090",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m091",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m092",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-m093",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l024",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l025",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l030",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l038",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l044",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l045",
+      "reason": "Replace OCR marking-code residue and false Chinese VY=8VX+8000π with the independently derived 26:1 volume ratio."
+    },
+    {
+      "id": "import-mensuration-mens-l046",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l049",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l057",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l059",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l066",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l067",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l068",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l070",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l071",
+      "reason": "Replace OCR marking fragments and justify why the volume/radius comparison establishes cone similarity."
+    },
+    {
+      "id": "import-mensuration-mens-l076",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l083",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l087",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l095",
+      "reason": "Repair mixed delimiters and complete missing Chinese part (c), preserving exact values."
+    },
+    {
+      "id": "import-mensuration-mens-l103",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l108",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l112",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l121",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l122",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l127",
+      "reason": "Remove source page numbers, marking fragments and mismatched delimiters; show both cone dimensions for similarity."
+    },
+    {
+      "id": "import-mensuration-mens-l130",
+      "reason": "Replace unreadable OCR solution, restore missing part (b), and verify both exposed faces and similarity ratios."
+    },
+    {
+      "id": "import-mensuration-mens-l132",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l135",
+      "reason": "Replace OCR residue and finish the previously missing similarity conclusion in both languages."
+    },
+    {
+      "id": "poly-sa-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "poly-sa-002",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "poly-str-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "poly-long-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "poly-proof-001",
+      "reason": "Notation, local terminology, or generic/source-code residue cleanup."
+    },
+    {
+      "id": "import-mensuration-mens-l020",
+      "reason": "Replace corrupted source working and correct the erroneous 1/27 ratio to 8/27."
+    },
+    {
+      "id": "import-mensuration-mens-l036",
+      "reason": "Replace mismatched delimiters and marking-code fragments with complete bilingual working."
+    },
+    {
+      "id": "import-mensuration-mens-l052",
+      "reason": "Repair mismatched math delimiters and supply the missing waterline-area derivation."
+    },
+    {
+      "id": "import-mensuration-mens-l078",
+      "reason": "Remove repeated examination boilerplate and replace malformed solution markup with complete working."
+    },
+    {
+      "id": "import-mensuration-mens-l105",
+      "reason": "Replace broken source delimiters and complete the actual cut-and-congruence argument in part (c)."
+    },
+    {
+      "id": "import-mensuration-mens-l106",
+      "reason": "Correct the OCR equation 304=16r² to 2304=16r² and complete omitted Chinese part (c)."
+    }
+  ]
+}

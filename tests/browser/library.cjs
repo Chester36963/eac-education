@@ -36,22 +36,21 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     await page.locator('.bank-refinements summary').click();
     await page.locator('#bank-reset').click();assert.ok((await count()).startsWith(`${polyCount} 題符合`));
     await page.locator('#bank-type').selectOption('proof');assert.ok((await count()).startsWith(`${proofCount} 題符合`));
-    await page.locator('[data-question-id="poly-proof-001"]').getByRole('button',{name:'預覽題目',exact:true}).click();await page.locator('#preview-practice:not([hidden])').waitFor();
+    await page.locator('[data-question-id="poly-proof-001"]').getByRole('button',{name:'睇題目',exact:true}).click();await page.locator('#preview-practice:not([hidden])').waitFor();
     assert.match(await page.locator('#preview-heading').textContent(),/odd/);
     assert.equal(requests.filter(url=>url.includes('/data/chapters/')).length,1);
-    await page.locator('#preview-bookmark').click();assert.match(await page.locator('#preview-status').textContent(),/需要登入/);
+    await page.locator('#preview-bookmark').click();assert.equal(await page.locator('#preview-bookmark').getAttribute('aria-pressed'),'true');await page.locator('#preview-bookmark').click();
     await page.keyboard.press('Escape');assert.equal(await page.locator('#question-preview').isVisible(),false);
 
     // Public search includes translated chapter/subcategory labels.
     await open();await page.locator('#bank-search').fill('Polynomials');await page.waitForFunction(n=>document.getElementById('bank-count').textContent.startsWith(`${n} 題符合`),searchCount);
-    await page.locator('#practice-selection').click();await page.waitForURL('**/auth.html?**');
-    await page.getByRole('button',{name:'直接試用練習室'}).click();await page.waitForURL('**/app.html?**');
+    await page.locator('#practice-selection').click();await page.waitForURL('**/app.html?**');
     await page.waitForFunction(n=>document.getElementById('set-count').textContent.startsWith(`${n} 題符合`),searchCount);
     assert.equal(await page.locator('#query-input').inputValue(),'Polynomials');
 
     // Logged-in bookmarks work from preview and survive refresh.
     await open('chapter=mensuration-core&type=diagram');
-    await page.locator('[data-question-id="mens-diag-001"]').getByRole('button',{name:'預覽題目',exact:true}).click();await page.locator('#preview-practice:not([hidden])').waitFor();
+    await page.locator('[data-question-id="mens-diag-001"]').getByRole('button',{name:'睇題目',exact:true}).click();await page.locator('#preview-practice:not([hidden])').waitFor();
     const img=page.locator('.preview-figure img');await img.waitFor();
     assert.equal(await img.evaluate(img=>img.complete&&img.naturalWidth>0),true);
     assert.match(await img.getAttribute('src'),/mens-diag-001/);
@@ -60,9 +59,9 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
     await page.screenshot({path:output+'/preview-desktop.png'});
     await page.locator('#preview-close').click();await page.locator('.bank-refinements summary').click();await page.locator('#bank-mode').selectOption('saved');assert.match(await count(),/^1 題符合/);
     await page.reload();await page.waitForFunction(()=>document.getElementById('bank-count').textContent.startsWith('1 題符合'));
-    await page.getByRole('button',{name:'預覽題目',exact:true}).click();await page.locator('#preview-practice:not([hidden])').waitFor();
+    await page.getByRole('button',{name:'睇題目',exact:true}).click();await page.locator('#preview-practice:not([hidden])').waitFor();
     await page.locator('#preview-practice').click();await page.waitForURL('**/app.html?**');
-    await page.locator('#active-set:not([hidden])').waitFor();assert.match(await page.locator('#question-source').textContent(),/mens-diag-001/);
+    await page.locator('#active-set:not([hidden])').waitFor();assert.equal(await page.locator('#active-set').getAttribute('data-question-id'),'mens-diag-001');
     await page.locator('#finish-btn').click();
 
     // Empty combinations can be cleared; question ordering and UI stay usable on phones.
@@ -73,7 +72,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
       await page.setViewportSize({width,height:844});await open();
       assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`library overflow at ${width}`);
       if(width===390)await page.screenshot({path:output+'/library-mobile.png',fullPage:true});
-      await open('chapter=mensuration-core&type=diagram');await page.locator('[data-question-id="mens-diag-001"]').getByRole('button',{name:'預覽題目',exact:true}).click();
+      await open('chapter=mensuration-core&type=diagram');await page.locator('[data-question-id="mens-diag-001"]').getByRole('button',{name:'睇題目',exact:true}).click();
       await page.locator('#preview-practice:not([hidden])').waitFor();
       assert.equal(await page.locator('#question-preview').evaluate(d=>d.scrollWidth>d.clientWidth),false,`preview overflow at ${width}`);
       if(width===390){

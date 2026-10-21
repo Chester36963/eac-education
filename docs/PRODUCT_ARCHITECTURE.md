@@ -2,7 +2,7 @@
 
 ## Product direction
 
-EAC Education is a teacher-led mathematics practice platform for Hong Kong DSE Form 1–6 students. The public site explains the teaching approach and converts visitors into learners. The signed-in area lets a student choose what to practise, see a useful daily recommendation, and build evidence of progress over time.
+EAC Education is a teacher-led mathematics practice platform for Hong Kong DSE Form 1–6 students. The public site explains the teaching approach and converts visitors into learners. Students enter revision directly: choose a chapter, answer five questions, review explanations and retry mistakes. Recommendations appear after learning records exist; records have their own view.
 
 The visual direction is premium academic: editorial serif typography, generous white space, quiet navy ink, a restrained warm accent, precise rules, bilingual labels, and diagrams that feel authored by a mathematics teacher. The interface should feel calm and intentional rather than gamified like a general-purpose quiz app.
 
@@ -11,8 +11,8 @@ The visual direction is premium academic: editorial serif typography, generous w
 | Surface | Purpose | First version |
 | --- | --- | --- |
 | `index.html` | Public brand and admissions entry | Existing shell, ready for future teacher content |
-| `auth.html` | Student sign-in and local preview | Single-browser prototype; no teacher or cloud accounts |
-| `dashboard.html` | Recommendation, skill records, topic search | Live local records, mistakes, resume entry and practice shortcuts |
+| `auth.html` | Historical-link compatibility | Explains local records, direct revision; formal login not open |
+| `dashboard.html` | Start revision | Three-step guide, chapter rows, resume; records at `?view=record` |
 | `app.html` | Configurable practice studio | Six formats, study/self-test, bookmarks, persisted drafts and resume |
 | `library.html` | Public question catalog | Bilingual search, taxonomy, counts, pagination, previews and practice links |
 | `settings.html` | Student preferences and record export | Local name, question language, suggested level and JSON backup |
@@ -41,9 +41,13 @@ Canonical source files live in `content/`, with one file per chapter and shared 
 
 ## Question types
 
-The bank contains 790 questions, including the original 37 stable starter IDs, across `mcq`, `short-answer`, `structured`, `proof`, `diagram`, and `dse-long`. MCQs and numeric short answers are checked automatically. Written work uses a genuine rubric or explicit source-solution comparison and is excluded from automatic accuracy. Imported records preserve original attribution, levels and correction provenance. The diagram format currently contains an original geometry MCQ; imported figure-dependent questions without reliable visuals remain held.
+The bank contains 853 questions, including the original 37 stable starter IDs, across `mcq`, `short-answer`, `structured`, `proof`, `diagram`, and `dse-long`. MCQs and numeric short answers are checked automatically. Written work uses a genuine rubric or explicit source-solution comparison and is excluded from automatic accuracy. Imported records preserve original attribution, levels and correction provenance. The diagram format currently contains an original geometry MCQ; imported figure-dependent questions without reliable visuals remain held.
 
-Students may build cross-chapter sets, select suggested level, subcategory, skill, difficulty and format, choose number/order of questions, and select question language. Study mode provides per-question feedback; self-test mode defers feedback until completion and includes automatically checked formats only. Reminder countdowns do not force submission. The studio stores drafts, submitted answers, set order, current question and active elapsed time in a separate user-bound local session. A new set requires acknowledgement before replacing an unfinished set; prior learning results remain intact.
+The ordinary route starts with five MCQs, or labelled written self-assessment where no MCQs exist. Advanced choices remain inside one disclosure. Students may build cross-chapter sets, select suggested level, subcategory, skill, difficulty and format, choose number/order of questions, and select question language. Study mode provides per-question feedback; self-test mode defers feedback until completion and includes automatically checked formats only. Reminder countdowns do not force submission. The studio stores drafts, submitted answers, set order, current question and active elapsed time in a separate user-bound local session. A new set requires acknowledgement before replacing an unfinished set; prior learning results remain intact.
+
+## Content quality boundary
+
+The October 22 follow-up corrected 27 specific question/solution issues and normalized notation, Hong Kong terms and residue. One newly identified underdetermined source question is held: 816 published + 48 held + 34 duplicate source rows = 898; plus 37 starters gives 853. The immutable source snapshot and stable published IDs are retained. Whole-bank MathJax parsing is structural QA, not certification of all historical solutions. See `UI_CONTENT_REVIEW_2026-10-22.md`.
 
 ## Delivery workflow
 
@@ -63,4 +67,4 @@ After that, normal updates never require creating another repository.
 
 ## Authentication boundary
 
-The current localStorage auth is a temporary front-end adapter. The user object and question taxonomy use stable IDs and explicit fields so they can move to Supabase tables without redesigning the pages. Production authentication, password storage, roles, progress sync and teacher permissions belong in the backend phase.
+The current localStorage profile is a temporary front-end adapter. Study pages automatically reuse or create a local profile. No trial/login barrier is presented; formal student login is not open. The user object and question taxonomy use stable IDs and explicit fields so they can move to Supabase tables without redesigning the pages. Production authentication, password storage, roles, progress sync and teacher permissions belong in the backend phase.

@@ -18,6 +18,8 @@ REVIEW = json.loads(REVIEW_PATH.read_text()) if REVIEW_PATH.exists() else {'reco
 if REVIEW.get('sourceSha256') and REVIEW['sourceSha256'] != DATA['origin']['sha256']:
     raise ValueError('Recovery review belongs to a different source snapshot')
 RECOVERIES = {r['id']:r for r in REVIEW['records'] if r['decision']=='recover'}
+QUALITY_HOLDS_PATH = CONTENT / 'imports/2026-10-22-quality-holds.json'
+QUALITY_HOLDS = json.loads(QUALITY_HOLDS_PATH.read_text()) if QUALITY_HOLDS_PATH.exists() else {}
 TOPICS = {'fourCentres': 'four-centres', 'polynomial': 'polynomial',
           'mensuration': 'mensuration', 'locus': 'locus', 'asgs': 'sequences'}
 read = lambda p: json.loads(p.read_text())
@@ -427,6 +429,7 @@ for name, groups in DATA['questions'].items():
             if len(q['solution']) < 95 and re.search(r'check against|answer\s*[:：]|^Q\d+\.', q['solution'], re.I):
                 q['solutionStatus'] = 'source-answer-or-brief-explanation'
             reasons = quality(q,'mc' if q['questionType'] in ['mcq','diagram'] else 'long')
+            if q['id'] in QUALITY_HOLDS: reasons.append('needs-original-equal-side-pairing')
             fingerprint = hashlib.sha256(json.dumps([name,q['stem'],q['stemZh'],q.get('options')],ensure_ascii=False,sort_keys=True).encode()).hexdigest()
             record = {'id':q['id'],'sourceTopic':name,'kind':kind,'sourceRow':index+1,
                       'sourceId':original.get('id'),'source':source,'subcategory':q['subcategory'],

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',()=>{
- const user=Auth.getCurrentUser();if(!user){location.href='auth.html?next=settings.html';return;}
+ const user=Auth.ensureLocalSession();if(!user){document.getElementById('settings-status').textContent='未能儲存設定。請允許瀏覽器儲存網站資料。';return;}
  const prefs=Storage.getPreferences(),find=id=>document.getElementById(id);
  find('profile-name').value=user.username;find('profile-language').value=prefs.questionLanguage||'bilingual';find('profile-form').value=prefs.form||'all';
  find('settings-form').onsubmit=e=>{
