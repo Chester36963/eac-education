@@ -1,0 +1,14 @@
+mjx-container { max-width:100%; }
+mjx-container[display="true"] { overflow-x:auto; overflow-y:hidden; padding:6px 0; }
+mjx-container svg { max-width:none; }
+.bank-question h3,.bank-preview h2,#question-stem { font-weight:400; overflow-wrap:anywhere; }
+.bank-question > div,.option-text,.summary-question { min-width:0; }
+.question-row-meta,.question-row-topic { overflow-wrap:anywhere; }
+.bank-preview h2 { font-size:21px; }
+.bank-taxonomy { margin:20px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.bank-taxonomy summary { padding:14px 0; cursor:pointer; font-size:14px; }
+.bank-taxonomy-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); padding-bottom:12px; gap:0 24px; }
+.bank-taxonomy-links a { display:flex; justify-content:space-between; gap:12px; padding:10px 0; border-top:1px solid var(--line); font-size:14px; }
+.bank-taxonomy-links small { display:block; color:var(--ink-soft); margin-top:3px; }
+.bank-taxonomy-links b { font-weight:400; white-space:nowrap; }
+@media(max-width:650px){.bank-taxonomy-links{grid-template-columns:1fr}.bank-preview h2{font-size:18px}.bank-filter-grid label{min-width:0}}

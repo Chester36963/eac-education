@@ -1,6 +1,6 @@
 /* Pure helpers shared by the practice studio, settings and tests. */
 const Learning = {
-  types: {'mcq':'MCQ · 選擇題','short-answer':'Short answer · 短答','structured':'Structured · 分題','proof':'Proof · 證明','diagram':'Diagram · 圖像題','dse-long':'DSE-style long · 原創長題'},
+  types: {'mcq':'MCQ · 選擇題','short-answer':'Short answer · 短答','structured':'Structured · 分題','proof':'Proof · 證明','diagram':'Diagram · 圖像題','dse-long':'DSE-style long · 長題'},
   flatten(data) {
     return data.topics.flatMap(t => t.categories.flatMap(c => c.questions.map(q => ({...q,topicId:t.id,category:c.type}))));
   },
@@ -28,6 +28,7 @@ const Learning = {
   },
   select(questions, filters, user) {
     const records=user.progress?.byQuestion || {};
+    const bookmarks=filters.mode==='saved'?new Set(user.bookmarks||[]):null;
     return questions.filter(q =>
       (!filters.topics?.length || filters.topics.includes(q.topicId)) &&
       (!filters.subcategory || filters.subcategory==='all' || q.subcategory===filters.subcategory) &&
@@ -37,8 +38,8 @@ const Learning = {
       (!filters.form || filters.form==='all' || (q.minForm || 1)<=Number(filters.form)) &&
       (filters.mode!=='review' || records[q.id]?.lastCorrect===false) &&
       (filters.mode!=='new' || !records[q.id]) &&
-      (filters.mode!=='saved' || (user.bookmarks || []).includes(q.id)) &&
-      (!filters.query || `${q.id} ${q.stem} ${q.stemZh} ${q.skill} ${q.searchText||''}`.toLowerCase().includes(filters.query.toLowerCase())) &&
+      (filters.mode!=='saved' || bookmarks.has(q.id)) &&
+      (!filters.query || filters.queryIds?.has(q.id) || `${q.id} ${q.stem} ${q.stemZh} ${q.skill} ${q.searchText||''}`.normalize('NFKC').toLowerCase().includes(filters.query.normalize('NFKC').toLowerCase())) &&
       (!filters.question || q.id===filters.question));
   },
   sessionKey: 'eac_active_set',
