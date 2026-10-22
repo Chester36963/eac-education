@@ -1,0 +1,78 @@
+/* A tactile cover and a mathematical instrument, with no blocking splash. */
+.editorial-home { --font-brand:'Bodoni 72','Didot','Bodoni MT',var(--font-serif-display); }
+.cover-copy h1 { font-weight:400; letter-spacing:-.065em; }
+.cover-copy h1 span { font-family:var(--font-brand); letter-spacing:-.035em; font-size:80px; }
+.cover-zh { font-family:'Songti TC','Noto Serif TC',serif; letter-spacing:.06em; }
+.editorial-cover { padding-top:44px; padding-bottom:24px; }
+.cover-composition { isolation:isolate; }
+.composition-diagram { height:350px; }
+.composition-head { align-items:center; min-height:32px; }
+.replay-book { background:none; border:0; color:var(--cover-muted); font:11px var(--font-stack); cursor:pointer; padding:8px; }
+.replay-book:hover { color:var(--cover-text); }
+.geometry-controls { margin:8px 0 20px; }
+.geometry-modes { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px; }
+.geometry-modes button { border:1px solid var(--cover-line); background:transparent; color:var(--cover-muted); padding:7px 10px; border-radius:20px; font:11px/1.5 var(--font-stack); cursor:pointer; transition:color .2s,background .2s,border-color .2s; }
+.geometry-modes button[aria-pressed=true] { background:var(--cover-text); color:var(--cover); border-color:var(--cover-text); }
+.geometry-controls label { display:flex; align-items:center; gap:10px; color:var(--cover-text); font:11px var(--font-stack); }
+.geometry-controls input { flex:1; min-width:60px; accent-color:#e3b5bc; cursor:ew-resize; height:24px; }
+.geometry-controls p { font:11px/1.8 var(--font-stack); color:var(--cover-muted); margin:8px 0 0; min-height:20px; }
+.mid-point { transition:opacity .25s,fill .25s; }
+.mid-point.is-muted { opacity:.12; }
+.mid-point.is-highlighted { fill:#e3b5bc; stroke:#fff; }
+.book-intro { display:none; position:absolute; inset:0; z-index:3; background:var(--cover); pointer-events:none; place-items:center; perspective:1200px; }
+.is-opening .book-intro { display:grid; animation:book-away .5s 2.1s both; }
+.book-object { width:230px; height:310px; position:relative; transform-style:preserve-3d; transform:rotate(-9deg) rotateY(-18deg); animation:book-settle 2.1s ease both; }
+.book-pages,.book-cover,.book-leaf { position:absolute; inset:0; border-radius:2px 8px 8px 2px; transform-origin:left center; }
+.book-pages { background:#e9e6de; color:#292b30; border-right:5px double #b8b5ae; box-shadow:12px 18px 45px #0007; padding:26px 22px; }
+.book-pages>span { font:10px/1.7 var(--font-stack); letter-spacing:.08em; }
+.book-pages svg { width:100%; height:180px; fill:none; stroke:#762a32; stroke-width:1; }
+.book-pages small { font:8px var(--font-stack); }
+.book-cover { background:#343638; border:1px solid #66686b; box-shadow:inset 8px 0 8px #0003; color:#eeeae2; padding:26px; backface-visibility:hidden; animation:cover-open 1.5s .35s cubic-bezier(.25,.65,.25,1) both; }
+.book-cover>span { font:400 44px/.95 var(--font-stack); letter-spacing:-.04em; }
+.book-cover i { font:italic 30px var(--font-brand); }
+.book-cover svg { display:block; height:130px; width:100%; stroke:#c9c3b7; fill:none; stroke-width:1; }
+.book-cover small { font:8px/1.9 var(--font-stack); letter-spacing:.05em; }
+.book-leaf { background:repeating-linear-gradient(transparent 0 23px,#bcb7ad66 24px 25px),#e9e6de; border:1px solid #c8c4bc; backface-visibility:hidden; }
+.book-leaf::after { content:'a² + b² = c²'; position:absolute; top:40%; left:18%; color:#762a32; font:italic 18px Georgia,serif; }
+.leaf-one { animation:cover-open 1.4s .6s both; }
+.leaf-two { animation:cover-open 1.3s .8s both; }
+@keyframes cover-open { to { transform:rotateY(-155deg); } }
+@keyframes book-settle { 0%{opacity:0;transform:translateY(28px) rotate(-9deg) rotateY(-18deg)} 20%{opacity:1} 100%{transform:translateX(48px) rotate(-3deg) rotateY(0deg)} }
+@keyframes book-away { to{opacity:0;visibility:hidden} }
+.index-row { grid-template-columns:46px 110px 1.1fr 1fr 32px; padding:24px 12px; transition:background .25s; }
+.chapter-art { display:block; width:100px; height:80px; color:var(--ink-soft); }
+.chapter-art svg { width:100%; height:100%; fill:none; stroke:currentColor; stroke-width:1.2; overflow:visible; }
+.chapter-art .art-accent { stroke:var(--coral); }
+.index-row:hover,.index-row:focus-visible { background:#f0f0f1; }
+.index-row:hover .chapter-art,.index-row:focus-visible .chapter-art { color:var(--ink); }
+.index-row:hover .art-orbit,.index-row:focus-visible .art-orbit { transform:rotate(24deg); }
+.art-orbit { transform-origin:50px 40px; transition:transform .65s cubic-bezier(.2,.7,.2,1); }
+.index-arrow { transition:transform .2s; }
+.index-row:hover .index-arrow { transform:translate(3px,-3px); }
+.index-title { font:400 32px/1.2 var(--font-brand); }
+.index-title small { font:12px/1.8 var(--font-stack); margin-top:8px; }
+.editorial-home .route-heading h2,.editorial-home .index-heading h2,.editorial-home .approach-strip h2,.editorial-home .editorial-cta h2 { font-family:var(--font-brand); font-weight:400; line-height:1.07; }
+.editorial-home .route-steps strong { font-family:var(--font-brand); font-size:28px; font-weight:400; }
+.reveal-ready { animation:section-enter .65s ease both; }
+@keyframes section-enter { from{opacity:.25;transform:translateY(20px)} to{opacity:1;transform:none} }
+@media(max-width:800px){
+ .cover-copy h1 { font-size:78px; }
+ .cover-copy h1 span { font-size:46px; }
+ .composition-diagram { height:240px; }
+ .geometry-controls { margin-bottom:16px; }
+ .book-object { width:170px;height:235px; }
+ .book-cover { padding:18px; }
+ .book-cover>span { font-size:34px; }
+ .book-cover i { font-size:24px; }
+ .book-cover svg { height:90px; }
+ .book-pages { padding:18px; }
+ .book-pages svg { height:120px; }
+ .index-row { grid-template-columns:28px 66px 1fr 20px; gap:10px; padding:20px 0; }
+ .chapter-art { width:62px;height:65px; }
+ .index-title { font-size:26px; }
+ .cover-signoff { margin-top:8px; }
+}
+@media(prefers-reduced-motion:reduce){
+ .is-opening .book-intro { display:none; }
+ .editorial-home * { animation:none!important;transition:none!important; }
+}
