@@ -21,7 +21,7 @@ Open http://127.0.0.1:4173/. The question catalog is at http://127.0.0.1:4173/li
 
 | Page | Working behavior |
 | --- | --- |
-| `index.html` | Brand cover, original nine-point-circle illustration and catalog-driven chapter links |
+| `index.html` | Full-screen book opening; animated draggable nine-point circle; sine, quadratic and polygon explorations; four-centres previews; catalog-driven chapter links |
 | `library.html` | Public bilingual question search, taxonomy, counts, pagination, previews and practice links |
 | `auth.html` | Compatibility entry explaining local records; no registration/trial gate |
 | `dashboard.html` | Start with chapter → five questions → review; records at `?view=record` |
@@ -76,6 +76,7 @@ Browser integration tests require Playwright:
 node tests/browser/studio.cjs
 node tests/browser/library.cjs
 node tests/browser/study-journey.cjs
+node tests/browser/exploration.cjs
 ```
 
 Set `PLAYWRIGHT_MODULE` to an installed Playwright package path if it is not available through normal Node module resolution. The suites cover the practice flow, the public catalog and responsive layouts. Browser tests are run locally; the deployment workflow runs unit/content tests.

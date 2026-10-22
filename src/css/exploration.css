@@ -1,7 +1,7 @@
 /* A tactile cover and a mathematical instrument, with no blocking splash. */
 .editorial-home { --font-brand:'Bodoni 72','Didot','Bodoni MT',var(--font-serif-display); }
-.cover-copy h1 { font-weight:400; letter-spacing:-.065em; }
-.cover-copy h1 span { font-family:var(--font-brand); letter-spacing:-.035em; font-size:80px; }
+.cover-copy h1 { font-weight:400; letter-spacing:0; }
+.cover-copy h1 span { font-family:var(--font-brand); letter-spacing:0; font-size:80px; }
 .cover-zh { font-family:'Songti TC','Noto Serif TC',serif; letter-spacing:.06em; }
 .editorial-cover { padding-top:44px; padding-bottom:24px; }
 .cover-composition { isolation:isolate; }
@@ -55,6 +55,98 @@
 .editorial-home .route-steps strong { font-family:var(--font-brand); font-size:28px; font-weight:400; }
 .reveal-ready { animation:section-enter .65s ease both; }
 @keyframes section-enter { from{opacity:.25;transform:translateY(20px)} to{opacity:1;transform:none} }
+/* Full-size opening spread. The spine ends at the centre of the viewport. */
+.book-intro { position:fixed; inset:0; z-index:100; background:#171819; perspective:2000px; overflow:hidden; }
+.book-intro.is-active { display:grid; animation:book-away .7s 4s both; }
+.book-object { position:absolute; left:50%; top:50%; width:min(43vw,550px); height:min(72vh,660px); animation:grand-book-arrive 3.8s cubic-bezier(.22,.7,.2,1) both; }
+.book-cover,.book-pages,.book-leaf { border-radius:2px 6px 6px 2px; }
+.book-cover { padding:36px; background:#303334; border:1px solid #818482; animation:grand-page-open 2.2s .7s cubic-bezier(.32,.05,.2,1) both; }
+.book-cover>span { font-size:72px; letter-spacing:0; }
+.book-cover i { font-size:45px; }
+.book-cover svg { height:50%; stroke:#c5c8c2; }
+.book-cover small { font-size:11px; }
+.book-pages { display:flex; flex-direction:column; justify-content:space-between; padding:36px; background:#f3f3ed; border-right:6px double #b8bcb7; box-shadow:16px 22px 70px #0008; }
+.book-pages>span { font-size:14px; }
+.book-pages svg { height:60%; stroke:#526f65; }
+.book-pages small { font-size:11px; }
+.book-leaf { background:#f3f3ed; background-image:none; }
+.book-leaf::after { content:''; }
+.book-leaf svg { width:100%;height:100%; fill:none;stroke:#526f65;stroke-width:1; }
+.leaf-one { animation:grand-page-open 2.1s 1s cubic-bezier(.32,.05,.2,1) both; }
+.leaf-two { animation:grand-page-open 2s 1.3s cubic-bezier(.32,.05,.2,1) both; }
+.book-leaf .page-ink { transform:translateX(240px) scaleX(-1); }
+.book-leaf.leaf-two { backface-visibility:visible; }
+.book-leaf text { fill:#355b43;stroke:none;font:11px Georgia,serif; }
+.book-intro-label { position:absolute; left:32px; top:26px; color:#c4c9c6; font:11px/1.6 var(--font-stack); }
+.book-skip { position:absolute; right:24px; top:18px; padding:12px; background:none; border:1px solid #656968; color:#f4f3f0; font:12px var(--font-stack); pointer-events:auto; cursor:pointer; }
+.book-intro-footer { position:absolute; bottom:24px; left:0; width:100%; text-align:center; color:#bdc6c0; font:italic 18px var(--font-brand); }
+@keyframes grand-page-open { to{transform:rotateY(-179deg)} }
+@keyframes grand-book-arrive { 0%{opacity:0;transform:translate(-50%,-40%) rotateY(-22deg) rotateZ(-5deg)} 18%{opacity:1} 65%,100%{opacity:1;transform:translate(0,-50%) rotateY(0) rotateZ(0)} }
+/* A continuous mathematical drawing connects the hero to the studio. */
+.nine-circle { stroke-dasharray:5 2 1400; animation:circle-ink 14s linear infinite; }
+.altitude-line { animation:construction-flow 6s linear infinite; }
+.composition-diagram { cursor:crosshair; }
+.vertex-handle { cursor:grab;touch-action:none; }
+.vertex-handle:active { cursor:grabbing; }
+.motion-toggle:disabled,.geometry-play:disabled { cursor:default;opacity:.7; }
+.geometry-play { color:#e0ede5; background:none; border:0; padding:8px 0; font:11px var(--font-stack); cursor:pointer; }
+.math-studio { padding:84px max(40px,calc((100% - 1240px)/2)) 92px; background:#e9eeeb; color:#24362d; border-bottom:1px solid #c8d2cb; }
+.studio-heading { display:flex; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:44px; }
+.studio-heading h2 { margin:0; font:400 66px/1.02 var(--font-brand); letter-spacing:0; }
+.studio-heading h2 em { font-weight:400; }
+.studio-heading .cover-kicker { color:#4c6959; }
+.studio-heading>p { color:#536a5b; font:14px/1.9 var(--font-stack); margin:0 0 4px; }
+.motion-toggle { flex-shrink:0; align-self:flex-start; color:#334b3c; background:none; border:1px solid #a6b7aa; padding:10px 14px; cursor:pointer; font:12px var(--font-stack); }
+.studio-layout { display:grid; grid-template-columns:minmax(220px,.75fr) minmax(0,1.9fr); gap:46px; }
+.studio-selector { display:flex; flex-direction:column; }
+.studio-selector button { width:100%; text-align:left; border:0; border-top:1px solid #c0cdc4; background:none; padding:23px 10px 25px 18px; color:#65756b; cursor:pointer; position:relative; transition:background .3s,color .3s; }
+.studio-selector button:last-child { border-bottom:1px solid #c0cdc4; }
+.studio-selector button[aria-selected=true] { background:#dbe4dd; color:#213d2d; }
+.studio-selector button::before { content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:currentColor;transform:scaleY(0);transform-origin:top;transition:transform .4s; }
+.studio-selector button[aria-selected=true]::before { transform:scaleY(1); }
+.studio-selector button span { display:block;font:10px/1.6 var(--font-stack);margin-bottom:12px; }
+.studio-selector button strong { display:block;font:400 26px/1.15 var(--font-brand); }
+.studio-selector button small { display:block;font:12px/1.8 var(--font-stack);margin-top:9px; }
+.studio-stage { min-width:0; }
+.stage-topline { display:flex;justify-content:space-between;gap:16px;align-items:center;border-bottom:1px solid #bdccc1;padding:0 0 18px; }
+.stage-topline>span { font:10px/1.7 var(--font-stack); }
+.stage-topline output { font:italic 25px Georgia,serif; }
+#math-canvas { display:block;width:100%;height:auto;aspect-ratio:800/410;color:#476a53;overflow:hidden; }
+#scene-drawing { fill:none;stroke:#355b43;stroke-width:1.8;stroke-linecap:round; }
+#scene-drawing .axis { stroke:#8fa496;stroke-width:1; }
+#scene-drawing .construction { stroke:#8fa496;stroke-width:1;stroke-dasharray:5 6; }
+#scene-drawing .accent { stroke:#8d4654;stroke-width:2.5; }
+#scene-drawing .point { fill:#8d4654;stroke:#e9eeeb;stroke-width:2; }
+#scene-drawing .ink { fill:#355b43;stroke:none;font:italic 17px Georgia,serif; }
+#scene-drawing .angle-area { fill:#8d465419;stroke:#8d4654;stroke-width:1; }
+.studio-controls { display:flex;align-items:center;gap:16px;padding:14px 0;border-top:1px solid #bdccc1; }
+.studio-controls label { flex-shrink:0;min-width:124px;font:12px var(--font-stack); }
+.studio-controls output { font-variant-numeric:tabular-nums; margin-left:8px; }
+.studio-controls input { width:100%;min-width:0;accent-color:#476a53;height:28px;cursor:ew-resize; }
+.studio-controls button { background:none;border:1px solid #a6b7aa;min-width:38px;height:38px;color:#355b43;font-size:22px;cursor:pointer; }
+.stage-caption { display:flex;justify-content:space-between;gap:20px;align-items:start;border-top:1px solid #bdccc1;padding-top:17px; }
+.stage-caption p { font:12px/1.8 var(--font-stack);margin:0;max-width:370px; }
+.stage-caption a { white-space:nowrap;border:0;font:12px/1.8 var(--font-stack);color:#355b43; }
+.scene-enter { animation:scene-appear .55s ease both; }
+.chapter-art svg { stroke-dasharray:320;stroke-dashoffset:0; }
+.index-row:hover .chapter-art svg,.index-row:focus-visible .chapter-art svg { animation:draw-chapter 1.6s ease both; }
+.editorial-home .route-steps a { transition:padding .3s,background .3s; }
+.editorial-home .route-steps a:hover { padding-left:20px;background:#edf0ed; }
+.editorial-home .btn { transition:transform .25s,background .25s; }
+.editorial-home .btn:hover { transform:translateY(-3px); }
+.motion-paused .nine-circle,.motion-paused .altitude-line { animation-play-state:paused!important; }
+.route-visual { margin:28px 0 0;max-width:360px;color:#476a53; }
+.route-visual svg { display:block;width:100%;height:255px;fill:none;stroke:currentColor;stroke-width:1.4; }
+.route-visual .route-guide { stroke:#8c9f92;stroke-dasharray:4 5; }
+.route-visual .route-circle { stroke:#8d4654; }
+.route-visual .route-point { fill:#8d4654;stroke:#fff; }
+.route-visual text { fill:#355b43;stroke:none;font:italic 17px Georgia,serif; }
+.route-visual figcaption { display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding-top:10px;font:11px/1.7 var(--font-stack);color:var(--ink-soft); }
+@keyframes scene-appear { from{opacity:.3;transform:translateY(8px)} to{opacity:1;transform:none} }
+@keyframes draw-chapter { from{stroke-dashoffset:320} to{stroke-dashoffset:0} }
+@keyframes circle-ink { to{stroke-dashoffset:-1407} }
+@keyframes construction-flow { to{stroke-dashoffset:-54} }
+@media(min-width:801px) and (max-height:700px){.book-cover>span{font-size:48px}.book-cover i{font-size:32px}}
 @media(max-width:800px){
  .cover-copy h1 { font-size:78px; }
  .cover-copy h1 span { font-size:46px; }
@@ -71,6 +163,32 @@
  .chapter-art { width:62px;height:65px; }
  .index-title { font-size:26px; }
  .cover-signoff { margin-top:8px; }
+ .book-object { width:43vw;height:min(58vh,290px); }
+ .book-cover,.book-pages { padding:16px; }
+ .book-cover>span { font-size:34px; }
+ .book-cover i { font-size:21px; }
+ .book-cover small,.book-pages small { font-size:8px; }
+ .book-pages>span { font-size:10px; }
+ .book-cover svg { height:46%; }
+ .book-intro-label { left:18px;font-size:9px; }
+ .book-skip { right:16px; }
+ .math-studio { padding:56px 22px 64px; }
+ .studio-heading { flex-wrap:wrap;gap:22px;margin-bottom:28px; }
+ .studio-heading h2 { font-size:48px; }
+ .studio-heading>p { font-size:12px; }
+ .studio-heading .motion-toggle { margin-left:auto;align-self:flex-end; }
+ .studio-layout { display:flex;flex-direction:column;gap:28px; }
+ .studio-selector { flex-direction:row; }
+ .studio-selector button { min-width:0;width:33.333%;padding:14px 10px;border-bottom:1px solid #c0cdc4; }
+ .studio-selector button span { font-size:9px; }
+ .studio-selector button strong { font-size:19px; }
+ .studio-selector button small { font-size:10px; }
+ .stage-caption { flex-direction:column;gap:10px; }
+ .stage-topline output { font-size:19px; }
+ #scene-drawing .ink { font-size:24px; }
+ .studio-controls { gap:10px; }
+ .studio-controls label { min-width:105px;font-size:11px; }
+ #math-canvas { aspect-ratio:800/480; }
 }
 @media(prefers-reduced-motion:reduce){
  .is-opening .book-intro { display:none; }
