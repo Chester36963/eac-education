@@ -5,36 +5,35 @@
 
 :root {
   /* ========================================================================
-     COLORS - Extracted from Chester's original HTML design
+     COLORS - EAC charcoal / porcelain identity, October 2026
      ======================================================================== */
 
-  /* Primary Navy Colors */
-  --navy-dark: #172334;           /* Primary text, headings, main elements */
-  --navy-medium: #27415f;         /* Secondary text, supporting elements */
+  /* Primary ink; legacy token names retained for existing consumers. */
+  --navy-dark: #202123;           /* Legacy alias: neutral primary ink */
+  --navy-medium: #414247;         /* Legacy alias: supporting ink */
 
   /* Slate/Gray Colors */
-  --slate: #506173;               /* Body text secondary, muted text */
-  --slate-light: #8192a5;         /* Light text, subtle indicators */
-  --blue-light: #d5dee7;          /* Borders, light dividers */
+  --slate: #626469;
+  --slate-light: #73757a;
+  --blue-light: #dcdcdf;
 
-  /* Accent - Soft Rose/Pink */
-  --accent-rose: #fca9a9;         /* Primary accent: hover, highlights, CTAs */
-  --accent-pink: #ffbde0;         /* Secondary accent: alternative highlights */
-  --accent-rose-light: #ffebf0;   /* Light tint for backgrounds */
+  /* Accent; legacy rose/pink names now resolve to the same wine. */
+  --accent-rose: #762a32;         /* Legacy aliases: restrained wine accent */
+  --accent-pink: #762a32;
+  --accent-rose-light: #f5eeee;
 
   /* Background Colors */
   --bg-white: #ffffff;            /* Pure white, main background */
-  --bg-secondary: #f9fafb;        /* Warm off-white */
-  --bg-tertiary: #f1f4f7;         /* Cool gray-blue, alternate sections */
+  --bg-secondary: #fafafa;
+  --bg-tertiary: #f0f0f1;
 
   /* Text Colors */
-  --text-primary: #172334;        /* Main text - same as navy-dark */
-  --text-secondary: #506173;      /* Secondary text - same as slate */
-  --text-light: #8192a5;          /* Light text - same as slate-light */
+  --text-primary: var(--navy-dark);
+  --text-secondary: var(--slate);
+  --text-light: var(--slate-light);
 
   /* Borders & Dividers */
-  --border-main: #d5dee7;         /* Standard borders - light blue */
-  --border-dark: #506173;         /* Darker borders - slate */
+  --border-color: var(--blue-light);
 
   /* Decorative Lines (for SVG, ::before/::after) */
   --line-color: #555555;          /* Dark gray for fine decorative lines */
@@ -44,9 +43,9 @@
      ======================================================================== */
 
   /* Font Families */
-  --font-serif-display: 'Cormorant Garamond', 'Garamond', serif;
-  --font-serif-body: 'EB Garamond', 'Garamond', serif;
-  --font-stack: var(--font-serif-body), -apple-system, 'Segoe UI', sans-serif;
+  --font-serif-display: 'Cormorant Garamond', 'Songti TC', 'Noto Serif TC', Georgia, serif;
+  --font-serif-body: 'EB Garamond', 'Songti TC', Georgia, serif;
+  --font-stack: -apple-system, BlinkMacSystemFont, 'PingFang TC', 'Microsoft JhengHei', 'Segoe UI', sans-serif;
 
   /* Font Sizes */
   --font-size-xs: 12px;
@@ -73,14 +72,14 @@
   --line-height-loose: 2;
 
   /* Letter Spacing */
-  --letter-spacing-tight: -1px;
-  --letter-spacing-sm: -0.5px;
+  --letter-spacing-tight: 0;
+  --letter-spacing-sm: 0;
   --letter-spacing-normal: 0;
-  --letter-spacing-md: 0.5px;
-  --letter-spacing-lg: 1px;
-  --letter-spacing-xl: 1.5px;
-  --letter-spacing-2xl: 2px;
-  --letter-spacing-3xl: 2.5px;
+  --letter-spacing-md: 0;
+  --letter-spacing-lg: 0;
+  --letter-spacing-xl: 0;
+  --letter-spacing-2xl: 0;
+  --letter-spacing-3xl: 0;
 
   /* ========================================================================
      SPACING - Consistent spacing scale
@@ -106,12 +105,12 @@
   --border-width: 1px;
   --border-main: 1px solid var(--blue-light);
   --border-dark: 1px solid var(--slate);
-  --border-light: 1px solid #e9eff5;
+  --border-light: 1px solid #ededee;
 
   /* Decorative Lines (for ::before, ::after, SVG) */
   --line-thin: 1px solid var(--line-color);
   --line-accent: 3px solid var(--accent-rose);
-  --line-divider: 1px solid var(--border-main);
+  --line-divider: var(--border-main);
 
   /* ========================================================================
      SHADOWS - Subtle, professional shadows
@@ -119,8 +118,8 @@
 
   --shadow-none: none;
   --shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.04);
-  --shadow-hover: 0 12px 36px rgba(23, 35, 52, 0.08);
-  --shadow-accent: 0 8px 24px rgba(252, 169, 169, 0.08);
+  --shadow-hover: 0 8px 24px rgba(32, 33, 35, 0.06);
+  --shadow-accent: 0 4px 16px rgba(118, 42, 50, 0.06);
 
   /* ========================================================================
      TRANSITIONS & ANIMATIONS
@@ -136,9 +135,9 @@
      ======================================================================== */
 
   --radius-none: 0;
-  --radius-sm: 4px;
-  --radius-md: 6px;
-  --radius-lg: 8px;
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --radius-lg: 4px;
 
   /* ========================================================================
      Z-INDEX - Layering system

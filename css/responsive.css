@@ -261,7 +261,7 @@
 
   .btn:hover {
     background-color: var(--bg-white);
-    border-color: var(--border-main);
+    border-color: var(--border-color);
   }
 
   /* Increase touch target area */
@@ -283,7 +283,7 @@
        (min-resolution: 192dpi) {
   /* Fine-tune for sharp displays */
   body {
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
   }
 
   .btn,
@@ -312,7 +312,7 @@
   }
 
   body {
-    letter-spacing: 0.05em;
+    letter-spacing: 0;
   }
 
   a {

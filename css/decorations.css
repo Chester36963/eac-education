@@ -82,7 +82,7 @@
 
 .separator {
   height: 1px;
-  background-color: var(--border-main);
+  background-color: var(--border-color);
   margin: var(--spacing-3xl) 0;
 }
 
@@ -107,7 +107,7 @@
   font-size: var(--font-size-sm);
   margin: var(--spacing-2xl) 0;
   text-transform: uppercase;
-  letter-spacing: var(--letter-spacing-lg);
+  letter-spacing: 0;
 }
 
 .separator-text::before,
@@ -115,7 +115,7 @@
   content: '';
   flex: 1;
   height: 1px;
-  background-color: var(--border-main);
+  background-color: var(--border-color);
 }
 
 .separator-text::before {
@@ -163,7 +163,7 @@
    ============================================================================ */
 
 .border-thick {
-  border: 2px solid var(--border-main);
+  border: 2px solid var(--border-color);
 }
 
 .border-thick-accent {
@@ -171,7 +171,7 @@
 }
 
 .border-dashed {
-  border: 1px dashed var(--border-main);
+  border: 1px dashed var(--border-color);
 }
 
 .border-dashed-accent {
