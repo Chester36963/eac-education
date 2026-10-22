@@ -46,6 +46,7 @@
   --font-serif-display: 'Cormorant Garamond', 'Songti TC', 'Noto Serif TC', Georgia, serif;
   --font-serif-body: 'EB Garamond', 'Songti TC', Georgia, serif;
   --font-stack: -apple-system, BlinkMacSystemFont, 'PingFang TC', 'Microsoft JhengHei', 'Segoe UI', sans-serif;
+  --font-study: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, 'Songti TC', serif;
 
   /* Font Sizes */
   --font-size-xs: 12px;

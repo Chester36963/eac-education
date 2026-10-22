@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
   el('reset-filters-btn').onclick=()=>{questionId=null;el('query-input').value='';applySelections({subject:'all',chapter:'all',form:'all',mode:'all',experience:'study'});};
   el('resume-btn').onclick=resumeSession;
   el('submit-btn').onclick=handleSubmit;el('next-btn').onclick=nextQuestion;
-  el('skip-btn').onclick=nextQuestion;el('hint-btn').onclick=showHint;el('solution-btn').onclick=showSolution;
+  el('skip-btn').onclick=nextQuestion;el('hint-btn').onclick=()=>togglePanel('hint');el('solution-btn').onclick=()=>togglePanel('solution');
   el('bookmark-btn').onclick=toggleBookmark;
   el('self-correct-btn').onclick=()=>recordAnswer(true,'self');el('self-wrong-btn').onclick=()=>recordAnswer(false,'self');
   el('pause-btn').onclick=pauseSession;el('finish-btn').onclick=finishSession;
@@ -126,7 +126,7 @@ function beginSet(qs,selection=selections()){
  queue=qs;sessionState={userId:currentUser.id,ids:qs.map(q=>q.id),index:0,answers:{},drafts:{},selection:{...selection},elapsedMs:0,runningSince:Date.now()};
  document.querySelector('#practice-builder h1').textContent='這組練習的設定';
  el('resume-banner').hidden=true;el('set-summary').hidden=true;el('practice-builder').open=false;el('studio-empty').hidden=true;el('active-set').hidden=true;
- persist();renderQuestion();
+ persist();renderQuestion({focusQuestion:true});
 }
 function resumeSession(){
  const saved=Learning.readSession(currentUser.id);if(!saved)return;
@@ -150,7 +150,7 @@ setInterval(()=>{
 function question(){return queue[sessionState.index];}
 function selfTest(){return sessionState.selection.experience==='test';}
 function textPair(en,zh){const lang=sessionState?.selection?.language||lastSelection?.language||'bilingual';return lang==='en'||en===zh?en:lang==='zh'?zh:`${en}\n\n${zh}`;}
-async function renderQuestion(){
+async function renderQuestion({focusQuestion=false,revealResult=false}={}){
  const token=++renderToken,id=question().id;
  el('active-set').inert=true;el('active-set').setAttribute('aria-busy','true');el('studio-status').textContent='正在載入題目…';
  el('submit-btn').disabled=true;el('hint-btn').disabled=true;el('solution-btn').disabled=true;
@@ -167,16 +167,18 @@ async function renderQuestion(){
  el('question-edition-wrap').open=false;
  el('question-edition').textContent=q.adaptation?textPair(q.adaptation.en,q.adaptation['zh-Hant']):'';
  el('result-message').hidden=true;el('hint-panel').hidden=true;el('solution-panel').hidden=true;el('assessment-panel').hidden=true;
+ for(const name of ['hint','solution']){el(name+'-btn').setAttribute('aria-expanded','false');el(name+'-btn').textContent=name==='hint'?'提示':'解析';}
  el('progress-text').textContent=`第 ${sessionState.index+1} / ${queue.length} 題 · 已作答 ${Object.keys(sessionState.answers).length} 題`;
  el('active-set-title').textContent=selfTest()?'SELF CHECK · 完成後看解析':'STUDY SESSION · 逐題學習';
  el('progress-fill').style.width=`${100*Object.keys(sessionState.answers).length/queue.length}%`;
- el('question-nav').replaceChildren();queue.forEach((item,i)=>{if(i!==0&&i!==queue.length-1&&Math.abs(i-sessionState.index)>10)return;const b=document.createElement('button');b.type='button';b.textContent=i+1;b.className=i===sessionState.index?'is-current':'';b.classList.toggle('is-answered',!!sessionState.answers[item.id]);b.setAttribute('aria-label',`第 ${i+1} 題${sessionState.answers[item.id]?' 已作答':''}`);if(i===sessionState.index)b.setAttribute('aria-current','step');b.onclick=()=>{sessionState.index=i;persist();renderQuestion();};el('question-nav').append(b);});
+ el('question-nav').replaceChildren();queue.forEach((item,i)=>{if(i!==0&&i!==queue.length-1&&Math.abs(i-sessionState.index)>10)return;const b=document.createElement('button');b.type='button';b.textContent=i+1;b.className=i===sessionState.index?'is-current':'';b.classList.toggle('is-answered',!!sessionState.answers[item.id]);b.setAttribute('aria-label',`第 ${i+1} 題${sessionState.answers[item.id]?' 已作答':''}`);if(i===sessionState.index)b.setAttribute('aria-current','step');b.onclick=()=>{sessionState.index=i;persist();renderQuestion({focusQuestion:true});};el('question-nav').append(b);});
  el('difficulty-badge').textContent=labels[q.difficulty];el('category-badge').textContent=skillNames[q.skill]||q.skill;el('type-badge').textContent=Learning.types[q.questionType];
  el('question-source').textContent=sessionState.selection.language==='en'?q.source:q.sourceZh||q.source;
  el('question-stem').textContent=sessionState.selection.language==='zh'?q.stemZh:q.stem;
  el('question-zh').textContent=q.stemZh;el('question-zh').hidden=sessionState.selection.language!=='bilingual';
  el('question-figure').hidden=!q.diagram;if(q.diagram){el('question-image').src=q.diagram.src;el('question-image').alt=q.diagram.alt;el('diagram-caption').textContent=q.diagram.caption;}
  el('options-container').replaceChildren();el('options-container').hidden=!q.options;
+ el('keyboard-guide').hidden=!q.options;
  if(q.options)for(const [letter,text]of Object.entries(q.options)){
   const b=document.createElement('button');b.type='button';b.className='option';b.dataset.letter=letter;b.setAttribute('aria-pressed',String(result?.response===letter));
   const mark=document.createElement('span');mark.className='option-letter';mark.textContent=letter;
@@ -189,6 +191,7 @@ async function renderQuestion(){
  }
  const numeric=q.questionType==='short-answer',manual=!Learning.automatic(q);
  el('question-guidance').textContent=manual?'先在紙上完成推導，然後在下面記下答案。按「核對書面作答」查看解法，再記錄是否掌握。':numeric?'輸入數值或分數，例如 5/6。單位不用輸入，再按「核對答案」。':'選一個答案，再按「核對答案」。卡住可以先看提示。';
+ if(result)el('question-guidance').textContent=selfTest()?'答案已記錄；本組完成後可查看解法。':'已完成核對。讀完解題方法，就可以前往下一題。';
  el('numeric-answer-wrap').hidden=!numeric;el('written-answer-wrap').hidden=!manual;
  el('numeric-answer').value=numeric?(result?.response||sessionState.drafts[q.id]||''):'';el('written-answer').value=manual?(result?.response||sessionState.drafts[q.id]||''):'';
  el('numeric-answer').disabled=el('written-answer').disabled=!!result;
@@ -201,17 +204,32 @@ async function renderQuestion(){
  await EACMath.render(el('active-set'));
  if(token!==renderToken||!sessionState)return;
  el('active-set').inert=false;el('active-set').setAttribute('aria-busy','false');el('studio-status').textContent='';
+ if(revealResult)reveal(el('result-message'));
+ else if(focusQuestion)reveal(el('question-stem'));
+}
+function reveal(target){
+ target.focus({preventScroll:true});
+ const rect=target.getBoundingClientRect();
+ if(rect.top<24||rect.bottom>innerHeight-24)target.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+}
+async function togglePanel(name){
+ if(selfTest()||el('active-set').inert)return;
+ const token=renderToken;
+ const panel=el(name+'-panel'),button=el(name+'-btn');
+ if(!panel.hidden){panel.hidden=true;button.setAttribute('aria-expanded','false');button.textContent=name==='hint'?'提示':'解析';return;}
+ if(name==='hint')await showHint();else await showSolution();
+ if(token===renderToken&&sessionState&&!panel.hidden)reveal(panel);
 }
 function renderBookmark(){const saved=(Storage.getUser().bookmarks||[]).includes(question().id);el('bookmark-btn').textContent=saved?'已收藏 ★':'收藏題目 ☆';el('bookmark-btn').setAttribute('aria-pressed',String(saved));}
 function toggleBookmark(){if(Learning.toggleBookmark(question().id)){renderBookmark();updateCount();}else el('studio-status').textContent='未能儲存收藏，請檢查瀏覽器儲存空間。';}
-function selectOption(letter){if(isAnswerSubmitted)return;selectedAnswer=letter;sessionState.drafts[question().id]=letter;persist();document.querySelectorAll('.option').forEach(b=>{b.classList.toggle('selected',b.dataset.letter===letter);b.setAttribute('aria-pressed',String(b.dataset.letter===letter));});}
+function selectOption(letter){if(isAnswerSubmitted)return;selectedAnswer=letter;sessionState.drafts[question().id]=letter;persist();document.querySelectorAll('.option').forEach(b=>{b.classList.toggle('selected',b.dataset.letter===letter);b.setAttribute('aria-pressed',String(b.dataset.letter===letter));});el('question-guidance').textContent=`已選 ${letter}。按「${selfTest()?'記錄答案':'核對答案'}」確認，亦可改選。`;el('result-message').hidden=true;}
 function response(){const q=question();return q.options?(selectedAnswer||sessionState.drafts[q.id]||''):el(q.questionType==='short-answer'?'numeric-answer':'written-answer').value.trim();}
 function handleSubmit(){
  if(isAnswerSubmitted)return;const q=question(),value=response();
- if(!value){showResult('請先輸入或選擇答案。',false);return;}
- if(q.questionType==='short-answer'&&!Number.isFinite(Learning.number(value))){showResult('請輸入數值或分數，例如 0.5 或 1/2。單位無需輸入。',false);return;}
+ if(!value){showResult('請先輸入或選擇答案。',false);reveal(el('result-message'));return;}
+ if(q.questionType==='short-answer'&&!Number.isFinite(Learning.number(value))){showResult('請輸入數值或分數，例如 0.5 或 1/2。單位無需輸入。',false);reveal(el('result-message'));return;}
  if(!Learning.automatic(q)){
-  el('assessment-panel').hidden=false;el('rubric-list').replaceChildren();for(const text of q.rubric||['此題沒有獨立評分準則。請對照來源解析，核對推理步驟與結論，再記錄自評。']){const li=document.createElement('li');li.textContent=text;el('rubric-list').append(li);}EACMath.render(el('rubric-list'));showSolution();el('submit-btn').hidden=true;return;
+  const token=renderToken;el('assessment-panel').hidden=false;el('rubric-list').replaceChildren();for(const text of q.rubric||['此題沒有獨立評分準則。請對照來源解析，核對推理步驟與結論，再記錄自評。']){const li=document.createElement('li');li.textContent=text;el('rubric-list').append(li);}EACMath.render(el('rubric-list'));showSolution().then(()=>{if(token===renderToken&&sessionState)reveal(el('solution-panel'));});el('submit-btn').hidden=true;return;
  }
  recordAnswer(Learning.check(q,value),'automatic');
 }
@@ -219,11 +237,11 @@ function recordAnswer(correct,assessment){
  if(isAnswerSubmitted)return;const q=question(),value=response();if(!value)return;
  if(!Storage.saveQuestion(q.topicId,q.category,q.difficulty,q.id,correct,{selectedAnswer:value,skill:q.skill,subcategory:q.subcategory,assessment})) {showResult('未能儲存作答，請檢查瀏覽器儲存空間後再試。',false);return;}
  currentUser=Storage.getUser();Gamification.incrementDailyCount(currentUser);Gamification.updateStreak(currentUser,correct);Gamification.checkAchievements(currentUser);Storage.saveUser(currentUser);
- sessionState.answers[q.id]={response:value,correct,assessment};persist();renderQuestion();updateCount();
+ sessionState.answers[q.id]={response:value,correct,assessment};persist();renderQuestion({revealResult:true});updateCount();
 }
-function nextQuestion(){if(sessionState.index===queue.length-1)finishSession();else{sessionState.index++;persist();renderQuestion();}}
-function showHint(){if(selfTest())return;const q=question();EACMath.clear(el('hint-text'));el('hint-text').textContent=textPair(q.hint,q.hintZh);el('hint-panel').hidden=false;EACMath.render(el('hint-text'));}
-function showSolution(){if(selfTest())return;const q=question();EACMath.clear(el('solution-text'));el('solution-text').textContent=(q.solutionStatus==='source-answer-or-brief-explanation'?'來源只附答案或簡短解釋；未提供完整推導。\n\n':'')+textPair(q.solution,q.solutionZh);el('solution-panel').hidden=false;EACMath.render(el('solution-text'));}
+function nextQuestion(){if(sessionState.index===queue.length-1)finishSession();else{sessionState.index++;persist();renderQuestion({focusQuestion:true});}}
+async function showHint(){if(selfTest())return;const q=question();EACMath.clear(el('hint-text'));el('hint-text').textContent=textPair(q.hint,q.hintZh);el('hint-panel').hidden=false;el('hint-btn').setAttribute('aria-expanded','true');el('hint-btn').textContent='收起提示';await EACMath.render(el('hint-text'));}
+async function showSolution(){if(selfTest())return;const q=question();EACMath.clear(el('solution-text'));el('solution-text').textContent=(q.solutionStatus==='source-answer-or-brief-explanation'?'來源只附答案或簡短解釋；未提供完整推導。\n\n':'')+textPair(q.solution,q.solutionZh);el('solution-panel').hidden=false;el('solution-btn').setAttribute('aria-expanded','true');el('solution-btn').textContent='收起解析';await EACMath.render(el('solution-text'));}
 function showResult(text,success){el('result-message').textContent=text;el('result-message').className=`result-message ${success?'success':'error'}`;el('result-message').hidden=false;}
 function finishSession(){
  if(!sessionState)return;const answers=sessionState.answers,answered=Object.keys(answers).length;
@@ -257,3 +275,13 @@ function finishSession(){
  el('set-summary').scrollIntoView({block:'start',behavior:'smooth'});
 }
 function handleLogout(){pauseClock();Auth.logout();location.href='index.html';}
+document.addEventListener('keydown',event=>{
+ if(event.repeat||event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||!sessionState||el('active-set').inert||el('active-set').hidden)return;
+ if(event.target.closest('input,textarea,select,[contenteditable="true"],dialog'))return;
+ const letter=event.key.toUpperCase();
+ if(!isAnswerSubmitted&&question().options&&Object.hasOwn(question().options,letter)){
+  event.preventDefault();selectOption(letter);el('options-container').querySelector(`[data-letter="${letter}"]`).focus({preventScroll:true});
+ }else if(event.key==='Enter'&&(!event.target.closest('button,a,summary')||event.target.closest('.option'))){
+  event.preventDefault();if(isAnswerSubmitted)nextQuestion();else if(!el('submit-btn').hidden)handleSubmit();
+ }
+});
