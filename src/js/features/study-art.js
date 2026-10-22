@@ -1,11 +1,11 @@
 /* Coordinate-built editorial illustrations. These are not question-source diagrams. */
 window.EACPlates = (() => {
   const themes = {
-    'four-centres': {ink:'#36574d',accent:'#8a4654',wash:'#eaf0eb',label:'Four Centres / 四心',parameter:'頂點 C 的橫坐標',symbol:'x',min:2.5,max:6,step:.05,initial:3.5},
-    locus: {ink:'#365d68',accent:'#78506a',wash:'#eaf0f2',label:'Locus / 軌跡',parameter:'圓周上的角度',symbol:'θ',min:0,max:360,step:1,initial:45},
-    polynomials: {ink:'#694b65',accent:'#376b66',wash:'#f1edf1',label:'Polynomials / 多項式',parameter:'二次項係數',symbol:'a',min:-1.2,max:1.2,step:.05,initial:0.7},
+    'four-centres': {ink:'#404e5b',accent:'#9f3726',wash:'#edf0f3',label:'Four Centres / 四心',parameter:'頂點 C 的橫坐標',symbol:'x',min:2.5,max:6,step:.05,initial:3.5},
+    locus: {ink:'#536c83',accent:'#78506a',wash:'#eaf0f2',label:'Locus / 軌跡',parameter:'圓周上的角度',symbol:'θ',min:0,max:360,step:1,initial:45},
+    polynomials: {ink:'#694b65',accent:'#9f3726',wash:'#f1edf1',label:'Polynomials / 多項式',parameter:'二次項係數',symbol:'a',min:-1.2,max:1.2,step:.05,initial:0.7},
     sequences: {ink:'#465e7c',accent:'#8a4f59',wash:'#edf0f5',label:'Sequences & Series / 數列',parameter:'等差數列公差',symbol:'d',min:1,max:4,step:.1,initial:2},
-    'mensuration-core': {ink:'#41675c',accent:'#735371',wash:'#ecf1ee',label:'Mensuration / 度量',parameter:'圓柱高度',symbol:'h',min:3,max:8,step:.1,initial:5}
+    'mensuration-core': {ink:'#5d6479',accent:'#735371',wash:'#f0f0f4',label:'Mensuration / 度量',parameter:'圓柱高度',symbol:'h',min:3,max:8,step:.1,initial:5}
   };
   const canonical = id => ({polynomial:'polynomials',mensuration:'mensuration-core'}[id] || (themes[id] ? id : 'four-centres'));
   const f = n => Number(n.toFixed(3));

@@ -1,5 +1,13 @@
 # Implementation record
 
+## Fixed circumcircle and two-centre exploration — 23 October 2026
+
+Replaced the homepage hero's former nine-point-circle instrument, as clarified by the user. The interior Four Centres construction and the homepage route preview retain their existing mathematics. The homepage now fixes O and R while all three triangle vertices move on the circumference. Every frame derives the incentre from side-length weights and the inradius from area/semiperimeter. A contrasting OI segment, normalized R/r/OI readouts, distance bar and Euler identity explain what changes. Equilateral, scalene and obtuse presets, manual morph slider, three directly draggable vertices and arrow-key vertex controls allow exploration. Ordered angles maintain a minimum 20-degree gap. Playback resumes through a smooth blend, pauses during editing/offscreen/hidden states, and respects reduced motion. The approved opening-book animation remains intact.
+
+Palette follows IMG_1890's sea blue-grey and silver, charcoal and a restrained terracotta accent drawn from IMG_1892; green study surfaces, controls and chapter artwork now use blue-grey/neutral tones. Correct feedback uses blue with a check mark and explicit feedback, wrong feedback retains red. No question source, answer, taxonomy or question diagram was modified.
+
+Validation: exploration browser suite passed at 320/390/768/1440 pixels, checking constant circumcircle, all vertices on circle, incircle tangency on all three sides, Euler distance identity, changing OI readouts, presets, all three pointer/keyboard controls, local/global pause, reduced motion, bounds and existing book/studio/route behaviour. Study-plates and study-design suites passed at all four widths, including the unchanged interior nine-point construction and same-question mens-diag-001 render. All 23 unit/content tests passed. Visually inspected desktop/mobile homepage geometry, full homepage, dashboard and existing question diagram. QA screenshots: /tmp/eac-explore/, /tmp/eac-study-plates/, /tmp/eac-study-design/. No PDF requested or generated.
+
 ## Chapter illustrations and purposeful interaction — 23 October 2026
 
 Replaced the five rough navigation SVGs with a shared coordinate-built illustration system in study-art.js. Each chapter has its own muted ink/accent/paper colours and consistent stroke hierarchy, grid, point markers and labels. Small chapter emblems omit fine labels and guides; the main diagram remains readable and detailed. The five themes use restrained forest, blue-grey and plum tones within the approved light study design. The existing homepage is unchanged.

@@ -18,19 +18,44 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
    const moving=await page.locator('#triangle-shape').inputValue();await page.waitForTimeout(500);
    assert.notEqual(await page.locator('#triangle-shape').inputValue(),moving,'hero automatically changes geometry');
    assert.equal(await page.locator('.chapter-art').count(),5);
-   await page.locator('[data-points="feet"]').click();assert.equal(await page.locator('.mid-point.is-highlighted').count(),3);
-   for(const x of [2,3,5,8]){
-    await page.locator('#triangle-shape').fill(String(x));
-    const error=await page.evaluate(()=>{const c=document.querySelector('.nine-circle'),x=+c.getAttribute('cx'),y=+c.getAttribute('cy'),r=+c.getAttribute('r');return Math.max(...[...document.querySelectorAll('.mid-point')].map(p=>Math.abs(Math.hypot(+p.getAttribute('cx')-x,+p.getAttribute('cy')-y)-r)));});
-    assert.ok(error<.003,'nine-point circle residual '+error);
+   const checkGeometry=async()=>{
+    const data=await page.locator('.circle-study svg').evaluate(svg=>{
+     const point=c=>[+c.getAttribute('cx'),+c.getAttribute('cy')],outer=svg.querySelector('.circumcircle'),inner=svg.querySelector('.incircle'),o=point(outer),i=point(inner),R=+outer.getAttribute('r'),r=+inner.getAttribute('r'),d=Math.hypot(i[0]-o[0],i[1]-o[1]);
+     const edges=[...svg.querySelectorAll('.diagram-edge')].map(e=>[+e.getAttribute('x1'),+e.getAttribute('y1'),+e.getAttribute('x2'),+e.getAttribute('y2')]);
+     const onCircle=Math.max(...edges.map(([x,y])=>Math.abs(Math.hypot(x-o[0],y-o[1])-R)));
+     const tangent=Math.max(...edges.map(([x,y,u,v])=>Math.abs(Math.abs((u-x)*(y-i[1])-(x-i[0])*(v-y))/Math.hypot(u-x,v-y)-r)));
+     const bounds=svg.getBBox();return {o,R,r,d,onCircle,tangent,euler:Math.abs(d*d-R*(R-2*r)),bounds:[bounds.x,bounds.y,bounds.x+bounds.width,bounds.y+bounds.height]};
+    });
+    assert.deepEqual(data.o,[260,200]);assert.equal(data.R,150,'fixed circumcircle');
+    assert.ok(data.onCircle<.002,'all vertices on fixed circle');assert.ok(data.tangent<.003,'incircle tangent to all three sides');assert.ok(data.euler<.5,'Euler distance identity');
+    assert.ok(data.r>0&&data.r<=75.001);assert.ok(data.bounds[0]>=0&&data.bounds[1]>=0&&data.bounds[2]<=520&&data.bounds[3]<=400,'geometry and labels fit');
+    assert.ok(Math.abs(Number(await page.locator('#centre-distance').textContent())-data.d/150)<.00051);
+    return data;
+   };
+   const positions=[];
+   for(const phase of [0,45,90,135,180,225,270,315,360]){
+    await page.locator('#triangle-shape').fill(String(phase));await checkGeometry();
+    positions.push(await page.locator('.vertex-handle').evaluateAll(els=>els.map(e=>e.getAttribute('transform'))));
    }
-   await page.locator('#triangle-shape').fill('3');await page.locator('#triangle-shape').focus();await page.keyboard.press('ArrowRight');
-   assert.equal(await page.locator('#triangle-shape').inputValue(),'3.1');
+   for(let i=0;i<3;i++)assert.notEqual(positions[0][i],positions[2][i],'each vertex moves');
+   await page.locator('[data-shape="0"]').click();assert.equal(await page.locator('#centre-distance').textContent(),'0.000');assert.equal(await page.locator('#incircle-radius').textContent(),'0.500');
+   await page.locator('#geometry-study').screenshot({path:output+'/equilateral-'+width+'.png'});
+   await page.locator('[data-shape="180"]').click();const obtuse=await checkGeometry();assert.ok(obtuse.d>60,'substantial OI change');
+   await page.locator('#geometry-study').screenshot({path:output+'/obtuse-'+width+'.png'});
+   await page.locator('#triangle-shape').fill('90');await page.locator('#triangle-shape').focus();await page.keyboard.press('ArrowRight');
+   assert.equal(await page.locator('#triangle-shape').inputValue(),'91');
+   for(let i=0;i<3;i++){
+    const handle=page.locator('.vertex-handle').nth(i);await handle.focus();const before=await handle.getAttribute('transform');await page.keyboard.press('ArrowRight');assert.notEqual(await handle.getAttribute('transform'),before);await checkGeometry();
+   }
    if(width===1440){
-    const target=await page.locator('.vertex-handle').boundingBox(),x=target.x+target.width/2,y=target.y+target.height/2;
-    await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+80,y,{steps:8});await page.mouse.up();
-    assert.ok(Number(await page.locator('#triangle-shape').inputValue())>3.1,'vertex drag updates geometry');
+    for(let i=0;i<3;i++){
+     const handle=page.locator('.vertex-handle').nth(i),before=await handle.getAttribute('transform'),target=await handle.locator('.vertex-hit').boundingBox(),x=target.x+target.width/2,y=target.y+target.height/2;
+     await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x+35,y-30,{steps:8});await page.mouse.up();
+     assert.notEqual(await handle.getAttribute('transform'),before,'drag vertex '+i);await checkGeometry();
+    }
    }
+   await page.locator('.geometry-play').click();await page.locator('.cover-kicker').first().click();const beforePlay=await page.locator('#triangle-shape').inputValue();await page.waitForTimeout(450);assert.notEqual(await page.locator('#triangle-shape').inputValue(),beforePlay);
+   await page.locator('.geometry-play').click();const held=await page.locator('.incircle').getAttribute('r');await page.waitForTimeout(250);assert.equal(await page.locator('.incircle').getAttribute('r'),held,'local pause holds geometry');
    await page.locator('#motion-toggle').click();assert.equal(await page.locator('#motion-toggle').getAttribute('aria-pressed'),'true');
    await page.locator('#tab-wave').click();await page.locator('#scene-parameter').fill('90');
    assert.equal(await page.locator('#parameter-value').textContent(),'90°');
@@ -71,8 +96,10 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
    await page.emulateMedia({reducedMotion:'reduce'});await page.locator('#replay-book').click();
    assert.equal(await page.locator('.book-intro').isVisible(),false);
    assert.equal(await page.locator('#motion-toggle').getAttribute('aria-pressed'),'true');
+   assert.equal(await page.locator('.geometry-play').isDisabled(),true);
+   await page.locator('#triangle-shape').fill('270');await checkGeometry();
    assert.deepEqual(errors,[]);await context.close();
   }
-  console.log('PASS: large opening spread, completion/replay/skip, automatic/live/dragged nine-point geometry, sine at 90°, negative parabola, hexagon angle, keyboard tabs, reset, pause/resume, four-centres preview/incircle tangency, reduced motion, no overflow or browser errors at 320/390/768/1440.');
+  console.log('PASS: fixed circumcircle, all three moving/draggable/keyboard vertices, incircle tangency, Euler OI identity, presets, readouts, local/global pause, opening book, three studio scenes, unchanged four-centres preview, reduced motion and responsive bounds at 320/390/768/1440.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
