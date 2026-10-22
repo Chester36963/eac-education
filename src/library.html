@@ -5,16 +5,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css"><link rel="stylesheet" href="css/library.css">
 <link rel="stylesheet" href="css/math.css"><script src="js/core/math.js"></script><script defer src="vendor/mathjax/tex-svg.js"></script>
-<link rel="stylesheet" href="css/journey.css"></head><body class="question-library">
+<link rel="stylesheet" href="css/journey.css"><link rel="stylesheet" href="css/study.css"></head><body class="question-library">
 <header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">開始溫習</a><a href="library.html" aria-current="page">題庫</a><a href="dashboard.html?view=record">溫習記錄</a><a href="settings.html" id="library-account">設定</a></nav></div></header>
 <main class="bank-main">
-<section class="bank-intro"><div><p class="eyebrow">QUESTION LIBRARY</p><h1>題庫</h1><p>找指定題目、先看題目內容，或選一個範圍練習。</p><a class="text-button" href="dashboard.html">想開始溫習？先揀一課做 5 題 →</a></div><div class="bank-inventory" id="bank-inventory" aria-live="polite">正在整理題庫…</div></section>
+<section class="bank-intro"><div><p class="eyebrow">THE QUESTION LIBRARY / EAC EDUCATION</p><p class="study-display" lang="en">Find your<br><em>next question.</em></p><h1>按課題，搵到想練嘅題目。</h1><p>選課題 → 選方法 → 預覽或開始練習。</p><a class="text-button" href="dashboard.html">未有方向？返回溫習首頁 →</a></div><div class="bank-identity"><div class="bank-art" aria-hidden="true"></div><div class="bank-inventory" id="bank-inventory" aria-live="polite">正在整理題庫…</div></div></section>
 <div class="bank-layout">
 <aside class="bank-sidebar"><details open id="bank-navigation"><summary>課題目錄 / Chapters</summary><nav id="bank-chapters" aria-label="課題分類"><p>載入中…</p></nav></details></aside>
 <section class="bank-content" aria-labelledby="bank-heading">
 <nav class="bank-breadcrumb" id="bank-breadcrumb" aria-label="分類路徑"></nav>
 <div class="bank-heading-row"><div><h2 id="bank-heading">全部題目</h2><p id="bank-description">選課題或搜尋題目。</p></div><a class="btn btn-primary" href="app.html" id="practice-selection">由這個範圍做 5 題 →</a></div>
-<details class="bank-taxonomy" id="bank-taxonomy" hidden><summary>按解題方法選擇 / Browse solving methods</summary><div class="bank-taxonomy-links" id="bank-taxonomy-links"></div></details>
+<details class="bank-taxonomy" id="bank-taxonomy" hidden><summary>按解題方法揀題目 <span>Browse methods ＋</span></summary><div class="bank-taxonomy-links" id="bank-taxonomy-links"></div></details>
 <section class="bank-filters" aria-label="題目篩選">
 <label class="bank-search">搜尋題目 / Search<input id="bank-search" type="search" placeholder="題號、關鍵字、課題…" autocomplete="off"></label>
 <details class="bank-refinements"><summary>篩選分類、技巧與程度 <span id="bank-refinement-status">Refine your practice</span></summary><div class="bank-filter-grid">
@@ -25,6 +25,7 @@
 </div><div class="bank-filter-footer"><p class="field-note">程度為練習建議，並非完整各級課程。長答及證明題附解析及自評要點。</p><button class="text-button" type="button" id="bank-reset">重設篩選</button></div>
 </details></section>
 <div class="bank-language-row"><span>題目語言</span><select id="bank-language" aria-label="題庫語言" hidden><option value="bilingual">English + 中文</option><option value="en">English</option><option value="zh">繁體中文</option></select><div class="language-switch" data-language-select="bank-language" role="group" aria-label="題庫語言"><button type="button" data-language="en" aria-pressed="false">English</button><button type="button" data-language="bilingual" aria-pressed="true">中英對照</button><button type="button" data-language="zh" aria-pressed="false">繁體中文</button></div></div>
+<div id="bank-active-filters" class="active-filter-list" aria-label="已選篩選"></div>
 <div class="bank-results-top"><p id="bank-count" role="status" aria-live="polite">載入題目中…</p><div class="bank-display"><label>次序<select id="bank-order"><option value="chapter">課題次序</option><option value="difficulty">基礎 → 挑戰</option><option value="type">題型</option></select></label></div></div>
 <div id="bank-results" class="bank-results"></div>
 <nav class="bank-pagination" aria-label="題目分頁"><button class="btn btn-outline" id="bank-prev" type="button">← 上一頁</button><span id="bank-page" aria-live="polite"></span><button class="btn btn-outline" id="bank-next" type="button">下一頁 →</button></nav>
@@ -33,5 +34,5 @@
 </main>
 <dialog class="bank-preview" id="question-preview" aria-labelledby="preview-heading"><div class="preview-header"><p class="eyebrow">QUESTION PREVIEW · 題目預覽</p><button class="preview-close" type="button" id="preview-close" aria-label="關閉題目預覽">×</button></div><div id="preview-content"></div><div class="preview-actions"><a class="btn btn-primary" id="preview-practice" href="app.html">練習這一題 →</a><button class="btn btn-outline" type="button" id="preview-bookmark" aria-pressed="false">收藏 ☆</button></div><p class="field-note" id="preview-status" role="status"></p></dialog>
 <footer class="site-footer"><span>© 2026 EAC Education</span><span>按技巧分類 · 題集與原創練習 · 本機學習記錄</span></footer>
-<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/library.js"></script>
+<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/library.js"></script><script src="js/features/study-ui.js"></script>
 </body></html>

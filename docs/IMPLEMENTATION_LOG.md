@@ -1,5 +1,17 @@
 # Implementation record
 
+## Interior study experience — 23 October 2026
+
+Extended the approved homepage identity to dashboard, library, practice, records and settings through shared study.css and study-ui.js. Light porcelain surfaces, forest/sage accents, restrained wine feedback, editorial display type and readable book-serif question text now share navigation, spacing and control styles. Five original chapter illustrations respond to the selected chapter; these are decorative navigation graphics and do not replace question figures. Reduced-motion disables decorative animation.
+
+Dashboard chapter shortcuts appear in the first viewport. Subject selection and chapter/skill search narrow the directory; expandable chapter → subcategory → skill rows show actual counts and open exact-skill practice. Library scope artwork, removable filter chips and clearer question previews make the hierarchy visible; removing a subcategory also removes its dependent skill. Existing metadata-only browsing and bounded question fetching remain intact.
+
+Practice promotes chapter, method and question count, keeping detailed configuration in a disclosure. Introduction artwork hides while answering or viewing results. Desktop next-step advice responds to answer and solution states; mobile prioritises the question sheet. Wrong and correct selections have distinct wine/red and green treatment. Records and settings use the same study system. File-opened interior pages explain how to open the hosted site to load the bank.
+
+Validation: source/build consistency passed for 853 questions and five chapters; all 23 unit/content tests passed. Browser suites study-design, interaction, studio, study-journey and library passed. Checked 320/390/768/1440px layouts, first-viewport chapter access, subject/search, exact-skill routes, filter dependency clearing, pause/resume, review, settings/export, keyboard/focus, answer feedback, reduced motion and absence of overflow/page exceptions. Visually reviewed desktop/mobile study and answer screens, including the distinct wrong/correct states. The unchanged same-question mens-diag-001 visual retains ABCD, diagonal AC, 8 cm/6 cm, caption and all A–D options, readable on mobile. No question content or source diagrams changed; no PDF generated. Local screenshots: /tmp/eac-study-design/, /tmp/eac-journey-qa/, /tmp/eac-library-qa/.
+
+Local-browser profiles and records remain the current persistence boundary; this update does not implement cloud accounts or cross-device sync.
+
 ## A full opening spread and mathematics in motion - 22 October 2026
 
 Expanded the book from an illustration-sized overlay into a viewport-scale opening spread (up to 1,100 pixels wide on desktop). The cover and two leaves turn around the spine before the spread fades into the homepage. Replay, skip and Escape work; no navigation is blocked. The back of the final leaf remains visible after rotation, so the open book shows two actual pages. Mobile dimensions are explicitly constrained. The book and chapter drawings remain editorial illustrations, not replacements for question diagrams.

@@ -1,0 +1,62 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/',output='/tmp/eac-study-design';
+fs.mkdirSync(output,{recursive:true});
+(async()=>{
+ const browser=await chromium.launch();
+ try{
+  for(const width of [320,390,768,1440]){
+   const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'}),page=await context.newPage(),errors=[];
+   page.on('pageerror',error=>errors.push(error.message));
+   const loaded=()=>page.waitForFunction(()=>document.getElementById('active-set')?.getAttribute('aria-busy')==='false');
+   const fits=async()=>assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'no overflow at '+width);
+   await page.goto(base+'dashboard.html');await page.locator('.chapter-entry').first().waitFor();
+   assert.equal(await page.locator('.chapter-entry').count(),5);
+   assert.equal(await page.locator('#desk-shortcuts button').count(),5);
+   const shortcut=await page.locator('#desk-shortcuts button').first().boundingBox();assert.ok(shortcut.y+shortcut.height<900,'chapter choices visible in first viewport');
+   await fits();await page.screenshot({path:output+'/desk-'+width+'.png',fullPage:true});
+   await page.locator('#desk-subjects [data-subject="algebra"]').click();assert.equal(await page.locator('.chapter-entry').count(),2);
+   await page.locator('#library-search').fill('factorisation');assert.equal(await page.locator('.chapter-entry').count(),1);
+   await page.locator('#desk-shortcuts button').first().click();assert.equal(await page.locator('.chapter-entry').count(),5);
+   assert.equal(await page.locator('#library-search').inputValue(),'');
+   const poly=page.locator('.chapter-entry[data-chapter="polynomials"]');
+   await poly.locator('.chapter-methods>summary').click();
+   const category=poly.locator('.method-category').filter({has:page.locator('a.method-skill[href*="skill=common-factor"]')});
+   await category.locator('summary').click();
+   await poly.locator('.chapter-row').focus();assert.equal(await page.locator('#desk-art').getAttribute('data-art'),'polynomials');
+   await page.screenshot({path:output+'/methods-'+width+'.png',fullPage:true});
+   await category.locator('a.method-skill[href*="skill=common-factor"]').click();await loaded();
+   assert.equal(await page.evaluate(()=>queue.length>0&&queue.every(q=>q.topicId==='polynomial'&&q.skill==='common-factor')),true,'skill link builds the specified practice');
+   assert.equal(await page.locator('.practice-identity').isVisible(),false,'question has priority over the introduction');
+   assert.equal(await page.locator('#subcategory-select').evaluate(e=>e.closest('.advanced-filters')===null),true);
+   const wrong=await page.evaluate(()=>Object.keys(question().options).find(key=>key!==question().answer));
+   await page.locator('.option[data-letter="'+wrong+'"]').click();await page.locator('#submit-btn').click();await loaded();
+   await page.waitForFunction(()=>document.getElementById('companion-heading').textContent.includes('搵出'));
+   assert.notEqual(await page.locator('.option.wrong').evaluate(e=>getComputedStyle(e).backgroundColor),await page.locator('.option.correct').evaluate(e=>getComputedStyle(e).backgroundColor),'wrong and correct remain visually distinct');
+   await fits();await page.screenshot({path:output+'/answer-'+width+'.png',fullPage:true});
+   await page.locator('#finish-btn').click();
+   await page.goto(base+'library.html?chapter=polynomials&subcategory=factorisation&skill=common-factor');
+   await page.waitForFunction(()=>document.getElementById('bank-count').textContent.includes('題符合'));
+   assert.equal(await page.locator('.bank-art').getAttribute('data-art'),'polynomials');
+   assert.equal(await page.locator('#bank-active-filters button').count(),2);
+   await page.locator('#bank-active-filters button').first().click();
+   assert.equal(await page.locator('#bank-subcategory').inputValue(),'all');assert.equal(await page.locator('#bank-skill').inputValue(),'all');
+   assert.equal(new URL(page.url()).searchParams.has('subcategory'),false);
+   await page.locator('#bank-taxonomy summary').click();await fits();
+   await page.screenshot({path:output+'/library-'+width+'.png',fullPage:true});
+   await page.goto(base+'app.html?question=mens-diag-001&language=bilingual&form=all');await loaded();
+   const figure=page.locator('#question-image');await figure.evaluate(img=>img.decode());assert.match(await figure.getAttribute('src'),/mens-diag-001/);
+   assert.equal(await figure.evaluate(img=>img.naturalWidth>0),true);
+   await fits();await page.screenshot({path:output+'/diagram-'+width+'.png',fullPage:true});
+   await page.locator('#finish-btn').click();
+   await page.goto(base+'dashboard.html?view=record');await page.locator('#learning-record').waitFor();
+   assert.equal(await page.locator('#desk-shortcuts').isVisible(),false);await fits();
+   await page.screenshot({path:output+'/records-'+width+'.png',fullPage:true});
+   await page.goto(base+'settings.html');await page.locator('#profile-name').waitFor();
+   assert.equal(await page.locator('.study-brand-label').count(),1);await fits();
+   await page.screenshot({path:output+'/settings-'+width+'.png',fullPage:true});
+   assert.deepEqual(errors,[]);await context.close();
+  }
+  console.log('PASS: first-viewport chapter shortcuts, subject/search filters, subcategory/skill deep practice, reactive chapter artwork/answer guidance, removable filter dependencies, same-question diagram, consistent records/settings, reduced motion and no overflow/errors at 320/390/768/1440.');
+ }finally{await browser.close();}
+})().catch(error=>{console.error(error);process.exitCode=1;});
