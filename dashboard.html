@@ -13,9 +13,12 @@
     <section class="student-welcome"><div><p class="eyebrow">YOUR STUDY DESK / EAC EDUCATION</p><p class="study-display" lang="en">A little practice.<br><em>A clearer mind.</em></p><h1 id="welcome-heading">今日，溫邊一課？</h1><p id="welcome-copy">揀一個課題，先做 5 題。逐題核對解法，再重做未掌握的題目。</p><a class="study-anchor" href="#library">揀選今日課題 <span aria-hidden="true">↓</span></a></div>
       <figure class="study-artboard">
         <nav id="desk-shortcuts" aria-label="選擇課題預覽"></nav>
-        <div id="desk-art" role="img" aria-label="九點圓幾何構圖"></div>
-        <div class="plate-caption"><p id="plate-formula" lang="en">Nine points. One circle.</p><output id="plate-readout" for="plate-parameter" aria-live="off"></output></div>
+        <div id="desk-art" role="group" aria-label="四心互動演示"></div>
+        <div id="centre-selector" class="centre-selector" role="group" aria-label="選擇四心構作"><button type="button" data-centre="O" aria-pressed="true"><i>O</i> 外心</button><button type="button" data-centre="I" aria-pressed="false"><i>I</i> 內心</button><button type="button" data-centre="G" aria-pressed="false"><i>G</i> 重心</button><button type="button" data-centre="H" aria-pressed="false"><i>H</i> 垂心</button></div>
+        <div class="plate-caption"><p id="plate-formula">Circumcentre / 外心</p><output id="plate-readout" for="plate-parameter" aria-live="off"></output></div>
+        <p id="plate-hint" class="plate-hint"></p>
         <div class="plate-controls"><label class="plate-slider"><span id="plate-parameter-name">x</span><input id="plate-parameter" type="range" min="2.5" max="6" value="3.5" step="0.01" aria-label="頂點 C 的橫坐標"></label><button id="plate-play" class="plate-tool" type="button" aria-label="播放數學演示" aria-pressed="false" title="播放數學演示"></button><button id="plate-reset" class="plate-tool" type="button" aria-label="重設圖形" title="重設圖形"></button></div>
+        <p class="plate-instruction" id="plate-instruction">自動輪播四心 · 拖動 C 可自由改變三角形；方向鍵亦可操作。</p>
         <figcaption><span id="desk-art-label">Four Centres / 四心</span><a id="plate-practice" href="app.html?chapter=four-centres&amp;length=5&amp;type=mcq">做 5 題 ↗</a></figcaption>
       </figure>
     </section>
