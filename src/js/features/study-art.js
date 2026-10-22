@@ -1,7 +1,7 @@
 /* Coordinate-built editorial illustrations. These are not question-source diagrams. */
 window.EACPlates = (() => {
   const themes = {
-    'four-centres': {ink:'#404e5b',accent:'#9f3726',wash:'#edf0f3',label:'Four Centres / 四心',parameter:'頂點 C 的橫坐標',symbol:'x',min:2.5,max:6,step:.05,initial:3.5},
+    'four-centres': {ink:'#404e5b',accent:'#9f3726',wash:'#edf0f3',label:'Four Centres / 四心',parameter:'頂點 C 的橫坐標',symbol:'x',min:1,max:9,step:.05,initial:3.5},
     locus: {ink:'#536c83',accent:'#78506a',wash:'#eaf0f2',label:'Locus / 軌跡',parameter:'圓周上的角度',symbol:'θ',min:0,max:360,step:1,initial:45},
     polynomials: {ink:'#694b65',accent:'#9f3726',wash:'#f1edf1',label:'Polynomials / 多項式',parameter:'二次項係數',symbol:'a',min:-1.2,max:1.2,step:.05,initial:0.7},
     sequences: {ink:'#465e7c',accent:'#8a4f59',wash:'#edf0f5',label:'Sequences & Series / 數列',parameter:'等差數列公差',symbol:'d',min:1,max:4,step:.1,initial:2},
@@ -18,37 +18,44 @@ window.EACPlates = (() => {
     return a.map((v,i)=>v+t*d[i]);
   };
   function geometry(x,options={}) {
-    const y=Math.max(5,Math.min(9,options.y??7)),mode=['O','I','G','H'].includes(options.centre)?options.centre:'O';
+    const y=Math.max(2.5,Math.min(9,options.y??7)),mode=['O','I','G','H','all'].includes(options.centre)?options.centre:'O';
     const a=[0,0],b=[10,0],c=[x,y],vertices=[a,b,c],o=[5,(x*x-10*x+y*y)/(2*y)],h=[x,x*(10-x)/y],g=[(10+x)/3,y/3];
     const lengths=[Math.hypot(10-x,y),Math.hypot(x,y),10],perimeter=lengths.reduce((s,v)=>s+v,0);
     const i=[0,1].map(k=>vertices.reduce((s,v,j)=>s+v[k]*lengths[j],0)/perimeter),centres={O:o,I:i,G:g,H:h};
     const R=Math.hypot(...o),r=10*y/perimeter;
-    // Reserve a fixed construction viewport for stable dragging, including the largest circumcircle.
-    const scale=14,screen=p=>[110+scale*p[0],163-scale*p[1]];
+    // Fit the triangle, all centres and circumcircle, including obtuse cases outside the triangle.
+    const xs=[...vertices.map(p=>p[0]),...Object.values(centres).map(p=>p[0]),o[0]-R,o[0]+R],ys=[...vertices.map(p=>p[1]),...Object.values(centres).map(p=>p[1]),o[1]-R,o[1]+R];
+    const xmin=Math.min(...xs),xmax=Math.max(...xs),ymin=Math.min(...ys),ymax=Math.max(...ys);
+    const scale=options.viewport?.scale??Math.min(18,266/(xmax-xmin+2),184/(ymax-ymin+2.5));
+    const origin=options.viewport?.origin??[180-scale*(xmin+xmax)/2,120+scale*(ymin+ymax)/2],screen=p=>[origin[0]+scale*p[0],origin[1]-scale*p[1]];
+    const squares=lengths.map(v=>v*v).sort((a,b)=>a-b),difference=squares[2]-squares[0]-squares[1];
+    const kind=Math.max(...lengths)-Math.min(...lengths)<1e-5?'等邊三角形':Math.abs(difference)<1e-5?'直角三角形':difference>0?'鈍角三角形':'銳角三角形';
     let guides='',circle='';
-    if(mode==='O'){
+    if(mode==='O'||mode==='all'){
       circle=`<circle class="art-emphasis art-circumcircle" cx="${f(screen(o)[0])}" cy="${f(screen(o)[1])}" r="${f(R*scale)}"/>`;
-      guides=vertices.map((v,j)=>{const m=mid(v,vertices[(j+1)%3]);return line(screen(m),screen(o),'art-guide art-construction')+dot(screen(m),'art-midpoint',2);}).join('');
+      if(mode==='O')guides=vertices.map((v,j)=>{const m=mid(v,vertices[(j+1)%3]);return line(screen(m),screen(o),'art-guide art-construction')+dot(screen(m),'art-midpoint',2);}).join('');
     }
-    if(mode==='I'){
-      circle=`<circle class="art-emphasis art-incircle" cx="${f(screen(i)[0])}" cy="${f(screen(i)[1])}" r="${f(r*scale)}"/>`;
-      guides=vertices.map(v=>line(screen(v),screen(i),'art-guide art-construction')).join('');
+    if(mode==='I'||mode==='all'){
+      circle+=`<circle class="art-emphasis art-incircle" cx="${f(screen(i)[0])}" cy="${f(screen(i)[1])}" r="${f(r*scale)}"/>`;
+      if(mode==='I')guides=vertices.map(v=>line(screen(v),screen(i),'art-guide art-construction')).join('');
     }
     if(mode==='G')guides=vertices.map((v,j)=>line(screen(v),screen(mid(vertices[(j+1)%3],vertices[(j+2)%3])),'art-guide art-construction')).join('');
-    if(mode==='H')guides=vertices.map((v,j)=>{const q=foot(v,vertices[(j+1)%3],vertices[(j+2)%3]);return line(screen(v),screen(q),'art-guide art-construction')+dot(screen(q),'art-midpoint',2);}).join('');
+    if(mode==='H')guides=vertices.map((v,j)=>{const q=foot(v,vertices[(j+1)%3],vertices[(j+2)%3]);return line(screen(v),screen(q),'art-guide art-construction')+line(screen(q),screen(h),'art-guide art-construction')+dot(screen(q),'art-midpoint',2);}).join('');
     let ink=`<path class="art-plane" d="M${screen(a)}L${screen(b)}L${screen(c)}Z"/>`+circle+guides;
     ink+=line(screen(o),screen(h),'art-euler art-detail');
     ink+=`<path class="art-main art-triangle" d="M${screen(a)}L${screen(b)}L${screen(c)}Z"/>`;
     ink+=vertices.map((p,j)=>dot(screen(p),'art-vertex',3)+text([screen(p)[0]+(j===0?-16:j===1?9:0),screen(p)[1]+(j===2?-14:16)],'ABC'[j])).join('');
     // Focus one centre at a time; the other three remain marked for comparison.
     for(const [name,p]of Object.entries(centres)){
-      const active=name===mode,[sx,sy]=screen(p);
+      const active=name===mode||mode==='all',[sx,sy]=screen(p);
       ink+=`<g class="art-centre-group ${active?'is-active':''}" data-centre="${name}">`+dot([sx,sy],active?'art-live-point':'art-centre',active?4:2.3);
-      if(active)ink+=text([sx+9,sy-9],name,'art-label art-centre-label');
+      if(active&&kind!=='等邊三角形'){const offset=mode==='all'?{O:[12,20],I:[18,-16],G:[-22,22],H:[-22,-14]}[name]:[9,-9];if(mode==='all')ink+=line([sx,sy],[sx+offset[0]*.65,sy+offset[1]*.65],'art-euler art-detail');ink+=text([sx+offset[0],sy+offset[1]],name,'art-label art-centre-label');}
       ink+='</g>';
     }
-    const info={O:['Circumcentre / 外心','三邊的垂直平分線交於 O；到三個頂點的距離相等。'],I:['Incentre / 內心','三條內角平分線交於 I；到三邊的垂直距離相等。'],G:['Centroid / 重心','三條中線交於 G；重心以 2 : 1 分割每條中線。'],H:['Orthocentre / 垂心','三條高交於 H；每條高均垂直於對邊或其延長線。']}[mode];
-    return {ink,formula:info[0],readout:`C = (${x.toFixed(2)}, ${y.toFixed(2)})`,hint:info[1],geometry:{vertices,centres,R,r,scale,origin:[110,163],mode},description:`A(0,0), B(10,0), C(${x.toFixed(2)},${y.toFixed(2)})。${info[1]}`};
+    if(kind==='等邊三角形')ink+=text([screen(o)[0]+10,screen(o)[1]-10],'O = I = G = H','art-label art-centre-label');
+    const info={O:['Circumcentre / 外心','三邊的垂直平分線交於 O；到三個頂點的距離相等。'],I:['Incentre / 內心','三條內角平分線交於 I；到三邊的垂直距離相等。'],G:['Centroid / 重心','三條中線交於 G；重心以 2 : 1 分割每條中線。'],H:['Orthocentre / 垂心','三條高交於 H；每條高均垂直於對邊或其延長線。'],all:['Four centres, together.','O 外心 · I 內心 · G 重心 · H 垂心。揀選不同三角形，比較四心的位置。']}[mode];
+    const relationship=kind==='等邊三角形'?'等邊三角形的四心重合。':kind==='直角三角形'?'直角三角形：外心在斜邊中點，垂心在直角頂點。':kind==='鈍角三角形'?'鈍角三角形：外心及垂心在三角形外，內心與重心仍在內。':'';
+    return {ink,formula:info[0],readout:`C = (${x.toFixed(2)}, ${y.toFixed(2)})`,hint:relationship||info[1],geometry:{vertices,centres,R,r,scale,origin,mode,kind},description:`A(0,0), B(10,0), C(${x.toFixed(2)},${y.toFixed(2)})。${kind}。${relationship||info[1]}`};
   }
   function locus(angle) {
     const theta=angle*Math.PI/180,o=[180,120],r=76,p=[180+r*Math.cos(theta),120-r*Math.sin(theta)];

@@ -1,5 +1,15 @@
 # Implementation record
 
+## Triangle comparisons and motion throughout the study desk — 23 October 2026
+
+Addressed the six annotated dashboard comments. Chapter thumbnails were static artwork; they now recompute their own chapter geometry while visible, with suspended rendering when offscreen/hidden and static artwork under reduced motion. The sequence changes its common difference, cylinder changes height, quadratic changes coefficient, and geometric chapters use their corresponding constructions. These remain decorative illustrations; practice links and question-source assets retain their original behaviour.
+
+Four Centres now includes acute, right, obtuse and equilateral presets plus an all-centres comparison mode. Presets show O/I/G/H together; the equilateral case labels their coincidence and right/obtuse cases explain where the centres lie. The coordinate range now spans acute and obtuse examples. Automatic fitting keeps the circumcircle, outside centres and labels readable; drag coordinates use a stable viewport until release. Altitudes extend to the outside orthocentre when required. Automatic playback also visits a wider range of triangle shapes.
+
+Refined the welcome into an editorial title, serif Chinese heading, separated guidance block and Chester byline; added Mathematics by Chester to the footer. Extended the approved faint moving mathematical linework through the chapter directory with three bounded background compositions. The study sheet itself is unaffected.
+
+Validation: expanded four-centres-motion browser suite passed at 320/390/768/1440, including all four presets, coincident equilateral centres, right/obtuse explanations, 100 geometry/mode boundary combinations, centre invariants, direct dragging, visible lower-thumbnail animation, reduced motion, background presence and Chester credit. Study-design and study-plates regressions passed; 23 unit/content tests and the 853-question content consistency check passed. Visually reviewed the new full desktop/mobile dashboard and right/obtuse/equilateral comparisons. Evidence: /tmp/eac-four-centres/ and /tmp/eac-study-design/. Direct file opening still has the existing bank-loading limitation; normal catalogue/thumbnail testing uses the local HTTP server. No question content/images or PDF changed.
+
 ## Four-centre constructions and automatic study motion — 23 October 2026
 
 The interior preview previously started paused and stopped on every chapter change. It now plays on arrival unless reduced motion is requested, automatically changing both C coordinates and touring O/I/G/H every 5.5 seconds. Returning to a chapter restores its paused/playing state and manual geometry. The former interior nine-point construction is replaced by four accurate, separate constructions: perpendicular bisectors and circumcircle, internal angle bisectors and incircle, medians, and altitudes. The three other centres remain lightly marked while only the selected centre is labelled. Mathematical positions, circle radii and construction feet are recomputed from the actual vertices. No question diagrams, answers or source records changed.

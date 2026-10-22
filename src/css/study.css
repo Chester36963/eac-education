@@ -31,8 +31,9 @@
 @keyframes study-orbit { to { transform:rotate(360deg); } }
 .study-artboard::before { content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at var(--light-x,50%) var(--light-y,30%),#ffffff60,transparent 65%);z-index:-1; }
 .centre-selector { display:flex;gap:4px;border-block:1px solid #cbd1d7;padding:4px 0;margin-bottom:10px; }
-.centre-selector button { flex:1;min-height:38px;padding:5px 2px;border:0;background:transparent;color:#66717d;font:11px var(--font-stack);cursor:pointer;transition:background .25s,color .25s; }
+.centre-selector button { flex:1;min-width:0;white-space:nowrap;min-height:38px;padding:5px 2px;border:0;background:transparent;color:#66717d;font:11px var(--font-stack);cursor:pointer;transition:background .25s,color .25s; }
 .centre-selector button i { font:italic 16px Georgia,serif;margin-right:4px; }
+@media(max-width:380px){.centre-selector{gap:2px}.centre-selector button{font-size:10px;padding-inline:0}.centre-selector button i{font-size:14px;margin-right:2px}}
 .centre-selector button[aria-pressed=true] { background:#404e5b;color:#fff; }
 .plate-hint { margin:5px 0 8px;font:11px/1.8 var(--font-stack);min-height:40px;color:#566575; }
 .plate-instruction { margin:6px 0 12px;font:10px/1.8 var(--font-stack);color:#65707c; }
@@ -51,6 +52,40 @@
 .study-display em,.practice-display em { font-weight:400; }
 .student-welcome h1 { font:500 23px/1.6 var(--font-stack);margin:0 0 10px; }
 .student-welcome #welcome-copy { font:14px/1.9 var(--font-stack);max-width:420px;color:#626973;margin:0; }
+.welcome-editorial { padding:14px 0 10px; }
+.welcome-editorial>.eyebrow { display:flex;align-items:center;gap:20px;font-size:9px;letter-spacing:.1em;margin-bottom:30px; }
+.welcome-editorial>.eyebrow span { color:#85909b;font-size:8px;letter-spacing:.04em;border-left:1px solid #cbd1d7;padding-left:16px; }
+.welcome-editorial .study-display { font-family:'Cormorant Garamond','Bodoni 72',Georgia,serif;font-size:clamp(48px,5.2vw,72px);line-height:1.02;letter-spacing:-.035em;color:#343d47;margin-bottom:36px; }
+.welcome-editorial .study-display>span { font-weight:400; }
+.welcome-editorial .study-display em { color:#687b8e; }
+.welcome-guidance { display:flex;gap:17px;align-items:flex-start;border-top:1px solid #cbd1d7;padding-top:22px; }
+.welcome-mark { font:italic 30px Georgia,serif;color:#8293a4;line-height:1.1; }
+.student-welcome .welcome-guidance h1 { font-family:'Songti TC','Noto Serif TC','PMingLiU',serif;font-size:25px;font-weight:500;letter-spacing:.07em;line-height:1.6;margin-bottom:10px; }
+.student-welcome .welcome-guidance #welcome-copy { font-size:13px;line-height:2;max-width:340px;color:#67717d; }
+.welcome-editorial .study-anchor { margin:24px 0 0 38px;font-size:12px;gap:40px; }
+.welcome-byline { display:flex;gap:16px;align-items:center;margin:32px 0 0 38px;font:italic 15px/1.7 Georgia,serif;color:#6c7a88; }
+.welcome-byline span { font:9px/1.7 var(--font-stack);color:#89939d; }
+.triangle-selector { display:flex;flex-wrap:wrap;align-items:center;gap:4px;border-top:1px solid #cbd1d7;padding:7px 0; }
+.triangle-selector button { min-height:34px;border:0;border-bottom:1px solid transparent;background:none;padding:4px 7px;color:#67717d;font:10px var(--font-stack);cursor:pointer; }
+.triangle-selector button[aria-pressed=true] { border-color:var(--plate-accent);color:var(--plate-accent); }
+.triangle-selector output { margin-left:auto;font:9px var(--font-stack);color:#85909b; }
+.footer-author { display:inline-block;margin-left:12px;padding-left:12px;border-left:1px solid #cbd1d7;font:italic 13px/1.8 Georgia,serif;color:#566575; }
+.student-shell .library-section { position:relative;isolation:isolate; }
+.library-atmosphere { position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:-1; }
+.library-atmosphere .study-atmosphere { height:680px;opacity:.045; }
+.library-atmosphere .atmosphere-section-1 { top:35%;transform:rotate(35deg); }
+.library-atmosphere .atmosphere-section-2 { top:70%;transform:rotate(-25deg); }
+.library-atmosphere .atmosphere-section-1 .atmosphere-orbit { animation-direction:reverse;animation-duration:95s; }
+.chapter-entry.is-illustrating .chapter-picture { background:transparent; }
+@media(max-width:800px){
+ .welcome-editorial { padding-top:4px; }
+ .welcome-editorial>.eyebrow { margin-bottom:24px;gap:14px; }
+ .welcome-editorial .study-display { font-size:clamp(43px,8.5vw,64px);margin-bottom:28px; }
+ .student-welcome .welcome-guidance h1 { font-size:23px; }
+ .welcome-editorial .welcome-byline { margin-top:24px;flex-wrap:wrap;gap:5px 12px; }
+ .triangle-selector button { padding-inline:6px; }
+ .triangle-selector output { font-size:8px; }
+}
 .study-anchor { display:inline-flex;gap:32px;align-items:center;border:0;color:#404e5b;font:13px/1.7 var(--font-stack);margin-top:24px; }
 .study-anchor span { transition:transform .25s; }
 .study-anchor:hover span { transform:translateY(5px); }
