@@ -17,22 +17,38 @@ window.EACPlates = (() => {
     const d=b.map((v,i)=>v-a[i]),t=p.reduce((sum,v,i)=>sum+(v-a[i])*d[i],0)/d.reduce((sum,v)=>sum+v*v,0);
     return a.map((v,i)=>v+t*d[i]);
   };
-  function geometry(x) {
-    const a=[0,0],b=[10,0],c=[x,7],o=[5,(x*x-10*x+49)/14],h=[x,x*(10-x)/7],n=mid(o,h);
-    const vertices=[a,b,c],feet=[foot(a,b,c),foot(b,a,c),[x,0]],nine=[mid(a,b),mid(b,c),mid(c,a),...feet,...vertices.map(v=>mid(v,h))];
-    const screen=p=>[90+18*p[0],166-18*p[1]],r=Math.hypot(...o)*18;
-    let ink=`<circle class="art-orbit art-detail" cx="${f(screen(o)[0])}" cy="${f(screen(o)[1])}" r="${f(r)}"/>`;
-    ink+=`<path class="art-plane" d="M${screen(a)}L${screen(b)}L${screen(c)}Z"/>`;
-    ink+=feet.map((p,i)=>line(screen(vertices[i]),screen(p),'art-guide art-detail')).join('');
-    ink+=line(screen(o),screen(h),'art-guide');
-    ink+=`<circle class="art-emphasis art-nine-circle" cx="${f(screen(n)[0])}" cy="${f(screen(n)[1])}" r="${f(r/2)}"/>`;
+  function geometry(x,options={}) {
+    const y=Math.max(5,Math.min(9,options.y??7)),mode=['O','I','G','H'].includes(options.centre)?options.centre:'O';
+    const a=[0,0],b=[10,0],c=[x,y],vertices=[a,b,c],o=[5,(x*x-10*x+y*y)/(2*y)],h=[x,x*(10-x)/y],g=[(10+x)/3,y/3];
+    const lengths=[Math.hypot(10-x,y),Math.hypot(x,y),10],perimeter=lengths.reduce((s,v)=>s+v,0);
+    const i=[0,1].map(k=>vertices.reduce((s,v,j)=>s+v[k]*lengths[j],0)/perimeter),centres={O:o,I:i,G:g,H:h};
+    const R=Math.hypot(...o),r=10*y/perimeter;
+    // Reserve a fixed construction viewport for stable dragging, including the largest circumcircle.
+    const scale=14,screen=p=>[110+scale*p[0],163-scale*p[1]];
+    let guides='',circle='';
+    if(mode==='O'){
+      circle=`<circle class="art-emphasis art-circumcircle" cx="${f(screen(o)[0])}" cy="${f(screen(o)[1])}" r="${f(R*scale)}"/>`;
+      guides=vertices.map((v,j)=>{const m=mid(v,vertices[(j+1)%3]);return line(screen(m),screen(o),'art-guide art-construction')+dot(screen(m),'art-midpoint',2);}).join('');
+    }
+    if(mode==='I'){
+      circle=`<circle class="art-emphasis art-incircle" cx="${f(screen(i)[0])}" cy="${f(screen(i)[1])}" r="${f(r*scale)}"/>`;
+      guides=vertices.map(v=>line(screen(v),screen(i),'art-guide art-construction')).join('');
+    }
+    if(mode==='G')guides=vertices.map((v,j)=>line(screen(v),screen(mid(vertices[(j+1)%3],vertices[(j+2)%3])),'art-guide art-construction')).join('');
+    if(mode==='H')guides=vertices.map((v,j)=>{const q=foot(v,vertices[(j+1)%3],vertices[(j+2)%3]);return line(screen(v),screen(q),'art-guide art-construction')+dot(screen(q),'art-midpoint',2);}).join('');
+    let ink=`<path class="art-plane" d="M${screen(a)}L${screen(b)}L${screen(c)}Z"/>`+circle+guides;
+    ink+=line(screen(o),screen(h),'art-euler art-detail');
     ink+=`<path class="art-main art-triangle" d="M${screen(a)}L${screen(b)}L${screen(c)}Z"/>`;
-    ink+=nine.map(p=>dot(screen(p),'art-nine-point',2)).join('');
-    ink+=vertices.map(p=>dot(screen(p),'art-vertex',2.8)).join('');
-    ink+=dot(screen(o),'art-centre',2)+dot(screen(h),'art-centre',2);
-    ink+=text([screen(a)[0]-16,screen(a)[1]+16],'A')+text([screen(b)[0]+9,screen(b)[1]+16],'B')+text([screen(c)[0]-4,screen(c)[1]-12],'C');
-    ink+=text([screen(o)[0]+8,screen(o)[1]+13],'O','art-label art-detail')+text([screen(h)[0]-17,screen(h)[1]-5],'H','art-label art-detail');
-    return {ink,formula:'Nine points. One circle.',readout:`C = (${x.toFixed(2)}, 7)`,description:`A(0,0), B(10,0), C(${x.toFixed(2)},7)。九個中點及垂足同在九點圓上；O 為外心，H 為垂心。`};
+    ink+=vertices.map((p,j)=>dot(screen(p),'art-vertex',3)+text([screen(p)[0]+(j===0?-16:j===1?9:0),screen(p)[1]+(j===2?-14:16)],'ABC'[j])).join('');
+    // Focus one centre at a time; the other three remain marked for comparison.
+    for(const [name,p]of Object.entries(centres)){
+      const active=name===mode,[sx,sy]=screen(p);
+      ink+=`<g class="art-centre-group ${active?'is-active':''}" data-centre="${name}">`+dot([sx,sy],active?'art-live-point':'art-centre',active?4:2.3);
+      if(active)ink+=text([sx+9,sy-9],name,'art-label art-centre-label');
+      ink+='</g>';
+    }
+    const info={O:['Circumcentre / 外心','三邊的垂直平分線交於 O；到三個頂點的距離相等。'],I:['Incentre / 內心','三條內角平分線交於 I；到三邊的垂直距離相等。'],G:['Centroid / 重心','三條中線交於 G；重心以 2 : 1 分割每條中線。'],H:['Orthocentre / 垂心','三條高交於 H；每條高均垂直於對邊或其延長線。']}[mode];
+    return {ink,formula:info[0],readout:`C = (${x.toFixed(2)}, ${y.toFixed(2)})`,hint:info[1],geometry:{vertices,centres,R,r,scale,origin:[110,163],mode},description:`A(0,0), B(10,0), C(${x.toFixed(2)},${y.toFixed(2)})。${info[1]}`};
   }
   function locus(angle) {
     const theta=angle*Math.PI/180,o=[180,120],r=76,p=[180+r*Math.cos(theta),120-r*Math.sin(theta)];
@@ -78,9 +94,9 @@ window.EACPlates = (() => {
     return {ink,formula:'V = πr²h',readout:`r = 3 · h = ${h.toFixed(2)}`,description:`圓柱半徑固定為 3，高為 ${h.toFixed(2)}；體積為 ${(9*h).toFixed(2)}π。示意圖不按比例。`};
   }
   const builders={'four-centres':geometry,locus,polynomials:polynomial,sequences:sequence,'mensuration-core':cylinder};
-  function scene(id,value) {
+  function scene(id,value,options={}) {
     id=canonical(id);const theme=themes[id],v=Math.min(theme.max,Math.max(theme.min,value??theme.initial));
-    const drawing=builders[id](v);
+    const drawing=builders[id](v,options);
     const grid=Array.from({length:11},(_,i)=>line([40+i*28,24],[40+i*28,216],'art-grid')).join('')+Array.from({length:7},(_,i)=>line([40,32+i*28],[320,32+i*28],'art-grid')).join('');
     return {...drawing,id,theme,value:v,svg:`<svg class="study-art" viewBox="0 0 360 240" aria-hidden="true" focusable="false" style="--plate-ink:${theme.ink};--plate-accent:${theme.accent};--plate-wash:${theme.wash}"><g class="art-grid-group">${grid}</g><g class="art-content">${drawing.ink}</g></svg>`};
   }

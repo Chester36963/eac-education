@@ -23,10 +23,16 @@ fs.mkdirSync(out,{recursive:true});
      const bounds=await page.locator('#desk-art .art-content').evaluate(el=>{const b=el.getBBox();return {x:b.x,y:b.y,right:b.x+b.width,bottom:b.y+b.height};});
      assert.ok(bounds.x>=8&&bounds.y>=8&&bounds.right<=352&&bounds.bottom<=236,`${id} labels/lines fit at ${end}: ${JSON.stringify(bounds)}`);
      if(id==='four-centres'){
-      const residual=await page.locator('#desk-art svg').evaluate(svg=>{
-       const circle=svg.querySelector('.art-nine-circle'),cx=+circle.getAttribute('cx'),cy=+circle.getAttribute('cy'),r=+circle.getAttribute('r');
-       return Math.max(...[...svg.querySelectorAll('.art-nine-point')].map(p=>Math.abs(Math.hypot(+p.getAttribute('cx')-cx,+p.getAttribute('cy')-cy)-r)));
-      });assert.ok(residual<.002,'all nine constructed points lie on the same circle');
+      assert.equal(await page.locator('#desk-art .art-nine-circle').count(),0);
+      for(const centre of ['O','I','G','H']){
+       await page.locator(`#centre-selector [data-centre="${centre}"]`).click();
+       assert.equal(await page.locator('#desk-art .art-centre-group.is-active').getAttribute('data-centre'),centre);
+       const bounds=await page.locator('#desk-art .art-content').evaluate(el=>{const b=el.getBBox();return [b.x,b.y,b.x+b.width,b.y+b.height];});
+       assert.ok(bounds[0]>=8&&bounds[1]>=8&&bounds[2]<=352&&bounds[3]<=236,centre+' bounds '+bounds);
+      }
+      const handle=page.locator('.plate-vertex-handle');await handle.focus();await page.keyboard.press('ArrowUp');
+      assert.ok((await page.locator('#plate-readout').textContent()).includes('7.10'),'height can be edited with keyboard');
+      await page.keyboard.press('ArrowDown');
      }
      if(id==='locus'){
       const distance=await page.locator('#desk-art .art-live-point').evaluate(p=>Math.hypot(+p.getAttribute('cx')-180,+p.getAttribute('cy')-120));assert.ok(Math.abs(distance-76)<.002);
@@ -75,6 +81,6 @@ fs.mkdirSync(out,{recursive:true});
    assert.equal(await page.locator('#plate-play').getAttribute('aria-pressed'),'false');
    assert.deepEqual(errors,[]);await context.close();
   }
-  console.log('PASS: five coordinate-derived plates, nine-point circle invariants, locus radius, quadratic roots/vertex, discrete sequence, bounded labels, responsive chapter navigation, manual/keyboard parameters, remembered values, reset, playback/pause, offscreen suspension and reduced motion.');
+  console.log('PASS: five coordinate-derived plates, four-centre modes and two-dimensional keyboard editing, locus radius, quadratic roots/vertex, discrete sequence, bounded labels, responsive chapter navigation, remembered values, reset, playback/pause, offscreen suspension and reduced motion.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
