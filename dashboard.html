@@ -10,11 +10,12 @@
 <body class="student-shell">
   <header class="site-header"><div class="header-inner"><a href="index.html" class="logo">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html" aria-current="page">開始溫習</a><a href="library.html">題庫</a><a href="dashboard.html?view=record">溫習記錄</a><a href="settings.html">設定</a></nav></div></header>
   <main class="student-main">
-    <section class="student-welcome"><div><p class="eyebrow">YOUR STUDY DESK / EAC EDUCATION</p><p class="study-display" lang="en">A little practice.<br><em>A clearer mind.</em></p><h1 id="welcome-heading">今日，溫邊一課？</h1><p id="welcome-copy">揀一個課題，先做 5 題。逐題核對解法，再重做未掌握的題目。</p><a class="study-anchor" href="#library">揀選今日課題 <span aria-hidden="true">↓</span></a></div>
+    <section class="student-welcome"><div class="welcome-editorial"><p class="eyebrow">THE STUDY DESK <span>01 / EAC × CHESTER</span></p><p class="study-display" lang="en"><span>A little</span> practice.<br><em>A clearer mind.</em></p><div class="welcome-guidance"><span class="welcome-mark" aria-hidden="true">∴</span><div><h1 id="welcome-heading">今日，溫邊一課？</h1><p id="welcome-copy">揀一個課題，先做 5 題。逐題核對解法，再重做未掌握的題目。</p></div></div><a class="study-anchor" href="#library">揀選今日課題 <span aria-hidden="true">↓</span></a><p class="welcome-byline">Mathematics, with Chester.<span>理解 · 練習 · 再進一步</span></p></div>
       <figure class="study-artboard">
         <nav id="desk-shortcuts" aria-label="選擇課題預覽"></nav>
         <div id="desk-art" role="group" aria-label="四心互動演示"></div>
-        <div id="centre-selector" class="centre-selector" role="group" aria-label="選擇四心構作"><button type="button" data-centre="O" aria-pressed="true"><i>O</i> 外心</button><button type="button" data-centre="I" aria-pressed="false"><i>I</i> 內心</button><button type="button" data-centre="G" aria-pressed="false"><i>G</i> 重心</button><button type="button" data-centre="H" aria-pressed="false"><i>H</i> 垂心</button></div>
+        <div id="triangle-selector" class="triangle-selector" role="group" aria-label="比較不同三角形"><button type="button" data-triangle="acute" aria-pressed="false">銳角</button><button type="button" data-triangle="right" aria-pressed="false">直角</button><button type="button" data-triangle="obtuse" aria-pressed="false">鈍角</button><button type="button" data-triangle="equilateral" aria-pressed="false">等邊</button><output id="triangle-kind">銳角三角形</output></div>
+        <div id="centre-selector" class="centre-selector" role="group" aria-label="選擇四心構作"><button type="button" data-centre="all" aria-pressed="false">四心</button><button type="button" data-centre="O" aria-pressed="true"><i>O</i> 外心</button><button type="button" data-centre="I" aria-pressed="false"><i>I</i> 內心</button><button type="button" data-centre="G" aria-pressed="false"><i>G</i> 重心</button><button type="button" data-centre="H" aria-pressed="false"><i>H</i> 垂心</button></div>
         <div class="plate-caption"><p id="plate-formula">Circumcentre / 外心</p><output id="plate-readout" for="plate-parameter" aria-live="off"></output></div>
         <p id="plate-hint" class="plate-hint"></p>
         <div class="plate-controls"><label class="plate-slider"><span id="plate-parameter-name">x</span><input id="plate-parameter" type="range" min="2.5" max="6" value="3.5" step="0.01" aria-label="頂點 C 的橫坐標"></label><button id="plate-play" class="plate-tool" type="button" aria-label="播放數學演示" aria-pressed="false" title="播放數學演示"></button><button id="plate-reset" class="plate-tool" type="button" aria-label="重設圖形" title="重設圖形"></button></div>
@@ -39,7 +40,7 @@
     </section>
     <div id="achievements-container" hidden></div>
   </main>
-  <footer class="site-footer"><span>© 2026 EAC Education</span><span>進度暫存於此瀏覽器 · 可在設定匯出備份</span></footer>
+  <footer class="site-footer"><span>© 2026 EAC Education <span class="footer-author">Mathematics by Chester</span></span><span>進度暫存於此瀏覽器 · 可在設定匯出備份</span></footer>
   <script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/features/gamification.js"></script>
   <script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/dashboard.js"></script><script src="js/features/study-art.js"></script><script src="js/features/study-ui.js"></script>
 </body></html>
