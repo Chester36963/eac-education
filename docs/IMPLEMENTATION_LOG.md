@@ -1,5 +1,17 @@
 # Implementation record
 
+## Study interaction and typography refinement — 22 October 2026
+
+Revisited the supplied reference contact sheets after the user identified interaction, typography and SVG colours as the remaining weak points. Kept the agreed charcoal cover/light study direction. Static reference screenshots inform hierarchy and spacing; they do not establish animation behaviour.
+
+Moved answer feedback and hint/solution panels into the question article directly after the response area. Hint and solution buttons now toggle, announce expanded state, and say when they will collapse content. Opening a panel, validation, checking an answer and advancing a question move focus to the relevant content; scrolling occurs only when needed and respects reduced-motion preferences. Async panel focus is guarded against question changes. Selection produces explicit guidance; completed questions no longer instruct learners to select an answer. A–D and Enter support MCQ selection/check/advance without capturing input or textarea typing. Written work still requires explicit self-assessment, and test mode still withholds solutions.
+
+Reduced decorative serif headings in study, library and settings. Mathematical question prose uses a sturdier local book-serif stack; UI labels use the system sans stack, with consistent sizes and line spacing. Added clear option selection and correct/wrong marks, segmented language controls, chapter hover/focus response and review disclosure signs. Reduced-motion disables the new transitions and global smooth scrolling.
+
+Recoloured all eight existing standalone teaching SVGs that retained the old blue/gold/teal palette: mens-diag-001, fc-q240/q242/q243/q252 and mens-m002/m004/m007. Main ink is charcoal, auxiliary marks neutral grey, and the original rectangle diagonal wine. Exact text comparison with colour literals removed confirms geometry, labels, source IDs and dimensions are unchanged. Actual desktop/mobile practice renders retain the matching question IDs, source labels, reconstruction captions and four options. Visually inspected all eight final figures at readable mobile size: ABCD/8 cm/6 cm/AC, the four centre constructions and circle/tangent, cone/hemisphere 3 cm/4 cm, and both distinct prism dimensions remain correct and unclipped. No PDF was requested or generated.
+
+Validation: all 23 unit/content tests and source/build consistency passed (853 questions, 5 chapters, revision 8d5ce5d95d6989ec). Browser suites study-journey, studio, library and language-recovery passed. New interaction.cjs checks focus/viewport, toggles/aria states, validation, A–D then Enter, next-question position, language draft preservation, textarea safety and written review on desktop/mobile with reduced motion. Six routes plus results were checked at 320/390/768/1440px without overflow or page exceptions. Existing formula/residue scans passed. Local evidence: /tmp/eac-interaction-qa/, /tmp/eac-recovery-qa/ and /tmp/eac-visual-direction/; these are audit artifacts, not site dependencies.
+
 ## Reference-led visual identity revision — 22 October 2026
 
 Reviewed all 15 supplied references as a montage, nine website examples and five palette studies. The user selected a charcoal brand cover with light study pages. The per-image interpretation and adopted/rejected principles are recorded in `VISUAL_DIRECTION_2026-10-22.md`.
