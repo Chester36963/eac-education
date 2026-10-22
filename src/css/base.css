@@ -38,7 +38,7 @@ h1 {
   font-size: var(--font-size-h1);
   font-weight: var(--weight-semibold);
   line-height: var(--line-height-tight);
-  letter-spacing: var(--letter-spacing-tight);
+  letter-spacing: 0;
   color: var(--text-primary);
   margin-bottom: var(--spacing-lg);
 }
@@ -48,7 +48,7 @@ h2 {
   font-size: var(--font-size-h2);
   font-weight: var(--weight-semibold);
   line-height: var(--line-height-tight);
-  letter-spacing: var(--letter-spacing-sm);
+  letter-spacing: 0;
   color: var(--text-primary);
   margin-bottom: var(--spacing-md);
   margin-top: var(--spacing-6xl);
@@ -59,7 +59,7 @@ h3 {
   font-size: var(--font-size-h3);
   font-weight: var(--weight-semibold);
   line-height: var(--line-height-normal);
-  letter-spacing: var(--letter-spacing-normal);
+  letter-spacing: 0;
   color: var(--text-primary);
   margin-bottom: var(--spacing-lg);
   margin-top: var(--spacing-4xl);
@@ -88,7 +88,7 @@ h6 {
   font-size: var(--font-size-sm);
   font-weight: var(--weight-semibold);
   text-transform: uppercase;
-  letter-spacing: var(--letter-spacing-lg);
+  letter-spacing: 0;
   color: var(--text-secondary);
   margin-bottom: var(--spacing-sm);
 }
@@ -227,7 +227,7 @@ hr {
 .label {
   font-size: var(--font-size-xs);
   text-transform: uppercase;
-  letter-spacing: var(--letter-spacing-2xl);
+  letter-spacing: 0;
   font-weight: var(--weight-semibold);
   color: var(--text-light);
 }
@@ -278,7 +278,7 @@ textarea:focus,
 select:focus {
   outline: none;
   border-color: var(--accent-rose);
-  box-shadow: 0 0 0 3px rgba(252, 169, 169, 0.1);
+  box-shadow: 0 0 0 3px rgba(118, 42, 50, 0.1);
 }
 
 input[type="text"]:disabled,
@@ -373,7 +373,7 @@ th {
   text-align: left;
   font-weight: var(--weight-semibold);
   color: var(--text-primary);
-  letter-spacing: var(--letter-spacing-md);
+  letter-spacing: 0;
   text-transform: uppercase;
   font-size: var(--font-size-xs);
 }

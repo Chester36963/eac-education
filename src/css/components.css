@@ -9,17 +9,17 @@
 
 .btn {
   display: inline-block;
-  font-family: var(--font-serif-body);
+  font-family: var(--font-stack);
   font-size: var(--font-size-base);
   font-weight: var(--weight-semibold);
   padding: var(--spacing-md) var(--spacing-2xl);
-  border: 1px solid var(--border-main);
+  border: var(--border-main);
   background-color: var(--bg-white);
   color: var(--text-primary);
   border-radius: var(--radius-lg);
   cursor: pointer;
   transition: var(--transition-smooth);
-  letter-spacing: var(--letter-spacing-md);
+  letter-spacing: 0;
   text-align: center;
   text-decoration: none;
   user-select: none;
@@ -60,12 +60,12 @@
 .btn-outline {
   background-color: transparent;
   color: var(--text-primary);
-  border-color: var(--border-main);
+  border-color: var(--border-color);
 }
 
 .btn-outline:hover {
   background-color: var(--bg-secondary);
-  border-color: var(--border-main);
+  border-color: var(--border-color);
 }
 
 .btn-accent {
@@ -75,8 +75,8 @@
 }
 
 .btn-accent:hover {
-  background-color: #f89a9a;
-  border-color: #f89a9a;
+  background-color: var(--coral, #762a32);
+  border-color: var(--coral, #762a32);
   box-shadow: var(--shadow-accent);
 }
 
@@ -134,7 +134,7 @@
 }
 
 .card:hover {
-  border-color: var(--border-main);
+  border-color: var(--border-color);
   box-shadow: var(--shadow-hover);
 }
 
@@ -161,7 +161,7 @@
   color: var(--text-light);
   margin-top: var(--spacing-sm);
   text-transform: uppercase;
-  letter-spacing: var(--letter-spacing-lg);
+  letter-spacing: 0;
 }
 
 .card-body {
@@ -208,7 +208,7 @@
   font-size: var(--font-size-xs);
   font-weight: var(--weight-semibold);
   text-transform: uppercase;
-  letter-spacing: var(--letter-spacing-lg);
+  letter-spacing: 0;
   border-radius: var(--radius-md);
   background-color: var(--bg-tertiary);
   color: var(--text-primary);
@@ -229,7 +229,7 @@
 
 .badge-outline {
   background-color: transparent;
-  border: 1px solid var(--border-main);
+  border: var(--border-main);
   color: var(--text-primary);
 }
 
@@ -303,7 +303,7 @@
 
 .divider {
   height: 1px;
-  background-color: var(--border-main);
+  background-color: var(--border-color);
   margin: var(--spacing-3xl) 0;
 }
 
@@ -325,7 +325,7 @@
 .divider-text::after {
   content: '';
   flex: 1;
-  background-color: var(--border-main);
+  background-color: var(--border-color);
   height: 1px;
 }
 

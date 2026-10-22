@@ -1,5 +1,13 @@
 # Implementation record
 
+## Reference-led visual identity revision — 22 October 2026
+
+Reviewed all 15 supplied references as a montage, nine website examples and five palette studies. The user selected a charcoal brand cover with light study pages. The per-image interpretation and adopted/rejected principles are recorded in `VISUAL_DIRECTION_2026-10-22.md`.
+
+Replaced the competing navy/coral/gold interface treatments with charcoal, porcelain, neutral grey and small wine accents. Introduced system sans-serif UI text while retaining editorial display type and readable mathematical question type. EAC Education is now the cover's primary brand signal; the exact nine-point construction appears on the same unframed dark surface. Tightened its viewBox without changing geometry or labels. Consolidated the two previous cover style layers, corrected colour-versus-border token usage, aligned the library heading, reduced collapsed practice controls, and placed hint/solution actions side by side on phones.
+
+Validation: 23 unit/content tests; study-journey, library and studio browser suites; additional 320/390/768/1440px visual checks covering home, study, records, library, settings, practice and results. Actual desktop/mobile screenshots inspected, including the nine-point labels and same-question mens-diag-001 rectangle in practice/results with complete options. No PDF generated. Question content, IDs, classifications and published revision `8d5ce5d95d6989ec` remain unchanged (853 questions).
+
 ## Simplified revision journey and content-quality correction — 22 October 2026
 
 Replaced competing trial/login/start paths with direct local revision: chapter → five questions → explanation review → retry mistakes. Consistent navigation links start, library, records and settings. Records are at `dashboard.html?view=record`; advanced practice controls are collapsed. The accepted nine-point-circle cover is retained.
