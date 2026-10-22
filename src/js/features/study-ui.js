@@ -1,17 +1,90 @@
 /* Shared chapter illustrations and focused study feedback; question assets stay separate. */
 window.EACStudy=(()=>{
- const drawings={
-  'four-centres':'<circle class="art-running art-emphasis" cx="98" cy="105.036" r="46.501"/><path d="M32 146L208 146L76 34ZM76 34V146"/><path class="art-guide" d="M32 146L119 73M208 146L54 91M120 115.929L76 94.143"/><circle class="art-dot" cx="120" cy="146" r="3"/><circle class="art-dot" cx="142" cy="90" r="3"/><circle class="art-dot" cx="54" cy="90" r="3"/>',
-  locus:'<circle cx="85" cy="90" r="65"/><circle class="art-emphasis art-running" cx="155" cy="90" r="65"/><path class="art-guide" d="M120 12V168M28 90H212"/><circle class="art-dot" cx="120" cy="35.228" r="3"/><circle class="art-dot" cx="120" cy="144.772" r="3"/>',
-  polynomials:'<path class="art-guide" d="M20 128H220M120 14V166"/><path class="art-emphasis" d="M48 35Q120 257 192 35"/><path d="M65 128V133M175 128V133"/><circle class="art-dot" cx="120" cy="146" r="3"/>',
-  sequences:'<path class="art-guide" d="M20 154H220M28 18V154"/><path class="art-emphasis" d="M28 144H62V118H96V92H130V66H164V40H198V14"/><circle class="art-dot" cx="45" cy="131" r="3"/><circle class="art-dot" cx="79" cy="105" r="3"/><circle class="art-dot" cx="113" cy="79" r="3"/><circle class="art-dot" cx="147" cy="53" r="3"/>',
-  'mensuration-core':'<path d="M52 47L142 20L190 62V135L100 162L52 120ZM52 47L100 89L190 62M100 89V162"/><path class="art-guide" d="M52 120L142 93L190 135M142 20V93"/><path class="art-emphasis" d="M52 120L100 162L190 135"/>'
- };
- function art(id){id={polynomial:'polynomials',mensuration:'mensuration-core'}[id]||id;return '<svg class="study-art" viewBox="0 0 240 180" aria-hidden="true" focusable="false">'+(drawings[id]||drawings['four-centres'])+'</svg>';}
- function mount(element,id){if(typeof element==='string')element=document.querySelector(element);if(element&&element.dataset.art!==id){element.innerHTML=art(id);element.dataset.art=id;}}
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ let deskController;
+ function art(id){return EACPlates.scene(id).svg;}
+ function mount(element,id){
+  if(typeof element==='string')element=document.querySelector(element);if(!element)return;
+  id=EACPlates.canonical(id);
+  if(element.id==='desk-art'&&deskController){deskController.select(id);return;}
+  if(element.dataset.art!==id){element.innerHTML=art(id);element.dataset.art=id;}
+ }
+ // Lucide Play / Pause / RotateCcw paths, ISC; see vendor/lucide/LICENSE.
+ const icon=name=>'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+{
+  play:'<path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/>',
+  pause:'<rect x="14" y="3" width="5" height="18" rx="1"/><rect x="5" y="3" width="5" height="18" rx="1"/>',
+  reset:'<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>'
+ }[name]+'</svg>';
+ function initDesk(){
+  const host=document.getElementById('desk-art');if(!host)return;
+  const board=host.closest('.study-artboard'),slider=document.getElementById('plate-parameter');
+  const play=document.getElementById('plate-play'),reset=document.getElementById('plate-reset'),formula=document.getElementById('plate-formula'),readout=document.getElementById('plate-readout');
+  let id='',value=0,playing=false,visible=true,frame=0,last=0,phase=0;
+  const preferences=new Map();
+  function sync(){
+   play.innerHTML=icon(playing?'pause':'play');play.setAttribute('aria-pressed',String(playing));
+   play.setAttribute('aria-label',playing?'暫停數學演示':'播放數學演示');play.title=reduced.matches?'已減少動態；仍可手動調整':play.getAttribute('aria-label');
+   board.classList.toggle('is-playing',playing);
+  }
+  function paint(initial=false){
+   const s=EACPlates.scene(id,value);
+   if(initial)host.innerHTML=s.svg;else{host.classList.remove('plate-arrive');host.querySelector('.art-content').innerHTML=s.ink;}
+   host.setAttribute('aria-label',s.description);readout.textContent=s.readout;formula.textContent=s.formula;
+   slider.value=String(value);slider.setAttribute('aria-valuetext',s.readout);
+  }
+  function stop(){playing=false;cancelAnimationFrame(frame);frame=0;sync();}
+  function tick(time){
+   frame=0;if(!playing||!visible||document.hidden||reduced.matches)return;
+   if(time-last>=50){
+    const elapsed=Math.min((time-last)/1000,.1);last=time;phase+=elapsed*.45;
+    const theme=EACPlates.scene(id).theme;
+    value=theme.min+(theme.max-theme.min)*(1-Math.cos(phase))/2;
+    value=Math.round(value/theme.step)*theme.step;paint();
+   }
+   frame=requestAnimationFrame(tick);
+  }
+  function isOnscreen(){const rect=board.getBoundingClientRect();return rect.bottom>0&&rect.top<innerHeight&&rect.right>0&&rect.left<innerWidth;}
+  function resume(){visible=isOnscreen();if(playing&&visible&&!document.hidden&&!reduced.matches&&!frame){last=performance.now();frame=requestAnimationFrame(tick);}}
+  function select(next){
+   next=EACPlates.canonical(next);if(next===id)return;
+   if(id)preferences.set(id,value);stop();id=next;
+   const s=EACPlates.scene(id);value=preferences.get(id)??s.value;host.dataset.art=id;
+   for(const [key,v]of Object.entries({'--plate-ink':s.theme.ink,'--plate-accent':s.theme.accent,'--plate-wash':s.theme.wash}))board.style.setProperty(key,v);
+   document.getElementById('desk-art-label').textContent=s.theme.label;
+   document.getElementById('plate-parameter-name').textContent=s.theme.symbol;
+   slider.min=s.theme.min;slider.max=s.theme.max;slider.step=s.theme.step;slider.setAttribute('aria-label',s.theme.parameter);slider.title=s.theme.parameter;
+   paint(true);host.classList.remove('plate-arrive');void host.offsetWidth;host.classList.add('plate-arrive');
+   board.dispatchEvent(new CustomEvent('platechange',{detail:{id}}));
+  }
+  slider.addEventListener('input',()=>{stop();value=Number(slider.value);paint();});
+  play.onclick=()=>{
+   if(playing){stop();return;}
+   if(reduced.matches)return;
+   const theme=EACPlates.scene(id).theme;phase=Math.acos(1-2*(value-theme.min)/(theme.max-theme.min));
+   playing=true;sync();resume();
+  };
+  reset.innerHTML=icon('reset');reset.onclick=()=>{stop();value=EACPlates.scene(id).value;paint();};
+  const syncMotion=()=>{if(reduced.matches)stop();play.disabled=reduced.matches;play.title=reduced.matches?'已減少動態；仍可手動調整':play.getAttribute('aria-label');};
+  reduced.addEventListener('change',syncMotion);syncMotion();
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(frame);frame=0;}else resume();});
+  const syncVisibility=()=>{visible=isOnscreen();if(visible)resume();else{cancelAnimationFrame(frame);frame=0;}};
+  new IntersectionObserver(syncVisibility,{threshold:[0,.12]}).observe(board);
+  window.addEventListener('resize',syncVisibility,{passive:true});
+  deskController={select};select('four-centres');
+ }
+ function initDisclosures(){
+  document.addEventListener('toggle',event=>{
+   const el=event.target;if(!(el instanceof HTMLDetailsElement))return;
+   if(el.matches('.method-category')){const count=el.querySelector('summary>span:last-child');count.textContent=count.textContent.replace(/[＋−]$/,el.open?'−':'＋');}
+   if(!el.open||reduced.matches)return;
+   if(!el.matches('.chapter-methods,.method-category,.bank-taxonomy,.summary-question,.skill-chapter'))return;
+   const children=[...el.children].filter(child=>child.tagName!=='SUMMARY');
+   children.forEach(child=>child.animate([{opacity:.35,transform:'translateY(-5px)'},{opacity:1,transform:'translateY(0)'}],{duration:220,easing:'ease-out'}));
+  },true);
+ }
  document.addEventListener('DOMContentLoaded',()=>{
   document.querySelectorAll('.site-header .logo').forEach(logo=>{if(!logo.querySelector('.study-brand-label'))logo.insertAdjacentHTML('beforeend','<span class="study-brand-label">EDUCATION<br>STUDY / 香港</span>');});
-  mount('#desk-art','four-centres');mount('.bank-art','four-centres');mount('.settings-context','sequences');
+  initDesk();initDisclosures();mount('.bank-art','four-centres');mount('.settings-context','sequences');
   if(new URLSearchParams(location.search).get('view')==='record'){
    const display=document.querySelector('.student-welcome .study-display');if(display)display.innerHTML='See your progress.<br><em>Find your next step.</em>';
    const anchor=document.querySelector('.study-anchor');if(anchor){anchor.href='dashboard.html';anchor.textContent='返回課題選擇 ↗';}

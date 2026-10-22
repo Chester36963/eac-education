@@ -24,7 +24,7 @@ Open http://127.0.0.1:4173/. The question catalog is at http://127.0.0.1:4173/li
 | `index.html` | Full-screen book opening; animated draggable nine-point circle; sine, quadratic and polygon explorations; four-centres previews; catalog-driven chapter links |
 | `library.html` | Public bilingual question search, taxonomy, counts, pagination, previews and practice links |
 | `auth.html` | Compatibility entry explaining local records; no registration/trial gate |
-| `dashboard.html` | Illustrated chapter/skill directory, subject/search filters, exact-skill practice; records at `?view=record` |
+| `dashboard.html` | Five interactive mathematical chapter previews, adjustable parameters/play/pause, chapter/skill directory, subject/search filters; records at `?view=record` |
 | `app.html` | Configurable practice sets, six question formats, study/self-test, drafts, pause/resume and review |
 | `settings.html` | Name, language, suggested level and learning-record export |
 
@@ -78,6 +78,7 @@ node tests/browser/library.cjs
 node tests/browser/study-journey.cjs
 node tests/browser/exploration.cjs
 node tests/browser/study-design.cjs
+node tests/browser/study-plates.cjs
 node tests/browser/interaction.cjs
 ```
 

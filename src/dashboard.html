@@ -10,7 +10,15 @@
 <body class="student-shell">
   <header class="site-header"><div class="header-inner"><a href="index.html" class="logo">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html" aria-current="page">開始溫習</a><a href="library.html">題庫</a><a href="dashboard.html?view=record">溫習記錄</a><a href="settings.html">設定</a></nav></div></header>
   <main class="student-main">
-    <section class="student-welcome"><div><p class="eyebrow">YOUR STUDY DESK / EAC EDUCATION</p><p class="study-display" lang="en">A little practice.<br><em>A clearer mind.</em></p><h1 id="welcome-heading">今日，溫邊一課？</h1><p id="welcome-copy">揀一個課題，先做 5 題。逐題核對解法，再重做未掌握的題目。</p><a class="study-anchor" href="#library">揀選今日課題 <span aria-hidden="true">↓</span></a></div><figure class="study-artboard"><div id="desk-art" aria-hidden="true"></div><figcaption><span>THE STUDY OF POSSIBILITY</span><span id="desk-art-label">Geometry / 幾何</span></figcaption><nav id="desk-shortcuts" aria-label="快速前往課題"></nav></figure></section>
+    <section class="student-welcome"><div><p class="eyebrow">YOUR STUDY DESK / EAC EDUCATION</p><p class="study-display" lang="en">A little practice.<br><em>A clearer mind.</em></p><h1 id="welcome-heading">今日，溫邊一課？</h1><p id="welcome-copy">揀一個課題，先做 5 題。逐題核對解法，再重做未掌握的題目。</p><a class="study-anchor" href="#library">揀選今日課題 <span aria-hidden="true">↓</span></a></div>
+      <figure class="study-artboard">
+        <nav id="desk-shortcuts" aria-label="選擇課題預覽"></nav>
+        <div id="desk-art" role="img" aria-label="九點圓幾何構圖"></div>
+        <div class="plate-caption"><p id="plate-formula" lang="en">Nine points. One circle.</p><output id="plate-readout" for="plate-parameter" aria-live="off"></output></div>
+        <div class="plate-controls"><label class="plate-slider"><span id="plate-parameter-name">x</span><input id="plate-parameter" type="range" min="2.5" max="6" value="3.5" step="0.01" aria-label="頂點 C 的橫坐標"></label><button id="plate-play" class="plate-tool" type="button" aria-label="播放數學演示" aria-pressed="false" title="播放數學演示"></button><button id="plate-reset" class="plate-tool" type="button" aria-label="重設圖形" title="重設圖形"></button></div>
+        <figcaption><span id="desk-art-label">Four Centres / 四心</span><a id="plate-practice" href="app.html?chapter=four-centres&amp;length=5&amp;type=mcq">做 5 題 ↗</a></figcaption>
+      </figure>
+    </section>
     <section class="resume-banner" id="dashboard-resume" hidden><div><strong>接住上次未完成練習</strong><p id="dashboard-resume-copy"></p></div><a class="btn btn-primary" href="app.html?resume=1">繼續練習 →</a></section>
     <ol class="study-steps" aria-label="溫習流程"><li><b>01</b><span><strong>揀課題</strong><small>由你最近上過的一課開始</small></span></li><li><b>02</b><span><strong>做 5 題</strong><small>先作答，再看提示與解法</small></span></li><li><b>03</b><span><strong>重做錯題</strong><small>做完一組，就有下一步</small></span></li></ol>
     <section class="daily-grid" id="progress">
@@ -30,5 +38,5 @@
   </main>
   <footer class="site-footer"><span>© 2026 EAC Education</span><span>進度暫存於此瀏覽器 · 可在設定匯出備份</span></footer>
   <script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/features/gamification.js"></script>
-  <script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/dashboard.js"></script><script src="js/features/study-ui.js"></script>
+  <script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/dashboard.js"></script><script src="js/features/study-art.js"></script><script src="js/features/study-ui.js"></script>
 </body></html>
