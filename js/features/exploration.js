@@ -1,4 +1,4 @@
-/* Recompute the actual nine-point construction; no visual approximation. */
+/* Original mathematical instruments; geometry is recomputed for every frame. */
 (()=>{
  const figure=document.getElementById('geometry-study');if(!figure)return;
  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
@@ -21,45 +21,49 @@
  document.getElementById('replay-book').onclick=openBook;
  reduced.addEventListener('change',()=>{if(reduced.matches)closeBook();});
  openBook();
- const svg=figure.querySelector('.nine-point-diagram svg'),slider=document.getElementById('triangle-shape');
- svg.insertAdjacentHTML('beforeend','<g class="vertex-handle" transform="translate(177 106)" aria-hidden="true"><circle r="6" fill="#e3b5bc" stroke="#171819" stroke-width="2"/><circle r="20" fill="transparent" stroke="none"/></g>');
- const handle=svg.querySelector('.vertex-handle');
- const points=[...svg.querySelectorAll('.mid-point')];let mode='all';
- const notes={all:'移動上面的滑桿，九點依然共圓。',sides:'三條邊各取一個中點，得到圓上的三點。',feet:'由三個頂點作高，三個垂足也在同一圓上。',vertices:'三個頂點分別與垂心 H 連線，取各線段的中點。'};
- function highlight(){points.forEach((p,i)=>{const active=mode==='all'||mode==='sides'&&i<3||mode==='feet'&&i>=3&&i<6||mode==='vertices'&&i>=6;p.classList.toggle('is-muted',!active);p.classList.toggle('is-highlighted',active&&mode!=='all');});}
- figure.querySelectorAll('[data-points]').forEach(b=>b.onclick=()=>{mode=b.dataset.points;figure.querySelectorAll('[data-points]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('geometry-note').textContent=notes[mode];highlight();});
- const screen=([x,y])=>[78+33*x,370-33*y];
+ const svg=figure.querySelector('.circle-study svg'),slider=document.getElementById('triangle-shape');
+ const names=['A','B','C'],presets=[...figure.querySelectorAll('[data-shape]')];
+ names.forEach(name=>svg.insertAdjacentHTML('beforeend',`<g class="vertex-handle" tabindex="0" role="slider" aria-label="沿圓周移動頂點 ${name}" aria-valuemin="0" aria-valuemax="360"><circle class="vertex-hit" r="22"/><circle class="vertex-dot" r="5"/><text class="diagram-label">${name}</text></g>`));
+ const handles=[...svg.querySelectorAll('.vertex-handle')],geometryPlay=figure.querySelector('.geometry-play');
+ const screen=([x,y])=>[260+150*x,200-150*y];
  const midpoint=(a,b)=>a.map((v,i)=>(v+b[i])/2);
  const foot=(p,a,b)=>{const d=b.map((v,i)=>v-a[i]),t=p.reduce((sum,v,i)=>sum+(v-a[i])*d[i],0)/d.reduce((sum,v)=>sum+v*v,0);return a.map((v,i)=>v+t*d[i]);};
  function setPoint(el,p){const [x,y]=screen(p);el.setAttribute('cx',x.toFixed(3));el.setAttribute('cy',y.toFixed(3));}
  function setLine(el,a,b){const [x1,y1]=screen(a),[x2,y2]=screen(b);for(const [k,v]of Object.entries({x1,y1,x2,y2}))el.setAttribute(k,v.toFixed(3));}
+ // Unwrapped, ordered angles preserve a nondegenerate triangle throughout each morph.
+ const keyframes=[[210,330,450],[185,325,440],[225,305,350],[250,380,495],[210,330,450]];
+ function shapeAt(phase){const t=(phase%360)/90,i=Math.floor(t),mix=(1-Math.cos((t-i)*Math.PI))/2;return keyframes[i].map((a,j)=>a+(keyframes[i+1][j]-a)*mix);}
+ let phase=Number(slider.value),angles=shapeAt(phase),geometryManual=false,dragging=false,dragIndex=-1,resumeFrom=null,resumeTime=0;
  function updateGeometry(){
-  const x=Number(slider.value),a=[0,0],b=[12,0],c=[x,8],h=[x,x*(12-x)/8],o=[6,(x*x-12*x+64)/16],n=midpoint(o,h);
-  const vertices=[a,b,c],feet=[foot(a,b,c),foot(b,a,c),[x,0]];
-  handle.setAttribute('transform','translate('+screen(c).join(' ')+')');
-  const nine=[midpoint(a,b),midpoint(b,c),midpoint(c,a),...feet,...vertices.map(v=>midpoint(v,h))];
+  const vertices=angles.map(a=>[Math.cos(a*Math.PI/180),Math.sin(a*Math.PI/180)]),[a,b,c]=vertices;
+  const lengths=[Math.hypot(b[0]-c[0],b[1]-c[1]),Math.hypot(a[0]-c[0],a[1]-c[1]),Math.hypot(a[0]-b[0],a[1]-b[1])],perimeter=lengths.reduce((s,v)=>s+v,0);
+  const centre=[0,1].map(k=>vertices.reduce((s,v,i)=>s+v[k]*lengths[i],0)/perimeter);
+  const twiceArea=Math.abs((b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0])),r=twiceArea/perimeter,d=Math.hypot(...centre);
   svg.querySelectorAll('.diagram-edge').forEach((el,i)=>setLine(el,vertices[i],vertices[(i+1)%3]));
-  svg.querySelectorAll('.altitude-line').forEach((el,i)=>setLine(el,vertices[i],feet[i]));
-  setLine(svg.querySelector('.euler-line'),o,h);nine.forEach((p,i)=>setPoint(points[i],p));
-  [o,h,n].forEach((p,i)=>setPoint(svg.querySelectorAll('.centre-point')[i],p));
-  const circle=svg.querySelector('.nine-circle');setPoint(circle,n);circle.setAttribute('r',(Math.hypot(...o)*33/2).toFixed(3));
-  const offsets=[[-21,8],[12,8],[-7,-17],[10,14],[-22,-5],[7,-10]];
-  [...vertices,o,h,n].forEach((p,i)=>{const [sx,sy]=screen(p),label=svg.querySelectorAll('.diagram-label')[i];label.setAttribute('x',(sx+offsets[i][0]).toFixed(3));label.setAttribute('y',(sy+offsets[i][1]).toFixed(3));});
-  slider.setAttribute('aria-valuetext',`頂點 C：(${x}, 8)`);
-  document.getElementById('nine-point-desc').textContent=`Interactive construction for A(0,0), B(12,0), C(${x},8). The three side midpoints, three altitude feet, and three vertex–orthocentre midpoints lie on the nine-point circle. O is the circumcentre, H the orthocentre, N their midpoint.`;
+  svg.querySelector('.triangle-fill').setAttribute('d','M'+vertices.map(v=>screen(v).join(',')).join('L')+'Z');
+  setPoint(svg.querySelector('.incircle'),centre);svg.querySelector('.incircle').setAttribute('r',(150*r).toFixed(3));
+  setPoint(svg.querySelector('.incentre'),centre);setLine(svg.querySelector('.centre-distance'),[0,0],centre);
+  const together=d<.000001,[ix,iy]=screen(centre),ol=svg.querySelector('.centre-label-o'),il=svg.querySelector('.centre-label-i');
+  ol.textContent=together?'O = I':'O';ol.setAttribute('x',260+(centre[0]>=0?-24:12));ol.setAttribute('y',222);
+  il.setAttribute('x',ix+12);il.setAttribute('y',iy-12);il.style.visibility=together?'hidden':'visible';
+  handles.forEach((handle,i)=>{const v=vertices[i];handle.setAttribute('transform',`translate(${screen(v).join(' ')})`);const label=handle.querySelector('text');label.setAttribute('x',v[0]*19);label.setAttribute('y',-v[1]*19+6);label.setAttribute('text-anchor','middle');handle.setAttribute('aria-valuenow',Math.round((angles[i]%360+360)%360));handle.setAttribute('aria-valuetext',`${names[i]}：${Math.round((angles[i]%360+360)%360)}°`);});
+  document.getElementById('incircle-radius').textContent=r.toFixed(3);document.getElementById('centre-distance').textContent=d.toFixed(3);
+  figure.querySelector('.distance-track i').style.width=(d*100)+'%';
+  slider.setAttribute('aria-valuetext',`形狀變化 ${Math.round(phase)} / 360`);
  }
- let geometryManual=false;
- slider.addEventListener('input',()=>{geometryManual=true;syncGeometryPlay();updateGeometry();});
- const geometryPlay=document.createElement('button');geometryPlay.type='button';geometryPlay.className='geometry-play';
- figure.querySelector('.geometry-modes').after(geometryPlay);
- function syncGeometryPlay(){const stopped=geometryManual||paused||reduced.matches;geometryPlay.disabled=reduced.matches;geometryPlay.textContent=reduced.matches?'已減少動態 · 可手動調整':stopped?'▷ 演示九點共圓':'Ⅱ 暫停幾何演示';geometryPlay.setAttribute('aria-pressed',String(!stopped));}
- geometryPlay.onclick=()=>{if(paused){paused=false;geometryManual=false;syncMotion();}else{geometryManual=!geometryManual;syncGeometryPlay();}};
- // The vertex is draggable in SVG coordinates; the slider remains a keyboard equivalent.
- const vertex=svg.querySelectorAll('.diagram-label')[2];vertex.style.cursor='ew-resize';vertex.style.touchAction='none';
- let dragging=false;
- svg.addEventListener('pointerdown',e=>{if(e.target!==vertex&&!e.target.closest('.vertex-handle'))return;e.preventDefault();dragging=true;svg.setPointerCapture(e.pointerId);});
- svg.addEventListener('pointermove',e=>{if(!dragging)return;const p=new DOMPoint(e.clientX,e.clientY).matrixTransform(svg.getScreenCTM().inverse());slider.value=Math.max(2,Math.min(8,(p.x-78)/33)).toFixed(1);slider.dispatchEvent(new Event('input'));});
- ['pointerup','pointercancel','lostpointercapture'].forEach(type=>svg.addEventListener(type,()=>dragging=false));
+ function manualGeometry(){geometryManual=true;resumeFrom=null;presets.forEach(b=>b.setAttribute('aria-pressed','false'));document.getElementById('geometry-note').textContent='拖動 A、B、C，或者移動滑桿，觀察兩心距離。';syncGeometryPlay();}
+ slider.addEventListener('input',()=>{manualGeometry();phase=Number(slider.value);angles=shapeAt(phase);updateGeometry();});
+ presets.forEach(button=>button.onclick=()=>{manualGeometry();phase=Number(button.dataset.shape);slider.value=phase;angles=shapeAt(phase);button.setAttribute('aria-pressed','true');updateGeometry();document.getElementById('geometry-note').textContent=phase===0?'等邊三角形：O 與 I 重合，內切圓半徑為 R 的一半。':phase===180?'鈍角三角形：外心 O 在三角形外，內心 I 仍在三角形內。':'三個頂點仍在同一外接圓上；拖動任意頂點，繼續探索。';});
+ function syncGeometryPlay(){const stopped=geometryManual||paused||reduced.matches;geometryPlay.disabled=reduced.matches;geometryPlay.textContent=reduced.matches?'已減少動態':stopped?'▷ 播放演示':'Ⅱ 暫停演示';geometryPlay.setAttribute('aria-pressed',String(!stopped));}
+ function beginMorph(){resumeFrom=angles.slice();resumeTime=0;geometryManual=false;presets.forEach(b=>b.setAttribute('aria-pressed','false'));document.getElementById('geometry-note').textContent='三個頂點沿圓周移動；拖動任意頂點，暫停並試試自己的形狀。';}
+ geometryPlay.onclick=()=>{if(paused){paused=false;beginMorph();syncMotion();}else if(geometryManual){beginMorph();syncGeometryPlay();}else{geometryManual=true;syncGeometryPlay();}};
+ // Pointer and arrow-key edits are constrained to the fixed circle, with a 20° minimum gap.
+ function moveVertex(index,angle){const current=angles[index],delta=((angle-current+540)%360+360)%360-180,lo=index?angles[index-1]+20:angles[2]-340,hi=index===2?angles[0]+340:angles[index+1]-20;angles[index]=Math.max(lo,Math.min(hi,current+delta));manualGeometry();updateGeometry();}
+ handles.forEach((handle,i)=>{handle.addEventListener('keydown',e=>{const direction={ArrowLeft:-1,ArrowDown:-1,ArrowRight:1,ArrowUp:1}[e.key];if(!direction)return;e.preventDefault();moveVertex(i,angles[i]+direction*(e.shiftKey?10:2));});});
+ svg.addEventListener('pointerdown',e=>{const handle=e.target.closest('.vertex-handle');if(!handle)return;e.preventDefault();dragIndex=handles.indexOf(handle);dragging=true;manualGeometry();handle.focus({preventScroll:true});svg.setPointerCapture(e.pointerId);});
+ svg.addEventListener('pointermove',e=>{if(!dragging)return;const p=new DOMPoint(e.clientX,e.clientY).matrixTransform(svg.getScreenCTM().inverse());moveVertex(dragIndex,Math.atan2(200-p.y,p.x-260)*180/Math.PI);});
+ ['pointerup','pointercancel','lostpointercapture'].forEach(type=>svg.addEventListener(type,()=>{dragging=false;dragIndex=-1;}));
+ updateGeometry();
 
  const studio=document.getElementById('math-studio'),drawing=document.getElementById('scene-drawing'),parameter=document.getElementById('scene-parameter');
  const tabs=[...document.querySelectorAll('[data-scene]')],toggle=document.getElementById('motion-toggle');
@@ -104,15 +108,15 @@
  parameter.oninput=()=>{manual=true;drawScene(Number(parameter.value));};
  document.getElementById('scene-reset').onclick=()=>selectScene(scene);
  function syncMotion(){document.body.classList.toggle('motion-paused',paused||reduced.matches);toggle.disabled=reduced.matches;toggle.textContent=reduced.matches?'已減少動態':paused?'▷ 播放動態':'Ⅱ 暫停動態';toggle.setAttribute('aria-pressed',String(paused));syncGeometryPlay();}
- toggle.onclick=()=>{paused=!paused;if(!paused){manual=false;geometryManual=false;}syncMotion();};
+ toggle.onclick=()=>{paused=!paused;if(!paused){manual=false;beginMorph();}syncMotion();};
  reduced.addEventListener('change',()=>{paused=reduced.matches;syncMotion();});
  const visibility=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.target===figure)heroVisible=entry.isIntersecting;else studioVisible=entry.isIntersecting;}));visibility.observe(figure);visibility.observe(studio);
  function frame(now){
   const dt=previous?Math.min((now-previous)/1000,.08):0;previous=now;
   if(!document.hidden&&!paused&&!reduced.matches&&(heroVisible||studioVisible)){
    elapsed+=dt;
-   if(now-lastPaint>40){lastPaint=now;
-    if(heroVisible&&!geometryManual&&!dragging&&document.activeElement!==slider){slider.value=(5+3*Math.sin(elapsed*.23)).toFixed(1);updateGeometry();}
+   if(now-lastPaint>40){const paintDt=Math.min((now-lastPaint)/1000,.08);lastPaint=now;
+    if(heroVisible&&!geometryManual&&!dragging&&!handles.includes(document.activeElement)&&document.activeElement!==slider){phase=(phase+paintDt*12)%360;slider.value=Math.round(phase);const target=shapeAt(phase);if(resumeFrom){resumeTime=Math.min(1,resumeTime+paintDt);const mix=(1-Math.cos(resumeTime*Math.PI))/2;angles=target.map((v,i)=>resumeFrom[i]+(v-resumeFrom[i])*mix);if(resumeTime===1)resumeFrom=null;}else angles=target;updateGeometry();}
     if(studioVisible&&!manual&&document.activeElement!==parameter){let value=scene==='wave'?(45+elapsed*22)%360:scene==='parabola'?1.8*Math.sin(elapsed*.4):3+Math.floor(elapsed/2)%10;parameter.value=String(value);drawScene(Number(parameter.value));}
    }
   }
