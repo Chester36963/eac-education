@@ -83,7 +83,9 @@
   function breadcrumb(label,values){const a=node('a',label);a.href=link({...defaultState(),...values,language:state.language});a.onclick=event=>{if(event.metaKey||event.ctrlKey)return;event.preventDefault();navigate({...defaultState(),...values,language:state.language});};return a;}
   function renderHeading(){
     const c=chapter(state.chapter),s=c?subjectFor(c.id):catalog.subjects.find(s=>s.id===state.subject);
-    byId('bank-heading').textContent=c?`${c.name.en} · ${c.name['zh-Hant']}`:s?`${s.name.en} · ${s.name['zh-Hant']}`:'全部題目 / All questions';
+    const name=c?.name||s?.name||{en:'All questions','zh-Hant':'全部題目'};
+    byId('bank-heading').replaceChildren(node('span',name.en),node('small',name['zh-Hant']));
+    EACStudy.mount('.bank-art',c?.id||'four-centres');
     byId('bank-description').textContent=c?.description?.['zh-Hant']||'在課題目錄揀一課，或直接搜尋。按「睇題目」可看完整內容。';
     const trail=byId('bank-breadcrumb');trail.replaceChildren(breadcrumb('數學題庫',{}));
     if(s)trail.append(node('span','/'),breadcrumb(s.name['zh-Hant'],{subject:s.id}));
@@ -94,6 +96,7 @@
     const outline=byId('bank-taxonomy'),links=byId('bank-taxonomy-links');outline.hidden=!c;links.replaceChildren();
     if(c)for(const category of c.subcategories.filter(s=>s.questionCount)){
       const a=node('a');a.href=link({subcategory:category.id,skill:'all',page:1});
+      if(state.subcategory===category.id)a.setAttribute('aria-current','true');
       const title=node('span',category.name.en);title.append(node('small',category.name['zh-Hant']));a.append(title,node('b',`${category.questionCount} 題`));
       a.onclick=event=>{if(event.metaKey||event.ctrlKey)return;event.preventDefault();navigate({subcategory:category.id,skill:'all',page:1});};links.append(a);
     }
@@ -105,7 +108,7 @@
     return selected;
   }
   function questionRoute(q){const c=catalog.subjects.flatMap(s=>s.chapters).find(c=>c.topicId===q.topicId);return 'app.html?'+new URLSearchParams({chapter:c.id,question:q.id,form:'all',language:state.language});}
-  function renderRow(q){
+  function renderRow(q,index){
     const article=node('article',undefined,'bank-question');article.dataset.questionId=q.id;
     const content=node('div'),meta=node('div',undefined,'question-row-meta');
     for(const label of [Learning.types[q.questionType],difficulty[q.difficulty],`中${q.minForm}起`])meta.append(node('span',label));
@@ -116,12 +119,19 @@
     const result=user?.progress?.byQuestion?.[q.id];
     if(result)content.append(node('small',`${result.lastCorrect?'最近答對':'待重溫'}${result.assessment==='self'?' · 自評':''}`));
     const actions=node('div',undefined,'bank-question-actions'),preview=node('button','睇題目','text-button');preview.type='button';preview.onclick=()=>showPreview(q.id);
-    const practise=node('a','練習這題 →');practise.href=questionRoute(q);actions.append(preview,practise);article.append(content,actions);return article;
+    const practise=node('a','練習這題 →');practise.href=questionRoute(q);actions.append(preview,practise);
+    const number=node('span',String((state.page-1)*pageSize+index+1).padStart(2,'0'),'question-row-number');number.setAttribute('aria-hidden','true');article.append(number,content,actions);return article;
   }
   function render(){
     EACMath.clear(byId('bank-results'));
     renderNavigation();renderHeading();
     const selected=rows(),pageCount=Math.max(1,Math.ceil(selected.length/pageSize));state.page=Math.min(pageCount,state.page);
+    const activeFilters=byId('bank-active-filters');activeFilters.replaceChildren();
+    for(const key of ['subcategory','skill','type','difficulty','form','mode','query'])if(state[key]&&state[key]!=='all'){
+      const label=key==='query'?'搜尋：'+state.query:byId(controls[key]).selectedOptions[0]?.textContent;
+      const chip=node('button',label+' ×');chip.type='button';chip.setAttribute('aria-label','移除篩選：'+label);
+      chip.onclick=()=>navigate({[key]:key==='query'?'':'all',...(key==='subcategory'?{skill:'all'}:{}),page:1});activeFilters.append(chip);
+    }
     const start=(state.page-1)*pageSize,results=byId('bank-results');results.replaceChildren(...selected.slice(start,start+pageSize).map(renderRow));
     byId('bank-count').textContent=`${selected.length} 題符合${selected.length?` · 顯示 ${start+1}–${Math.min(start+pageSize,selected.length)}`:''}`;
     byId('bank-page').textContent=`${state.page} / ${pageCount}`;

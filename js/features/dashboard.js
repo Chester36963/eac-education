@@ -1,5 +1,6 @@
 /* Local learning record: latest answers guide review; all attempts remain in totals. */
 let currentUser;
+let selectedStudySubject='all';
 const byId = id => document.getElementById(id);
 document.addEventListener('DOMContentLoaded', async () => {
   currentUser = Auth.ensureLocalSession();
@@ -24,6 +25,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     const [catalog, questions] = await Promise.all([QuestionBank.catalog(), QuestionBank.index()]);
     const records = currentUser.progress.byQuestion || {};
     const chapters = catalog.subjects.flatMap(s => s.chapters);
+    const shortNames={'four-centres':'四心',locus:'軌跡',polynomials:'多項式',sequences:'數列','mensuration-core':'度量'};
+    byId('desk-shortcuts').hidden=recordView;
+    byId('desk-shortcuts').replaceChildren(...chapters.map(chapter=>{const b=document.createElement('button');b.type='button';b.textContent=shortNames[chapter.id]||chapter.name['zh-Hant'];b.onclick=()=>{selectedStudySubject='all';byId('library-search').value='';renderLibrary(catalog);const target=byId('subject-list').querySelector(`[data-chapter="${chapter.id}"]`);target.querySelector('.chapter-row').focus();target.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});};return b;}));
+    const subjects=[{id:'all',name:{'zh-Hant':'全部課題'}},...catalog.subjects];
+    byId('desk-subjects').replaceChildren(...subjects.map(subject=>{const b=document.createElement('button');b.type='button';b.textContent=subject.name['zh-Hant'];b.dataset.subject=subject.id;b.setAttribute('aria-pressed',String(subject.id==='all'));b.onclick=()=>{selectedStudySubject=subject.id;renderLibrary(catalog,byId('library-search').value.trim());};return b;}));
     renderLibrary(catalog);
     byId('library-search').oninput=()=>renderLibrary(catalog,byId('library-search').value.trim());
     const active=Learning.readSession(currentUser.id);
@@ -46,10 +52,13 @@ function route(chapter, params = {}) {
 function renderLibrary(catalog,query='') {
   const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const needle=query.toLowerCase();
-  const filtered={...catalog,subjects:catalog.subjects.map(s=>({...s,chapters:s.chapters.filter(c=>`${s.name.en} ${s.name['zh-Hant']} ${c.name.en} ${c.name['zh-Hant']} ${c.subcategories.map(sub=>`${sub.name.en} ${sub.name['zh-Hant']}`).join(' ')}`.toLowerCase().includes(needle))})).filter(s=>s.chapters.length)};
-  if(!filtered.subjects.length){byId('subject-list').textContent='沒有符合的課題，試下其他關鍵字。';return;}
+  const filtered={...catalog,subjects:catalog.subjects.filter(s=>selectedStudySubject==='all'||s.id===selectedStudySubject).map(s=>({...s,chapters:s.chapters.filter(c=>`${s.name.en} ${s.name['zh-Hant']} ${c.name.en} ${c.name['zh-Hant']} ${c.subcategories.map(sub=>`${sub.name.en} ${sub.name['zh-Hant']} ${sub.skills.map(skill=>skillNames[skill]||skill).join(' ')}`).join(' ')}`.toLowerCase().includes(needle))})).filter(s=>s.chapters.length)};
+  document.querySelectorAll('#desk-subjects button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.subject===selectedStudySubject)));
+  byId('desk-result-count').textContent=`${filtered.subjects.flatMap(s=>s.chapters).length} 個課題${query?' · 搜尋「'+query+'」':''}`;
+  if(!filtered.subjects.length){byId('subject-list').textContent='沒有符合的課題，試下其他關鍵字或選擇全部課題。';return;}
   catalog=filtered;
-  byId('subject-list').innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><h3>${escape(subject.name.en)}<span>${escape(subject.name['zh-Hant'])}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<a class="chapter-row" href="${route(chapter,{type:chapter.coverage.types.mcq?'mcq':'all'})}"><span><strong>${escape(chapter.name.en)}</strong><small>${escape(chapter.name['zh-Hant'])} · ${chapter.questionCount} 題${chapter.coverage.types.mcq?'':' · 書面作答，對照解法自評'}</small></span><span class="chapter-arrow">做 5 題 →</span></a>`).join('')}</div></article>`).join('');
+  byId('subject-list').innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><h3>${escape(subject.name.en)}<span>${escape(subject.name['zh-Hant'])}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<div class="chapter-entry" data-chapter="${escape(chapter.id)}"><a class="chapter-row" href="${route(chapter,{type:chapter.coverage.types.mcq?'mcq':'all'})}"><span class="chapter-picture" aria-hidden="true">${EACStudy.art(chapter.id)}</span><span><strong>${escape(chapter.name.en)}</strong><small>${escape(chapter.name['zh-Hant'])} · ${chapter.questionCount} 題${chapter.coverage.types.mcq?'':' · 書面作答，對照解法自評'}</small></span><span class="chapter-arrow">做 5 題 →</span></a><details class="chapter-methods"><summary>按技巧揀題目 · ${chapter.subcategories.filter(s=>s.questionCount).length} 個分類</summary><div class="chapter-method-grid">${chapter.subcategories.filter(s=>s.questionCount).map(sub=>`<details class="method-category"><summary><span><b>${escape(sub.name['zh-Hant'])}</b><small>${escape(sub.name.en)}</small></span><span>${sub.questionCount} 題 ＋</span></summary><div class="method-skill-list"><a href="${route(chapter,{subcategory:sub.id,form:'all'})}"><span>練習整個分類</span><small>${sub.questionCount} 題 ↗</small></a>${sub.skills.filter(skill=>sub.skillCounts?.[skill]).map(skill=>`<a class="method-skill" href="${route(chapter,{subcategory:sub.id,skill,form:'all'})}"><span>${escape(skillNames[skill]||skill)}</span><small>${sub.skillCounts[skill]} 題 ↗</small></a>`).join('')}<a href="library.html?${new URLSearchParams({chapter:chapter.id,subcategory:sub.id})}"><span>先瀏覽題目</span><small>↗</small></a></div></details>`).join('')}</div></details></div>`).join('')}</div></article>`).join('');
+  byId('subject-list').querySelectorAll('.chapter-entry').forEach(entry=>{const c=catalog.subjects.flatMap(s=>s.chapters).find(c=>c.id===entry.dataset.chapter);const show=()=>{EACStudy.mount('#desk-art',c.id);byId('desk-art-label').textContent=c.name.en+' / '+c.name['zh-Hant'];};entry.addEventListener('pointerenter',show);entry.addEventListener('focusin',show);});
 }
 function renderSkills(chapters, questions, records) {
   const container = byId('skill-records');

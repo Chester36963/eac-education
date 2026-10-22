@@ -3,16 +3,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css">
 <link rel="stylesheet" href="css/math.css"><script src="js/core/math.js"></script><script defer src="vendor/mathjax/tex-svg.js"></script>
-<link rel="stylesheet" href="css/journey.css"></head><body class="practice-page">
+<link rel="stylesheet" href="css/journey.css"><link rel="stylesheet" href="css/study.css"></head><body class="practice-page">
 <header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">開始溫習</a><a href="library.html">題庫</a><a href="dashboard.html?view=record">溫習記錄</a><a href="settings.html">設定</a></nav></div></header>
 <main class="main-container">
+<div class="practice-identity"><div><p class="eyebrow">THE PRACTICE ROOM / EAC EDUCATION</p><p class="practice-display" lang="en">One question.<br><em>One clearer idea.</em></p></div><div class="practice-emblem" aria-hidden="true"></div></div>
 <section class="resume-banner" id="resume-banner" hidden><div><strong>有一組未完成練習</strong><p id="resume-copy"></p></div><button class="btn btn-primary" id="resume-btn">繼續上次練習 →</button></section>
 <details class="practice-builder" id="practice-builder" open><summary><span class="eyebrow">PRACTICE · 練習</span><h1>揀一課，開始練習。</h1><span class="builder-toggle">調整課題及題數</span></summary>
 <section class="practice-config" aria-label="練習設定">
 <p class="journey-guide">先做 5 題選擇題，逐題核對答案。不用設定時間；完成後會列出需要重練的題目。</p>
 <div class="practice-primary">
 <label>課題<select id="topic-select"></select></label>
-<label>每組題數<select id="length-select"><option value="5">5 題</option><option value="10">10 題</option><option value="20">20 題</option><option value="all">全部符合題目</option></select></label>
+<label>解題方法<select id="subcategory-select"></select></label><label>每組題數<select id="length-select"><option value="5">5 題</option><option value="10">10 題</option><option value="20">20 題</option><option value="all">全部符合題目</option></select></label>
 </div>
 <details class="advanced-filters"><summary>其他選擇：技巧、題型、難度及自測</summary><div class="filter-grid">
 <label>科目範疇 / Subject<select id="subject-select"></select></label>
@@ -20,7 +21,6 @@
 <label>題目範圍<select id="mode-select"><option value="all">全部題目</option><option value="new">未做題目</option><option value="review">待重溫錯題</option><option value="saved">我的收藏</option></select></label>
 <label>練習體驗<select id="experience-select"><option value="study">學習練習 · 每題看解析</option><option value="test">自測 · 完成後看解析（自動核對題）</option></select></label>
 <label>題目語言<select id="language-select"><option value="bilingual">English + 繁體中文</option><option value="en">English</option><option value="zh">繁體中文</option></select></label>
-<label>分類 / Subcategory<select id="subcategory-select"></select></label>
 <label>技巧 / Skill<select id="skill-select"></select></label>
 <label>難度<select id="difficulty-select"></select></label>
 <label>建議程度（包含較早課題）<select id="form-select"><option value="all">全部程度</option><option value="1">中一 / Form 1</option><option value="2">中二 / Form 2</option><option value="3">中三 / Form 3</option><option value="4">中四 / Form 4</option><option value="5">中五 / Form 5</option><option value="6">中六 / Form 6</option></select></label>
@@ -36,6 +36,7 @@
 <p id="timer-notice" class="field-note" hidden>練習時間已到。你可以繼續完成，或結束本組查看回顧。</p>
 <div class="progress-bar"><div class="progress-bar-fill"><div id="progress-fill"></div></div></div>
 <nav id="question-nav" class="question-nav" aria-label="本組題目"></nav>
+<aside class="practice-companion"><div class="companion-art" aria-hidden="true"></div><p class="eyebrow">YOUR NEXT STEP</p><strong id="companion-heading">先試自己的方法。</strong><p id="companion-copy">卡住可以睇提示；核對答案後，再睇清楚每一步解法。</p><a href="library.html" id="companion-link">瀏覽同課題題目 ↗</a><p class="companion-note">唔使急。每一題，練清一個方法。</p></aside>
 <article class="question-container" id="question-container" aria-label="練習題目">
 <div class="question-topline"><div class="question-meta"><span class="badge" id="difficulty-badge"></span><span class="badge" id="category-badge"></span><span class="badge" id="type-badge"></span></div><button class="bookmark-button" id="bookmark-btn" aria-pressed="false">收藏題目 ☆</button></div>
 <div class="question-reading-tools"><p class="question-source" id="question-source"></p><select id="reading-language" aria-label="即時切換題目語言" hidden><option value="bilingual">English + 中文</option><option value="en">English</option><option value="zh">繁體中文</option></select><div class="language-switch" data-language-select="reading-language" role="group" aria-label="題目語言"><button type="button" data-language="en" aria-pressed="false">English</button><button type="button" data-language="bilingual" aria-pressed="true">中英對照</button><button type="button" data-language="zh" aria-pressed="false">繁體中文</button></div></div><div class="question-stem" id="question-stem" tabindex="-1"></div><p class="question-zh" id="question-zh"></p>
@@ -56,5 +57,5 @@
 <section class="set-summary" id="set-summary" hidden><p class="eyebrow">REVIEW · 本組結果</p><h2>這組練完，下一步呢？</h2><p id="summary-copy"></p><p class="summary-next" id="summary-next"></p><div class="summary-actions"><button class="btn btn-primary" id="retry-mistakes-btn">重練本組錯題 →</button><button class="btn btn-outline" id="retry-skipped-btn">完成未答題目 →</button><a class="btn btn-outline" href="dashboard.html">選擇下一課 →</a><a class="text-button" href="dashboard.html?view=record">查看溫習記錄</a></div><h3>逐題核對解法</h3><div id="summary-questions"></div></section>
 <p id="studio-status" role="status" aria-live="polite"></p>
 </main><footer class="site-footer"><span>© 2026 EAC Education</span><span>學生練習室 · 進度儲存在此瀏覽器</span></footer>
-<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/gamification.js"></script><script src="js/features/practice.js"></script>
+<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/gamification.js"></script><script src="js/features/practice.js"></script><script src="js/features/study-ui.js"></script>
 </body></html>
