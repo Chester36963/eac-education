@@ -110,10 +110,10 @@ window.EACStudy=(()=>{
  }
  function initAtmosphere(){
   const welcome=document.querySelector('.student-welcome');if(!welcome)return;
-  welcome.insertAdjacentHTML('afterbegin','<svg class="study-atmosphere" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g class="atmosphere-orbit"><circle cx="520" cy="260" r="205"/><ellipse cx="520" cy="260" rx="285" ry="110" transform="rotate(-28 520 260)"/><path d="M270 260H770M520 20V490M355 380L535 68L718 380Z"/><circle cx="535" cy="68" r="4"/></g><text x="90" y="60">∑</text><text x="780" y="420">f(x)</text><text x="140" y="410">π</text></svg>');
+  welcome.insertAdjacentHTML('afterbegin','<svg class="study-atmosphere" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g class="atmosphere-orbit"><circle cx="760" cy="260" r="220"/><ellipse cx="760" cy="260" rx="285" ry="130" transform="rotate(-24 760 260)"/><circle cx="980" cy="260" r="3" class="atmosphere-node"/><circle cx="540" cy="260" r="2" class="atmosphere-node"/></g></svg>');
   const board=welcome.querySelector('.study-artboard');let pending=0,eventPoint;
   const library=document.querySelector('.library-section');
-  if(library){const graphic=welcome.querySelector('.study-atmosphere').innerHTML;library.insertAdjacentHTML('afterbegin','<div class="library-atmosphere" aria-hidden="true">'+[0,1,2].map(i=>`<svg class="study-atmosphere atmosphere-section-${i}" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid slice">${graphic}</svg>`).join('')+'</div>');}
+  if(library){const graphic=welcome.querySelector('.study-atmosphere').innerHTML;library.insertAdjacentHTML('afterbegin',`<div class="library-atmosphere" aria-hidden="true"><svg class="study-atmosphere" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid slice">${graphic}</svg></div>`);}
   welcome.addEventListener('pointermove',event=>{if(reduced.matches||event.pointerType!=='mouse')return;eventPoint=[event.clientX,event.clientY];if(pending)return;pending=requestAnimationFrame(()=>{pending=0;const r=welcome.getBoundingClientRect(),x=(eventPoint[0]-r.left)/r.width-.5,y=(eventPoint[1]-r.top)/r.height-.5;welcome.style.setProperty('--math-x',`${x*10}px`);welcome.style.setProperty('--math-y',`${y*8}px`);const b=board.getBoundingClientRect();board.style.setProperty('--light-x',`${Math.max(0,Math.min(100,(eventPoint[0]-b.left)/b.width*100))}%`);board.style.setProperty('--light-y',`${Math.max(0,Math.min(100,(eventPoint[1]-b.top)/b.height*100))}%`);});},{passive:true});
   welcome.addEventListener('pointerleave',()=>{cancelAnimationFrame(pending);pending=0;welcome.style.setProperty('--math-x','0px');welcome.style.setProperty('--math-y','0px');});
   welcome.addEventListener('click',event=>{if(reduced.matches||event.target.closest('button,a,input,.plate-vertex-handle'))return;const drawing=welcome.querySelector('.atmosphere-orbit');drawing.animate([{opacity:.4},{opacity:1},{opacity:.4}],{duration:900,easing:'ease-out'});});
@@ -124,7 +124,7 @@ window.EACStudy=(()=>{
   const observer=new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting)visible.add(entry.target);else visible.delete(entry.target);}resume();},{threshold:.08});
   function refresh(){observer.disconnect();visible.clear();items=[...list.querySelectorAll('.chapter-entry')].map(entry=>({entry,picture:entry.querySelector('.chapter-picture'),id:entry.dataset.chapter}));items.forEach(item=>observer.observe(item.picture));}
   function tick(time){frame=0;if(reduced.matches||document.hidden||!visible.size)return;
-   if(time-last>80){phase+=Math.min((time-last)/1000,.12);last=time;items.forEach(({entry,picture,id},index)=>{if(!visible.has(picture))return;const theme=EACPlates.scene(id).theme,t=phase*.65+index*.9,s=(1-Math.cos(t))/2,value=theme.min+(theme.max-theme.min)*s;
+   if(time-last>40){phase+=Math.min((time-last)/1000,.08);last=time;items.forEach(({entry,picture,id},index)=>{if(!visible.has(picture))return;const theme=EACPlates.scene(id).theme,t=phase*.38+index*.9,s=(1-Math.cos(t))/2,value=theme.min+(theme.max-theme.min)*s;
     const scene=EACPlates.scene(id,value,{y:6+2*Math.sin(t*.7),centre:['O','I','G','H'][Math.floor(phase/5)%4]});picture.innerHTML=scene.svg;entry.classList.toggle('is-illustrating',true);
    });}frame=requestAnimationFrame(tick);
   }
