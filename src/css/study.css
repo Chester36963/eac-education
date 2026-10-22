@@ -25,9 +25,10 @@
 .student-main { max-width:1280px;padding:48px 40px 88px; }
 .student-welcome { display:grid;grid-template-columns:1.2fr 1fr;gap:64px;align-items:center;padding:8px 0 38px;margin:0;position:relative;isolation:isolate; }
 .student-welcome>div,.student-welcome>.study-artboard { position:relative;z-index:1; }
-.study-atmosphere { position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;fill:none;stroke:#677b8f;stroke-width:.65;opacity:.085;transform:translate(var(--math-x,0px),var(--math-y,0px));transition:transform .5s ease;overflow:hidden; }
+.study-atmosphere { position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;fill:none;stroke:#677b8f;stroke-width:.65;opacity:.065;transform:translate(var(--math-x,0px),var(--math-y,0px));transition:transform .8s ease;overflow:hidden;mask-image:linear-gradient(90deg,transparent 25%,#000 75%,transparent),linear-gradient(transparent,#000 18%,#000 80%,transparent);mask-composite:intersect; }
 .study-atmosphere text { fill:#677b8f;stroke:none;font:italic 48px Georgia,serif; }
-.atmosphere-orbit { transform-origin:520px 260px;animation:study-orbit 70s linear infinite; }
+.atmosphere-orbit { transform-origin:760px 260px;animation:study-orbit 110s linear infinite; }
+.atmosphere-node { fill:#677b8f;stroke:none; }
 @keyframes study-orbit { to { transform:rotate(360deg); } }
 .study-artboard::before { content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at var(--light-x,50%) var(--light-y,30%),#ffffff60,transparent 65%);z-index:-1; }
 .centre-selector { display:flex;gap:4px;border-block:1px solid #cbd1d7;padding:4px 0;margin-bottom:10px; }
@@ -72,10 +73,8 @@
 .footer-author { display:inline-block;margin-left:12px;padding-left:12px;border-left:1px solid #cbd1d7;font:italic 13px/1.8 Georgia,serif;color:#566575; }
 .student-shell .library-section { position:relative;isolation:isolate; }
 .library-atmosphere { position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:-1; }
-.library-atmosphere .study-atmosphere { height:680px;opacity:.045; }
-.library-atmosphere .atmosphere-section-1 { top:35%;transform:rotate(35deg); }
-.library-atmosphere .atmosphere-section-2 { top:70%;transform:rotate(-25deg); }
-.library-atmosphere .atmosphere-section-1 .atmosphere-orbit { animation-direction:reverse;animation-duration:95s; }
+.library-atmosphere .study-atmosphere { height:100%;opacity:.045;mask-image:linear-gradient(90deg,transparent 40%,#000 90%),linear-gradient(transparent,#000 20%,#000 75%,transparent);mask-composite:intersect; }
+.library-atmosphere .atmosphere-orbit { animation-direction:reverse;animation-duration:140s; }
 .chapter-entry.is-illustrating .chapter-picture { background:transparent; }
 @media(max-width:800px){
  .welcome-editorial { padding-top:4px; }

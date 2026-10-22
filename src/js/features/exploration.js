@@ -22,6 +22,9 @@
  reduced.addEventListener('change',()=>{if(reduced.matches)closeBook();});
  openBook();
  const svg=figure.querySelector('.circle-study svg'),slider=document.getElementById('triangle-shape');
+ const fourCentres=document.getElementById('hero-four-centres');let showFourCentres=true;
+ svg.insertAdjacentHTML('beforeend','<g class="hero-extra-centres"><line class="hero-euler"/><circle r="3.5" class="hero-centroid"/><circle r="3.5" class="hero-orthocentre"/><text class="diagram-label centre-label-g">G</text><text class="diagram-label centre-label-h">H</text></g>');
+ document.getElementById('circle-study-desc').textContent='固定外接圓上的三角形持續變化。O 外心、I 內心、G 重心、H 垂心同步移動；OI 顯示兩心距離，虛線連接歐拉線上的 O、G、H。';
  const names=['A','B','C'],presets=[...figure.querySelectorAll('[data-shape]')];
  names.forEach(name=>svg.insertAdjacentHTML('beforeend',`<g class="vertex-handle" tabindex="0" role="slider" aria-label="沿圓周移動頂點 ${name}" aria-valuemin="0" aria-valuemax="360"><circle class="vertex-hit" r="22"/><circle class="vertex-dot" r="5"/><text class="diagram-label">${name}</text></g>`));
  const handles=[...svg.querySelectorAll('.vertex-handle')],geometryPlay=figure.querySelector('.geometry-play');
@@ -38,22 +41,37 @@
   const vertices=angles.map(a=>[Math.cos(a*Math.PI/180),Math.sin(a*Math.PI/180)]),[a,b,c]=vertices;
   const lengths=[Math.hypot(b[0]-c[0],b[1]-c[1]),Math.hypot(a[0]-c[0],a[1]-c[1]),Math.hypot(a[0]-b[0],a[1]-b[1])],perimeter=lengths.reduce((s,v)=>s+v,0);
   const centre=[0,1].map(k=>vertices.reduce((s,v,i)=>s+v[k]*lengths[i],0)/perimeter);
+  // With the circumcentre at the origin, H = A + B + C and G = H / 3.
+  const h=[0,1].map(k=>vertices.reduce((sum,v)=>sum+v[k],0)),g=h.map(v=>v/3);
   const twiceArea=Math.abs((b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0])),r=twiceArea/perimeter,d=Math.hypot(...centre);
   svg.querySelectorAll('.diagram-edge').forEach((el,i)=>setLine(el,vertices[i],vertices[(i+1)%3]));
   svg.querySelector('.triangle-fill').setAttribute('d','M'+vertices.map(v=>screen(v).join(',')).join('L')+'Z');
   setPoint(svg.querySelector('.incircle'),centre);svg.querySelector('.incircle').setAttribute('r',(150*r).toFixed(3));
   setPoint(svg.querySelector('.incentre'),centre);setLine(svg.querySelector('.centre-distance'),[0,0],centre);
   const together=d<.000001,[ix,iy]=screen(centre),ol=svg.querySelector('.centre-label-o'),il=svg.querySelector('.centre-label-i');
-  ol.textContent=together?'O = I':'O';ol.setAttribute('x',260+(centre[0]>=0?-24:12));ol.setAttribute('y',222);
+  ol.textContent=together?(showFourCentres?'O = I = G = H':'O = I'):'O';ol.setAttribute('x',260+(centre[0]>=0?-24:12));ol.setAttribute('y',222);
   il.setAttribute('x',ix+12);il.setAttribute('y',iy-12);il.style.visibility=together?'hidden':'visible';
+  const extra=svg.querySelector('.hero-extra-centres');extra.style.display=showFourCentres?'':'none';
+  setPoint(svg.querySelector('.hero-centroid'),g);setPoint(svg.querySelector('.hero-orthocentre'),h);setLine(svg.querySelector('.hero-euler'),[0,0],h);
+  const positions=[[0,0],centre,g,h],labels=[ol,il,svg.querySelector('.centre-label-g'),svg.querySelector('.centre-label-h')],placed=[];
+  labels.slice(2).forEach((label,index)=>{label.style.visibility=together?'hidden':'visible';const p=screen(positions[index+2]);label.setAttribute('x',p[0]+12);label.setAttribute('y',p[1]+(index? -12:22));});
+  if(!together){labels.forEach((label,index)=>{if(!showFourCentres&&index>1)return;const p=screen(positions[index]),candidates=[[12,-12],[-26,22],[12,24],[-26,-12],[26,5],[-40,5],[12,-30]];
+   let best=candidates[0],score=Infinity;
+   candidates.forEach(offset=>{const x=p[0]+offset[0],y=p[1]+offset[1];let cost=0;for(const q of positions.map(screen)){if(q[0]>x-6&&q[0]<x+20&&q[1]>y-21&&q[1]<y+5)cost+=100;}for(const q of placed){if(Math.abs(q[0]-x)<30&&Math.abs(q[1]-y)<23)cost+=100;}cost+=Math.hypot(...offset)*.01;if(cost<score){score=cost;best=offset;}});
+   const position=[p[0]+best[0],p[1]+best[1]];label.setAttribute('x',position[0]);label.setAttribute('y',position[1]);placed.push(position);
+  });}
+  // Keep the circumcircle fixed; reserve room for an outside orthocentre, including manual shapes.
+  const hp=screen(h),bounds=showFourCentres?[Math.min(0,hp[0]-50),Math.min(0,hp[1]-50),Math.max(520,hp[0]+50),Math.max(510,hp[1]+50)]:[0,0,520,400];
+  svg.setAttribute('viewBox',`${bounds[0]} ${bounds[1]} ${bounds[2]-bounds[0]} ${bounds[3]-bounds[1]}`);
   handles.forEach((handle,i)=>{const v=vertices[i];handle.setAttribute('transform',`translate(${screen(v).join(' ')})`);const label=handle.querySelector('text');label.setAttribute('x',v[0]*19);label.setAttribute('y',-v[1]*19+6);label.setAttribute('text-anchor','middle');handle.setAttribute('aria-valuenow',Math.round((angles[i]%360+360)%360));handle.setAttribute('aria-valuetext',`${names[i]}：${Math.round((angles[i]%360+360)%360)}°`);});
   document.getElementById('incircle-radius').textContent=r.toFixed(3);document.getElementById('centre-distance').textContent=d.toFixed(3);
   figure.querySelector('.distance-track i').style.width=(d*100)+'%';
   slider.setAttribute('aria-valuetext',`形狀變化 ${Math.round(phase)} / 360`);
  }
+ fourCentres.onclick=()=>{showFourCentres=!showFourCentres;fourCentres.setAttribute('aria-pressed',String(showFourCentres));fourCentres.textContent=showFourCentres?'四心同看 ✓':'顯示重心與垂心';updateGeometry();};
  function manualGeometry(){geometryManual=true;resumeFrom=null;presets.forEach(b=>b.setAttribute('aria-pressed','false'));document.getElementById('geometry-note').textContent='拖動 A、B、C，或者移動滑桿，觀察兩心距離。';syncGeometryPlay();}
  slider.addEventListener('input',()=>{manualGeometry();phase=Number(slider.value);angles=shapeAt(phase);updateGeometry();});
- presets.forEach(button=>button.onclick=()=>{manualGeometry();phase=Number(button.dataset.shape);slider.value=phase;angles=shapeAt(phase);button.setAttribute('aria-pressed','true');updateGeometry();document.getElementById('geometry-note').textContent=phase===0?'等邊三角形：O 與 I 重合，內切圓半徑為 R 的一半。':phase===180?'鈍角三角形：外心 O 在三角形外，內心 I 仍在三角形內。':'三個頂點仍在同一外接圓上；拖動任意頂點，繼續探索。';});
+ presets.forEach(button=>button.onclick=()=>{manualGeometry();phase=Number(button.dataset.shape);slider.value=phase;angles=shapeAt(phase);button.setAttribute('aria-pressed','true');updateGeometry();document.getElementById('geometry-note').textContent=phase===0?'等邊三角形：O、I、G、H 四心重合，內切圓半徑為 R 的一半。':phase===180?'鈍角三角形：外心 O 在三角形外，內心 I 仍在三角形內。':'三個頂點仍在同一外接圓上；拖動任意頂點，繼續探索。';});
  function syncGeometryPlay(){const stopped=geometryManual||paused||reduced.matches;geometryPlay.disabled=reduced.matches;geometryPlay.textContent=reduced.matches?'已減少動態':stopped?'▷ 播放演示':'Ⅱ 暫停演示';geometryPlay.setAttribute('aria-pressed',String(!stopped));}
  function beginMorph(){resumeFrom=angles.slice();resumeTime=0;geometryManual=false;presets.forEach(b=>b.setAttribute('aria-pressed','false'));document.getElementById('geometry-note').textContent='三個頂點沿圓周移動；拖動任意頂點，暫停並試試自己的形狀。';}
  geometryPlay.onclick=()=>{if(paused){paused=false;beginMorph();syncMotion();}else if(geometryManual){beginMorph();syncGeometryPlay();}else{geometryManual=true;syncGeometryPlay();}};

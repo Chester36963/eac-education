@@ -27,6 +27,15 @@
 .circle-study .incentre { fill:#ce9683;stroke:var(--cover);stroke-width:1.5; }
 .circle-study .centre-label-o { fill:#aebdd0; }
 .circle-study .centre-label-i { fill:#e2b7a7; }
+.circle-study .hero-centroid { fill:#b7c4cf;stroke:var(--cover);stroke-width:1; }
+.circle-study .hero-orthocentre { fill:#e4dfd8;stroke:var(--cover);stroke-width:1; }
+.circle-study .centre-label-g { fill:#b7c4cf; }
+.circle-study .centre-label-h { fill:#e4dfd8; }
+.circle-study .hero-euler { stroke:#c4c7cc;stroke-width:.8;stroke-dasharray:3 6;opacity:.4; }
+.hero-centre-key { display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 13px;color:var(--cover-muted);font:10px/1.8 var(--font-stack); }
+.hero-centre-key i { font:italic 14px Georgia,serif;color:var(--cover-text);margin:0 3px 0 8px; }
+.hero-centre-key i:first-child { margin-left:0; }
+.hero-centre-key button { flex-shrink:0;background:none;border:0;border-bottom:1px solid var(--cover-line);padding:8px 0;color:var(--cover-text);font:10px/1.8 var(--font-stack);cursor:pointer; }
 .vertex-hit { fill:transparent;stroke:none; }
 .vertex-dot { fill:#e4e5e5;stroke:var(--cover);stroke-width:2;transition:r .2s; }
 .vertex-handle:is(:hover,:focus-visible) .vertex-dot { r:7;fill:#aebdd0; }

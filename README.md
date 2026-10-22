@@ -21,7 +21,7 @@ Open http://127.0.0.1:4173/. The question catalog is at http://127.0.0.1:4173/li
 
 | Page | Working behavior |
 | --- | --- |
-| `index.html` | Full-screen book opening; fixed circumcircle with three moving/draggable vertices, dynamic incircle and OI distance; sine, quadratic and polygon explorations; four-centres previews; catalog-driven chapter links |
+| `index.html` | Full-screen book opening; fixed circumcircle with three moving/draggable vertices, dynamic incircle, O/I/G/H with Euler line and four-centre toggle, and OI distance; sine, quadratic and polygon explorations; four-centres previews; catalog-driven chapter links |
 | `library.html` | Public bilingual question search, taxonomy, counts, pagination, previews and practice links |
 | `auth.html` | Compatibility entry explaining local records; no registration/trial gate |
 | `dashboard.html` | Five interactive mathematical chapter previews, adjustable parameters/play/pause, chapter/skill directory, subject/search filters; records at `?view=record` |

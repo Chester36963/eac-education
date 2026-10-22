@@ -60,7 +60,7 @@ const out='/tmp/eac-four-centres';fs.mkdirSync(out,{recursive:true});
     const picture=page.locator(`.chapter-entry[data-chapter="${id}"] .chapter-picture`);await picture.scrollIntoViewIfNeeded();await page.waitForTimeout(180);
     const before=await picture.innerHTML();await page.waitForTimeout(450);assert.notEqual(await picture.innerHTML(),before,id+' small illustration animates in viewport');
    }
-   assert.equal(await page.locator('.library-atmosphere svg').count(),3);
+   assert.equal(await page.locator('.library-atmosphere svg').count(),1);
    assert.match(await page.locator('.site-footer').textContent(),/Chester/);
    await page.locator('.student-welcome').scrollIntoViewIfNeeded();
    await page.mouse.move(100,150);await page.waitForTimeout(50);await page.mouse.move(200,200);await page.waitForTimeout(100);
