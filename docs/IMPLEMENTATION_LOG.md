@@ -1,5 +1,13 @@
 # Implementation record
 
+## Mathematical exploration and book opening — 22 October 2026
+
+Responded to the request for a less static, more visually distinctive site. Added a non-blocking 2.7-second CSS book opening within the existing charcoal hero, with a replay control, ruled leaves and EAC cover. Main study links remain usable during the animation. Reduced-motion removes the opening and all new transitions. Book typography uses the local Bodoni/Didot stack with the existing display serif as fallback; Chinese brand copy uses Songti. Study question typography is unchanged.
+
+The hero nine-point circle is now an actual interactive construction: a keyboard/touch range input moves C horizontally from (2,8) to (8,8), recomputing the circumcentre, orthocentre, circle centre/radius, altitude feet, nine points, triangle edges, Euler line and labels. Group buttons highlight side midpoints, feet or vertex–orthocentre midpoints with explanatory status text. SVG accessible description updates with coordinates. Initial geometry and point order are preserved. Each of the five catalog chapters now has its own small illustrative mathematical SVG. Hover/focus changes, one-time section entrances and editorial type provide variety without adding animation to the answer workspace.
+
+QA: exploration browser suite checks animation completion/reduced-motion/replay, all five catalog illustrations, group states, keyboard slider, and circle residual below .003 SVG units for all nine points at C x=2/3/5/8. Desktop/mobile renders at 320/390/768/1440 reviewed for overflow and JavaScript errors; nine-point labels and full circle were visually inspected. New chapter drawings are decorative navigation illustrations, not substituted question diagrams. No question images, answers or source IDs changed. All 23 unit/content checks, the 853-question build consistency check and public library browser regression passed. Local evidence is in /tmp/eac-explore/. No PDF output.
+
 ## Study interaction and typography refinement — 22 October 2026
 
 Revisited the supplied reference contact sheets after the user identified interaction, typography and SVG colours as the remaining weak points. Kept the agreed charcoal cover/light study direction. Static reference screenshots inform hierarchy and spacing; they do not establish animation behaviour.

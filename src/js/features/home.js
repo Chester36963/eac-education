@@ -8,7 +8,16 @@ document.addEventListener('DOMContentLoaded',async()=>{
       const title=document.createElement('span');title.className='index-title';title.textContent=chapter.name.en;
       const zh=document.createElement('small');zh.textContent=chapter.name['zh-Hant'];title.append(zh);
       const description=document.createElement('span');description.className='index-desc';description.textContent=`${chapter.questionCount} 題 · ${chapter.subcategories.length} 個分類`;
-      const arrow=document.createElement('span');arrow.className='index-arrow';arrow.textContent='↗';link.append(number,title,description,arrow);return link;
+      const art=document.createElement('span');art.className='chapter-art';art.setAttribute('aria-hidden','true');
+      const drawings={
+        'four-centres':'<g class="art-orbit"><circle cx="50" cy="40" r="29" class="art-accent"/><path d="M15 65L43 8L87 65Z M43 8V65 M15 65L65 35"/><circle cx="43" cy="43" r="2"/></g>',
+        locus:'<circle cx="37" cy="40" r="25"/><circle cx="63" cy="40" r="25" class="art-accent"/><path d="M50 5V75" stroke-dasharray="2 4"/>',
+        polynomials:'<path d="M8 60H95 M50 74V5" opacity=".4"/><path d="M16 12Q50 115 84 12" class="art-accent"/><circle cx="29" cy="60" r="2"/><circle cx="71" cy="60" r="2"/>',
+        sequences:'<path d="M9 65H27V52H45V39H63V26H81V13H96" class="art-accent"/><path d="M9 74H96" opacity=".4"/><circle cx="18" cy="58" r="2"/><circle cx="36" cy="45" r="2"/><circle cx="54" cy="32" r="2"/><circle cx="72" cy="19" r="2"/>',
+        'mensuration-core':'<path d="M25 20L66 8L88 27V62L48 74L25 55Z M25 20L48 39L88 27 M48 39V74"/><path d="M25 55L66 43L88 62 M66 8V43" stroke-dasharray="3 3" class="art-accent"/>'
+      };
+      art.innerHTML='<svg viewBox="0 0 100 80">'+(drawings[chapter.id]||drawings['four-centres'])+'</svg>';
+      const arrow=document.createElement('span');arrow.className='index-arrow';arrow.textContent='↗';link.append(number,art,title,description,arrow);return link;
     });
     container.replaceChildren(...links);
   }catch(error){/* Keep the existing chapter links available if the catalog is offline. */}
