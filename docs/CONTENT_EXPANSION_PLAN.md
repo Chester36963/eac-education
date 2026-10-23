@@ -20,7 +20,7 @@
 | CT-06 | B3：統計BC v5 | 待驗收 | 64 題／19 SVG／Type0–9 對帳、圖像通過；獨立統計測試覆蓋多組資料，未覆蓋全部64題每個小問 |
 | CT-07 | B2：原111暫存及度量 | 完成 | 原111：105 recover、2 duplicate、4 hold；另有風箏舊題重新暫停；20 度量題重建及計算紀錄 |
 | CT-08 | 多區塊、別名、舊記錄相容 | 完成 | tests/alias-migration.cjs；browser/imported-bank.cjs、language-recovery.cjs、study-journey.cjs |
-| CT-09 | 回歸及發布 | 待驗收 | 本地回歸完成；部署結果及版本以 IMPLEMENTATION_LOG 實際紀錄為準 |
+| CT-09 | 技術回歸及發布 | 完成 | main adc5f0e；Actions39917573296成功；正式站98檔SHA256一致；三組線上瀏覽器回歸通過。此項完成不代替CT-03至06的數學驗收 |
 
 本次採一個可回退的 main 發布批次，內容和 UI 在本地按 B1/B2/B3/B4 完成；沒有聲稱每個本地批次都曾獨立上線。
 

@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-23T07:29:03.522Z",
+  "baseUrl": "https://chester36963.github.io/eac-education/",
+  "releaseCommit": "adc5f0e68598067fcd5bc7ce1f5501b67ec546cd",
+  "workflowRunId": 39917573296,
+  "workflowConclusion": "success",
+  "contentRevision": "bb6b7d30233c8fd4",
+  "totalQuestions": 1187,
+  "chapterCount": 7,
+  "deployedFileHashes": {
+    "checked": 98,
+    "algorithm": "SHA256",
+    "scope": "Four HTML entry pages, shared mathematics/rendering JS, study/math CSS, catalog, metadata index, every detail chunk and all 43 notes SVG assets",
+    "errors": []
+  },
+  "liveBrowserTests": [
+    {"suite": "expansion-instruments", "widths": [320,390,768,1440], "result": "passed"},
+    {"suite": "exploration", "widths": [320,390,768,1440], "result": "passed"},
+    {"suite": "study-journey", "widths": [320,390], "result": "passed"}
+  ],
+  "limits": "Deployment/rendering evidence is not a proof that every source answer is correct. Six source holds and complete independent every-subpart mathematical/source-difference review remain open in CONTENT_EXPANSION_PLAN.md. No PDF produced."
+}

@@ -2,7 +2,7 @@
 
 ## Content expansion and shared mathematics instruments — 23 October 2026
 
-Status LOG-20261023-EXP: 本地實作／回歸完成，發布待核對。Content revision `bb6b7d30233c8fd4`. This entry supersedes older current-count and static-art descriptions; the historical entries remain dated evidence. Full scope, source versions/hashes, per-row outcomes and unresolved work live in [CONTENT_EXPANSION_PLAN.md](CONTENT_EXPANSION_PLAN.md); the complete eleven-part interface handoff is [UI_UX_ROADMAP.md](UI_UX_ROADMAP.md).
+Status LOG-20261023-EXP: 技術實作／回歸／正式發布完成；完整內容數學驗收仍有下述待辦。Content revision `bb6b7d30233c8fd4`. This entry supersedes older current-count and static-art descriptions; the historical entries remain dated evidence. Full scope, source versions/hashes, per-row outcomes and unresolved work live in [CONTENT_EXPANSION_PLAN.md](CONTENT_EXPANSION_PLAN.md); the complete eleven-part interface handoff is [UI_UX_ROADMAP.md](UI_UX_ROADMAP.md).
 
 ### Actual content changes
 
@@ -33,7 +33,11 @@ The five-leaf opening book uses real geometry and sine artwork. Seven chapter ic
 
 Content jobs CT-03/04/05/06 remain 待驗收 for complete source-difference adjudication or every-subpart independent mathematical recalculation, as specified in the content plan. The494 source/current comparisons are a discrepancy audit, not a claim that all differences were manually judged; embedded options and existing corrected translations also affect similarity. Six source contradictions/missing-data cases remain 待補來源 with exact IDs, attempts and required evidence. Statistics source briefs do not become complete translated derivations. No PDF was generated. Authentication and learning records remain the existing browser-local prototype; real accounts/cloud sync are not implemented in this scope. Browser tests use Chromium viewports, not a real iOS/Android device.
 
-Publication result is appended only after a real push and live checks; this paragraph does not claim deployment.
+### Verified publication
+
+Release commit `adc5f0e68598067fcd5bc7ce1f5501b67ec546cd` was pushed to the existing main repository. The shell push had no HTTPS credentials; the already authenticated GitHub Desktop push succeeded, with origin/main independently confirmed. GitHub Actions run39917573296 completed successfully, including build consistency, unit tests and deployment to gh-pages.
+
+At 2026-10-23T07:29:03.522Z, the live site reported revision `bb6b7d30233c8fd4`,1,187 questions and seven chapters. Ninety-eight deployed HTML/JS/CSS/catalog/index/chunk/SVG files matched local SHA256, zero remaining differences (two initial asset mismatches were transient and rechecked successfully). Live browser suites expansion-instruments, exploration and study-journey passed, including four responsive widths for instruments/cover and320/390px student journeys. These were run against https://chester36963.github.io/eac-education/ rather than the local server. [Machine-readable release evidence](qa/2026-10-23/live-verification.json). This verifies the published implementation; the six source holds and CT-03/04/05/06 independent content QA remain explicitly open.
 
 ## Triangle comparisons and motion throughout the study desk — 23 October 2026
 
