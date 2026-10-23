@@ -30,7 +30,7 @@ for(const r of audit.records)test('Bulk source identity: '+key(r),()=>{
   assert.equal(n(s[lang].stem,{numbering:true,parentLabels:true}),n(q[f],{numbering:true,parentLabels:true}));
   for(const[k,v]of Object.entries(s[lang].options))assert.equal(n(v),n(q[lang==='en'?'options':'optionsZh']?.[k]));
  }else {assert.ok(r.promptAndOptions.differentFields.length);assert.ok(r.promptAndOptions.reason.trim());}
- for(const f of ['solution','solutionZh'])assert.equal(r.solutionComparison[f].status==='完成',n(s[f],{headings:true,parentLabels:true})===n(q[f],{headings:true,parentLabels:true}));
+ for(const f of ['solution','solutionZh']){const c=r.solutionComparison[f],equal=n(s[f],{headings:true,parentLabels:true})===n(q[f],{headings:true,parentLabels:true});if(c.method==='independently-reviewed-restoration'){const evidence=require('../content/imports/2026-10-23-solution-math-review.json').records.find(x=>x.id===q.id);assert.ok(evidence);assert.equal(evidence.questionSha256,hash(q));assert.equal(c.status,'完成');assert.equal(equal,false);}else assert.equal(c.status==='完成',equal);}
 });
 const records=[],mathPath='content/imports/2026-10-23-batch-math-review.json',update=process.env.EAC_UPDATE_BATCH_QA==='1';
 const locked=fs.existsSync(mathPath)?JSON.parse(fs.readFileSync(mathPath)).records:[];

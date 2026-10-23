@@ -1,0 +1,902 @@
+{
+  "testedAt": "2026-10-23T13:06:23.557Z",
+  "base": "http://127.0.0.1:4173/",
+  "revision": "fad88dd11ec4014d",
+  "totalQuestions": 1186,
+  "uniqueEditedIds": 37,
+  "checked": [
+    {
+      "id": "import-locus-0132a3d48c27c634",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-0132a3d48c27c634",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-0132a3d48c27c634",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-0132a3d48c27c634",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-09865ee44e741b25",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-09865ee44e741b25",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-09865ee44e741b25",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-09865ee44e741b25",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-2db16c0c3fbad63d",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-2db16c0c3fbad63d",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-2db16c0c3fbad63d",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-2db16c0c3fbad63d",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-2f91c1ca86ebd9eb",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-2f91c1ca86ebd9eb",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-2f91c1ca86ebd9eb",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-2f91c1ca86ebd9eb",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-3bd2495982b966ab",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-3bd2495982b966ab",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-3bd2495982b966ab",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-3bd2495982b966ab",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-41f5dfd4b119eb61",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-41f5dfd4b119eb61",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-41f5dfd4b119eb61",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-41f5dfd4b119eb61",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4383a7bf838c6e75",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4383a7bf838c6e75",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4383a7bf838c6e75",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4383a7bf838c6e75",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-44b419f248595feb",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-44b419f248595feb",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-44b419f248595feb",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-44b419f248595feb",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4a1169b69734bdb0",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4a1169b69734bdb0",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4a1169b69734bdb0",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4a1169b69734bdb0",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4bf1af02fdfd8b50",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4bf1af02fdfd8b50",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4bf1af02fdfd8b50",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-4bf1af02fdfd8b50",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-5ef996dcd06ad160",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-5ef996dcd06ad160",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-5ef996dcd06ad160",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-5ef996dcd06ad160",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-6a1d871a0f5502f5",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-6a1d871a0f5502f5",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-6a1d871a0f5502f5",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-6a1d871a0f5502f5",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-700281dae43996d9",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-700281dae43996d9",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-700281dae43996d9",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-700281dae43996d9",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-7695a17086ea2e08",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-7695a17086ea2e08",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-7695a17086ea2e08",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-7695a17086ea2e08",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-77eb0facf771be22",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-77eb0facf771be22",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-77eb0facf771be22",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-77eb0facf771be22",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-872d8a9579277a27",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-872d8a9579277a27",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-872d8a9579277a27",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-872d8a9579277a27",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-880948b151a9bfe4",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-880948b151a9bfe4",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-880948b151a9bfe4",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-880948b151a9bfe4",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8b82833d2f9033aa",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8b82833d2f9033aa",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8b82833d2f9033aa",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8b82833d2f9033aa",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8d985d03796e7735",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8d985d03796e7735",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8d985d03796e7735",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8d985d03796e7735",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8f32bdde0298e95f",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8f32bdde0298e95f",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8f32bdde0298e95f",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-8f32bdde0298e95f",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-99d0ab58f4138227",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-99d0ab58f4138227",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-99d0ab58f4138227",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-99d0ab58f4138227",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-9ad413618c8843e0",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-9ad413618c8843e0",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-9ad413618c8843e0",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-9ad413618c8843e0",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-adda39f4b68a4d06",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-adda39f4b68a4d06",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-adda39f4b68a4d06",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-adda39f4b68a4d06",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-b6654cf99429d6e1",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-b6654cf99429d6e1",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-b6654cf99429d6e1",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-b6654cf99429d6e1",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-c3a3780d156e23e5",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-c3a3780d156e23e5",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-c3a3780d156e23e5",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-c3a3780d156e23e5",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-d8934ea3c4a383d6",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-d8934ea3c4a383d6",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-d8934ea3c4a383d6",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-d8934ea3c4a383d6",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-dfa3d2d47a770e95",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-dfa3d2d47a770e95",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-dfa3d2d47a770e95",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-dfa3d2d47a770e95",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ecb62b01ecb226d0",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ecb62b01ecb226d0",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ecb62b01ecb226d0",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ecb62b01ecb226d0",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ed7ad0e146931436",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ed7ad0e146931436",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ed7ad0e146931436",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ed7ad0e146931436",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ee8b0fd604fa475b",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ee8b0fd604fa475b",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ee8b0fd604fa475b",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-ee8b0fd604fa475b",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f0d21d4dcf1f24ea",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f0d21d4dcf1f24ea",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f0d21d4dcf1f24ea",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f0d21d4dcf1f24ea",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f369073bf2bce1f3",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f369073bf2bce1f3",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f369073bf2bce1f3",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f369073bf2bce1f3",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f5063cb3b3b65e57",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f5063cb3b3b65e57",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f5063cb3b3b65e57",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f5063cb3b3b65e57",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f79a688053d14f71",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f79a688053d14f71",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f79a688053d14f71",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f79a688053d14f71",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f7d29f31977d953f",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f7d29f31977d953f",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f7d29f31977d953f",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f7d29f31977d953f",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f8431e918f23b833",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f8431e918f23b833",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f8431e918f23b833",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f8431e918f23b833",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f93329de5deb45de",
+      "width": 320,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f93329de5deb45de",
+      "width": 390,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f93329de5deb45de",
+      "width": 768,
+      "language": "zh",
+      "solutionVisible": true
+    },
+    {
+      "id": "import-locus-f93329de5deb45de",
+      "width": 1440,
+      "language": "zh",
+      "solutionVisible": true
+    }
+  ],
+  "errors": [],
+  "oldHistoryDraftBookmarkResumePreserved": true,
+  "noAutomaticRegrade": true,
+  "actualManualAssessment": true,
+  "limits": "Chromium viewports, not physical-device usability research. No student figure changes or PDF."
+}

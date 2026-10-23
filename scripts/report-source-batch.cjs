@@ -25,6 +25,9 @@ const reasons={
 };
 const mathFile='content/imports/2026-10-23-batch-math-review.json';
 const math=fs.existsSync(mathFile)?JSON.parse(fs.readFileSync(mathFile)).records:[];
+const restorationPath='content/imports/2026-10-23-solution-math-review.json';
+const restored=fs.existsSync(restorationPath)?JSON.parse(fs.readFileSync(restorationPath)).records:[];
+for(const r of restored)assert.equal(r.questionSha256,hash(byId.get(r.id)),'Repeat independent restoration checks after edits');
 const records=snapshots.records.map((r,i)=>{
  const q=byId.get(r.id),fields=[];
  for(const [l,f]of [['en','stem'],['zh','stemZh']]){
@@ -32,12 +35,12 @@ const records=snapshots.records.map((r,i)=>{
   for(const [k,v]of Object.entries(r[l].options))if(n(v)!==n(q[l==='en'?'options':'optionsZh']?.[k]))fields.push(l+k);
  }
  if(fields.length)assert.ok(reasons[r.id],'Unadjudicated field difference: '+r.id+' '+fields);
- const solutions=Object.fromEntries(['solution','solutionZh'].map(f=>[f,{status:n(r[f],{headings:true,parentLabels:true})===n(q[f],{headings:true,parentLabels:true})?'完成':'待驗收',basis:'Only source-text comparison after explicitly documented display/header cleanup; not independent recalculation.'}]));
- const independent=math.find(x=>x.id===q.id);
- return {recordId:'BATCH-'+String(i+1).padStart(3,'0'),id:r.id,locator:r.locator,topic:r.topic,sourceSha256:r.sourceSha256,sourceSnapshotSha256:hash(r),questionSha256:hash(q),promptAndOptions:{status:'完成',method:fields.length?'explicit-semantic-decision':'normalized-text-and-option-identity',differentFields:fields,reason:fields.length?reasons[r.id]:'Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded.'},solutionComparison:solutions,independentMathematics:{status:independent?'完成':'待驗收',evidence:independent?'2026-10-23-batch-math-review.json':'A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative.'}};
+ const solutions=Object.fromEntries(['solution','solutionZh'].map(f=>{const equal=n(r[f],{headings:true,parentLabels:true})===n(q[f],{headings:true,parentLabels:true});const reviewed=restored.some(x=>x.id===q.id);return [f,{status:equal||reviewed?'完成':'待驗收',method:equal?'normalized-source-identity':reviewed?'independently-reviewed-restoration':'pending',basis:equal?'Source-text comparison after documented display/header cleanup; not by itself independent recalculation.':reviewed?'B7 same-question solution restoration and explicit independent calculation: 2026-10-23-solution-math-review.json':'Unresolved source/current solution difference.'}];}));
+ const independent=math.find(x=>x.id===q.id)||restored.find(x=>x.id===q.id);
+ return {recordId:'BATCH-'+String(i+1).padStart(3,'0'),id:r.id,locator:r.locator,topic:r.topic,sourceSha256:r.sourceSha256,sourceSnapshotSha256:hash(r),questionSha256:hash(q),promptAndOptions:{status:'完成',method:fields.length?'explicit-semantic-decision':'normalized-text-and-option-identity',differentFields:fields,reason:fields.length?reasons[r.id]:'Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded.'},solutionComparison:solutions,independentMathematics:{status:independent?'完成':'待驗收',evidence:restored.some(x=>x.id===q.id)?'2026-10-23-solution-math-review.json':independent?'2026-10-23-batch-math-review.json':'A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative.'}};
 });
 assert.equal(records.length,455);
-const summary={sourceRows:records.length,uniqueIds:new Set(records.map(r=>r.id)).size,promptAndOptionRowsComplete:records.length,exactPresentationRows:records.filter(r=>r.promptAndOptions.method==='normalized-text-and-option-identity').length,semanticDecisionRows:records.filter(r=>r.promptAndOptions.method==='explicit-semantic-decision').length,solutionFieldsMatched:records.reduce((s,r)=>s+Object.values(r.solutionComparison).filter(x=>x.status==='完成').length,0),solutionFieldsDifferent:records.reduce((s,r)=>s+Object.values(r.solutionComparison).filter(x=>x.status!=='完成').length,0),independentMathUniqueIds:math.length};
+const summary={sourceRows:records.length,uniqueIds:new Set(records.map(r=>r.id)).size,promptAndOptionRowsComplete:records.length,exactPresentationRows:records.filter(r=>r.promptAndOptions.method==='normalized-text-and-option-identity').length,semanticDecisionRows:records.filter(r=>r.promptAndOptions.method==='explicit-semantic-decision').length,solutionFieldsMatched:records.reduce((s,r)=>s+Object.values(r.solutionComparison).filter(x=>x.method==='normalized-source-identity').length,0),solutionFieldsDifferent:records.reduce((s,r)=>s+Object.values(r.solutionComparison).filter(x=>x.method!=='normalized-source-identity').length,0),solutionFieldsAdjudicated:records.reduce((s,r)=>s+Object.values(r.solutionComparison).filter(x=>x.method==='independently-reviewed-restoration').length,0),solutionFieldsPending:records.reduce((s,r)=>s+Object.values(r.solutionComparison).filter(x=>x.status!=='完成').length,0),independentMathUniqueIds:new Set([...math,...restored].map(r=>r.id)).size};
 fs.writeFileSync('content/imports/2026-10-23-batch-source-review.json',JSON.stringify({version:1,date:'2026-10-23',scope:'All remaining 455 source rows: bilingual prompt/options adjudication. Source solutions and independent mathematics have separate statuses.',summary,records},null,2)+'\n');
 const repairs=require('../content/imports/2026-10-23-batch-repairs.json').records;
 const escape=x=>String(x).replaceAll('|','／').replaceAll('\n',' ');
@@ -52,7 +55,7 @@ SRC-BATCH-02（${repairs.every(r=>r.status==='完成')?'完成':'待驗收'}）�
 
 SRC-BATCH-03（${math.length===25?'完成':'待驗收'}）：**${math.length}個ID** 有本批獨立算式測試與canonical SHA256。其中新增發現定距題漏法向長度√5：原C選項的距離其實是3/√5，不是3。保留原題條件及原選項快照，現行明示改為書面比較，沒有把干擾項改成新答案。
 
-SRC-BATCH-04（待驗收）：910個來源／網站解析欄位中，${summary.solutionFieldsMatched}個在明列的標題／排版清理後一致，**${summary.solutionFieldsDifferent}個仍有差異**（含教學詳略、重新推導、來源簡答及排版差別）。全部保留兩邊原文及分開狀態；這不等於${summary.solutionFieldsDifferent}道錯題，更不代表455項已逐小問獨立重算。已獨立重算的25個ID及前批獨立紀錄另外有效。其餘來源解答相同亦不自動取得「數學完成」資格。
+SRC-BATCH-04（待驗收，已接續B7）：910個來源／網站解析欄位中，${summary.solutionFieldsMatched}個在明列的標題／排版清理後一致，${summary.solutionFieldsAdjudicated}個文字差異已有B7獨立計算裁定，**${summary.solutionFieldsPending}個仍待覆核**（含教學詳略、重新推導、來源簡答及排版差別）。全部保留兩邊原文及分開狀態；這不等於${summary.solutionFieldsPending}道錯題，更不代表455項已逐小問獨立重算。B7另恢復37條長題中文推導並獨立驗算；見 [B7完整記錄](SOLUTION_RESTORATION.md)。原B6的25個ID及前批獨立紀錄另外有效。其餘來源解答相同亦不自動取得「數學完成」資格。
 
 ## 可重現流程
 
@@ -70,8 +73,8 @@ ${table(['網站ID','狀態','實際修改'],repairs.map(r=>[r.id,r.status,r.rea
 
 ## 455項完整對照
 
-下表「解析欄一致」只表示來源文字比較。全文、SHA256、來源locator、差異欄位及各自狀態見 \`content/imports/2026-10-23-batch-source-review.json\` 與 \`batch-source-snapshots.json\`；原記錄不是網頁可執行內容。
+下表「解析欄對照完成」包含文字一致或明列B7獨立推導裁定，JSON method可區分；不能概括當成全部數學驗算。全文、SHA256、來源locator、差異欄位及各自狀態見 \`content/imports/2026-10-23-batch-source-review.json\` 與 \`batch-source-snapshots.json\`；原記錄不是網頁可執行內容。
 
-${table(['編號','網站ID／原位置','題幹與選項','解析欄一致 EN／ZH','本批獨立算式','裁定'],records.map(r=>[r.recordId,r.id+' / '+r.locator,r.promptAndOptions.status,['solution','solutionZh'].map(f=>r.solutionComparison[f].status==='完成'?'是':'否').join('／'),r.independentMathematics.status,r.promptAndOptions.reason]))}
+${table(['編號','網站ID／原位置','題幹與選項','解析欄對照完成 EN／ZH','獨立算式證據','裁定'],records.map(r=>[r.recordId,r.id+' / '+r.locator,r.promptAndOptions.status,['solution','solutionZh'].map(f=>r.solutionComparison[f].status==='完成'?'是':'否').join('／'),r.independentMathematics.status,r.promptAndOptions.reason]))}
 `);
 console.log(summary);

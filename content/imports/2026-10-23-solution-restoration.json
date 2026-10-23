@@ -1,0 +1,1970 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "scope": "37 locus long questions: same-source Chinese derivation restoration, two English completion/notation repairs",
+  "records": [
+    {
+      "id": "import-locus-6a1d871a0f5502f5",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-37",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "f680e81b3e9596b665d070874f9d4b2b455ccd07ac4e3853f7223239ad867ac4",
+      "before": {
+        "stem": "\\(A=(0,2),B=(14,10),C=(16,0)\\) and \\(G\\) is their centroid.\n(a) Find \\(G\\).\n(b) \\(P\\) satisfies \\(PG=PC\\). (i) Find its locus. (ii) Describe its relation to \\(BG\\). (iii) Does the height of \\(PBG\\), with base \\(BG\\), change as \\(P\\) moves?",
+        "stemZh": "\\(A=(0,2),B=(14,10),C=(16,0)\\)，\\(G\\) 為三角形重心。\n(a) 求 \\(G\\)。\n(b) \\(P\\) 滿足 \\(PG=PC\\)。(i) 求其軌跡。(ii) 描述軌跡與 \\(BG\\) 的關係。(iii) 以 \\(BG\\) 為底時，三角形 \\(PBG\\) 的高會否隨 \\(P\\) 移動而改變？",
+        "hint": "Equidistant locus is parallel line. Distance between parallels is constant.",
+        "hintZh": "等距軌跡是平行線。平行線距離固定。",
+        "solution": "(a) \\(G=(10,4)\\).\n(b)(i) \\((x-10)^2+(y-4)^2=(x-16)^2+y^2\\) gives \\(3x-2y-35=0\\).\n(ii) Its slope is \\(3/2\\), equal to that of \\(BG\\); the locus is a complete parallel line, since no segment restriction is given.\n(iii) No. The distance between two fixed parallel lines is constant.",
+        "solutionZh": "(a) \\(G=(10,4)\\)。\n\n(b)(i) \\(3x−2y−35=0\\)。\n\n(b)(ii) 平行線。\n\n(b)(iii) 否，距離固定。",
+        "id": "import-locus-6a1d871a0f5502f5",
+        "subcategory": "transformed-loci",
+        "skill": "locus-moving-centre",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "express moving derived point coordinates",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 37,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "a8b3a0dc5fe3fda418044b46f91d1f78ffdf77f4a17c9d256f71c85d6a82d98f",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-2db16c0c3fbad63d",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-38",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "e4fc641a750326c74cbe567a6064544f810358408c7292be54ac171e0a3bff77",
+      "before": {
+        "stem": "\\(C:x^2+y^2-12x-16y-69=0\\) has centre \\(X\\).\n(a) State \\(X\\) and the radius.\n(b) \\(L:3x-4y-11=0\\) meets \\(C\\) at \\(A,B\\). A moving point \\(P\\) satisfies \\(PA=PB\\); call its locus \\(\\Gamma\\). It meets the axes at \\(H,K\\). Is \\([OHK]\\) smaller than one quarter of the area of \\(C\\)? Explain.",
+        "stemZh": "\\(C:x^2+y^2-12x-16y-69=0\\) 的圓心為 \\(X\\)。\n(a) 寫出 \\(X\\) 及半徑。\n(b) \\(L:3x-4y-11=0\\) 與 \\(C\\) 交於 \\(A,B\\)。動點 \\(P\\) 滿足 \\(PA=PB\\)，以 \\(\\Gamma\\) 表示軌跡；它與兩軸交於 \\(H,K\\)。\\([OHK]\\) 是否小於圓面積的四分之一？解釋。",
+        "hint": "Chord bisector through X, slope = -4/3. Intercepts give triangle.",
+        "hintZh": "弦平分線過 X，斜率 -4/3。截距求三角形。",
+        "solution": "(a) \\(X=(6,8)\\) and \\(r=13\\).\n(b) \\(\\Gamma\\) is the perpendicular bisector of chord \\(AB\\), so it passes through \\(X\\) and has slope \\(-4/3\\). Thus \\(\\Gamma:4x+3y-48=0\\). \\(H=(12,0),K=(0,16)\\), so \\([OHK]=96<169\\pi/4\\approx132.73\\). The claim is correct.",
+        "solutionZh": "(a) \\(X=(6,8),\\) \\(r=13\\)。\n\n(b) \\(Γ:4x+3y−48=0\\)，\\([OHK]=96\\)。",
+        "id": "import-locus-2db16c0c3fbad63d",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 38,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "7531fd8e37cebc1e83363aef7f97d064ad014e10dd5a60268a2f47b576860746",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-700281dae43996d9",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-39",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "df215c9eb5323f4aedd99f68b7d93c7d507f0eeb54ab0f7783ef257d94d4a20d",
+      "before": {
+        "stem": "\\(C:x^2+y^2+2x-8y-83=0\\) has centre \\(A\\).\n(a) Find \\(A\\) and the radius.\n(b) \\(B=(23,22)\\) and \\(P\\) satisfies \\(PA=PB\\); call its locus \\(\\Gamma\\).\n(i) Find \\(\\Gamma\\).\n(ii) \\(H\\) on \\(C\\) is nearest to \\(\\Gamma\\), and \\(K\\) on \\(\\Gamma\\) is nearest to \\(C\\). \\(R\\) lies on the positive \\(x\\)-axis. Find \\([RAH]:[RHK]\\).",
+        "stemZh": "\\(C:x^2+y^2+2x-8y-83=0\\) 的圓心為 \\(A\\)。\n(a) 求 \\(A\\) 及半徑。\n(b) \\(B=(23,22)\\)，\\(P\\) 滿足 \\(PA=PB\\)，軌跡為 \\(\\Gamma\\)。\n(i) 求 \\(\\Gamma\\)。\n(ii) 圓上點 \\(H\\) 距離 \\(\\Gamma\\) 最近，\\(\\Gamma\\) 上點 \\(K\\) 距離圓最近。\\(R\\) 位於正 \\(x\\) 軸。求 \\([RAH]:[RHK]\\)。",
+        "hint": "Equidistant. Foot of perpendicular is midpoint. Area ratio from heights.",
+        "hintZh": "等距。垂足是中點。面積比 = 高比。",
+        "solution": "(a) \\(A=(-1,4),r=10\\).\n(b)(i) Equating squared distances gives \\(4x+3y-83=0\\).\n(ii) The perpendicular foot is the midpoint \\(K=(11,13)\\), with \\(AK=15\\). The nearest circle point is \\(H=(7,10)\\), so \\(AH=10,HK=5\\). Both triangles have bases on \\(AK\\) and the same height from \\(R\\), hence \\(2:1\\).",
+        "solutionZh": "(a) \\(A=(−1,4),\\) \\(r=10\\)。\n\n(b)(i) \\(4x+3y−83=0\\)。\n\n(b)(ii) \\(K=(11,13)\\)，\\(AK=15\\)。比 2:1。",
+        "id": "import-locus-700281dae43996d9",
+        "subcategory": "diameter-circle",
+        "skill": "locus-thales",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "right-angle condition gives diameter circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 39,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "9af1b8a968feed587a95ccfd0076500f78b62f3768d6d4a07c47787640cabd7a",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-f0d21d4dcf1f24ea",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-40",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "0849689e0d045315d32812872d8129b13ffe3e65181ebd5b05ce26291f05ac7f",
+      "before": {
+        "stem": "\\(C:x^2+y^2+4x-6y-12=0\\) passes through \\(H=(-2,b)\\), \\(b>0\\), and has centre \\(G\\).\n(a) Find \\(b\\).\n(b) \\(Q=(-6,11)\\); \\(P\\) satisfies \\(PQ=PG\\), with locus \\(\\Gamma\\).\n(i) Find \\(\\Gamma\\) and show it passes through \\(H\\).\n(ii) \\(\\Gamma\\) meets \\(C\\) again at \\(K\\) and the \\(x\\)-axis at \\(R\\). Is \\(\\angle KGR>\\angle KRG\\)? Explain.",
+        "stemZh": "\\(C:x^2+y^2+4x-6y-12=0\\) 經過 \\(H=(-2,b)\\)，\\(b>0\\)，圓心為 \\(G\\)。\n(a) 求 \\(b\\)。\n(b) \\(Q=(-6,11)\\)；\\(P\\) 滿足 \\(PQ=PG\\)，軌跡為 \\(\\Gamma\\)。\n(i) 求 \\(\\Gamma\\) 並證明它經過 \\(H\\)。\n(ii) \\(\\Gamma\\) 與 \\(C\\) 的另一交點為 \\(K\\)，與 \\(x\\) 軸交於 \\(R\\)。\\(\\angle KGR\\) 是否大於 \\(\\angle KRG\\)？解釋。",
+        "hint": "Quadratic for b. Equal distances. Larger side opposite larger angle.",
+        "hintZh": "b 二次方程。等距。大邊對大角。",
+        "solution": "(a) \\(b^2-6b-16=0\\), so \\(b=8\\) (reject \\(-2\\)).\n(b)(i) \\(G=(-2,3)\\). Equal distances give \\(x-2y+18=0\\), and \\(-2-2(8)+18=0\\).\n(ii) Substitution in the circle gives \\(K=(-6,6)\\); \\(R=(-18,0)\\). \\(GK=5\\) while \\(KR=\\sqrt{12^2+6^2}=6\\sqrt5>5\\). The larger side is opposite the larger angle, so agree.",
+        "solutionZh": "(a) \\(b=8\\)。\n\n(b)(i) \\(G=(−2,3)\\)，\\(x−2y+18=0\\)。\n\n(b)(ii) \\(K=(−6,6),\\) \\(R=(−18,0)\\)。\\(GK=5,\\) \\(KR=6√5\\)，同意。",
+        "id": "import-locus-f0d21d4dcf1f24ea",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 40,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "608f99deff4af68f4a5e49356eaa87284a964b4c5c4f6d103c9d1d91a8855438",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-8f32bdde0298e95f",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-41",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "e517322f3d3a91aa2d4928c4520c216830b2f91cb25df7953b42cdd513599c02",
+      "before": {
+        "stem": "\\(C:x^2+y^2+6x-10y-15=0\\). \\(L:4x-3y+2=0\\) meets \\(C\\) at \\(A,B\\). \\(P\\) is equidistant from \\(A,B\\), with locus \\(\\Gamma\\).\n(a) Find \\(\\Gamma\\).\n(b) \\(\\Gamma\\) meets segment \\(AB\\) and the major arc \\(AB\\) at \\(D,E\\) respectively.\n(i) Find \\(D\\).\n(ii) With centre \\(G\\), find \\([GAB]:[EAB]\\).",
+        "stemZh": "\\(C:x^2+y^2+6x-10y-15=0\\)。\\(L:4x-3y+2=0\\) 與 \\(C\\) 交於 \\(A,B\\)。\\(P\\) 與 \\(A,B\\) 等距，軌跡為 \\(\\Gamma\\)。\n(a) 求 \\(\\Gamma\\)。\n(b) \\(\\Gamma\\) 分別與線段 \\(AB\\)、優弧 \\(AB\\) 交於 \\(D,E\\)。\n(i) 求 \\(D\\)。\n(ii) 設圓心為 \\(G\\)，求 \\([GAB]:[EAB]\\)。",
+        "hint": "Chord bisector through G. Major arc point opposite D. Height ratio.",
+        "hintZh": "弦平分線過 G。大弧點在 G 對面。高比。",
+        "solution": "(a) \\(G=(-3,5),r=7\\). The perpendicular bisector of the chord passes through \\(G\\) and has slope \\(-3/4\\). Hence \\(\\Gamma:3x+4y-11=0\\).\n(b)(i) Solving with \\(L\\) gives \\(D=(1,2)\\).\n(ii) \\(GD=5\\) and the major-arc point is opposite \\(D\\) across \\(G\\), so \\(ED=EG+GD=7+5=12\\). With common base \\(AB\\), the ratio is \\(5:12\\).",
+        "solutionZh": "(a) \\(G=(−3,5),\\) \\(r=7\\)，\\(3x+4y−11=0\\)。\n\n(b)(i) \\(D=(1,2)\\)。\n\n(b)(ii) \\(ED=12\\)，比 5:12。",
+        "id": "import-locus-8f32bdde0298e95f",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 41,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "e8eb44fb9beae22ab68f48c134fbf12a9ef692e0407a96fedcf96dd96d042a7c",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-f79a688053d14f71",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-46",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "99f048094dd808d1ab3c464a2e49deb05d03a50f9f3bdc7a8c8d66b67e386e50",
+      "before": {
+        "stem": "14. The equations of the straight lines \\(L_1\\) and \\(L_2\\) are\n\\[\n3x+2y-5=0\n\\]and\n\\[\n3x+2y+7=0\n\\]respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L_1\\) is equal to the perpendicular distance from \\(P\\) to \\(L_2\\). Denote the locus of \\(P\\) by \\(\\Gamma\\).\n(a) Find the equation of \\(\\Gamma\\).\n(b) The coordinates of the point \\(Q\\) are \\((9,12)\\). Let \\(R\\) be a point lying on \\(\\Gamma\\) such that \\(QR\\) is the shortest distance from \\(Q\\) to \\(\\Gamma\\).\n(i) Find the coordinates of \\(R\\).\n(ii) The equation of the circle \\(C\\) is\n\\[\nx^2+y^2-2x+4y-164=0.\n\\]Let \\(G\\) be the centre of \\(C\\). It is given that the straight line \\(QR\\) cuts \\(C\\) at the points \\(W\\) and \\(S\\), while \\(\\Gamma\\) cuts \\(C\\) at the points \\(T\\) and \\(U\\). Someone claims that the ratio of the area of \\(\\triangle WTU\\) to that of \\(\\triangle GRS\\) is \\(7:2\\). Is the claim correct? Explain your answer.\n(9 marks)",
+        "stemZh": "14. \\(L_1:3x+2y-5=0\\)、\\(L_2:3x+2y+7=0\\)。動點 \\(P\\) 到兩線的垂直距離相等，軌跡為 \\(\\Gamma\\)。\n(a) 求 \\(\\Gamma\\) 方程。\n(b) \\(Q=(9,12)\\)，\\(R\\) 為 \\(\\Gamma\\) 上與 \\(Q\\) 最近的點。\n(i) 求 \\(R\\) 坐標。\n(ii) 圓 \\(C:x^2+y^2-2x+4y-164=0\\) 的圓心為 \\(G\\)。直線 \\(QR\\) 與圓交於 \\(W,S\\)，\\(\\Gamma\\) 與圓交於 \\(T,U\\)。有人聲稱 \\([WTU]:[GRS]=7:2\\)。聲稱是否正確？解釋。（9 分）",
+        "hint": "Middle parallel. Perpendicular foot. Compare areas.",
+        "hintZh": "中間平行。垂直垂足。比較面積。",
+        "solution": "(a) The midline is 3x+2y+1=0.\n(b)(i) The perpendicular through Q has equation 2x-3y+18=0; the foot is R=(-3,4).\n(ii) G=(1,-2), radius 13, and TU=26. GR=2sqrt13 and RS=RW=3sqrt13. Thus [WTU]=39sqrt13 and [GRS]=39. The ratio sqrt13:1 is not 7:2.",
+        "solutionZh": "(a) \\(3x+2y+1=0\\)。\n\n(b)(i) \\(R=(−3,4)\\)。\n\n(b)(ii) 比 \\(√13:1≠7:2\\)。",
+        "id": "import-locus-f79a688053d14f71",
+        "subcategory": "diameter-circle",
+        "skill": "locus-thales",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "right-angle condition gives diameter circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 46,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "6fb56ff6cab3c89a44cc30d2682568ca529c3754ca36fb063a9580a1bbe467b0",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML",
+        "Complete English subparts and mathematical notation"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-880948b151a9bfe4",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-47",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "74f879c7bb688be7669450d4d74e00f09b51aa57bd11c17b03ce105407e982b7",
+      "before": {
+        "stem": "Lines \\(L_1,L_2\\) intersect perpendicularly at \\(M\\). \\(P\\) is equidistant from the two lines.\n(a) Sketch and describe its locus.\n(b) \\(N\\) lies on this locus and \\(MN=5\\) cm. Find its distance from \\(L_1\\), to 3 significant figures.",
+        "stemZh": "直線 \\(L_1,L_2\\) 在 \\(M\\) 垂直相交。動點 \\(P\\) 與兩線等距。\n(a) 畫出並描述其軌跡。\n(b) \\(N\\) 位於此軌跡上，且 \\(MN=5\\) cm。求 \\(N\\) 到 \\(L_1\\) 的距離，取 3 位有效數字。",
+        "hint": "Angle bisectors at 45°. Distance = 5 sin45°.",
+        "hintZh": "45° 角平分線。距離 = 5 sin45°。",
+        "solution": "(a) The two perpendicular angle bisectors through \\(M\\), each at \\(45^\\circ\\) to either line.\n(b) The distance is \\(5\\sin45^\\circ=5/\\sqrt2\\approx3.54\\) cm.",
+        "solutionZh": "(a) 兩條垂直角平分線。\n\n(b) \\(5/√2≈3.54\\)。",
+        "id": "import-locus-880948b151a9bfe4",
+        "subcategory": "equal-lines",
+        "skill": "locus-angle-bisectors",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equal perpendicular distances to two lines",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 47,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "358e0998ea36ab124cca5dd80630330efe2c767b642dc8c1f344eec25a41c853",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-2f91c1ca86ebd9eb",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-48",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "103ab529fd5223025bd63fbf5fbfce52c217e5d6fa9e185ba00e454b2e515c8c",
+      "before": {
+        "stem": "\\(L:\\sqrt3x-y-2=0\\). \\(P\\) is equidistant from \\(L\\) and the \\(x\\)-axis.\n(a) Describe the geometric relation between its locus and the two lines.\n(b) Find both equations in surd form.",
+        "stemZh": "\\(L:\\sqrt3x-y-2=0\\)。動點 \\(P\\) 與 \\(L\\) 及 \\(x\\) 軸等距。\n(a) 描述軌跡與兩直線的幾何關係。\n(b) 求兩條方程，保留根式。",
+        "hint": "Equate distances to two lines, remove absolute value with ±.",
+        "hintZh": "等距兩線，去絕對值用 ±。",
+        "solution": "(a) The locus is the pair of angle bisectors.\n(b) \\(|\\sqrt3x-y-2|/2=|y|\\), hence \\(\\sqrt3x-y-2=\\pm2y\\). The equations are \\(\\sqrt3x-3y-2=0\\) and \\(\\sqrt3x+y-2=0\\).",
+        "solutionZh": "(a) 兩條角平分線。\n\n(b) \\(√3x−3y−2=0\\) 和 \\(√3x+y−2=0\\)。",
+        "id": "import-locus-2f91c1ca86ebd9eb",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 48,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "d7ae850a09ef91cfe680bedb51a5dd9f2406bdd416c710dd3a6143370822f00f",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-7695a17086ea2e08",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-49",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "ccca49cd21610e5e7592af0f19fff4e3266e5fff5ffef53679cb8624b6ee0db1",
+      "before": {
+        "stem": "\\(L:3x-\\sqrt3y-2=0\\). \\(P\\) is equidistant from \\(L\\) and the \\(x\\)-axis.\n(a) Describe the geometric relation between its locus and the two lines.\n(b) Find both equations in surd form.",
+        "stemZh": "\\(L:3x-\\sqrt3y-2=0\\)。\\(P\\) 與 \\(L\\) 及 \\(x\\) 軸等距。\n(a) 描述軌跡與兩直線的幾何關係。\n(b) 求兩條方程，保留根式。",
+        "hint": "Same: equate distances, ± sign.",
+        "hintZh": "同上，等距去絕對值。",
+        "solution": "(a) The two angle bisectors.\n(b) \\(|3x-\\sqrt3y-2|/(2\\sqrt3)=|y|\\). Thus \\(3x-3\\sqrt3y-2=0\\) or \\(3x+\\sqrt3y-2=0\\). Both pass through \\((2/3,0)\\). The supplied answer key has incorrect constants.",
+        "solutionZh": "(a) 兩條角平分線。\n\n(b) \\(3x−3√3\\) \\(y−2=0\\) 或 \\(3x+√3\\) \\(y−2=0\\)。",
+        "id": "import-locus-7695a17086ea2e08",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 49,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "4d25441c2eba88470524e3955c7d145a9fa6196a788fad3d3eff75685d71a993",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-c3a3780d156e23e5",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-50",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "f2ddfe374b7b0202f7c4abd9f590f00aeadf4c3d52da123e9962e5c7f6961e59",
+      "before": {
+        "stem": "\\(L_1:x-2y+10=0\\) and \\(L_2:x-2y-2=0\\). \\(P\\) is equidistant from them; call its locus \\(\\Gamma\\).\n(a) Find \\(\\Gamma\\).\n(b) \\(\\Gamma\\) meets the \\(y\\)-axis at \\(A\\) and \\(L_2\\) meets the \\(x\\)-axis at \\(B\\). Find the least area, in terms of \\(\\pi\\), of a circle through \\(A,B\\).",
+        "stemZh": "\\(L_1:x-2y+10=0\\)、\\(L_2:x-2y-2=0\\)。\\(P\\) 與兩線等距，軌跡為 \\(\\Gamma\\)。\n(a) 求 \\(\\Gamma\\) 方程。\n(b) \\(\\Gamma\\) 與 \\(y\\) 軸交於 \\(A\\)，\\(L_2\\) 與 \\(x\\) 軸交於 \\(B\\)。求經過 \\(A,B\\) 的圓的最小面積，以 \\(\\pi\\) 表示。",
+        "hint": "Middle parallel. Smallest circle through A,B has AB as diameter.",
+        "hintZh": "中間平行。最小圓以 AB 為直徑。",
+        "solution": "(a) The middle parallel is \\(x-2y+4=0\\).\n(b) \\(A=(0,2),B=(2,0)\\) and \\(AB^2=8\\). The minimum radius is \\(AB/2\\), attained when \\(AB\\) is a diameter. Hence the least area is \\(2\\pi\\).",
+        "solutionZh": "(a) \\(x−2y+4=0\\)。\n\n(b) 最小面積 \\(2π\\)。",
+        "id": "import-locus-c3a3780d156e23e5",
+        "subcategory": "equal-lines",
+        "skill": "locus-parallel-midline",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equal perpendicular distances to two lines",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 50,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "59ebeccb4acde290aa14314fa1a9fcd31842c386dfc058b63169c8e9b8c75d97",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-09865ee44e741b25",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-51",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "7f1ae3a2b2582cb01817faa69e94c380c2186591137119a9b26544f8b51fc1e5",
+      "before": {
+        "stem": "\\(A=(1,-3)\\) is reflected in the \\(x\\)-axis to \\(A'\\), then \\(A'\\) in the \\(y\\)-axis to \\(A''\\).\n(a) Find \\(A',A''\\).\n(b) Prove \\(A,O,A''\\) are collinear.\n(c) \\(L_1\\) passes through \\(O,A'\\) and \\(L_2\\) is \\(AOA''\\). Find the locus of \\(P\\) equidistant from \\(L_1,L_2\\).",
+        "stemZh": "\\(A=(1,-3)\\) 關於 \\(x\\) 軸反射得 \\(A'\\)，再把 \\(A'\\) 關於 \\(y\\) 軸反射得 \\(A''\\)。\n(a) 求 \\(A',A''\\)。\n(b) 證明 \\(A,O,A''\\) 共線。\n(c) \\(L_1\\) 經過 \\(O,A'\\)，\\(L_2\\) 為 \\(AOA''\\)。求與 \\(L_1,L_2\\) 等距的 \\(P\\) 軌跡。",
+        "hint": "Reflection. Collinearity check. Equal distance → axes.",
+        "hintZh": "反射。共線檢查。等距 → 坐標軸。",
+        "solution": "(a) \\(A'=(1,3),A''=(-1,3)\\).\n(b) Both \\(A,A''\\) satisfy \\(y=-3x\\), which passes through \\(O\\).\n(c) \\(L_1:3x-y=0,L_2:3x+y=0\\). Their distance denominators are \\(\\sqrt{10}\\). \\(|3x-y|=|3x+y|\\) gives \\(y=0\\) or \\(x=0\\).",
+        "solutionZh": "(a) \\(A'=(1,3),\\) \\(A''=(−1,3)\\)。\n\n(b) 共線 \\(y=−3x\\)。\n\n(c) \\(y=0\\) 或 \\(x=0\\)。",
+        "id": "import-locus-09865ee44e741b25",
+        "subcategory": "transformed-loci",
+        "skill": "locus-transform",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "coordinate transformation before substitution",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 51,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "567aafafe164d2d4be08251528ccbaf66dec276b2894bb49f5952eb3f46819a3",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-4a1169b69734bdb0",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-52",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "f19e5751ce6e675c93f50be459df41416ae56a0719249a94d9cb7e6681307a30",
+      "before": {
+        "stem": "\\(l_1:y=3x+5\\). \\(l_2\\) is parallel to \\(l_1\\) with \\(y\\)-intercept \\(15\\). \\(P\\) is equidistant from the two lines; call its locus \\(\\Gamma\\).\n(a) Describe the relation between \\(\\Gamma,l_1\\).\n(b) State the \\(y\\)-intercept of \\(\\Gamma\\) and its equation.\n(c) \\(Q\\) on \\(\\Gamma\\) is closest to the origin. Find \\(Q\\).",
+        "stemZh": "\\(l_1:y=3x+5\\)。\\(l_2\\) 與 \\(l_1\\) 平行，\\(y\\) 截距為 \\(15\\)。\\(P\\) 與兩線等距，軌跡為 \\(\\Gamma\\)。\n(a) 描述 \\(\\Gamma,l_1\\) 的關係。\n(b) 寫出 \\(\\Gamma\\) 的 \\(y\\) 截距及方程。\n(c) \\(Q\\) 是 \\(\\Gamma\\) 上距離原點最近的點。求 \\(Q\\)。",
+        "hint": "Middle parallel line. Perpendicular from O.",
+        "hintZh": "中間平行線。O 的垂線。",
+        "solution": "(a) They are parallel; \\(\\Gamma\\) is the middle parallel.\n(b) The intercept is \\(10\\), so \\(y=3x+10\\).\n(c) The perpendicular from \\(O\\) has equation \\(y=-x/3\\). Solving gives \\(Q=(-3,1)\\).",
+        "solutionZh": "(a) 中間平行線。\n\n(b) \\(y=3x+10\\)。\n\n(c) \\(Q=(−3,1)\\)。",
+        "id": "import-locus-4a1169b69734bdb0",
+        "subcategory": "equal-lines",
+        "skill": "locus-parallel-midline",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equal perpendicular distances to two lines",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 52,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "21b2f6f29662de105fed4246123a04a15f5e9dfab42965faad007aa60d0ea762",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-ed7ad0e146931436",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-54",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "11cdf8c41841c5e6bfa96f26f59d13ff3a677ce82e2e16203a76ec3dcbf6a4ff",
+      "before": {
+        "stem": "The straight lines \\(L_1: 3x+4y-20=0\\) and \\(L_2: 3x+4y+10=0\\) are parallel. \\(P\\) is a moving point equidistant from \\(L_1\\) and \\(L_2\\). Denote the locus of \\(P\\) by \\(\\Gamma\\).\n(a) Find the equation of \\(\\Gamma\\).\n(b) The circle \\(C\\) has equation \\(x^2+y^2-6x-8y+9=0\\).\n(i) Find the centre \\(G\\) and radius \\(r\\) of \\(C\\).\n(ii) Show that \\(\\Gamma\\) is tangent to \\(C\\) and find the point of tangency.",
+        "stemZh": "\\(L_1:3x+4y-20=0,L_2:3x+4y+10=0\\)。\\(P\\) 與兩線等距，軌跡為 \\(\\Gamma\\)。\n(a) 求 \\(\\Gamma\\)。\n(b) \\(C:x^2+y^2-6x-8y+9=0\\)。(i) 求圓心 \\(G\\) 及半徑。(ii) 證明 \\(\\Gamma\\) 與圓相切，並求切點。",
+        "hint": "Distance = radius → tangent. Foot of perpendicular is tangency point.",
+        "hintZh": "距離 = 半徑 → 相切。垂足即切點。",
+        "solution": "(a) \\(\\Gamma:3x+4y-5=0\\).\n(b)(i) \\(G=(3,4),r=4\\).\n(ii) The centre-line distance is \\(|9+16-5|/5=4\\), equal to the radius. The perpendicular foot is \\(G-(20/25)(3,4)=(3/5,4/5)\\), the tangency point.",
+        "solutionZh": "(a) \\(3x+4y−5=0\\)。\n\n(b)(i) \\(G=(3,4),\\) \\(r=4\\)。\n\n(b)(ii) 距離 \\(=\\) 半徑，相切。",
+        "id": "import-locus-ed7ad0e146931436",
+        "subcategory": "diameter-circle",
+        "skill": "locus-thales",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "right-angle condition gives diameter circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 54,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "e90c00de763522dc9caaafcb23d3f3b0df567b5b4bbbf475d08d7ea58d9d4c62",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-99d0ab58f4138227",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-55",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "4ab3dce95ade54f78495aedfc2e74bd069c66a2d301149e958a74970a30273a1",
+      "before": {
+        "stem": "The straight lines \\(L_1: x+y-8=0\\) and \\(L_2: x-y=0\\) intersect at point \\(A\\).\n(a) Find the coordinates of \\(A\\).\n(b) \\(P\\) is a moving point equidistant from \\(L_1\\) and \\(L_2\\). The locus of \\(P\\) consists of two straight lines \\(\\Gamma_1\\) and \\(\\Gamma_2\\). Find their equations.\n(c) The circle \\(C\\) has equation \\(x^2+y^2-6x-8y+k=0\\), where \\(k\\) is a constant.\n(i) Find the centre \\(G\\) and radius \\(r\\) of \\(C\\) in terms of \\(k\\), and state the condition on \\(k\\).\n(ii) It is given that \\(G\\) lies on \\(\\Gamma_1\\). If \\(C\\) is tangent to \\(\\Gamma_2\\), find \\(k\\).",
+        "stemZh": "\\(L_1:x+y-8=0,L_2:x-y=0\\)，交於 \\(A\\)。\n(a) 求 \\(A\\)。\n(b) \\(P\\) 與兩線等距，軌跡為 \\(\\Gamma_1,\\Gamma_2\\)。求其方程。\n(c) \\(C:x^2+y^2-6x-8y+k=0\\)。(i) 以 \\(k\\) 表示圓心和半徑，並寫出 \\(k\\) 的條件。(ii) 圓心在 \\(\\Gamma_1\\) 上；若圓與 \\(\\Gamma_2\\) 相切，求 \\(k\\)。",
+        "hint": "Equate distances, absolute value gives two lines.",
+        "hintZh": "等距，絕對值得兩線。",
+        "solution": "(a) \\(A=(4,4)\\).\n(b) \\(|x+y-8|=|x-y|\\) gives \\(y=4\\) or \\(x=4\\).\n(c)(i) \\(G=(3,4),r=\\sqrt{25-k}\\) and \\(k<25\\) for a non-degenerate real circle.\n(ii) Label \\(\\Gamma_1:y=4\\), \\(\\Gamma_2:x=4\\). The distance to \\(\\Gamma_2\\) is \\(1\\), so \\(25-k=1\\), giving \\(k=24\\).",
+        "solutionZh": "(a) \\(A=(4,4)\\)。\n\n(b) \\(y=4\\) 或 \\(x=4\\)。\n\n(c)(i) \\(G=(3,4)\\)。",
+        "id": "import-locus-99d0ab58f4138227",
+        "subcategory": "equal-lines",
+        "skill": "locus-angle-bisectors",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equal perpendicular distances to two lines",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 55,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "65f847d8b789a37a6bf6c2f58f05f3547dc1cdf4bd73122395bf54db1a2eb670",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-0132a3d48c27c634",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-60",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "b29874d1a8eb9d2726d63b63e6c19b3d3c91cbd28cd02c647a742256f9ada346",
+      "before": {
+        "stem": "Rotate \\(A=(-1,-3)\\) anticlockwise by \\(90^\\circ\\) about the origin to \\(A'\\). Reflect \\(B=(-9,-1)\\) in the \\(y\\)-axis to \\(B'\\). \\(P\\) satisfies \\(A'P\\perp B'P\\).\n(a) Find \\(A',B'\\).\n(b) Find the locus of \\(P\\).\n(c) Find the circumcentre of \\(A'PB'\\).\n(d) \\(Q\\) is its centroid. Find the locus of \\(Q\\).",
+        "stemZh": "把 \\(A=(-1,-3)\\) 繞原點逆時針旋轉 \\(90^\\circ\\) 得 \\(A'\\)；把 \\(B=(-9,-1)\\) 關於 \\(y\\) 軸反射得 \\(B'\\)。\\(P\\) 滿足 \\(A'P\\perp B'P\\)。\n(a) 求 \\(A',B'\\)。\n(b) 求 \\(P\\) 的軌跡。\n(c) 求三角形 \\(A'PB'\\) 的外心。\n(d) \\(Q\\) 為該三角形重心。求 \\(Q\\) 的軌跡。",
+        "hint": "Diameter circle. Coordinate transformation u=3x-12.",
+        "hintZh": "直徑圓。坐標變換 u=3x-12。",
+        "solution": "(a) \\(A'=(3,-1),B'=(9,-1)\\).\n(b) The diameter-circle is \\((u-6)^2+(v+1)^2=9\\), or \\(u^2+v^2-12u+2v+28=0\\), excluding the two endpoints.\n(c) The circumcentre is the midpoint of the hypotenuse, \\((6,-1)\\).\n(d) If \\(Q=(x,y)\\), then \\(u=3x-12,v=3y+2\\). Substitution gives \\((x-6)^2+(y+1)^2=1\\). Exclude \\((5,-1),(7,-1)\\), the images of the forbidden endpoints.",
+        "solutionZh": "(a) \\(A'=(3,−1),\\) \\(B'=(9,−1)\\)。\n\n(b) \\((u−6)²+(v+1)²=9\\)。\n\n(c) 外心 (6,−1)。\n\n(d) \\((x−6)²+(y+1)²=1\\)。",
+        "id": "import-locus-0132a3d48c27c634",
+        "subcategory": "transformed-loci",
+        "skill": "locus-transform",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "coordinate transformation before substitution",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L5"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 60,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "3d2f88f54c402aee882747605a137c015a00eb2ca2a97905d86edb3eab7ae290",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-ee8b0fd604fa475b",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-61",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "c254da073a184df6749d2388ac358d61b3ad95b22ec50ff6f96a5e2080cff386",
+      "before": {
+        "stem": "\\(A=(1,3),B=(9,15)\\) and \\(P\\) satisfies \\(PA\\perp PB\\).\n(a) Find the locus of \\(P\\).\n(b) \\(L\\) passes through \\(P\\) and the midpoint of \\(AB\\) when \\([PAB]\\) is greatest.\n(i) Find \\(L\\).\n(ii) A student claims \\((-1,13)\\) is another intersection of \\(L\\) and the locus. Do you agree? Explain.",
+        "stemZh": "\\(A=(1,3),B=(9,15)\\)，\\(P\\) 滿足 \\(PA\\perp PB\\)。\n(a) 求 \\(P\\) 軌跡。\n(b) 當 \\([PAB]\\) 最大時，\\(L\\) 經過 \\(P\\) 及 \\(AB\\) 中點。\n(i) 求 \\(L\\)。\n(ii) 有學生聲稱 \\((-1,13)\\) 是 \\(L\\) 與軌跡的另一交點。你是否同意？解釋。",
+        "hint": "Diameter circle. Perpendicular direction to AB.",
+        "hintZh": "直徑圓。垂直 AB 方向。",
+        "solution": "(a) The diameter-circle is \\((x-5)^2+(y-9)^2=52\\), excluding \\(A,B\\).\n(b)(i) Greatest height occurs in the perpendicular direction to \\(AB\\), whose slope is \\(3/2\\). Thus \\(L:y-9=-2(x-5)/3\\), or \\(2x+3y-37=0\\).\n(ii) Agree: \\((-1,13)\\) satisfies the line and \\((-1-5)^2+(13-9)^2=52\\). The other intersection is \\((11,5)\\).",
+        "solutionZh": "(a) \\((x−5)²+(y−9)²=52\\)。\n\n(b)(i) \\(2x+3y−37=0\\)。\n\n(b)(ii) 同意。",
+        "id": "import-locus-ee8b0fd604fa475b",
+        "subcategory": "diameter-circle",
+        "skill": "locus-thales",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "right-angle condition gives diameter circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L5"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 61,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "89cb9f002e68c06bea5202a634af96e0ab06d0e33fd2c08d332a7343dfe4eccb",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-8b82833d2f9033aa",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-63",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "493a5390b6ee25a3ad815615e65f8eb7624755bf525a159fc52c6fe809e55015",
+      "before": {
+        "stem": "The coordinates of \\(A\\) and \\(B\\) are \\((-3,0)\\) and \\((3,0)\\) respectively. \\(P\\) is a moving point such that \\(\\angle APB=90°\\).\n(a) Find the equation of the locus \\(\\Gamma\\) of \\(P\\).\n(b) The straight line \\(L: y=kx+6\\) is tangent to \\(\\Gamma\\). Find the values of \\(k\\).",
+        "stemZh": "\\(A=(-3,0),B=(3,0)\\)，\\(P\\) 滿足 \\(\\angle APB=90^\\circ\\)。\n(a) 求軌跡 \\(\\Gamma\\)。\n(b) \\(L:y=kx+6\\) 與 \\(\\Gamma\\) 相切。求 \\(k\\)。",
+        "hint": "Circle radius 3. Tangent distance = radius.",
+        "hintZh": "半徑 3。切線距離 = 半徑。",
+        "solution": "(a) \\(x^2+y^2=9\\), excluding \\(A,B\\).\n(b) The distance from \\((0,0)\\) to \\(kx-y+6=0\\) is \\(6/\\sqrt{k^2+1}=3\\). Thus \\(k^2=3\\), so \\(k=\\pm\\sqrt3\\).",
+        "solutionZh": "(a) \\(x²+y²=9\\)。\n\n(b) \\(k=±√3\\)。",
+        "id": "import-locus-8b82833d2f9033aa",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-line-circle",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "substitute locus into another line or circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L5"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 63,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "ab1b35a734b1a039148da9c03a5f2a08682373a09f3f47faa9d6fdae8d8b8ecb",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-4383a7bf838c6e75",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-64",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "391b9be3d8c86028361fac947ba0de7b4dbec144c611b5cccedb78ddd97bd9be",
+      "before": {
+        "stem": "The coordinates of \\(A\\) and \\(B\\) are \\((0,4)\\) and \\((4,0)\\) respectively. \\(P\\) is a moving point such that \\(AP\\perp PB\\). The locus of \\(P\\) lies on a circle \\(\\Gamma\\) with centre \\(G\\).\n(a) Find the equation of \\(\\Gamma\\) and state \\(G\\) and the radius \\(r\\).\n(b) Let \\(C=(2,6)\\).\n(i) Determine whether \\(C\\) is inside or outside \\(\\Gamma\\). Explain your answer.\n(ii) Find the length of the tangent drawn from \\(C\\) to \\(\\Gamma\\).\n(c) Find the coordinates of the point on \\(\\Gamma\\) nearest to \\(C\\).",
+        "stemZh": "\\(A=(0,4),B=(4,0)\\)。\\(P\\) 滿足 \\(AP\\perp PB\\)；軌跡位於圓 \\(\\Gamma\\) 上，圓心為 \\(G\\)。\n(a) 求圓方程、\\(G\\) 和半徑。\n(b) \\(C=(2,6)\\)。(i) 判斷 \\(C\\) 在圓內或圓外。(ii) 求從 \\(C\\) 作切線的長度。\n(c) 求圓上距離 \\(C\\) 最近的點。",
+        "hint": "Outside if GC > r. Tangent length. Nearest point on ray GC.",
+        "hintZh": "GC>r 在圓外。切線長。GC 射線上最近點。",
+        "solution": "(a) \\((x-2)^2+(y-2)^2=8\\), \\(G=(2,2),r=2\\sqrt2\\); the original locus excludes \\(A,B\\).\n(b)(i) \\(GC=4>2\\sqrt2\\), so outside.\n(ii) The tangent length is \\(\\sqrt{16-8}=2\\sqrt2\\).\n(c) The nearest point is \\((2,2+2\\sqrt2)\\) on the ray \\(GC\\).",
+        "solutionZh": "(a) \\((x−2)²+(y−2)²=8\\)。\n\n(b)(i) 外。\n\n(b)(ii) \\(2√2\\)。\n\n(c) \\((2,2+2√2)\\)。",
+        "id": "import-locus-4383a7bf838c6e75",
+        "subcategory": "diameter-circle",
+        "skill": "locus-thales",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "right-angle condition gives diameter circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L5"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 64,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "a3b085dacdb0627a413c9f0eac61cc5b20cb714f19ae36db4e2a5a9e2e994380",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-f5063cb3b3b65e57",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-65",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "a2a185a8f099c83cccb8f52e776fc3fba19efe5022487b0a84627b60155c11be",
+      "before": {
+        "stem": "\\(P\\) lies on \\(u^2+v^2=1\\). \\(Q=(x,y)\\) is the midpoint of \\(R=(1,1)\\) and \\(P\\).\n(a) Express \\(P\\) in terms of \\(x,y\\).\n(b) Find the locus of \\(Q\\).",
+        "stemZh": "\\(P\\) 位於 \\(u^2+v^2=1\\) 上。\\(Q=(x,y)\\) 是 \\(R=(1,1)\\) 與 \\(P\\) 的中點。\n(a) 以 \\(x,y\\) 表示 \\(P\\) 的坐標。\n(b) 求 \\(Q\\) 的軌跡方程。",
+        "hint": "Midpoint substitution. Substitute and complete square.",
+        "hintZh": "中點代入。配方。",
+        "solution": "(a) By the midpoint formula, \\(P=(2x-1,2y-1)\\).\n(b) Substitution gives \\((2x-1)^2+(2y-1)^2=1\\), hence \\(4x^2+4y^2-4x-4y+1=0\\). Its centre is \\((1/2,1/2)\\) and radius is \\(1/2\\).",
+        "solutionZh": "(a) \\(P=(2x−1,2y−1)\\)。\n\n(b) 圓心 \\((1/2,1/2)\\)，半徑 \\(1/2\\)。",
+        "id": "import-locus-f5063cb3b3b65e57",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 65,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "629902079b5915b25942ec49d0477b1b3e6b0f11c200383aa687ecdb32da1880",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-f369073bf2bce1f3",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-66",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "4979985e03fa5b97073b388893308959144e975f518112d7306c275caee92ee6",
+      "before": {
+        "stem": "\\(A=(a,0)\\) and \\(B=(0,b)\\) move on the coordinate axes with \\(AB=4\\). \\(P=(x,y)\\) is their midpoint.\n(a) Express \\(a,b\\) in terms of \\(x,y\\).\n(b) Find the locus of \\(P\\).",
+        "stemZh": "\\(A=(a,0)\\)、\\(B=(0,b)\\) 分別在坐標軸上移動，且 \\(AB=4\\)。\\(P=(x,y)\\) 是 \\(AB\\) 中點。\n(a) 以 \\(x,y\\) 表示 \\(a,b\\)。\n(b) 求 \\(P\\) 的軌跡方程。",
+        "hint": "Scale coordinates. No sign restriction → full circle.",
+        "hintZh": "坐標倍數。無符號限制 → 全圓。",
+        "solution": "(a) \\(a=2x,b=2y\\).\n(b) \\(a^2+b^2=16\\), so \\(4x^2+4y^2=16\\) and \\(x^2+y^2=4\\). No sign restriction is given on \\(a,b\\), so retain the complete circle.",
+        "solutionZh": "(a) \\(a=2x,\\) \\(b=2y\\)。\n\n(b) \\(x²+y²=4\\)。",
+        "id": "import-locus-f369073bf2bce1f3",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 66,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "254fac66cd4edfbc682ac644284aef9c0aba9d5bda3469cd1b32af7ba301cde8",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-77eb0facf771be22",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-67",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "23af238f43103f8099a3927c268625028e476362b8c51fc2e8352d1b76030e19",
+      "before": {
+        "stem": "\\(P\\) moves on \\(v=-u^2+2u+6\\). \\(R=(1,3)\\) lies on segment \\(PQ\\) with \\(PR:RQ=1:2\\); \\(Q=(x,y)\\).\n(a) Express \\(P\\) in terms of \\(x,y\\).\n(b) Find the locus of \\(Q\\).",
+        "stemZh": "\\(P\\) 在曲線 \\(v=-u^2+2u+6\\) 上移動。\\(R=(1,3)\\) 位於線段 \\(PQ\\) 上，且 \\(PR:RQ=1:2\\)；\\(Q=(x,y)\\)。\n(a) 以 \\(x,y\\) 表示 \\(P\\) 的坐標。\n(b) 求 \\(Q\\) 的軌跡方程。",
+        "hint": "Internal division formula 3R=2P+Q.",
+        "hintZh": "內分點 3R=2P+Q。",
+        "solution": "(a) The internal division formula gives \\(3R=2P+Q\\), so \\(P=((3-x)/2,(9-y)/2)\\).\n(b) Substitute into the original curve: \\((9-y)/2=-(3-x)^2/4+(3-x)+6\\). Simplifying gives \\(y=x^2/2-x-9/2\\).",
+        "solutionZh": "(a) \\(P=((3−x)/2,(9−y)/2)\\)。\n\n(b) \\(y=x²/2−x−9/2\\)。",
+        "id": "import-locus-77eb0facf771be22",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 67,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "3dc99f2f44a9dcaeeb59388c9782fc4921806b7d1c012d7092702b0a2ee96b87",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-ecb62b01ecb226d0",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-70",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "669122c0acbd721a01892278dfd22ca079344663456225fec8e48c35d574e622",
+      "before": {
+        "stem": "Circle \\(C_1\\) has equation \\(x^2+y^2=16\\). \\(O\\) is the origin and \\(A=(6,0)\\). \\(P\\) is a moving point on \\(C_1\\), and \\(M\\) is the midpoint of \\(AP\\).\n(a) Find the equation of the locus \\(\\Gamma\\) of \\(M\\).\n(b) \\(C_1\\) and \\(\\Gamma\\) intersect at points \\(X\\) and \\(Y\\). Find \\(XY\\).\n(c) Someone claims that \\(\\angle XAY>30°\\). Do you agree? Explain your answer.",
+        "stemZh": "\\(C_1:x^2+y^2=16\\)，\\(O\\) 為原點，\\(A=(6,0)\\)。\\(P\\) 在 \\(C_1\\) 上，\\(M\\) 是 \\(AP\\) 中點。\n(a) 求 \\(M\\) 軌跡 \\(\\Gamma\\)。\n(b) \\(C_1,\\Gamma\\) 交於 \\(X,Y\\)。求 \\(XY\\)。\n(c) \\(\\angle XAY\\) 是否大於 \\(30^\\circ\\)？解釋。",
+        "hint": "Midpoint transform. Subtract circle equations for radical axis.",
+        "hintZh": "中點變換。減圓方程找根軸。",
+        "solution": "(a) \\(P=(2x-6,2y)\\), so \\(\\Gamma:(x-3)^2+y^2=4\\).\n(b) Subtract the circle equations to obtain \\(x=7/2\\). Then \\(y=\\pm\\sqrt{15}/2\\), so \\(XY=\\sqrt{15}\\).\n(c) \\(\\angle XAY=2\\arctan(\\sqrt{15}/5)\\approx75.52^\\circ>30^\\circ\\). Agree.",
+        "solutionZh": "(a) \\((x−3)²+y²=4\\)。\n\n(b) \\(XY=√15\\)。\n\n(c) 同意。",
+        "id": "import-locus-ecb62b01ecb226d0",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-line-circle",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "substitute locus into another line or circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 70,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "f24dfdea99f447be0feff8055f2fdc5aa8714a3a3a205519be930cfaf2d48ba2",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-f93329de5deb45de",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-71",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "8d9aaf7a83c07204115f4ba8eb06543c887f9040748d87dece30b261302b12bc",
+      "before": {
+        "stem": "The coordinates of \\(A\\), \\(B\\) and \\(C\\) are \\((0,0)\\), \\((6,0)\\) and \\((9,0)\\) respectively. \\(P\\) is a moving point such that \\(\\angle APB=90°\\). \\(Q\\) is the midpoint of \\(PC\\).\n(a) Find the equation of the locus \\(\\Gamma_1\\) of \\(P\\).\n(b) Find the equation of the locus \\(\\Gamma_2\\) of \\(Q\\).\n(c) Find the coordinates of the point on \\(\\Gamma_2\\) nearest to \\(A\\).",
+        "stemZh": "\\(A=(0,0),B=(6,0),C=(9,0)\\)。\\(P\\) 滿足 \\(\\angle APB=90^\\circ\\)，\\(Q\\) 是 \\(PC\\) 中點。\n(a) 求 \\(P\\) 軌跡 \\(\\Gamma_1\\)。\n(b) 求 \\(Q\\) 軌跡 \\(\\Gamma_2\\)。\n(c) 求 \\(\\Gamma_2\\) 上距離 \\(A\\) 最近的點。",
+        "hint": "Coordinate transform. Excluded endpoints.",
+        "hintZh": "坐標變換。排除端點。",
+        "solution": "(a) \\((u-3)^2+v^2=9\\), excluding \\(A,B\\).\n(b) \\(u=2x-9,v=2y\\), hence \\((x-6)^2+y^2=9/4\\), excluding \\((9/2,0),(15/2,0)\\).\n(c) No nearest point exists on the actual locus: the closest point of the full circle, \\((9/2,0)\\), is excluded. The distance approaches \\(9/2\\) but never attains it. If the intended question means the full supporting circle, its nearest point is \\((9/2,0)\\).",
+        "solutionZh": "(a) \\((u−3)²+v²=9\\)。\n\n(b) \\((x−6)²+y²=9/4\\)。\n\n(c) \\((9/2,0)\\) 被排除。",
+        "id": "import-locus-f93329de5deb45de",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 71,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "410cd96f37b42a3087b4c940dfcae4d670975ffc9ae3c8023e974504d5578f58",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-dfa3d2d47a770e95",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-74",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "2b5038d34953fa2e4ad58c826bce23cba9eefd9a0bf15ed9f8ca25c5c0640d57",
+      "before": {
+        "stem": "14. Denote the origin by \\(O\\). \\(A\\) and \\(B\\) are points lying on two straight lines \\(y=mx\\) and \\(y=-mx\\) respectively. It is given that \\(AB\\) is a vertical line segment on the right side of the \\(y\\)-axis and its length is \\(2k\\), where \\(m\\) and \\(k\\) are positive constants.\n(a) Express the area of \\(\\triangle OAB\\) in terms of \\(m\\) and \\(k\\). (4 marks)\n(b) Suppose the length of \\(AB\\) is 6 units and the area of \\(\\triangle OAB\\) is 36 square units. Let \\(P\\) be a moving point on the same rectangular coordinate plane such that the area of \\(\\triangle PAB\\) is always equal to that of \\(\\triangle OAB\\). Denote the locus of \\(P\\) by \\(\\Gamma\\).\n(i) Describe the geometric relationship between \\(\\Gamma\\) and \\(AB\\). (1 mark)\n(ii) Find the equation(s) of \\(\\Gamma\\). (3 marks)",
+        "stemZh": "14. 原點為 \\(O\\)。\\(A,B\\) 分別在 \\(y=mx\\)、\\(y=-mx\\) 上，線段 \\(AB\\) 垂直且在 \\(y\\) 軸右方，長為 \\(2k\\)，其中 \\(m,k>0\\)。\n(a) 以 \\(m,k\\) 表示 \\([OAB]\\)。（4 分）\n(b) 已知 \\(AB=6\\)、\\([OAB]=36\\)。動點 \\(P\\) 滿足 \\([PAB]=[OAB]\\)，軌跡為 \\(\\Gamma\\)。\n(i) 描述 \\(\\Gamma\\) 與 \\(AB\\) 的關係；(ii) 求所有軌跡方程。（4 分）",
+        "hint": "Intercept triangle area. Fixed height → parallel lines.",
+        "hintZh": "截距三角形。固定高 → 平行線。",
+        "solution": "(a) The endpoints are (k/m,±k); area=k²/m.\n(b) k=3,m=1/4, baseline x=12. Fixed height 12 gives the parallel branches x=0 and x=24.",
+        "solutionZh": "(a) 面積 k²/m。\n\n(b) \\(x=0\\) 和 \\(x=24\\)。",
+        "id": "import-locus-dfa3d2d47a770e95",
+        "subcategory": "area-loci",
+        "skill": "locus-fixed-area",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed triangle area fixes distance from base",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L7"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 74,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "3d3d9f12985f9e04a86741f370860fa485e9bb69b0d78e05210fd4edbd861958",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML",
+        "Complete English subparts and mathematical notation"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-3bd2495982b966ab",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-76",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "e2f372eeb592af6a0fcfc126705d6a0796448fc892833f4d25460914c79b1256",
+      "before": {
+        "stem": "A circle has centre \\(O\\) and radius \\(5\\) cm.\n(a) Sketch the locus of the midpoints of all chords of length \\(8\\) cm.\n(b) State another condition giving the same locus.",
+        "stemZh": "一個圓的圓心為 \\(O\\)，半徑為 \\(5\\) cm。\n(a) 畫出所有長 \\(8\\) cm 的弦的中點軌跡。\n(b) 寫出另一個產生相同軌跡的條件。",
+        "hint": "Chord midpoint: OM² + half-chord² = r².",
+        "hintZh": "弦中點：OM² + 半弦² = r²。",
+        "solution": "(a) Let \\(M\\) be a chord midpoint. The perpendicular from \\(O\\) bisects the chord, so \\(OM=\\sqrt{5^2-4^2}=3\\) cm. The locus is the complete circle with centre \\(O\\) and radius \\(3\\) cm.\n(b) A moving point remains \\(3\\) cm from \\(O\\).",
+        "solutionZh": "(a) \\(OM=√(25−16)=3\\)。軌跡是以 O 為圓心、半徑 3 的圓。\n\n(b) 到 O 恆 3 cm。",
+        "id": "import-locus-3bd2495982b966ab",
+        "subcategory": "transformed-loci",
+        "skill": "locus-moving-centre",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "express moving derived point coordinates",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L7"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 76,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "525d165ef1540bcc61a4d25984249404e0a0d4701425444ae302bbc93418fc65",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-adda39f4b68a4d06",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-77",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "dabcb9f0687cfdfea78741af32f5424d8336e6a234498c5269470c5835caa806",
+      "before": {
+        "stem": "\\(A=(3,0)\\) and \\(B=(7,3)\\). The area of \\(ABP\\) is \\(15\\) square units.\n(a) Describe the relation between the locus and \\(AB\\).\n(b)(i) Find the equation of \\(AB\\). (ii) Find both locus equations.",
+        "stemZh": "\\(A=(3,0)\\)、\\(B=(7,3)\\)。三角形 \\(ABP\\) 面積為 \\(15\\) 平方單位。\n(a) 描述軌跡與 \\(AB\\) 的幾何關係。\n(b)(i) 求 \\(AB\\) 方程。(ii) 求兩條軌跡方程。",
+        "hint": "Distance to AB fixed → two parallel lines.",
+        "hintZh": "到 AB 固定距離 → 兩平行線。",
+        "solution": "(a) Two lines parallel to \\(AB\\).\n(b)(i) \\(AB:3x-4y-9=0\\), and \\(AB=5\\).\n(ii) The height is \\(2(15)/5=6\\), so \\(|3x-4y-9|/5=6\\). Thus \\(3x-4y-39=0\\) or \\(3x-4y+21=0\\).",
+        "solutionZh": "(a) 兩條平行 AB 的線。\n\n(b)(i) \\(AB:3x−4y−9=0\\)，\\(AB=5\\)。\n\n(b)(ii) \\(3x−4y−39=0\\) 或 \\(3x−4y+21=0\\)。",
+        "id": "import-locus-adda39f4b68a4d06",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L7"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 77,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "70a84c799637a5c6d3daa8f82573906b95f1a32159a73102f950806e71008cfd",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-b6654cf99429d6e1",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-78",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "897bb1a52f722de8b892c744be325c9f02d493cebc96fe8deda9bee21eb00d75",
+      "before": {
+        "stem": "\\(A=(-2,3)\\) and \\(B=(-2,-2)\\). The area of triangle \\(ABP\\) is \\(25\\) square units. Find the locus equations.",
+        "stemZh": "\\(A=(-2,3)\\)、\\(B=(-2,-2)\\)。三角形 \\(ABP\\) 面積為 \\(25\\) 平方單位。求軌跡方程。",
+        "hint": "AB vertical x=-2. Fixed distance → two vertical lines.",
+        "hintZh": "AB 垂直 x=-2。固定距離 → 兩垂直線。",
+        "solution": "\\(AB=5\\) and its line is \\(x=-2\\). The height is \\(2(25)/5=10\\). Hence \\(|x+2|=10\\), giving \\(x=8\\) or \\(x=-12\\).",
+        "solutionZh": "\\(AB=5\\)，\\(x=−2\\)。高 \\(=\\) 10。\\(|x+2|=10\\)，\\(x=8\\) 或 −12。",
+        "id": "import-locus-b6654cf99429d6e1",
+        "subcategory": "area-loci",
+        "skill": "locus-fixed-area",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed triangle area fixes distance from base",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L7"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 78,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "509846a43805b2a96f525ca862a457c4db905de8f89a4f95bf8d9e31e8b60144",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-872d8a9579277a27",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-79",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "f9d3b98aee741c6e55eb24f753605afd91503fb4f43b6417daf144f2b2a21dde",
+      "before": {
+        "stem": "\\(L:4x+3y-12=0\\) meets the axes at \\(A,B\\). \\(C=(c,0)\\) and \\([ABC]=2[OAB]\\), where \\(O\\) is the origin.\n(a) Find \\(c\\).\n(b) Take the greater value of \\(c\\). \\(P\\) lies on the right-hand side of \\(L\\) and \\([PAB]=[ABC]\\). (i) Describe its locus relative to \\(L\\). (ii) Find its equation.",
+        "stemZh": "\\(L:4x+3y-12=0\\) 與兩坐標軸交於 \\(A,B\\)。\\(C=(c,0)\\)，且 \\([ABC]=2[OAB]\\)，\\(O\\) 為原點。\n(a) 求 \\(c\\)。\n(b) 取較大的 \\(c\\)。\\(P\\) 位於 \\(L\\) 右側，且 \\([PAB]=[ABC]\\)。(i) 描述軌跡與 \\(L\\) 的關係。(ii) 求其方程。",
+        "hint": "Intercepts. Area condition. Choose correct branch.",
+        "hintZh": "截距。面積條件。選正確分支。",
+        "solution": "(a) \\(A=(3,0),B=(0,4)\\) and \\([OAB]=6\\). Thus \\(2|c-3|=12\\), giving \\(c=-3,9\\).\n(b)(i) The parallel through \\(C=(9,0)\\) on the right-hand side.\n(ii) The distance from \\(C\\) to \\(L\\) is \\(24/5\\), so the required branch is \\(4x+3y-12=24\\), or \\(4x+3y-36=0\\).",
+        "solutionZh": "(a) \\(c=−3\\) 或 9。\n\n(b)(i) 右側平行線。\n\n(b)(ii) \\(4x+3y−36=0\\)。",
+        "id": "import-locus-872d8a9579277a27",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L7"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 79,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "a20de730126af6c6944b1281a653df96d16ebe61cfbf409b22996ca87f9db831",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-4bf1af02fdfd8b50",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-82",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "eef440b9e4df18ae36bb0da50d7bad6c46401c62f07dbbfe513a4bcba34fd457",
+      "before": {
+        "stem": "\\(P\\) is equidistant from \\(A(-3,-4)\\) and the \\(x\\)-axis. Find its locus equation.",
+        "stemZh": "動點 \\(P\\) 與 \\(A(-3,-4)\\) 及 \\(x\\) 軸等距。求軌跡方程。",
+        "hint": "Equate distance to x-axis with distance to point. Rearrange.",
+        "hintZh": "到 x 軸距離 = 到點距離。整理。",
+        "solution": "\\((x+3)^2+(y+4)^2=y^2\\), so \\(x^2+6x+8y+25=0\\), or \\(y=-x^2/8-3x/4-25/8\\).",
+        "solutionZh": "\\(x²+6x+8y+25=0\\)。",
+        "id": "import-locus-4bf1af02fdfd8b50",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 82,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "d051176119524a43d1bd59f4897ad046bb5b6a906999b655bc644410e8f8f1c0",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-f8431e918f23b833",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-83",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "87b43f83a887a5d70558c122b58e1503b2c0b329f7ad467d6fe6915aecc1fa33",
+      "before": {
+        "stem": "\\(F=(4,1)\\). \\(P\\) is equidistant from \\(F\\) and \\(y=4\\).\n(a) Find its locus equation.\n(b) Does the locus pass through \\((1,1)\\)? Explain.\n(c) Find its vertex.",
+        "stemZh": "\\(F=(4,1)\\)。\\(P\\) 與 \\(F\\) 及 \\(y=4\\) 等距。\n(a) 求軌跡方程。\n(b) 軌跡是否經過 \\((1,1)\\)？解釋。\n(c) 求頂點坐標。",
+        "hint": "Equate distances. Check point. Complete square for vertex.",
+        "hintZh": "等距。檢查點。配方找頂點。",
+        "solution": "(a) \\((x-4)^2+(y-1)^2=(y-4)^2\\) gives \\(x^2-8x+6y+1=0\\).\n(b) Yes: \\(1-8+6+1=0\\).\n(c) Completing the square gives \\((x-4)^2=-6(y-5/2)\\), so the vertex is \\((4,5/2)\\).",
+        "solutionZh": "(a) \\(x²−8x+6y+1=0\\)。\n\n(b) 是。\n\n(c) 頂點 \\((4,5/2)\\)。",
+        "id": "import-locus-f8431e918f23b833",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 83,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "77ee355a420a373da5088c92c1c5a2141454ea3becad5211738835baae0de908",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-d8934ea3c4a383d6",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-84",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "4a09bd4dfa894f2536438ad9fa175386fa24cdbf2ee34f13c5c5b034713cb872",
+      "before": {
+        "stem": "\\(B=(6,3)\\). \\(P\\) is equidistant from \\(B\\) and \\(y=5\\). Its locus meets the \\(x\\)-axis at \\(M,N\\).\n(a) Find the locus equation.\n(b) If \\(R\\) lies on the locus above the \\(x\\)-axis, can the area of \\(RMN\\) exceed \\(16\\)?",
+        "stemZh": "\\(B=(6,3)\\)。\\(P\\) 與 \\(B\\) 及 \\(y=5\\) 等距。軌跡與 \\(x\\) 軸交於 \\(M,N\\)。\n(a) 求軌跡方程。\n(b) 若 \\(R\\) 位於軌跡上且在 \\(x\\) 軸上方，三角形 \\(RMN\\) 的面積可否大於 \\(16\\)？",
+        "hint": "Equate distances. x-intercepts.",
+        "hintZh": "等距。x 截距。",
+        "solution": "(a) \\((x-6)^2+(y-3)^2=(y-5)^2\\) gives \\(x^2-12x+4y+20=0\\), or \\(y=4-(x-6)^2/4\\).\n(b) \\(M=(2,0),N=(10,0)\\), so \\(MN=8\\). Since \\(0<y_R\\le4\\), the area is \\(4y_R\\le16\\). No; equality occurs at the vertex \\((6,4)\\).",
+        "solutionZh": "(a) \\(y=4−(x−6)²/4\\)。\n\n(b) \\(MN=8\\)。",
+        "id": "import-locus-d8934ea3c4a383d6",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 84,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "af4709ad19b2c98a74d869c1f70e8e9a95c07bdf5787ac0abda523d4de55d4bb",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-41f5dfd4b119eb61",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-85",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "f917edca9ec3ae013b8829a9aa2c9456360c7a6bc6894597b52bc0210f3a9955",
+      "before": {
+        "stem": "\\(A=(0,2)\\) and \\(B=(-2,0)\\). \\(P=(x,y)\\) satisfies \\(AP^2+BP^2=2PN^2\\), where \\(N\\) is the perpendicular foot on the \\(x\\)-axis.\n(a) Find the locus of \\(P\\).\n(b) \\(Q\\) satisfies \\(AQ=BQ\\). (i) Find its locus. (ii) Susan claims the two loci intersect at two points. Do you agree? Explain.",
+        "stemZh": "\\(A=(0,2)\\)、\\(B=(-2,0)\\)。\\(P=(x,y)\\) 滿足 \\(AP^2+BP^2=2PN^2\\)，其中 \\(N\\) 是 \\(P\\) 到 \\(x\\) 軸的垂足。\n(a) 求 \\(P\\) 的軌跡方程。\n(b) \\(Q\\) 滿足 \\(AQ=BQ\\)。(i) 求其軌跡方程。(ii) Susan 聲稱兩軌跡交於兩點。你是否同意？解釋。",
+        "hint": "Distance squared sum. Substitute for intersection.",
+        "hintZh": "距離平方和。代入交點。",
+        "solution": "(a) \\(PN^2=y^2\\). Thus \\(x^2+(y-2)^2+(x+2)^2+y^2=2y^2\\), giving \\(y=x^2/2+x+2\\).\n(b)(i) \\(x^2+(y-2)^2=(x+2)^2+y^2\\) gives \\(x+y=0\\).\n(ii) Disagree. Substituting \\(y=-x\\) gives \\((x+2)^2=0\\): exactly one intersection, \\((-2,2)\\).",
+        "solutionZh": "(a) \\(y=x²/2+x+2\\)。\n\n(b)(i) \\(x+y=0\\)。\n\n(b)(ii) 只有一交點 (−2,2)。",
+        "id": "import-locus-41f5dfd4b119eb61",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-line-circle",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "substitute locus into another line or circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 85,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "fe5eeed3006eaad627b6da2be0c15031eeace84cc928cda0d14d2eee4a75b0a0",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-8d985d03796e7735",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-86",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "c0633f932ab8957e9b465162af2ab6cc9b49a39534ce48e8d47d433a2d1f07f2",
+      "before": {
+        "stem": "\\(A=(2,5)\\), \\(B=(1,-2)\\) and \\(L:y=5\\).\n(a) \\(P\\) is equidistant from \\(B\\) and \\(L\\). Find its locus.\n(b) \\(Q\\) satisfies \\(QA=QB\\). Find its locus.\n(c) \\(D\\) satisfies both conditions. Find \\(D\\).",
+        "stemZh": "\\(A=(2,5)\\)、\\(B=(1,-2)\\)，\\(L:y=5\\)。\n(a) \\(P\\) 與 \\(B\\) 及 \\(L\\) 等距。求其軌跡。\n(b) \\(Q\\) 滿足 \\(QA=QB\\)。求其軌跡。\n(c) \\(D\\) 同時滿足兩條件。求 \\(D\\) 的坐標。",
+        "hint": "Two loci intersect. Substitute.",
+        "hintZh": "兩軌跡相交。代入。",
+        "solution": "(a) \\((x-1)^2+(y+2)^2=(y-5)^2\\) gives \\(x^2-2x+14y-20=0\\).\n(b) \\((x-2)^2+(y-5)^2=(x-1)^2+(y+2)^2\\) gives \\(x+7y-12=0\\).\n(c) Substitute \\(y=(12-x)/7\\) into (a): \\((x-2)^2=0\\). Thus \\(D=(2,10/7)\\).",
+        "solutionZh": "(a) \\(x²−2x+14y−20=0\\)。\n\n(b) \\(x+7y−12=0\\)。\n\n(c) \\(D=(2,10/7)\\)。",
+        "id": "import-locus-8d985d03796e7735",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 86,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "17c1ad1b2281dcda9a50557f5ad5d51cb08cf96b205b56c5b0fd88fa65bddc1a",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-44b419f248595feb",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-87",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "392bb12a2fd753537e6ebf97f77b3aea1bbfc17cca963948c3922999023a9331",
+      "before": {
+        "stem": "\\(A=(12,4),B=(8,10)\\). \\(C:x^2+y^2-8y+k=0\\) passes through \\(A\\) and has centre \\(G\\).\n(a) Find \\(G\\) and the radius.\n(b) When \\(P\\) on \\(C\\) is farthest from \\(B\\), (i) describe the relationship among \\(B,G,P\\); (ii) find \\([ABG]:[ABP]\\).",
+        "stemZh": "\\(A=(12,4),B=(8,10)\\)。\\(C:x^2+y^2-8y+k=0\\) 經過 \\(A\\)，圓心為 \\(G\\)。\n(a) 求 \\(G\\) 及半徑。\n(b) 當圓上點 \\(P\\) 距離 \\(B\\) 最遠時，(i) 描述 \\(B,G,P\\) 的關係；(ii) 求 \\([ABG]:[ABP]\\)。",
+        "hint": "Complete square. Collinearity. Area ratio = distance ratio.",
+        "hintZh": "配方。共線。面積比 = 距離比。",
+        "solution": "(a) Substitution gives \\(k=-128\\), so \\(G=(0,4),r=12\\).\n(b)(i) They are collinear, with \\(G\\) between \\(B\\) and \\(P\\).\n(ii) \\(BG=10\\) and \\(BP=22\\). Since \\(G,P\\) lie on the same ray from \\(B\\), their perpendicular heights to \\(AB\\) have ratio \\(10:22\\). Thus \\([ABG]:[ABP]=5:11\\).",
+        "solutionZh": "(a) \\(G=(0,4),\\) \\(r=12\\)。\n\n(b)(i) 共線。\n\n(b)(ii) 面積比 5:11。",
+        "id": "import-locus-44b419f248595feb",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 87,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "7b508a335fc63e692bf72c2747eff41c90d019140f9fa4fc0b37d21eef1e86de",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-5ef996dcd06ad160",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-88",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "2a2c7f0152540edfa32098adab912a322d6c3a10e726b63a7564f04659979f72",
+      "before": {
+        "stem": "\\(C:x^2+y^2-8x-ky-88=0\\), where \\(k>0\\), has radius \\(15\\) and centre \\(X\\).\n(a) Find \\(X\\).\n(b) \\(L:3x-4y+92=0\\) meets \\(C\\) at distinct \\(A,B\\). \\(P\\) on \\(L\\) is nearest to \\(X\\). Find \\(PX\\).\n(c) \\(Q\\) on \\(C\\) is nearest to \\(P\\). (i) Describe the relationship among \\(P,Q,X\\). (ii) Find \\([AXBQ]\\).",
+        "stemZh": "\\(C:x^2+y^2-8x-ky-88=0\\)，\\(k>0\\)，半徑為 \\(15\\)，圓心為 \\(X\\)。\n(a) 求 \\(X\\)。\n(b) \\(L:3x-4y+92=0\\) 與 \\(C\\) 交於不同點 \\(A,B\\)。\\(P\\) 是 \\(L\\) 上距離 \\(X\\) 最近的點。求 \\(PX\\)。\n(c) \\(Q\\) 是圓上距離 \\(P\\) 最近的點。(i) 描述 \\(P,Q,X\\) 的關係。(ii) 求 \\([AXBQ]\\)。",
+        "hint": "Find X. Distance. Tangent length. Rhombus area.",
+        "hintZh": "找 X。距離。切線長。菱形面積。",
+        "solution": "(a) \\(16+k^2/4+88=225\\) gives \\(k=22\\), so \\(X=(4,11)\\).\n(b) \\(PX=|3(4)-4(11)+92|/5=12\\).\n(c)(i) They are collinear with \\(P\\) between \\(X,Q\\).\n(ii) \\(AP=BP=\\sqrt{15^2-12^2}=9\\), hence \\(AB=18\\). The perpendicular diagonals \\(AB,XQ\\) have lengths \\(18,15\\), so \\([AXBQ]=18(15)/2=135\\).",
+        "solutionZh": "(a) \\(X=(4,11)\\)。\n\n(b) \\(PX=12\\)。\n\n(c)(i) 共線。\n\n(c)(ii) \\([AXBQ]=135\\)。",
+        "id": "import-locus-5ef996dcd06ad160",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 88,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "12331f869d5eb04cda85aa2732077fbea192e26577b4774444b73f6ce9b44240",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-f7d29f31977d953f",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-89",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "72ed7667f47535112bee3956937c6de5dcdbff84ee5dc9b2f002fdf62d8e995e",
+      "before": {
+        "stem": "The coordinates of \\(P\\), \\(Q\\), \\(R\\) and \\(M\\) are \\((0,2)\\), \\((4,0)\\), \\((9,5)\\) and \\((5,8)\\) respectively. The circle \\(C\\) passes through \\(P\\), \\(Q\\) and \\(R\\).\n(a) Find the equation of \\(C\\).\n(b) Prove that \\(M\\) lies inside \\(C\\).\n(c) Denote the centre of \\(C\\) by \\(G\\). Let \\(N\\) be the point on \\(C\\) nearest to \\(M\\).\n(i) Describe the geometric relationship among \\(G\\), \\(M\\) and \\(N\\).\n(ii) Find the equation of the straight line through \\(M\\) and \\(N\\).",
+        "stemZh": "\\(P=(0,2),Q=(4,0),R=(9,5),M=(5,8)\\)。圓 \\(C\\) 經過 \\(P,Q,R\\)。\n(a) 求 \\(C\\) 方程。\n(b) 證明 \\(M\\) 在圓內。\n(c) \\(G\\) 為圓心，\\(N\\) 為圓上距離 \\(M\\) 最近的點。(i) 描述 \\(G,M,N\\) 關係。(ii) 求 \\(MN\\) 所在直線方程。",
+        "hint": "General circle through 3 points. Solve D,E,F.",
+        "hintZh": "三點定圓一般式。解 D,E,F。",
+        "solution": "(a) Write \\(x^2+y^2+Dx+Ey+F=0\\). Substitution of the three points gives \\(D=-8,E=-10,F=16\\). Thus \\((x-4)^2+(y-5)^2=25\\).\n(b) \\(GM^2=1^2+3^2=10<25\\).\n(c)(i) They are collinear, with \\(M\\) between \\(G,N\\).\n(ii) The line through \\(G=(4,5),M=(5,8)\\) is \\(3x-y-7=0\\).",
+        "solutionZh": "(a) \\((x−4)²+(y−5)²=25\\)。\n\n(b) \\(GM²=10\\)。",
+        "id": "import-locus-f7d29f31977d953f",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 89,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "229d7d5b214287aa1e79606b86faeb397030b75383ce1678e2f37f6138c0e5c3",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    },
+    {
+      "id": "import-locus-9ad413618c8843e0",
+      "status": "完成",
+      "sourceLocator": "q-LongQ-90",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "7ef5004e46f63a551f4c73c691f4715fc0ce88a8cb488302698305c8aafbaf3a",
+      "before": {
+        "stem": "The coordinates of the points \\(A\\) and \\(B\\) are \\((0,6)\\) and \\((8,0)\\) respectively.\n(a) \\(P\\) is a moving point such that \\(PA=PB\\). Find the equation of the locus \\(\\Gamma_1\\) of \\(P\\).\n(b) \\(Q\\) is a moving point such that \\(AQ\\perp QB\\). Find the equation of the locus \\(\\Gamma_2\\) of \\(Q\\).\n(c) \\(\\Gamma_1\\) and \\(\\Gamma_2\\) intersect at points \\(M\\) and \\(N\\). Find \\(MN\\).",
+        "stemZh": "\\(A=(0,6),B=(8,0)\\)。\n(a) \\(P\\) 滿足 \\(PA=PB\\)。求軌跡 \\(\\Gamma_1\\)。\n(b) \\(Q\\) 滿足 \\(AQ\\perp QB\\)。求軌跡 \\(\\Gamma_2\\)。\n(c) 兩軌跡交於 \\(M,N\\)。求 \\(MN\\)。",
+        "hint": "Perpendicular bisector. Diameter circle. Bisector through centre → diameter chord.",
+        "hintZh": "垂直平分線。直徑圓。平分線過中心 → 直徑弦。",
+        "solution": "(a) \\(\\Gamma_1:4x-3y-7=0\\).\n(b) \\(\\Gamma_2:(x-4)^2+(y-3)^2=25\\), excluding \\(A,B\\).\n(c) The perpendicular bisector passes through the diameter midpoint \\((4,3)\\), so \\(MN\\) is a diameter: \\(MN=10\\).",
+        "solutionZh": "(a) \\(Γ₁:4x−3y−7=0\\)。\n\n(b) \\(Γ₂:(x−4)²+(y−3)²=25\\)。\n\n(c) MN 是直徑，\\(MN=10\\)。",
+        "id": "import-locus-9ad413618c8843e0",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 90,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison"
+      },
+      "questionSha256": "ff6946f19549f0b9ec9e2beb908dc4e749bac164084eeb83cde7171bac0093df",
+      "changes": [
+        "Restore complete Chinese subparts, derivation and domain restrictions from the same-question supplied HTML"
+      ],
+      "limits": "Text/solution restoration only. No stem, answer key, options, IDs, classification or student diagram assets changed. Independent checks are recorded separately.",
+      "evidence": {
+        "independentMathematics": "tests/solution-restoration.cjs",
+        "browser": "docs/qa/2026-10-23/solution-restoration/report.json",
+        "limits": "Local checks do not establish live deployment; no student diagrams changed."
+      }
+    }
+  ]
+}

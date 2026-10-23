@@ -1,5 +1,17 @@
 # Implementation record
 
+## B7 complete Chinese locus derivations — 23 October 2026
+
+Status LOG-20261023-SOL: 本地內容、數學及作答驗收完成；正式發布待驗收。Revision `fad88dd11ec4014d`, unchanged1,186 questions/seven chapters. [37-question restoration](SOLUTION_RESTORATION.md) records exact source locators, before-snapshots, current hashes and independent calculations. [Full plan](CONTENT_EXPANSION_PLAN.md) and [UI/UE details](UI_UX_ROADMAP.md) remain intact.
+
+- Restored37 existing locus long-question Chinese explanations that had omitted working or whole subparts; the same-question supplied HTML supports every restoration. Two English explanations additionally recover explicit subpart labels, reasoning and properly rendered surds. No stem, key, options, classification, diagram or ID changes; tests compare all non-solution fields against complete before-snapshots.
+- Independently recomputed all37: complete angle-bisector branches, circle/line projection, tangency, coordinate transformations, area ratios, maximum area, repeated intersection roots and excluded endpoints. A punctured-circle midpoint locus has no nearest point: preserve the unattained infimum rather than inventing a minimum. Each calculation binds the full canonical record to SHA256.
+- The original294 pending source/current solution fields reduce to257 pending. Current910-field breakdown:651 presentation-normalized matches,2 differing English explanations explicitly adjudicated by B7 independent calculations,257 pending. The37 restored questions are existing IDs, not37 new questions; no over-counting of duplicate locators or source rows.
+- Actual local tests:890 Node checks pass, including37 new independent calculations; all1,186 questions pass49,014 formula-render checks with zero errors. All148 student-facing Chinese solution views pass at320/390/768/1440px. Old written draft, bookmark, history, resume, language switch and manual self-assessment survive. Study-journey regression passes. Four actual mobile solution screenshots visually inspected; all student diagram assets unchanged, noPDF output.
+
+Limits:257 source/current solution fields and six source problems/seven IDs remain pending. This does not classify them as257 wrong questions. Browser-local storage remains the persistence boundary; physical-device/student usability research is not represented as complete. [Local evidence](qa/2026-10-23/solution-restoration/README.md).
+
+
 
 ## B6 bulk source comparisons and repairs — 23 October 2026
 

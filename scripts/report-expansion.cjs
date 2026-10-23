@@ -17,16 +17,17 @@ const priorityFile='content/imports/2026-10-23-priority-math-review.json';
 const priorityReviews=fs.existsSync(priorityFile)?read(priorityFile).records:[];
 const batchFile='content/imports/2026-10-23-batch-source-review.json',batch=fs.existsSync(batchFile)?read(batchFile):null;
 const batchMathFile='content/imports/2026-10-23-batch-math-review.json',batchReviews=fs.existsSync(batchMathFile)?read(batchMathFile).records:[];
+const solutionReviewFile='content/imports/2026-10-23-solution-math-review.json',solutionReviews=fs.existsSync(solutionReviewFile)?read(solutionReviewFile).records:[];
 const pendingComparisons=494-priorityReviews.length-(batch?.summary.promptAndOptionRowsComplete||0);
-const comparisonSummary=batch?`全部494項題幹／選項對照完成：39項前批獨立重算＋455項本批來源對照（427排版一致、28有明確語意裁定）；另有${batch.summary.solutionFieldsDifferent}個來源／網站解析欄位差異仍待完整覆核，不能把來源一致當作全庫答案證明`:`39項前批完成，仍有${pendingComparisons}項待裁定`;
-for(const r of [...reviews,...priorityReviews,...batchReviews]){
+const comparisonSummary=batch?`全部494項題幹／選項對照完成：39項前批獨立重算＋455項本批來源對照（427排版一致、28有明確語意裁定）；另有${(batch.summary.solutionFieldsPending??batch.summary.solutionFieldsDifferent)}個來源／網站解析欄位差異仍待完整覆核，不能把來源一致當作全庫答案證明`:`39項前批完成，仍有${pendingComparisons}項待裁定`;
+for(const r of [...reviews,...priorityReviews,...batchReviews,...solutionReviews]){
  const q=canonical.get(r.id);if(!q||r.questionSha256!==hash(JSON.stringify(q)))throw Error('Review no longer matches question: '+r.id);
  for(const a of r.figures||[])if(hash(fs.readFileSync('src/'+a.src))!==a.sha256)throw Error('Review no longer matches figure: '+a.src);
 }
-const reviewed=new Map([...reviews,...priorityReviews,...batchReviews].map(r=>[r.id,r]));
+const reviewed=new Map([...reviews,...priorityReviews,...batchReviews,...solutionReviews].map(r=>[r.id,r]));
 const circleCount=source.topics.find(t=>t.id==='circle-equation').categories.reduce((n,c)=>n+c.questions.length,0),statisticsCount=64,newCount=circleCount+statisticsCount,additional=questions.length-853;
 const independentlyChecked=q=>reviewed.has(q.id)||q.topicId==='sequences'||['import-four-centres-q216','import-four-centres-q231','import-four-centres-q238'].includes(q.id)||mens.some(r=>r.id===q.id);
-const bank=read('src/data/bank.json'),releaseFile=['batch-review','priority-review','answer-review'].map(s=>`docs/qa/2026-10-23/${s}/live-verification.json`).find(p=>fs.existsSync(p));
+const bank=read('src/data/bank.json'),releaseFile=['solution-restoration','batch-review','priority-review','answer-review'].map(s=>`docs/qa/2026-10-23/${s}/live-verification.json`).find(p=>fs.existsSync(p));
 const release=fs.existsSync(releaseFile)?read(releaseFile):null;
 const published=release?.contentRevision===bank.revision&&release.workflowConclusion==='success'&&release.deployedFileHashes.errors.length===0&&release.liveBrowserTests.every(t=>t.result==='passed');
 if(priorityReviews.length){
@@ -75,6 +76,7 @@ ${table(['編號','工作／批次','狀態','實際證據與限制'],[
 ['CT-08','多區塊、別名、舊記錄相容','完成','tests/alias-migration.cjs；browser/imported-bank.cjs、language-recovery.cjs、study-journey.cjs'],
 ['CT-09','技術回歸及發布',published?'完成':'待驗收',published?`本次main ${release.releaseCommit.slice(0,7)}；Actions${release.workflowRunId}成功；正式站${release.deployedFileHashes.checked}檔SHA256一致；本次線上作答／學習流程回歸通過`:'本次正式發布待驗收；不可沿用不同revision的舊發布證據，實際測試結果見IMPLEMENTATION_LOG'],
 ['CT-10','B5：低相似度來源差異39項',priorityReviews.length===39&&read('content/imports/2026-10-23-priority-source-review.json').records.every(r=>r.status==='完成')?'完成':'待驗收',`39項獨立重算、30題恢復來源選項、Q187改答案及分類修正；156次本地四寬度作答檢查完成；正式發布獨立見CT-09`],
+['CT-12','B7：長題中文推導恢復',solutionReviews.length===37?'完成':'待驗收',`${solutionReviews.length}題同題來源及獨立算式核對；實際作答與發布另見CT-09及SOLUTION_RESTORATION.md`],
 ['CT-11','B6：餘下455來源位置批量對照',batch?'完成':'待處理',batch?`${comparisonSummary}；${read('content/imports/2026-10-23-batch-repairs.json').records.length}個現有ID批量修正；25個ID另有獨立算式核對；完整正式發布另見CT-09`:'待執行']])}
 
 本次採一個可回退的 main 發布批次，內容和 UI 在本地按 B1/B2/B3/B4 完成；沒有聲稱每個本地批次都曾獨立上線。
