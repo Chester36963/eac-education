@@ -6,7 +6,7 @@ QA-B8-02（完成）：47題×英中×320／390／768／1440px，共376個實際
 
 QA-B8-03（完成）：四寬度中六條具代表題保留實際390px整頁及解析截圖。重點為LongQ9最大面積、LongQ33截距符號、LongQ23中點反射、LongQ57正負分支、LongQ2最短距離及LongQ26的k值。實際截圖不當作學生題圖，也不是PDF。
 
-QA-B8-04（待驗收）：同一main網站發布、workflow及正式站檔案hash、376次線上雙語畫面、完整study-journey。須另記live-verification.json，不沿用B7或早前統計表格證據。
+QA-B8-04（完成）：同一main正式發布848a75d86279c58250522d41fe073046246dc17f；Actions39966084642及Pages39966130305成功。正式站revision52a415682524c0ea；143個部署檔案SHA256完全一致；376次線上雙語畫面、完整study-journey及統計176畫面通過，見live-verification.json、live-answer-report.json、live-study-journey.log及live-table-report.json。沒有沿用B7或早前統計表格證據。
 
 ## 數學修正與內容界線
 
@@ -17,3 +17,5 @@ LongQ9的舊最大面積100+50√2不正確：凸四邊形要求K與B在底邊�
 完整逐題before、來源及算式見[LOCUS_COMPLETION.md](../../../LOCUS_COMPLETION.md)。這批47題不含學生題圖；沒有PDF輸出或題圖重畫，也沒有新增雲端登入／同步功能。
 
 本地最終revision52a415682524c0ea的report.json全部376次雙語畫面通過；其中370個長公式容器確實可捲至末端，非裁走資料。六條指定題的實際390px解析圖已人工檢視，包括LongQ9分行後的[AHK]標籤及最終50√2、LongQ33正負號、LongQ26明列k=20。local-browser.log及local-study-journey.log保留最終結果。手機係Chromium viewport測試，未聲稱實體裝置／學生訪談已完成。
+
+正式站LongQ9及LongQ33的實際390px解析已再人工檢查，截圖以前綴live-保存。最大面積50√2及截距線5x−2y−10=0正確；長公式局部捲動可達末端。本批全部376次正式畫面零錯誤，舊草稿／收藏／歷史／續做及人工自評通過。

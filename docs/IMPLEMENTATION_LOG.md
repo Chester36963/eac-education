@@ -2,7 +2,7 @@
 
 ## B8 remaining locus long-question solutions — 23 October 2026
 
-Status LOG-20261023-B8: 獨立數學及本地實際畫面完成；正式發布待驗收。Revision `52a415682524c0ea`, unchanged1,186 questions/seven chapters. Reviewed47 existing long-question IDs, updated45, retained two already fuller explanations. Exactly45 Chinese and25 English solution fields changed; no question, option, key, category, ID, student record or diagram edits. Full before-snapshots, source hashes and every calculation are recorded in [B8](LOCUS_COMPLETION.md); [full scope](CONTENT_EXPANSION_PLAN.md) and [UI/UE roadmap](UI_UX_ROADMAP.md) remain complete.
+Status LOG-20261023-B8: 獨立數學、本地及正式站驗收完成。Revision `52a415682524c0ea`, unchanged1,186 questions/seven chapters. Reviewed47 existing long-question IDs, updated45, retained two already fuller explanations. Exactly45 Chinese and25 English solution fields changed; no question, option, key, category, ID, student record or diagram edits. Full before-snapshots, source hashes and every calculation are recorded in [B8](LOCUS_COMPLETION.md); [full scope](CONTENT_EXPANSION_PLAN.md) and [UI/UE roadmap](UI_UX_ROADMAP.md) remain complete.
 
 - Corrected actual mathematics: LongQ9 maximum quadrilateral area is50√2≈70.71, not100+50√2; the old explanation used a farthest height on the incompatible side. Independent polygon formula, actual attaining convex quadrilateral and analytic bound checked. LongQ33 intercept line is5x−2y−10=0; the old plus sign fails the negative-y intercept.
 - Corrected midpoint reflection Q=2M−P and English BC slope substitution; explicitly answered k=20; removed repeated stem/marking residue; completed25 English worked explanations and45 Chinese fields. Preserved both sign/angle-bisector branches and excluded undefined endpoints.
@@ -10,6 +10,8 @@ Status LOG-20261023-B8: 獨立數學及本地實際畫面完成；正式發布�
 - Mobile visual inspection caught an aligned-equation leading bracket being treated as an optional argument; group the actual [AHK] label explicitly, split the LongQ9 chain and re-render. Long mathematical expressions elsewhere retain reachable local scrolling; no blanket claim of zero horizontal formula scrolling.
 
 All376 local bilingual views pass, including370 actual wide-formula scroll checks and saved draft/bookmark/history/resume/manual assessment. The complete local study-journey passes. Six actual390px solution examples visually inspected after final rendering. Local376-view and live evidence are recorded separately in [QA](qa/2026-10-23/locus-completion/README.md). Six source problems/seven held IDs remain; no invented missing conditions. Accounts and student records remain browser-local. No student diagram changes orPDF output.
+
+Formal release `848a75d86279c58250522d41fe073046246dc17f`: Actions39966084642 and Pages39966130305 succeeded. All143 deployed files match local SHA256, including43 unchanged student SVGs. All376 live bilingual views,176 live statistics-table views and the full live study-journey pass at revision52a415682524c0ea. Actual live390px LongQ9/33 solution screenshots visually inspected and retained. Complete evidence in [B8 release](qa/2026-10-23/locus-completion/live-verification.json). Documentation follow-up preserves the same verified source release.
 
 ## Statistics stylesheet refresh — 23 October 2026
 
