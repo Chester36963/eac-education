@@ -1,6 +1,6 @@
 # B10 四心 QA · 2026-10-24
 
-狀態：本地完成；正式部署待驗收。Revision `2ffd9cb690908b1f`，1,186題／七課題。
+狀態：本地及正式部署驗收完成。Revision `2ffd9cb690908b1f`，1,186題／七課題。
 
 - 固定104個ID獨立精確數學案例通過；50個ID實際更新。完整題目hash與原來源locator SHA256綁定，其他欄位不變。
 - 832個實際題目／解析畫面：104 × 英中 × 320、390、768、1440px；全部通過，見 report.json。長公式保留局部水平捲動，並非每條公式在320px一行顯示。
@@ -11,4 +11,8 @@
 - 六個來源矛盾／缺失、七個暫存ID，見 SOURCE_HOLD_RECHECK.md；不擅改條件或選項。
 - 未產生PDF。帳戶及記錄仍為瀏覽器本地；測試為Chromium viewport，並非實體iOS／Android或學生研究。
 
-正式站發布後加入 live-verification.json、live-answer-report.json、live-table-report.json 及 live-study-journey.log，再更新狀態。
+正式發布 `5495bde7912a7c9b254a81008a0ecd5dff60b152`，Actions `40009741810` 成功。正式站832個雙語四尺寸畫面、統計176畫面、完整study-journey通過；146個實際部署檔案SHA256與本地一致，見 live-verification.json、live-answer-report.json、live-table-report.json 及 live-study-journey.log。
+
+正式站目視覆核Q032英文解析、Q242英文完整題圖及統計R39A雙語表格；另保留Q230中文解析及R01B/R45A表格截圖供覆核。表頭四邊框及數字靠左清楚。Q032長公式在局部容器捲動可達右端，不裁改題目內容。
+
+另重新執行 expansion-instruments.cjs：七課題／八場景、模式／參數、鍵盤、暫停續播、狀態保留、減少動態、四尺寸全部通過，見 local-instruments.log；本批未改動畫程式。

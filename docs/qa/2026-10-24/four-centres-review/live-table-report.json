@@ -1,0 +1,1075 @@
+{
+  "testedAt": "2026-10-23T19:15:00.175Z",
+  "base": "https://chester36963.github.io/eac-education/",
+  "revision": "2ffd9cb690908b1f",
+  "questionCount": 44,
+  "checked": [
+    {
+      "id": "note-statistics-mock-bps-2324-p1-final-q13",
+      "width": 320,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-bps-2324-p1-final-q13",
+      "width": 390,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-bps-2324-p1-final-q13",
+      "width": 768,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-bps-2324-p1-final-q13",
+      "width": 1440,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-dbs-2425-p1-final-q13",
+      "width": 320,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-mock-dbs-2425-p1-final-q13",
+      "width": 390,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-mock-dbs-2425-p1-final-q13",
+      "width": 768,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-mock-dbs-2425-p1-final-q13",
+      "width": 1440,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-mock-hys-2425-p1-final-q11",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-mock-hys-2425-p1-final-q11",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-mock-hys-2425-p1-final-q11",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-mock-hys-2425-p1-final-q11",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-mock-qc-2425-p1-final-q16",
+      "width": 320,
+      "tables": 2,
+      "cells": 18
+    },
+    {
+      "id": "note-statistics-mock-qc-2425-p1-final-q16",
+      "width": 390,
+      "tables": 2,
+      "cells": 18
+    },
+    {
+      "id": "note-statistics-mock-qc-2425-p1-final-q16",
+      "width": 768,
+      "tables": 2,
+      "cells": 18
+    },
+    {
+      "id": "note-statistics-mock-qc-2425-p1-final-q16",
+      "width": 1440,
+      "tables": 2,
+      "cells": 18
+    },
+    {
+      "id": "note-statistics-mock-qes-2425-p1-final-q08",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-mock-qes-2425-p1-final-q08",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-mock-qes-2425-p1-final-q08",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-mock-qes-2425-p1-final-q08",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-mock-spyc-2425-p1-final-q11",
+      "width": 320,
+      "tables": 4,
+      "cells": 52
+    },
+    {
+      "id": "note-statistics-mock-spyc-2425-p1-final-q11",
+      "width": 390,
+      "tables": 4,
+      "cells": 52
+    },
+    {
+      "id": "note-statistics-mock-spyc-2425-p1-final-q11",
+      "width": 768,
+      "tables": 4,
+      "cells": 52
+    },
+    {
+      "id": "note-statistics-mock-spyc-2425-p1-final-q11",
+      "width": 1440,
+      "tables": 4,
+      "cells": 52
+    },
+    {
+      "id": "note-statistics-mock-stcec-2324-p1-final-q11",
+      "width": 320,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-mock-stcec-2324-p1-final-q11",
+      "width": 390,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-mock-stcec-2324-p1-final-q11",
+      "width": 768,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-mock-stcec-2324-p1-final-q11",
+      "width": 1440,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-mock-tojai-2526-p1-final-q11",
+      "width": 320,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-mock-tojai-2526-p1-final-q11",
+      "width": 390,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-mock-tojai-2526-p1-final-q11",
+      "width": 768,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-mock-tojai-2526-p1-final-q11",
+      "width": 1440,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-mock-uccke-2324-p1-final-q11",
+      "width": 320,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-uccke-2324-p1-final-q11",
+      "width": 390,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-uccke-2324-p1-final-q11",
+      "width": 768,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-uccke-2324-p1-final-q11",
+      "width": 1440,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-wyk-2425-p1-final-q10",
+      "width": 320,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-wyk-2425-p1-final-q10",
+      "width": 390,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-wyk-2425-p1-final-q10",
+      "width": 768,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-mock-wyk-2425-p1-final-q10",
+      "width": 1440,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r01b",
+      "width": 320,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r01b",
+      "width": 390,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r01b",
+      "width": 768,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r01b",
+      "width": 1440,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r02a",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r02a",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r02a",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r02a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r04a",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r04a",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r04a",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r04a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r04b",
+      "width": 320,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r04b",
+      "width": 390,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r04b",
+      "width": 768,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r04b",
+      "width": 1440,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r05a",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r05a",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r05a",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r05a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r06a",
+      "width": 320,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r06a",
+      "width": 390,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r06a",
+      "width": 768,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r06a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r08a",
+      "width": 320,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r08a",
+      "width": 390,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r08a",
+      "width": 768,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r08a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r09a",
+      "width": 320,
+      "tables": 2,
+      "cells": 28
+    },
+    {
+      "id": "note-statistics-r09a",
+      "width": 390,
+      "tables": 2,
+      "cells": 28
+    },
+    {
+      "id": "note-statistics-r09a",
+      "width": 768,
+      "tables": 2,
+      "cells": 28
+    },
+    {
+      "id": "note-statistics-r09a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 28
+    },
+    {
+      "id": "note-statistics-r10a",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r10a",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r10a",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r10a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r16a",
+      "width": 320,
+      "tables": 2,
+      "cells": 36
+    },
+    {
+      "id": "note-statistics-r16a",
+      "width": 390,
+      "tables": 2,
+      "cells": 36
+    },
+    {
+      "id": "note-statistics-r16a",
+      "width": 768,
+      "tables": 2,
+      "cells": 36
+    },
+    {
+      "id": "note-statistics-r16a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 36
+    },
+    {
+      "id": "note-statistics-r17a",
+      "width": 320,
+      "tables": 4,
+      "cells": 48
+    },
+    {
+      "id": "note-statistics-r17a",
+      "width": 390,
+      "tables": 4,
+      "cells": 48
+    },
+    {
+      "id": "note-statistics-r17a",
+      "width": 768,
+      "tables": 4,
+      "cells": 48
+    },
+    {
+      "id": "note-statistics-r17a",
+      "width": 1440,
+      "tables": 4,
+      "cells": 48
+    },
+    {
+      "id": "note-statistics-r18a",
+      "width": 320,
+      "tables": 4,
+      "cells": 56
+    },
+    {
+      "id": "note-statistics-r18a",
+      "width": 390,
+      "tables": 4,
+      "cells": 56
+    },
+    {
+      "id": "note-statistics-r18a",
+      "width": 768,
+      "tables": 4,
+      "cells": 56
+    },
+    {
+      "id": "note-statistics-r18a",
+      "width": 1440,
+      "tables": 4,
+      "cells": 56
+    },
+    {
+      "id": "note-statistics-r19a",
+      "width": 320,
+      "tables": 4,
+      "cells": 40
+    },
+    {
+      "id": "note-statistics-r19a",
+      "width": 390,
+      "tables": 4,
+      "cells": 40
+    },
+    {
+      "id": "note-statistics-r19a",
+      "width": 768,
+      "tables": 4,
+      "cells": 40
+    },
+    {
+      "id": "note-statistics-r19a",
+      "width": 1440,
+      "tables": 4,
+      "cells": 40
+    },
+    {
+      "id": "note-statistics-r20a",
+      "width": 320,
+      "tables": 4,
+      "cells": 48
+    },
+    {
+      "id": "note-statistics-r20a",
+      "width": 390,
+      "tables": 4,
+      "cells": 48
+    },
+    {
+      "id": "note-statistics-r20a",
+      "width": 768,
+      "tables": 4,
+      "cells": 48
+    },
+    {
+      "id": "note-statistics-r20a",
+      "width": 1440,
+      "tables": 4,
+      "cells": 48
+    },
+    {
+      "id": "note-statistics-r21a",
+      "width": 320,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r21a",
+      "width": 390,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r21a",
+      "width": 768,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r21a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r22a",
+      "width": 320,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r22a",
+      "width": 390,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r22a",
+      "width": 768,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r22a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r24a",
+      "width": 320,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r24a",
+      "width": 390,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r24a",
+      "width": 768,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r24a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r25a",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r25a",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r25a",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r25a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r27a",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r27a",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r27a",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r27a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r28a",
+      "width": 320,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r28a",
+      "width": 390,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r28a",
+      "width": 768,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r28a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r29a",
+      "width": 320,
+      "tables": 2,
+      "cells": 36
+    },
+    {
+      "id": "note-statistics-r29a",
+      "width": 390,
+      "tables": 2,
+      "cells": 36
+    },
+    {
+      "id": "note-statistics-r29a",
+      "width": 768,
+      "tables": 2,
+      "cells": 36
+    },
+    {
+      "id": "note-statistics-r29a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 36
+    },
+    {
+      "id": "note-statistics-r30a",
+      "width": 320,
+      "tables": 4,
+      "cells": 40
+    },
+    {
+      "id": "note-statistics-r30a",
+      "width": 390,
+      "tables": 4,
+      "cells": 40
+    },
+    {
+      "id": "note-statistics-r30a",
+      "width": 768,
+      "tables": 4,
+      "cells": 40
+    },
+    {
+      "id": "note-statistics-r30a",
+      "width": 1440,
+      "tables": 4,
+      "cells": 40
+    },
+    {
+      "id": "note-statistics-r31a",
+      "width": 320,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r31a",
+      "width": 390,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r31a",
+      "width": 768,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r31a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r32a",
+      "width": 320,
+      "tables": 2,
+      "cells": 28
+    },
+    {
+      "id": "note-statistics-r32a",
+      "width": 390,
+      "tables": 2,
+      "cells": 28
+    },
+    {
+      "id": "note-statistics-r32a",
+      "width": 768,
+      "tables": 2,
+      "cells": 28
+    },
+    {
+      "id": "note-statistics-r32a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 28
+    },
+    {
+      "id": "note-statistics-r34a",
+      "width": 320,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r34a",
+      "width": 390,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r34a",
+      "width": 768,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r34a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r35a",
+      "width": 320,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r35a",
+      "width": 390,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r35a",
+      "width": 768,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r35a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 16
+    },
+    {
+      "id": "note-statistics-r38a",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r38a",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r38a",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r38a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r39a",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r39a",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r39a",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r39a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r40a",
+      "width": 320,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r40a",
+      "width": 390,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r40a",
+      "width": 768,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r40a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r41a",
+      "width": 320,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-r41a",
+      "width": 390,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-r41a",
+      "width": 768,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-r41a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 32
+    },
+    {
+      "id": "note-statistics-r42a",
+      "width": 320,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r42a",
+      "width": 390,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r42a",
+      "width": 768,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r42a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 24
+    },
+    {
+      "id": "note-statistics-r43a",
+      "width": 320,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r43a",
+      "width": 390,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r43a",
+      "width": 768,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r43a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 20
+    },
+    {
+      "id": "note-statistics-r45a",
+      "width": 320,
+      "tables": 2,
+      "cells": 30
+    },
+    {
+      "id": "note-statistics-r45a",
+      "width": 390,
+      "tables": 2,
+      "cells": 30
+    },
+    {
+      "id": "note-statistics-r45a",
+      "width": 768,
+      "tables": 2,
+      "cells": 30
+    },
+    {
+      "id": "note-statistics-r45a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 30
+    },
+    {
+      "id": "note-statistics-r47a",
+      "width": 320,
+      "tables": 2,
+      "cells": 18
+    },
+    {
+      "id": "note-statistics-r47a",
+      "width": 390,
+      "tables": 2,
+      "cells": 18
+    },
+    {
+      "id": "note-statistics-r47a",
+      "width": 768,
+      "tables": 2,
+      "cells": 18
+    },
+    {
+      "id": "note-statistics-r47a",
+      "width": 1440,
+      "tables": 2,
+      "cells": 18
+    }
+  ],
+  "stylesheetVersion": "77c77caaa4f1",
+  "versionedEntryPages": [
+    "dashboard.html",
+    "app.html",
+    "library.html"
+  ],
+  "allHeaderAndDataBorders": true,
+  "allCellsLeftAligned": true,
+  "languageAndResultsChecked": true,
+  "errors": [],
+  "limits": "CSS-only table presentation. No data/figures/answers changed; no PDF."
+}
