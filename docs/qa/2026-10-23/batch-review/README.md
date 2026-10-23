@@ -15,4 +15,4 @@ QA-BATCH-01（本地完成）：revision `a3bcf4f62d85c09f`，1,186題／七課�
 
 完整修復前快照、來源原文、逐位置裁定及hash：`content/imports/2026-10-23-batch-*.json`。294個來源／網站解析欄位仍有差異，不能把來源對照完成當作全庫解答已重算；六個來源問題／七個ID仍待補可靠來源。詳見 [批量記錄](../../../BATCH_SOURCE_REVIEW.md) 與 [接力計劃](../../../CONTENT_EXPANSION_PLAN.md)。
 
-QA-BATCH-02（正式站待驗收）：只有同revision的 `live-verification.json` 包含成功main部署、檔案SHA256及線上824次畫面／學習流程結果，才列正式發布完成。
+QA-BATCH-02（完成）：main `be59c6e6cec1681b190a15cc65146f2b4abceb8a`，Actions39941676802及Pages build39941708146成功。實際正式站revision `a3bcf4f62d85c09f`，143檔SHA256全部一致；206題×四寬度＝824次線上畫面／作答檢查及完整study-journey通過。發布證據見 `live-verification.json`、`live-answer-report.json`及`live-study-journey.log`。內容未驗證範圍仍依上述294個解析欄位及六項來源問題保留，沒有因部署成功而改成全部數學驗收完成。
