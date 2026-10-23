@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-23T08:52:12.378Z",
+  "baseUrl": "https://chester36963.github.io/eac-education/",
+  "releaseCommit": "dafc82c601a19187736405e69bb98bb149520607",
+  "workflowRunId": 39927062193,
+  "workflowConclusion": "success",
+  "contentRevision": "401aace4aac91429",
+  "totalQuestions": 1186,
+  "chapterCount": 7,
+  "deployedFileHashes": {
+    "checked": 112,
+    "algorithm": "SHA256",
+    "scope": "HTML entries, published bank/catalog/index/search/chunks, shared mathematics assets and 43 same-question SVGs",
+    "errors": []
+  },
+  "liveBrowserTests": [
+    {
+      "suite": "answer-review",
+      "checks": 156,
+      "result": "passed",
+      "report": "live-answer-report.json"
+    },
+    {
+      "suite": "study-journey",
+      "result": "passed",
+      "report": "live-study-journey.log"
+    }
+  ],
+  "limits": "494 old source/current semantic comparisons remain pending; seven held IDs represent six independent source problems. No PDF produced. No real-account/cloud-sync implementation."
+}
