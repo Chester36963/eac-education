@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "revision": "a3bcf4f62d85c09f",
+  "revision": "fad88dd11ec4014d",
   "totalQuestions": 1186,
   "chapterCount": 7,
   "catalog": "data/catalog.b21422ad96331fa8.json",
-  "index": "data/question-index.de39fe91e38fe5a2.json",
+  "index": "data/question-index.fd9cb1d39034db54.json",
   "search": [
     "data/search/four-centres.f01cd75ae8b18fcc.json",
     "data/search/four-centres.9ec759b599c6aac7.json",
@@ -39,16 +39,16 @@
     },
     {
       "topicId": "locus",
-      "path": "data/chapters/locus.405066b7fbf75542.json",
+      "path": "data/chapters/locus.420f791adabbd16d.json",
       "chunks": [
         "data/chapters/locus-chunk.97152affbc8a341d.json",
         "data/chapters/locus-chunk.2d42ed94591f6c2b.json",
         "data/chapters/locus-chunk.67a021f9205b9029.json",
         "data/chapters/locus-chunk.7413f46a03db6016.json",
         "data/chapters/locus-chunk.8b7b7ecaa5b81b7d.json",
-        "data/chapters/locus-chunk.da377bba19770958.json",
-        "data/chapters/locus-chunk.7b1b857da5255314.json",
-        "data/chapters/locus-chunk.5736d23f4111af48.json"
+        "data/chapters/locus-chunk.b9802f1b0eff1bbd.json",
+        "data/chapters/locus-chunk.4c491af95c0f5b10.json",
+        "data/chapters/locus-chunk.365df4e928f90a96.json"
       ],
       "questionCount": 225
     },
