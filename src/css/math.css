@@ -11,6 +11,10 @@ mjx-container:not([display="true"]) { display:inline-block;max-width:100%;overfl
 .practice-builder:not([open]) h1 { margin:0; font-size:20px; }
 .practice-builder:not([open]) .builder-toggle { margin-left:auto; }
 .answer-panel mjx-container[display="true"] { margin:.6em 0 !important; }
+/* Numbered/compound displays can overflow their paragraph even when each
+ * MathJax SVG scrolls locally. Keep the complete explanation reachable. */
+#solution-text { max-width:100%;overflow-x:auto;overflow-y:hidden; }
+#solution-text:focus-visible { outline:2px solid var(--ink-soft);outline-offset:4px; }
 .editorial-note { margin:18px 0; padding:10px 14px; border-left:2px solid var(--line); color:var(--ink-soft); font-size:12px; line-height:1.7; white-space:pre-line; }
 @media(max-width:650px){.question-reading-tools{flex-direction:column;gap:12px}.question-reading-tools label{align-self:flex-end}}
 @media(max-width:650px){.bank-refinements summary span.is-active{display:inline}}

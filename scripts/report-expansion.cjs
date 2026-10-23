@@ -15,22 +15,25 @@ const canonical=new Map(source.topics.flatMap(t=>t.categories.flatMap(c=>c.quest
 const reviews=['statistics','circle','circle-long'].flatMap(name=>read(`content/imports/2026-10-23-${name}-review.json`).records);
 const priorityFile='content/imports/2026-10-23-priority-math-review.json';
 const priorityReviews=fs.existsSync(priorityFile)?read(priorityFile).records:[];
-const pendingComparisons=494-priorityReviews.length;
-for(const r of [...reviews,...priorityReviews]){
+const batchFile='content/imports/2026-10-23-batch-source-review.json',batch=fs.existsSync(batchFile)?read(batchFile):null;
+const batchMathFile='content/imports/2026-10-23-batch-math-review.json',batchReviews=fs.existsSync(batchMathFile)?read(batchMathFile).records:[];
+const pendingComparisons=494-priorityReviews.length-(batch?.summary.promptAndOptionRowsComplete||0);
+const comparisonSummary=batch?`全部494項題幹／選項對照完成：39項前批獨立重算＋455項本批來源對照（427排版一致、28有明確語意裁定）；另有${batch.summary.solutionFieldsDifferent}個來源／網站解析欄位差異仍待完整覆核，不能把來源一致當作全庫答案證明`:`39項前批完成，仍有${pendingComparisons}項待裁定`;
+for(const r of [...reviews,...priorityReviews,...batchReviews]){
  const q=canonical.get(r.id);if(!q||r.questionSha256!==hash(JSON.stringify(q)))throw Error('Review no longer matches question: '+r.id);
  for(const a of r.figures||[])if(hash(fs.readFileSync('src/'+a.src))!==a.sha256)throw Error('Review no longer matches figure: '+a.src);
 }
-const reviewed=new Map([...reviews,...priorityReviews].map(r=>[r.id,r]));
+const reviewed=new Map([...reviews,...priorityReviews,...batchReviews].map(r=>[r.id,r]));
 const circleCount=source.topics.find(t=>t.id==='circle-equation').categories.reduce((n,c)=>n+c.questions.length,0),statisticsCount=64,newCount=circleCount+statisticsCount,additional=questions.length-853;
 const independentlyChecked=q=>reviewed.has(q.id)||q.topicId==='sequences'||['import-four-centres-q216','import-four-centres-q231','import-four-centres-q238'].includes(q.id)||mens.some(r=>r.id===q.id);
-const bank=read('src/data/bank.json'),releaseFile=fs.existsSync('docs/qa/2026-10-23/priority-review/live-verification.json')?'docs/qa/2026-10-23/priority-review/live-verification.json':'docs/qa/2026-10-23/answer-review/live-verification.json';
+const bank=read('src/data/bank.json'),releaseFile=['batch-review','priority-review','answer-review'].map(s=>`docs/qa/2026-10-23/${s}/live-verification.json`).find(p=>fs.existsSync(p));
 const release=fs.existsSync(releaseFile)?read(releaseFile):null;
 const published=release?.contentRevision===bank.revision&&release.workflowConclusion==='success'&&release.deployedFileHashes.errors.length===0&&release.liveBrowserTests.every(t=>t.result==='passed');
 if(priorityReviews.length){
  const priority=read('content/imports/2026-10-23-priority-source-review.json');
  write('docs/PRIORITY_SOURCE_REVIEW.md',`# 四心／軌跡來源差異覆核 · 2026-10-23
 
-SRC-PRIORITY-01：39項低相似度來源差異已逐題核對並獨立重算；原494項比較仍有${pendingComparisons}項未裁定。相似度只用於排先後，不當作正確證據。來源HTML SHA256、英中題文／解答、舊網站完整記錄均保留在 content/imports/2026-10-23-priority-source-review.json；逐題計算與現行題目hash在 priority-math-review.json。
+SRC-PRIORITY-01：39項低相似度來源差異已逐題核對並獨立重算。最新接力：${comparisonSummary}。相似度只用於排先後，不當作正確證據。來源HTML SHA256、英中題文／解答、舊網站完整記錄均保留在 content/imports/2026-10-23-priority-source-review.json；逐題計算與現行題目hash在 priority-math-review.json。批量接力見 [BATCH_SOURCE_REVIEW.md](BATCH_SOURCE_REVIEW.md)。
 
 本批修正Q187答案A→B，恢復30條原有題目的A–D選項及自動核對，題號和數值不變；分類修正${priority.records.filter(r=>r.classificationChanged).length}條。三個來源英文欄與中文／兩份解答不符，採用與既有題目身份一致的中文條件及選項作對應翻譯，沒有把不相關英文題混入。反射題另外重用同一ID於兩個來源位置，採用完整雙語q-mcq-set-39/3的選項順序，保留另位置的證據；不把同題不同選項順序誤算為新題。
 
@@ -46,7 +49,7 @@ MR-01 統計 64 題、MR-02 圓方程原選擇題 150 題（其中 1 題明示�
 
 逐題測試：tests/statistics-review.cjs、tests/circle-review.cjs、tests/circle-long-review.cjs。每條核對小問、分支、限制及聲稱；讀取原始表格數據的測試另檢查頻數和次序。機讀紀錄包含計算值、理由、雙語解答、完整題目 SHA256 和全部題圖 SHA256。正常測試在內容或圖變動時失敗，必須重新數學驗收；此報表亦先驗證 hash 才列完成。這不表示來源簡答已擴寫成完整評分準則。
 
-本次沒有重畫題圖；統計仍為 BC v5 的 64 題和 19 SVG。圖像來源核對見 [圖像證據](qa/2026-10-23/README.md)，實際作答與相容測試見 [本次瀏覽器報告](qa/2026-10-23/answer-review/report.json)。494 次舊四心／軌跡來源比較已另完成${priorityReviews.length}項，仍有${pendingComparisons}項待裁定，詳見 [來源差異覆核](PRIORITY_SOURCE_REVIEW.md)。
+本次沒有重畫題圖；統計仍為 BC v5 的 64 題和 19 SVG。圖像來源核對見 [圖像證據](qa/2026-10-23/README.md)，實際作答與相容測試見 [本次瀏覽器報告](qa/2026-10-23/answer-review/report.json)。${comparisonSummary}，詳見 [批量來源對照](BATCH_SOURCE_REVIEW.md)。本批另完成${batchReviews.length}個ID的明列獨立算式測試，並不把455個來源位置全算為數學驗收。
 
 ${table(['網站ID','狀態','獨立驗算依據','計算結果'],reviews.map(r=>[r.id,r.status,r.reason,JSON.stringify(r.calculated)]))}`);
 write('docs/CONTENT_EXPANSION_PLAN.md',`# EAC 題庫擴充與修復追蹤 · 2026-10-23
@@ -55,23 +58,24 @@ write('docs/CONTENT_EXPANSION_PLAN.md',`# EAC 題庫擴充與修復追蹤 · 202
 
 本批 canonical 題庫有 **${questions.length} 條獨立題、七課題**。853 條基線全部保留，增加 ${additional} 個 ID：${newCount} 條新來源題（圓方程 ${circleCount}＋統計 ${statisticsCount}）及 41 條新恢復舊題（四心 3＋軌跡 7＋數列 11＋度量 20）。不是 ${additional} 條全部新題。上一版的 1187 題減少 1：新圓題 Q37/2 與原待補 MC8 相同，均會導出半徑平方 −48，現一併暫停；並非移除基線題目。
 
-匯入、圖像及互動回歸已執行；已完成全部 **統計64題及圓方程228題** 的逐題獨立算式覆核，另有 ASGS21、四心3及度量20。舊四心／軌跡494次source/current差異已完成${priorityReviews.length}項獨立重算及語意裁定，仍有${pendingComparisons}項待處理，詳見 [來源差異覆核](PRIORITY_SOURCE_REVIEW.md)。不能把公式顯示通過當作全庫答案核實。逐題表把匯入與數學驗收分開列；[獨立計算清單](CONTENT_MATH_REVIEW.md)記錄292題理由、計算值及重現方式。正式發布版本另見 [IMPLEMENTATION_LOG.md](IMPLEMENTATION_LOG.md)。
+匯入、圖像及互動回歸已執行；已完成全部 **統計64題及圓方程228題** 的逐題獨立算式覆核，另有 ASGS21、四心3及度量20。${comparisonSummary}，詳見 [批量來源對照](BATCH_SOURCE_REVIEW.md)。不能把公式顯示通過當作全庫答案核實。逐題表把匯入與數學驗收分開列；[獨立計算清單](CONTENT_MATH_REVIEW.md)記錄292題理由、計算值及重現方式。正式發布版本另見 [IMPLEMENTATION_LOG.md](IMPLEMENTATION_LOG.md)。
 
 狀態固定使用：待處理／處理中／待驗收／完成／待補來源。數量由 canonical 資料及來源 manifest 生成；不要手改 generated src/data。
 
 ## 工作及批次
 
 ${table(['編號','工作／批次','狀態','實際證據與限制'],[
-['CT-01',`來源清單、815 條來源對照、${questions.length} 題清單`,'完成',`本文件三份附錄、來源 SHA256；494 次舊題比較已有${priorityReviews.length}項裁定，其餘${pendingComparisons}待處理`],
+['CT-01',`來源清單、815 條來源對照、${questions.length} 題清單`,'完成',`本文件三份附錄、來源 SHA256；${comparisonSummary}`],
 ['CT-02','B1：ASGS 23 條來源覆核','完成','tests/expansion-mathematics.cjs：21 獨立題定義域、全部根及整數邊界；23→21 而非原估22'],
-['CT-03','B1：四心 Q216/Q231/Q238 及 master 對照','待驗收','三題已恢復並有獨立算式測試；Q238 圖驗收；其餘 source/current 差異須逐題語意覆核'],
-['CT-04','B2：軌跡來源合併及待補修復','待驗收','7 個新恢復 ID；4 題待補來源；既有題差異仍需完整語意驗收'],
+['CT-03','B1：四心 Q216/Q231/Q238 及 master 對照','待驗收','三題已恢復並有獨立算式測試；Q238 圖驗收；本批題幹／選項對照完成；未獨立重算的解析差異仍單列待驗收'],
+['CT-04','B2：軌跡來源合併及待補修復','待驗收','7 個新恢復 ID；4 題待補來源；本批題幹／選項對照完成，保留書面改編及未重算解析限制'],
 ['CT-05','B3：圓方程230條來源','完成','228 題保留／2來源記錄待補（其中1條重複原MC8）；150原MCQ＋78長題獨立驗算；16項修復／限制澄清及本次網站驗收'],
 ['CT-06','B3：統計BC v5','完成','64題所有小問／19 SVG／Type0–9；64條獨立測試及題圖hash；全數中文簡答，390/1440實際解答畫面驗收'],
 ['CT-07','B2：原111暫存及度量','完成','原111：105 recover、2 duplicate、4 hold；另有風箏舊題重新暫停；20 度量題重建及計算紀錄'],
 ['CT-08','多區塊、別名、舊記錄相容','完成','tests/alias-migration.cjs；browser/imported-bank.cjs、language-recovery.cjs、study-journey.cjs'],
 ['CT-09','技術回歸及發布',published?'完成':'待驗收',published?`本次main ${release.releaseCommit.slice(0,7)}；Actions${release.workflowRunId}成功；正式站${release.deployedFileHashes.checked}檔SHA256一致；本次線上作答／學習流程回歸通過`:'本次正式發布待驗收；不可沿用不同revision的舊發布證據，實際測試結果見IMPLEMENTATION_LOG'],
-['CT-10','B5：低相似度來源差異39項',priorityReviews.length===39&&read('content/imports/2026-10-23-priority-source-review.json').records.every(r=>r.status==='完成')?'完成':'待驗收',`39項獨立重算、30題恢復來源選項、Q187改答案及分類修正；156次本地四寬度作答檢查完成；正式發布獨立見CT-09`]])}
+['CT-10','B5：低相似度來源差異39項',priorityReviews.length===39&&read('content/imports/2026-10-23-priority-source-review.json').records.every(r=>r.status==='完成')?'完成':'待驗收',`39項獨立重算、30題恢復來源選項、Q187改答案及分類修正；156次本地四寬度作答檢查完成；正式發布獨立見CT-09`],
+['CT-11','B6：餘下455來源位置批量對照',batch?'完成':'待處理',batch?`${comparisonSummary}；${read('content/imports/2026-10-23-batch-repairs.json').records.length}個現有ID批量修正；25個ID另有獨立算式核對；完整正式發布另見CT-09`:'待執行']])}
 
 本次採一個可回退的 main 發布批次，內容和 UI 在本地按 B1/B2/B3/B4 完成；沒有聲稱每個本地批次都曾獨立上線。
 
@@ -113,7 +117,7 @@ contentBlocks 可選 en／zh-Hant 有序段落、表格、題圖；solution／so
 
 - 前次圖像驗收：43獨立資產／86實際預覽，來源匹配證據保留。本次未重畫；新增瀏覽器報告逐題檢查統計64中文解答及圓題修正，並保留四寬度回歸。公式掃描最新數量及發布結果見IMPLEMENTATION_LOG，不能把前次48711次當作本次結果。
 - 已獨立算式驗證：ASGS21、Q216/Q231/Q238、度量20、統計64及圓方程228。[完整新課題算式紀錄](CONTENT_MATH_REVIEW.md)；正常測試驗證canonical與圖像hash。
-- 待驗收：原494次source/current差異尚餘${pendingComparisons}項語意裁定；其餘未列完成的舊題。比對包含來源選項內嵌與舊版拆欄的差異，不能依低相似度自動覆寫。
+- 來源對照與待驗收界線：${comparisonSummary}。其餘未列獨立計算完成的舊題仍待數學驗收；不能依低相似度自動覆寫。
 - 待補來源：上述6個來源問題／7個ID。新資料到達後以原ID修訂、補同題圖及獨立答案測試，重跑build、browser及圖像驗收。
 - UI完整規格／目前完成狀態：[UI_UX_ROADMAP.md](UI_UX_ROADMAP.md)。後續不可只看最後一則短日誌。
 

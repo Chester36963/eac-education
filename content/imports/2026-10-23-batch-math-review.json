@@ -1,0 +1,544 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "scope": "Explicit independent calculations only; source matches do not add mathematics QA",
+  "records": [
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "status": "完成",
+      "questionSha256": "a87e7b9dcde1b25daa16daac2ba2e8bbce88d51b2ab1def2611597fefe4ab9e2",
+      "reason": "Perpendicular bisector from equality of squared distances",
+      "calculated": {
+        "A": [
+          2,
+          1
+        ],
+        "B": [
+          6,
+          5
+        ],
+        "line": [
+          1,
+          1,
+          -7
+        ]
+      }
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "status": "完成",
+      "questionSha256": "7b77a6e99789b69778cb171850456c8b8e2aeb581bf34bf3ffaa5c01f7563cc2",
+      "reason": "Perpendicular bisector of (0,4),(4,0)",
+      "calculated": {
+        "A": [
+          0,
+          4
+        ],
+        "B": [
+          4,
+          0
+        ],
+        "line": [
+          1,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "status": "完成",
+      "questionSha256": "6c90d2a6e8fe432e5c9ca62e99b76ef6da5bd4d648788cde2bce4bdb5c7b7d74",
+      "reason": "Normalize the line normal; original C has distance 3/sqrt(5), not 3",
+      "calculated": {
+        "normalLength": 2.23606797749979,
+        "distance": 3,
+        "branches": [
+          [
+            2,
+            -1,
+            -5.708203932499369
+          ],
+          [
+            2,
+            -1,
+            7.708203932499369
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "status": "完成",
+      "questionSha256": "aee784e4054aa4870e6e2e7953eb8d330356a257420df089ba35f99d693d17c6",
+      "reason": "Fixed distance requires 2sqrt(5) in the unnormalized equation",
+      "calculated": {
+        "normalLength": 2.23606797749979,
+        "offset": 4.47213595499958
+      }
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "status": "完成",
+      "questionSha256": "f0bbfb320a452a9c49ee8619af603fe4d9a6d11f3e748703e6f79ea3cfa1a11a",
+      "reason": "Both angle bisectors of the axes are required",
+      "calculated": {
+        "A": [
+          1,
+          0,
+          0
+        ],
+        "B": [
+          0,
+          1,
+          0
+        ],
+        "branches": [
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "status": "完成",
+      "questionSha256": "fe497b0622b325cc087f86142a5f07e392ec2107a31ae4a567969f897677103a",
+      "reason": "Parallel lines have the midline y=5",
+      "calculated": {
+        "A": [
+          0,
+          1,
+          -2
+        ],
+        "B": [
+          0,
+          1,
+          -8
+        ],
+        "branches": [
+          [
+            0,
+            1,
+            -5
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "status": "完成",
+      "questionSha256": "3c9b48ad380709a54f7f7c31c684a8ad0efa9cf21ab0512cab877ddb7589b967",
+      "reason": "Equal-normal branches produce both coordinate axes",
+      "calculated": {
+        "A": [
+          1,
+          1,
+          0
+        ],
+        "B": [
+          1,
+          -1,
+          0
+        ],
+        "branches": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "status": "完成",
+      "questionSha256": "c8245119281e8b58f291dfa9386f6b7afb07609e214750f49d675ce9a9691f42",
+      "reason": "Diameter midpoint/radius and right-angle dot product, with undefined endpoints excluded",
+      "calculated": {
+        "A": [
+          1,
+          -3
+        ],
+        "B": [
+          1,
+          5
+        ],
+        "centre": [
+          1,
+          1
+        ],
+        "radius": 4,
+        "excludedEndpoints": [
+          [
+            1,
+            -3
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "status": "完成",
+      "questionSha256": "6e0071183542b9a7d61512d363d12e230f044603e0bd08222da4f5d9ef17d467",
+      "reason": "Diameter midpoint/radius and right-angle dot product, with undefined endpoints excluded",
+      "calculated": {
+        "A": [
+          0,
+          0
+        ],
+        "B": [
+          6,
+          0
+        ],
+        "centre": [
+          3,
+          0
+        ],
+        "radius": 3,
+        "excludedEndpoints": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "status": "完成",
+      "questionSha256": "b76ae03da501f3c2a10e0dde870740b759120bd2740f82efcd735d67780fd9ab",
+      "reason": "Diameter midpoint/radius and right-angle dot product, with undefined endpoints excluded",
+      "calculated": {
+        "A": [
+          -2,
+          1
+        ],
+        "B": [
+          4,
+          1
+        ],
+        "centre": [
+          1,
+          1
+        ],
+        "radius": 3,
+        "excludedEndpoints": [
+          [
+            -2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "status": "完成",
+      "questionSha256": "babd583d73964439d2441aad9f279d434e66b46e10a13d76aa6328e5d4205630",
+      "reason": "Substitute the translated point, not its inverse",
+      "calculated": {
+        "translation": [
+          3,
+          -2
+        ],
+        "line": [
+          1,
+          4,
+          -11
+        ]
+      }
+    },
+    {
+      "id": "import-locus-e9f39e27eb938616",
+      "status": "完成",
+      "questionSha256": "635622ca70dfacdf72e155c77e70ed072ae37ad13b12b4a315804c181ecb7f96",
+      "reason": "Reflection changes x sign; compare equivalent line equations",
+      "calculated": {
+        "image": "(-x,y)",
+        "line": [
+          3,
+          -2,
+          5
+        ]
+      }
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "status": "完成",
+      "questionSha256": "2010eddb9ab827a0535f5c509c4c529a386cdb5657c3329770c2f7ae0d1956be",
+      "reason": "Reflection in x-axis changes y sign",
+      "calculated": {
+        "image": "(x,-y)",
+        "line": [
+          2,
+          1,
+          7
+        ]
+      }
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "status": "完成",
+      "questionSha256": "5c086df8322201ec5f488fb752b99bd3b56e98a0e30a0533d46e52d68f9a459a",
+      "reason": "Focus/directrix distance equality is reversible after squaring nonnegative distances",
+      "calculated": {
+        "focus": [
+          0,
+          2
+        ],
+        "directrix": [
+          0,
+          1,
+          2
+        ],
+        "equation": "x^2=8y"
+      }
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "status": "完成",
+      "questionSha256": "1e239219e42f86be7e5a51f0a7ee62164b02fbb9e1f16ce9936766c04ca26642",
+      "reason": "Focus/directrix equality produces the sideways parabola",
+      "calculated": {
+        "focus": [
+          2,
+          0
+        ],
+        "directrix": [
+          1,
+          0,
+          2
+        ],
+        "equation": "y^2=8x"
+      }
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "status": "完成",
+      "questionSha256": "06cc8dc44137bdfc9fc058816dce03bee6bd12417baee1cb59f2fbe70c2a9946",
+      "reason": "Neither single coordinate axis is the complete two-branch locus",
+      "calculated": {
+        "A": [
+          4,
+          3,
+          0
+        ],
+        "B": [
+          4,
+          -3,
+          0
+        ],
+        "branches": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "status": "完成",
+      "questionSha256": "debe8f556680aec770dad8d2ccb3626b6e8b084d67e1bc73bd0519b399db141d",
+      "reason": "Source single bisector is incomplete; retain both exact branches",
+      "calculated": {
+        "A": [
+          2,
+          -1,
+          0
+        ],
+        "B": [
+          1,
+          2,
+          0
+        ],
+        "branches": [
+          [
+            1,
+            -3,
+            0
+          ],
+          [
+            3,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "status": "完成",
+      "questionSha256": "7db819c3df095d66d8e3ed2a9c8cdeacd235b192beee7ede329328c3865f25ca",
+      "reason": "None of the source choices is the perpendicular bisector",
+      "calculated": {
+        "A": [
+          -4,
+          4
+        ],
+        "B": [
+          2,
+          -2
+        ],
+        "line": [
+          1,
+          -1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "status": "完成",
+      "questionSha256": "f38800102ccd4316b40d2485c11a3bd02664fefcddbf4e8d570b820ebb253c4e",
+      "reason": "Circle centre is diameter midpoint on AB; source-order C=5 and alternate-order B=5",
+      "calculated": {
+        "centre": [
+          4,
+          3
+        ],
+        "radiusSquared": 4,
+        "k": 5,
+        "websiteAnswer": "C",
+        "alternateSourceAnswer": "B"
+      }
+    },
+    {
+      "id": "import-four-centres-q059",
+      "status": "完成",
+      "questionSha256": "50cad8d9d605b89925a993e58036bbcb76b77799929aa1328f2d2ef91a388956",
+      "reason": "Perpendicular directions, stated centre condition and unique valid MC option checked independently",
+      "calculated": {
+        "u": [
+          5,
+          2
+        ],
+        "v": [
+          2,
+          -5
+        ],
+        "scalarProduct": 0,
+        "answer": "B",
+        "centreConditionAndOptionsChecked": true
+      }
+    },
+    {
+      "id": "import-four-centres-q071",
+      "status": "完成",
+      "questionSha256": "e786076593fc3ebeeb59e8a1ed0d41ece646fbfe9f7dbe69af82d68294084558",
+      "reason": "Perpendicular directions, stated centre condition and unique valid MC option checked independently",
+      "calculated": {
+        "u": [
+          4,
+          7
+        ],
+        "v": [
+          -14,
+          8
+        ],
+        "scalarProduct": 0,
+        "answer": "D",
+        "centreConditionAndOptionsChecked": true
+      }
+    },
+    {
+      "id": "import-four-centres-q112",
+      "status": "完成",
+      "questionSha256": "dd18a9b8fd2c2f723a45ce555a16d880a403c6fcb967ed00d30aed288935c390",
+      "reason": "Perpendicular directions, stated centre condition and unique valid MC option checked independently",
+      "calculated": {
+        "u": [
+          -5,
+          2
+        ],
+        "v": [
+          2,
+          5
+        ],
+        "scalarProduct": 0,
+        "answer": "C",
+        "centreConditionAndOptionsChecked": true
+      }
+    },
+    {
+      "id": "import-four-centres-q113",
+      "status": "完成",
+      "questionSha256": "b1c9bb2e15d03eff6844dc968a7050b4a4933a2759c98adad23f096ecc4cfa1e",
+      "reason": "Perpendicular directions, stated centre condition and unique valid MC option checked independently",
+      "calculated": {
+        "u": [
+          -5,
+          -4
+        ],
+        "v": [
+          4,
+          -5
+        ],
+        "scalarProduct": 0,
+        "answer": "A",
+        "centreConditionAndOptionsChecked": true
+      }
+    },
+    {
+      "id": "import-four-centres-q089",
+      "status": "完成",
+      "questionSha256": "e0f182f2ba7ccd4c1c0dccb6a210df6ac0e53b3dad530c19fd6b75a052a37a17",
+      "reason": "Direction ratio 4:3 gives sine 3/5 and chord 2R sin(theta)=18",
+      "calculated": {
+        "direction": [
+          4,
+          3
+        ],
+        "sine": 0.6,
+        "circumradius": 15,
+        "chord": 18
+      }
+    },
+    {
+      "id": "import-four-centres-q076",
+      "status": "完成",
+      "questionSha256": "6a8dafa269b7862d63adf1eaf971f421a432e7f76722a53c0e41a10a02bc0d77",
+      "reason": "Check altitude and both possible distance branches under 0<k<1",
+      "calculated": {
+        "k": 0.7071067811865475,
+        "orthocentre": [
+          0,
+          2.0000000000000004
+        ],
+        "OA": 1,
+        "AD": 1,
+        "rejectedDegenerateK": 0
+      }
+    }
+  ]
+}

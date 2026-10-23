@@ -1,5 +1,19 @@
 # Implementation record
 
+
+## B6 bulk source comparisons and repairs — 23 October 2026
+
+Status LOG-20261023-BATCH: 本地完成；正式發布待驗收。Content revision a3bcf4f62d85c09f, 1,186 questions / seven chapters. This entry supersedes the older pending-455 descriptions. Detailed per-row work remains in [BATCH_SOURCE_REVIEW.md](BATCH_SOURCE_REVIEW.md), [CONTENT_EXPANSION_PLAN.md](CONTENT_EXPANSION_PLAN.md) and the unchanged eleven-part [UI_UX_ROADMAP.md](UI_UX_ROADMAP.md).
+
+- Batched all remaining455 source rows by ID plus original locator:427 bilingual prompt/option presentation matches and28 explicit semantic decisions across428 unique IDs. Together with the previous39, all494 prompt/option comparisons are accounted for; duplicate source locations are not new questions. Full source snapshots and SHA256 evidence are retained.
+- Actually repaired206 existing IDs:26 Chinese choice wordings,77 duplicate English template headings in Chinese solutions,97 source navigation/answer headers,15 independently derived bilingual practice explanations,5 direction/scalar-product wording errors, two Chinese formula/subpart layouts and six actual skill-classification changes. These categories overlap;206 is the deduplicated total. Source-brief warnings are removed only for the15 newly derived and independently checked explanations.
+- Found a real source error: fixed distance3 from2x-y+1=0 requires an unnormalized offset3√5; originalC gave distance3/√5. Preserve original conditions and original choices in the before-snapshot, keep the same ID, and explicitly use written solution comparison instead of inventing a corrected MC option. Other incomplete/broken source choices remain transparently written. The k=5 duplicate has sourceB versus existingC only because the choices are reordered; no incorrect key change was made.
+- Independent calculations for25 IDs are hash-bound in batch-math-review.json and tests/batch-source-review.cjs. This includes all15 new explanations, invalid-choice branch checks, k=5, and complete centre/option checks for the repaired geometry wording. Source equality alone never sets mathematics QA to complete.
+- Actual validation:853 Node tests passed; build consistency and git diff whitespace checks passed. All1,186 questions passed48,812 formula-render checks with zero errors. The actual question/solution suite checked206 IDs at320/390/768/1440px,824 views, plus real grading, language switches, preserved oldMC draft/history/bookmark/resume and manual self-assessment. A newly exposed Q196 long-solution page overflow was fixed with keyboard-reachable local scrolling and the complete824-view suite rerun successfully.
+- Original853 IDs and previous published1,186 IDs were read from Git and all remain. No student-facing diagram assets changed and no PDF was produced; actual mobile screenshot detail crops are audit evidence only.
+
+Limits:616 of910 source/current solution fields match after explicit presentation/header normalization;294 still differ in detail, derivation, source brief or formatting and remain individually pending comparison. They are not294 known wrong questions, and this batch does not claim all remaining old solutions independently proven. Six unresolved source problems/seven IDs remain held. Real accounts/cloud sync and real-device student usability observations remain outside these completed checks. [Local evidence](qa/2026-10-23/batch-review/README.md).
+
 ## Priority source discrepancies and restored choices — 23 October 2026
 
 Status LOG-20261023-PRIORITY: 本地內容、作答及正式發布驗收完成。Revision `b12f375162729ec6`, unchanged1,186 questions/seven chapters. [Priority source review](PRIORITY_SOURCE_REVIEW.md) records39 adjudicated source/current differences;455 of the original494 remain pending. [Full scope](CONTENT_EXPANSION_PLAN.md) and [UI/UE handoff](UI_UX_ROADMAP.md) remain the authoritative follow-up lists.
