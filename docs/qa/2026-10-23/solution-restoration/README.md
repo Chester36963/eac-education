@@ -10,4 +10,4 @@ QA-SOL-01（完成）：revision `fad88dd11ec4014d`，1,186題／七課題。恢
 
 獨立計算見 `content/imports/2026-10-23-solution-math-review.json`；37條修改前完整記錄、來源locator及hash見 `solution-restoration.json`。逐題結果見 [B7完整記錄](../../../SOLUTION_RESTORATION.md)。來源文字相同與答案獨立推導分開，不會將257個仍待覆核的解析欄位標成完成；六項來源問題／七個ID維持待補。
 
-QA-SOL-02（正式站待驗收）：須同revision的成功main發布、實際檔案SHA256比對、線上148次作答畫面及study-journey通過，才列正式站完成。不能沿用B6的舊發布結果。瀏覽器測試為Chromium viewport，不等同實體手機或真實學生觀察。沒有修改學生圖像，沒有PDF輸出。
+QA-SOL-02（完成）：合併發布main `a9bad6951bc4f113de018cc20485a585de273077`，Actions39960858337及Pages39960896342成功。143檔正式站SHA256全部一致；正式站148次解析檢查、176次統計表格檢查及完整study-journey全部通過。證據為live-verification.json、live-answer-report.json、live-table-report.json及live-study-journey.log。首輪較早發布的live學習流程曾在課題跳轉超時，保留initial-live-study-journey-timeout.log；最終合併發布已完整重跑通過，沒有跳過該課題。瀏覽器測試為Chromium viewport，不等同實體手機或真實學生觀察。沒有修改學生圖像，沒有PDF輸出。

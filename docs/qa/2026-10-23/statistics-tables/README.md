@@ -9,6 +9,6 @@ QA-TABLE-01（本地完成）：使用者指出表格上面數量標題沒有框
 - local-browser.log、local-study-journey.log：統計表格及完整開始溫習／錯題／續做／同題圖流程通過。
 - 人工檢查r39a數量／頻數表、r01b幹葉圖和r45a比較表的實際手機畫面，確認頂列亦有框、數字及葉向左排列。寬比較表在手機可局部橫向捲動；完整畫面及閱讀用裁片已保存，並非替代學生題圖。
 
-QA-TABLE-02（正式站待驗收）：須最新main部署的math.css SHA256一致，並通過正式站176次檢查。與B7的37條解析／148次畫面及study-journey一起發布，證據見 ../solution-restoration/live-verification.json 及live-table-report.json；不可因本地通過就列正式站完成。
+QA-TABLE-02（完成）：合併main `a9bad6951bc4f113de018cc20485a585de273077`，Actions39960858337及Pages39960896342成功。正式站math.css及其他142檔SHA256均與本地一致；線上176次表格檢查、B7的148次解析及完整study-journey全部通過。正式站實際數量表亦人工檢視，保存為live-r39a-tables.png。證據見live-report.json及 ../solution-restoration/live-verification.json、live-table-report.json。
 
 此修改沒有新題圖或PDF；原統計64題／19SVG及數學來源驗收保持有效，不把未改動圖像宣稱成今次新重畫。全部課題總數維持1,186。
