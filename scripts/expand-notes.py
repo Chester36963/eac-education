@@ -72,6 +72,30 @@ def fingerprint(value):
     return re.sub(r'[^a-z0-9\u3400-\u9fff]', '', value.lower())
 
 
+def mcq_stem_text(node):
+    body = node.select_one('.mcq-stem-body,.mcq-stem,.official-item-body')
+    if body is None:
+        return ''
+    if node.select_one('.official-item-body'):
+        body = copy.deepcopy(body)
+        for unwanted in body.select('.official-options,figure'):
+            unwanted.decompose()
+        return text(body)
+    extra = [text(p) for p in node.select(':scope > p, :scope > .statement-list, :scope > .math-block')]
+    return text(body) + ('\n' + '\n'.join(extra) if extra else '')
+
+
+def shared_reference_body(en_body, zh_body):
+    # Some source English prompts refer to an equation printed only in Chinese.
+    if en_body is None or not re.search(r'displayed equation', text(en_body), re.I):
+        return en_body
+    result = copy.deepcopy(en_body)
+    for block in zh_body.select('.math-block') if zh_body else []:
+        if text(block) not in text(result):
+            result.append(copy.deepcopy(block))
+    return result
+
+
 def balanced(value):
     stack = []
     for t in re.findall(r'\\[()\[\]]', value):
@@ -224,16 +248,14 @@ class Importer:
                 zh_body = (zh_node.select_one('.mcq-stem-body') or zh_node.select_one('.mcq-stem') or zh_node.select_one('.official-item-body')) if number else zh_node
                 if en_body is None or zh_body is None:
                     continue
+                if not number:
+                    en_body = shared_reference_body(en_body, zh_body)
                 stem, stem_zh = text(en_body), text(zh_body)
                 parsed_options = {}
                 if number:
                     for code, node, value in [('en', en_node, stem), ('zh', zh_node, stem_zh)]:
                         options = {k: re.sub(r'^[A-D][.)]\s*', '', text(v)) for k, v in zip('ABCD', node.select('.mcq-option,.official-option'))}
-                        if node.select_one('.official-item-body'):
-                            body_copy = copy.deepcopy(node.select_one('.official-item-body'))
-                            for unwanted in body_copy.select('.official-options,figure'):
-                                unwanted.decompose()
-                            value = text(body_copy)
+                        value = mcq_stem_text(node)
                         if not value or not options:
                             raw = text(node)
                             match = re.search(r'(?<!\w)A\.\s+([\s\S]*?)\s+B\.\s+([\s\S]*?)\s+C\.\s+([\s\S]*?)\s+D\.\s+([\s\S]*)', raw)

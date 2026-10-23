@@ -1,5 +1,17 @@
 # Implementation record
 
+## Independent answer review and source repairs — 23 October 2026
+
+Status LOG-20261023-ANS: 本地內容與作答驗收完成；本次正式發布待驗收。Content revision `401aace4aac91429`, 1,186 published questions across seven chapters. This dated entry supersedes the previous 1,187 count. Full per-question evidence: [CONTENT_MATH_REVIEW.md](CONTENT_MATH_REVIEW.md); scope and unresolved sources: [CONTENT_EXPANSION_PLAN.md](CONTENT_EXPANSION_PLAN.md); eleven interface requirements: [UI_UX_ROADMAP.md](UI_UX_ROADMAP.md).
+
+- Independently recalculated all 64 statistics and 228 published circle-equation questions; tests bind each reviewed bilingual record and figure bytes to SHA256. All 64 statistics briefs now have Traditional Chinese answers, retaining the source-brief notice and original numerical results.
+- Completed 15 published circle corrections/clarifications: wrong key B→A; invalid-options chord question explicitly adapted to a written comparison with the same ID and numbers; missing shared data, I/II/III statements and equations recovered; both tangent branches retained; Thales endpoints, ratio branches and degenerate circle domains clarified. Original content and reasons remain in `content/imports/2026-10-23-circle-corrections.json`.
+- One duplicate impossible circle question is now held: k=4 gives radius squared −48, matching an already held locus source. This leaves seven held IDs representing six source problems. No source conditions were invented. The 853 original IDs remain published; totals reconcile as 857 legacy unique +37 existing originals +292 new-source =1,186.
+- Actual checks: 331 Node tests passed; two local-source Python importer regressions passed; build consistency passed; all 1,186 questions passed 48,761 formula-render checks. The actual answer-page suite passed 156 viewport/question checks, including all statistics Chinese answers, seven circle repairs at 320/390/768/1440px, corrected grading, written self-assessment, preserved history/bookmarks/drafts/resume, and held-question search exclusion. Study-journey regression passed.
+- Final screenshots reviewed at readable size: corrected key, written adaptation, statistics R14/R44, circle Q39/4, Q65, Q76 and Q96. No student-facing diagram assets changed this batch; prior same-source figure evidence remains valid for unchanged assets. Q76's long displayed equation uses a local horizontal scroll container; browser inspection confirmed both language equations can scroll to their ends at390px. No page overflow or formula errors. No PDF was produced.
+
+Evidence: [Answer review](qa/2026-10-23/answer-review/README.md). Remaining work includes semantic adjudication of494 old four-centres/locus source comparisons and six unresolved source problems. Authentication/cloud sync remain outside the implemented browser-local prototype. Publication evidence will be appended only after the matching main deployment and live tests pass.
+
 ## Content expansion and shared mathematics instruments — 23 October 2026
 
 Status LOG-20261023-EXP: 技術實作／回歸／正式發布完成；完整內容數學驗收仍有下述待辦。Content revision `bb6b7d30233c8fd4`. This entry supersedes older current-count and static-art descriptions; the historical entries remain dated evidence. Full scope, source versions/hashes, per-row outcomes and unresolved work live in [CONTENT_EXPANSION_PLAN.md](CONTENT_EXPANSION_PLAN.md); the complete eleven-part interface handoff is [UI_UX_ROADMAP.md](UI_UX_ROADMAP.md).

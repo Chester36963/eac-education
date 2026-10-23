@@ -1257,8 +1257,8 @@
         },
         {
           "id": "note-circle-equation-q05-4",
-          "stem": "For the same circle, find the greatest distance from \\(F(-3,6)\\) to a point on the circle.",
-          "stemZh": "同一圓上距離點 \\(F(-3,6)\\) 最遠的點，與 \\(F\\) 的距離是甚麼？",
+          "stem": "A circle has centre \\(G(3,-2)\\) and radius 5. Find the greatest distance from \\(F(-3,6)\\) to a point on the circle.",
+          "stemZh": "圓心為 \\(G(3,-2)\\)，半徑為 5。求點 \\(F(-3,6)\\) 到圓上各點的最大距離。",
           "solution": "Q4. \\(GF=10\\), so the farthest distance is \\(10+5=15\\). Answer C.",
           "solutionZh": "Q4. \\(GF=10\\)，最遠距離 \\(=10+5=15\\)。答案 C。",
           "subcategory": "standard-form",
@@ -1273,7 +1273,8 @@
             "edition": "circle-equation-2026-10-23",
             "section": "q-Q05",
             "item": 4,
-            "title": "Q05. MCQ Set 05: Point Position And Extreme Distance"
+            "title": "Q05. MCQ Set 05: Point Position And Extreme Distance",
+            "contextRestored": "Centre G(3,-2), radius 5 copied from the same source Q05 items 1/3 so this question works independently."
           },
           "options": {
             "A": "\\(5\\)",
@@ -1292,13 +1293,13 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "For the same circle, find the greatest distance from \\(F(-3,6)\\) to a point on the circle."
+                "text": "A circle has centre \\(G(3,-2)\\) and radius 5. Find the greatest distance from \\(F(-3,6)\\) to a point on the circle."
               }
             ],
             "zh-Hant": [
               {
                 "type": "paragraph",
-                "text": "同一圓上距離點 \\(F(-3,6)\\) 最遠的點，與 \\(F\\) 的距離是甚麼？"
+                "text": "圓心為 \\(G(3,-2)\\)，半徑為 5。求點 \\(F(-3,6)\\) 到圓上各點的最大距離。"
               }
             ]
           }
@@ -1356,8 +1357,8 @@
           "id": "note-circle-equation-official-mcq-equation-audit-2",
           "stem": "27.Denote the circle \\(x^2+y^2+4x-12y+15=0\\) by \\(C\\). Which of the following is/are true?\nI.The area of \\(C\\) is \\(25\\pi\\).II.The point \\((-3,3)\\) lies outside \\(C\\).III.The centre of \\(C\\) lies in the fourth quadrant.",
           "stemZh": "27.設圓 \\(x^2+y^2+4x-12y+15=0\\) 為 \\(C\\)。以下哪些正確？\nI.\\(C\\) 的面積為 \\(25\\pi\\)。II.點 \\((-3,3)\\) 在 \\(C\\) 外。III.\\(C\\) 的圓心在第四象限。",
-          "solution": "Answer: B.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
-          "solutionZh": "答案：B。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。",
+          "solution": "Answer A (I only). Completing the square gives \\((x+2)^2+(y-6)^2=25\\): centre \\((-2,6)\\), radius 5, area \\(25\\pi\\). The point \\((-3,3)\\) has squared distance \\(1+9=10<25\\) from the centre and is inside. The centre is in quadrant II. Thus II and III are false. The supplied note’s answer B was corrected by independent calculation.",
+          "solutionZh": "答案 A（只有 I）。配方得 \\((x+2)^2+(y-6)^2=25\\)，圓心為 \\((-2,6)\\)，半徑為 5，面積為 \\(25\\pi\\)。點 \\((-3,3)\\) 到圓心的距離平方為 \\(1+9=10<25\\)，所以在圓內；圓心位於第二象限。因此 II、III 均不正確。來源筆記的答案 B 已按獨立計算更正。",
           "subcategory": "standard-form",
           "skill": "circle-equation-standard-form",
           "questionType": "mcq",
@@ -1384,7 +1385,7 @@
             "C": "只有 I 及 III",
             "D": "只有 II 及 III"
           },
-          "answer": "B",
+          "answer": "A",
           "contentBlocks": {
             "en": [
               {
@@ -2714,13 +2715,13 @@
         },
         {
           "id": "note-circle-equation-teacher-mcq-chord-transfer-3",
-          "stem": "Teacher 5** Transfer EThe line \\(3x+4y-18=0\\) cuts the circle \\(x^2+y^2-10x+2y-14=0\\) in a chord. What is the chord midpoint?",
-          "stemZh": "Teacher 5** Transfer E直線 \\(3x+4y-18=0\\) 截圓 \\(x^2+y^2-10x+2y-14=0\\) 成一條弦。弦中點是甚麼？",
-          "solution": "Answer: B.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
-          "solutionZh": "答案：B。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。",
+          "stem": "The line \\(3x+4y-18=0\\) cuts the circle \\(x^2+y^2-10x+2y-14=0\\) in a chord. Find the chord midpoint and show your working.\n\nEditorial note: none of the supplied multiple-choice options is correct. This written-response adaptation retains all original numerical conditions.",
+          "stemZh": "直線 \\(3x+4y-18=0\\) 截圓 \\(x^2+y^2-10x+2y-14=0\\) 成一條弦。求弦中點的坐標，並列出計算。\n\n編輯說明：來源的四個選項均不正確。本版改為書面作答，保留原題全部數值條件。",
+          "solution": "The centre is \\(G(5,-1)\\). The midpoint M is the perpendicular foot from G to the chord line. Write \\(M=(5,-1)+t(3,4)\\). Substitution gives \\(15+9t-4+16t-18=0\\), hence \\(t=7/25\\) and \\(M=(146/25,3/25)\\). Check: \\(3(146/25)+4(3/25)=18\\); GM is parallel to the line normal (3,4). None of the supplied options equals M. Original conditions retained; no distractor was changed.",
+          "solutionZh": "圓心為 \\(G(5,-1)\\)。圓心至弦中點的連線垂直於弦，所以中點 M 是 G 到弦所在直線的垂足。設 \\(M=(5,-1)+t(3,4)\\)，代入弦方程得 \\(15+9t-4+16t-18=0\\)，故 \\(t=7/25\\)，中點為 \\(M=(146/25,3/25)\\)。回代：\\(3(146/25)+4(3/25)=18\\)，且 GM 平行於法向量 (3,4)。來源四個選項均不等於 M；本版保留條件改作書面題，沒有改動干擾選項。",
           "subcategory": "chords",
           "skill": "circle-equation-chords",
-          "questionType": "mcq",
+          "questionType": "structured",
           "difficulty": "medium",
           "minForm": 4,
           "source": "UseHomework / 功課 · Format4 questions, 4 answer routes · RuleOfficial questions remain inside the skill stage",
@@ -2730,32 +2731,20 @@
             "edition": "circle-equation-2026-10-23",
             "section": "q-teacher-mcq-chord-transfer",
             "item": 3,
-            "title": "Chord Transfer: Centre, Midpoint And Diameter"
+            "title": "Chord Transfer: Centre, Midpoint And Diameter",
+            "adaptation": "Original conditions retained; invalid MCQ converted to written response. Original options/key: content/imports/2026-10-23-circle-corrections.json."
           },
-          "options": {
-            "A": "\\( (5,-1) \\)",
-            "B": "\\( (6,0) \\)",
-            "C": "\\( (4,\\frac{3}{2}) \\)",
-            "D": "\\( (\\frac{24}{5},\\frac{9}{10}) \\)"
-          },
-          "optionsZh": {
-            "A": "\\( (5,-1) \\)",
-            "B": "\\( (6,0) \\)",
-            "C": "\\( (4,\\frac{3}{2}) \\)",
-            "D": "\\( (\\frac{24}{5},\\frac{9}{10}) \\)"
-          },
-          "answer": "B",
           "contentBlocks": {
             "en": [
               {
                 "type": "paragraph",
-                "text": "Teacher 5** Transfer EThe line \\(3x+4y-18=0\\) cuts the circle \\(x^2+y^2-10x+2y-14=0\\) in a chord. What is the chord midpoint?"
+                "text": "The line \\(3x+4y-18=0\\) cuts the circle \\(x^2+y^2-10x+2y-14=0\\) in a chord. Find the chord midpoint and show your working.\n\nEditorial note: none of the supplied multiple-choice options is correct. This written-response adaptation retains all original numerical conditions."
               }
             ],
             "zh-Hant": [
               {
                 "type": "paragraph",
-                "text": "Teacher 5** Transfer E直線 \\(3x+4y-18=0\\) 截圓 \\(x^2+y^2-10x+2y-14=0\\) 成一條弦。弦中點是甚麼？"
+                "text": "直線 \\(3x+4y-18=0\\) 截圓 \\(x^2+y^2-10x+2y-14=0\\) 成一條弦。求弦中點的坐標，並列出計算。\n\n編輯說明：來源的四個選項均不正確。本版改為書面作答，保留原題全部數值條件。"
               }
             ]
           },
@@ -3532,8 +3521,8 @@
         },
         {
           "id": "note-circle-equation-q32-4",
-          "stem": "For the line \\(x+2y=k\\) and circle \\(x^2+y^2=25\\), which statements are true?",
-          "stemZh": "直線 \\(x+2y=k\\) 與圓 \\(x^2+y^2=25\\) 的關係如下：",
+          "stem": "For the line \\(x+2y=k\\) and circle \\(x^2+y^2=25\\), which statements are true?\n\nI. When \\(k=0\\), the chord is a diameter.\nII. When \\(|k|=5\\sqrt{5}\\), the line is tangent.\nIII. When \\(|k|>5\\sqrt{5}\\), there are two intersections.",
+          "stemZh": "直線 \\(x+2y=k\\) 與圓 \\(x^2+y^2=25\\) 的關係如下：\n\nI. 當 \\(k=0\\) 時，截得直徑。\nII. 當 \\(|k|=5\\sqrt{5}\\) 時，直線為切線。\nIII. 當 \\(|k|>5\\sqrt{5}\\) 時，有兩個交點。",
           "solution": "Q4. The distance is \\(|k|/\\sqrt{5}\\). I passes through the centre, II has distance equal to the radius, and III is separate. Answer C.",
           "solutionZh": "Q4. 距離為 \\(\\frac{|k|}{\\sqrt5}\\)。I 通過圓心，II 距離等於半徑，III 距離大於半徑而相離。答案 C。",
           "subcategory": "chords",
@@ -3548,7 +3537,8 @@
             "edition": "circle-equation-2026-10-23",
             "section": "q-Q32",
             "item": 4,
-            "title": "Q32. MCQ Set 08D: Intersection Midpoint And Statement Challenge"
+            "title": "Q32. MCQ Set 08D: Intersection Midpoint And Statement Challenge",
+            "contextRestored": "Three sibling statement paragraphs restored from source q-Q32/4."
           },
           "options": {
             "A": "I only",
@@ -3567,13 +3557,13 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "For the line \\(x+2y=k\\) and circle \\(x^2+y^2=25\\), which statements are true?"
+                "text": "For the line \\(x+2y=k\\) and circle \\(x^2+y^2=25\\), which statements are true?\n\nI. When \\(k=0\\), the chord is a diameter.\nII. When \\(|k|=5\\sqrt{5}\\), the line is tangent.\nIII. When \\(|k|>5\\sqrt{5}\\), there are two intersections."
               }
             ],
             "zh-Hant": [
               {
                 "type": "paragraph",
-                "text": "直線 \\(x+2y=k\\) 與圓 \\(x^2+y^2=25\\) 的關係如下："
+                "text": "直線 \\(x+2y=k\\) 與圓 \\(x^2+y^2=25\\) 的關係如下：\n\nI. 當 \\(k=0\\) 時，截得直徑。\nII. 當 \\(|k|=5\\sqrt{5}\\) 時，直線為切線。\nIII. 當 \\(|k|>5\\sqrt{5}\\) 時，有兩個交點。"
               }
             ]
           }
@@ -4496,8 +4486,8 @@
         },
         {
           "id": "note-circle-equation-q31-4",
-          "stem": "Two circles have two intersection points. Which statements are true?",
-          "stemZh": "兩圓有兩個交點。判斷以下敘述：",
+          "stem": "Two circles have two intersection points. Which statements are true?\n\nI. The line obtained by subtracting their equations passes through both intersection points.\nII. The line joining the centres bisects the common chord.\nIII. The common chord is perpendicular to the line joining the centres.\n\nFor statement I, first normalize both circle equations so that the coefficients of x² and y² are 1.",
+          "stemZh": "兩圓有兩個交點。判斷以下敘述：\n\nI. 兩圓方程相減所得直線必通過兩個交點。\nII. 兩圓心的連線平分公共弦。\nIII. 公共弦垂直於兩圓心的連線。\n\n就敘述 I，先把兩圓方程化為 x² 及 y² 係數均為 1 的形式，再相減。",
           "solution": "Q4. With two intersections, equation subtraction gives the common chord. The centre line is perpendicular to, and bisects, that chord. All three are true. Answer D.",
           "solutionZh": "Q4. 有兩交點時，相減線就是公共弦；圓心連線垂直並平分公共弦。三句皆正確。答案 D。",
           "subcategory": "chords",
@@ -4512,7 +4502,8 @@
             "edition": "circle-equation-2026-10-23",
             "section": "q-Q31",
             "item": 4,
-            "title": "Q31. MCQ Set 07B: Two Circles And Common Chord Homework"
+            "title": "Q31. MCQ Set 07B: Two Circles And Common Chord Homework",
+            "contextRestored": "Three sibling statement paragraphs restored from source q-Q31/4; normalization convention made explicit."
           },
           "options": {
             "A": "I only",
@@ -4531,13 +4522,13 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "Two circles have two intersection points. Which statements are true?"
+                "text": "Two circles have two intersection points. Which statements are true?\n\nI. The line obtained by subtracting their equations passes through both intersection points.\nII. The line joining the centres bisects the common chord.\nIII. The common chord is perpendicular to the line joining the centres.\n\nFor statement I, first normalize both circle equations so that the coefficients of x² and y² are 1."
               }
             ],
             "zh-Hant": [
               {
                 "type": "paragraph",
-                "text": "兩圓有兩個交點。判斷以下敘述："
+                "text": "兩圓有兩個交點。判斷以下敘述：\n\nI. 兩圓方程相減所得直線必通過兩個交點。\nII. 兩圓心的連線平分公共弦。\nIII. 公共弦垂直於兩圓心的連線。\n\n就敘述 I，先把兩圓方程化為 x² 及 y² 係數均為 1 的形式，再相減。"
               }
             ]
           }
@@ -4886,8 +4877,8 @@
           "id": "note-circle-equation-q10-4",
           "stem": "\\(A=(-4,0)\\), \\(B=(4,0)\\), and \\(\\angle APB=90^\\circ\\). Find the locus of \\(P\\).",
           "stemZh": "\\(A=(-4,0)\\)、\\(B=(4,0)\\)，且 \\(\\angle APB=90^\\circ\\)。求 \\(P\\) 的軌跡。",
-          "solution": "Q4. A right angle subtends diameter \\(AB\\), giving \\(x^2+y^2=16\\). Answer C.",
-          "solutionZh": "Q4. 直角所對的 \\(AB\\) 是直徑；圓心原點、半徑 4。答案 C。",
+          "solution": "By Thales' theorem, the locus is \\(x^2+y^2=16\\), excluding \\(A=(-4,0)\\) and \\(B=(4,0)\\), where the angle is undefined. Answer C.",
+          "solutionZh": "由圓周角定理，軌跡為 \\(x^2+y^2=16\\)，但不包括 \\(A=(-4,0)\\) 及 \\(B=(4,0)\\)，因為在端點的角未有定義。答案 C。",
           "subcategory": "circle-loci",
           "skill": "circle-equation-circle-loci",
           "questionType": "mcq",
@@ -4900,18 +4891,19 @@
             "edition": "circle-equation-2026-10-23",
             "section": "q-Q10",
             "item": 4,
-            "title": "Q10. MCQ Set 10: Locus: Circle Or Not A Circle"
+            "title": "Q10. MCQ Set 10: Locus: Circle Or Not A Circle",
+            "domainClarified": "Endpoints excluded because angle APB is undefined there; original numerical conditions unchanged."
           },
           "options": {
             "A": "\\(x^2+y^2=4\\)",
             "B": "\\(x^2+y^2=8\\)",
-            "C": "\\(x^2+y^2=16\\)",
+            "C": "\\(x^2+y^2=16\\) (excluding A and B)",
             "D": "\\(x=0\\)"
           },
           "optionsZh": {
             "A": "\\(x^2+y^2=4\\)",
             "B": "\\(x^2+y^2=8\\)",
-            "C": "\\(x^2+y^2=16\\)",
+            "C": "\\(x^2+y^2=16\\)（不包括 A、B）",
             "D": "\\(x=0\\)"
           },
           "answer": "C",
@@ -5755,54 +5747,6 @@
           }
         },
         {
-          "id": "note-circle-equation-q37-2",
-          "stem": "Points \\(A,B\\) lie on \\(x^2+y^2+kx-8y+68=0\\). The locus of \\(PA=PB\\) is \\(3x-y+10=0\\). Find \\(k\\).",
-          "stemZh": "點 \\(A,B\\) 在圓 \\(x^2+y^2+kx-8y+68=0\\) 上，且 \\(PA=PB\\) 的軌跡為 \\(3x-y+10=0\\)。求 \\(k\\)。",
-          "solution": "Q2. The centre \\((-k/2,4)\\) lies on the perpendicular bisector \\(3x-y+10=0\\). Hence \\(k=4\\). Answer D.",
-          "solutionZh": "Q2. 圓心為 \\((-k/2,4)\\)，它在弦 \\(AB\\) 的垂直平分線 \\(3x-y+10=0\\) 上。代入得 \\(k=4\\)。答案 D。",
-          "subcategory": "circle-loci",
-          "skill": "circle-equation-circle-loci",
-          "questionType": "mcq",
-          "difficulty": "medium",
-          "minForm": 4,
-          "source": "RoleChallenge / 5** 挑戰 · SourceVerified locus-bank reverse-construction patterns · ConceptsM12D · reverse locus · restrictions · inverse parameters · Difficulty★★★★☆ to ★★★★★",
-          "sourceZh": "RoleChallenge / 5** 挑戰 · SourceVerified locus-bank reverse-construction patterns · ConceptsM12D · reverse locus · restrictions · inverse parameters · Difficulty★★★★☆ to ★★★★★",
-          "assessmentMode": "solution-comparison",
-          "noteSource": {
-            "edition": "circle-equation-2026-10-23",
-            "section": "q-Q37",
-            "item": 2,
-            "title": "Q37. MCQ Set 10D: Reverse Locus And Restrictions"
-          },
-          "options": {
-            "A": "\\(-4\\)",
-            "B": "\\(-2\\)",
-            "C": "\\(2\\)",
-            "D": "\\(4\\)"
-          },
-          "optionsZh": {
-            "A": "\\(-4\\)",
-            "B": "\\(-2\\)",
-            "C": "\\(2\\)",
-            "D": "\\(4\\)"
-          },
-          "answer": "D",
-          "contentBlocks": {
-            "en": [
-              {
-                "type": "paragraph",
-                "text": "Points \\(A,B\\) lie on \\(x^2+y^2+kx-8y+68=0\\). The locus of \\(PA=PB\\) is \\(3x-y+10=0\\). Find \\(k\\)."
-              }
-            ],
-            "zh-Hant": [
-              {
-                "type": "paragraph",
-                "text": "點 \\(A,B\\) 在圓 \\(x^2+y^2+kx-8y+68=0\\) 上，且 \\(PA=PB\\) 的軌跡為 \\(3x-y+10=0\\)。求 \\(k\\)。"
-              }
-            ]
-          }
-        },
-        {
           "id": "note-circle-equation-q37-3",
           "stem": "\\(A,B\\) lie on \\(4x-7y+k=0\\), and the locus of \\(AP^2+BP^2=AB^2\\) is \\(x^2+y^2-8x-6y+21=0\\). Find \\(k\\).",
           "stemZh": "\\(A,B\\) 是直線 \\(4x-7y+k=0\\) 上兩點，且 \\(AP^2+BP^2=AB^2\\) 的軌跡為 \\(x^2+y^2-8x-6y+21=0\\)。求 \\(k\\)。",
@@ -6236,8 +6180,8 @@
         },
         {
           "id": "note-circle-equation-q39-4",
-          "stem": "The common-chord line of",
-          "stemZh": "兩圓",
+          "stem": "Find the common-chord line of the circles \\(C_1:x^2+y^2-4x-6y=0\\) and \\(C_2:x^2+y^2+2x-2y-14=0\\).",
+          "stemZh": "求兩圓 \\(C_1:x^2+y^2-4x-6y=0\\) 及 \\(C_2:x^2+y^2+2x-2y-14=0\\) 的公共弦所在直線。",
           "solution": "Q4. Subtracting the equations gives \\(-6x-4y+14=0\\), or \\(3x+2y-7=0\\). Answer A.",
           "solutionZh": "Q4. 兩式相減得 \\(-6x-4y+14=0\\)，約成 \\(3x+2y-7=0\\)。答案 A。",
           "subcategory": "tangents",
@@ -6252,7 +6196,8 @@
             "edition": "circle-equation-2026-10-23",
             "section": "q-Q39",
             "item": 4,
-            "title": "Q39. MCQ Set 10F: Coordinate Circle Synthesis"
+            "title": "Q39. MCQ Set 10F: Coordinate Circle Synthesis",
+            "contextRestored": "Both equations restored from the sibling .math-block in source q-Q39/4."
           },
           "options": {
             "A": "\\(3x+2y-7=0\\)",
@@ -6271,13 +6216,13 @@
             "en": [
               {
                 "type": "paragraph",
-                "text": "The common-chord line of"
+                "text": "Find the common-chord line of the circles \\(C_1:x^2+y^2-4x-6y=0\\) and \\(C_2:x^2+y^2+2x-2y-14=0\\)."
               }
             ],
             "zh-Hant": [
               {
                 "type": "paragraph",
-                "text": "兩圓"
+                "text": "求兩圓 \\(C_1:x^2+y^2-4x-6y=0\\) 及 \\(C_2:x^2+y^2+2x-2y-14=0\\) 的公共弦所在直線。"
               }
             ]
           }
@@ -7630,7 +7575,7 @@
         },
         {
           "id": "note-circle-equation-q76",
-          "stem": "The line \\(L\\) passes through \\(P(15,5)\\) and has \\(x\\)-intercept \\(12\\). The line \\(L'\\) is perpendicular to \\(L\\), and they meet at \\(Q\\) on the \\(x\\)-axis. The point \\(G\\) lies on \\(L'\\) with \\(y_G=k\\). The circle \\(C\\) is centred at \\(G\\) and passes through \\(Q\\).\n(a)Find \\(L'\\).\n(b)(i) Prove the displayed equation of \\(C\\). (ii) Given that \\(C\\) passes through \\(A(4,8)\\), find \\(k,G\\).\n(c)Among all circles through \\(P,G\\), find and justify the least one.",
+          "stem": "The line \\(L\\) passes through \\(P(15,5)\\) and has \\(x\\)-intercept \\(12\\). The line \\(L'\\) is perpendicular to \\(L\\), and they meet at \\(Q\\) on the \\(x\\)-axis. The point \\(G\\) lies on \\(L'\\) with \\(y_G=k\\). The circle \\(C\\) is centred at \\(G\\) and passes through \\(Q\\).\n(a)Find \\(L'\\).\n(b)(i) Prove that \\(C\\) has equation\n\\[C:3x^2+3y^2-2(36-5k)x-6ky+432-120k=0.\\] (ii) Given that \\(C\\) passes through \\(A(4,8)\\), find \\(k,G\\).\n(c)Among all circles through \\(P,G\\), find and justify the least one.",
           "stemZh": "直線 \\(L\\) 通過 \\(P(15,5)\\)，其 \\(x\\)-截距為 \\(12\\)。直線 \\(L'\\) 與 \\(L\\) 垂直，並在 \\(x\\)-軸上的點 \\(Q\\) 與 \\(L\\) 相交。點 \\(G\\) 在 \\(L'\\) 上，且 \\(y_G=k\\)。以 \\(G\\) 為圓心、通過 \\(Q\\) 的圓為 \\(C\\)。\n(a)求 \\(L'\\)。\n(b)(i) 證明\n\\[\nC:3x^2+3y^2-2(36-5k)x-6ky+432-120k=0.\n\\]\n(ii)已知 \\(C\\) 通過 \\(A(4,8)\\)。求 \\(k,G\\)。\n(c)在所有通過 \\(P,G\\) 的圓中，求面積最小者的方程及面積，並證明它最小。",
           "solution": "Worked Solution\n\\(Q=(12,0)\\), \\(m_L=5/3\\), so \\(L':3x+5y-36=0\\). Let \\(G=(u,k)\\), where \\(u=(36-5k)/3\\). Expanding\n\\[\n(x-u)^2+(y-k)^2=(12-u)^2+k^2\n\\]\ngives the required family. Substituting \\(A(4,8)\\) gives \\(k=3\\), \\(G=(7,3)\\). Since \\(PG^2=68\\) and every circle through the two points satisfies \\(PG\\le2R\\), the least circle has diameter \\(PG\\):\n\\[\n(x-11)^2+(y-4)^2=17,\n\\qquad \\text{area}=17\\pi.\n\\]",
           "solutionZh": "4. 完整詳解 / Worked Solution\n\\(Q=(12,0)\\)，且 \\(m_L=5/3\\)，所以\n\\[\nL':3x+5y-36=0.\n\\]\n設 \\(G=(u,k)\\)，則 \\(u=(36-5k)/3\\)。由半徑 \\(GQ\\)：\n\\[\n(x-u)^2+(y-k)^2=(12-u)^2+k^2.\n\\]\n展開並乘以 \\(3\\)，即得題示圓族。代入 \\(A(4,8)\\)：\n\\[\n384-128k=0,\n\\]\n故 \\(k=3\\)，\\(G=(7,3)\\)。又\n\\[\nPG^2=8^2+2^2=68.\n\\]\n任何通過 \\(P,G\\) 的圓若半徑為 \\(R\\)，都有 \\(PG\\le2R\\)。等號在 \\(PG\\) 為直徑時取得。最小圓圓心為 \\((11,4)\\)，\\(R^2=17\\)，所以\n\\[\n(x-11)^2+(y-4)^2=17,\n\\qquad \\text{area}=17\\pi.\n\\]",
@@ -7646,7 +7591,8 @@
             "edition": "circle-equation-2026-10-23",
             "section": "q-Q76",
             "item": 0,
-            "title": "Q76. LongQ Parameter Centre: A Circle Family And The Least Circle Through Two Points"
+            "title": "Q76. LongQ Parameter Centre: A Circle Family And The Least Circle Through Two Points",
+            "contextRestored": "Equation in source q-Q76 .qbody .math-block shared with English (b)(i), restored to English; same formula as Chinese."
           },
           "contentBlocks": {
             "en": [
@@ -7660,7 +7606,7 @@
               },
               {
                 "type": "paragraph",
-                "text": "(b)(i) Prove the displayed equation of \\(C\\). (ii) Given that \\(C\\) passes through \\(A(4,8)\\), find \\(k,G\\)."
+                "text": "(b)(i) Prove that \\(C\\) has equation\n\\[C:3x^2+3y^2-2(36-5k)x-6ky+432-120k=0.\\] (ii) Given that \\(C\\) passes through \\(A(4,8)\\), find \\(k,G\\)."
               },
               {
                 "type": "paragraph",
@@ -9195,8 +9141,8 @@
           "id": "note-circle-equation-q65",
           "stem": "The circle\n\\[\nC:x^2+y^2-32x=0\n\\]\nhas centre \\(A\\) on the \\(x\\)-axis. A line \\(L\\) is tangent to the circle at \\(T\\) and meets the \\(x\\)-axis at \\(P\\). Its inclination is \\(\\theta\\), where \\(\\tan\\theta=8/15\\).\n(a)Find the coordinates of \\(A\\) and the radius.\n(b)(i) Find the coordinates of \\(P\\).\n(ii)Find the equation of \\(L\\).\n(c)The circle moves with radius 16 on the same side of \\(L\\), while \\(L\\) remains tangent to it.\n(i)Find the equation of the locus of the moving centre.\n(ii)When the circle reaches the position where \\(P\\) is the point of contact, find the coordinates of its new centre.",
           "stemZh": "圓\n\\[\nC:x^2+y^2-32x=0\n\\]\n的圓心為 \\(A\\)，而 \\(A\\) 在 \\(x\\)-軸上。直線 \\(L\\) 在 \\(T\\) 與圓相切，並與 \\(x\\)-軸相交於 \\(P\\)。直線 \\(L\\) 的傾角為 \\(\\theta\\)，且 \\(\\tan\\theta=8/15\\)。\n(a)求 \\(A\\) 的坐標及圓的半徑。\n(b)(i) 求 \\(P\\) 的坐標。\n(ii)求 \\(L\\) 的方程。\n(c)此圓保持半徑 16，並在 \\(L\\) 的同一側移動，使 \\(L\\) 始終與圓相切。\n(i)求移動圓圓心的軌跡方程。\n(ii)當圓移至以 \\(P\\) 為切點時，求新圓心的坐標。",
-          "solution": "Worked Solution\nCompleting the square gives \\((x-16)^2+y^2=256\\), so \\(A=(16,0)\\) and the radius is 16.\nIn right triangle \\(ATP\\), the tangent ratio is \\(AT:TP=8:15\\). Since \\(AT=16\\), \\(TP=30\\) and \\(AP=34\\). Thus \\(P=(50,0)\\). The tangent is\n\\[\ny=\\frac8{15}(x-50),\n\\]\nor \\(L:8x-15y-400=0\\).\nFor a moving centre \\((x,y)\\),\n\\[\n\\frac{|8x-15y-400|}{17}=16.\n\\]\nThe two possible parallels are \\(8x-15y-128=0\\) and \\(8x-15y-672=0\\). The original centre \\(A=(16,0)\\) lies on the first, so that is the required same-side locus.\nWhen \\(P\\) is the contact point, the new centre also lies on the normal through \\(P\\), namely \\(15x+8y-750=0\\). Solving the two lines gives\n\\[\n\\left(\\frac{722}{17},\\frac{240}{17}\\right).\n\\]",
-          "solutionZh": "4. 完整詳解 / Worked Solution\n配方得\n\\[\n(x-16)^2+y^2=256,\n\\]\n所以 \\(A=(16,0)\\)、半徑為 16。\n在直角三角形 \\(ATP\\) 中，\\(AT\\perp TP\\)，而 \\(\\tan\\theta=AT:TP=8:15\\)。因 \\(AT=16\\)，比例倍數為 2，所以 \\(TP=30\\)、\\(AP=34\\)。因此\n\\[\nP=(16+34,0)=(50,0).\n\\]\n\\(L\\) 的斜率為 \\(8/15\\)，故\n\\[\ny=\\frac8{15}(x-50)\n\\Rightarrow L:8x-15y-400=0.\n\\]\n設移動中心為 \\((x,y)\\)。它到 \\(L\\) 的距離為 16：\n\\[\n\\frac{|8x-15y-400|}{17}=16.\n\\]\n所以兩條候選線為\n\\[\n8x-15y-128=0\n\\quad\\text{或}\\quad\n8x-15y-672=0.\n\\]\n原圓心 \\(A=(16,0)\\) 滿足第一條，故同側移動的中心軌跡是\n\\[\n8x-15y-128=0.\n\\]\n當 \\(P\\) 為切點，新圓心亦在過 \\(P\\) 且垂直 \\(L\\) 的直線上。該直線為\n\\[\n15x+8y-750=0.\n\\]\n聯立兩式，得\n\\[\n\\left(x,y\\right)=\\left(\\frac{722}{17},\\frac{240}{17}\\right).\n\\]",
+          "solution": "Complete the square: centre \\(A=(16,0)\\), radius \\(16\\).\nWrite the tangent as \\(L:8x-15y+c=0\\). Its distance from \\(A\\) is \\(16\\), so \\(|128+c|=272\\), giving \\(c=-400\\) or \\(144\\). Thus \\(P=(50,0)\\) or \\((-18,0)\\).\nCase 1: \\(L:8x-15y-400=0\\). The same-side centre locus through \\(A\\) is \\(8x-15y-128=0\\). At contact point \\(P=(50,0)\\), the new centre is \\((722/17,240/17)\\).\nCase 2: \\(L:8x-15y+144=0\\). The same-side centre locus through \\(A\\) is again \\(8x-15y-128=0\\). At contact point \\(P=(-18,0)\\), the new centre is \\((-178/17,-240/17)\\).\nEach new centre is distance 16 from its tangent and lies on the normal through the stated contact point. The source answer shows Case 1 only; the supplied wording does not exclude Case 2.",
+          "solutionZh": "配方得圓心 \\(A=(16,0)\\)、半徑 \\(16\\)。\n設切線為 \\(L:8x-15y+c=0\\)。圓心到切線的距離為 16，故 \\(|128+c|=272\\)，得 \\(c=-400\\) 或 \\(144\\)。因此 \\(P=(50,0)\\) 或 \\((-18,0)\\)。\n情況一：\\(L:8x-15y-400=0\\)。經原圓心 \\(A\\) 的同側圓心軌跡為 \\(8x-15y-128=0\\)。當切點為 \\(P=(50,0)\\)，新圓心為 \\((722/17,240/17)\\)。\n情況二：\\(L:8x-15y+144=0\\)。經原圓心 \\(A\\) 的同側圓心軌跡同樣是 \\(8x-15y-128=0\\)。當切點為 \\(P=(-18,0)\\)，新圓心為 \\((-178/17,-240/17)\\)。\n兩個新圓心各自距所屬切線 16，並位於過指定切點的法線上。來源解答只列情況一，但現有題幹沒有排除情況二，故兩者均須保留。",
           "subcategory": "tangents",
           "skill": "circle-equation-tangents",
           "questionType": "structured",
@@ -9209,7 +9155,8 @@
             "edition": "circle-equation-2026-10-23",
             "section": "q-Q65",
             "item": 0,
-            "title": "Q65. LongQ Moving Circle: A Fixed Tangent And The Centre Locus"
+            "title": "Q65. LongQ Moving Circle: A Fixed Tangent And The Centre Locus",
+            "answerCorrected": "Both tangent branches restored; no numerical condition added."
           },
           "contentBlocks": {
             "en": [
@@ -10718,8 +10665,8 @@
           "id": "note-circle-equation-q72",
           "stem": "The circle \\(C\\) has equation\n\\[\nx^2+y^2+2x-8y-83=0,\n\\]\nwith centre \\(A\\). The fixed point is \\(B(23,22)\\). A moving point \\(P(x,y)\\) satisfies \\(PA=PB\\), and its locus is denoted by \\(\\Gamma\\).\n(a)Find \\(A\\), the radius of \\(C\\), and the equation of \\(\\Gamma\\).\n(b)The point \\(H\\) on \\(C\\) is nearest to \\(\\Gamma\\), while the point \\(K\\) on \\(\\Gamma\\) is nearest to \\(C\\).\n(i)Find \\(H\\) and \\(K\\).\n(ii)The point \\(R\\) lies on the positive \\(x\\)-axis and \\(R\\notin\\Gamma\\). Find \\([\\triangle RAH]:[\\triangle RHK]\\), and explain why the ratio is independent of the position of \\(R\\).",
           "stemZh": "圓 \\(C\\) 的方程為\n\\[\nx^2+y^2+2x-8y-83=0,\n\\]\n圓心為 \\(A\\)。固定點為 \\(B(23,22)\\)。動點 \\(P(x,y)\\) 滿足 \\(PA=PB\\)，其軌跡記為 \\(\\Gamma\\)。\n(a)求 \\(A\\)、圓 \\(C\\) 的半徑，以及 \\(\\Gamma\\) 的方程。\n(b)點 \\(H\\) 是圓 \\(C\\) 上最接近 \\(\\Gamma\\) 的點；點 \\(K\\) 是 \\(\\Gamma\\) 上最接近圓 \\(C\\) 的點。\n(i)求 \\(H,K\\) 的坐標。\n(ii)點 \\(R\\) 在正 \\(x\\)-軸上，且 \\(R\\notin\\Gamma\\)。求 \\([\\triangle RAH]:[\\triangle RHK]\\)，並解釋為何答案與 \\(R\\) 的位置無關。",
-          "solution": "Worked Solution\nCompleting the square gives \\((x+1)^2+(y-4)^2=100\\), so \\(A=(-1,4)\\) and \\(r=10\\). The condition \\(PA=PB\\) simplifies to\n\\[\n\\Gamma:4x+3y-83=0.\n\\]\nThe centre-to-line distance is\n\\[\nd(A,\\Gamma)=15>10.\n\\]\nUsing the unit normal \\((4/5,3/5)\\), the foot on \\(\\Gamma\\) is\n\\[\nK=A+15(4/5,3/5)=(11,13),\n\\]\nand the nearest point on the circle is\n\\[\nH=A+10(4/5,3/5)=(7,10).\n\\]\nThus \\(A,H,K\\) are collinear, \\(AH=10\\), and \\(HK=5\\). The two triangles have bases on the same line and share the same altitude from \\(R\\), so\n\\[\n[\\triangle RAH]:[\\triangle RHK]=AH:HK=2:1.\n\\]\nThe condition \\(R\\notin\\Gamma\\) excludes the degenerate point \\((83/4,0)\\), at which both triangle areas would be zero.",
-          "solutionZh": "4. 完整詳解 / Worked Solution\n配方得\n\\[\n(x+1)^2+(y-4)^2=100.\n\\]\n所以\n\\[\nA=(-1,4),\n\\qquad r=10.\n\\]\n由 \\(PA=PB\\)：\n\\[\n(x+1)^2+(y-4)^2=(x-23)^2+(y-22)^2.\n\\]\n整理得\n\\[\n\\Gamma:4x+3y-83=0.\n\\]\n圓心到 \\(\\Gamma\\) 的距離是\n\\[\nd(A,\\Gamma)\n=\\frac{|4(-1)+3(4)-83|}{5}\n=15>10.\n\\]\n因此直線與圓分離。由 \\(A\\) 向 \\(\\Gamma\\) 的單位法向量是 \\((4/5,3/5)\\)。垂足為\n\\[\nK=A+15\\left(\\frac{4}{5},\\frac{3}{5}\\right)=(11,13).\n\\]\n圓上最近點則是\n\\[\nH=A+10\\left(\\frac{4}{5},\\frac{3}{5}\\right)=(7,10).\n\\]\n故 \\(A,H,K\\) 共線，並且\n\\[\nAH=10,\n\\qquad HK=15-10=5.\n\\]\n三角形 \\(RAH\\) 與 \\(RHK\\) 的底 \\(AH,HK\\) 位於同一直線，而由 \\(R\\) 到該直線的高度相同，所以\n\\[\n[\\triangle RAH]:[\\triangle RHK]\n=AH:HK\n=10:5\n=2:1.\n\\]\n由於題目已明確排除 \\(R\\in\\Gamma\\)，所以 \\(R\\) 不在直線 \\(AHK\\) 上。兩個面積會同時按共同高度改變，因此比值不變；若漏掉這項限制，\\(R=(83/4,0)\\) 時兩個三角形同時退化，比例便沒有定義。",
+          "solution": "Worked Solution\nCompleting the square gives \\((x+1)^2+(y-4)^2=100\\), so \\(A=(-1,4)\\) and \\(r=10\\). The common base line \\(AHK\\) is \\(3x-4y+19=0\\); it meets the x-axis at \\((-19/3,0)\\), outside the permitted positive x-axis. Therefore both triangle areas are nonzero for every allowed \\(R\\). The stated exclusion \\(R\\notin\\Gamma\\) is not needed for this nondegeneracy argument.",
+          "solutionZh": "4. 完整詳解 / Worked Solution\n配方得\n\\[\n(x+1)^2+(y-4)^2=100.\n\\]\n所以\n\\[\nA=(-1,4),\n\\qquad r=10.\n\\]\n由 \\(PA=PB\\)：\n\\[\n(x+1)^2+(y-4)^2=(x-23)^2+(y-22)^2.\n\\]\n整理得\n\\[\n\\Gamma:4x+3y-83=0.\n\\]\n圓心到 \\(\\Gamma\\) 的距離是\n\\[\nd(A,\\Gamma)\n=\\frac{|4(-1)+3(4)-83|}{5}\n=15>10.\n\\]\n因此直線與圓分離。由 \\(A\\) 向 \\(\\Gamma\\) 的單位法向量是 \\((4/5,3/5)\\)。垂足為\n\\[\nK=A+15\\left(\\frac{4}{5},\\frac{3}{5}\\right)=(11,13).\n\\]\n圓上最近點則是\n\\[\nH=A+10\\left(\\frac{4}{5},\\frac{3}{5}\\right)=(7,10).\n\\]\n故 \\(A,H,K\\) 共線，並且\n\\[\nAH=10,\n\\qquad HK=15-10=5.\n\\]\n三角形 \\(RAH\\) 與 \\(RHK\\) 的底 \\(AH,HK\\) 位於同一直線，而由 \\(R\\) 到該直線的高度相同，所以\n\\[\n[\\triangle RAH]:[\\triangle RHK]\n=AH:HK\n=10:5\n=2:1.\n\\]\n共同底線 \\(AHK\\) 是 \\(3x-4y+19=0\\)，與 x 軸交於 \\((-19/3,0)\\)，不在題設正 x 軸上。因此對所有容許的 \\(R\\)，兩個三角形面積均不為零。題設 \\(R\\notin\\Gamma\\) 並非此處避免退化的原因。",
           "subcategory": "circle-loci",
           "skill": "circle-equation-circle-loci",
           "questionType": "structured",
@@ -10801,8 +10748,8 @@
           "id": "note-circle-equation-q49",
           "stem": "The fixed points are \\(A(1,3)\\) and \\(B(9,15)\\). A moving point \\(P\\) satisfies \\(\\angle APB=90^\\circ\\).\n(a)Find the equation of the locus of \\(P\\).\n(b)Find the maximum possible area of triangle \\(PAB\\) on the locus.\n(c)Find all points \\(P\\) at which the maximum is attained.",
           "stemZh": "固定點 \\(A(1,3)\\)、\\(B(9,15)\\)，動點 \\(P\\) 滿足 \\(\\angle APB=90^\\circ\\)。\n(a)求 \\(P\\) 的軌跡方程。\n(b)求軌跡上三角形 \\(PAB\\) 的最大面積。\n(c)求所有達到最大面積的點 \\(P\\)。",
-          "solution": "Worked Solution\nThe midpoint of \\(AB\\) is \\(G=(5,9)\\), and \\(AB^2=8^2+12^2=208\\). Thus the radius is \\(\\sqrt{52}=2\\sqrt{13}\\), giving\n\\[\n(x-5)^2+(y-9)^2=52,\n\\]\nor \\(x^2+y^2-10x-18y+54=0\\).\nThe base length is \\(4\\sqrt{13}\\). The greatest perpendicular distance from a point on this circle to \\(AB\\) is the radius, reached at the endpoints of the diameter perpendicular to \\(AB\\). Therefore the maximum area is \\(\\frac{1}{2}(4\\sqrt{13})(2\\sqrt{13})=52\\).\nSince \\(AB:3x-2y+3=0\\), a normal direction to \\(AB\\) is \\((3,-2)\\). The perpendicular diameter through \\(G\\) is therefore \\(2x+3y-37=0\\). Its intersections with the locus are \\((11,5)\\) and \\((-1,13)\\).",
-          "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的中點為 \\(G(5,9)\\)，而 \\(AB^2=8^2+12^2=208\\)，故半徑為 \\(\\sqrt{52}=2\\sqrt{13}\\)。軌跡為\n\\[\n(x-5)^2+(y-9)^2=52,\n\\]\n即\n\\[\nx^2+y^2-10x-18y+54=0.\n\\]\n固定底 \\(AB\\) 的長度為 \\(4\\sqrt{13}\\)。過圓心作垂直於 \\(AB\\) 的直徑，圓心到 \\(AB\\) 的距離為 0，因此端點到 \\(AB\\) 的距離等於半徑 \\(2\\sqrt{13}\\)。最大面積是\n\\[\n\\frac{1}{2}(4\\sqrt{13})(2\\sqrt{13})=52.\n\\]\n\\(AB\\) 的方程是 \\(3x-2y+3=0\\)，其法向量 \\((3,-2)\\) 正是垂直直徑的方向。通過 \\(G\\) 且以 \\((3,-2)\\) 為方向的直線為\n\\[\n2x+3y-37=0.\n\\]\n與圓聯立得兩個端點\n\\[\nP=(11,5)\\quad\\text{及}\\quad P=(-1,13).\n\\]",
+          "solution": "Worked Solution\nThe midpoint of \\(AB\\) is \\(G=(5,9)\\), and \\(AB^2=8^2+12^2=208\\). Thus the radius is \\(\\sqrt{52}=2\\sqrt{13}\\), giving\n\\[\n(x-5)^2+(y-9)^2=52,\n\\]\nor \\(x^2+y^2-10x-18y+54=0\\).\nThe base length is \\(4\\sqrt{13}\\). The greatest perpendicular distance from a point on this circle to \\(AB\\) is the radius, reached at the endpoints of the diameter perpendicular to \\(AB\\). Therefore the maximum area is \\(\\frac{1}{2}(4\\sqrt{13})(2\\sqrt{13})=52\\).\nSince \\(AB:3x-2y+3=0\\), a normal direction to \\(AB\\) is \\((3,-2)\\). The perpendicular diameter through \\(G\\) is therefore \\(2x+3y-37=0\\). Its intersections with the locus are \\((11,5)\\) and \\((-1,13)\\).\n\nExclude \\(P=A,B\\), since the angle is undefined at either endpoint.",
+          "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的中點為 \\(G(5,9)\\)，而 \\(AB^2=8^2+12^2=208\\)，故半徑為 \\(\\sqrt{52}=2\\sqrt{13}\\)。軌跡為\n\\[\n(x-5)^2+(y-9)^2=52,\n\\]\n即\n\\[\nx^2+y^2-10x-18y+54=0.\n\\]\n固定底 \\(AB\\) 的長度為 \\(4\\sqrt{13}\\)。過圓心作垂直於 \\(AB\\) 的直徑，圓心到 \\(AB\\) 的距離為 0，因此端點到 \\(AB\\) 的距離等於半徑 \\(2\\sqrt{13}\\)。最大面積是\n\\[\n\\frac{1}{2}(4\\sqrt{13})(2\\sqrt{13})=52.\n\\]\n\\(AB\\) 的方程是 \\(3x-2y+3=0\\)，其法向量 \\((3,-2)\\) 正是垂直直徑的方向。通過 \\(G\\) 且以 \\((3,-2)\\) 為方向的直線為\n\\[\n2x+3y-37=0.\n\\]\n與圓聯立得兩個端點\n\\[\nP=(11,5)\\quad\\text{及}\\quad P=(-1,13).\n\\]\n\n軌跡須排除 \\(P=A,B\\)，因為在端點的角未有定義。",
           "subcategory": "circle-loci",
           "skill": "circle-equation-circle-loci",
           "questionType": "structured",
@@ -12130,8 +12077,8 @@
           "id": "note-circle-equation-q60",
           "stem": "The point \\(A=(-1,-3)\\) is rotated \\(90^\\circ\\) anticlockwise about the origin to \\(A'\\). The point \\(B=(-9,-1)\\) is reflected in the \\(y\\)-axis to \\(B'\\). A moving point \\(P\\) satisfies \\(A'P\\perp B'P\\).\n(a)Find the coordinates of \\(A'\\) and \\(B'\\).\n(b)Find the equation of the locus of \\(P\\).\n(c)Find the circumcentre of triangle \\(A'PB'\\).\n(d)Let \\(Q=(x,y)\\) be the centroid of triangle \\(A'PB'\\). Find the equation of the locus of \\(Q\\).",
           "stemZh": "點 \\(A=(-1,-3)\\) 繞原點逆時針旋轉 \\(90^\\circ\\) 得 \\(A'\\)。點 \\(B=(-9,-1)\\) 關於 \\(y\\)-軸反射得 \\(B'\\)。動點 \\(P\\) 滿足 \\(A'P\\perp B'P\\)。\n(a)求 \\(A',B'\\) 的坐標。\n(b)求 \\(P\\) 的軌跡方程。\n(c)求三角形 \\(A'PB'\\) 的外接圓圓心。\n(d)設 \\(Q(x,y)\\) 為三角形 \\(A'PB'\\) 的重心。求 \\(Q\\) 的軌跡方程。",
-          "solution": "Worked Solution\nThe rotation gives \\(A'=(3,-1)\\), while reflection in the \\(y\\)-axis gives \\(B'=(9,-1)\\).\nSince \\(\\angle A'PB'=90^\\circ\\), the locus of \\(P\\) is the circle with diameter \\(A'B'\\). Its centre is \\((6,-1)\\) and radius 3, so\n\\[\n(x_P-6)^2+(y_P+1)^2=9.\n\\]\nThe same midpoint \\((6,-1)\\) is the circumcentre of triangle \\(A'PB'\\).\nFor centroid \\(Q=(x,y)\\),\n\\[\nx=\\frac{3+9+x_P}{3},\\qquad\ny=\\frac{-1-1+y_P}{3}.\n\\]\nThus \\(x_P=3x-12\\) and \\(y_P=3y+2\\). Substitution gives\n\\[\n(3x-18)^2+(3y+3)^2=9,\n\\]\nor\n\\[\n(x-6)^2+(y+1)^2=1.\n\\]",
-          "solutionZh": "4. 完整詳解 / Worked Solution\n逆時針 \\(90^\\circ\\) 把 \\((x,y)\\) 變成 \\((-y,x)\\)，所以\n\\[\nA'=(3,-1).\n\\]\n關於 \\(y\\)-軸反射只改 \\(x\\) 的符號，故\n\\[\nB'=(9,-1).\n\\]\n因 \\(\\angle A'PB'=90^\\circ\\)，\\(P\\) 在以 \\(A'B'\\) 為直徑的圓上。中點為 \\((6,-1)\\)，半徑為 3，因此\n\\[\n(x_P-6)^2+(y_P+1)^2=9.\n\\]\n這個中點亦是三角形 \\(A'PB'\\) 的外接圓圓心。\n若 \\(Q=(x,y)\\) 是重心，則\n\\[\nx=\\frac{3+9+x_P}{3},\\qquad\ny=\\frac{-1-1+y_P}{3}.\n\\]\n所以\n\\[\nx_P=3x-12,\\qquad y_P=3y+2.\n\\]\n代入 \\(P\\) 的圓：\n\\[\n(3x-18)^2+(3y+3)^2=9\n\\Rightarrow (x-6)^2+(y+1)^2=1.\n\\]",
+          "solution": "Worked Solution\nThe rotation gives \\(A'=(3,-1)\\), while reflection in the \\(y\\)-axis gives \\(B'=(9,-1)\\).\nSince \\(\\angle A'PB'=90^\\circ\\), the locus of \\(P\\) is the circle with diameter \\(A'B'\\). Its centre is \\((6,-1)\\) and radius 3, so\n\\[\n(x_P-6)^2+(y_P+1)^2=9.\n\\]\nThe same midpoint \\((6,-1)\\) is the circumcentre of triangle \\(A'PB'\\).\nFor centroid \\(Q=(x,y)\\),\n\\[\nx=\\frac{3+9+x_P}{3},\\qquad\ny=\\frac{-1-1+y_P}{3}.\n\\]\nThus \\(x_P=3x-12\\) and \\(y_P=3y+2\\). Substitution gives\n\\[\n(3x-18)^2+(3y+3)^2=9,\n\\]\nor\n\\[\n(x-6)^2+(y+1)^2=1.\n\\]\n\nExclude \\(P=A',B'\\); the centroid locus correspondingly excludes \\((5,-1)\\) and \\((7,-1)\\), the images of those degenerate triangles.",
+          "solutionZh": "4. 完整詳解 / Worked Solution\n逆時針 \\(90^\\circ\\) 把 \\((x,y)\\) 變成 \\((-y,x)\\)，所以\n\\[\nA'=(3,-1).\n\\]\n關於 \\(y\\)-軸反射只改 \\(x\\) 的符號，故\n\\[\nB'=(9,-1).\n\\]\n因 \\(\\angle A'PB'=90^\\circ\\)，\\(P\\) 在以 \\(A'B'\\) 為直徑的圓上。中點為 \\((6,-1)\\)，半徑為 3，因此\n\\[\n(x_P-6)^2+(y_P+1)^2=9.\n\\]\n這個中點亦是三角形 \\(A'PB'\\) 的外接圓圓心。\n若 \\(Q=(x,y)\\) 是重心，則\n\\[\nx=\\frac{3+9+x_P}{3},\\qquad\ny=\\frac{-1-1+y_P}{3}.\n\\]\n所以\n\\[\nx_P=3x-12,\\qquad y_P=3y+2.\n\\]\n代入 \\(P\\) 的圓：\n\\[\n(3x-18)^2+(3y+3)^2=9\n\\Rightarrow (x-6)^2+(y+1)^2=1.\n\\]\n\n須排除 \\(P=A',B'\\)；重心軌跡亦須排除 \\((5,-1)\\)、\\((7,-1)\\)，即這兩個退化三角形所對應的點。",
           "subcategory": "circle-loci",
           "skill": "circle-equation-circle-loci",
           "questionType": "structured",
@@ -12414,8 +12361,8 @@
           "id": "note-circle-equation-q90",
           "stem": "Let \\(A=(5,-1)\\) and \\(B=(-3,5)\\).\n(a)Point \\(P_1\\) satisfies \\(AP_1=BP_1\\), with locus \\(\\Gamma_1\\). Describe and find \\(\\Gamma_1\\).\n(b)Point \\(P_2\\) satisfies \\(AP_2\\perp BP_2\\), with locus \\(\\Gamma_2\\). Find \\(\\Gamma_2\\).\n(c)The circle\n\\[\nC:x^2+y^2+(4k-14)x-(3k+20)y+124=0\n\\]\nhas its centre on \\(\\Gamma_1\\).\n(i)Find \\(k\\).\n(ii)Decide whether \\(C\\) and \\(\\Gamma_2\\) have no intersection for every real \\(k\\).",
           "stemZh": "給 \\(A=(5,-1)\\)、\\(B=(-3,5)\\)。\n(a)動點 \\(P_1\\) 滿足 \\(AP_1=BP_1\\)，軌跡為 \\(\\Gamma_1\\)。描述 \\(\\Gamma_1\\) 與 \\(AB\\) 的關係並求 \\(\\Gamma_1\\)。\n(b)動點 \\(P_2\\) 滿足 \\(AP_2\\perp BP_2\\)，軌跡為 \\(\\Gamma_2\\)。求 \\(\\Gamma_2\\)。\n(c)圓\n\\[\nC:x^2+y^2+(4k-14)x-(3k+20)y+124=0\n\\]\n的圓心在 \\(\\Gamma_1\\) 上。\n(i)求 \\(k\\)。\n(ii)有人聲稱：對所有實數 \\(k\\)，\\(C\\) 與 \\(\\Gamma_2\\) 均沒有交點。判斷其正誤。",
-          "solution": "Worked Solution\nThe midpoint of \\(AB\\) is \\((1,2)\\), so the perpendicular bisector is \\(\\Gamma_1:4x-3y+2=0\\). Since \\(AB=10\\),\n\\[\n\\Gamma_2:(x-1)^2+(y-2)^2=25.\n\\]\nThe centre of \\(C\\) is \\((7-2k,(3k+20)/2)\\). Substitution into \\(\\Gamma_1\\) gives \\(k=0\\). Then \\(C\\) has centre \\((7,10)\\), radius \\(5\\), while \\(\\Gamma_2\\) has centre \\((1,2)\\), radius \\(5\\). Their centre distance is \\(10=5+5\\), so they touch externally. The claim is false.",
-          "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的中點為 \\((1,2)\\)，斜率為 \\(-3/4\\)。故垂直平分線為\n\\[\n\\Gamma_1:4x-3y+2=0.\n\\]\n而 \\(AB=10\\)，所以 Thales 圓為\n\\[\n\\Gamma_2:(x-1)^2+(y-2)^2=25.\n\\]\n圓 \\(C\\) 的圓心是\n\\[\n\\left(7-2k,\\frac{3k+20}{2}\\right).\n\\]\n代入 \\(\\Gamma_1\\)：\n\\[\n4(7-2k)-3\\left(\\frac{3k+20}{2}\\right)+2=0\n\\Rightarrow k=0.\n\\]\n此時\n\\[\nC:(x-7)^2+(y-10)^2=25.\n\\]\n\\(C\\) 與 \\(\\Gamma_2\\) 均半徑 \\(5\\)，而兩圓心距\n\\[\n\\sqrt{(7-1)^2+(10-2)^2}=10=5+5.\n\\]\n所以兩圓外切，恰有一個交點。聲稱錯誤。",
+          "solution": "Worked Solution\nThe midpoint of \\(AB\\) is \\((1,2)\\), so the perpendicular bisector is \\(\\Gamma_1:4x-3y+2=0\\). Since \\(AB=10\\),\n\\[\n\\Gamma_2:(x-1)^2+(y-2)^2=25.\n\\]\nThe centre of \\(C\\) is \\((7-2k,(3k+20)/2)\\). Substitution into \\(\\Gamma_1\\) gives \\(k=0\\). Then \\(C\\) has centre \\((7,10)\\), radius \\(5\\), while \\(\\Gamma_2\\) has centre \\((1,2)\\), radius \\(5\\). Their centre distance is \\(10=5+5\\), so they touch externally. The claim is false.\n\nThe right-angle locus \\(\\Gamma_2\\) excludes \\(A,B\\), where the angle is undefined. The external contact at \\((4,6)\\) is neither endpoint, so the counterexample remains valid.",
+          "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的中點為 \\((1,2)\\)，斜率為 \\(-3/4\\)。故垂直平分線為\n\\[\n\\Gamma_1:4x-3y+2=0.\n\\]\n而 \\(AB=10\\)，所以 Thales 圓為\n\\[\n\\Gamma_2:(x-1)^2+(y-2)^2=25.\n\\]\n圓 \\(C\\) 的圓心是\n\\[\n\\left(7-2k,\\frac{3k+20}{2}\\right).\n\\]\n代入 \\(\\Gamma_1\\)：\n\\[\n4(7-2k)-3\\left(\\frac{3k+20}{2}\\right)+2=0\n\\Rightarrow k=0.\n\\]\n此時\n\\[\nC:(x-7)^2+(y-10)^2=25.\n\\]\n\\(C\\) 與 \\(\\Gamma_2\\) 均半徑 \\(5\\)，而兩圓心距\n\\[\n\\sqrt{(7-1)^2+(10-2)^2}=10=5+5.\n\\]\n所以兩圓外切，恰有一個交點。聲稱錯誤。\n\n直角軌跡 \\(\\Gamma_2\\) 須排除 \\(A,B\\)，因為在端點的角未有定義。外切點 \\((4,6)\\) 並非端點，因此反例仍然成立。",
           "subcategory": "line-circle",
           "skill": "circle-equation-line-circle",
           "questionType": "structured",
@@ -12757,8 +12704,8 @@
           "id": "note-circle-equation-q95",
           "stem": "A moving point \\(P=(x,y)\\) is equidistant from focus \\(F=(-2,-3)\\) and directrix\n\\[\nL:y=-5.\n\\]\nIts locus is \\(C\\).\n(a)Show that\n\\[\nC:y=\\frac{1}{4}x^2+x-3.\n\\]\n(b)The parabola cuts the \\(x\\)-axis at \\(A,B\\), with \\(A\\) right of \\(B\\).\n(i)Find \\(A,B\\).\n(ii)Let \\(M\\) lie on \\(L\\), and let \\(AM\\) meet \\(C\\) again at \\(N\\). Given\n\\[\n[\\triangle BMN]:[\\triangle BAN]=2:3,\n\\]\nfind every possible \\(N\\).",
           "stemZh": "動點 \\(P=(x,y)\\) 與焦點 \\(F=(-2,-3)\\) 及直線\n\\[\nL:y=-5\n\\]\n等距，軌跡為 \\(C\\)。\n(a)證明\n\\[\nC:y=\\frac{1}{4}x^2+x-3.\n\\]\n(b)\\(C\\) 與 \\(x\\)-軸交於 \\(A,B\\)，其中 \\(A\\) 在 \\(B\\) 的右方。\n(i)求 \\(A,B\\)。\n(ii)\\(M\\) 是 \\(L\\) 上一點；直線 \\(AM\\) 再與 \\(C\\) 交於 \\(N\\)。已知\n\\[\n[\\triangle BMN]:[\\triangle BAN]=2:3.\n\\]\n求所有可能的 \\(N\\)。",
-          "solution": "Worked Solution\nEquating \\((x+2)^2+(y+3)^2\\) with \\((y+5)^2\\) gives \\(y=x^2/4+x-3\\). The intercepts are \\(A=(2,0)\\), \\(B=(-6,0)\\). The two triangles have the same altitude from \\(B\\) to line \\(AM\\), hence \\(MN:AN=2:3\\). Thus \\(N\\) divides \\(AM\\) internally in ratio \\(3:2\\), giving \\(y_N=-3\\). Substitution into the parabola yields \\(x=0\\) or \\(-4\\). Both points are valid.",
-          "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nPF^2=(x+2)^2+(y+3)^2,\n\\qquad d(P,L)^2=(y+5)^2.\n\\]\n等距後化簡：\n\\[\n(x+2)^2+(y+3)^2=(y+5)^2\n\\Rightarrow y=\\frac{1}{4}x^2+x-3.\n\\]\n令 \\(y=0\\)：\n\\[\nx^2+4x-12=0\n\\Rightarrow A=(2,0),\\quad B=(-6,0).\n\\]\n\\(\\triangle BMN\\) 與 \\(\\triangle BAN\\) 對直線 \\(AM\\) 有同一個從 \\(B\\) 作出的高，故\n\\[\n\\frac{MN}{AN}=\\frac{2}{3}.\n\\]\n\\(N\\) 內分 \\(AM\\) 為 \\(AN:NM=3:2\\)。由 \\(A\\) 的 \\(y\\)-坐標是 \\(0\\)，\\(M\\) 的 \\(y\\)-坐標是 \\(-5\\)，所以\n\\[\ny_N=\\frac{2(0)+3(-5)}{5}=-3.\n\\]\n代回拋物線：\n\\[\n-3=\\frac{1}{4}x^2+x-3\n\\Rightarrow x(x+4)=0.\n\\]\n因此\n\\[\nN=(0,-3)\\quad\\text{或}\\quad N=(-4,-3).\n\\]",
+          "solution": "Worked Solution\nEquating \\((x+2)^2+(y+3)^2\\) with \\((y+5)^2\\) gives \\(y=x^2/4+x-3\\). The intercepts are \\(A=(2,0)\\), \\(B=(-6,0)\\). The two triangles have the same altitude from \\(B\\) to line \\(AM\\), hence \\(MN:AN=2:3\\). Thus \\(N\\) divides \\(AM\\) internally in ratio \\(3:2\\), giving \\(y_N=-3\\). Substitution into the parabola yields \\(x=0\\) or \\(-4\\). Both points are valid.\n\nFor completeness, the unsigned ratio gives \\(|y_N+5|/|y_N|=2/3\\), hence \\(y_N=-3\\) or \\(-15\\). The parabola has minimum \\(-4\\), so \\(y_N=-15\\) is impossible. The two retained points are \\((0,-3),(-4,-3)\\).",
+          "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nPF^2=(x+2)^2+(y+3)^2,\n\\qquad d(P,L)^2=(y+5)^2.\n\\]\n等距後化簡：\n\\[\n(x+2)^2+(y+3)^2=(y+5)^2\n\\Rightarrow y=\\frac{1}{4}x^2+x-3.\n\\]\n令 \\(y=0\\)：\n\\[\nx^2+4x-12=0\n\\Rightarrow A=(2,0),\\quad B=(-6,0).\n\\]\n\\(\\triangle BMN\\) 與 \\(\\triangle BAN\\) 對直線 \\(AM\\) 有同一個從 \\(B\\) 作出的高，故\n\\[\n\\frac{MN}{AN}=\\frac{2}{3}.\n\\]\n\\(N\\) 內分 \\(AM\\) 為 \\(AN:NM=3:2\\)。由 \\(A\\) 的 \\(y\\)-坐標是 \\(0\\)，\\(M\\) 的 \\(y\\)-坐標是 \\(-5\\)，所以\n\\[\ny_N=\\frac{2(0)+3(-5)}{5}=-3.\n\\]\n代回拋物線：\n\\[\n-3=\\frac{1}{4}x^2+x-3\n\\Rightarrow x(x+4)=0.\n\\]\n因此\n\\[\nN=(0,-3)\\quad\\text{或}\\quad N=(-4,-3).\n\\]\n\n完整核對無向長度比：\\(|y_N+5|/|y_N|=2/3\\)，得 \\(y_N=-3\\) 或 \\(-15\\)。拋物線的最小值為 \\(-4\\)，故 \\(y_N=-15\\) 不可能；保留 \\((0,-3),(-4,-3)\\)。",
           "subcategory": "circle-loci",
           "skill": "circle-equation-circle-loci",
           "questionType": "structured",
@@ -12862,10 +12809,10 @@
         },
         {
           "id": "note-circle-equation-q96",
-          "stem": "Let\n\\[\nf(x)=x^2-2(k-1)x+k^2-k+4,\n\\]\nwhere \\(k\\ge0\\). On the same coordinate plane, \\(Q\\) is the vertex of \\(y=f(x)\\), and \\(R\\) is the vertex of \\(y=f(4-x)\\). Let\n\\[\nS=\\left(k-1,\\frac{(k-3)^2}{k+3}\\right).\n\\]\nThe circumcircle of \\(\\triangle QRS\\) is \\(C_k\\), with centre \\(U\\).\n(a)Use completing squares to find \\(Q\\), and state \\(R\\).\n(b)Find \\(C_k\\), and state the fixed point \\(V\\) through which every \\(C_k\\) passes.\n(c)Is \\(US\\perp QV\\) possible? If so, find every \\(k\\).",
-          "stemZh": "設\n\\[\nf(x)=x^2-2(k-1)x+k^2-k+4,\n\\]\n其中 \\(k\\ge0\\)。在同一坐標平面上，\\(Q\\) 為 \\(y=f(x)\\) 的頂點，\\(R\\) 為 \\(y=f(4-x)\\) 的頂點。再設\n\\[\nS=\\left(k-1,\\frac{(k-3)^2}{k+3}\\right).\n\\]\n\\(\\triangle QRS\\) 的外接圓為 \\(C_k\\)，圓心為 \\(U\\)。\n(a)用配方法求 \\(Q\\)，並寫出 \\(R\\)。\n(b)求 \\(C_k\\) 的方程，並寫出所有 \\(C_k\\) 必經的固定點 \\(V\\)。\n(c)判斷是否可能 \\(US\\perp QV\\)。若可能，求所有 \\(k\\)。",
-          "solution": "Worked Solution\nCompleting the square gives \\(Q=(k-1,k+3)\\), and the reflection in \\(x\\mapsto4-x\\) gives \\(R=(5-k,k+3)\\). Since \\(QR\\) is horizontal and \\(QS\\) vertical, \\(RS\\) is a diameter. Its midpoint is\n\\[\nU=\\left(2,\\frac{k^2+9}{k+3}\\right),\n\\]\nand the radius has the same value as the centre’s \\(y\\)-coordinate. Therefore\n\\[\nC_k:(x-2)^2+\\left(y-\\frac{k^2+9}{k+3}\\right)^2\n=\\left(\\frac{k^2+9}{k+3}\\right)^2,\n\\]\nso every circle touches the x-axis at \\(V=(2,0)\\). Finally,\n\\[\n\\overrightarrow{US}\\cdot\\overrightarrow{QV}=-(k-3)^2+6k=0\n\\]\ngives \\(k^2-12k+9=0\\), hence \\(k=6\\pm3\\sqrt{3}\\), both valid for \\(k\\ge0\\).",
-          "solutionZh": "4. 完整詳解 / Worked Solution\n配方：\n\\[\nf(x)=[x-(k-1)]^2+k+3.\n\\]\n故\n\\[\nQ=(k-1,k+3),\\qquad R=(5-k,k+3).\n\\]\n\\(QR\\) 水平而 \\(QS\\) 垂直，故 \\(\\angle RQS=90^\\circ\\)，\\(RS\\) 是 \\(C_k\\) 的直徑。取中點：\n\\[\nU=\\left(2,\\frac{k^2+9}{k+3}\\right).\n\\]\n由直徑的一半可得半徑\n\\[\nr=\\frac{k^2+9}{k+3}.\n\\]\n所以\n\\[\nC_k:(x-2)^2+\\left(y-\\frac{k^2+9}{k+3}\\right)^2\n=\\left(\\frac{k^2+9}{k+3}\\right)^2.\n\\]\n因 \\(k\\ge0\\)，半徑等於圓心的正 \\(y\\)-坐標，故每個圓都與 \\(x\\)-軸相切於\n\\[\nV=(2,0).\n\\]\n為判斷垂直，取\n\\[\n\\overrightarrow{US}=\\left(k-3,-\\frac{6k}{k+3}\\right),\n\\qquad \\overrightarrow{QV}=(3-k,-k-3).\n\\]\n令內積為零：\n\\[\n\\overrightarrow{US}\\cdot\\overrightarrow{QV}\n=-(k-3)^2+6k=0\n\\Rightarrow k^2-12k+9=0.\n\\]\n故\n\\[\nk=6\\pm3\\sqrt{3}.\n\\]\n兩值均非負，因此都有效。",
+          "stem": "Let\n\\[\nf(x)=x^2-2(k-1)x+k^2-k+4,\n\\]\nwhere \\(k\\ge0\\). On the same coordinate plane, \\(Q\\) is the vertex of \\(y=f(x)\\), and \\(R\\) is the vertex of \\(y=f(4-x)\\). Let\n\\[\nS=\\left(k-1,\\frac{(k-3)^2}{k+3}\\right).\n\\]\nThe circumcircle of \\(\\triangle QRS\\) is \\(C_k\\), with centre \\(U\\).\n(a)Use completing squares to find \\(Q\\), and state \\(R\\).\n(b)Find \\(C_k\\), and state the fixed point \\(V\\) through which every \\(C_k\\) passes.\n(c)Is \\(US\\perp QV\\) possible? If so, find every \\(k\\).\n\nEditorial clarification: the source range \\(k\\ge0\\) includes degenerate cases \\(k=0,3\\). Discuss the circumcircle only when \\(k>0\\), \\(k\\ne3\\).",
+          "stemZh": "設\n\\[\nf(x)=x^2-2(k-1)x+k^2-k+4,\n\\]\n其中 \\(k\\ge0\\)。在同一坐標平面上，\\(Q\\) 為 \\(y=f(x)\\) 的頂點，\\(R\\) 為 \\(y=f(4-x)\\) 的頂點。再設\n\\[\nS=\\left(k-1,\\frac{(k-3)^2}{k+3}\\right).\n\\]\n\\(\\triangle QRS\\) 的外接圓為 \\(C_k\\)，圓心為 \\(U\\)。\n(a)用配方法求 \\(Q\\)，並寫出 \\(R\\)。\n(b)求 \\(C_k\\) 的方程，並寫出所有 \\(C_k\\) 必經的固定點 \\(V\\)。\n(c)判斷是否可能 \\(US\\perp QV\\)。若可能，求所有 \\(k\\)。\n\n編輯說明：來源範圍 \\(k\\ge0\\) 包含退化情況 \\(k=0,3\\)。本題只在 \\(k>0\\)、\\(k\\ne3\\) 時討論三角形的外接圓。",
+          "solution": "Worked Solution\nCompleting the square gives \\(Q=(k-1,k+3)\\), and the reflection in \\(x\\mapsto4-x\\) gives \\(R=(5-k,k+3)\\). Since \\(QR\\) is horizontal and \\(QS\\) vertical, \\(RS\\) is a diameter. Its midpoint is\n\\[\nU=\\left(2,\\frac{k^2+9}{k+3}\\right),\n\\]\nand the radius has the same value as the centre’s \\(y\\)-coordinate. Therefore\n\\[\nC_k:(x-2)^2+\\left(y-\\frac{k^2+9}{k+3}\\right)^2\n=\\left(\\frac{k^2+9}{k+3}\\right)^2,\n\\]\nso every circle touches the x-axis at \\(V=(2,0)\\). Finally,\n\\[\n\\overrightarrow{US}\\cdot\\overrightarrow{QV}=-(k-3)^2+6k=0\n\\]\ngives \\(k^2-12k+9=0\\), hence \\(k=6\\pm3\\sqrt{3}\\), both valid for \\(k\\ge0\\).\n\nDomain clarification: \\(k>0\\) and \\(k\\ne3\\) are required for the stated triangle and its circumcircle to exist uniquely. At \\(k=0\\), \\(Q=S=(-1,3)\\); at \\(k=3\\), \\(Q=R=(2,6)\\). The displayed circle formula at these values is only a limiting choice, not a uniquely defined circumcircle. Both \\(6\\pm3\\sqrt3\\) satisfy the valid domain.",
+          "solutionZh": "4. 完整詳解 / Worked Solution\n配方：\n\\[\nf(x)=[x-(k-1)]^2+k+3.\n\\]\n故\n\\[\nQ=(k-1,k+3),\\qquad R=(5-k,k+3).\n\\]\n\\(QR\\) 水平而 \\(QS\\) 垂直，故 \\(\\angle RQS=90^\\circ\\)，\\(RS\\) 是 \\(C_k\\) 的直徑。取中點：\n\\[\nU=\\left(2,\\frac{k^2+9}{k+3}\\right).\n\\]\n由直徑的一半可得半徑\n\\[\nr=\\frac{k^2+9}{k+3}.\n\\]\n所以\n\\[\nC_k:(x-2)^2+\\left(y-\\frac{k^2+9}{k+3}\\right)^2\n=\\left(\\frac{k^2+9}{k+3}\\right)^2.\n\\]\n因 \\(k\\ge0\\)，半徑等於圓心的正 \\(y\\)-坐標，故每個圓都與 \\(x\\)-軸相切於\n\\[\nV=(2,0).\n\\]\n為判斷垂直，取\n\\[\n\\overrightarrow{US}=\\left(k-3,-\\frac{6k}{k+3}\\right),\n\\qquad \\overrightarrow{QV}=(3-k,-k-3).\n\\]\n令內積為零：\n\\[\n\\overrightarrow{US}\\cdot\\overrightarrow{QV}\n=-(k-3)^2+6k=0\n\\Rightarrow k^2-12k+9=0.\n\\]\n故\n\\[\nk=6\\pm3\\sqrt{3}.\n\\]\n兩值均非負，因此都有效。\n\n定義域說明：題設三角形及其唯一外接圓存在，須有 \\(k>0\\) 且 \\(k\\ne3\\)。當 \\(k=0\\)，\\(Q=S=(-1,3)\\)；當 \\(k=3\\)，\\(Q=R=(2,6)\\)。在這兩個值代入圓公式只得到一個極限選擇，不能稱為唯一外接圓。\\(6\\pm3\\sqrt3\\) 皆符合有效定義域。",
           "subcategory": "circle-loci",
           "skill": "circle-equation-circle-loci",
           "questionType": "structured",
@@ -12878,7 +12825,8 @@
             "edition": "circle-equation-2026-10-23",
             "section": "q-Q96",
             "item": 0,
-            "title": "Q96. LongQ Quadratic Vertices Create A Circle Family Through A Fixed Point"
+            "title": "Q96. LongQ Quadratic Vertices Create A Circle Family Through A Fixed Point",
+            "domainClarified": "Source k>=0 includes degenerate k=0,3; necessary existence domain k>0, k!=3 shown explicitly."
           },
           "contentBlocks": {
             "en": [
@@ -12913,6 +12861,10 @@
               {
                 "type": "paragraph",
                 "text": "(c)Is \\(US\\perp QV\\) possible? If so, find every \\(k\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Editorial clarification: the source range \\(k\\ge0\\) includes degenerate cases \\(k=0,3\\). Discuss the circumcircle only when \\(k>0\\), \\(k\\ne3\\)."
               }
             ],
             "zh-Hant": [
@@ -12947,6 +12899,10 @@
               {
                 "type": "paragraph",
                 "text": "(c)判斷是否可能 \\(US\\perp QV\\)。若可能，求所有 \\(k\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "編輯說明：來源範圍 \\(k\\ge0\\) 包含退化情況 \\(k=0,3\\)。本題只在 \\(k>0\\)、\\(k\\ne3\\) 時討論三角形的外接圓。"
               }
             ]
           }

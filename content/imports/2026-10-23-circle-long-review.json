@@ -1,0 +1,2208 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-23",
+  "scope": "All 78 longer published circle questions; numerical subparts, domain restrictions, feasible branches and claims checked independently.",
+  "test": "tests/circle-long-review.cjs",
+  "method": "Independent Euclidean and coordinate calculations; all bilingual question and solution fields and figure bytes bound by SHA256. Source marking routes are not inputs to the calculations.",
+  "records": [
+    {
+      "id": "note-circle-equation-q13",
+      "status": "完成",
+      "questionSha256": "96bf524a584b3713075f46ee06d48363f54be20f0c2ac03c7d90e9a69b25b762",
+      "figures": [],
+      "reason": "Tangency, all four extrema, and absence of y-axis intersection.",
+      "calculated": {
+        "O": [
+          4,
+          3
+        ],
+        "R2": 9,
+        "contact": [
+          4,
+          0
+        ],
+        "anchors": [
+          [
+            7,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "yAxisIntersections": 0
+      },
+      "solution": "Worked Solution\n(a)The radius is the distance from \\(G\\) to the x-axis, namely 3. Thus\n\\[\n(x-4)^2+(y-3)^2=9.\n\\]\n(b)The contact point is \\((4,0)\\). The four anchor points are\n\\[\n(7,3),\\ (1,3),\\ (4,6),\\ (4,0).\n\\]\n(c)The centre-to-y-axis distance is 4, greater than the radius 3, so there is no intersection.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)圓心到 \\(x\\)-軸距離為 \\(|3|=3\\)，所以\n\\[\n(x-4)^2+(y-3)^2=9.\n\\]\n(b)接觸點為 \\((4,0)\\)。四個定位點為\n\\[\n(7,3),\\ (1,3),\\ (4,6),\\ (4,0).\n\\]\n(c)圓心到 \\(y\\)-軸距離為 4，大於半徑 3，所以不相交。"
+    },
+    {
+      "id": "note-circle-equation-q14",
+      "status": "完成",
+      "questionSha256": "5dc50ca4dff699fe1955897307ba23d16e89a3edc15ca8336b50357429e1fd7f",
+      "figures": [],
+      "reason": "Diameter midpoint; verify both pairs of axis roots.",
+      "calculated": {
+        "O": [
+          2,
+          3
+        ],
+        "R2": 20,
+        "xs": [
+          -1.3166247903553998,
+          5.3166247903554
+        ],
+        "ys": [
+          -1,
+          7
+        ]
+      },
+      "solution": "Worked Solution\n(a)The midpoint is \\(G=(2,3)\\), and\n\\[\nr^2=(-2-2)^2+(1-3)^2=20.\n\\]\nHence\n\\[\n(x-2)^2+(y-3)^2=20.\n\\]\n(b)Set \\(y=0\\): \\(x=2\\pm\\sqrt{11}\\). The points are \\((2\\pm\\sqrt{11},0)\\).\n(c)Set \\(x=0\\): \\(y=7,-1\\). The points are \\((0,7),(0,-1)\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)圓心為\n\\[\nG=\\left(\\frac{-2+6}{2},\\frac{1+5}{2}\\right)=(2,3).\n\\]\n半徑平方\n\\[\nr^2=(-2-2)^2+(1-3)^2=20.\n\\]\n所以\n\\[\n(x-2)^2+(y-3)^2=20.\n\\]\n(b)令 \\(y=0\\)：\\((x-2)^2+9=20\\)，故\n\\[\nx=2\\pm\\sqrt{11}.\n\\]\n交點為 \\((2\\pm\\sqrt{11},0)\\)。\n(c)令 \\(x=0\\)：\\(4+(y-3)^2=20\\)，故 \\(y=7\\) 或 \\(-1\\)。交點為 \\((0,7),(0,-1)\\)。"
+    },
+    {
+      "id": "note-circle-equation-q15",
+      "status": "完成",
+      "questionSha256": "5c20f72974ce7e87956d6cb81da7be63bf216e3830d1e261b1ef730c19b210e5",
+      "figures": [],
+      "reason": "Recover centre and nearest point by radial projection.",
+      "calculated": {
+        "O": [
+          3,
+          -4
+        ],
+        "R2": 25,
+        "Q": [
+          6,
+          0
+        ],
+        "shortest": 5
+      },
+      "solution": "Worked Solution\n(a)Completing the square gives\n\\[\n(x-3)^2+(y+4)^2=25,\n\\]\nso \\(G=(3,-4)\\) and \\(r=5\\).\n(b)\\(GP=10>5\\), so \\(P\\) lies outside.\n(c)The shortest distance is \\(10-5=5\\). The unit direction from \\(G\\) to \\(P\\) is \\((3/5,4/5)\\), hence\n\\[\nQ=(3,-4)+5(3/5,4/5)=(6,0).\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\n\\[\n(x-3)^2+(y+4)^2=25.\n\\]\n所以 \\(G=(3,-4)\\)，半徑 5。\n(b)\n\\[\nGP=\\sqrt{(9-3)^2+(4+4)^2}=10>5,\n\\]\n所以 \\(P\\) 在圓外。\n(c)最短距離 \\(=10-5=5\\)。由 \\(G\\) 指向 \\(P\\) 的方向分量為 \\((6,8)\\)，單位方向為 \\((3/5,4/5)\\)。所以\n\\[\nQ=G+5\\left(\\frac{3}{5},\\frac{4}{5}\\right)=(6,0).\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q73",
+      "status": "完成",
+      "questionSha256": "4e0c5cf353da935b9c0dd2f37077e6cee8b4bad91deb578edeee907b5ccc8d0b",
+      "figures": [],
+      "reason": "Perpendicular bisector fixes centre; external classification and nearest radial point.",
+      "calculated": {
+        "O": [
+          8,
+          -5
+        ],
+        "R2": 289,
+        "P": [
+          15.602631123499284,
+          10.205262246998569
+        ],
+        "minimum": 0.8885438199983184,
+        "order": "G-P-F"
+      },
+      "solution": "Worked Solution\nThe perpendicular bisector of \\(AB\\) is \\(y=-5\\), so \\(G=(8,-5)\\). Since \\(GA^2=289\\),\n\\[\nC:(x-8)^2+(y+5)^2=289.\n\\]\nAlso \\(GF=8\\sqrt{5}>17\\), so \\(F\\) is outside. The nearest point lies on ray \\(GF\\), whose equation is \\(2x-y-21=0\\). Using the unit vector \\((1/\\sqrt{5},2/\\sqrt{5})\\),\n\\[\nP=\\left(8+\\frac{17}{\\sqrt5},-5+\\frac{34}{\\sqrt5}\\right),\n\\qquad FP=8\\sqrt{5}-17.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的中點為 \\((0,-5)\\)，故垂直平分線是 \\(y=-5\\)，所以 \\(G=(8,-5)\\)。又\n\\[\nGA^2=8^2+15^2=289.\n\\]\n因此\n\\[\nC:(x-8)^2+(y+5)^2=289.\n\\]\n\\[\nGF=\\sqrt{8^2+16^2}=8\\sqrt{5}>17,\n\\]\n故 \\(F\\) 在圓外。最近點在射線 \\(GF\\) 上，而直線 \\(GF\\) 為\n\\[\n2x-y-21=0.\n\\]\n由 \\(G\\) 指向 \\(F\\) 的單位向量是 \\((1/\\sqrt{5},2/\\sqrt{5})\\)，所以\n\\[\nP=\\left(8+\\frac{17}{\\sqrt5},-5+\\frac{34}{\\sqrt5}\\right),\n\\qquad FP=8\\sqrt{5}-17.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q77",
+      "status": "完成",
+      "questionSha256": "5cc774ad63cdc3f9e34f1c8df3360dd502aca4da213a9f806b264e8fd69c6e7c",
+      "figures": [],
+      "reason": "Negative centre branch; two horizontal tangents and internal shortest distance.",
+      "calculated": {
+        "O": [
+          -15,
+          12
+        ],
+        "R2": 625,
+        "N": [
+          4.521720236075758,
+          -3.6173761888606073
+        ],
+        "contact": [
+          -15,
+          37
+        ],
+        "otherTangentY": -13,
+        "shortest": 5.790627287701454
+      },
+      "solution": "Worked Solution\nThe midpoint of \\(AB\\) is \\((0,12)\\), so \\(G=(h,12)\\), \\(h<0\\). Tangency gives \\(r=25\\), and \\(h^2+20^2=25^2\\) gives \\(h=-15\\). Thus\n\\[\nC:(x+15)^2+(y-12)^2=625.\n\\]\nThe contact point is \\(T=(-15,37)\\), and the other horizontal tangent is \\(y=-13\\). Since \\(GO=3\\sqrt{41}<25\\), \\(O\\) is inside. The shortest distance is \\(25-3\\sqrt{41}\\), and\n\\[\nN=\\left(-15+\\frac{125}{\\sqrt{41}},12-\\frac{100}{\\sqrt{41}}\\right).\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 中點為 \\((0,12)\\)，設 \\(G=(h,12)\\)，其中 \\(h<0\\)。相切給\n\\[\nr=37-12=25.\n\\]\n又 \\(GA=25\\)，所以\n\\[\nh^2+20^2=25^2.\n\\]\n因此 \\(h=-15\\)，\n\\[\nC:(x+15)^2+(y-12)^2=625.\n\\]\n切點為 \\(T=(-15,37)\\)，另一水平切線為 \\(y=-13\\)。此外\n\\[\nGO=\\sqrt{15^2+12^2}=3\\sqrt{41}<25,\n\\]\n故 \\(O\\) 在圓內，最短距離為 \\(25-3\\sqrt{41}\\)。由 \\(G\\) 指向 \\(O\\) 的單位向量為 \\((5/\\sqrt{41},-4/\\sqrt{41})\\)，所以\n\\[\nN=\\left(-15+\\frac{125}{\\sqrt{41}},12-\\frac{100}{\\sqrt{41}}\\right).\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q16",
+      "status": "完成",
+      "questionSha256": "52ba2f67c95db7d400f2f67c629d2f772423debac70c775ba24416c348b49e7e",
+      "figures": [],
+      "reason": "Circle through E; F outside; farthest point has G between F and H.",
+      "calculated": {
+        "O": [
+          2,
+          -1
+        ],
+        "R2": 100,
+        "H": [
+          5.846153846153847,
+          -10.230769230769232
+        ],
+        "line": [
+          12,
+          5,
+          -19
+        ],
+        "order": "F-G-H"
+      },
+      "solution": "Worked Solution\n(a)\\(r^2=100\\), so \\((x-2)^2+(y+1)^2=100\\).\n(b)\\(GF=13>10\\), hence \\(F\\) lies outside.\n(c)(i) \\(F,G,H\\) are collinear, with \\(G\\) between \\(F\\) and \\(H\\).\n(ii)The slope of \\(FG\\) is \\(-12/5\\), giving\n\\[\n12x+5y-19=0.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\n\\[\nr^2=(-6-2)^2+(5+1)^2=100,\n\\]\n所以\n\\[\n(x-2)^2+(y+1)^2=100.\n\\]\n(b)\n\\[\nGF=\\sqrt{(-5)^2+12^2}=13>10,\n\\]\n所以 \\(F\\) 在圓外。\n(c)(i) \\(F,G,H\\) 共線，而且 \\(G\\) 位於 \\(F,H\\) 之間。\n(ii)\\(FG\\) 斜率為 \\(-12/5\\)。過 \\(F(-3,11)\\)：\n\\[\ny-11=-\\frac{12}{5}(x+3),\n\\]\n即\n\\[\n12x+5y-19=0.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q76",
+      "status": "完成",
+      "questionSha256": "1b230d0bce6f7da1649c1ffdba3be4de88c15ea3462ca3434fd1ee83adeda4b3",
+      "figures": [],
+      "reason": "Expand the full parameter family and prove minimum with diameter bound.",
+      "calculated": {
+        "k": 3,
+        "centre": [
+          7,
+          3
+        ],
+        "least": {
+          "O": [
+            11,
+            4
+          ],
+          "R2": 17
+        },
+        "minimumAreaPi": 17
+      },
+      "solution": "Worked Solution\n\\(Q=(12,0)\\), \\(m_L=5/3\\), so \\(L':3x+5y-36=0\\). Let \\(G=(u,k)\\), where \\(u=(36-5k)/3\\). Expanding\n\\[\n(x-u)^2+(y-k)^2=(12-u)^2+k^2\n\\]\ngives the required family. Substituting \\(A(4,8)\\) gives \\(k=3\\), \\(G=(7,3)\\). Since \\(PG^2=68\\) and every circle through the two points satisfies \\(PG\\le2R\\), the least circle has diameter \\(PG\\):\n\\[\n(x-11)^2+(y-4)^2=17,\n\\qquad \\text{area}=17\\pi.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(Q=(12,0)\\)，且 \\(m_L=5/3\\)，所以\n\\[\nL':3x+5y-36=0.\n\\]\n設 \\(G=(u,k)\\)，則 \\(u=(36-5k)/3\\)。由半徑 \\(GQ\\)：\n\\[\n(x-u)^2+(y-k)^2=(12-u)^2+k^2.\n\\]\n展開並乘以 \\(3\\)，即得題示圓族。代入 \\(A(4,8)\\)：\n\\[\n384-128k=0,\n\\]\n故 \\(k=3\\)，\\(G=(7,3)\\)。又\n\\[\nPG^2=8^2+2^2=68.\n\\]\n任何通過 \\(P,G\\) 的圓若半徑為 \\(R\\)，都有 \\(PG\\le2R\\)。等號在 \\(PG\\) 為直徑時取得。最小圓圓心為 \\((11,4)\\)，\\(R^2=17\\)，所以\n\\[\n(x-11)^2+(y-4)^2=17,\n\\qquad \\text{area}=17\\pi.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q23",
+      "status": "完成",
+      "questionSha256": "8643ef6e197d0d97d2f6f0fe47b617c86925e9aa6fd1cbdd58089a3c33128017",
+      "figures": [],
+      "reason": "Maximum triangle area at perpendicular radii; perimeter.",
+      "calculated": {
+        "O": [
+          77,
+          64
+        ],
+        "R2": 9801,
+        "GH": 20,
+        "HP": 101,
+        "perimeter": 220,
+        "maximumArea": 990
+      },
+      "solution": "Worked Solution\n(a)The centre is \\(G=(77,64)\\), so \\(GH=20\\).\n(b)(i) Maximum area occurs when \\(GP\\perp GH\\).\n(ii)The radius is 99. Thus \\(HP=\\sqrt{20^2+99^2}=101\\), and the perimeter is 220.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)圓心\n\\[\nG=(77,64).\n\\]\n所以\n\\[\nGH=\\sqrt{12^2+16^2}=20.\n\\]\n(b)(i) 最大面積時 \\(GP\\perp GH\\)。\n(ii)配方或一般式公式得半徑 99，所以 \\(GP=99\\)。由直角三角形：\n\\[\nHP=\\sqrt{20^2+99^2}=101.\n\\]\n周界\n\\[\n20+99+101=220.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q62",
+      "status": "完成",
+      "questionSha256": "169c95f37c1694944521160894115e6ac6a342c993f34102a9f4c518f9efe728",
+      "figures": [],
+      "reason": "Foot, farthest radial point and common-altitude area ratio.",
+      "calculated": {
+        "O": [
+          5,
+          11
+        ],
+        "R2": 100,
+        "P": [
+          -7,
+          6
+        ],
+        "R": [
+          14.230769230769232,
+          14.846153846153847
+        ],
+        "ratio": "13:10",
+        "order": "P-G-R"
+      },
+      "solution": "Worked Solution\nCompleting the square gives \\((x-5)^2+(y-11)^2=100\\), so \\(G=(5,11)\\) and \\(r=10\\).\nThe centre-to-line distance is\n\\[\nPG=\\frac{|12(5)+5(11)+54|}{13}=13.\n\\]\nUsing the perpendicular-foot formula gives \\(P=(-7,6)\\).\nSince \\(P\\) is outside the circle, the farthest point \\(R\\) lies on the line \\(PG\\) beyond \\(G\\). Thus \\(P,G,R\\) are collinear in the order \\(P-G-R\\), and \\(GR=10\\). Triangles \\(OPG\\) and \\(OGR\\) have bases on the same line and share the same altitude from \\(O\\). Therefore\n\\[\n[\\triangle OPG]:[\\triangle OGR]=PG:GR=13:10.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n配方得\n\\[\n(x-5)^2+(y-11)^2=100,\n\\]\n所以 \\(G=(5,11)\\)、\\(r=10\\)。\n由點到直線距離，\n\\[\nPG=\\frac{|12(5)+5(11)+54|}{13}=13.\n\\]\n從 \\(G\\) 作 \\(L\\) 的垂線，方向為 \\((12,5)\\)。用垂足公式，\n\\[\nP=\\left(5-\\frac{12(169)}{169},11-\\frac{5(169)}{169}\\right)=(-7,6).\n\\]\n因 \\(P\\) 在圓外，圓上離 \\(P\\) 最遠的點 \\(R\\) 與 \\(P,G\\) 共線，次序為 \\(P-G-R\\)，而 \\(GR=10\\)。三角形 \\(OPG\\) 及 \\(OGR\\) 的底 \\(PG,GR\\) 位於同一直線，從 \\(O\\) 到該直線的高相同，所以\n\\[\n[\\triangle OPG]:[\\triangle OGR]=PG:GR=13:10.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-official-dse-hkeaa-2013-p1-final-q14",
+      "status": "完成",
+      "questionSha256": "f2f4cd148ade50e552ff162689c0a7d7145af705bddb0ee42fc790fde0c2e06d",
+      "figures": [],
+      "reason": "Nearest external circle point and actual areas.",
+      "calculated": {
+        "O": [
+          6,
+          17
+        ],
+        "R2": 100,
+        "P": [
+          -14,
+          2
+        ],
+        "Q": [
+          -2,
+          11
+        ],
+        "ratio": "3:2",
+        "order": "P-Q-R"
+      },
+      "solution": "Official Marking Route / 官方解題路線\n(a)\n\\[\nx^2+y^2-12x-34y+225=0\n\\]\nbecomes\n\\[\n(x-6)^2+(y-17)^2=100.\n\\]\nThus\n\\[\nR=(6,17).\n\\]\n(b)(i) Let \\(P=(h,k)\\). Since \\(P\\) lies on \\(L\\),\n\\[\n4h+3k+50=0.\n\\]\nSince \\(RP\\perp L\\), the slope of \\(RP\\) is \\(3/4\\), so\n\\[\n3h-4k+50=0.\n\\]\nSolving,\n\\[\nP=(-14,2).\n\\]\nTherefore\n\\[\nPR=\\sqrt{(-14-6)^2+(2-17)^2}=25.\n\\]\n(b)(ii)\\(1\\) When \\(Q\\) is nearest to \\(P\\), the points \\(P\\), \\(Q\\) and \\(R\\) are collinear.\n(b)(ii)\\(2\\) The radius of \\(C\\) is \\(10\\), so\n\\[\nQR=10,\\; PQ=25-10=15.\n\\]\nUsing the same altitude from \\(O\\) to the line \\(PQR\\),\n\\[\n\\text{area of }\\triangle OPQ:\\text{area of }\\triangle OQR=PQ:QR=15:10=3:2.\n\\]\nFinal answers: (a) \\((6,17)\\); (b)(i) \\(25\\); (b)(ii)\\(1\\) collinear; (b)(ii)\\(2\\) \\(3:2\\).",
+      "solutionZh": "Official Marking Route / 官方解題路線\n(a)\n\\[\nx^2+y^2-12x-34y+225=0\n\\]\nbecomes\n\\[\n(x-6)^2+(y-17)^2=100.\n\\]\nThus\n\\[\nR=(6,17).\n\\]\n(b)(i) Let \\(P=(h,k)\\). Since \\(P\\) lies on \\(L\\),\n\\[\n4h+3k+50=0.\n\\]\nSince \\(RP\\perp L\\), the slope of \\(RP\\) is \\(3/4\\), so\n\\[\n3h-4k+50=0.\n\\]\nSolving,\n\\[\nP=(-14,2).\n\\]\nTherefore\n\\[\nPR=\\sqrt{(-14-6)^2+(2-17)^2}=25.\n\\]\n(b)(ii)\\(1\\) When \\(Q\\) is nearest to \\(P\\), the points \\(P\\), \\(Q\\) and \\(R\\) are collinear.\n(b)(ii)\\(2\\) The radius of \\(C\\) is \\(10\\), so\n\\[\nQR=10,\\; PQ=25-10=15.\n\\]\nUsing the same altitude from \\(O\\) to the line \\(PQR\\),\n\\[\n\\text{area of }\\triangle OPQ:\\text{area of }\\triangle OQR=PQ:QR=15:10=3:2.\n\\]\nFinal answers: (a) \\((6,17)\\); (b)(i) \\(25\\); (b)(ii)\\(1\\) collinear; (b)(ii)\\(2\\) \\(3:2\\)."
+    },
+    {
+      "id": "note-circle-equation-q17",
+      "status": "完成",
+      "questionSha256": "86ff8ddf3ad5bea05e1a0afb4419c6ae393fd44e3a437554b8a5ca5f0b5b67b0",
+      "figures": [],
+      "reason": "Half-chord Pythagoras and triangle area.",
+      "calculated": {
+        "O": [
+          2,
+          -1
+        ],
+        "R2": 169,
+        "M": [
+          5,
+          3
+        ],
+        "length": 24,
+        "area": 60
+      },
+      "solution": "Worked Solution\n(a)\n\\[\nd=\\frac{|3(2)+4(-1)-27|}{5}=5.\n\\]\n(b)If \\(M\\) is the foot of the perpendicular, then\n\\[\nAM=\\sqrt{13^2-5^2}=12.\n\\]\nThus \\(AB=24\\).\n(c)The area is \\(\\frac{1}{2}(24)(5)=60\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\n\\[\nd=\\frac{|3(2)+4(-1)-27|}{5}=5.\n\\]\n(b)設垂足為 \\(M\\)。則\n\\[\nAM=\\sqrt{13^2-5^2}=12,\n\\]\n所以 \\(AB=24\\)。\n(c)\n\\[\n[\\triangle GAB]=\\frac{1}{2}(24)(5)=60.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q18",
+      "status": "完成",
+      "questionSha256": "3352f143ce353ecdeb2d1662e404da095184f2dfe6f2ac6e7504a5df2fbdad91",
+      "figures": [],
+      "reason": "Normal to chord through midpoint; both length and line.",
+      "calculated": {
+        "L": [
+          2,
+          1,
+          10
+        ],
+        "length": 13.2664991614216
+      },
+      "solution": "Worked Solution\n(a)The slope of \\(OM\\) is \\(1/2\\), so the chord slope is \\(-2\\). Through \\(M\\),\n\\[\n2x+y+10=0.\n\\]\n(b)\\(OM^2=20\\). Hence the half-chord is\n\\[\n\\sqrt{64-20}=2\\sqrt{11},\n\\]\nand \\(AB=4\\sqrt{11}\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\\(OM\\) 斜率為\n\\[\n\\frac{-2}{-4}=\\frac{1}{2}.\n\\]\n所以弦斜率為 \\(-2\\)。過 \\(M(-4,-2)\\)：\n\\[\ny+2=-2(x+4),\n\\]\n即 \\(2x+y+10=0\\)。\n(b)\n\\[\nOM^2=20,\\qquad r^2=64.\n\\]\n半弦平方 \\(=64-20=44\\)，所以半弦 \\(=2\\sqrt{11}\\)，全弦\n\\[\nAB=4\\sqrt{11}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q84",
+      "status": "完成",
+      "questionSha256": "f64f5b78deec9bd27969ebf6f669db2bda4b9d5f8fe0c6a7c3ac3d36aecfc365",
+      "figures": [],
+      "reason": "Bisector, chord length, axis intercept triangle and exact area bound.",
+      "calculated": {
+        "O": [
+          6,
+          8
+        ],
+        "R2": 169,
+        "Gamma": [
+          4,
+          3,
+          -48
+        ],
+        "chord": 24,
+        "triangle": 96,
+        "quarterCirclePi": 42.25
+      },
+      "solution": "Worked Solution\nThe circle is \\((x-6)^2+(y-8)^2=169\\), so \\(X=(6,8)\\), \\(r=13\\). The perpendicular bisector of chord \\(AB\\) is\n\\[\n\\Gamma:4x+3y-48=0.\n\\]\nSince \\(d(X,L)=5\\),\n\\[\nAB=2\\sqrt{13^2-5^2}=24.\n\\]\nThe intercepts are \\(H=(12,0)\\), \\(K=(0,16)\\), so \\([\\triangle OHK]=96\\). Since \\(169\\pi/4>507/4>96\\), the claim is correct.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n配方得\n\\[\nC:(x-6)^2+(y-8)^2=169,\n\\]\n故 \\(X=(6,8)\\)，\\(r=13\\)。\\(L\\) 的斜率為 \\(3/4\\)，所以通過 \\(X\\) 的垂線為\n\\[\n\\Gamma:4x+3y-48=0.\n\\]\n它是弦 \\(AB\\) 的垂直平分線，故必通過圓心。圓心到 \\(L\\) 的距離為\n\\[\nd(X,L)=\\frac{|18-32-11|}{5}=5.\n\\]\n所以\n\\[\n\\frac{AB}{2}=\\sqrt{13^2-5^2}=12,\n\\qquad AB=24.\n\\]\n\\(\\Gamma\\) 的截距為 \\(H=(12,0)\\)、\\(K=(0,16)\\)，故\n\\[\n[\\triangle OHK]=\\frac{1}{2}(12)(16)=96.\n\\]\n圓面積四分之一為 \\(169\\pi/4\\)。因 \\(\\pi>3\\)，\n\\[\n\\frac{169\\pi}{4}>\\frac{507}{4}>96.\n\\]\n所以聲稱正確。"
+    },
+    {
+      "id": "note-circle-equation-q19",
+      "status": "完成",
+      "questionSha256": "7710e0e961645aaacedd0a9cff08cc7fe1924206b8052cf615173568b45e9ded",
+      "figures": [],
+      "reason": "Verify both intersections, midpoint and Euclidean chord.",
+      "calculated": {
+        "P": [
+          3,
+          4
+        ],
+        "Q": [
+          -4,
+          -3
+        ],
+        "M": [
+          -0.5,
+          0.5
+        ],
+        "length": 9.899494936611665
+      },
+      "solution": "Worked Solution\n(a)Substitution gives\n\\[\nx^2+x-12=0,\n\\]\nso \\(x=3,-4\\). Thus the points are \\((3,4)\\) and \\((-4,-3)\\).\n(b)The midpoint is \\((-1/2,1/2)\\).\n(c)\\(PQ=\\sqrt{7^2+7^2}=7\\sqrt{2}\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\n\\[\nx^2+(x+1)^2=25\n\\]\n\\[\nx^2+x-12=0=(x-3)(x+4).\n\\]\n所以 \\(x=3,-4\\)，交點為\n\\[\nP(3,4),\\; Q(-4,-3).\n\\]\n(b)中點為\n\\[\n\\left(-\\frac{1}{2},\\frac{1}{2}\\right).\n\\]\n(c)\n\\[\nPQ=\\sqrt{7^2+7^2}=7\\sqrt{2}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q20",
+      "status": "完成",
+      "questionSha256": "98ccd1767c198f9074483ba91276f81f7e10467c9adc5d1ed41749b1ca005395",
+      "figures": [],
+      "reason": "Tangency radius and parameter midpoint; expansion identity.",
+      "calculated": {
+        "O": [
+          6,
+          10
+        ],
+        "R2": 100,
+        "M": [
+          "k/2-2",
+          "k/2+2"
+        ]
+      },
+      "solution": "Worked Solution\n(a)The radius is 10, so\n\\[\n(x-6)^2+(y-10)^2=100.\n\\]\n(b)Substitute \\(y=-x+k\\). The resulting quadratic is\n\\[\n2x^2-2(k-4)x+(k-10)^2-64=0.\n\\]\nThe mean of the x-roots is \\(k/2-2\\). The line equation gives mean y-coordinate \\(k/2+2\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)半徑為 10，所以\n\\[\n(x-6)^2+(y-10)^2=100.\n\\]\n(b)\\(L:y=-x+k\\)。代入圓得\n\\[\n2x^2-2(k-4)x+(k-10)^2-64=0.\n\\]\n兩個 \\(x\\) 根的平均為\n\\[\nx_M=\\frac{k-4}{2}=\\frac{k}{2}-2.\n\\]\n再用 \\(y=-x+k\\)：\n\\[\ny_M=\\frac{k}{2}+2.\n\\]\n中點為\n\\[\n\\left(\\frac{k}{2}-2,\\frac{k}{2}+2\\right).\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q78",
+      "status": "完成",
+      "questionSha256": "77b187eb8c2e7f8df3247ec01c123b57503e0cf187108f2521b7cc9c1cb8d5e1",
+      "figures": [],
+      "reason": "Both line intersections and independent circumcircle; diameter and 45 degrees.",
+      "calculated": {
+        "E": [
+          1,
+          2
+        ],
+        "P": [
+          -2,
+          6
+        ],
+        "Q": [
+          5,
+          5
+        ],
+        "c": {
+          "O": [
+            1.5,
+            5.5
+          ],
+          "R2": 12.5
+        },
+        "angle": 45
+      },
+      "solution": "Worked Solution\nThe centre is \\(E=(1,2)\\). Substitution of \\(x=40-7y\\) gives \\(P=(-2,6)\\), \\(Q=(5,5)\\). The circle through \\(P,Q,E\\) is\n\\[\n\\Gamma:x^2+y^2-3x-11y+20=0.\n\\]\nIts centre \\((3/2,11/2)\\) is the midpoint of \\(PQ\\), so \\(PQ\\) is a diameter. Hence \\(\\angle PEQ=90^\\circ\\); since \\(EP=EQ=5\\), \\(\\angle EPQ=45^\\circ\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nC:(x-1)^2+(y-2)^2=25,\n\\]\n故 \\(E=(1,2)\\)。由 \\(x=40-7y\\) 代入圓，得\n\\[\ny^2-11y+30=0.\n\\]\n所以 \\(P=(-2,6)\\)、\\(Q=(5,5)\\)。設\n\\[\n\\Gamma:x^2+y^2+Dx+Ey+F=0.\n\\]\n代入 \\(P,Q,E\\)，得\n\\[\n\\Gamma:x^2+y^2-3x-11y+20=0.\n\\]\n其圓心為 \\((3/2,11/2)\\)，正是 \\(PQ\\) 中點，故 \\(PQ\\) 是直徑。因此 \\(\\angle PEQ=90^\\circ\\)。又 \\(EP=EQ=5\\)，所以\n\\[\n\\angle EPQ=45^\\circ.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q33",
+      "status": "完成",
+      "questionSha256": "391748969b17702053b2c91e02c03457ddd58ff9fc5c228c7696a4efaf7b5260",
+      "figures": [],
+      "reason": "Strict secant bounds, midpoint formula and both six-unit chords.",
+      "calculated": {
+        "strictBounds": [
+          -8.071067811865476,
+          6.0710678118654755
+        ],
+        "ks": [
+          -6.656854249492381,
+          4.656854249492381
+        ]
+      },
+      "solution": "Worked Solution\nThe centre is \\(G=(2,1)\\) and \\(r=5\\). Write the line as \\(x-y+k=0\\). Hence\n\\[\nd(G,L_k)=\\frac{|k+1|}{\\sqrt2}.\n\\]\n(a)Two distinct intersections require this distance to be less than 5. Therefore\n\\[\n|k+1|<5\\sqrt{2},\n\\]\nso\n\\[\n\\boxed{-1-5\\sqrt{2}<k<-1+5\\sqrt2}.\n\\]\n(b)The chord midpoint is the perpendicular foot from \\(G\\). It is\n\\[\n\\boxed{M=\\left(\\frac{3-k}{2},\\frac{3+k}{2}\\right)}.\n\\]\n(c)Chord length 6 gives half-chord \\(AM=3\\). Thus\n\\[\nd(G,L_k)^2+3^2=5^2,\n\\]\nso \\(d(G,L_k)=4\\). Hence\n\\[\n|k+1|=4\\sqrt{2},\n\\qquad\n\\boxed{k=-1\\pm4\\sqrt2}.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n圓心為 \\(G=(2,1)\\)，半徑 \\(r=5\\)。而\n\\[\nL_k:x-y+k=0.\n\\]\n所以\n\\[\nd(G,L_k)=\\frac{|2-1+k|}{\\sqrt{1^2+(-1)^2}}\n=\\frac{|k+1|}{\\sqrt2}.\n\\]\n(a)有兩個不同交點要求 \\(d(G,L_k)<5\\)。因此\n\\[\n\\frac{|k+1|}{\\sqrt2}<5\n\\Rightarrow |k+1|<5\\sqrt{2}.\n\\]\n故\n\\[\n\\boxed{-1-5\\sqrt{2}<k<-1+5\\sqrt2}.\n\\]\n(b)\\(M\\) 是 \\(G\\) 到 \\(L_k\\) 的垂足。對 \\(x-y+k=0\\)，\n\\[\nM=\\left(2-\\frac{k+1}{2},\\ 1+\\frac{k+1}{2}\\right)\n=\\boxed{\\left(\\frac{3-k}{2},\\frac{3+k}{2}\\right)}.\n\\]\n(c)半弦 \\(AM=3\\)。由直角三角形 \\(GMA\\)，\n\\[\nd(G,L_k)^2+3^2=5^2,\n\\]\n所以 \\(d(G,L_k)=4\\)。故\n\\[\n\\frac{|k+1|}{\\sqrt2}=4\n\\Rightarrow |k+1|=4\\sqrt{2}.\n\\]\n因此\n\\[\n\\boxed{k=-1\\pm4\\sqrt2}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q34",
+      "status": "完成",
+      "questionSha256": "1865b211d6de2d0af95afe5c2a9e1969d798f0de041bdff76d823f76ce6b5d46",
+      "figures": [],
+      "reason": "Same-side branch, both chords, trapezium area.",
+      "calculated": {
+        "A": [
+          -12,
+          5
+        ],
+        "B": [
+          12,
+          5
+        ],
+        "D": [
+          -5,
+          12
+        ],
+        "E": [
+          5,
+          12
+        ],
+        "k": 12,
+        "separation": 7,
+        "area": 119
+      },
+      "solution": "Worked Solution\n(a)Substituting \\(y=5\\) gives \\(x^2=144\\). Hence\n\\[\nA=(-12,5),\\qquad B=(12,5),\\qquad AB=24.\n\\]\n(b)Chord \\(DE=10\\) has half-length 5. If \\(d\\) is its centre distance, then\n\\[\nd^2+5^2=13^2,\n\\]\nso \\(d=12\\). Since \\(k>5\\) and both chords lie on the same side,\n\\[\n\\boxed{k=12}.\n\\]\nTheir separation is \\(12-5=\\boxed7\\).\n(c)The bases are 24 and 10, and the height is 7. Therefore\n\\[\n\\text{Area}=\\frac{1}{2}(24+10)(7)=\\boxed{119}.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)對 \\(L_1:y=5\\)，\n\\[\nx^2+5^2=169\n\\Rightarrow x^2=144.\n\\]\n所以\n\\[\nA=(-12,5),\\qquad B=(12,5),\n\\]\n而\n\\[\nAB=24.\n\\]\n(b)弦 \\(DE=10\\)，故半弦長為 5。設圓心到 \\(L_2\\) 的距離為 \\(d\\)。\n\\[\nd^2+5^2=13^2\n\\Rightarrow d=12.\n\\]\n因 \\(k>5\\) 且兩弦與圓心同側，\n\\[\n\\boxed{k=12}.\n\\]\n兩弦距離為\n\\[\n12-5=\\boxed7.\n\\]\n(c)梯形兩底為 \\(AB=24\\) 和 \\(DE=10\\)，高為 7。因此\n\\[\n\\text{Area}=\\frac{1}{2}(24+10)(7)=\\boxed{119}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q74",
+      "status": "完成",
+      "questionSha256": "710674bb4b4e8bae084ef512ee49c6b7f6dede10d0f58813712b7998aa5d738b",
+      "figures": [],
+      "reason": "Positive k, internal foot, nearest point and quadrilateral area.",
+      "calculated": {
+        "O": [
+          4,
+          11
+        ],
+        "R2": 225,
+        "k": 22,
+        "P": [
+          -3.1999999999999993,
+          20.6
+        ],
+        "Q": [
+          -5,
+          23
+        ],
+        "length": 18,
+        "area": 135
+      },
+      "solution": "Worked Solution\nThe radius condition gives \\(k=22\\) and \\(X=(4,11)\\). Projection onto \\(L\\) gives\n\\[\nP=\\left(-\\frac{16}{5},\\frac{103}{5}\\right),\n\\qquad XP=12.\n\\]\nThus \\(AB=2\\sqrt{15^2-12^2}=18\\). Since \\(P\\) is inside the circle, the nearest point is\n\\[\nQ=X+15(-3/5,4/5)=(-5,23).\n\\]\nThe perpendicular heights from \\(X,Q\\) to \\(AB\\) are \\(12,3\\) on opposite sides, hence\n\\[\n[AXBQ]=\\frac{1}{2}(18)(12+3)=135.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n圓心為 \\(X=(4,k/2)\\)，且\n\\[\n16+\\frac{k^2}{4}+88=225.\n\\]\n由 \\(k>0\\)，得 \\(k=22\\)，所以 \\(X=(4,11)\\)。把 \\(X\\) 投影到 \\(L\\)：\n\\[\nP=X-\\frac{60}{25}(3,-4)\n=\\left(-\\frac{16}{5},\\frac{103}{5}\\right),\n\\qquad XP=12.\n\\]\n圓心垂線平分弦，故\n\\[\n\\frac{AB}{2}=\\sqrt{15^2-12^2}=9,\n\\qquad AB=18.\n\\]\n由於 \\(XP<15\\)，\\(P\\) 在圓內。由 \\(X\\) 指向 \\(P\\) 的單位向量為 \\((-3/5,4/5)\\)，因此\n\\[\nQ=X+15\\left(-\\frac{3}{5},\\frac{4}{5}\\right)=(-5,23).\n\\]\n\\(X,Q\\) 在弦的兩側，到弦距離分別為 \\(12,3\\)，所以\n\\[\n[AXBQ]=\\frac{1}{2}(18)(12+3)=135.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q79",
+      "status": "完成",
+      "questionSha256": "f13b8e8e99c69408a355a54dfb802e4d42f66da4655360038bb1efcfcf29707c",
+      "figures": [],
+      "reason": "Major arc selects opposite radial direction; heights ratio.",
+      "calculated": {
+        "O": [
+          -3,
+          5
+        ],
+        "R2": 49,
+        "D": [
+          1,
+          2
+        ],
+        "E": [
+          -8.6,
+          9.2
+        ],
+        "ratio": "5:12"
+      },
+      "solution": "Worked Solution\nThe circle has \\(G=(-3,5)\\), \\(r=7\\), and the perpendicular-bisector locus is\n\\[\n\\Gamma:3x+4y-11=0.\n\\]\nSolving with \\(L\\) gives \\(D=(1,2)\\). The major-arc point is opposite the direction from \\(G\\) to \\(D\\):\n\\[\nE=(-43/5,46/5).\n\\]\nThe perpendicular heights over base \\(AB\\) are \\(5\\) and \\(12\\), so the area ratio is \\(5:12\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nC:(x+3)^2+(y-5)^2=49,\n\\]\n所以 \\(G=(-3,5)\\)，\\(r=7\\)。因此\n\\[\n\\Gamma:3x+4y-11=0.\n\\]\n聯立 \\(L,\\Gamma\\) 得 \\(D=(1,2)\\)。由 \\(G\\) 指向 \\(D\\) 的單位向量為 \\((4/5,-3/5)\\)。大弧點在相反方向，故\n\\[\nE=G-7\\left(\\frac{4}{5},-\\frac{3}{5}\\right)\n=\\left(-\\frac{43}{5},\\frac{46}{5}\\right).\n\\]\n\\[\nd(G,L)=5,\\qquad d(E,L)=5+7=12.\n\\]\n兩三角形共底 \\(AB\\)，所以\n\\[\n[\\triangle GAB]:[\\triangle EAB]=5:12.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q66",
+      "status": "完成",
+      "questionSha256": "9bdeb7cc000a1b233e3234aaa848bc0a590131f3e85dee755a2759d0d6ad6a18",
+      "figures": [],
+      "reason": "Second line intersection, angle and actual midpoint triangle area.",
+      "calculated": {
+        "A": [
+          8,
+          6
+        ],
+        "B": [
+          16,
+          0
+        ],
+        "D": [
+          11.52,
+          -3.36
+        ],
+        "M": [
+          13.76,
+          -1.68
+        ],
+        "angle": 73.73979529168804,
+        "area": 13.44,
+        "claim": false
+      },
+      "solution": "Worked Solution\nThe slope of \\(L\\) is \\(-4/3\\), so \\(OA:y=3x/4\\). Intersecting it with \\(L\\) gives \\(A=(8,6)\\), and \\(OA=10\\). Hence\n\\[\nC:(x-8)^2+(y-6)^2=100,\n\\]\nor \\(x^2+y^2-16x-12y=0\\).\nSetting \\(y=0\\) gives the second axis intersection \\(B=(16,0)\\). Since \\(DB\\parallel OA\\), write \\(D=(16+4t,3t)\\). Substitution in the circle gives \\(t(25t+28)=0\\). Excluding \\(B\\), \\(t=-28/25\\), so\n\\[\nD=\\left(\\frac{288}{25},-\\frac{84}{25}\\right).\n\\]\nNow \\(\\overrightarrow{AO}=(-8,-6)\\) and \\(\\overrightarrow{AD}=(88/25,-234/25)\\). Both have length 10, and their dot product is 28. Therefore\n\\[\n\\cos\\angle OAD=\\frac7{25},\n\\qquad\n\\angle OAD\\approx73.7^\\circ.\n\\]\nThe midpoint of \\(BD\\) is \\(M=(344/25,-42/25)\\). The coordinate-area formula gives\n\\[\n[\\triangle ADM]=\\frac{336}{25}=13.44<14.\n\\]\nThe claim is false.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(L\\) 的斜率為 \\(-4/3\\)，所以 \\(OA\\) 的斜率為 \\(3/4\\)：\n\\[\nOA:y=\\frac{3}{4}x.\n\\]\n與 \\(4x+3y-50=0\\) 聯立得 \\(A=(8,6)\\)。因此\n\\[\nr=OA=10,\n\\]\n而\n\\[\nC:(x-8)^2+(y-6)^2=100,\n\\]\n即 \\(x^2+y^2-16x-12y=0\\)。\n令 \\(y=0\\)，得 \\(x(x-16)=0\\)，所以另一交點是\n\\[\nB=(16,0).\n\\]\n因 \\(DB\\parallel OA\\)，方向向量可取 \\((4,3)\\)。設\n\\[\nD=(16+4t,3t).\n\\]\n代入圓得\n\\[\n(8+4t)^2+(-6+3t)^2=100\n\\Rightarrow t(25t+28)=0.\n\\]\n\\(t=0\\) 對應 \\(B\\)，故另一點取 \\(t=-28/25\\)：\n\\[\nD=\\left(\\frac{288}{25},-\\frac{84}{25}\\right).\n\\]\n向量\n\\[\n\\overrightarrow{AO}=(-8,-6),\\qquad\n\\overrightarrow{AD}=\\left(\\frac{88}{25},-\\frac{234}{25}\\right).\n\\]\n兩者長度均為 10，而點積為 28，所以\n\\[\n\\cos\\angle OAD=\\frac{28}{100}=\\frac7{25}.\n\\]\n因此\n\\[\n\\angle OAD=\\cos^{-1}\\frac7{25}\\approx73.7^\\circ.\n\\]\n\\(M\\) 是 \\(BD\\) 中點：\n\\[\nM=\\left(\\frac{344}{25},-\\frac{42}{25}\\right).\n\\]\n由坐標面積公式，\n\\[\n[\\triangle ADM]\n=\\frac{1}{2}\\left|\\det(\\overrightarrow{AD},\\overrightarrow{AM})\\right|\n=\\frac{336}{25}=13.44<14.\n\\]\n所以聲稱不正確。"
+    },
+    {
+      "id": "note-circle-equation-q85",
+      "status": "完成",
+      "questionSha256": "6a4bc86ad4452215d27349a94e3a13936de868dd61635ae09df31681e2e32fbc",
+      "figures": [],
+      "reason": "Vieta root-gap identity and all candidate line offsets.",
+      "calculated": {
+        "O": [
+          -5,
+          2
+        ],
+        "R2": 36,
+        "candidates": [
+          -1,
+          15
+        ],
+        "positiveK": 15
+      },
+      "solution": "Worked Solution\n(a)Vieta's relations give \\(p=-(2a+2\\sqrt{2})\\) and \\(q=a(a+2\\sqrt{2})\\), so direct expansion gives \\(p^2-4q=8\\).\n(b)A slope-one line gives \\(UV^2=2(\\Delta x)^2\\). Hence the root gap squared is \\(8\\). Substitution gives\n\\[\n2x^2+(2k+6)x+k^2-4k-7=0.\n\\]\nAfter division by \\(2\\), its squared root gap is\n\\[\n(k+3)^2-4\\left(\\frac{k^2-4k-7}{2}\\right)=8.\n\\]\nThus \\(k^2-14k-15=0\\), giving \\(k=15\\) or \\(-1\\). The positive condition gives \\(k=15\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)由根和及根積，\n\\[\np=-\\big(a+a+2\\sqrt{2}\\big)=-(2a+2\\sqrt{2}),\n\\qquad q=a(a+2\\sqrt{2}).\n\\]\n故\n\\[\np^2-4q=(2a+2\\sqrt{2})^2-4(a^2+2\\sqrt2a)=8.\n\\]\n(b)直線上的兩點若 \\(x\\)-坐標相差 \\(\\Delta x\\)，其距離平方為\n\\[\nUV^2=(\\Delta x)^2+(\\Delta x)^2=2(\\Delta x)^2.\n\\]\n由 \\(UV=4\\)，得 \\(\\Delta x=2\\sqrt{2}\\)，所以根差平方是 \\(8\\)。代入 \\(y=x+k\\)：\n\\[\n2x^2+(2k+6)x+(k^2-4k-7)=0.\n\\]\n除以 \\(2\\) 後，這二次式的根差平方為\n\\[\n(k+3)^2-4\\left(\\frac{k^2-4k-7}{2}\\right).\n\\]\n依 (a) 的結構令它等於 \\(8\\)：\n\\[\n(k+3)^2-2(k^2-4k-7)=8\n\\Rightarrow k^2-14k-15=0.\n\\]\n所以 \\(k=15\\) 或 \\(-1\\)。因 \\(k>0\\)，\n\\[\nk=15.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-official-dse-hkeaa-2023-p1-final-q16",
+      "status": "完成",
+      "questionSha256": "8ef6e180bc415ab7245c3200ad631609845d93bcfc341c44d0a10560b9047e6c",
+      "figures": [],
+      "reason": "Both roots positive at the candidate slope; verify distance order and ratio.",
+      "calculated": {
+        "m": 0.75,
+        "Q": [
+          1.6,
+          1.2000000000000002
+        ],
+        "R": [
+          8,
+          6
+        ],
+        "ratio": "1:4",
+        "order": "O-Q-R"
+      },
+      "solution": "Official Marking Route / 官方解題路線\n(a)Since the roots are \\(p\\) and \\(5p\\),\n\\[\np+5p=-a,\\; p(5p)=b.\n\\]\nThus\n\\[\n6p=-a,\\; 5p^2=b.\n\\]\nTherefore\n\\[\n5\\left(\\frac{-a}{6}\\right)^2=b,\n\\]\nso\n\\[\n5a^2=36b.\n\\]\n(b)Let the \\(x\\)-coordinates of \\(Q\\) and \\(R\\) be \\(t\\) and \\(5t\\). Substituting \\(y=mx\\) into the circle gives\n\\[\n(m^2+1)x^2-(12m+6)x+20=0.\n\\]\nThe two roots are \\(t\\) and \\(5t\\). By (a),\n\\[\n5[-(12m+6)]^2=36[20(m^2+1)].\n\\]\nSimplifying gives\n\\[\n(2m+1)^2=4(m^2+1).\n\\]\nHence\n\\[\n4m=3,\n\\]\nand\n\\[\nm=\\frac{3}{4}.\n\\]\nFinal answer: \\(m=\\frac{3}{4}\\).",
+      "solutionZh": "Official Marking Route / 官方解題路線\n(a)Since the roots are \\(p\\) and \\(5p\\),\n\\[\np+5p=-a,\\; p(5p)=b.\n\\]\nThus\n\\[\n6p=-a,\\; 5p^2=b.\n\\]\nTherefore\n\\[\n5\\left(\\frac{-a}{6}\\right)^2=b,\n\\]\nso\n\\[\n5a^2=36b.\n\\]\n(b)Let the \\(x\\)-coordinates of \\(Q\\) and \\(R\\) be \\(t\\) and \\(5t\\). Substituting \\(y=mx\\) into the circle gives\n\\[\n(m^2+1)x^2-(12m+6)x+20=0.\n\\]\nThe two roots are \\(t\\) and \\(5t\\). By (a),\n\\[\n5[-(12m+6)]^2=36[20(m^2+1)].\n\\]\nSimplifying gives\n\\[\n(2m+1)^2=4(m^2+1).\n\\]\nHence\n\\[\n4m=3,\n\\]\nand\n\\[\nm=\\frac{3}{4}.\n\\]\nFinal answer: \\(m=\\frac{3}{4}\\)."
+    },
+    {
+      "id": "note-circle-equation-q21",
+      "status": "完成",
+      "questionSha256": "926ab4c4d4991776ba3888a6f39307930cffed355040d9c295cdebe86f8d60ac",
+      "figures": [],
+      "reason": "Both signed tangents and their actual contact feet.",
+      "calculated": {
+        "ks": [
+          27,
+          -23
+        ],
+        "contacts": [
+          [
+            5,
+            3
+          ],
+          [
+            -1,
+            -5
+          ]
+        ]
+      },
+      "solution": "Worked Solution\n(a)\n\\[\n\\frac{|3(2)+4(-1)-k|}{5}=5\n\\]\ngives \\(k=27\\) or \\(-23\\).\n(b)Projecting \\(G\\) onto the two lines gives contact points \\((5,3)\\) and \\((-1,-5)\\), respectively. Each point satisfies both the circle and its tangent line.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\n\\[\n\\frac{|3(2)+4(-1)-k|}{5}=5\n\\]\n\\[\n|2-k|=25.\n\\]\n所以\n\\[\nk=27\\text{ 或 }k=-23.\n\\]\n(b)對 \\(3x+4y-27=0\\)，由 \\(G\\) 作垂線的 foot 是 \\((5,3)\\)。\n對 \\(3x+4y+23=0\\)，foot 是 \\((-1,-5)\\)。兩點代入圓方程及各自直線均成立。"
+    },
+    {
+      "id": "note-circle-equation-q57",
+      "status": "完成",
+      "questionSha256": "35e3fc3c8a9fab2949259f135809cef32cb45d05a9c8538506e40b47d66de2dc",
+      "figures": [],
+      "reason": "Substitution, tangent/axis intercept, tangent length and chord of contact.",
+      "calculated": {
+        "O": [
+          6,
+          9
+        ],
+        "R2": 25,
+        "k": 92,
+        "L": [
+          3,
+          4,
+          -29
+        ],
+        "B": [
+          9.666666666666666,
+          0
+        ],
+        "chordOfContact": 8.57492925712544
+      },
+      "solution": "Worked Solution\nSubstituting \\(A=(3,5)\\) in the circle gives \\(k=92\\). Thus\n\\[\n(x-6)^2+(y-9)^2=25,\n\\]\nso \\(G=(6,9)\\) and \\(r=5\\). Since the slope of \\(GA\\) is \\(4/3\\), the tangent slope is \\(-3/4\\), giving \\(L_1:3x+4y-29=0\\). Hence \\(B=(29/3,0)\\).\nIn right triangle \\(GAB\\), \\(AB=25/3\\) and\n\\[\nGB=\\sqrt{GA^2+AB^2}=\\frac{5\\sqrt{34}}3.\n\\]\nThe two tangent configurations are symmetric about \\(GB\\), so \\(\\angle AGC=2\\angle AGB\\). Therefore\n\\[\nAC=2r\\sin\\angle AGB\n=10\\left(\\frac{AB}{GB}\\right)\n=\\frac{50}{\\sqrt{34}}\n=\\frac{25\\sqrt{34}}{17}.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n把 \\(A(3,5)\\) 代入圓得\n\\[\n9+25-36-90+k=0\\Rightarrow k=92.\n\\]\n配方後\n\\[\n(x-6)^2+(y-9)^2=25,\n\\]\n故 \\(G=(6,9)\\)、半徑為 5。\\(GA\\) 的斜率為 \\(4/3\\)，所以切線斜率為 \\(-3/4\\)：\n\\[\nL_1:3x+4y-29=0.\n\\]\n令 \\(y=0\\)，得 \\(B=(29/3,0)\\)。在直角三角形 \\(GAB\\) 中，\n\\[\nAB=\\frac{25}{3},\\qquad\nGB=\\sqrt{GA^2+AB^2}=\\frac{5\\sqrt{34}}{3}.\n\\]\n兩條切線關於 \\(GB\\) 對稱，因此 \\(\\angle AGC=2\\angle AGB\\)。接觸弦\n\\[\nAC=2r\\sin\\frac{\\angle AGC}{2}\n=2r\\sin\\angle AGB.\n\\]\n而\n\\[\n\\sin\\angle AGB=\\frac{AB}{GB}=\\frac5{\\sqrt{34}}.\n\\]\n所以\n\\[\nAC=10\\cdot\\frac5{\\sqrt{34}}\n=\\frac{50}{\\sqrt{34}}\n=\\frac{25\\sqrt{34}}{17}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q46",
+      "status": "完成",
+      "questionSha256": "d4ea9c70316951ae0ccb591e1e50ba93f2b461112f4818da312dfdc2dbc6db82",
+      "figures": [],
+      "reason": "Two tangent slopes, contact feet, midpoint and symmetry.",
+      "calculated": {
+        "O": [
+          0,
+          -1
+        ],
+        "R2": 144,
+        "ms": [
+          0.4166666666666667,
+          -0.4166666666666667
+        ],
+        "contacts": [
+          [
+            -4.615384615384616,
+            10.076923076923077
+          ],
+          [
+            4.615384615384616,
+            10.076923076923077
+          ]
+        ],
+        "midpoint": [
+          0,
+          10.076923076923077
+        ]
+      },
+      "solution": "Worked Solution\nCompleting the square gives \\(x^2+(y+1)^2=144\\), so \\(G=(0,-1)\\) and \\(r=12\\).\n(b)The line \\(y=mx+12\\) is \\(mx-y+12=0\\). Tangency requires\n\\[\n\\frac{13}{\\sqrt{m^2+1}}=12,\n\\]\nso \\(m=\\pm\\frac5{12}\\).\n(c)For \\(m=\\frac5{12}\\), the perpendicular foot from \\(G\\) to \\(5x-12y+144=0\\) is \\(P=(-\\frac{60}{13},\\frac{131}{13})\\). For \\(m=-\\frac5{12}\\), the other contact point is \\(Q=(\\frac{60}{13},\\frac{131}{13})\\).\n(d)Their midpoint is \\(M=(0,\\frac{131}{13})\\). The two tangent lengths from \\(S\\) are equal, so \\(SG\\) is the symmetry axis; \\(SG\\perp PQ\\) and \\(M\\) is their intersection.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n先配方：\n\\[\nx^2+(y+1)^2=144.\n\\]\n所以 \\(G=(0,-1)\\)，\\(r=12\\)。\n(b)\\(y=mx+12\\) 改寫為 \\(mx-y+12=0\\)。相切條件是\n\\[\n\\frac{|m(0)-(-1)+12|}{\\sqrt{m^2+1}}=12\n\\Rightarrow \\frac{13}{\\sqrt{m^2+1}}=12.\n\\]\n故 \\(m^2=\\frac{25}{144}\\)，即 \\(m=\\pm\\frac5{12}\\)。\n(c)對 \\(m=\\frac5{12}\\)，直線為 \\(5x-12y+144=0\\)。由圓心向直線作垂線，垂足為\n\\[\nP=\\left(-\\frac{60}{13},\\frac{131}{13}\\right).\n\\]\n對 \\(m=-\\frac5{12}\\)，同理得\n\\[\nQ=\\left(\\frac{60}{13},\\frac{131}{13}\\right).\n\\]\n(d)中點為 \\(M=\\left(0,\\frac{131}{13}\\right)\\)。因為由同一外點引出的兩條切線長度相等，\\(SG\\) 是對稱軸；兩個接觸點互為關於 \\(SG\\) 的反射，故 \\(SG\\perp PQ\\)，而 \\(M\\) 正是 \\(SG\\) 與 \\(PQ\\) 的交點。"
+    },
+    {
+      "id": "note-circle-equation-q54",
+      "status": "完成",
+      "questionSha256": "265cb5764b8059ffb0d7ccf8b08af3dcb4317fb45c2b7137fbf14eda7c094fa1",
+      "figures": [],
+      "reason": "Radius minimum, tangent family, positive h and area claim.",
+      "calculated": {
+        "minimumK": -2,
+        "c": {
+          "O": [
+            3,
+            0
+          ],
+          "R2": 9
+        },
+        "h": 6.708203932499369,
+        "m": -0.894427190999916,
+        "Q": [
+          7.5,
+          0
+        ],
+        "area": 25.155764746872634,
+        "claim": false
+      },
+      "solution": "Worked Solution\nThe centre is \\(((4-k)/2,-(k+2)/2)\\). Hence\n\\[\nr^2=\\frac{(k-4)^2+(k+2)^2}{4}+3k+6\n=\\frac{1}{2}(k+2)^2+9.\n\\]\nThus \\(r\\) is least when \\(k=-2\\). The least circle is \\(C_1:x^2+y^2-6x=0\\), with centre \\(A=(3,0)\\) and radius 3.\nWrite \\(L\\) as \\(mx-y+h=0\\). Tangency gives\n\\[\n\\frac{|3m+h|}{\\sqrt{m^2+1}}=3.\n\\]\nSquaring and simplifying yields \\(6hm+h^2=9\\), so \\(m=(9-h^2)/(6h)\\).\nThe centroid of triangle \\(OAP\\) is \\((1,h/3)\\). Substitution in \\(C_1\\) gives \\(1+h^2/9-6=0\\). Since \\(h>0\\), \\(h=3\\sqrt{5}\\). Therefore \\(m=-2/\\sqrt{5}\\), and the \\(x\\)-intercept is \\(q=-h/m=15/2\\). Hence\n\\[\n[\\triangle OPQ]=\\frac{1}{2}\\cdot\\frac{15}{2}\\cdot3\\sqrt{5}\n=\\frac{45\\sqrt5}{4}>25.\n\\]\nThe claim is false.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n圓心為\n\\[\n\\left(\\frac{4-k}{2},-\\frac{k+2}{2}\\right).\n\\]\n因此\n\\[\nr^2=\\frac{(k-4)^2+(k+2)^2}{4}+3k+6\n=\\frac{1}{2}(k+2)^2+9.\n\\]\n故 \\(r^2\\) 在 \\(k=-2\\) 時最小，最小半徑為 3，而\n\\[\nC_1:x^2+y^2-6x=0,\\qquad A=(3,0).\n\\]\n直線 \\(L\\) 為 \\(mx-y+h=0\\)。相切時\n\\[\n\\frac{|3m+h|}{\\sqrt{m^2+1}}=3.\n\\]\n兩邊平方並整理：\n\\[\n(3m+h)^2=9(m^2+1)\n\\Rightarrow 6hm+h^2=9\n\\Rightarrow m=\\frac{9-h^2}{6h}.\n\\]\n三角形 \\(OAP\\) 的重心是 \\((1,h/3)\\)。它在 \\(C_1\\) 上，所以\n\\[\n1+\\frac{h^2}{9}-6=0\n\\Rightarrow h=3\\sqrt{5}\n\\]\n（因 \\(h>0\\)）。於是\n\\[\nm=-\\frac{2}{\\sqrt5},\\qquad q=-\\frac{h}{m}=\\frac{15}{2}.\n\\]\n故\n\\[\n[\\triangle OPQ]=\\frac{1}{2}\\left(\\frac{15}{2}\\right)(3\\sqrt{5})\n=\\frac{45\\sqrt5}{4}>25.\n\\]\n所以不同意該聲稱。"
+    },
+    {
+      "id": "note-circle-equation-q65",
+      "status": "完成",
+      "questionSha256": "1ae8883ddc9a0ee3e4b5aa48012f9434cfd41463b9bde689317aa706c352b95d",
+      "figures": [],
+      "reason": "Both tangent branches, same-side centre locus, and both new centres.",
+      "calculated": {
+        "A": [
+          16,
+          0
+        ],
+        "R2": 256,
+        "Locus": [
+          8,
+          -15,
+          -128
+        ],
+        "cases": [
+          {
+            "L": [
+              8,
+              -15,
+              -400
+            ],
+            "P": [
+              50,
+              0
+            ],
+            "N": [
+              42.470588235294116,
+              14.117647058823529
+            ]
+          },
+          {
+            "L": [
+              8,
+              -15,
+              144
+            ],
+            "P": [
+              -18,
+              0
+            ],
+            "N": [
+              -10.470588235294118,
+              -14.117647058823529
+            ]
+          }
+        ]
+      },
+      "solution": "Complete the square: centre \\(A=(16,0)\\), radius \\(16\\).\nWrite the tangent as \\(L:8x-15y+c=0\\). Its distance from \\(A\\) is \\(16\\), so \\(|128+c|=272\\), giving \\(c=-400\\) or \\(144\\). Thus \\(P=(50,0)\\) or \\((-18,0)\\).\nCase 1: \\(L:8x-15y-400=0\\). The same-side centre locus through \\(A\\) is \\(8x-15y-128=0\\). At contact point \\(P=(50,0)\\), the new centre is \\((722/17,240/17)\\).\nCase 2: \\(L:8x-15y+144=0\\). The same-side centre locus through \\(A\\) is again \\(8x-15y-128=0\\). At contact point \\(P=(-18,0)\\), the new centre is \\((-178/17,-240/17)\\).\nEach new centre is distance 16 from its tangent and lies on the normal through the stated contact point. The source answer shows Case 1 only; the supplied wording does not exclude Case 2.",
+      "solutionZh": "配方得圓心 \\(A=(16,0)\\)、半徑 \\(16\\)。\n設切線為 \\(L:8x-15y+c=0\\)。圓心到切線的距離為 16，故 \\(|128+c|=272\\)，得 \\(c=-400\\) 或 \\(144\\)。因此 \\(P=(50,0)\\) 或 \\((-18,0)\\)。\n情況一：\\(L:8x-15y-400=0\\)。經原圓心 \\(A\\) 的同側圓心軌跡為 \\(8x-15y-128=0\\)。當切點為 \\(P=(50,0)\\)，新圓心為 \\((722/17,240/17)\\)。\n情況二：\\(L:8x-15y+144=0\\)。經原圓心 \\(A\\) 的同側圓心軌跡同樣是 \\(8x-15y-128=0\\)。當切點為 \\(P=(-18,0)\\)，新圓心為 \\((-178/17,-240/17)\\)。\n兩個新圓心各自距所屬切線 16，並位於過指定切點的法線上。來源解答只列情況一，但現有題幹沒有排除情況二，故兩者均須保留。"
+    },
+    {
+      "id": "note-circle-equation-q68",
+      "status": "完成",
+      "questionSha256": "a688417db896985eddbf483193341e731552909259c78377b58260f7fa17d060",
+      "figures": [
+        {
+          "src": "assets/notes/note-circle-equation-q68-1.svg",
+          "sha256": "3009a1e35dd19650a3d0ed29f19ebd3a5048d5c7f3ecef40db3b088a7475b4d6"
+        }
+      ],
+      "reason": "Tangency and cyclicity independently checked from all four coordinates.",
+      "calculated": {
+        "A": [
+          -2,
+          0
+        ],
+        "B": [
+          1,
+          1.7320508075688772
+        ],
+        "C": [
+          1,
+          -1.7320508075688772
+        ],
+        "D": [
+          -2,
+          3.4641016151377544
+        ],
+        "E": [
+          -2,
+          -3.4641016151377544
+        ],
+        "c": {
+          "O": [
+            -2,
+            0
+          ],
+          "R2": 12
+        },
+        "angleODB": 30,
+        "oppositeAngles": [
+          60,
+          120
+        ]
+      },
+      "solution": "Worked Solution\nThe two tangents from \\(D\\) imply that \\(OD\\) bisects \\(\\angle BDA\\). Hence \\(\\angle BDE=60^\\circ\\). Since \\(OB\\perp BD\\), triangle \\(ODB\\) gives \\(\\angle BOD=60^\\circ\\). The rays \\(OD\\) and \\(OC\\) are opposite, so \\(\\angle BOC=120^\\circ\\). As \\(OB=OC\\), \\(\\angle BCO=30^\\circ\\), and \\(CE\\perp OC\\) gives \\(\\angle BCE=120^\\circ\\). Therefore the opposite angles \\(\\angle BDE\\) and \\(\\angle BCE\\) are supplementary, so \\(BDEC\\) is cyclic.\nNow \\(OB=2\\). The 30-60-90 triangle gives \\(OD=4\\), and the direction opposite \\(C\\) yields \\(D=(-2,2\\sqrt{3})\\). If \\(A=(u,v)\\), then \\(u^2+v^2=4\\) and \\(A\\cdot D=4\\). The two tangent points from \\(D\\) are \\(B\\) and \\(A=(-2,0)\\). Thus \\(DE:x=-2\\).\nThe tangent at \\(C=(1,-\\sqrt{3})\\) to \\(x^2+y^2=4\\) is \\(x-\\sqrt3y=4\\). Its intersection with \\(x=-2\\) is \\(E=(-2,-2\\sqrt{3})\\), so \\(A\\) is the midpoint of \\(DE\\).\nBy symmetry the new circle has equation \\(x^2+y^2+px+s=0\\). Substitution of \\(B\\) and \\(D\\) gives \\(4+p+s=0\\) and \\(16-2p+s=0\\). Hence \\(p=4,s=-8\\), and the circle is \\(x^2+y^2+4x-8=0\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n因為 \\(DB,DA\\) 是由同一外點 \\(D\\) 引出的兩條切線，\\(OD\\) 平分 \\(\\angle BDA\\)。由 \\(\\angle ODB=30^\\circ\\)，得\n\\[\n\\angle BDE=\\angle BDA=60^\\circ.\n\\]\n又因 \\(OB\\perp BD\\)，在直角三角形 \\(ODB\\) 中，\\(\\angle BOD=60^\\circ\\)。\\(D,O,C\\) 共線且 \\(OD,OC\\) 為反向射線，所以\n\\[\n\\angle BOC=120^\\circ.\n\\]\n由 \\(OB=OC\\)，\\(\\angle BCO=30^\\circ\\)。再用 \\(CE\\perp OC\\)，得四邊形在 \\(C\\) 的內角\n\\[\n\\angle BCE=30^\\circ+90^\\circ=120^\\circ.\n\\]\n因此\n\\[\n\\angle BDE+\\angle BCE=180^\\circ,\n\\]\n故 \\(BDEC\\) 為循環四邊形。\n在坐標部分，\\(OB=OC=2\\)。三角形 \\(ODB\\) 是 30-60-90 三角形，所以 \\(OD=4\\)。由於 \\(D\\) 在 \\(OC\\) 的反向延長線上，\n\\[\nD=-2C=(-2,2\\sqrt{3}).\n\\]\n設切點 \\(A=(u,v)\\)。它在原圓 \\(x^2+y^2=4\\) 上，而且 \\(OA\\perp DA\\)，故\n\\[\nu^2+v^2=4,\n\\qquad\n(u,v)\\cdot(D-A)=0.\n\\]\n第二式等價於 \\(A\\cdot D=4\\)。聯立可得兩個由 \\(D\\) 引出的切點 \\(B=(1,\\sqrt{3})\\) 及\n\\[\nA=(-2,0).\n\\]\n故切線 \\(DE\\) 是 \\(x=-2\\)。原圓在 \\(C=(1,-\\sqrt{3})\\) 的切線為\n\\[\nx-\\sqrt3y=4.\n\\]\n與 \\(x=-2\\) 聯立，得\n\\[\nE=(-2,-2\\sqrt{3}).\n\\]\n因此 \\(A=(-2,0)\\) 正是 \\(D,E\\) 的中點。\n設所求新圓為 \\(x^2+y^2+px+qy+s=0\\)。由圖形及 \\(D,E\\) 對稱可知圓心在 \\(x\\)-軸上，故 \\(q=0\\)。代入 \\(B\\) 及 \\(D\\)：\n\\[\n4+p+s=0,\n\\qquad\n16-2p+s=0.\n\\]\n解得 \\(p=4,s=-8\\)。所以新圓為\n\\[\nx^2+y^2+4x-8=0.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q69",
+      "status": "完成",
+      "questionSha256": "e3a9efeb9bc396f6cd26d9b18ebaadf9b48556b00f7cb50d44009c3599abd8a7",
+      "figures": [
+        {
+          "src": "assets/notes/note-circle-equation-q69-1.svg",
+          "sha256": "0bac478a024fe9048175651e7a194339663a9fccc2cfeb4f326bc45dbab49bd6"
+        }
+      ],
+      "reason": "Similarity correspondence from coordinates, tangent, product relation and squared inequality.",
+      "calculated": {
+        "G": [
+          0,
+          4
+        ],
+        "A": [
+          5,
+          2
+        ],
+        "D": [
+          0,
+          -10.5
+        ],
+        "B": [
+          10,
+          0
+        ],
+        "R2": 29,
+        "product": 58,
+        "claim": true
+      },
+      "solution": "Worked Solution\nThe tangent-radius theorem gives \\(GA\\perp AD\\), while the given condition gives \\(GO\\perp OB\\). Also, \\(GA\\) is collinear with \\(GB\\), and \\(GD\\) is collinear with \\(GO\\). Hence the two right triangles share the corresponding angle at \\(G\\), so \\(\\triangle GAD\\sim\\triangle GOB\\). Therefore\n\\[\n\\frac{GA}{GO}=\\frac{GD}{GB},\n\\qquad\nGA\\cdot GB=GD\\cdot GO.\n\\]\nSince \\(GA^2=29\\), the circle is \\(x^2+(y-4)^2=29\\), or \\(x^2+y^2-8y-13=0\\). The radius \\(GA\\) has slope \\(-2/5\\), so the tangent through \\(A\\) is \\(5x-2y-21=0\\).\nIntersecting the tangent with the \\(y\\)-axis gives \\(D=(0,-21/2)\\), hence \\(GD=29/2\\). With \\(GO=4\\) and \\(GA=\\sqrt{29}\\), the product relation gives \\(GB=2\\sqrt{29}\\). Finally,\n\\[\n(\\sqrt{2}\\,GB)^2=232>\\frac{841}{4}=GD^2.\n\\]\nThus Fanny's claim is correct.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n因為 \\(AD\\) 在 \\(A\\) 與圓相切，所以\n\\[\nGA\\perp AD\n\\Rightarrow \\angle GAD=90^\\circ.\n\\]\n又因 \\(BO\\perp GD\\) 且 \\(G,O,D\\) 共線，\\(\\angle GOB=90^\\circ\\)。此外，\\(G,A,B\\) 共線而 \\(G,O,D\\) 共線，所以\n\\[\n\\angle AGD=\\angle OGB.\n\\]\n故由 AA，\n\\[\n\\triangle GAD\\sim\\triangle GOB.\n\\]\n按對應邊，\n\\[\n\\frac{GA}{GO}=\\frac{GD}{GB}\n\\Rightarrow GA\\cdot GB=GD\\cdot GO.\n\\]\n在坐標部分，\n\\[\nGA^2=(5-0)^2+(2-4)^2=29.\n\\]\n所以圓方程是\n\\[\nx^2+(y-4)^2=29,\n\\]\n即 \\(x^2+y^2-8y-13=0\\)。\n\\(GA\\) 的斜率為 \\(-\\frac{2}{5}\\)，故切線斜率為 \\(\\frac{5}{2}\\)。通過 \\(A(5,2)\\)：\n\\[\ny-2=\\frac{5}{2}(x-5)\n\\Rightarrow 5x-2y-21=0.\n\\]\n點 \\(D\\) 同時在 \\(AD\\) 及 \\(GD\\) 上，而 \\(GD\\) 是 \\(y\\)-軸。令 \\(x=0\\)，得\n\\[\nD=\\left(0,-\\frac{21}{2}\\right),\n\\qquad\nGD=4+\\frac{21}{2}=\\frac{29}{2}.\n\\]\n又 \\(GO=4\\)、\\(GA=\\sqrt{29}\\)。利用 (a)(ii)：\n\\[\nGB=\\frac{GD\\cdot GO}{GA}\n=\\frac{(29/2)(4)}{\\sqrt{29}}\n=2\\sqrt{29}.\n\\]\n保持精確值並平方比較：\n\\[\n(\\sqrt{2}\\,GB)^2=2(2\\sqrt{29})^2=232,\n\\qquad\nGD^2=\\left(\\frac{29}{2}\\right)^2=\\frac{841}{4}.\n\\]\n因為 \\(232=\\frac{928}{4}>\\frac{841}{4}\\)，所以聲稱正確。"
+    },
+    {
+      "id": "note-circle-equation-q86",
+      "status": "完成",
+      "questionSha256": "242afb7b9829e095589b6bfa4d097c2f0a06ac2faf7594e7b69e7ff269727065",
+      "figures": [],
+      "reason": "Signed k, both slopes and contact geometry; independent triangle circumcircle.",
+      "calculated": {
+        "k": -8,
+        "Ls": [
+          [
+            0.5,
+            -1,
+            -4
+          ],
+          [
+            5.5,
+            -1,
+            -4
+          ]
+        ],
+        "points": [
+          [
+            12,
+            2
+          ],
+          [
+            4,
+            18
+          ]
+        ],
+        "circumcircle": {
+          "O": [
+            2,
+            7
+          ],
+          "R2": 125
+        }
+      },
+      "solution": "Worked Solution\nSubstituting \\(y=-2x+26\\) and imposing tangency gives \\((k+8)(k-22)=0\\). Hence \\(k=-8\\).\nFor \\(y=mx-4\\), substitution into \\(C_1\\) gives\n\\[\n(1+m^2)x^2-(12+16m)x+80=0.\n\\]\nIts discriminant is zero exactly when \\((2m-1)(2m-11)=0\\). Thus the two tangents are \\(y=x/2-4\\) and \\(y=11x/2-4\\). Their intersections with \\(L_1\\) are \\(B=(12,2)\\), \\(C=(4,18)\\).\nSince the slopes of \\(L_1\\) and \\(L_2\\) multiply to \\(-1\\), \\(\\angle ABC=90^\\circ\\). Therefore \\(AC\\) is a diameter of the circumcircle, whose centre is \\((2,7)\\) and whose radius squared is \\(125\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n將 \\(L_1\\) 寫成 \\(y=-2x+26\\) 並代入圓，切線條件給\n\\[\n(k+8)(k-22)=0.\n\\]\n因 \\(k<0\\)，\n\\[\nk=-8,\\qquad C_1:x^2+y^2-12x-8y+32=0.\n\\]\n令過 \\(A\\) 的切線為 \\(y=mx-4\\)。代入後\n\\[\n(1+m^2)x^2-(12+16m)x+80=0.\n\\]\n相切即判別式為零：\n\\[\n(12+16m)^2-320(1+m^2)=0\n\\Rightarrow (2m-1)(2m-11)=0.\n\\]\n故\n\\[\nL_2:y=\\frac{1}{2}x-4,\\qquad L_3:y=\\frac{11}{2}x-4.\n\\]\n聯立 \\(L_1\\) 得\n\\[\nB=(12,2),\\qquad C=(4,18).\n\\]\n因 \\(L_1\\) 的斜率為 \\(-2\\)，\\(L_2\\) 的斜率為 \\(1/2\\)，故 \\(L_1\\perp L_2\\)，即 \\(\\angle ABC=90^\\circ\\)。所以 \\(AC\\) 是外接圓的直徑。其圓心為\n\\[\n\\left(\\frac{0+4}{2},\\frac{-4+18}{2}\\right)=(2,7),\n\\]\n而 \\(r^2=AB^2=(12-2)^2+(2-7)^2=125\\)。\n\\[\n\\boxed{(x-2)^2+(y-7)^2=125}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q87",
+      "status": "完成",
+      "questionSha256": "c627d7cf7b78532afdbb85eaacd37b5a6448668430065d846347f46752ca7c1e",
+      "figures": [],
+      "reason": "Both tangent roots and all angle-bisector centres; quadrant selects correct homothety.",
+      "calculated": {
+        "O": [
+          2,
+          4
+        ],
+        "R2": 68,
+        "ks": [
+          -4,
+          1.2307692307692308
+        ],
+        "W": [
+          -34,
+          12
+        ],
+        "rejectedCentre": [
+          74,
+          -12
+        ],
+        "areaFactor": 9
+      },
+      "solution": "Worked Solution\nThe centre of \\(C\\) is \\(V=(2,4)\\) and \\(r^2=68\\), so\n\\[\nC:(x-2)^2+(y-4)^2=68.\n\\]\nTangency of \\(x+ky-20=0\\) gives\n\\[\n13k^2+36k-64=0,\n\\]\nso \\(k=-4\\) or \\(16/13\\). The two tangents meet at \\(X=(20,0)\\). Since the new area is nine times as large, its radius is three times as large. The two centres and the common-tangent intersection are collinear, with \\(XV:XW=1:3\\). The quadrant-II choice is\n\\[\nW=X+3(V-X)=(-34,12).\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n圓心是 \\(V=(2,4)\\)，半徑平方為\n\\[\nVR^2=(2-0)^2+(4+4)^2=68.\n\\]\n故\n\\[\nC:(x-2)^2+(y-4)^2=68.\n\\]\n令 \\(x+ky-20=0\\) 與 \\(C\\) 相切。代入或用點線距離，均得\n\\[\n13k^2+36k-64=0,\n\\]\n故\n\\[\nk=-4\\quad\\text{或}\\quad k=\\frac{16}{13}.\n\\]\n兩條切線交於 \\(X=(20,0)\\)。\\(C'\\) 面積是 \\(C\\) 的 \\(9\\) 倍，所以 \\(C'\\) 的半徑是 \\(C\\) 的 \\(3\\) 倍。對同一對切線，圓心必在角平分線上；在本題，\\(X,V,W\\) 共線，且\n\\[\nXV:XW=1:3.\n\\]\n第二象限的中心在 \\(V\\) 穿過、遠離 \\(X\\) 的一側，故\n\\[\nW=X+3(V-X)=(20,0)+3(-18,4)=(-34,12).\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q88",
+      "status": "完成",
+      "questionSha256": "6a475afe280bc79e6a74f9d5917b5b5960d7c0528fa6032ee416e2b605b4e8df",
+      "figures": [],
+      "reason": "Positive tangent coefficients, equal lengths, angle and cosine-rule third side.",
+      "calculated": {
+        "O": [
+          6,
+          -8
+        ],
+        "R2": 625,
+        "a": 3,
+        "b": 111,
+        "tangentLength": 50,
+        "EQ": 6.25,
+        "angle": 53.13010235415598,
+        "DF": 20.833333333333332,
+        "EF": 35.41666666666667,
+        "perimeter": 100,
+        "claim": false
+      },
+      "solution": "Worked Solution\nCompleting squares gives \\(I=(6,-8)\\) and \\(r=25\\). Since \\(D\\in L_1\\), \\(b=61a-72\\). The tangent discriminant gives \\(6a^2-11a-21=0\\), so \\(a=3\\), \\(b=111\\).\n\\[\nDP=DQ=\\sqrt{DI^2-r^2}=\\sqrt{3125-625}=50,\n\\]\nso \\(EQ=50-43.75=25/4\\). Also \\(\\tan\\angle IDQ=25/50=1/2\\), and \\(DI\\) bisects the angle between the tangents. Thus\n\\[\n\\angle PDQ=2\\tan^{-1}(1/2)=53.1^\\circ.\n\\]\nLet \\(DF=x\\). Equal tangent lengths give \\(FP=FS=50-x\\) and \\(ES=EQ=25/4\\), hence \\(EF=225/4-x\\). The perimeter is therefore \\(100\\). The cosine rule gives \\(DF=125/6<25\\), so the claim is false.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n配方得\n\\[\nC:(x-6)^2+(y+8)^2=625,\n\\]\n所以 \\(I=(6,-8)\\)、\\(r=25\\)。由 \\(D\\in L_1\\)，\\(b=61a-72\\)。把 \\(L_1\\) 代入圓並令判別式為零，得到\n\\[\n6a^2-11a-21=0.\n\\]\n因 \\(a>0\\)，\n\\[\na=3,\\qquad b=111.\n\\]\n又\n\\[\nDI^2=(-55)^2+10^2=3125,\n\\qquad DQ=DP=\\sqrt{3125-25^2}=50.\n\\]\n故\n\\[\nEQ=DQ-DE=50-43.75=\\frac{25}{4}.\n\\]\n在直角三角形 \\(IDQ\\)，\n\\[\n\\tan\\angle IDQ=\\frac{25}{50}=\\frac{1}{2}.\n\\]\n\\(DI\\) 平分兩切線夾角，故\n\\[\n\\angle PDQ=2\\tan^{-1}\\left(\\frac{1}{2}\\right)=53.1^\\circ\\quad\\text{(3 s.f.)}.\n\\]\n設 \\(DF=x\\)。從 \\(F\\) 的兩切線長相等，\\(FP=FS=50-x\\)；從 \\(E\\) 的兩切線長相等，\\(ES=EQ=25/4\\)。因此\n\\[\nEF=ES+SF=\\frac{25}{4}+50-x=\\frac{225}{4}-x.\n\\]\n故周界為\n\\[\nDE+DF+EF=\\frac{175}{4}+x+\\frac{225}{4}-x=100.\n\\]\n最後在 \\(\\triangle DEF\\) 用餘弦定理，\\(\\cos\\angle EDF=\\cos53.1^\\circ=3/5\\)：\n\\[\n\\left(\\frac{175}{4}\\right)^2+x^2-2\\left(\\frac{175}{4}\\right)x\\left(\\frac{3}{5}\\right)\n=\\left(\\frac{225}{4}-x\\right)^2.\n\\]\n解得 \\(x=125/6\\)。因 \\(125/6<25\\)，聲稱錯誤。"
+    },
+    {
+      "id": "note-circle-equation-q26",
+      "status": "完成",
+      "questionSha256": "192f68b70a39a293ee909146a8c24c0b9cfc1bd52afc1a09e1c604e04c083c56",
+      "figures": [],
+      "reason": "Strict two-circle bounds, radical axis, projected midpoint and chord.",
+      "calculated": {
+        "a": {
+          "O": [
+            1,
+            -2
+          ],
+          "R2": 25
+        },
+        "b": {
+          "O": [
+            7,
+            6
+          ],
+          "R2": 100
+        },
+        "L": [
+          12,
+          16,
+          -5
+        ],
+        "M": [
+          1.75,
+          -1
+        ],
+        "d": 10,
+        "length": 9.682458365518542
+      },
+      "solution": "Worked Solution\n(a)The centres and radii are\n\\[\nG_1=(1,-2),\\; r_1=5,\n\\qquad\nG_2=(7,6),\\; r_2=10.\n\\]\nTheir centre distance is 10. Since\n\\[\n5<10<15,\n\\]\nthe circles have two intersection points.\n(b)Expanding and subtracting the two equations gives\n\\[\n12x+16y-5=0.\n\\]\nThis is the common-chord line.\n(c)The midpoint is the perpendicular foot from \\(G_1\\):\n\\[\nM=\\left(\\frac{7}{4},-1\\right).\n\\]\nThe centre-to-chord distance is \\(5/4\\), so the half-chord is\n\\[\n\\sqrt{25-\\frac{25}{16}}=\\frac{5\\sqrt{15}}4.\n\\]\nTherefore the chord length is\n\\[\n\\frac{5\\sqrt{15}}2.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)兩圓圓心和半徑分別為\n\\[\nG_1=(1,-2),\\; r_1=5,\n\\qquad\nG_2=(7,6),\\; r_2=10.\n\\]\n\\[\nG_1G_2=\\sqrt{6^2+8^2}=10.\n\\]\n\\[\n|r_2-r_1|=5<10<15=r_1+r_2.\n\\]\n所以兩圓有兩個交點。\n(b)展開後\n\\[\nC_1:x^2+y^2-2x+4y-20=0,\n\\]\n\\[\nC_2:x^2+y^2-14x-12y-15=0.\n\\]\n相減得公共弦所在直線\n\\[\n12x+16y-5=0.\n\\]\n(c)\\(M\\) 是 \\(G_1\\) 到該直線的垂足，故\n\\[\nM=\\left(\\frac{7}{4},-1\\right).\n\\]\n圓心到弦距離為\n\\[\n\\frac{|12-32-5|}{20}=\\frac{5}{4}.\n\\]\n半弦長為\n\\[\n\\sqrt{5^2-\\left(\\frac{5}{4}\\right)^2}=\\frac{5\\sqrt{15}}{4}.\n\\]\n所以公共弦長為\n\\[\n\\frac{5\\sqrt{15}}2.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q61",
+      "status": "完成",
+      "questionSha256": "ca6a0278fa4f016903dd10b8d061346cb32bdf9060f147cc1bed9dd501eaea4a",
+      "figures": [],
+      "reason": "Bisector and centre constraint; equal-radius external touch at source A.",
+      "calculated": {
+        "O": [
+          1,
+          -2
+        ],
+        "H": [
+          -9,
+          0
+        ],
+        "R2": 26,
+        "contact": [
+          -4,
+          -1
+        ]
+      },
+      "solution": "Worked Solution\nThe midpoint of \\(AB\\) is \\((-2,1)\\), and the perpendicular bisector is \\(x+y+1=0\\). Intersecting it with \\(x-y-3=0\\) gives \\(G=(1,-2)\\).\nSince \\(GA^2=26\\),\n\\[\nC_1:(x-1)^2+(y+2)^2=26,\n\\]\nor \\(x^2+y^2-2x+4y-21=0\\).\nThe second circle has the same radius. For external tangency at \\(A\\), the point \\(A\\) is the midpoint of \\(GH\\). Hence\n\\[\nH=2A-G=(-9,0).\n\\]\nTherefore\n\\[\nC_2:(x+9)^2+y^2=26,\n\\]\nor \\(x^2+y^2+18x+55=0\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的中點為 \\((-2,1)\\)，斜率為 1，所以垂直平分線為\n\\[\ny-1=-(x+2)\n\\Rightarrow x+y+1=0.\n\\]\n與 \\(x-y-3=0\\) 聯立，得\n\\[\nG=(1,-2).\n\\]\n半徑平方為\n\\[\nGA^2=(-5)^2+1^2=26.\n\\]\n所以\n\\[\nC_1:(x-1)^2+(y+2)^2=26,\n\\]\n即 \\(x^2+y^2-2x+4y-21=0\\)。\n\\(C_2\\) 亦有半徑 \\(\\sqrt{26}\\)。兩等圓在 \\(A\\) 外切時，\\(A\\) 是 \\(GH\\) 的中點。因此\n\\[\nH=2A-G=2(-4,-1)-(1,-2)=(-9,0).\n\\]\n故\n\\[\nC_2:(x+9)^2+y^2=26,\n\\]\n即 \\(x^2+y^2+18x+55=0\\)。"
+    },
+    {
+      "id": "note-circle-equation-q89",
+      "status": "完成",
+      "questionSha256": "6e10d4aea0f881b64f9473200365171d2aec00756291d46b641a0b607216c1c9",
+      "figures": [],
+      "reason": "Right angle diameter, strict two-unit inequality and externally tangent radius.",
+      "calculated": {
+        "O": [
+          3,
+          8
+        ],
+        "R2": 50,
+        "externalDistance": 9.219544457292887,
+        "minimum": 2.1484766454274116,
+        "locusCentre": [
+          10,
+          14
+        ],
+        "locusR2": 4.615951895947023,
+        "claim": true
+      },
+      "solution": "Worked Solution\nThe slopes are \\(1\\) and \\(-1\\), hence \\(\\angle DEF=90^\\circ\\) and \\(DF\\) is a diameter. Thus \\(O=(3,8)\\), \\(r^2=50\\), and\n\\[\nC:(x-3)^2+(y-8)^2=50.\n\\]\nSince \\(OG^2=85>50\\), \\(G\\) is outside. The least distance to the circumference is \\(\\sqrt{85}-\\sqrt{50}>2\\), so the claim is true. External tangency gives the new radius \\(\\sqrt{85}-\\sqrt{50}\\), hence\n\\[\n\\Gamma:(x-10)^2+(y-14)^2=135-10\\sqrt{170}.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nm_{DE}=1,\\qquad m_{EF}=-1,\n\\]\n故 \\(\\angle DEF=90^\\circ\\)，\\(DF\\) 是 \\(C\\) 的直徑。圓心\n\\[\nO=\\left(\\frac{-4+10}{2},\\frac{7+9}{2}\\right)=(3,8),\n\\]\n且 \\(r^2=OD^2=50\\)。所以\n\\[\nC:(x-3)^2+(y-8)^2=50.\n\\]\n\\[\nOG^2=(10-3)^2+(14-8)^2=85>50=r^2,\n\\]\n故 \\(G\\) 在圓外。圓上到 \\(G\\) 的最短距離為\n\\[\nOG-r=\\sqrt{85}-\\sqrt{50}>2\n\\]\n（平方比較或小數均可驗證），所以 (b)(ii) 的說法正確。要使以 \\(G\\) 為中心的 \\(\\Gamma\\) 與 \\(C\\) 外切，\\(\\Gamma\\) 半徑為 \\(OG-r\\)，故\n\\[\n\\Gamma:(x-10)^2+(y-14)^2=(\\sqrt{85}-\\sqrt{50})^2\n=135-10\\sqrt{170}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q58",
+      "status": "完成",
+      "questionSha256": "8a2f6b3f31d6a0c15c0d8c558b06add58658ccb2b0fda7ffbc3b9c8c3b01c660",
+      "figures": [],
+      "reason": "External homothety, tangent angle and true upper contact.",
+      "calculated": {
+        "R": [
+          -1.3333333333333333,
+          0
+        ],
+        "Q": [
+          7.2,
+          6.4
+        ],
+        "sin": 0.6,
+        "cos": 0.8
+      },
+      "solution": "Worked Solution\nThe centres and radii are \\(A=(2,0),r_1=2\\) and \\(B=(12,0),r_2=8\\). Let \\(R=(t,0)\\), where \\(t<2\\). Similar right triangles give\n\\[\n\\frac{2-t}{12-t}=\\frac{2}{8},\n\\]\nso \\(t=-4/3\\). Hence \\(RA=10/3\\) and \\(RP=8/3\\). Therefore\n\\[\n\\sin\\angle PRA=\\frac{3}{5},\\qquad\n\\cos\\angle PRA=\\frac{4}{5}.\n\\]\nAlso \\(RB=40/3\\), so \\(RQ=32/3\\). Resolving \\(RQ\\) from \\(R\\) gives a horizontal component \\(128/15\\) and vertical component \\(32/5\\). Thus\n\\[\nQ=\\left(-\\frac{4}{3}+\\frac{128}{15},\\frac{32}{5}\\right)\n=\\left(\\frac{36}{5},\\frac{32}{5}\\right).\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nA=(2,0),\\ r_1=2;\\qquad B=(12,0),\\ r_2=8.\n\\]\n設 \\(R=(t,0)\\)，其中 \\(t<2\\)。由相似三角形，\n\\[\n\\frac{RA}{RB}=\\frac{AP}{BQ}=\\frac{2}{8}=\\frac{1}{4}.\n\\]\n所以\n\\[\n\\frac{2-t}{12-t}=\\frac{1}{4}\n\\Rightarrow t=-\\frac{4}{3}.\n\\]\n故 \\(RA=10/3\\)。在直角三角形 \\(RAP\\) 中，\n\\[\nRP=\\sqrt{RA^2-AP^2}=\\frac{8}{3}.\n\\]\n因此\n\\[\n\\sin\\angle PRA=\\frac{AP}{RA}=\\frac{3}{5},\\qquad\n\\cos\\angle PRA=\\frac{RP}{RA}=\\frac{4}{5}.\n\\]\n另外 \\(RB=12+4/3=40/3\\)，故\n\\[\nRQ=\\sqrt{RB^2-BQ^2}=\\frac{32}{3}.\n\\]\n由 \\(R\\) 出發，\\(RQ\\) 的水平及垂直分量分別為\n\\[\n\\frac{32}{3}\\cdot\\frac{4}{5}=\\frac{128}{15},\\qquad\n\\frac{32}{3}\\cdot\\frac{3}{5}=\\frac{32}{5}.\n\\]\n所以\n\\[\nQ=\\left(-\\frac{4}{3}+\\frac{128}{15},\\frac{32}{5}\\right)\n=\\left(\\frac{36}{5},\\frac{32}{5}\\right).\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q47",
+      "status": "完成",
+      "questionSha256": "0d7b8e7ce2ab63f8ab6fa6be02e6cb3d59e67417cfd1279ba38f8879a9d22e3f",
+      "figures": [],
+      "reason": "Midway line, perpendicular foot and minimum distance.",
+      "calculated": {
+        "L": [
+          3,
+          -1,
+          10
+        ],
+        "M": [
+          -3,
+          1
+        ],
+        "minimum": 3.1622776601683795
+      },
+      "solution": "Worked Solution\nWrite the two lines as \\(3x-y+5=0\\) and \\(3x-y+15=0\\). Their middle constant is 10, so the locus is \\(3x-y+10=0\\), or \\(y=3x+10\\).\nThe nearest point to the origin lies on the perpendicular from \\(O\\). The perpendicular slope is \\(-1/3\\), so \\(y=-x/3\\). Solving with \\(y=3x+10\\) gives \\(M=(-3,1)\\), and \\(OM=\\sqrt{10}\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n兩線寫成 \\(3x-y+5=0\\) 及 \\(3x-y+15=0\\)。它們的中間線常數是 \\(10\\)，所以\n\\[\n3x-y+10=0,\\qquad y=3x+10.\n\\]\n要找離原點最近的點，從 \\(O(0,0)\\) 向此線作垂線。原線斜率為 \\(3\\)，垂線斜率為 \\(-\\frac{1}{3}\\)，故垂線是 \\(y=-\\frac{x}{3}\\)。聯立\n\\[\ny=3x+10,\\qquad y=-\\frac{x}{3}\n\\]\n得 \\(x=-3,y=1\\)。因此 \\(M=(-3,1)\\)，而\n\\[\nOM=\\sqrt{(-3)^2+1^2}=\\sqrt{10}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q63",
+      "status": "完成",
+      "questionSha256": "d17b9b9d653a4cf7cd7ab72cb3f8966609ba35e422010c233d56aa4f13bc13c8",
+      "figures": [],
+      "reason": "Midway line, both axis intercepts and sharp diameter bound.",
+      "calculated": {
+        "L": [
+          1,
+          -2,
+          4
+        ],
+        "A": [
+          0,
+          2
+        ],
+        "B": [
+          2,
+          0
+        ],
+        "leastCentre": [
+          1,
+          1
+        ],
+        "leastAreaPi": 2
+      },
+      "solution": "Worked Solution\nThe equal-distance locus of two parallel lines is their middle parallel. Averaging the constants gives\n\\[\n\\Gamma:x-2y+4=0.\n\\]\nThus \\(A=(0,2)\\), while \\(L_2\\) meets the \\(x\\)-axis at \\(B=(2,0)\\). Hence \\(AB=2\\sqrt{2}\\).\nFor any circle through \\(A\\) and \\(B\\), the radius is at least \\(AB/2\\), with equality when \\(AB\\) is a diameter. Therefore the least radius is \\(\\sqrt{2}\\), and the least area is \\(2\\pi\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n兩條平行線之間的等距軌跡是唯一中線，其常數為\n\\[\n\\frac{10+(-2)}{2}=4.\n\\]\n所以\n\\[\n\\Gamma:x-2y+4=0.\n\\]\n令 \\(x=0\\)，得 \\(A=(0,2)\\)。令 \\(y=0\\) 代入 \\(L_2\\)，得 \\(B=(2,0)\\)。因此\n\\[\nAB=\\sqrt{(2-0)^2+(0-2)^2}=2\\sqrt{2}.\n\\]\n任何經 \\(A,B\\) 的圓，其半徑至少為 \\(AB/2\\)；當 \\(AB\\) 是直徑時取等號。故最小半徑是 \\(\\sqrt{2}\\)，最小面積為\n\\[\n\\pi(\\sqrt{2})^2=2\\pi.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q48",
+      "status": "完成",
+      "questionSha256": "a2b69a4ee6921c0245139df955a70c0641225e7f01ce509d14aef11ca344b172",
+      "figures": [],
+      "reason": "Area translates into both distance branches; test the supplied point.",
+      "calculated": {
+        "base": 5,
+        "line": [
+          3,
+          -4,
+          -9
+        ],
+        "Ls": [
+          [
+            3,
+            -4,
+            -39
+          ],
+          [
+            3,
+            -4,
+            21
+          ]
+        ],
+        "suppliedPointOnLocus": true
+      },
+      "solution": "Worked Solution\nThe slope of \\(AB\\) is \\(3/4\\), so \\(AB:3x-4y-9=0\\), and \\(AB=5\\). The required height is \\(2(15)/5=6\\). Hence\n\\[\n\\frac{|3x-4y-9|}{5}=6\n\\Rightarrow |3x-4y-9|=30,\n\\]\nwhich gives the two parallel lines \\(3x-4y-39=0\\) and \\(3x-4y+21=0\\). For \\((1,6)\\), the expression is \\(-30\\), so the point lies on the locus.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的斜率為 \\(\\frac{3}{4}\\)，所以\n\\[\nAB:3x-4y-9=0,\n\\]\n而 \\(AB=\\sqrt{4^2+3^2}=5\\)。\n若以 \\(AB\\) 作底，所需高為\n\\[\nh=\\frac{2(15)}5=6.\n\\]\n因此\n\\[\n\\frac{|3x-4y-9|}{5}=6\n\\Rightarrow |3x-4y-9|=30.\n\\]\n保留兩個分支，軌跡是\n\\[\n3x-4y-39=0\\quad\\text{或}\\quad 3x-4y+21=0.\n\\]\n代入 \\(P(1,6)\\)：\\(3-24-9=-30\\)，絕對值為 30，所以在其中一條軌跡上。"
+    },
+    {
+      "id": "note-circle-equation-q83",
+      "status": "完成",
+      "questionSha256": "fa7e7dc8592bded7bafb9086c17003ca2863fb17285d945fee338fe32848ce09",
+      "figures": [],
+      "reason": "Both normalized angle bisectors, intersection and inclinations.",
+      "calculated": {
+        "Ls": [
+          [
+            1.7320508075688772,
+            -3,
+            -2
+          ],
+          [
+            1.7320508075688772,
+            1,
+            -2
+          ]
+        ],
+        "S": [
+          1.1547005383792517,
+          0
+        ],
+        "inclinations": [
+          30,
+          120
+        ]
+      },
+      "solution": "Worked Solution\nEquating the normalised distances gives\n\\[\n\\frac{|\\sqrt3x-y-2|}{2}=|y|.\n\\]\nSquaring and factoring yields\n\\[\n(\\sqrt3x-3y-2)(\\sqrt3x+y-2)=0.\n\\]\nThus both angle bisectors are retained. They meet at \\(S=(2/\\sqrt{3},0)\\), with inclinations \\(30^\\circ\\) and \\(120^\\circ\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n到 \\(L\\) 的距離為\n\\[\n\\frac{|\\sqrt3x-y-2|}{2},\n\\]\n到 \\(x\\)-軸的距離為 \\(|y|\\)。所以\n\\[\n(\\sqrt3x-y-2)^2=4y^2.\n\\]\n平方差分解：\n\\[\n(\\sqrt3x-3y-2)(\\sqrt3x+y-2)=0.\n\\]\n故兩分支為\n\\[\n\\sqrt3x-3y-2=0\n\\quad\\text{及}\\quad\n\\sqrt3x+y-2=0.\n\\]\n兩線公共點同時在 \\(L\\) 與 \\(x\\)-軸的交點：\n\\[\nS=\\left(\\frac{2}{\\sqrt3},0\\right).\n\\]\n第一支斜率為 \\(1/\\sqrt{3}\\)，傾角 \\(30^\\circ\\)；第二支斜率為 \\(-\\sqrt{3}\\)，傾角 \\(120^\\circ\\)。它們分別平分原兩線形成的銳角與鈍角。"
+    },
+    {
+      "id": "note-circle-equation-q71",
+      "status": "完成",
+      "questionSha256": "bef14f4cb6849341b9d7376d6ec7e40c009240f92ccc66f1194bd1f3108d4fdf",
+      "figures": [],
+      "reason": "Both c-values from absolute area and right-side parallel branch.",
+      "calculated": {
+        "A": [
+          3,
+          0
+        ],
+        "B": [
+          0,
+          4
+        ],
+        "candidates": [
+          -3,
+          9
+        ],
+        "Gamma": [
+          4,
+          3,
+          -36
+        ],
+        "height": 4.8
+      },
+      "solution": "Worked Solution\nThe intercepts are \\(A=(3,0)\\) and \\(B=(0,4)\\), so \\([OAB]=6\\) and \\([ABC]=12\\). Since \\(AC=|c-3|\\),\n\\[\n\\frac{1}{2}|c-3|(4)=12,\n\\]\ngiving \\(c=-3\\) or \\(c=9\\).\nFor the greater value, \\(C=(9,0)\\). The fixed base has length \\(AB=5\\), so \\([PAB]=12\\) requires\n\\[\nd(P,L)=\\frac{24}{5}.\n\\]\nHence \\(|4x+3y-12|=24\\), which gives the two candidate parallels\n\\[\n4x+3y-36=0\n\\quad\\text{and}\\quad\n4x+3y+12=0.\n\\]\nThe right-side condition selects \\(4x+3y-36=0\\), the branch through \\(C=(9,0)\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n令 \\(y=0\\) 及 \\(x=0\\)，得\n\\[\nA=(3,0),\n\\qquad B=(0,4).\n\\]\n因此\n\\[\n[OAB]=\\frac{1}{2}(3)(4)=6,\n\\qquad [ABC]=12.\n\\]\n由 \\(AC=|c-3|\\)，而 \\(B\\) 到 \\(x\\)-軸的高度為 4：\n\\[\n\\frac{1}{2}|c-3|(4)=12\n\\Rightarrow |c-3|=6.\n\\]\n故\n\\[\nc=-3\\quad\\text{或}\\quad c=9.\n\\]\n在 (b) 取 \\(C=(9,0)\\)。因 \\(AB=5\\)，若 \\([PAB]=12\\)，則 \\(P\\) 到 \\(L\\) 的距離為\n\\[\nd(P,L)=\\frac{2(12)}{5}=\\frac{24}{5}.\n\\]\n所以\n\\[\n\\frac{|4x+3y-12|}{5}=\\frac{24}{5}\n\\Rightarrow |4x+3y-12|=24.\n\\]\n兩條候選軌跡為\n\\[\n4x+3y-36=0\n\\quad\\text{或}\\quad\n4x+3y+12=0.\n\\]\n右側可用 \\(C=(9,0)\\) 作測試點；它滿足 \\(4x+3y-12>0\\)，因此應選同一側的分支\n\\[\n4x+3y-36=0.\n\\]\n它與 \\(L\\) 平行，並通過 \\(C\\)。"
+    },
+    {
+      "id": "note-circle-equation-official-dse-hkeaa-2012-p1-final-q14",
+      "status": "完成",
+      "questionSha256": "eb619abb635cfd3cff9cf9e62e7cfb784ce2fb122bcb541969749c2b046d1eb2",
+      "figures": [],
+      "reason": "Midway line, centre membership and equal actual triangle areas.",
+      "calculated": {
+        "Gamma": [
+          1,
+          -3,
+          -6
+        ],
+        "O": [
+          6,
+          0
+        ],
+        "ratio": "1:1"
+      },
+      "solution": "Official Marking Route / 官方解題路線\n(a)(i) Since \\(\\Gamma\\) is the set of points equidistant from the two parallel lines, \\(\\Gamma\\) is parallel to \\(L\\). It lies midway between \\(L\\) and \\(\\ell\\); equivalently, it is \\(1\\) unit vertically below \\(L\\).\n(a)(ii) The line \\(L\\) has intercept form\n\\[\n\\frac{x}{3}+\\frac{y}{-1}=1,\n\\]\nso\n\\[\ny=\\frac{x}{3}-1.\n\\]\nTherefore\n\\[\n\\Gamma: y=\\frac{x}{3}-2,\n\\]\nor\n\\[\nx-3y-6=0.\n\\]\n(b)(i) The centre is \\(Q=(6,0)\\). Substituting into \\(\\Gamma\\),\n\\[\n6-3(0)-6=0.\n\\]\nThus \\(\\Gamma\\) passes through \\(Q\\).\n(b)(ii) Since \\(Q\\) lies on \\(\\Gamma\\), \\(HQ=KQ\\), both being radii of \\(C\\). Also, the perpendicular distances from \\(A\\) and \\(B\\) to \\(\\Gamma\\) are equal because \\(L\\) is parallel to \\(\\Gamma\\). Hence\n\\[\n\\text{area of }\\triangle AQH:\\text{area of }\\triangle BQK=1:1.\n\\]\nFinal answers: (a)(i) \\(\\Gamma\\parallel L\\) and lies midway between the two lines; (a)(ii) \\(x-3y-6=0\\); (b)(i) yes; (b)(ii) \\(1:1\\).",
+      "solutionZh": "Official Marking Route / 官方解題路線\n(a)(i) Since \\(\\Gamma\\) is the set of points equidistant from the two parallel lines, \\(\\Gamma\\) is parallel to \\(L\\). It lies midway between \\(L\\) and \\(\\ell\\); equivalently, it is \\(1\\) unit vertically below \\(L\\).\n(a)(ii) The line \\(L\\) has intercept form\n\\[\n\\frac{x}{3}+\\frac{y}{-1}=1,\n\\]\nso\n\\[\ny=\\frac{x}{3}-1.\n\\]\nTherefore\n\\[\n\\Gamma: y=\\frac{x}{3}-2,\n\\]\nor\n\\[\nx-3y-6=0.\n\\]\n(b)(i) The centre is \\(Q=(6,0)\\). Substituting into \\(\\Gamma\\),\n\\[\n6-3(0)-6=0.\n\\]\nThus \\(\\Gamma\\) passes through \\(Q\\).\n(b)(ii) Since \\(Q\\) lies on \\(\\Gamma\\), \\(HQ=KQ\\), both being radii of \\(C\\). Also, the perpendicular distances from \\(A\\) and \\(B\\) to \\(\\Gamma\\) are equal because \\(L\\) is parallel to \\(\\Gamma\\). Hence\n\\[\n\\text{area of }\\triangle AQH:\\text{area of }\\triangle BQK=1:1.\n\\]\nFinal answers: (a)(i) \\(\\Gamma\\parallel L\\) and lies midway between the two lines; (a)(ii) \\(x-3y-6=0\\); (b)(i) yes; (b)(ii) \\(1:1\\)."
+    },
+    {
+      "id": "note-circle-equation-q41",
+      "status": "完成",
+      "questionSha256": "dc64fdeb474d97d72bffec87a164a340d650f549ba973463427eaac18bc40b9a",
+      "figures": [],
+      "reason": "Both projections and actual triangle areas rather than claimed ratio.",
+      "calculated": {
+        "O": [
+          1,
+          -2
+        ],
+        "R2": 169,
+        "Gamma": [
+          3,
+          2,
+          1
+        ],
+        "R": [
+          -3,
+          4
+        ],
+        "areaWTU": 140.61649974309557,
+        "areaGRS": 38.99999999999999,
+        "claim": false
+      },
+      "solution": "Worked Solution\n(a)Equal distance gives\n\\[\n|3x+2y-5|=|3x+2y+7|.\n\\]\nSquaring and simplifying gives \\(3x+2y+1=0\\). Hence\n\\[\n\\boxed{\\Gamma:3x+2y+1=0}.\n\\]\n(b)(i) The slope of \\(\\Gamma\\) is \\(-3/2\\), so the shortest line \\(QR\\) has slope \\(2/3\\). Through \\(Q=(9,12)\\),\n\\[\ny-12=\\frac{2}{3}(x-9),\\qquad 2x-3y+18=0.\n\\]\nSolving with \\(\\Gamma\\) gives\n\\[\n\\boxed{R=(-3,4)}.\n\\]\n(b)(ii) Completing the square gives\n\\[\n(x-1)^2+(y+2)^2=169.\n\\]\nThus \\(G=(1,-2)\\), \\(r=13\\), and \\(G\\) lies on \\(\\Gamma\\). Therefore \\(TU\\) is a diameter and \\(TU=26\\).\n\\[\nGR=2\\sqrt{13}.\n\\]\nSince \\(GR\\perp QR\\), \\(R\\) is the midpoint of chord \\(WS\\), so\n\\[\nRS=\\sqrt{13^2-(2\\sqrt{13})^2}=3\\sqrt{13},\\qquad WS=6\\sqrt{13}.\n\\]\nConsequently,\n\\[\n\\operatorname{Area}(\\triangle WTU)=39\\sqrt{13},\\qquad\n\\operatorname{Area}(\\triangle GRS)=39.\n\\]\nThe actual ratio is \\(\\sqrt{13}:1\\), not \\(7:2\\). The claim is incorrect.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)等距條件為\n\\[\n|3x+2y-5|=|3x+2y+7|.\n\\]\n平方並化簡得 \\(3x+2y+1=0\\)，所以\n\\[\n\\boxed{\\Gamma:3x+2y+1=0}.\n\\]\n(b)(i) \\(\\Gamma\\) 的斜率是 \\(-\\frac{3}{2}\\)，所以最短線 \\(QR\\) 的斜率是 \\(\\frac{2}{3}\\)。過 \\(Q=(9,12)\\)：\n\\[\ny-12=\\frac{2}{3}(x-9),\\qquad 2x-3y+18=0.\n\\]\n聯立 \\(3x+2y+1=0\\) 得\n\\[\n\\boxed{R=(-3,4)}.\n\\]\n(b)(ii) 配方：\n\\[\n(x-1)^2+(y+2)^2=169,\n\\]\n故 \\(G=(1,-2)\\)、\\(r=13\\)。而 \\(3(1)+2(-2)+1=0\\)，所以 \\(G\\in\\Gamma\\)，\\(TU\\) 是直徑，\\(TU=26\\)。\n\\[\nGR=\\sqrt{(1+3)^2+(-2-4)^2}=2\\sqrt{13}.\n\\]\n因 \\(GR\\perp QR\\)，\\(R\\) 是弦 \\(WS\\) 的中點：\n\\[\nRS=\\sqrt{13^2-(2\\sqrt{13})^2}=3\\sqrt{13},\\qquad WS=6\\sqrt{13}.\n\\]\n因此\n\\[\n\\operatorname{Area}(\\triangle WTU)=\\frac{1}{2}(26)(3\\sqrt{13})=39\\sqrt{13},\n\\]\n\\[\n\\operatorname{Area}(\\triangle GRS)=\\frac{1}{2}(2\\sqrt{13})(3\\sqrt{13})=39.\n\\]\n實際比為\n\\[\n\\sqrt{13}:1\\neq7:2.\n\\]\n所以聲稱不正確。"
+    },
+    {
+      "id": "note-circle-equation-q22",
+      "status": "完成",
+      "questionSha256": "8a3aff4ab18c13fd59230b6e4795e7bb000ae3fe61b5b1d8ac844dd40ee076c2",
+      "figures": [],
+      "reason": "Radius, bisector and all four equal quadrilateral sides.",
+      "calculated": {
+        "G": [
+          0,
+          3
+        ],
+        "R2": 100,
+        "L": [
+          -12,
+          -16,
+          148
+        ],
+        "perimeter": 40
+      },
+      "solution": "Worked Solution\n(a)\\(AG=10\\), so \\(C:x^2+(y-3)^2=100\\).\n(b)(i) Squaring \\(AP=GP\\) gives \\(3x+4y-37=0\\).\n(ii)\\(\\Gamma\\) is the perpendicular bisector of \\(AG\\).\n(iii)\\(AQ=QG=GR=RA=10\\), so the perimeter is 40.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\n\\[\nAG=\\sqrt{6^2+8^2}=10,\n\\]\n所以\n\\[\nC:x^2+(y-3)^2=100.\n\\]\n(b)(i) 設 \\(P(x,y)\\)。由 \\(AP^2=GP^2\\)：\n\\[\n(x-6)^2+(y-11)^2=x^2+(y-3)^2,\n\\]\n化簡得\n\\[\n3x+4y-37=0.\n\\]\n(ii)\\(\\Gamma\\) 是 \\(AG\\) 的垂直平分線。\n(iii)因 \\(Q,R\\) 同時在圓及垂直平分線上，\n\\[\nAQ=QG=GR=RA=10.\n\\]\n周界 \\(=40\\)。"
+    },
+    {
+      "id": "note-circle-equation-q64",
+      "status": "完成",
+      "questionSha256": "3193f4ce9f93a52f0548faa3bff745beb34c75749e88c0ac0860c50f0aa0464f",
+      "figures": [],
+      "reason": "Centroid, correct bisector and parallel-line constant height.",
+      "calculated": {
+        "G": [
+          10,
+          4
+        ],
+        "L": [
+          12,
+          -8,
+          -140
+        ],
+        "height": 3.605551275463989,
+        "constant": true
+      },
+      "solution": "Worked Solution\nThe centroid is\n\\[\nG=\\left(\\frac{0+14+16}{3},\\frac{2+10+0}{3}\\right)=(10,4).\n\\]\nLet \\(P=(x,y)\\). The condition \\(PG=PC\\) gives\n\\[\n(x-10)^2+(y-4)^2=(x-16)^2+y^2.\n\\]\nSimplifying yields\n\\[\n\\Gamma:3x-2y-35=0.\n\\]\nThe slope of \\(\\Gamma\\) is \\(3/2\\), while the slope of \\(BG\\) is \\((10-4)/(14-10)=3/2\\). Hence \\(\\Gamma\\parallel BG\\). The perpendicular distance between these two fixed parallel lines is constant, so the height of triangle \\(PBG\\) over base \\(BG\\) does not change.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nG=\\left(\\frac{0+14+16}{3},\\frac{2+10+0}{3}\\right)=(10,4).\n\\]\n設 \\(P=(x,y)\\)。由 \\(PG=PC\\)，\n\\[\n(x-10)^2+(y-4)^2=(x-16)^2+y^2.\n\\]\n展開及整理：\n\\[\n3x-2y-35=0.\n\\]\n所以\n\\[\n\\Gamma:3x-2y-35=0.\n\\]\n\\(\\Gamma\\) 的斜率為 \\(3/2\\)。而\n\\[\n\\text{slope of }BG=\\frac{10-4}{14-10}=\\frac{3}{2}.\n\\]\n故 \\(\\Gamma\\parallel BG\\)。當 \\(P\\) 在 \\(\\Gamma\\) 上移動時，\\(P\\) 到固定直線 \\(BG\\) 的垂直距離是兩平行線之間的固定距離。因此以 \\(BG\\) 為底的三角形 \\(PBG\\) 的高不變。"
+    },
+    {
+      "id": "note-circle-equation-q72",
+      "status": "完成",
+      "questionSha256": "8f0590ad888d6956063104a342446111f0b8eee38fff301a3cfb2c2ee3cfbb42",
+      "figures": [],
+      "reason": "Nearest pair, area invariance for positive x, and corrected nondegeneracy.",
+      "calculated": {
+        "O": [
+          -1,
+          4
+        ],
+        "R2": 100,
+        "L": [
+          48,
+          36,
+          -996
+        ],
+        "K": [
+          11,
+          13
+        ],
+        "H": [
+          7,
+          10
+        ],
+        "ratio": "2:1",
+        "degenerateX": -6.333333333333333
+      },
+      "solution": "Worked Solution\nCompleting the square gives \\((x+1)^2+(y-4)^2=100\\), so \\(A=(-1,4)\\) and \\(r=10\\). The common base line \\(AHK\\) is \\(3x-4y+19=0\\); it meets the x-axis at \\((-19/3,0)\\), outside the permitted positive x-axis. Therefore both triangle areas are nonzero for every allowed \\(R\\). The stated exclusion \\(R\\notin\\Gamma\\) is not needed for this nondegeneracy argument.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n配方得\n\\[\n(x+1)^2+(y-4)^2=100.\n\\]\n所以\n\\[\nA=(-1,4),\n\\qquad r=10.\n\\]\n由 \\(PA=PB\\)：\n\\[\n(x+1)^2+(y-4)^2=(x-23)^2+(y-22)^2.\n\\]\n整理得\n\\[\n\\Gamma:4x+3y-83=0.\n\\]\n圓心到 \\(\\Gamma\\) 的距離是\n\\[\nd(A,\\Gamma)\n=\\frac{|4(-1)+3(4)-83|}{5}\n=15>10.\n\\]\n因此直線與圓分離。由 \\(A\\) 向 \\(\\Gamma\\) 的單位法向量是 \\((4/5,3/5)\\)。垂足為\n\\[\nK=A+15\\left(\\frac{4}{5},\\frac{3}{5}\\right)=(11,13).\n\\]\n圓上最近點則是\n\\[\nH=A+10\\left(\\frac{4}{5},\\frac{3}{5}\\right)=(7,10).\n\\]\n故 \\(A,H,K\\) 共線，並且\n\\[\nAH=10,\n\\qquad HK=15-10=5.\n\\]\n三角形 \\(RAH\\) 與 \\(RHK\\) 的底 \\(AH,HK\\) 位於同一直線，而由 \\(R\\) 到該直線的高度相同，所以\n\\[\n[\\triangle RAH]:[\\triangle RHK]\n=AH:HK\n=10:5\n=2:1.\n\\]\n共同底線 \\(AHK\\) 是 \\(3x-4y+19=0\\)，與 x 軸交於 \\((-19/3,0)\\)，不在題設正 x 軸上。因此對所有容許的 \\(R\\)，兩個三角形面積均不為零。題設 \\(R\\notin\\Gamma\\) 並非此處避免退化的原因。"
+    },
+    {
+      "id": "note-circle-equation-q49",
+      "status": "完成",
+      "questionSha256": "2dd6a6bbbc1d1c585fd1f272867409de4b5cd42767228fe9c4600e59618e0fc5",
+      "figures": [],
+      "reason": "Thales domain, sharp area bound, both maximizing points.",
+      "calculated": {
+        "O": [
+          5,
+          9
+        ],
+        "R2": 52,
+        "Ps": [
+          [
+            11,
+            5
+          ],
+          [
+            -1,
+            13
+          ]
+        ],
+        "maximum": 52,
+        "excluded": [
+          [
+            1,
+            3
+          ],
+          [
+            9,
+            15
+          ]
+        ]
+      },
+      "solution": "Worked Solution\nThe midpoint of \\(AB\\) is \\(G=(5,9)\\), and \\(AB^2=8^2+12^2=208\\). Thus the radius is \\(\\sqrt{52}=2\\sqrt{13}\\), giving\n\\[\n(x-5)^2+(y-9)^2=52,\n\\]\nor \\(x^2+y^2-10x-18y+54=0\\).\nThe base length is \\(4\\sqrt{13}\\). The greatest perpendicular distance from a point on this circle to \\(AB\\) is the radius, reached at the endpoints of the diameter perpendicular to \\(AB\\). Therefore the maximum area is \\(\\frac{1}{2}(4\\sqrt{13})(2\\sqrt{13})=52\\).\nSince \\(AB:3x-2y+3=0\\), a normal direction to \\(AB\\) is \\((3,-2)\\). The perpendicular diameter through \\(G\\) is therefore \\(2x+3y-37=0\\). Its intersections with the locus are \\((11,5)\\) and \\((-1,13)\\).\n\nExclude \\(P=A,B\\), since the angle is undefined at either endpoint.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的中點為 \\(G(5,9)\\)，而 \\(AB^2=8^2+12^2=208\\)，故半徑為 \\(\\sqrt{52}=2\\sqrt{13}\\)。軌跡為\n\\[\n(x-5)^2+(y-9)^2=52,\n\\]\n即\n\\[\nx^2+y^2-10x-18y+54=0.\n\\]\n固定底 \\(AB\\) 的長度為 \\(4\\sqrt{13}\\)。過圓心作垂直於 \\(AB\\) 的直徑，圓心到 \\(AB\\) 的距離為 0，因此端點到 \\(AB\\) 的距離等於半徑 \\(2\\sqrt{13}\\)。最大面積是\n\\[\n\\frac{1}{2}(4\\sqrt{13})(2\\sqrt{13})=52.\n\\]\n\\(AB\\) 的方程是 \\(3x-2y+3=0\\)，其法向量 \\((3,-2)\\) 正是垂直直徑的方向。通過 \\(G\\) 且以 \\((3,-2)\\) 為方向的直線為\n\\[\n2x+3y-37=0.\n\\]\n與圓聯立得兩個端點\n\\[\nP=(11,5)\\quad\\text{及}\\quad P=(-1,13).\n\\]\n\n軌跡須排除 \\(P=A,B\\)，因為在端點的角未有定義。"
+    },
+    {
+      "id": "note-circle-equation-q50",
+      "status": "完成",
+      "questionSha256": "1dc9e4cf5961b00147c7a341f4cf76718172f11ad402bba8654ef8a217d80179",
+      "figures": [],
+      "reason": "Chord midpoint, bisector, both arc points, same-side selection and height ratio.",
+      "calculated": {
+        "O": [
+          -3,
+          5
+        ],
+        "R2": 49,
+        "D": [
+          1,
+          2
+        ],
+        "E": [
+          -8.6,
+          9.2
+        ],
+        "F": [
+          2.5999999999999996,
+          0.8000000000000007
+        ],
+        "locus": [
+          3,
+          4,
+          -11
+        ],
+        "ratio": "5:12"
+      },
+      "solution": "Worked Solution\nCompleting the square gives \\((x+3)^2+(y-5)^2=49\\), so \\(G=(-3,5)\\) and \\(r=7\\). The chord midpoint is the perpendicular foot from \\(G\\) to \\(4x-3y+2=0\\), namely \\(D=(1,2)\\).\nSince \\(PA=PB\\), the locus is the perpendicular bisector of \\(AB\\). Through \\(D\\) with direction \\((4,-3)\\), it is \\(3x+4y-11=0\\). Intersecting this line with the circle gives \\(E=(-43/5,46/5)\\) and \\(F=(13/5,4/5)\\). Substitution in \\(4x-3y+2\\) shows that \\(E\\) and \\(G\\) have the same negative sign, so \\(E\\) is the required same-side point. The two triangles share base \\(AB\\), so their area ratio equals the ratio of perpendicular heights. These heights are 5 and 12; hence \\([GAB]:[EAB]=5:12\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n配方得\n\\[\n(x+3)^2+(y-5)^2=49,\n\\]\n所以 \\(G=(-3,5),r=7\\)。\\(AB\\) 中點是 \\(G\\) 到 \\(4x-3y+2=0\\) 的垂足。由垂線方向 \\((4,-3)\\) 聯立，得\n\\[\nD=(1,2).\n\\]\n因為 \\(PA=PB\\)，軌跡是過 \\(D\\) 並垂直 \\(AB\\) 的直線。\\(AB\\) 的法向量是 \\((4,-3)\\)，所以垂直平分線方向正是 \\((4,-3)\\)，方程為\n\\[\n3x+4y-11=0.\n\\]\n此線與圓相交於 \\(E,F\\)。兩個三角形共有底 \\(AB\\)，故面積比等於頂點到 \\(AB\\) 的垂直距離比。\\(G\\) 到 \\(AB\\) 的距離為\n\\[\n\\frac{|4(-3)-3(5)+2|}{5}=5.\n\\]\n把 \\(3x+4y-11=0\\) 代入圓，得兩個交點\n\\[\nE=\\left(-\\frac{43}{5},\\frac{46}{5}\\right),\n\\qquad\nF=\\left(\\frac{13}{5},\\frac{4}{5}\\right).\n\\]\n因為\n\\[\n4\\left(-\\frac{43}{5}\\right)-3\\left(\\frac{46}{5}\\right)+2=-60<0,\n\\]\n而 \\(G\\) 代入 \\(AB\\) 的左邊亦為負數，所以 \\(E\\) 是與 \\(G\\) 同側的交點。故 \\(E\\) 到 \\(AB\\) 的距離為 \\(60/5=12\\)。因此\n\\[\n[GAB]:[EAB]=5:12.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q55",
+      "status": "完成",
+      "questionSha256": "9b01908e723ad658bc154cfec2bc2551ac1c071179bc913be7e6309adf9f8cf1",
+      "figures": [],
+      "reason": "Both k roots and positive selection; actual minor-arc inscribed angle.",
+      "calculated": {
+        "k": 2,
+        "G": [
+          0,
+          2
+        ],
+        "R": [
+          0,
+          12
+        ],
+        "S": [
+          8,
+          8
+        ],
+        "locus": [
+          2,
+          -1,
+          2
+        ],
+        "N": [
+          4.47213595499958,
+          10.94427190999916
+        ],
+        "angle": 13.282525588539016
+      },
+      "solution": "Worked Solution\nSince \\(Q\\) and \\(R\\) are on the circle, \\(GQ=GR\\). Thus\n\\[\n36+(-6-k)^2=(5k)^2\n\\Rightarrow 2k^2-k-6=0.\n\\]\nThe positive-axis condition gives \\(k=2\\). Hence \\(G=(0,2)\\), \\(R=(0,12)\\), the radius is 10, and\n\\[\nC:x^2+(y-2)^2=100,\n\\]\nor \\(x^2+y^2-4y-96=0\\).\nThe condition \\(PR=PS\\) gives the perpendicular bisector of chord \\(RS\\). It passes through \\(G\\) and has slope 2, so \\(\\Gamma:y=2x+2\\).\nThe radius \\(GR\\) is vertical, while \\(GN\\) has slope 2. Therefore\n\\[\n\\angle RGN=90^\\circ-\\tan^{-1}2\\approx26.565^\\circ.\n\\]\nThe inscribed angle (angle RSN) subtends the same minor arc \\(RN\\), so it is half the central angle. Hence \\(\\angle RSN\\approx13.3^\\circ\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n由 \\(GQ=GR\\)，\n\\[\n36+(-6-k)^2=(6k-k)^2\n\\Rightarrow 2k^2-k-6=0.\n\\]\n故 \\(k=2\\) 或 \\(-\\frac{3}{2}\\)。因 \\(G\\) 在正半軸，取 \\(k=2\\)，所以 \\(G=(0,2)\\)、\\(R=(0,12)\\)，半徑為 10。圓為\n\\[\nx^2+(y-2)^2=100\n\\Rightarrow x^2+y^2-4y-96=0.\n\\]\n因 \\(PR=PS\\)，\\(\\Gamma\\) 是 \\(RS\\) 的垂直平分線。弦的垂直平分線經圓心 \\(G\\)，且其斜率為 2，因此\n\\[\n\\Gamma:y=2x+2.\n\\]\n\\(GR\\) 是鉛直半徑，而 \\(GN\\) 在 \\(\\Gamma\\) 上，故 \\(GN\\) 與正 \\(x\\)-軸的夾角為 \\(\\tan^{-1}2\\)。所以\n\\[\n\\angle RGN=90^\\circ-\\tan^{-1}2\n\\approx26.565^\\circ.\n\\]\n(angle RSN) 與圓心角 (angle RGN) 對同一小弧 \\(RN\\)，因此\n\\[\n\\angle RSN=\\frac{1}{2}\\angle RGN\\approx13.3^\\circ.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q75",
+      "status": "完成",
+      "questionSha256": "13f4d722c41bd041b9f08672dd20a44417f2c356a91a4dd1d625b0cbbb095bdf",
+      "figures": [],
+      "reason": "Positive b, bisector intersections, comparison by opposite side lengths.",
+      "calculated": {
+        "O": [
+          -2,
+          3
+        ],
+        "R2": 25,
+        "b": 8,
+        "H": [
+          -2,
+          8
+        ],
+        "L": [
+          8,
+          -16,
+          144
+        ],
+        "K": [
+          -6,
+          6
+        ],
+        "R": [
+          -18,
+          0
+        ],
+        "claim": true
+      },
+      "solution": "Worked Solution\nThe circle is \\((x+2)^2+(y-3)^2=25\\), so \\(G=(-2,3)\\), \\(b=8\\) and \\(H=(-2,8)\\). The equal-distance condition gives\n\\[\n\\Gamma:x-2y+18=0.\n\\]\nSubstitution into the circle gives \\(x^2+8x+12=0\\), hence \\(K=(-6,6)\\); also \\(R=(-18,0)\\). Since \\(KG=5\\) and \\(KR=6\\sqrt{5}\\), the side opposite \\(\\angle KGR\\) is greater than that opposite \\(\\angle KRG\\). The claim is correct.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nC:(x+2)^2+(y-3)^2=25,\n\\]\n故 \\(G=(-2,3)\\)。由 \\((b-3)^2=25\\) 及 \\(b>0\\)，得 \\(b=8\\)，所以 \\(H=(-2,8)\\)。\n由 \\(PQ=PG\\)：\n\\[\n(x+6)^2+(y-11)^2=(x+2)^2+(y-3)^2,\n\\]\n整理得\n\\[\n\\Gamma:x-2y+18=0.\n\\]\n\\(H\\) 滿足此式。把 \\(y=x/2+9\\) 代入圓：\n\\[\nx^2+8x+12=0.\n\\]\n兩根為 \\(-2,-6\\)，故第二交點 \\(K=(-6,6)\\)，而 \\(R=(-18,0)\\)。在 \\(\\triangle KGR\\) 中，\n\\[\nKG=5,\\qquad KR=6\\sqrt{5}.\n\\]\n\\(\\angle KGR\\) 對邊為 \\(KR\\)，\\(\\angle KRG\\) 對邊為 \\(KG\\)。因 \\(KR>KG\\)，聲稱正確。"
+    },
+    {
+      "id": "note-circle-equation-q42",
+      "status": "完成",
+      "questionSha256": "63f7eea4c35bfaf631d5afb317b955c701f3d4523b053f0b41f3a5781275bf2c",
+      "figures": [],
+      "reason": "Centre at intersection of bisectors; distinct equal parallel chord rectangle.",
+      "calculated": {
+        "Gamma": [
+          -48,
+          -36,
+          348
+        ],
+        "O": [
+          5,
+          3
+        ],
+        "R2": 325,
+        "D": [
+          23,
+          4
+        ],
+        "E": [
+          -1,
+          -14
+        ],
+        "perimeter": 100
+      },
+      "solution": "Worked Solution\n(a)The midpoint is\n\\[\nM=(-1,11),\n\\]\nand the slope of \\(AB\\) is \\(3/4\\). Hence the locus has slope \\(-4/3\\):\n\\[\ny-11=-\\frac{4}{3}(x+1),\n\\]\nso\n\\[\n\\boxed{\\Gamma:4x+3y-29=0}.\n\\]\nIt is the perpendicular bisector of \\(AB\\).\n(b)(i) The centre \\(G\\) lies on both \\(\\Gamma\\) and \\(x-18y+49=0\\). Solving gives \\(G=(5,3)\\). Thus\n\\[\nr^2=(11-5)^2+(20-3)^2=325,\n\\]\nand\n\\[\n\\boxed{C:(x-5)^2+(y-3)^2=325}.\n\\]\n(b)(ii) \\(AB=30\\) and\n\\[\nGM=\\sqrt{(5+1)^2+(3-11)^2}=10.\n\\]\nEqual parallel chords are equally distant from the centre. Since \\(AB\\) and \\(DE\\) are distinct, they lie on opposite sides, so their separation is \\(20\\). Therefore\n\\[\n\\boxed{\\text{perimeter}=2(30)+2(20)=100}.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\\(AB\\) 的中點為\n\\[\nM=(-1,11),\n\\]\n斜率為 \\(\\frac{3}{4}\\)，所以 \\(\\Gamma\\) 的斜率為 \\(-\\frac{4}{3}\\)：\n\\[\ny-11=-\\frac{4}{3}(x+1)\n\\]\n即\n\\[\n\\boxed{\\Gamma:4x+3y-29=0}.\n\\]\n因此 \\(\\Gamma\\) 是 \\(AB\\) 的垂直平分線。\n(b)(i) 圓心 \\(G\\) 必在 \\(\\Gamma\\) 上，也在 \\(x-18y+49=0\\) 上。聯立\n\\[\n4x+3y=29,\\qquad x-18y=-49\n\\]\n得\n\\[\nG=(5,3).\n\\]\n半徑平方：\n\\[\nr^2=(11-5)^2+(20-3)^2=325.\n\\]\n所以\n\\[\n\\boxed{C:(x-5)^2+(y-3)^2=325}.\n\\]\n(b)(ii) \\(AB=30\\)，而 \\(M=(-1,11)\\)：\n\\[\nGM=\\sqrt{(5+1)^2+(3-11)^2}=10.\n\\]\n同一圓內等長平行弦到圓心距離相等；兩條不同弦在圓心兩側，因此 \\(AB\\) 與 \\(DE\\) 的距離是 \\(2GM=20\\)。所以\n\\[\n\\boxed{\\text{perimeter}=2(30)+2(20)=100}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q94",
+      "status": "完成",
+      "questionSha256": "fb404523bb7b28fbd9681654f459290c31444d4cf08de0e2016411fd51e1f390",
+      "figures": [],
+      "reason": "Bisecting line through centre, tangent axis, full polygon area.",
+      "calculated": {
+        "O": [
+          12,
+          -13
+        ],
+        "R2": 144,
+        "k": -7,
+        "L": [
+          24,
+          16,
+          -80
+        ],
+        "D": [
+          0,
+          -13
+        ],
+        "area": 108
+      },
+      "solution": "Worked Solution\nThe perpendicular bisector of \\(AB\\) is \\(\\Gamma:3x+2y-10=0\\). The circle centre is \\(G=(-3k-9,2k+1)\\). Since \\(\\Gamma\\) bisects the circle into equal parts, it passes through \\(G\\). This gives \\(k=-7\\), hence \\(G=(12,-13)\\) and\n\\[\n(x-12)^2+(y+13)^2=144.\n\\]\nThe radius and the distance from \\(G\\) to the \\(y\\)-axis are both \\(12\\), so the tangent point is \\(D=(0,-13)\\). Shoelace area for \\(A,B,G,D\\) gives \\(108\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 中點為 \\((6,-4)\\)，\\(AB\\) 斜率為 \\(2/3\\)，所以\n\\[\n\\Gamma:3x+2y-10=0.\n\\]\n圓心為\n\\[\nG=(-3k-9,2k+1).\n\\]\n由「分成兩個相等部分」，\\(G\\in\\Gamma\\)，故\n\\[\n3(-3k-9)+2(2k+1)-10=0\n\\Rightarrow -5k-35=0\n\\Rightarrow k=-7.\n\\]\n所以 \\(G=(12,-13)\\)，圓式化為\n\\[\n(x-12)^2+(y+13)^2=144.\n\\]\n半徑為 \\(12\\)，而 \\(G\\) 到 \\(y\\)-軸距離也為 \\(12\\)，故圓相切於\n\\[\nD=(0,-13).\n\\]\n鞋帶公式給\n\\[\n[ABGD]=\\frac{1}{2}\\left|0(0)+12(-13)+12(-13)+0(-8)\n-\\big[-8(12)+0(12)+(-13)(0)+(-13)(0)\\big]\\right|=108.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q93",
+      "status": "完成",
+      "questionSha256": "4df9e71b4211a02c792d5cada07d5ea114d6390f470a4e13f84c8f01a3e3e480",
+      "figures": [],
+      "reason": "Both circles, signed axis intercepts, positive k and exact polygon area.",
+      "calculated": {
+        "A": [
+          18,
+          0
+        ],
+        "B": [
+          0,
+          -24
+        ],
+        "G": [
+          23.04,
+          -17.28
+        ],
+        "k": 24,
+        "locus": {
+          "O": [
+            18,
+            0
+          ],
+          "R2": 324
+        },
+        "area": 432
+      },
+      "solution": "Worked Solution\nPutting \\(y=0\\) gives \\(A=(18,0)\\). Hence \\(\\Gamma\\) is the circle centred at \\(A\\) with radius \\(18\\): \\(x^2+y^2-36x=0\\). Since \\(G\\in\\Gamma\\), \\(AG=18\\), so \\(5AG=3AB\\) gives \\(AB=30\\). The negative \\(y\\)-intercept is \\(B=(0,-k)\\), hence \\(18^2+k^2=30^2\\) and \\(k=24\\).\nSubtracting the two circles gives \\(3x+4y=0\\). The non-origin intersection is \\(G=(576/25,-432/25)\\). The shoelace formula on \\(O,A,G,B\\) gives area \\(432\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n令 \\(y=0\\)，得 \\(x(x-18)=0\\)，所以 \\(A=(18,0)\\)。因 \\(AP=AO=18\\)，\n\\[\n\\Gamma:(x-18)^2+y^2=18^2\n\\Rightarrow x^2+y^2-36x=0.\n\\]\n\\(G\\in\\Gamma\\) 給 \\(AG=18\\)。由 \\(5AG=3AB\\)，\n\\[\nAB=30.\n\\]\n令 \\(x=0\\) 於 \\(C\\)，負 \\(y\\)-截距是 \\(B=(0,-k)\\)。故\n\\[\nAB^2=18^2+k^2=30^2\n\\Rightarrow k=24.\n\\]\n兩圓方程相減：\n\\[\n(x^2+y^2-18x+24y)-(x^2+y^2-36x)=0\n\\Rightarrow 3x+4y=0.\n\\]\n與 \\(\\Gamma\\) 聯立，除原點外得\n\\[\nG=\\left(\\frac{576}{25},-\\frac{432}{25}\\right).\n\\]\n以 \\(O,A,G,B\\) 順序用鞋帶公式：\n\\[\n[OAGB]=\\frac{1}{2}\\left|18\\left(-\\frac{432}{25}\\right)+\\frac{576}{25}(-24)\\right|=432.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q92",
+      "status": "完成",
+      "questionSha256": "503cbda704fe2129337fa0a0580ea4b9653fd0923844a142a74424a037cc4383",
+      "figures": [],
+      "reason": "Centre constraint, external point, bisector chord and strict area comparison.",
+      "calculated": {
+        "O": [
+          -12,
+          16
+        ],
+        "R2": 144,
+        "k": 24,
+        "A": [
+          0,
+          7
+        ],
+        "L": [
+          -24,
+          18,
+          -351
+        ],
+        "length": 18.734993995195193,
+        "area": 70.25622748198198,
+        "claim": false
+      },
+      "solution": "Worked Solution\nThe centre is \\(G=(-k/2,16)\\). The line condition gives \\(k=24\\), hence \\(G=(-12,16)\\), \\(A=(0,7)\\), and \\(r=12\\). Since \\(AG=15>12\\), \\(A\\) is outside. The equal-distance locus is the perpendicular bisector of \\(AG\\), so its distance from \\(G\\) is \\(15/2\\). Therefore\n\\[\nMN=2\\sqrt{12^2-(15/2)^2}=\\sqrt{351}\n\\]\nand\n\\[\n[\\triangle GMN]=\\frac{1}{2}\\sqrt{351}\\left(\\frac{15}{2}\\right)=\\frac{15\\sqrt{351}}{4}>68.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nG=\\left(-\\frac{k}{2},16\\right).\n\\]\n代入 \\(3x+4y-28=0\\)：\n\\[\n3\\left(-\\frac{k}{2}\\right)+64-28=0\n\\Rightarrow k=24.\n\\]\n所以 \\(G=(-12,16)\\)，\\(A=(0,7)\\)，且\n\\[\nC:(x+12)^2+(y-16)^2=144,\n\\qquad r=12.\n\\]\n\\[\nAG=\\sqrt{12^2+9^2}=15>12,\n\\]\n故 \\(A\\) 在圓外。\\(\\Gamma\\) 是 \\(AG\\) 的垂直平分線，故 \\(G\\) 到 \\(\\Gamma\\) 的距離為 \\(15/2\\)。因此\n\\[\n\\frac{MN}{2}=\\sqrt{12^2-\\left(\\frac{15}{2}\\right)^2}=\\frac{\\sqrt{351}}{2},\n\\qquad MN=\\sqrt{351}.\n\\]\n以 \\(MN\\) 為底、\\(G\\) 到 \\(\\Gamma\\) 的距離為高：\n\\[\n[\\triangle GMN]=\\frac{1}{2}\\sqrt{351}\\left(\\frac{15}{2}\\right)=\\frac{15\\sqrt{351}}{4}.\n\\]\n由 \\(15\\sqrt{351}/4>68\\)（平方比較即可），故面積不小於 \\(68\\)。"
+    },
+    {
+      "id": "note-circle-equation-q91",
+      "status": "完成",
+      "questionSha256": "48df34240060b99d8d0c33b71573e9591fd016c0fab487bd770af8ac29f76586",
+      "figures": [],
+      "reason": "Quadrant centre choice, perpendicular bisector and perpendicular diagonals.",
+      "calculated": {
+        "O": [
+          10,
+          18
+        ],
+        "R2": 900,
+        "L": [
+          48,
+          36,
+          -228
+        ],
+        "length": 51.96152422706632,
+        "area": 779.4228634059948,
+        "claim": true
+      },
+      "solution": "Worked Solution\nThe midpoint of \\(AB\\) is \\((10,0)\\), so \\(G=(10,t)\\). Since \\(GA=30\\), \\(24^2+t^2=30^2\\), and the quadrant condition gives \\(t=18\\). Thus\n\\[\nC:(x-10)^2+(y-18)^2=900.\n\\]\nThe locus is the perpendicular bisector of \\(AG\\), namely \\(4x+3y-19=0\\). Its distance from \\(G\\) is \\(15\\), so the chord \\(QR\\) has length \\(30\\sqrt{3}\\). The diagonals \\(AG=30\\) and \\(QR=30\\sqrt{3}\\) are perpendicular, hence\n\\[\n[QARG]=\\frac{1}{2}(30)(30\\sqrt{3})=450\\sqrt{3}<780.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的中點為 \\((10,0)\\)，所以 \\(G=(10,t)\\)。由 \\(GA=30\\)，\n\\[\n24^2+t^2=30^2 \\Rightarrow t=18\n\\]\n（第一象限取正值）。故\n\\[\nC:(x-10)^2+(y-18)^2=900.\n\\]\n\\(AP=GP\\) 表示 \\(\\Gamma\\) 為 \\(AG\\) 的垂直平分線。\\(AG\\) 斜率為 \\(3/4\\)，中點為 \\((-2,9)\\)，故\n\\[\n\\Gamma:4x+3y-19=0.\n\\]\n\\(AG=30\\)。\\(\\Gamma\\) 是 \\(AG\\) 的垂直平分線，所以圓心 \\(G\\) 到 \\(\\Gamma\\) 的距離為 \\(15\\)。因此弦 \\(QR\\) 的半長為\n\\[\n\\sqrt{30^2-15^2}=15\\sqrt{3},\n\\]\n故 \\(QR=30\\sqrt{3}\\)。四邊形 \\(QARG\\) 的對角線 \\(AG\\) 與 \\(QR\\) 互相垂直且互相平分，因此是菱形，面積為\n\\[\n\\frac{1}{2}(30)(30\\sqrt{3})=450\\sqrt{3}.\n\\]\n比較平方：\n\\[\n(450\\sqrt{3})^2=607500<608400=780^2.\n\\]\n所以聲稱正確。"
+    },
+    {
+      "id": "note-circle-equation-official-dse-hkeaa-2016-p1-final-q10",
+      "status": "完成",
+      "questionSha256": "3691ba3488f37095ddc68c23511e8ca3a106407a8602c4ebd2b19fb2a8d709f2",
+      "figures": [],
+      "reason": "Bisector intercepts and independent circumcircle circumference.",
+      "calculated": {
+        "L": [
+          16,
+          -12,
+          -96
+        ],
+        "H": [
+          6,
+          0
+        ],
+        "K": [
+          0,
+          -8
+        ],
+        "c": {
+          "O": [
+            3,
+            -4
+          ],
+          "R2": 25
+        },
+        "circumference": 31.41592653589793,
+        "claim": true
+      },
+      "solution": "Official Marking Route / 官方解題路線\n(a)\\(\\Gamma\\) is the perpendicular bisector of \\(AB\\). The midpoint of \\(AB\\) is\n\\[\n(9,4).\n\\]\nThe slope of \\(AB\\) is\n\\[\n\\frac{7-1}{5-13}=-\\frac{3}{4},\n\\]\nso the slope of \\(\\Gamma\\) is \\(\\frac{4}{3}\\). Hence\n\\[\ny-4=\\frac{4}{3}(x-9),\n\\]\nor\n\\[\n4x-3y-24=0.\n\\]\n(b)The intercepts are\n\\[\nH=(6,0),\\; K=(0,-8).\n\\]\nSince \\(C\\) passes through \\(O\\), \\(H\\) and \\(K\\), \\(HK\\) is a diameter of \\(C\\). Thus\n\\[\nHK=\\sqrt{6^2+8^2}=10.\n\\]\nThe circumference is\n\\[\n10\\pi\\approx31.4>30.\n\\]\nThe claim is correct.\nFinal answers: (a) \\(4x-3y-24=0\\); (b) correct.",
+      "solutionZh": "Official Marking Route / 官方解題路線\n(a)\\(\\Gamma\\) is the perpendicular bisector of \\(AB\\). The midpoint of \\(AB\\) is\n\\[\n(9,4).\n\\]\nThe slope of \\(AB\\) is\n\\[\n\\frac{7-1}{5-13}=-\\frac{3}{4},\n\\]\nso the slope of \\(\\Gamma\\) is \\(\\frac{4}{3}\\). Hence\n\\[\ny-4=\\frac{4}{3}(x-9),\n\\]\nor\n\\[\n4x-3y-24=0.\n\\]\n(b)The intercepts are\n\\[\nH=(6,0),\\; K=(0,-8).\n\\]\nSince \\(C\\) passes through \\(O\\), \\(H\\) and \\(K\\), \\(HK\\) is a diameter of \\(C\\). Thus\n\\[\nHK=\\sqrt{6^2+8^2}=10.\n\\]\nThe circumference is\n\\[\n10\\pi\\approx31.4>30.\n\\]\nThe claim is correct.\nFinal answers: (a) \\(4x-3y-24=0\\); (b) correct."
+    },
+    {
+      "id": "note-circle-equation-official-dse-hkeaa-2021-p1-final-q13",
+      "status": "完成",
+      "questionSha256": "5b2cfa8bbec468456464cd47ca9240b7d682acfaed2d9bcd7087e4b843e063d7",
+      "figures": [],
+      "reason": "Origin inside, bisector chord and rhombus area.",
+      "calculated": {
+        "O": [
+          6,
+          8
+        ],
+        "R2": 169,
+        "OG": 10,
+        "originInside": true,
+        "L": [
+          12,
+          16,
+          -100
+        ],
+        "length": 24,
+        "area": 120
+      },
+      "solution": "Official Marking Route / 官方解題路線\nThe centre of \\(C\\) is \\(G(6,8)\\).\n(a)\n\\[\nOG=\\sqrt{6^2+8^2}=10.\n\\]\n(b)The radius of \\(C\\) is\n\\[\nr=\\sqrt{6^2+8^2+69}=13.\n\\]\nSince \\(OG=10<13\\), \\(O\\) lies inside \\(C\\).\n(c)The locus \\(OP=GP\\) is the perpendicular bisector of \\(OG\\). Let \\(Q\\) be the midpoint of \\(OG\\). Then \\(GQ=5\\), and \\(GM=13\\). Hence\n\\[\nMQ=\\sqrt{13^2-5^2}=12.\n\\]\nThe quadrilateral \\(OMGN\\) is a rhombus with diagonals \\(OG=10\\) and \\(MN=24\\). Therefore its area is\n\\[\n\\frac{1}{2}(10)(24)=120.\n\\]\nFinal answers: (a) \\(10\\); (b) yes; (c) \\(120\\).",
+      "solutionZh": "Official Marking Route / 官方解題路線\nThe centre of \\(C\\) is \\(G(6,8)\\).\n(a)\n\\[\nOG=\\sqrt{6^2+8^2}=10.\n\\]\n(b)The radius of \\(C\\) is\n\\[\nr=\\sqrt{6^2+8^2+69}=13.\n\\]\nSince \\(OG=10<13\\), \\(O\\) lies inside \\(C\\).\n(c)The locus \\(OP=GP\\) is the perpendicular bisector of \\(OG\\). Let \\(Q\\) be the midpoint of \\(OG\\). Then \\(GQ=5\\), and \\(GM=13\\). Hence\n\\[\nMQ=\\sqrt{13^2-5^2}=12.\n\\]\nThe quadrilateral \\(OMGN\\) is a rhombus with diagonals \\(OG=10\\) and \\(MN=24\\). Therefore its area is\n\\[\n\\frac{1}{2}(10)(24)=120.\n\\]\nFinal answers: (a) \\(10\\); (b) yes; (c) \\(120\\)."
+    },
+    {
+      "id": "note-circle-equation-q43",
+      "status": "完成",
+      "questionSha256": "49aae19da037ecef6012a8f36304119d4868b9b17234122ebb26350bdce74d03",
+      "figures": [],
+      "reason": "Positive k, valid circle intersections and polygon area.",
+      "calculated": {
+        "A": [
+          18,
+          0
+        ],
+        "B": [
+          0,
+          -24
+        ],
+        "G": [
+          23.04,
+          -17.28
+        ],
+        "k": 24,
+        "locus": {
+          "O": [
+            18,
+            0
+          ],
+          "R2": 324
+        },
+        "area": 432
+      },
+      "solution": "Worked Solution\n(a)Setting \\(y=0\\) gives \\(x(x-18)=0\\), so \\(A=(18,0)\\). Setting \\(x=0\\) gives \\(y(y+k)=0\\), and the negative \\(y\\)-axis point is \\(B=(0,-k)\\).\nSince \\(AO=18\\) and \\(AP=AO\\), \\(\\Gamma\\) is centred at \\(A\\) with radius 18:\n\\[\n\\boxed{\\Gamma:(x-18)^2+y^2=324}\n\\]\nor \\(x^2+y^2-36x=0\\).\n(b)(i) Because \\(G\\in\\Gamma\\), \\(AG=18\\). Hence\n\\[\n5(18)=3AB,\\qquad AB=30.\n\\]\nAlso \\(AB^2=18^2+k^2\\), so \\(324+k^2=900\\). Since \\(k>0\\),\n\\[\n\\boxed{k=24}.\n\\]\n(b)(ii) \\(OA\\perp OB\\), so \\(AB\\) is a diameter of \\(C\\) and \\(\\angle AGB=90^\\circ\\). The second intersection is\n\\[\nG=\\left(\\frac{576}{25},-\\frac{432}{25}\\right),\n\\]\nso \\(OG=144/5\\). The diagonals \\(AB\\) and \\(OG\\) are perpendicular, giving\n\\[\n\\boxed{\\operatorname{Area}(OAGB)=\\frac{1}{2}(30)\\left(\\frac{144}{5}\\right)=432}.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)令 \\(y=0\\)，得 \\(x(x-18)=0\\)，所以正 \\(x\\)-軸交點 \\(A=(18,0)\\)。令 \\(x=0\\)，得 \\(y(y+k)=0\\)，因 \\(B\\) 在負 \\(y\\)-軸，故 \\(B=(0,-k)\\)。\n\\(AO=18\\)，而 \\(AP=AO\\)，所以 \\(\\Gamma\\) 的圓心是 \\(A\\)、半徑是 18：\n\\[\n\\boxed{\\Gamma:(x-18)^2+y^2=324}\n\\]\n或 \\(\\boxed{x^2+y^2-36x=0}\\)。\n(b)(i) \\(G\\in\\Gamma\\)，所以 \\(AG=18\\)。比例給出\n\\[\n5(18)=3AB,\\qquad AB=30.\n\\]\n又\n\\[\nAB^2=18^2+k^2,\n\\]\n故 \\(324+k^2=900\\)，\\(k>0\\) 給\n\\[\n\\boxed{k=24}.\n\\]\n(b)(ii) \\(A,O,B\\) 互相垂直於原點，故 \\(AB\\) 是圓 \\(C\\) 的直徑，\\(\\angle AGB=90^\\circ\\)。由兩圓相減可得 \\(OG\\perp AB\\)；直接求第二交點也可得\n\\[\nG=\\left(\\frac{576}{25},-\\frac{432}{25}\\right),\\qquad OG=\\frac{144}{5}.\n\\]\n因此四邊形的兩條對角線 \\(AB=30\\)、\\(OG=144/5\\) 互相垂直：\n\\[\n\\boxed{\\operatorname{Area}(OAGB)=\\frac{1}{2}(30)\\left(\\frac{144}{5}\\right)=432}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q44",
+      "status": "完成",
+      "questionSha256": "f79efc5ef999ccf5e4bad3e6afb472aa49ae6970f1439fa3b01ec8fd9bfe60a6",
+      "figures": [],
+      "reason": "Bisector, nondegenerate right triangle with area24, diameter and circle area.",
+      "calculated": {
+        "L": [
+          36,
+          48,
+          -684
+        ],
+        "C": [
+          19,
+          0
+        ],
+        "D": [
+          9,
+          0
+        ],
+        "E": [
+          12.6,
+          4.8
+        ],
+        "c": {
+          "O": [
+            14,
+            -2.3684757858670005e-15
+          ],
+          "R2": 25
+        },
+        "areaPi": 25
+      },
+      "solution": "Worked Solution\n(a)(i) \\(G\\) is the perpendicular bisector of \\(AB\\).\n(a)(ii) The midpoint is \\(M=(3,12)\\). Since the slope of \\(AB\\) is \\(4/3\\), the slope of \\(G\\) is \\(-3/4\\). Thus\n\\[\ny-12=-\\frac{3}{4}(x-3),\n\\]\nso\n\\[\n\\boxed{G:3x+4y-57=0}.\n\\]\nIts \\(x\\)-intercept is \\(C=(19,0)\\).\n(b)Since \\(AM\\parallel DE\\) and \\(A,C\\) lie on the \\(x\\)-axis,\n\\(\\triangle AMC\\sim\\triangle DEC\\). The area of \\(\\triangle AMC\\) is\n\\[\n\\frac{1}{2}(19+6)(12)=150.\n\\]\nThus the squared scale factor is \\(24/150=4/25\\), so the length scale factor is \\(2/5\\). As \\(CA=25\\),\n\\[\nCD=\\frac{2}{5}(25)=10.\n\\]\nMoreover, \\(DE\\parallel AB\\) and \\(AB\\perp G\\), so \\(DE\\perp EC\\). Therefore \\(\\angle CED=90^\\circ\\), and \\(CD\\) is the diameter of the circle through \\(C,D,E\\). Its radius is 5 and its area is\n\\[\n\\boxed{25\\pi}.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)(i) \\(\\Gamma\\) 是 \\(AB\\) 的垂直平分線。\n(a)(ii) 中點 \\(M=(3,12)\\)，而 \\(AB\\) 斜率為 \\(\\frac{4}{3}\\)，所以 \\(G\\) 斜率為 \\(-\\frac{3}{4}\\)。代入 \\(M\\)：\n\\[\ny-12=-\\frac{3}{4}(x-3),\n\\]\n即\n\\[\n\\boxed{G:3x+4y-57=0}.\n\\]\n因此 \\(C=(19,0)\\)。\n(b)\\(AM\\parallel DE\\)，而 \\(A,C\\) 同在 \\(x\\)-軸，所以 \\(\\triangle AMC\\sim\\triangle DEC\\)。大三角形面積為\n\\[\n\\frac{1}{2}(19+6)(12)=150.\n\\]\n面積比例為 \\(24:150=4:25\\)，所以長度比例為 \\(2:5\\)：\n\\[\n\\frac{CD}{CA}=\\frac{2}{5},\\qquad CA=25,\n\\]\n故 \\(CD=10\\)。\n因 \\(DE\\parallel AB\\)，而 \\(AB\\perp G\\)，所以 \\(DE\\perp EC\\)；\\(\\angle CED=90^\\circ\\)。由圓周角定理，\\(CD\\) 是通過 \\(C,D,E\\) 的圓的直徑。半徑為 5，面積是\n\\[\n\\boxed{25\\pi}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-official-dse-hkeaa-2023-p1-final-q10",
+      "status": "完成",
+      "questionSha256": "e5e9d10418d80780c1d5bc9fbdd192e237f93d4dc4ddc54585ec73890cf44eb2",
+      "figures": [],
+      "reason": "Normal line through A, centre and diameter circle.",
+      "calculated": {
+        "AB": [
+          1,
+          -3,
+          -14
+        ],
+        "O": [
+          5,
+          -3
+        ],
+        "B": [
+          8,
+          -2
+        ],
+        "R2": 10
+      },
+      "solution": "Official Marking Route / 官方解題路線\n(a)\\(\\Gamma\\) is the perpendicular bisector of \\(AB\\).\n(b)(i) The slope of \\(\\Gamma\\) is \\(-3\\), so the slope of \\(AB\\) is \\(\\frac{1}{3}\\). Since \\(AB\\) passes through \\(A(2,-4)\\),\n\\[\ny+4=\\frac{1}{3}(x-2).\n\\]\nHence\n\\[\nx-3y-14=0.\n\\]\n(b)(ii) The centre of the required circle is the point of intersection of \\(AB\\) and \\(\\Gamma\\). Solving\n\\[\n3x+y-12=0,\\; x-3y-14=0,\n\\]\ngives the centre \\((5,-3)\\). The radius is\n\\[\n\\sqrt{(2-5)^2+(-4+3)^2}=\\sqrt{10}.\n\\]\nThus\n\\[\n(x-5)^2+(y+3)^2=10,\n\\]\nor\n\\[\nx^2+y^2-10x+6y+24=0.\n\\]\nFinal answers: (a) perpendicular bisector; (b)(i) \\(x-3y-14=0\\); (b)(ii) \\((x-5)^2+(y+3)^2=10\\).",
+      "solutionZh": "Official Marking Route / 官方解題路線\n(a)\\(\\Gamma\\) is the perpendicular bisector of \\(AB\\).\n(b)(i) The slope of \\(\\Gamma\\) is \\(-3\\), so the slope of \\(AB\\) is \\(\\frac{1}{3}\\). Since \\(AB\\) passes through \\(A(2,-4)\\),\n\\[\ny+4=\\frac{1}{3}(x-2).\n\\]\nHence\n\\[\nx-3y-14=0.\n\\]\n(b)(ii) The centre of the required circle is the point of intersection of \\(AB\\) and \\(\\Gamma\\). Solving\n\\[\n3x+y-12=0,\\; x-3y-14=0,\n\\]\ngives the centre \\((5,-3)\\). The radius is\n\\[\n\\sqrt{(2-5)^2+(-4+3)^2}=\\sqrt{10}.\n\\]\nThus\n\\[\n(x-5)^2+(y+3)^2=10,\n\\]\nor\n\\[\nx^2+y^2-10x+6y+24=0.\n\\]\nFinal answers: (a) perpendicular bisector; (b)(i) \\(x-3y-14=0\\); (b)(ii) \\((x-5)^2+(y+3)^2=10\\)."
+    },
+    {
+      "id": "note-circle-equation-official-dse-hkeaa-2025-p1-final-q13",
+      "status": "完成",
+      "questionSha256": "994189d73799e62764625c5e1825113e11beda7a05cfba6dbdc0fd3624977183",
+      "figures": [],
+      "reason": "Positive intercepts recovered from bisector; shoelace area.",
+      "calculated": {
+        "M": [
+          36,
+          0
+        ],
+        "N": [
+          0,
+          24
+        ],
+        "L": [
+          2,
+          3,
+          -72
+        ],
+        "Q": [
+          18,
+          12
+        ],
+        "R": [
+          10,
+          0
+        ],
+        "area": 276
+      },
+      "solution": "Official Marking Route / 官方解題路線\n(a)Since \\(MP=NP\\), the locus \\(\\Gamma\\) is the perpendicular bisector of \\(MN\\).\n(b)Let \\(M=(a,0)\\) and \\(N=(0,b)\\), where \\(a,b>0\\). The slope of \\(\\Gamma\\) is \\(3/2\\), so the slope of \\(MN\\), and hence of \\(L\\), is \\(-2/3\\). Therefore \\(2a=3b\\). The midpoint \\((a/2,b/2)\\) lies on \\(\\Gamma\\), so\n\\[\n\\frac{3a}{2}-b-30=0.\n\\]\nSolving gives \\(a=36\\) and \\(b=24\\). Hence \\(M=(36,0)\\), \\(N=(0,24)\\), and\n\\[\nL:\\ \\frac{x}{36}+\\frac{y}{24}=1\n\\;\\Longrightarrow\\; 2x+3y-72=0.\n\\]\n(c)Putting \\(y=0\\) in \\(\\Gamma\\) gives \\(R=(10,0)\\). Solving \\(\\Gamma\\) and \\(L\\) gives \\(Q=(18,12)\\). Since \\(O=(0,0)\\) and \\(N=(0,24)\\),\n\\[\n[ONQR]=\\frac{1}{2}(24)(18)+\\frac{1}{2}(10)(12)=216+60=276.\n\\]\nFinal answers: (a) \\(\\Gamma\\) is the perpendicular bisector of \\(MN\\); (b) \\(2x+3y-72=0\\); (c) \\(276\\).",
+      "solutionZh": "Official Marking Route / 官方解題路線\n(a)Since \\(MP=NP\\), the locus \\(\\Gamma\\) is the perpendicular bisector of \\(MN\\).\n(b)Let \\(M=(a,0)\\) and \\(N=(0,b)\\), where \\(a,b>0\\). The slope of \\(\\Gamma\\) is \\(3/2\\), so the slope of \\(MN\\), and hence of \\(L\\), is \\(-2/3\\). Therefore \\(2a=3b\\). The midpoint \\((a/2,b/2)\\) lies on \\(\\Gamma\\), so\n\\[\n\\frac{3a}{2}-b-30=0.\n\\]\nSolving gives \\(a=36\\) and \\(b=24\\). Hence \\(M=(36,0)\\), \\(N=(0,24)\\), and\n\\[\nL:\\ \\frac{x}{36}+\\frac{y}{24}=1\n\\;\\Longrightarrow\\; 2x+3y-72=0.\n\\]\n(c)Putting \\(y=0\\) in \\(\\Gamma\\) gives \\(R=(10,0)\\). Solving \\(\\Gamma\\) and \\(L\\) gives \\(Q=(18,12)\\). Since \\(O=(0,0)\\) and \\(N=(0,24)\\),\n\\[\n[ONQR]=\\frac{1}{2}(24)(18)+\\frac{1}{2}(10)(12)=216+60=276.\n\\]\nFinal answers: (a) \\(\\Gamma\\) is the perpendicular bisector of \\(MN\\); (b) \\(2x+3y-72=0\\); (c) \\(276\\)."
+    },
+    {
+      "id": "note-circle-equation-q56",
+      "status": "完成",
+      "questionSha256": "8df2ee4795e107b5cb704424b367cb258b8cf4ee4d2ffa711e82eceba376f073",
+      "figures": [],
+      "reason": "Both algebraic h roots, first-quadrant restrictions and rotated circle.",
+      "calculated": {
+        "candidates": [
+          8,
+          -14
+        ],
+        "h": 8,
+        "k": 14,
+        "O": [
+          4,
+          7
+        ],
+        "rotatedCentre": [
+          -7,
+          4
+        ],
+        "R2": 9
+      },
+      "solution": "Worked Solution\nThe centre of \\(C\\) is \\(P=(h/2,k/2)\\). After a \\(90^\\circ\\) anticlockwise rotation, \\(P'=(-k/2,h/2)\\), while the radius remains \\(r\\).\nThe shortest distances to the \\(x\\)-axis are \\(k/2-r\\) and \\(h/2-r\\). Hence \\(k/2-r=h/2-r+3\\), so \\(k=h+6\\).\nSince \\(r=3\\),\n\\[\n\\frac{h^2+k^2}{4}-56=9.\n\\]\nSubstituting \\(k=h+6\\) gives \\(h^2+6h-112=0\\). The first-quadrant condition selects \\(h=8\\), so \\(k=14\\). Therefore \\(P'=(-7,4)\\) and \\(C':(x+7)^2+(y-4)^2=9\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n由一般式，\n\\[\nP=\\left(\\frac{h}{2},\\frac{k}{2}\\right).\n\\]\n逆時針旋轉 \\(90^\\circ\\) 後，\n\\[\nP'=\\left(-\\frac{k}{2},\\frac{h}{2}\\right).\n\\]\n設共同半徑為 \\(r\\)。因兩圓均不穿過 \\(x\\)-軸，兩個最短距離分別為 \\(k/2-r\\) 及 \\(h/2-r\\)。所以\n\\[\n\\frac{k}{2}-r=\\frac{h}{2}-r+3\n\\Rightarrow k=h+6.\n\\]\n半徑平方為\n\\[\nr^2=\\frac{h^2+k^2}{4}-56=9.\n\\]\n代入 \\(k=h+6\\)：\n\\[\nh^2+6h-112=0\n\\Rightarrow h=8\\text{ 或 }-14.\n\\]\n因 \\(C\\) 完全位於第一象限，取 \\(h=8,k=14\\)。故 \\(P'=(-7,4)\\)，而\n\\[\nC':(x+7)^2+(y-4)^2=9.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q80",
+      "status": "完成",
+      "questionSha256": "f1d7698e0ddbfba5ab640975abdb950956b8cc57314cec653c5ca04a9119c5ce",
+      "figures": [],
+      "reason": "Affine midpoint mapping in both directions and antipodal diagonal points.",
+      "calculated": {
+        "O": [
+          0.5,
+          0.5
+        ],
+        "R2": 0.25,
+        "Ps": [
+          [
+            0.7071067811865476,
+            0.7071067811865476
+          ],
+          [
+            -0.7071067811865476,
+            -0.7071067811865476
+          ]
+        ]
+      },
+      "solution": "Worked Solution\nThe midpoint relation gives \\(P=(2x-1,2y-1)\\). Therefore\n\\[\n\\Gamma:\\left(x-\\frac{1}{2}\\right)^2+\\left(y-\\frac{1}{2}\\right)^2=\\frac{1}{4}.\n\\]\nWith \\(y=x\\), mapping the two intersections back gives\n\\[\nP=(1/\\sqrt{2},1/\\sqrt{2})\n\\quad\\text{or}\\quad\nP=(-1/\\sqrt{2},-1/\\sqrt{2}),\n\\]\nwhich are antipodal points.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n由中點公式，\n\\[\nP=(2x-1,2y-1).\n\\]\n代入單位圓：\n\\[\n(2x-1)^2+(2y-1)^2=1,\n\\]\n即\n\\[\n\\Gamma:\\left(x-\\frac{1}{2}\\right)^2+\\left(y-\\frac{1}{2}\\right)^2=\\frac{1}{4}.\n\\]\n若 \\(y=x\\)，則\n\\[\n2\\left(x-\\frac{1}{2}\\right)^2=\\frac{1}{4},\n\\]\n故 \\(x=y=1/2\\pm\\sqrt{2}/4\\)。映回得\n\\[\nP=\\left(\\frac1{\\sqrt2},\\frac1{\\sqrt2}\\right)\n\\quad\\text{或}\\quad\nP=\\left(-\\frac1{\\sqrt2},-\\frac1{\\sqrt2}\\right).\n\\]\n兩點是原圓上一對直徑端點。"
+    },
+    {
+      "id": "note-circle-equation-q81",
+      "status": "完成",
+      "questionSha256": "901339b822327b0b765683e9be28e0588c4d2226f46451588f8aa436cc16fc45",
+      "figures": [],
+      "reason": "Strict open-quadrant domain and sharp AM-GM area bound.",
+      "calculated": {
+        "A": [
+          2.8284271247461903,
+          0
+        ],
+        "B": [
+          0,
+          2.8284271247461903
+        ],
+        "P": [
+          1.4142135623730951,
+          1.4142135623730951
+        ],
+        "maximum": 4,
+        "restrictions": "x>0,y>0",
+        "excludedAxisEndpoints": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "solution": "Worked Solution\nThe midpoint formula gives \\(a=2x\\), \\(b=2y\\). Since \\(AB=4\\),\n\\[\nx^2+y^2=4.\n\\]\nThe positive-axis conditions give \\(x>0,y>0\\), so the actual locus is only the open first-quadrant arc. Also\n\\[\n[\\triangle OAB]=2xy\\le x^2+y^2=4.\n\\]\nEquality occurs at \\(x=y=\\sqrt{2}\\), giving \\(A=(2\\sqrt{2},0)\\), \\(B=(0,2\\sqrt{2})\\), \\(P=(\\sqrt{2},\\sqrt{2})\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n由中點公式，\n\\[\na=2x,\\qquad b=2y.\n\\]\n由 \\(AB=4\\)，\n\\[\na^2+b^2=16.\n\\]\n因此\n\\[\nx^2+y^2=4.\n\\]\n但 \\(A,B\\) 在正坐標軸，所以 \\(a>0,b>0\\)，即 \\(x>0,y>0\\)。實際軌跡是圓 \\(x^2+y^2=4\\) 在第一象限內、不包括兩個坐標軸端點的四分之一圓弧。\n\\[\n[\\triangle OAB]=\\frac{1}{2}ab=2xy.\n\\]\n由\n\\[\nx^2+y^2\\ge2xy\n\\]\n及 \\(x^2+y^2=4\\)，得 \\(xy\\le2\\)，故面積不超過 \\(4\\)。等號在 \\(x=y=\\sqrt{2}\\) 時取得。因此\n\\[\nA=(2\\sqrt{2},0),\\quad B=(0,2\\sqrt{2}),\\quad P=(\\sqrt{2},\\sqrt{2}).\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q59",
+      "status": "完成",
+      "questionSha256": "2113fd2d026fa4dbfef29b044a801df9cc03d3ea1a3142771746a4b7fa1c4402",
+      "figures": [],
+      "reason": "Correct internal section order and transformed parabola identity.",
+      "calculated": {
+        "map": [
+          "(3-x)/2",
+          "(9-y)/2"
+        ],
+        "locusCoefficients": [
+          0.5,
+          -1,
+          -4.5
+        ],
+        "shape": "upward parabola"
+      },
+      "solution": "Worked Solution\nSince \\(PR:RQ=1:2\\), the section formula gives\n\\[\nR=\\frac{2P+Q}{3}.\n\\]\nHence\n\\[\nP=\\frac{3R-Q}{2}\n=\\left(\\frac{3-x}{2},\\frac{9-y}{2}\\right).\n\\]\nSubstituting these coordinates into \\(y_P=-x_P^2+2x_P+6\\) gives\n\\[\n\\frac{9-y}{2}\n=-\\left(\\frac{3-x}{2}\\right)^2\n+2\\left(\\frac{3-x}{2}\\right)+6.\n\\]\nSimplifying yields\n\\[\ny=\\frac{x^2}{2}-x-\\frac{9}{2}.\n\\]\nThis is an upward-opening parabola.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n因 \\(PR:RQ=1:2\\)，\\(R\\) 較接近 \\(P\\)，故\n\\[\nR=\\frac{2P+Q}{3}.\n\\]\n因此\n\\[\nP=\\frac{3R-Q}{2}\n=\\left(\\frac{3-x}{2},\\frac{9-y}{2}\\right).\n\\]\n把 \\(P\\) 的坐標代入原拋物線：\n\\[\n\\frac{9-y}{2}\n=-\\left(\\frac{3-x}{2}\\right)^2\n+2\\left(\\frac{3-x}{2}\\right)+6.\n\\]\n兩邊乘 4 並整理，得\n\\[\n2(9-y)=-(3-x)^2+4(3-x)+24\n\\]\n\\[\n\\Rightarrow y=\\frac{x^2}{2}-x-\\frac{9}{2}.\n\\]\n因只剩一個平方變量，軌跡是一條開口向上的拋物線。"
+    },
+    {
+      "id": "note-circle-equation-q60",
+      "status": "完成",
+      "questionSha256": "5bc30e4246362684d4e128f2034ec35d6b39df51699ace512bb94774e0070562",
+      "figures": [],
+      "reason": "Rotation/reflection, right-angle domain, circumcentre and centroid image exclusions.",
+      "calculated": {
+        "A": [
+          3,
+          -1
+        ],
+        "B": [
+          9,
+          -1
+        ],
+        "circumcentre": [
+          6,
+          -1
+        ],
+        "P_R2": 9,
+        "Q_R2": 1,
+        "excluded": [
+          [
+            5,
+            -1
+          ],
+          [
+            7,
+            -1
+          ]
+        ]
+      },
+      "solution": "Worked Solution\nThe rotation gives \\(A'=(3,-1)\\), while reflection in the \\(y\\)-axis gives \\(B'=(9,-1)\\).\nSince \\(\\angle A'PB'=90^\\circ\\), the locus of \\(P\\) is the circle with diameter \\(A'B'\\). Its centre is \\((6,-1)\\) and radius 3, so\n\\[\n(x_P-6)^2+(y_P+1)^2=9.\n\\]\nThe same midpoint \\((6,-1)\\) is the circumcentre of triangle \\(A'PB'\\).\nFor centroid \\(Q=(x,y)\\),\n\\[\nx=\\frac{3+9+x_P}{3},\\qquad\ny=\\frac{-1-1+y_P}{3}.\n\\]\nThus \\(x_P=3x-12\\) and \\(y_P=3y+2\\). Substitution gives\n\\[\n(3x-18)^2+(3y+3)^2=9,\n\\]\nor\n\\[\n(x-6)^2+(y+1)^2=1.\n\\]\n\nExclude \\(P=A',B'\\); the centroid locus correspondingly excludes \\((5,-1)\\) and \\((7,-1)\\), the images of those degenerate triangles.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n逆時針 \\(90^\\circ\\) 把 \\((x,y)\\) 變成 \\((-y,x)\\)，所以\n\\[\nA'=(3,-1).\n\\]\n關於 \\(y\\)-軸反射只改 \\(x\\) 的符號，故\n\\[\nB'=(9,-1).\n\\]\n因 \\(\\angle A'PB'=90^\\circ\\)，\\(P\\) 在以 \\(A'B'\\) 為直徑的圓上。中點為 \\((6,-1)\\)，半徑為 3，因此\n\\[\n(x_P-6)^2+(y_P+1)^2=9.\n\\]\n這個中點亦是三角形 \\(A'PB'\\) 的外接圓圓心。\n若 \\(Q=(x,y)\\) 是重心，則\n\\[\nx=\\frac{3+9+x_P}{3},\\qquad\ny=\\frac{-1-1+y_P}{3}.\n\\]\n所以\n\\[\nx_P=3x-12,\\qquad y_P=3y+2.\n\\]\n代入 \\(P\\) 的圓：\n\\[\n(3x-18)^2+(3y+3)^2=9\n\\Rightarrow (x-6)^2+(y+1)^2=1.\n\\]\n\n須排除 \\(P=A',B'\\)；重心軌跡亦須排除 \\((5,-1)\\)、\\((7,-1)\\)，即這兩個退化三角形所對應的點。"
+    },
+    {
+      "id": "note-circle-equation-q24",
+      "status": "完成",
+      "questionSha256": "439eccba923714a128fb26f4706aef648893ce41264a03bd6d77c51326273fda",
+      "figures": [],
+      "reason": "Circle through endpoints, parallel through A and actual angle.",
+      "calculated": {
+        "G": [
+          10,
+          -15
+        ],
+        "R2": 625,
+        "L": [
+          3,
+          -4,
+          30
+        ],
+        "angle": 73.73979529168804,
+        "claim": false
+      },
+      "solution": "Worked Solution\n(a)\\(G=(10,-15)\\) and radius 25, so\n\\[\n(x-10)^2+(y+15)^2=625.\n\\]\n(b)(i) \\(\\Gamma\\parallel L\\).\n(ii)The slope is \\(3/4\\), so through \\(A\\),\n\\[\n3x-4y+30=0.\n\\]\n(iii)\\(\\angle ABG\\approx36.87^\\circ\\), hence \\(\\angle GAH\\approx73.74^\\circ>70^\\circ\\). Disagree.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\\(G=(10,-15)\\)，半徑\n\\[\nGA=\\sqrt{20^2+15^2}=25.\n\\]\n所以\n\\[\n(x-10)^2+(y+15)^2=625.\n\\]\n(b)(i) \\(\\Gamma\\parallel L\\)。\n(ii)\\(L\\) 斜率\n\\[\n\\frac{0+15}{30-10}=\\frac{3}{4}.\n\\]\n過 \\(A(-10,0)\\) 的平行線：\n\\[\n3x-4y+30=0.\n\\]\n(iii)\n\\[\n\\angle ABG=\\tan^{-1}\\frac{3}{4}\\approx36.87^\\circ.\n\\]\n由圓周角／等弦角關係，\n\\[\n\\angle GAH=2\\angle ABG\\approx73.74^\\circ>70^\\circ.\n\\]\n所以不同意。"
+    },
+    {
+      "id": "note-circle-equation-q25",
+      "status": "完成",
+      "questionSha256": "1e4181476171b8dbbc9c99ff3e601a2aeb2b96b7545b223bdbd2b65fea55135f",
+      "figures": [],
+      "reason": "All parameter coefficients, circumcentre through third point and diameter.",
+      "calculated": {
+        "L": [
+          -36,
+          48,
+          -708
+        ],
+        "c": {
+          "O": [
+            11,
+            23
+          ],
+          "R2": 625
+        },
+        "diameter": 50
+      },
+      "solution": "Worked Solution\n(a)(i) Equating distances to \\(P,Q\\) gives \\(3x-4y+59=0\\).\n(ii)Let \\(G=(h,k)\\). Then \\(k=(3h+59)/4\\). Expanding the centre form through \\(P\\) and substituting this \\(k\\) gives the required family equation.\n(b)Substitute \\(R(26,43)\\), obtaining \\(h=11\\). The centre is \\((11,23)\\), radius 25, so the diameter is 50.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)(i) 由\n\\[\n(x-4)^2+(y+1)^2=(x+14)^2+(y-23)^2\n\\]\n得\n\\[\n3x-4y+59=0.\n\\]\n(ii)設 \\(G=(h,k)\\)。因 \\(G\\) 在 \\(L\\) 上，\n\\[\nk=\\frac{3h+59}{4}.\n\\]\n以 \\(P\\) 計半徑，將\n\\[\n(x-h)^2+(y-k)^2=(4-h)^2+(-1-k)^2\n\\]\n展開並代入 \\(k\\)，化簡即得題示方程。\n(b)代 \\(R(26,43)\\) 入題示圓族方程，解得 \\(h=11\\)。圓心為\n\\[\n\\left(11,\\frac{3(11)+59}{4}\\right)=(11,23).\n\\]\n半徑\n\\[\n\\sqrt{(11-4)^2+(23+1)^2}=25.\n\\]\n直徑為 50。"
+    },
+    {
+      "id": "note-circle-equation-q45",
+      "status": "完成",
+      "questionSha256": "24b0d3041d49d6b8bbdab5d4e0e14445c011a495c853573f386d553437ea57a5",
+      "figures": [],
+      "reason": "Perpendicular lines, actual intersection and equal-distance locus.",
+      "calculated": {
+        "L1": [
+          3,
+          -2,
+          18
+        ],
+        "A": [
+          -7.846153846153846,
+          -2.769230769230769
+        ],
+        "Gamma": [
+          -8.307692307692308,
+          5.538461538461538,
+          -74.76923076923077
+        ]
+      },
+      "solution": "Worked Solution\n(a)The slope of \\(L_2\\) is \\(-2/3\\), so the slope of \\(L_1\\) is \\(3/2\\). The \\(x\\)-intercept of \\(L_2\\) is \\(B=(-12,0)\\), hence \\(M=(-6,0)\\). Therefore\n\\[\ny=\\frac{3}{2}(x+6),\n\\]\nand\n\\[\n\\boxed{L_1:3x-2y+18=0}.\n\\]\n(b)(i) Since \\(A\\) lies on \\(L_1\\), the segment \\(AB\\) is perpendicular to \\(L_1\\). The locus \\(PA=PB\\) is the perpendicular bisector of \\(AB\\), so it is also perpendicular to \\(AB\\). Hence\n\\[\n\\boxed{\\Gamma\\parallel L_1}.\n\\]\n(b)(ii) Solving \\(L_1,L_2\\) gives\n\\[\nA=\\left(-\\frac{102}{13},-\\frac{36}{13}\\right).\n\\]\nThe midpoint of \\(AB\\) is\n\\[\nN=\\left(-\\frac{129}{13},-\\frac{18}{13}\\right).\n\\]\nThe locus has slope \\(3/2\\), so\n\\[\ny+\\frac{18}{13}=\\frac{3}{2}\\left(x+\\frac{129}{13}\\right),\n\\]\nwhich simplifies to\n\\[\n\\boxed{\\Gamma:3x-2y+27=0}.\n\\]",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n(a)\\(L_2\\) 的斜率為 \\(-\\frac{2}{3}\\)，所以 \\(L_1\\) 的斜率為 \\(\\frac{3}{2}\\)。\\(L_2\\) 的 \\(x\\)-截距為 \\(B=(-12,0)\\)，故 \\(M=(-6,0)\\)。過 \\(M\\) 的 \\(L_1\\) 為\n\\[\ny=\\frac{3}{2}(x+6),\n\\]\n即\n\\[\n\\boxed{L_1:3x-2y+18=0}.\n\\]\n(b)(i) \\(AB\\) 是 \\(L_1\\) 與 \\(L_2\\) 的交點連接 \\(A\\) 到 \\(B\\)。由 \\(L_1\\perp L_2\\)，可得 \\(AB\\perp L_1\\)。而 \\(\\Gamma\\) 是 \\(AB\\) 的垂直平分線，也垂直於 \\(AB\\)，所以\n\\[\n\\boxed{\\Gamma\\parallel L_1}.\n\\]\n(b)(ii) 聯立 \\(L_1,L_2\\)：\n\\[\nA=\\left(-\\frac{102}{13},-\\frac{36}{13}\\right).\n\\]\n所以 \\(AB\\) 的中點為\n\\[\nN=\\left(\\frac{-102/13-12}{2},\\frac{-36/13}{2}\\right)\n=\\left(-\\frac{129}{13},-\\frac{18}{13}\\right).\n\\]\n\\(\\Gamma\\) 與 \\(L_1\\) 同斜率 \\(\\frac{3}{2}\\)，過 \\(N\\)：\n\\[\ny+\\frac{18}{13}=\\frac{3}{2}\\left(x+\\frac{129}{13}\\right).\n\\]\n化簡得\n\\[\n\\boxed{\\Gamma:3x-2y+27=0}.\n\\]"
+    },
+    {
+      "id": "note-circle-equation-q90",
+      "status": "完成",
+      "questionSha256": "b7d3d9924b4054191288057b30dccd48684468cf0e8434bcd6b783313570a902",
+      "figures": [],
+      "reason": "Thales domain, k=0 centre condition and valid external-touch counterexample.",
+      "calculated": {
+        "Gamma": [
+          -16,
+          12,
+          -8
+        ],
+        "O": [
+          1,
+          2
+        ],
+        "R2": 25,
+        "k": 0,
+        "c": {
+          "O": [
+            7,
+            10
+          ],
+          "R2": 25
+        },
+        "touch": [
+          4,
+          6
+        ],
+        "claim": false,
+        "excluded": [
+          [
+            5,
+            -1
+          ],
+          [
+            -3,
+            5
+          ]
+        ]
+      },
+      "solution": "Worked Solution\nThe midpoint of \\(AB\\) is \\((1,2)\\), so the perpendicular bisector is \\(\\Gamma_1:4x-3y+2=0\\). Since \\(AB=10\\),\n\\[\n\\Gamma_2:(x-1)^2+(y-2)^2=25.\n\\]\nThe centre of \\(C\\) is \\((7-2k,(3k+20)/2)\\). Substitution into \\(\\Gamma_1\\) gives \\(k=0\\). Then \\(C\\) has centre \\((7,10)\\), radius \\(5\\), while \\(\\Gamma_2\\) has centre \\((1,2)\\), radius \\(5\\). Their centre distance is \\(10=5+5\\), so they touch externally. The claim is false.\n\nThe right-angle locus \\(\\Gamma_2\\) excludes \\(A,B\\), where the angle is undefined. The external contact at \\((4,6)\\) is neither endpoint, so the counterexample remains valid.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\(AB\\) 的中點為 \\((1,2)\\)，斜率為 \\(-3/4\\)。故垂直平分線為\n\\[\n\\Gamma_1:4x-3y+2=0.\n\\]\n而 \\(AB=10\\)，所以 Thales 圓為\n\\[\n\\Gamma_2:(x-1)^2+(y-2)^2=25.\n\\]\n圓 \\(C\\) 的圓心是\n\\[\n\\left(7-2k,\\frac{3k+20}{2}\\right).\n\\]\n代入 \\(\\Gamma_1\\)：\n\\[\n4(7-2k)-3\\left(\\frac{3k+20}{2}\\right)+2=0\n\\Rightarrow k=0.\n\\]\n此時\n\\[\nC:(x-7)^2+(y-10)^2=25.\n\\]\n\\(C\\) 與 \\(\\Gamma_2\\) 均半徑 \\(5\\)，而兩圓心距\n\\[\n\\sqrt{(7-1)^2+(10-2)^2}=10=5+5.\n\\]\n所以兩圓外切，恰有一個交點。聲稱錯誤。\n\n直角軌跡 \\(\\Gamma_2\\) 須排除 \\(A,B\\)，因為在端點的角未有定義。外切點 \\((4,6)\\) 並非端點，因此反例仍然成立。"
+    },
+    {
+      "id": "note-circle-equation-q51",
+      "status": "完成",
+      "questionSha256": "c89ab2d83e1af629f058a60d4b87b91a7264052faf5f19c0a2865e46de198a6a",
+      "figures": [],
+      "reason": "Expansion and repeated-root intersection, not two distinct points.",
+      "calculated": {
+        "locus": [
+          0.5,
+          1,
+          2
+        ],
+        "L": [
+          -4,
+          -4,
+          0
+        ],
+        "intersection": [
+          -2,
+          2
+        ],
+        "multiplicity": 2,
+        "distinctIntersections": 1
+      },
+      "solution": "Worked Solution\nUse\n\\[\nAP^2=x^2+(y-2)^2,\\quad BP^2=(x+2)^2+y^2,\\quad PN^2=y^2.\n\\]\nSubstitution gives\n\\[\nx^2+(y-2)^2+(x+2)^2+y^2=2y^2,\n\\]\nwhich simplifies to\n\\[\ny=\\frac{x^2}{2}+x+2.\n\\]\nThe locus is a parabola, not a circle.\nThe condition \\(AQ=BQ\\) gives the perpendicular bisector of \\(AB\\). Since the midpoint is \\((-1,1)\\) and \\(AB\\) has slope \\(-1\\), the bisector is \\(x+y=0\\). Substitution gives \\((x+2)^2=0\\), so the two loci have one intersection, \\((-2,2)\\), which satisfies both original conditions.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nAP^2=x^2+(y-2)^2,\n\\quad BP^2=(x+2)^2+y^2,\n\\quad PN^2=y^2.\n\\]\n代入條件並整理：\n\\[\nx^2+(y-2)^2+(x+2)^2+y^2=2y^2\n\\]\n\\[\n\\Rightarrow 2x^2+4x+2y^2-4y+8=2y^2\n\\Rightarrow y=\\frac{x^2}{2}+x+2.\n\\]\n這是一條拋物線，不是圓。\n\\(AQ=BQ\\) 的軌跡是 \\(AB\\) 的垂直平分線。\\(AB\\) 斜率為 \\(-1\\)，中點為 \\((-1,1)\\)，所以垂直平分線為\n\\[\nx+y=0.\n\\]\n代入拋物線：\n\\[\n-x=\\frac{x^2}{2}+x+2\n\\Rightarrow x^2+4x+4=0\n\\Rightarrow (x+2)^2=0.\n\\]\n所以只有一個交點 \\((-2,2)\\)。代回可驗證兩條軌跡均成立。"
+    },
+    {
+      "id": "note-circle-equation-q82",
+      "status": "完成",
+      "questionSha256": "b29878ab90e0bff4d7c8da6a93b7612188dd57a389afdc511cfa6f0bd36e1ae3",
+      "figures": [],
+      "reason": "Focus-distance sum, equal-distance line, repeated root and tangency.",
+      "calculated": {
+        "locus": [
+          0.5,
+          1,
+          2
+        ],
+        "L": [
+          -4,
+          -4,
+          0
+        ],
+        "intersection": [
+          -2,
+          2
+        ],
+        "multiplicity": 2,
+        "distinctIntersections": 1
+      },
+      "solution": "Worked Solution\nExpansion gives\n\\[\n\\Gamma:y=\\frac{x^2}{2}+x+2.\n\\]\nThe equal-distance locus is the perpendicular bisector\n\\[\nL:x+y=0.\n\\]\nSubstitution gives \\((x+2)^2=0\\), so there is one repeated intersection \\((-2,2)\\). The claim is false; \\(L\\) is tangent to \\(\\Gamma\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nAP^2=x^2+(y-2)^2,\\quad\nBP^2=(x+2)^2+y^2,\\quad\nPN^2=y^2.\n\\]\n代入整理：\n\\[\n2x^2+4x-4y+8=0,\n\\]\n所以\n\\[\n\\Gamma:y=\\frac{x^2}{2}+x+2.\n\\]\n這是一條開口向上的拋物線。由 \\(AQ=BQ\\)，\\(L\\) 是 \\(AB\\) 的垂直平分線：\n\\[\nL:x+y=0.\n\\]\n聯立 \\(y=-x\\)：\n\\[\n-x=\\frac{x^2}{2}+x+2\n\\Rightarrow (x+2)^2=0.\n\\]\n只有重根 \\(x=-2\\)，交點為 \\((-2,2)\\)。故聲稱錯誤，\\(L\\) 與 \\(\\Gamma\\) 在 \\((-2,2)\\) 相切。"
+    },
+    {
+      "id": "note-circle-equation-q70",
+      "status": "完成",
+      "questionSha256": "d8b006de0f35917b9ce21902498486edaf5069844647809b943ce8a6fd2cba3a",
+      "figures": [],
+      "reason": "Focus/directrix identity, vertex, bisector and actual repeated intersection.",
+      "calculated": {
+        "vertex": [
+          1,
+          1.5
+        ],
+        "L": [
+          -2,
+          -14,
+          24
+        ],
+        "D": [
+          2,
+          1.4285714285714286
+        ],
+        "multiplicity": 2,
+        "tangent": true
+      },
+      "solution": "Worked Solution\nFor the focus \\(B(1,-2)\\) and directrix \\(y=5\\),\n\\[\n(x-1)^2+(y+2)^2=(y-5)^2.\n\\]\nThis simplifies to\n\\[\nx^2-2x+14y-20=0,\n\\qquad\ny=\\frac{3}{2}-\\frac{(x-1)^2}{14}.\n\\]\nHence the locus is a downward-opening parabola with vertex \\((1,3/2)\\).\nThe condition \\(QA=QB\\) gives\n\\[\n(x-2)^2+(y-5)^2=(x-1)^2+(y+2)^2,\n\\]\nso the second locus is \\(x+7y-12=0\\). Substituting \\(x=12-7y\\) into the parabola gives \\((7y-10)^2=0\\). Therefore\n\\[\nD=\\left(2,\\frac{10}{7}\\right).\n\\]\nThe repeated root shows that the line is tangent to the parabola at \\(D\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n對 \\(P(x,y)\\)，到焦點 \\(B(1,-2)\\) 的距離平方為\n\\[\nPB^2=(x-1)^2+(y+2)^2.\n\\]\n到準線 \\(L:y=5\\) 的距離為 \\(|y-5|\\)。兩邊均為非負距離，所以可安全平方：\n\\[\n(x-1)^2+(y+2)^2=(y-5)^2.\n\\]\n整理得\n\\[\nx^2-2x+14y-20=0,\n\\qquad\ny=\\frac{3}{2}-\\frac{(x-1)^2}{14}.\n\\]\n因此軌跡是向下開口的拋物線，頂點為 \\((1,3/2)\\)。\n對 \\(Q(x,y)\\)，由 \\(QA=QB\\)：\n\\[\n(x-2)^2+(y-5)^2=(x-1)^2+(y+2)^2.\n\\]\n整理得\n\\[\nx+7y-12=0.\n\\]\n點 \\(D\\) 是兩條軌跡的交點。由直線 \\(x=12-7y\\)，代入拋物線方程：\n\\[\n(12-7y)^2-2(12-7y)+14y-20=0\n\\]\n\\[\n\\Rightarrow 49y^2-140y+100=0\n\\Rightarrow (7y-10)^2=0.\n\\]\n故\n\\[\ny=\\frac{10}{7},\n\\qquad x=2.\n\\]\n所以 \\(D=(2,10/7)\\)。方程只有一個重根，表示直線 \\(x+7y-12=0\\) 在 \\(D\\) 與該拋物線相切，而不是有兩個相同的交點。"
+    },
+    {
+      "id": "note-circle-equation-q67",
+      "status": "完成",
+      "questionSha256": "6a3b868a8e68bfb3621b3596c11cb9ce8b71c6a26f1d4ef2d8f93d35af68ea6b",
+      "figures": [],
+      "reason": "Parabola identity, both intercepts, upper-domain sharp area bound.",
+      "calculated": {
+        "vertex": [
+          6,
+          4
+        ],
+        "M": [
+          2,
+          0
+        ],
+        "N": [
+          10,
+          0
+        ],
+        "length": 8,
+        "maximumArea": 16,
+        "claim": false
+      },
+      "solution": "Worked Solution\nThe focus distance and line distance satisfy\n\\[\n(x-6)^2+(y-3)^2=(y-5)^2.\n\\]\nBoth sides came from non-negative distances, so squaring is valid. Simplifying gives\n\\[\nx^2-12x+4y+20=0,\n\\qquad\ny=4-\\frac{(x-6)^2}{4}.\n\\]\nThus the locus is a downward-opening parabola with vertex \\((6,4)\\). Setting \\(y=0\\) gives \\((x-2)(x-10)=0\\), so \\(M=(2,0)\\), \\(N=(10,0)\\), and \\(MN=8\\).\nFor \\(R=(x_R,y_R)\\) above the \\(x\\)-axis,\n\\[\n[\\triangle RMN]=\\frac{1}{2}(8)y_R=4y_R.\n\\]\nThe vertex form gives \\(y_R\\le4\\), hence the area is at most 16. Equality occurs only at \\(R=(6,4)\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n點 \\(P\\) 到焦點 \\(B\\) 的距離平方是\n\\[\nPB^2=(x-6)^2+(y-3)^2.\n\\]\n點 \\(P\\) 到 \\(L:y=5\\) 的距離是 \\(|y-5|\\)。兩邊本來都是非負距離，所以可安全平方：\n\\[\n(x-6)^2+(y-3)^2=(y-5)^2.\n\\]\n展開及整理得\n\\[\nx^2-12x+4y+20=0,\n\\]\n即\n\\[\ny=4-\\frac{(x-6)^2}{4}.\n\\]\n因此軌跡是向下開口的拋物線，頂點為 \\((6,4)\\)。\n令 \\(y=0\\)：\n\\[\nx^2-12x+20=0\n\\Rightarrow (x-2)(x-10)=0.\n\\]\n故 \\(M=(2,0)\\)、\\(N=(10,0)\\)，而 \\(MN=8\\)。\n若 \\(R=(x_R,y_R)\\) 位於 \\(x\\)-軸上方，則\n\\[\n[\\triangle RMN]=\\frac{1}{2}(8)y_R=4y_R.\n\\]\n由頂點式可見 \\(y_R\\le4\\)，所以\n\\[\n[\\triangle RMN]\\le4(4)=16.\n\\]\n面積不能超過 16；當且僅當 \\(R=(6,4)\\) 時取等號。"
+    },
+    {
+      "id": "note-circle-equation-q95",
+      "status": "完成",
+      "questionSha256": "d91707207e794f724bbe895dfdcc445dfe35d8f489dc2cd2f9f8f5e07e8b4fba",
+      "figures": [],
+      "reason": "Unsigned ratio yields two y-candidates; reject impossible branch below vertex.",
+      "calculated": {
+        "A": [
+          2,
+          0
+        ],
+        "B": [
+          -6,
+          0
+        ],
+        "yCandidates": [
+          -3,
+          -15
+        ],
+        "minimumY": -4,
+        "validN": [
+          [
+            0,
+            -3
+          ],
+          [
+            -4,
+            -3
+          ]
+        ]
+      },
+      "solution": "Worked Solution\nEquating \\((x+2)^2+(y+3)^2\\) with \\((y+5)^2\\) gives \\(y=x^2/4+x-3\\). The intercepts are \\(A=(2,0)\\), \\(B=(-6,0)\\). The two triangles have the same altitude from \\(B\\) to line \\(AM\\), hence \\(MN:AN=2:3\\). Thus \\(N\\) divides \\(AM\\) internally in ratio \\(3:2\\), giving \\(y_N=-3\\). Substitution into the parabola yields \\(x=0\\) or \\(-4\\). Both points are valid.\n\nFor completeness, the unsigned ratio gives \\(|y_N+5|/|y_N|=2/3\\), hence \\(y_N=-3\\) or \\(-15\\). The parabola has minimum \\(-4\\), so \\(y_N=-15\\) is impossible. The two retained points are \\((0,-3),(-4,-3)\\).",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n\\[\nPF^2=(x+2)^2+(y+3)^2,\n\\qquad d(P,L)^2=(y+5)^2.\n\\]\n等距後化簡：\n\\[\n(x+2)^2+(y+3)^2=(y+5)^2\n\\Rightarrow y=\\frac{1}{4}x^2+x-3.\n\\]\n令 \\(y=0\\)：\n\\[\nx^2+4x-12=0\n\\Rightarrow A=(2,0),\\quad B=(-6,0).\n\\]\n\\(\\triangle BMN\\) 與 \\(\\triangle BAN\\) 對直線 \\(AM\\) 有同一個從 \\(B\\) 作出的高，故\n\\[\n\\frac{MN}{AN}=\\frac{2}{3}.\n\\]\n\\(N\\) 內分 \\(AM\\) 為 \\(AN:NM=3:2\\)。由 \\(A\\) 的 \\(y\\)-坐標是 \\(0\\)，\\(M\\) 的 \\(y\\)-坐標是 \\(-5\\)，所以\n\\[\ny_N=\\frac{2(0)+3(-5)}{5}=-3.\n\\]\n代回拋物線：\n\\[\n-3=\\frac{1}{4}x^2+x-3\n\\Rightarrow x(x+4)=0.\n\\]\n因此\n\\[\nN=(0,-3)\\quad\\text{或}\\quad N=(-4,-3).\n\\]\n\n完整核對無向長度比：\\(|y_N+5|/|y_N|=2/3\\)，得 \\(y_N=-3\\) 或 \\(-15\\)。拋物線的最小值為 \\(-4\\)，故 \\(y_N=-15\\) 不可能；保留 \\((0,-3),(-4,-3)\\)。"
+    },
+    {
+      "id": "note-circle-equation-q96",
+      "status": "完成",
+      "questionSha256": "7a3c1dbe9f19614cebe97b5fa35947db6adc8730296695c9f829f53f2f227993",
+      "figures": [],
+      "reason": "Completing square, reflection, circle family identity, degeneracy and all roots.",
+      "calculated": {
+        "excludedK": [
+          0,
+          3
+        ],
+        "perpendicularKs": [
+          0.803847577293368,
+          11.196152422706632
+        ],
+        "fixedPoint": [
+          2,
+          0
+        ]
+      },
+      "solution": "Worked Solution\nCompleting the square gives \\(Q=(k-1,k+3)\\), and the reflection in \\(x\\mapsto4-x\\) gives \\(R=(5-k,k+3)\\). Since \\(QR\\) is horizontal and \\(QS\\) vertical, \\(RS\\) is a diameter. Its midpoint is\n\\[\nU=\\left(2,\\frac{k^2+9}{k+3}\\right),\n\\]\nand the radius has the same value as the centre’s \\(y\\)-coordinate. Therefore\n\\[\nC_k:(x-2)^2+\\left(y-\\frac{k^2+9}{k+3}\\right)^2\n=\\left(\\frac{k^2+9}{k+3}\\right)^2,\n\\]\nso every circle touches the x-axis at \\(V=(2,0)\\). Finally,\n\\[\n\\overrightarrow{US}\\cdot\\overrightarrow{QV}=-(k-3)^2+6k=0\n\\]\ngives \\(k^2-12k+9=0\\), hence \\(k=6\\pm3\\sqrt{3}\\), both valid for \\(k\\ge0\\).\n\nDomain clarification: \\(k>0\\) and \\(k\\ne3\\) are required for the stated triangle and its circumcircle to exist uniquely. At \\(k=0\\), \\(Q=S=(-1,3)\\); at \\(k=3\\), \\(Q=R=(2,6)\\). The displayed circle formula at these values is only a limiting choice, not a uniquely defined circumcircle. Both \\(6\\pm3\\sqrt3\\) satisfy the valid domain.",
+      "solutionZh": "4. 完整詳解 / Worked Solution\n配方：\n\\[\nf(x)=[x-(k-1)]^2+k+3.\n\\]\n故\n\\[\nQ=(k-1,k+3),\\qquad R=(5-k,k+3).\n\\]\n\\(QR\\) 水平而 \\(QS\\) 垂直，故 \\(\\angle RQS=90^\\circ\\)，\\(RS\\) 是 \\(C_k\\) 的直徑。取中點：\n\\[\nU=\\left(2,\\frac{k^2+9}{k+3}\\right).\n\\]\n由直徑的一半可得半徑\n\\[\nr=\\frac{k^2+9}{k+3}.\n\\]\n所以\n\\[\nC_k:(x-2)^2+\\left(y-\\frac{k^2+9}{k+3}\\right)^2\n=\\left(\\frac{k^2+9}{k+3}\\right)^2.\n\\]\n因 \\(k\\ge0\\)，半徑等於圓心的正 \\(y\\)-坐標，故每個圓都與 \\(x\\)-軸相切於\n\\[\nV=(2,0).\n\\]\n為判斷垂直，取\n\\[\n\\overrightarrow{US}=\\left(k-3,-\\frac{6k}{k+3}\\right),\n\\qquad \\overrightarrow{QV}=(3-k,-k-3).\n\\]\n令內積為零：\n\\[\n\\overrightarrow{US}\\cdot\\overrightarrow{QV}\n=-(k-3)^2+6k=0\n\\Rightarrow k^2-12k+9=0.\n\\]\n故\n\\[\nk=6\\pm3\\sqrt{3}.\n\\]\n兩值均非負，因此都有效。\n\n定義域說明：題設三角形及其唯一外接圓存在，須有 \\(k>0\\) 且 \\(k\\ne3\\)。當 \\(k=0\\)，\\(Q=S=(-1,3)\\)；當 \\(k=3\\)，\\(Q=R=(2,6)\\)。在這兩個值代入圓公式只得到一個極限選擇，不能稱為唯一外接圓。\\(6\\pm3\\sqrt3\\) 皆符合有效定義域。"
+    },
+    {
+      "id": "note-circle-equation-official-dse-hkeaa-2026-p1-final-q16",
+      "status": "完成",
+      "questionSha256": "0a8b8dd021ca25567f8272fda853858ee4efc355bf05263d272019202dde709a",
+      "figures": [],
+      "reason": "Reflect P in actual bisector, recover circumcircle and test every possible right angle.",
+      "calculated": {
+        "R": [
+          1,
+          -2
+        ],
+        "c": {
+          "O": [
+            -6,
+            9
+          ],
+          "R2": 170
+        },
+        "H": [
+          6.5,
+          1.5
+        ],
+        "products": [
+          68,
+          68,
+          -25.5
+        ],
+        "rightAngled": false
+      },
+      "solution": "Locally Verified Solution / 本機核實詳解\n(a)The centre \\(O\\) of \\(C\\) lies on the perpendicular bisector of \\(PR\\):\n\\[\n3x+5y-27=0.\n\\]\nThe midpoint of \\(PQ\\) is \\((-3,14)\\). The slope of \\(PQ\\) is \\(-\\frac{3}{5}\\), so the perpendicular bisector of \\(PQ\\) has slope \\(\\frac{5}{3}\\):\n\\[\ny-14=\\frac{5}{3}(x+3).\n\\]\n\\[\n5x-3y+57=0.\n\\]\nSolving\n\\[\n\\begin{cases}\n3x+5y-27=0,\\\\\n5x-3y+57=0,\n\\end{cases}\n\\]\ngives\n\\[\nO=(-6,9).\n\\]\nThe radius squared is\n\\[\n(7+6)^2+(8-9)^2=170.\n\\]\nTherefore,\n\\[\nC:\\ (x+6)^2+(y-9)^2=170.\n\\]\n(b)Since the given perpendicular bisector of \\(PR\\) is \\(3x+5y-27=0\\), \\(R\\) is the reflection of \\(P\\) in this line, so\n\\[\nR=(1,-2).\n\\]\nThe tangent at \\(P\\) is\n\\[\n13x-y=83.\n\\]\nThe tangent at \\(R\\) is\n\\[\n7x-11y=29.\n\\]\nSolving gives\n\\[\nH=\\left(\\frac{13}{2},\\frac{3}{2}\\right).\n\\]\nCheck the scalar products:\n\\[\n\\mathbf{PH}\\cdot\\mathbf{PR}=68\\ne0,\n\\]\n\\[\n\\mathbf{RH}\\cdot\\mathbf{RP}=68\\ne0,\n\\]\n\\[\n\\mathbf{HP}\\cdot\\mathbf{HR}=-\\frac{51}{2}\\ne0.\n\\]\nHence no angle of \\(\\triangle HPR\\) is a right angle.\nFinal answers: (a) \\((x+6)^2+(y-9)^2=170\\); (b) No.",
+      "solutionZh": "Locally Verified Solution / 本機核實詳解\n(a)The centre \\(O\\) of \\(C\\) lies on the perpendicular bisector of \\(PR\\):\n\\[\n3x+5y-27=0.\n\\]\nThe midpoint of \\(PQ\\) is \\((-3,14)\\). The slope of \\(PQ\\) is \\(-\\frac{3}{5}\\), so the perpendicular bisector of \\(PQ\\) has slope \\(\\frac{5}{3}\\):\n\\[\ny-14=\\frac{5}{3}(x+3).\n\\]\n\\[\n5x-3y+57=0.\n\\]\nSolving\n\\[\n\\begin{cases}\n3x+5y-27=0,\\\\\n5x-3y+57=0,\n\\end{cases}\n\\]\ngives\n\\[\nO=(-6,9).\n\\]\nThe radius squared is\n\\[\n(7+6)^2+(8-9)^2=170.\n\\]\nTherefore,\n\\[\nC:\\ (x+6)^2+(y-9)^2=170.\n\\]\n(b)Since the given perpendicular bisector of \\(PR\\) is \\(3x+5y-27=0\\), \\(R\\) is the reflection of \\(P\\) in this line, so\n\\[\nR=(1,-2).\n\\]\nThe tangent at \\(P\\) is\n\\[\n13x-y=83.\n\\]\nThe tangent at \\(R\\) is\n\\[\n7x-11y=29.\n\\]\nSolving gives\n\\[\nH=\\left(\\frac{13}{2},\\frac{3}{2}\\right).\n\\]\nCheck the scalar products:\n\\[\n\\mathbf{PH}\\cdot\\mathbf{PR}=68\\ne0,\n\\]\n\\[\n\\mathbf{RH}\\cdot\\mathbf{RP}=68\\ne0,\n\\]\n\\[\n\\mathbf{HP}\\cdot\\mathbf{HR}=-\\frac{51}{2}\\ne0.\n\\]\nHence no angle of \\(\\triangle HPR\\) is a right angle.\nFinal answers: (a) \\((x+6)^2+(y-9)^2=170\\); (b) No."
+    }
+  ]
+}

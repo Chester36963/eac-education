@@ -1,0 +1,2955 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-23",
+  "scope": "All 150 former-MCQ records still published: 149 MCQs and one explicitly adapted written response. One additional inconsistent former MCQ is held; The separate circle-long-review.cjs registry covers the 78 longer questions.",
+  "method": "Independent algebra, distances, projections and option checks. Both language fields and all figures bound by SHA256; no source answer-audit input.",
+  "test": "tests/circle-review.cjs",
+  "records": [
+    {
+      "id": "note-circle-equation-q01-1",
+      "status": "完成",
+      "questionSha256": "5ebc939380b09d49a55365b5ad970cd615bd55dc625df7f1077c60de760bc4f2",
+      "figures": [],
+      "reason": "Read bracket signs and take square root of radius squared.",
+      "calculated": {
+        "O": [
+          3,
+          -2
+        ],
+        "R": 5
+      },
+      "answer": "A",
+      "solution": "Q1. The centre is \\((3,-2)\\) and the radius is \\(5\\). Answer A.",
+      "solutionZh": "Q1. 圓心是 \\((3,-2)\\)，半徑 \\(=\\sqrt{25}=5\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q01-2",
+      "status": "完成",
+      "questionSha256": "69bd0efba6260ac41d51966d6ee8a83f57d81a15547b058c17fee955eef91ce7",
+      "figures": [],
+      "reason": "Leftmost point subtracts radius from the centre x-coordinate only.",
+      "calculated": {
+        "O": [
+          -4,
+          1
+        ],
+        "R": 3,
+        "P": [
+          -7,
+          1
+        ]
+      },
+      "answer": "A",
+      "solution": "Q2. Centre \\((-4,1)\\), radius 3; the leftmost point is \\((-7,1)\\). Answer A.",
+      "solutionZh": "Q2. 圓心 \\((-4,1)\\)，半徑 3；最左點是 \\((-4-3,1)=(-7,1)\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q01-3",
+      "status": "完成",
+      "questionSha256": "b81c1b28b94cc90e911c2fa96f77b36df888e71eaeb7ebbafc968d7346390f78",
+      "figures": [],
+      "reason": "Maximum y equals centre y plus radius.",
+      "calculated": {
+        "maximum": -1
+      },
+      "answer": "C",
+      "solution": "Q3. Centre \\((2,-5)\\), radius 4; the greatest \\(y\\)-value is \\(-1\\). Answer C.",
+      "solutionZh": "Q3. 圓心 \\((2,-5)\\)，半徑 4；最大 \\(y=-5+4=-1\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q01-4",
+      "status": "完成",
+      "questionSha256": "2b04642b4655262f28ae000d47e216a296f0f6d4b3fbe5d0fa2a552f5e671184",
+      "figures": [],
+      "reason": "Both bracket coefficients are 2, so divide the whole equation by 4.",
+      "calculated": {
+        "O": [
+          3,
+          -2
+        ],
+        "R": 5
+      },
+      "answer": "B",
+      "solution": "Q4. Divide by 4 to get \\((x-3)^2+(y+2)^2=25\\). The radius is 5. Answer B.",
+      "solutionZh": "Q4. 先除以 4：\\((x-3)^2+(y+2)^2=25\\)，所以半徑 5。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q02-1",
+      "status": "完成",
+      "questionSha256": "3efd1ec1cfa8060e48ac68515f168a01426bbdc66ae83fddcf518dc40ef1469f",
+      "figures": [],
+      "reason": "Complete the square in the general equation.",
+      "calculated": {
+        "O": [
+          3,
+          -4
+        ],
+        "R2": 25
+      },
+      "answer": "A",
+      "solution": "Q1. Completing the square gives centre \\((3,-4)\\). Answer A.",
+      "solutionZh": "Q1. 配方得 \\((x-3)^2+(y+4)^2=25\\)，圓心 \\((3,-4)\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q02-2",
+      "status": "完成",
+      "questionSha256": "028a1127057acb7a1f8c91cd108ce764d0209d3318d26fbd22281cdbd38793b4",
+      "figures": [],
+      "reason": "Normalize the quadratic coefficient before recovering the radius.",
+      "calculated": {
+        "O": [
+          -2,
+          3
+        ],
+        "R2": 16
+      },
+      "answer": "C",
+      "solution": "Q2. Divide by 2, then complete the square: \\((x+2)^2+(y-3)^2=16\\). Answer C.",
+      "solutionZh": "Q2. 先除以 2：\\(x^2+y^2+4x-6y-3=0\\)，即 \\((x+2)^2+(y-3)^2=16\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q02-3",
+      "status": "完成",
+      "questionSha256": "e039e6f1c84213fc857a7eb849761468ba382a768b5eebd32056d6130808dc4e",
+      "figures": [],
+      "reason": "Nondegenerate real circle requires strictly positive radius squared; k=13 is excluded.",
+      "calculated": {
+        "R2": "13-k",
+        "condition": "k<13"
+      },
+      "answer": "A",
+      "solution": "Q3. \\(r^2=13-k>0\\), so \\(k<13\\). Answer A.",
+      "solutionZh": "Q3. \\(r^2=2^2+(-3)^2-k=13-k\\)。非退化實圓要求 \\(13-k>0\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q02-4",
+      "status": "完成",
+      "questionSha256": "bc8d8c080468dcc08b8b50313222a7f04254bfea6ae1f7a99ddaaed8b1619a38",
+      "figures": [],
+      "reason": "Area is pi times radius squared, not pi times the radius.",
+      "calculated": {
+        "O": [
+          -5,
+          1
+        ],
+        "R2": 16,
+        "areaPiCoefficient": 16
+      },
+      "answer": "C",
+      "solution": "Q4. The standard form is \\((x+5)^2+(y-1)^2=16\\), so the area is \\(16\\pi\\). Answer C.",
+      "solutionZh": "Q4. 配方得 \\((x+5)^2+(y-1)^2=16\\)，面積 \\(16\\pi\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-equation-read-2",
+      "status": "完成",
+      "questionSha256": "eecbbc20fe9e2629698a9359b42fdec1d991081486347ac1d8fa67b83aacaf9c",
+      "figures": [],
+      "reason": "Use the given point and centre to recover radius squared and expand the circle.",
+      "calculated": {
+        "O": [
+          -4,
+          3
+        ],
+        "R2": 16,
+        "coefficients": [
+          1,
+          1,
+          8,
+          -6,
+          9
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：C。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-equation-read-3",
+      "status": "完成",
+      "questionSha256": "deb9f868fe9529270eceba1484db1c5675e9302f4589adcdf376ff543055d358",
+      "figures": [],
+      "reason": "Test all three statements from normalized coefficients.",
+      "calculated": {
+        "O": [
+          2,
+          -5
+        ],
+        "R2": 7.333333333333332,
+        "statements": [
+          false,
+          true,
+          true
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：C。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-equation-read-4",
+      "status": "完成",
+      "questionSha256": "cc8adc839d078f54db9b7fff6b81d7290251e9afcbfb53035155c03b1802e18c",
+      "figures": [],
+      "reason": "Quadratic coefficient changes both centre and radius; verify collinearity separately.",
+      "calculated": {
+        "c1": {
+          "O": [
+            -4,
+            2
+          ],
+          "R2": 25
+        },
+        "c2": {
+          "O": [
+            -2,
+            1
+          ],
+          "R2": 7.5
+        },
+        "statements": [
+          true,
+          false,
+          false
+        ]
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：A。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    },
+    {
+      "id": "note-circle-equation-q03-1",
+      "status": "完成",
+      "questionSha256": "1fa3a3f2ea09af6d934286e9175da160e715caf3a88962949b774996a07663a7",
+      "figures": [],
+      "reason": "Tangency to the x-axis gives radius |centre y|.",
+      "calculated": {
+        "R": 7
+      },
+      "answer": "B",
+      "solution": "Q1. The centre-to-x-axis distance is \\(7\\). Answer B.",
+      "solutionZh": "Q1. 到 \\(x\\)-軸距離是 \\(|7|=7\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q03-2",
+      "status": "完成",
+      "questionSha256": "bad83508a292f9509d4f5996a28ee965a31719c1c79c4d269b14d5bd8ccdc9be",
+      "figures": [],
+      "reason": "Project the centre perpendicularly onto the y-axis.",
+      "calculated": {
+        "P": [
+          0,
+          3
+        ]
+      },
+      "answer": "B",
+      "solution": "Q2. The y-axis contact point is \\((0,3)\\). Answer B.",
+      "solutionZh": "Q2. 切 \\(y\\)-軸時接觸點保留圓心的 \\(y\\) 坐標，所以是 \\((0,3)\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q03-3",
+      "status": "完成",
+      "questionSha256": "64fe27b2fb6f6577fbff67639577a5c9ce89fd4200275a5728c2c42a92e6e8e9",
+      "figures": [],
+      "reason": "Quadrant II fixes the two signs; contact points lie on the stated positive/negative half-axes.",
+      "calculated": {
+        "O": [
+          -5,
+          5
+        ],
+        "contacts": [
+          [
+            0,
+            5
+          ],
+          [
+            -5,
+            0
+          ]
+        ]
+      },
+      "answer": "B",
+      "solution": "Q3. Quadrant II gives centre \\((-5,5)\\). Answer B.",
+      "solutionZh": "Q3. 第二象限要求 \\(h<0,k>0\\)，而兩坐標的絕對值均為 5。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q03-4",
+      "status": "完成",
+      "questionSha256": "a04d043c770eec2d274286c02ab01e778c1cd8a50856f72d3014768d380266c1",
+      "figures": [],
+      "reason": "Set y=0: x(x−8)=0 gives two distinct intersections.",
+      "calculated": {
+        "roots": [
+          0,
+          8
+        ],
+        "intersectionCount": 2
+      },
+      "answer": "C",
+      "solution": "Q4. Centre \\((4,-3)\\), radius 5; distance to the x-axis is 3, so there are two intersections. Answer C.",
+      "solutionZh": "Q4. 圓心 \\((4,-3)\\)，半徑 5；到 \\(x\\)-軸距離 3 小於 5，所以有兩個交點。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q04-1",
+      "status": "完成",
+      "questionSha256": "2f8d3e15fd9ab256fa9c0da4b42e5a9f247b5fde4216bb873dfcf2e37b67e574",
+      "figures": [],
+      "reason": "Radius squared is the distance squared from centre to the given point.",
+      "calculated": {
+        "O": [
+          2,
+          -1
+        ],
+        "R2": 25
+      },
+      "answer": "B",
+      "solution": "Q1. The radius squared is \\(3^2+4^2=25\\). Answer B.",
+      "solutionZh": "Q1. 半徑平方 \\(=3^2+4^2=25\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q04-2",
+      "status": "完成",
+      "questionSha256": "dad02e44db0bd46386ab736e47a09d708aaf80f37addbf789defe3b61fab92fa",
+      "figures": [],
+      "reason": "A diameter gives its midpoint as centre and a quarter of its squared length as radius squared.",
+      "calculated": {
+        "O": [
+          2,
+          3
+        ],
+        "R2": 20
+      },
+      "answer": "A",
+      "solution": "Q2. The centre is the midpoint \\((2,3)\\), and \\(r^2=20\\). Answer A.",
+      "solutionZh": "Q2. 中點是 \\((2,3)\\)，半徑平方 \\(=4^2+2^2=20\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q04-3",
+      "status": "完成",
+      "questionSha256": "9ca0a886df441bb0e9f4d8d55812f1af674c9e570e1ec2188b6513c7771f7d9b",
+      "figures": [],
+      "reason": "Distance from the given centre (3,−4) to the origin is five.",
+      "calculated": {
+        "O": [
+          3,
+          -4
+        ],
+        "R2": 25
+      },
+      "answer": "B",
+      "solution": "Q3. The radius is 5. Answer B.",
+      "solutionZh": "Q3. 半徑 \\(=\\sqrt{3^2+(-4)^2}=5\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q04-4",
+      "status": "完成",
+      "questionSha256": "e2ba7d7447e3ee0c67fb8df3457acbda4f52b86eab2e6a0be237edcbf1844ff8",
+      "figures": [],
+      "reason": "Equate the two radii for centre (5,k); retain the noninteger centre coordinate.",
+      "calculated": {
+        "O": [
+          5,
+          6.5
+        ],
+        "R": 6.5,
+        "circumferencePiCoefficient": 13
+      },
+      "answer": "B",
+      "solution": "Q4. Let the centre be \\((5,k)\\). Equating the two radii gives \\(k=13/2\\), so the circumference is \\(13\\pi\\). Answer B.",
+      "solutionZh": "Q4. 設圓心 \\((5,k)\\)。等距給 \\(k^2=6^2+(4-k)^2\\)，得 \\(k=13/2\\)，半徑 \\(13/2\\)，圓周 \\(13\\pi\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q11-1",
+      "status": "完成",
+      "questionSha256": "e1acb3b560db035ea666bad5a624414cf96204866fe73b8b27e57bdaef07f077",
+      "figures": [],
+      "reason": "Solve the circumcircle of the three noncollinear points independently.",
+      "calculated": {
+        "O": [
+          2,
+          3
+        ],
+        "R2": 13,
+        "coefficients": [
+          1,
+          1,
+          -4,
+          -6,
+          0
+        ]
+      },
+      "answer": "A",
+      "solution": "Q1. Passing through the origin gives \\(F=0\\); substitution gives \\(D=-4,E=-6\\). Answer A.",
+      "solutionZh": "Q1. 因通過原點，常數項為 0；代另外兩點得 \\(D=-4,E=-6\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q11-2",
+      "status": "完成",
+      "questionSha256": "c115d70fe7c34858bbcba44f1913322095f67082c3b657eb5e0314c20d9a024f",
+      "figures": [],
+      "reason": "Perpendicular bisector x=2 meets the centre constraint y=2.",
+      "calculated": {
+        "O": [
+          2,
+          2
+        ],
+        "R2": 9
+      },
+      "answer": "A",
+      "solution": "Q2. The centre is the midpoint \\((2,2)\\), radius 3. Answer A.",
+      "solutionZh": "Q2. \\(AB\\) 水平且圓心在同一直線上，圓心是中點 \\((2,2)\\)，半徑 3。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q11-3",
+      "status": "完成",
+      "questionSha256": "f66714282e41d82226073b7db362adc35c074596d7d2dc3bf9eed2ed4006e0a8",
+      "figures": [],
+      "reason": "Compute the three-point circumcentre rather than relying on the sketch.",
+      "calculated": {
+        "O": [
+          3,
+          2
+        ],
+        "R2": 8
+      },
+      "answer": "B",
+      "solution": "Q3. The right angle makes the opposite side a diameter, with midpoint \\((3,2)\\). Answer B.",
+      "solutionZh": "Q3. \\((1,0)\\) 處是直角，另外兩點形成直徑；直徑中點為 \\((3,2)\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q11-4",
+      "status": "完成",
+      "questionSha256": "9eb2db76938a28b976abe7b067bdecfc51b61e500d61e37926a964752853a469",
+      "figures": [],
+      "reason": "Check all four assertions; the proposed PQ midpoint is not the centre.",
+      "calculated": {
+        "O": [
+          5,
+          -12
+        ],
+        "R2": 169,
+        "testPointDistanceSquared": 130,
+        "statements": [
+          false,
+          false,
+          true,
+          false
+        ]
+      },
+      "answer": "C",
+      "solution": "Q4. Substitution gives centre \\((5,-12)\\), radius 13. The test point has squared distance 130, below 169. Answer C.",
+      "solutionZh": "Q4. 設方程 \\(x^2+y^2+Dx+Ey=0\\)，代入得 \\(D=-10,E=24\\)。圓心 \\((5,-12)\\)，半徑 13；\\((16,-9)\\) 到圓心距離平方 130，小於 169。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q05-1",
+      "status": "完成",
+      "questionSha256": "05cc0ba7004ea6508512d93baa438dede08d2b2c8e29a57260fd4b9be090475a",
+      "figures": [],
+      "reason": "Compare the squared point distance with radius squared.",
+      "calculated": {
+        "distanceSquared": 25,
+        "position": "On"
+      },
+      "answer": "B",
+      "solution": "Q1. \\(GP=5\\), so \\(P\\) lies on the circle. Answer B.",
+      "solutionZh": "Q1. \\(GP=\\sqrt{3^2+4^2}=5\\)，所以在圓上。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q05-2",
+      "status": "完成",
+      "questionSha256": "6e66e33d304860c2c2addb0034f1936b15c15a0a5db1ad3f8e6fe63c3933e3fe",
+      "figures": [],
+      "reason": "The origin has distance squared 13, less than 25.",
+      "calculated": {
+        "distanceSquared": 13,
+        "position": "Inside"
+      },
+      "answer": "A",
+      "solution": "Q2. \\(GO=\\sqrt{13}<5\\), so the origin is inside. Answer A.",
+      "solutionZh": "Q2. \\(GO=\\sqrt{13}<5\\)，原點在圓內。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q05-3",
+      "status": "完成",
+      "questionSha256": "89bf6c999d5f835fcdca18c90c0450e8927b1093d5a4284df61a45db387f452d",
+      "figures": [],
+      "reason": "The external point distance is ten; shortest circle distance subtracts radius.",
+      "calculated": {
+        "distance": 10,
+        "shortest": 5
+      },
+      "answer": "A",
+      "solution": "Q3. \\(GQ=10\\), so the shortest distance is \\(10-5=5\\). Answer A.",
+      "solutionZh": "Q3. \\(GQ=10\\)，到圓周最短距離 \\(=10-5=5\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q05-4",
+      "status": "完成",
+      "questionSha256": "5f16ea05a2fca432bd8ebe6582ad0da28afbb583c65988aa1402f2620f58adbf",
+      "figures": [],
+      "reason": "Recover the explicitly shared circle from the preceding question, then add its radius for the farthest distance.",
+      "calculated": {
+        "O": [
+          3,
+          -2
+        ],
+        "R": 5,
+        "distance": 10,
+        "farthest": 15
+      },
+      "answer": "C",
+      "solution": "Q4. \\(GF=10\\), so the farthest distance is \\(10+5=15\\). Answer C.",
+      "solutionZh": "Q4. \\(GF=10\\)，最遠距離 \\(=10+5=15\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-equation-audit-1",
+      "status": "完成",
+      "questionSha256": "8a240874e611a04a83519f9e74459dc45d7b1719afc50b2172cb2be70afa14f2",
+      "figures": [],
+      "reason": "Test origin, quadrant, circumference bound and centre coordinates from normalized coefficients.",
+      "calculated": {
+        "O": [
+          3,
+          -1
+        ],
+        "R2": 8.8,
+        "circumference": 18.638939747698778,
+        "statements": [
+          false,
+          false,
+          true,
+          false
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：C。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-equation-audit-2",
+      "status": "完成",
+      "questionSha256": "9b0687a10a23ffc584fdfc7b30d962c9c0f0a4f5bb33192155f967e082d34a66",
+      "figures": [],
+      "reason": "The source key B is wrong: area=25π is true, point (−3,3) is inside, centre (−2,6) is in quadrant II.",
+      "calculated": {
+        "O": [
+          -2,
+          6
+        ],
+        "R2": 25,
+        "pointDistanceSquared": 10,
+        "statements": [
+          true,
+          false,
+          false
+        ]
+      },
+      "answer": "A",
+      "solution": "Answer A (I only). Completing the square gives \\((x+2)^2+(y-6)^2=25\\): centre \\((-2,6)\\), radius 5, area \\(25\\pi\\). The point \\((-3,3)\\) has squared distance \\(1+9=10<25\\) from the centre and is inside. The centre is in quadrant II. Thus II and III are false. The supplied note’s answer B was corrected by independent calculation.",
+      "solutionZh": "答案 A（只有 I）。配方得 \\((x+2)^2+(y-6)^2=25\\)，圓心為 \\((-2,6)\\)，半徑為 5，面積為 \\(25\\pi\\)。點 \\((-3,3)\\) 到圓心的距離平方為 \\(1+9=10<25\\)，所以在圓內；圓心位於第二象限。因此 II、III 均不正確。來源筆記的答案 B 已按獨立計算更正。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-equation-audit-3",
+      "status": "完成",
+      "questionSha256": "e642027910ddec5d54a1887bc6d34be7122d8fbaccb9b1d0e4ffb9a454762d6c",
+      "figures": [],
+      "reason": "Normalize by three and test every statement including circumference<16.",
+      "calculated": {
+        "O": [
+          1,
+          -2
+        ],
+        "R2": 6.333333333333333,
+        "circumference": 15.812336265110554,
+        "statements": [
+          true,
+          true,
+          true
+        ]
+      },
+      "answer": "D",
+      "solution": "Answer: D.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：D。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-equation-audit-4",
+      "status": "完成",
+      "questionSha256": "175a568a22d82d2979d053c037add46e757ab59a9915b1976c09945543819b09",
+      "figures": [],
+      "reason": "Equate distances from centre (5,k), yielding k=13/2 and circumference 13π.",
+      "calculated": {
+        "O": [
+          5,
+          6.5
+        ],
+        "R2": 42.25,
+        "circumferencePiCoefficient": 13
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：A。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-circle-construction-1",
+      "status": "完成",
+      "questionSha256": "0880c958eee51266cf0d6bde2d82d7ca22afd943972396c6cb183ee148d06cd6",
+      "figures": [],
+      "reason": "Independent circumcircle computation, then test every option.",
+      "calculated": {
+        "O": [
+          5,
+          -12
+        ],
+        "R2": 169,
+        "options": [
+          false,
+          false,
+          true,
+          false
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：C。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-circle-construction-2",
+      "status": "完成",
+      "questionSha256": "fb8363a3091f7985272b562d086c90eba8ad09aeead5d53ec14119a0424dc864",
+      "figures": [],
+      "reason": "The origin fixes F=0; the other points give D=−4,E=−6.",
+      "calculated": {
+        "O": [
+          2,
+          3
+        ],
+        "R2": 13,
+        "coefficients": [
+          1,
+          1,
+          -4,
+          -6,
+          0
+        ]
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：A。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-circle-construction-3",
+      "status": "完成",
+      "questionSha256": "a2c03d5d158acfa00da8465116808fa1f6499ca0ca9b64241fbfd9ce78929c91",
+      "figures": [],
+      "reason": "Perpendicular bisector x=2 intersects centre constraint y=x at (2,2).",
+      "calculated": {
+        "O": [
+          2,
+          2
+        ],
+        "R2": 8,
+        "coefficients": [
+          1,
+          1,
+          -4,
+          -4,
+          0
+        ]
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：A。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-q06-1",
+      "status": "完成",
+      "questionSha256": "b23358e9899551ba398c3470be2fe9529b3334f51527fa7146fc1e3c3e11d0a1",
+      "figures": [],
+      "reason": "Use half the chord in Pythagoras.",
+      "calculated": {
+        "d": 5
+      },
+      "answer": "A",
+      "solution": "Q1. Half-chord 12 gives \\(d=\\sqrt{13^2-12^2}=5\\). Answer A.",
+      "solutionZh": "Q1. 半弦 12，所以 \\(d=\\sqrt{13^2-12^2}=5\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q06-2",
+      "status": "完成",
+      "questionSha256": "dbef656db87a2dfd1406c27f8013699d512352cc6b997a400355ce36684f8f38",
+      "figures": [],
+      "reason": "Double the computed half-chord.",
+      "calculated": {
+        "length": 16
+      },
+      "answer": "C",
+      "solution": "Q2. The half-chord is 8, so the full chord is 16. Answer C.",
+      "solutionZh": "Q2. 半弦 \\(=\\sqrt{10^2-6^2}=8\\)，全弦 16。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q06-3",
+      "status": "完成",
+      "questionSha256": "3422667857cddcd80f219d5b4c3c162873421dae6937f613dda94e4b78f45bc1",
+      "figures": [],
+      "reason": "The chord normal is OM=(−4,−2); test its midpoint and perpendicularity.",
+      "calculated": {
+        "M": [
+          -4,
+          -2
+        ],
+        "L": [
+          2,
+          1,
+          10
+        ]
+      },
+      "answer": "A",
+      "solution": "Q3. \\(OM\\) has slope \\(1/2\\), so the chord slope is \\(-2\\). The equation is \\(2x+y+10=0\\). Answer A.",
+      "solutionZh": "Q3. \\(OM\\) 斜率 \\(=1/2\\)，弦斜率 \\(-2\\)。過 \\(M\\) 得 \\(2x+y+10=0\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q06-4",
+      "status": "完成",
+      "questionSha256": "8904c65d2e7b58e2de5a38791a7a29fb2e046371468fa4690d49ea9c55ecfa43",
+      "figures": [],
+      "reason": "Same-side parallel chords require difference, not sum, of their centre distances.",
+      "calculated": {
+        "distances": [
+          8,
+          15
+        ],
+        "separation": 7
+      },
+      "answer": "A",
+      "solution": "Q4. The centre distances are 8 and 15; same-side separation is 7. Answer A.",
+      "solutionZh": "Q4. 兩弦到圓心距離分別為 8 和 15；同側距離 \\(=15-8=7\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q27-1",
+      "status": "完成",
+      "questionSha256": "1ea4b9caf45d406b3bbfbd0579438de58caa75b923b3f4520b46123e53f54fce",
+      "figures": [],
+      "reason": "Chord passes through M and has normal OM.",
+      "calculated": {
+        "M": [
+          3,
+          -4
+        ],
+        "L": [
+          3,
+          -4,
+          -25
+        ]
+      },
+      "answer": "A",
+      "solution": "Q1. \\(OM\\) has direction \\((3,-4)\\), so the chord has normal direction \\((3,-4)\\). Through \\(M\\), its equation is \\(3x-4y-25=0\\). Answer A.",
+      "solutionZh": "Q1. \\(OM\\) 的方向是 \\((3,-4)\\)，因此弦的法線方向也是 \\((3,-4)\\)。過 \\(M\\) 得 \\(3x-4y-25=0\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q27-2",
+      "status": "完成",
+      "questionSha256": "4de2b969d7cea292215d4d68800b1e44b720ccd17e8ae03d20efc8b9cc0aeae2",
+      "figures": [],
+      "reason": "Project the centre onto the line, subtract the squared distance, then double the half-chord.",
+      "calculated": {
+        "O": [
+          2,
+          1
+        ],
+        "foot": [
+          2.4,
+          1.8
+        ],
+        "length": 9.838699100999074
+      },
+      "answer": "B",
+      "solution": "Q2. The centre-to-line distance is \\(2/\\sqrt{5}\\). The half-chord is \\(11/\\sqrt{5}\\), so the chord length is \\(22\\sqrt{5}/5\\). Answer B.",
+      "solutionZh": "Q2. 圓心到直線距離 \\(d=\\frac{2}{\\sqrt5}\\)。半弦 \\(=\\sqrt{25-\\frac{4}{5}}=\\frac{11}{\\sqrt5}\\)，全弦 \\(=\\frac{22\\sqrt5}{5}\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q27-3",
+      "status": "完成",
+      "questionSha256": "c99af9472368c89002943101d6fcf8e8797f8a001e6463216188164a3b781275",
+      "figures": [],
+      "reason": "Chord on x=3 has endpoints y=±4.",
+      "calculated": {
+        "length": 8
+      },
+      "answer": "B",
+      "solution": "Q3. The half-chord is \\(\\sqrt{25-9}=4\\), so the full chord is \\(8\\). Answer B.",
+      "solutionZh": "Q3. 半弦 \\(=\\sqrt{5^2-3^2}=4\\)，所以全弦為 \\(8\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q27-4",
+      "status": "完成",
+      "questionSha256": "693194248399b4f04f0d78c882344b71bc6320fa51c23930ab1347bcd8e643ae",
+      "figures": [],
+      "reason": "Horizontal centre-to-midpoint segment implies the chord is vertical, through x=1.",
+      "calculated": {
+        "O": [
+          4,
+          3
+        ],
+        "M": [
+          1,
+          3
+        ],
+        "L": [
+          1,
+          0,
+          -1
+        ]
+      },
+      "answer": "A",
+      "solution": "Q4. The segment from the centre to the midpoint is horizontal, hence the chord is vertical: \\(x=1\\). Answer A.",
+      "solutionZh": "Q4. 圓心到中點的線段是水平，故弦垂直，即 \\(x=1\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q28-1",
+      "status": "完成",
+      "questionSha256": "f6ba7a6d0da1ea5f820ed955b7043c365fb25d2db21e07f9a785891161863653",
+      "figures": [],
+      "reason": "Reflect a non-diameter chord in the centre to obtain the distinct parallel chord of equal length.",
+      "calculated": {
+        "y": -5,
+        "length": 24
+      },
+      "answer": "B",
+      "solution": "Q1. Equal chords are equally distant from the centre. The distinct parallel line at distance 5 is \\(y=-5\\). Answer B.",
+      "solutionZh": "Q1. 等弦到圓心距離相等。與 \\(y=5\\) 不同而距離同為 5 的平行線是 \\(y=-5\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q28-2",
+      "status": "完成",
+      "questionSha256": "855e5248adaedc31df46c2ee702f7e9bea038f4faccccfb0d1d5d4d9e8e4f765",
+      "figures": [],
+      "reason": "Equal lengths give |k|=6; distinctness excludes +6.",
+      "calculated": {
+        "k": -6
+      },
+      "answer": "C",
+      "solution": "Q2. Equal chord lengths require \\(|k|=6\\). Since the chords are distinct, \\(k=-6\\). Answer C.",
+      "solutionZh": "Q2. 等弦要求 \\(|k|=6\\)。因兩弦不同，不能取 \\(k=6\\)，故 \\(k=-6\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q28-3",
+      "status": "完成",
+      "questionSha256": "a3adceafbc43c10fd147dfed886b23540c94f1cce04d55a900494721bf7cbc37",
+      "figures": [],
+      "reason": "The chord midpoint is the perpendicular projection of (1,2) onto x+y=4.",
+      "calculated": {
+        "M": [
+          1.5,
+          2.5
+        ]
+      },
+      "answer": "B",
+      "solution": "Q3. The midpoint is the perpendicular foot from \\((1,2)\\) to \\(x+y=4\\), namely \\((3/2,5/2)\\). Answer B.",
+      "solutionZh": "Q3. 中點是圓心 \\((1,2)\\) 到 \\(x+y=4\\) 的垂足，為 \\((\\frac{3}{2},\\frac{5}{2})\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q28-4",
+      "status": "完成",
+      "questionSha256": "767666d7203d68bdbb86f36fbe0b2eef9a3bbcdfa2cc8b8a84d11e71b444edf1",
+      "figures": [],
+      "reason": "Subtract normalized circle equations for radical axis 12x+16y−5=0 and project either centre onto it.",
+      "calculated": {
+        "L": [
+          12,
+          16,
+          -5
+        ],
+        "M": [
+          1.75,
+          -1
+        ],
+        "halfChordSquared": 23.4375
+      },
+      "answer": "C",
+      "solution": "Q4. Subtraction gives \\(12x+16y-5=0\\). The perpendicular foot from \\((1,-2)\\) is \\((7/4,-1)\\). Answer C.",
+      "solutionZh": "Q4. 相減得公共弦線 \\(12x+16y-5=0\\)。圓心 \\((1,-2)\\) 到此線的垂足為 \\((\\frac{7}{4},-1)\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-chord-tools-1",
+      "status": "完成",
+      "questionSha256": "0a9a804286f7a4f64b8fffcac0e33c408abc5eeeec579d99439340a347c0b1d9",
+      "figures": [],
+      "reason": "Recover R²=7.5; midpoint lies outside and a positive dot product gives an acute angle.",
+      "calculated": {
+        "O": [
+          1,
+          -2
+        ],
+        "R2": 7.5,
+        "M": [
+          1.5,
+          1
+        ],
+        "angleDot": 2,
+        "statements": [
+          false,
+          true,
+          true
+        ]
+      },
+      "answer": "D",
+      "solution": "Answer: D.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：D。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-chord-tools-2",
+      "status": "完成",
+      "questionSha256": "7e3188fdaa71555a45479effaf5754d3857b1042257e25d75700bbd074fe8cdc",
+      "figures": [],
+      "reason": "A diameter line passes through the centre (4,−k/2) as well as (6,−5).",
+      "calculated": {
+        "k": -6,
+        "O": [
+          4,
+          3
+        ]
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：A。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-chord-tools-3",
+      "status": "完成",
+      "questionSha256": "0ed5f694035361c28c7ea3bf614cedf4c6a559ce9b01762af0e642941145de41",
+      "figures": [],
+      "reason": "Project (−1,2) onto x−y=k; obtain x=(1+k)/2 symbolically and check representative admissible chords.",
+      "calculated": {
+        "midpointX": "(1+k)/2"
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：C。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-chord-tools-4",
+      "status": "完成",
+      "questionSha256": "8583a71210994298434ffae2ae4e52646d191814eb9c8057fe0f6f6aa9808846",
+      "figures": [],
+      "reason": "Project centre (0,4) onto 2x−y−6=0.",
+      "calculated": {
+        "M": [
+          4,
+          2
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：C。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-chord-challenge-1",
+      "status": "完成",
+      "questionSha256": "071695aa6cfeb48be3a6b54e88163f578684b8c58283d05c5d4849e7aeef3174",
+      "figures": [],
+      "reason": "Given midpoint is (2,4); centre-to-midpoint vector must be parallel to normal (3,−1).",
+      "calculated": {
+        "k": -152,
+        "O": [
+          15.2,
+          -0.4
+        ],
+        "R2": 235.2,
+        "M": [
+          2,
+          3.9999999999999996
+        ]
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：A。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-chord-challenge-2",
+      "status": "完成",
+      "questionSha256": "16083439b84e8126e5293f0770d8728c8071a0fb5936fb3ab7bac5cec0d79763",
+      "figures": [],
+      "reason": "Every chord of slope 4 has its midpoint on the perpendicular line through centre (9,10).",
+      "calculated": {
+        "O": [
+          9,
+          10
+        ],
+        "R2": 85,
+        "midpointLocus": [
+          1,
+          4,
+          -49
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：C。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-chord-challenge-3",
+      "status": "完成",
+      "questionSha256": "eead6cb9bc3f68930fa922f83ea3c9812ea2981e961d95e99847e5c1b5003421",
+      "figures": [],
+      "reason": "Project centre (2,11) onto 4x−3y=0; squared radius of diameter-circle equals original R²−GM².",
+      "calculated": {
+        "O": [
+          6,
+          8
+        ],
+        "R2": 25
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：A。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-chord-challenge-4",
+      "status": "完成",
+      "questionSha256": "9693ac2b22969b76c46e27b7b2250db2b388f0d399b822f0502473a5ae185345",
+      "figures": [],
+      "reason": "M=(1,0) on hx+ky=6 gives h=6; normal GM=(−3,−2) then gives k=4.",
+      "calculated": {
+        "h": 6,
+        "k": 4
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：A。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-teacher-mcq-chord-transfer-1",
+      "status": "完成",
+      "questionSha256": "e993be56ef212eb1271cc8dc22578d480202117b639a38ce1dc40c00b389894a",
+      "figures": [],
+      "reason": "Axis-chord midpoint is (7,0), so R²=5²+12²=169; expanding gives F=−95.",
+      "calculated": {
+        "O": [
+          7,
+          -5
+        ],
+        "R2": 169,
+        "F": -95
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：A。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-teacher-mcq-chord-transfer-2",
+      "status": "完成",
+      "questionSha256": "862eaac8d8314d47c4a8bf054ac5eb3559f4248129c3a5b5a35b14d91890cb05",
+      "figures": [],
+      "reason": "Distance from centre to chord is 3, retaining both sides of y=1.",
+      "calculated": {
+        "ys": [
+          -2,
+          4
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：C。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-teacher-mcq-chord-transfer-3",
+      "status": "完成",
+      "questionSha256": "37bcebd4622bfa5ee84824792c7c107d07a8745ebbac88f0f3cb0b5044c73811",
+      "figures": [],
+      "reason": "The original four choices all fail: exact perpendicular foot is (146/25,3/25). Retain conditions and ID as an explicit written-response adaptation.",
+      "calculated": {
+        "O": [
+          5,
+          -1
+        ],
+        "R2": 40,
+        "M": [
+          5.84,
+          0.1200000000000001
+        ],
+        "originalOptionMatches": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "adaptation": "Written response; original conditions unchanged."
+      },
+      "answer": null,
+      "solution": "The centre is \\(G(5,-1)\\). The midpoint M is the perpendicular foot from G to the chord line. Write \\(M=(5,-1)+t(3,4)\\). Substitution gives \\(15+9t-4+16t-18=0\\), hence \\(t=7/25\\) and \\(M=(146/25,3/25)\\). Check: \\(3(146/25)+4(3/25)=18\\); GM is parallel to the line normal (3,4). None of the supplied options equals M. Original conditions retained; no distractor was changed.",
+      "solutionZh": "圓心為 \\(G(5,-1)\\)。圓心至弦中點的連線垂直於弦，所以中點 M 是 G 到弦所在直線的垂足。設 \\(M=(5,-1)+t(3,4)\\)，代入弦方程得 \\(15+9t-4+16t-18=0\\)，故 \\(t=7/25\\)，中點為 \\(M=(146/25,3/25)\\)。回代：\\(3(146/25)+4(3/25)=18\\)，且 GM 平行於法向量 (3,4)。來源四個選項均不等於 M；本版保留條件改作書面題，沒有改動干擾選項。"
+    },
+    {
+      "id": "note-circle-equation-teacher-mcq-chord-transfer-4",
+      "status": "完成",
+      "questionSha256": "192b7d98c2f403050a15e51a40807ed06781a8a4e28e33b0b2a13ec31627b32c",
+      "figures": [],
+      "reason": "Diameter midpoint is (1,3), radius squared is one quarter of squared endpoint distance.",
+      "calculated": {
+        "O": [
+          1,
+          3
+        ],
+        "R2": 13
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：A。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-q08-1",
+      "status": "完成",
+      "questionSha256": "6565450c7d25f041ad9313a6fb85d34c60c61ebf45ce352782bb22b4c325eac0",
+      "figures": [],
+      "reason": "Substitute x=3 into the circle and retain both y roots.",
+      "calculated": {
+        "ys": [
+          -4,
+          4
+        ]
+      },
+      "answer": "C",
+      "solution": "Q1. Substitute \\(x=3\\): \\(y=\\pm4\\). Answer C.",
+      "solutionZh": "Q1. \\(9+y^2=25\\Rightarrow y=\\pm4\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q08-2",
+      "status": "完成",
+      "questionSha256": "ad07f309d5aba9fb8a1034ed94b719c17d9bf76864649d9649a3eb33b0916b25",
+      "figures": [],
+      "reason": "Both horizontal tangents are at distance five from the origin.",
+      "calculated": {
+        "ks": [
+          -5,
+          5
+        ]
+      },
+      "answer": "C",
+      "solution": "Q2. Tangency gives \\(|k|=5\\). Answer C.",
+      "solutionZh": "Q2. 圓心到水平線距離 \\(|k|\\) 等於 5，所以 \\(k=\\pm5\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q08-3",
+      "status": "完成",
+      "questionSha256": "16dbbc3813e572ea369ef507a536d0e5de78ccf96fcccc0574d1713c45924a99",
+      "figures": [],
+      "reason": "Strict two-point intersection is d²<r²; equality at c=±25 is tangency.",
+      "calculated": {
+        "condition": "|c|<25",
+        "excludedTangencies": [
+          -25,
+          25
+        ]
+      },
+      "answer": "A",
+      "solution": "Q3. The distance is \\(|c|/5\\). Two intersections require \\(|c|<25\\). Answer A.",
+      "solutionZh": "Q3. 距離 \\(=|c|/5\\)。兩交點要求 \\(|c|/5<5\\)，即 \\(|c|<25\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q08-4",
+      "status": "完成",
+      "questionSha256": "d050515ef50a3093ae89bc039ceda6d95b495f2964597643a1061c9cce8a43cf",
+      "figures": [],
+      "reason": "Distance from (2,−1) to x+y=k equals radius 3 for both signs.",
+      "calculated": {
+        "ks": [
+          -3.2426406871192857,
+          5.242640687119286
+        ]
+      },
+      "answer": "A",
+      "solution": "Q4. Set \\(|1-k|/\\sqrt{2}=3\\), giving \\(k=1\\pm3\\sqrt{2}\\). Answer A.",
+      "solutionZh": "Q4. 圓心 \\((2,-1)\\) 到 \\(x+y-k=0\\) 距離為 \\(|1-k|/\\sqrt{2}\\)。令它等於 3，得 \\(k=1\\pm3\\sqrt{2}\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q29-1",
+      "status": "完成",
+      "questionSha256": "c125f522a2f224dd6b84b03578c1ddbcea60cbbc6b24afd17336cc4cc34fa3a4",
+      "figures": [],
+      "reason": "Centre-to-line distance 3 is strictly less than radius 5, and not zero.",
+      "calculated": {
+        "distanceSquared": 9,
+        "intersections": 2
+      },
+      "answer": "C",
+      "solution": "Q1. The centre-to-line distance is \\(3<5\\), so there are two intersections. Answer C.",
+      "solutionZh": "Q1. 圓心到 \\(y=1\\) 距離是 \\(3<5\\)，故有兩個交點。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q29-2",
+      "status": "完成",
+      "questionSha256": "62dcb31c7c0339e25ce661723901a7064b3d1610c5f656291890e925e5d9c416",
+      "figures": [],
+      "reason": "Every line y=mx passes through the origin, so each chord is a diameter.",
+      "calculated": {
+        "constantLength": 10
+      },
+      "answer": "C",
+      "solution": "Q2. Every line \\(y=mx\\) passes through the centre, hence cuts a diameter of length 10. Answer C.",
+      "solutionZh": "Q2. 所有 \\(y=mx\\) 均通過圓心，所以截得直徑，長 \\(10\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q29-3",
+      "status": "完成",
+      "questionSha256": "4c423ad512042aa01a76c0be59569605a69e7ca705d7e7f37d58857e84ff5601",
+      "figures": [],
+      "reason": "The distance from (3,0) to x=7 is four, equal to the radius.",
+      "calculated": {
+        "distanceSquared": 16,
+        "relation": "Tangent"
+      },
+      "answer": "B",
+      "solution": "Q3. The distance from the centre to \\(x=7\\) is 4, equal to the radius. The line is tangent. Answer B.",
+      "solutionZh": "Q3. 圓心到 \\(x=7\\) 距離 \\(4\\) 等於半徑，故相切。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q29-4",
+      "status": "完成",
+      "questionSha256": "b6ed08539bfe4ac7c3a6d8ef4c83395a7fc9198f65ba5b7591d9b462498a4e80",
+      "figures": [],
+      "reason": "Two distinct points exclude the ±5sqrt(2) tangent boundaries.",
+      "calculated": {
+        "condition": "|k|<5 sqrt(2)",
+        "bound": 7.0710678118654755
+      },
+      "answer": "C",
+      "solution": "Q4. The distance is \\(|k|/\\sqrt{2}\\). It must be less than 5, giving \\(|k|<5\\sqrt{2}\\). Answer C.",
+      "solutionZh": "Q4. 到 \\(y-x-k=0\\) 的距離是 \\(\\frac{|k|}{\\sqrt2}\\)。兩交點要求它小於 5，即 \\(|k|<5\\sqrt{2}\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q30-1",
+      "status": "完成",
+      "questionSha256": "2b8cf9e9edcb9420a791bffbfeb930ee98ca07924b42094e7f78f92738d6becb",
+      "figures": [],
+      "reason": "Tangency gives (3m+4)²=25(m²+1), equivalent to (4m−3)²=0; the origin lies on the circle.",
+      "calculated": {
+        "O": [
+          3,
+          -4
+        ],
+        "R2": 25,
+        "m": 0.75,
+        "quadratic": [
+          16,
+          -24,
+          9
+        ]
+      },
+      "answer": "B",
+      "solution": "Q1. The centre is \\((3,-4)\\), radius 5. Setting the distance from the centre to \\(mx-y=0\\) equal to 5 gives \\((4m-3)^2=0\\), so \\(m=3/4\\). Answer B.",
+      "solutionZh": "Q1. 圓心為 \\((3,-4)\\)，半徑 5。令圓心到 \\(mx-y=0\\) 的距離為 5，得 \\((4m-3)^2=0\\)，故 \\(m=\\frac{3}{4}\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q30-2",
+      "status": "完成",
+      "questionSha256": "75fbe8471ed2c3c1ba3714015a096cf3016e204629c6431d5b63839f111c0177",
+      "figures": [],
+      "reason": "Half-chord 3 gives centre distance 4; line normal has length sqrt(5).",
+      "calculated": {
+        "ks": [
+          -8.94427190999916,
+          8.94427190999916
+        ]
+      },
+      "answer": "B",
+      "solution": "Q2. Half the chord is 3, so the centre-to-line distance is 4. Hence \\(|k|/\\sqrt{5}=4\\), giving \\(k=\\pm4\\sqrt{5}\\). Answer B.",
+      "solutionZh": "Q2. 半弦為 3，故圓心到直線距離為 \\(\\sqrt{25-9}=4\\)。所以 \\(\\frac{|k|}{\\sqrt5}=4\\)，即 \\(k=\\pm4\\sqrt{5}\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q30-3",
+      "status": "完成",
+      "questionSha256": "1551bf3f5ee17ab7c825f844965f7ce0c9df991922cd2c6aa964753a14ed225b",
+      "figures": [],
+      "reason": "Perpendicular projection of (2,1) onto x+y=t gives the stated affine midpoint.",
+      "calculated": {
+        "midpoint": [
+          "(t+1)/2",
+          "(t-1)/2"
+        ]
+      },
+      "answer": "A",
+      "solution": "Q3. The midpoint is the perpendicular foot from the centre to \\(x+y=t\\): \\(((t+1)/2,(t-1)/2)\\). Answer A.",
+      "solutionZh": "Q3. 中點是圓心到 \\(x+y=t\\) 的垂足，為 \\((\\frac{t+1}{2},\\frac{t-1}{2})\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q30-4",
+      "status": "完成",
+      "questionSha256": "a8052f227ff3b947e6ea4d90429c1257dc8f486ed7dfaf2b32935f477f5d5bc0",
+      "figures": [],
+      "reason": "Both tangent slopes through (13,0) give centre-to-line distance five.",
+      "calculated": {
+        "slopes": [
+          -0.4166666666666667,
+          0.4166666666666667
+        ]
+      },
+      "answer": "A",
+      "solution": "Q4. Let the tangent be \\(y=m(x-13)\\). Its distance from the origin is 5, giving \\(m=\\pm5/12\\). Answer A.",
+      "solutionZh": "Q4. 設切線 \\(y=m(x-13)\\)。原點到此線距離為 5，解得 \\(m=\\pm\\frac5{12}\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q32-1",
+      "status": "完成",
+      "questionSha256": "b727fee9fe53283b2857ee6455e4c51f78c1f0a6954465e1d8c2a4c080f70ce4",
+      "figures": [],
+      "reason": "Project centre (3,2) onto the x-axis.",
+      "calculated": {
+        "O": [
+          3,
+          2
+        ],
+        "R2": 25,
+        "M": [
+          3,
+          0
+        ]
+      },
+      "answer": "B",
+      "solution": "Q1. Setting \\(y=0\\) gives roots with average 3, so the chord midpoint is \\((3,0)\\). Answer B.",
+      "solutionZh": "Q1. 代 \\(y=0\\) 得 \\(x^2-6x-12=0\\)。兩根平均為 3，所以中點是 \\((3,0)\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q32-2",
+      "status": "完成",
+      "questionSha256": "b9a778581fafd1a79a909e63278d35421f976ad2f445c5eb9266533fc0b2758c",
+      "figures": [],
+      "reason": "Full chord is twice sqrt(25−1/2)=7sqrt(2).",
+      "calculated": {
+        "length": 9.899494936611665
+      },
+      "answer": "B",
+      "solution": "Q2. The centre-to-line distance is \\(1/\\sqrt{2}\\). The full chord is \\(7\\sqrt{2}\\). Answer B.",
+      "solutionZh": "Q2. 圓心到直線距離是 \\(\\frac1{\\sqrt2}\\)。半弦 \\(=\\sqrt{25-\\frac{1}{2}}=\\frac{7}{\\sqrt2}\\)，全弦 \\(=7\\sqrt{2}\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q32-3",
+      "status": "完成",
+      "questionSha256": "9c6af775d9bec80ce9f0d5066e97df0a5c2ff857b7681d554453ee14bfb93ec7",
+      "figures": [],
+      "reason": "Line y=x+4 is squared distance eight from the origin.",
+      "calculated": {
+        "distanceSquared": 8,
+        "length": 8.246211251235321
+      },
+      "answer": "A",
+      "solution": "Q3. The centre-to-line distance is \\(2\\sqrt{2}\\). The full chord is \\(2\\sqrt{17}\\). Answer A.",
+      "solutionZh": "Q3. 圓心到 \\(x-y+4=0\\) 距離是 \\(\\frac4{\\sqrt2}=2\\sqrt{2}\\)。半弦 \\(=\\sqrt{25-8}=\\sqrt{17}\\)，全弦 \\(=2\\sqrt{17}\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q32-4",
+      "status": "完成",
+      "questionSha256": "d62106c724b9a1e1c15b099a35e9414b3fd54f20a9d3619f27332c42f696822e",
+      "figures": [],
+      "reason": "Restore all source I–III statements. Diameter at k=0, tangency at |k|=5sqrt(5), and no intersections beyond it.",
+      "calculated": {
+        "statements": [
+          true,
+          true,
+          false
+        ],
+        "sourceParagraphsRestored": 3
+      },
+      "answer": "C",
+      "solution": "Q4. The distance is \\(|k|/\\sqrt{5}\\). I passes through the centre, II has distance equal to the radius, and III is separate. Answer C.",
+      "solutionZh": "Q4. 距離為 \\(\\frac{|k|}{\\sqrt5}\\)。I 通過圓心，II 距離等於半徑，III 距離大於半徑而相離。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q09-1",
+      "status": "完成",
+      "questionSha256": "f9b64318adbe9010736c4515e4a08878164ee8fc90663d9a9979578d3adc0273",
+      "figures": [],
+      "reason": "The tangent passes through (3,4) and has its radius as normal.",
+      "calculated": {
+        "P": [
+          3,
+          4
+        ],
+        "L": [
+          3,
+          4,
+          -25
+        ]
+      },
+      "answer": "A",
+      "solution": "Q1. The direction from the centre to the point is \\((3,4)\\), which is normal to the tangent, giving \\(3x+4y=25\\). Answer A.",
+      "solutionZh": "Q1. 由圓心指向該點的方向為 \\((3,4)\\)，切線的法線方向相同，所以 \\(3x+4y=25\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q09-2",
+      "status": "完成",
+      "questionSha256": "90b27c5a760f822d47f421402033a9b360a2964e5265c1d9f2d702a2523a5945",
+      "figures": [],
+      "reason": "Radius direction (3,4) is normal to the tangent through (5,3).",
+      "calculated": {
+        "O": [
+          2,
+          -1
+        ],
+        "P": [
+          5,
+          3
+        ],
+        "L": [
+          3,
+          4,
+          -27
+        ]
+      },
+      "answer": "A",
+      "solution": "Q2. Radius slope \\(4/3\\) gives tangent slope \\(-3/4\\). Answer A.",
+      "solutionZh": "Q2. 半徑斜率 \\(4/3\\)，切線斜率 \\(-3/4\\)，過 \\((5,3)\\) 得 \\(3x+4y-27=0\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q09-3",
+      "status": "完成",
+      "questionSha256": "e4648cbeeb98b364dea217bf3f66b7dc7f2dfd6c89ffb493aec5ede3de5b14ee",
+      "figures": [],
+      "reason": "Tangent-radius right triangle gives sqrt(13²−5²)=12.",
+      "calculated": {
+        "length": 12
+      },
+      "answer": "C",
+      "solution": "Q3. Tangent length is \\(\\sqrt{13^2-5^2}=12\\). Answer C.",
+      "solutionZh": "Q3. 切線長 \\(=\\sqrt{13^2-5^2}=12\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q09-4",
+      "status": "完成",
+      "questionSha256": "3ffaa77b85acb1d26e1bd4caa077fb442194be8da7b9c9f343d0b271db4440ab",
+      "figures": [],
+      "reason": "The y-intercept is fixed at 13; solve 169/(1+m²)=25, retaining both slopes.",
+      "calculated": {
+        "slopes": [
+          -2.4,
+          2.4
+        ]
+      },
+      "answer": "B",
+      "solution": "Q4. Set \\(13/\\sqrt{m^2+1}=5\\), giving \\(m=\\pm12/5\\). Answer B.",
+      "solutionZh": "Q4. 圓心到直線 \\(mx-y+13=0\\) 距離等於 5：\\(13/\\sqrt{m^2+1}=5\\)，得 \\(m=\\pm12/5\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q53-1",
+      "status": "完成",
+      "questionSha256": "495ddbb1d7e72df17e6e03d6830aa688258f48234b86ef85a90b898309f67f27",
+      "figures": [],
+      "reason": "One tangent is vertical. The other has slope 21/20; verify both pass through (0,10) and have distance four from (−4,0).",
+      "calculated": {
+        "O": [
+          -4,
+          0
+        ],
+        "R": 4,
+        "tangents": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            21,
+            -20,
+            200
+          ]
+        ]
+      },
+      "answer": "D",
+      "solution": "Q1. The circle has centre \\((-4,0)\\) and radius 4. The vertical line \\(x=0\\) is one tangent. Writing the other tangent as \\(y=mx+10\\) and setting the centre-to-line distance equal to 4 gives \\(m=\\frac{21}{20}\\). Answer D.",
+      "solutionZh": "Q1. 圓心 \\((-4,0)\\)，半徑 4。垂直線 \\(x=0\\) 本身已是切線；另一條設為 \\(y=mx+10\\)，令圓心到直線距離等於 4，解得 \\(m=\\frac{21}{20}\\)，即 \\(21x-20y+200=0\\)。答案 D。"
+    },
+    {
+      "id": "note-circle-equation-q53-2",
+      "status": "完成",
+      "questionSha256": "a32af31b30741c83a276edc199da02511881fb81ebbe5e5bc428bbecc75e7809",
+      "figures": [],
+      "reason": "Tangency reduces to 24m²+55m−24=0; both rational roots satisfy the original squared-distance condition.",
+      "calculated": {
+        "O": [
+          11,
+          -3
+        ],
+        "R2": 73,
+        "slopes": [
+          0.375,
+          -2.6666666666666665
+        ]
+      },
+      "answer": "A",
+      "solution": "Q2. The centre is \\((11,-3)\\) and the radius is \\(\\sqrt{73}\\). The tangency condition gives \\(24m^2+55m-24=0\\), hence \\(m=\\frac{3}{8}\\) or \\(-\\frac{8}{3}\\). Answer A.",
+      "solutionZh": "Q2. 圓心 \\((11,-3)\\)，半徑 \\(\\sqrt{73}\\)。由\n\\[\n\\frac{|11m+5|}{\\sqrt{m^2+1}}=\\sqrt{73}\n\\]\n得 \\(24m^2+55m-24=0\\)，所以 \\(m=\\frac{3}{8}\\) 或 \\(-\\frac{8}{3}\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q53-3",
+      "status": "完成",
+      "questionSha256": "d18e2da3a04f95f7011cffb6351223eaf8eececc9de7ef5fe542136553a793c9",
+      "figures": [],
+      "reason": "Vertical gap from centre (0,−1) to intercept 12 is 13, while radius is 12.",
+      "calculated": {
+        "O": [
+          0,
+          -1
+        ],
+        "R2": 144,
+        "slopes": [
+          -0.4166666666666667,
+          0.4166666666666667
+        ]
+      },
+      "answer": "C",
+      "solution": "Q3. The centre is \\((0,-1)\\) and the radius is 12. For \\(y=mx+12\\), tangency gives \\(\\frac{13}{\\sqrt{m^2+1}}=12\\), so \\(m=\\pm\\frac5{12}\\). Answer C.",
+      "solutionZh": "Q3. 圓心 \\((0,-1)\\)，半徑 12。切線 \\(y=mx+12\\) 寫成 \\(mx-y+12=0\\)，所以\n\\[\n\\frac{13}{\\sqrt{m^2+1}}=12\n\\Rightarrow m=\\pm\\frac5{12}.\n\\]\n答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q53-4",
+      "status": "完成",
+      "questionSha256": "1041a0a45bef4565c0a8761a19c4aac9077883d5d0cfa2e6b1ed24d8af0eed69",
+      "figures": [],
+      "reason": "Exact difference d²−r²=(k−1)(k−11)/5; no intersection requires strict positivity.",
+      "calculated": {
+        "condition": "k<1 or k>11",
+        "excludedTangencies": [
+          1,
+          11
+        ]
+      },
+      "answer": "C",
+      "solution": "Q4. The no-intersection condition is \\(d>r\\). After squaring the non-negative quantities, \\((k-1)(k-11)>0\\), so \\(k<1\\) or \\(k>11\\). Answer C.",
+      "solutionZh": "Q4. 圓心 \\(\\left(-2,-\\frac{k}{2}\\right)\\)，\\(r^2=1+\\frac{k^2}{4}\\)。沒有交點要求 \\(d>r\\)。平方整理得\n\\[\n(3k-8)^2>20+5k^2\n\\Rightarrow (k-1)(k-11)>0.\n\\]\n因此 \\(k<1\\) 或 \\(k>11\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-line-tangent-1",
+      "status": "完成",
+      "questionSha256": "774203982d1f96e3546dc7788a1e367a600873a67e3fb3266c44959846e82dc1",
+      "figures": [],
+      "reason": "Centre (−1,2), radius squared 18 gives |k−3|<6, with strict endpoints.",
+      "calculated": {
+        "O": [
+          -1,
+          2
+        ],
+        "R2": 18,
+        "range": [
+          -3,
+          9
+        ],
+        "inclusive": false
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeRecover centre and radius, then compare the centre-to-line distance with the radius. Do not solve both intersections unless their coordinates are required.\nTrap: Two intersections require a strict inequality; equality means tangency only.",
+      "solutionZh": "答案：B。\n\n中文路線先把圓還原為圓心和半徑，再比較點線距離與半徑。只問交點數或參數範圍時，不必先解兩個交點。\n易錯位：兩交點是嚴格不等式；等號只代表相切。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-line-tangent-2",
+      "status": "完成",
+      "questionSha256": "b7695a0e4dc9d7e7262a371a414314c98f30d12080f71d2816848c86203c529d",
+      "figures": [],
+      "reason": "Intersection includes tangency: centre (−1,1), R=3 gives |k−7|≤15.",
+      "calculated": {
+        "O": [
+          -1,
+          1
+        ],
+        "R2": 9,
+        "range": [
+          -8,
+          22
+        ],
+        "inclusive": true
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeRecover centre and radius, then compare the centre-to-line distance with the radius. Do not solve both intersections unless their coordinates are required.\nTrap: Two intersections require a strict inequality; equality means tangency only.",
+      "solutionZh": "答案：B。\n\n中文路線先把圓還原為圓心和半徑，再比較點線距離與半徑。只問交點數或參數範圍時，不必先解兩個交點。\n易錯位：兩交點是嚴格不等式；等號只代表相切。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-line-tangent-3",
+      "status": "完成",
+      "questionSha256": "d797a5226e8e03424b1c1f64cfdd8a4b260cf53ac84c4403f1e8f4b5c336b5aa",
+      "figures": [],
+      "reason": "Tangency to x+y+4=0 requires R²=18, hence 10−k=18.",
+      "calculated": {
+        "O": [
+          -1,
+          3
+        ],
+        "R2": 18,
+        "k": -8
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeRecover centre and radius, then compare the centre-to-line distance with the radius. Do not solve both intersections unless their coordinates are required.\nTrap: Two intersections require a strict inequality; equality means tangency only.",
+      "solutionZh": "答案：B。\n\n中文路線先把圓還原為圓心和半徑，再比較點線距離與半徑。只問交點數或參數範圍時，不必先解兩個交點。\n易錯位：兩交點是嚴格不等式；等號只代表相切。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-line-tangent-4",
+      "status": "完成",
+      "questionSha256": "bd2fe7b24e0b677326701ccefec8fdf8d0c2e0f0cece3fe1e3851a3de408a79e",
+      "figures": [],
+      "reason": "Compute R²−d²=(c+8)(c−56)/8. Intersection includes the two tangent endpoints.",
+      "calculated": {
+        "condition": "c<=-8 or c>=56",
+        "inclusiveTangencies": [
+          -8,
+          56
+        ]
+      },
+      "answer": "D",
+      "solution": "Answer: D.\n\nEnglish routeRecover centre and radius, then compare the centre-to-line distance with the radius. Do not solve both intersections unless their coordinates are required.\nTrap: Two intersections require a strict inequality; equality means tangency only.",
+      "solutionZh": "答案：D。\n\n中文路線先把圓還原為圓心和半徑，再比較點線距離與半徑。只問交點數或參數範圍時，不必先解兩個交點。\n易錯位：兩交點是嚴格不等式；等號只代表相切。"
+    },
+    {
+      "id": "note-circle-equation-q07-1",
+      "status": "完成",
+      "questionSha256": "8ddf30b1d92023b48ab78383cab00590141ab9e4a903a2877d91c8f7b475c720",
+      "figures": [],
+      "reason": "Centre distance equals the sum of positive radii.",
+      "calculated": {
+        "radii": [
+          3,
+          5
+        ],
+        "distance": 8,
+        "relation": "Externally tangent"
+      },
+      "answer": "A",
+      "solution": "Q1. \\(d=r_1+r_2\\), so the circles touch externally. Answer A.",
+      "solutionZh": "Q1. \\(d=3+5\\)，所以外切。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q07-2",
+      "status": "完成",
+      "questionSha256": "4e06f75bea247d00146c0f4bd6c7df3b8cbab08924cf6b1a31aac27d8b9eacbe",
+      "figures": [],
+      "reason": "Centre distance is strictly between radius difference and sum.",
+      "calculated": {
+        "radii": [
+          5,
+          3
+        ],
+        "distance": 4,
+        "intersections": 2
+      },
+      "answer": "C",
+      "solution": "Q2. \\(|5-3|<4<8\\), so they intersect twice. Answer C.",
+      "solutionZh": "Q2. \\(|5-3|<4<5+3\\)，所以有兩個交點。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q07-3",
+      "status": "完成",
+      "questionSha256": "b316fbc2f4d419c386bae1f74dd26688879097c7701997e974f6c8ea929e0bcc",
+      "figures": [],
+      "reason": "Centre distance equals the nonzero difference of radii.",
+      "calculated": {
+        "distance": 2,
+        "relation": "Internally tangent"
+      },
+      "answer": "B",
+      "solution": "Q3. \\(d=2=|5-3|\\), so they touch internally. Answer B.",
+      "solutionZh": "Q3. \\(d=2=|5-3|\\)，所以內切。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q07-4",
+      "status": "完成",
+      "questionSha256": "b61ad3c1a0ef713efbd1ae35bb89758a482b3331d603aab5635262d4a3c7bf89",
+      "figures": [],
+      "reason": "Distance is |k|; both signs satisfy external tangency.",
+      "calculated": {
+        "ks": [
+          -5,
+          5
+        ]
+      },
+      "answer": "C",
+      "solution": "Q4. External tangency gives \\(|k|=5\\), so \\(k=\\pm5\\). Answer C.",
+      "solutionZh": "Q4. 外切要求 \\(|k|=3+2=5\\)，所以 \\(k=\\pm5\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q31-1",
+      "status": "完成",
+      "questionSha256": "c541505e77ddad256ae443b1f738ec19b1c61428e0b45bd57be3dd2cddddfea1",
+      "figures": [],
+      "reason": "Subtract the normalized equations: 12x−36=0.",
+      "calculated": {
+        "L": [
+          1,
+          0,
+          -3
+        ],
+        "P": [
+          3,
+          4
+        ],
+        "Q": [
+          3,
+          -4
+        ]
+      },
+      "answer": "B",
+      "solution": "Q1. Subtraction gives \\(-12x+36=0\\), hence \\(x=3\\). Answer B.",
+      "solutionZh": "Q1. 相減得 \\(-12x+36=0\\)，故 \\(x=3\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q31-2",
+      "status": "完成",
+      "questionSha256": "b6313c48f624e5f1abd7d6dc30e6b961f52e5773110b57a94282d8529c20632d",
+      "figures": [],
+      "reason": "Equal-radius common chord bisects centre separation eight; half-chord sqrt(25−16)=3.",
+      "calculated": {
+        "midpoint": [
+          4,
+          0
+        ],
+        "length": 6
+      },
+      "answer": "B",
+      "solution": "Q2. The midpoint is \\((4,0)\\). The half-chord is 3, so the chord length is 6. Answer B.",
+      "solutionZh": "Q2. 公共弦中點是 \\((4,0)\\)，半弦 \\(=\\sqrt{5^2-4^2}=3\\)，全弦為 6。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q31-3",
+      "status": "完成",
+      "questionSha256": "eb4422e4aafa9f23f17240c7fbe66528d9d87419cd92c6aec312f2197bbdc004",
+      "figures": [],
+      "reason": "The absolute centre distance must lie strictly between |5−3| and 5+3.",
+      "calculated": {
+        "condition": "2<|k|<8",
+        "excludedTangencies": [
+          -8,
+          -2,
+          2,
+          8
+        ]
+      },
+      "answer": "B",
+      "solution": "Q3. Two intersections require \\(|5-3|<|k|<5+3\\), hence \\(2<|k|<8\\). Answer B.",
+      "solutionZh": "Q3. 兩交點要求 \\(|5-3|<|k|<5+3\\)，即 \\(2<|k|<8\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q31-4",
+      "status": "完成",
+      "questionSha256": "e4a7cedfc68d99c7db114bfd67d804f58aad2dbd32c47b169534031cb70588ff",
+      "figures": [],
+      "reason": "Restore all three statements and make equation normalization explicit. The radical-axis normal is parallel to the line of centres; subtracting equal powers proves I, perpendicular-bisector symmetry proves II and III.",
+      "calculated": {
+        "statements": [
+          true,
+          true,
+          true
+        ],
+        "sourceParagraphsRestored": 3,
+        "normalization": "x² and y² coefficients both 1"
+      },
+      "answer": "D",
+      "solution": "Q4. With two intersections, equation subtraction gives the common chord. The centre line is perpendicular to, and bisects, that chord. All three are true. Answer D.",
+      "solutionZh": "Q4. 有兩交點時，相減線就是公共弦；圓心連線垂直並平分公共弦。三句皆正確。答案 D。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-two-circle-1",
+      "status": "完成",
+      "questionSha256": "127dc7d413fb637cb8a2922ce80ea885b04d48f8b1d8b8f51f730da3cd2d6457",
+      "figures": [],
+      "reason": "Normalize the first equation. Centre distance squared equals C2 radius squared; the radii differ and the intersection inequality is strict.",
+      "calculated": {
+        "c1": {
+          "O": [
+            -1,
+            -2
+          ],
+          "R2": 79.5
+        },
+        "c2": {
+          "O": [
+            4,
+            10
+          ],
+          "R2": 169
+        },
+        "D2": 169,
+        "statements": [
+          true,
+          false,
+          true
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：C。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-two-circle-2",
+      "status": "完成",
+      "questionSha256": "3568a03ffe6ca7213172e34a2bcea7a637f9380d0c2b3435a3256c8c02382a42",
+      "figures": [],
+      "reason": "OG1=OG2 but G1G2 differs, so not equilateral. Both segment endpoints are strictly inside C2; disk convexity places the entire segment inside.",
+      "calculated": {
+        "c1": {
+          "O": [
+            -3.5,
+            2
+          ],
+          "R2": 1.25
+        },
+        "c2": {
+          "O": [
+            0.5,
+            4
+          ],
+          "R2": 24.75
+        },
+        "D2": 20,
+        "statements": [
+          false,
+          true,
+          true
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：C。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-two-circle-3",
+      "status": "完成",
+      "questionSha256": "ac4a1b54eec72f07f8b64296f3f61cf23e2bba77ca9af325a3027c9f46cb1833",
+      "figures": [],
+      "reason": "Common chord is x=3; its full length is eight.",
+      "calculated": {
+        "L": [
+          1,
+          0,
+          -3
+        ],
+        "length": 8
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRecover the centre first. For a chord, drop the perpendicular from the centre; its foot is the chord midpoint. Use the half-chord in Pythagoras.\nTrap: Do not treat a chord midpoint as the centre or put the full chord directly into the right triangle.",
+      "solutionZh": "答案：A。\n\n中文路線先讀出圓心；若直線截出弦，從圓心向弦作垂線，垂足就是弦中點。要弦長時，畢氏只用半弦。\n易錯位：不要把交點中點當成圓心，也不要把全弦直接放進直角三角形。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-two-circle-4",
+      "status": "完成",
+      "questionSha256": "186a76fa5f4e7774105a32cf94922b91491b9c960407b7961c418096d287a22a",
+      "figures": [],
+      "reason": "External contact divides the nine-unit centre segment in the radius ratio 5:4.",
+      "calculated": {
+        "P": [
+          3,
+          1
+        ]
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeRecover centre and radius, then compare the centre-to-line distance with the radius. Do not solve both intersections unless their coordinates are required.\nTrap: Two intersections require a strict inequality; equality means tangency only.",
+      "solutionZh": "答案：B。\n\n中文路線先把圓還原為圓心和半徑，再比較點線距離與半徑。只問交點數或參數範圍時，不必先解兩個交點。\n易錯位：兩交點是嚴格不等式；等號只代表相切。"
+    },
+    {
+      "id": "note-circle-equation-q10-1",
+      "status": "完成",
+      "questionSha256": "7b7c9d6de576f0892af6c14bcdec2017a8ff194aeefaed48252988fd3a69eec2",
+      "figures": [],
+      "reason": "Fixed positive distance from (2,−3) defines a radius-five circle.",
+      "calculated": {
+        "O": [
+          2,
+          -3
+        ],
+        "R2": 25
+      },
+      "answer": "A",
+      "solution": "Q1. Fixed distance from a fixed point gives \\((x-2)^2+(y+3)^2=25\\). Answer A.",
+      "solutionZh": "Q1. 固定點固定距離，直接是圓 \\((x-2)^2+(y+3)^2=25\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q10-2",
+      "status": "完成",
+      "questionSha256": "277226b45835297d1d214b0e1c8e525e12970b9da91918b6b2e502ac6bc264ad",
+      "figures": [],
+      "reason": "Squaring equal distances cancels x²+y² and gives the perpendicular bisector of two distinct fixed points.",
+      "calculated": {
+        "locus": "Perpendicular bisector",
+        "generalCoefficients": "2(B−A)·P+|A|²−|B|²=0"
+      },
+      "answer": "B",
+      "solution": "Q2. \\(PA=PB\\) gives the perpendicular bisector of \\(AB\\). Answer B.",
+      "solutionZh": "Q2. \\(PA=PB\\) 是 \\(AB\\) 的垂直平分線。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q10-3",
+      "status": "完成",
+      "questionSha256": "49c8705254a5fbbf4fc0355e27a48a4267d5c166d2d58462fc7ecf0cb3c46d11",
+      "figures": [],
+      "reason": "Square the nonnegative distance ratio and normalize by 1−4.",
+      "calculated": {
+        "O": [
+          4,
+          0
+        ],
+        "R2": 4,
+        "coefficients": [
+          1,
+          1,
+          -8,
+          0,
+          12
+        ]
+      },
+      "answer": "A",
+      "solution": "Q3. Squaring \\(PA=2PB\\) gives \\(x^2+y^2-8x+12=0\\). Answer A.",
+      "solutionZh": "Q3. \\(x^2+y^2=4[(x-3)^2+y^2]\\)，化簡得 \\(x^2+y^2-8x+12=0\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q10-4",
+      "status": "完成",
+      "questionSha256": "a508add936f64a3b4dd23fa5b932c5943ad5395255f768d5e307b54cc0576341",
+      "figures": [],
+      "reason": "Thales circle has midpoint (0,0) and radius four; angle APB is undefined at either endpoint, which must be excluded.",
+      "calculated": {
+        "O": [
+          0,
+          0
+        ],
+        "R2": 16,
+        "excludedEndpoints": [
+          [
+            -4,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      "answer": "C",
+      "solution": "By Thales' theorem, the locus is \\(x^2+y^2=16\\), excluding \\(A=(-4,0)\\) and \\(B=(4,0)\\), where the angle is undefined. Answer C.",
+      "solutionZh": "由圓周角定理，軌跡為 \\(x^2+y^2=16\\)，但不包括 \\(A=(-4,0)\\) 及 \\(B=(4,0)\\)，因為在端點的角未有定義。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q35-1",
+      "status": "完成",
+      "questionSha256": "4d747eeeae3709839aa8349aef8869879092bffa2330f9c9d7f17e2a88e5ffb9",
+      "figures": [],
+      "reason": "Squared distance equality gives the perpendicular bisector x=3.",
+      "calculated": {
+        "L": [
+          12,
+          0,
+          -36
+        ]
+      },
+      "answer": "B",
+      "solution": "Q1. The locus is the perpendicular bisector of \\(AB\\), namely \\(x=3\\). Answer B.",
+      "solutionZh": "Q1. 等距兩點的軌跡是 \\(AB\\) 的垂直平分線；中點的 \\(x\\) 坐標是 3。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q35-2",
+      "status": "完成",
+      "questionSha256": "1079d7e498ffac34a867707f74ddee6148d7fe8a49d2fda664d12902d1e59d70",
+      "figures": [],
+      "reason": "Distance to x=0 is |x|, retaining both signed branches.",
+      "calculated": {
+        "xs": [
+          -3,
+          3
+        ],
+        "locus": "Two parallel lines"
+      },
+      "answer": "C",
+      "solution": "Q2. \\(|x|=3\\) gives two lines: \\(x=3\\) and \\(x=-3\\). Answer C.",
+      "solutionZh": "Q2. \\(|x|=3\\) 必分成 \\(x=3\\) 或 \\(x=-3\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q35-3",
+      "status": "完成",
+      "questionSha256": "8572619b193d72063fa41e292231b9e9aab6a0dc95610ca21286fa0ad6bf0ece",
+      "figures": [],
+      "reason": "Normalize the squared distance ratio, then independently expand the resulting circle.",
+      "calculated": {
+        "O": [
+          5.333333333333333,
+          0
+        ],
+        "R2": 7.111111111111111,
+        "coefficients": [
+          1,
+          1,
+          -10.666666666666666,
+          0,
+          21.333333333333332
+        ]
+      },
+      "answer": "B",
+      "solution": "Q3. Squaring \\(PA=2PB\\) gives \\(x^2+y^2=4[(x-4)^2+y^2]\\), which simplifies to B. Answer B.",
+      "solutionZh": "Q3. 平方得 \\(x^2+y^2=4[(x-4)^2+y^2]\\)，整理為選項 B。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q35-4",
+      "status": "完成",
+      "questionSha256": "58898adcde317e912fbaf1d2b17ff43ddb363064a73336f8314fa28a67cca6e4",
+      "figures": [],
+      "reason": "Equal distances to both axes mean |x|=|y|, so both angle bisectors are required.",
+      "calculated": {
+        "branches": [
+          "y=x",
+          "y=-x"
+        ]
+      },
+      "answer": "C",
+      "solution": "Q4. The condition is \\(|x|=|y|\\), giving both angle bisectors. Answer C.",
+      "solutionZh": "Q4. \\(|x|=|y|\\)，所以有兩條角平分線。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-basic-1",
+      "status": "完成",
+      "questionSha256": "58c5bccbdd60330a168ac7e37db4e4ec0159200ac6042054ea34454f909fe1a1",
+      "figures": [],
+      "reason": "Positive fixed distance five from a fixed centre defines a circle.",
+      "calculated": {
+        "O": [
+          20,
+          12
+        ],
+        "R2": 25
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：A。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-basic-2",
+      "status": "完成",
+      "questionSha256": "cdd76c5c0ca8f1fe051444ff49a28616eb2bbc5fe6ce2067acc72f8e9bea0475",
+      "figures": [],
+      "reason": "Compute the exact perpendicular-bisector coefficients from the two source points.",
+      "calculated": {
+        "L": [
+          4,
+          -12,
+          12
+        ],
+        "normalized": [
+          1,
+          -3,
+          3
+        ]
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：A。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-basic-3",
+      "status": "完成",
+      "questionSha256": "5a8f68ecddc2a368de9636122ef0418378d3a7e96795bdeaa7aa534569b059de",
+      "figures": [],
+      "reason": "Distinct fixed points give a line through their midpoint normal to AB.",
+      "calculated": {
+        "L": [
+          -2,
+          10,
+          -22
+        ],
+        "locus": "Perpendicular bisector of AB"
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：A。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-basic-4",
+      "status": "完成",
+      "questionSha256": "1f5df6ced7c9a03145333c0ee32d32327e3661156aaecd9931f93fae023f32c9",
+      "figures": [],
+      "reason": "The two fixed lines intersect at (0,7/4); distance eight from that point defines a circle.",
+      "calculated": {
+        "O": [
+          0,
+          1.75
+        ],
+        "R2": 64,
+        "locus": "Circle"
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：A。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-lines-1",
+      "status": "完成",
+      "questionSha256": "1bfb24438fdba5a5cff5ae3d26976a00703fd9732356ac53fb468e4b43e7343b",
+      "figures": [],
+      "reason": "Normalize the parallel lines to 2x+3y=5 and 2x+3y=3.5; their midway line is 2x+3y=4.25.",
+      "calculated": {
+        "L": [
+          2,
+          3,
+          -4.25
+        ],
+        "locus": "Single straight line"
+      },
+      "answer": "D",
+      "solution": "Answer: D.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：D。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-lines-2",
+      "status": "完成",
+      "questionSha256": "91651a8ad8aa56c22f881ede24ed000fa1c1a29fa02f3e0550314f08f405b851",
+      "figures": [],
+      "reason": "The perpendicular bisector x−y=1 meets x−2y=0 at (2,1).",
+      "calculated": {
+        "C": [
+          2,
+          1
+        ]
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：B。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-lines-3",
+      "status": "完成",
+      "questionSha256": "ab871c9b59784f862abe90ec91524b1c184e186419102b80ee6ce8249ba17413",
+      "figures": [],
+      "reason": "Divide the second line by four before taking the midway constant: 3x−y+17/8=0.",
+      "calculated": {
+        "L": [
+          24,
+          -8,
+          17
+        ]
+      },
+      "answer": "D",
+      "solution": "Answer: D.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：D。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-lines-4",
+      "status": "完成",
+      "questionSha256": "279c9bd8c9a08521e4c5f4607a8132642a0f48baaca20eccc5f1420cb277f4f2",
+      "figures": [],
+      "reason": "Distance three from a line gives its two parallel offsets by 3sqrt(74).",
+      "calculated": {
+        "normal": [
+          5,
+          -7
+        ],
+        "constants": [
+          -39.80697580112788,
+          11.80697580112788
+        ]
+      },
+      "answer": "D",
+      "solution": "Answer: D.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：D。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-q36-1",
+      "status": "完成",
+      "questionSha256": "11281b1d409721d1b0baebaa0f52ca731266f70b86d2f8a4435f7bd10b12e8da",
+      "figures": [],
+      "reason": "Expand (x−2)²+(y−3)²−(y+1)²=x²−4x−8y+12; this is a parabola.",
+      "calculated": {
+        "coefficients": [
+          1,
+          -4,
+          -8,
+          12
+        ],
+        "locus": "Parabola"
+      },
+      "answer": "A",
+      "solution": "Q1. Set \\((x-2)^2+(y-3)^2=(y+1)^2\\). Simplification gives A. This is a parabola, not a circle.",
+      "solutionZh": "Q1. 寫 \\(PF^2= ext{dist}(P,y=-1)^2\\)：\\((x-2)^2+(y-3)^2=(y+1)^2\\)，整理得 A。這是拋物線，不是圓。"
+    },
+    {
+      "id": "note-circle-equation-q36-2",
+      "status": "完成",
+      "questionSha256": "b94ad5c05fe64e40843c1e477f565c218a5cdaef73fb80c5df923b45c929287c",
+      "figures": [],
+      "reason": "Equal normal vectors give the midway constant +5.",
+      "calculated": {
+        "L": [
+          3,
+          4,
+          5
+        ]
+      },
+      "answer": "B",
+      "solution": "Q2. The parallel lines have the same normal direction, so the midway line is \\(3x+4y+5=0\\). Answer B.",
+      "solutionZh": "Q2. 兩條平行線的法線方向相同，中間線的常數為 \\((-10+20)/2=5\\)，故為 B。"
+    },
+    {
+      "id": "note-circle-equation-q36-3",
+      "status": "完成",
+      "questionSha256": "eb825a4c5b2b75d5b3b973a7e6d8a0bfdb5775247d7ae9bb55880e9bce346717",
+      "figures": [],
+      "reason": "Both line normals have norm five. Taking both signs gives x−7y=0 and 7x+y=0.",
+      "calculated": {
+        "branches": [
+          [
+            1,
+            -7,
+            0
+          ],
+          [
+            7,
+            1,
+            0
+          ]
+        ]
+      },
+      "answer": "C",
+      "solution": "Q3. Both normal lengths are 5, hence \\(3x+4y=\\pm(4x-3y)\\). Both angle bisectors are required. Answer C.",
+      "solutionZh": "Q3. 兩式的法線方向長度同為 5，故 \\(3x+4y=\\pm(4x-3y)\\)，得到兩條角平分線，答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q36-4",
+      "status": "完成",
+      "questionSha256": "a60c758639550a39f5250575dafcd21986768cbe0ff8ba32dac86f65360fd134",
+      "figures": [],
+      "reason": "Normalize PA²=9PB²; resultant centre is (4.5,0) with radius 1.5.",
+      "calculated": {
+        "O": [
+          4.5,
+          0
+        ],
+        "R2": 2.25,
+        "coefficients": [
+          1,
+          1,
+          -9,
+          0,
+          18
+        ]
+      },
+      "answer": "A",
+      "solution": "Q4. Squaring gives \\(x^2+y^2=9[(x-4)^2+y^2]\\), which simplifies to A.",
+      "solutionZh": "Q4. 平方後 \\(x^2+y^2=9[(x-4)^2+y^2]\\)，整理為 \\(x^2+y^2-9x+18=0\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q37-1",
+      "status": "完成",
+      "questionSha256": "011bd89e76fa226dd7eeab0354409ae76e7fa6e12306ff10a604759ef7021776",
+      "figures": [],
+      "reason": "Perpendicular-bisector normal gives a=2b and midpoint condition gives a−b/2=12. Positive solution a=16,b=8.",
+      "calculated": {
+        "A": [
+          16,
+          0
+        ],
+        "B": [
+          0,
+          8
+        ],
+        "lineMN": [
+          1,
+          2,
+          -16
+        ]
+      },
+      "answer": "A",
+      "solution": "Q1. \\(\\Gamma\\) is the perpendicular bisector of \\(MN\\), so \\(MN\\) has slope \\(-\\frac{1}{2}\\). Its midpoint lies on \\(\\Gamma\\), giving \\(M=(16,0)\\), \\(N=(0,8)\\). Answer A.",
+      "solutionZh": "Q1. \\(\\Gamma\\) 是 \\(MN\\) 的垂直平分線，故 \\(MN\\) 斜率為 \\(-\\frac{1}{2}\\)。設截距為 \\(a,b\\)，則 \\(b=a/2\\)，而中點在 \\(\\Gamma\\) 上，得 \\(a=16,b=8\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q37-3",
+      "status": "完成",
+      "questionSha256": "9346475382232d3861ab6ddfd3b46af42f139c3666c681dacc9620b828df43ed",
+      "figures": [],
+      "reason": "The distance-square identity gives the circle with AB as diameter; its centre (4,3) lies on AB.",
+      "calculated": {
+        "O": [
+          4,
+          3
+        ],
+        "R2": 4,
+        "k": 5
+      },
+      "answer": "B",
+      "solution": "Q3. The condition gives the circle with diameter \\(AB\\). Its centre is \\((4,3)\\), which lies on \\(4x-7y+k=0\\), so \\(k=5\\). Answer B.",
+      "solutionZh": "Q3. 條件 \\(AP^2+BP^2=AB^2\\) 給出以 \\(AB\\) 為直徑的圓。給定軌跡圓心為 \\((4,3)\\)，故它在 \\(AB\\) 所在直線上：\\(16-21+k=0\\)，所以 \\(k=5\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q37-4",
+      "status": "完成",
+      "questionSha256": "45bb12b14e767501c67716800eaee3dd14c62d00d2854bcc944bd60eb5828773",
+      "figures": [],
+      "reason": "Equal point distances give x=0; retain the explicit y>0 restriction.",
+      "calculated": {
+        "L": [
+          8,
+          0,
+          0
+        ],
+        "restriction": "y>0",
+        "locus": "Positive y-axis ray"
+      },
+      "answer": "B",
+      "solution": "Q4. Equal distances give \\(x=0\\), then \\(y>0\\) keeps only the positive ray. Answer B.",
+      "solutionZh": "Q4. \\(PA=PB\\) 給 \\(x=0\\)，但 \\(y>0\\) 把整條線限制成正半軸。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q38-1",
+      "status": "完成",
+      "questionSha256": "90df376329be48f9965a627fbdb4c3385ee475f601be0b1d16b3016287bae07c",
+      "figures": [],
+      "reason": "Perpendicular bisector 3x+4y=25 is exactly distance five from the origin.",
+      "calculated": {
+        "L": [
+          12,
+          16,
+          -100
+        ],
+        "intersectionCount": 1
+      },
+      "answer": "B",
+      "solution": "Q1. The locus is \\(3x+4y-25=0\\). Its distance from the origin is 5, equal to the radius, so it is tangent. Answer B.",
+      "solutionZh": "Q1. \\(\\Gamma\\) 為 \\(3x+4y-25=0\\)。原點到它的距離為 5，等於圓半徑，所以相切，只有一個交點。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q38-2",
+      "status": "完成",
+      "questionSha256": "74f289b2063251f903f02db4f142382e0d1dff2ff5942a30b56159107d95efc8",
+      "figures": [],
+      "reason": "Equal distance locus x=3 cuts the radius-five circle centred at (6,0) with length eight.",
+      "calculated": {
+        "L": [
+          12,
+          0,
+          -36
+        ],
+        "length": 8
+      },
+      "answer": "B",
+      "solution": "Q2. The locus is \\(x=3\\). Its distance from the centre is 3, so the half-chord is 4 and the chord length is 8. Answer B.",
+      "solutionZh": "Q2. 軌跡為 \\(x=3\\)。圓心到此線距離為 3，故半弦為 \\(\\sqrt{25-9}=4\\)，弦長 8。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q38-3",
+      "status": "完成",
+      "questionSha256": "07bd066c013bec08f92b9d7f2bd4567238f6461868a3a9cd98493edf2abf018d",
+      "figures": [],
+      "reason": "First quadrant retains only y=x and positive root x=2; the other algebraic branches are excluded.",
+      "calculated": {
+        "P": [
+          2,
+          2
+        ],
+        "validPoints": 1
+      },
+      "answer": "B",
+      "solution": "Q3. The first-quadrant restriction keeps only \\(y=x\\). Substitution gives \\((2,2)\\), so there is one point. Answer B.",
+      "solutionZh": "Q3. 第一象限把 \\(y=x\\) 和 \\(y=-x\\) 中只留下 \\(y=x\\)。代入圓得 \\(x=y=2\\)，只有一點。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q38-4",
+      "status": "完成",
+      "questionSha256": "5c7ddb6fc3893e55b1a27d5041704f9b02a0143fa78c337b31f1028463ca4a93",
+      "figures": [],
+      "reason": "Thales identity gives centre (3,0), radius three. Test all four line distances for tangency.",
+      "calculated": {
+        "O": [
+          3,
+          0
+        ],
+        "R2": 9,
+        "matches": [
+          false,
+          false,
+          true,
+          false
+        ]
+      },
+      "answer": "C",
+      "solution": "Q4. The locus is the circle with diameter \\(AB\\), centre \\((3,0)\\), radius 3. Thus \\(x=6\\) is tangent. Answer C.",
+      "solutionZh": "Q4. 軌跡為以 \\(AB\\) 為直徑的圓，圓心 \\((3,0)\\)、半徑 3；\\(x=6\\) 距圓心 3，故相切。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q39-1",
+      "status": "完成",
+      "questionSha256": "69f3f5b3ede911bf6975f02d671bb320e49ac244a68e548d19a80faa7b8c9756",
+      "figures": [],
+      "reason": "Recover centre (3,2) and project onto the horizontal chord.",
+      "calculated": {
+        "O": [
+          3,
+          2
+        ],
+        "R2": 25,
+        "M": [
+          3,
+          0
+        ]
+      },
+      "answer": "B",
+      "solution": "Q1. The centre is \\((3,2)\\). The perpendicular foot to the horizontal chord is its midpoint, so it is \\((3,0)\\). Answer B.",
+      "solutionZh": "Q1. 圓心為 \\((3,2)\\)。圓心到水平弦的垂足就是弦中點，故中點為 \\((3,0)\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q39-2",
+      "status": "完成",
+      "questionSha256": "73314832d30687cb9b93dd435c6ce031163a6aeb77bd5e61e5233bc7b169011a",
+      "figures": [],
+      "reason": "Both line offsets ±4sqrt(5) produce the stated six-unit chord.",
+      "calculated": {
+        "ks": [
+          -8.94427190999916,
+          8.94427190999916
+        ]
+      },
+      "answer": "B",
+      "solution": "Q2. The half-chord is 3, hence the centre-line distance is 4. Thus \\(\\frac{|k|}{\\sqrt{5}}=4\\), giving \\(k=\\pm4\\sqrt{5}\\). Answer B.",
+      "solutionZh": "Q2. 半弦為 3，所以圓心到直線距離為 4。故 \\(\\frac{|k|}{\\sqrt{5}}=4\\)，得 \\(k=\\pm4\\sqrt{5}\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q39-3",
+      "status": "完成",
+      "questionSha256": "c1e050dbbfb3d157518eed748395985308a2f2164ef4674844bd8d1298d4067b",
+      "figures": [],
+      "reason": "First verify the origin lies on the circle; its radius direction (−4,3) is normal to the tangent.",
+      "calculated": {
+        "O": [
+          4,
+          -3
+        ],
+        "R2": 25,
+        "m": 1.3333333333333333
+      },
+      "answer": "D",
+      "solution": "Q3. The radius from the origin has slope \\(-\\frac{3}{4}\\), so the tangent has slope \\(\\frac{4}{3}\\). Answer D.",
+      "solutionZh": "Q3. 半徑由原點指向圓心，斜率為 \\(-\\frac{3}{4}\\)，切線斜率為其負倒數 \\(\\frac{4}{3}\\)。答案 D。"
+    },
+    {
+      "id": "note-circle-equation-q39-4",
+      "status": "完成",
+      "questionSha256": "622fada3d3e2c371ad32bdf96a15859bd9a58e644967f3eda812d2b99e8751a5",
+      "figures": [],
+      "reason": "Restore both equations from the source sibling math-block; subtraction yields 6x+4y−14=0.",
+      "calculated": {
+        "c1": {
+          "O": [
+            2,
+            3
+          ],
+          "R2": 13
+        },
+        "c2": {
+          "O": [
+            -1,
+            1
+          ],
+          "R2": 16
+        },
+        "L": [
+          6,
+          4,
+          -14
+        ],
+        "sourceEquationsRestored": 2
+      },
+      "answer": "A",
+      "solution": "Q4. Subtracting the equations gives \\(-6x-4y+14=0\\), or \\(3x+2y-7=0\\). Answer A.",
+      "solutionZh": "Q4. 兩式相減得 \\(-6x-4y+14=0\\)，約成 \\(3x+2y-7=0\\)。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-synthesis-1",
+      "status": "完成",
+      "questionSha256": "05d2b028d1d76998f55199a346a7f5e6f8236ae824d45d6a2d144d6ed99cd645",
+      "figures": [],
+      "reason": "The perpendicular bisector of any chord passes through its circle centre (3,2); substitute into x+2y+k=0.",
+      "calculated": {
+        "O": [
+          3,
+          2
+        ],
+        "R2": 100,
+        "k": -7
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：B。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-synthesis-2",
+      "status": "完成",
+      "questionSha256": "302777df4e79d063951f4d5bcc73fb5153358bdfd1222b5d138331c7f168a391",
+      "figures": [],
+      "reason": "PM=MN fixes centre M, not N; squared radius is two.",
+      "calculated": {
+        "O": [
+          5,
+          7
+        ],
+        "R2": 2,
+        "coefficients": [
+          1,
+          1,
+          -10,
+          -14,
+          72
+        ]
+      },
+      "answer": "C",
+      "solution": "Answer: C.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：C。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-synthesis-3",
+      "status": "完成",
+      "questionSha256": "96bfa91c884ac1d32edb58c82559e0327863ea7af44448b8affd549622e77c78",
+      "figures": [],
+      "reason": "Find axis intercepts (5,0),(0,−12), then form their perpendicular bisector.",
+      "calculated": {
+        "A": [
+          5,
+          0
+        ],
+        "B": [
+          0,
+          -12
+        ],
+        "L": [
+          -10,
+          -24,
+          -119
+        ]
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：A。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-locus-synthesis-4",
+      "status": "完成",
+      "questionSha256": "b3f68953eeaf733e96919f51f3c8c757acabdd71536ae5e507fb591c0ca5fb89",
+      "figures": [],
+      "reason": "Normalize parallel normals. Midway constant is 107/120 for normal (3/5,4/5); midpoint of the two intercepts lies on it, but AB is not perpendicular to it.",
+      "calculated": {
+        "A": [
+          4.111111111111111,
+          0
+        ],
+        "B": [
+          0,
+          -5.3125
+        ],
+        "M": [
+          2.0555555555555554,
+          -2.65625
+        ],
+        "L": [
+          0.6,
+          0.8,
+          0.8916666666666667
+        ],
+        "statements": [
+          true,
+          false,
+          true
+        ]
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：B。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-teacher-mcq-locus-5star-1",
+      "status": "完成",
+      "questionSha256": "35d0e27bd384556412728183d4459b7da8cd55e36f3a71df4ab0fb737f7e8726",
+      "figures": [],
+      "reason": "a>0 makes the fixed distance OA strictly positive, so the locus is a circle rather than a point.",
+      "calculated": {
+        "O": [
+          "a",
+          "2a"
+        ],
+        "R2": "5a²",
+        "condition": "a>0",
+        "locus": "Circle"
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：B。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-teacher-mcq-locus-5star-2",
+      "status": "完成",
+      "questionSha256": "f7be4b844d835a1ea5937376a351da03fe82336482cc2ce66d071985331a81f0",
+      "figures": [],
+      "reason": "Normals are not proportional, so the two lines intersect; equal normalized distances give both angle-bisector branches.",
+      "calculated": {
+        "branches": [
+          [
+            0,
+            10,
+            0.5
+          ],
+          [
+            6,
+            0,
+            -12.5
+          ]
+        ],
+        "locus": "Pair of straight lines"
+      },
+      "answer": "D",
+      "solution": "Answer: D.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：D。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-teacher-mcq-locus-5star-3",
+      "status": "完成",
+      "questionSha256": "1f53baa2f835e1dac2318c79037737d23821a15d33e480ea27580ea6623c0208",
+      "figures": [],
+      "reason": "Distance ratio two gives Apollonius circle with centre 16/3 and radius 8/3.",
+      "calculated": {
+        "O": [
+          5.333333333333333,
+          0
+        ],
+        "R2": 7.111111111111111
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：B。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-teacher-mcq-locus-5star-4",
+      "status": "完成",
+      "questionSha256": "b70849a90c4313259c7f5ac49478a1bfdfd2d10dc728902dd18fc3658dd8ce2f",
+      "figures": [],
+      "reason": "Distance three requires |4x−3y+5|=15; retain both signed offset lines.",
+      "calculated": {
+        "lines": [
+          [
+            4,
+            -3,
+            -10
+          ],
+          [
+            4,
+            -3,
+            20
+          ]
+        ]
+      },
+      "answer": "B",
+      "solution": "Answer: B.\n\nEnglish routeWrite the fixed objects and the distance rule before choosing a locus. For two lines, classify parallel versus intersecting before forming an equation.\nTrap: An algebraic answer still needs branch, endpoint, quadrant and parameter checks.",
+      "solutionZh": "答案：B。\n\n中文路線先在草圖寫固定物件和距離規則，再判形；若是到兩線等距，必先判兩線平行還是相交。\n易錯位：代數答案還要通過分支、端點、象限和參數限制檢查。"
+    },
+    {
+      "id": "note-circle-equation-q12-1",
+      "status": "完成",
+      "questionSha256": "7682c27033d7af9158978303b905469de8b652af6d742f00f080d8cd93d851ca",
+      "figures": [],
+      "reason": "Project centre (0,4) onto 2x−y−6=0.",
+      "calculated": {
+        "O": [
+          0,
+          4
+        ],
+        "R2": 30,
+        "M": [
+          4,
+          2
+        ]
+      },
+      "answer": "C",
+      "solution": "Q1. Substitution gives \\(5x^2-40x+70=0\\). The mean x-coordinate is 4, hence midpoint y-coordinate 2. Answer C.",
+      "solutionZh": "Q1. 代 \\(y=2x-6\\) 得二次式 \\(5x^2-40x+70=0\\)，兩根平均 \\(x=4\\)，故中點 \\(y=2\\)。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q12-2",
+      "status": "完成",
+      "questionSha256": "57760f5777f5484ae086a4b207793a4097098d8904e9c7ca6514a2543d8c9669",
+      "figures": [],
+      "reason": "Set recovered R²=10−k equal to squared centre-line distance 18.",
+      "calculated": {
+        "O": [
+          -1,
+          3
+        ],
+        "R2": 18,
+        "k": -8
+      },
+      "answer": "B",
+      "solution": "Q2. Centre \\((-1,3)\\), \\(r^2=10-k\\). The squared line distance is 18, so \\(k=-8\\). Answer B.",
+      "solutionZh": "Q2. 圓心 \\((-1,3)\\)，\\(r^2=10-k\\)。到直線距離平方為 18，相切得 \\(10-k=18\\)，所以 \\(k=-8\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q12-3",
+      "status": "完成",
+      "questionSha256": "751f289335ac3a8a8a48429e1be0a7734af3239c5cee9fe76abfdd9303609e37",
+      "figures": [],
+      "reason": "Verify both stated intersections, then compute their diameter circle independently.",
+      "calculated": {
+        "O": [
+          6,
+          8
+        ],
+        "R2": 25
+      },
+      "answer": "A",
+      "solution": "Q3. The intersection points are \\((3,4),(9,12)\\). Their midpoint is \\((6,8)\\), and the new radius is 5. Answer A.",
+      "solutionZh": "Q3. 代 \\(y=4x/3\\) 得交點 \\((3,4),(9,12)\\)。中點 \\((6,8)\\)，直徑 10，故半徑 5。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q12-4",
+      "status": "完成",
+      "questionSha256": "4e346c32698fa13e3d1da68cf9dc78e55da68b829b72b603455d9afa1a085ebc",
+      "figures": [],
+      "reason": "Normalize both circles and verify all three statements, including strict intersection bounds.",
+      "calculated": {
+        "c1": {
+          "O": [
+            -1,
+            -2
+          ],
+          "R2": 79.5
+        },
+        "c2": {
+          "O": [
+            4,
+            10
+          ],
+          "R2": 169
+        },
+        "d": 13,
+        "statements": [
+          true,
+          false,
+          true
+        ]
+      },
+      "answer": "C",
+      "solution": "Q4. The centre distance is 13, so I and III are true while the radii are unequal. Answer C.",
+      "solutionZh": "Q4. 圓心距離為 13，等於 \\(C_2\\) 半徑，所以 I 真；兩半徑不等；又半徑差小於 13 小於半徑和，所以 III 真。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q40-1",
+      "status": "完成",
+      "questionSha256": "76a54d5c0822837642b6a131efe43c4f58b208d1c60ac14da9336325374d8327",
+      "figures": [],
+      "reason": "Centre (−4,−5), R=5; centre not on the line and test-point distance squared is 34.",
+      "calculated": {
+        "O": [
+          -4,
+          -5
+        ],
+        "R2": 25,
+        "statements": [
+          true,
+          false,
+          false
+        ]
+      },
+      "answer": "A",
+      "solution": "Q1. Dividing by 2 and completing the square gives\n\\[\n(x+4)^2+(y+5)^2=25.\n\\]\nThe radius is 5, so I is true. The centre \\((-4,-5)\\) is not on \\(L\\), since its distance from \\(L\\) is \\(2/\\sqrt{2}\\); hence \\(AB\\) is not a diameter. The squared distance from \\((-1,0)\\) to the centre is \\(34>25\\), so III is false. Answer A.",
+      "solutionZh": "Q1. 除以 2 並配方：\n\\[\n(x+4)^2+(y+5)^2=25.\n\\]\n所以半徑是 5，I 真。圓心 \\((-4,-5)\\) 到 \\(L\\) 的距離為 \\(\\frac{2}{\\sqrt2}\\)，不是 0，所以 \\(AB\\) 不是直徑。點 \\((-1,0)\\) 到圓心的距離平方是 \\(34>25\\)，在圓外。答案 A。"
+    },
+    {
+      "id": "note-circle-equation-q40-2",
+      "status": "完成",
+      "questionSha256": "7ed76a048e785ad9b2ad722957474be3979a03112bc1802e138b69ee907f2844",
+      "figures": [],
+      "reason": "After division by three, radius squared is 10/3, not 20/3; test point inside and centre in quadrant III.",
+      "calculated": {
+        "O": [
+          -1,
+          -3
+        ],
+        "R2": 3.333333333333333,
+        "statements": [
+          false,
+          true,
+          true
+        ]
+      },
+      "answer": "D",
+      "solution": "Q2. After division by 3,\n\\[\n(x+1)^2+(y+3)^2=\\frac{10}{3}.\n\\]\nThe area is \\(10\\pi/3\\), not \\(20\\pi/3\\). The point \\((-2,-4)\\) has squared distance 2 from the centre, so it is inside. The centre \\((-1,-3)\\) is in the third quadrant. Answer D.",
+      "solutionZh": "Q2. 除以 3 得\n\\[\n(x+1)^2+(y+3)^2=\\frac{10}{3}.\n\\]\n面積是 \\(\\frac{10\\pi}{3}\\)，I 假；\\((-2,-4)\\) 到圓心距離平方為 2，小於 \\(\\frac{10}{3}\\)，II 真；圓心 \\((-1,-3)\\) 在第三象限，III 真。答案 D。"
+    },
+    {
+      "id": "note-circle-equation-q40-3",
+      "status": "完成",
+      "questionSha256": "7f7b2061fb8b2a2b03b79bc863eb0496474b9adb476584ff67d919d312ad36dc",
+      "figures": [],
+      "reason": "Disk convexity checks the whole segment via both endpoints; dot product −14 excludes a right angle, and circle-intersection bounds are strict.",
+      "calculated": {
+        "c1": {
+          "O": [
+            -4,
+            5
+          ],
+          "R2": 13
+        },
+        "c2": {
+          "O": [
+            6,
+            2
+          ],
+          "R2": 133.25
+        },
+        "d": 10.44030650891055,
+        "statements": [
+          true,
+          false,
+          true
+        ]
+      },
+      "answer": "C",
+      "solution": "Q3. \\(G_1=(-4,5)\\), \\(r_1=\\sqrt{13}\\), \\(G_2=(6,2)\\), and \\(r_2=\\sqrt{533}/2\\). Both endpoints of \\(OG_1\\) are inside the disk \\(C_2\\), so the whole segment is inside it. The coordinate product \\((-4)(6)+5(2)=-14\\neq0\\), so II is false. The strict circle-position inequality gives two intersections. Answer C.",
+      "solutionZh": "Q3. \\(G_1=(-4,5)\\)、\\(r_1=\\sqrt{13}\\)；\\(G_2=(6,2)\\)、\\(r_2=\\frac{\\sqrt{533}}{2}\\)。\\(OG_1=\\sqrt{41}\\) 及 \\(G_1G_2=\\sqrt{109}\\) 都小於 \\(r_2\\)，故線段 \\(OG_1\\) 在圓盤 \\(C_2\\) 內。內積 \\((-4)(6)+5(2)=-14\\neq0\\)，II 假。又\n\\[\n|r_2-r_1|<\\sqrt{109}<r_1+r_2,\n\\]\n故有兩個交點。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q40-4",
+      "status": "完成",
+      "questionSha256": "cafa84c3b32339df5770261fbbf9b0070d7f65edf7aa07735704875c373f5396",
+      "figures": [],
+      "reason": "The two centres are scalar multiples. Centre distance five is smaller than r1, while still strictly between the radius difference and sum.",
+      "calculated": {
+        "c1": {
+          "O": [
+            -4,
+            -3
+          ],
+          "R2": 45
+        },
+        "c2": {
+          "O": [
+            -8,
+            -6
+          ],
+          "R2": 80.2
+        },
+        "d": 5,
+        "statements": [
+          true,
+          false,
+          true
+        ]
+      },
+      "answer": "C",
+      "solution": "Q4. \\(G_1=(-4,-3)\\), \\(r_1=3\\sqrt{5}\\), \\(G_2=(-8,-6)\\), and \\(r_2=\\sqrt{401/5}\\). The three points \\(O,G_1,G_2\\) are collinear. Since \\(G_1G_2=5<r_1\\), \\(G_2\\) is inside \\(C_1\\), so II is false. The strict radius-distance inequality gives two intersections. Answer C.",
+      "solutionZh": "Q4. \\(G_1=(-4,-3)\\)、\\(r_1=3\\sqrt{5}\\)；\\(G_2=(-8,-6)\\)、\\(r_2=\\sqrt{\\frac{401}{5}}\\)。兩個圓心和原點均在同一直線 \\(3x-4y=0\\) 上，I 真。\\(G_1G_2=5<3\\sqrt{5}\\)，所以 \\(G_2\\) 在 \\(C_1\\) 內，II 假；並且\n\\[\n|r_2-r_1|<5<r_1+r_2,\n\\]\n所以 III 真。答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q52-1",
+      "status": "完成",
+      "questionSha256": "2807d7590386ac814e5b56b63afc165175afc7d6310b7587323b4ab9f182e426",
+      "figures": [],
+      "reason": "Diameter line must pass through centre (−5/2,−k/8) and (−6,3), with slope −2.",
+      "calculated": {
+        "O": [
+          -2.5,
+          -4
+        ],
+        "R2": 25,
+        "k": 32
+      },
+      "answer": "C",
+      "solution": "Q1. The centre is \\(\\left(-\\frac{5}{2},-\\frac{k}{8}\\right)\\). Since the stated diameter passes through the centre, its slope from \\((-6,3)\\) is \\(-2\\). This gives \\(3+\\frac{k}{8}=7\\), so \\(k=32\\). Answer C.",
+      "solutionZh": "Q1. 圓心是 \\(\\left(-\\frac{5}{2},-\\frac{k}{8}\\right)\\)。直徑通過圓心，所以圓心與 \\((-6,3)\\) 的連線斜率為 \\(-2\\)：\n\\[\n\\frac{3+\\frac{k}{8}}{-6+\\frac{5}{2}}=-2\n\\Rightarrow 3+\\frac{k}{8}=7\n\\Rightarrow k=32.\n\\]\n答案 C。"
+    },
+    {
+      "id": "note-circle-equation-q52-2",
+      "status": "完成",
+      "questionSha256": "ca48045e4d842ec400b549b340674086bfa189ba0df6ea00e41b73b3879663c0",
+      "figures": [],
+      "reason": "Projection from centre (5,−7) to 3x+y−18=0 gives (8,−6).",
+      "calculated": {
+        "O": [
+          5,
+          -7
+        ],
+        "R2": 20,
+        "M": [
+          8,
+          -6
+        ]
+      },
+      "answer": "B",
+      "solution": "Q2. The centre is \\(G(5,-7)\\). The chord midpoint is the perpendicular foot from \\(G\\) to \\(3x+y-18=0\\). Intersecting the perpendicular \\(y+7=\\frac{1}{3}(x-5)\\) with the chord line gives \\((8,-6)\\). Answer B.",
+      "solutionZh": "Q2. 圓心是 \\(G(5,-7)\\)。弦中點是 \\(G\\) 到直線 \\(3x+y-18=0\\) 的垂足。垂線斜率為 \\(\\frac{1}{3}\\)，故\n\\[\ny+7=\\frac{1}{3}(x-5).\n\\]\n與 \\(y=18-3x\\) 聯立得 \\((8,-6)\\)。答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q52-3",
+      "status": "完成",
+      "questionSha256": "9d2587c17e5416d79238f5cb62279c53a459a3c4f46c1b2178a7d742eb81eab4",
+      "figures": [],
+      "reason": "Recover radii 15 and 25 and centre separation 40; contact point divides the centre segment in ratio 15:25.",
+      "calculated": {
+        "c1": {
+          "O": [
+            -4,
+            8
+          ],
+          "R2": 225
+        },
+        "c2": {
+          "O": [
+            20,
+            40
+          ],
+          "R2": 625
+        },
+        "d": 40,
+        "P": [
+          5,
+          20
+        ]
+      },
+      "answer": "B",
+      "solution": "Q3. The centres are \\((-4,8)\\), \\((20,40)\\), with radii 15 and 25. Their centre distance is 40, so the circles touch externally. Dividing the centre line in the ratio \\(15:25\\) gives \\((5,20)\\). Answer B.",
+      "solutionZh": "Q3. \\(G_1=(-4,8),r_1=15\\)，\\(G_2=(20,40),r_2=25\\)，而 \\(G_1G_2=40=r_1+r_2\\)。切點由 \\(G_1\\) 沿 \\(G_1G_2\\) 前進 \\(\\frac{15}{40}\\)：\n\\[\n(-4,8)+\\frac{15}{40}(24,32)=(5,20).\n\\]\n答案 B。"
+    },
+    {
+      "id": "note-circle-equation-q52-4",
+      "status": "完成",
+      "questionSha256": "bb39927afa3037b246889f8cb7d9eb0a611cf33e3af264f11e078ad57e450b55",
+      "figures": [],
+      "reason": "Use non-strict intersection inequality; multiplying by positive 4(m²+1) gives 7m²+10m−17≤0.",
+      "calculated": {
+        "O": [
+          -2.5,
+          0.5
+        ],
+        "R2": 4.5,
+        "bounds": [
+          -2.4285714285714284,
+          1
+        ],
+        "inclusive": true
+      },
+      "answer": "B",
+      "solution": "Q4. The circle has centre \\(\\left(-\\frac{5}{2},\\frac{1}{2}\\right)\\) and radius \\(\\frac3{\\sqrt2}\\). Requiring the centre-to-line distance to be at most the radius gives \\(7m^2+10m-17\\le0\\), hence \\(-\\frac{17}{7}\\le m\\le1\\). Answer B.",
+      "solutionZh": "Q4. 圓心是 \\(\\left(-\\frac{5}{2},\\frac{1}{2}\\right)\\)，\\(r=\\frac{3}{\\sqrt2}\\)。相交包括相切，故\n\\[\n\\frac{|-\\frac{5}{2}m-\\frac{1}{2}|}{\\sqrt{m^2+1}}\\le\\frac3{\\sqrt2}.\n\\]\n平方整理得\n\\[\n7m^2+10m-17\\le0\n\\Rightarrow -\\frac{17}{7}\\le m\\le1.\n\\]\n答案 B。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-equation-read-1",
+      "status": "完成",
+      "questionSha256": "ddddf980982398d847d3d192dc0b2ef82258be9d22060c62a09da623eade7944",
+      "figures": [
+        {
+          "src": "assets/notes/note-circle-equation-official-mcq-equation-read-1-1.svg",
+          "sha256": "a585adfbae2f377dc630b5747b11f90fdf6b855a8f728c980a5fe1118cfe0eda"
+        }
+      ],
+      "reason": "Read the same-question drawing in equal SVG coordinate units: centre is left of the y-axis, entire circle above the x-axis; extract h,k,r relative to the drawn origin rather than inventing question givens.",
+      "calculated": {
+        "drawingCoordinateUnits": {
+          "h": -60,
+          "k": 133,
+          "r": 100
+        },
+        "statements": [
+          true,
+          true,
+          false
+        ],
+        "note": "Coordinates are diagram measurement units only, not additional question data."
+      },
+      "answer": "A",
+      "solution": "Answer: A.\n\nEnglish routeRead the centre, radius and the new condition first. Test every statement from the same recovered data instead of guessing from the sketch.\nTrap: Bracket signs are opposite to the centre coordinates, and the right-hand side is the radius squared.",
+      "solutionZh": "答案：A。\n\n中文路線先讀圓心、半徑和題設新增條件；選項題逐項用同一組資料核對，不要靠圖形大小猜。\n易錯位：括號內的符號與圓心相反，而右邊是半徑的平方。"
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
   "schemaVersion": 2,
-  "revision": "bb6b7d30233c8fd4",
-  "totalQuestions": 1187,
+  "revision": "401aace4aac91429",
+  "totalQuestions": 1186,
   "chapterCount": 7,
-  "catalog": "data/catalog.66c3c04af0245f68.json",
-  "index": "data/question-index.da746f3f2c8be9ab.json",
+  "catalog": "data/catalog.ad8344bc34e93bc3.json",
+  "index": "data/question-index.d79bbd79f777e41f.json",
   "search": [
     "data/search/four-centres.ef262d4cd60411d9.json",
     "data/search/four-centres.b200f86f90868cb2.json",
     "data/search/four-centres.947fff1000609e75.json",
     "data/search/locus.659753f9d9081335.json",
     "data/search/locus.4e90f74c11a5052c.json",
-    "data/search/circle-equation.e5e332e02d56dec8.json",
-    "data/search/circle-equation.e9ccdf22fcdb1467.json",
+    "data/search/circle-equation.23647cf8fd68fe5e.json",
+    "data/search/circle-equation.2d5072be08c025d2.json",
     "data/search/polynomial.c91a6dbf0d3c825c.json",
     "data/search/polynomial.0815400086257914.json",
     "data/search/sequences.d454bb436206d9a6.json",
@@ -54,18 +54,18 @@
     },
     {
       "topicId": "circle-equation",
-      "path": "data/chapters/circle-equation.4a0fa3169f9b94c9.json",
+      "path": "data/chapters/circle-equation.b5bafa7b1c30efd1.json",
       "chunks": [
-        "data/chapters/circle-equation-chunk.eb47eda18274dcf2.json",
-        "data/chapters/circle-equation-chunk.ea3e5f6061d70070.json",
-        "data/chapters/circle-equation-chunk.326b6e3cd3dcc56d.json",
-        "data/chapters/circle-equation-chunk.0588d056957726e7.json",
-        "data/chapters/circle-equation-chunk.f7a766d755874523.json",
-        "data/chapters/circle-equation-chunk.b46fd1231d152e5b.json",
-        "data/chapters/circle-equation-chunk.8b219cb754cef095.json",
-        "data/chapters/circle-equation-chunk.8c6bbb0f1b6bc338.json"
+        "data/chapters/circle-equation-chunk.6d4056ce4090a843.json",
+        "data/chapters/circle-equation-chunk.522a4f8b4d35f9a9.json",
+        "data/chapters/circle-equation-chunk.da7dacc8e1a5e5b5.json",
+        "data/chapters/circle-equation-chunk.7e0c25ffb204e583.json",
+        "data/chapters/circle-equation-chunk.466fb4fdc78814c3.json",
+        "data/chapters/circle-equation-chunk.39fee76a201ac6b3.json",
+        "data/chapters/circle-equation-chunk.60444d18a4269800.json",
+        "data/chapters/circle-equation-chunk.4c12b438efcb00ee.json"
       ],
-      "questionCount": 229
+      "questionCount": 228
     },
     {
       "topicId": "polynomial",
@@ -104,10 +104,10 @@
     },
     {
       "topicId": "statistics",
-      "path": "data/chapters/statistics.d151a5f98d9375ee.json",
+      "path": "data/chapters/statistics.d9c5e87ca24de4cc.json",
       "chunks": [
-        "data/chapters/statistics-chunk.3999870e54de5e15.json",
-        "data/chapters/statistics-chunk.da22d5a8e312b763.json"
+        "data/chapters/statistics-chunk.e129109d5c0a635d.json",
+        "data/chapters/statistics-chunk.790e56f85f135e4f.json"
       ],
       "questionCount": 64
     }

@@ -5649,7 +5649,9 @@
       "sourceFile": "/Users/chester/Downloads/catagory big project auto/circle_equation_note/output/v10/Equation_of_Circle_Mastery_Complete_v10.html",
       "sourceSha256": "43a2743acc5d0dc10bc3526160348fc25e0f34fbe98ffb37f4d9526b0ac6db39",
       "locator": "q-Q37/2",
-      "status": "added"
+      "status": "held",
+      "reasons": ["Independently recalculated k=4 forces radius squared -48. Same source contradiction as legacy import-locus-f4d7095d86410b0c; original conditions cannot define a real circle. Preserve this ID for source-corrected restoration."],
+      "relatedHeldId": "import-locus-f4d7095d86410b0c"
     },
     {
       "id": "note-circle-equation-q37-3",

@@ -71,7 +71,7 @@
 | UX-06 | r為0.5–5，h或l為0.5–10；l≤r時調整為r+0.1；第三量、體積、總面積同步 | 標示r/h/l，虛線高度及底圓 | math-instruments.cjs畢氏關係及尺寸；expansion-instruments.cjs |
 | UX-07 | sin/cos/tan、角0–360°，單位圓投影；tan斷開漸近線；內頁淺色圖案延續 | 裝飾不擋作答、點擊；不依賴hover | math-instruments.cjs斷點；exploration.cjs、study-design.cjs |
 | UX-08 | 七課題各有對應數學符號／圖案，新增圓方程與統計；度量圓錐 | 同尺寸線寬、標題對齊及焦點 | study-design.cjs七課題計數／連結；qa/2026-10-23/ui |
-| UX-09 | 題文、翻譯、選項與操作縮間距，短選項緊湊、長文自然增高；多段／表格／圖有序 | 320px無整頁橫向溢出；公式可局部捲動；表格標題及th | imported-bank.cjs1187題；expansion-figures.cjs43題86預覽；language-recovery.cjs |
+| UX-09 | 題文、翻譯、選項與操作縮間距，短選項緊湊、長文自然增高；多段／表格／圖有序 | 320px無整頁橫向溢出；公式可局部捲動；表格標題及th | imported-bank.cjs本次1186題／48761次公式；answer-review.cjs統計64解答及圓題四寬度；前次43題圖86預覽；language-recovery.cjs |
 | UX-10 | Dashboard第二行輕微錯位；英文字體風格保留；中文無襯線、MathJax專用公式字 | 手機縮排減少，標題不壓捷徑 | study-design.cjs四寬度；qa/2026-10-23/ui/top-320.png等 |
 | UX-11 | 五片頁疊與翻頁，內頁正確三角形／內切圓及sin圖案，延續細線和頁碼 | 跳過、重播、焦點及reduced-motion；不在作答區翻書 | exploration.cjs四寬度；共享math-models幾何不變量 |
 
