@@ -11,3 +11,5 @@ QA-PRIORITY-01：本地完成，內容revision `b12f375162729ec6`，1,186題／�
 人工以原尺寸裁圖檢查五張手機作答畫面：Q187正確答案B、角平分線II/III、反射題採用完整雙語來源順序A、焦點／準線題D及無有效選項的書面題。此批沒有修改任何學生題圖；沒有PDF交付。
 
 正式發布的main commit、Actions、部署檔案hash及線上流程結果另記live-verification.json；該檔存在且revision一致才表示本批已正式驗收。
+
+QA-PRIORITY-02：正式站完成。main `412a561`／Actions39936211528成功；revision一致，143檔SHA256全部相符。線上156次作答畫面檢查及study-journey通過，詳見live-answer-report.json、live-study-journey.log及live-verification.json。文件驗收不包括其餘455項差異或六個待補來源問題。

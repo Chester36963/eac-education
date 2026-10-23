@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-23T10:04:54.967Z",
+  "baseUrl": "https://chester36963.github.io/eac-education/",
+  "releaseCommit": "412a5612da4ce43bb582880bb9a72827e370246e",
+  "workflowRunId": 39936211528,
+  "workflowConclusion": "success",
+  "contentRevision": "b12f375162729ec6",
+  "totalQuestions": 1186,
+  "chapterCount": 7,
+  "deployedFileHashes": {
+    "checked": 143,
+    "algorithm": "SHA256",
+    "scope": "Five HTML entries; bank/catalog/index/search/detail files; all JS and CSS; 43 unchanged same-question SVGs",
+    "errors": []
+  },
+  "liveBrowserTests": [
+    {
+      "suite": "priority-source-review",
+      "checks": 156,
+      "result": "passed",
+      "report": "live-answer-report.json"
+    },
+    {
+      "suite": "study-journey",
+      "result": "passed",
+      "report": "live-study-journey.log"
+    }
+  ],
+  "limits": "455 old source comparisons pending; six independent source holds/seven IDs. No student figure changes or PDF. Browser-local persistence only."
+}
