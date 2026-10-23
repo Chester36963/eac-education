@@ -9,7 +9,7 @@ Bilingual mathematics practice for Form 1–6, built around teacher-authored que
 
 ## Start locally
 
-Requires Node.js and Python 3.
+Requires Node.js and Python 3. Exact mathematics verification additionally uses pinned SymPy; install once with `python3 -m pip install -r requirements-math.txt` (or in a Python virtual environment).
 
 ```sh
 ./scripts/dev.sh
@@ -24,11 +24,11 @@ Open http://127.0.0.1:4173/. The question catalog is at http://127.0.0.1:4173/li
 | `index.html` | Full-screen book opening; fixed circumcircle with three moving/draggable vertices, dynamic incircle, O/I/G/H with Euler line and four-centre toggle, and OI distance; sine, quadratic and polygon explorations; four-centres previews; catalog-driven chapter links |
 | `library.html` | Public bilingual question search, taxonomy, counts, pagination, previews and practice links |
 | `auth.html` | Compatibility entry explaining local records; no registration/trial gate |
-| `dashboard.html` | Five interactive mathematical chapter previews, adjustable parameters/play/pause, chapter/skill directory, subject/search filters; records at `?view=record` |
+| `dashboard.html` | Seven mathematical chapter previews plus trigonometry, adjustable parameters/play/pause, chapter/skill directory, subject/search filters; records at `?view=record` |
 | `app.html` | Configurable practice sets, six question formats, study/self-test, drafts, pause/resume and review |
 | `settings.html` | Name, language, suggested level and learning-record export |
 
-The current bank contains **853 bilingual questions across five chapters**: Four Centres 254, Polynomials 154, Mensuration 217, Locus 218 and Sequences & Series 10. This includes the 37 stable EAC starter questions and 816 usable unique questions imported from the supplied HTML. All 898 source rows are accounted for: 816 published, 48 held for missing/invalid content or visuals, and 34 duplicates linked to their published originals. A per-record review recovered 64 of the original 111 holds, with labelled translations, written adaptations, re-derived solutions and seven reviewed reconstructed diagrams. A subsequent UI/content review corrected 27 specific question/solution issues and newly held one underdetermined kite question. See `docs/UI_CONTENT_REVIEW_2026-10-22.md`. Source-reported exam/mock labels are preserved, not independently authenticated. See `docs/RECOVERY_REVIEW_2026-10-22.md` and `docs/1013_IMPORT_AUDIT.md`. Written work is self-assessed and excluded from automatic accuracy.
+The current bank contains **1,186 bilingual questions across seven chapters**: four-centres 257, locus 225, circle-equation 228, polynomial 154, sequences 21, mensuration 237, statistics 64. All 853 baseline IDs remain. This includes 333 additional published IDs, source-deduplicated imports and restored questions. ASGS has 23 source records mapped to 21 independent questions. Statistics uses BC v5: 64 questions and 19 source SVGs. All 494 bilingual prompt/option comparisons and 910 source/current solution-field comparisons have documented decisions; source equality alone is not independent mathematics verification. Six remaining source issues involve seven quarantined IDs; exact conflicts, attempted derivations and next steps are recorded in [source rechecks](docs/SOURCE_HOLD_RECHECK.md). See the complete [content plan](docs/CONTENT_EXPANSION_PLAN.md), [Four Centres review](docs/FOUR_CENTRES_REVIEW.md) and [UI/UE roadmap](docs/UI_UX_ROADMAP.md). Source exam/mock labels remain source-reported; written work uses explicit self-assessment.
 
 The supplied `/Users/chester/Downloads/1013 webpage/index.html` is the imported question source. The quadrilateral HTML/PDF notes and `_build_ch8/` remain design references. Indispensable missing figures remain held; reconstructed figures use only the same question's explicit givens. No borrowed diagrams or guessed bounds were inserted. The library has collapsible refinements and an explicit English / bilingual / Chinese choice carried into practice; the question header also offers immediate language switching.
 
@@ -63,6 +63,7 @@ See [the question-bank workflow](docs/QUESTION_BANK_WORKFLOW.md), [content schem
 ## Verify and deploy
 
 ```sh
+python3 -m pip install -r requirements-math.txt
 node scripts/build-content.cjs --check
 node --test tests/*.cjs
 ./scripts/deploy.sh "Describe the update"

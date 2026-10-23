@@ -1,0 +1,1862 @@
+{
+  "version": 1,
+  "date": "2026-10-24",
+  "engine": "SymPy 1.14.0",
+  "scope": "104 independent symbolic cases; stated hypotheses, all enumerated branches, explicit existence restrictions and source limitations. Proof arguments retained in checks; numeric examples are counterexamples, not universal proofs.",
+  "records": [
+    {
+      "id": "import-four-centres-q076",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "0 = 0",
+        "2 = 2",
+        "1 = 1",
+        "True",
+        "all real algebraic roots: [-sqrt(2)/2, sqrt(2)/2]",
+        "0<k<1 selects +1/√2; website option A."
+      ],
+      "status": "完成",
+      "questionSha256": "0c5aabd6e8ea3bf4245f649be78da6cb4ca1e2b7b147b4eb9128a0c9ca394f36",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q242",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "True",
+        "41/4 = 41/4",
+        "Universal proof:two right angles and vertical angle give AA(I); A,B,D,E cyclic and collinearAH/AD,BH/BE give equal angles subtended by DB(III).II fails scalene example. AnswerB."
+      ],
+      "status": "完成",
+      "questionSha256": "a2123f31719a26f06d35120b4cb88e37da0023994dbaed67619785da5c743ae8",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q240",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "0 = 0",
+        "For all noncollinear A,B,C, strict norm triangle inequality:AM<(AB+AC)/2,BN<(AB+BC)/2. Sum<perimeter. I/II counterexamples; III/IV identities, answerD."
+      ],
+      "status": "完成",
+      "questionSha256": "c5141af8ccb0f56f521bcaef467e05cfa5fb8be322fe01d8c16978ed5f4f99bd",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q255",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "90 = 90",
+        "True",
+        "X90 forced;chooseY30,Z60 to disprove Y45 and equal-angle/isocelesYTZ. Only I, optionA."
+      ],
+      "status": "完成",
+      "questionSha256": "3f7616491804e73b4cc57d37a04130f0cad0b3d08c1dec6f0ae3728aa53a704c",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q252",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "43 = 43",
+        "Incentre givesR24°;P,Q,R collinear in that order gives exterior angle70°+x; tangent-chord angle=x. AnswerC."
+      ],
+      "status": "完成",
+      "questionSha256": "8c1978cf63d3395529f595afb441b505cbc6e34cc8281e747d33400f244ee08d",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q012",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "3 = 3",
+        "4 = 4",
+        "5*sqrt(2) = 5*sqrt(2)"
+      ],
+      "status": "完成",
+      "questionSha256": "dfce40ecb924f65d356a5e97cefc74792f022b0d518ccdc574dd81e49e61d731",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q150",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "26 = 26",
+        "26 = 26",
+        "65/2 = 65/2",
+        "78 = 78",
+        "10140 = 10140",
+        "0 = 0",
+        "91/2 = 91/2",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "f40f65cbb720197cf70a25a8149ed1055181537e57aaf29ba023816be20d05bc",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q215",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "0 = 0",
+        "-2*a*x + 10*a + x**2 - 281 = -2*a*x + 10*a + x**2 - 281",
+        "True",
+        "True",
+        "True",
+        "7 = 7",
+        "1 = 1",
+        "0 = 0"
+      ],
+      "status": "完成",
+      "questionSha256": "ce016af7c127c50066fadb2d7feed03c323c2d37c2ba865be0ab994b904d4f0b",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q015",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "0 = 0",
+        "-2*a*x + 10*a + x**2 - 281 = -2*a*x + 10*a + x**2 - 281",
+        "True",
+        "True",
+        "True",
+        "7 = 7",
+        "1 = 1",
+        "0 = 0"
+      ],
+      "status": "完成",
+      "questionSha256": "5554bd70c9e56f5e21c483d028d97c76b884f33c31d118ddedd63e9d1ed0a0e0",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q013",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "7/2 = 7/2",
+        "5/3 = 5/3"
+      ],
+      "status": "完成",
+      "questionSha256": "e21c49bce2dc3665827235a02af2e398da7e02df5a695537b0bf3628e361257c",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q192",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "-20 = -20",
+        "21 = 21",
+        "125 = 125",
+        "-40 = -40",
+        "36 = 36",
+        "60 = 60"
+      ],
+      "status": "完成",
+      "questionSha256": "d128e76900c6f91473194dbc2893dbf453b37b4a6394d1af2d3b06aae9ac2f00",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q037",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "65 = 65",
+        "65 = 65",
+        "65 = 65",
+        "130 = 130",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "21b0dcb3dd4f68cf37f66ddcd9f9814aed04d73997cacbb18a14da25118dd2ea",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q191",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "2 = 2",
+        "-4 = -4",
+        "5 = 5",
+        "169 = 169",
+        "True",
+        "Every circumcentre of P,A,R lies on perpendicular bisector AR; restricting P to positive y only gives a subset, still no intersection with radius5 circle."
+      ],
+      "status": "完成",
+      "questionSha256": "dd29a41f03d6c1f00862be6f13dfee1fd3c55d573b1df347f634a0ba1ed30ee0",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q160",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "4225 = 4225",
+        "4225 = 4225",
+        "1521 = 1521",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "12 = 12",
+        "395/6 = 395/6"
+      ],
+      "status": "完成",
+      "questionSha256": "65153ab567f2dfa496d3feb530f7f67db5f8b617482996396fa8b04a8134440e",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q140",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "4*k/5 = 4*k/5",
+        "3*k/5 = 3*k/5",
+        "k**2*m**4/(m**4 + 2*m**2 + 1) + 2*k**2*m**2/(m**4 + 2*m**2 + 1) - 2*k**2*m**2/(m**2 + 1) + k**2 + k**2/(m**4 + 2*m**2 + 1) + 2*k**2/(m**2 + 1) = 4*k**2/(m**2 + 1)",
+        "True",
+        "k**2/4 = k**2/4",
+        "-3*k**2*(k**2 - 96*k + 2112)/(4*(k - 48)**2) = -3*k**2*(k**2 - 96*k + 2112)/(4*(k - 48)**2)",
+        "True",
+        "True",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "d2a8e382843285fdf96af7c372a523e0240a4690820df699fac7da7bacd6dccd",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q016",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "0 = 0",
+        "169 = 169",
+        "2*t**2 + 26*t = 2*t*(t + 13)",
+        "t=−13 degenerates; t=0 makes chord midpoint the circle centre, k=−16.",
+        "True",
+        "91/24 = 91/24",
+        "1183/48 = 1183/48"
+      ],
+      "status": "完成",
+      "questionSha256": "a6f2646dab423dba1b55ac20bf916d68953b216d3091c04dc3e9049edcbb255b",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q014",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "4*k/5 = 4*k/5",
+        "3*k/5 = 3*k/5",
+        "k**2*m**4/(m**4 + 2*m**2 + 1) + 2*k**2*m**2/(m**4 + 2*m**2 + 1) - 2*k**2*m**2/(m**2 + 1) + k**2 + k**2/(m**4 + 2*m**2 + 1) + 2*k**2/(m**2 + 1) = 4*k**2/(m**2 + 1)",
+        "True",
+        "k**2/4 = k**2/4",
+        "-3*k**2*(k**2 - 96*k + 2112)/(4*(k - 48)**2) = -3*k**2*(k**2 - 96*k + 2112)/(4*(k - 48)**2)",
+        "True",
+        "True",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "2a614cb681ceccec7607bfa1ef7bd922bd77f6e2a48cb6b74c9151ecc5eaabe6",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q159",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "2 = 2",
+        "0 = 0",
+        "sqrt(2) = sqrt(2)",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "True",
+        "0 = 0",
+        "Selected bisector through(2,0),A has slope2; finite perpendicular-segment locus requires feet on each segment, not infinite supporting line."
+      ],
+      "status": "完成",
+      "questionSha256": "467277507b7feec01c7bde0fe446ae6b112bfc480f4b3473fb776bf1890f4772",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q141",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "100 = 100",
+        "156 = 156",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "0 = 0"
+      ],
+      "status": "完成",
+      "questionSha256": "ab8c0e037e0f903ab3eb9be31179b08f309152a8050a3272a9325f402cf6652d",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q142",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "60 = 60",
+        "90 = 90",
+        "90 = 90",
+        "90 = 90",
+        "160 = 160",
+        "47250 = 47250",
+        "25/17 = 25/17",
+        "169/1296 = 169/1296"
+      ],
+      "status": "完成",
+      "questionSha256": "ac318ac4dd5143c32a67fc49255f73ccf9a471a77c8252323287a310d271c926",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q032",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "8 = 8",
+        "4 = 4",
+        "4 = 4",
+        "84 = 84",
+        "-112*(x + 8*y - 105)*(8*x - y - 60) = (-896*x + 112*y + 6720)*(x + 8*y - 105)",
+        "0 = 0",
+        "0 = 0",
+        "0 = 0"
+      ],
+      "status": "完成",
+      "questionSha256": "0fdedc85b3a977a0e3a1d6febe0273b9abf11735816c3697be60cd9670b752bc",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q143",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "-176*m**2 + 256*m + 16 = -176*m**2 + 256*m + 16",
+        "-64*m*(3*m - 4) = -64*m*(3*m - 4)",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "9ab9bad425f79b0ee0867f3b6827c275fc14532a89d887d3cfdf0f15366087e3",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q144",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "all real algebraic roots: [4, 20]",
+        "100 = 100",
+        "100 = 100",
+        "-(5*k - 4)*(31*k + 8) = (4 - 5*k)*(31*k + 8)",
+        "1 + 10*sqrt(41)/41 = 1 + 10*sqrt(41)/41",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "ff7fa34c63aa9fb79d2bef1d1a3c9af23724597312daf4f63f56d00d93517a98",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q006",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "100 = 100",
+        "100 = 100",
+        "0 = 0",
+        "5000 = 5000",
+        "0 = 0",
+        "True",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "64deeddb59ca1fb3d15fa82882572ad035f256e4e3c37aa96986c1c72da728f1",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q145",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "289.0 = 289",
+        "0 = 0",
+        "True",
+        "21 = 21",
+        "13/2 = 13/2",
+        "True",
+        "Original triangle right at P, so H=P; centroid and circumcentre lie on median from P."
+      ],
+      "status": "完成",
+      "questionSha256": "79a2b85815a4e086f5fc19577efc8a331842610f469143a65e8ce47aa75d078b",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q035",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "5625 = 5625",
+        "15625 = 15625",
+        "0 = 0",
+        "True",
+        "128 = 128",
+        "52 = 52",
+        "30 = 30",
+        "125/2 = 125/2",
+        "144/625 = 144/625",
+        "0 = 0"
+      ],
+      "status": "完成",
+      "questionSha256": "4e8efeb3b030f3a72f46cbdbcbda35aeb963128b713871fbd12f5657dbc3a0fa",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q217",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "all real algebraic roots: [84, -1489/4]",
+        "13225 = 13225",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "73 = 73",
+        "-56 = -56",
+        "46 = 46",
+        "323/6 = 323/6",
+        "-56 = -56",
+        "115/6 = 115/6"
+      ],
+      "status": "完成",
+      "questionSha256": "56915f7999a665cd8778dcad891d15ca1e1d604878f97a38be26898072cd167e",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q003",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "625/4 = 625/4",
+        "625/4 = 625/4",
+        "0 = 0",
+        "True",
+        "25/2 - 25*sqrt(2)/4 = 25/2 - 25*sqrt(2)/4",
+        "625/4 = 625/4",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "49c97297adc1354ea4004ccf817c8b5da3b989b35cb7459aaf51d425abebefc5",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q001",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "a**2 + 280*a/9 - 9200/9 = a**2 + 280*a/9 - 9200/9",
+        "True",
+        "True",
+        "100 = 100",
+        "True",
+        "True",
+        "8 = 8",
+        "425/16 = 425/16",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "7f6f192a762e1d9306a67712cfa734205138524875f6b3876699c0d80d213f81",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q031",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "25.0 = 25",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "c0b7b3f33051fcaebf75f644d1b85b356383dcb7f8de5b087618e0dfc4dda004",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q151",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "(k - 4)*(k + 18)/2 = (k - 4)*(k + 18)/2",
+        "400 = 400",
+        "625 = 625",
+        "True",
+        "4 = 4",
+        "400 = 400",
+        "4 = 4"
+      ],
+      "status": "完成",
+      "questionSha256": "32f80c49950a624c3ba79d60c0c14b0b7098145cd7c73a4eb1a38458c4230c67",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q193",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "225 = 225",
+        "225 = 225",
+        "225 = 225",
+        "0 = 0",
+        "True",
+        "23/2 = 23/2",
+        "73/2 = 73/2",
+        "25 = 25",
+        "41 = 41",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "7481a4241cdc8097022f83dac1ecd525a962ab1d16e52d247dd91df522e174c4",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q194",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "625 = 625",
+        "625 = 625",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "33 = 33",
+        "48 = 48",
+        "1000 = 1000",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "2753b1bdf87885c3f8a89b251deb660c2a1be51637452eebbd2167b8867032dd",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q019",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "(k + 2)**2/2 + 9 = k**2/2 + 2*k + 11",
+        "-2*sqrt(5)/5 = -2*sqrt(5)/5",
+        "9 = 9",
+        "15/2 = 15/2",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "94feef0cd4e12f7630b9a9baeb17dd7f9a438df77f42bf2aa13cfa009243a169",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q018",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "(k - 1)**2 + 45 = k**2 - 2*k + 46",
+        "24*k**2 + 18*k - 42 = (k - 1)*(24*k + 42)",
+        "23*k**2 + 20*k - 88 = 23*k**2 + 20*k - 88",
+        "True",
+        "all real algebraic roots: [-10/23 + 6*sqrt(59)/23, -6*sqrt(59)/23 - 10/23]"
+      ],
+      "status": "完成",
+      "questionSha256": "7cf7f54074653c6251fc63be5117dd71bc83766eaef32354db95bee9f1e89fa2",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q198",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "500 = 500",
+        "500 = 500",
+        "200*(m - 2)*(2*m + 1) = (m + 1/2)*(400*m - 800)",
+        "Tangents slopes2 and−1/2 perpendicular. For P,G,H collinear, PH altitude equals perpendicular bisector of QR; P equidistant Q,R, including equilateral limit."
+      ],
+      "status": "完成",
+      "questionSha256": "58ab5087334660ae7627a81c0353e3088ec3e34603b6909714a673d8928ccc34",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q004",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "2400*a**2 - 4400*a - 8400 = (6*a + 7)*(400*a - 1200)",
+        "3125 = 3125",
+        "2500 = 2500",
+        "25/2 = 25/2",
+        "True",
+        "50 = 50",
+        "25 = 25",
+        "True",
+        "625 = 625",
+        "True",
+        "Tangency point lies on segment EF; tangent points on L1,L2 lie beyond F,E. Radius25 is exradius, not inradius."
+      ],
+      "status": "完成",
+      "questionSha256": "9f86d53c23ca1fcbce794dd6b8206e38b4f789cade8ef1339c52804a238a255e",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q216",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "2601 = 2601",
+        "0 = 0",
+        "7225 = 7225",
+        "138/5 = 138/5",
+        "281/5 = 281/5",
+        "-78/5 = -78/5",
+        "-181/5 = -181/5",
+        "13005/4 = 13005/4",
+        "13005/4 = 13005/4",
+        "0 = 0",
+        "13005/4 = 13005/4",
+        "V unrestricted on K-circle except T,U; no unique V follows from stated conditions. Scheme example valid, uniqueness not implied."
+      ],
+      "status": "完成",
+      "questionSha256": "c1291f4b946b8d9eeb957ed2c436604fd08b32aa9ef38378eb78c91c3b3c8c15",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q146",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "0 = 0",
+        "9*k = 9*k",
+        "17*k = 17*k",
+        "160*k**2 = 160*k**2",
+        "True",
+        "all real algebraic roots: [1/5, -1/3]",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "fed4cce28686bd671191759d9e51f28e3b83403818ed1878af215c469febf0dd",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q030",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "-4 = -4",
+        "-48 = -48",
+        "True",
+        "-4 = -4",
+        "27/2 = 27/2"
+      ],
+      "status": "完成",
+      "questionSha256": "700c1d8be7429801c8085bbe11eb81224caad0ffe3e2a971573e0b0c4114e94e",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q201",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "4*k + 2 = 4*k + 2",
+        "10 - k = 10 - k",
+        "2*k + 12 = 2*k + 12",
+        "-k - 4 = -k - 4",
+        "53*k**2/49 - 530*k/49 + 3922/49 = 53*k**2/49 - 530*k/49 + 3922/49",
+        "53*k**2/49 - 530*k/49 + 3922/49 = 53*k**2/49 - 530*k/49 + 3922/49",
+        "53*(k - 12)*(k + 2)/49 = (k + 2)*(53*k/49 - 636/49)",
+        "k14 gives R=S: degenerate and not a circumcentre; square k12 nondegenerate. Dot-product proof does not divide by slopes at k3 or7."
+      ],
+      "status": "完成",
+      "questionSha256": "30a239088854adc2a5ecafdf6ea9c1726705218c37975f4e0c82be68c6a7298f",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q207",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k - 2 = k - 2",
+        "k**2 - 4*k - 19 = k**2 - 4*k - 19",
+        "True",
+        "5 = 5",
+        "2 = 2",
+        "0 = 0",
+        "-8 = -8"
+      ],
+      "status": "完成",
+      "questionSha256": "45c2b4a020cb730f6f9c6be0ef7a8b54f265635ada9ee6018868e1108a6baa68",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q161",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "m - 2 = m - 2",
+        "m**2 - 12 = m**2 - 12",
+        "-m - 6 = -m - 6",
+        "m**2 - 16 = m**2 - 16",
+        "-m/2 - 5 = -m/2 - 5",
+        "m**2 - 15 = m**2 - 15",
+        "3*(m - 6)*(3*m + 10)/2 = (3*m - 18)*(3*m + 10)/2",
+        "True",
+        "0 = 0",
+        "29/2 = 29/2"
+      ],
+      "status": "完成",
+      "questionSha256": "54a1a6a0aa850839683d373e71174990a10ea0b767fd59cc3a121897c1041abf",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q206",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "2*k = 2*k",
+        "3*k**2 + 2 = 3*k**2 + 2",
+        "2*k = 2*k",
+        "-3*k**2 - 1 = -3*k**2 - 1",
+        "1/2 = 1/2",
+        "-6*k*(2*k**2 + 1) = -6*k*(2*k**2 + 1)",
+        "Upper and lower graphs separated by at least6k²+3 vertically, equality only at both vertices; k0 gives collinearity with O."
+      ],
+      "status": "完成",
+      "questionSha256": "26dee3d8db50849cb9a3d28a403603476f6306fe992c874a8b6cc923006bd78a",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q028",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k = k",
+        "k**2 + 5 = k**2 + 5",
+        "-8*k**2 - 40 = -8*k**2 - 40",
+        "1 = 1",
+        "-2*k**3 - 8*k = -2*k*(k**2 + 4)",
+        "k=0 collinear; no circumcentre. For nonzero k its y coordinate is1."
+      ],
+      "status": "完成",
+      "questionSha256": "7a8d7853dce5b5a004f96f2e249c953f497a905633bec95810a36a24a60c36ce",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q158",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "3*k = 3*k",
+        "6*k**2 + 6 = 6*k**2 + 6",
+        "3*k = 3*k",
+        "12*k**2 - 2 = 12*k**2 - 2",
+        "24*k**2 + 24 = 24*k**2 + 24",
+        "9*k**2 + 2 = 9*k**2 + 2",
+        "6*k*(3*k**2 - 4) = 6*k*(3*k**2 - 4)",
+        "k nonzero still allows ±2/√3 where A=B. Qualification required for existence."
+      ],
+      "status": "完成",
+      "questionSha256": "1c3b791b4f2b5b7a1949c53b1457a7e29862692f73c44f46a2e394e79dfb3202",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q197",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "2*a = 2*a",
+        "-a**2 - 1 = -a**2 - 1",
+        "2*a + 1 = 2*a + 1",
+        "-a**2 - 2 = -a**2 - 2",
+        "2*a + 1 = 2*a + 1",
+        "a**2 + 2 = a**2 + 2",
+        "12 = 12",
+        "True",
+        "1 = 1",
+        "0 = 0",
+        "0 = 0",
+        "0 = 0",
+        "4*sqrt(13)/13 = 4*sqrt(13)/13"
+      ],
+      "status": "完成",
+      "questionSha256": "3f14429553205a846a42ca2ec59ac108fd4d58623145684a1c84a27ffeba2f80",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q219",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "-m = -m",
+        "-m - 6 = -m - 6",
+        "-m = -m",
+        "m = m",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "Inequality(24−m)/5>m/4 iff m<32/3; all positive integers1..10."
+      ],
+      "status": "完成",
+      "questionSha256": "f85a0dde79f32f8af230885e3fb967dc366e1931848dfd6c07392811f16d617e",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q011",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "4*k + 3 = 4*k + 3",
+        "-2*k - 4 = -2*k - 4",
+        "4*k + 9 = 4*k + 9",
+        "2*k + 4 = 2*k + 4",
+        "4*k + 6 = 4*k + 6",
+        "0 = 0",
+        "4*k**2 + 16*k + 25 = 4*(k + 2)**2 + 9",
+        "0 = 0",
+        "8*k**2 + 32*k + 50 = 8*(k + 2)**2 + 18",
+        "Right-angle locus excludes both endpoints; k=−2 gives vertical second diagonal x=−2."
+      ],
+      "status": "完成",
+      "questionSha256": "64563014a6d8b651e8bf577858953db11ea676c00955a77c7d5cc254a76ffdab",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q050",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "5*k**3/(5*k + 1) - k**2 - 9*k**2/(5*k + 1) + 2*k - 147*k/(5*k + 1) + 29 - 29/(5*k + 1) = 0",
+        "5*k**3/(5*k + 1) - k**2 - 9*k**2/(5*k + 1) + 2*k - 147*k/(5*k + 1) + 29 - 29/(5*k + 1) = 0",
+        "(k - 1)*(5*k**2 + 31*k + 244)/(5*k + 1) = (k - 1)*(5*k**2 + 31*k + 244)/(5*k + 1)",
+        "-3919 = -3919"
+      ],
+      "status": "完成",
+      "questionSha256": "1df7d30ac05d0b94c9a65eaad6195880c06710628cf44bc97d1b8a0b1017c4e7",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q157",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "2*k = 2*k",
+        "2 - 4*k**2 = 2 - 4*k**2",
+        "2*k = 2*k",
+        "8*k**2 + 1 = 8*k**2 + 1",
+        "0 = 0",
+        "0 = 0",
+        "For k>0, xS=4k(1−4k²)<0 iff k>1/2; yS=2 positive. This excludes coincident U,V at k²=1/12."
+      ],
+      "status": "完成",
+      "questionSha256": "637371e636361d66e3ce332a29b6215e2bd9f65ea7d675d0bd30a7ce69104107",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q165",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k - 4 = k - 4",
+        "25 = 25",
+        "15*k**3/(15*k + 140) - k**2 + 140*k**2/(15*k + 140) + 3510*k/(15*k + 140) - 234 + 32760/(15*k + 140) = 0",
+        "15*k**3/(15*k + 140) - k**2 + 140*k**2/(15*k + 140) + 3510*k/(15*k + 140) - 234 + 32760/(15*k + 140) = 0",
+        "3*(k - 2)*(2*k**2 - 62*k + 711)/(2*(3*k + 28)) = (3*k - 6)*(2*k**2 - 62*k + 711)/(6*k + 56)",
+        "-1844 = -1844"
+      ],
+      "status": "完成",
+      "questionSha256": "0df17ef7c2c987af466dd05ed45bb28d9b29acb23bc1baab01a39b86c1a86a6d",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q259",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k + 9 = k + 9",
+        "k + 3 = k + 3",
+        "k/2 + 9/2 = k/2 + 9/2",
+        "k - 1 = k - 1",
+        "-(k + 5)*(k + 21)/2 = (-k - 5)*(k + 21)/2",
+        "0 = 0",
+        "132 = 132"
+      ],
+      "status": "完成",
+      "questionSha256": "f4f87a3cf41b59685c82cd04170dfaba3043eec04f371176346b2cefeac7d97c",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q226",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k - 4 = k - 4",
+        "25 = 25",
+        "15*k**3/(15*k + 140) - k**2 + 140*k**2/(15*k + 140) + 3510*k/(15*k + 140) - 234 + 32760/(15*k + 140) = 0",
+        "15*k**3/(15*k + 140) - k**2 + 140*k**2/(15*k + 140) + 3510*k/(15*k + 140) - 234 + 32760/(15*k + 140) = 0",
+        "3*(k - 2)*(2*k**2 - 62*k + 711)/(2*(3*k + 28)) = (3*k - 6)*(2*k**2 - 62*k + 711)/(6*k + 56)",
+        "-1844 = -1844"
+      ],
+      "status": "完成",
+      "questionSha256": "7ea7af5d143ee614c97ae133f828b810b255179d01c69e8ba9ffba315d11ec05",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q205",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "4*a*k**2 - 12*k**2 = 4*k**2*(a - 3)",
+        "k = k",
+        "k**2 + 2 = k**2 + 2",
+        "2*k = 2*k",
+        "k**2 + k + 2 = k**2 + k + 2",
+        "3*k**2 - k = k*(3*k - 1)",
+        "k>1/3 ensures QR vertical distinct; altitude through P has y=k²+2>0, cannot meet x-axis."
+      ],
+      "status": "完成",
+      "questionSha256": "554e62bbb80e6f99b14d54a128c347fab176564d9827032768bb74be38106f97",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q208",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "3*k + 6 = 3*k + 6",
+        "-6*k = -6*k",
+        "6 = 6",
+        "-3*k = -3*k",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "9/(sqrt(2) + sqrt(5) + 3) = 9/(sqrt(2) + sqrt(5) + 3)",
+        "3*sqrt(10)/2 = 3*sqrt(10)/2",
+        "27/2 = 27/2",
+        "True",
+        "True",
+        "All relative vectors scale with k>0; inequality preserved by k."
+      ],
+      "status": "完成",
+      "questionSha256": "87fe191a1142814f2830dc144dd198558e92221ed854a478c18ab16144522a5a",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q227",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "2*a = 2*a",
+        "-a**2 - 1 = -a**2 - 1",
+        "2*a + 1 = 2*a + 1",
+        "-a**2 - 2 = -a**2 - 2",
+        "2*a + 1 = 2*a + 1",
+        "a**2 + 2 = a**2 + 2",
+        "12 = 12",
+        "True",
+        "1 = 1",
+        "0 = 0",
+        "0 = 0",
+        "0 = 0",
+        "4*sqrt(13)/13 = 4*sqrt(13)/13"
+      ],
+      "status": "完成",
+      "questionSha256": "363756708e3b3f4165e6c2747a43a2f06f0059d22007c79e02bfc7b1ea7e0d9c",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q221",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "4*k + 3 = 4*k + 3",
+        "-2*k - 4 = -2*k - 4",
+        "4*k + 9 = 4*k + 9",
+        "2*k + 4 = 2*k + 4",
+        "4*k + 6 = 4*k + 6",
+        "0 = 0",
+        "4*k**2 + 16*k + 25 = 4*(k + 2)**2 + 9",
+        "0 = 0",
+        "8*k**2 + 32*k + 50 = 8*(k + 2)**2 + 18",
+        "Right-angle locus excludes both endpoints; k=−2 gives vertical second diagonal x=−2."
+      ],
+      "status": "完成",
+      "questionSha256": "06594bca6e91096ee62ebf591f9d7dc442467800ed10b2b61a7e0c02a8b7d40f",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q163",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "17 - 12*k = 17 - 12*k",
+        "2*k = 2*k",
+        "12*k + 17 = 12*k + 17",
+        "2*k = 2*k",
+        "True",
+        "17 = 17",
+        "8 = 8",
+        "6 = 6",
+        "25/2 = 25/2",
+        "192 = 192",
+        "144/625 = 144/625",
+        "All displacements from(17,0) scale by k>0, so r=6k,R=25k/2,area192k²."
+      ],
+      "status": "完成",
+      "questionSha256": "0ac9f61488803b5330f3f0d1e0869063b2263ffa00da1255efbe52039d30a059",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q200",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "53 - 24*k = 53 - 24*k",
+        "7*k + 62 = 7*k + 62",
+        "53 - 24*k = 53 - 24*k",
+        "62 - 7*k = 62 - 7*k",
+        "53 = 53",
+        "62 = 62",
+        "625*k**2 = 625*k**2",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "98 = 98",
+        "122 = 122",
+        "30 = 30",
+        "4800 = 4800",
+        "True",
+        "True",
+        "True",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "e205c052d65dcd917dabde84662e4c8e701b242fb7a201c9b50994c8353bdaaa",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q008",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "-3*(k - 48)*(5*k - 156) = (144 - 3*k)*(5*k - 156)",
+        "10000 = 10000",
+        "10000 = 10000",
+        "14400 = 14400",
+        "6912 = 6912",
+        "32 = 32",
+        "64/625 = 64/625"
+      ],
+      "status": "完成",
+      "questionSha256": "1673f32bfd05cbd4a3705df1a82f31981291c5400e4c52088197f6c23318be9b",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q021",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "-2*k - 2 = -2*k - 2",
+        "2*k = 2*k",
+        "-6*(k - 1)*(2*k - 1) = (6 - 6*k)*(2*k - 1)",
+        "True",
+        "2*sqrt(10) = 2*sqrt(10)",
+        "5*sqrt(10) = 5*sqrt(10)",
+        "4/25 = 4/25"
+      ],
+      "status": "完成",
+      "questionSha256": "1d861b790b093a2ea3fd1269b34931502632e32658d3cd78e045f1aecd606197",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q010",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "(-12*k - 24)/(k + 2) = -12",
+        "2*k + 3 = 2*k + 3",
+        "4*k - 4 = 4*k - 4",
+        "2*(2*k - 3)*(5*k - 11) = (4*k - 6)*(5*k - 11)",
+        "-8*(k + 2)*(2*k - 3) = (-8*k - 16)*(2*k - 3)",
+        "True",
+        "3 = 3",
+        "1 = 1",
+        "sqrt(10) = sqrt(10)",
+        "157 = 157"
+      ],
+      "status": "完成",
+      "questionSha256": "07765b0b111a1c5ad10c288c6c03bf6e44aaff31ec0704684e68dc32523db53b",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q033",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "(33*k + 33)/(k + 1) = 33",
+        "3*k - 1 = 3*k - 1",
+        "28 - 9*k = 28 - 9*k",
+        "45*(k - 3)*(2*k + 1) = (2*k + 1)*(45*k - 135)",
+        "180 = 180"
+      ],
+      "status": "完成",
+      "questionSha256": "e970aabca2ad7fbc404d6779d6feb605e2356e99b6763181d8d6f1c069789832",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q220",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "4*k = 4*k",
+        "2*k**2 - 2 = 2*k**2 - 2",
+        "2*(k - 4)*(7*k + 74) = (2*k - 8)*(7*k + 74)",
+        "1156 = 1156",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "b2f70fc203ec1b15760ad43d6df678d50081760eda49c1e78d829efc5c2e1e0d",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q235",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k + 16 = k + 16",
+        "4 = 4",
+        "-k - 4 = -k - 4",
+        "4 = 4",
+        "6 = 6",
+        "4 = 4",
+        "18 = 18",
+        "12 = 12",
+        "-(k - 14)*(k + 34) = -k**2 - 20*k + 476",
+        "True",
+        "all real algebraic roots: [14, -34]",
+        "True",
+        "6 = 6",
+        "-19 = -19",
+        "sqrt(1105) = sqrt(1105)",
+        "1345 = 1345",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "d8050661f97074918c496574149ccab45e7900eec980f7f06f12028156afd2d5",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q234",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "3*k + 1 = 3*k + 1",
+        "3*k + 3 = 3*k + 3",
+        "3*k - 13 = 3*k - 13",
+        "-3*k - 3 = -3*k - 3",
+        "-70*(k - 7) = 490 - 70*k",
+        "True",
+        "31 = 31",
+        "-14/3 = -14/3",
+        "169/300 = 169/300"
+      ],
+      "status": "完成",
+      "questionSha256": "8025eef8b7e1d9937443d82d5fd1b4c51d8cd91461500823c57fa6c4a37c1a59",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q232",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k = k",
+        "k = k",
+        "15*k = 15*k",
+        "k = k",
+        "True",
+        "6 = 6",
+        "19/4 = 19/4",
+        "7 = 7",
+        "5 = 5",
+        "4 = 4",
+        "84 = 84",
+        "sqrt(17)/4 = sqrt(17)/4",
+        "4 - sqrt(17)/4 = 4 - sqrt(17)/4",
+        "k>0 scales triangle, centres and distances linearly."
+      ],
+      "status": "完成",
+      "questionSha256": "00880633cd98dd427705dec828be92a67c399684df551b64c2da31787bd87da4",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q225",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k + 6 = k + 6",
+        "k + 7 = k + 7",
+        "-2*(k - 35)/5 = 14 - 2*k/5",
+        "True",
+        "-27/5 = -27/5",
+        "42 = 42",
+        "246/5 = 246/5",
+        "42 = 42",
+        "168/5 = 168/5",
+        "232/41 = 232/41"
+      ],
+      "status": "完成",
+      "questionSha256": "e2ca53f21c9c82bcb2a975d21c8fa1c8609b8682baa13352902744fbb420870d",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q224",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k = k",
+        "-3*k = -3*k",
+        "k = k",
+        "3*k = 3*k",
+        "-8*k**2 + 160*k = -8*k*(k - 20)",
+        "True",
+        "200 - 60*sqrt(10) = 200 - 60*sqrt(10)",
+        "True",
+        "k=−2 undefined function;k=0 degenerate triangle, so k20 only valid altitude root."
+      ],
+      "status": "完成",
+      "questionSha256": "dabc98f976bc9b7b7c77bf6f292fdf76bd7969c883eebf710d662ec52b697d39",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q147",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "2*k**2 = 2*k**2",
+        "2*k = 2*k",
+        "2*k**2/3 = 2*k**2/3",
+        "-2*k = -2*k",
+        "4*k**4/3 - 4*k**2 = 4*k**2*(k**2 - 3)/3",
+        "True",
+        "2 = 2",
+        "-4 + 2*sqrt(3) = -4 + 2*sqrt(3)",
+        "-2 + 2*sqrt(3) = -2 + 2*sqrt(3)",
+        "4 = 4",
+        "(-2 + 2*sqrt(3))**2 = 16 - 8*sqrt(3)"
+      ],
+      "status": "完成",
+      "questionSha256": "d4454ac554d5e6f6a156f497b02104e3c1b0c179badd76d3dae692fb85f7c169",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q228",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k = k",
+        "9 = 9",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "0 = 0",
+        "16 = 16",
+        "0 = 0",
+        "4 = 4",
+        "4 = 4",
+        "0 = 0",
+        "-7/2 = -7/2",
+        "25/2 = 25/2",
+        "625/4 = 625/4",
+        "True",
+        "all real algebraic roots: [-12, 12]",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "f8914b665a548e3ff58c55ffac3f181c2f4c3d685dbc450000d35d88bda1acb3",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q233",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "4 - 18*m = 4 - 18*m",
+        "24*m + 12 = 24*m + 12",
+        "18*m + 4 = 18*m + 4",
+        "12 - 24*m = 12 - 24*m",
+        "True",
+        "-8 = -8",
+        "3 = 3",
+        "-3 = -3",
+        "27/4 = 27/4",
+        "Relative to(4,12), every vector scales by m>0.",
+        "45*m**2/4 - 45*m = 45*m*(m - 4)/4",
+        "625 = 625",
+        "625 = 625"
+      ],
+      "status": "完成",
+      "questionSha256": "7fb12ac3bb01bbc4979526383cb63f0bcf8d5fb07e6ab1df41c1dc8fa399ed36",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q231",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "2*k - 3 = 2*k - 3",
+        "-441 = -441",
+        "True",
+        "all real algebraic roots: [-13, 16]",
+        "0 = 0",
+        "0 = 0",
+        "0 = 0",
+        "True",
+        "True",
+        "164096 = 164096"
+      ],
+      "status": "完成",
+      "questionSha256": "c897c606868d8cf8d0249c34860f8bcfdd5ad7164af201bb48a1c0ace982537c",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q257",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "1 - k = 1 - k",
+        "k**2 + 1 = k**2 + 1",
+        "-4*k**2 - 4 = -4*k**2 - 4",
+        "k**4 + 11*k**2 + 12 = k**4 + 11*k**2 + 12",
+        "4*(k - 3)*(k - 2)*(k**3 + 6*k - 5) = (k - 2)*(4*k - 12)*(k**3 + 6*k - 5)",
+        "-8*k**2 - 2*k - 10 = -8*k**2 - 2*k - 10",
+        "True",
+        "0 = 0",
+        "True",
+        "True",
+        "0 = 0",
+        "True",
+        "Signed incentre equation forces k>1; cubic k³+6k−5>0 there so k2,3 only; OU·OV positive excludes orthocentreO; OUVangle not90 excludes circumcentre onOV."
+      ],
+      "status": "完成",
+      "questionSha256": "546901b5dbf653ed239fcaf197a39eb00bdeec9346721f6739344583b632463e",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q164",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k = k",
+        "-3*k = -3*k",
+        "k = k",
+        "3*k = 3*k",
+        "-8*k**2 + 160*k = -8*k*(k - 20)",
+        "True",
+        "200 - 60*sqrt(10) = 200 - 60*sqrt(10)",
+        "True",
+        "k=−2 undefined function;k=0 degenerate triangle, so k20 only valid altitude root."
+      ],
+      "status": "完成",
+      "questionSha256": "d68d9bf68008dde19665795073bf23f207a1d63d9c0a23fcbd0c92290e1ef348",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q230",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k + 1 = k + 1",
+        "k**2 - 79 = k**2 - 79",
+        "1 = 1",
+        "0 = 0",
+        "True",
+        "all real algebraic roots: [-79/8, -8, 8, 79/8]",
+        "True",
+        "120 = 120",
+        "17/8 = 17/8",
+        "True",
+        "93615/512 = 93615/512",
+        "17/8 = 17/8",
+        "True",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "780c9f0154dd9069632eb7b8aee17bd9169323a4ff3314270e8a8e286c14db59",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q229",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "-k = -k",
+        "k**2 - 1 = k**2 - 1",
+        "k + 6 = k + 6",
+        "k**2 - 1 = k**2 - 1",
+        "(2*k + 6)**2 - 100 = (k + 8)*(4*k - 8)",
+        "True",
+        "3 = 3",
+        "18 = 18",
+        "True",
+        "True",
+        "45/2 = 45/2",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "8d51dc7fb93a071719a5c070fa44d0b4272ff1e477e96d54458e9f1facf73722",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q034",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "-4*(3*k**2 + 2*k + 12) = -12*k**2 - 8*k - 48",
+        "-140 = -140"
+      ],
+      "status": "完成",
+      "questionSha256": "05e5d60b210db9ec6787b180598d1512affe6d21c80db6d4072098b7da61d384",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q005",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k - 1 = k - 1",
+        "4 - k = 4 - k",
+        "0 = 0",
+        "0 = 0",
+        "16 - 4*k = 16 - 4*k",
+        "True",
+        "For k<0, 16−4k>4−k (difference12−3k>0), hence Q above downward parabola maximum."
+      ],
+      "status": "完成",
+      "questionSha256": "d8f2bfb0a89acf3ed06ec5dd0cf5c8107e62d2058ca8523877c319aeab2a3f71",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q256",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k - 2 = k - 2",
+        "-4 = -4",
+        "k + 2 = k + 2",
+        "8 = 8",
+        "16 - 8*k = 16 - 8*k",
+        "0 = 0",
+        "-4 = -4",
+        "t**2 + 8*t + 16 = (t + 4)**2",
+        "Only yaxis circle intersectionP=U, hence degenerate, no valid triangle."
+      ],
+      "status": "完成",
+      "questionSha256": "5088f21a15709d555f4bb30861f60da402cf6b30a7bf4e412340832581b95248",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q202",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "1 = 1",
+        "k - 1 = k - 1",
+        "-k - 3 = -k - 3",
+        "2*k**2 - 12*k = 2*k*(k - 6)",
+        "5 = 5",
+        "-9 = -9",
+        "-1 = -1",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "82b6ac6d123a8f6f2a4cbe9397808909d3a84609b5493a9669276a1b3e18348e",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q166",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k - 12 = k - 12",
+        "True",
+        "k + 8 = k + 8",
+        "k - 39/2 = k - 39/2",
+        "25/2 = 25/2",
+        "625/4 = 625/4",
+        "k - 2 = k - 2",
+        "k - 49/2 = k - 49/2",
+        "BP horizontal, circle lowest point R maximises perpendicular height; t=k+7/2 gives stated S."
+      ],
+      "status": "完成",
+      "questionSha256": "4f01b3ebc98dc41dc5009b4cb448e7ec37000a41b07c4002b389ce15a44c924a",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q009",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "164*k**2 - 32*k + 336 = 164*k**2 - 32*k + 336",
+        "100*k**2 + 96*k - 592 = (k - 2)*(100*k + 296)",
+        "833/4 = 833/4",
+        "833/4 = 833/4",
+        "-219392 = -219392"
+      ],
+      "status": "完成",
+      "questionSha256": "afa9347c17321f342b1d0b83e180bba6d16942337c8d01e79609a135fad3e979",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q007",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "2*m - 3 = 2*m - 3",
+        "20*m - 5 = 20*m - 5",
+        "12 - 8*m = 12 - 8*m",
+        "20*m - 5 = 20*m - 5",
+        "-10*(m - 4)*(2*m - 3) = (40 - 10*m)*(2*m - 3)",
+        "True",
+        "True",
+        "15 = 15",
+        "125/2 = 125/2",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "61ce1a260b45fe8bcfc2572ce6b34b9d937d2325058143c373d9203653048948",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q203",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "-2*k = -2*k",
+        "2*k - 1 = 2*k - 1",
+        "2*k = 2*k",
+        "1 - 2*k = 1 - 2*k",
+        "0 = 0",
+        "0 = 0",
+        "P,Q opposite; centroid=(P+Q+R)/3=R/3, hence O,R,G collinear for every allowed nondegenerate R."
+      ],
+      "status": "完成",
+      "questionSha256": "996154e3c4e524a319c6eedbce05c4bc2177003c035dad4798a0853059d53225",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q162",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k = k",
+        "-3*k**2 - 12 = -3*k**2 - 12",
+        "-k = -k",
+        "21 - 3*k**2 = 21 - 3*k**2",
+        "k*(3*k**2 - 10) = k*(3*k**2 - 10)",
+        "True",
+        "all real algebraic roots: [-sqrt(30)/3, sqrt(30)/3]"
+      ],
+      "status": "完成",
+      "questionSha256": "1165098d5626bbd9d069517631ddb0dfda26cd1627c6343fb517a5237c9ba113",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q049",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "all real algebraic roots: [-8, -13/8]",
+        "17 = 17",
+        "True",
+        "True",
+        "True",
+        "612 = 612",
+        "625 = 625",
+        "625 = 625",
+        "625 = 625",
+        "625 = 625",
+        "21 = 21",
+        "5 = 5"
+      ],
+      "status": "完成",
+      "questionSha256": "b6e14329ec261c3b8f3705abf8f25f12ab9e8453892ea4a69f2649bd2426d18d",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q036",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "t**2 + 373 + 15876/t**2 = t**2 + 373 + 15876/t**2",
+        "t**2 + 373 + 15876/t**2 = t**2 + 373 + 15876/t**2",
+        "0 = 0",
+        "576 = 576",
+        "True",
+        "20 = 20",
+        "15 = 15",
+        "25 = 25",
+        "75/4 = 75/4",
+        "14 = 14",
+        "21/2 = 21/2",
+        "11/12 = 11/12"
+      ],
+      "status": "完成",
+      "questionSha256": "54f59a8bd4b8b8c0a597827b7abec9187fe76ba2920bd906ad85593ab68fa840",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q199",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "100*t**2 - 10800*t + 439200 - 7776000/t + 51840000/t**2 = 100*t**2 - 10800*t + 439200 - 7776000/t + 51840000/t**2",
+        "100*t**2 - 10800*t + 439200 - 7776000/t + 51840000/t**2 = 100*t**2 - 10800*t + 439200 - 7776000/t + 51840000/t**2",
+        "0 = 0",
+        "0.3333333333333333 = 1/3",
+        "True",
+        "True",
+        "S lies on segment OP:0<3t<120. Extension solution t45 excluded by that segment condition.",
+        "True",
+        "60 = 60",
+        "20 = 20",
+        "96 = 96",
+        "32 = 32",
+        "72 = 72",
+        "24 = 24",
+        "1/2 = 1/2"
+      ],
+      "status": "完成",
+      "questionSha256": "571241c6b90b7fab7d746aace8a4ae24d63fb0b1a6ed46dafd44571bf6df565f",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q152",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "k**4/144 - 7*k**3/24 + 81*k**2/16 - 42*k + 585 = k**4/144 - 7*k**3/24 + 81*k**2/16 - 42*k + 585",
+        "k**4/144 - 7*k**3/24 + 81*k**2/16 - 42*k + 585 = k**4/144 - 7*k**3/24 + 81*k**2/16 - 42*k + 585",
+        "True",
+        "7 = 7",
+        "14/3 = 14/3",
+        "14/3 = 14/3",
+        "True",
+        "65/3 = 65/3",
+        "65/14 = 65/14",
+        "0 = 0"
+      ],
+      "status": "完成",
+      "questionSha256": "c0839a035560b6afc0e8e56324a9b6302c5195f5b5c6baede0df8449b9e6f3c7",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q002",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "t**2 + 450 + 50625/t**2 = t**2 + 450 + 50625/t**2",
+        "t**2 + 450 + 50625/t**2 = t**2 + 450 + 50625/t**2",
+        "0 = 0",
+        "0 = 0",
+        "-t**2 + (45 - t)**2 - 225 = 1800 - 90*t",
+        "True",
+        "15 = 15",
+        "30 = 30",
+        "35/4 = 35/4",
+        "30 = 30",
+        "15 = 15",
+        "125/4 = 125/4",
+        "25/4 = 25/4",
+        "10 = 10"
+      ],
+      "status": "完成",
+      "questionSha256": "034f67b7f40950ab1a80e3afff58c8173d4d0d1c81a20828a83f93e8f3265c38",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q153",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "-85/2 = -85/2",
+        "30 = 30",
+        "45/2 = 45/2",
+        "-143/4 = -143/4",
+        "21 = 21",
+        "True",
+        "51/100 = 51/100"
+      ],
+      "status": "完成",
+      "questionSha256": "2cfca021c295683641ddedc2a65f42118a39da68ab875f8d4e96acf213cace4d",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q149",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "t**2 + 425 + 10000/t**2 = t**2 + 425 + 10000/t**2",
+        "t**2 + 425 + 10000/t**2 = t**2 + 425 + 10000/t**2",
+        "2*t**2 - 450 = 2*t**2 - 450",
+        "True",
+        "10 = 10",
+        "30 = 30",
+        "25/3 = 25/3",
+        "25 = 25",
+        "0 = 0",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "b7e4119927b9d5e2ff6e6fdc5f2e5a30da4215538046e55fb944496015dc610f",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q155",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "10*(m - 11)*(m - 9) = (m - 9)*(10*m - 110)",
+        "True",
+        "7 = 7",
+        "6 = 6",
+        "2 = 2",
+        "5 = 5",
+        "7 = 7",
+        "9 = 9",
+        "4 = 4",
+        "True",
+        "0 = 0",
+        "True",
+        "True",
+        "3 = 3"
+      ],
+      "status": "完成",
+      "questionSha256": "777faa24c04c1a18e4ee2f2268b7978be122ab9a5e4d4620acde4d4f05b46df2",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q022",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "211*k + 40512 = 211*k + 40512",
+        "-192.0 = -192",
+        "24336 = 24336",
+        "97344 = 97344",
+        "sqrt(2)*(-156 + 144*sqrt(2)) = 288 - 156*sqrt(2)",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "33be2a3c146f3c479b63112c17e799641d7923c66f4f76c28dc9f9ccd174affc",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q148",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "t**2/4 + 468 + 186624/t**2 = t**2/4 + 468 + 186624/t**2",
+        "t**2/4 + 468 + 186624/t**2 = t**2/4 + 468 + 186624/t**2",
+        "0 = 0",
+        "-18*(t - 48)*(t + 48)/t = (864 - 18*t)*(t + 48)/t",
+        "True",
+        "4 = 4"
+      ],
+      "status": "完成",
+      "questionSha256": "4378c5a4a8cac488fd636532a38eaeba315b24ad51a92857b43bf76454333e77",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q195",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "t**2/4 + 468 + 186624/t**2 = t**2/4 + 468 + 186624/t**2",
+        "t**2/4 + 468 + 186624/t**2 = t**2/4 + 468 + 186624/t**2",
+        "0 = 0",
+        "-18*(t - 48)*(t + 48)/t = (864 - 18*t)*(t + 48)/t",
+        "True",
+        "4 = 4"
+      ],
+      "status": "完成",
+      "questionSha256": "e57f43a4d4d255100bfae1d53c32b69bce87196de3bdd3b0d629c84c85128226",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q029",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "56 = 56",
+        "-33 = -33",
+        "65 = 65",
+        "650 = 650",
+        "True",
+        "105625/6 = 105625/6",
+        "True",
+        "Boundary order is S,T,U,V; source name is correct. Previous website shoelace order S,T,V,U was crossed and is corrected."
+      ],
+      "status": "完成",
+      "questionSha256": "1f58a2c1c82ae7f502e2af1674fe61711ed57bc113735a69389d3e01e494704f",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q237",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "-2*k = -2*k",
+        "2*k**2 - 1 = 2*k**2 - 1",
+        "2*k = 2*k",
+        "1 - 2*k**2 = 1 - 2*k**2",
+        "0 = 0",
+        "0 = 0",
+        "For RP=RQ, R lies on perpendicular bisector throughO; isosceles median is internal angle bisector, hence contains incentre. Noncollinearity required."
+      ],
+      "status": "完成",
+      "questionSha256": "060e266189e73cbbb14a86b3f849c6e3a1ba991d9222dec1d8deb965d201861e",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q154",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "-13/3 = -13/3",
+        "0 = 0",
+        "-64/3 = -64/3",
+        "-12 = -12",
+        "-12 = -12",
+        "-8 = -8",
+        "12 = 12",
+        "840 = 840",
+        "433 = 433",
+        "576/433 = 576/433",
+        "16/9 = 16/9",
+        "Vertical x=−12 cuts triangle at similarity length ratio18/30=3/5, area9/25."
+      ],
+      "status": "完成",
+      "questionSha256": "734d2c553e2e211fe0b6539d7ef2f7c36a5e73c64171eefdc5f3b32f92f97fe5",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q167",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "22 = 22",
+        "-7 = -7",
+        "10000 = 10000",
+        "0 = 0",
+        "400 = 400",
+        "0 = 0",
+        "400 = 400",
+        "0 = 0",
+        "True",
+        "True",
+        "20 = 20",
+        "50 = 50",
+        "2400 = 2400",
+        "True",
+        "20 = 20",
+        "50 = 50",
+        "2400 = 2400",
+        "True",
+        "20 = 20",
+        "50 = 50",
+        "2400 = 2400",
+        "True",
+        "20 = 20",
+        "50 = 50",
+        "2400 = 2400",
+        "All four possible right vertices checked; contact point T selects two, giving both listed incentres."
+      ],
+      "status": "完成",
+      "questionSha256": "1fd5ced5381ab275b29fc83e9b10f44e38526d5c6be5091e4bc037e004122f81",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q261",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "-7 = -7",
+        "20 = 20",
+        "0 = 0",
+        "4 = 4",
+        "25 = 25",
+        "8 = 8",
+        "44 = 44",
+        "40 = 40",
+        "True",
+        "-7 = -7",
+        "20 = 20",
+        "25 = 25",
+        "-32 = -32",
+        "-5 = -5",
+        "18 = 18",
+        "65/2 = 65/2",
+        "True",
+        "AHCS parallelogram follows AS⊥AB⊥CH,CS⊥BC⊥AH;midpoint theorem AH=CS=2GR. Other horizontal tangent y45 yields excircle, not enclosing incircle."
+      ],
+      "status": "完成",
+      "questionSha256": "2d5990a4fa58ab299c27fe07e2395d01914ab75f0514b5edf5c7d09d59c27a6e",
+      "engine": "SymPy 1.14.0"
+    },
+    {
+      "id": "import-four-centres-q024",
+      "method": "independent exact symbolic algebra and coordinate geometry",
+      "checks": [
+        "True",
+        "676 = 676",
+        "507 = 507",
+        "845 = 845",
+        "416 = 416",
+        "908544 = 908544",
+        "56/65 = 56/65",
+        "65/16 = 65/16",
+        "True"
+      ],
+      "status": "完成",
+      "questionSha256": "19bf09d21611a9eb0860220c1c1d230d08de649eac79145e9c02c7f4ddab952b",
+      "engine": "SymPy 1.14.0"
+    }
+  ],
+  "test": "tests/four-centres-review.cjs"
+}

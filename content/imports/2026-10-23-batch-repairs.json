@@ -1874,7 +1874,7 @@
           }
         ]
       },
-      "questionSha256": "6a8dafa269b7862d63adf1eaf971f421a432e7f76722a53c0e41a10a02bc0d77",
+      "questionSha256": "0c5aabd6e8ea3bf4245f649be78da6cb4ca1e2b7b147b4eb9128a0c9ca394f36",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -1884,7 +1884,9 @@
           1440
         ],
         "independentMath": true
-      }
+      },
+      "previousQuestionSha256": "6a8dafa269b7862d63adf1eaf971f421a432e7f76722a53c0e41a10a02bc0d77",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q228",
@@ -1936,7 +1938,7 @@
           }
         ]
       },
-      "questionSha256": "83bd1a2f5a6d445206f62a5f3aea3349172e53da7ce363a61b1ee3cd38d40b3f",
+      "questionSha256": "f8914b665a548e3ff58c55ffac3f181c2f4c3d685dbc450000d35d88bda1acb3",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -1946,7 +1948,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "83bd1a2f5a6d445206f62a5f3aea3349172e53da7ce363a61b1ee3cd38d40b3f",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q059",
@@ -9797,7 +9801,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "15c9f286ae4bf1c93cd12f7419cc9407e36722178b8c68d32b7e2cd6898938b0",
+      "questionSha256": "dfce40ecb924f65d356a5e97cefc74792f022b0d518ccdc574dd81e49e61d731",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -9807,7 +9811,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "15c9f286ae4bf1c93cd12f7419cc9407e36722178b8c68d32b7e2cd6898938b0",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q150",
@@ -9905,7 +9911,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "87a9ee875b8e67e17f3597e7eeb66b25a7daaf55781ca1ef52426af7dd0bf7e5",
+      "questionSha256": "5554bd70c9e56f5e21c483d028d97c76b884f33c31d118ddedd63e9d1ed0a0e0",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -9915,7 +9921,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "87a9ee875b8e67e17f3597e7eeb66b25a7daaf55781ca1ef52426af7dd0bf7e5",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q013",
@@ -9959,7 +9967,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "551368a06e7943d5324682397af52ab18b7a51dbcd67d674a4afe1942340ade6",
+      "questionSha256": "e21c49bce2dc3665827235a02af2e398da7e02df5a695537b0bf3628e361257c",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -9969,7 +9977,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "551368a06e7943d5324682397af52ab18b7a51dbcd67d674a4afe1942340ade6",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q192",
@@ -10067,7 +10077,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "85b292dc889ca45c3bead1e4035d46b3966b7320251e7d6deb22219264460bda",
+      "questionSha256": "21b0dcb3dd4f68cf37f66ddcd9f9814aed04d73997cacbb18a14da25118dd2ea",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10077,7 +10087,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "85b292dc889ca45c3bead1e4035d46b3966b7320251e7d6deb22219264460bda",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q191",
@@ -10175,7 +10187,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "7278a76adc9352cc5cf10448051ebb13a1801d8ca8bda11ca8f858251f65b096",
+      "questionSha256": "65153ab567f2dfa496d3feb530f7f67db5f8b617482996396fa8b04a8134440e",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10185,7 +10197,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "7278a76adc9352cc5cf10448051ebb13a1801d8ca8bda11ca8f858251f65b096",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q016",
@@ -10229,7 +10243,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "c9a75adf3970c507851ac686f8ebaae0981e70eaa27872eb813eec0a3d417708",
+      "questionSha256": "a6f2646dab423dba1b55ac20bf916d68953b216d3091c04dc3e9049edcbb255b",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10239,7 +10253,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "c9a75adf3970c507851ac686f8ebaae0981e70eaa27872eb813eec0a3d417708",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q014",
@@ -10283,7 +10299,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "c3f4189bb0a9c8d1cad6c8da06364acb9b71c2f7d2de458c63971675429a0cd0",
+      "questionSha256": "2a614cb681ceccec7607bfa1ef7bd922bd77f6e2a48cb6b74c9151ecc5eaabe6",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10293,7 +10309,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "c3f4189bb0a9c8d1cad6c8da06364acb9b71c2f7d2de458c63971675429a0cd0",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q159",
@@ -10337,7 +10355,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "c544efb92757da3c33805ef057089de01abe634bd4eef19761987d10cdc0b0b2",
+      "questionSha256": "467277507b7feec01c7bde0fe446ae6b112bfc480f4b3473fb776bf1890f4772",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10347,7 +10365,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "c544efb92757da3c33805ef057089de01abe634bd4eef19761987d10cdc0b0b2",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q032",
@@ -10391,7 +10411,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "912146af0ecbb70718ce4ea57f7cd9e7496b3fd8f0ba95767c776e7ee399570a",
+      "questionSha256": "0fdedc85b3a977a0e3a1d6febe0273b9abf11735816c3697be60cd9670b752bc",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10401,7 +10421,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "912146af0ecbb70718ce4ea57f7cd9e7496b3fd8f0ba95767c776e7ee399570a",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q006",
@@ -10445,7 +10467,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "38698b6bd4c3deb28226654ed814de73305e518821efbcfd3d6b109161de530f",
+      "questionSha256": "64deeddb59ca1fb3d15fa82882572ad035f256e4e3c37aa96986c1c72da728f1",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10455,7 +10477,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "38698b6bd4c3deb28226654ed814de73305e518821efbcfd3d6b109161de530f",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q035",
@@ -10499,7 +10523,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "60f474cec3500cb312ae374840890750768e93fa8d3a2af3781f1cf66eef1cfd",
+      "questionSha256": "4e8efeb3b030f3a72f46cbdbcbda35aeb963128b713871fbd12f5657dbc3a0fa",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10509,7 +10533,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "60f474cec3500cb312ae374840890750768e93fa8d3a2af3781f1cf66eef1cfd",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q003",
@@ -10553,7 +10579,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "e6a415d98a865af8a6423565045e6db106dc75c8c69b28de884eb474fe7b7e95",
+      "questionSha256": "49c97297adc1354ea4004ccf817c8b5da3b989b35cb7459aaf51d425abebefc5",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10563,7 +10589,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "e6a415d98a865af8a6423565045e6db106dc75c8c69b28de884eb474fe7b7e95",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q001",
@@ -10607,7 +10635,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "81f1615c3b80fc886427d9a1f1893a0cd28f683457e5ab0e23aeb5d88f88e37f",
+      "questionSha256": "7f6f192a762e1d9306a67712cfa734205138524875f6b3876699c0d80d213f81",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10617,7 +10645,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "81f1615c3b80fc886427d9a1f1893a0cd28f683457e5ab0e23aeb5d88f88e37f",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q031",
@@ -10661,7 +10691,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "3204bc234a05fffdc2b7f11d519e903c3ee5df9d7acdffb5fbe64da5c34cd8d9",
+      "questionSha256": "c0b7b3f33051fcaebf75f644d1b85b356383dcb7f8de5b087618e0dfc4dda004",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10671,7 +10701,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "3204bc234a05fffdc2b7f11d519e903c3ee5df9d7acdffb5fbe64da5c34cd8d9",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q151",
@@ -10877,7 +10909,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "ec488aea473bf874b49e51d385e15751ce1633e8a3fd521bed31ae2a87024088",
+      "questionSha256": "94feef0cd4e12f7630b9a9baeb17dd7f9a438df77f42bf2aa13cfa009243a169",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10887,7 +10919,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "ec488aea473bf874b49e51d385e15751ce1633e8a3fd521bed31ae2a87024088",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q018",
@@ -10931,7 +10965,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "312035b45fe373d963fa8907515911ee005df160f8f1a6c8e467c10ac782e014",
+      "questionSha256": "7cf7f54074653c6251fc63be5117dd71bc83766eaef32354db95bee9f1e89fa2",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -10941,7 +10975,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "312035b45fe373d963fa8907515911ee005df160f8f1a6c8e467c10ac782e014",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q198",
@@ -11045,7 +11081,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "7ed73c1b160bc386cdec5dbd362598a223125b63a5d16aac27654037c4bb1609",
+      "questionSha256": "9f86d53c23ca1fcbce794dd6b8206e38b4f789cade8ef1339c52804a238a255e",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -11055,7 +11091,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "7ed73c1b160bc386cdec5dbd362598a223125b63a5d16aac27654037c4bb1609",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q030",
@@ -11153,7 +11191,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "75e978b6c46791217d93fc0b25d5bef40bf2e17a1b07026345edef89eedee51a",
+      "questionSha256": "30a239088854adc2a5ecafdf6ea9c1726705218c37975f4e0c82be68c6a7298f",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -11163,7 +11201,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "75e978b6c46791217d93fc0b25d5bef40bf2e17a1b07026345edef89eedee51a",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q204",
@@ -11315,7 +11355,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "31a4c507c9af3c08b31c987f781363b674dbc9e56ada7d6426341893e09487c2",
+      "questionSha256": "54a1a6a0aa850839683d373e71174990a10ea0b767fd59cc3a121897c1041abf",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -11325,7 +11365,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "31a4c507c9af3c08b31c987f781363b674dbc9e56ada7d6426341893e09487c2",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q206",
@@ -11423,7 +11465,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "1c1d4ebb8b72d9ecc2b20078e5e8c3dd7d6ee2a1d8134aac6b015d12bbb85277",
+      "questionSha256": "7a8d7853dce5b5a004f96f2e249c953f497a905633bec95810a36a24a60c36ce",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -11433,7 +11475,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "1c1d4ebb8b72d9ecc2b20078e5e8c3dd7d6ee2a1d8134aac6b015d12bbb85277",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q158",
@@ -11477,7 +11521,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "afc237780045ea2e0c50699568364eff577ebaddbdfc935d8bdc46f2684065bb",
+      "questionSha256": "1c3b791b4f2b5b7a1949c53b1457a7e29862692f73c44f46a2e394e79dfb3202",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -11487,7 +11531,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "afc237780045ea2e0c50699568364eff577ebaddbdfc935d8bdc46f2684065bb",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q197",
@@ -11585,7 +11631,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "e27f676c6f843d4ceb8dd9b12daff3703d48e4565a6824747201c8561c7f93fb",
+      "questionSha256": "64563014a6d8b651e8bf577858953db11ea676c00955a77c7d5cc254a76ffdab",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -11595,7 +11641,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "e27f676c6f843d4ceb8dd9b12daff3703d48e4565a6824747201c8561c7f93fb",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q157",
@@ -11963,7 +12011,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "01ed0423904f6c3cd7256a0e88839a57e01fb07bf97a48f5f854f0aea5bdcee7",
+      "questionSha256": "1673f32bfd05cbd4a3705df1a82f31981291c5400e4c52088197f6c23318be9b",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -11973,7 +12021,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "01ed0423904f6c3cd7256a0e88839a57e01fb07bf97a48f5f854f0aea5bdcee7",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q021",
@@ -12017,7 +12067,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "fd965b839ab2b65aa157dc5d9d02fa7011bb0955512b51d1c6db5e55694f3593",
+      "questionSha256": "1d861b790b093a2ea3fd1269b34931502632e32658d3cd78e045f1aecd606197",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -12027,7 +12077,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "fd965b839ab2b65aa157dc5d9d02fa7011bb0955512b51d1c6db5e55694f3593",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q010",
@@ -12071,7 +12123,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "3608cd6cd87de1ce98ae652ba5850b34ab9c2726e77098cf95e467c646ee2284",
+      "questionSha256": "07765b0b111a1c5ad10c288c6c03bf6e44aaff31ec0704684e68dc32523db53b",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -12081,7 +12133,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "3608cd6cd87de1ce98ae652ba5850b34ab9c2726e77098cf95e467c646ee2284",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q033",
@@ -12287,7 +12341,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "3b231707751ca5ddb0a6fc6237050b4f6c1f200563c4ad236703be74395fa9a8",
+      "questionSha256": "d8f2bfb0a89acf3ed06ec5dd0cf5c8107e62d2058ca8523877c319aeab2a3f71",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -12297,7 +12351,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "3b231707751ca5ddb0a6fc6237050b4f6c1f200563c4ad236703be74395fa9a8",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q202",
@@ -12449,7 +12505,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "052b7c80e726b534c8d0929e5ec45453c743e95facbb07939ecef12f874d2efd",
+      "questionSha256": "afa9347c17321f342b1d0b83e180bba6d16942337c8d01e79609a135fad3e979",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -12459,7 +12515,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "052b7c80e726b534c8d0929e5ec45453c743e95facbb07939ecef12f874d2efd",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q007",
@@ -12503,7 +12561,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "d6e0bfbff20a44e632037cce4f7ffa9d8a4dc4b0764b173285a57bdc8dbd601b",
+      "questionSha256": "61ce1a260b45fe8bcfc2572ce6b34b9d937d2325058143c373d9203653048948",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -12513,7 +12571,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "d6e0bfbff20a44e632037cce4f7ffa9d8a4dc4b0764b173285a57bdc8dbd601b",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q203",
@@ -12665,7 +12725,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "4a56fe5152885ee3aa565c91ca6068b2eb91826be6f23645f1632b8872036735",
+      "questionSha256": "54f59a8bd4b8b8c0a597827b7abec9187fe76ba2920bd906ad85593ab68fa840",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -12675,7 +12735,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "4a56fe5152885ee3aa565c91ca6068b2eb91826be6f23645f1632b8872036735",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q199",
@@ -12827,7 +12889,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "efb65197f135d985bc82039c87fa9578b7eaa681bc29752483f9059a3c51de42",
+      "questionSha256": "034f67b7f40950ab1a80e3afff58c8173d4d0d1c81a20828a83f93e8f3265c38",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -12837,7 +12899,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "efb65197f135d985bc82039c87fa9578b7eaa681bc29752483f9059a3c51de42",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q153",
@@ -13043,7 +13107,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "bc3d37d615461a99e20a76acb8d92ad4722aa5966fc58608cf179b8c3aa9b4d9",
+      "questionSha256": "33be2a3c146f3c479b63112c17e799641d7923c66f4f76c28dc9f9ccd174affc",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -13053,7 +13117,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "bc3d37d615461a99e20a76acb8d92ad4722aa5966fc58608cf179b8c3aa9b4d9",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q195",
@@ -13151,7 +13217,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "d2228cf250ced7cbb0b3651ff8be0c814fa894229ae13ff0182a28544be07f80",
+      "questionSha256": "1f58a2c1c82ae7f502e2af1674fe61711ed57bc113735a69389d3e01e494704f",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -13161,7 +13227,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "d2228cf250ced7cbb0b3651ff8be0c814fa894229ae13ff0182a28544be07f80",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     },
     {
       "id": "import-four-centres-q154",
@@ -13367,7 +13435,7 @@
         },
         "assessmentMode": "solution-comparison"
       },
-      "questionSha256": "f921091778ab4cf5db26a27eb48aa0f57d4aabdc211226266c89c06f1f2fc6bb",
+      "questionSha256": "19bf09d21611a9eb0860220c1c1d230d08de649eac79145e9c02c7f4ddab952b",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -13377,7 +13445,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "f921091778ab4cf5db26a27eb48aa0f57d4aabdc211226266c89c06f1f2fc6bb",
+      "successorReview": "content/imports/2026-10-24-four-centres-review.json"
     }
   ]
 }

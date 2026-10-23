@@ -8,11 +8,11 @@
     "promptAndOptionRowsComplete": 455,
     "exactPresentationRows": 427,
     "semanticDecisionRows": 28,
-    "solutionFieldsMatched": 659,
-    "solutionFieldsDifferent": 251,
-    "solutionFieldsAdjudicated": 139,
-    "solutionFieldsPending": 112,
-    "independentMathUniqueIds": 115
+    "solutionFieldsMatched": 654,
+    "solutionFieldsDifferent": 256,
+    "solutionFieldsAdjudicated": 256,
+    "solutionFieldsPending": 0,
+    "independentMathUniqueIds": 218
   },
   "records": [
     {
@@ -2006,7 +2006,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "cd98ec3d0bc363f168956349b061aa37adc84b4f66200d52cc098e23c96dfc5f",
-      "questionSha256": "6a8dafa269b7862d63adf1eaf971f421a432e7f76722a53c0e41a10a02bc0d77",
+      "questionSha256": "0c5aabd6e8ea3bf4245f649be78da6cb4ca1e2b7b147b4eb9128a0c9ca394f36",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -2017,17 +2017,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -3198,19 +3200,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -3737,17 +3741,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -3921,19 +3927,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4050,19 +4058,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4103,7 +4113,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "5c8546de4bc9aeba61777f18a83f9fb7c2a8733aca6aa78bf7a20b3e31d2d584",
-      "questionSha256": "15c9f286ae4bf1c93cd12f7419cc9407e36722178b8c68d32b7e2cd6898938b0",
+      "questionSha256": "dfce40ecb924f65d356a5e97cefc74792f022b0d518ccdc574dd81e49e61d731",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4112,19 +4122,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4143,19 +4155,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4174,19 +4188,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4196,7 +4212,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "05da9c382530c72b4d31745b6a69308f65b4ca753c515f2fa98a080838e9b684",
-      "questionSha256": "87a9ee875b8e67e17f3597e7eeb66b25a7daaf55781ca1ef52426af7dd0bf7e5",
+      "questionSha256": "5554bd70c9e56f5e21c483d028d97c76b884f33c31d118ddedd63e9d1ed0a0e0",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4205,19 +4221,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4227,7 +4245,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "4f477e3e6fb509894c755b8dba88b201bc88bcf807b9f767e2120a02a658fa06",
-      "questionSha256": "551368a06e7943d5324682397af52ab18b7a51dbcd67d674a4afe1942340ade6",
+      "questionSha256": "e21c49bce2dc3665827235a02af2e398da7e02df5a695537b0bf3628e361257c",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4236,19 +4254,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4267,19 +4287,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4289,7 +4311,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "57390b6e7a6bd2597743472dbe6f996a281bd62fe48982f46349b3d0f4508735",
-      "questionSha256": "85b292dc889ca45c3bead1e4035d46b3966b7320251e7d6deb22219264460bda",
+      "questionSha256": "21b0dcb3dd4f68cf37f66ddcd9f9814aed04d73997cacbb18a14da25118dd2ea",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4298,19 +4320,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4329,19 +4353,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4351,7 +4377,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "2f04ce367140bd4e5e43c67787d0eae1f1e6568de7d1708d5f43418a590db185",
-      "questionSha256": "7278a76adc9352cc5cf10448051ebb13a1801d8ca8bda11ca8f858251f65b096",
+      "questionSha256": "65153ab567f2dfa496d3feb530f7f67db5f8b617482996396fa8b04a8134440e",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4360,19 +4386,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4391,19 +4419,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4413,7 +4443,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "9830e01b3376f072b6d01a9eb539e8a24b09722fe7c80034e50bfbafc4a1df0d",
-      "questionSha256": "c9a75adf3970c507851ac686f8ebaae0981e70eaa27872eb813eec0a3d417708",
+      "questionSha256": "a6f2646dab423dba1b55ac20bf916d68953b216d3091c04dc3e9049edcbb255b",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4422,19 +4452,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4444,7 +4476,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "15c4c846d1e3322876cf16ab47f8c64b359f53578b20df65317bba39cf7c8d60",
-      "questionSha256": "c3f4189bb0a9c8d1cad6c8da06364acb9b71c2f7d2de458c63971675429a0cd0",
+      "questionSha256": "2a614cb681ceccec7607bfa1ef7bd922bd77f6e2a48cb6b74c9151ecc5eaabe6",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4453,19 +4485,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4475,7 +4509,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "92d18992ecb5c463f88a9ec8564999771af790cfa6b7d591124922fab213bc86",
-      "questionSha256": "c544efb92757da3c33805ef057089de01abe634bd4eef19761987d10cdc0b0b2",
+      "questionSha256": "467277507b7feec01c7bde0fe446ae6b112bfc480f4b3473fb776bf1890f4772",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4484,19 +4518,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4515,19 +4551,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4546,19 +4584,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4568,7 +4608,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "4dcf791bf38f464b70d91fb515cd9cf7f97f6e70d87f1bea958251688f6de2f0",
-      "questionSha256": "912146af0ecbb70718ce4ea57f7cd9e7496b3fd8f0ba95767c776e7ee399570a",
+      "questionSha256": "0fdedc85b3a977a0e3a1d6febe0273b9abf11735816c3697be60cd9670b752bc",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4577,19 +4617,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4599,7 +4641,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "76109ebd10830a74435d5eaab40bef3ac30edf79646f7046d5d2420e20cb8aff",
-      "questionSha256": "5a83c2d9760408dd46f07836b0bdf8a8cb43cf7484e68a4511f85479a983ec28",
+      "questionSha256": "9ab9bad425f79b0ee0867f3b6827c275fc14532a89d887d3cfdf0f15366087e3",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4608,19 +4650,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4639,19 +4683,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4661,7 +4707,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "fcff57f757b30e80c7aa66fabbbabb8acdcabc94f2d389f72af398c1a73f1c75",
-      "questionSha256": "38698b6bd4c3deb28226654ed814de73305e518821efbcfd3d6b109161de530f",
+      "questionSha256": "64deeddb59ca1fb3d15fa82882572ad035f256e4e3c37aa96986c1c72da728f1",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4670,19 +4716,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4692,7 +4740,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "782feded4a3762ac4a7ac8d8503a4cd8cf14ff89987387e41a164dfdcc4a97a6",
-      "questionSha256": "c4f58939152f3a2084da9a93ea55d167cdcbd6be3e981a8dcc430ce7bbf4da1a",
+      "questionSha256": "79a2b85815a4e086f5fc19577efc8a331842610f469143a65e8ce47aa75d078b",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4701,19 +4749,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4723,7 +4773,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "1736135212e927ed511b73cfc1caccd626a47b09d847cba37304687117e65c96",
-      "questionSha256": "60f474cec3500cb312ae374840890750768e93fa8d3a2af3781f1cf66eef1cfd",
+      "questionSha256": "4e8efeb3b030f3a72f46cbdbcbda35aeb963128b713871fbd12f5657dbc3a0fa",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4732,19 +4782,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4754,7 +4806,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "1f7ab28921ee32bd474287cf5db2f3858a6b7e01999daade1f3fbc51e69bda9a",
-      "questionSha256": "eca503cef1e98aaf67688d2aae31e4ed37868254e84cae40154a907c76a79092",
+      "questionSha256": "56915f7999a665cd8778dcad891d15ca1e1d604878f97a38be26898072cd167e",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4763,19 +4815,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4785,7 +4839,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "37ac507c8fa165eb81f48e822e1420c082fb5095c2b7e0aa0a05e4b4d84e071f",
-      "questionSha256": "e6a415d98a865af8a6423565045e6db106dc75c8c69b28de884eb474fe7b7e95",
+      "questionSha256": "49c97297adc1354ea4004ccf817c8b5da3b989b35cb7459aaf51d425abebefc5",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4794,19 +4848,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4816,7 +4872,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "a0e403f4ed3cf7ea3544659895e09ac6c9da293f03e325320ab1d9f63098a077",
-      "questionSha256": "81f1615c3b80fc886427d9a1f1893a0cd28f683457e5ab0e23aeb5d88f88e37f",
+      "questionSha256": "7f6f192a762e1d9306a67712cfa734205138524875f6b3876699c0d80d213f81",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4825,19 +4881,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4847,7 +4905,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "2e950c7b9c91109804526fcdf6591992bac0844559c356b47a8f35d795d21b14",
-      "questionSha256": "3204bc234a05fffdc2b7f11d519e903c3ee5df9d7acdffb5fbe64da5c34cd8d9",
+      "questionSha256": "c0b7b3f33051fcaebf75f644d1b85b356383dcb7f8de5b087618e0dfc4dda004",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4856,19 +4914,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4887,19 +4947,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4918,19 +4980,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4949,19 +5013,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -4971,7 +5037,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "1d67460430ed306d952b9f79b9953fd0bf8cb116168cb577153f4721f8117ed8",
-      "questionSha256": "ec488aea473bf874b49e51d385e15751ce1633e8a3fd521bed31ae2a87024088",
+      "questionSha256": "94feef0cd4e12f7630b9a9baeb17dd7f9a438df77f42bf2aa13cfa009243a169",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -4980,19 +5046,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5002,7 +5070,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "3707def684e3720121831af2bb3c2b0be73cab29ed98e018229d4e165554f32a",
-      "questionSha256": "312035b45fe373d963fa8907515911ee005df160f8f1a6c8e467c10ac782e014",
+      "questionSha256": "7cf7f54074653c6251fc63be5117dd71bc83766eaef32354db95bee9f1e89fa2",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5011,19 +5079,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5042,19 +5112,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5064,7 +5136,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "f87de68f139f1dc23fee4eb4261f115675552798f8ff1e7b2464dcfa987fbe2f",
-      "questionSha256": "7ed73c1b160bc386cdec5dbd362598a223125b63a5d16aac27654037c4bb1609",
+      "questionSha256": "9f86d53c23ca1fcbce794dd6b8206e38b4f789cade8ef1339c52804a238a255e",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5073,19 +5145,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5104,19 +5178,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5126,7 +5202,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "63eefdc9646968e8f1787b66701624627965c900573bf38269680094386b168d",
-      "questionSha256": "9898cf599abbd62a8aeaaa68bc5ba4a240385e481b6b4f71f7d9e6386dc6cca1",
+      "questionSha256": "fed4cce28686bd671191759d9e51f28e3b83403818ed1878af215c469febf0dd",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5135,19 +5211,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5197,19 +5275,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5219,7 +5299,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "955b46b03f8e5d2b592756255017b8a30899be31c4a7b1578af6642496918289",
-      "questionSha256": "75e978b6c46791217d93fc0b25d5bef40bf2e17a1b07026345edef89eedee51a",
+      "questionSha256": "30a239088854adc2a5ecafdf6ea9c1726705218c37975f4e0c82be68c6a7298f",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5228,19 +5308,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5290,19 +5372,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5312,7 +5396,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "845fc006154f06c01be4b17822196fe96eec59182a0cdcf4607cfe472b483adc",
-      "questionSha256": "31a4c507c9af3c08b31c987f781363b674dbc9e56ada7d6426341893e09487c2",
+      "questionSha256": "54a1a6a0aa850839683d373e71174990a10ea0b767fd59cc3a121897c1041abf",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5321,19 +5405,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5352,19 +5438,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5374,7 +5462,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "ba8ea27c56c57737020fe3c9ff9b704ecc74b3220856331510ec9ab138494a04",
-      "questionSha256": "1c1d4ebb8b72d9ecc2b20078e5e8c3dd7d6ee2a1d8134aac6b015d12bbb85277",
+      "questionSha256": "7a8d7853dce5b5a004f96f2e249c953f497a905633bec95810a36a24a60c36ce",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5383,19 +5471,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5405,7 +5495,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "a63666f8ad31acb1c980625dfbd24e7feff5911cc62671e9bd85fae342d9ff14",
-      "questionSha256": "afc237780045ea2e0c50699568364eff577ebaddbdfc935d8bdc46f2684065bb",
+      "questionSha256": "1c3b791b4f2b5b7a1949c53b1457a7e29862692f73c44f46a2e394e79dfb3202",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5414,19 +5504,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5445,19 +5537,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5476,19 +5570,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5498,7 +5594,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "6779ae7ed6b6a6ed50a3144ef47ff2485b4bfd915cbc8fb2a5afe788a65fc5f5",
-      "questionSha256": "e27f676c6f843d4ceb8dd9b12daff3703d48e4565a6824747201c8561c7f93fb",
+      "questionSha256": "64563014a6d8b651e8bf577858953db11ea676c00955a77c7d5cc254a76ffdab",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5507,19 +5603,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5538,19 +5636,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5569,19 +5669,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5600,19 +5702,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5631,19 +5735,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5662,19 +5768,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5693,19 +5801,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5724,19 +5834,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5755,19 +5867,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5777,7 +5891,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "5514fac98d3f8db425ae090bcef20e2d08d0f9529eac303c4254f68c1f8c9d90",
-      "questionSha256": "dfdf6971c7f29df795869fbc351c2c1e9643d52a24476fd0cf21883be8cfbddd",
+      "questionSha256": "06594bca6e91096ee62ebf591f9d7dc442467800ed10b2b61a7e0c02a8b7d40f",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5786,19 +5900,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5817,19 +5933,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5848,19 +5966,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5870,7 +5990,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "5c474c12da04b83f83318c153a716356cf071bad55c6efa4f0169c9a155cbc8a",
-      "questionSha256": "01ed0423904f6c3cd7256a0e88839a57e01fb07bf97a48f5f854f0aea5bdcee7",
+      "questionSha256": "1673f32bfd05cbd4a3705df1a82f31981291c5400e4c52088197f6c23318be9b",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5879,19 +5999,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5901,7 +6023,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "ef527531264a83a92b6db16c1cb4393344b4a654dd954e08c745af9b5cc89d32",
-      "questionSha256": "fd965b839ab2b65aa157dc5d9d02fa7011bb0955512b51d1c6db5e55694f3593",
+      "questionSha256": "1d861b790b093a2ea3fd1269b34931502632e32658d3cd78e045f1aecd606197",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5910,19 +6032,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5932,7 +6056,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "4260c860ee9a998b352a04aacc1d883eb7279e40cc882b59f689511d0fe20912",
-      "questionSha256": "3608cd6cd87de1ce98ae652ba5850b34ab9c2726e77098cf95e467c646ee2284",
+      "questionSha256": "07765b0b111a1c5ad10c288c6c03bf6e44aaff31ec0704684e68dc32523db53b",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -5941,19 +6065,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -5972,19 +6098,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6003,19 +6131,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6034,19 +6164,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6087,7 +6219,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "22d9f12c00510a8dc42473a511266dd613e53b5d9715d9df94b5d911a5ee37b5",
-      "questionSha256": "fc78ead24569f626de3881ff28abccbfb1e1ccecbb8dbbcdfbf3f9a5feecafa8",
+      "questionSha256": "8025eef8b7e1d9937443d82d5fd1b4c51d8cd91461500823c57fa6c4a37c1a59",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6096,19 +6228,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6127,19 +6261,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6149,7 +6285,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "a968ec53a4bf1c91a7a0ce993b43cc83c7157174d31100ff55d9e22e316a162b",
-      "questionSha256": "ec5098e2604f485ea337f8a7e42b07f7669dffb04d53e2ba49a506ae4821e4fb",
+      "questionSha256": "e2ca53f21c9c82bcb2a975d21c8fa1c8609b8682baa13352902744fbb420870d",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6158,19 +6294,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6180,7 +6318,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "4d429e2d3aee041b0668abc77ff16321e256e711f31075a0c2a69ee0eb526cb1",
-      "questionSha256": "6b1c9f16677cb6b0d35837c43b62e52e011eaf9c7f8313f46443c6f068c4abd6",
+      "questionSha256": "dabc98f976bc9b7b7c77bf6f292fdf76bd7969c883eebf710d662ec52b697d39",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6189,19 +6327,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6220,19 +6360,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6242,7 +6384,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "a754c2f1591d4173d433c0100875334fd0183851ef37e28db941f57218de2087",
-      "questionSha256": "83bd1a2f5a6d445206f62a5f3aea3349172e53da7ce363a61b1ee3cd38d40b3f",
+      "questionSha256": "f8914b665a548e3ff58c55ffac3f181c2f4c3d685dbc450000d35d88bda1acb3",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6251,19 +6393,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6273,7 +6417,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "2ff1d73745ca586d34450b2595b62b511442a97d7e69b718ce6d343e2b4a5318",
-      "questionSha256": "b31dc5f14c80e0a6b848df09fc6daae86404d07a5fb16b82e5436ffa26092d33",
+      "questionSha256": "7fb12ac3bb01bbc4979526383cb63f0bcf8d5fb07e6ab1df41c1dc8fa399ed36",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6282,19 +6426,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6313,19 +6459,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6335,7 +6483,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "1606777617feb005604f965d1dd14c3ec00689a481088ce1934f7fcd0127a49d",
-      "questionSha256": "c605f2e8d800b812888e1605ceb9847c94f55a7e8e12869cd776e93fe87ad90d",
+      "questionSha256": "546901b5dbf653ed239fcaf197a39eb00bdeec9346721f6739344583b632463e",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6344,19 +6492,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6375,19 +6525,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6397,7 +6549,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "43afad210f615b7988ffca09917252aa1b7da01bef669b95f744e7d674824efc",
-      "questionSha256": "f313daac474c74ad7018fa57986c35bc69ea2a68460e63e0cc7f1e68d89c2b61",
+      "questionSha256": "780c9f0154dd9069632eb7b8aee17bd9169323a4ff3314270e8a8e286c14db59",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6406,19 +6558,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6428,7 +6582,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "18c740eff01bc596b68500658e6da27466045d948207bb2dd16d4f77f4a4d446",
-      "questionSha256": "39b085fec90e274dc58dc146748bb085eae20fbff2f734dea76459c14b1e5276",
+      "questionSha256": "8d51dc7fb93a071719a5c070fa44d0b4272ff1e477e96d54458e9f1facf73722",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6437,19 +6591,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6468,19 +6624,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6490,7 +6648,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "80f7a9ebd26a601ba65c76d0f58c47e5b55b9066c3c24eb64ce059987b554f5d",
-      "questionSha256": "3b231707751ca5ddb0a6fc6237050b4f6c1f200563c4ad236703be74395fa9a8",
+      "questionSha256": "d8f2bfb0a89acf3ed06ec5dd0cf5c8107e62d2058ca8523877c319aeab2a3f71",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6499,19 +6657,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6521,7 +6681,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "bf8c529bd1224d03b634c1791d66461d2ead8ea64107b00d91602e3b2d3a4cb1",
-      "questionSha256": "696d3fc9ad271e20363b618397a1686efcae6adbd7d3668a8eaf086aeab9476b",
+      "questionSha256": "5088f21a15709d555f4bb30861f60da402cf6b30a7bf4e412340832581b95248",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6530,19 +6690,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6561,19 +6723,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6592,19 +6756,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6614,7 +6780,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "92e5ef0a932a56a19c5a0b7bcd1a3e484996078514a31e58d85148475f86ce83",
-      "questionSha256": "052b7c80e726b534c8d0929e5ec45453c743e95facbb07939ecef12f874d2efd",
+      "questionSha256": "afa9347c17321f342b1d0b83e180bba6d16942337c8d01e79609a135fad3e979",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6623,19 +6789,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6645,7 +6813,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "ed7c21d6ac920594e1c667bfc802085ed1f9c52590d7dd26028d2c60f9bc14bf",
-      "questionSha256": "d6e0bfbff20a44e632037cce4f7ffa9d8a4dc4b0764b173285a57bdc8dbd601b",
+      "questionSha256": "61ce1a260b45fe8bcfc2572ce6b34b9d937d2325058143c373d9203653048948",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6654,19 +6822,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6716,19 +6886,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6747,19 +6919,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6778,19 +6952,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6800,7 +6976,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "cd47584b69a5058b2a62b6f5d9a10d2d0d17e5e103665e65d5fd801382b50f05",
-      "questionSha256": "4a56fe5152885ee3aa565c91ca6068b2eb91826be6f23645f1632b8872036735",
+      "questionSha256": "54f59a8bd4b8b8c0a597827b7abec9187fe76ba2920bd906ad85593ab68fa840",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6809,19 +6985,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6840,19 +7018,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6871,19 +7051,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6893,7 +7075,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "73a83a5aa86a6cfec5cf04a006063a9c3b6870f446915b8732fa2e8217a0be8a",
-      "questionSha256": "efb65197f135d985bc82039c87fa9578b7eaa681bc29752483f9059a3c51de42",
+      "questionSha256": "034f67b7f40950ab1a80e3afff58c8173d4d0d1c81a20828a83f93e8f3265c38",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6902,19 +7084,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6933,19 +7117,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -6955,7 +7141,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "512adec93075a957b4fc89e1c41b8dedaf4cb80b84b599d9388cda21db483d3e",
-      "questionSha256": "8e03744ab356b0be97f52f88e1475141c195da9efe96da3856c03f264939e520",
+      "questionSha256": "b7e4119927b9d5e2ff6e6fdc5f2e5a30da4215538046e55fb944496015dc610f",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -6964,19 +7150,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7026,19 +7214,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7048,7 +7238,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "72551e2b3b65188273c73f4f2a7686d20f82f8ab7534c6ee49b9ea30c9df1b7d",
-      "questionSha256": "bc3d37d615461a99e20a76acb8d92ad4722aa5966fc58608cf179b8c3aa9b4d9",
+      "questionSha256": "33be2a3c146f3c479b63112c17e799641d7923c66f4f76c28dc9f9ccd174affc",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -7057,19 +7247,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7079,7 +7271,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "cce17d9e0ee371995011f7f5bda0f34beb67c4d4439cd60b82e6e3fddc568492",
-      "questionSha256": "cff58c6ef33ae196fdf9a8fe00c9ddc2d5234901d1a21e53321c3250346b977f",
+      "questionSha256": "4378c5a4a8cac488fd636532a38eaeba315b24ad51a92857b43bf76454333e77",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -7088,19 +7280,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7119,19 +7313,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7141,7 +7337,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "a0c9c6a25d0f6a268c182f4b5b4e31d94aad576c3ff74436b71c611145abcd43",
-      "questionSha256": "d2228cf250ced7cbb0b3651ff8be0c814fa894229ae13ff0182a28544be07f80",
+      "questionSha256": "1f58a2c1c82ae7f502e2af1674fe61711ed57bc113735a69389d3e01e494704f",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -7150,19 +7346,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7181,19 +7379,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7212,19 +7412,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7243,19 +7445,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7274,19 +7478,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {
@@ -7358,7 +7564,7 @@
       "topic": "four-centres",
       "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
       "sourceSnapshotSha256": "b0a33174bb82b39622e02aab024dbe4d6e0be2c469e4294659cbff51250e812d",
-      "questionSha256": "f921091778ab4cf5db26a27eb48aa0f57d4aabdc211226266c89c06f1f2fc6bb",
+      "questionSha256": "19bf09d21611a9eb0860220c1c1d230d08de649eac79145e9c02c7f4ddab952b",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -7367,19 +7573,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-24-four-centres-math.json",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-24-four-centres-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-24-four-centres-math.json"
       }
     },
     {

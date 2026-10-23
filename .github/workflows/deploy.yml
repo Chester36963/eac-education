@@ -21,6 +21,14 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Setup exact mathematics checks
+        run: python3 -m pip install -r requirements-math.txt
+
       - name: Check learning records and content
         run: |
           node scripts/build-content.cjs --check

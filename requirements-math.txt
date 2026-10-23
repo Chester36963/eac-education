@@ -1,0 +1,3 @@
+# Exact symbolic calculations for Four Centres regression. CI and local use same version.
+sympy==1.14.0
+mpmath==1.3.0

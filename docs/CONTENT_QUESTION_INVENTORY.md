@@ -143,7 +143,7 @@
 | Q-0137 | four-centres | import-four-centres-q241 | centre-statements | fc-statements | mcq / medium | CNECCC Mock · 2025/26 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0138 | four-centres | import-four-centres-q249 | centre-statements | fc-statements | mcq / medium | Canotta Set 1 · 2025/26 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0139 | four-centres | import-four-centres-q251 | centre-statements | fc-statements | mcq / medium | TWGHsLKSC Final · 2025/26 · P2 · Original Q21 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0140 | four-centres | import-four-centres-q242 | centre-statements | fc-statements | mcq / medium | SLCSS Mock · 2023/24 · P2 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0140 | four-centres | import-four-centres-q242 | centre-statements | fc-statements | mcq / medium | SLCSS Mock · 2023/24 · P2 · Original Q17 | 完成：本批獨立計算／修復證據 |
 | Q-0141 | four-centres | import-four-centres-q254 | centre-statements | fc-statements | mcq / medium | HKTATHMSS Mock · 2024/25 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0142 | four-centres | import-four-centres-q246 | centre-statements | fc-statements | mcq / medium | Aristo Mock · 2024/25 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0143 | four-centres | import-four-centres-q247 | centre-statements | fc-statements | mcq / medium | Oxford Set 1 Mock · 2024/25 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
@@ -152,114 +152,114 @@
 | Q-0146 | four-centres | import-four-centres-q248 | centre-statements | fc-statements | mcq / medium | Pearson Mock · 2024/25 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0147 | four-centres | import-four-centres-q243 | centre-statements | fc-statements | mcq / medium | WYHK Mock · 2025/26 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0148 | four-centres | import-four-centres-q239 | centre-statements | fc-statements | mcq / medium | HYS Mock · 2021 · P2 · Original Q41 | 完成：本批獨立計算／修復證據 |
-| Q-0149 | four-centres | import-four-centres-q240 | centre-statements | fc-statements | mcq / medium | SCSG Mock · 2022/23 · P2 · Original Q39 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0149 | four-centres | import-four-centres-q240 | centre-statements | fc-statements | mcq / medium | SCSG Mock · 2022/23 · P2 · Original Q39 | 完成：本批獨立計算／修復證據 |
 | Q-0150 | four-centres | import-four-centres-q250 | centre-statements | fc-statements | mcq / medium | SKHLKM Mock · 2025/26 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0151 | four-centres | import-four-centres-q255 | centre-statements | fc-statements | mcq / medium | TWGHsLKTMC Mock · 2025/26 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0152 | four-centres | import-four-centres-q252 | centre-tangency | fc-tangent-chain | mcq / challenging | 2014 HKDSE Mathematics · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0151 | four-centres | import-four-centres-q255 | centre-statements | fc-statements | mcq / medium | TWGHsLKTMC Mock · 2025/26 · P2 · Original Q41 | 完成：本批獨立計算／修復證據 |
+| Q-0152 | four-centres | import-four-centres-q252 | centre-tangency | fc-tangent-chain | mcq / challenging | 2014 HKDSE Mathematics · P2 · Original Q41 | 完成：本批獨立計算／修復證據 |
 | Q-0153 | four-centres | import-four-centres-q253 | centre-tangency | fc-tangent-chain | mcq / medium | WYK Mock · 2021/22 · P2 · Original Q41 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0154 | four-centres | import-four-centres-q012 | circumcentre | fc-bisectors | structured / hard | Mock · 2025/26 · P1 · Original Q12 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0155 | four-centres | import-four-centres-q150 | centre-angles | fc-incentre-angle | structured / challenging | Kingsley Future Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0156 | four-centres | import-four-centres-q215 | centre-loci | fc-locus-bisector | structured / hard | CMASKSS Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0157 | four-centres | import-four-centres-q015 | centre-loci | fc-locus-bisector | structured / hard | Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0158 | four-centres | import-four-centres-q013 | centre-loci | fc-locus-bisector | structured / hard | Mock · 2025/26 · P1 · Original Q11 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0159 | four-centres | import-four-centres-q192 | centre-loci | fc-locus-bisector | structured / challenging | WYC Mock · 2024/25 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0160 | four-centres | import-four-centres-q037 | centre-loci | fc-locus-bisector | structured / hard | HKDSE · 2024 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0161 | four-centres | import-four-centres-q191 | centre-loci | fc-locus-bisector | structured / challenging | Evangel College Mock · 2024/25 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0162 | four-centres | import-four-centres-q160 | centre-tangency | fc-tangent-chain | structured / challenging | YWGS Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0163 | four-centres | import-four-centres-q140 | centre-tangency | fc-tangent-chain | structured / challenging | EPPHK Extra Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0164 | four-centres | import-four-centres-q016 | centre-transformations | fc-transform | structured / hard | Mock · 2025/26 · P1 · Original Q14 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0165 | four-centres | import-four-centres-q014 | centre-loci | fc-locus-bisector | structured / hard | Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0166 | four-centres | import-four-centres-q159 | centre-loci | fc-locus-bisector | structured / hard | YOTTKPSS Mock · 2025/26 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0167 | four-centres | import-four-centres-q141 | centre-loci | fc-locus-bisector | structured / hard | MCS Extra Mock · 2023/24 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0168 | four-centres | import-four-centres-q142 | centre-loci | fc-locus-bisector | structured / challenging | WYC Extra Mock · 2023/24 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0169 | four-centres | import-four-centres-q032 | centre-loci | fc-locus-bisector | structured / hard | HKDSE · 2019 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0170 | four-centres | import-four-centres-q143 | centre-tangency | fc-tangent-chain | structured / challenging | Aspire Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0171 | four-centres | import-four-centres-q144 | centre-tangency | fc-tangent-chain | structured / challenging | SKHLMC Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0172 | four-centres | import-four-centres-q006 | centre-tangency | fc-tangent-chain | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0173 | four-centres | import-four-centres-q145 | centre-tangency | fc-tangent-chain | structured / challenging | HYC Extra Mock · 2022/23 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0174 | four-centres | import-four-centres-q035 | centre-tangency | fc-tangent-chain | structured / hard | HKDSE · 2022 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0175 | four-centres | import-four-centres-q217 | centre-tangency | fc-tangent-chain | structured / hard | MCS Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0176 | four-centres | import-four-centres-q003 | centre-tangency | fc-tangent-chain | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0177 | four-centres | import-four-centres-q001 | centre-tangency | fc-tangent-chain | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0178 | four-centres | import-four-centres-q031 | centre-tangency | fc-tangent-chain | structured / hard | HKDSE · 2018 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0179 | four-centres | import-four-centres-q151 | centre-tangency | fc-tangent-chain | structured / challenging | Ho Lap Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0180 | four-centres | import-four-centres-q193 | centre-tangency | fc-tangent-chain | structured / challenging | CCCKYC Mock · 2024/25 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0181 | four-centres | import-four-centres-q194 | centre-tangency | fc-tangent-chain | structured / challenging | GHS Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0182 | four-centres | import-four-centres-q019 | centre-tangency | fc-tangent-chain | structured / hard | Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0183 | four-centres | import-four-centres-q018 | centre-tangency | fc-tangent-chain | structured / hard | Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0184 | four-centres | import-four-centres-q198 | centre-tangency | fc-tangent-chain | structured / challenging | BHJS Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0185 | four-centres | import-four-centres-q004 | centre-tangency | fc-tangent-chain | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0186 | four-centres | import-four-centres-q146 | centre-tangency | fc-tangent-chain | structured / challenging | HFC Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0154 | four-centres | import-four-centres-q012 | circumcentre | fc-bisectors | structured / hard | Mock · 2025/26 · P1 · Original Q12 | 完成：本批獨立計算／修復證據 |
+| Q-0155 | four-centres | import-four-centres-q150 | centre-angles | fc-incentre-angle | structured / challenging | Kingsley Future Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0156 | four-centres | import-four-centres-q215 | centre-loci | fc-locus-bisector | structured / hard | CMASKSS Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0157 | four-centres | import-four-centres-q015 | centre-loci | fc-locus-bisector | structured / hard | Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0158 | four-centres | import-four-centres-q013 | centre-loci | fc-locus-bisector | structured / hard | Mock · 2025/26 · P1 · Original Q11 | 完成：本批獨立計算／修復證據 |
+| Q-0159 | four-centres | import-four-centres-q192 | centre-loci | fc-locus-bisector | structured / challenging | WYC Mock · 2024/25 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0160 | four-centres | import-four-centres-q037 | centre-loci | fc-locus-bisector | structured / hard | HKDSE · 2024 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0161 | four-centres | import-four-centres-q191 | centre-loci | fc-locus-bisector | structured / challenging | Evangel College Mock · 2024/25 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0162 | four-centres | import-four-centres-q160 | centre-tangency | fc-tangent-chain | structured / challenging | YWGS Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0163 | four-centres | import-four-centres-q140 | centre-tangency | fc-tangent-chain | structured / challenging | EPPHK Extra Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0164 | four-centres | import-four-centres-q016 | centre-transformations | fc-transform | structured / hard | Mock · 2025/26 · P1 · Original Q14 | 完成：本批獨立計算／修復證據 |
+| Q-0165 | four-centres | import-four-centres-q014 | centre-loci | fc-locus-bisector | structured / hard | Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0166 | four-centres | import-four-centres-q159 | centre-loci | fc-locus-bisector | structured / hard | YOTTKPSS Mock · 2025/26 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0167 | four-centres | import-four-centres-q141 | centre-loci | fc-locus-bisector | structured / hard | MCS Extra Mock · 2023/24 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0168 | four-centres | import-four-centres-q142 | centre-loci | fc-locus-bisector | structured / challenging | WYC Extra Mock · 2023/24 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0169 | four-centres | import-four-centres-q032 | centre-loci | fc-locus-bisector | structured / hard | HKDSE · 2019 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0170 | four-centres | import-four-centres-q143 | centre-tangency | fc-tangent-chain | structured / challenging | Aspire Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0171 | four-centres | import-four-centres-q144 | centre-tangency | fc-tangent-chain | structured / challenging | SKHLMC Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0172 | four-centres | import-four-centres-q006 | centre-tangency | fc-tangent-chain | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0173 | four-centres | import-four-centres-q145 | centre-tangency | fc-tangent-chain | structured / challenging | HYC Extra Mock · 2022/23 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0174 | four-centres | import-four-centres-q035 | centre-tangency | fc-tangent-chain | structured / hard | HKDSE · 2022 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0175 | four-centres | import-four-centres-q217 | centre-tangency | fc-tangent-chain | structured / hard | MCS Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0176 | four-centres | import-four-centres-q003 | centre-tangency | fc-tangent-chain | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0177 | four-centres | import-four-centres-q001 | centre-tangency | fc-tangent-chain | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0178 | four-centres | import-four-centres-q031 | centre-tangency | fc-tangent-chain | structured / hard | HKDSE · 2018 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0179 | four-centres | import-four-centres-q151 | centre-tangency | fc-tangent-chain | structured / challenging | Ho Lap Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0180 | four-centres | import-four-centres-q193 | centre-tangency | fc-tangent-chain | structured / challenging | CCCKYC Mock · 2024/25 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0181 | four-centres | import-four-centres-q194 | centre-tangency | fc-tangent-chain | structured / challenging | GHS Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0182 | four-centres | import-four-centres-q019 | centre-tangency | fc-tangent-chain | structured / hard | Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0183 | four-centres | import-four-centres-q018 | centre-tangency | fc-tangent-chain | structured / hard | Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0184 | four-centres | import-four-centres-q198 | centre-tangency | fc-tangent-chain | structured / challenging | BHJS Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0185 | four-centres | import-four-centres-q004 | centre-tangency | fc-tangent-chain | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0186 | four-centres | import-four-centres-q146 | centre-tangency | fc-tangent-chain | structured / challenging | HFC Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
 | Q-0187 | four-centres | import-four-centres-q218 | centre-transformations | fc-transform | structured / hard | PLKCHC Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0188 | four-centres | import-four-centres-q030 | centre-transformations | fc-transform | structured / hard | HKDSE · 2018 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0189 | four-centres | import-four-centres-q201 | centre-transformations | fc-transform | structured / challenging | Queen's College Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0188 | four-centres | import-four-centres-q030 | centre-transformations | fc-transform | structured / hard | HKDSE · 2018 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0189 | four-centres | import-four-centres-q201 | centre-transformations | fc-transform | structured / challenging | Queen's College Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
 | Q-0190 | four-centres | import-four-centres-q204 | centre-transformations | fc-transform | structured / challenging | SMCC Mock · 2023/24 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0191 | four-centres | import-four-centres-q207 | centre-transformations | fc-transform | structured / challenging | DBS Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0192 | four-centres | import-four-centres-q161 | centre-transformations | fc-transform | structured / challenging | BLMCSS Mock · 2025/26 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0193 | four-centres | import-four-centres-q206 | centre-transformations | fc-transform | structured / hard | Canossa College Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0194 | four-centres | import-four-centres-q028 | centre-transformations | fc-transform | structured / hard | HKDSE · 2015 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0195 | four-centres | import-four-centres-q158 | centre-transformations | fc-transform | structured / challenging | YWGS Mock · 2025/26 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0196 | four-centres | import-four-centres-q197 | centre-transformations | fc-transform | structured / challenging | Canossa College Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0197 | four-centres | import-four-centres-q219 | centre-transformations | fc-transform | structured / hard | Canotta & Data Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0198 | four-centres | import-four-centres-q011 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0199 | four-centres | import-four-centres-q050 | centre-transformations | fc-transform | structured / hard | HKDSE · 2025 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0200 | four-centres | import-four-centres-q157 | centre-transformations | fc-transform | structured / hard | Canotta Practice Paper Set 3 · 2025/26 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0201 | four-centres | import-four-centres-q165 | centre-transformations | fc-transform | structured / challenging | Publisher Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0202 | four-centres | import-four-centres-q259 | centre-transformations | fc-transform | structured / hard | LKKC Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0203 | four-centres | import-four-centres-q226 | centre-transformations | fc-transform | structured / hard | HKEP Publisher Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0204 | four-centres | import-four-centres-q205 | centre-transformations | fc-transform | structured / hard | UCCKE Mock · 2023/24 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0205 | four-centres | import-four-centres-q208 | centre-transformations | fc-transform | structured / challenging | FSSKT Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0206 | four-centres | import-four-centres-q227 | centre-transformations | fc-transform | structured / hard | TWGHSLKSS Mock · 2024/25 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0207 | four-centres | import-four-centres-q221 | centre-transformations | fc-transform | structured / hard | HKTLC Pre-Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0208 | four-centres | import-four-centres-q163 | centre-transformations | fc-transform | structured / challenging | CNECCC Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0209 | four-centres | import-four-centres-q200 | centre-transformations | fc-transform | structured / challenging | CMS Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0210 | four-centres | import-four-centres-q008 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0211 | four-centres | import-four-centres-q021 | centre-transformations | fc-transform | structured / hard | Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0212 | four-centres | import-four-centres-q010 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0213 | four-centres | import-four-centres-q033 | centre-transformations | fc-transform | structured / hard | HKDSE · 2019 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0214 | four-centres | import-four-centres-q220 | centre-transformations | fc-transform | structured / hard | Holap Mock · 2025/26 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0215 | four-centres | import-four-centres-q235 | centre-transformations | fc-transform | structured / hard | WYK Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0191 | four-centres | import-four-centres-q207 | centre-transformations | fc-transform | structured / challenging | DBS Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0192 | four-centres | import-four-centres-q161 | centre-transformations | fc-transform | structured / challenging | BLMCSS Mock · 2025/26 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0193 | four-centres | import-four-centres-q206 | centre-transformations | fc-transform | structured / hard | Canossa College Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0194 | four-centres | import-four-centres-q028 | centre-transformations | fc-transform | structured / hard | HKDSE · 2015 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0195 | four-centres | import-four-centres-q158 | centre-transformations | fc-transform | structured / challenging | YWGS Mock · 2025/26 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0196 | four-centres | import-four-centres-q197 | centre-transformations | fc-transform | structured / challenging | Canossa College Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0197 | four-centres | import-four-centres-q219 | centre-transformations | fc-transform | structured / hard | Canotta & Data Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0198 | four-centres | import-four-centres-q011 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0199 | four-centres | import-four-centres-q050 | centre-transformations | fc-transform | structured / hard | HKDSE · 2025 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0200 | four-centres | import-four-centres-q157 | centre-transformations | fc-transform | structured / hard | Canotta Practice Paper Set 3 · 2025/26 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0201 | four-centres | import-four-centres-q165 | centre-transformations | fc-transform | structured / challenging | Publisher Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0202 | four-centres | import-four-centres-q259 | centre-transformations | fc-transform | structured / hard | LKKC Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0203 | four-centres | import-four-centres-q226 | centre-transformations | fc-transform | structured / hard | HKEP Publisher Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0204 | four-centres | import-four-centres-q205 | centre-transformations | fc-transform | structured / hard | UCCKE Mock · 2023/24 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0205 | four-centres | import-four-centres-q208 | centre-transformations | fc-transform | structured / challenging | FSSKT Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0206 | four-centres | import-four-centres-q227 | centre-transformations | fc-transform | structured / hard | TWGHSLKSS Mock · 2024/25 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0207 | four-centres | import-four-centres-q221 | centre-transformations | fc-transform | structured / hard | HKTLC Pre-Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0208 | four-centres | import-four-centres-q163 | centre-transformations | fc-transform | structured / challenging | CNECCC Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0209 | four-centres | import-four-centres-q200 | centre-transformations | fc-transform | structured / challenging | CMS Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0210 | four-centres | import-four-centres-q008 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0211 | four-centres | import-four-centres-q021 | centre-transformations | fc-transform | structured / hard | Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0212 | four-centres | import-four-centres-q010 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0213 | four-centres | import-four-centres-q033 | centre-transformations | fc-transform | structured / hard | HKDSE · 2019 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0214 | four-centres | import-four-centres-q220 | centre-transformations | fc-transform | structured / hard | Holap Mock · 2025/26 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0215 | four-centres | import-four-centres-q235 | centre-transformations | fc-transform | structured / hard | WYK Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
 | Q-0216 | four-centres | import-four-centres-q236 | centre-transformations | fc-transform | structured / hard | QC Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0217 | four-centres | import-four-centres-q234 | centre-transformations | fc-transform | structured / hard | WFN Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0218 | four-centres | import-four-centres-q232 | centre-transformations | fc-transform | structured / hard | SKHTST Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0219 | four-centres | import-four-centres-q225 | centre-transformations | fc-transform | structured / hard | HFC Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0220 | four-centres | import-four-centres-q224 | centre-transformations | fc-transform | structured / hard | Kingsley Pre-Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0221 | four-centres | import-four-centres-q147 | centre-transformations | fc-transform | structured / challenging | BHJS Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0222 | four-centres | import-four-centres-q228 | centre-transformations | fc-transform | structured / hard | CCSC Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0223 | four-centres | import-four-centres-q233 | centre-transformations | fc-transform | structured / hard | Tojai Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0224 | four-centres | import-four-centres-q257 | centre-transformations | fc-transform | structured / hard | Canotta Set 6 · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0225 | four-centres | import-four-centres-q164 | centre-transformations | fc-transform | structured / challenging | Kingsley Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0226 | four-centres | import-four-centres-q230 | centre-transformations | fc-transform | structured / hard | PLKTYTC Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0227 | four-centres | import-four-centres-q229 | centre-transformations | fc-transform | structured / hard | CDGFSS Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0228 | four-centres | import-four-centres-q034 | centre-transformations | fc-transform | structured / hard | HKDSE · 2020 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0229 | four-centres | import-four-centres-q005 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0230 | four-centres | import-four-centres-q256 | centre-transformations | fc-transform | structured / hard | Canotta Set 4 · 2025/26 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0231 | four-centres | import-four-centres-q202 | centre-transformations | fc-transform | structured / challenging | Queen Elizabeth School Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0232 | four-centres | import-four-centres-q166 | centre-transformations | fc-transform | structured / challenging | TKPSS Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0233 | four-centres | import-four-centres-q009 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0234 | four-centres | import-four-centres-q007 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0217 | four-centres | import-four-centres-q234 | centre-transformations | fc-transform | structured / hard | WFN Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0218 | four-centres | import-four-centres-q232 | centre-transformations | fc-transform | structured / hard | SKHTST Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0219 | four-centres | import-four-centres-q225 | centre-transformations | fc-transform | structured / hard | HFC Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0220 | four-centres | import-four-centres-q224 | centre-transformations | fc-transform | structured / hard | Kingsley Pre-Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0221 | four-centres | import-four-centres-q147 | centre-transformations | fc-transform | structured / challenging | BHJS Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0222 | four-centres | import-four-centres-q228 | centre-transformations | fc-transform | structured / hard | CCSC Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0223 | four-centres | import-four-centres-q233 | centre-transformations | fc-transform | structured / hard | Tojai Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0224 | four-centres | import-four-centres-q257 | centre-transformations | fc-transform | structured / hard | Canotta Set 6 · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0225 | four-centres | import-four-centres-q164 | centre-transformations | fc-transform | structured / challenging | Kingsley Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0226 | four-centres | import-four-centres-q230 | centre-transformations | fc-transform | structured / hard | PLKTYTC Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0227 | four-centres | import-four-centres-q229 | centre-transformations | fc-transform | structured / hard | CDGFSS Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0228 | four-centres | import-four-centres-q034 | centre-transformations | fc-transform | structured / hard | HKDSE · 2020 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0229 | four-centres | import-four-centres-q005 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0230 | four-centres | import-four-centres-q256 | centre-transformations | fc-transform | structured / hard | Canotta Set 4 · 2025/26 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0231 | four-centres | import-four-centres-q202 | centre-transformations | fc-transform | structured / challenging | Queen Elizabeth School Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0232 | four-centres | import-four-centres-q166 | centre-transformations | fc-transform | structured / challenging | TKPSS Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0233 | four-centres | import-four-centres-q009 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0234 | four-centres | import-four-centres-q007 | centre-transformations | fc-transform | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
 | Q-0235 | four-centres | import-four-centres-q222 | centre-transformations | fc-transform | structured / hard | KC Mock · 2025/26 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0236 | four-centres | import-four-centres-q203 | centre-transformations | fc-transform | structured / hard | SCSG Mock · 2024/25 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0237 | four-centres | import-four-centres-q162 | centre-transformations | fc-transform | structured / hard | CMS Mock · 2025/26 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0238 | four-centres | import-four-centres-q049 | centre-transformations | fc-transform | structured / hard | HKDSE · 2024 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0239 | four-centres | import-four-centres-q036 | centre-relations | fc-centre-ratios | structured / hard | HKDSE · 2023 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0240 | four-centres | import-four-centres-q199 | centre-relations | fc-centre-ratios | structured / challenging | CCCHWC Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0241 | four-centres | import-four-centres-q152 | centre-angles | fc-incentre-angle | structured / challenging | SSGC Extra Mock · 2023/24 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0242 | four-centres | import-four-centres-q002 | centre-relations | fc-centre-ratios | structured / hard | Mock · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0243 | four-centres | import-four-centres-q153 | centre-relations | fc-centre-ratios | structured / hard | Oxford Extra Mock · 2023/24 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0244 | four-centres | import-four-centres-q149 | centre-relations | fc-centre-ratios | structured / challenging | HYC Extra Mock · 2023/24 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0236 | four-centres | import-four-centres-q203 | centre-transformations | fc-transform | structured / hard | SCSG Mock · 2024/25 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0237 | four-centres | import-four-centres-q162 | centre-transformations | fc-transform | structured / hard | CMS Mock · 2025/26 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0238 | four-centres | import-four-centres-q049 | centre-transformations | fc-transform | structured / hard | HKDSE · 2024 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0239 | four-centres | import-four-centres-q036 | centre-relations | fc-centre-ratios | structured / hard | HKDSE · 2023 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0240 | four-centres | import-four-centres-q199 | centre-relations | fc-centre-ratios | structured / challenging | CCCHWC Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0241 | four-centres | import-four-centres-q152 | centre-angles | fc-incentre-angle | structured / challenging | SSGC Extra Mock · 2023/24 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0242 | four-centres | import-four-centres-q002 | centre-relations | fc-centre-ratios | structured / hard | Mock · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0243 | four-centres | import-four-centres-q153 | centre-relations | fc-centre-ratios | structured / hard | Oxford Extra Mock · 2023/24 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0244 | four-centres | import-four-centres-q149 | centre-relations | fc-centre-ratios | structured / challenging | HYC Extra Mock · 2023/24 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
 | Q-0245 | four-centres | import-four-centres-q196 | centre-relations | fc-centre-ratios | structured / challenging | SKHTST Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0246 | four-centres | import-four-centres-q155 | centre-angles | fc-incentre-angle | structured / challenging | SPC Internal Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0247 | four-centres | import-four-centres-q022 | centre-relations | fc-centre-ratios | structured / hard | Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0248 | four-centres | import-four-centres-q148 | centre-relations | fc-centre-ratios | structured / challenging | MC Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0249 | four-centres | import-four-centres-q195 | centre-parameters | fc-parameter | structured / challenging | Methodist College Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0250 | four-centres | import-four-centres-q029 | centre-relations | fc-centre-ratios | structured / hard | HKDSE · 2016 · P1 · Original Q20 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0251 | four-centres | import-four-centres-q237 | incentre | fc-angle-bisector | structured / hard | NTHYKYLDSS Mock · 2025/26 · P1 · Original Q17 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0252 | four-centres | import-four-centres-q154 | centre-relations | fc-centre-ratios | structured / challenging | HoFung Extra Mock · 2023/24 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0253 | four-centres | import-four-centres-q167 | centre-angles | fc-incentre-angle | structured / challenging | SHCC Mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0254 | four-centres | import-four-centres-q261 | centre-relations | fc-centre-ratios | structured / challenging | NTHYKYLDSS Mock · 2025/26 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0246 | four-centres | import-four-centres-q155 | centre-angles | fc-incentre-angle | structured / challenging | SPC Internal Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0247 | four-centres | import-four-centres-q022 | centre-relations | fc-centre-ratios | structured / hard | Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0248 | four-centres | import-four-centres-q148 | centre-relations | fc-centre-ratios | structured / challenging | MC Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0249 | four-centres | import-four-centres-q195 | centre-parameters | fc-parameter | structured / challenging | Methodist College Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0250 | four-centres | import-four-centres-q029 | centre-relations | fc-centre-ratios | structured / hard | HKDSE · 2016 · P1 · Original Q20 | 完成：本批獨立計算／修復證據 |
+| Q-0251 | four-centres | import-four-centres-q237 | incentre | fc-angle-bisector | structured / hard | NTHYKYLDSS Mock · 2025/26 · P1 · Original Q17 | 完成：本批獨立計算／修復證據 |
+| Q-0252 | four-centres | import-four-centres-q154 | centre-relations | fc-centre-ratios | structured / challenging | HoFung Extra Mock · 2023/24 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
+| Q-0253 | four-centres | import-four-centres-q167 | centre-angles | fc-incentre-angle | structured / challenging | SHCC Mock · 2025/26 · P1 · Original Q18 | 完成：本批獨立計算／修復證據 |
+| Q-0254 | four-centres | import-four-centres-q261 | centre-relations | fc-centre-ratios | structured / challenging | NTHYKYLDSS Mock · 2025/26 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
 | Q-0255 | four-centres | import-four-centres-q156 | centroid | fc-average | structured / challenging | Dick Hui Pre-mock · 2025/26 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0256 | four-centres | import-four-centres-q024 | centre-relations | fc-centre-ratios | structured / hard | Mock · 2024/25 · P1 · Original Q19 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0256 | four-centres | import-four-centres-q024 | centre-relations | fc-centre-ratios | structured / hard | Mock · 2024/25 · P1 · Original Q19 | 完成：本批獨立計算／修復證據 |
 | Q-0257 | four-centres | import-four-centres-q260 | centre-relations | fc-centre-ratios | structured / challenging | Chalet G281 · 2024/25 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0258 | locus | import-locus-2f8c849b079b0280 | fixed-distance | locus-fixed-radius | mcq / medium | DSE · 2012 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0259 | locus | import-locus-a3f8ddbccd4a0d37 | intersecting-loci | locus-line-circle | mcq / medium | DSE · 2020 | 待驗收：來源解答已保留，未逐小題獨立覆核 |

@@ -1,5 +1,15 @@
 # Implementation record
 
+## B10 Four Centres completion — 24 October 2026
+
+Status LOG-20261024-B10: 內容、數學及832個本地雙語畫面完成；正式站待驗收。Revision `2ffd9cb690908b1f`, unchanged1,186 questions/seven chapters. Fixed104-ID queue independently reviewed,50IDs edited:49English solutions,7Chinese solutions and oneChinese hint (overlapping IDs). Full before snapshots, unchanged-field assertions, original source/locator hashes and calculations retained in [B10](FOUR_CENTRES_REVIEW.md). [Full plan](CONTENT_EXPANSION_PLAN.md), [UI/UE roadmap](UI_UX_ROADMAP.md), [source rechecks](SOURCE_HOLD_RECHECK.md).
+
+- Q032 full unrestricted locus needs internal/external bisectors; Q230 both positive k branches have different area conclusions, so the unconditional claim is false. Q029 crossed shoelace order corrected. Q028/Q158/Q201/Q221 address undefined/degenerate cases; Q167 both incentres retained after enumerating four right vertices and enforcing the contact point.
+- Repaired placeholder sentences and removed29exact repeated traps; all104mathematics cases independently transcribed, using pinnedSymPy1.14.0. Tests bind whole-question SHA256 and all non-solution fields except oneChinese hint. Source/current differences112→0:654normalized matches plus256independently adjudicated differences. This910-field comparison is not1,186independently proven questions. B6–B10 deduplicated mathematics has218IDs.
+- All1,065Node checks pass; full1,186-question formula sweep49,599renders/zero errors; local statistics176views and complete study-journey pass. All832 local Four Centres views pass; live deployment is pending. Three unchanged same-question recoverySVGs rechecked standalone and on actual pages. No student diagram edits orPDF.
+- README refreshed from obsolete853/five chapters to current counts; CI installs pinned mathematics dependencies. Deploy helper includesrequirements-math.txt. Six underlying source defects/sevenIDs re-read with precise conflicts/next steps. Browser-local accounts, physical-device/student research and missing admissions/logo inputs remain separate limits.
+
+
 ## B9 locus MCQ and adapted-question completion — 24 October 2026
 
 Status LOG-20261024-B9: 內容、獨立數學、本地及正式站驗收完成。Continue the 23 October source audit without changing the original source-version paths. Revision `2feeb835407166a2`, unchanged1,186 questions/seven chapters. All24 remaining unique locus MCQ/adapted IDs independently recalculated across51 total source positions (49 previously had pending solution fields). Seven IDs receive full paired EN/ZH improvements,17 retain complete existing solutions; exactly14 solution fields change. No stems, choices, keys, types, categories, diagrams, IDs or student records change. [Detailed B9](LOCUS_MCQ_REVIEW.md), [full plan](CONTENT_EXPANSION_PLAN.md), [complete UI/UE roadmap](UI_UX_ROADMAP.md).

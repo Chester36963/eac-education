@@ -28,7 +28,8 @@ const math=fs.existsSync(mathFile)?JSON.parse(fs.readFileSync(mathFile)).records
 const restorationPath='content/imports/2026-10-23-solution-math-review.json';
 const completionPath='content/imports/2026-10-23-locus-completion-math.json';
 const mcqPath='content/imports/2026-10-23-locus-mcq-math.json';
-const restored=[restorationPath,completionPath,mcqPath].flatMap(p=>fs.existsSync(p)?JSON.parse(fs.readFileSync(p)).records.map(r=>({...r,evidenceFile:p})):[]);
+const fourCentresPath='content/imports/2026-10-24-four-centres-math.json';
+const restored=[restorationPath,completionPath,mcqPath,fourCentresPath].flatMap(p=>fs.existsSync(p)?JSON.parse(fs.readFileSync(p)).records.map(r=>({...r,evidenceFile:p})):[]);
 for(const r of restored)assert.equal(r.questionSha256,hash(byId.get(r.id)),'Repeat independent restoration checks after edits');
 const records=snapshots.records.map((r,i)=>{
  const q=byId.get(r.id),fields=[];
@@ -57,7 +58,7 @@ SRC-BATCH-02（${repairs.every(r=>r.status==='完成')?'完成':'待驗收'}）�
 
 SRC-BATCH-03（${math.length===25?'完成':'待驗收'}）：**${math.length}個ID** 有本批獨立算式測試與canonical SHA256。其中新增發現定距題漏法向長度√5：原C選項的距離其實是3/√5，不是3。保留原題條件及原選項快照，現行明示改為書面比較，沒有把干擾項改成新答案。
 
-SRC-BATCH-04（待驗收，已接續B7／B8／B9）：910個來源／網站解析欄位中，${summary.solutionFieldsMatched}個在明列的標題／排版清理後一致，${summary.solutionFieldsAdjudicated}個文字差異已有B7／B8／B9獨立計算裁定，**${summary.solutionFieldsPending}個仍待覆核**（含教學詳略、重新推導、來源簡答及排版差別）。全部保留兩邊原文及分開狀態；這不等於${summary.solutionFieldsPending}道錯題，更不代表455項已逐小問獨立重算。B7另恢復37條長題中文推導並獨立驗算；B8再覆核其餘47條軌跡長題，45條更新，修正最大面積及截距直線符號錯誤。見 [B7](SOLUTION_RESTORATION.md) 及 [B8](LOCUS_COMPLETION.md)。B9再覆核24條選擇／書面改編題（51個全部來源位置，其中49個來源位置原有待核對解析欄位），補強7條雙語解析；見[選擇題接力](LOCUS_MCQ_REVIEW.md)。原B6的25個ID及前批獨立紀錄另外有效。其餘來源解答相同亦不自動取得「數學完成」資格。
+SRC-BATCH-04（${summary.solutionFieldsPending===0?'完成':'待驗收'}，已接續B7／B8／B9／B10）：910個來源／網站解析欄位中，${summary.solutionFieldsMatched}個在明列的標題／排版清理後一致，${summary.solutionFieldsAdjudicated}個文字差異已有B7／B8／B9／B10獨立計算裁定，**${summary.solutionFieldsPending}個仍待覆核**（含教學詳略、重新推導、來源簡答及排版差別）。全部保留兩邊原文及分開狀態；這不等於${summary.solutionFieldsPending}道錯題，更不代表455項已逐小問獨立重算。B7另恢復37條長題中文推導並獨立驗算；B8再覆核其餘47條軌跡長題，45條更新，修正最大面積及截距直線符號錯誤。見 [B7](SOLUTION_RESTORATION.md) 及 [B8](LOCUS_COMPLETION.md)。B9再覆核24條選擇／書面改編題（51個全部來源位置，其中49個來源位置原有待核對解析欄位），補強7條雙語解析；見[選擇題接力](LOCUS_MCQ_REVIEW.md)。B10再完成固定104個四心ID的獨立代數／座標覆核及存在性限制；詳見[四心覆核](FOUR_CENTRES_REVIEW.md)。原B6的25個ID及前批獨立紀錄另外有效。其餘來源解答相同亦不自動取得「數學完成」資格。
 
 ## 可重現流程
 
@@ -75,7 +76,7 @@ ${table(['網站ID','狀態','實際修改'],repairs.map(r=>[r.id,r.status,r.rea
 
 ## 455項完整對照
 
-下表「解析欄對照完成」包含文字一致或明列B7／B8／B9獨立推導裁定，JSON method可區分；不能概括當成全部數學驗算。全文、SHA256、來源locator、差異欄位及各自狀態見 \`content/imports/2026-10-23-batch-source-review.json\` 與 \`batch-source-snapshots.json\`；原記錄不是網頁可執行內容。
+下表「解析欄對照完成」包含文字一致或明列B7／B8／B9／B10獨立推導裁定，JSON method可區分；不能概括當成全部數學驗算。全文、SHA256、來源locator、差異欄位及各自狀態見 \`content/imports/2026-10-23-batch-source-review.json\` 與 \`batch-source-snapshots.json\`；原記錄不是網頁可執行內容。
 
 ${table(['編號','網站ID／原位置','題幹與選項','解析欄對照完成 EN／ZH','獨立算式證據','裁定'],records.map(r=>[r.recordId,r.id+' / '+r.locator,r.promptAndOptions.status,['solution','solutionZh'].map(f=>r.solutionComparison[f].status==='完成'?'是':'否').join('／'),r.independentMathematics.status,r.promptAndOptions.reason]))}
 `);

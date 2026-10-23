@@ -1,7 +1,7 @@
 {
-  "testedAt": "2026-10-23T13:23:00.611Z",
+  "testedAt": "2026-10-23T19:00:42.751Z",
   "base": "http://127.0.0.1:4173/",
-  "revision": "fad88dd11ec4014d",
+  "revision": "2ffd9cb690908b1f",
   "questionCount": 44,
   "checked": [
     {
@@ -1060,6 +1060,12 @@
       "tables": 2,
       "cells": 18
     }
+  ],
+  "stylesheetVersion": "77c77caaa4f1",
+  "versionedEntryPages": [
+    "dashboard.html",
+    "app.html",
+    "library.html"
   ],
   "allHeaderAndDataBorders": true,
   "allCellsLeftAligned": true,
