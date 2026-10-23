@@ -1,5 +1,11 @@
 # Implementation record
 
+## Statistics stylesheet refresh — 23 October 2026
+
+Status LOG-20261023-TABLE-CACHE: 本地完成／正式站待驗收。正式站原有修正已存在，但未加版本的 math.css 回應容許快取600秒；不能確定這就是使用者所見原因。Dashboard、題庫及作答頁現引用同一內容雜湊版本 `77c77caaa4f1`，避免重用舊未加版本的樣式網址。題目、數據、圖像、答案、ID及學生記錄均無變動。
+
+Actual local validation: all44 statistics table questions at320/390/768/1440px,176 views and400 bilingual table blocks pass complete header/data borders, left alignment, source row/column counts, mobile horizontal scroll, EN/ZH, preview and result review. All three entry pages reference the actual CSS hash. Actual r39a quantity/frequency screenshot visually inspected. Build consistency and diff whitespace checks pass. [Scoped evidence](qa/2026-10-23/statistics-style-version/README.md). Prior B7 and table release evidence remains historical, not evidence for a later deployment.
+
 ## Statistics table outlines and alignment — 23 October 2026
 
 Status LOG-20261023-TABLE: 本地及正式站驗收完成，與B7合併發布。User reported missing borders around the top quantity row and centred data. Root cause: table CSS styled only td, while the shared renderer correctly uses th for the first source row. Apply complete four-sided borders and left/top alignment to both th and td, consistent mobile padding, source-case headings and left-aligned captions. The shared rule covers question-bank previews, actual questions and result reviews.
