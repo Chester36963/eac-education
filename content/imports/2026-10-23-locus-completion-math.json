@@ -1,0 +1,962 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "scope": "Independent calculations for all47 remaining locus long questions; bound to whole current records, with non-solution invariants",
+  "records": [
+    {
+      "id": "import-locus-cb757fbbabdc6405",
+      "status": "完成",
+      "questionSha256": "5cb0b07de06bc4ba790f06bb59922e3c5436813c877bf1244664160ae3480d2d",
+      "reason": "Perpendicular bisector; circle parameter also places both chord endpoints on the circle",
+      "calculated": {
+        "bisector": [
+          5,
+          1,
+          -9
+        ],
+        "a": 3
+      }
+    },
+    {
+      "id": "import-locus-e25a8efd1fdf9bd7",
+      "status": "完成",
+      "questionSha256": "08814433e1cbe12b200ca16b8e471894d337fdfec88390341218299e190d6e2d",
+      "reason": "Focus/directrix equivalence and analytic nonnegative minimum at the vertex",
+      "calculated": {
+        "vertex": [
+          2,
+          -2
+        ],
+        "touchingCircle": {
+          "centre": [
+            2,
+            -1
+          ],
+          "r2": 1
+        }
+      }
+    },
+    {
+      "id": "import-locus-4976a779e33ded8a",
+      "status": "完成",
+      "questionSha256": "23d80f22f036cd4a6da0848fc45347cbbe7d2fde51752c3d5cfdb5acd47289f5",
+      "reason": "Quadrant selects centre; rhombus determinant independently validates bound 780",
+      "calculated": {
+        "G": [
+          10,
+          18
+        ],
+        "r2": 900,
+        "area": 779.4228634059948
+      }
+    },
+    {
+      "id": "import-locus-ccb34b071c2d713a",
+      "status": "完成",
+      "questionSha256": "602fcb9b60a407f249e398f67fea915cdd417e735ac18f1da53a4d25a9f3670f",
+      "reason": "Radius, chord half-height and triangle determinant reject bound 68",
+      "calculated": {
+        "k": 24,
+        "G": [
+          -12,
+          16
+        ],
+        "r2": 144,
+        "area": 70.25622748198198
+      }
+    },
+    {
+      "id": "import-locus-f194987ef8682a2b",
+      "status": "完成",
+      "questionSha256": "0727875880bbf51e57e8138f08ec2f2d2fa0179aad6f39838f2f0e3e68bcc500",
+      "reason": "All equal-chord solutions, opposite-side vertices and exact polygon area",
+      "calculated": {
+        "m": -24,
+        "n": -28,
+        "G": [
+          12,
+          14
+        ],
+        "S": [
+          30,
+          -10
+        ],
+        "T": [
+          -6,
+          -10
+        ],
+        "area": 972,
+        "coincidentTarea": 0
+      }
+    },
+    {
+      "id": "import-locus-2a8bdca56b33ba51",
+      "status": "完成",
+      "questionSha256": "fb83d702206f2e2db1e659ba2204bc1cb1c3d0f9abcb5551df10284775c1042e",
+      "reason": "Maximum circle-to-line distance and full base length prove area bound",
+      "calculated": {
+        "r": 10,
+        "AH": 17.88854381999832,
+        "maximumArea": 129.4427190999916
+      }
+    },
+    {
+      "id": "import-locus-f55231eae3c6d097",
+      "status": "完成",
+      "questionSha256": "ca5f522b60f3ceb0291f25e94e30c962da3cef564e099043f1adf2462653236c",
+      "reason": "Both circle equations, other intersection and quadrilateral shoelace area",
+      "calculated": {
+        "k": 24,
+        "G": [
+          23.04,
+          -17.28
+        ],
+        "area": 432
+      }
+    },
+    {
+      "id": "import-locus-10dc6fd95bbec5a2",
+      "status": "完成",
+      "questionSha256": "eafa844f3bcc63152b2306e605dcd6a2e4ad54a26d9250e92e425c8e977d6f26",
+      "reason": "Correct previous wrong-side height: polygon maximum 50sqrt2, not 100+50sqrt2",
+      "calculated": {
+        "maximizer": [
+          -2.414213562373095,
+          11.899494936611665
+        ],
+        "maximumArea": 70.71067811865476,
+        "heightOppositeSide": 2.9289321881345245,
+        "previousWrongArea": 170.71067811865476
+      }
+    },
+    {
+      "id": "import-locus-356d0d6bd9448c4d",
+      "status": "完成",
+      "questionSha256": "15961235df8438202b80f9bce9afdb99d4646530a56c2840017c89674f86ccbf",
+      "reason": "Nonnegative substitution excludes second algebraic root and proves tangency",
+      "calculated": {
+        "vertex": [
+          2,
+          3
+        ],
+        "contact": [
+          2,
+          3
+        ],
+        "radius": 2,
+        "feasibleZ": [
+          0
+        ],
+        "rejectedZ": -5
+      }
+    },
+    {
+      "id": "import-locus-3d010c23c9c12d17",
+      "status": "完成",
+      "questionSha256": "9c408c1408d133548617f265799ab78719b6a86e0f169a9dcad7b173789ef432",
+      "reason": "Apollonius circle, both tangent offsets and external tangent length",
+      "calculated": {
+        "centre": [
+          -1,
+          0
+        ],
+        "r2": 4,
+        "tangentOffsets": [
+          -1.8284271247461903,
+          3.8284271247461903
+        ],
+        "tangentLength": 3.4641016151377544
+      }
+    },
+    {
+      "id": "import-locus-b2b7cd681657c79c",
+      "status": "完成",
+      "questionSha256": "64ead300b8449ee8884e909e54507b69ce6c2b70959dd8506505783dbd87bf7a",
+      "reason": "Distance-ratio circle and strict secant range, equality is tangency",
+      "calculated": {
+        "centre": [
+          2,
+          0
+        ],
+        "r2": 4,
+        "strictSlopeRange": [
+          -0.5773502691896258,
+          0.5773502691896258
+        ]
+      }
+    },
+    {
+      "id": "import-locus-a90ea10def4b11c5",
+      "status": "完成",
+      "questionSha256": "b974f20fee1094dfe2ae2163768ed4e6391842ad9d8c5263a1033502690fd663",
+      "reason": "Tangent-length condition ensures exterior domain and horizontal lines miss inner circle",
+      "calculated": {
+        "centre": [
+          3,
+          1
+        ],
+        "r2": 50,
+        "horizontalTangents": [
+          -6.0710678118654755,
+          8.071067811865476
+        ]
+      }
+    },
+    {
+      "id": "import-locus-fc95397107e9f500",
+      "status": "完成",
+      "questionSha256": "7eb7afdbb8d9ee560bab145554153f9e9ab301265df555d8dd0eea95cde8b119",
+      "reason": "Parallel midline and radius bases give equal triangle areas",
+      "calculated": {
+        "midline": [
+          1,
+          -3,
+          -6
+        ],
+        "centre": [
+          6,
+          0
+        ],
+        "ratio": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "import-locus-12c06603b5c04582",
+      "status": "完成",
+      "questionSha256": "d8822317c0696256929f0449bc2ed054ac39789404d509ae503702d4c3e370d0",
+      "reason": "Bisector intersections give all four rhombus sides, not a partial perimeter",
+      "calculated": {
+        "r2": 100,
+        "bisector": [
+          3,
+          4,
+          -37
+        ],
+        "perimeter": 40
+      }
+    },
+    {
+      "id": "import-locus-f74644143f0cf3dd",
+      "status": "完成",
+      "questionSha256": "9ccac9ebd2d82642dc2500ef7d3d3ff2bc66b2fbed7a4fb42f7f57443cd3daf6",
+      "reason": "Axis intercept circle has diameter 10 and circumference exceeding 30",
+      "calculated": {
+        "H": [
+          6,
+          0
+        ],
+        "K": [
+          0,
+          -8
+        ],
+        "diameter": 10,
+        "circumference": 31.41592653589793
+      }
+    },
+    {
+      "id": "import-locus-95b56c09a8dc02b1",
+      "status": "完成",
+      "questionSha256": "76034d01bc8ff696c3065e970fc42b6a5eadde94c2ba5fcb24813d88fe5bba2f",
+      "reason": "Triangle inradius identity and both angle bisectors of unrestricted equal distances",
+      "calculated": {
+        "inradius": 4,
+        "identity": "perimeter*r=2*area",
+        "branches": [
+          [
+            8,
+            -1,
+            -60
+          ],
+          [
+            1,
+            8,
+            -105
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-aeaf3768231f9243",
+      "status": "完成",
+      "questionSha256": "92e22c23489697b550bd0a9ddde916c9c8c411787151868c69ad809ed41df1b5",
+      "reason": "Chord projection and perpendicular rhombus diagonals yield area 120",
+      "calculated": {
+        "G": [
+          6,
+          8
+        ],
+        "r2": 169,
+        "OG": 10,
+        "chordLength": 24,
+        "area": 120
+      }
+    },
+    {
+      "id": "import-locus-b29c65c337d0feab",
+      "status": "完成",
+      "questionSha256": "ba979f3076c69cbd6f3e4fce74bc56f5d8ec0ca2734b76772339dff125d046ad",
+      "reason": "Reflect endpoint in given perpendicular bisector to recover full diameter",
+      "calculated": {
+        "G": [
+          5,
+          -3
+        ],
+        "B": [
+          8,
+          -2
+        ],
+        "r2": 10,
+        "diameterLine": [
+          1,
+          -3,
+          -14
+        ]
+      }
+    },
+    {
+      "id": "import-locus-2c1c9be38eea17d2",
+      "status": "完成",
+      "questionSha256": "d57a0317813371ec97c7c32f520c83fbc1959006fa9c0a727378ab37df64a200",
+      "reason": "Positive intercepts, chord midpoint and polygon area independently recomputed",
+      "calculated": {
+        "M": [
+          36,
+          0
+        ],
+        "N": [
+          0,
+          24
+        ],
+        "Q": [
+          18,
+          12
+        ],
+        "R": [
+          10,
+          0
+        ],
+        "area": 276
+      }
+    },
+    {
+      "id": "import-locus-2b3c3e42b0bc71e9",
+      "status": "完成",
+      "questionSha256": "6a6efbfaeebfc1ac6adf62610c33aa2d6c48d35cd6eb5fec352ce82c005c4a41",
+      "reason": "Midpoint reflection is 2M-P, not -P; verify four equal sides and area",
+      "calculated": {
+        "M": [
+          -1,
+          -1
+        ],
+        "P": [
+          -5,
+          1
+        ],
+        "Q": [
+          3,
+          -3
+        ],
+        "sideSquared": 65,
+        "area": 60
+      }
+    },
+    {
+      "id": "import-locus-4eec860cbca99bbb",
+      "status": "完成",
+      "questionSha256": "56f6d0dcfcca5285b490797e631288f75fa87b1296db3414c9f29cb208b013f5",
+      "reason": "Circle-centre substitution rejects false equal-halves claim",
+      "calculated": {
+        "bisector": [
+          3,
+          -2,
+          -12
+        ],
+        "centre": [
+          9,
+          4.5
+        ],
+        "centreOnBisector": false
+      }
+    },
+    {
+      "id": "import-locus-2aa5223d763914fa",
+      "status": "完成",
+      "questionSha256": "be93ee9bfc16697ce45cc40d4130538d0f03b2e44e2e2d9454490bc2e70ec4a6",
+      "reason": "All parallel chords have the same centre bisector and equal opposite heights",
+      "calculated": {
+        "G": [
+          3,
+          -4
+        ],
+        "r2": 169,
+        "bisector": [
+          7,
+          -17,
+          -89
+        ],
+        "ratio": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "import-locus-6b11f030d527ef42",
+      "status": "完成",
+      "questionSha256": "f31c1a8dddd6d625bad28d3a7e3c8af52e641baedcc6dd7949cb47181f36d395",
+      "reason": "Both fixed-distance branches; explicit k=20 and full four-vertex rectangle",
+      "calculated": {
+        "G": [
+          8,
+          6
+        ],
+        "r": 25,
+        "k": 20,
+        "chordLength": 30,
+        "rectangleArea": 1200
+      }
+    },
+    {
+      "id": "import-locus-17df25096612f389",
+      "status": "完成",
+      "questionSha256": "5c4652c1c7a4616e19bcb0a9a23697e8936ec8d8527887d88bf88dac8ffe593f",
+      "reason": "Higher line-circle intersection chooses the correct inscribed angle branch",
+      "calculated": {
+        "G": [
+          1,
+          2
+        ],
+        "Q": [
+          4.323635208501674,
+          11.431513611335564
+        ],
+        "R": [
+          -7.123635208501673,
+          -3.8315136113355655
+        ],
+        "angleDegrees": 71.565051177078
+      }
+    },
+    {
+      "id": "import-locus-4022ea79944888bd",
+      "status": "完成",
+      "questionSha256": "c9ae1291a8b8706d6e58a3cad6a89ee3b81c669d9cec08e36f6edb7da85d2175",
+      "reason": "Centre parameter, y-axis tangency and trapezium area",
+      "calculated": {
+        "k": -7,
+        "G": [
+          12,
+          -13
+        ],
+        "r2": 144,
+        "D": [
+          0,
+          -13
+        ],
+        "area": 108
+      }
+    },
+    {
+      "id": "import-locus-ef1fb30b4b4c4826",
+      "status": "完成",
+      "questionSha256": "adc9ad0ab9d711921add558e7ca6ade266c217f6309d7df393ba4ec28f5df033",
+      "reason": "Thales endpoints excluded; explicit real-circle counterexample disproves universal claim",
+      "calculated": {
+        "k": 0,
+        "circleCentres": [
+          [
+            1,
+            2
+          ],
+          [
+            7,
+            10
+          ]
+        ],
+        "radii": [
+          5,
+          5
+        ],
+        "validContact": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "id": "import-locus-7724cc02645c7871",
+      "status": "完成",
+      "questionSha256": "2c726eea9853e5e833a69f0f5d504d0ba476a46841f75054194f75556f419148",
+      "reason": "Complete parameter identity and three-point circle substituted independently",
+      "calculated": {
+        "h": -10,
+        "G": [
+          -10,
+          12
+        ],
+        "r2": 250,
+        "areaMultipleOfPi": 250
+      }
+    },
+    {
+      "id": "import-locus-6fbf3b30f12f5a4a",
+      "status": "完成",
+      "questionSha256": "77e283f5e33e35c7a80625465a658fd5c3fbe83ea835a6d30f76fbad01f626a2",
+      "reason": "Intercept diameter and exact maximum distance from diameter give area 25",
+      "calculated": {
+        "M": [
+          -8,
+          0
+        ],
+        "N": [
+          0,
+          -6
+        ],
+        "G": [
+          -4,
+          -3
+        ],
+        "r": 5,
+        "maximumArea": 25
+      }
+    },
+    {
+      "id": "import-locus-03376cf90ec2b2ea",
+      "status": "完成",
+      "questionSha256": "b0b5029696be8d285cbf366a713c73d2c57a910f3574785a60933066d0f0895d",
+      "reason": "Signed intercepts and full quadrilateral determinant, no unsigned intercept error",
+      "calculated": {
+        "A": [
+          2,
+          0
+        ],
+        "B": [
+          0,
+          -5
+        ],
+        "S": [
+          1,
+          -2.5
+        ],
+        "T": [
+          0,
+          -2.1
+        ],
+        "area": 3.55
+      }
+    },
+    {
+      "id": "import-locus-ed03b92ac3963cdb",
+      "status": "完成",
+      "questionSha256": "9df6733a1fd5828fe41d546431cc0af661bb1942f7dbef0b77fa90e7635ee636",
+      "reason": "Circle expansion and chord bisector through centre, distinct-endpoint domain",
+      "calculated": {
+        "G": [
+          -3,
+          8
+        ],
+        "r2": 49,
+        "k": -12,
+        "domain": "A and B distinct, as implied by the specified line locus"
+      }
+    },
+    {
+      "id": "import-locus-fdf7822e423e7ca4",
+      "status": "完成",
+      "questionSha256": "8a3deed5b7618a668de0757657e269951aadca891667b28ea7f6224cc7a5959b",
+      "reason": "Two centres from perpendicular-bisector/diameter-circle intersection",
+      "calculated": {
+        "centres": [
+          [
+            -6,
+            -4
+          ],
+          [
+            10,
+            8
+          ]
+        ],
+        "parameterRoots": [
+          -6,
+          10
+        ],
+        "radiusSquared": 200
+      }
+    },
+    {
+      "id": "import-locus-5e2317ca6d3021a7",
+      "status": "完成",
+      "questionSha256": "964824874334627251932bcd4ac644596917ea39d083a927ac33fdf467a9ce11",
+      "reason": "Solve both variation coefficients and recompute midpoint bisector",
+      "calculated": {
+        "a": 15,
+        "b": -2,
+        "f2": 22,
+        "H": [
+          2,
+          22
+        ],
+        "K": [
+          6,
+          18
+        ],
+        "bisector": [
+          1,
+          -1,
+          16
+        ]
+      }
+    },
+    {
+      "id": "import-locus-7ab61e378793a812",
+      "status": "完成",
+      "questionSha256": "3e42cbbec3aada8dbe1500afbcdde40814183f1a2e8c23a6d822e7d17100073d",
+      "reason": "Foot on diameter line, exact chord distance and major segment area versus 450pi",
+      "calculated": {
+        "G": [
+          -20,
+          15
+        ],
+        "H": [
+          -14.4,
+          19.2
+        ],
+        "r": 25,
+        "distanceToChord": 9,
+        "majorArea": 1421.8294058591412,
+        "comparison": 1413.7166941154069
+      }
+    },
+    {
+      "id": "import-locus-bb3a2124f564a67c",
+      "status": "完成",
+      "questionSha256": "4cb1a679ca575c90fd46c07abbf64202d67e1a0b9b46a4ad82f40ee7bcfc15f7",
+      "reason": "Positive slope excludes extraneous horizontal chord and distances verify locus membership",
+      "calculated": {
+        "G": [
+          6,
+          6
+        ],
+        "r2": 45,
+        "m": 1.3333333333333333,
+        "D": [
+          7.2,
+          12.6
+        ],
+        "distance": 6,
+        "bothBisectors": true
+      }
+    },
+    {
+      "id": "import-locus-3ef2e9b167537f00",
+      "status": "完成",
+      "questionSha256": "13413ea1c3e778d5f9b28776ab1fbff31b94d1e158b24fb257254acb48c01cc6",
+      "reason": "Actual second intersection and dot-product angle remove arc ambiguity",
+      "calculated": {
+        "G": [
+          12,
+          -8
+        ],
+        "Q": [
+          1.4399999999999977,
+          20.08
+        ],
+        "r2": 900,
+        "angleDegrees": 73.73979529168805
+      }
+    },
+    {
+      "id": "import-locus-1cc76aa634270b10",
+      "status": "完成",
+      "questionSha256": "6245b1e2982d207f6baaff6fdd2a4c436937ef4384a2174230779b30cd90da76",
+      "reason": "Both tangent intercepts; position selects branch and original-side centre is verified",
+      "calculated": {
+        "r": 16,
+        "rejectedIntercept": -18,
+        "P": [
+          50,
+          0
+        ],
+        "T": [
+          23.529411764705884,
+          -14.117647058823529
+        ],
+        "centre": [
+          42.470588235294116,
+          14.117647058823529
+        ],
+        "centreLocus": [
+          8,
+          -15,
+          -128
+        ]
+      }
+    },
+    {
+      "id": "import-locus-29050a7cf15ced1b",
+      "status": "完成",
+      "questionSha256": "6628dfb916a37cd6992d095559e96994f93d6e71cc8fef02d68045b9b2ef7cb5",
+      "reason": "Radius, maximum area and sector angle using C on segment AB",
+      "calculated": {
+        "centre": [
+          11,
+          5
+        ],
+        "r": 4,
+        "maximumArea": 16,
+        "sectorAngle": 60,
+        "sectorArea": 8.377580409572781,
+        "domain": "C is intersection with segment AB; full extended line would require specifying near/far intersection"
+      }
+    },
+    {
+      "id": "import-locus-a85ab33e406faeee",
+      "status": "完成",
+      "questionSha256": "fc54a5bbfc29b9826db75c0152ac056a98ae1e58abd93037ddd5304fdd146a60",
+      "reason": "Absolute-value radius, both parameter signs and actual maximum-area vertices",
+      "calculated": {
+        "roots": [
+          18,
+          -2
+        ],
+        "perimeters": [
+          43.45584412271571,
+          4.82842712474619
+        ],
+        "excluded": "A,B; k=0 does not satisfy given line"
+      }
+    },
+    {
+      "id": "import-locus-2c21a7c8ea94ca50",
+      "status": "完成",
+      "questionSha256": "4f052d71e4f20bda0e84c89d6908a5b5a63889d8d90277cff0cb5293f114b303",
+      "reason": "Actual A/B midpoint, not MB midpoint, and perpendicular line equation",
+      "calculated": {
+        "A": [
+          -7.846153846153846,
+          -2.769230769230769
+        ],
+        "B": [
+          -12,
+          0
+        ],
+        "M": [
+          -9.923076923076923,
+          -1.3846153846153846
+        ],
+        "L1": [
+          3,
+          -2,
+          18
+        ],
+        "bisector": [
+          3,
+          -2,
+          27
+        ]
+      }
+    },
+    {
+      "id": "import-locus-244ba273cc261cb4",
+      "status": "完成",
+      "questionSha256": "6a059bffa19efabc9a893d47ecd486265e86811c5b800da69ac98b111aa98af4",
+      "reason": "Right-angle circle endpoint exclusions; projection and shared-base ratio",
+      "calculated": {
+        "centre": [
+          3,
+          3
+        ],
+        "r": 5,
+        "excluded": [
+          [
+            -1,
+            0
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "Q": [
+          -17,
+          -12
+        ],
+        "distance": 25,
+        "ratio": [
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "id": "import-locus-2b2221c57f19f926",
+      "status": "完成",
+      "questionSha256": "4fc03cd4c11a89b69ac27029b2e536e24ea3408a4beeb1f04aef02f4f2bfc142",
+      "reason": "Second intersection, no zero-length CQ and actual angle below 100 degrees",
+      "calculated": {
+        "centre": [
+          1.5,
+          3
+        ],
+        "r": 2.5,
+        "Q": [
+          2.482050807568877,
+          5.299038105676658
+        ],
+        "angleDegrees": 96.86989764584402,
+        "excludedLocusEndpoints": [
+          [
+            0,
+            5
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "undefinedSlopePoint": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "import-locus-c7dd969e7d3613d2",
+      "status": "完成",
+      "questionSha256": "3faec391eeefabfa729228b9a5d7dcb56dc36ed07dfb046bb9401cc5fdb2bb60",
+      "reason": "Parametric square identity and two-line inscribed square solve full dimensions",
+      "calculated": {
+        "slope": "m/(1+m)",
+        "P": [
+          4,
+          3.3333333333333335
+        ],
+        "Q": [
+          7.333333333333333,
+          3.3333333333333335
+        ],
+        "squareSide": 3.3333333333333335
+      }
+    },
+    {
+      "id": "import-locus-49536699cd3911ec",
+      "status": "完成",
+      "questionSha256": "aa1495699b5600b920b4139dcd7590d7210f8e78f9c7b0c98d38ab471cf6ad8d",
+      "reason": "Reflection, four side lengths and shoelace area independently recover positive parameter",
+      "calculated": {
+        "t": 7,
+        "C": [
+          21,
+          14
+        ],
+        "area": 245,
+        "isRhombus": true
+      }
+    },
+    {
+      "id": "import-locus-aa0612e55c227621",
+      "status": "完成",
+      "questionSha256": "fcafd3c70bad0387d7101b8e5f5f7205c351ada2e50e14f45c952da860ed66a3",
+      "reason": "Distance-ratio circle and actual BC slope, common-base areas independently checked",
+      "calculated": {
+        "C": [
+          10.666666666666666,
+          -2
+        ],
+        "r": 6.666666666666667,
+        "areas": [
+          42,
+          14
+        ],
+        "ratio": [
+          3,
+          1
+        ],
+        "slopeBC": -0.75
+      }
+    },
+    {
+      "id": "import-locus-22848749f24cef31",
+      "status": "完成",
+      "questionSha256": "e25867a3751a324ea067cd95c93c1d718209ac7a14d50aba17b3d16fab20c51c",
+      "reason": "Fixed area selects positive-height branch; circle diameter is the hypotenuse",
+      "calculated": {
+        "C": [
+          19,
+          0
+        ],
+        "D": [
+          9,
+          0
+        ],
+        "E": [
+          12.6,
+          4.8
+        ],
+        "areaCDE": 24,
+        "circleAreaMultipleOfPi": 25
+      }
+    },
+    {
+      "id": "import-locus-a3ae598c1a082715",
+      "status": "完成",
+      "questionSha256": "82c50f9946dcdc80e9a12954a282b0ac540a4ccd89e87679b777ee8a64e4f2a4",
+      "reason": "Two equal parallel chords reflected in centre form correctly ordered rectangle",
+      "calculated": {
+        "G": [
+          5,
+          3
+        ],
+        "r2": 325,
+        "reflectedEndpoints": [
+          [
+            -1,
+            -14
+          ],
+          [
+            23,
+            4
+          ]
+        ],
+        "rectangleSides": [
+          30,
+          20,
+          30,
+          20
+        ],
+        "perimeter": 100
+      }
+    },
+    {
+      "id": "import-locus-c39e2d8588ba8675",
+      "status": "完成",
+      "questionSha256": "3d03471af683ae1cffca340adc64851e3c4a97ffe4d05a98a3c7170b46dfe0f8",
+      "reason": "Both absolute-ratio branches and both parabola intersections, with impossible height rejected",
+      "calculated": {
+        "A": [
+          2,
+          0
+        ],
+        "B": [
+          -6,
+          0
+        ],
+        "N": [
+          [
+            0,
+            -3
+          ],
+          [
+            -4,
+            -3
+          ]
+        ],
+        "rejectedHeight": -15,
+        "minimumParabolaHeight": -4
+      }
+    }
+  ]
+}

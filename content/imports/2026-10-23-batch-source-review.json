@@ -8,11 +8,11 @@
     "promptAndOptionRowsComplete": 455,
     "exactPresentationRows": 427,
     "semanticDecisionRows": 28,
-    "solutionFieldsMatched": 651,
-    "solutionFieldsDifferent": 259,
-    "solutionFieldsAdjudicated": 2,
-    "solutionFieldsPending": 257,
-    "independentMathUniqueIds": 62
+    "solutionFieldsMatched": 667,
+    "solutionFieldsDifferent": 243,
+    "solutionFieldsAdjudicated": 37,
+    "solutionFieldsPending": 206,
+    "independentMathUniqueIds": 109
   },
   "records": [
     {
@@ -11539,17 +11539,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11559,7 +11561,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "8cc9a4840f058cbc094f33c3922bce09a949e7dd5ae37e8c7344573dbb7ca282",
-      "questionSha256": "06699e91fc75fe27104f1b9e2337c555fc22ede15a7718281f78afb26f86eec7",
+      "questionSha256": "08814433e1cbe12b200ca16b8e471894d337fdfec88390341218299e190d6e2d",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11569,18 +11571,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11590,7 +11594,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "3a9f6b41ca82c66c6379b4d818c99bf787a29e96f0bb860ca2919bdcbde0ee70",
-      "questionSha256": "70fbf343bce1e6601c521184bc272727f56f02e541809f51eed2e89f11a73e6e",
+      "questionSha256": "23d80f22f036cd4a6da0848fc45347cbbe7d2fde51752c3d5cfdb5acd47289f5",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11601,17 +11605,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11621,7 +11627,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "3ea4db5c52e37cc408b68575dac64a5d05d80de9868d7100d900006dd95ccb73",
-      "questionSha256": "f0fff7c37f488d3d3f90643cda7cfd626584bb04c9d00997b4b47c7c5787529f",
+      "questionSha256": "602fcb9b60a407f249e398f67fea915cdd417e735ac18f1da53a4d25a9f3670f",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11632,17 +11638,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11652,7 +11660,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "c647bb63672494c66996540f4376dba77f06a61ff0296c8ba47ad1f9a798bb62",
-      "questionSha256": "66586ffd4f34166d965aa6f93e8f4f3173a4413b1f6c168bbae5f4fdf9842383",
+      "questionSha256": "0727875880bbf51e57e8138f08ec2f2d2fa0179aad6f39838f2f0e3e68bcc500",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11663,17 +11671,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11725,17 +11735,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11745,7 +11757,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "6d1ab9c7f8ef5aa784c8c35bfbe59ea6221f9f78226e76c3adc61e1b75261d7e",
-      "questionSha256": "e12b7b45c5bebfd5282a6e8d2575e6e0d5e4f90849f9ecd6411862ea43fc68f2",
+      "questionSha256": "ca5f522b60f3ceb0291f25e94e30c962da3cef564e099043f1adf2462653236c",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11755,18 +11767,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11776,7 +11790,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "228ca8c8075dced97d5d8178620bda3aa08d6c969b09d99d997af40e18edfa42",
-      "questionSha256": "e74b573c4f19e806763bcf546868d0d238938a739220eb8adb2455bb5a8253f5",
+      "questionSha256": "eafa844f3bcc63152b2306e605dcd6a2e4ad54a26d9250e92e425c8e977d6f26",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11786,18 +11800,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11838,7 +11854,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "4ac937a45e9d60a088c3f3c383e300176bf494a611e4ed1c90cc84fd2a0ac7d8",
-      "questionSha256": "513e4a20333a47255bf0114ff006cb7b6d05c865e686677b87f19c4cce2c7436",
+      "questionSha256": "15961235df8438202b80f9bce9afdb99d4646530a56c2840017c89674f86ccbf",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11849,17 +11865,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11869,7 +11887,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "08893ec8d6aea9fe000eedb1658aa53f5296cc488026ab5481343043b00df4cd",
-      "questionSha256": "94669cfbbe0147c4f858cc497601a81050ededadb6d4a23adaba042f31ed52ee",
+      "questionSha256": "9c408c1408d133548617f265799ab78719b6a86e0f169a9dcad7b173789ef432",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11880,17 +11898,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11900,7 +11920,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "c7a727375beaa77da94d39a08b7a7e734eac3da351b1444dd76553911cc681b1",
-      "questionSha256": "ca388e8fdb9442c943e7ae72e8c15b5daff8d9086600d5e6a94a0183a727bed7",
+      "questionSha256": "64ead300b8449ee8884e909e54507b69ce6c2b70959dd8506505783dbd87bf7a",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11911,17 +11931,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11931,7 +11953,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "3a46746434d5a44d73961d665c97add3ef7e9bf96943ce750dccf141b3608ae9",
-      "questionSha256": "320da1ed0fc040c0ea4ecc11376e67ab40fe9ac836044193aac5328cb4c3ff87",
+      "questionSha256": "b974f20fee1094dfe2ae2163768ed4e6391842ad9d8c5263a1033502690fd663",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11942,17 +11964,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11962,7 +11986,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "f647556283c5b5ff5353ed5e270d7cf56d64eabbeaabb727d2ac2eca9abd72d4",
-      "questionSha256": "5d9c7c61b11eaeecea292dc8045c5da9a321da7890c1c63d54d548cd4baa7edc",
+      "questionSha256": "7eb7afdbb8d9ee560bab145554153f9e9ab301265df555d8dd0eea95cde8b119",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11972,18 +11996,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -11993,7 +12019,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "3e3872356d05484950e6d6f929d7d5ff1d432ed60f554fecf2afb445c9a7f8d7",
-      "questionSha256": "853b06e0b91a501e1d8621a16204795a96b2203d9ca239f7590237b53db7c59c",
+      "questionSha256": "d8822317c0696256929f0449bc2ed054ac39789404d509ae503702d4c3e370d0",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12003,18 +12029,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12024,38 +12052,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "23a70c7e7a2acf401025ba28e52e8cd5545f5b7f21eb3dbc6c6e3b654ccb6e89",
-      "questionSha256": "e353daf52a1b28b8abef238d766c6b3b25741476c42a2e39117331726e1519d8",
-      "promptAndOptions": {
-        "status": "完成",
-        "method": "normalized-text-and-option-identity",
-        "differentFields": [],
-        "reason": "Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded."
-      },
-      "solutionComparison": {
-        "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
-        },
-        "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
-        }
-      },
-      "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
-      }
-    },
-    {
-      "recordId": "BATCH-385",
-      "id": "import-locus-95b56c09a8dc02b1",
-      "locator": "q-LongQ-18",
-      "topic": "locus",
-      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
-      "sourceSnapshotSha256": "b5e2bd811dbedf8711788a6401160ce61e1d0c65c07b434800f714a56d33e56f",
-      "questionSha256": "99fe2f665d1699d61ac10814b39e90c549577066a31c26f05cfe42d8bb3a26c1",
+      "questionSha256": "9ccac9ebd2d82642dc2500ef7d3d3ff2bc66b2fbed7a4fb42f7f57443cd3daf6",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12065,18 +12062,53 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
+      }
+    },
+    {
+      "recordId": "BATCH-385",
+      "id": "import-locus-95b56c09a8dc02b1",
+      "locator": "q-LongQ-18",
+      "topic": "locus",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "sourceSnapshotSha256": "b5e2bd811dbedf8711788a6401160ce61e1d0c65c07b434800f714a56d33e56f",
+      "questionSha256": "76034d01bc8ff696c3065e970fc42b6a5eadde94c2ba5fcb24813d88fe5bba2f",
+      "promptAndOptions": {
+        "status": "完成",
+        "method": "normalized-text-and-option-identity",
+        "differentFields": [],
+        "reason": "Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded."
+      },
+      "solutionComparison": {
+        "solution": {
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
+        },
+        "solutionZh": {
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
+        }
+      },
+      "independentMathematics": {
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12117,7 +12149,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "00862bd0beecf47085ebb665f7fac901c3e574474d757a1df06d0f15987bd53e",
-      "questionSha256": "94d09b09075207798b29e8ddaff68f9383f5627cf190f44debda049468f06e06",
+      "questionSha256": "92e22c23489697b550bd0a9ddde916c9c8c411787151868c69ad809ed41df1b5",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12126,19 +12158,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12148,7 +12182,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "31f2c7289e97519b9fa47d87f108ba4c0075a1ea088693bbd0c8ce63da933670",
-      "questionSha256": "17b77507cd9b54d309e45da953e13ea770e7e48042b329899f5d0b0a83ac1ce4",
+      "questionSha256": "ba979f3076c69cbd6f3e4fce74bc56f5d8ec0ca2734b76772339dff125d046ad",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12158,18 +12192,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12179,7 +12215,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "ff9396c29c138ffcfc1963cb2a1d3695ee6a92018a0526b88c02d6291bfb2a3d",
-      "questionSha256": "77959beabd9a95a51d1575fb472dc3a7099d433dbdf3cd3271bc68901211bb30",
+      "questionSha256": "d57a0317813371ec97c7c32f520c83fbc1959006fa9c0a727378ab37df64a200",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12189,18 +12225,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12210,7 +12248,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "cf5d6ec96021556c72f7e30621a2b26a3198072c21e0dfdb3f1532e99cf4a6e0",
-      "questionSha256": "aa39c9634f6c694f2d64342a5493b5701396b0adfb4832c65b285992be1795f5",
+      "questionSha256": "6a6efbfaeebfc1ac6adf62610c33aa2d6c48d35cd6eb5fec352ce82c005c4a41",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12220,18 +12258,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12241,7 +12281,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "2eef1b8e1626bccef035ea3feef8d16185a397deecc3c41e0b12173c125e2acf",
-      "questionSha256": "8256046342843b29634644c8d7e7abdbc2356bc40d242f42d7cc64c546d46f78",
+      "questionSha256": "56f6d0dcfcca5285b490797e631288f75fa87b1296db3414c9f29cb208b013f5",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12252,17 +12292,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12272,7 +12314,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "aa0468ea2de8301e020b56c8df3de6e650687de428c3ddb8197fd9d8dcf759fb",
-      "questionSha256": "000d1feb7d0ed4343abaf2f4a08c359790403dd49c500f2cf0e26a5b49e437fa",
+      "questionSha256": "be93ee9bfc16697ce45cc40d4130538d0f03b2e44e2e2d9454490bc2e70ec4a6",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12283,17 +12325,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12303,7 +12347,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "01a8405dc6b12caba7d55ff50cf03b9ebef401df0b56a123fd4e10d3a8271286",
-      "questionSha256": "eaf3e4e8e208d9766994557937c644eb258451d7665f0284cd989ea728d6ed0f",
+      "questionSha256": "f31c1a8dddd6d625bad28d3a7e3c8af52e641baedcc6dd7949cb47181f36d395",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12314,17 +12358,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12334,7 +12380,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "0c8ae1a545afc624eef94cca0b0808acedff920fdb1d11dee8951d71fe4bc8bb",
-      "questionSha256": "547e48ff13064c016365dbb3e8fb4d067081c2f89a5647ea08fada44d3ecbd7e",
+      "questionSha256": "5c4652c1c7a4616e19bcb0a9a23697e8936ec8d8527887d88bf88dac8ffe593f",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12344,18 +12390,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12365,7 +12413,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "b2e8e1f472a770f18027f8c88c8a38f8a7d62964dd3d013fbae6748a9d952033",
-      "questionSha256": "11c69bd9789de55e7d69593e86ef9d39c5e496ec4ffe2785ae8b8c9f96381da4",
+      "questionSha256": "c9ae1291a8b8706d6e58a3cad6a89ee3b81c669d9cec08e36f6edb7da85d2175",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12375,18 +12423,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12396,7 +12446,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "0ca052524f8dcb5347277fa9cf1e88dc1f975dccd926cb3335c3c825c1eb19b7",
-      "questionSha256": "79b76c680a1bdad28b59761592b08bda87a8afee9dd39f82a05d765428efa612",
+      "questionSha256": "adc9ad0ab9d711921add558e7ca6ade266c217f6309d7df393ba4ec28f5df033",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12406,18 +12456,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12427,7 +12479,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "2d45a94e7c4d8e6edc444d7be26e1ca526f5fb4268b7c8e85497a81188564019",
-      "questionSha256": "10a9da74ef97e12fea4468defb0c6a297f393aa9574f09e575de04e5fea29cb7",
+      "questionSha256": "2c726eea9853e5e833a69f0f5d504d0ba476a46841f75054194f75556f419148",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12436,19 +12488,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12458,7 +12512,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "dea7baadcf07217469a03409a194774e02e5c24c7fa6121f1e20cef3c06396b7",
-      "questionSha256": "2dc561f7c8c466f542a402887ca86546db72f289b3dd0a52f68ec7118bf25376",
+      "questionSha256": "77e283f5e33e35c7a80625465a658fd5c3fbe83ea835a6d30f76fbad01f626a2",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12468,18 +12522,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12489,7 +12545,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "7f179bad19fcc3580b073e517dc5dec39656b0b8d12176fdcfbbb02f27155acd",
-      "questionSha256": "97589fe7b0a745eec6c09c8b77b14562645c527d3eddbd0830f3891803a8022d",
+      "questionSha256": "b0b5029696be8d285cbf366a713c73d2c57a910f3574785a60933066d0f0895d",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12499,18 +12555,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12520,7 +12578,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "dab7a01d4e4e94e5111335e7d31284645888ea750bbd4785053e2f8a1b0df8ed",
-      "questionSha256": "2821b46e24314573875c3b9af1bd164ed05bedfae2efa6f1d90332d0ceece4ee",
+      "questionSha256": "9df6733a1fd5828fe41d546431cc0af661bb1942f7dbef0b77fa90e7635ee636",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12530,18 +12588,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12551,7 +12611,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "ca7bb1e08088d867bb79989b48bf5c5c6adabf2d86839e051055de70f02565ea",
-      "questionSha256": "42186725eb6d6acc4235a163f892f851814c84413de2956fbe119a9d5bc34f17",
+      "questionSha256": "8a3deed5b7618a668de0757657e269951aadca891667b28ea7f6224cc7a5959b",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12561,18 +12621,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12582,7 +12644,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "c2dd9d34b1766b073b2ee5a596ca9eb3e917bdf77a82de8954efbb08c3db1032",
-      "questionSha256": "49cd0c85b3523032ac2a8f114ac0f340a638a7582e208014c5a30488a148955f",
+      "questionSha256": "964824874334627251932bcd4ac644596917ea39d083a927ac33fdf467a9ce11",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12592,18 +12654,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12624,17 +12688,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -12655,17 +12721,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -12686,17 +12754,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -12717,17 +12787,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -12748,17 +12820,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -12768,7 +12842,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "8b6f4a0a49632178f1acf0120893fd25dbf41f5a4cf213cd76d75518942c5007",
-      "questionSha256": "b7bc191344108e12a770aead04f842d9fdab5d467a1c71a61067e8a02b21d739",
+      "questionSha256": "3e42cbbec3aada8dbe1500afbcdde40814183f1a2e8c23a6d822e7d17100073d",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12779,17 +12853,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12830,7 +12906,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "082e81fb166679d9fb3f74ddacd22ac60959041dfa13c7776397b297bd8836b5",
-      "questionSha256": "44600bba267a9b3eb0511a2156e7007bdfed3f9149352a1b6ff6a9edccf507b8",
+      "questionSha256": "4cb1a679ca575c90fd46c07abbf64202d67e1a0b9b46a4ad82f40ee7bcfc15f7",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12841,17 +12917,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12861,7 +12939,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "287952178b1b66a06c9876f38ae383906a7878c1240f8f67fb79f8b58e04455d",
-      "questionSha256": "2950eccb05103f23eb07c70cde0b7725733e2c8fa5bc32c2eb82cccda11b661a",
+      "questionSha256": "13413ea1c3e778d5f9b28776ab1fbff31b94d1e158b24fb257254acb48c01cc6",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -12872,17 +12950,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -12903,17 +12983,19 @@
         "solution": {
           "status": "完成",
           "method": "independently-reviewed-restoration",
-          "basis": "B7 same-question solution restoration and explicit independent calculation: 2026-10-23-solution-math-review.json"
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-solution-math-review.json",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -12934,17 +13016,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -12965,17 +13049,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -12996,17 +13082,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13027,17 +13115,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13058,17 +13148,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13089,17 +13181,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13109,7 +13203,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "a96b10b3c5c888f93581b60d48a95b1657a90e4d3fac4688e45ebca84824c02a",
-      "questionSha256": "9b5d992e424c7a41d965d6ac48d7aa572fdd584de1d7cfae8719b95aa295e552",
+      "questionSha256": "6245b1e2982d207f6baaff6fdd2a4c436937ef4384a2174230779b30cd90da76",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13120,17 +13214,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13151,17 +13247,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13182,17 +13280,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13202,7 +13302,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "55ff7c03ee11cd65fd99fe6f31e6ed5dd5ec1a40360234f5314f5692d803da84",
-      "questionSha256": "6a75594d648d67a1ae827493348e21d4e992ea9a1c937cd6f43e692b25fa5bce",
+      "questionSha256": "6628dfb916a37cd6992d095559e96994f93d6e71cc8fef02d68045b9b2ef7cb5",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13213,17 +13313,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13233,7 +13335,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "7712bd2b0a5c64b63041ac34d45d178ebaf545fd8deb87373cb04b438d5d1851",
-      "questionSha256": "1b216a54b85a95c3390e0cbefcc6029a36b4700bdcc896aba2cf38f8c690922b",
+      "questionSha256": "fc54a5bbfc29b9826db75c0152ac056a98ae1e58abd93037ddd5304fdd146a60",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13244,17 +13346,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13264,7 +13368,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "50a1414ad00265717a61015837cd8822f069bf03e150121a22809ace07977b69",
-      "questionSha256": "5f7266edcff6213c2be46dd7c05c3c8f33a6717b0d17dac931c066b3414be4c1",
+      "questionSha256": "4f052d71e4f20bda0e84c89d6908a5b5a63889d8d90277cff0cb5293f114b303",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13274,18 +13378,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13295,7 +13401,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "f26ca96273281fc5656e7a4644b2e28269d8ce9a8d907a6d5b4820ad53944277",
-      "questionSha256": "d889b778c6a64939f249fdf79c205f91d9cc87c2b61549349b9a1c3cef68bde0",
+      "questionSha256": "6a059bffa19efabc9a893d47ecd486265e86811c5b800da69ac98b111aa98af4",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13305,18 +13411,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13337,17 +13445,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13368,17 +13478,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13388,7 +13500,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "aca4b803592a8578ef4bcfaa3f98aaf6c79c0e7502e05e2f0028bf8b9312b4bb",
-      "questionSha256": "0c26e384fad9acaf717a9b0eefc19df8f1891cb9e0ee8a0d01d478999b2ef51e",
+      "questionSha256": "4fc03cd4c11a89b69ac27029b2e536e24ea3408a4beeb1f04aef02f4f2bfc142",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13399,17 +13511,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13430,17 +13544,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13461,17 +13577,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13492,17 +13610,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13523,17 +13643,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13554,17 +13676,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13574,7 +13698,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "cb140b61058560bcbd4c09713fa7032c6c45c08b5a8950178614de127ea7d005",
-      "questionSha256": "abf8c90fb4aeec4971203334d75b987cfaf065e037812650b493eb23146fc355",
+      "questionSha256": "3faec391eeefabfa729228b9a5d7dcb56dc36ed07dfb046bb9401cc5fdb2bb60",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13585,17 +13709,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13605,7 +13731,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "3699aefde228581fd6d873aa473f941e4f6e53542bcb07ff05bb6eef1a709505",
-      "questionSha256": "f4b1389ab7f12d3574e620d6cfa9b4260634699056ec1290ec1c3f9204cc56a3",
+      "questionSha256": "aa1495699b5600b920b4139dcd7590d7210f8e78f9c7b0c98d38ab471cf6ad8d",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13616,17 +13742,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13647,17 +13775,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13678,17 +13808,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13698,7 +13830,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "da363bd241db626e119e714b2e3a448ee9d8c3548b1ec81a13cb6e4413a92080",
-      "questionSha256": "0aa2983c9377bab985883fa4072e8fb854ffcca660d7fe84fb6cfe78d0c817cf",
+      "questionSha256": "fcafd3c70bad0387d7101b8e5f5f7205c351ada2e50e14f45c952da860ed66a3",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13708,18 +13840,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13729,7 +13863,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "a4a4d9e2028f9eedf326d9dd9ef0292f2098de006c9394e4f71900c1d7ef6340",
-      "questionSha256": "89b6b27cd02db44cdbc1d963a5162cabe6273a1e9b517733e9a2c10ea92d4b69",
+      "questionSha256": "e25867a3751a324ea067cd95c93c1d718209ac7a14d50aba17b3d16fab20c51c",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13738,19 +13872,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13771,17 +13907,19 @@
         "solution": {
           "status": "完成",
           "method": "independently-reviewed-restoration",
-          "basis": "B7 same-question solution restoration and explicit independent calculation: 2026-10-23-solution-math-review.json"
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-solution-math-review.json",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13802,17 +13940,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13833,17 +13973,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13864,17 +14006,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13895,17 +14039,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -13915,7 +14061,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "d6e1a984bc28f9c7db590e0cb2587895aa6bb99fb7165c412036b44b2c7426fb",
-      "questionSha256": "78f2697adab0d33119dbbd87e63ed1b0ca0c52b338079b33970a144db25cf08b",
+      "questionSha256": "82c50f9946dcdc80e9a12954a282b0ac540a4ccd89e87679b777ee8a64e4f2a4",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13925,18 +14071,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13946,7 +14094,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "7a7a1bf9dfb7dce88ff98d9fd890e1c8a8c7f2b046baa6ef167449d1cd8520ae",
-      "questionSha256": "3a8cc4bd6a2632399f67eeee951d1b9f071a516bf1077a7ed39e8a4e9e42679e",
+      "questionSha256": "3d03471af683ae1cffca340adc64851e3c4a97ffe4d05a98a3c7170b46dfe0f8",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -13956,18 +14104,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-completion-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "normalized-source-identity",
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-locus-completion-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-completion-math.json"
       }
     },
     {
@@ -13988,17 +14138,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -14019,17 +14171,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -14050,17 +14204,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -14081,17 +14237,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -14112,17 +14270,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -14143,17 +14303,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -14174,17 +14336,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -14205,17 +14369,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     },
     {
@@ -14236,17 +14402,19 @@
         "solution": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         },
         "solutionZh": {
           "status": "完成",
           "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation.",
+          "evidenceFile": "content/imports/2026-10-23-solution-math-review.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-solution-math-review.json"
+        "evidence": "content/imports/2026-10-23-solution-math-review.json"
       }
     }
   ]

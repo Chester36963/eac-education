@@ -6,7 +6,7 @@ SOL-02（完成）：全部37題另作獨立計算，完整canonical SHA256綁�
 
 SOL-03（完成）：37題×320／390／768／1440px＝148個實際中文題目／解析畫面；檢查MathJax、頁面溢出、代碼殘留，以及草稿、收藏、續做、舊歷史及人工自評不被重算。證據見 [QA](qa/2026-10-23/solution-restoration/README.md)。正式站狀態另見IMPLEMENTATION_LOG及live-verification.json，不能用本地通過替代。
 
-本批解決37個原待驗收解析欄位；目前來源／網站解析欄位：651文字一致、2文字差異有明列獨立裁定、257仍待覆核。兩個本批英文字段與來源詳略不同但數學完整，並沒有用寬鬆正規化把它們視作文字一致。不是把257個欄位稱為錯題。
+本批解決37個原待驗收解析欄位；完成B7時的來源／網站解析欄位：651文字一致、2文字差異有明列獨立裁定、257仍待覆核。兩個本批英文字段與來源詳略不同但數學完整，並沒有用寬鬆正規化把它們視作文字一致。不是把257個欄位稱為錯題。
 
 特別保留：直角圓軌跡及其重心／中點變換必須排除端點；其中f93329de5deb45de的最近點被排除，只有距離下確界，不能寫成「找到最近點」。固定面積、到兩線等距題保留全部分支；使用半平面限制時才選定一支。原書面題型及來源未被改成新MCQ。
 
@@ -61,3 +61,5 @@ SOL-03（完成）：37題×320／390／768／1440px＝148個實際中文題目�
 3. tests/browser/solution-restoration.cjs：一次載入37題，每個viewport獨立session批量渲染；避免逐題重複登入及下載全庫。
 4. scripts/report-source-batch.cjs與report-expansion.cjs：保留原來源對照，文字比較、獨立推導及待驗收狀態分開，不把已出版題數重複相加。
 5. scripts/report-solution-restoration.cjs：生成本記錄及逐題狀態；scripts/verify-batch-release.cjs使用EAC_RELEASE_SUITE=solution-restoration驗收實際正式站檔案及學習流程。
+
+後續B8已另覆核47條長題，最新數量及狀態見[LOCUS_COMPLETION.md](LOCUS_COMPLETION.md)，本頁B7題數及歷史證據不重複計算。

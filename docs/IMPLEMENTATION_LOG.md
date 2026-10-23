@@ -1,5 +1,16 @@
 # Implementation record
 
+## B8 remaining locus long-question solutions — 23 October 2026
+
+Status LOG-20261023-B8: 獨立數學及本地實際畫面完成；正式發布待驗收。Revision `52a415682524c0ea`, unchanged1,186 questions/seven chapters. Reviewed47 existing long-question IDs, updated45, retained two already fuller explanations. Exactly45 Chinese and25 English solution fields changed; no question, option, key, category, ID, student record or diagram edits. Full before-snapshots, source hashes and every calculation are recorded in [B8](LOCUS_COMPLETION.md); [full scope](CONTENT_EXPANSION_PLAN.md) and [UI/UE roadmap](UI_UX_ROADMAP.md) remain complete.
+
+- Corrected actual mathematics: LongQ9 maximum quadrilateral area is50√2≈70.71, not100+50√2; the old explanation used a farthest height on the incompatible side. Independent polygon formula, actual attaining convex quadrilateral and analytic bound checked. LongQ33 intercept line is5x−2y−10=0; the old plus sign fails the negative-y intercept.
+- Corrected midpoint reflection Q=2M−P and English BC slope substitution; explicitly answered k=20; removed repeated stem/marking residue; completed25 English worked explanations and45 Chinese fields. Preserved both sign/angle-bisector branches and excluded undefined endpoints.
+- All47 independent tests bind current whole-question SHA256 and assert all non-solution fields unchanged. All937 Node tests pass; full1,186-question formula sweep passes49,567 renders with zero errors. Original sourceHTML hash checked; source/current unresolved comparison fields reduce257→206, without treating the206fields as206wrong questions.
+- Mobile visual inspection caught an aligned-equation leading bracket being treated as an optional argument; group the actual [AHK] label explicitly, split the LongQ9 chain and re-render. Long mathematical expressions elsewhere retain reachable local scrolling; no blanket claim of zero horizontal formula scrolling.
+
+All376 local bilingual views pass, including370 actual wide-formula scroll checks and saved draft/bookmark/history/resume/manual assessment. The complete local study-journey passes. Six actual390px solution examples visually inspected after final rendering. Local376-view and live evidence are recorded separately in [QA](qa/2026-10-23/locus-completion/README.md). Six source problems/seven held IDs remain; no invented missing conditions. Accounts and student records remain browser-local. No student diagram changes orPDF output.
+
 ## Statistics stylesheet refresh — 23 October 2026
 
 Status LOG-20261023-TABLE-CACHE: 本地及正式站驗收完成。正式站原有修正已存在，但未加版本的 math.css 回應容許快取600秒；不能確定這就是使用者所見原因。Dashboard、題庫及作答頁現引用同一內容雜湊版本 `77c77caaa4f1`，避免重用舊未加版本的樣式網址。題目、數據、圖像、答案、ID及學生記錄均無變動。
