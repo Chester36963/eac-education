@@ -36,12 +36,14 @@ mjx-container:not([display="true"]) { display:inline-block;max-width:100%;overfl
 .question-blocks p { margin:0 0 10px;white-space:pre-line;font:inherit; }
 .question-table-scroll { max-width:100%;overflow-x:auto;margin:14px 0; }
 .question-table-scroll table { border-collapse:collapse;min-width:240px;margin:0 auto;font:15px/1.6 var(--font-stack); }
-.question-table-scroll td { border:1px solid #9ca6ad;padding:7px 12px;text-align:center;white-space:pre-line; }
+.question-table-scroll th,.question-table-scroll td { border:1px solid #9ca6ad;padding:7px 12px;text-align:left;vertical-align:top;white-space:pre-line; }
+.question-table-scroll th { font:inherit;font-weight:500;text-transform:none;color:inherit; }
+.question-table-scroll caption { text-align:left; }
 .question-blocks .question-figure { margin:18px 0;max-width:100%; }
 .question-blocks .question-figure img { display:block;max-width:100%;width:auto;height:auto;max-height:460px;margin:auto; }
 .question-blocks figcaption { font:11px/1.7 var(--font-stack);color:#65717c;text-align:center;margin-top:8px; }
 .question-blocks .question-figure a { display:block;cursor:zoom-in; }
-@media(max-width:650px){.question-blocks{font-size:18px}.question-block-language[lang=zh-Hant]{font-size:15px}.question-table-scroll td{padding:6px 9px}}
+@media(max-width:650px){.question-blocks{font-size:18px}.question-block-language[lang=zh-Hant]{font-size:15px}.question-table-scroll th,.question-table-scroll td{padding:6px 9px}}
 /* Content sets its own height; short questions should not become empty posters. */
 .practice-page .question-stem { font-size:21px;line-height:1.65;margin:14px 0 8px; }
 .practice-page .question-zh,.question-block-language[lang=zh-Hant],.preview-zh { font-family:var(--font-stack);font-size:16px;line-height:1.8; }

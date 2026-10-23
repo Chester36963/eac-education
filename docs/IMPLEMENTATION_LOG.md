@@ -1,5 +1,12 @@
 # Implementation record
 
+## Statistics table outlines and alignment — 23 October 2026
+
+Status LOG-20261023-TABLE: 本地完成，與B7合併正式發布待驗收。User reported missing borders around the top quantity row and centred data. Root cause: table CSS styled only td, while the shared renderer correctly uses th for the first source row. Apply complete four-sided borders and left/top alignment to both th and td, consistent mobile padding, source-case headings and left-aligned captions. The shared rule covers question-bank previews, actual questions and result reviews.
+
+Actual validation:44 table-bearing statistics questions,100 bilingual table blocks, four widths320/390/768/1440px;176 question/viewport checks covering400 table blocks pass. Every header/data cell is left aligned and has all four visible borders; row/column counts, local horizontal-scroll reachability, language switching, preview and result review pass. Study-journey passes locally. Three actual mobile table screenshots visually inspected. The entire canonical statistics source file is SHA256-identical to the prior release; no values, stems, answers, figures or student records changed. [Table evidence](qa/2026-10-23/statistics-tables/README.md).
+
+
 ## B7 complete Chinese locus derivations — 23 October 2026
 
 Status LOG-20261023-SOL: 本地內容、數學及作答驗收完成；正式發布待驗收。Revision `fad88dd11ec4014d`, unchanged1,186 questions/seven chapters. [37-question restoration](SOLUTION_RESTORATION.md) records exact source locators, before-snapshots, current hashes and independent calculations. [Full plan](CONTENT_EXPANSION_PLAN.md) and [UI/UE details](UI_UX_ROADMAP.md) remain intact.
