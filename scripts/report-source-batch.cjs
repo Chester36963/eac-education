@@ -57,7 +57,7 @@ SRC-BATCH-02（${repairs.every(r=>r.status==='完成')?'完成':'待驗收'}）�
 
 SRC-BATCH-03（${math.length===25?'完成':'待驗收'}）：**${math.length}個ID** 有本批獨立算式測試與canonical SHA256。其中新增發現定距題漏法向長度√5：原C選項的距離其實是3/√5，不是3。保留原題條件及原選項快照，現行明示改為書面比較，沒有把干擾項改成新答案。
 
-SRC-BATCH-04（待驗收，已接續B7／B8／B9）：910個來源／網站解析欄位中，${summary.solutionFieldsMatched}個在明列的標題／排版清理後一致，${summary.solutionFieldsAdjudicated}個文字差異已有B7／B8／B9獨立計算裁定，**${summary.solutionFieldsPending}個仍待覆核**（含教學詳略、重新推導、來源簡答及排版差別）。全部保留兩邊原文及分開狀態；這不等於${summary.solutionFieldsPending}道錯題，更不代表455項已逐小問獨立重算。B7另恢復37條長題中文推導並獨立驗算；B8再覆核其餘47條軌跡長題，45條更新，修正最大面積及截距直線符號錯誤。見 [B7](SOLUTION_RESTORATION.md) 及 [B8](LOCUS_COMPLETION.md)。B9再覆核24條選擇／書面改編題（51個全部來源位置，其中49個原有待覆核欄位），補強7條雙語解析；見[選擇題接力](LOCUS_MCQ_REVIEW.md)。原B6的25個ID及前批獨立紀錄另外有效。其餘來源解答相同亦不自動取得「數學完成」資格。
+SRC-BATCH-04（待驗收，已接續B7／B8／B9）：910個來源／網站解析欄位中，${summary.solutionFieldsMatched}個在明列的標題／排版清理後一致，${summary.solutionFieldsAdjudicated}個文字差異已有B7／B8／B9獨立計算裁定，**${summary.solutionFieldsPending}個仍待覆核**（含教學詳略、重新推導、來源簡答及排版差別）。全部保留兩邊原文及分開狀態；這不等於${summary.solutionFieldsPending}道錯題，更不代表455項已逐小問獨立重算。B7另恢復37條長題中文推導並獨立驗算；B8再覆核其餘47條軌跡長題，45條更新，修正最大面積及截距直線符號錯誤。見 [B7](SOLUTION_RESTORATION.md) 及 [B8](LOCUS_COMPLETION.md)。B9再覆核24條選擇／書面改編題（51個全部來源位置，其中49個來源位置原有待核對解析欄位），補強7條雙語解析；見[選擇題接力](LOCUS_MCQ_REVIEW.md)。原B6的25個ID及前批獨立紀錄另外有效。其餘來源解答相同亦不自動取得「數學完成」資格。
 
 ## 可重現流程
 

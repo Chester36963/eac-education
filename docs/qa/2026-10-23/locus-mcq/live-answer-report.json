@@ -1,0 +1,1539 @@
+{
+  "testedAt": "2026-10-23T18:25:41.599Z",
+  "base": "https://chester36963.github.io/eac-education/",
+  "revision": "2feeb835407166a2",
+  "totalQuestions": 1186,
+  "uniqueReviewedIds": 24,
+  "uniqueEditedIds": 7,
+  "checked": [
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "width": 320,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "width": 320,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "width": 390,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "width": 390,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "width": 768,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "width": 768,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "width": 1440,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "width": 1440,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        },
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        },
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "width": 320,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "width": 320,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "width": 390,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "width": 390,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "width": 768,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "width": 768,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "width": 1440,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "width": 1440,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 2,
+          "reachable": true
+        },
+        {
+          "index": 3,
+          "reachable": true
+        },
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 2,
+          "reachable": true
+        },
+        {
+          "index": 3,
+          "reachable": true
+        },
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "width": 320,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "width": 320,
+      "language": "en",
+      "type": "structured",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "width": 390,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "width": 390,
+      "language": "en",
+      "type": "structured",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "width": 768,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "width": 768,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "width": 1440,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "width": 1440,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 1,
+          "reachable": true
+        },
+        {
+          "index": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 1,
+          "reachable": true
+        },
+        {
+          "index": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "width": 320,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "width": 320,
+      "language": "en",
+      "type": "structured",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "width": 390,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "width": 390,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "width": 768,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "width": 768,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "width": 1440,
+      "language": "zh",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "width": 1440,
+      "language": "en",
+      "type": "structured",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 0,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 1,
+          "reachable": true
+        },
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 1,
+          "reachable": true
+        },
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": [
+        {
+          "index": 4,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "width": 320,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "width": 320,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "width": 390,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "width": 390,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "width": 768,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "width": 768,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "width": 1440,
+      "language": "zh",
+      "type": "mcq",
+      "wideMath": []
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "width": 1440,
+      "language": "en",
+      "type": "mcq",
+      "wideMath": []
+    }
+  ],
+  "errors": [],
+  "oldHistoryDraftBookmarkResumePreserved": true,
+  "noAutomaticRegrade": true,
+  "actualManualAssessmentAndMCQGrading": true,
+  "limits": "Chromium viewports, not physical device or student usability research. No diagram edits or PDF."
+}

@@ -2,7 +2,7 @@
 
 ## B9 locus MCQ and adapted-question completion — 24 October 2026
 
-Status LOG-20261024-B9: 內容、獨立數學及本地實際畫面完成；正式發布待驗收。Continue the 23 October source audit without changing the original source-version paths. Revision `2feeb835407166a2`, unchanged1,186 questions/seven chapters. All24 remaining unique locus MCQ/adapted IDs independently recalculated across51 total source positions (49 previously had pending solution fields). Seven IDs receive full paired EN/ZH improvements,17 retain complete existing solutions; exactly14 solution fields change. No stems, choices, keys, types, categories, diagrams, IDs or student records change. [Detailed B9](LOCUS_MCQ_REVIEW.md), [full plan](CONTENT_EXPANSION_PLAN.md), [complete UI/UE roadmap](UI_UX_ROADMAP.md).
+Status LOG-20261024-B9: 內容、獨立數學、本地及正式站驗收完成。Continue the 23 October source audit without changing the original source-version paths. Revision `2feeb835407166a2`, unchanged1,186 questions/seven chapters. All24 remaining unique locus MCQ/adapted IDs independently recalculated across51 total source positions (49 previously had pending solution fields). Seven IDs receive full paired EN/ZH improvements,17 retain complete existing solutions; exactly14 solution fields change. No stems, choices, keys, types, categories, diagrams, IDs or student records change. [Detailed B9](LOCUS_MCQ_REVIEW.md), [full plan](CONTENT_EXPANSION_PLAN.md), [complete UI/UE roadmap](UI_UX_ROADMAP.md).
 
 - Distinguish a fixed-distance circle's centre from its point; show full expansion and positive-radius domain. Derive the diameter midpoint identity with included endpoints. Complete reflection by changing the entire equation's sign and matching answer A. Explicitly derive both angle-bisector branches and verify all Roman statements. Prove two distinct chord intersections giveUV=24.
 - Independent24 cases use exact coefficient/factor comparisons and domain/endpoint checks, plus point substitution. Same-question sourceHTML SHA256 and51 locator snapshot hashes checked. All non-solution fields invariant. Prior B5/B6 mathematics rerun for the two changed previously reviewed IDs; their historical before snapshots remain, and B6 repair records link to B9.
@@ -11,6 +11,8 @@ Status LOG-20261024-B9: 內容、獨立數學及本地實際畫面完成；正�
 
 Pending source/current solution comparison fields reduce206→112, all remaining inFour Centres. They are fields/source positions, not112known wrong questions. Six source problems/seven held IDs remain; browser-local account/storage limitations unchanged. This batch does not claim all mathematics or real-device/student research is complete.
 
+
+Formal source release `586503b030d60eb92110395c5fcb98c9a7f09a5d`: Actions40002864011 and Pages40002901438 succeeded. All143 deployed-file SHA256 hashes match, including43 unchanged student SVGs. All192 live bilingual views,176 live statistics-table views and full live study-journey pass. Actual live390px reflection and angle-bisector solutions visually inspected. [Release evidence](qa/2026-10-23/locus-mcq/live-verification.json). [Remaining104-ID Four Centres queue](FOUR_CENTRES_REVIEW_QUEUE.md) preserves fixed IDs, classifications, pending fields and acceptance requirements; those items remain unreviewed. Documentation-only follow-up preserves the verified source release.
 
 ## B8 remaining locus long-question solutions — 23 October 2026
 

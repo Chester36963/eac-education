@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-23T18:26:03.104Z",
+  "baseUrl": "https://chester36963.github.io/eac-education/",
+  "releaseCommit": "586503b030d60eb92110395c5fcb98c9a7f09a5d",
+  "workflowRunId": 40002864011,
+  "workflowConclusion": "success",
+  "contentRevision": "2feeb835407166a2",
+  "totalQuestions": 1186,
+  "chapterCount": 7,
+  "deployedFileHashes": {
+    "checked": 143,
+    "algorithm": "SHA256",
+    "scope": "Five entry HTMLs; all bank/catalog/index/search/detail files; all JS/CSS; 43 unchanged same-question SVGs",
+    "errors": []
+  },
+  "liveBrowserTests": [
+    {
+      "suite": "locus-mcq",
+      "checks": 192,
+      "result": "passed",
+      "report": "live-answer-report.json"
+    },
+    {
+      "suite": "study-journey",
+      "result": "passed",
+      "report": "live-study-journey.log"
+    },
+    {
+      "suite": "statistics-tables",
+      "checks": 176,
+      "result": "passed",
+      "report": "live-table-report.json"
+    }
+  ],
+  "limits": "455 bilingual prompt/options source comparisons are adjudicated; 112 source/current solution fields remain pending, not known wrong questions. Six source holds/seven IDs remain. No student diagram changes or PDF. Accounts/records remain browser-local."
+}
