@@ -21,6 +21,27 @@ const Learning = {
     return String(response) === q.answer;
   },
   automatic(q) { return ['mcq','diagram','short-answer'].includes(q.questionType); },
+  migrateAliases(user,questions) {
+    if(!user)return false;let changed=false;
+    const map=new Map(questions.flatMap(q=>(q.aliases||[]).map(a=>[a,q.id])));
+    user.aliasMigrations=user.aliasMigrations||{};
+    for(const [alias,id]of map){
+      const old=user.progress?.byQuestion?.[alias];
+      if(old&&!user.aliasMigrations[alias]){
+        const current=user.progress.byQuestion[id],latest=current&&current.lastAttemptAt>old.lastAttemptAt?current:old;
+        user.progress.byQuestion[id]={...latest,attempts:(current?.attempts||0)+(old.attempts||0),correct:(current?.correct||0)+(old.correct||0)};
+        user.aliasMigrations[alias]=id;changed=true;
+      }
+    }
+    if(user.bookmarks?.some(id=>map.has(id))){user.bookmarks=[...new Set(user.bookmarks.map(id=>map.get(id)||id))];changed=true;}
+    const session=this.readSession(user.id);
+    if(session&&session.ids.some(id=>map.has(id))){
+      session.ids=session.ids.map(id=>map.get(id)||id);
+      for(const key of ['answers','drafts'])if(session[key])for(const [alias,id]of map)if(Object.hasOwn(session[key],alias)&&!Object.hasOwn(session[key],id))session[key][id]=session[key][alias];
+      this.saveSession(session);
+    }
+    return changed;
+  },
   shuffle(list) {
     const copy=[...list];
     for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}
@@ -40,7 +61,7 @@ const Learning = {
       (filters.mode!=='new' || !records[q.id]) &&
       (filters.mode!=='saved' || bookmarks.has(q.id)) &&
       (!filters.query || filters.queryIds?.has(q.id) || `${q.id} ${q.stem} ${q.stemZh} ${q.skill} ${q.searchText||''}`.normalize('NFKC').toLowerCase().includes(filters.query.normalize('NFKC').toLowerCase())) &&
-      (!filters.question || q.id===filters.question));
+      (!filters.question || q.id===filters.question || q.aliases?.includes(filters.question)));
   },
   sessionKey: 'eac_active_set',
   readSession(userId) {

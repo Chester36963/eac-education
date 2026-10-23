@@ -157,9 +157,10 @@
       content.replaceChildren(node('p',`${Learning.types[q.questionType]} · ${difficulty[q.difficulty]}`,'question-row-meta'),heading);
       if(state.language==='bilingual')content.append(node('p',q.stemZh,'preview-zh'));
       if(q.adaptation)content.append(node('p',state.language==='en'?q.adaptation.en:state.language==='zh'?q.adaptation['zh-Hant']:`${q.adaptation.en}\n${q.adaptation['zh-Hant']}`,'editorial-note'));
-      if(q.diagram){const figure=node('figure',undefined,'preview-figure'),img=node('img');img.src=q.diagram.src;img.alt=q.diagram.alt;figure.append(img,node('figcaption',q.diagram.caption));content.append(figure);}
+      if(q.contentBlocks){heading.textContent='題目預覽 / Question preview';content.querySelector('.preview-zh')?.remove();const blocks=node('div');EACMath.content(blocks,q,state.language);content.append(blocks);}
+      if(q.diagram&&!q.contentBlocks){const figure=node('figure',undefined,'preview-figure'),img=node('img');img.src=q.diagram.src;img.alt=q.diagram.alt;figure.append(img,node('figcaption',q.diagram.caption));content.append(figure);}
       if(q.options){const options=node('ol',undefined,'preview-options');for(const key of ['A','B','C','D']){const item=node('li',state.language==='zh'?q.optionsZh[key]:q.options[key]);if(state.language==='bilingual'&&q.optionsZh[key]!==q.options[key])item.append(node('small',q.optionsZh[key]));options.append(item);}content.append(options);}
-      content.append(node('p',`${q.source} · ${q.sourceZh}`,'field-note'));
+      content.append(node('p',q.source===q.sourceZh?q.source:`${q.source} · ${q.sourceZh}`,'field-note'));
       if(!Learning.automatic(q))content.append(node('p',q.assessmentMode==='solution-comparison'?'附來源解析；完成後對照解析自評，未另設逐分評分準則。':'附完整解析及評分要點，完成後自行核對。','field-note'));
       byId('preview-practice').href=questionRoute(metadata.find(q=>q.id===id));byId('preview-practice').hidden=false;
       byId('preview-bookmark').hidden=false;updateBookmark();
@@ -178,6 +179,7 @@
     loaded=false;
     try{
       [catalog,metadata]=await Promise.all([QuestionBank.catalog(),QuestionBank.index()]);user=Auth.getCurrentUser();
+      if(user&&Learning.migrateAliases(user,metadata))Storage.saveUser(user);
       if(user){byId('library-account').textContent='設定';byId('library-account').href='settings.html';}
       readState();refreshFilters();await runSearch();render();
       byId('bank-inventory').replaceChildren(node('span',`${metadata.length} 題 · ${catalog.subjects.flatMap(s=>s.chapters).length} 個課題`));

@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   byId('mistakes-tab').onclick = () => setRecordTab('mistakes');
   try {
     const [catalog, questions] = await Promise.all([QuestionBank.catalog(), QuestionBank.index()]);
+    if(Learning.migrateAliases(currentUser,questions))Storage.saveUser(currentUser);
     const records = currentUser.progress.byQuestion || {};
     const chapters = catalog.subjects.flatMap(s => s.chapters);
     const shortNames={'four-centres':'四心',locus:'軌跡',polynomials:'多項式',sequences:'數列','mensuration-core':'度量'};
@@ -33,8 +34,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       b.textContent=shortNames[chapter.id]||chapter.name['zh-Hant'];b.setAttribute('aria-pressed',String(chapter.id==='four-centres'));
       b.onclick=()=>{EACStudy.mount('#desk-art',chapter.id);syncChapterPreview(chapter.id);};return b;
     }));
+    const trig=document.createElement('button');trig.type='button';trig.textContent='sin / cos / tan';trig.dataset.chapter='trigonometry';trig.setAttribute('aria-pressed','false');trig.onclick=()=>EACStudy.mount('#desk-art','trigonometry');byId('desk-shortcuts').append(trig);
     byId('desk-art').closest('.study-artboard').addEventListener('platechange',event=>{
-      const chapter=chapters.find(c=>c.id===event.detail.id);
+      const chapter=chapters.find(c=>c.id===event.detail.id);if(!chapter){byId('plate-practice').href='library.html';return;}
       byId('plate-practice').href=route(chapter,{type:chapter.coverage.types.mcq?'mcq':'all'});
       syncChapterPreview(chapter.id);
     });

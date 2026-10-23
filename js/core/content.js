@@ -78,5 +78,21 @@ const skillNames = {
   "seq-vieta": "Vieta identities followed by a sequence / 根與係數連接數列條件",
   "seq-interleave": "Odd and even subsequences / 奇偶項拆分",
   "seq-infinite": "Convergent GP with complex numbers / 收斂等比與複數應用",
-  "mens-map-scale": "Take the square root of an area ratio / 面積比開平方求比例尺"
+  "mens-map-scale": "Take the square root of an area ratio / 面積比開平方求比例尺",
+  "circle-equation-standard-form": "Standard form and sketch / 標準式與草圖",
+  "circle-equation-general-form": "General form and parameters / 一般式與參數",
+  "circle-equation-tangents": "Tangents / 切線",
+  "circle-equation-circle-loci": "Circle families and loci / 動圓與軌跡",
+  "circle-equation-chords": "Chords / 弦的坐標與距離",
+  "circle-equation-line-circle": "Lines and circles / 直線與圓",
+  "statistics-type-0": "Reading statistical displays / 讀圖與基本統計量",
+  "statistics-type-1": "Comparing distributions / 分佈比較",
+  "statistics-type-2": "Statistical relationships / 統計量關係",
+  "statistics-type-3": "Reconstructing observations / 反推數據",
+  "statistics-type-4": "Grouped data and bounds / 分組數據與界限",
+  "statistics-type-5": "Adding and deleting data / 加入與刪除數據",
+  "statistics-type-6": "Frequency balance / 頻數平衡",
+  "statistics-type-7": "Two unknown frequencies / 兩個未知頻數",
+  "statistics-type-8": "Combined groups / 合併數據組",
+  "statistics-type-9": "Linear transformations / 線性變換"
 };

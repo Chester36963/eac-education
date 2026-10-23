@@ -119,10 +119,10 @@
                 "fc-euler",
                 "fc-centre-ratios"
               ],
-              "questionCount": 32,
+              "questionCount": 33,
               "skillCounts": {
                 "fc-euler": 3,
-                "fc-centre-ratios": 29
+                "fc-centre-ratios": 30
               }
             },
             {
@@ -192,9 +192,9 @@
               "skills": [
                 "fc-tangent-chain"
               ],
-              "questionCount": 21,
+              "questionCount": 22,
               "skillCounts": {
-                "fc-tangent-chain": 21
+                "fc-tangent-chain": 22
               }
             },
             {
@@ -206,30 +206,30 @@
               "skills": [
                 "fc-transform"
               ],
-              "questionCount": 53,
+              "questionCount": 54,
               "skillCounts": {
-                "fc-transform": 53
+                "fc-transform": 54
               }
             }
           ],
           "topicId": "four-centres",
-          "questionCount": 254,
+          "questionCount": 257,
           "coverage": {
             "types": {
               "mcq": 146,
+              "structured": 108,
               "short-answer": 2,
-              "structured": 105,
               "proof": 1
             },
             "difficulty": {
               "easy": 4,
               "medium": 135,
-              "hard": 74,
+              "hard": 77,
               "challenging": 41
             },
             "minForm": {
               "3": 13,
-              "4": 241
+              "4": 244
             }
           }
         },
@@ -255,9 +255,9 @@
                 "locus-fixed-radius",
                 "locus-distance-ratio"
               ],
-              "questionCount": 71,
+              "questionCount": 73,
               "skillCounts": {
-                "locus-fixed-radius": 70,
+                "locus-fixed-radius": 72,
                 "locus-distance-ratio": 1
               }
             },
@@ -270,9 +270,9 @@
               "skills": [
                 "locus-perp-bisector"
               ],
-              "questionCount": 41,
+              "questionCount": 42,
               "skillCounts": {
-                "locus-perp-bisector": 41
+                "locus-perp-bisector": 42
               }
             },
             {
@@ -286,10 +286,10 @@
                 "locus-angle-bisectors",
                 "locus-parallel-distance"
               ],
-              "questionCount": 29,
+              "questionCount": 30,
               "skillCounts": {
                 "locus-parallel-midline": 21,
-                "locus-angle-bisectors": 6,
+                "locus-angle-bisectors": 7,
                 "locus-parallel-distance": 2
               }
             },
@@ -332,9 +332,9 @@
               "skills": [
                 "locus-fixed-area"
               ],
-              "questionCount": 7,
+              "questionCount": 8,
               "skillCounts": {
-                "locus-fixed-area": 7
+                "locus-fixed-area": 8
               }
             },
             {
@@ -363,25 +363,137 @@
                 "locus-line-circle",
                 "locus-coordinate-chain"
               ],
-              "questionCount": 34,
+              "questionCount": 36,
               "skillCounts": {
                 "locus-line-circle": 19,
-                "locus-coordinate-chain": 15
+                "locus-coordinate-chain": 17
               }
             }
           ],
-          "questionCount": 218,
+          "questionCount": 225,
           "coverage": {
             "types": {
-              "mcq": 96,
-              "structured": 122
+              "mcq": 99,
+              "structured": 126
             },
             "difficulty": {
-              "medium": 133,
-              "hard": 85
+              "medium": 136,
+              "hard": 89
             },
             "minForm": {
-              "4": 218
+              "4": 225
+            }
+          }
+        },
+        {
+          "id": "circle-equation",
+          "topicId": "circle-equation",
+          "name": {
+            "en": "Equation of a Circle",
+            "zh-Hant": "圓方程"
+          },
+          "description": {
+            "en": "Equation of a Circle practice by solving skill.",
+            "zh-Hant": "圓方程題目按解題技巧分類。"
+          },
+          "subcategories": [
+            {
+              "id": "standard-form",
+              "name": {
+                "en": "Standard form and sketch",
+                "zh-Hant": "標準式與草圖"
+              },
+              "skills": [
+                "circle-equation-standard-form"
+              ],
+              "questionCount": 40,
+              "skillCounts": {
+                "circle-equation-standard-form": 40
+              }
+            },
+            {
+              "id": "general-form",
+              "name": {
+                "en": "General form and parameters",
+                "zh-Hant": "一般式與參數"
+              },
+              "skills": [
+                "circle-equation-general-form"
+              ],
+              "questionCount": 7,
+              "skillCounts": {
+                "circle-equation-general-form": 7
+              }
+            },
+            {
+              "id": "tangents",
+              "name": {
+                "en": "Tangents",
+                "zh-Hant": "切線"
+              },
+              "skills": [
+                "circle-equation-tangents"
+              ],
+              "questionCount": 44,
+              "skillCounts": {
+                "circle-equation-tangents": 44
+              }
+            },
+            {
+              "id": "circle-loci",
+              "name": {
+                "en": "Circle families and loci",
+                "zh-Hant": "動圓與軌跡"
+              },
+              "skills": [
+                "circle-equation-circle-loci"
+              ],
+              "questionCount": 60,
+              "skillCounts": {
+                "circle-equation-circle-loci": 60
+              }
+            },
+            {
+              "id": "chords",
+              "name": {
+                "en": "Chords",
+                "zh-Hant": "弦的坐標與距離"
+              },
+              "skills": [
+                "circle-equation-chords"
+              ],
+              "questionCount": 61,
+              "skillCounts": {
+                "circle-equation-chords": 61
+              }
+            },
+            {
+              "id": "line-circle",
+              "name": {
+                "en": "Lines and circles",
+                "zh-Hant": "直線與圓"
+              },
+              "skills": [
+                "circle-equation-line-circle"
+              ],
+              "questionCount": 17,
+              "skillCounts": {
+                "circle-equation-line-circle": 17
+              }
+            }
+          ],
+          "questionCount": 229,
+          "coverage": {
+            "types": {
+              "mcq": 151,
+              "structured": 78
+            },
+            "difficulty": {
+              "medium": 151,
+              "hard": 78
+            },
+            "minForm": {
+              "4": 229
             }
           }
         }
@@ -560,9 +672,9 @@
                 "seq-product-sum",
                 "seq-log-gp"
               ],
-              "questionCount": 1,
+              "questionCount": 6,
               "skillCounts": {
-                "seq-product-sum": 1,
+                "seq-product-sum": 6,
                 "seq-log-gp": 0
               }
             },
@@ -575,9 +687,9 @@
               "skills": [
                 "seq-middle-term"
               ],
-              "questionCount": 2,
+              "questionCount": 6,
               "skillCounts": {
-                "seq-middle-term": 2
+                "seq-middle-term": 6
               }
             },
             {
@@ -589,9 +701,9 @@
               "skills": [
                 "seq-vieta"
               ],
-              "questionCount": 3,
+              "questionCount": 5,
               "skillCounts": {
-                "seq-vieta": 3
+                "seq-vieta": 5
               }
             },
             {
@@ -611,18 +723,16 @@
               }
             }
           ],
-          "questionCount": 10,
+          "questionCount": 21,
           "coverage": {
             "types": {
-              "structured": 10
+              "structured": 21
             },
             "difficulty": {
-              "hard": 2,
-              "medium": 3,
-              "challenging": 5
+              "hard": 21
             },
             "minForm": {
-              "4": 10
+              "4": 21
             }
           }
         }
@@ -659,13 +769,13 @@
                 "mens-sector",
                 "mens-composite-area"
               ],
-              "questionCount": 17,
+              "questionCount": 29,
               "skillCounts": {
                 "rectangle-area": 3,
                 "circle-area": 1,
                 "sector-area": 1,
                 "mens-sector": 11,
-                "mens-composite-area": 1
+                "mens-composite-area": 13
               }
             },
             {
@@ -696,10 +806,10 @@
                 "cylinder-surface-area",
                 "mens-exposed-area"
               ],
-              "questionCount": 35,
+              "questionCount": 37,
               "skillCounts": {
                 "cylinder-surface-area": 2,
-                "mens-exposed-area": 33
+                "mens-exposed-area": 35
               }
             },
             {
@@ -729,9 +839,9 @@
               "skills": [
                 "mens-subtract-cones"
               ],
-              "questionCount": 22,
+              "questionCount": 23,
               "skillCounts": {
-                "mens-subtract-cones": 22
+                "mens-subtract-cones": 23
               }
             },
             {
@@ -744,10 +854,10 @@
                 "mens-water-depth",
                 "mens-displacement"
               ],
-              "questionCount": 29,
+              "questionCount": 34,
               "skillCounts": {
                 "mens-water-depth": 17,
-                "mens-displacement": 12
+                "mens-displacement": 17
               }
             },
             {
@@ -782,25 +892,201 @@
             }
           ],
           "topicId": "mensuration",
-          "questionCount": 217,
+          "questionCount": 237,
           "coverage": {
             "types": {
-              "mcq": 85,
+              "mcq": 98,
               "short-answer": 2,
-              "structured": 128,
+              "structured": 135,
               "dse-long": 1,
               "diagram": 1
             },
             "difficulty": {
               "easy": 6,
-              "medium": 84,
-              "hard": 127
+              "medium": 97,
+              "hard": 134
             },
             "minForm": {
               "1": 5,
               "2": 1,
               "3": 6,
-              "4": 205
+              "4": 225
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": {
+        "en": "Statistics",
+        "zh-Hant": "統計"
+      },
+      "chapters": [
+        {
+          "id": "statistics",
+          "topicId": "statistics",
+          "name": {
+            "en": "Statistics",
+            "zh-Hant": "統計"
+          },
+          "description": {
+            "en": "Statistics practice by solving skill.",
+            "zh-Hant": "統計題目按解題技巧分類。"
+          },
+          "subcategories": [
+            {
+              "id": "type-0",
+              "name": {
+                "en": "Reading statistical displays",
+                "zh-Hant": "讀圖與基本統計量"
+              },
+              "skills": [
+                "statistics-type-0"
+              ],
+              "questionCount": 12,
+              "skillCounts": {
+                "statistics-type-0": 12
+              }
+            },
+            {
+              "id": "type-1",
+              "name": {
+                "en": "Comparing distributions",
+                "zh-Hant": "分佈比較"
+              },
+              "skills": [
+                "statistics-type-1"
+              ],
+              "questionCount": 5,
+              "skillCounts": {
+                "statistics-type-1": 5
+              }
+            },
+            {
+              "id": "type-2",
+              "name": {
+                "en": "Statistical relationships",
+                "zh-Hant": "統計量關係"
+              },
+              "skills": [
+                "statistics-type-2"
+              ],
+              "questionCount": 6,
+              "skillCounts": {
+                "statistics-type-2": 6
+              }
+            },
+            {
+              "id": "type-3",
+              "name": {
+                "en": "Reconstructing observations",
+                "zh-Hant": "反推數據"
+              },
+              "skills": [
+                "statistics-type-3"
+              ],
+              "questionCount": 11,
+              "skillCounts": {
+                "statistics-type-3": 11
+              }
+            },
+            {
+              "id": "type-4",
+              "name": {
+                "en": "Grouped data and bounds",
+                "zh-Hant": "分組數據與界限"
+              },
+              "skills": [
+                "statistics-type-4"
+              ],
+              "questionCount": 7,
+              "skillCounts": {
+                "statistics-type-4": 7
+              }
+            },
+            {
+              "id": "type-5",
+              "name": {
+                "en": "Adding and deleting data",
+                "zh-Hant": "加入與刪除數據"
+              },
+              "skills": [
+                "statistics-type-5"
+              ],
+              "questionCount": 8,
+              "skillCounts": {
+                "statistics-type-5": 8
+              }
+            },
+            {
+              "id": "type-6",
+              "name": {
+                "en": "Frequency balance",
+                "zh-Hant": "頻數平衡"
+              },
+              "skills": [
+                "statistics-type-6"
+              ],
+              "questionCount": 5,
+              "skillCounts": {
+                "statistics-type-6": 5
+              }
+            },
+            {
+              "id": "type-7",
+              "name": {
+                "en": "Two unknown frequencies",
+                "zh-Hant": "兩個未知頻數"
+              },
+              "skills": [
+                "statistics-type-7"
+              ],
+              "questionCount": 2,
+              "skillCounts": {
+                "statistics-type-7": 2
+              }
+            },
+            {
+              "id": "type-8",
+              "name": {
+                "en": "Combined groups",
+                "zh-Hant": "合併數據組"
+              },
+              "skills": [
+                "statistics-type-8"
+              ],
+              "questionCount": 4,
+              "skillCounts": {
+                "statistics-type-8": 4
+              }
+            },
+            {
+              "id": "type-9",
+              "name": {
+                "en": "Linear transformations",
+                "zh-Hant": "線性變換"
+              },
+              "skills": [
+                "statistics-type-9"
+              ],
+              "questionCount": 4,
+              "skillCounts": {
+                "statistics-type-9": 4
+              }
+            }
+          ],
+          "questionCount": 64,
+          "coverage": {
+            "types": {
+              "structured": 64
+            },
+            "difficulty": {
+              "medium": 23,
+              "hard": 41
+            },
+            "minForm": {
+              "4": 64
             }
           }
         }
