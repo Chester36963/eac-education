@@ -448,9 +448,9 @@
               "skills": [
                 "circle-equation-circle-loci"
               ],
-              "questionCount": 60,
+              "questionCount": 59,
               "skillCounts": {
-                "circle-equation-circle-loci": 60
+                "circle-equation-circle-loci": 59
               }
             },
             {
@@ -482,18 +482,18 @@
               }
             }
           ],
-          "questionCount": 229,
+          "questionCount": 228,
           "coverage": {
             "types": {
-              "mcq": 151,
-              "structured": 78
+              "mcq": 149,
+              "structured": 79
             },
             "difficulty": {
-              "medium": 151,
+              "medium": 150,
               "hard": 78
             },
             "minForm": {
-              "4": 229
+              "4": 228
             }
           }
         }
