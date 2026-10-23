@@ -1,0 +1,2060 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "scope": "B9: all 24 remaining unique locus MCQ or written-adapted IDs from 49 source positions. Seven explanations improved; other fields preserved.",
+  "records": [
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "status": "完成",
+      "before": {
+        "stem": "25. The coordinates of the points \\(M\\) and \\(N\\) are \\((5,7)\\) and \\((6,8)\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(PM=MN\\). Find the equation of the locus of \\(P\\).",
+        "stemZh": "25. \\(M=(5,7)\\)、\\(N=(6,8)\\)。動點 \\(P\\) 滿足 \\(PM=MN\\)。求軌跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "MN=\\(\\sqrt{2}\\); the circle equation expands to x²+y²-10x-14y+72=0, C.",
+        "solutionZh": "\\(MN=\\sqrt2\\)，故 \\((x-5)^2+(y-7)^2=2\\)。展開得 \\(x^2+y^2-10x-14y+72=0\\)。",
+        "id": "import-locus-13383df1a29ae1b1",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L1"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "DSE · 2021",
+        "sourceZh": "來源所列（未獨立核實）：DSE · 2021",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 3,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "C",
+        "options": {
+          "A": "\\(x-y+2=0\\)",
+          "B": "\\(x+y-13=0\\)",
+          "C": "\\(x^2+y^2-10x-14y+72=0\\)",
+          "D": "\\(x^2+y^2-12x-16y+98=0\\)"
+        },
+        "optionsZh": {
+          "A": "\\(x-y+2=0\\)",
+          "B": "\\(x+y-13=0\\)",
+          "C": "\\(x^2+y^2-10x-14y+72=0\\)",
+          "D": "\\(x^2+y^2-12x-16y+98=0\\)"
+        }
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-1/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "ef627a4d6126de6193368299ab4cf5a34edbbf4101a06d44965f8f91b4567681"
+        }
+      ],
+      "changedFields": [
+        "solution",
+        "solutionZh"
+      ],
+      "questionSha256": "58dc42f8103b1398b0b7c9e8fa228d00b21b798eb3486aa870c84e4d69d0d5ec",
+      "reason": "補齊雙語推導、專用數學排版及同題核對",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "status": "完成",
+      "before": {
+        "stem": "25. Denote the origin by \\(O\\). The coordinates of the point \\(A\\) are \\((a,2a)\\), where \\(a>0\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(AP=OA\\). The locus of \\(P\\) is a",
+        "stemZh": "25. 設 \\(O\\) 為原點，\\(A=(a,2a)\\)，其中 \\(a>0\\)。動點 \\(P\\) 滿足 \\(AP=OA\\)。\\(P\\) 的軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "OA=a \\(\\sqrt{5}\\)>0. The fixed distance AP gives a circle centred at A.",
+        "solutionZh": "\\(OA=\\sqrt{a^2+(2a)^2}=a\\sqrt5>0\\)。\\(P\\) 到固定點 \\(A\\) 的距離固定為 \\(a\\sqrt5\\)，故軌跡是以 \\(A\\) 為圓心的圓。",
+        "id": "import-locus-9fcefd0ad02284b0",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L1"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "DSE · 2025",
+        "sourceZh": "來源所列（未獨立核實）：DSE · 2025",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 4,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "B",
+        "options": {
+          "A": "point.",
+          "B": "circle.",
+          "C": "rhombus.",
+          "D": "straight line."
+        },
+        "optionsZh": {
+          "A": "一個點",
+          "B": "一個圓",
+          "C": "一個菱形",
+          "D": "一條直線"
+        }
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-2/1",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "7dae7e8e033f96c97261733c0a63164bffe1e370274d53b0e97819796e8e8675"
+        }
+      ],
+      "changedFields": [
+        "solution",
+        "solutionZh"
+      ],
+      "questionSha256": "cd1a5c82eae4bda6df99d2393f3103f55383d8267917e18e3f8fa236d07b101f",
+      "reason": "補齊雙語推導、專用數學排版及同題核對",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "status": "完成",
+      "before": {
+        "stem": "\\(A=(2,1)\\) and \\(B=(6,5)\\). A moving point \\(P\\) satisfies \\(PA=PB\\). Which is the locus of \\(P\\)?",
+        "stemZh": "\\(A=(2,1)\\)、\\(B=(6,5)\\)，動點 \\(P\\) 滿足 \\(PA=PB\\)。以下哪一項是 \\(P\\) 的軌跡？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The midpoint of AB is (4,3), and AB has slope 1. Its perpendicular bisector is \\(y-3=-(x-4)\\), hence \\(y=-x+7\\). Answer B.",
+        "solutionZh": "AB 的中點是 (4,3)，斜率為 1。垂直平分線為 \\(y-3=-(x-4)\\)，即 \\(y=-x+7\\)。答案 B。",
+        "id": "import-locus-3aae2bff1b7f0031",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 34,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "B",
+        "options": {
+          "A": "\\(y=x-1\\)",
+          "B": "\\(y=-x+7\\)",
+          "C": "\\(x+y=8\\)",
+          "D": "\\(x-y=4\\)"
+        },
+        "optionsZh": {
+          "A": "\\(y=x-1\\)",
+          "B": "\\(y=-x+7\\)",
+          "C": "\\(x+y=8\\)",
+          "D": "\\(x-y=4\\)"
+        },
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 43,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 46,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-12/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "700b58b8c70016154721c35737b5348d357e10217839c232388baa13178f62a6"
+        },
+        {
+          "locator": "q-mcq-set-15/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "e933c4169be508353df2ad6e15cfc28c4612088723bebac2b772b399a2261e84"
+        },
+        {
+          "locator": "q-mcq-set-16/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "6761dcc97e1d0e37b206dc8963161f59015a8c45cb422c81752c069485070a21"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "a87e7b9dcde1b25daa16daac2ba2e8bbce88d51b2ab1def2611597fefe4ab9e2",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "status": "完成",
+      "before": {
+        "stem": "\\(A=(0,4)\\) and \\(B=(4,0)\\). A moving point \\(P\\) satisfies \\(PA=PB\\). Which is the locus of \\(P\\)?",
+        "stemZh": "\\(A=(0,4)\\)、\\(B=(4,0)\\)。動點 \\(P\\) 滿足 \\(PA=PB\\)。以下哪一項是 \\(P\\) 的軌跡？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "Equal squared distances give \\(x^2+(y-4)^2=(x-4)^2+y^2\\), so \\(x=y\\). Answer A.",
+        "solutionZh": "由距離平方相等，\\(x^2+(y-4)^2=(x-4)^2+y^2\\)，整理得 \\(x=y\\)。答案 A。",
+        "id": "import-locus-1e60f6ba7413f77d",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 35,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\(y=x\\)",
+          "B": "\\(x+y=4\\)",
+          "C": "\\(y=-x+4\\)",
+          "D": "\\(x-y=4\\)"
+        },
+        "optionsZh": {
+          "A": "\\(y=x\\)",
+          "B": "\\(x+y=4\\)",
+          "C": "\\(y=-x+4\\)",
+          "D": "\\(x-y=4\\)"
+        },
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 44,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 47,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-12/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "a24937e903933b7503a5e2f8992c55b4b2a9571bc445af45ca922460a5ec6dfa"
+        },
+        {
+          "locator": "q-mcq-set-15/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "370651dfb85de27af2550c59ff3ac93c41fb76f90f0158dc69578139cf171af2"
+        },
+        {
+          "locator": "q-mcq-set-16/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "c0a939a382b963d0dc079069b67e8735b4dba60e7ea7cb2055fdaaf262ed750d"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "7b77a6e99789b69778cb171850456c8b8e2aeb581bf34bf3ffaa5c01f7563cc2",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "status": "完成",
+      "before": {
+        "stem": "26. The coordinates of the points \\(A\\) and \\(B\\) are \\((-3,4)\\) and \\((6,8)\\) respectively. Let \\(P\\) be a moving point such that \\(P\\) is equidistant from \\(O A\\) and \\(O B\\), where \\(O\\) is the origin. Find the equation of the locus of \\(P\\).",
+        "stemZh": "26. \\(A=(-3,4)\\)、\\(B=(6,8)\\)，\\(O\\) 為原點。動點 \\(P\\) 到直線 \\(OA\\) 和 \\(OB\\) 的距離相等。求軌跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(OA:4x+3y=0\\) and \\(OB:4x-3y=0\\), with equal normal lengths. Thus \\(|4x+3y|=|4x-3y|\\), giving \\(x=0\\) or \\(y=0\\). Both axes form the complete locus.",
+        "solutionZh": "\\(OA:4x+3y=0\\)、\\(OB:4x-3y=0\\)，兩法向量長度相同。由 \\(|4x+3y|=|4x-3y|\\)，得 \\(x=0\\) 或 \\(y=0\\)。完整軌跡包含兩條坐標軸。",
+        "id": "import-locus-283a9485ba152fc4",
+        "subcategory": "equal-lines",
+        "skill": "locus-angle-bisectors",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 49,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-17/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "e899e3945661bea8f3074294888e51af058deb83c63f8b270b1e2fc11e045266"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "06cc8dc44137bdfc9fc058816dce03bee6bd12417baee1cb59f2fbe70c2a9946",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "status": "完成",
+      "before": {
+        "stem": "The distance from moving point \\(P\\) to \\(2x-y+1=0\\) is fixed at \\(3\\). Which describes the complete locus?",
+        "stemZh": "動點 \\(P\\) 與直線 \\(2x-y+1=0\\) 的距離保持為 \\(3\\)。以下哪一項描述完整軌跡？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The perpendicular distance is \\(\\frac{|2x-y+1|}{\\sqrt{5}}\\). Setting it equal to 3 gives \\(|2x-y+1|=3\\sqrt{5}\\), or \\(2x-y+1=\\pm3\\sqrt{5}\\). Both parallel lines are required. None of the original four choices gives this locus.",
+        "solutionZh": "垂直距離為 \\(\\frac{|2x-y+1|}{\\sqrt{5}}\\)。令距離等於 3，得 \\(|2x-y+1|=3\\sqrt{5}\\)，即 \\(2x-y+1=\\pm3\\sqrt{5}\\)，兩條平行線均須包括。原四個選項均不正確。",
+        "id": "import-locus-011e678db2fb3d21",
+        "subcategory": "equal-lines",
+        "skill": "locus-parallel-distance",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L3"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 63,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 66,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 78,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ],
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written source correction: all original choices omit the required normal-length factor or a branch. Original conditions are unchanged; compare with the complete two-line locus in the solution.",
+          "zh-Hant": "書面修正版：原選項遺漏法向長度因子或其中一條分支。保留原題條件，按解析中的完整兩條直線自評。"
+        }
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-22/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "585d44f9871710d60fc5e4ff293462298c72d763c9b3d217a2f75a665b1a52c0"
+        },
+        {
+          "locator": "q-mcq-set-23/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "3723aee5771e24db7b69427a6fb676eebe6501f89cfee3cb112e08333835d8fa"
+        },
+        {
+          "locator": "q-mcq-set-27/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "3942b48ed0a8ae44a0417bdee39d1cdce4585db44826a564bf0652bf269e34ce"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "6c90d2a6e8fe432e5c9ca62e99b76ef6da5bd4d648788cde2bce4bdb5c7b7d74",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "status": "完成",
+      "before": {
+        "stem": "The distance from moving point \\(P\\) to \\(x+2y-4=0\\) is fixed at \\(2\\). Which describes the complete locus?",
+        "stemZh": "動點 \\(P\\) 與直線 \\(x+2y-4=0\\) 的距離保持為 \\(2\\)。以下哪一項描述完整軌跡？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The distance to the line is \\(\\frac{|x+2y-4|}{\\sqrt{5}}\\). Thus \\(|x+2y-4|=2\\sqrt{5}\\), including both parallel branches. Answer A.",
+        "solutionZh": "點到直線的距離為 \\(\\frac{|x+2y-4|}{\\sqrt{5}}\\)。故 \\(|x+2y-4|=2\\sqrt{5}\\)，包含兩條平行分支。答案 A。",
+        "id": "import-locus-264616bef928b552",
+        "subcategory": "equal-lines",
+        "skill": "locus-parallel-distance",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L3"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 64,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\(|x+2y-4|=2\\sqrt{5}\\)",
+          "B": "\\(x+2y-4=2\\)",
+          "C": "\\(x+2y-4=-2\\)",
+          "D": "\\(x+2y=2\\)"
+        },
+        "optionsZh": {
+          "A": "\\(|x+2y-4|=2\\sqrt{5}\\)",
+          "B": "\\(x+2y-4=2\\)",
+          "C": "\\(x+2y-4=-2\\)",
+          "D": "\\(x+2y=2\\)"
+        },
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 67,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 79,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-22/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "82fb0556d91be4346dfea53b7781cae315f5d4f9d4b4f2e758e40572bcf30e69"
+        },
+        {
+          "locator": "q-mcq-set-23/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "2f3a24349263a9faf34327bba79a0d383823139df6d2db1aafd59fea9beec789"
+        },
+        {
+          "locator": "q-mcq-set-27/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "d17cb1fb0bba57ecb04e5a5893711556cad4ce566ea68732b8e9e4e56e0a0fa1"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "aee784e4054aa4870e6e2e7953eb8d330356a257420df089ba35f99d693d17c6",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "status": "完成",
+      "before": {
+        "stem": "25. It is given that A and B are two distinct points on the straight line 4x - 7y + k = 0, where k is a constant. Let P be a moving point in the rectangular coordinate plane such that AP² + BP² = AB². If the equation of the locus of P is x² + y² - 8x - 6y + 21 = 0, find the value of k.",
+        "stemZh": "25. \\(A,B\\) 是直線 \\(4x-7y+k=0\\) 上兩個不同的點。動點 \\(P\\) 滿足 \\(AP^2+BP^2=AB^2\\)，轨跡為 \\(x^2+y^2-8x-6y+21=0\\)。求 \\(k\\)。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The circle centre (4,3) is the midpoint of AB and lies on its line; 16-21+k=0 gives k=5. The distance identity includes endpoints.",
+        "solutionZh": "平方距離條件是以 \\(AB\\) 為直徑的圓（包括 \\(A,B\\)）。圓心 \\((4,3)\\) 是 \\(AB\\) 中點，故在題設直線上：\\(16-21+k=0\\)，得 \\(k=5\\)。",
+        "id": "import-locus-c0814dcdde67966e",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L1"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 19,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "C",
+        "options": {
+          "A": "-16",
+          "B": "-5",
+          "C": "5",
+          "D": "16"
+        },
+        "optionsZh": {
+          "A": "\\(-16\\)",
+          "B": "\\(-5\\)",
+          "C": "\\(5\\)",
+          "D": "\\(16\\)"
+        }
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-7/1",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "6400d70dfef65cc04b3b5c4fdf6b9046646eec4feb0995fba053729d4ca26903"
+        },
+        {
+          "locator": "q-mcq-set-25/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "61a11b3dd1a69f9b38089395f4c67cab391bf08a846c822c8b39ebf7df423f80"
+        }
+      ],
+      "changedFields": [
+        "solution",
+        "solutionZh"
+      ],
+      "questionSha256": "0a2a5509ede4f93b92aa0d91a97c5629d16918ecb868976e983ed8e7249f084b",
+      "reason": "補齊雙語推導、專用數學排版及同題核對",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "status": "完成",
+      "before": {
+        "stem": "26. The straight line \\(12 x-5 y=60\\) cuts the \\(x\\)-axis and the \\(y\\)-axis at the points \\(A\\) and \\(B\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(A P=A B\\). Find the equation of the locus of P .",
+        "stemZh": "26. 直線 \\(12x-5y=60\\) 分別與 \\(x\\) 軸、\\(y\\) 軸交於 \\(A,B\\)。動點 \\(P\\) 滿足 \\(AP=AB\\)。求軌跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "A=(5,0), B=(0,-12), AB=13. The circle is (x-5)²+y²=169, giving C.",
+        "solutionZh": "\\(A=(5,0)\\)、\\(B=(0,-12)\\)，\\(AB=13\\)。因此 \\((x-5)^2+y^2=169\\)，即 \\(x^2+y^2-10x-144=0\\)。",
+        "id": "import-locus-5e2b62cb59a78e4f",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L3"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2324",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2324",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 68,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "C",
+        "options": {
+          "A": "\\(10 x+24 y+119=0\\)",
+          "B": "\\(15 x+36 y+179=0\\)",
+          "C": "\\(x^{2}+y^{2}-10 x-144=0\\)",
+          "D": "\\(x^{2}+y^{2}-5 x+12 y=0\\)"
+        },
+        "optionsZh": {
+          "A": "\\(10 x+24 y+119=0\\)",
+          "B": "\\(15 x+36 y+179=0\\)",
+          "C": "\\(x^{2}+y^{2}-10 x-144=0\\)",
+          "D": "\\(x^{2}+y^{2}-5 x+12 y=0\\)"
+        }
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-24/1",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "5e1ceb1612f5b3885300a17edd74c030e342b8d357712b1625b6e00e69806601"
+        },
+        {
+          "locator": "q-mcq-set-26/1",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "705841ce9f9f1a651085f6cad06ed9a4fb33fc63fd98dd7a5c34d66d741e4978"
+        }
+      ],
+      "changedFields": [
+        "solution",
+        "solutionZh"
+      ],
+      "questionSha256": "5d06e4735912c19e3f1da8a1cb53bc00a4d2009e84d5ea646cf3f1c04d71debd",
+      "reason": "補齊雙語推導、專用數學排版及同題核對",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "status": "完成",
+      "before": {
+        "stem": "A moving point \\(P\\) is equidistant from the lines \\(x=0\\) and \\(y=0\\). Which describes the complete locus?",
+        "stemZh": "動點 \\(P\\) 與兩條直線 \\(x=0\\)、\\(y=0\\) 等距。以下哪項描述完整軌跡？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The distances to the axes are |x| and |y|. Their equality gives \\(x^2=y^2\\), hence \\(y=x\\) or \\(y=-x\\). Both bisectors are included. Answer A.",
+        "solutionZh": "到兩坐標軸的距離是 |x|、|y|。由 \\(x^2=y^2\\)，得 \\(y=x\\) 或 \\(y=-x\\)，兩條角平分線均須包括。答案 A。",
+        "id": "import-locus-a78976438a5d519b",
+        "subcategory": "equal-lines",
+        "skill": "locus-angle-bisectors",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equal perpendicular distances to two lines",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 86,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\(y=x\\) or \\(y=-x\\)",
+          "B": "\\(x=0\\)",
+          "C": "\\(y=0\\)",
+          "D": "\\(x+y=1\\)"
+        },
+        "optionsZh": {
+          "A": "\\(y=x\\) 或 \\(y=-x\\)",
+          "B": "\\(x=0\\)",
+          "C": "\\(y=0\\)",
+          "D": "\\(x+y=1\\)"
+        },
+        "solutionStatus": "independently-rederived"
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-30/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "b57130b167c5c970e41864d2136f9ee3ff529196a5e92acf5f2d842bf1b541cf"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "f0bbfb320a452a9c49ee8619af603fe4d9a6d11f3e748703e6f79ea3cfa1a11a",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "status": "完成",
+      "before": {
+        "stem": "A moving point \\(P\\) is equidistant from the parallel lines \\(y=2\\) and \\(y=8\\). Which is the complete locus?",
+        "stemZh": "動點 \\(P\\) 與兩條平行直線 \\(y=2\\)、\\(y=8\\) 等距。以下哪項是完整軌跡？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "Equal distances give \\(|y-2|=|y-8|\\). Squaring and simplifying yields \\(12y=60\\), so \\(y=5\\). Answer A.",
+        "solutionZh": "由 \\(|y-2|=|y-8|\\)，平方並整理得 \\(12y=60\\)，所以 \\(y=5\\)。答案 A。",
+        "id": "import-locus-d68b822975bbfa24",
+        "subcategory": "equal-lines",
+        "skill": "locus-parallel-midline",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equal perpendicular distances to two lines",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 87,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\(y=5\\)",
+          "B": "\\(y=2\\) or \\(y=8\\)",
+          "C": "\\(x=5\\)",
+          "D": "\\(y=x+5\\)"
+        },
+        "optionsZh": {
+          "A": "\\(y=5\\)",
+          "B": "\\(y=2\\) 或 \\(y=8\\)",
+          "C": "\\(x=5\\)",
+          "D": "\\(y=x+5\\)"
+        },
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 101,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-30/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "589634e0074e6a2cc8ed59727527dd52bb2c7c24d217dbbc15cb01168c013c76"
+        },
+        {
+          "locator": "q-mcq-set-35/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "acd7c03e5c7a3fad81e6b88a9a3d80b4ffa94427056ed70ffa1f0cdccf572901"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "fe497b0622b325cc087f86142a5f07e392ec2107a31ae4a567969f897677103a",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "status": "完成",
+      "before": {
+        "stem": "A moving point \\(P\\) is equidistant from \\(x+y=0\\) and \\(x-y=0\\). Which describes the complete locus?",
+        "stemZh": "動點 \\(P\\) 與兩條直線 \\(x+y=0\\)、\\(x-y=0\\) 等距。以下哪項描述完整軌跡？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The normal lengths are both \\(\\sqrt{2}\\), so \\(|x+y|=|x-y|\\). Squaring gives \\(4xy=0\\), hence \\(x=0\\) or \\(y=0\\). Answer A.",
+        "solutionZh": "兩直線法向長度同為 \\(\\sqrt{2}\\)，故 \\(|x+y|=|x-y|\\)。平方得 \\(4xy=0\\)，所以 \\(x=0\\) 或 \\(y=0\\)。答案 A。",
+        "id": "import-locus-dc98a14f32c740a3",
+        "subcategory": "equal-lines",
+        "skill": "locus-angle-bisectors",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 102,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\(x=0\\) or \\(y=0\\)",
+          "B": "\\(x+y=0\\)",
+          "C": "\\(x-y=0\\)",
+          "D": "\\(x=1\\)"
+        },
+        "optionsZh": {
+          "A": "\\(x=0\\) 或 \\(y=0\\)",
+          "B": "\\(x+y=0\\)",
+          "C": "\\(x-y=0\\)",
+          "D": "\\(x=1\\)"
+        },
+        "solutionStatus": "independently-rederived"
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-35/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "8c4f1415c7fc7f665f507c916e639aa6c3e952cb467052743a4607f5377b9296"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "3c9b48ad380709a54f7f7c31c684a8ad0efa9cf21ab0512cab877ddb7589b967",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "status": "完成",
+      "before": {
+        "stem": "Let \\(A=(1,-3)\\) and \\(B=(1,5)\\). If \\(\\angle APB=90^\\circ\\), which is the locus of \\(P\\)?",
+        "stemZh": "\\(A=(1,-3)\\)、\\(B=(1,5)\\)。若 \\(\\angle APB=90^\\circ\\)，以下哪項是 \\(P\\) 的軌跡？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "By the angle in a semicircle theorem, the locus is the circle with diameter AB. Its centre is (1,1) and radius 4, giving \\((x-1)^2+(y-1)^2=16\\). Exclude A and B, where the angle is undefined. Answer A.",
+        "solutionZh": "由半圓內的圓周角定理，軌跡是以 AB 為直徑的圓，圓心 (1,1)，半徑 4，方程為 \\((x-1)^2+(y-1)^2=16\\)。須排除 A、B，因端點處的角沒有定義。答案 A。",
+        "id": "import-locus-57e3f369a3620b14",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L5"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 104,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\((x-1)^2+(y-1)^2=16\\)",
+          "B": "\\((x-1)^2+y^2=16\\)",
+          "C": "\\(x=1\\)",
+          "D": "\\(y=1\\)"
+        },
+        "optionsZh": {
+          "A": "\\((x-1)^2+(y-1)^2=16\\)",
+          "B": "\\((x-1)^2+y^2=16\\)",
+          "C": "\\(x=1\\)",
+          "D": "\\(y=1\\)"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem",
+            "reason": "Restore missing angle and degree TeX commands from explicit right-angle condition."
+          },
+          {
+            "field": "stemZh",
+            "reason": "Restore missing angle and degree TeX commands from explicit right-angle condition."
+          }
+        ],
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 111,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-36/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "ac01f088ae39b45eba6d298cc606c0299918652b58c3fca5e22ca35024a18f27"
+        },
+        {
+          "locator": "q-mcq-set-38/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "34728eebf486387e69e8a7a6b5aa4b4db206d65fc504d3a0869f0f223d1e2267"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "c8245119281e8b58f291dfa9386f6b7afb07609e214750f49d675ce9a9691f42",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "status": "完成",
+      "before": {
+        "stem": "Fixed points are \\(A=(0,0)\\) and \\(B=(6,0)\\). A moving point \\(P\\) satisfies \\(\\angle APB=90^\\circ\\). Find the locus of \\(P\\).",
+        "stemZh": "固定點 \\(A=(0,0)\\)、\\(B=(6,0)\\)，動點 \\(P\\) 滿足 \\(\\angle APB=90^\\circ\\)。求 \\(P\\) 的軌跡。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "By the angle in a semicircle theorem, the locus is the circle with diameter AB. Its centre is (3,0) and radius 3, giving \\((x-3)^2+y^2=9\\). Exclude A and B, where the angle is undefined. Answer A.",
+        "solutionZh": "由半圓內的圓周角定理，軌跡是以 AB 為直徑的圓，圓心 (3,0)，半徑 3，方程為 \\((x-3)^2+y^2=9\\)。須排除 A、B，因端點處的角沒有定義。答案 A。",
+        "id": "import-locus-598ce7a3d5e04630",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L5"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 105,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\((x-3)^2+y^2=9\\)",
+          "B": "\\(x^2+y^2=9\\)",
+          "C": "\\(y=3\\)",
+          "D": "\\(x=3\\)"
+        },
+        "optionsZh": {
+          "A": "\\((x-3)^2+y^2=9\\)",
+          "B": "\\(x^2+y^2=9\\)",
+          "C": "\\(y=3\\)",
+          "D": "\\(x=3\\)"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem",
+            "reason": "Restore missing angle and degree TeX commands from explicit right-angle condition."
+          },
+          {
+            "field": "stemZh",
+            "reason": "Restore missing angle and degree TeX commands from explicit right-angle condition."
+          }
+        ],
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 107,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-36/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "bb981413c958cd48b7f3909158c6ba579e953b0776b20a8f27ecf92f4ebdf477"
+        },
+        {
+          "locator": "q-mcq-set-37/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "cc118a5afcb1f432de6743c1043c11c4febeed7b6f0a7a22b0ba97e884f7399e"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "6e0071183542b9a7d61512d363d12e230f044603e0bd08222da4f5d9ef17d467",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "status": "完成",
+      "before": {
+        "stem": "Fixed points are \\(A=(-2,1)\\) and \\(B=(4,1)\\). A moving point \\(P\\) satisfies \\(\\angle APB=90^\\circ\\). Find the locus of \\(P\\).",
+        "stemZh": "固定點 \\(A=(-2,1)\\)、\\(B=(4,1)\\)，動點 \\(P\\) 滿足 \\(\\angle APB=90^\\circ\\)。求 \\(P\\) 的軌跡。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "By the angle in a semicircle theorem, the locus is the circle with diameter AB. Its centre is (1,1) and radius 3, giving \\((x-1)^2+(y-1)^2=9\\). Exclude A and B, where the angle is undefined. Answer A.",
+        "solutionZh": "由半圓內的圓周角定理，軌跡是以 AB 為直徑的圓，圓心 (1,1)，半徑 3，方程為 \\((x-1)^2+(y-1)^2=9\\)。須排除 A、B，因端點處的角沒有定義。答案 A。",
+        "id": "import-locus-c3c794b88657da31",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L5"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 108,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\((x-1)^2+(y-1)^2=9\\)",
+          "B": "\\((x+2)^2+(y-1)^2=9\\)",
+          "C": "\\(y=1\\)",
+          "D": "\\(x=1\\)"
+        },
+        "optionsZh": {
+          "A": "\\((x-1)^2+(y-1)^2=9\\)",
+          "B": "\\((x+2)^2+(y-1)^2=9\\)",
+          "C": "\\(y=1\\)",
+          "D": "\\(x=1\\)"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem",
+            "reason": "Restore missing angle and degree TeX commands from explicit right-angle condition."
+          },
+          {
+            "field": "stemZh",
+            "reason": "Restore missing angle and degree TeX commands from explicit right-angle condition."
+          }
+        ],
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 110,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-37/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "b8f2c91149b6889d494de948031334b08f197a09b3da61831b01d8abe26b8663"
+        },
+        {
+          "locator": "q-mcq-set-38/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "fa8818f459f68c7793ee78bd91d1e3e24bba0da08ae78acf6141df718d7cc01b"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "b76ae03da501f3c2a10e0dde870740b759120bd2740f82efcd735d67780fd9ab",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "status": "完成",
+      "before": {
+        "stem": "After translation by \\((3,-2)\\), the point \\(P=(x,y)\\) lies on \\(x+4y-6=0\\). Find the locus of \\(P\\).",
+        "stemZh": "點 \\(P=(x,y)\\) 平移向量 \\((3,-2)\\) 後位於直線 \\(x+4y-6=0\\) 上。求 \\(P\\) 的軌跡。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "After translation the point is (x+3,y-2). Substituting gives \\((x+3)+4(y-2)-6=0\\), so \\(x+4y-11=0\\). Answer A.",
+        "solutionZh": "平移後為 (x+3,y-2)。代入得 \\((x+3)+4(y-2)-6=0\\)，即 \\(x+4y-11=0\\)。答案 A。",
+        "id": "import-locus-4737ce6ce8026ec7",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 113,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\(x+4y-11=0\\)",
+          "B": "\\(x+4y-1=0\\)",
+          "C": "\\(x+4y-6=0\\)",
+          "D": "\\(x-4y+1=0\\)"
+        },
+        "optionsZh": {
+          "A": "\\(x+4y-11=0\\)",
+          "B": "\\(x+4y-1=0\\)",
+          "C": "\\(x+4y-6=0\\)",
+          "D": "\\(x-4y+1=0\\)"
+        },
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 120,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 122,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 129,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 131,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-39/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "4da3416279ca1429e1ad2c87d0ddbedb50d78efdd7329f7ab75cb8eb5cc40373"
+        },
+        {
+          "locator": "q-mcq-set-41/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "e20c3c1460e7c2f3007e20a93b6e090afda45442f4f2fa75979f2b5c474fdf59"
+        },
+        {
+          "locator": "q-mcq-set-42/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "2247c3f23738bfba112c84f170be862ba006f16c1120cca38ccff1e6875b1d77"
+        },
+        {
+          "locator": "q-mcq-set-44/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "37d006b9527a6522e467a2f3d82c7dd069d02c1994ae56eccb1466ebb678749b"
+        },
+        {
+          "locator": "q-mcq-set-45/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "270af4532c34def0ee32f302d4da63850497d8d92b181d9067fa216c8035f96d"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "babd583d73964439d2441aad9f279d434e66b46e10a13d76aa6328e5d4205630",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "status": "完成",
+      "before": {
+        "stem": "The reflection of \\(P=(x,y)\\) in the y-axis lies on \\(3x+2y-5=0\\). Find the locus of P.",
+        "stemZh": "\\(P=(x,y)\\) 關於 \\(y\\) 軸反射後的像位於 \\(L:3x+2y-5=0\\) 上。求 \\(P\\) 的軌跡。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The reflected point is \\((-x,y)\\). Substituting gives \\(-3x+2y-5=0\\).",
+        "solutionZh": "反射像為 \\((-x,y)\\)，代入得 \\(-3x+2y-5=0\\)。",
+        "id": "import-locus-c3bfb9a8feddc782",
+        "subcategory": "transformed-loci",
+        "skill": "locus-transform",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "coordinate transformation before substitution",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 136,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          },
+          {
+            "date": "2026-10-23",
+            "field": "options,optionsZh,answer,questionType,classification",
+            "reason": "Restored complete same-question source choices after independent recalculation. Original written-stage content retained in priority-source-review.json; stable ID and stored records retained."
+          }
+        ],
+        "optionsZh": {
+          "A": "\\(3x-2y+5=0\\)",
+          "B": "\\(3x+2y+5=0\\)",
+          "C": "\\(3x-2y-5=0\\)",
+          "D": "\\(3x+2y-5=0\\)"
+        },
+        "options": {
+          "A": "\\(3x-2y+5=0\\)",
+          "B": "\\(3x+2y+5=0\\)",
+          "C": "\\(3x-2y-5=0\\)",
+          "D": "\\(3x+2y-5=0\\)"
+        },
+        "answer": "A"
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-39/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "7619de08880be1b760f3edbaaca9c0ebd4c774bea454a7d52f761a5595b4495b"
+        },
+        {
+          "locator": "q-mcq-set-40/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "c60b4321f336327263100c5a6192f927e7b084033b449bcd252148dd82bf5a16"
+        },
+        {
+          "locator": "q-mcq-set-42/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "38a4f02a922a212338b62c5e5c23c8c44ecccdaa786753fb5c628064f5c75665"
+        },
+        {
+          "locator": "q-mcq-set-43/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "882bd084c2262569d8a91f3981ea3d14643d6f0537b4604e5b22070ddec072a7"
+        },
+        {
+          "locator": "q-mcq-set-45/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "20f436150537de9f93fb94239c4c8e527cdb0e036461eb7fa5ae70fbc424bca4"
+        },
+        {
+          "locator": "q-mcq-set-46/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "14f911ae6898271b4ceb6b99f801e29c005d7dd72ad99ced7af6690fd4cccc10"
+        }
+      ],
+      "changedFields": [
+        "solution",
+        "solutionZh"
+      ],
+      "questionSha256": "5a023290f592ef9f1995110505d0da93b85459fb523298c0a27eb00acbec6df5",
+      "reason": "補齊雙語推導、專用數學排版及同題核對",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "status": "完成",
+      "before": {
+        "stem": "The reflection of \\(P=(x,y)\\) in the \\(x\\)-axis lies on \\(2x-y+7=0\\). Find the locus of \\(P\\).",
+        "stemZh": "點 \\(P=(x,y)\\) 關於 \\(x\\) 軸反射後的像位於直線 \\(2x-y+7=0\\) 上。求 \\(P\\) 的軌跡。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "Reflection in the x-axis sends (x,y) to (x,-y). Substitution gives \\(2x+y+7=0\\). Answer A.",
+        "solutionZh": "關於 x 軸反射後為 (x,-y)。代入得 \\(2x+y+7=0\\)。答案 A。",
+        "id": "import-locus-1028fc56b02cd949",
+        "subcategory": "transformed-loci",
+        "skill": "locus-transform",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "coordinate transformation before substitution",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 117,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\(2x+y+7=0\\)",
+          "B": "\\(2x-y+7=0\\)",
+          "C": "\\(2x+y-7=0\\)",
+          "D": "\\(-2x+y+7=0\\)"
+        },
+        "optionsZh": {
+          "A": "\\(2x+y+7=0\\)",
+          "B": "\\(2x-y+7=0\\)",
+          "C": "\\(2x+y-7=0\\)",
+          "D": "\\(-2x+y+7=0\\)"
+        },
+        "solutionStatus": "independently-rederived",
+        "sourceAliases": [
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 119,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 126,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 128,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          },
+          {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 135,
+            "set": null,
+            "number": null,
+            "attribution": "source-reported-unverified"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-40/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "8215a9d355889352fe7c2e1637797f350b46d54df4aaa4b30f0bbbfb16bbb0ee"
+        },
+        {
+          "locator": "q-mcq-set-41/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "c9cc7661b69311ce0d87ff57eb63eaf0fccc7ccd0708b7a97f006ab6291c59e9"
+        },
+        {
+          "locator": "q-mcq-set-43/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "8dbbb3f44abc9bb3e6e00f766f273218426291fda1bae1df89262679affa54df"
+        },
+        {
+          "locator": "q-mcq-set-44/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "984f8b57f659ea346dcab5426774477fd206eaac2e1e15f8f2ae102a1da7bc1a"
+        },
+        {
+          "locator": "q-mcq-set-46/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "4a3675f80623695345c448db357993c7bb554b4b1a4169e7fa35d747477ccb59"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "2010eddb9ab827a0535f5c509c4c529a386cdb5657c3329770c2f7ae0d1956be",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "status": "完成",
+      "before": {
+        "stem": "26. The equations of the straight lines \\(L_{1}\\) and \\(L_{2}\\) are \\(x-2 y-8=0\\) and \\(2 x+y+24=0\\) respectively. \\(L_{1}\\) cuts the \\(x\\)-axis at the point \\(A\\). \\(L_{2}\\) cuts the \\(y\\)-axis at the point \\(B\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L_{1}\\) is equal to the perpendicular distance from \\(P\\) to \\(L_{2}\\). Denote the locus of \\(P\\) by \\(G\\). Which of the following are true?\nI. \\(G\\) is a straight line.\nII. \\(G\\) passes through the point \\((-8,-8)\\).\nIII. \\(G\\) passes through the mid-point of \\(A B\\).",
+        "stemZh": "26. 直線 \\(L_1:x-2y-8=0\\) 與 \\(L_2:2x+y+24=0\\) 分別與 \\(x\\) 軸、\\(y\\) 軸交於 \\(A,B\\)。動點 \\(P\\) 到兩直線的垂直距離相等，軌跡記為 \\(G\\)。哪些敘述正確？\nI. \\(G\\) 是一條直線。\nII. \\(G\\) 經過 \\((-8,-8)\\)。\nIII. \\(G\\) 經過 \\(AB\\) 的中點。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The lines intersect, so the locus is two angle bisectors and I is false. (-8,-8) lies on both lines. A=(8,0), B=(0,-24); midpoint (4,-12) has equal normalized distances 20/\\(\\sqrt{5}\\). Thus II and III are true.",
+        "solutionZh": "兩直線相交，等距軌跡是兩條角平分線，所以 I 錯。\\((-8,-8)\\) 在兩直線上。\\(A=(8,0)\\)、\\(B=(0,-24)\\)，中點 \\((4,-12)\\) 的兩個距離分子均為 \\(20\\)，分母均為 \\(\\sqrt5\\)。II、III 正確。",
+        "id": "import-locus-ce2c86cdb6498c57",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-line-circle",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "substitute locus into another line or circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 130,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "C",
+        "options": {
+          "A": "I and II only",
+          "B": "I and III only",
+          "C": "II and III only",
+          "D": "I, II and III"
+        },
+        "optionsZh": {
+          "A": "只有 I 及 II",
+          "B": "只有 I 及 III",
+          "C": "只有 II 及 III",
+          "D": "I、II 及 III"
+        }
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-45/1",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "b9e816edd44ba2c9f7e0a0ef0b64b5caa38a91753ea6775a243d9152912bee95"
+        }
+      ],
+      "changedFields": [
+        "solution",
+        "solutionZh"
+      ],
+      "questionSha256": "9ec643152c2fd7aaf8d12c5bbbcc72c0448c6cd9abf75bac4c50f2845470ed06",
+      "reason": "補齊雙語推導、專用數學排版及同題核對",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "status": "完成",
+      "before": {
+        "stem": "25. The coordinates of the points \\(A\\) and \\(B\\) are \\((4,8)\\) and \\((6,-3)\\) respectively, and \\(O\\) is the origin. If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to the straight line \\(O A\\) is equal to the perpendicular distance from \\(P\\) to the straight line \\(O B\\), then the locus of \\(P\\) is",
+        "stemZh": "25. \\(A=(4,8)\\)、\\(B=(6,-3)\\)，\\(O\\) 為原點。動點 \\(P\\) 到直線 \\(OA\\) 和 \\(OB\\) 的垂直距離相等。\\(P\\) 的軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(OA:y=2x,OB:y=-x/2\\). Equal distances give \\(|2x-y|=|x+2y|\\), hence \\(x-3y=0\\) or \\(3x+y=0\\). The complete locus contains both angle bisectors.",
+        "solutionZh": "\\(OA:y=2x,OB:y=-x/2\\)。等距條件是 \\(|2x-y|=|x+2y|\\)，故 \\(x-3y=0\\) 或 \\(3x+y=0\\)。完整軌跡包括兩條角平分線。",
+        "id": "import-locus-b543bd48bfdd04e5",
+        "subcategory": "equal-lines",
+        "skill": "locus-angle-bisectors",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equal perpendicular distances to two lines",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2324",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2324",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 142,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-50/1",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "c3760ffc5bbf039446cce6654edff6fb9de97f07c8e42c846de8be98a4d77cdf"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "debe8f556680aec770dad8d2ccb3626b6e8b084d67e1bc73bd0519b399db141d",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "status": "完成",
+      "before": {
+        "stem": "The distance from moving point \\(P=(x,y)\\) to \\(F=(0,2)\\) equals its distance to \\(y=-2\\). Find the locus.",
+        "stemZh": "動點 \\(P=(x,y)\\) 到固定點 \\(F=(0,2)\\) 的距離等於到直線 \\(y=-2\\) 的距離。求軌跡。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "Equate squared distances: \\(x^2+(y-2)^2=(y+2)^2\\). Cancelling gives \\(x^2=8y\\), hence \\(y=x^2/8\\). Squaring is reversible because both distances are nonnegative. Answer A.",
+        "solutionZh": "令距離平方相等：\\(x^2+(y-2)^2=(y+2)^2\\)。整理得 \\(x^2=8y\\)，即 \\(y=x^2/8\\)。兩距離皆非負，所以平方沒有引入額外解。答案 A。",
+        "id": "import-locus-c678c46c4234d9cd",
+        "subcategory": "distance-equations",
+        "skill": "locus-focus-directrix",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 148,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\(y=x^2/8\\)",
+          "B": "\\(x^2+y^2=4\\)",
+          "C": "\\(y=2\\)",
+          "D": "\\(x=0\\)"
+        },
+        "optionsZh": {
+          "A": "\\(y=x^2/8\\)",
+          "B": "\\(x^2+y^2=4\\)",
+          "C": "\\(y=2\\)",
+          "D": "\\(x=0\\)"
+        },
+        "solutionStatus": "independently-rederived"
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-52/2",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "949a0ac2ec2f3858768721cd3d6cbe57ad7187af07e13700c297dbada60d6264"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "5c086df8322201ec5f488fb752b99bd3b56e98a0e30a0533d46e52d68f9a459a",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "status": "完成",
+      "before": {
+        "stem": "The distance from moving point \\(P=(x,y)\\) to \\(F=(2,0)\\) equals its distance to \\(x=-2\\). Find the locus.",
+        "stemZh": "動點 \\(P=(x,y)\\) 到固定點 \\(F=(2,0)\\) 的距離等於到直線 \\(x=-2\\) 的距離。求軌跡。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "Equate squared distances: \\((x-2)^2+y^2=(x+2)^2\\). Thus \\(y^2=8x\\), hence \\(x=y^2/8\\). Both distances are nonnegative, so the equivalence is reversible. Answer A.",
+        "solutionZh": "令距離平方相等：\\((x-2)^2+y^2=(x+2)^2\\)。整理得 \\(y^2=8x\\)，即 \\(x=y^2/8\\)。兩距離皆非負，故等價變形成立。答案 A。",
+        "id": "import-locus-355b76d16e789b7a",
+        "subcategory": "distance-equations",
+        "skill": "locus-focus-directrix",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · v1",
+        "sourceZh": "來源所列（未獨立核實）：Practice · v1",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 149,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\(x=y^2/8\\)",
+          "B": "\\(x^2+y^2=4\\)",
+          "C": "\\(x=2\\)",
+          "D": "\\(y=0\\)"
+        },
+        "optionsZh": {
+          "A": "\\(x=y^2/8\\)",
+          "B": "\\(x^2+y^2=4\\)",
+          "C": "\\(x=2\\)",
+          "D": "\\(y=0\\)"
+        },
+        "solutionStatus": "independently-rederived"
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-52/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "3f11ee8b046d7ffbc6434aebda019454a5eb1dbb9e81292ad4c8b6c2d7a60da7"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "1e239219e42f86be7e5a51f0a7ee62164b02fbb9e1f16ce9936766c04ca26642",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "status": "完成",
+      "before": {
+        "stem": "26. The coordinates of the points \\(A\\) and \\(B\\) are \\((-4,4)\\) and \\((2,-2)\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(P A=P B\\). Find the equation of the locus of \\(P\\).",
+        "stemZh": "26. \\(A=(-4,4)\\)、\\(B=(2,-2)\\)。動點 \\(P\\) 滿足 \\(PA=PB\\)。求軌跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\((x+4)^2+(y-4)^2=(x-2)^2+(y+2)^2\\) simplifies to \\(x-y+2=0\\), the perpendicular bisector of AB.",
+        "solutionZh": "由 \\((x+4)^2+(y-4)^2=(x-2)^2+(y+2)^2\\)，整理得 \\(x-y+2=0\\)，即 AB 的中垂線。",
+        "id": "import-locus-867ccc54edab3f89",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2324",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2324",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 155,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-54/3",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "728a501159c454ef643f3a8fde846b812620c292508a272b5772a6655889408f"
+        }
+      ],
+      "changedFields": [],
+      "questionSha256": "7db819c3df095d66d8e3ed2a9c8cdeacd235b192beee7ede329328c3865f25ca",
+      "reason": "保留已完整解答；獨立覆核分支、端點及原答案",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "status": "完成",
+      "before": {
+        "stem": "26. The coordinates of the points \\(A\\) and \\(B\\) are \\((-2,5)\\) and \\((6,-7)\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(P A=P B\\). Denote the locus of \\(P\\) by \\(\\Gamma . U\\) and \\(V\\) are two distinct points on \\(\\Gamma\\) such that \\(U A=V B=14\\). Find the length of \\(U V\\).",
+        "stemZh": "26. \\(A=(-2,5)\\)、\\(B=(6,-7)\\)。動點 \\(P\\) 滿足 \\(PA=PB\\)，軌跡記為 \\(\\Gamma\\)。\\(U,V\\) 為 \\(\\Gamma\\) 上兩個不同的點，且 \\(UA=VB=14\\)。求 \\(UV\\)。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "AM squared=52. Equal distances on the perpendicular bisector give MU=MV=\\(\\sqrt{196-52}\\)=12. Distinctness puts U,V on opposite sides, so UV=24.",
+        "solutionZh": "設 \\(M\\) 為 \\(AB\\) 的中點。\\(AM^2=AB^2/4=52\\)。因 \\(U,V\\) 均位於垂直平分線，\\(UA=UB=VA=VB=14\\)。所以 \\(MU=MV=\\sqrt{196-52}=12\\)。兩點不同，位於 \\(M\\) 兩側，\\(UV=24\\)。",
+        "id": "import-locus-715f5963a58906fe",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 162,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "B",
+        "options": {
+          "A": "\\(4 \\sqrt{13}\\)",
+          "B": "24",
+          "C": "28",
+          "D": "\\(4 \\sqrt{62}\\)"
+        },
+        "optionsZh": {
+          "A": "\\(4 \\sqrt{13}\\)",
+          "B": "24",
+          "C": "28",
+          "D": "\\(4 \\sqrt{62}\\)"
+        }
+      },
+      "sourceLocators": [
+        {
+          "locator": "q-mcq-set-57/1",
+          "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+          "snapshotSha256": "26717096ae2b590c52e5d67e58e00b2a25684102d5fda87af938c26d6c6fc86d"
+        }
+      ],
+      "changedFields": [
+        "solution",
+        "solutionZh"
+      ],
+      "questionSha256": "99238d91c67dd2a20db9ca7f489bd7278fe8125babf6fee69542b9bda00ac128",
+      "reason": "補齊雙語推導、專用數學排版及同題核對",
+      "evidence": {
+        "math": "tests/locus-mcq.cjs",
+        "browser": "docs/qa/2026-10-23/locus-mcq/report.json",
+        "deployment": "待驗收"
+      }
+    }
+  ]
+}

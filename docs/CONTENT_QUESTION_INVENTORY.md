@@ -263,8 +263,8 @@
 | Q-0257 | four-centres | import-four-centres-q260 | centre-relations | fc-centre-ratios | structured / challenging | Chalet G281 · 2024/25 · P1 · Original Q18 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0258 | locus | import-locus-2f8c849b079b0280 | fixed-distance | locus-fixed-radius | mcq / medium | DSE · 2012 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0259 | locus | import-locus-a3f8ddbccd4a0d37 | intersecting-loci | locus-line-circle | mcq / medium | DSE · 2020 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0260 | locus | import-locus-13383df1a29ae1b1 | fixed-distance | locus-fixed-radius | mcq / medium | DSE · 2021 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0261 | locus | import-locus-9fcefd0ad02284b0 | fixed-distance | locus-fixed-radius | mcq / medium | DSE · 2025 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0260 | locus | import-locus-13383df1a29ae1b1 | fixed-distance | locus-fixed-radius | mcq / medium | DSE · 2021 | 完成：本批獨立計算／修復證據 |
+| Q-0261 | locus | import-locus-9fcefd0ad02284b0 | fixed-distance | locus-fixed-radius | mcq / medium | DSE · 2025 | 完成：本批獨立計算／修復證據 |
 | Q-0262 | locus | import-locus-cb3e0e89acf39c53 | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2324 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0263 | locus | import-locus-308d87cb39e5df70 | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2324 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0264 | locus | import-locus-511f3edbcda73df5 | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2324 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
@@ -320,7 +320,7 @@
 | Q-0314 | locus | import-locus-011e678db2fb3d21 | equal-lines | locus-parallel-distance | structured / medium | Practice · v1 | 完成：本批獨立計算／修復證據 |
 | Q-0315 | locus | import-locus-264616bef928b552 | equal-lines | locus-parallel-distance | mcq / medium | Practice · v1 | 完成：本批獨立計算／修復證據 |
 | Q-0316 | locus | import-locus-5143cfc3e914be3a | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2324 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0317 | locus | import-locus-5e2b62cb59a78e4f | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2324 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0317 | locus | import-locus-5e2b62cb59a78e4f | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2324 | 完成：本批獨立計算／修復證據 |
 | Q-0318 | locus | import-locus-4592ba99c8dad533 | intersecting-loci | locus-line-circle | mcq / medium | Mock · 2425 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0319 | locus | import-locus-fe0694b2fb10defb | equal-points | locus-perp-bisector | mcq / medium | Mock · 2425 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0320 | locus | import-locus-42ad23f968801947 | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2425 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
@@ -366,7 +366,7 @@
 | Q-0360 | locus | import-locus-c3e6771a90eeb1c7 | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2425 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0361 | locus | import-locus-a6d24b4bc8dcb49f | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2425 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0362 | locus | import-locus-004a50c663a1c91c | intersecting-loci | locus-line-circle | mcq / medium | Mock · 2425 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
-| Q-0363 | locus | import-locus-ce2c86cdb6498c57 | intersecting-loci | locus-line-circle | mcq / medium | Mock · 2526 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0363 | locus | import-locus-ce2c86cdb6498c57 | intersecting-loci | locus-line-circle | mcq / medium | Mock · 2526 | 完成：本批獨立計算／修復證據 |
 | Q-0364 | locus | import-locus-3fcfc16693b6ffa1 | equal-lines | locus-parallel-midline | mcq / medium | Mock · 2526 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0365 | locus | import-locus-c3bfb9a8feddc782 | transformed-loci | locus-transform | mcq / medium | Practice · Supplementary | 完成：本批獨立計算／修復證據 |
 | Q-0366 | locus | import-locus-aa4f5d5555a06779 | fixed-distance | locus-fixed-radius | mcq / medium | Practice · Supplementary | 待驗收：來源解答已保留，未逐小題獨立覆核 |
@@ -391,7 +391,7 @@
 | Q-0385 | locus | import-locus-956a1f6d1c4d2d26 | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2425 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0386 | locus | import-locus-51e1618a7283c641 | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2526 | 完成：本批獨立計算／修復證據 |
 | Q-0387 | locus | import-locus-281009323e517030 | fixed-distance | locus-fixed-radius | mcq / medium | Mock · 2526 | 完成：本批獨立計算／修復證據 |
-| Q-0388 | locus | import-locus-715f5963a58906fe | equal-points | locus-perp-bisector | mcq / medium | Mock · 2526 | 待驗收：來源解答已保留，未逐小題獨立覆核 |
+| Q-0388 | locus | import-locus-715f5963a58906fe | equal-points | locus-perp-bisector | mcq / medium | Mock · 2526 | 完成：本批獨立計算／修復證據 |
 | Q-0389 | locus | import-locus-34418f66877769b4 | fixed-distance | locus-fixed-radius | structured / medium | Mock · 2526 | 完成：本批獨立計算／修復證據 |
 | Q-0390 | locus | import-locus-0437cd26dba4ec63 | fixed-distance | locus-fixed-radius | mcq / medium | Practice · Supplementary | 待驗收：來源解答已保留，未逐小題獨立覆核 |
 | Q-0391 | locus | import-locus-641ed6cf2383b3f7 | area-loci | locus-fixed-area | mcq / medium | MCQ Set 41. L6 | 待驗收：來源解答已保留，未逐小題獨立覆核 |

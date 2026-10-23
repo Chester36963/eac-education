@@ -8,11 +8,11 @@
     "promptAndOptionRowsComplete": 455,
     "exactPresentationRows": 427,
     "semanticDecisionRows": 28,
-    "solutionFieldsMatched": 667,
-    "solutionFieldsDifferent": 243,
-    "solutionFieldsAdjudicated": 37,
-    "solutionFieldsPending": 206,
-    "independentMathUniqueIds": 109
+    "solutionFieldsMatched": 659,
+    "solutionFieldsDifferent": 251,
+    "solutionFieldsAdjudicated": 139,
+    "solutionFieldsPending": 112,
+    "independentMathUniqueIds": 115
   },
   "records": [
     {
@@ -7482,7 +7482,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "ef627a4d6126de6193368299ab4cf5a34edbbf4101a06d44965f8f91b4567681",
-      "questionSha256": "e54e9a29114b4d29d15e34b740ced85597afe69e4bbcc1d1c5bf60a2698c00fa",
+      "questionSha256": "58dc42f8103b1398b0b7c9e8fa228d00b21b798eb3486aa870c84e4d69d0d5ec",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -7491,19 +7491,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -7513,7 +7515,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "7dae7e8e033f96c97261733c0a63164bffe1e370274d53b0e97819796e8e8675",
-      "questionSha256": "ef95bec026742f5b1ce1c4f4e48f352321d598d8b133c0cb1eab0a08694a4260",
+      "questionSha256": "cd1a5c82eae4bda6df99d2393f3103f55383d8267917e18e3f8fa236d07b101f",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -7522,19 +7524,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -7761,7 +7765,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "6400d70dfef65cc04b3b5c4fdf6b9046646eec4feb0995fba053729d4ca26903",
-      "questionSha256": "f38800102ccd4316b40d2485c11a3bd02664fefcddbf4e8d570b820ebb253c4e",
+      "questionSha256": "0a2a5509ede4f93b92aa0d91a97c5629d16918ecb868976e983ed8e7249f084b",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -7771,18 +7775,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -8204,19 +8210,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -8235,19 +8243,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -8483,19 +8493,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -8514,19 +8526,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -8576,19 +8590,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -8607,19 +8623,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -8678,19 +8696,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -8966,19 +8986,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9000,19 +9022,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9071,19 +9095,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9105,19 +9131,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9127,7 +9155,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "5e1ceb1612f5b3885300a17edd74c030e342b8d357712b1625b6e00e69806601",
-      "questionSha256": "8b193331de6f69a1959592b6cb5c57ae9096e74bfcb3f180e4f541719e5fdf77",
+      "questionSha256": "5d06e4735912c19e3f1da8a1cb53bc00a4d2009e84d5ea646cf3f1c04d71debd",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -9137,18 +9165,20 @@
       "solutionComparison": {
         "solution": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9251,7 +9281,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "61a11b3dd1a69f9b38089395f4c67cab391bf08a846c822c8b39ebf7df423f80",
-      "questionSha256": "f38800102ccd4316b40d2485c11a3bd02664fefcddbf4e8d570b820ebb253c4e",
+      "questionSha256": "0a2a5509ede4f93b92aa0d91a97c5629d16918ecb868976e983ed8e7249f084b",
       "promptAndOptions": {
         "status": "完成",
         "method": "explicit-semantic-decision",
@@ -9270,19 +9300,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9292,7 +9324,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "705841ce9f9f1a651085f6cad06ed9a4fb33fc63fd98dd7a5c34d66d741e4978",
-      "questionSha256": "8b193331de6f69a1959592b6cb5c57ae9096e74bfcb3f180e4f541719e5fdf77",
+      "questionSha256": "5d06e4735912c19e3f1da8a1cb53bc00a4d2009e84d5ea646cf3f1c04d71debd",
       "promptAndOptions": {
         "status": "完成",
         "method": "explicit-semantic-decision",
@@ -9305,19 +9337,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9438,19 +9472,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9472,19 +9508,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9689,19 +9727,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9720,19 +9760,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9939,19 +9981,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -9970,19 +10014,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10035,19 +10081,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10069,19 +10117,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10103,19 +10153,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10137,19 +10189,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10171,19 +10225,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10205,19 +10261,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10267,19 +10325,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10289,7 +10349,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "7619de08880be1b760f3edbaaca9c0ebd4c774bea454a7d52f761a5595b4495b",
-      "questionSha256": "7ab6dae77355d44c9b8680d8c97159f9991e3ad966ba9542605dc57a741d8c80",
+      "questionSha256": "5a023290f592ef9f1995110505d0da93b85459fb523298c0a27eb00acbec6df5",
       "promptAndOptions": {
         "status": "完成",
         "method": "explicit-semantic-decision",
@@ -10300,19 +10360,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10353,7 +10415,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "c60b4321f336327263100c5a6192f927e7b084033b449bcd252148dd82bf5a16",
-      "questionSha256": "7ab6dae77355d44c9b8680d8c97159f9991e3ad966ba9542605dc57a741d8c80",
+      "questionSha256": "5a023290f592ef9f1995110505d0da93b85459fb523298c0a27eb00acbec6df5",
       "promptAndOptions": {
         "status": "完成",
         "method": "explicit-semantic-decision",
@@ -10364,19 +10426,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10395,19 +10459,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10457,19 +10523,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10488,19 +10556,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10550,19 +10620,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10572,7 +10644,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "38a4f02a922a212338b62c5e5c23c8c44ecccdaa786753fb5c628064f5c75665",
-      "questionSha256": "7ab6dae77355d44c9b8680d8c97159f9991e3ad966ba9542605dc57a741d8c80",
+      "questionSha256": "5a023290f592ef9f1995110505d0da93b85459fb523298c0a27eb00acbec6df5",
       "promptAndOptions": {
         "status": "完成",
         "method": "explicit-semantic-decision",
@@ -10583,19 +10655,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10636,7 +10710,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "882bd084c2262569d8a91f3981ea3d14643d6f0537b4604e5b22070ddec072a7",
-      "questionSha256": "7ab6dae77355d44c9b8680d8c97159f9991e3ad966ba9542605dc57a741d8c80",
+      "questionSha256": "5a023290f592ef9f1995110505d0da93b85459fb523298c0a27eb00acbec6df5",
       "promptAndOptions": {
         "status": "完成",
         "method": "explicit-semantic-decision",
@@ -10647,19 +10721,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10678,19 +10754,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10740,19 +10818,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10771,19 +10851,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10793,7 +10875,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "b9e816edd44ba2c9f7e0a0ef0b64b5caa38a91753ea6775a243d9152912bee95",
-      "questionSha256": "80df9866fc056f135d8181539d57fb135e1f612d18b9fafd6a50fd713f9dd706",
+      "questionSha256": "9ec643152c2fd7aaf8d12c5bbbcc72c0448c6cd9abf75bac4c50f2845470ed06",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -10802,19 +10884,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10833,19 +10917,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10855,7 +10941,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "20f436150537de9f93fb94239c4c8e527cdb0e036461eb7fa5ae70fbc424bca4",
-      "questionSha256": "7ab6dae77355d44c9b8680d8c97159f9991e3ad966ba9542605dc57a741d8c80",
+      "questionSha256": "5a023290f592ef9f1995110505d0da93b85459fb523298c0a27eb00acbec6df5",
       "promptAndOptions": {
         "status": "完成",
         "method": "explicit-semantic-decision",
@@ -10866,19 +10952,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10919,7 +11007,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "14f911ae6898271b4ceb6b99f801e29c005d7dd72ad99ced7af6690fd4cccc10",
-      "questionSha256": "7ab6dae77355d44c9b8680d8c97159f9991e3ad966ba9542605dc57a741d8c80",
+      "questionSha256": "5a023290f592ef9f1995110505d0da93b85459fb523298c0a27eb00acbec6df5",
       "promptAndOptions": {
         "status": "完成",
         "method": "explicit-semantic-decision",
@@ -10930,19 +11018,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -10961,19 +11051,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -11094,19 +11186,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -11156,19 +11250,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -11187,19 +11283,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -11320,19 +11418,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
         "status": "完成",
-        "evidence": "2026-10-23-batch-math-review.json"
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {
@@ -11466,7 +11566,7 @@
       "topic": "locus",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
       "sourceSnapshotSha256": "26717096ae2b590c52e5d67e58e00b2a25684102d5fda87af938c26d6c6fc86d",
-      "questionSha256": "0ca345d05c9c40eb0417d495fb4fc94e6236f72b04404aac489d45d3bff4116d",
+      "questionSha256": "99238d91c67dd2a20db9ca7f489bd7278fe8125babf6fee69542b9bda00ac128",
       "promptAndOptions": {
         "status": "完成",
         "method": "normalized-text-and-option-identity",
@@ -11475,19 +11575,21 @@
       },
       "solutionComparison": {
         "solution": {
-          "status": "待驗收",
-          "method": "pending",
-          "basis": "Unresolved source/current solution difference."
+          "status": "完成",
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         },
         "solutionZh": {
           "status": "完成",
-          "method": "normalized-source-identity",
-          "basis": "Source-text comparison after documented display/header cleanup; not by itself independent recalculation."
+          "method": "independently-reviewed-restoration",
+          "basis": "Same-question bilingual completion or explicit correction, independently recomputed: content/imports/2026-10-23-locus-mcq-math.json",
+          "evidenceFile": "content/imports/2026-10-23-locus-mcq-math.json"
         }
       },
       "independentMathematics": {
-        "status": "待驗收",
-        "evidence": "A source match does not independently verify its answer. Previous separate mathematics registries remain authoritative."
+        "status": "完成",
+        "evidence": "content/imports/2026-10-23-locus-mcq-math.json"
       }
     },
     {

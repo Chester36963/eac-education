@@ -594,7 +594,7 @@
       "status": "完成",
       "locator": "q-mcq-set-47/1",
       "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
-      "questionSha256": "7ab6dae77355d44c9b8680d8c97159f9991e3ad966ba9542605dc57a741d8c80",
+      "questionSha256": "5a023290f592ef9f1995110505d0da93b85459fb523298c0a27eb00acbec6df5",
       "reason": "One repeated source row has mismatched English and different option ordering. Restore coherent bilingual q-mcq-set-39/3; A is correct there.",
       "calculated": {
         "line": [

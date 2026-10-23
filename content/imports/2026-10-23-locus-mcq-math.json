@@ -1,0 +1,620 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "test": "tests/locus-mcq.cjs",
+  "scope": "24 unique IDs; exact equations, branch/endpoints, current hashes and all non-solution fields checked. No student diagrams.",
+  "records": [
+    {
+      "id": "import-locus-13383df1a29ae1b1",
+      "status": "完成",
+      "questionSha256": "58dc42f8103b1398b0b7c9e8fa228d00b21b798eb3486aa870c84e4d69d0d5ec",
+      "reason": "Fixed distance is from M, with squared radius MN²=2; expansion and excluded centre checked",
+      "calculated": {
+        "centre": [
+          5,
+          7
+        ],
+        "radiusSquared": 2,
+        "coefficients": [
+          1,
+          1,
+          -10,
+          -14,
+          72
+        ],
+        "NOnCircle": true,
+        "centreOnCircle": false
+      }
+    },
+    {
+      "id": "import-locus-9fcefd0ad02284b0",
+      "status": "完成",
+      "questionSha256": "cd1a5c82eae4bda6df99d2393f3103f55383d8267917e18e3f8fa236d07b101f",
+      "reason": "Positive parameter ensures nonzero radius; origin on circle, centre A",
+      "calculated": {
+        "centre": "(a,2a)",
+        "radiusSquared": "5a²",
+        "domain": "a>0",
+        "locus": "circle"
+      }
+    },
+    {
+      "id": "import-locus-3aae2bff1b7f0031",
+      "status": "完成",
+      "questionSha256": "a87e7b9dcde1b25daa16daac2ba2e8bbce88d51b2ab1def2611597fefe4ab9e2",
+      "reason": "Exact squared-distance subtraction and midpoint check",
+      "calculated": {
+        "A": [
+          2,
+          1
+        ],
+        "B": [
+          6,
+          5
+        ],
+        "line": [
+          1,
+          1,
+          -7
+        ]
+      }
+    },
+    {
+      "id": "import-locus-1e60f6ba7413f77d",
+      "status": "完成",
+      "questionSha256": "7b77a6e99789b69778cb171850456c8b8e2aeb581bf34bf3ffaa5c01f7563cc2",
+      "reason": "Exact squared-distance subtraction; no extra branch introduced",
+      "calculated": {
+        "A": [
+          0,
+          4
+        ],
+        "B": [
+          4,
+          0
+        ],
+        "line": [
+          1,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "import-locus-283a9485ba152fc4",
+      "status": "完成",
+      "questionSha256": "06cc8dc44137bdfc9fc058816dce03bee6bd12417baee1cb59f2fbe70c2a9946",
+      "reason": "Factor both line-distance branches; original single-axis choices incomplete",
+      "calculated": {
+        "originalLines": [
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            4,
+            -3,
+            0
+          ]
+        ],
+        "branches": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "exactSquaredDifference": [
+          0,
+          48,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "import-locus-011e678db2fb3d21",
+      "status": "完成",
+      "questionSha256": "6c90d2a6e8fe432e5c9ca62e99b76ef6da5bd4d648788cde2bce4bdb5c7b7d74",
+      "reason": "Normal length sqrt5 is essential; both parallel offsets at distance3",
+      "calculated": {
+        "normalLength": 2.23606797749979,
+        "offset": 6.708203932499369,
+        "equation": "2x-y+1=±3√5",
+        "originalChoicesInvalid": true
+      }
+    },
+    {
+      "id": "import-locus-264616bef928b552",
+      "status": "完成",
+      "questionSha256": "aee784e4054aa4870e6e2e7953eb8d330356a257420df089ba35f99d693d17c6",
+      "reason": "Both parallel distance2 branches and normalized distance verified",
+      "calculated": {
+        "offset": 4.47213595499958,
+        "normalLength": 2.23606797749979,
+        "bothSigns": true
+      }
+    },
+    {
+      "id": "import-locus-c0814dcdde67966e",
+      "status": "完成",
+      "questionSha256": "0a2a5509ede4f93b92aa0d91a97c5629d16918ecb868976e983ed8e7249f084b",
+      "reason": "Midpoint squared-distance identity including endpoints; centre lies on AB",
+      "calculated": {
+        "centre": [
+          4,
+          3
+        ],
+        "radiusSquared": 4,
+        "k": 5,
+        "endpointsIncluded": true,
+        "identity": "AP²+BP²=2PM²+AB²/2"
+      }
+    },
+    {
+      "id": "import-locus-5e2b62cb59a78e4f",
+      "status": "完成",
+      "questionSha256": "5d06e4735912c19e3f1da8a1cb53bc00a4d2009e84d5ea646cf3f1c04d71debd",
+      "reason": "Find negative y-intercept first; fixed radius13 centred at A",
+      "calculated": {
+        "A": [
+          5,
+          0
+        ],
+        "B": [
+          0,
+          -12
+        ],
+        "radiusSquared": 169,
+        "expandedConstant": -144
+      }
+    },
+    {
+      "id": "import-locus-a78976438a5d519b",
+      "status": "完成",
+      "questionSha256": "f0bbfb320a452a9c49ee8619af603fe4d9a6d11f3e748703e6f79ea3cfa1a11a",
+      "reason": "Full two-branch angle bisector, not just y=x",
+      "calculated": {
+        "originalLines": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "branches": [
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "exactSquaredDifference": [
+          1,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "import-locus-d68b822975bbfa24",
+      "status": "完成",
+      "questionSha256": "fe497b0622b325cc087f86142a5f07e392ec2107a31ae4a567969f897677103a",
+      "reason": "Difference of squared distances is 12y−60; unique midline",
+      "calculated": {
+        "squaredDifference": [
+          0,
+          12,
+          -60
+        ],
+        "locus": [
+          0,
+          1,
+          -5
+        ]
+      }
+    },
+    {
+      "id": "import-locus-dc98a14f32c740a3",
+      "status": "完成",
+      "questionSha256": "3c9b48ad380709a54f7f7c31c684a8ad0efa9cf21ab0512cab877ddb7589b967",
+      "reason": "Equal normal lengths; factor exact difference into x and y branches",
+      "calculated": {
+        "originalLines": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ]
+        ],
+        "branches": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "exactSquaredDifference": [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "import-locus-57e3f369a3620b14",
+      "status": "完成",
+      "questionSha256": "c8245119281e8b58f291dfa9386f6b7afb07609e214750f49d675ce9a9691f42",
+      "reason": "Exact right-angle dot-product circle; endpoints give zero vectors and are excluded",
+      "calculated": {
+        "A": [
+          1,
+          -3
+        ],
+        "B": [
+          1,
+          5
+        ],
+        "centre": [
+          1,
+          1
+        ],
+        "radius": 4,
+        "excludedEndpoints": [
+          [
+            1,
+            -3
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-598ce7a3d5e04630",
+      "status": "完成",
+      "questionSha256": "6e0071183542b9a7d61512d363d12e230f044603e0bd08222da4f5d9ef17d467",
+      "reason": "Exact right-angle dot-product circle; endpoints give zero vectors and are excluded",
+      "calculated": {
+        "A": [
+          0,
+          0
+        ],
+        "B": [
+          6,
+          0
+        ],
+        "centre": [
+          3,
+          0
+        ],
+        "radius": 3,
+        "excludedEndpoints": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-c3c794b88657da31",
+      "status": "完成",
+      "questionSha256": "b76ae03da501f3c2a10e0dde870740b759120bd2740f82efcd735d67780fd9ab",
+      "reason": "Exact right-angle dot-product circle; endpoints give zero vectors and are excluded",
+      "calculated": {
+        "A": [
+          -2,
+          1
+        ],
+        "B": [
+          4,
+          1
+        ],
+        "centre": [
+          1,
+          1
+        ],
+        "radius": 3,
+        "excludedEndpoints": [
+          [
+            -2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-4737ce6ce8026ec7",
+      "status": "完成",
+      "questionSha256": "babd583d73964439d2441aad9f279d434e66b46e10a13d76aa6328e5d4205630",
+      "reason": "Substitute image (x+3,y−2); translation constant is −11",
+      "calculated": {
+        "translation": [
+          3,
+          -2
+        ],
+        "line": [
+          1,
+          4,
+          -11
+        ]
+      }
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "status": "完成",
+      "questionSha256": "5a023290f592ef9f1995110505d0da93b85459fb523298c0a27eb00acbec6df5",
+      "reason": "Reflection image substituted first, then entire equation multiplied by −1",
+      "calculated": {
+        "image": "(-x,y)",
+        "line": [
+          3,
+          -2,
+          5
+        ],
+        "checkPoint": [
+          1,
+          4
+        ],
+        "imageCheckPoint": [
+          -1,
+          4
+        ]
+      }
+    },
+    {
+      "id": "import-locus-1028fc56b02cd949",
+      "status": "完成",
+      "questionSha256": "2010eddb9ab827a0535f5c509c4c529a386cdb5657c3329770c2f7ae0d1956be",
+      "reason": "x-axis reflection changes y, not x; substitution reversible",
+      "calculated": {
+        "image": "(x,-y)",
+        "line": [
+          2,
+          1,
+          7
+        ]
+      }
+    },
+    {
+      "id": "import-locus-ce2c86cdb6498c57",
+      "status": "完成",
+      "questionSha256": "9ec643152c2fd7aaf8d12c5bbbcc72c0448c6cd9abf75bac4c50f2845470ed06",
+      "reason": "Exact both angle-bisector factors, intersection and intercept midpoint; I false,II/III true",
+      "calculated": {
+        "originalLines": [
+          [
+            1,
+            -2,
+            -8
+          ],
+          [
+            2,
+            1,
+            24
+          ]
+        ],
+        "branches": [
+          [
+            1,
+            3,
+            32
+          ],
+          [
+            3,
+            -1,
+            16
+          ]
+        ],
+        "exactSquaredDifference": [
+          -3,
+          -8,
+          3,
+          -112,
+          -16,
+          -512
+        ],
+        "A": [
+          8,
+          0
+        ],
+        "B": [
+          0,
+          -24
+        ],
+        "midpoint": [
+          4,
+          -12
+        ],
+        "intersection": [
+          -8,
+          -8
+        ],
+        "statements": [
+          false,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "id": "import-locus-b543bd48bfdd04e5",
+      "status": "完成",
+      "questionSha256": "debe8f556680aec770dad8d2ccb3626b6e8b084d67e1bc73bd0519b399db141d",
+      "reason": "Factor normalized distance identity into both bisectors; source one-bisector choice insufficient",
+      "calculated": {
+        "originalLines": [
+          [
+            2,
+            -1,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        "branches": [
+          [
+            1,
+            -3,
+            0
+          ],
+          [
+            3,
+            1,
+            0
+          ]
+        ],
+        "exactSquaredDifference": [
+          3,
+          -8,
+          -3,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "import-locus-c678c46c4234d9cd",
+      "status": "完成",
+      "questionSha256": "5c086df8322201ec5f488fb752b99bd3b56e98a0e30a0533d46e52d68f9a459a",
+      "reason": "Nonnegative distances make squaring reversible; exact difference x²−8y",
+      "calculated": {
+        "focus": [
+          0,
+          2
+        ],
+        "directrix": [
+          0,
+          1,
+          2
+        ],
+        "exactSquaredDifference": [
+          1,
+          0,
+          0,
+          0,
+          -8,
+          0
+        ],
+        "equation": "x²=8y",
+        "noExtraneousBranch": true
+      }
+    },
+    {
+      "id": "import-locus-355b76d16e789b7a",
+      "status": "完成",
+      "questionSha256": "1e239219e42f86be7e5a51f0a7ee62164b02fbb9e1f16ce9936766c04ca26642",
+      "reason": "Nonnegative distances; exact difference y²−8x gives right-opening parabola",
+      "calculated": {
+        "focus": [
+          2,
+          0
+        ],
+        "directrix": [
+          1,
+          0,
+          2
+        ],
+        "exactSquaredDifference": [
+          0,
+          0,
+          1,
+          -8,
+          0,
+          0
+        ],
+        "equation": "y²=8x",
+        "noExtraneousBranch": true
+      }
+    },
+    {
+      "id": "import-locus-867ccc54edab3f89",
+      "status": "完成",
+      "questionSha256": "7db819c3df095d66d8e3ed2a9c8cdeacd235b192beee7ede329328c3865f25ca",
+      "reason": "Exact perpendicular bisector x−y+2=0; none of original choices matches",
+      "calculated": {
+        "A": [
+          -4,
+          4
+        ],
+        "B": [
+          2,
+          -2
+        ],
+        "line": [
+          1,
+          -1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "import-locus-715f5963a58906fe",
+      "status": "完成",
+      "questionSha256": "99238d91c67dd2a20db9ca7f489bd7278fe8125babf6fee69542b9bda00ac128",
+      "reason": "Distinct intersections on perpendicular bisector: two signed roots ±12, not same point twice",
+      "calculated": {
+        "midpoint": [
+          2,
+          -1
+        ],
+        "ABSquared": 208,
+        "halfChordSquared": 144,
+        "signedRoots": [
+          -12,
+          12
+        ],
+        "UV": 24
+      }
+    }
+  ]
+}

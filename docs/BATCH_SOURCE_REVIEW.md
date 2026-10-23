@@ -8,7 +8,7 @@ SRC-BATCH-02（完成）：批量修訂 **206個現有ID**，沒有新增／刪�
 
 SRC-BATCH-03（完成）：**25個ID** 有本批獨立算式測試與canonical SHA256。其中新增發現定距題漏法向長度√5：原C選項的距離其實是3/√5，不是3。保留原題條件及原選項快照，現行明示改為書面比較，沒有把干擾項改成新答案。
 
-SRC-BATCH-04（待驗收，已接續B7／B8）：910個來源／網站解析欄位中，667個在明列的標題／排版清理後一致，37個文字差異已有B7獨立計算裁定，**206個仍待覆核**（含教學詳略、重新推導、來源簡答及排版差別）。全部保留兩邊原文及分開狀態；這不等於206道錯題，更不代表455項已逐小問獨立重算。B7另恢復37條長題中文推導並獨立驗算；B8再覆核其餘47條軌跡長題，45條更新，修正最大面積及截距直線符號錯誤。見 [B7](SOLUTION_RESTORATION.md) 及 [B8](LOCUS_COMPLETION.md)。原B6的25個ID及前批獨立紀錄另外有效。其餘來源解答相同亦不自動取得「數學完成」資格。
+SRC-BATCH-04（待驗收，已接續B7／B8／B9）：910個來源／網站解析欄位中，659個在明列的標題／排版清理後一致，139個文字差異已有B7／B8／B9獨立計算裁定，**112個仍待覆核**（含教學詳略、重新推導、來源簡答及排版差別）。全部保留兩邊原文及分開狀態；這不等於112道錯題，更不代表455項已逐小問獨立重算。B7另恢復37條長題中文推導並獨立驗算；B8再覆核其餘47條軌跡長題，45條更新，修正最大面積及截距直線符號錯誤。見 [B7](SOLUTION_RESTORATION.md) 及 [B8](LOCUS_COMPLETION.md)。B9再覆核24條選擇／書面改編題（51個全部來源位置，其中49個原有待覆核欄位），補強7條雙語解析；見[選擇題接力](LOCUS_MCQ_REVIEW.md)。原B6的25個ID及前批獨立紀錄另外有效。其餘來源解答相同亦不自動取得「數學完成」資格。
 
 ## 可重現流程
 
@@ -233,7 +233,7 @@ SRC-BATCH-04（待驗收，已接續B7／B8）：910個來源／網站解析欄�
 
 ## 455項完整對照
 
-下表「解析欄對照完成」包含文字一致或明列B7／B8獨立推導裁定，JSON method可區分；不能概括當成全部數學驗算。全文、SHA256、來源locator、差異欄位及各自狀態見 `content/imports/2026-10-23-batch-source-review.json` 與 `batch-source-snapshots.json`；原記錄不是網頁可執行內容。
+下表「解析欄對照完成」包含文字一致或明列B7／B8／B9獨立推導裁定，JSON method可區分；不能概括當成全部數學驗算。全文、SHA256、來源locator、差異欄位及各自狀態見 `content/imports/2026-10-23-batch-source-review.json` 與 `batch-source-snapshots.json`；原記錄不是網頁可執行內容。
 
 | 編號 | 網站ID／原位置 | 題幹與選項 | 解析欄對照完成 EN／ZH | 獨立算式證據 | 裁定 |
 | --- | --- | --- | --- | --- | --- |
@@ -477,8 +477,8 @@ SRC-BATCH-04（待驗收，已接續B7／B8）：910個來源／網站解析欄�
 | BATCH-238 | import-four-centres-q260 / q-Q260 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-239 | import-locus-2f8c849b079b0280 / q-mcq-set-1/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-240 | import-locus-a3f8ddbccd4a0d37 / q-mcq-set-1/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-241 | import-locus-13383df1a29ae1b1 / q-mcq-set-1/3 | 完成 | 否／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-242 | import-locus-9fcefd0ad02284b0 / q-mcq-set-2/1 | 完成 | 否／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-241 | import-locus-13383df1a29ae1b1 / q-mcq-set-1/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-242 | import-locus-9fcefd0ad02284b0 / q-mcq-set-2/1 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-243 | import-locus-cb3e0e89acf39c53 / q-mcq-set-2/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-244 | import-locus-308d87cb39e5df70 / q-mcq-set-2/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-245 | import-locus-511f3edbcda73df5 / q-mcq-set-3/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
@@ -500,8 +500,8 @@ SRC-BATCH-04（待驗收，已接續B7／B8）：910個來源／網站解析欄�
 | BATCH-261 | import-locus-e2e7654140b74b34 / q-mcq-set-11/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-262 | import-locus-3136d08b58ae7638 / q-mcq-set-11/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-263 | import-locus-8b5001e00f65089f / q-mcq-set-12/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-264 | import-locus-3aae2bff1b7f0031 / q-mcq-set-12/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-265 | import-locus-1e60f6ba7413f77d / q-mcq-set-12/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-264 | import-locus-3aae2bff1b7f0031 / q-mcq-set-12/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-265 | import-locus-1e60f6ba7413f77d / q-mcq-set-12/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-266 | import-locus-4535494b524f948e / q-mcq-set-13/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-267 | import-locus-d4704e70dc7a4959 / q-mcq-set-13/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-268 | import-locus-b6323575a4d80d60 / q-mcq-set-13/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
@@ -509,13 +509,13 @@ SRC-BATCH-04（待驗收，已接續B7／B8）：910個來源／網站解析欄�
 | BATCH-270 | import-locus-a5d9c33670990e47 / q-mcq-set-14/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-271 | import-locus-d0ccbc11a0d1cc7e / q-mcq-set-14/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-272 | import-locus-706d2ddb691ffc92 / q-mcq-set-15/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-273 | import-locus-3aae2bff1b7f0031 / q-mcq-set-15/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-274 | import-locus-1e60f6ba7413f77d / q-mcq-set-15/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-273 | import-locus-3aae2bff1b7f0031 / q-mcq-set-15/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-274 | import-locus-1e60f6ba7413f77d / q-mcq-set-15/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-275 | import-locus-6786ab4bc138f18a / q-mcq-set-16/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-276 | import-locus-3aae2bff1b7f0031 / q-mcq-set-16/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-277 | import-locus-1e60f6ba7413f77d / q-mcq-set-16/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-276 | import-locus-3aae2bff1b7f0031 / q-mcq-set-16/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-277 | import-locus-1e60f6ba7413f77d / q-mcq-set-16/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-278 | import-locus-59761e3985b515cd / q-mcq-set-17/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-279 | import-locus-283a9485ba152fc4 / q-mcq-set-17/2 | 完成 | 否／否 | 完成 | 由 ／4x+3y／=／4x−3y／ 得 x=0 或 y=0；來源A/B各漏一支。保留原條件及明示書面改編，不恢復無正確答案的單選。 |
+| BATCH-279 | import-locus-283a9485ba152fc4 / q-mcq-set-17/2 | 完成 | 是／是 | 完成 | 由 ／4x+3y／=／4x−3y／ 得 x=0 或 y=0；來源A/B各漏一支。保留原條件及明示書面改編，不恢復無正確答案的單選。 |
 | BATCH-280 | import-locus-78afbf481142b426 / q-mcq-set-19/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-281 | import-locus-aa77975f7e4680c9 / q-mcq-set-19/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-282 | import-locus-560526520fd28bbe / q-mcq-set-20/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
@@ -524,85 +524,85 @@ SRC-BATCH-04（待驗收，已接續B7／B8）：910個來源／網站解析欄�
 | BATCH-285 | import-locus-0aa9831b28d51429 / q-mcq-set-21/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-286 | import-locus-501be4826b50fdd5 / q-mcq-set-21/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-287 | import-locus-7b8a777262121d37 / q-mcq-set-22/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-288 | import-locus-011e678db2fb3d21 / q-mcq-set-22/2 | 完成 | 否／否 | 完成 | 距離公式要求 ／2x−y+1／=3√5；原選項缺法向長度或分支。本批改為明示書面比較，原選項保存在修復前快照。 |
-| BATCH-289 | import-locus-264616bef928b552 / q-mcq-set-22/3 | 完成 | 否／否 | 完成 | 來源的 2sqrt5 與網站 2\sqrt{5} 是相同根式的排版修復；兩平行分支均包括。 |
+| BATCH-288 | import-locus-011e678db2fb3d21 / q-mcq-set-22/2 | 完成 | 是／是 | 完成 | 距離公式要求 ／2x−y+1／=3√5；原選項缺法向長度或分支。本批改為明示書面比較，原選項保存在修復前快照。 |
+| BATCH-289 | import-locus-264616bef928b552 / q-mcq-set-22/3 | 完成 | 是／是 | 完成 | 來源的 2sqrt5 與網站 2\sqrt{5} 是相同根式的排版修復；兩平行分支均包括。 |
 | BATCH-290 | import-locus-5143cfc3e914be3a / q-mcq-set-23/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-291 | import-locus-011e678db2fb3d21 / q-mcq-set-23/2 | 完成 | 否／否 | 完成 | 距離公式要求 ／2x−y+1／=3√5；原選項缺法向長度或分支。本批改為明示書面比較，原選項保存在修復前快照。 |
-| BATCH-292 | import-locus-264616bef928b552 / q-mcq-set-23/3 | 完成 | 否／否 | 完成 | 來源的 2sqrt5 與網站 2\sqrt{5} 是相同根式的排版修復；兩平行分支均包括。 |
-| BATCH-293 | import-locus-5e2b62cb59a78e4f / q-mcq-set-24/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-291 | import-locus-011e678db2fb3d21 / q-mcq-set-23/2 | 完成 | 是／是 | 完成 | 距離公式要求 ／2x−y+1／=3√5；原選項缺法向長度或分支。本批改為明示書面比較，原選項保存在修復前快照。 |
+| BATCH-292 | import-locus-264616bef928b552 / q-mcq-set-23/3 | 完成 | 是／是 | 完成 | 來源的 2sqrt5 與網站 2\sqrt{5} 是相同根式的排版修復；兩平行分支均包括。 |
+| BATCH-293 | import-locus-5e2b62cb59a78e4f / q-mcq-set-24/1 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-294 | import-locus-4592ba99c8dad533 / q-mcq-set-24/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-295 | import-locus-fe0694b2fb10defb / q-mcq-set-24/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-296 | import-locus-42ad23f968801947 / q-mcq-set-25/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-297 | import-locus-c0814dcdde67966e / q-mcq-set-25/2 | 完成 | 否／否 | 完成 | 同題另一來源 q-mcq-set-7/1 支持現行選項順序。此來源選項倒序，B=5對應現行C=5，不能只比較字母。圓心(4,3)在AB上，4·4−7·3+k=0得k=5；AP2/x2的來源OCR須還原平方。 |
-| BATCH-298 | import-locus-5e2b62cb59a78e4f / q-mcq-set-26/1 | 完成 | 否／否 | 待驗收 | 來源中文與同題q-mcq-set-24/1確認12x−5y=60、平方及原數字；英文OCR拆開12、60、10、144。A=(5,0)、B=(0,−12)，半徑13，展開得x²+y²−10x−144=0，保留現行正確數學排版及繁體「軌跡」。 |
+| BATCH-297 | import-locus-c0814dcdde67966e / q-mcq-set-25/2 | 完成 | 是／是 | 完成 | 同題另一來源 q-mcq-set-7/1 支持現行選項順序。此來源選項倒序，B=5對應現行C=5，不能只比較字母。圓心(4,3)在AB上，4·4−7·3+k=0得k=5；AP2/x2的來源OCR須還原平方。 |
+| BATCH-298 | import-locus-5e2b62cb59a78e4f / q-mcq-set-26/1 | 完成 | 是／是 | 完成 | 來源中文與同題q-mcq-set-24/1確認12x−5y=60、平方及原數字；英文OCR拆開12、60、10、144。A=(5,0)、B=(0,−12)，半徑13，展開得x²+y²−10x−144=0，保留現行正確數學排版及繁體「軌跡」。 |
 | BATCH-299 | import-locus-ac9e79988d5c3773 / q-mcq-set-26/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-300 | import-locus-e4c5a5389a916da3 / q-mcq-set-26/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-301 | import-locus-63e25d00b0359a5c / q-mcq-set-27/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-302 | import-locus-011e678db2fb3d21 / q-mcq-set-27/2 | 完成 | 否／否 | 完成 | 距離公式要求 ／2x−y+1／=3√5；原選項缺法向長度或分支。本批改為明示書面比較，原選項保存在修復前快照。 |
-| BATCH-303 | import-locus-264616bef928b552 / q-mcq-set-27/3 | 完成 | 否／否 | 完成 | 來源的 2sqrt5 與網站 2\sqrt{5} 是相同根式的排版修復；兩平行分支均包括。 |
+| BATCH-302 | import-locus-011e678db2fb3d21 / q-mcq-set-27/2 | 完成 | 是／是 | 完成 | 距離公式要求 ／2x−y+1／=3√5；原選項缺法向長度或分支。本批改為明示書面比較，原選項保存在修復前快照。 |
+| BATCH-303 | import-locus-264616bef928b552 / q-mcq-set-27/3 | 完成 | 是／是 | 完成 | 來源的 2sqrt5 與網站 2\sqrt{5} 是相同根式的排版修復；兩平行分支均包括。 |
 | BATCH-304 | import-locus-f21a0de6ebe733c1 / q-mcq-set-28/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-305 | import-locus-967f3762bdb51834 / q-mcq-set-28/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-306 | import-locus-cee980fe6c8c06f5 / q-mcq-set-28/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-307 | import-locus-d27dc296d4a109d2 / q-mcq-set-29/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-308 | import-locus-7b8ab081249b7918 / q-mcq-set-29/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-309 | import-locus-2d7e5afe501f20ce / q-mcq-set-30/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-310 | import-locus-a78976438a5d519b / q-mcq-set-30/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-311 | import-locus-d68b822975bbfa24 / q-mcq-set-30/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-310 | import-locus-a78976438a5d519b / q-mcq-set-30/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-311 | import-locus-d68b822975bbfa24 / q-mcq-set-30/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-312 | import-locus-f91186a0882e2eb0 / q-mcq-set-31/1 | 完成 | 是／是 | 待驗收 | 現行已明示完整文字版：兩相交直線及等距條件完整，省略無額外條件的原示意圖引用；沒有以無關圖替代。 |
 | BATCH-313 | import-locus-e5467e28c69c4701 / q-mcq-set-31/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-314 | import-locus-ae975d55a13dfbd8 / q-mcq-set-32/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-315 | import-locus-3e1596b8c61091b2 / q-mcq-set-34/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-316 | import-locus-30460a0b1ab8a453 / q-mcq-set-34/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-317 | import-locus-0371340e73bfa150 / q-mcq-set-35/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-318 | import-locus-d68b822975bbfa24 / q-mcq-set-35/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-319 | import-locus-dc98a14f32c740a3 / q-mcq-set-35/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-318 | import-locus-d68b822975bbfa24 / q-mcq-set-35/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-319 | import-locus-dc98a14f32c740a3 / q-mcq-set-35/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-320 | import-locus-f02f58bef868da13 / q-mcq-set-36/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-321 | import-locus-57e3f369a3620b14 / q-mcq-set-36/2 | 完成 | 否／否 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行 \angle/90^\circ 正確；直徑中點(1,1)、半徑4，排除A、B。 |
-| BATCH-322 | import-locus-598ce7a3d5e04630 / q-mcq-set-36/3 | 完成 | 否／否 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行格式正確；直徑中點(3,0)、半徑3，排除A、B。 |
-| BATCH-323 | import-locus-598ce7a3d5e04630 / q-mcq-set-37/2 | 完成 | 否／否 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行格式正確；直徑中點(3,0)、半徑3，排除A、B。 |
-| BATCH-324 | import-locus-c3c794b88657da31 / q-mcq-set-37/3 | 完成 | 否／否 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行格式正確；直徑中點(1,1)、半徑3，排除A、B。 |
-| BATCH-325 | import-locus-c3c794b88657da31 / q-mcq-set-38/2 | 完成 | 否／否 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行格式正確；直徑中點(1,1)、半徑3，排除A、B。 |
-| BATCH-326 | import-locus-57e3f369a3620b14 / q-mcq-set-38/3 | 完成 | 否／否 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行 \angle/90^\circ 正確；直徑中點(1,1)、半徑4，排除A、B。 |
+| BATCH-321 | import-locus-57e3f369a3620b14 / q-mcq-set-36/2 | 完成 | 是／是 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行 \angle/90^\circ 正確；直徑中點(1,1)、半徑4，排除A、B。 |
+| BATCH-322 | import-locus-598ce7a3d5e04630 / q-mcq-set-36/3 | 完成 | 是／是 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行格式正確；直徑中點(3,0)、半徑3，排除A、B。 |
+| BATCH-323 | import-locus-598ce7a3d5e04630 / q-mcq-set-37/2 | 完成 | 是／是 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行格式正確；直徑中點(3,0)、半徑3，排除A、B。 |
+| BATCH-324 | import-locus-c3c794b88657da31 / q-mcq-set-37/3 | 完成 | 是／是 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行格式正確；直徑中點(1,1)、半徑3，排除A、B。 |
+| BATCH-325 | import-locus-c3c794b88657da31 / q-mcq-set-38/2 | 完成 | 是／是 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行格式正確；直徑中點(1,1)、半徑3，排除A、B。 |
+| BATCH-326 | import-locus-57e3f369a3620b14 / q-mcq-set-38/3 | 完成 | 是／是 | 完成 | 來源 angle/90^circ 缺TeX反斜線，現行 \angle/90^\circ 正確；直徑中點(1,1)、半徑4，排除A、B。 |
 | BATCH-327 | import-locus-20fa464447fe87f0 / q-mcq-set-39/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-328 | import-locus-4737ce6ce8026ec7 / q-mcq-set-39/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-329 | import-locus-c3bfb9a8feddc782 / q-mcq-set-39/3 | 完成 | 否／否 | 待驗收 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
+| BATCH-328 | import-locus-4737ce6ce8026ec7 / q-mcq-set-39/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-329 | import-locus-c3bfb9a8feddc782 / q-mcq-set-39/3 | 完成 | 是／是 | 完成 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
 | BATCH-330 | import-locus-3354656331d5d8b5 / q-mcq-set-40/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-331 | import-locus-c3bfb9a8feddc782 / q-mcq-set-40/2 | 完成 | 否／否 | 待驗收 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
-| BATCH-332 | import-locus-1028fc56b02cd949 / q-mcq-set-40/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-331 | import-locus-c3bfb9a8feddc782 / q-mcq-set-40/2 | 完成 | 是／是 | 完成 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
+| BATCH-332 | import-locus-1028fc56b02cd949 / q-mcq-set-40/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-333 | import-locus-641ed6cf2383b3f7 / q-mcq-set-41/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-334 | import-locus-1028fc56b02cd949 / q-mcq-set-41/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-335 | import-locus-4737ce6ce8026ec7 / q-mcq-set-41/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-334 | import-locus-1028fc56b02cd949 / q-mcq-set-41/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-335 | import-locus-4737ce6ce8026ec7 / q-mcq-set-41/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-336 | import-locus-c3e6771a90eeb1c7 / q-mcq-set-42/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-337 | import-locus-4737ce6ce8026ec7 / q-mcq-set-42/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-338 | import-locus-c3bfb9a8feddc782 / q-mcq-set-42/3 | 完成 | 否／否 | 待驗收 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
+| BATCH-337 | import-locus-4737ce6ce8026ec7 / q-mcq-set-42/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-338 | import-locus-c3bfb9a8feddc782 / q-mcq-set-42/3 | 完成 | 是／是 | 完成 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
 | BATCH-339 | import-locus-a6d24b4bc8dcb49f / q-mcq-set-43/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-340 | import-locus-c3bfb9a8feddc782 / q-mcq-set-43/2 | 完成 | 否／否 | 待驗收 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
-| BATCH-341 | import-locus-1028fc56b02cd949 / q-mcq-set-43/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-340 | import-locus-c3bfb9a8feddc782 / q-mcq-set-43/2 | 完成 | 是／是 | 完成 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
+| BATCH-341 | import-locus-1028fc56b02cd949 / q-mcq-set-43/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-342 | import-locus-004a50c663a1c91c / q-mcq-set-44/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-343 | import-locus-1028fc56b02cd949 / q-mcq-set-44/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-344 | import-locus-4737ce6ce8026ec7 / q-mcq-set-44/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-345 | import-locus-ce2c86cdb6498c57 / q-mcq-set-45/1 | 完成 | 否／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-346 | import-locus-4737ce6ce8026ec7 / q-mcq-set-45/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-347 | import-locus-c3bfb9a8feddc782 / q-mcq-set-45/3 | 完成 | 否／否 | 待驗收 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
+| BATCH-343 | import-locus-1028fc56b02cd949 / q-mcq-set-44/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-344 | import-locus-4737ce6ce8026ec7 / q-mcq-set-44/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-345 | import-locus-ce2c86cdb6498c57 / q-mcq-set-45/1 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-346 | import-locus-4737ce6ce8026ec7 / q-mcq-set-45/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-347 | import-locus-c3bfb9a8feddc782 / q-mcq-set-45/3 | 完成 | 是／是 | 完成 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
 | BATCH-348 | import-locus-3fcfc16693b6ffa1 / q-mcq-set-46/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-349 | import-locus-c3bfb9a8feddc782 / q-mcq-set-46/2 | 完成 | 否／否 | 待驗收 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
-| BATCH-350 | import-locus-1028fc56b02cd949 / q-mcq-set-46/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-349 | import-locus-c3bfb9a8feddc782 / q-mcq-set-46/2 | 完成 | 是／是 | 完成 | 中文只增加直線名稱L；兩版本皆是P關於y軸的反射像位於3x+2y−5=0。現行沿用完整雙語39/3選項及前批獨立重算，方程為3x−2y+5=0。 |
+| BATCH-350 | import-locus-1028fc56b02cd949 / q-mcq-set-46/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-351 | import-locus-aa4f5d5555a06779 / q-mcq-set-47/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-352 | import-locus-0ffc2b3aa04ff5bb / q-mcq-set-49/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-353 | import-locus-35a50a5780937a71 / q-mcq-set-49/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-354 | import-locus-b543bd48bfdd04e5 / q-mcq-set-50/1 | 完成 | 否／否 | 完成 | 完整軌跡同時包含x−3y=0及3x+y=0，來源C只稱一條角平分線。保留明示書面改編，不用錯誤單選鍵。 |
+| BATCH-354 | import-locus-b543bd48bfdd04e5 / q-mcq-set-50/1 | 完成 | 是／是 | 完成 | 完整軌跡同時包含x−3y=0及3x+y=0，來源C只稱一條角平分線。保留明示書面改編，不用錯誤單選鍵。 |
 | BATCH-355 | import-locus-9404a68cc8914942 / q-mcq-set-50/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-356 | import-locus-c678c46c4234d9cd / q-mcq-set-52/2 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-357 | import-locus-355b76d16e789b7a / q-mcq-set-52/3 | 完成 | 否／否 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-356 | import-locus-c678c46c4234d9cd / q-mcq-set-52/2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-357 | import-locus-355b76d16e789b7a / q-mcq-set-52/3 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-358 | import-locus-60ff172b3837db5b / q-mcq-set-53/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-359 | import-locus-08cf3d2a6e8c5fb5 / q-mcq-set-54/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-360 | import-locus-c2743abb02cacb92 / q-mcq-set-54/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-361 | import-locus-867ccc54edab3f89 / q-mcq-set-54/3 | 完成 | 否／否 | 完成 | 完整條件給x−y+2=0，來源四個選項均不符。保留明示書面改編，不自行修改原選項。 |
+| BATCH-361 | import-locus-867ccc54edab3f89 / q-mcq-set-54/3 | 完成 | 是／是 | 完成 | 完整條件給x−y+2=0，來源四個選項均不符。保留明示書面改編，不自行修改原選項。 |
 | BATCH-362 | import-locus-2ce389ef7486ef13 / q-mcq-set-55/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-363 | import-locus-660e65192f74ce9f / q-mcq-set-55/2 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-364 | import-locus-191037581f652933 / q-mcq-set-55/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-365 | import-locus-956a1f6d1c4d2d26 / q-mcq-set-56/1 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
-| BATCH-366 | import-locus-715f5963a58906fe / q-mcq-set-57/1 | 完成 | 否／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
+| BATCH-366 | import-locus-715f5963a58906fe / q-mcq-set-57/1 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-367 | import-locus-0437cd26dba4ec63 / q-mcq-set-57/3 | 完成 | 是／是 | 待驗收 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-368 | import-locus-cb757fbbabdc6405 / q-LongQ-1 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |
 | BATCH-369 | import-locus-e25a8efd1fdf9bd7 / q-LongQ-2 | 完成 | 是／是 | 完成 | Both bilingual stems and every existing A–D option agree after presentation-only normalization; no values, signs, powers or option positions are discarded. |

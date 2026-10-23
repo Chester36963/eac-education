@@ -2476,7 +2476,7 @@
           "D": "\\(x^2+y^2-12x-16y+98=0\\)"
         }
       },
-      "questionSha256": "e54e9a29114b4d29d15e34b740ced85597afe69e4bbcc1d1c5bf60a2698c00fa",
+      "questionSha256": "58dc42f8103b1398b0b7c9e8fa228d00b21b798eb3486aa870c84e4d69d0d5ec",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -2486,7 +2486,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "e54e9a29114b4d29d15e34b740ced85597afe69e4bbcc1d1c5bf60a2698c00fa",
+      "successorReview": "content/imports/2026-10-23-locus-mcq.json"
     },
     {
       "id": "import-locus-9fcefd0ad02284b0",
@@ -2542,7 +2544,7 @@
           "D": "一條直線"
         }
       },
-      "questionSha256": "ef95bec026742f5b1ce1c4f4e48f352321d598d8b133c0cb1eab0a08694a4260",
+      "questionSha256": "cd1a5c82eae4bda6df99d2393f3103f55383d8267917e18e3f8fa236d07b101f",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -2552,7 +2554,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "ef95bec026742f5b1ce1c4f4e48f352321d598d8b133c0cb1eab0a08694a4260",
+      "successorReview": "content/imports/2026-10-23-locus-mcq.json"
     },
     {
       "id": "import-locus-cb3e0e89acf39c53",
@@ -3071,7 +3075,7 @@
           "D": "\\(16\\)"
         }
       },
-      "questionSha256": "f38800102ccd4316b40d2485c11a3bd02664fefcddbf4e8d570b820ebb253c4e",
+      "questionSha256": "0a2a5509ede4f93b92aa0d91a97c5629d16918ecb868976e983ed8e7249f084b",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -3081,7 +3085,9 @@
           1440
         ],
         "independentMath": true
-      }
+      },
+      "previousQuestionSha256": "f38800102ccd4316b40d2485c11a3bd02664fefcddbf4e8d570b820ebb253c4e",
+      "successorReview": "content/imports/2026-10-23-locus-mcq.json"
     },
     {
       "id": "import-locus-d5ed93ef1f63fd28",
@@ -5557,7 +5563,7 @@
           "D": "\\(x^{2}+y^{2}-5 x+12 y=0\\)"
         }
       },
-      "questionSha256": "8b193331de6f69a1959592b6cb5c57ae9096e74bfcb3f180e4f541719e5fdf77",
+      "questionSha256": "5d06e4735912c19e3f1da8a1cb53bc00a4d2009e84d5ea646cf3f1c04d71debd",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -5567,7 +5573,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "8b193331de6f69a1959592b6cb5c57ae9096e74bfcb3f180e4f541719e5fdf77",
+      "successorReview": "content/imports/2026-10-23-locus-mcq.json"
     },
     {
       "id": "import-locus-4592ba99c8dad533",
@@ -8065,7 +8073,7 @@
           "D": "I、II 及 III"
         }
       },
-      "questionSha256": "80df9866fc056f135d8181539d57fb135e1f612d18b9fafd6a50fd713f9dd706",
+      "questionSha256": "9ec643152c2fd7aaf8d12c5bbbcc72c0448c6cd9abf75bac4c50f2845470ed06",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -8075,7 +8083,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "80df9866fc056f135d8181539d57fb135e1f612d18b9fafd6a50fd713f9dd706",
+      "successorReview": "content/imports/2026-10-23-locus-mcq.json"
     },
     {
       "id": "import-locus-3fcfc16693b6ffa1",
@@ -8929,7 +8939,7 @@
           "D": "\\(4 \\sqrt{62}\\)"
         }
       },
-      "questionSha256": "0ca345d05c9c40eb0417d495fb4fc94e6236f72b04404aac489d45d3bff4116d",
+      "questionSha256": "99238d91c67dd2a20db9ca7f489bd7278fe8125babf6fee69542b9bda00ac128",
       "evidence": {
         "browserReport": "docs/qa/2026-10-23/batch-review/report.json",
         "questionViewports": [
@@ -8939,7 +8949,9 @@
           1440
         ],
         "independentMath": false
-      }
+      },
+      "previousQuestionSha256": "0ca345d05c9c40eb0417d495fb4fc94e6236f72b04404aac489d45d3bff4116d",
+      "successorReview": "content/imports/2026-10-23-locus-mcq.json"
     },
     {
       "id": "import-locus-0437cd26dba4ec63",

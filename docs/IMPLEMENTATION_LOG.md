@@ -1,5 +1,17 @@
 # Implementation record
 
+## B9 locus MCQ and adapted-question completion — 24 October 2026
+
+Status LOG-20261024-B9: 內容、獨立數學及本地實際畫面完成；正式發布待驗收。Continue the 23 October source audit without changing the original source-version paths. Revision `2feeb835407166a2`, unchanged1,186 questions/seven chapters. All24 remaining unique locus MCQ/adapted IDs independently recalculated across51 total source positions (49 previously had pending solution fields). Seven IDs receive full paired EN/ZH improvements,17 retain complete existing solutions; exactly14 solution fields change. No stems, choices, keys, types, categories, diagrams, IDs or student records change. [Detailed B9](LOCUS_MCQ_REVIEW.md), [full plan](CONTENT_EXPANSION_PLAN.md), [complete UI/UE roadmap](UI_UX_ROADMAP.md).
+
+- Distinguish a fixed-distance circle's centre from its point; show full expansion and positive-radius domain. Derive the diameter midpoint identity with included endpoints. Complete reflection by changing the entire equation's sign and matching answer A. Explicitly derive both angle-bisector branches and verify all Roman statements. Prove two distinct chord intersections giveUV=24.
+- Independent24 cases use exact coefficient/factor comparisons and domain/endpoint checks, plus point substitution. Same-question sourceHTML SHA256 and51 locator snapshot hashes checked. All non-solution fields invariant. Prior B5/B6 mathematics rerun for the two changed previously reviewed IDs; their historical before snapshots remain, and B6 repair records link to B9.
+- All961 Node checks pass; full1,186-question formula sweep passes49,620 renders, zero errors. All192 local bilingual views at320/390/768/1440px and full study-journey pass, including actual automatic MCQ grading, manual assessment, old MC-letter draft, history/bookmark/resume preservation and no automatic regrading.
+- Seven actual390px solution examples visually inspected. Long formula containers remain locally scrollable and tested reachable; no full-fit claim. No student diagram assets orPDF output. Formal live tests and hashes are recorded separately in [B9 QA](qa/2026-10-23/locus-mcq/README.md).
+
+Pending source/current solution comparison fields reduce206→112, all remaining inFour Centres. They are fields/source positions, not112known wrong questions. Six source problems/seven held IDs remain; browser-local account/storage limitations unchanged. This batch does not claim all mathematics or real-device/student research is complete.
+
+
 ## B8 remaining locus long-question solutions — 23 October 2026
 
 Status LOG-20261023-B8: 獨立數學、本地及正式站驗收完成。Revision `52a415682524c0ea`, unchanged1,186 questions/seven chapters. Reviewed47 existing long-question IDs, updated45, retained two already fuller explanations. Exactly45 Chinese and25 English solution fields changed; no question, option, key, category, ID, student record or diagram edits. Full before-snapshots, source hashes and every calculation are recorded in [B8](LOCUS_COMPLETION.md); [full scope](CONTENT_EXPANSION_PLAN.md) and [UI/UE roadmap](UI_UX_ROADMAP.md) remain complete.
