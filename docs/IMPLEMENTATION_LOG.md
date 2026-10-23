@@ -2,9 +2,9 @@
 
 ## Statistics stylesheet refresh — 23 October 2026
 
-Status LOG-20261023-TABLE-CACHE: 本地完成／正式站待驗收。正式站原有修正已存在，但未加版本的 math.css 回應容許快取600秒；不能確定這就是使用者所見原因。Dashboard、題庫及作答頁現引用同一內容雜湊版本 `77c77caaa4f1`，避免重用舊未加版本的樣式網址。題目、數據、圖像、答案、ID及學生記錄均無變動。
+Status LOG-20261023-TABLE-CACHE: 本地及正式站驗收完成。正式站原有修正已存在，但未加版本的 math.css 回應容許快取600秒；不能確定這就是使用者所見原因。Dashboard、題庫及作答頁現引用同一內容雜湊版本 `77c77caaa4f1`，避免重用舊未加版本的樣式網址。題目、數據、圖像、答案、ID及學生記錄均無變動。
 
-Actual local validation: all44 statistics table questions at320/390/768/1440px,176 views and400 bilingual table blocks pass complete header/data borders, left alignment, source row/column counts, mobile horizontal scroll, EN/ZH, preview and result review. All three entry pages reference the actual CSS hash. Actual r39a quantity/frequency screenshot visually inspected. Build consistency and diff whitespace checks pass. [Scoped evidence](qa/2026-10-23/statistics-style-version/README.md). Prior B7 and table release evidence remains historical, not evidence for a later deployment.
+Actual local validation: all44 statistics table questions at320/390/768/1440px,176 views and400 bilingual table blocks pass complete header/data borders, left alignment, source row/column counts, mobile horizontal scroll, EN/ZH, preview and result review. All three entry pages reference the actual CSS hash. Actual r39a quantity/frequency screenshot visually inspected. Build consistency and diff whitespace checks pass. [Scoped evidence](qa/2026-10-23/statistics-style-version/README.md). Prior B7 and table release evidence remains historical, not evidence for a later deployment. Release `b449ef482e6c180f28a3d7002040ce7bb3835d0c`: Actions39961903969 and Pages39961943986 both succeeded. Three deployed entry HTML files and CSS match local SHA256. All176 live table views, three entry-page versions and the complete live study-journey pass. Local890 Node checks pass. The actual live r39a quantity/frequency screenshot has been visually inspected; scoped evidence includes live reports, file hashes and journey logs.
 
 ## Statistics table outlines and alignment — 23 October 2026
 

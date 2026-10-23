@@ -1,0 +1,34 @@
+{
+  "testedAt": "2026-10-23T13:32:40.571Z",
+  "release": "b449ef482e6c180f28a3d7002040ce7bb3835d0c",
+  "files": [
+    {
+      "file": "app.html",
+      "status": 200,
+      "localSha256": "5d2f3b681a4cffc2590e9ee5a667c1064c0be22afe424e86b22f8fa1364aedf3",
+      "liveSha256": "5d2f3b681a4cffc2590e9ee5a667c1064c0be22afe424e86b22f8fa1364aedf3",
+      "cacheControl": "max-age=600"
+    },
+    {
+      "file": "library.html",
+      "status": 200,
+      "localSha256": "b02eb834e04d9cf14e251b447e149e856adae691999213c65b26eb0beff925d4",
+      "liveSha256": "b02eb834e04d9cf14e251b447e149e856adae691999213c65b26eb0beff925d4",
+      "cacheControl": "max-age=600"
+    },
+    {
+      "file": "dashboard.html",
+      "status": 200,
+      "localSha256": "b1cbbdb40846e330579cea9e3277f1318b3bc7b09a79f139693b75696cc70598",
+      "liveSha256": "b1cbbdb40846e330579cea9e3277f1318b3bc7b09a79f139693b75696cc70598",
+      "cacheControl": "max-age=600"
+    },
+    {
+      "file": "css/math.css",
+      "status": 200,
+      "localSha256": "77c77caaa4f18d66eb37d162ac92ff326c06ace9f98944ecfc2ad3e6be137058",
+      "liveSha256": "77c77caaa4f18d66eb37d162ac92ff326c06ace9f98944ecfc2ad3e6be137058",
+      "cacheControl": "max-age=600"
+    }
+  ]
+}
