@@ -148,13 +148,20 @@
       "sourceRow": 33,
       "sourceId": "Q216",
       "reasons": [
-        "unbalanced-math-solutionZh",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Not merely a delimiter: final V is underdetermined. Circumcentre on AU does not imply AU is the perpendicular bisector of VT. Infinitely many candidate V; supplied 2A-T arithmetic also wrong. Needs corrected final condition.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Not merely a delimiter: final V is underdetermined. Circumcentre on AU does not imply AU is the perpendicular bisector of VT. Infinitely many candidate V; supplied 2A-T arithmetic also wrong. Needs corrected final condition.",
+        "reasons": [
+          "unbalanced-math-solutionZh",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-four-centres-q232",
@@ -198,13 +205,20 @@
       "sourceRow": 72,
       "sourceId": "Q231",
       "reasons": [
-        "unbalanced-math-solutionZh",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Requested final HI comparison truncated in both languages; cannot restore the comparison target without original source.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Requested final HI comparison truncated in both languages; cannot restore the comparison target without original source.",
+        "reasons": [
+          "unbalanced-math-solutionZh",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-four-centres-q238",
@@ -213,12 +227,19 @@
       "sourceRow": 104,
       "sourceId": "Q238",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Without the original orientation, the text permits mirror configurations S=(30,10) and S=(-30,10). Solution assumes positive-x OQ and B left of C. Need source diagram to select the intended one.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Without the original orientation, the text permits mirror configurations S=(30,10) and S=(-30,10). Solution assumes positive-x OQ and B left of C. Need source diagram to select the intended one.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m001",
@@ -227,12 +248,19 @@
       "sourceRow": 1,
       "sourceId": "MENS-M001",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Arc lengths alone do not ensure equal central angles: O,A,C and O,B,D collinear ordering is in the absent diagram, not the words. The source answer assumes a common angle.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Arc lengths alone do not ensure equal central angles: O,A,C and O,B,D collinear ordering is in the absent diagram, not the words. The source answer assumes a common angle.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m002",
@@ -295,12 +323,19 @@
       "sourceRow": 5,
       "sourceId": "MENS-M005",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Statements I–III are absent from both stems. Even with ring-sector dimensions there is no proposition to select; need original statements, not just a drawing.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Statements I–III are absent from both stems. Even with ring-sector dimensions there is no proposition to select; need original statements, not just a drawing.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m007",
@@ -336,12 +371,19 @@
       "sourceRow": 15,
       "sourceId": "MENS-M015",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "EN asks shaded area with CG=10; ZH asks BD with GF=10. Units/options are area and solution introduces unsupported symmetry. Needs same-question original.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "EN asks shaded area with CG=10; ZH asks BD with GF=10. Units/options are area and solution introduces unsupported symmetry. Needs same-question original.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m022",
@@ -350,12 +392,19 @@
       "sourceRow": 22,
       "sourceId": "MENS-M022",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Sector and semicircle dimensions determine areas, but the shaded target region is not identified in the text. Need exact source shading.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Sector and semicircle dimensions determine areas, but the shaded target region is not identified in the text. Need exact source shading.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m025",
@@ -364,12 +413,19 @@
       "sourceRow": 25,
       "sourceId": "MENS-M025",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Volume alone does not determine a cuboid surface area. Missing diagram must supply dimensions/aspect ratios.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Volume alone does not determine a cuboid surface area. Missing diagram must supply dimensions/aspect ratios.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m029",
@@ -378,12 +434,19 @@
       "sourceRow": 29,
       "sourceId": "MENS-M029",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Rectangle/arc/intersection givens can determine labelled points, but not which region is shaded. Need exact source shading.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Rectangle/arc/intersection givens can determine labelled points, but not which region is shaded. Need exact source shading.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m036",
@@ -392,12 +455,19 @@
       "sourceRow": 36,
       "sourceId": "MENS-M036",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Quarter-sector and midpoint are specified, but boundaries of the requested shaded region are absent.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Quarter-sector and midpoint are specified, but boundaries of the requested shaded region are absent.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m037",
@@ -406,12 +476,19 @@
       "sourceRow": 37,
       "sourceId": "MENS-M037",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Same missing shaded-region boundary issue as M036; cannot publish either diagram-dependent row without its visual.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Same missing shaded-region boundary issue as M036; cannot publish either diagram-dependent row without its visual.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m039",
@@ -420,12 +497,19 @@
       "sourceRow": 39,
       "sourceId": "MENS-M039",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Arc/rectangle dimensions are complete, but multiple complementary regions fit the undefined shaded target.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Arc/rectangle dimensions are complete, but multiple complementary regions fit the undefined shaded target.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m047",
@@ -434,12 +518,19 @@
       "sourceRow": 47,
       "sourceId": "MENS-M047",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "The relative placement of the two sector centres and the shaded overlap/complement are not specified.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "The relative placement of the two sector centres and the shaded overlap/complement are not specified.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m050",
@@ -448,12 +539,19 @@
       "sourceRow": 50,
       "sourceId": "MENS-M050",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "BD=4 gives two possible foot positions on diameter AC=16. The diagram must identify the intended side and BCD curved boundary.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "BD=4 gives two possible foot positions on diameter AC=16. The diagram must identify the intended side and BCD curved boundary.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m058",
@@ -462,12 +560,19 @@
       "sourceRow": 58,
       "sourceId": "MENS-M058",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Chord data may determine the radius but do not identify which sector/chord region is shaded.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Chord data may determine the radius but do not identify which sector/chord region is shaded.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m060",
@@ -476,12 +581,19 @@
       "sourceRow": 60,
       "sourceId": "MENS-M060",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Square, quarter-sector and side midpoints are given, but requested shaded boundaries are absent.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Square, quarter-sector and side midpoints are given, but requested shaded boundaries are absent.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-m064",
@@ -490,12 +602,13 @@
       "sourceRow": 64,
       "sourceId": "MENS-M064",
       "reasons": [
-        "missing-same-question-visual"
+        "confirmed-identical-question"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Quarter-sector midpoint wording differs between chord/arc and no shaded boundaries are described. Need original same-question visual.",
-      "overrides": {}
+      "decision": "duplicate",
+      "assessment": "2026-10-23: full source and canonical question compared; identical givens and required answer. Both source references retained on the surviving question. Retired IDs resolve to the stable canonical ID.",
+      "overrides": {},
+      "duplicateOf": "import-mensuration-mens-m036"
     },
     {
       "id": "import-mensuration-mens-m071",
@@ -618,12 +731,19 @@
       "sourceRow": 1,
       "sourceId": "MENS-L001",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Prism label DE=10 needs the original edge assignment: standard ABCD/EFGH labelling does not make DE the perpendicular prism length. Source solution assumes it is the length.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Prism label DE=10 needs the original edge assignment: standard ABCD/EFGH labelling does not make DE the perpendicular prism length. Source solution assumes it is the length.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-l004",
@@ -653,12 +773,19 @@
       "sourceRow": 7,
       "sourceId": "MENS-L007",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Cone immersion depth depends on which end is down and how its base touches the hemisphere. This placement exists only in the missing figure.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Cone immersion depth depends on which end is down and how its base touches the hemisphere. This placement exists only in the missing figure.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-l008",
@@ -709,12 +836,19 @@
       "sourceRow": 15,
       "sourceId": "MENS-L015",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Source solution assumes exactly half the sphere displaces water, requiring the sphere centre at the rim. Placement/contact must be confirmed from the source diagram.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Source solution assumes exactly half the sphere displaces water, requiring the sphere centre at the rim. Placement/contact must be confirmed from the source diagram.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-l019",
@@ -786,12 +920,19 @@
       "sourceRow": 28,
       "sourceId": "MENS-L028",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Heights I/II/III are stated but their ordering from apex to base is shown only in the missing figure. Source solution places I next to the base; cannot guess that ordering.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Heights I/II/III are stated but their ordering from apex to base is shown only in the missing figure. Source solution places I next to the base; cannot guess that ordering.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-l030",
@@ -821,12 +962,19 @@
       "sourceRow": 32,
       "sourceId": "MENS-L032",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Source only gives a final percentage for (a)(ii)/(b), without complete wet-area derivation; initial cone orientation is referenced through the missing figure. Needs a verified diagram/complete solution.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Source only gives a final percentage for (a)(ii)/(b), without complete wet-area derivation; initial cone orientation is referenced through the missing figure. Needs a verified diagram/complete solution.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-l034",
@@ -835,12 +983,19 @@
       "sourceRow": 34,
       "sourceId": "MENS-L034",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Sector radius alone does not determine cone height; sector angle missing and final part (c) empty.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Sector radius alone does not determine cone height; sector angle missing and final part (c) empty.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-l039",
@@ -913,12 +1068,19 @@
       "sourceRow": 82,
       "sourceId": "MENS-L082",
       "reasons": [
-        "missing-same-question-visual"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Cone resting position in the bowl is needed to determine wet area; source solution stops at a Pythagoras hint and is incomplete.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Cone resting position in the bowl is needed to determine wet area; source solution stops at a Pythagoras hint and is incomplete.",
+        "reasons": [
+          "missing-same-question-visual"
+        ]
+      }
     },
     {
       "id": "import-mensuration-mens-l091",
@@ -1671,13 +1833,20 @@
       "sourceRow": 118,
       "sourceId": null,
       "reasons": [
-        "invalid-answer",
-        "source-reports-invalid-question-or-options"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Statement I lacks its compared object. Cannot determine requested truth combination from source.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Statement I lacks its compared object. Cannot determine requested truth combination from source.",
+        "reasons": [
+          "invalid-answer",
+          "source-reports-invalid-question-or-options"
+        ]
+      }
     },
     {
       "id": "import-locus-c3bfb9a8feddc782",
@@ -1757,14 +1926,21 @@
       "sourceRow": 140,
       "sourceId": null,
       "reasons": [
-        "missing-options",
-        "missing-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Chinese question truncates at a and English/choices are absent; required area/line data only implied by solution, not verified givens.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Chinese question truncates at a and English/choices are absent; required area/line data only implied by solution, not verified givens.",
+        "reasons": [
+          "missing-options",
+          "missing-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-locus-b543bd48bfdd04e5",
@@ -1907,14 +2083,21 @@
       "sourceRow": 150,
       "sourceId": null,
       "reasons": [
-        "invalid-answer",
-        "missing-options",
-        "missing-stem"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Does not exclude origin endpoints or coincident OA/OB. No choices or English. Original requested answer is undefined for permitted cases.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Does not exclude origin endpoints or coincident OA/OB. No choices or English. Original requested answer is undefined for permitted cases.",
+        "reasons": [
+          "invalid-answer",
+          "missing-options",
+          "missing-stem"
+        ]
+      }
     },
     {
       "id": "import-locus-a7fb257cec5d1471",
@@ -2087,13 +2270,20 @@
       "sourceRow": 6,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Final claimed angle comparison is truncated in both languages. Numeric angle can be computed, but original claim cannot be recovered.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Final claimed angle comparison is truncated in both languages. Numeric angle can be computed, but original claim cannot be recovered.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-locus-542ce5cd458a43a3",
@@ -2102,13 +2292,20 @@
       "sourceRow": 10,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both languages truncate at intercept ordering; subsequent requested geometry is missing. Worked solution cannot substitute for source question.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both languages truncate at intercept ordering; subsequent requested geometry is missing. Worked solution cannot substitute for source question.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-locus-6afa4ee969876226",
@@ -2117,13 +2314,20 @@
       "sourceRow": 19,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Final claimed angle bound is missing in both languages. Earlier parts work, but cannot publish as a complete original question.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Final claimed angle bound is missing in both languages. Earlier parts work, but cannot publish as a complete original question.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-locus-904b6ba3bcc112ac",
@@ -2132,13 +2336,20 @@
       "sourceRow": 43,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Question truncates near the first inequality, with most conditions and subparts missing.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Question truncates near the first inequality, with most conditions and subparts missing.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-afe7b65068c2238c",
@@ -2147,13 +2358,20 @@
       "sourceRow": 1,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-d40ef3fd862cf545",
@@ -2162,13 +2380,20 @@
       "sourceRow": 3,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-08b5a8a6b79c4c8b",
@@ -2177,13 +2402,20 @@
       "sourceRow": 6,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-17b23d5e1e34e7b3",
@@ -2192,13 +2424,20 @@
       "sourceRow": 7,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-216ff9f404168657",
@@ -2207,13 +2446,20 @@
       "sourceRow": 8,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-91db2df506d63f63",
@@ -2222,13 +2468,20 @@
       "sourceRow": 10,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-2f1a1362df253538",
@@ -2237,13 +2490,20 @@
       "sourceRow": 11,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-9be205c1a0cd44bf",
@@ -2252,13 +2512,13 @@
       "sourceRow": 12,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "confirmed-identical-question"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "duplicate",
+      "assessment": "2026-10-23: full source and canonical question compared; identical givens and required answer. Both source references retained on the surviving question. Retired IDs resolve to the stable canonical ID.",
+      "overrides": {},
+      "duplicateOf": "import-sequences-d40ef3fd862cf545"
     },
     {
       "id": "import-sequences-6373300e88ef51c2",
@@ -2267,13 +2527,20 @@
       "sourceRow": 14,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-61216e35f87b68c3",
@@ -2282,13 +2549,20 @@
       "sourceRow": 15,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-a5f51549508b07b4",
@@ -2297,13 +2571,20 @@
       "sourceRow": 18,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     },
     {
       "id": "import-sequences-433aead6f0aea9a0",
@@ -2312,13 +2593,20 @@
       "sourceRow": 21,
       "sourceId": null,
       "reasons": [
-        "unbalanced-math-stem",
-        "unbalanced-math-stemZh"
+        "matching-new-source-recovery"
       ],
       "reviewedAt": "2026-10-22",
-      "decision": "hold",
-      "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
-      "overrides": {}
+      "decision": "recover",
+      "assessment": "2026-10-23: matching full source and original figure revisited; original website ID retained, formula/answer repaired and diagram reconstructed where required. See the per-record expansion or mensuration audit for the exact source and derivation.",
+      "overrides": {},
+      "previousAssessment": {
+        "decision": "hold",
+        "assessment": "Both source languages lose a bound/inequality or domain. The solution suggests a value, but does not verify the missing original given. Keep original held rather than fabricate it.",
+        "reasons": [
+          "unbalanced-math-stem",
+          "unbalanced-math-stemZh"
+        ]
+      }
     }
   ]
 }

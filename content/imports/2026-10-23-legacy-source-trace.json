@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "import-mensuration-mens-m001",
+    "sourceRow": 1,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ01",
+      "stem": "In the figure, \\(OAB\\) and \\(OCD\\) are sectors with centre \\(O\\). If \\(\\widehat{AB}=12\\pi\\text{ cm}\\), \\(\\widehat{CD}=16\\pi\\text{ cm}\\) and \\(OA=30\\text{ cm}\\), then \\(AC=\\)",
+      "stemZh": "圖中，\\(OAB\\) 及 \\(OCD\\) 為以 \\(O\\) 為圓心的扇形。若 \\(\\widehat{AB}=12\\pi\\text{ cm}\\)、\\(\\widehat{CD}=16\\pi\\text{ cm}\\) 及 \\(OA=30\\text{ cm}\\)，則 \\(AC=\\)",
+      "options": [
+        "\\(5\\text{ cm}\\)",
+        "\\(10\\text{ cm}\\)",
+        "\\(20\\text{ cm}\\)",
+        "\\(40\\text{ cm}\\)"
+      ],
+      "optionsZh": [
+        "\\(5\\text{ cm}\\)",
+        "\\(10\\text{ cm}\\)",
+        "\\(20\\text{ cm}\\)",
+        "\\(40\\text{ cm}\\)"
+      ],
+      "answer": 1,
+      "solution": "Q1. The sectors share the same central angle, so arc lengths are proportional to radii: \\(OC/OA=16\\pi/(12\\pi)=4/3\\). Thus \\(OC=30(4/3)=40\\) cm and \\(AC=OC-OA=40-30=10\\) cm. Answer B. The outer radius \\(40\\) cm is not the required difference.",
+      "solutionZh": "兩扇形共享同一圓心角，故弧長與半徑成正比：\\(OC/OA=16\\pi/(12\\pi)=4/3\\)。因此 \\(OC=30(4/3)=40\\) cm，\\(AC=OC-OA=40-30=10\\) cm。答案 B。外半徑 \\(40\\) cm 並非所求差。",
+      "id": "MENS-M001",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 1",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.7303,
+        "locator": "q-MCQ02",
+        "text": "16. In the figure, \\(OAB\\) and \\(OCD\\) are sectors with centre \\(O\\). If \\(\\widehat{AB}=12\\pi\\text{ cm}\\), \\(\\widehat{CD}=16\\pi\\text{ cm}\\) and \\(OA=30\\text{ cm}\\), then \\(AC=\\)dse-hkeaa-2012-p2-final-q16 Source diagram — precise cropA) \\(5\\text{ cm}\\)\nB) \\(10\\text{ cm}\\)\nC) \\(20\\text{ cm}\\)\nD) \\(40\\text{ cm}\\)",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/precise_crops/dse-hkeaa-2012-p2-final-q16__precise-question.png"
+        ]
+      },
+      {
+        "similarity": 0.3134,
+        "locator": "q-MCQ61",
+        "text": "18. The figure shows a right prism. Find the volume of the prism.dse-hkeaa-2016-p2-final-q18 Source evidence — crop review pendingA) \\(216\\text{ cm}^3\\)\nB) \\(240\\text{ cm}^3\\)\nC) \\(300\\text{ cm}^3\\)\nD) \\(328\\text{ cm}^3\\)",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/dse-hkeaa-2016-p2-final-q18-source-visual.png"
+        ]
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m005",
+    "sourceRow": 5,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ02",
+      "stem": "In the figure, \\(OAB\\) and \\(OCD\\) are sectors with centre \\(O\\), where \\(OA=33\\text{ cm}\\) and \\(OC=39\\text{ cm}\\). The area of the shaded region \\(ABDC\\) is \\(72\\pi\\text{ cm}^2\\). Which of the following is/are true?",
+      "stemZh": "圖中，\\(OAB\\) 及 \\(OCD\\) 為以 \\(O\\) 為圓心的扇形，其中 \\(OA=33\\text{ cm}\\) 及 \\(OC=39\\text{ cm}\\)。陰影區域 \\(ABDC\\) 的面積為 \\(72\\pi\\text{ cm}^2\\)。下列哪項必為正確？",
+      "options": [
+        "\\(I only\\)",
+        "\\(III only\\)",
+        "\\(I and III only\\)",
+        "\\(II and III only\\)"
+      ],
+      "optionsZh": [
+        "只有 I",
+        "II只有 I",
+        "I and II只有 I",
+        "II and II只有 I"
+      ],
+      "answer": 3,
+      "solution": "Check against the options: A.",
+      "solutionZh": "陰影面積 \\(=\\frac{\\theta}{360^\\circ}\\pi(39^2-33^2)=\\frac{\\theta}{360^\\circ}\\pi(432)=72\\pi\\)，得 \\(\\theta=60^\\circ\\)。扇形 \\(OAB\\) 面積 \\(=\\frac{60}{360}\\pi(33)^2=181.5\\pi\\)。扇形 \\(OCD\\) 面積 \\(=\\frac{60}{360}\\pi(39)^2=253.5\\pi\\)。兩者相差 \\(72\\pi\\)，符合已知。",
+      "id": "MENS-M005",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 5",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.5676,
+        "locator": "q-MCQ03",
+        "text": "19. In the figure, \\(OAB\\) and \\(OCD\\) are sectors with centre \\(O\\), where \\(OA=33\\text{ cm}\\) and \\(OC=39\\text{ cm}\\). The area of the shaded region \\(ABDC\\) is \\(72\\pi\\text{ cm}^2\\). Which of the following is/are true?I. The angle of the sector \\(OAB\\) is \\(60^\\circ\\). II. The area of the sector \\(OAB\\) is \\(11\\pi\\text{ cm}^2\\). III. The perimeter of the sector \\(OCD\\) is \\(13\\pi\\text{ cm}\\).\ndse-hkeaa-2016-p2-final-q19 Source evidence — crop review pendingA) I only\nB) III only\nC) I and III only\nD) II and III only",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/dse-hkeaa-2016-p2-final-q19-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4875,
+        "locator": "q-MCQ02",
+        "text": "16. In the figure, \\(OAB\\) and \\(OCD\\) are sectors with centre \\(O\\). If \\(\\widehat{AB}=12\\pi\\text{ cm}\\), \\(\\widehat{CD}=16\\pi\\text{ cm}\\) and \\(OA=30\\text{ cm}\\), then \\(AC=\\)dse-hkeaa-2012-p2-final-q16 Source diagram — precise cropA) \\(5\\text{ cm}\\)\nB) \\(10\\text{ cm}\\)\nC) \\(20\\text{ cm}\\)\nD) \\(40\\text{ cm}\\)",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/precise_crops/dse-hkeaa-2012-p2-final-q16__precise-question.png"
+        ]
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m015",
+    "sourceRow": 15,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ04",
+      "stem": "In the figure, \\(AC\\) is a diameter of the circle \\(ABCD\\) while \\(BD\\) and \\(EF\\) are diameters of the circle \\(BEDF\\). It is given that \\(C\\) and \\(E\\) lie on \\(AF\\). Let \\(G\\) be the point of intersection of \\(AF\\) and \\(BD\\). If \\(AG=30\\) cm and \\(CG=10\\) cm, find the area of the shaded region correct to the nearest cm\\(^2\\).",
+      "stemZh": "圖中，\\(AC\\) 為圓 \\(ABCD\\) 的一條直徑，而 \\(BD\\) 及 \\(EF\\) 為圓 \\(BEDF\\) 的直徑。已知 \\(C\\) 及 \\(E\\) 在 \\(AF\\) 上。設 \\(G\\) 為 \\(AF\\) 與 \\(BD\\) 的交點。若 \\(AG=30\\) cm 及 \\(GF=10\\) cm，求 \\(BD\\)。",
+      "options": [
+        "\\(209\\text{ cm}^2\\)",
+        "\\(367\\text{ cm}^2\\)",
+        "\\(383\\text{ cm}^2\\)",
+        "\\(540\\text{ cm}^2\\)"
+      ],
+      "optionsZh": [
+        "\\(209\\text{ cm}^2\\)",
+        "\\(367\\text{ cm}^2\\)",
+        "\\(383\\text{ cm}^2\\)",
+        "\\(540\\text{ cm}^2\\)"
+      ],
+      "answer": 1,
+      "solution": "Check against the options: D.",
+      "solutionZh": "利用圓冪定理：\\(AG\\cdot GF=BG\\cdot GD\\)。已知 \\(AG=30\\)、\\(GF=10\\)，\\(BG\\cdot GD=300\\)。因 \\(BD\\) 為直徑且 \\(G\\) 為中點（正方形對稱性），\\(BG=GD=\\sqrt{300}\\)，\\(BD=2\\sqrt{300}\\approx34.6\\)。",
+      "id": "MENS-M015",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 15",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.8364,
+        "locator": "q-MCQ05",
+        "text": "16. In the figure, \\(AC\\) is a diameter of the circle \\(ABCD\\) while \\(BD\\) and \\(EF\\) are diameters of the circle \\(BEDF\\). It is given that \\(C\\) and \\(E\\) lie on \\(AF\\). Let \\(G\\) be the point of intersection of \\(AF\\) and \\(BD\\). If \\(AG=30\\) cm and \\(CG=10\\) cm, find the area of the shaded region correct to the nearest cm\\(^2\\).dse-hkeaa-2023-p2-final-q16 Source evidence — crop review pendingA) \\(209\\text{ cm}^2\\)\nB) \\(367\\text{ cm}^2\\)\nC) \\(383\\text{ cm}^2\\)\nD) \\(540\\text{ cm}^2\\)",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/dse-hkeaa-2023-p2-final-q16-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4562,
+        "locator": "q-MCQ04",
+        "text": "16. The diameter of a circle is 10 cm. The circle is divided into a major segment and a minor segment by a chord of length 8 cm. Find the area of the major segment correct to the nearest \\(\\text{cm}^2\\).A) \\(11\\text{ cm}^2\\)\nB) \\(23\\text{ cm}^2\\)\nC) \\(55\\text{ cm}^2\\)\nD) \\(67\\text{ cm}^2\\)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m022",
+    "sourceRow": 22,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ06",
+      "stem": "In the figure, \\(A\\) is the centre of the sector \\(ABC\\). \\(D\\) is a point lying on \\(AC\\) such that \\(ADB\\) is a semi-circle. If \\(AB=20\\text{ cm}\\) and \\(AD:DC=4:1\\), find the area of the shaded region correct to the nearest \\(0.1\\text{ cm}^2\\).",
+      "stemZh": "圖中，\\(A\\) 為扇形 \\(ABC\\) 的圓心。\\(D\\) 為 \\(AC\\) 上的一點，使 \\(ADB\\) 為半圓。若 \\(AB=20\\text{ cm}\\) 及 \\(AD:DC=4:1\\)，求陰影區域的面積，準確至最接近的 \\(0.1\\text{ cm}^2\\)。",
+      "options": [
+        "\\(16.1\\text{ cm}^2\\)",
+        "\\(16.2\\text{ cm}^2\\)",
+        "\\(16.3\\text{ cm}^2\\)",
+        "\\(16.4\\text{ cm}^2\\)"
+      ],
+      "optionsZh": [
+        "\\(16.1\\text{ cm}^2\\)",
+        "\\(16.2\\text{ cm}^2\\)",
+        "\\(16.3\\text{ cm}^2\\)",
+        "\\(16.4\\text{ cm}^2\\)"
+      ],
+      "answer": 0,
+      "solution": "Check against the options: D.",
+      "solutionZh": "\\(AD:DC=4:1\\) 且 \\(AC=AB=20\\)，得 \\(AD=16\\)。半圓半徑 \\(=8\\) cm，面積 \\(=32\\pi\\) cm²。扇形 \\(ABC\\) 面積減去半圓面積即為陰影面積，計算得約 \\(16.1\\) cm²。答案 A。",
+      "id": "MENS-M022",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 22",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.781,
+        "locator": "q-MCQ09",
+        "text": "16. In the figure, \\(A\\) is the centre of the sector \\(ABC\\). \\(D\\) is a point lying on \\(AC\\) such that \\(ADB\\) is a semi-circle. If \\(AB=20\\text{ cm}\\) and \\(AD:DC=4:1\\), find the area of the shaded region correct to the nearest \\(0.1\\text{ cm}^2\\). A. \\(16.1\\text{ cm}^2\\) B. \\(16.2\\text{ cm}^2\\) C. \\(16.3\\text{ cm}^2\\) D. \\(16.4\\text{ cm}^2\\)mock-aspire-2526-p2-final-q16 Source evidence — crop review pending",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-aspire-2526-p2-final-q16-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4384,
+        "locator": "q-MCQ45",
+        "text": "If the curved surface area and the total surface area of a solid right circular cylinder are 81 cm^2 and 121 cm^2 respectively, find the volume of the circular cylinder correct to the nearest cm^3.A) 84 cm^3\nB) 102 cm^3\nC) 145 cm^3\nD) 251 cm^3",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m025",
+    "sourceRow": 25,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ07",
+      "stem": "The figure shows a cuboid \\(ABCDEFGH\\) of volume \\(2400\\text{ cm}^3\\). Find the total surface area of the cuboid.",
+      "stemZh": "圖中所示為一個體積 \\(2400\\text{ cm}^3\\) 的長方體 \\(ABCDEFGH\\)。求長方體的總表面積。",
+      "options": [
+        "\\(560\\text{ cm}^2\\)",
+        "\\(680\\text{ cm}^2\\)",
+        "\\(1000\\text{ cm}^2\\)",
+        "\\(1120\\text{ cm}^2\\)"
+      ],
+      "optionsZh": [
+        "\\(560\\text{ cm}^2\\)",
+        "\\(680\\text{ cm}^2\\)",
+        "\\(1000\\text{ cm}^2\\)",
+        "\\(1120\\text{ cm}^2\\)"
+      ],
+      "answer": 2,
+      "solution": "Check against the options: D.",
+      "solutionZh": "長方體體積 \\(=長\\times闊\\times高=2400\\)。從圖中讀出三個邊長，代入 \\(S=2(lw+wh+hl)\\) 計算總表面積。答案 C。",
+      "id": "MENS-M025",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 25",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.6446,
+        "locator": "q-MCQ34",
+        "text": "18. The figure shows a cuboid \\(ABCDEFGH\\) of volume \\(2400\\text{ cm}^3\\). Find the total surface area of the cuboid. A. \\(560\\text{ cm}^2\\) B. \\(680\\text{ cm}^2\\) C. \\(1000\\text{ cm}^2\\) D. \\(1120\\text{ cm}^2\\)mock-canossa-2526-p2-final-q18 Source evidence — crop review pending",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-canossa-2526-p2-final-q18-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4534,
+        "locator": "q-MCQ27",
+        "text": "15. The base of a solid right prism is a regular 6-sided polygon of side 8 cm. If the volume of the prism is \\(288\\text{ cm}^3\\), find the total surface area of the prism correct to the nearest \\(\\text{cm}^2\\).A) \\(166\\text{ cm}^2\\)\nB) \\(249\\text{ cm}^2\\)\nC) \\(416\\text{ cm}^2\\)\nD) \\(748\\text{ cm}^2\\)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m029",
+    "sourceRow": 29,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ08",
+      "stem": "In the figure, \\(OABC\\) is a rectangle, where \\(AB=32\\text{ cm}\\) and \\(BC=24\\text{ cm}\\). \\(OCD\\) is a straight line and \\(BED\\) is an arc with centre \\(O\\). \\(F\\) is a point on \\(BC\\) such that \\(BC\\perp EF\\). If \\(BF:FC=1:5\\), find the area of the sector \\(ODE\\), correct to the nearest \\(\\text{cm}^2\\).",
+      "stemZh": "圖中，\\(OABC\\) 為一長方形，其中 \\(AB=32\\text{ cm}\\) 及 \\(BC=24\\text{ cm}\\)。\\(OCD\\) 為一直線，\\(BED\\) 為以 \\(O\\) 為圓心的弧。\\(F\\) 為 \\(BC\\) 上的一點，使 \\(BC\\perp EF\\)。若 \\(BF:FC=1:5\\)，求陰影區域的面積。",
+      "options": [
+        "\\(419\\text{ cm}^2\\)",
+        "\\(515\\text{ cm}^2\\)",
+        "\\(628\\text{ cm}^2\\)",
+        "\\(834\\text{ cm}^2\\)"
+      ],
+      "optionsZh": [
+        "\\(419\\text{ cm}^2\\)",
+        "\\(515\\text{ cm}^2\\)",
+        "\\(628\\text{ cm}^2\\)",
+        "\\(834\\text{ cm}^2\\)"
+      ],
+      "answer": 3,
+      "solution": "Check against the options: A.",
+      "solutionZh": "長方形對角線 \\(OB=\\sqrt{32^2+24^2}=40\\) cm。扇形半徑 \\(40\\) cm，心角 \\(=2\\tan^{-1}(24/32)\\approx73.74^\\circ\\)。陰影面積 \\(=\\)扇形面積減去長方形及三角形面積，計算得約 \\(834\\) cm²。答案 D。",
+      "id": "MENS-M029",
+      "school": "Chester",
+      "hintZh": "運用扇形弧長公式 \\(l=r\\theta\\) 同埋扇形面積公式 \\(A=\\frac{1}{2}r^2\\theta\\)。",
+      "hint": "Use arc length \\(l=r\\theta\\) and sector area \\(A=\\frac{1}{2}r^2\\theta\\).",
+      "source": "Mensuration MC 29",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.8065,
+        "locator": "q-MCQ10",
+        "text": "19. In the figure, \\(OABC\\) is a rectangle, where \\(AB=32\\text{ cm}\\) and \\(BC=24\\text{ cm}\\). \\(OCD\\) is a straight line and \\(BED\\) is an arc with centre \\(O\\). \\(F\\) is a point on \\(BC\\) such that \\(BC\\perp EF\\). If \\(BF:FC=1:5\\), find the area of the sector \\(ODE\\), correct to the nearest \\(\\text{cm}^2\\). A. \\(419\\text{ cm}^2\\) B. \\(515\\text{ cm}^2\\) C. \\(628\\text{ cm}^2\\) D. \\(834\\text{ cm}^2\\)mock-ccchwc-2526-p2-final-q19 Source evidence — crop review pending",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-ccchwc-2526-p2-final-q19-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4469,
+        "locator": "q-MCQ45",
+        "text": "If the curved surface area and the total surface area of a solid right circular cylinder are 81 cm^2 and 121 cm^2 respectively, find the volume of the circular cylinder correct to the nearest cm^3.A) 84 cm^3\nB) 102 cm^3\nC) 145 cm^3\nD) 251 cm^3",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m036",
+    "sourceRow": 36,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ09",
+      "stem": "In the figure, \\(O\\) is the centre of the sector \\(OAB\\) and \\(\\angle AOB=90^\\circ\\). It is given that \\(C\\) is the mid-point of \\(OB\\) and \\(D\\) is a point lying on \\(\\widehat{AB}\\) such that \\(\\widehat{AD}=\\widehat{BD}\\). If the radius of the sector is 8 cm, find the area of the shaded region correct to the nearest \\(0.1\\text{ cm}^2\\).",
+      "stemZh": "圖中，\\(O\\) 為扇形 \\(OAB\\) 的圓心，\\(\\angle AOB=90^\\circ\\)。已知 \\(C\\) 為 \\(OB\\) 的中點，\\(D\\) 為 \\(\\widehat{AB}\\) 上的一點，使 \\(\\widehat{AD}=\\widehat{BD}\\)。若扇形的半徑為 \\(10\\text{ cm}\\)，求陰影區域的面積。",
+      "options": [
+        "\\(13.8\\text{ cm}^2\\)",
+        "\\(15.4\\text{ cm}^2\\)",
+        "\\(17.2\\text{ cm}^2\\)",
+        "\\(19.6\\text{ cm}^2\\)"
+      ],
+      "optionsZh": [
+        "\\(13.8\\text{ cm}^2\\)",
+        "\\(15.4\\text{ cm}^2\\)",
+        "\\(17.2\\text{ cm}^2\\)",
+        "\\(19.6\\text{ cm}^2\\)"
+      ],
+      "answer": 0,
+      "solution": "Check against the options: A.",
+      "solutionZh": "\\(C\\) 為 \\(OB\\) 中點，\\(D\\) 為弧中點。陰影面積 \\(=\\)扇形部分減去三角形面積。扇形 \\(OAD\\) 面積 \\(=\\frac{45}{360}\\pi(10)^2=12.5\\pi\\)。減去 \\\\(\\triangle OCD\\) 面積，得約 \\(13.8\\) cm²。答案 A。",
+      "id": "MENS-M036",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 36",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.8385,
+        "locator": "q-MCQ13",
+        "text": "17. In the figure, \\(O\\) is the centre of the sector \\(OAB\\) and \\(\\angle AOB=90^\\circ\\). It is given that \\(C\\) is the mid-point of \\(OB\\) and \\(D\\) is a point lying on \\(\\widehat{AB}\\) such that \\(\\widehat{AD}=\\widehat{BD}\\). If the radius of the sector is 8 cm, find the area of the shaded region correct to the nearest \\(0.1\\text{ cm}^2\\).mock-cmaskss-2526-p2-final-q17 Source evidence — crop review pendingA) \\(13.8\\text{ cm}^2\\)\nB) \\(15.4\\text{ cm}^2\\)\nC) \\(17.2\\text{ cm}^2\\)\nD) \\(19.6\\text{ cm}^2\\)",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-cmaskss-2526-p2-final-q17-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4432,
+        "locator": "q-MCQ08",
+        "text": "16. The perimeter and the area of a sector are \\(k\\) cm and \\(3k\\) cm\\(^2\\) respectively. If the radius of the sector is 14 cm, then the arc length of the sector isA) 19 cm.\nB) 21 cm.\nC) 28 cm.\nD) 49 cm.",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m037",
+    "sourceRow": 37,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ10",
+      "stem": "In the figure, \\(O\\) is the centre of the sector \\(OAB\\) and \\(\\angle AOB=90^\\circ\\). It is given that \\(C\\) is the mid-point of \\(OB\\) and \\(D\\) is a point on arc \\(AB\\) such that arc \\(AD=BD\\). If the radius of the sector is \\(10\\text{ cm}\\), find the area of the shaded region correct to the nearest \\(0.1\\text{ cm}^2\\).",
+      "stemZh": "圖中，\\(O\\) 為扇形 \\(OAB\\) 的圓心，\\(\\angle AOB=90^\\circ\\)。已知 \\(C\\) 為 \\(OB\\) 的中點，\\(D\\) 為弧 \\(AB\\) 上的一點，使弧 \\(AD=BD\\)。若扇形的半徑為 \\(10\\text{ cm}\\)，求陰影區域的面積。",
+      "options": [
+        "\\(20.5\\text{ cm}^2\\)",
+        "\\(21.6\\text{ cm}^2\\)",
+        "\\(26.8\\text{ cm}^2\\)",
+        "\\(30.7\\text{ cm}^2\\)"
+      ],
+      "optionsZh": [
+        "\\(20.5\\text{ cm}^2\\)",
+        "\\(21.6\\text{ cm}^2\\)",
+        "\\(26.8\\text{ cm}^2\\)",
+        "\\(30.7\\text{ cm}^2\\)"
+      ],
+      "answer": 0,
+      "solution": "Check against the options: B.",
+      "solutionZh": "與 M36 類似，陰影面積為扇形部分減去三角形面積。計算得約 \\(20.5\\) cm²。答案 A。",
+      "id": "MENS-M037",
+      "school": "Chester",
+      "hintZh": "運用扇形弧長公式 \\(l=r\\theta\\) 同埋扇形面積公式 \\(A=\\frac{1}{2}r^2\\theta\\)。",
+      "hint": "Use arc length \\(l=r\\theta\\) and sector area \\(A=\\frac{1}{2}r^2\\theta\\).",
+      "source": "Mensuration MC 37",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.8326,
+        "locator": "q-MCQ14",
+        "text": "18. In the figure, \\(O\\) is the centre of the sector \\(OAB\\) and \\(\\angle AOB=90^\\circ\\). It is given that \\(C\\) is the mid-point of \\(OB\\) and \\(D\\) is a point on arc \\(AB\\) such that arc \\(AD=BD\\). If the radius of the sector is \\(10\\text{ cm}\\), find the area of the shaded region correct to the nearest \\(0.1\\text{ cm}^2\\). A. \\(20.5\\text{ cm}^2\\) B. \\(21.6\\text{ cm}^2\\) C. \\(26.8\\text{ cm}^2\\) D. \\(30.7\\text{ cm}^2\\)mock-cms-2526-p2-final-q18 Source evidence — crop review pending",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-cms-2526-p2-final-q18-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.5349,
+        "locator": "q-MCQ13",
+        "text": "17. In the figure, \\(O\\) is the centre of the sector \\(OAB\\) and \\(\\angle AOB=90^\\circ\\). It is given that \\(C\\) is the mid-point of \\(OB\\) and \\(D\\) is a point lying on \\(\\widehat{AB}\\) such that \\(\\widehat{AD}=\\widehat{BD}\\). If the radius of the sector is 8 cm, find the area of the shaded region correct to the nearest \\(0.1\\text{ cm}^2\\).mock-cmaskss-2526-p2-final-q17 Source evidence — crop review pendingA) \\(13.8\\text{ cm}^2\\)\nB) \\(15.4\\text{ cm}^2\\)\nC) \\(17.2\\text{ cm}^2\\)\nD) \\(19.6\\text{ cm}^2\\)",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-cmaskss-2526-p2-final-q17-source-visual.png"
+        ]
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m039",
+    "sourceRow": 39,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ10",
+      "stem": "In the figure, \\(ABCD\\) is a rectangle with \\(AD=4\\text{ cm}\\) and \\(AB=9\\text{ cm}\\). An arc with radius \\(AB\\) and centre \\(B\\) is drawn to cut \\(CD\\) at \\(E\\). Find the area of the shaded region correct to 3 significant figures.",
+      "stemZh": "圖中，\\(ABCD\\) 為一長方形，\\(AD=4\\text{ cm}\\) 及 \\(AB=9\\text{ cm}\\)。以 \\(B\\) 為圓心、\\(AB\\) 為半徑作弧，交 \\(CD\\) 於 \\(E\\)。求陰影區域的面積，準確至三位有效數字。",
+      "options": [
+        "\\(0.652\\text{ cm}^2\\)",
+        "\\(1.22\\text{ cm}^2\\)",
+        "\\(1.35\\text{ cm}^2\\)",
+        "\\(1.88\\text{ cm}^2\\)"
+      ],
+      "optionsZh": [
+        "\\(0.652\\text{ cm}^2\\)",
+        "\\(1.22\\text{ cm}^2\\)",
+        "\\(1.35\\text{ cm}^2\\)",
+        "\\(1.88\\text{ cm}^2\\)"
+      ],
+      "answer": 1,
+      "solution": "Check against the options: B.",
+      "solutionZh": "\\(BE=BA=9\\)，\\(BC=4\\)，故 \\(EC=\\sqrt{81-16}=\\sqrt{65}\\approx8.06\\)。\\(\\angle EBC=\\sin^{-1}(4/9)\\approx26.39^\\circ\\)。陰影面積 \\(=\\frac{26.39}{360}\\pi(81)-\\frac12(\\sqrt{65})(4)\\approx1.22\\text{ cm}^2\\)。答案 B。",
+      "id": "MENS-M039",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 39",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.7742,
+        "locator": "q-MCQ15",
+        "text": "18. In the figure, \\(ABCD\\) is a rectangle with \\(AD=4\\text{ cm}\\) and \\(AB=9\\text{ cm}\\). An arc with radius \\(AB\\) and centre \\(B\\) is drawn to cut \\(CD\\) at \\(E\\). Find the area of the shaded region correct to 3 significant figures. A. \\(0.652\\text{ cm}^2\\) B. \\(1.22\\text{ cm}^2\\) C. \\(1.35\\text{ cm}^2\\) D. \\(1.88\\text{ cm}^2\\)mock-cneccc-2526-p2-final-q18 Source evidence — crop review pending",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-cneccc-2526-p2-final-q18-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.3631,
+        "locator": "q-MCQ04",
+        "text": "16. The diameter of a circle is 10 cm. The circle is divided into a major segment and a minor segment by a chord of length 8 cm. Find the area of the major segment correct to the nearest \\(\\text{cm}^2\\).A) \\(11\\text{ cm}^2\\)\nB) \\(23\\text{ cm}^2\\)\nC) \\(55\\text{ cm}^2\\)\nD) \\(67\\text{ cm}^2\\)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m047",
+    "sourceRow": 47,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ12",
+      "stem": "In the figure, A and B are the centres of the sectors APQ and BPQ respectively. If AP = 48 cm, BP = 25 cm and angle PAQ = 60 degrees, find the area of the shaded region correct to the nearest \\text{cm}^2.",
+      "stemZh": "圖中，\\(A\\) 及 \\(B\\) 分別為扇形 \\(APQ\\) 及扇形 \\(BPQ\\) 的圓心。若 \\(AP=48\\) cm、\\(BP=25\\) cm 及 \\(\\angle PAQ=60^\\circ\\)，求陰影區域的面積，準確至最接近的 \\(\\text{cm}^2\\)。",
+      "options": [
+        "\\(322 \\text{cm}^2\\)",
+        "\\(377 \\text{cm}^2\\)",
+        "\\(804 \\text{cm}^2\\)",
+        "\\(830 \\text{cm}^2\\)"
+      ],
+      "optionsZh": [
+        "322 \\text{cm}^2",
+        "377 \\text{cm}^2",
+        "804 \\text{cm}^2",
+        "830 \\text{cm}^2"
+      ],
+      "answer": 2,
+      "solution": "Check against the options: B.",
+      "solutionZh": "扇形 \\(APQ\\) 面積 \\(=\\frac{60}{360}\\pi(48)^2=384\\pi\\)。\\(PQ=48\\)（等邊三角形）。三角形 \\(BPQ\\) 中，\\(\\cos B=(25^2+25^2-48^2)/(2\\cdot25\\cdot25)\\approx-0.803\\)，\\(\\angle PBQ\\approx143.4^\\circ\\)。扇形 \\(BPQ\\approx783\\)。陰影 \\(=(384\\pi-998)+(783-187)\\approx804\\text{ cm}^2\\)。答案 C。",
+      "id": "MENS-M047",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 47",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.7766,
+        "locator": "q-MCQ16",
+        "text": "17. In the figure, A and B are the centres of the sectors APQ and BPQ respectively. If AP = 48 cm, BP = 25 cm and angle PAQ = 60 degrees, find the area of the shaded region correct to the nearest cm^2.mock-joint_us-2526-p2-final-q17 Source evidence — crop review pendingA) 322 cm^2\nB) 377 cm^2\nC) 804 cm^2\nD) 830 cm^2",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-joint_us-2526-p2-final-q17-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4669,
+        "locator": "q-L006",
+        "text": "The radius and area of a sector are \\(10\\) cm and \\(2\\pi\\text{ cm}^2\\) respectively.\n(a)Find the angle of the sector.\n(b)Find the perimeter of the sector.\n(4 marks)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m050",
+    "sourceRow": 50,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ13",
+      "stem": "In the figure, \\(AC\\) is the diameter of the semi-circle \\(ABC\\). \\(D\\) is a point on \\(AC\\) such that \\(BD\\) is perpendicular to \\(AC\\). If \\(AC=16\\) cm and \\(BD=4\\) cm, find the area of the shaded region \\(BCD\\) correct to the nearest \\(\\text{cm}^2\\).",
+      "stemZh": "圖中，\\(AC\\) 為半圓 \\(ABC\\) 的直徑。\\(D\\) 為 \\(AC\\) 上的一點，使 \\(BD\\perp AC\\)。若 \\(AC=16\\) cm 及 \\(BD=4\\) cm，求陰影區域 \\(BCD\\) 的面積，準確至最接近的 \\(\\text{cm}^2\\)。",
+      "options": [
+        "\\(67\\text{ cm}^2\\)",
+        "\\(81\\text{ cm}^2\\)",
+        "\\(84\\text{ cm}^2\\)",
+        "\\(98\\text{ cm}^2\\)"
+      ],
+      "optionsZh": [
+        "\\(67\\text{ cm}^2\\)",
+        "\\(81\\text{ cm}^2\\)",
+        "\\(84\\text{ cm}^2\\)",
+        "\\(98\\text{ cm}^2\\)"
+      ],
+      "answer": 0,
+      "solution": "Check against the options: D.",
+      "solutionZh": "\\(AD\\cdot DC=BD^2=16\\)，\\(AD+DC=16\\)，解得 \\(DC=8-4\\sqrt3\\approx1.07\\)。圓半徑 \\(8\\) cm。陰影 \\(BCD\\) 為弓形，面積 \\(=\\)扇形減去三角形，約 \\(67\\) cm²。答案 A。",
+      "id": "MENS-M050",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 50",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.801,
+        "locator": "q-MCQ17",
+        "text": "17. In the figure, \\(AC\\) is the diameter of the semi-circle \\(ABC\\). \\(D\\) is a point on \\(AC\\) such that \\(BD\\) is perpendicular to \\(AC\\). If \\(AC=16\\) cm and \\(BD=4\\) cm, find the area of the shaded region \\(BCD\\) correct to the nearest \\(\\text{cm}^2\\).mock-pcms-2526-p2-final-q17 Source evidence — crop review pendingA) \\(67\\text{ cm}^2\\)\nB) \\(81\\text{ cm}^2\\)\nC) \\(84\\text{ cm}^2\\)\nD) \\(98\\text{ cm}^2\\)",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-pcms-2526-p2-final-q17-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4985,
+        "locator": "q-MCQ04",
+        "text": "16. The diameter of a circle is 10 cm. The circle is divided into a major segment and a minor segment by a chord of length 8 cm. Find the area of the major segment correct to the nearest \\(\\text{cm}^2\\).A) \\(11\\text{ cm}^2\\)\nB) \\(23\\text{ cm}^2\\)\nC) \\(55\\text{ cm}^2\\)\nD) \\(67\\text{ cm}^2\\)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m058",
+    "sourceRow": 58,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ15",
+      "stem": "In the figure, O is the centre of the sector OPRQS. PS and OQ are perpendicular to each other and intersect at the point T. U is a point lying on PS such that RU is perpendicular to PS. If PU = 13 cm, SU = 47 cm and OT = 16 cm, find the area of the sector OPR correct to the nearest \\text{cm}^2.",
+      "stemZh": "圖中，\\(O\\) 為扇形 \\(OPRQS\\) 的圓心。\\(PS\\) 與 \\(OQ\\) 互相垂直，相交於 \\(T\\)。\\(U\\) 為 \\(PS\\) 上的一點，使 \\(RU\\perp PS\\)。若 \\(PU=13\\) cm、\\(SU=47\\) cm 及 \\(OT=16\\) cm，求陰影區域的面積。",
+      "options": [
+        "\\(303 \\text{cm}^2\\)",
+        "\\(322 \\text{cm}^2\\)",
+        "\\(378 \\text{cm}^2\\)",
+        "\\(421 \\text{cm}^2\\)"
+      ],
+      "optionsZh": [
+        "303 \\text{cm}^2",
+        "322 \\text{cm}^2",
+        "378 \\text{cm}^2",
+        "421 \\text{cm}^2"
+      ],
+      "answer": 0,
+      "solution": "Check against the options: B.",
+      "solutionZh": "\\(PS=13+47=60\\) cm。\\(OQ\\perp PS\\) 且 \\(T\\) 為中點，\\(PT=TS=30\\)。\\(TU=30-13=17\\)。半徑 \\(OR=\\sqrt{OT^2+TU^2}=\\sqrt{16^2+17^2}=\\sqrt{545}\\)。陰影面積計算約 \\(303\\) cm²。答案 A。",
+      "id": "MENS-M058",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 58",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.8436,
+        "locator": "q-MCQ19",
+        "text": "17. In the figure, O is the centre of the sector OPRQS. PS and OQ are perpendicular to each other and intersect at the point T. U is a point lying on PS such that RU is perpendicular to PS. If PU = 13 cm, SU = 47 cm and OT = 16 cm, find the area of the sector OPR correct to the nearest cm^2. A. 303 cm^2 B. 322 cm^2 C. 378 cm^2 D. 421 cm^2mock-rc-2526-p2-final-q17 Source evidence — crop review pending",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-rc-2526-p2-final-q17-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4136,
+        "locator": "q-MCQ11",
+        "text": "The angle and the arc length of a paper sector are θº and 16π cm respectively. The paper sector is folded into a right circular conical vessel. If the curved surface area of the vessel is 640 cm2, find θ.A) 18π\nB) 24π\nC) 36π\nD) 72π",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m060",
+    "sourceRow": 60,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ16",
+      "stem": "In the figure, OABC is a square of side 10 cm. O is the centre of the sector OAC. M and N are the mid-points of AB and BC respectively. Find the area of the shaded region, correct to 3 significant figures.",
+      "stemZh": "圖中，\\(OABC\\) 為邊長 \\(10\\) cm 的正方形。\\(O\\) 為扇形 \\(OAC\\) 的圓心。\\(M\\) 及 \\(N\\) 分別為 \\(AB\\) 及 \\(BC\\) 的中點。求陰影區域的面積，準確至三位有效數字。",
+      "options": [
+        "\\(17.8 \\text{cm}^2\\)",
+        "\\(18.5 \\text{cm}^2\\)",
+        "\\(20.4 \\text{cm}^2\\)",
+        "\\(22.1 \\text{cm}^2\\)"
+      ],
+      "optionsZh": [
+        "17.8 \\text{cm}^2",
+        "18.5 \\text{cm}^2",
+        "20.4 \\text{cm}^2",
+        "22.1 \\text{cm}^2"
+      ],
+      "answer": 0,
+      "solution": "Check against the options: A.",
+      "solutionZh": "扇形 \\(OAC\\) 為四分一圓，面積 \\(=25\\pi\\)。\\(M(10,5)\\)、\\(N(5,10)\\)。陰影面積 \\(=\\)扇形減去多邊形 \\(OMBN\\)，約 \\(17.8\\) cm²。答案 A。",
+      "id": "MENS-M060",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 60",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.7949,
+        "locator": "q-MCQ20",
+        "text": "17. In the figure, OABC is a square of side 10 cm. O is the centre of the sector OAC. M and N are the mid-points of AB and BC respectively. Find the area of the shaded region, correct to 3 significant figures. A. 17.8 cm^2 B. 18.5 cm^2 C. 20.4 cm^2 D. 22.1 cm^2mock-sfxc-2526-p2-final-q17 Source evidence — crop review pending",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-sfxc-2526-p2-final-q17-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.4336,
+        "locator": "q-L002",
+        "text": "9.The radius and the area of a sector are \\(12\\) cm and \\(30\\pi\\text{ cm}^2\\) respectively.\n(a)Find the angle of the sector.\n(b)Express the perimeter of the sector in terms of \\(\\pi\\).\n(5 marks)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-m064",
+    "sourceRow": 64,
+    "kind": "mc",
+    "original": {
+      "set": "q-MCQ17",
+      "stem": "In the figure, \\(O\\) is the centre of the sector \\(OAB\\) and \\(\\angle AOB=90^\\circ\\). It is given that \\(C\\) is the mid-point of \\(OB\\) and \\(D\\) is a point lying on \\(AB\\) such that \\(AD=BD\\). If the radius of the sector is 8 cm, find the area of the shaded region correct to the nearest 0.1 \\text{cm}^2.",
+      "stemZh": "圖中，\\(O\\) 為扇形 \\(OAB\\) 的圓心，\\(\\angle AOB=90^\\circ\\)。已知 \\(C\\) 為 \\(OB\\) 的中點，\\(D\\) 為 \\(AB\\) 上的一點，使 \\(AD=BD\\)。若扇形的半徑為 \\(8\\) cm，求陰影區域的面積。",
+      "options": [
+        "\\(13.8\\text{ cm}^2\\)",
+        "\\(15.4\\text{ cm}^2\\)",
+        "\\(17.2\\text{ cm}^2\\)",
+        "\\(19.6\\text{ cm}^2\\)"
+      ],
+      "optionsZh": [
+        "\\(13.8\\text{ cm}^2\\)",
+        "\\(15.4\\text{ cm}^2\\)",
+        "\\(17.2\\text{ cm}^2\\)",
+        "\\(19.6\\text{ cm}^2\\)"
+      ],
+      "answer": 0,
+      "solution": "Check against the options: A.",
+      "solutionZh": "與 M36 類似，半徑 \\(8\\) cm。陰影面積 \\(=\\frac{45}{360}\\pi(8)^2-\\frac12(4)(8\\sin45^\\circ)\\approx13.8\\text{ cm}^2\\)。答案 A。",
+      "id": "MENS-M064",
+      "school": "Chester",
+      "hintZh": "運用相關立體體積/面積公式，小心單位。",
+      "hint": "Use relevant volume/area formulas. Watch units.",
+      "source": "Mensuration MC 64",
+      "level": "Level 4-5",
+      "topic": "Mensuration / 求積法"
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.8295,
+        "locator": "q-MCQ22",
+        "text": "17. In the figure, \\(O\\) is the centre of the sector \\(OAB\\) and \\(\\angle AOB=90^\\circ\\). It is given that \\(C\\) is the mid-point of \\(OB\\) and \\(D\\) is a point lying on \\(AB\\) such that \\(AD=BD\\). If the radius of the sector is 8 cm, find the area of the shaded region correct to the nearest 0.1 cm^2.mock-skss-2526-p2-final-q17 Source evidence — crop review pendingA) \\(13.8\\text{ cm}^2\\)\nB) \\(15.4\\text{ cm}^2\\)\nC) \\(17.2\\text{ cm}^2\\)\nD) \\(19.6\\text{ cm}^2\\)",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-skss-2526-p2-final-q17-source-visual.png"
+        ]
+      },
+      {
+        "similarity": 0.7816,
+        "locator": "q-MCQ13",
+        "text": "17. In the figure, \\(O\\) is the centre of the sector \\(OAB\\) and \\(\\angle AOB=90^\\circ\\). It is given that \\(C\\) is the mid-point of \\(OB\\) and \\(D\\) is a point lying on \\(\\widehat{AB}\\) such that \\(\\widehat{AD}=\\widehat{BD}\\). If the radius of the sector is 8 cm, find the area of the shaded region correct to the nearest \\(0.1\\text{ cm}^2\\).mock-cmaskss-2526-p2-final-q17 Source evidence — crop review pendingA) \\(13.8\\text{ cm}^2\\)\nB) \\(15.4\\text{ cm}^2\\)\nC) \\(17.2\\text{ cm}^2\\)\nD) \\(19.6\\text{ cm}^2\\)",
+        "figures": [
+          "/Users/chester/Downloads/catagory big project auto/mensuration_note/assets/mock-cmaskss-2526-p2-final-q17-source-visual.png"
+        ]
+      }
+    ],
+    "status": "完成",
+    "repairAttempt": "Compared legacy statement, integrated reviewed HTML, original source visual, and recomputed geometry.",
+    "remaining": "Confirmed duplicate of M036: same source figure, radius 8, 45-degree sector and four options. Preserve alias."
+  },
+  {
+    "id": "import-mensuration-mens-m096",
+    "sourceRow": 96,
+    "kind": "mc",
+    "original": {
+      "id": "MENS-M096",
+      "school": "Chester",
+      "source": "Mensuration MC 96",
+      "topic": "Mensuration / 求積法",
+      "level": "Level 4-5",
+      "stem": "The perimeter of the sector \\(OMN\\) is 12 cm, where \\(O\\) is the centre of the sector \\(OMN\\). If the radius of the sector \\(OMN\\) is \\(3\\pi\\) cm, which of the following are true?\nI. The area of the sector \\(OMN\\) is \\(9\\pi^2\\text{ cm}^2\\).\nII. The perimeter of \\(\\triangle OMN\\) is less than 35 cm.\nIII. The angle of the sector \\(OMN\\) is greater than \\(100^\\circ\\).",
+      "hint": "Sector perimeter = 2 radii + arc length. Find arc length first.",
+      "solution": "Perimeter = \\(2r + l = 12\\). With \\(r=3\\), arc \\(l = 12 - 6 = 6\\). I. Area = \\(\\frac{1}{2}(3)(6) = 9\\) cm\\(^2\\). II. Chord \\(MN = 2r\\sin(\\theta/2)\\), where \\(\\theta = l/r = 2\\) rad. \\(MN = 6\\sin 1 \\approx 5.05\\). Perimeter of triangle \\(= 3+3+5.05 = 11.05 < 35\\). True. III. Central angle \\(\\theta = 2\\) rad \\(\\approx 114.6^\\circ > 90^\\circ\\). True. Answer: D.",
+      "stemZh": "扇形 \\(OMN\\) 的周界為 \\(12\\pi\\) cm，其中 \\(O\\) 為扇形 \\(OMN\\) 的圓心。若扇形 \\(OMN\\) 的半徑為 \\(3\\pi\\) cm，下列哪項必為正確？I. 扇形 \\(OMN\\) 的面積為 \\(9\\pi^2\\text{ cm}^2\\) II. 扇形 \\(OMN\\) 的弧長為 \\(6\\pi\\) cm III. 扇形 \\(OMN\\) 的角為 \\(120^\\circ\\)",
+      "hintZh": "扇形周界 = 兩條半徑 + 弧長。先搵弧長，再用面積公式。",
+      "solutionZh": "周界 \\(=2r+l=12\\)。\\(r=3\\) 時弧 \\(l=6\\)。\nI：面積 \\(=\\frac{1}{2}(3)(6)=9\\text{ cm}^2\\)，正確。\nII：弦 \\(MN=6\\sin1\\approx5.05\\) cm。\nIII：面積與 I 相同。答案 B。",
+      "options": [
+        "\\(I and II only\\)",
+        "\\(I and III only\\)",
+        "\\(II and III only\\)",
+        "\\(I, II and III\\)"
+      ],
+      "optionsZh": [
+        "I and I只有 I",
+        "I and II只有 I",
+        "II and II只有 I",
+        "I、II 及 III"
+      ],
+      "answer": 3
+    },
+    "matchedInventory": null,
+    "candidateHtml": [
+      {
+        "similarity": 0.9084,
+        "locator": "q-MCQ07",
+        "text": "15. The perimeter of the sector \\(OMN\\) is \\(12\\pi\\) cm, where \\(O\\) is the centre of the sector \\(OMN\\). If the radius of the sector \\(OMN\\) is \\(3\\pi\\) cm, which of the following are true?I. The area of the sector \\(OMN\\) is \\(9\\pi^2\\text{ cm}^2\\). II. The perimeter of \\(\\triangle OMN\\) is less than 35 cm. III. The angle of the sector \\(OMN\\) is greater than \\(100^\\circ\\).\nA) I and II only\nB) I and III only\nC) II and III only\nD) I, II and III",
+        "figures": []
+      },
+      {
+        "similarity": 0.4677,
+        "locator": "q-MCQ08",
+        "text": "16. The perimeter and the area of a sector are \\(k\\) cm and \\(3k\\) cm\\(^2\\) respectively. If the radius of the sector is 14 cm, then the arc length of the sector isA) 19 cm.\nB) 21 cm.\nC) 28 cm.\nD) 49 cm.",
+        "figures": []
+      }
+    ],
+    "status": "待補來源",
+    "repairAttempt": "Compared legacy statement, integrated reviewed HTML, original source visual, and recomputed geometry.",
+    "remaining": "English radius 3π and perimeter 12 are impossible; Chinese says perimeter 12π. Original paper needed to choose givens."
+  },
+  {
+    "id": "import-mensuration-mens-l001",
+    "sourceRow": 1,
+    "kind": "long",
+    "original": {
+      "id": "MENS-L001",
+      "title": "L001. dse-hkeaa-2012-p1-final-q09 · LongQ / 長題",
+      "concepts": "L1: Direct Mensuration / 直接求積與單一立體",
+      "stem": "9. In Figure 2, the volume of the solid right prism \\(ABCDEFGH\\) is \\(1020\\text{ cm}^3\\). The base \\(ABCD\\) of the prism is a trapezium, where \\(AD\\) is parallel to \\(BC\\). It is given that \\(\\angle BAD=90^\\circ\\), \\(AB=12\\) cm, \\(BC=6\\) cm and \\(DE=10\\) cm.\nFind\n\n(a) the length of \\(AD\\),\n\n(b) the total surface area of the prism \\(ABCDEFGH\\).\n(5 marks)",
+      "stemZh": "9. 圖 2 中，實心直立棱柱 \\(ABCDEFGH\\) 的體積為 \\(1020\\text{ cm}^3\\)。棱柱的底面 \\(ABCD\\) 為梯形，其中 \\(AD\\parallel BC\\)。已知 \\(\\angle BAD=90^\\circ\\)、\\(AB=12\\) cm、\\(BC=6\\) cm 及 \\(DE=10\\) cm。\n求\n\n(a) \\(AD\\) 的長度；\n\n(b) 棱柱 \\(ABCDEFGH\\) 的總表面積。\n（5 分）",
+      "hint": "Known prism volume → find the base area first.",
+      "hintZh": "直立棱柱＋已知體積 → 先反求底面積。",
+      "solution": "(a) A right prism has volume equal to base area times its length. Thus the trapezoidal base area is \\(1020/10=102\\text{ cm}^2\\). Its parallel sides are \\(BC\\) and \\(AD\\), separated by \\(AB=12\\) cm. \\[\\frac12(6+AD)(12)=102 \\Rightarrow AD=11\\text{ cm}.\\] (b) The horizontal and vertical components of \\(CD\\) are \\(11-6=5\\) cm and \\(12\\) cm. Hence \\[CD=\\sqrt{5^2+12^2}=13\\text{ cm}.\\] The total surface area comprises two trapezoidal ends and four rectangular sides: \\[S=2(102)+(12+6+13+11)(10)=624\\text{ cm}^2.\\] Check: \\(102\\times10=1020\\text{ cm}^3\\), as given.",
+      "solutionZh": "（a）直立棱柱體積 = 底面積 × 長度。梯形底面積 = 1020/10 = 102 cm²。平行邊為 BC 及 AD，距離 AB = 12 cm：\n\\[\n\\frac12(6+AD)(12)=102 \\Rightarrow AD=11\\text{ cm}.\n\\]\n（b）CD 的水平及垂直分量分別為 11−6 = 5 cm 及 12 cm：\n\\[\nCD=\\sqrt{5^2+12^2}=13\\text{ cm}.\n\\]\n總表面積包括兩個梯形端面及四個長方形側面：\n\\[\nS=2(102)+(12+6+13+11)(10)=624\\text{ cm}^2.\n\\]",
+      "answer": "(a) \\(11\\text{ cm}\\)；(b) \\(624\\text{ cm}^2\\)。",
+      "school": "HKEAA",
+      "source": "DSE 2012 P1 Q09",
+      "level": "L1",
+      "topic": "Direct Mensuration / 直接求積與單一立體"
+    },
+    "matchedInventory": {
+      "id": "dse-hkeaa-2012-p1-final-q09",
+      "kind": "LongQ",
+      "question": "9. In Figure 2, the volume of the solid right prism \\(ABCDEFGH\\) is \\(1020\\text{ cm}^3\\). The base \\(ABCD\\) of the prism is a trapezium, where \\(AD\\) is parallel to \\(BC\\). It is given that \\(\\angle BAD=90^\\circ\\), \\(AB=12\\) cm, \\(BC=6\\) cm and \\(DE=10\\) cm.\n\nFind\n\n(a) the length of \\(AD\\),\n\n(b) the total surface area of the prism \\(ABCDEFGH\\).\n\n(5 marks)",
+      "answer": "DSE-style marking:\n\n(a)\n\\[\n\\frac{(BC+AD)AB}{2}\\cdot DE=1020.\n\\]\n\\[\n\\frac{(6+AD)(12)}{2}\\cdot10=1020.\n\\]\nThus\n\\[\nAD=11\\text{ cm}.\n\\]\n\n(b)\n\\[\nCD=\\sqrt{AB^2+(AD-BC)^2}=\\sqrt{12^2+5^2}=13\\text{ cm}.\n\\]\nThe total surface area is\n\\[\n2\\left(\\frac{(6+11)(12)}{2}\\right)+10(12+6+13+11)\n\\]\n\\[\n=204+420=624.\n\\]\n\nFinal answers: (a) \\(11\\) cm; (b) \\(624\\text{ cm}^2\\).",
+      "metadata": "dse-hkeaa-2012-p1-final-q09\n\nsource_type: dse\nprovider: hkeaa\nyear: 2012\npaper: P1\npaper_id: dse-hkeaa-2012-p1-final\nsource_id: dse-hkeaa-2012-p1-final-q09\nquestion_no: 9\nsection: A1\nmiddle_category: Long Questions A1\ntopics:\n  - mensuration_求積法\ncross_topic: false\nquestion_family: right_prism_trapezium_volume_surface_area\nsort_key: a1.mensuration.prism_trapezium_surface_area.05\nquestion_intent:\n  - use_prism_volume_to_find_length_then_surface_area\nskills_broad:\n  - mensuration\nskills:\n  - prism_volume\n  - trapezium_area\n  - surface_area\n  - pythagoras\nlearning_role:\n  - dse_calibration\nstudent_need:\n  - worked_solution_pattern\ndifficulty:\n  dse_band: 4\n  dse_rank: 4\n  concept: 4\n  execution: 3\n  trap: 4\n  exam: 4\ngeneration_profile:\n  can_generate_variant: true\n  variable_parts:\n    - numbers\n    - constants\n  fixed_structure:\n    - question_family\n    - skills\n  generation_risk: high\n  requires_diagram: true\nlanguage_original: en\ntranslation_needed: true\ntyped_content_status: transcribed_verified_from_screenshot\ndisplay_strategy: typed_content_primary\nscreenshot_original: screenshots/LongQuestions/dse-hkeaa-2012-p1-final/dse-hkeaa-2012-p1-final-q09.png\nsource_page_image: screenshots/LongQuestions/dse-hkeaa-2012-p1-final/dse-hkeaa-2012-p1-final-q09.png\nscreenshot_role: backup_verification_only\nimage_strategy: diagram_needed_not_generated\ndiagram_status: diagram_needed_future_image_queue\nimage_verified: true\ndiagram_need: required\ndiagram_reason: visual_layout_needed\ndiagram_review_status: auto_predicted\ndiagram_notes: Agent-verified during batch processing: a student-facing visual is needed later; crop generation deferred.\n\n\n\n\n\n\nanswer_source_file: All Dse Mathematics/2012/2012 MS.pdf\nanswer_location: Paper 1 official marking scheme, Section A1, Q9\nanswer_status: official_verified\nanswer: official_worked_solution\nconfidence: high\nstatus: promoted_to_topic_file_official_verified\n\nquestion_screenshot: screenshots/LongQuestions/dse-hkeaa-2012-p1-final/dse-hkeaa-2012-p1-final-q09.png\nscreenshot_status: valid_question_crop\nrepair_action: accept_existing_question_screenshot_verified_nodup_all\nrepair_status: question_screenshot_verified\nreview_status: preverified_existing_question_screenshot_accepted\n"
+    },
+    "candidateHtml": [
+      {
+        "similarity": 1.0,
+        "locator": "q-L001",
+        "text": "9.In Figure 2, the volume of the solid right prism \\(ABCDEFGH\\) is \\(1020\\text{ cm}^3\\). The base \\(ABCD\\) of the prism is a trapezium, where \\(AD\\) is parallel to \\(BC\\). It is given that \\(\\angle BAD=90^\\circ\\), \\(AB=12\\) cm, \\(BC=6\\) cm and \\(DE=10\\) cm.\nFind\n(a)the length of \\(AD\\),\n(b)the total surface area of the prism \\(ABCDEFGH\\).\n(5 marks)",
+        "figures": []
+      },
+      {
+        "similarity": 1.0,
+        "locator": "q-L001",
+        "text": "9.In Figure 2, the volume of the solid right prism \\(ABCDEFGH\\) is \\(1020\\text{ cm}^3\\). The base \\(ABCD\\) of the prism is a trapezium, where \\(AD\\) is parallel to \\(BC\\). It is given that \\(\\angle BAD=90^\\circ\\), \\(AB=12\\) cm, \\(BC=6\\) cm and \\(DE=10\\) cm.\nFind\n(a)the length of \\(AD\\),\n(b)the total surface area of the prism \\(ABCDEFGH\\).\n(5 marks)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-l007",
+    "sourceRow": 7,
+    "kind": "long",
+    "original": {
+      "id": "MENS-L007",
+      "title": "L008. dse-hkeaa-2012-p1-final-q12 · LongQ / 長題",
+      "concepts": "L2: Similar Solids, Internal Cuts and Liquids / 相似內切與倒水",
+      "stem": "12. Figure 3(a) shows a solid metal right circular cone of base radius \\(48\\) cm and height \\(96\\) cm.\n\n(a) Find the volume of the circular cone in terms of \\(\\pi\\).\n\n(b) A hemispherical vessel of radius \\(60\\) cm is held vertically on a horizontal surface. The vessel is fully filled with milk.\n\n(i) Find the volume of the milk in the vessel in terms of \\(\\pi\\).\n(ii) The circular cone is now held vertically in the vessel as shown in Figure 3(b). A craftsman claims that the volume of the milk remaining in the vessel is greater than \\(0.3\\text{ m}^3\\). Do you agree? Explain your answer.\n(7 marks)",
+      "stemZh": "12. 圖 3\n\n(a) 顯示一個底半徑為 \\(48\\) cm、高為 \\(96\\) cm 的實心金屬直立圓錐。\n\n(a) 以 \\(\\pi\\) 表示該圓錐的體積。\n\n(b) 一個半徑為 \\(60\\) cm 的半球形容器垂直放置在水平面上，容器完全注滿牛奶。\n\n(i) 以 \\(\\pi\\) 表示容器中牛奶的體積。\n(ii) 現將該圓錐垂直放入容器中，如圖 3\n\n(b) 所示。某工匠聲稱容器中餘下的牛奶體積大於 \\(0.3\\text{ m}^3\\)。你是否同意？試解釋你的答案。\n（7 分）",
+      "hint": "A solid placed in a full vessel displaces its submerged volume.",
+      "hintZh": "盛滿容器後放入立體 → 溢出體積等於浸入部分體積。",
+      "solution": "(a) The cone volume is \\[V_C=\\frac13\\pi(48)^2(96)=73728\\pi\\text{ cm}^3.\\] (b)(i) The hemisphere initially contains \\(V_H=\\frac23\\pi(60)^3=144000\\pi\\text{ cm}^3.\\) (ii) The cone's base touches the hemispherical wall. In an axial section, the distance from the rim plane to the cone's base is \\[d=\\sqrt{60^2-48^2}=36\\text{ cm}.\\] The part above the rim is a smaller cone of height \\(96-36=60\\) cm, similar to the whole cone. Volumes scale as the cube of corresponding heights. Therefore the submerged frustum displaces \\[V_D=73728\\pi\\left[1-\\left(\\frac{60}{96}\\right)^3\\right]=55728\\pi\\text{ cm}^3.\\] The milk remaining is \\[V_H-V_D=88272\\pi\\text{ cm}^3=0.088272\\pi\\text{ m}^3\\approx0.277\\text{ m}^3.\\] Since this is less than \\(0.3\\text{ m}^3\\), the claim is incorrect.",
+      "solutionZh": "（a）圓錐體積：\n\\[\nV_C=\\frac13\\pi(48)^2(96)=73728\\pi\\text{ cm}^3.\n\\]\n（b）（i）半球初始盛奶：\n\\[\nV_H=\\frac23\\pi(60)^3=144000\\pi\\text{ cm}^3.\n\\]\n（b）（ii）圓錐底面接觸半球壁。軸向切面中，邊緣平面至圓錐底面距離：\n\\[\nd=\\sqrt{60^2-48^2}=36\\text{ cm}.\n\\]\n邊緣以上部分為高 96−36 = 60 cm 的小圓錐，與整錐相似。體積按高度立方縮放。浸水截頭錐排水量：\n\\[\nV_D=73728\\pi\\left[1-\\left(\\frac{60}{96}\\right)^3\\right]=55728\\pi\\text{ cm}^3.\n\\]\n剩餘牛奶：\n\\[\nV_H-V_D=88272\\pi\\text{ cm}^3\\approx0.277\\text{ m}^3.\n\\]\n少於 0.3 m³，聲稱不正確。",
+      "answer": "(a) \\(73728\\pi\\text{ cm}^3\\)；(b)(i) \\(144000\\pi\\text{ cm}^3\\)；(ii) 不同意 / Disagree：\\(0.088272\\pi\\approx0.277\\text{ m}^3\\)。",
+      "school": "HKEAA",
+      "source": "DSE 2012 P1 Q12",
+      "level": "L2",
+      "topic": "Similar Solids, Internal Cuts and Liquids / 相似內切與倒水"
+    },
+    "matchedInventory": {
+      "id": "dse-hkeaa-2012-p1-final-q12",
+      "kind": "LongQ",
+      "question": "12. Figure 3(a) shows a solid metal right circular cone of base radius \\(48\\) cm and height \\(96\\) cm.\n\n(a) Find the volume of the circular cone in terms of \\(\\pi\\).\n\n(b) A hemispherical vessel of radius \\(60\\) cm is held vertically on a horizontal surface. The vessel is fully filled with milk.\n\n(i) Find the volume of the milk in the vessel in terms of \\(\\pi\\).\n\n(ii) The circular cone is now held vertically in the vessel as shown in Figure 3(b). A craftsman claims that the volume of the milk remaining in the vessel is greater than \\(0.3\\text{ m}^3\\). Do you agree? Explain your answer.\n\n(7 marks)",
+      "answer": "DSE-style marking:\n\n(a) Convert to metres: \\(48\\) cm \\(=0.48\\) m and \\(96\\) cm \\(=0.96\\) m.\n\\[\nV=\\frac13\\pi(0.48)^2(0.96)=0.073728\\pi\\text{ m}^3.\n\\]\n\n(b)(i)\n\\[\nV=\\frac12\\cdot\\frac43\\pi(0.6)^3=0.144\\pi\\text{ m}^3.\n\\]\n\n(b)(ii) The height of the portion of the cone in the milk is\n\\[\n\\sqrt{0.6^2-0.48^2}=0.36\\text{ m}.\n\\]\nUsing similarity, the volume of the portion of the cone in the milk is\n\\[\n0.073728\\pi\\left[1-\\left(\\frac{0.96-0.36}{0.96}\\right)^2\\right]=0.044928\\pi\\text{ m}^3.\n\\]\nThe remaining volume of milk is\n\\[\n0.144\\pi-0.044928\\pi\\approx0.311\\text{ m}^3.\n\\]\nThis is greater than \\(0.3\\text{ m}^3\\), so the craftsman's claim is agreed.\n\nFinal answers: (a) \\(0.073728\\pi\\text{ m}^3\\); (b)(i) \\(0.144\\pi\\text{ m}^3\\); (b)(ii) agree.",
+      "metadata": "dse-hkeaa-2012-p1-final-q12\n\nsource_type: dse\nprovider: hkeaa\nyear: 2012\npaper: P1\npaper_id: dse-hkeaa-2012-p1-final\nsource_id: dse-hkeaa-2012-p1-final-q12\nquestion_no: 12\nsection: A2\nmiddle_category: Long Questions A2\ntopics:\n  - mensuration_求積法\ncross_topic: false\nquestion_family: cone_hemisphere_displacement_claim\nsort_key: a2.mensuration.cone_hemisphere_displacement_claim.07\nquestion_intent:\n  - use_cone_and_hemisphere_volumes_with_similarity\nskills_broad:\n  - mensuration\nskills:\n  - cone_volume\n  - hemisphere_volume\n  - similarity\n  - claim_verification\nlearning_role:\n  - dse_calibration\nstudent_need:\n  - worked_solution_pattern\ndifficulty:\n  dse_band: 5\n  dse_rank: 5\n  concept: 5\n  execution: 4\n  trap: 5\n  exam: 5\ngeneration_profile:\n  can_generate_variant: true\n  variable_parts:\n    - numbers\n    - constants\n  fixed_structure:\n    - question_family\n    - skills\n  generation_risk: high\n  requires_diagram: true\nlanguage_original: en\ntranslation_needed: true\ntyped_content_status: transcribed_verified_from_screenshot\ndisplay_strategy: typed_content_primary\nscreenshot_original: screenshots/LongQuestions/dse-hkeaa-2012-p1-final/dse-hkeaa-2012-p1-final-q12.png\nsource_page_image: screenshots/LongQuestions/dse-hkeaa-2012-p1-final/dse-hkeaa-2012-p1-final-q12.png\nscreenshot_role: backup_verification_only\nimage_strategy: diagram_needed_not_generated\ndiagram_status: diagram_needed_future_image_queue\nimage_verified: true\ndiagram_need: required\ndiagram_reason: visual_layout_needed\ndiagram_review_status: auto_predicted\ndiagram_notes: Agent-verified during batch processing: a student-facing visual is needed later; crop generation deferred.\n\n\n\n\n\n\nanswer_source_file: All Dse Mathematics/2012/2012 MS.pdf\nanswer_location: Paper 1 official marking scheme, Section A2, Q12\nanswer_status: official_verified\nanswer: official_worked_solution\nconfidence: high\nstatus: promoted_to_topic_file_official_verified\n\nquestion_screenshot: screenshots/LongQuestions/dse-hkeaa-2012-p1-final/dse-hkeaa-2012-p1-final-q12.png\nscreenshot_status: valid_question_crop\nrepair_action: accept_existing_question_screenshot_verified_nodup_all\nrepair_status: question_screenshot_verified\nreview_status: preverified_existing_question_screenshot_accepted\n"
+    },
+    "candidateHtml": [
+      {
+        "similarity": 0.3328,
+        "locator": "q-MCQ89",
+        "text": "Five identical right circular cones with radii 10 cm and heights 32 cm are recast into one hemisphere. Find the total surface area of the hemisphere.A) 800pi cm^2\nB) 1200pi cm^2\nC) 1600pi cm^2\nD) 2000pi cm^2",
+        "figures": []
+      },
+      {
+        "similarity": 0.3317,
+        "locator": "q-MCQ55",
+        "text": "The height of a circular cylinder is the same as its base diameter. If the volume of the circular cylinder is \\(1458\\pi\\text{ cm}^3\\), then the total surface area of the circular cylinder isA) \\(324\\pi\\text{ cm}^2\\)\nB) \\(486\\pi\\text{ cm}^2\\)\nC) \\(1458\\pi\\text{ cm}^2\\)\nD) \\(1620\\pi\\text{ cm}^2\\)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-l015",
+    "sourceRow": 15,
+    "kind": "long",
+    "original": {
+      "id": "MENS-L015",
+      "title": "L016. extra-lscc-2223-p1-g305-q11 · LongQ / 長題",
+      "concepts": "L2: Similar Solids, Internal Cuts and Liquids / 相似內切與倒水",
+      "stem": "11.\n\n(a) Figure 2(a) shows a container of height \\(8\\) cm which is in the shape of a frustum. The container is made by cutting off a right circular cone with a base circumference of \\(24\\pi\\) cm from a hollow circular cone with a base circumference of \\(36\\pi\\) cm. The container is fully filled with water. Find the volume of the water in the container in terms of \\(\\pi\\).\n\n(b) A solid sphere is placed inside the container as shown in Figure 2(b). It is known that the radius of the sphere equals to the height of the container.\n\n(i) Find the volume of the sphere.\n(ii) Abby claims that the ratio of the volume of the water remaining in the container to the volume of the water which flowed out is greater than \\(2:1\\). Do you agree? Explain your answer.",
+      "stemZh": "11.\n\n(a) 圖 2\n\n(a) 顯示一個高 \\(8\\) cm 的截頭錐形容器，由切除一個底圓周 \\(24\\pi\\) cm 的直立圓錐造成，而該圓錐取自一個底圓周 \\(36\\pi\\) cm 的空心圓錐。容器完全注滿水。以 \\(\\pi\\) 求容器中水的體積。\n\n(b) 如圖 2\n\n(b)，將一個實心球放入容器內。已知球的半徑等於容器的高度。\n\n(i) 求球的體積。\n(ii) Abby 聲稱容器中餘下的水體積與溢出的水體積之比大於 \\(2:1\\)。你是否同意？試解釋你的答案。",
+      "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
+      "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\\n截頭錐：大錐 - 細錐，用相似比例。\\n排水 = 物體體積。\\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
+      "solution": "(a) Let the upper and lower radii of the frustum be \\(r_1\\) and \\(r_2\\) respectively. Since the circumferences are \\(24\\pi\\) cm and \\(36\\pi\\) cm, \\[2\\pi r_1=24\\pi,\\qquad 2\\pi r_2=36\\pi.\\] Thus \\[r_1=12,\\qquad r_2=18.\\] Let \\(h\\) be the height of the original cone. By similarity, \\[\\frac{h-8}{h}=\\frac{12}{18}.\\] Hence \\[ h=24. \\] The volume of water in the container is the volume of the frustum: \\[V =\\frac13\\pi(18)^2(24)-\\frac13\\pi(12)^2(16)\\\\ =\\boxed{1824\\pi\\text{ cm}^3}.\\] (b)(i) The radius of the sphere is \\(8\\) cm. Hence its volume is \\(\\frac43\\pi(8)^3=\\boxed{\\frac{2048\\pi}{3}\\text{ cm}^3}.\\) (ii) From the figure, the volume of water flowed out is half of the volume of the sphere: \\[\\frac12\\left(\\frac{2048\\pi}{3}\\right)=\\frac{1024\\pi}{3}.\\] The volume of water remaining is \\[1824\\pi-\\frac{1024\\pi}{3}=\\frac{4448\\pi}{3}.\\] Therefore, the ratio of the volume of water remaining to the volume of water flowed out is \\[\\frac{4448\\pi}{3}:\\frac{1024\\pi}{3}=139:32.\\] Since \\(139:32>2:1\\), Abby's claim is correct.",
+      "solutionZh": "（a）設截頭錐上下半徑 r₁、r₂。2πr₁ = 24π，2πr₂ = 36π，故 r₁ = 12、r₂ = 18。設原錐高 h：\n\\[\n\\frac{h-8}{h}=\\frac{12}{18},\\quad h=24.\n\\]\n水體積：\n\\[\nV=\\frac13\\pi(18)^2(24)-\\frac13\\pi(12)^2(16)=1824\\pi\\text{ cm}^3.\n\\]\n（b）（i）球半徑 8，體積 = 2048π/3 cm³。\n（b）（ii）流出水 = 球體積一半 = 1024π/3。剩餘 = 1824π − 1024π/3 = 4448π/3。比 = 139:32 > 2:1，Abby 正確。",
+      "answer": "See the final numerical statement in the worked solution above; retain the correct unit.",
+      "school": "Lscc",
+      "source": "Extra 2223 P1 Q11",
+      "level": "L2",
+      "topic": "Similar Solids, Internal Cuts and Liquids / 相似內切與倒水"
+    },
+    "matchedInventory": {
+      "id": "extra-lscc-2223-p1-g305-q11",
+      "kind": "LongQ",
+      "question": "11.\n\n(a) Figure 2(a) shows a container of height \\(8\\) cm which is in the shape of a frustum. The container is made by cutting off a right circular cone with a base circumference of \\(24\\pi\\) cm from a hollow circular cone with a base circumference of \\(36\\pi\\) cm. The container is fully filled with water. Find the volume of the water in the container in terms of \\(\\pi\\).\n\n(b) A solid sphere is placed inside the container as shown in Figure 2(b). It is known that the radius of the sphere equals to the height of the container.\n\n(i) Find the volume of the sphere.\n\n(ii) Abby claims that the ratio of the volume of the water remaining in the container to the volume of the water which flowed out is greater than \\(2:1\\). Do you agree? Explain your answer.",
+      "answer": "(a) Let the upper and lower radii of the frustum be \\(r_1\\) and \\(r_2\\) respectively. Since the circumferences are \\(24\\pi\\) cm and \\(36\\pi\\) cm,\n\\[\n2\\pi r_1=24\\pi,\\qquad 2\\pi r_2=36\\pi.\n\\]\nThus\n\\[\nr_1=12,\\qquad r_2=18.\n\\]\nLet \\(h\\) be the height of the original cone. By similarity,\n\\[\n\\frac{h-8}{h}=\\frac{12}{18}.\n\\]\nHence\n\\[\nh=24.\n\\]\nThe volume of water in the container is the volume of the frustum:\n\\[\n\\begin{aligned}\nV&=\\frac13\\pi(18)^2(24)-\\frac13\\pi(12)^2(16)\\\\\n&=\\boxed{1824\\pi\\text{ cm}^3}.\n\\end{aligned}\n\\]\n\n(b)(i) The radius of the sphere is \\(8\\) cm. Hence its volume is\n\\[\n\\frac43\\pi(8)^3=\\boxed{\\frac{2048\\pi}{3}\\text{ cm}^3}.\n\\]\n\n(ii) From the figure, the volume of water flowed out is half of the volume of the sphere:\n\\[\n\\frac12\\left(\\frac{2048\\pi}{3}\\right)=\\frac{1024\\pi}{3}.\n\\]\nThe volume of water remaining is\n\\[\n1824\\pi-\\frac{1024\\pi}{3}=\\frac{4448\\pi}{3}.\n\\]\nTherefore, the ratio of the volume of water remaining to the volume of water flowed out is\n\\[\n\\frac{4448\\pi}{3}:\\frac{1024\\pi}{3}=139:32.\n\\]\nSince \\(139:32>2:1\\), Abby's claim is correct.",
+      "metadata": "extra-lscc-2223-p1-g305-q11\n\nsource_type: extra_mock\nprovider: LSCC\nyear: 2223\npaper: P1\npaper_id: extra-lscc-2223-p1-g305\nsource_id: extra-lscc-2223-p1-g305-q11\nquestion_no: 11\nsection: A2\ntopics:\n  - mensuration_求積法\ncross_topic: false\nquestion_family: mensuration_frustum_sphere_displacement\nsort_key: extra.2223.p1.a2.mensuration.11.extra-lscc-2223-p1-g305-q11\nquestion_intent:\n  - solve_long_question\nskills_broad:\n  - mensuration\nskills:\n  - mensuration\nlearning_role:\n  - exam_standard\nstudent_need:\n  - worked_solution_training\ndifficulty:\n  dse_band: 5\n  dse_rank: 5\n  concept: 5\n  execution: 4\n  trap: 5\n  exam: 5\ngeneration_profile:\n  can_generate_variant: true\n  variable_parts:\n    - numbers\n    - constants\n  fixed_structure:\n    - question_family\n    - skills\n  generation_risk: medium\n  requires_diagram: true\nlanguage_original: en\ntranslation_needed: true\ntyped_content_status: manual_cleaned_from_mathpix_and_source\ndisplay_strategy: typed_content_primary\nsource_pdf: extra mock/社習社、出版社、名校Mock-PP/2023/LSCC/P1/S6 Maths (Paper 1) Mock Exam 22-23_v2.pdf\nsource_page_no: 9\nsource_page_image: classification_runs/extra_mock/p1_2021plus_mathpix_bulk001/source_pages/LongQuestions/extra-lscc-2223-p1-g305/extra-lscc-2223-p1-g305-page-09.png\nquestion_screenshot: screenshots/LongQuestions/extra-lscc-2223-p1-g305/extra-lscc-2223-p1-g305-q11.png\nscreenshot_original: screenshots/LongQuestions/extra-lscc-2223-p1-g305/extra-lscc-2223-p1-g305-q11.png\nscreenshot_status: valid_question_crop\nrepair_status: question_screenshot_verified\nreview_status: contact_sheet_visual_verified\nscreenshot_role: diagram_question_crop_verified\nimage_strategy: use_verified_question_crop\ndiagram_status: diagram_crop_verified\nimage_verified: true\ndiagram_need: required\ndiagram_reason: source_diagram_required_for_question\ndiagram_review_status: visual_gate_passed_and_answer_topic_verified\ndiagram_notes: Extra mock 2021+ P1 Mathpix staging. Promote only after answer/topic/source gate.\nrisk_level: low\nrisk_reasons:\n  - topic_or_answer_review_required\npromotion_gate: manual_promote_verified\nanswer_source_file: classification_runs/extra_mock/p1_2021plus_mathpix_bulk001/mathpix/extra-lscc-2223-p1-g305/answer.mmd\nanswer_location: Mathpix whole-PDF OCR answer block, aligned by question number\nanswer_status: manual_verified_clean_worked_solution\nstatus: promoted_to_topic_file\n\n"
+    },
+    "candidateHtml": [
+      {
+        "similarity": 1.0,
+        "locator": "q-L010",
+        "text": "11.\n(a)Figure 2(a) shows a container of height \\(8\\) cm which is in the shape of a frustum. The container is made by cutting off a right circular cone with a base circumference of \\(24\\pi\\) cm from a hollow circular cone with a base circumference of \\(36\\pi\\) cm. The container is fully filled with water. Find the volume of the water in the container in terms of \\(\\pi\\).\n(b)A solid sphere is placed inside the container as shown in Figure 2(b). It is known that the radius of the sphere equals to the height of the container.\n(i)Find the volume of the sphere.\n(ii)Abby claims that the ratio of the volume of the water remaining in the container to the volume of the water which flowed out is greater than \\(2:1\\). Do you agree? Explain your answer.",
+        "figures": []
+      },
+      {
+        "similarity": 1.0,
+        "locator": "q-L010",
+        "text": "11.\n(a)Figure 2(a) shows a container of height \\(8\\) cm which is in the shape of a frustum. The container is made by cutting off a right circular cone with a base circumference of \\(24\\pi\\) cm from a hollow circular cone with a base circumference of \\(36\\pi\\) cm. The container is fully filled with water. Find the volume of the water in the container in terms of \\(\\pi\\).\n(b)A solid sphere is placed inside the container as shown in Figure 2(b). It is known that the radius of the sphere equals to the height of the container.\n(i)Find the volume of the sphere.\n(ii)Abby claims that the ratio of the volume of the water remaining in the container to the volume of the water which flowed out is greater than \\(2:1\\). Do you agree? Explain your answer.",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-l028",
+    "sourceRow": 28,
+    "kind": "long",
+    "original": {
+      "id": "MENS-L028",
+      "title": "L029. mock-cdgfss-2526-p1-final-q10 · LongQ / 長題",
+      "concepts": "L2: Similar Solids, Internal Cuts and Liquids / 相似內切與倒水",
+      "stem": "10. The height and the base radius of a solid right circular cone are 144 cm and 60 cm respectively. The circular cone is divided into three parts by two planes which are parallel to its base. The heights of Part I, Part II and Part III are 36 cm, 48 cm and 60 cm respectively as shown in the figure.\nExpress, in terms of \\(\\pi\\),\n\n(a) the volume of Part I of the circular cone; (3 marks)\n\n(b) the curved surface area of Part II of the circular cone. (3 marks)",
+      "stemZh": "10. 一個實心直立圓錐的高及底半徑分別為 \\(144\\) cm 及 \\(60\\) cm。該圓錐被兩個平行於底面的平面分成三部分，第 I、II、III 部分的高分別為 \\(36\\) cm、\\(48\\) cm 及 \\(60\\) cm，如圖所示。\n以 \\(\\pi\\) 表示：\n\n(a) 圓錐第 I 部分的體積；（3 分）\n\n(b) 圓錐第 II 部分的曲面面積。（3 分）",
+      "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
+      "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。",
+      "solution": "10. The radius of a cross-section of the cone is proportional to its distance from the vertex. The total height is \\(144\\) cm and the base radius is \\(60\\) cm, so the radius at height \\(h\\) from the vertex is \\[\\frac{60}{144}h=\\frac{5}{12}h.\\] (a) Part I is the frustum between heights \\(108\\) cm and \\(144\\) cm from the vertex. The two radii are \\[\\frac{5}{12}(108)=45\\] and \\[\\frac{5}{12}(144)=60.\\] The height of Part I is \\(36\\) cm. Therefore, its volume is \\[\\frac13\\pi(36)(60^2+60\\cdot45+45^2)\\] \\[=12\\pi(3600+2700+2025)\\] \\[=99900\\pi\\text{ cm}^3.\\] (3 marks) (b) Part II is the frustum between heights \\(60\\) cm and \\(108\\) cm from the vertex. The two radii are \\[\\frac{5}{12}(60)=25\\] and \\[\\frac{5}{12}(108)=45.\\] The vertical height of Part II is \\(48\\) cm, so its slant height is \\[\\sqrt{48^2+(45-25)^2}=52.\\] Therefore, the curved surface area of Part II is \\[\\pi(45+25)(52)=3640\\pi\\text{ cm}^2.\\] (3 marks)",
+      "solutionZh": "（a）Part I 在高 108–144 之間，半徑 45 及 60，高 36：\n\\[\nV=\\frac13\\pi(36)(60^2+60\\cdot45+45^2)=99900\\pi\\text{ cm}^3.\n\\]\n（b）Part II 在高 60–108 之間，半徑 25 及 45，高 48，斜高 52：\n\\[\nS=\\pi(45+25)(52)=3640\\pi\\text{ cm}^2.\n\\]",
+      "answer": "See the final numerical statement in the worked solution above; retain the correct unit.",
+      "school": "Cdgfss",
+      "source": "Mock 2526 P1 Q10",
+      "level": "L2",
+      "topic": "Similar Solids, Internal Cuts and Liquids / 相似內切與倒水"
+    },
+    "matchedInventory": {
+      "id": "mock-cdgfss-2526-p1-final-q10",
+      "kind": "LongQ",
+      "question": "10. The height and the base radius of a solid right circular cone are 144 cm and 60 cm respectively. The circular cone is divided into three parts by two planes which are parallel to its base. The heights of Part I, Part II and Part III are 36 cm, 48 cm and 60 cm respectively as shown in the figure.\n\nExpress, in terms of \\(\\pi\\),\n\n(a) the volume of Part I of the circular cone; (3 marks)\n\n(b) the curved surface area of Part II of the circular cone. (3 marks)",
+      "answer": "10. The radius of a cross-section of the cone is proportional to its distance from the vertex.\n\nThe total height is \\(144\\) cm and the base radius is \\(60\\) cm, so the radius at height \\(h\\) from the vertex is\n\n\\[\n\\frac{60}{144}h=\\frac{5}{12}h.\n\\]\n\n(a) Part I is the frustum between heights \\(108\\) cm and \\(144\\) cm from the vertex.\n\nThe two radii are\n\n\\[\n\\frac{5}{12}(108)=45\n\\]\n\nand\n\n\\[\n\\frac{5}{12}(144)=60.\n\\]\n\nThe height of Part I is \\(36\\) cm. Therefore, its volume is\n\n\\[\n\\frac13\\pi(36)(60^2+60\\cdot45+45^2)\n\\]\n\n\\[\n=12\\pi(3600+2700+2025)\n\\]\n\n\\[\n=99900\\pi\\text{ cm}^3.\n\\]\n\n(3 marks)\n\n(b) Part II is the frustum between heights \\(60\\) cm and \\(108\\) cm from the vertex.\n\nThe two radii are\n\n\\[\n\\frac{5}{12}(60)=25\n\\]\n\nand\n\n\\[\n\\frac{5}{12}(108)=45.\n\\]\n\nThe vertical height of Part II is \\(48\\) cm, so its slant height is\n\n\\[\n\\sqrt{48^2+(45-25)^2}=52.\n\\]\n\nTherefore, the curved surface area of Part II is\n\n\\[\n\\pi(45+25)(52)=3640\\pi\\text{ cm}^2.\n\\]\n\n(3 marks)",
+      "metadata": "mock-cdgfss-2526-p1-final-q10\n\nsource_type: mock\nprovider: cdgfss\nyear: 2526\npaper: P1\npaper_id: mock-cdgfss-2526-p1-final\nsource_id: mock-cdgfss-2526-p1-final-q10\nquestion_no: 10\nsection: A2\ntopics:\n  - mensuration_求積法\ncross_topic: false\nquestion_family: cone_frustum_volume_curved_surface_area\nsort_key: A2.mensuration.cone_frustum_volume_csa.05\nquestion_intent:\n  - find_frustum_volume_and_curved_surface_area\nskills_broad:\n  - mensuration\nskills:\n  - similar_cones\n  - frustum_volume\n  - frustum_curved_surface_area\nlearning_role:\n  - exam_standard\nstudent_need:\n  - structured_solution_training\ndifficulty:\n  dse_band: 5\n  dse_rank: 5\n  concept: 5\n  execution: 4\n  trap: 5\n  exam: 5\ngeneration_profile:\n  can_generate_variant: true\n  variable_parts:\n    - cone_height\n    - cone_radius\n    - section_heights\n  fixed_structure:\n    - cone_cut_by_parallel_planes\n    - frustum_volume_and_csa\n  generation_risk: medium\n  requires_diagram: true\nlanguage_original: en\ntranslation_needed: true\ntyped_content_status: verified_readable\ndisplay_strategy: typed_content_primary\nscreenshot_original: screenshots/LongQuestions/mock-cdgfss-2526-p1-final/mock-cdgfss-2526-p1-final-q10.png\nsource_page_image: screenshots/LongQuestions/mock-cdgfss-2526-p1-final/mock-cdgfss-2526-p1-final-q10.png\nquestion_screenshot: screenshots/LongQuestions/mock-cdgfss-2526-p1-final/mock-cdgfss-2526-p1-final-q10.png\nscreenshot_status: valid_question_crop\nrepair_action: accept_manual_contact_sheet_verified_long_existing_question_screenshot\nrepair_status: question_screenshot_verified\nreview_status: contact_sheet_visual_verified\nscreenshot_role: backup_verification_only\nimage_strategy: diagram_needed_not_generated\ndiagram_status: diagram_needed_future_image_queue\nimage_verified: true\ndiagram_need: required\ndiagram_reason: geometry_diagram\ndiagram_review_status: manually_checked\ndiagram_notes: Original question contains a cone section diagram; typed dimensions are included, but the figure is needed as future visual reference.\nrisk_level: low\nrisk_reasons:\n  - manually_checked_against_question_screenshot\n  - answer_rebuilt_by_calculation\npromotion_gate: manual_promote_verified\nanswer_source_file: Core Maths Mock Package /2526/CDGFSS/CDGFSS-S6-2526-MOCK-MATH-CP 1-Solution.pdf\nanswer_location: auto-segmented Paper 1 marking scheme, Q10\nanswer_status: verified_rebuilt_from_marking_scheme_and_calculation\nanswer: transcribed_solution_in_answer_section\nconfidence: high\nstatus: promoted_to_topic_file\n"
+    },
+    "candidateHtml": [
+      {
+        "similarity": 1.0,
+        "locator": "q-L023",
+        "text": "10.The height and the base radius of a solid right circular cone are 144 cm and 60 cm respectively. The circular cone is divided into three parts by two planes which are parallel to its base. The heights of Part I, Part II and Part III are 36 cm, 48 cm and 60 cm respectively as shown in the figure.\nExpress, in terms of \\(\\pi\\),\n(a)the volume of Part I of the circular cone; (3 marks)\n(b)the curved surface area of Part II of the circular cone. (3 marks)",
+        "figures": []
+      },
+      {
+        "similarity": 1.0,
+        "locator": "q-L023",
+        "text": "10.The height and the base radius of a solid right circular cone are 144 cm and 60 cm respectively. The circular cone is divided into three parts by two planes which are parallel to its base. The heights of Part I, Part II and Part III are 36 cm, 48 cm and 60 cm respectively as shown in the figure.\nExpress, in terms of \\(\\pi\\),\n(a)the volume of Part I of the circular cone; (3 marks)\n(b)the curved surface area of Part II of the circular cone. (3 marks)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-l032",
+    "sourceRow": 32,
+    "kind": "long",
+    "original": {
+      "id": "MENS-L032",
+      "title": "L033. mock-cpu-2324-p1-final-q14 · LongQ / 長題",
+      "concepts": "L2: Similar Solids, Internal Cuts and Liquids / 相似內切與倒水",
+      "stem": "14. Figure 3(a) shows the front view of a conical transparent decoration with some liquid inside. The base is sealed so that no liquid can come out. The radius and height of the decoration are 3 cm and 7 cm respectively. The decoration is now placed on the horizontal ground with depth of liquid equals 2 cm .\n\n(a) (i) Express the volume of the liquid inside the decoration in terms of \\(\\pi\\).\n(ii) Express the wet curved surface area in terms of \\(\\pi\\).\n\n(b) The decoration hung down from the ceiling now so that it is inverted. Ada claims that the wet curved surface area will increase by more than \\(50 \\%\\) after it is inverted. Do you agree? Explain your answer.",
+      "stemZh": "14. 圖 3\n\n(a) 顯示一個錐形透明裝飾品的正視圖，內有一些液體。底部密封，液體不能流出。裝飾品的半徑及高分別為 \\(3\\) cm 及 \\(7\\) cm。現將裝飾品放在水平地面上，液體深度為 \\(2\\) cm。\n\n(a) \n\n(i) 以 \\(\\pi\\) 求裝飾品中液體的體積。\n(ii) 以 \\(\\pi\\) 求濕曲面面積。\n\n(b) 現將裝飾品從天花板垂下，倒置過來。Ada 聲稱倒置後濕曲面面積增加超過 \\(50\\%\\)。你是否同意？試解釋你的答案。",
+      "hint": "Calculate the values, then compare with the claim. State agree/disagree clearly.",
+      "hintZh": "先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
+      "solution": "14.(a)(i) \\(\\text { Vol. } =\\frac{1}{3} \\pi(3)^{2} \\times 7 \\times\\left(1-\\left(\\frac{5}{7}\\right)^{3}\\right) \\\\ =\\frac{654}{49} \\pi \\mathrm{~cm}^{3}\\) 1 M for \\(\\pi r l\\) or \\(\\frac{1}{3} \\pi r^{2} h\\) For (a)(i) for similar ratio \\( \\) and (a)(ii) \\\\ 14.(a)(ii) 14.(b) Area after inverted \\(=\\pi(3) \\sqrt{3^{2}+7^{2}} \\times\\left(\\frac{\\frac{654}{49} \\pi}{\\frac{1}{3} \\pi(3)^{2} \\times 7}\\right)^{\\frac{2}{3}}\\) \\\\ \\(=\\boldsymbol{b}\\) \\(\\% \\text { change } =\\frac{b-a}{a} \\times 100 \\% \\\\ \\approx 50.9 \\% \\\\ \\therefore \\mathrm{Yes}\\) { \\(1 \\mathrm{~A}+1 \\mathrm{M}\\) for the ratio \\(\\left(\\frac{V_{1}}{V_{2}}\\right)^{\\frac{2}{3}}\\) \\\\ IM for percentage change \\\\ IA f.t. } \\\\",
+      "solutionZh": "（a）（i）V = (1/3)π(3)²(7)[1−(5/7)³] = 654π/49。\n（a）（ii）倒置後面積 ≈ 約 50.9% 增加。\n（b）是。",
+      "answer": "See the final numerical statement in the worked solution above; retain the correct unit.",
+      "school": "Cpu",
+      "source": "Mock 2324 P1 Q14",
+      "level": "L2",
+      "topic": "Similar Solids, Internal Cuts and Liquids / 相似內切與倒水"
+    },
+    "matchedInventory": {
+      "id": "mock-cpu-2324-p1-final-q14",
+      "kind": "LongQ",
+      "question": "14. Figure 3(a) shows the front view of a conical transparent decoration with some liquid inside. The base is sealed so that no liquid can come out. The radius and height of the decoration are 3 cm and 7 cm respectively. The decoration is now placed on the horizontal ground with depth of liquid equals 2 cm .\n\n(a) (i) Express the volume of the liquid inside the decoration in terms of \\(\\pi\\).\n(ii) Express the wet curved surface area in terms of \\(\\pi\\).\n(b) The decoration hung down from the ceiling now so that it is inverted. Ada claims that the wet curved surface area will increase by more than \\(50 \\%\\) after it is inverted. Do you agree? Explain your answer.\n\n\\section*{SECTION B (35 marks)}",
+      "answer": "\\hline 14.(a)(i) & \\[\\begin{aligned}\n\\text { Vol. } & =\\frac{1}{3} \\pi(3)^{2} \\times 7 \\times\\left(1-\\left(\\frac{5}{7}\\right)^{3}\\right) \\\\\n& =\\frac{654}{49} \\pi \\mathrm{~cm}^{3}\n\\end{aligned}\\] & 1 M for \\(\\pi r l\\) or \\(\\frac{1}{3} \\pi r^{2} h\\) For (a)(i) 1M for similar ratio \\(\\quad\\) and (a)(ii) 1A &  \\\\\n\\hline 14.(a)(ii) 14.(b) & \\begin{tabular}{l}\nArea after inverted\n\\[=\\pi(3) \\sqrt{3^{2}+7^{2}} \\times\\left(\\frac{\\frac{654}{49} \\pi}{\\frac{1}{3} \\pi(3)^{2} \\times 7}\\right)^{\\frac{2}{3}}\\] \\\\\n\\(=\\boldsymbol{b}\\)\n\\[\\begin{aligned}\n\\% \\text { change } & =\\frac{b-a}{a} \\times 100 \\% \\\\\n& \\approx 50.9 \\% \\\\\n& \\therefore \\mathrm{Yes}\n\\end{aligned}\\]\n\\end{tabular} & \\multicolumn{2}{|c|}{\\begin{tabular}{l}\n1A \\\\\n\\(1 \\mathrm{~A}+1 \\mathrm{M}\\) for the ratio \\(\\left(\\frac{V_{1}}{V_{2}}\\right)^{\\frac{2}{3}}\\) \\\\\nIM for percentage change \\\\\nIA f.t.\n\\end{tabular}} \\\\",
+      "metadata": "mock-cpu-2324-p1-final-q14\n\nsource_type: mock\nprovider: cpu\nyear: 2324\npaper: P1\npaper_id: mock-cpu-2324-p1-final\nsource_id: mock-cpu-2324-p1-final-q14\nquestion_no: 14\nsection: A2\ntopics:\n  - mensuration_求積法\ncross_topic: false\nquestion_family: cone_liquid_similarity\nsort_key: 2324.p1.a2.mensuration.cone_liquid_similarity.14.mock-cpu-2324-p1-final-q14\nquestion_intent:\n  - solve_problem\nskills_broad:\n  - mathematics\nskills:\n  - mensuration\n  - similar_solids\n  - whole_pdf_mathpix_ocr\n  - strict_p1_round11_reviewed\nlearning_role:\n  - exam_standard\nstudent_need:\n  - structured_solution_training\ndifficulty:\n  dse_band: 5*\n  dse_rank: 6\n  concept: 6\n  execution: 5\n  trap: 6\n  exam: 6\ngeneration_profile:\n  can_generate_variant: true\n  variable_parts:\n    - numbers\n  fixed_structure:\n    - question_family\n    - skills\n  generation_risk: high\n  requires_diagram: true\nlanguage_original: en\ntranslation_needed: true\ntyped_content_status: mathpix_ocr_strict_reviewed\ndisplay_strategy: typed_content_primary\nscreenshot_original: screenshots_source_pages/LongQuestions/mock-cpu-2324-p1-final/mock-cpu-2324-p1-final-q14-source-page-p12.png\nsource_pdf: Core Maths Mock Package /2324/CPU/CPU 2024 P1.pdf\nsource_page_no: 12\nsource_page_image: screenshots_source_pages/LongQuestions/mock-cpu-2324-p1-final/mock-cpu-2324-p1-final-q14-source-page-p12.png\nquestion_screenshot: screenshots_source_pages/LongQuestions/mock-cpu-2324-p1-final/mock-cpu-2324-p1-final-q14-source-page-p12.png\nscreenshot_status: valid_question_crop\nrepair_action: accept_manual_contact_sheet_verified_long_existing_question_screenshot\nrepair_status: question_screenshot_verified\nreview_status: contact_sheet_visual_verified\nscreenshot_role: backup_verification_required_before_promotion\nimage_strategy: diagram_needed_not_generated\ndiagram_status: diagram_needed_future_image_queue\nimage_verified: true\ndiagram_need: required\ndiagram_reason: source_diagram_table_or_graph_needed\ndiagram_review_status: strict_2324_p1_round11_reviewed\ndiagram_notes: Diagram crop deferred; source screenshot backup must be rendered before promotion.\nrisk_level: medium\nrisk_reasons:\n  - strict_2324_p1_round11_cluster_checked\npromotion_gate: manual_promote_verified\nquestion_source_file: Core Maths Mock Package /2324/CPU/CPU 2024 P1.pdf\nquestion_ocr_evidence: classification_runs/2324/mathpix_pdf_ocr_p1_batch001/p1batch001_cpu_question_CPU_2024_P1/result.mmd\nanswer_source_file: Core Maths Mock Package /2324/CPU/CPU 2024 P1 MS.pdf\nanswer_ocr_evidence: classification_runs/2324/mathpix_pdf_ocr_p1_batch001/p1batch001_cpu_answer_CPU_2024_P1_MS/result.mmd\nanswer_location: Mathpix OCR answer chunk, Q14\nanswer_status: mathpix_ocr_solution_needs_review\nanswer: transcribed_solution_in_answer_section\nconfidence: high\nstatus: promoted_to_topic_file\n"
+    },
+    "candidateHtml": [
+      {
+        "similarity": 1.0,
+        "locator": "q-L027",
+        "text": "14.Figure 3(a) shows the front view of a conical transparent decoration with some liquid inside. The base is sealed so that no liquid can come out. The radius and height of the decoration are 3 cm and 7 cm respectively. The decoration is now placed on the horizontal ground with depth of liquid equals 2 cm .\n(a)(i) Express the volume of the liquid inside the decoration in terms of \\(\\pi\\).\n(ii)Express the wet curved surface area in terms of \\(\\pi\\).\n(b)The decoration hung down from the ceiling now so that it is inverted. Ada claims that the wet curved surface area will increase by more than \\(50 \\%\\) after it is inverted. Do you agree? Explain your answer.",
+        "figures": []
+      },
+      {
+        "similarity": 1.0,
+        "locator": "q-L027",
+        "text": "14.Figure 3(a) shows the front view of a conical transparent decoration with some liquid inside. The base is sealed so that no liquid can come out. The radius and height of the decoration are 3 cm and 7 cm respectively. The decoration is now placed on the horizontal ground with depth of liquid equals 2 cm .\n(a)(i) Express the volume of the liquid inside the decoration in terms of \\(\\pi\\).\n(ii)Express the wet curved surface area in terms of \\(\\pi\\).\n(b)The decoration hung down from the ceiling now so that it is inverted. Ada claims that the wet curved surface area will increase by more than \\(50 \\%\\) after it is inverted. Do you agree? Explain your answer.",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-l034",
+    "sourceRow": 34,
+    "kind": "long",
+    "original": {
+      "id": "MENS-L034",
+      "title": "L035. mock-dick_hui_postmock-2526-p1-final-q12 · LongQ / 長題",
+      "concepts": "L2: Similar Solids, Internal Cuts and Liquids / 相似內切與倒水",
+      "stem": "12. Figure (a) shows the sector \\(O A B C\\). By joining \\(O A\\) and \\(O C\\) together, \\(O A B C\\) is folded to form a right circular cone as shown in figure (b). Given that the radius of the sector is 32 cm .\n[diagram/image in source]\n\n(a) Find the height of the circular cone.\n\n(b) A hemispherical vessel of radius 24 cm is held vertically on a horizontal surface. The vessel is fully filled with water. A circular cone which has the same shape and size as the circular cone in figure (b) is now held vertically into the hemispherical vessel, as shown in figure (c). Dick Hui claims that over \\(80 \\%\\) of the curved surface of the cone is immersed in water. Is his claim correct? Explain your answer.\n{https://cdn.mathpix.com/cropped/507a4ed0-4c4b-4b70-95ad-cd819d5ed28a-08.jpg?height=495 width=479 top_left_y=1651 top_left_x=890}\n\n(c)",
+      "stemZh": "12. 圖 \n\n(a) 顯示扇形 \\(OABC\\)。將 \\(OA\\) 與 \\(OC\\) 接合，把 \\(OABC\\) 摺成一個直立圓錐，如圖 \n\n(b) 所示。已知扇形半徑為 \\(32\\) cm。\n\n(a) 求圓錐的高。\n\n(b) 一個半徑 \\(24\\) cm 的半球形容器垂直放在水平面上，完全注滿水。現將一個與圖 \n\n(b) 形狀大小相同的圓錐垂直放入半球形容器中，如圖 \n\n(c) 所示。Dick Hui 聲稱圓錐超過 \\(80\\%\\) 的曲面浸入水中。他的聲稱是否正確？試解釋你的答案。\n\n(c)",
+      "hint": "Sector angle = fraction × 360°. Arc length = fraction × circumference.",
+      "hintZh": "扇形：弧長 \\(l=r\\theta\\)，面積 \\(A=\\frac{1}{2}r^2\\theta\\)。\\n圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\\n排水 = 物體體積。\\n扇形摺成圓錐：扇形半徑 = 圓錐斜高，扇形弧長 = 圓錐底圓周。\\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
+      "solution": "12. (a) Let the base radius of the cone be \\(r \\mathrm{~cm}\\) \\[2 \\pi(32) \\times \\frac{216}{360}=2 \\pi r\\] \\[ r=19.2 \\] Let the height of the cone be \\(h \\mathrm{~cm}\\) \\[h=\\sqrt{32^{2}-(19.2)^{2}}=25.6\\] (b) Height of the frustum that is immersed in water \\(=\\sqrt{24^{2}-19.2^{2}}=14.4 \\mathrm{~cm}\\). Height of the smaller cone that is not immersed in water \\(=11.2 \\mathrm{~cm}\\) Consider the ratio of curved surface area of the smaller cone \\(A_{1}\\) and that of the larger cone \\(A_{2}\\) \\(\\frac{A_{1}}{A_{2}}=\\left(\\frac{11.2}{25.6}\\right)^{2}\\) \\(\\frac{A_{1}}{A_{2}}=\\frac{49}{256}\\) \\% immersed \\(=\\frac{256-49}{256} \\times 100 \\%\\) \\(=80.8 \\%>80 \\%\\) Therefore, his claim is correct.",
+      "solutionZh": "（a）2π(32)(216/360) = 2πr，r = 19.2。h = √(32²−19.2²) = 25.6 cm。\n（b）浸水截頭錐高 = √(24²−19.2²) = 14.4 cm。未浸水小錐高 = 25.6−14.4 = 11.2 cm：\n\\[\n\\frac{A_1}{A_2}=\\left(\\frac{11.2}{25.6}\\right)^2=\\frac{49}{256}.\n\\]\n浸水百分比 = (256−49)/256 × 100% = 80.8% > 80%，Dick Hui 正確。",
+      "answer": "See the final numerical statement in the worked solution above; retain the correct unit.",
+      "school": "Dick Hui Postmock",
+      "source": "Mock 2526 P1 Q12",
+      "level": "L2",
+      "topic": "Similar Solids, Internal Cuts and Liquids / 相似內切與倒水"
+    },
+    "matchedInventory": {
+      "id": "mock-dick_hui_postmock-2526-p1-final-q12",
+      "kind": "LongQ",
+      "question": "12. Figure (a) shows the sector \\(O A B C\\). By joining \\(O A\\) and \\(O C\\) together, \\(O A B C\\) is folded to form a right circular cone as shown in figure (b). Given that the radius of the sector is 32 cm .\n[diagram/image in source]\n(a) Find the height of the circular cone.\n(b) A hemispherical vessel of radius 24 cm is held vertically on a horizontal surface. The vessel is fully filled with water. A circular cone which has the same shape and size as the circular cone in figure (b) is now held vertically into the hemispherical vessel, as shown in figure (c). Dick Hui claims that over \\(80 \\%\\) of the curved surface of the cone is immersed in water. Is his claim correct? Explain your answer.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/507a4ed0-4c4b-4b70-95ad-cd819d5ed28a-08.jpg?height=495&width=479&top_left_y=1651&top_left_x=890}\n\\captionsetup{labelformat=empty}\n\\caption{(c)}\n\\end{figure}\n\\pagebreak",
+      "answer": "12. (a) Let the base radius of the cone be \\(r \\mathrm{~cm}\\)\n\\(2 \\pi(32) \\times \\frac{216}{360}=2 \\pi r\\)\n\\(r=19.2\\)\n\nLet the height of the cone be \\(h \\mathrm{~cm}\\)\n\\(h=\\sqrt{32^{2}-(19.2)^{2}}=25.6\\)\n(b) Height of the frustum that is immersed in water\n\\(=\\sqrt{24^{2}-19.2^{2}}=14.4 \\mathrm{~cm}\\).\n\nHeight of the smaller cone that is not immersed in water \\(=11.2 \\mathrm{~cm}\\)\nConsider the ratio of curved surface area of the smaller cone \\(A_{1}\\) and that of the larger cone \\(A_{2}\\)\n\\(\\frac{A_{1}}{A_{2}}=\\left(\\frac{11.2}{25.6}\\right)^{2}\\)\n\\(\\frac{A_{1}}{A_{2}}=\\frac{49}{256}\\)\n\\% immersed\n\\(=\\frac{256-49}{256} \\times 100 \\%\\)\n\\(=80.8 \\%>80 \\%\\)\nTherefore, his claim is correct.\n\\pagebreak",
+      "metadata": "mock-dick_hui_postmock-2526-p1-final-q12\n\nsource_type: mock\nprovider: dick_hui_postmock\nyear: 2526\npaper: P1\npaper_id: mock-dick_hui_postmock-2526-p1-final\nsource_id: mock-dick_hui_postmock-2526-p1-final-q12\nquestion_no: 12\nsection: A2\ntopics:\n  - mensuration_求積法\ncross_topic: false\nquestion_family: mensuration_solid_or_plane\nsort_key: A2.mensuration.mensuration_solid_or_plane.dick_hui_postmock.q12\nquestion_intent:\n  - solve_problem\nskills_broad:\n  - mathematics\nskills:\n  - batch061_whole_pdf_mathpix_ocr\n  - mensuration\nlearning_role:\n  - exam_standard\nstudent_need:\n  - structured_solution_training\ndifficulty:\n  dse_band: 5\n  dse_rank: 5\n  concept: 5\n  execution: 5\n  trap: 5\n  exam: 5\ngeneration_profile:\n  can_generate_variant: true\n  variable_parts:\n    - numbers\n  fixed_structure:\n    - question_family\n    - skills\n  generation_risk: medium\n  requires_diagram: true\nlanguage_original: en\ntranslation_needed: true\ntyped_content_status: manual_reviewed_readable_p1\ndisplay_strategy: typed_content_primary\nscreenshot_original: screenshots/LongQuestions/mock-dick_hui_postmock-2526-p1-final/mock-dick_hui_postmock-2526-p1-final-q12.png\nsource_page_image: screenshots/LongQuestions/mock-dick_hui_postmock-2526-p1-final/mock-dick_hui_postmock-2526-p1-final-q12.png\nquestion_screenshot: screenshots/LongQuestions/mock-dick_hui_postmock-2526-p1-final/mock-dick_hui_postmock-2526-p1-final-q12.png\nscreenshot_status: valid_question_crop\nrepair_action: accept_manual_contact_sheet_verified_long_existing_question_screenshot\nrepair_status: question_screenshot_verified\nreview_status: contact_sheet_visual_verified\nscreenshot_role: backup_verification_only\nimage_strategy: use_original_diagram_future_queue\ndiagram_status: diagram_needed_future_image_queue\nimage_verified: true\ndiagram_need: required\ndiagram_reason: question_depends_on_figure_or_table\ndiagram_review_status: manual_verified\ndiagram_notes: Original page retained as screenshot backup; diagram crop deferred.\nrisk_level: medium\nrisk_reasons:\n  - batch061_mathpix_whole_pdf_ocr\n  - marking_scheme_answer_aligned_by_question_number\npromotion_gate: manual_promote_verified\nquestion_source_file: Core Maths Mock Package /2526/Dick Hui/Postmock/Dick Hui 2026 Math Post-mock Paper 1.pdf\nquestion_ocr_evidence: classification_runs/2526/mathpix_pdf_ocr_batch061/batch061_dick_hui_postmock_q_Dick_Hui_2026_Math_Post-mock_Paper_1/result.mmd\nanswer_source_file: Core Maths Mock Package /2526/Dick Hui/Postmock/engrmockp1.pdf\nanswer_ocr_evidence: classification_runs/2526/mathpix_pdf_ocr_batch061/batch061_dick_hui_postmock_ms_engrmockp1/result.mmd\nanswer_location: Paper 1 marking scheme, Q12\nanswer_status: verified_from_mathpix_marking_scheme_by_question_number\nanswer: transcribed_solution_in_answer_section\nconfidence: high\nstatus: promoted_to_topic_file\n"
+    },
+    "candidateHtml": [
+      {
+        "similarity": 1.0,
+        "locator": "q-L029",
+        "text": "12.Figure (a) shows the sector \\(O A B C\\). By joining \\(O A\\) and \\(O C\\) together, \\(O A B C\\) is folded to form a right circular cone as shown in figure (b). Given that the radius of the sector is 32 cm .\n[diagram/image in source]\n(a)Find the height of the circular cone.\n(b)A hemispherical vessel of radius 24 cm is held vertically on a horizontal surface. The vessel is fully filled with water. A circular cone which has the same shape and size as the circular cone in figure (b) is now held vertically into the hemispherical vessel, as shown in figure (c). Dick Hui claims that over \\(80 \\%\\) of the curved surface of the cone is immersed in water. Is his claim correct? Explain your answer.\n{https://cdn.mathpix.com/cropped/507a4ed0-4c4b-4b70-95ad-cd819d5ed28a-08.jpg?height=495 width=479 top_left_y=1651 top_left_x=890}\n(c)",
+        "figures": []
+      },
+      {
+        "similarity": 1.0,
+        "locator": "q-L029",
+        "text": "12.Figure (a) shows the sector \\(O A B C\\). By joining \\(O A\\) and \\(O C\\) together, \\(O A B C\\) is folded to form a right circular cone as shown in figure (b). Given that the radius of the sector is 32 cm .\n[diagram/image in source]\n(a)Find the height of the circular cone.\n(b)A hemispherical vessel of radius 24 cm is held vertically on a horizontal surface. The vessel is fully filled with water. A circular cone which has the same shape and size as the circular cone in figure (b) is now held vertically into the hemispherical vessel, as shown in figure (c). Dick Hui claims that over \\(80 \\%\\) of the curved surface of the cone is immersed in water. Is his claim correct? Explain your answer.\n{https://cdn.mathpix.com/cropped/507a4ed0-4c4b-4b70-95ad-cd819d5ed28a-08.jpg?height=495 width=479 top_left_y=1651 top_left_x=890}\n(c)",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  },
+  {
+    "id": "import-mensuration-mens-l082",
+    "sourceRow": 82,
+    "kind": "long",
+    "original": {
+      "id": "MENS-L082",
+      "title": "L083. mock-dbs-2425-p1-final-q14 · LongQ / 長題",
+      "concepts": "L3: Fixed Volume Recasting and Splitting / 固定體積分割與重鑄",
+      "stem": "14. A solid metal sphere of radius 36 cm is melted and recast into a solid right circular cone of height 81 cm .\n\n(a) Find the base radius of the right circular cone.\n\n(b) A hemispherical bowl of radius 73 cm contains some water originally. The solid right circular cone in (a) is then slowly put into the bowl until it sits vertically in the bowl as shown in the figure below. After placing the cone in the bowl, the water level rises and the bowl is just full of water.\nSomeone claims that the total wet surface area of the circular cone and the bowl is less than \\(5.3 \\mathrm{~m}^{2}\\). Do you agree? Explain your answer.",
+      "stemZh": "14. 一個半徑 \\(36\\) cm 的實心金屬球熔化後，重鑄成一個高 \\(81\\) cm 的實心直立圓錐。\n\n(a) 求該直立圓錐的底半徑。\n\n(b) 一個半徑 \\(73\\) cm 的半球形碗盛有一些水。然後將 \n\n(a) 的直立圓錐慢慢放入碗中，直至垂直放置在碗內，如下圖所示。放入圓錐後水位上升，碗剛好注滿水。\n某人聲稱圓錐與碗的總濕表面面積少於 \\(5.3\\text{ m}^2\\)。你是否同意？試解釋你的答案。",
+      "hint": "Cone: V = (1/3)πr²h, slant height l = √(r²+h²). Frustum = big cone − small cone, use similarity.",
+      "hintZh": "圓錐：體積 \\(\\frac{1}{3}\\pi r^2 h\\)，斜高 \\(l=\\sqrt{r^2+h^2}\\)。\\n球：體積 \\(\\frac{4}{3}\\pi r^3\\)，面積 \\(4\\pi r^2\\)。\\n重鑄前後體積不變。\\n排水 = 物體體積。\\n先計算相關數值，再同題目聲稱比較，明確表態 同意/不同意。",
+      "solution": "14. (a) Volume of the metal sphere \\[ =\\frac{4}{3} \\pi(36)^{3} \\\\ =62208 \\pi \\mathrm{~cm}^{3}\\] Let \\(r \\mathrm{~cm}\\) be the base radius of the right circular cone. \\[ \\frac{1}{3} \\pi(81) r^{2}=62208 \\pi \\\\ r=48\\] ∴ The base radius of the right circular cone is 48 cm . (b) Refer to the following figure. Let \\(h \\mathrm{~cm}\\) be the length of \\(M N\\). \\(73^{2} =h^{2}+48^{2} \\text { (Pyth. theorem) } \\\\ h =\\sqrt{73^{2}-48^{2}} \\\\ =55 \\\\ V N =V M-M N \\\\ =(81-55) \\mathrm{cm} \\\\ =26 \\mathrm{~cm}\\) Total surface area of the sphere and the cylinder \\( =2 \\pi(73)^{2}+\\pi(48)^{2}+\\pi(48) \\sqrt{81^{2}+48^{2}}\\left[1-\\left(\\frac{26}{81}\\right)^{2}\\right] \\\\ =12962 \\pi+\\pi(48) \\sqrt{8865}\\left(\\frac{5885}{6561}\\right) \\\\ =53500 \\mathrm{~cm}^{2}(3 \\text { s.f. }) \\\\ >5.3 \\mathrm{~m}^{2}\\) \\(\\therefore \\) The claim is disagreed.",
+      "solutionZh": "（a）球 = 62208π。(1/3)π(81)r² = 62208π，r = 48 cm。\n（b）73² = h² + 48²，求 h。",
+      "answer": "See the final numerical statement in the worked solution above; retain the correct unit.",
+      "school": "Dbs",
+      "source": "Mock 2425 P1 Q14",
+      "level": "L3",
+      "topic": "Fixed Volume Recasting and Splitting / 固定體積分割與重鑄"
+    },
+    "matchedInventory": {
+      "id": "mock-dbs-2425-p1-final-q14",
+      "kind": "LongQ",
+      "question": "14. A solid metal sphere of radius 36 cm is melted and recast into a solid right circular cone of height 81 cm .\n(a) Find the base radius of the right circular cone.\n(b) A hemispherical bowl of radius 73 cm contains some water originally. The solid right circular cone in (a) is then slowly put into the bowl until it sits vertically in the bowl as shown in the figure below. After placing the cone in the bowl, the water level rises and the bowl is just full of water.\n\nSomeone claims that the total wet surface area of the circular cone and the bowl is less than \\(5.3 \\mathrm{~m}^{2}\\). Do you agree? Explain your answer.\n\n\\section*{SECTION B (35 marks)}",
+      "answer": "14. (a) Volume of the metal sphere\n\\[\\begin{aligned}\n& =\\frac{4}{3} \\pi(36)^{3} \\\\\n& =62208 \\pi \\mathrm{~cm}^{3}\n\\end{aligned}\\]\n\nLet \\(r \\mathrm{~cm}\\) be the base radius of the right circular cone.\n\\[\\begin{aligned}\n& \\frac{1}{3} \\pi(81) r^{2}=62208 \\pi \\\\\n& r=48\n\\end{aligned}\\]\n∴ The base radius of the right circular cone is 48 cm .\n(b) Refer to the following figure.\n\nLet \\(h \\mathrm{~cm}\\) be the length of \\(M N\\).\n\\[\\begin{aligned}\n73^{2} & =h^{2}+48^{2} \\quad \\quad \\text { (Pyth. theorem) } \\\\\nh & =\\sqrt{73^{2}-48^{2}} \\\\\n& =55 \\\\\nV N & =V M-M N \\\\\n& =(81-55) \\mathrm{cm} \\\\\n& =26 \\mathrm{~cm}\n\\end{aligned}\\]\n\nTotal surface area of the sphere and the cylinder\n\\[\\begin{aligned}\n& =2 \\pi(73)^{2}+\\pi(48)^{2}+\\pi(48) \\sqrt{81^{2}+48^{2}}\\left[1-\\left(\\frac{26}{81}\\right)^{2}\\right] \\\\\n& =12962 \\pi+\\pi(48) \\sqrt{8865}\\left(\\frac{5885}{6561}\\right) \\\\\n& =53500 \\mathrm{~cm}^{2}(3 \\text { s.f. }) \\\\\n& >5.3 \\mathrm{~m}^{2}\n\\end{aligned}\\]\n\\(\\therefore \\quad\\) The claim is disagreed.\n\n\\begin{tabular}{|l|l|l|l|}",
+      "metadata": "mock-dbs-2425-p1-final-q14\n\nsource_type: mock\nprovider: dbs\nyear: 2425\npaper: P1\npaper_id: mock-dbs-2425-p1-final\nsource_id: mock-dbs-2425-p1-final-q14\nquestion_no: 14\nsection: A2\ntopics:\n  - mensuration_求積法\ncross_topic: false\nquestion_family: mensuration\nsort_key: 2425.p1.a2.mensuration.mensuration.14.mock-dbs-2425-p1-final-q14\nquestion_intent:\n  - solve_problem\nskills_broad:\n  - mathematics\nskills:\n  - mensuration\n  - whole_pdf_mathpix_ocr\n  - strict_p1_round11_reviewed\nlearning_role:\n  - exam_standard\nstudent_need:\n  - structured_solution_training\ndifficulty:\n  dse_band: 5*\n  dse_rank: 6\n  concept: 6\n  execution: 5\n  trap: 6\n  exam: 6\ngeneration_profile:\n  can_generate_variant: true\n  variable_parts:\n    - numbers\n  fixed_structure:\n    - question_family\n    - skills\n  generation_risk: high\n  requires_diagram: true\nlanguage_original: en\ntranslation_needed: true\ntyped_content_status: mathpix_ocr_strict_reviewed\ndisplay_strategy: typed_content_primary\nscreenshot_original: screenshots_source_pages/LongQuestions/mock-dbs-2425-p1-final/mock-dbs-2425-p1-final-q14-source-page-p18.png\nsource_pdf: Core Maths Mock Package /2425/DBS/DBS-S6-2425-MOCK-MATH-CP 1.pdf\nsource_page_no: 18\nsource_page_image: screenshots_source_pages/LongQuestions/mock-dbs-2425-p1-final/mock-dbs-2425-p1-final-q14-source-page-p18.png\nquestion_screenshot: screenshots_source_pages/LongQuestions/mock-dbs-2425-p1-final/mock-dbs-2425-p1-final-q14-source-page-p18.png\nscreenshot_status: valid_question_crop\nrepair_action: accept_manual_contact_sheet_verified_long_existing_question_screenshot\nrepair_status: question_screenshot_verified\nreview_status: contact_sheet_visual_verified\nscreenshot_role: backup_verification_required_before_promotion\nimage_strategy: diagram_needed_not_generated\ndiagram_status: diagram_needed_future_image_queue\nimage_verified: true\ndiagram_need: required\ndiagram_reason: mathpix_detected_source_image\ndiagram_review_status: strict_2425_p1_round11_reviewed\ndiagram_notes: Diagram crop deferred; source screenshot backup must be rendered before promotion.\nrisk_level: medium\nrisk_reasons:\n  - strict_2425_p1_round11_question_answer_number_aligned\n  - mathpix_evidence_checked_by_rules\npromotion_gate: manual_promote_verified\nquestion_source_file: Core Maths Mock Package /2425/DBS/DBS-S6-2425-MOCK-MATH-CP 1.pdf\nquestion_ocr_evidence: classification_runs/2425/mathpix_pdf_ocr_p1_batch002/p1batch002_dbs_p1_question_DBS-S6-2425-MOCK-MATH-CP_1/result.mmd\nanswer_source_file: Core Maths Mock Package /2425/DBS/DBS-S6-2425-MOCK-MATH-CP 1-Solution.pdf\nanswer_ocr_evidence: classification_runs/2425/mathpix_pdf_ocr_p1_batch002/p1batch002_dbs_p1_answer_DBS-S6-2425-MOCK-MATH-CP_1-Solution/result.mmd\nanswer_location: Mathpix OCR answer chunk, Q14\nanswer_status: mathpix_ocr_solution_needs_review\nanswer: transcribed_solution_in_answer_section\nconfidence: high\nstatus: promoted_to_topic_file\n"
+    },
+    "candidateHtml": [
+      {
+        "similarity": 0.3879,
+        "locator": "q-MCQ66",
+        "text": "15. The base radius of a right circular cylinder is R , and the base radius of a right circular cone is r . If the volume of the circular cylinder is 9 times that of the circular cone and the two solids have the same height, then R : r = A. 9:1 . B. 3 : 1 . C. 3 : 1 . D. 1:1 .",
+        "figures": []
+      },
+      {
+        "similarity": 0.3155,
+        "locator": "q-MCQ46",
+        "text": "20. A solid metal sphere is cut into two hemispheres. What is the percentage increase or decrease of the total surface area?A) Not able to calculate the result\nB) Neither increased nor decreased\nC) Decreased by 50%\nD) Increased by 50%",
+        "figures": []
+      }
+    ],
+    "status": "待驗收",
+    "repairAttempt": "Same-question source image inspected; reconstructed editable SVG; independently recalculated answer."
+  }
+]

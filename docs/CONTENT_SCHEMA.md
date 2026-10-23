@@ -40,6 +40,16 @@ Rendering supports all six formats. Categories such as `conceptual` and `calcula
 
 Question IDs must be globally unique and stable across deployments; learning records use them as keys. Graph/diagram questions require their own reviewed, same-question visual before publishing.
 
+## Ordered bilingual question blocks
+
+The optional `contentBlocks` field has nonempty `en` and `zh-Hant` arrays. Array order is reading order. Supported entries are `{ "type": "paragraph", "text": "..." }`, `{ "type": "table", "rows": [["Header", "Value"], ["...", "..."]], "caption": "..." }` and `{ "type": "figure", "diagram": { ... } }`. Figures use the same reviewed diagram schema above. A stem-and-leaf display may be an editable table with its key in `caption`; an arbitrary table cannot substitute for a missing graph. Table headers use column `th`; wide tables can scroll locally using keyboard or touch.
+
+The renderer uses these blocks when present, while retaining `stem`/`stemZh` for search, compatibility and the summary index. Shared diagrams appear once in bilingual mode. The build validates nested text, formulas, taxonomy and each image, not only top-level fields. Existing plain questions and single `diagram` work unchanged. Solution text remains separate in `solution`/`solutionZh`; no source HTML is executed and no answer figure belongs in the question blocks. This batch does not add a separate rich solution-block schema.
+
+## Duplicate aliases and progress migration
+
+Only confirmed identical questions merge. Source references retain file/page/original number in `sourceAliases`; retired IDs use `sourceAliases[].retiredId`, emitted as `aliases` in the compact index. Lookup and exact-question URLs resolve to the surviving canonical ID. `Learning.migrateAliases` retains the old record, merges attempts and the latest answer into the canonical record, maps bookmarks and active-set IDs/drafts, and marks each migration idempotently. Overall totals are not counted twice. `tests/alias-migration.cjs` verifies repeated loads, mistakes and in-progress work. Do not recycle a retired ID for a different question.
+
 ## Imported provenance and delivery
 
 Imported records have `provenance` (collection, original file SHA-256, source topic/type/id/row/set/number and attribution status), `classification` (version, primary-method basis, original topic and source level), optional `editorialCorrections` and duplicate `sourceAliases`. Missing source attribution is explicitly labelled as not supplied. Original source rows, including rejected records, are retained outside the published `src/` directory.

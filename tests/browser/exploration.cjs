@@ -17,7 +17,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
    assert.equal(await page.locator('.leaf-two').evaluate(e=>getComputedStyle(e).backfaceVisibility),'visible');
    const moving=await page.locator('#triangle-shape').inputValue();await page.waitForTimeout(500);
    assert.notEqual(await page.locator('#triangle-shape').inputValue(),moving,'hero automatically changes geometry');
-   assert.equal(await page.locator('.chapter-art').count(),5);
+   assert.equal(await page.locator('.chapter-art').count(),7);
    const checkGeometry=async()=>{
     const data=await page.locator('.circle-study svg').evaluate(svg=>{
      const point=c=>[+c.getAttribute('cx'),+c.getAttribute('cy')],outer=svg.querySelector('.circumcircle'),inner=svg.querySelector('.incircle'),o=point(outer),i=point(inner),R=+outer.getAttribute('r'),r=+inner.getAttribute('r'),d=Math.hypot(i[0]-o[0],i[1]-o[1]);

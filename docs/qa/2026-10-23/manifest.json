@@ -1,0 +1,1045 @@
+{
+  "date": "2026-10-23",
+  "scope": "43 same-question figures: 19 statistics, 20 mensuration, 1 four-centres, 3 circle-equation. No PDF produced.",
+  "figures": [
+    {
+      "id": "import-four-centres-q238",
+      "asset": "assets/notes/import-four-centres-q238-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "a3987282fac80d636b837a72e76e395d308389f7272984e91367a9041f5fbacd",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-circle-equation-q68",
+      "asset": "assets/notes/note-circle-equation-q68-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "3009a1e35dd19650a3d0ed29f19ebd3a5048d5c7f3ecef40db3b088a7475b4d6",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-circle-equation-q69",
+      "asset": "assets/notes/note-circle-equation-q69-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "0bac478a024fe9048175651e7a194339663a9fccc2cfeb4f326bc45dbab49bd6",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-circle-equation-official-mcq-equation-read-1",
+      "asset": "assets/notes/note-circle-equation-official-mcq-equation-read-1-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "a585adfbae2f377dc630b5747b11f90fdf6b855a8f728c980a5fe1118cfe0eda",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m001",
+      "asset": "assets/notes/recovered-mens-m001.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "b099a788fcf0c2bcc8c3bdd533ba91bec54305bba3a6dc06ba38e8f55168be31",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m005",
+      "asset": "assets/notes/recovered-mens-m005.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "396abce56d23020612c701d22b63412a0adfbcd90891d1acf28318aa660b3e90",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m015",
+      "asset": "assets/notes/recovered-mens-m015.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "c0509064f5b561f0f5685697c55159afb0c46ae58ee138985f41d6d9acc7250d",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m022",
+      "asset": "assets/notes/recovered-mens-m022.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "ce46cc43bc41ea55f67a2206aea418876e9ac19dc90cc13c3384eb729c3a0ebe",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m025",
+      "asset": "assets/notes/recovered-mens-m025.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "2138872c76d6fa17908d211b428d99d1059927fc152ce4373726dee2e7f955be",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m029",
+      "asset": "assets/notes/recovered-mens-m029.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "2357b06ae3cdcae193676f0dec732fbc987ad544321248ae7ee27e26b4753517",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m036",
+      "asset": "assets/notes/recovered-mens-m036.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "fbee7036a3449e3b5b4987eda73a2d5bcec44ec888ca77b5fac6818131764561",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m037",
+      "asset": "assets/notes/recovered-mens-m037.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "fbee7036a3449e3b5b4987eda73a2d5bcec44ec888ca77b5fac6818131764561",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m039",
+      "asset": "assets/notes/recovered-mens-m039.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "7c87906d40b6d79fa589896c548f1cb39c5a94f10c3fab1484a39ec59803fc6e",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m047",
+      "asset": "assets/notes/recovered-mens-m047.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "6defb6d18e240c3da6ff7e28c65b26d40a25aef99f8d8932889c76bd7657a94b",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m050",
+      "asset": "assets/notes/recovered-mens-m050.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "82d3d857e58c7b7645cf897b2363699f6b18d2ab7af6e87075815c568b2a2463",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m058",
+      "asset": "assets/notes/recovered-mens-m058.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "827e6519687f26f5250edd19163e711f89afeeca89ab2de32016476c8e307dfd",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-m060",
+      "asset": "assets/notes/recovered-mens-m060.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "02f4c0ea5a10684ad44a12d7877e124f89e8973828455501a07a2e134e3e3213",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-l001",
+      "asset": "assets/notes/recovered-mens-l001.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "5e373c869974eb6bca996d36fdae140fa14fa90ccace0093b38860b6659245ba",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-l007",
+      "asset": "assets/notes/recovered-mens-l007.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "c5fb8cd0f13fa5713ddb1df1c9e4894ea54aec98a6772744ebb52692baf96d5d",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-l015",
+      "asset": "assets/notes/recovered-mens-l015.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "98ee49b394704fff12220919367fd5dc2f83e8fec214efcaad211dbbef296d67",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-l028",
+      "asset": "assets/notes/recovered-mens-l028.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "c95ca4e10a20a86cf5d3907ffd715ec0c01865c5fa85596020042480e422ccc0",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-l032",
+      "asset": "assets/notes/recovered-mens-l032.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "ee135ece026a5832537b313d8f016940a2aea1c840b946d3197c829c5ac38ccf",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-l034",
+      "asset": "assets/notes/recovered-mens-l034.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "5e6b9b5ebd8d3fa79b70766ce1d0961e18ce035853bb9a4c9692c754c276a40c",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "import-mensuration-mens-l082",
+      "asset": "assets/notes/recovered-mens-l082.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "f29952a0a5257d29d86b8c96fad8d7ac82ed981e8a69fc30e7310f42b3905a2c",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r03a",
+      "asset": "assets/notes/note-statistics-r03a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "3455fd899663e3c9a53b913e9908aa0511b61772a29d1de69f6f552f97012f56",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r07a",
+      "asset": "assets/notes/note-statistics-r07a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "38e07d02061b8c25140e1b9ec29ad66227248045f845114c367418ce87ae27b5",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r11a",
+      "asset": "assets/notes/note-statistics-r11a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "42d3f6d36924b0e860e15863c6643142e41d6f5ad8b238099c842b1fbf0beb75",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r11b",
+      "asset": "assets/notes/note-statistics-r11b-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "b541501e9400e982209f179f82760fe52ab72d2cf1499954b920fa7a7e6f8c06",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r12a",
+      "asset": "assets/notes/note-statistics-r12a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "45a897aaf17fa40fedee28fb192d79a84cd9b7abee4d6f03c05469b3ccb5d484",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r13a",
+      "asset": "assets/notes/note-statistics-r13a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "11366229488f774b934f2f6437e9be83bbbe9b456403fe0fb307852fc4356e6c",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r14a",
+      "asset": "assets/notes/note-statistics-r14a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "a7afbc3e2fa8b89b3123f68fe384fc2f6b0d1c52331c7822766d0d795330c145",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r15a",
+      "asset": "assets/notes/note-statistics-r15a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "3dcb392b89c0cf1a26d100fbd34718c059f403eaff4bb826c68700ca034ff033",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r16a",
+      "asset": "assets/notes/note-statistics-r16a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "4b01cc73e88e34b10203fc1061494a1e9bdcb57705590634fd20789a61a5a8d0",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r26a",
+      "asset": "assets/notes/note-statistics-r26a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "e579a472b3dcec9df20a26eadcf92651ae958238137517f44f2b8306d6b84603",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-mock-hys-2425-p1-final-q11",
+      "asset": "assets/notes/note-statistics-mock-hys-2425-p1-final-q11-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "faa43a2baed7c622f991ab43b648a4be4334d91e4ef1bac3f189dddbc9edbc80",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r31a",
+      "asset": "assets/notes/note-statistics-r31a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "a85d842794500aee9c16223c9b1be6fba6deb603080e905d4d1925da1c2e69f7",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r32a",
+      "asset": "assets/notes/note-statistics-r32a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "e67191c469ebcdc54de91476666a7f65a516c6d4d76393cfa79edef5a6668df8",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r33a",
+      "asset": "assets/notes/note-statistics-r33a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "b602e2ec9176776e7ff894e21821a3c70fce2241a4524ce51469ad54a03c4e05",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r34a",
+      "asset": "assets/notes/note-statistics-r34a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "303d328c2c1a2dc909865adaf0de9b7690f2503d06f4debf990037044eca3c6f",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-mock-spyc-2425-p1-final-q11",
+      "asset": "assets/notes/note-statistics-mock-spyc-2425-p1-final-q11-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "b332833ab76752fc8f8e5b144af5b26ed8f5f093cac02b2fada04431260b7a77",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r36a",
+      "asset": "assets/notes/note-statistics-r36a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "927d887de60f8d95e41596e43895082e8b36d3f4dfc3d45dff1bc0cb9d84d957",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r37a",
+      "asset": "assets/notes/note-statistics-r37a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "a16221f9f0b926881bb9d7260ca05670ac7ce5623e693e5dde0f36b509e24ca2",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    },
+    {
+      "id": "note-statistics-r46a",
+      "asset": "assets/notes/note-statistics-r46a-1.svg",
+      "widths": [
+        900,
+        390
+      ],
+      "status": "rendered-for-visual-inspection",
+      "assetSha256": "173610fad007caf130a9d9e3ae525328563aed6a173f5b5a85346ce8f26e8b7b",
+      "review": "同題來源、標籤及數據人工核對；獨立圖及實際900/390px預覽已檢視。"
+    }
+  ],
+  "files": [
+    {
+      "file": "figures/contact-1.jpg",
+      "sha256": "3acfc6fc1c017b881473b12cfa86c4f6cb5e6aee6ebb2094c6a32813a51f3cab"
+    },
+    {
+      "file": "figures/contact-2.jpg",
+      "sha256": "d7e61b6663783a1fdfe842b2120193c491cbe6f67252239ffd144bdddcc24a1b"
+    },
+    {
+      "file": "figures/contact-3.jpg",
+      "sha256": "a1a68b4989327d3b5e905fa536178afc47c6db9c8a15483b66f487518faacb6a"
+    },
+    {
+      "file": "figures/contact-4.jpg",
+      "sha256": "030aba3bbcb1a873e018dcdba87df82f9541e23f409bdd4d146056e74f2b8c4e"
+    },
+    {
+      "file": "figures/contact-5.jpg",
+      "sha256": "7752ba63827b83d46f38d67035e43da063d27851fbb18201225e99d93c5fd969"
+    },
+    {
+      "file": "figures/contact-6.jpg",
+      "sha256": "bcce7a3ff311a7fd3339035dc188edcddc5feb3898746d3cd21ecad501df9545"
+    },
+    {
+      "file": "figures/import-four-centres-q238-390-0.png",
+      "sha256": "6f6e2b93e1f324eb93f77997efe1ce44233c37dca0169bef28782403d2d07604"
+    },
+    {
+      "file": "figures/import-four-centres-q238-900-0.png",
+      "sha256": "e6e9f5ec55e7d63e80d7f7e018923778327884248f40ee442f2ae4b5dd947bcc"
+    },
+    {
+      "file": "figures/import-four-centres-q238-asset.png",
+      "sha256": "e418cf6dc484bb2096d8220f1ebe8aa228c1459933a4483d59ec107630d5c62d"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l001-390-0.png",
+      "sha256": "b6240d01ea8851c2c05373af7b4ffc559b0def68118500c18d613498a8ec5ab9"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l001-900-0.png",
+      "sha256": "e9b404ba61e69c561fa4feba2da0114e755c2446446becbdd35d02d68f9734f6"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l001-asset.png",
+      "sha256": "b5898ba69a250291a8bcf8af249a1d23c9bdb13543d4cf307ed8339050e58659"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l007-390-0.png",
+      "sha256": "9a399b4d4bcc69f4f1acdcc1bb2fda035e0a1c77df3701b5215413c5b34dc97f"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l007-900-0.png",
+      "sha256": "746b2a6ecd1d0a5b24da3e60a396ea278bc28c2e0f2fd3d9d08f7da5675c33d5"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l007-asset.png",
+      "sha256": "044be1cf99a6acd070b7f85859e5737e23c379746bbe614dc13c8b3238f10d0a"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l015-390-0.png",
+      "sha256": "3f367b930651f8181cd74be7609d1f8e93b186ac7b947a71fcc7451a92a57d94"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l015-900-0.png",
+      "sha256": "d00764ff2624647ff328cebf5ecf415a2953558fdc2aafc930abb909243faf20"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l015-asset.png",
+      "sha256": "dca42058f9338e9c3c38e765c53c7afe014873c8e7c7a9c086b7599165bed129"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l028-390-0.png",
+      "sha256": "82debfb2b1d3978c31d9031b630cd1a865e5fa36b758bf2b26e222027c1b5e4d"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l028-900-0.png",
+      "sha256": "0c7191214c4c2650ebfe24aed832e59145f77fe494992cc2e0c1b60126cf159a"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l028-asset.png",
+      "sha256": "af748a81565b8ea02260eb7b73f2f4c8da2677325c01a57b9622a08c2bbb4e16"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l032-390-0.png",
+      "sha256": "00bdcac393d23f3ae24b7c4e64e010c3c9cccebaa1ce4c8f8033250801fc5b62"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l032-900-0.png",
+      "sha256": "4f406cf1aefcb82ca11f2344d1f7e1e478475940ac902d574ae64bc4463e843f"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l032-asset.png",
+      "sha256": "a91e20526772820cfbd090357a48c453663c749b6e30f38ff45a646440ec59a3"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l034-390-0.png",
+      "sha256": "aac0bcd85ffaeb785ea9098a9626b2b5cbb5cabf61ebe6b29b30d1d8f70f0f48"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l034-900-0.png",
+      "sha256": "b3a196532ca197cf8ca3221c86c6ee2119ff4ef2daf9fcb1a094742c180b5978"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l034-asset.png",
+      "sha256": "7522bdadccd0cbf3f18eb351bf3cddd30ccd8378ceb337e4e973811e511e6533"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l082-390-0.png",
+      "sha256": "9e10ce8425859e8d59107d4bd950f177517bfc79e49f574d70ae48797970400f"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l082-900-0.png",
+      "sha256": "f3abf32fe6c052d228d3bae946e703a02ee2b2e12b6822ba1b83f195d4e10cb6"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l082-asset.png",
+      "sha256": "a43c4663d5f215ab1ca2faa72055403c05aaf756d759c42539218b8bd7495977"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m001-390-0.png",
+      "sha256": "0ecb16966df9ca3722ec501c730fed1c325b33cb802e1eee285ca3b46d08fc34"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m001-900-0.png",
+      "sha256": "029c09aead903e1f49318bc7d0c42dbdd10ff467bd9b9364fff0c817f519e2e9"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m001-asset.png",
+      "sha256": "7073974ad11c2bc09c150c9799133acd6c7e487974a201228bb3e91ecc13af5d"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m005-390-0.png",
+      "sha256": "212110f91398aa6c3a1f0ec04ba8318900c0b0de01205f6ced49d93c0ccf7a31"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m005-900-0.png",
+      "sha256": "3d841ee5f0e3ea8bbbc43becf7a57e1b94e288719582df95f449c14cfa704633"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m005-asset.png",
+      "sha256": "b82dd0456ce6844a2d211fdb246b03e5db3a5eaa2a89c1351b01a6ae349a733a"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m015-390-0.png",
+      "sha256": "d88e2c2cd6e798e86f0f6c1fb8e2f23ac14e53ba6fef9db745255540334d9123"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m015-900-0.png",
+      "sha256": "0a847d92f31dcab6f7d76545d04770837915133a2e41195bb7820dcf34fba09f"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m015-asset.png",
+      "sha256": "f2ddbea295cd98cf7575404c85e56e87560c9b196e73416e1c345ed821ada429"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m022-390-0.png",
+      "sha256": "281f89dc207f21a40d981a977ae47ee0103ae6fdb44ad70e2e3e93cbc2a0c2a7"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m022-900-0.png",
+      "sha256": "c99ded9801a2655ba77770b9103d58e403b1325a6aef8d99c0f5fcf6845a5079"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m022-asset.png",
+      "sha256": "44a23cb3bffbd8a84610e39b338e2c23cfe972cab12237974b0889cfa80e1cd8"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m025-390-0.png",
+      "sha256": "a9e55d31469c0288cc4f2170228485d8ded5f03333706d8e1f8aa587de286867"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m025-900-0.png",
+      "sha256": "513e47e26812fd3d1991a2fa18a4c749c9ad9c29b52ab1a2e18839744346d4ab"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m025-asset.png",
+      "sha256": "4702bc42c6eb9b721eb5f14509b39b28cdcd7b612a85351dad4b019b631b8256"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m029-390-0.png",
+      "sha256": "966b52b17da62b37e2d18c8842d828caa65b35bbdd1acc3718cc9f7bb87590a3"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m029-900-0.png",
+      "sha256": "ba11997bfb90242a35c0027a2ad718a9aafb6845d05ce49c244ec2d1deab423f"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m029-asset.png",
+      "sha256": "4ef90156ca32871d321a0461254a63c45d37f79627bd53737d6bfb0700982844"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m036-390-0.png",
+      "sha256": "9120980ff31628027aba3a243863f42370ff5b2f0a75521b75e66fac0a49ffde"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m036-900-0.png",
+      "sha256": "2c39dc69d340a8cecb138f37cd3e9261396a2c54192ce7b812dcb30714a17afd"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m036-asset.png",
+      "sha256": "3bd1f3224afdd30f7fe1da7746fa3d1bbd5c8e932afac01c2abde502b4a317c8"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m037-390-0.png",
+      "sha256": "9120980ff31628027aba3a243863f42370ff5b2f0a75521b75e66fac0a49ffde"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m037-900-0.png",
+      "sha256": "7b9040924b5ecd28bcd57316cb65190e94fca0ba9481b62130dc9ccb28a57291"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m037-asset.png",
+      "sha256": "3bd1f3224afdd30f7fe1da7746fa3d1bbd5c8e932afac01c2abde502b4a317c8"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m039-390-0.png",
+      "sha256": "50f783f22f27c15606d60a8b87235dfc0b2aec89376bc7fb0ef158ca8b4092c1"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m039-900-0.png",
+      "sha256": "931dc3b18272f371ab3cbf933aea96dc2c7026d7bf4065bbfcf6da321a6172c4"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m039-asset.png",
+      "sha256": "f6d2f0149dc9117e007dee082cde94dd19c8be87f8275b387cd796f48f0c8628"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m047-390-0.png",
+      "sha256": "4917fbc1a25bf191ffddbe8012d499671ae1a6e572ef2da46c97b7f3960d1d4b"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m047-900-0.png",
+      "sha256": "d29d406b1a2dccce3541f9c025ab66701139ad051bf878c82d52287820a31d5d"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m047-asset.png",
+      "sha256": "000256f1e5581cd3cb0950aa852f45878c952b6a7f6893dec54537ae1f2c1b8d"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m050-390-0.png",
+      "sha256": "f3d9df53ba867f08903be1e8ce4fa0fe2ecb954b5fb9b57b29524ae23f2d7443"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m050-900-0.png",
+      "sha256": "e5fc007175da61783895a2dd21ea3860ca4d4524df0cba39d53d2356c512aeb3"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m050-asset.png",
+      "sha256": "bbd2d25653e3c2d456fb800f7361a6d46e07c9a8fa046e416200b3e3f27a637e"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m058-390-0.png",
+      "sha256": "fdb38a39e1b151369baccbc34b35a67734a2fd2df3b705443b315bb9d9e9aab2"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m058-900-0.png",
+      "sha256": "c72c74a88777c4de3012f1a06a46657a9a5f3668a2eb09cac0ad3ddcf599bf46"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m058-asset.png",
+      "sha256": "de3c3a6e5ad086959ff97c38e2e7e2b3f5d695baa6cac733029f0bcd86c3fb38"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m060-390-0.png",
+      "sha256": "177ce4d3083614037c2375a2b7a76dc9077513a9820168acb8901ea906b683d6"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m060-900-0.png",
+      "sha256": "cc0362519bccd093b3736cfa6050b4677f6c10309be8baf1bd6cfa9c2835b239"
+    },
+    {
+      "file": "figures/import-mensuration-mens-m060-asset.png",
+      "sha256": "e47a63d078b7337cde9cf72ab6d05d9747d3e58a86a49e6a108561cf27c1a364"
+    },
+    {
+      "file": "figures/note-circle-equation-official-mcq-equation-read-1-390-0.png",
+      "sha256": "48dbb8d4875fd2261e670ded5892fcda7fbe34e2a3276c039bc940bc848ce0ec"
+    },
+    {
+      "file": "figures/note-circle-equation-official-mcq-equation-read-1-900-0.png",
+      "sha256": "df7250fb899ebf863914f7ee038bad2dcf16e17f33e73da30320546e91cbef97"
+    },
+    {
+      "file": "figures/note-circle-equation-official-mcq-equation-read-1-asset.png",
+      "sha256": "32f81a152ff11a066c25cc35af77383ba5fd9a49702568ff3fc06fa517b72ada"
+    },
+    {
+      "file": "figures/note-circle-equation-q68-390-0.png",
+      "sha256": "0635ea4147b1f93004c32af7c4cd831594411952109ae3e4a8e9ab382be25cc7"
+    },
+    {
+      "file": "figures/note-circle-equation-q68-900-0.png",
+      "sha256": "a1e1db612c16461349986ed0cc2e2a45ab0612916188ea5a30153ddd51f8ff71"
+    },
+    {
+      "file": "figures/note-circle-equation-q68-asset.png",
+      "sha256": "1471dd5385588ee19afd5a0d795c6b495ba2df189e95af07b2503f71fd1ee034"
+    },
+    {
+      "file": "figures/note-circle-equation-q69-390-0.png",
+      "sha256": "1f267b95c876411c56965565ddd813e9a8d639ad2b364524f507bbcc58871178"
+    },
+    {
+      "file": "figures/note-circle-equation-q69-900-0.png",
+      "sha256": "a0f1c313bfe2831bf602b8ff5626b672825d897108b052a61f6be5908ea6f9cd"
+    },
+    {
+      "file": "figures/note-circle-equation-q69-asset.png",
+      "sha256": "9bc19b79f679f0aaaf2f685dcbd7466e0b015d993fd9c48efb5a9da4ec18bbce"
+    },
+    {
+      "file": "figures/note-statistics-mock-hys-2425-p1-final-q11-390-0.png",
+      "sha256": "db74b6406bbfc00a4ebacc6ac4957bd9ea26042f31fe84ae0335251dee54fcfb"
+    },
+    {
+      "file": "figures/note-statistics-mock-hys-2425-p1-final-q11-900-0.png",
+      "sha256": "4b904dd75586d1332b41775144555dda8ccc667a9f75569e4adb207f50657d77"
+    },
+    {
+      "file": "figures/note-statistics-mock-hys-2425-p1-final-q11-asset.png",
+      "sha256": "77784f8063a45b6c7e9f399512bc2df18acc59dd0b00ce59d6efe93945ed9de6"
+    },
+    {
+      "file": "figures/note-statistics-mock-spyc-2425-p1-final-q11-390-0.png",
+      "sha256": "fffb7eafd31bdb1879474ed2a9e5576a021e2844dd2f8b97cd2512a7a1db6004"
+    },
+    {
+      "file": "figures/note-statistics-mock-spyc-2425-p1-final-q11-900-0.png",
+      "sha256": "7c232de0859b074976d61d3bfa0e6c66eb80b6f9736ded8348e8c793588729b2"
+    },
+    {
+      "file": "figures/note-statistics-mock-spyc-2425-p1-final-q11-asset.png",
+      "sha256": "750bfc46682f6989eddd6bd5c142e39997d4ac44e3f4d11eefc6296ef123e2c8"
+    },
+    {
+      "file": "figures/note-statistics-r03a-390-0.png",
+      "sha256": "25239c3809e1f4455b4d1dd8e57f8e13d7fa2e1ef33bd83f92a6ede20371e8bc"
+    },
+    {
+      "file": "figures/note-statistics-r03a-900-0.png",
+      "sha256": "bf1f562bfc207fe93c9fafb26f8c79f4e9fac63716104e18f5789c2c23c44c6d"
+    },
+    {
+      "file": "figures/note-statistics-r03a-asset.png",
+      "sha256": "6e5159dfb2f0e19deb5fe24576fea80eb0beb3f2eacb5df0ca52cc07917e6077"
+    },
+    {
+      "file": "figures/note-statistics-r07a-390-0.png",
+      "sha256": "9213e21e0e40adc918936fd8e209398a2efb8281ae07ec9f88700eaa230ca519"
+    },
+    {
+      "file": "figures/note-statistics-r07a-900-0.png",
+      "sha256": "e51ece9309f485294c8f7045e2254582858354448737e96ca1a3d99d5d7b9122"
+    },
+    {
+      "file": "figures/note-statistics-r07a-asset.png",
+      "sha256": "761c75fca9423dca17a9803f14da612fa6136a9d79c78c8610ca9c5dcf862168"
+    },
+    {
+      "file": "figures/note-statistics-r11a-390-0.png",
+      "sha256": "aa0988e181c47587647ea3eec671f0995f0ed3bc9ae3c859999fdab32d9e3f06"
+    },
+    {
+      "file": "figures/note-statistics-r11a-900-0.png",
+      "sha256": "ce24612389aa73a307ec3883e22976fa2b651fe58ce0cbd4cca61f62d78ac108"
+    },
+    {
+      "file": "figures/note-statistics-r11a-asset.png",
+      "sha256": "3bf806ef1cbb42e77585d11397982a82fb259a4ac2cafa8fd32c356a44c72a0b"
+    },
+    {
+      "file": "figures/note-statistics-r11b-390-0.png",
+      "sha256": "4a323834803d2c7d076456798f2b7528851739c089b3ef0f2d4a97a2496afcd1"
+    },
+    {
+      "file": "figures/note-statistics-r11b-900-0.png",
+      "sha256": "93c7d52d87151c26d25ee7463cc7ff0aae07f9e8eda2f10dac53956d215386ae"
+    },
+    {
+      "file": "figures/note-statistics-r11b-asset.png",
+      "sha256": "bb4382e84e1ac655f84ad554dcdd4b8680b3d1379fabd7b6f41027fc533c7601"
+    },
+    {
+      "file": "figures/note-statistics-r12a-390-0.png",
+      "sha256": "90cc66c338c7d0df829a19c3a83948a022a0d3e3d826a02f6b4cd349742b7afe"
+    },
+    {
+      "file": "figures/note-statistics-r12a-900-0.png",
+      "sha256": "e7d90eea4be31aadf26a398d5e53a075eb1526dae255ef22d11a962003c7ad1c"
+    },
+    {
+      "file": "figures/note-statistics-r12a-asset.png",
+      "sha256": "7b4425d1778ac0caa22edd45d0fb4b9c81ed945080e4024c1f3dbbbaab9ca08f"
+    },
+    {
+      "file": "figures/note-statistics-r13a-390-0.png",
+      "sha256": "0124081f0dbd797c3ce7e08b4ec34c7f580a1d0638e181d1a266cb669aa9ce88"
+    },
+    {
+      "file": "figures/note-statistics-r13a-900-0.png",
+      "sha256": "4125af0ab33f63ad6df104d4d56b08c8ce69e69b39b39209dff2f643bdd23fc9"
+    },
+    {
+      "file": "figures/note-statistics-r13a-asset.png",
+      "sha256": "1a47bb90568fbaf3e0644ffae44415a7124ff2a8bc3ff5a3236e54b29c8fee7b"
+    },
+    {
+      "file": "figures/note-statistics-r14a-390-0.png",
+      "sha256": "6e28572cfec42b9cd0ba8f82c292e384d5bebb83bafd67bb0a71d27e4ed98d94"
+    },
+    {
+      "file": "figures/note-statistics-r14a-900-0.png",
+      "sha256": "f2cb879a6bd73074ce5534216c8349bacc00ca2cc9b6f6d9359375d2bc7c2d58"
+    },
+    {
+      "file": "figures/note-statistics-r14a-asset.png",
+      "sha256": "c61c10342a0a289313ac97e0c5b92464a7ac187b7b7f2e75f377dce87005cf83"
+    },
+    {
+      "file": "figures/note-statistics-r15a-390-0.png",
+      "sha256": "7720adc74ea665fa3720927f1f8e10aed6de97826251f1f63a27dc6e93976891"
+    },
+    {
+      "file": "figures/note-statistics-r15a-900-0.png",
+      "sha256": "f5dba1eac084d4271ee19a17c4b9b6a97a1bf7bda0878c30eaf012aa7eb843bc"
+    },
+    {
+      "file": "figures/note-statistics-r15a-asset.png",
+      "sha256": "91f6ad694b0036a1ee017ae60745d42a35af6c3d37f8a860af8dd54975d4da77"
+    },
+    {
+      "file": "figures/note-statistics-r16a-390-0.png",
+      "sha256": "a2ca3ea6c13b615087425638f6a6ec7ddf9404ad9047118e1c25715ff59c0be4"
+    },
+    {
+      "file": "figures/note-statistics-r16a-900-0.png",
+      "sha256": "c86fc8855466b7942d66b5fc272be1d652c3633b6956081737898c5fa233821c"
+    },
+    {
+      "file": "figures/note-statistics-r16a-asset.png",
+      "sha256": "cf8f147b89907bcf78d04bc66aab6b8f373c77a38841867455efcad9f3391e78"
+    },
+    {
+      "file": "figures/note-statistics-r26a-390-0.png",
+      "sha256": "433c98640db4090df54548d87a3c6b0dfded4c002465e1704ddcd13f55a5f39e"
+    },
+    {
+      "file": "figures/note-statistics-r26a-900-0.png",
+      "sha256": "ce6d35a57f6507b4218e7807a0375a59a610645d22ae7af106089e19172805ed"
+    },
+    {
+      "file": "figures/note-statistics-r26a-asset.png",
+      "sha256": "823a8f123aa38611bd26d8b1d2bdd73dacf024a37d076b5422cbe6d16e9d6d26"
+    },
+    {
+      "file": "figures/note-statistics-r31a-390-0.png",
+      "sha256": "046682e6ebab56f2aee610a5209a83ffea116b4bb7191855a86d72e78c12dc11"
+    },
+    {
+      "file": "figures/note-statistics-r31a-900-0.png",
+      "sha256": "4a8ff433d652987008faf7198d11e6a17029787f2108fd53a1e6ff3446d04b8b"
+    },
+    {
+      "file": "figures/note-statistics-r31a-asset.png",
+      "sha256": "595726035771c3578ba3f6f45a05867d0369554f8003146fcfacddba13463c6a"
+    },
+    {
+      "file": "figures/note-statistics-r32a-390-0.png",
+      "sha256": "eae2f8c76270ea06c4c481f954cf41615ac2b54b602fcc21419b7b7cfa1a8ff7"
+    },
+    {
+      "file": "figures/note-statistics-r32a-900-0.png",
+      "sha256": "a09ae524439c778207044e1634dbcebae483c12ecb78229fd77c9adb4664a349"
+    },
+    {
+      "file": "figures/note-statistics-r32a-asset.png",
+      "sha256": "a00c532569d7ac51eac18256f765fc3a4e1bcb4b9894ba0f26b00c4a6fbe8e45"
+    },
+    {
+      "file": "figures/note-statistics-r33a-390-0.png",
+      "sha256": "18e096e652593106a88bade202bceb7f97d0ba38c4221792697ad7b641f4283e"
+    },
+    {
+      "file": "figures/note-statistics-r33a-900-0.png",
+      "sha256": "842b2d4b3f6f45ced469ce6540a1936a38282058ce815826c5144a6048bbe6a3"
+    },
+    {
+      "file": "figures/note-statistics-r33a-asset.png",
+      "sha256": "a53cc5525ac57645cf95a9c0c1448e77233b6a9579dc381b1fc9ceb3d989f67b"
+    },
+    {
+      "file": "figures/note-statistics-r34a-390-0.png",
+      "sha256": "53ab95c02813833e817cf9d1d580e007c58060b24181c8793e10c6c141c273ad"
+    },
+    {
+      "file": "figures/note-statistics-r34a-900-0.png",
+      "sha256": "89f0ce9e4bc3f0aacf7a3b74aaf5406418eb29b73482a0eea49d94ed4603e59b"
+    },
+    {
+      "file": "figures/note-statistics-r34a-asset.png",
+      "sha256": "d385e707a8ef91efc858b9b2b8c63df962ed016e630e002d3181cc26174983a6"
+    },
+    {
+      "file": "figures/note-statistics-r36a-390-0.png",
+      "sha256": "549b79980e5339ae32fa9cdcefa86598cabc94de74c9c5faad6818628c2c8086"
+    },
+    {
+      "file": "figures/note-statistics-r36a-900-0.png",
+      "sha256": "b17252b76dc186e76585a4599b07021e7f643861944b3f18f71a18c2e9a14394"
+    },
+    {
+      "file": "figures/note-statistics-r36a-asset.png",
+      "sha256": "787a95340a4e45c367cd7da4842308033447173f37e2c279dda76a5c7a0648f7"
+    },
+    {
+      "file": "figures/note-statistics-r37a-390-0.png",
+      "sha256": "5232c0e86b985a3da82a038df33f706beb75af22ab8183d26d64e8bc3d5608b8"
+    },
+    {
+      "file": "figures/note-statistics-r37a-900-0.png",
+      "sha256": "fba9809a0af5b3cd3319ae96813448f382d1d4ee94d2bfd6a825c769569a7a49"
+    },
+    {
+      "file": "figures/note-statistics-r37a-asset.png",
+      "sha256": "d9d291629a990f5d5aa26dee353721d328c753b821c79e2b21c569d9728537bd"
+    },
+    {
+      "file": "figures/note-statistics-r46a-390-0.png",
+      "sha256": "7617f7498a06a24b5d7da33143e83ae05abc441c5db768828d79c6d8a016c2d2"
+    },
+    {
+      "file": "figures/note-statistics-r46a-900-0.png",
+      "sha256": "526fb24395bdea375aa3310d73de682e5b81421ad65096e86aa1566c38df5dad"
+    },
+    {
+      "file": "figures/note-statistics-r46a-asset.png",
+      "sha256": "dcc86482551dd836912e4e7dc22648e2be46445a58c03daa70fcd85cd381a8e3"
+    },
+    {
+      "file": "ui/top-1440.png",
+      "sha256": "3cb37d1f1c38a1948dc7e63008074b31f156d9cfacc2914c23e75e1850bbb13b"
+    },
+    {
+      "file": "ui/top-320.png",
+      "sha256": "2dc869c374daafe14904faba3186c99589fe4976570c7c0dfd1329dbd55a0af0"
+    },
+    {
+      "file": "ui/top-390.png",
+      "sha256": "219fe3c34a66a79d8e5f659511e5e9d20009b0c07410979ae181acf229adf8a6"
+    },
+    {
+      "file": "ui/top-768.png",
+      "sha256": "590404f560163906adb96ecd36127728258a078e49a87e64c5823166d37ef142"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l015-question-390.png",
+      "sha256": "52eeffdd542410e7bf7a689398b027d9b78d2775837889705f00ea618fc75e28"
+    },
+    {
+      "file": "figures/import-mensuration-mens-l001-question-390.png",
+      "sha256": "b99345ae026ea47d4887a47e9eead8dec3f38ac9f5e5b23470f937822f5191b6"
+    }
+  ]
+}

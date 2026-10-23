@@ -1,5 +1,40 @@
 # Implementation record
 
+## Content expansion and shared mathematics instruments — 23 October 2026
+
+Status LOG-20261023-EXP: 本地實作／回歸完成，發布待核對。Content revision `bb6b7d30233c8fd4`. This entry supersedes older current-count and static-art descriptions; the historical entries remain dated evidence. Full scope, source versions/hashes, per-row outcomes and unresolved work live in [CONTENT_EXPANSION_PLAN.md](CONTENT_EXPANSION_PLAN.md); the complete eleven-part interface handoff is [UI_UX_ROADMAP.md](UI_UX_ROADMAP.md).
+
+### Actual content changes
+
+- 853 baseline IDs retained, 334 additional IDs, zero baseline removals: 1,187 unique questions across four-centres257 / polynomial154 / mensuration237 / sequences21 / locus225 / circle-equation229 / statistics64.
+- Of the 334 additions, 293 are new-source questions (229 circle, 64 statistics), 41 are newly recovered old questions (3 four-centres, 7 locus, 11 sequences, 20 mensuration). The 815 new-source comparison rows include already published questions and must not be added to the unique count.
+- Rechecked all 23 ASGS sources by their source identity, retaining 21 independent questions: two duplicate pairs were confirmed rather than the originally estimated single pair. Ten old questions updated; eleven independent questions recovered. Alias migrations preserve attempts, latest mistakes, bookmarks and active drafts without recounting aggregate totals.
+- Q216 now explicitly states that its final original conditions leave an entire locus of possible V, rather than presenting the source example as unique. Q231 roots, transformed vertices, right angle and centre distance checked independently; repaired incomplete English slope sentence. Q238 tangency, radius10, centre(30,10) and failed second altitude checked; same-question SVG reconstructed. Q097 bilingual options were split into their own language fields, removing Chinese text from English-only options.
+- Twenty mensuration diagrams reconstructed and corresponding numerical answers checked. M029 uses FC=20; L015 has sphere radius equal to frustum height; L001 label moved to the correct edge. M064 is a confirmed duplicate. M096 remains held because bilingual perimeters conflict.
+- Statistics BC v5 retains 64 questions, all Type0–9 mappings and nineteen source SVGs. Added bilingual skill labels, source-brief labels, editable tables and stem-leaf keys. R16 frequency11 restored; R02 has two possible range outcomes; R29 does not invent a precise probability from summary information.
+- Circle has six method-based subcategories. Forty-seven official route answers are separated into the correct language fields and labelled source brief answers. One construction MCQ has two true options and remains held.
+- Original111 recovery records: 105 recover, 2 duplicates, 4 hold. A separate previously published kite question was re-held for unconfirmed equal-side pairs; along with the new circle MCQ this leaves six independent holds. No unknown value or missing condition was invented.
+
+### Actual interface and architecture changes
+
+Added shared pure mathematics in math-models.js and replaced the separate old desk artwork with study-instruments.js and study-scenes.js. All UX-01–11 are implemented with the parameter limits, operations and evidence recorded in UI_UX_ROADMAP. The fixed circumcircle and all three draggable vertices are shared with the cover; acute/right/obtuse/isosceles/equilateral presets fit outside centres. Locus has three relations; polynomial uses f=dq+r; sequences switch AP/GP; cone dimensions are dependent; sin/cos/tan have correct discontinuities. Manual input pauses playback, returning chapters retains state, offscreen/background animation stops, and reduced motion begins static.
+
+The five-leaf opening book uses real geometry and sine artwork. Seven chapter icons/artworks, light paper/grey-blue interiors, compact bilingual questions and natural-height options replace the older sparse layouts. Keyboard focus on a dragged vertex no longer disappears during repaint. Source-provided content is inserted as text; ordered paragraph/table/figure blocks are validated and rendered while the old text/single-image schema still works. An arbitrary table is rejected as a substitute for a missing graph; a stem-leaf table must include its key.
+
+### Tests actually executed
+
+- `node --test tests/*.cjs`: **38 tests pass**, including all21 ASGS cases, Q216/Q231/Q238, recovered mensuration calculations, statistics data/boundaries, aliases, content build and nested diagram guards.
+- `node scripts/build-content.cjs --check`: 1,187 questions / seven chapters, revision above. Direct baseline ID comparison: 853→1,187, +334, removed=[]; `git diff --check` passes.
+- `tests/browser/imported-bank.cjs`: all1,187 published questions, **48,711 formula-render checks / zero math errors**; classification, bounded chunks, deferred search and responsive preview pass. This is a rendering check, not mathematical proof of every answer.
+- `tests/browser/expansion-figures.cjs`:43 standalone assets and86 actual900/390px question previews, no missing images, formula errors or overflowing dialogs. Individually matched source labels/data and reviewed the contact sheets; after the last L015/L001 corrections their individual final views were rechecked. [Persistent evidence](qa/2026-10-23/README.md):141 images and43 asset hashes.
+- Browser suites passed: expansion-instruments, exploration, four-centres-motion, study-design, study-journey, library, interaction and language-recovery. Four-width suites cover320/390/768/1440px; dynamic tests cover state retention, manual pause, resume, focus, presets, drag targets>=44px, offscreen/reduced motion and tan breaks. Learning journeys exercise searching, set creation, self-assessment, bookmarks, mistakes and resume.
+
+### Limits actually remaining
+
+Content jobs CT-03/04/05/06 remain 待驗收 for complete source-difference adjudication or every-subpart independent mathematical recalculation, as specified in the content plan. The494 source/current comparisons are a discrepancy audit, not a claim that all differences were manually judged; embedded options and existing corrected translations also affect similarity. Six source contradictions/missing-data cases remain 待補來源 with exact IDs, attempts and required evidence. Statistics source briefs do not become complete translated derivations. No PDF was generated. Authentication and learning records remain the existing browser-local prototype; real accounts/cloud sync are not implemented in this scope. Browser tests use Chromium viewports, not a real iOS/Android device.
+
+Publication result is appended only after a real push and live checks; this paragraph does not claim deployment.
+
 ## Triangle comparisons and motion throughout the study desk — 23 October 2026
 
 Addressed the six annotated dashboard comments. Chapter thumbnails were static artwork; they now recompute their own chapter geometry while visible, with suspended rendering when offscreen/hidden and static artwork under reduced motion. The sequence changes its common difference, cylinder changes height, quadratic changes coefficient, and geometric chapters use their corresponding constructions. These remain decorative illustrations; practice links and question-source assets retain their original behaviour.

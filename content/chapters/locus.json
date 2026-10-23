@@ -6747,6 +6747,569 @@
             "D": "拋物線。"
           },
           "solutionStatus": "source-answer-or-brief-explanation"
+        },
+        {
+          "id": "import-locus-641ed6cf2383b3f7",
+          "stem": "26. The equations of the straight lines \\(\\ell\\) and \\(L\\) are \\(8 x-6 y+42=0\\) and \\(4 x-3 y-\\frac{3}{2}=0\\) respectively. \\(\\ell\\) cuts the \\(y\\)-axis and the \\(x\\)-axis at the points \\(A\\) and \\(C\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(\\ell\\) is twice the perpendicular distance from \\(P\\) to \\(L\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). It is given that \\(\\Gamma\\) cuts the \\(y\\)-axis at the point \\(B(0,-8) . M\\) is the mid-point of \\(A\\) and \\(C\\) while \\(N\\) is the mid-point of \\(A\\) and \\(B\\). Which of the following statements are true?\nI. \\(\\quad \\quad \\quad \\quad\\) is perpendicular to \\(M N\\).\nII. \\(\\quad \\Gamma\\) is parallel to \\(L\\).\nIII. \\(L\\) passes through the mid-point of \\(A B\\).",
+          "stemZh": "26. \\(\\ell:8x-6y+42=0\\)、\\(L:4x-3y-\\frac32=0\\)。\\(\\ell\\) 分別與 \\(y\\) 軸、\\(x\\) 軸交於 \\(A,C\\)。動點 \\(P\\) 到 \\(\\ell\\) 的垂直距離是到 \\(L\\) 的兩倍，軌跡記為 \\(\\Gamma\\)。已知題幹聲稱 \\(\\Gamma\\) 通過 \\(B=(0,-8)\\)。\\(M\\) 是 \\(AC\\) 的中點，\\(N\\) 是 \\(AB\\) 的中點。判斷下列敘述。\nI. ［來源題幹缺少比較對象，無法確定哪個物件垂直於 \\(MN\\)。］\nII. \\(\\Gamma\\) 平行於 \\(L\\)。\nIII. \\(L\\) 通過 \\(AB\\) 的中點。",
+          "solution": "Q92. mock-ssgc-2324-p2-final-q26\nAnswer: ?\nAnswer: 來源條件矛盾\nPut u=4x-3y. The branches are u=24 and u=-6. B=(0,-8) satisfies the first. A=(0,7), so the midpoint of AB is (0,-1/2), which lies on L. II and III are true; statement I has a missing object and prevents a unique option.",
+          "solutionZh": "Q92. mock-ssgc-2324-p2-final-q26\n答案: ?\n答案：來源條件矛盾。令 \\(u=4x-3y\\)，距離條件為 \\(|u+21|=2|u-\\frac32|\\)，得 \\(u=24\\) 或 \\(u=-6\\)。代入 \\(B=(0,-8)\\) 得 \\(u=24\\)，故該點符合其中一支。\\(A=(0,7)\\)，\\(N=(0,-\\frac12)\\)，代入 \\(L\\) 得 \\(0\\)，所以 II、III 均正確。但 I 缺少物件，無法判斷 A、D 等選項，原答案 A 與 III 的計算不符。",
+          "subcategory": "area-loci",
+          "skill": "locus-fixed-area",
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "source": "MCQ Set 41. L6",
+          "sourceZh": "MCQ Set 41. L6",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "locus-2026-10-23",
+            "section": "q-mcq-set-41",
+            "item": 1,
+            "title": "MCQ Set 41. L6"
+          },
+          "options": {
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "I, II and III"
+          },
+          "optionsZh": {
+            "A": "只有 I 及 II",
+            "B": "只有 I 及 III",
+            "C": "只有 II 及 III",
+            "D": "I、II 及 III"
+          },
+          "answer": "A",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "26. The equations of the straight lines \\(\\ell\\) and \\(L\\) are \\(8 x-6 y+42=0\\) and \\(4 x-3 y-\\frac{3}{2}=0\\) respectively. \\(\\ell\\) cuts the \\(y\\)-axis and the \\(x\\)-axis at the points \\(A\\) and \\(C\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(\\ell\\) is twice the perpendicular distance from \\(P\\) to \\(L\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). It is given that \\(\\Gamma\\) cuts the \\(y\\)-axis at the point \\(B(0,-8) . M\\) is the mid-point of \\(A\\) and \\(C\\) while \\(N\\) is the mid-point of \\(A\\) and \\(B\\). Which of the following statements are true?\nI. \\(\\quad \\quad \\quad \\quad\\) is perpendicular to \\(M N\\).\nII. \\(\\quad \\Gamma\\) is parallel to \\(L\\).\nIII. \\(L\\) passes through the mid-point of \\(A B\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "26. \\(\\ell:8x-6y+42=0\\)、\\(L:4x-3y-\\frac32=0\\)。\\(\\ell\\) 分別與 \\(y\\) 軸、\\(x\\) 軸交於 \\(A,C\\)。動點 \\(P\\) 到 \\(\\ell\\) 的垂直距離是到 \\(L\\) 的兩倍，軌跡記為 \\(\\Gamma\\)。已知題幹聲稱 \\(\\Gamma\\) 通過 \\(B=(0,-8)\\)。\\(M\\) 是 \\(AC\\) 的中點，\\(N\\) 是 \\(AB\\) 的中點。判斷下列敘述。\nI. ［來源題幹缺少比較對象，無法確定哪個物件垂直於 \\(MN\\)。］\nII. \\(\\Gamma\\) 平行於 \\(L\\)。\nIII. \\(L\\) 通過 \\(AB\\) 的中點。"
+              }
+            ]
+          },
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 118
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "distance ratio to two fixed points",
+            "status": "rule-classified"
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Reconciled the full same-question source, formula and answer; stable website ID retained.",
+              "source": {
+                "file": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+                "locator": "q-mcq-set-41/1",
+                "sha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c"
+              }
+            }
+          ]
+        },
+        {
+          "id": "import-locus-0ffc2b3aa04ff5bb",
+          "stem": "27. Denote the \\(y\\)-intercepts of the parallel lines \\(\\ell\\) and \\(L\\) by \\(a\\) and \\(b\\) respectively, where \\(a<b<0\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(\\ell\\) is equal to the perpendicular distance from \\(P\\) to \\(L\\). If the equation of the locus of \\(P\\) is \\(3x-4y-18=0\\) and the area of the quadrilateral bounded by \\(\\ell\\), \\(L\\), the \\(x\\)-axis and the \\(y\\)-axis is 30, find \\(b-a\\).",
+          "stemZh": "27. 平行直線 \\(\\ell,L\\) 的 \\(y\\) 截距分別為 \\(a,b\\)，其中 \\(a<b<0\\)。動點 \\(P\\) 與兩線等距，其轨跡為 \\(3x-4y-18=0\\)。兩線及兩坐標軸圍成的四邊形面積為 \\(30\\)。求 \\(b-a\\)。",
+          "solution": "The midline gives a+b=-9. With slope 3/4, the difference of intercept-triangle areas is (2/3)(a²-b²)=6(b-a)=30, so b-a=5.",
+          "solutionZh": "Q102. mock-aspire-2526-p2-final-q27\n答案: D\n中線的 \\(y\\) 截距為 \\(-\\frac92\\)，故 \\(a+b=-9\\)。斜率為 \\(\\frac34\\)，兩截距三角形的面積差為 \\(\\frac23(a^2-b^2)=6(b-a)=30\\)，得 \\(b-a=5\\)。",
+          "subcategory": "intersecting-loci",
+          "skill": "locus-coordinate-chain",
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "source": "MCQ Set 49. L7",
+          "sourceZh": "MCQ Set 49. L7",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "locus-2026-10-23",
+            "section": "q-mcq-set-49",
+            "item": 2,
+            "title": "MCQ Set 49. L7"
+          },
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "optionsZh": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "answer": "D",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "27. Denote the \\(y\\)-intercepts of the parallel lines \\(\\ell\\) and \\(L\\) by \\(a\\) and \\(b\\) respectively, where \\(a<b<0\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(\\ell\\) is equal to the perpendicular distance from \\(P\\) to \\(L\\). If the equation of the locus of \\(P\\) is \\(3x-4y-18=0\\) and the area of the quadrilateral bounded by \\(\\ell\\), \\(L\\), the \\(x\\)-axis and the \\(y\\)-axis is 30, find \\(b-a\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "27. 平行直線 \\(\\ell,L\\) 的 \\(y\\) 截距分別為 \\(a,b\\)，其中 \\(a<b<0\\)。動點 \\(P\\) 與兩線等距，其轨跡為 \\(3x-4y-18=0\\)。兩線及兩坐標軸圍成的四邊形面積為 \\(30\\)。求 \\(b-a\\)。"
+              }
+            ]
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Restored truncated source row 140 using q-mcq-set-49 item 2. a+b=-9 and 6(b-a)=30 independently checked."
+            }
+          ],
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 140
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "equal perpendicular distances to two lines",
+            "status": "rule-classified"
+          }
+        },
+        {
+          "id": "import-locus-60ff172b3837db5b",
+          "stem": "25. \\(A\\) and \\(B\\) are two distinct points in a rectangular coordinate plane, and \\(O\\) is the origin. If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(OA\\) is equal to that from \\(P\\) to \\(OB\\), then the locus of \\(P\\) is",
+          "stemZh": "25. \\(A,B\\) 為兩個不同的定點，\\(O\\) 為原點。動點 \\(P\\) 到直線 \\(OA\\)、\\(OB\\) 的垂直距離相等。其軌跡是：",
+          "solution": "Q110. mock-wyk-2526-p2-final-q25\nAnswer: ?\nAnswer: 題幹及選項不完整\nFor distinct defined lines the locus is both angle bisectors, not C. Collinear O,A,B gives the whole plane; A=O or B=O leaves a line undefined. The question needs extra conditions and complete options.",
+          "solutionZh": "Q110. mock-wyk-2526-p2-final-q25\n答案: ?\n答案：題幹及選項不完整。若兩直線不同，完整軌跡為兩條角平分線，B 只描述其中一條；原答案 C 不正確。若 \\(O,A,B\\) 共線，兩直線重合，整個平面均符合條件。還須排除 \\(A\\) 或 \\(B\\) 為原點而令直線未定義的情況。",
+          "subcategory": "intersecting-loci",
+          "skill": "locus-coordinate-chain",
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "source": "MCQ Set 53. L8",
+          "sourceZh": "MCQ Set 53. L8",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "locus-2026-10-23",
+            "section": "q-mcq-set-53",
+            "item": 1,
+            "title": "MCQ Set 53. L8"
+          },
+          "options": {
+            "A": "the perpendicular bisector of \\(AB\\).",
+            "B": "the angle bisector of \\(\\angle AOB\\).",
+            "C": "a straight line which passes through \\(A\\) and \\(B\\).",
+            "D": "a circle with \\(AB\\) as a diameter."
+          },
+          "optionsZh": {
+            "A": "\\(AB\\) 的垂直平分線",
+            "B": "\\(angle AOB\\) 的角平分線",
+            "C": "通過 \\(A,B\\) 的直線",
+            "D": "以 \\(AB\\) 為直徑的圓"
+          },
+          "answer": "C",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "25. \\(A\\) and \\(B\\) are two distinct points in a rectangular coordinate plane, and \\(O\\) is the origin. If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(OA\\) is equal to that from \\(P\\) to \\(OB\\), then the locus of \\(P\\) is"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "25. \\(A,B\\) 為兩個不同的定點，\\(O\\) 為原點。動點 \\(P\\) 到直線 \\(OA\\)、\\(OB\\) 的垂直距離相等。其軌跡是："
+              }
+            ]
+          },
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "mc",
+            "sourceId": null,
+            "row": 150
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "fixed distance determines circle centre and radius",
+            "status": "rule-classified"
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Reconciled the full same-question source, formula and answer; stable website ID retained.",
+              "source": {
+                "file": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+                "locator": "q-mcq-set-53/1",
+                "sha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c"
+              }
+            }
+          ]
+        },
+        {
+          "id": "import-locus-994b1ee23f1672e2",
+          "stem": "13. The equation of the circle \\(C\\) is\n\\[\nx^2+y^2-48x-36y-621=0.\n\\]\nLet \\(G\\) be the centre of \\(C\\). Denote the origin by \\(O\\).\n(a) Find \\(OG\\).\n(b) Does \\(O\\) lie inside \\(C\\)? Explain your answer.\n(c) Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(OP=GP\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). Suppose that \\(\\Gamma\\) cuts \\(C\\) at the points \\(A\\) and \\(B\\). Evan claims that \\(\\angle AGB<135^\\circ\\). Do you agree? Explain your answer.\n(7 marks)",
+          "stemZh": "13. 圓的方程為 \\(x^2+y^2-48x-36y-621=0\\)，圓心為 \\(G\\)。\n(a) 求 \\(OG\\)，並判斷原點 \\(O\\) 是否在圓內。\n(b) 動點 \\(P\\) 滿足 \\(OP=GP\\)。軌跡 \\(\\Gamma\\) 與該圓相交於 \\(A,B\\)。判斷 \\(\\angle AGB<135^\\circ\\) 是否正確，並解釋。",
+          "solution": "English Solution\n13.\n(a) Completing the square, the centre of \\(C\\) is\n\\[\nG=(24,18).\n\\]\nThus\n\\[\nOG=\\sqrt{24^2+18^2}=30.\n\\]\n(b) The radius of \\(C\\) is\n\\[\n\\sqrt{24^2+18^2-(-621)}=39.\n\\]\nSince\n\\[\n39>30,\n\\]\n\\(O\\) lies inside \\(C\\).\n(c) The locus \\(\\Gamma\\) is the perpendicular bisector of \\(OG\\). Since \\(A\\) and \\(B\\) lie on \\(C\\),\n\\[\nAG=BG=39.\n\\]\nAlso \\(AO=BO=39\\) because \\(A\\) and \\(B\\) lie on the locus \\(OP=GP\\). Therefore,\n\\[\n\\angle AOG=\\angle BOG=\\angle AGO=\\angle BGO=\\frac{1}{2}\\angle AGB.\n\\]\nUsing \\(\\triangle AOG\\),\n\\[\n\\cos\\frac{\\angle AGB}{2}=\\frac{\\frac{1}{2}OG}{AG}\n=\\frac{15}{39}.\n\\]\nHence\n\\[\n\\frac{\\angle AGB}{2}\\approx 67.38013505^\\circ,\n\\]\nso\n\\[\n\\angle AGB\\approx 134.7602701^\\circ.\n\\]\nSince\n\\[\n134.7602701^\\circ<135^\\circ,\n\\]\nthe claim is agreed.",
+          "solutionZh": "中文詳解\n答案：配方得圓心 \\(G=(24,18)\\)，半徑 \\(39\\)。因此 \\(OG=\\sqrt{24^2+18^2}=30<39\\)，原點在圓內。\n由 \\(OP=GP\\)，\\(\\Gamma\\) 是 \\(OG\\) 的垂直平分線。計算其與圓的交點所對的圓心角，得 \\(\\angle AGB\\approx134.7603^\\circ<135^\\circ\\)，所以聲稱正確。",
+          "subcategory": "fixed-distance",
+          "skill": "locus-fixed-radius",
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 4,
+          "source": "Sourcemock-qc-2526-p1-final-q13 · 2526 · P1 · ConceptsL1 · Fixed distance and ratio loci · TypeMock · LongQ",
+          "sourceZh": "Sourcemock-qc-2526-p1-final-q13 · 2526 · P1 · ConceptsL1 · Fixed distance and ratio loci · TypeMock · LongQ",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "locus-2026-10-23",
+            "section": "q-LongQ-6",
+            "item": 0,
+            "title": "LongQ Q6. L1"
+          },
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "13. The equation of the circle \\(C\\) is"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\nx^2+y^2-48x-36y-621=0.\n\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "Let \\(G\\) be the centre of \\(C\\). Denote the origin by \\(O\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find \\(OG\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Does \\(O\\) lie inside \\(C\\)? Explain your answer."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(OP=GP\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). Suppose that \\(\\Gamma\\) cuts \\(C\\) at the points \\(A\\) and \\(B\\). Evan claims that \\(\\angle AGB<135^\\circ\\). Do you agree? Explain your answer."
+              },
+              {
+                "type": "paragraph",
+                "text": "(7 marks)"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "13. 圓的方程為 \\(x^2+y^2-48x-36y-621=0\\)，圓心為 \\(G\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(OG\\)，並判斷原點 \\(O\\) 是否在圓內。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 動點 \\(P\\) 滿足 \\(OP=GP\\)。軌跡 \\(\\Gamma\\) 與該圓相交於 \\(A,B\\)。判斷 \\(\\angle AGB<135^\\circ\\) 是否正確，並解釋。"
+              }
+            ]
+          },
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "long",
+            "sourceId": null,
+            "row": 6
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "equate squared distances to two points",
+            "status": "rule-classified"
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Reconciled the full same-question source, formula and answer; stable website ID retained.",
+              "source": {
+                "file": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+                "locator": "q-LongQ-6",
+                "sha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c"
+              }
+            }
+          ]
+        },
+        {
+          "id": "import-locus-542ce5cd458a43a3",
+          "stem": "\\(H=(2,0)\\). \\(P\\) remains \\(5\\) units from \\(H\\); call its locus \\(\\Gamma\\).\n(a) Find \\(\\Gamma\\).\n(b) Its \\(x\\)-intercepts are \\(A=(a,0),B=(b,0)\\) with \\(a<b\\), and its positive \\(y\\)-intercept is \\(C\\). \\(L_1=AC,L_2=BC\\).\n(i) Is \\(L_1\\perp L_2\\)? Explain.\n(ii) The line through \\(O\\) perpendicular to \\(BC\\) meets \\(BC\\) at \\(D\\). Find \\([OBD]:[OACD]\\).",
+          "stemZh": "\\(H=(2,0)\\)。動點 \\(P\\) 與 \\(H\\) 的距離保持為 \\(5\\)，軌跡為 \\(\\Gamma\\)。\n(a) 求 \\(\\Gamma\\) 方程。\n(b) \\(\\Gamma\\) 的 \\(x\\) 軸截點為 \\(A=(a,0),B=(b,0)\\)，\\(a<b\\)；正 \\(y\\) 軸截點為 \\(C\\)。\\(L_1=AC,L_2=BC\\)。\n(i) \\(L_1\\) 是否垂直於 \\(L_2\\)？解釋。\n(ii) 經過 \\(O\\) 且垂直於 \\(BC\\) 的直線與 \\(BC\\) 交於 \\(D\\)。求 \\([OBD]:[OACD]\\)。",
+          "solution": "English Solution\n(a) \\((x-2)^2+y^2=25\\).\n(b) \\(A=(-3,0),B=(7,0),C=(0,\\sqrt{21})\\).\n(i) The slopes are \\(\\sqrt{21}/3\\) and \\(-\\sqrt{21}/7\\), whose product is \\(-1\\). Agree.\n(ii) \\(BC:\\sqrt{21}x+7y=7\\sqrt{21}\\). Its perpendicular foot from \\(O\\) is \\(D=(21/10,7\\sqrt{21}/10)\\). Thus \\([OBD]=49\\sqrt{21}/20\\) and \\([OACD]=51\\sqrt{21}/20\\), giving \\(49:51\\).",
+          "solutionZh": "中文詳解\n(a) \\((x-2)^2+y^2=25\\)。\n(b) \\(A=(-3,0),B=(7,0),C=(0,\\sqrt{21})\\)。\n(i) 兩斜率為 \\(\\sqrt{21}/3\\)、\\(-\\sqrt{21}/7\\)，乘積為 \\(-1\\)，故同意。\n(ii) \\(BC:\\sqrt{21}x+7y=7\\sqrt{21}\\)，由 \\(O\\) 作垂線的垂足為 \\(D=(21/10,7\\sqrt{21}/10)\\)。故 \\([OBD]=49\\sqrt{21}/20\\)、\\([OACD]=51\\sqrt{21}/20\\)，比為 \\(49:51\\)。",
+          "subcategory": "fixed-distance",
+          "skill": "locus-fixed-radius",
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 4,
+          "source": "Sourcepractice-extra-reviewss-q4 · Supplementary · locus reviewss.pdf · Q4 · ConceptsL1 · Fixed distance and ratio loci · TypePractice · LongQ",
+          "sourceZh": "Sourcepractice-extra-reviewss-q4 · Supplementary · locus reviewss.pdf · Q4 · ConceptsL1 · Fixed distance and ratio loci · TypePractice · LongQ",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "locus-2026-10-23",
+            "section": "q-LongQ-10",
+            "item": 0,
+            "title": "LongQ Q10. L1"
+          },
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "\\(H=(2,0)\\). \\(P\\) remains \\(5\\) units from \\(H\\); call its locus \\(\\Gamma\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find \\(\\Gamma\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Its \\(x\\)-intercepts are \\(A=(a,0),B=(b,0)\\) with \\(a<b\\), and its positive \\(y\\)-intercept is \\(C\\). \\(L_1=AC,L_2=BC\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(i) Is \\(L_1\\perp L_2\\)? Explain."
+              },
+              {
+                "type": "paragraph",
+                "text": "(ii) The line through \\(O\\) perpendicular to \\(BC\\) meets \\(BC\\) at \\(D\\). Find \\([OBD]:[OACD]\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "\\(H=(2,0)\\)。動點 \\(P\\) 與 \\(H\\) 的距離保持為 \\(5\\)，軌跡為 \\(\\Gamma\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(\\Gamma\\) 方程。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\(\\Gamma\\) 的 \\(x\\) 軸截點為 \\(A=(a,0),B=(b,0)\\)，\\(a<b\\)；正 \\(y\\) 軸截點為 \\(C\\)。\\(L_1=AC,L_2=BC\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(i) \\(L_1\\) 是否垂直於 \\(L_2\\)？解釋。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(ii) 經過 \\(O\\) 且垂直於 \\(BC\\) 的直線與 \\(BC\\) 交於 \\(D\\)。求 \\([OBD]:[OACD]\\)。"
+              }
+            ]
+          },
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "long",
+            "sourceId": null,
+            "row": 10
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "multi-part locus and coordinate geometry application",
+            "status": "rule-classified"
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Reconciled the full same-question source, formula and answer; stable website ID retained.",
+              "source": {
+                "file": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+                "locator": "q-LongQ-10",
+                "sha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c"
+              }
+            }
+          ]
+        },
+        {
+          "id": "import-locus-6afa4ee969876226",
+          "stem": "14. The coordinates of the points \\(A\\) and \\(B\\) are \\((-10,0)\\) and \\((30,0)\\) respectively. The circle \\(C\\) passes through \\(A\\) and \\(B\\). Denote the centre of \\(C\\) by \\(G\\). It is given that the \\(y\\)-coordinate of \\(G\\) is \\(-15\\).\n(a) Find the equation of \\(C\\).\n(b) The straight line \\(L\\) passes through \\(B\\) and \\(G\\). Another straight line \\(\\ell\\) is parallel to \\(L\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L\\) is equal to the perpendicular distance from \\(P\\) to \\(\\ell\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). It is given that \\(\\Gamma\\) passes through \\(A\\).\n(i) Describe the geometric relationship between \\(\\Gamma\\) and \\(L\\).\n(ii) Find the equation of \\(\\Gamma\\).\n(iii) Suppose that \\(\\Gamma\\) cuts \\(C\\) at another point \\(H\\). Someone claims that \\(\\angle GAH<70^\\circ\\). Do you agree? Explain your answer.\n(9 marks)",
+          "stemZh": "14. 圓 \\(C\\) 經過 \\(A=(-10,0)\\)、\\(B=(30,0)\\)，圓心 \\(G\\) 的 \\(y\\) 坐標為 \\(-15\\)。\n(a) 求 \\(C\\) 的方程。\n(b) 直線 \\(L\\) 通過 \\(B,G\\)；直線 \\(\\ell\\) 平行於 \\(L\\)。動點 \\(P\\) 到兩直線的垂直距離相等，軌跡記為 \\(\\Gamma\\)，且 \\(\\Gamma\\) 經過 \\(A\\)。\n(i) 描述 \\(\\Gamma\\) 與 \\(L\\) 的幾何關係。\n(ii) 求 \\(\\Gamma\\) 的方程。\n(iii) \\(\\Gamma\\) 與 \\(C\\) 的另一交點為 \\(H\\)。有人聲稱 \\(\\angle GAH<70^\\circ\\)。你是否同意？解釋。（9 分）",
+          "solution": "English Solution\n(a) G=(10,-15), radius 25; C:(x-10)²+(y+15)²=625.\n(b)(i) The locus is parallel to L.\n(ii) L has slope 3/4, so the locus through A is 3x-4y+30=0.\n(iii) AG has direction -atan(3/4); AH has direction atan(3/4). Thus the angle is 2atan(3/4)=73.74 degrees. Disagree.",
+          "solutionZh": "中文詳解\n(a) 圓心在 \\(AB\\) 的垂直平分線 \\(x=10\\) 上，故 \\(G=(10,-15)\\)。半徑平方為 \\(20^2+15^2=625\\)：\n\\[C:(x-10)^2+(y+15)^2=625.\\]\n(b)(i) \\(\\Gamma\\) 是兩平行線的中線，故 \\(\\Gamma\\parallel L\\)。\n(ii) \\(L\\) 斜率為 \\(15/20=3/4\\)，過 \\(A\\) 的平行線為 \\(3x-4y+30=0\\)。\n(iii) 射線 \\(AG\\) 與正 \\(x\\) 軸夾角為 \\(-\\arctan(3/4)\\)，射線 \\(AH\\) 的方向角為 \\(\\arctan(3/4)\\)。故 \\(\\angle GAH=2\\arctan(3/4)\\approx73.74^\\circ>70^\\circ\\)，不同意。",
+          "subcategory": "equal-points",
+          "skill": "locus-perp-bisector",
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 4,
+          "source": "Sourcedse-hkeaa-2020-p1-final-q14 · 2020 · P1 · ConceptsL2 · Two-point equal distance · TypeDSE · LongQ",
+          "sourceZh": "Sourcedse-hkeaa-2020-p1-final-q14 · 2020 · P1 · ConceptsL2 · Two-point equal distance · TypeDSE · LongQ",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "locus-2026-10-23",
+            "section": "q-LongQ-19",
+            "item": 0,
+            "title": "LongQ Q19. L2"
+          },
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "14. The coordinates of the points \\(A\\) and \\(B\\) are \\((-10,0)\\) and \\((30,0)\\) respectively. The circle \\(C\\) passes through \\(A\\) and \\(B\\). Denote the centre of \\(C\\) by \\(G\\). It is given that the \\(y\\)-coordinate of \\(G\\) is \\(-15\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find the equation of \\(C\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) The straight line \\(L\\) passes through \\(B\\) and \\(G\\). Another straight line \\(\\ell\\) is parallel to \\(L\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L\\) is equal to the perpendicular distance from \\(P\\) to \\(\\ell\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). It is given that \\(\\Gamma\\) passes through \\(A\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(i) Describe the geometric relationship between \\(\\Gamma\\) and \\(L\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(ii) Find the equation of \\(\\Gamma\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(iii) Suppose that \\(\\Gamma\\) cuts \\(C\\) at another point \\(H\\). Someone claims that \\(\\angle GAH<70^\\circ\\). Do you agree? Explain your answer."
+              },
+              {
+                "type": "paragraph",
+                "text": "(9 marks)"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "14. 圓 \\(C\\) 經過 \\(A=(-10,0)\\)、\\(B=(30,0)\\)，圓心 \\(G\\) 的 \\(y\\) 坐標為 \\(-15\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(C\\) 的方程。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 直線 \\(L\\) 通過 \\(B,G\\)；直線 \\(\\ell\\) 平行於 \\(L\\)。動點 \\(P\\) 到兩直線的垂直距離相等，軌跡記為 \\(\\Gamma\\)，且 \\(\\Gamma\\) 經過 \\(A\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(i) 描述 \\(\\Gamma\\) 與 \\(L\\) 的幾何關係。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(ii) 求 \\(\\Gamma\\) 的方程。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(iii) \\(\\Gamma\\) 與 \\(C\\) 的另一交點為 \\(H\\)。有人聲稱 \\(\\angle GAH<70^\\circ\\)。你是否同意？解釋。（9 分）"
+              }
+            ]
+          },
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "long",
+            "sourceId": null,
+            "row": 19
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "right-angle condition gives diameter circle",
+            "status": "rule-classified"
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Reconciled the full same-question source, formula and answer; stable website ID retained.",
+              "source": {
+                "file": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+                "locator": "q-LongQ-19",
+                "sha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c"
+              }
+            }
+          ]
+        },
+        {
+          "id": "import-locus-904b6ba3bcc112ac",
+          "stem": "14. Denote the origin by \\(O\\). (a) \\(B\\) is a point lying on the straight line \\(y=mx\\) such that the \\(x\\)-coordinate of \\(B\\) is negative, where \\(-1<m<0\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(BP=OP\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). A horizontal line which passes through \\(B\\) cuts \\(\\Gamma\\) at the point \\(A\\). Express the slope of \\(OA\\) in terms of \\(m\\). (4 marks) (b) The coordinates of the points \\(R\\) and \\(S\\) are \\((-18,24)\\) and \\((-42,0)\\) respectively. If \\(U\\) and \\(V\\) are points lying on \\(OR\\) and \\(RS\\) respectively such that \\(OS\\parallel UV\\) and \\(OU=UV\\), find the coordinates of \\(V\\). (4 marks)",
+          "stemZh": "14. \\(O\\) 為原點。\n(a) \\(B\\) 在 \\(y=mx\\) 上，\\(B\\) 的 \\(x\\) 坐標為負，\\(-1<m<0\\)。動點 \\(P\\) 滿足 \\(BP=OP\\)，軌跡為 \\(\\Gamma\\)。過 \\(B\\) 的水平線與 \\(\\Gamma\\) 交於 \\(A\\)。以 \\(m\\) 表示 \\(OA\\) 斜率。（4 分）\n(b) \\(R=(-18,24)\\)、\\(S=(-42,0)\\)。點 \\(U,V\\) 分別在線段 \\(OR,RS\\) 上，且 \\(UV\\parallel OS\\)、\\(OU=UV\\)。求 \\(V\\) 坐標。（4 分）",
+          "solution": "English Solution\n(a) Writing B=(b,mb), A=(a,mb), equal distances give a=b(1-m²)/2, hence slope 2m/(1-m²).\n(b) Parametrize U=tR. Then V=(24t-42,24t), OU=30t and UV=42(1-t). Solving gives t=7/12 and V=(-28,14).",
+          "solutionZh": "中文詳解\n(a) 設 \\(B=(b,mb)\\)、\\(A=(a,mb)\\)。由 \\(AB=AO\\) 得 \\((a-b)^2=a^2+m^2b^2\\)，故 \\(a=b(1-m^2)/2\\)。斜率為 \\(2m/(1-m^2)\\)。\n(b) 設 \\(U=tR=(-18t,24t)\\)，\\(0\\le t\\le1\\)。水平線與 \\(RS:y=x+42\\) 相交於 \\(V=(24t-42,24t)\\)。\\(OU=30t\\)、\\(UV=42(1-t)\\)，故 \\(30t=42(1-t)\\)，\\(t=7/12\\)。所以 \\(V=(-28,14)\\)。（若容許退化情況 \\(U=O\\)，則 \\(UV=0\\) 不能成立，故無新增解。）",
+          "subcategory": "equal-lines",
+          "skill": "locus-angle-bisectors",
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 4,
+          "source": "Sourcemock-aspire-2526-p1-final-q14 · 2526 · P1 · ConceptsL3 · Line-distance loci · TypeMock · LongQ",
+          "sourceZh": "Sourcemock-aspire-2526-p1-final-q14 · 2526 · P1 · ConceptsL3 · Line-distance loci · TypeMock · LongQ",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "locus-2026-10-23",
+            "section": "q-LongQ-43",
+            "item": 0,
+            "title": "LongQ Q43. L3"
+          },
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "14. Denote the origin by \\(O\\). (a) \\(B\\) is a point lying on the straight line \\(y=mx\\) such that the \\(x\\)-coordinate of \\(B\\) is negative, where \\(-1<m<0\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(BP=OP\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). A horizontal line which passes through \\(B\\) cuts \\(\\Gamma\\) at the point \\(A\\). Express the slope of \\(OA\\) in terms of \\(m\\). (4 marks) (b) The coordinates of the points \\(R\\) and \\(S\\) are \\((-18,24)\\) and \\((-42,0)\\) respectively. If \\(U\\) and \\(V\\) are points lying on \\(OR\\) and \\(RS\\) respectively such that \\(OS\\parallel UV\\) and \\(OU=UV\\), find the coordinates of \\(V\\). (4 marks)"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "14. \\(O\\) 為原點。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) \\(B\\) 在 \\(y=mx\\) 上，\\(B\\) 的 \\(x\\) 坐標為負，\\(-1<m<0\\)。動點 \\(P\\) 滿足 \\(BP=OP\\)，軌跡為 \\(\\Gamma\\)。過 \\(B\\) 的水平線與 \\(\\Gamma\\) 交於 \\(A\\)。以 \\(m\\) 表示 \\(OA\\) 斜率。（4 分）"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\(R=(-18,24)\\)、\\(S=(-42,0)\\)。點 \\(U,V\\) 分別在線段 \\(OR,RS\\) 上，且 \\(UV\\parallel OS\\)、\\(OU=UV\\)。求 \\(V\\) 坐標。（4 分）"
+              }
+            ]
+          },
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "locus",
+            "kind": "long",
+            "sourceId": null,
+            "row": 43
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "multi-part locus and coordinate geometry application",
+            "status": "rule-classified"
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Reconciled the full same-question source, formula and answer; stable website ID retained.",
+              "source": {
+                "file": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+                "locator": "q-LongQ-43",
+                "sha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c"
+              }
+            }
+          ]
         }
       ]
     },

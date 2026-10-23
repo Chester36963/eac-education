@@ -105,6 +105,8 @@
 .leaf-one { animation:grand-page-open 2.1s 1s cubic-bezier(.32,.05,.2,1) both; }
 .leaf-two { animation:grand-page-open 2s 1.3s cubic-bezier(.32,.05,.2,1) both; }
 .book-leaf .page-ink { transform:translateX(240px) scaleX(-1); }
+.book-pages::after { content:'';position:absolute;inset:1px -10px -8px 2px;z-index:-1;background:repeating-linear-gradient(0deg,#c2c7cc 0 1px,#eeeff0 1px 3px);border-radius:2px 5px 5px 2px;transform:translateZ(-8px); }
+.book-leaf.leaf-extra { animation:grand-page-open 2s calc(1s + var(--leaf-index)*.2s) cubic-bezier(.32,.05,.2,1) both;transform:translateZ(calc(var(--leaf-index)*-1px)); }
 .book-leaf.leaf-two { backface-visibility:visible; }
 .book-leaf text { fill:#404e5b;stroke:none;font:11px Georgia,serif; }
 .book-intro-label { position:absolute; left:32px; top:26px; color:#c4c9c6; font:11px/1.6 var(--font-stack); }
@@ -224,3 +226,7 @@
  .is-opening .book-intro { display:none; }
  .editorial-home * { animation:none!important;transition:none!important; }
 }
+.cover-wave-modes { display:flex;gap:8px;padding:12px 24px 0; }
+.cover-wave-modes[hidden] { display:none; }
+.cover-wave-modes button { min-width:64px;min-height:44px;border:1px solid #67717d;background:transparent;color:inherit;font:inherit;cursor:pointer; }
+.cover-wave-modes button[aria-pressed=true] { background:#d9dfe6;color:#20252b; }

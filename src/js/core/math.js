@@ -32,5 +32,29 @@ const EACMath=(()=>{
     });
     syncLanguages();
   }
-  return {clear,render,bindLanguages,syncLanguages};
+  function content(root,q,language='bilingual'){
+    if(!q.contentBlocks)return false;
+    const languages=language==='zh'?['zh-Hant']:language==='en'?['en']:['en','zh-Hant'];
+    const seen=new Set();root.replaceChildren();root.classList.add('question-blocks');
+    for(const code of languages){
+      const group=document.createElement('div');group.lang=code;group.className='question-block-language';
+      for(const block of q.contentBlocks[code]||[]){
+        if(block.type==='paragraph'){const p=document.createElement('p');p.textContent=block.text;group.append(p);}
+        if(block.type==='table'){
+          const wrap=document.createElement('div');wrap.className='question-table-scroll';wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label',code==='en'?'Question data table':'題目數據表');
+          const table=document.createElement('table');
+          if(block.caption){const caption=document.createElement('caption');caption.textContent=block.caption;table.append(caption);}
+          for(const [index,row]of block.rows.entries()){const tr=document.createElement('tr');for(const value of row){const td=document.createElement(index===0?'th':'td');if(index===0)td.scope='col';td.textContent=value;tr.append(td);}table.append(tr);}
+          wrap.append(table);group.append(wrap);
+        }
+        if(block.type==='figure'&&!seen.has(block.diagram.src)){
+          seen.add(block.diagram.src);const d=block.diagram,figure=document.createElement('figure'),a=document.createElement('a'),img=document.createElement('img'),caption=document.createElement('figcaption');
+          figure.className='question-figure';a.href=d.src;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','放大題圖 / Enlarge figure');img.src=d.src;img.alt=d.alt;caption.textContent=d.caption;a.append(img);figure.append(a,caption);group.append(figure);
+        }
+      }
+      root.append(group);
+    }
+    return true;
+  }
+  return {clear,render,bindLanguages,syncLanguages,content};
 })();

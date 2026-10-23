@@ -38,7 +38,7 @@ const output='/tmp/eac-import-qa';fs.mkdirSync(output,{recursive:true});
    const result=await page.evaluate(async rows=>{
     await MathJax.startup.promise;const failures=[];let count=0;
     for(const q of rows)for(const [field,value]of Object.entries(q)){
-     const entries=typeof value==='string'?[[field,value]]:['options','optionsZh'].includes(field)?Object.entries(value).map(([k,v])=>[field+'.'+k,v]):[];
+     const entries=typeof value==='string'?[[field,value]]:['options','optionsZh'].includes(field)?Object.entries(value).map(([k,v])=>[field+'.'+k,v]):field==='contentBlocks'?Object.entries(value).flatMap(([lang,blocks])=>blocks.flatMap((b,j)=>b.type==='paragraph'?[[`${lang}.${j}`,b.text]]:b.type==='table'?[...(b.headers||[]),...(b.rows||[]).flat()].map((text,k)=>[`${lang}.${j}.cell${k}`,text]):[])):[];
      for(const [name,text]of entries)for(const match of text.matchAll(/\\\(([\s\S]*?)\\\)|\\\[([\s\S]*?)\\\]/g)){
       count++;try{const node=await MathJax.tex2svgPromise(match[1]??match[2],{display:match[2]!==undefined});const error=node.querySelector('[data-mjx-error],[data-mml-node="merror"]');const undefinedCommand=[...node.querySelectorAll('[data-mml-node="mtext"]')].find(n=>/^\\[A-Za-z]+/.test(n.getAttribute('data-latex')||n.textContent));if(error||undefinedCommand)failures.push({id:q.id,field:name,tex:match[1]??match[2],error:error?.getAttribute('data-mjx-error')||'Undefined TeX command'});}catch(error){failures.push({id:q.id,field:name,error:error.message});}
      }

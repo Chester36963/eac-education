@@ -65,7 +65,17 @@ function validate(catalog,topics,skills,assetRoot=path.join(ROOT,'src')){
           for(const field of ['options','optionsZh'])need(q[field]&&['A','B','C','D'].every(k=>typeof q[field][k]==='string'&&q[field][k].trim()),`${label}: complete bilingual A–D options required.`);
           need(['A','B','C','D'].includes(q.answer),`${label}: answer must be A–D.`);
         }else need(q.assessmentMode==='solution-comparison'||(Array.isArray(q.rubric)&&q.rubric.length&&q.rubric.every(v=>typeof v==='string'&&v.trim())),`${label}: marking rubric or explicit solution comparison required.`);
-        const mathFields={...Object.fromEntries(['stem','stemZh','solution','solutionZh','hint','hintZh'].map(f=>[f,q[f]])),...Object.fromEntries(['options','optionsZh'].flatMap(f=>Object.entries(q[f]||{}).map(([k,v])=>[`${f}.${k}`,v])))};
+        const blockFigures=[],blockText=[];
+        if(q.contentBlocks){
+          need(q.contentBlocks&&['en','zh-Hant'].every(k=>Array.isArray(q.contentBlocks[k])&&q.contentBlocks[k].length),`${label}: bilingual content blocks required.`);
+          for(const [language,blocks] of Object.entries(q.contentBlocks))for(const [i,b]of (Array.isArray(blocks)?blocks:[]).entries()){
+            need(['paragraph','table','figure'].includes(b.type),`${label}: unsupported content block.`);
+            if(b.type==='paragraph'){need(typeof b.text==='string'&&b.text.trim(),`${label}: empty paragraph.`);blockText.push([`blocks.${language}.${i}`,b.text]);}
+            if(b.type==='table'){need(Array.isArray(b.rows)&&b.rows.length&&b.rows.every(r=>Array.isArray(r)&&r.length&&r.every(c=>typeof c==='string')),`${label}: invalid table.`);for(const [j,r]of (b.rows||[]).entries())for(const [k,c]of r.entries())blockText.push([`blocks.${language}.${i}.${j}.${k}`,c]);}
+            if(b.type==='figure'){need(!!b.diagram,`${label}: missing block figure.`);if(b.diagram)blockFigures.push(b.diagram);}
+          }
+        }
+        const mathFields={...Object.fromEntries(['stem','stemZh','solution','solutionZh','hint','hintZh'].map(f=>[f,q[f]])),...Object.fromEntries(['options','optionsZh'].flatMap(f=>Object.entries(q[f]||{}).map(([k,v])=>[`${f}.${k}`,v]))),...Object.fromEntries(blockText)};
         for(const [field,value] of Object.entries(mathFields)){
           if(typeof value==='string'){
             need(!/<\/?(?:script|iframe)|javascript:|\[unclear:/i.test(value),`${label}: unsafe/unclear ${field}.`);
@@ -86,9 +96,9 @@ function validate(catalog,topics,skills,assetRoot=path.join(ROOT,'src')){
         }
         need(Boolean(q.hint)===Boolean(q.hintZh),`${label}: optional hints must be bilingual.`);
         const needsDiagram=q.questionType==='diagram'||/\b(?:in the (?:figure|diagram|graph)|(?:figure|diagram|graph) (?:shows|below))\b|如圖|圖中|下圖|圖示/i.test(`${q.stem} ${q.stemZh}`);
-        if(needsDiagram)need(!!q.diagram,`${label}: same-question diagram required.`);
-        if(q.diagram){
-          const d=q.diagram;
+        const stemLeafTable=/stem.and.leaf|幹葉|莖葉/i.test(`${q.stem} ${q.stemZh}`)&&Object.values(q.contentBlocks||{}).some(bs=>bs.some(b=>b.type==='table'&&/Stem/i.test(b.rows?.[0]?.[0])&&b.caption));
+        if(needsDiagram)need(!!q.diagram||blockFigures.length>0||stemLeafTable,`${label}: same-question diagram required.`);
+        for(const d of [q.diagram,...blockFigures].filter(Boolean)){
           const safe=typeof d.src==='string'&&/^assets\/[a-zA-Z0-9_./-]+\.(svg|png|jpe?g|webp)$/.test(d.src)&&!d.src.split('/').includes('..');
           need(safe,`${label}: diagram must be a local assets/ path.`);
           need(typeof d.alt==='string'&&d.alt.trim()&&typeof d.caption==='string'&&d.caption.trim(),`${label}: diagram alt/caption required.`);
@@ -156,7 +166,8 @@ function compile(source){
       for(const [open,close]of [['\\(','\\)'],['\\[','\\]']])if(short.lastIndexOf(open)>short.lastIndexOf(close))short=short.slice(0,short.lastIndexOf(open));
       return short.trim()+'…';
     };
-    return {...Object.fromEntries(['id','topicId','category','subcategory','skill','questionType','difficulty','minForm'].map(k=>[k,q[k]])),stem:excerpt(q.stem,200),stemZh:excerpt(q.stemZh,120),chunk:chunkFor.get(q.id),searchText:[...Object.values(subject.name),...Object.values(chapter.name),...Object.values(sub.name),skills[q.skill]].join(' ')};
+    const aliases=[...new Set([...(q.aliases||[]),...(q.sourceAliases||[]).map(a=>a.retiredId).filter(Boolean)])];
+    return {...Object.fromEntries(['id','topicId','category','subcategory','skill','questionType','difficulty','minForm'].map(k=>[k,q[k]])),...(aliases.length?{aliases}:{}),stem:excerpt(q.stem,200),stemZh:excerpt(q.stemZh,120),chunk:chunkFor.get(q.id),searchText:[...Object.values(subject.name),...Object.values(chapter.name),...Object.values(sub.name),skills[q.skill]].join(' ')};
   });
   const indexBody=JSON.stringify({questions:index})+'\n',indexFile=`data/question-index.${hash(indexBody)}.json`;
   const catalogBody=json(catalog),catalogFile=`data/catalog.${hash(catalogBody)}.json`;

@@ -161,6 +161,338 @@
           "sourceZh": "EAC 原創練習",
           "level": "free",
           "minForm": 3
+        },
+        {
+          "id": "import-four-centres-q216",
+          "stem": "The circle \\(C\\) has equation\n\\[\nx^2+y^2-12x-20y+k=0.\n\\]\nIts centre is \\(G\\) and its radius is 51. The point \\(A=(h,55)\\), where \\(h<0\\), lies on \\(C\\), while \\(B=(42,87)\\) is outside \\(C\\).\n(a)Write down the coordinates of \\(G\\).\n(b)Find \\(h\\) and \\(k\\).\n(c)Prove that \\(AB\\) is tangent to \\(C\\) at \\(A\\).\n(d)The other tangent from \\(B\\) touches \\(C\\) at \\(D\\). A moving point \\(P\\) satisfies \\(\\angle ABP=\\angle DBP\\). Its locus \\(\\Gamma\\) intersects \\(C\\) at \\(T,U\\), where \\(BT<BU\\).\n(d)(i)Find \\(T\\).\n(d)(ii)A point \\(V\\) is such that the circumcentre of \\(\\triangle VTU\\) lies on \\(AU\\). Find \\(V\\).",
+          "stemZh": "圓 \\(C\\) 的方程為\n\\[\nx^2+y^2-12x-20y+k=0,\n\\]\n圓心為 \\(G\\)，半徑為 51。點 \\(A=(h,55)\\) 在圓上，且 \\(h<0\\)；點 \\(B=(42,87)\\) 在圓外。\n(a)寫出 \\(G\\) 的坐標。\n(b)求 \\(h\\) 及 \\(k\\)。\n(c)證明 \\(AB\\) 是圓 \\(C\\) 在 \\(A\\) 點的切線。\n(d)從 \\(B\\) 作另一切線，切點為 \\(D\\)。動點 \\(P\\) 滿足 \\(\\angle ABP=\\angle DBP\\)，其軌跡 \\(\\Gamma\\) 與圓 \\(C\\) 相交於 \\(T,U\\)，且 \\(BT<BU\\)。\n(d)(i)求 \\(T\\) 的坐標。\n(d)(ii)點 \\(V\\) 使 \\(\\triangle VTU\\) 的外心位於 \\(AU\\) 上。求 \\(V\\) 的坐標。",
+          "solution": "(a) G=(6,10). (b) From (h−6)²+45²=51² and h<0, h=−18. Also k=136−2601=−2465.\n(c) The slopes of AB and AG are 8/15 and −15/8, so AB is perpendicular to the radius AG and is tangent at A.\n(d)(i) BG=85 and BT=85−51=34, so T=(138/5,281/5); the other intersection is U=(−78/5,−181/5).\n(ii) The wording does not determine a unique V. The circumcentre K must lie on both AU and the perpendicular bisector of TU. These lines are y=−38x−629 and 36x+77y=986, giving K=(−171/10,104/5). Thus every V on the circle\n\\[(x+171/10)^2+(y-104/5)^2=13005/4\\]\napart from T and U gives a non-degenerate triangle with the required circumcentre. The marking-scheme value V=(−318/5,269/5) is one valid example, verified by substitution. The scheme's claim that AU must bisect VT is not implied by the stated conditions.",
+          "solutionZh": "(a) G=(6,10)。(b) 由 (h−6)²+45²=51² 及 h<0，得 h=−18；k=136−2601=−2465。\n(c) AB、AG 的斜率為 8/15、−15/8，乘積為 −1，所以 AB 垂直半徑 AG，是 A 點的切線。\n(d)(i) BG=85、BT=34，得 T=(138/5,281/5)；另一交點 U=(−78/5,−181/5)。\n(ii) 原題未能唯一決定 V。外心 K 同時在 AU 及 TU 的中垂線上。兩直線為 y=−38x−629、36x+77y=986，得 K=(−171/10,104/5)。因此 V 可為下列圓上除 T、U 外的任意點：\n\\[(x+171/10)^2+(y-104/5)^2=13005/4.\\]\n評分參考所列 V=(−318/5,269/5) 是一個有效例子，代入可核實；但「AU 必須平分 VT」並非原題條件能推出的結論。",
+          "subcategory": "centre-tangency",
+          "skill": "fc-tangent-chain",
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 4,
+          "source": "SchoolMunsang College Mock · SourceMunsang College Mock · 2025/26 · P1 · Original Q19 · TopicL4 Tangent and Circumcentre Construction / 切線及外心構造 · DSE Level5*",
+          "sourceZh": "SchoolMunsang College Mock · SourceMunsang College Mock · 2025/26 · P1 · Original Q19 · TopicL4 Tangent and Circumcentre Construction / 切線及外心構造 · DSE Level5*",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "four-centres-2026-10-23",
+            "section": "q-Q216",
+            "item": 0,
+            "title": "Q216. Two Tangents, an Angle Bisector and a Circumcentre"
+          },
+          "adaptation": {
+            "en": "Original wording retained. Part (d)(ii) admits infinitely many V; the source marking-scheme answer is one example. See the verified explanation.",
+            "zh-Hant": "保留原題。(d)(ii) 的 V 不唯一；原評分參考的答案是一個例子，解析另列全部可能位置及核對。"
+          },
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The circle \\(C\\) has equation"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\nx^2+y^2-12x-20y+k=0.\n\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "Its centre is \\(G\\) and its radius is 51. The point \\(A=(h,55)\\), where \\(h<0\\), lies on \\(C\\), while \\(B=(42,87)\\) is outside \\(C\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a)Write down the coordinates of \\(G\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b)Find \\(h\\) and \\(k\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c)Prove that \\(AB\\) is tangent to \\(C\\) at \\(A\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(d)The other tangent from \\(B\\) touches \\(C\\) at \\(D\\). A moving point \\(P\\) satisfies \\(\\angle ABP=\\angle DBP\\). Its locus \\(\\Gamma\\) intersects \\(C\\) at \\(T,U\\), where \\(BT<BU\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(d)(i)Find \\(T\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(d)(ii)A point \\(V\\) is such that the circumcentre of \\(\\triangle VTU\\) lies on \\(AU\\). Find \\(V\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "圓 \\(C\\) 的方程為"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\nx^2+y^2-12x-20y+k=0,\n\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "圓心為 \\(G\\)，半徑為 51。點 \\(A=(h,55)\\) 在圓上，且 \\(h<0\\)；點 \\(B=(42,87)\\) 在圓外。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a)寫出 \\(G\\) 的坐標。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b)求 \\(h\\) 及 \\(k\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c)證明 \\(AB\\) 是圓 \\(C\\) 在 \\(A\\) 點的切線。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(d)從 \\(B\\) 作另一切線，切點為 \\(D\\)。動點 \\(P\\) 滿足 \\(\\angle ABP=\\angle DBP\\)，其軌跡 \\(\\Gamma\\) 與圓 \\(C\\) 相交於 \\(T,U\\)，且 \\(BT<BU\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(d)(i)求 \\(T\\) 的坐標。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(d)(ii)點 \\(V\\) 使 \\(\\triangle VTU\\) 的外心位於 \\(AU\\) 上。求 \\(V\\) 的坐標。"
+              }
+            ]
+          },
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "long",
+            "sourceId": "Q216",
+            "row": 33
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "source method tag: circle/tangent chain",
+            "status": "rule-classified"
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Reconciled the full same-question source, formula and answer; stable website ID retained.",
+              "source": {
+                "file": "/Users/chester/Downloads/catagory big project auto/four_centres_rebuild/final_v1_1/four_centres_v1_1_master.html",
+                "locator": "q-Q216",
+                "sha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "import-four-centres-q231",
+          "stem": "Let \\(k>0\\),\n\\[\nf(x)=x^2-4kx+6x+4k^2-12k-432,\n\\]\nwith vertex \\(R\\). Let \\(0<\\alpha<\\beta\\), where \\(\\alpha,p,\\beta\\) is arithmetic, \\(\\alpha,20,\\beta\\) is geometric, and \\(f(\\alpha)=f(\\beta)=0\\). Translate the graph left by \\(\\alpha\\) and up by \\(\\beta\\); the new vertex is \\(S\\). Also \\(T=(25k+21,21-12p)\\).\n(a)Find \\(R\\).\n(b)(i)Find \\(S,T\\). (ii) Describe the relationship between \\(RS,ST\\). (iii) If \\(H,I\\) are the circumcentre and incentre of \\(\\triangle RST\\), determine whether \\(HI<ST/2\\).",
+          "stemZh": "設 \\(k>0\\)，\n\\[\nf(x)=x^2-4kx+6x+4k^2-12k-432,\n\\]\n頂點為 \\(R\\)。實數 \\(0<\\alpha<\\beta\\)，\\(\\alpha,p,\\beta\\) 成等差數列，\\(\\alpha,20,\\beta\\) 成等比數列，且 \\(f(\\alpha)=f(\\beta)=0\\)。把 \\(f\\) 的圖像向左平移 \\(\\alpha\\)，再向上平移 \\(\\beta\\)，頂點為 \\(S\\)。另 \\(T=(25k+21,21-12p)\\)。\n(a)求 \\(R\\)。\n(b)(i)求 \\(S,T\\)。 (ii) 說明 \\(RS,ST\\) 的關係。 (iii) 若 \\(H,I\\) 是 \\(\\triangle RST\\) 的外心及內心，判斷 \\(HI<ST/2\\) 是否成立。",
+          "solution": "English Solution\nFirst-Look Signal: \\(\\alpha,\\beta\\) are roots, and the geometric mean gives their product immediately.\nStrategy Map: Complete the square → use root product → factor for roots → transform vertex → right-triangle centres.\n(a)\\(R=(2k-3,-441)\\).\n(b)(i) Since \\(\\alpha\\beta=20^2=400=4k^2-12k-432.\\),\n\\[\nk^2-3k-208=0=(k-16)(k+13).\n\\]\nso \\(k=16\\). Then \\(\\alpha=8,\\beta=50\\), \\(p=(8+50)/2=29\\), giving\n\\[\nR=(29,-441),\\; S=(21,-391),\\; T=(421,-327).\n\\]\n(b)(ii) The slopes are \\(-25/4\\) and \\(4/25\\), so \\(RS\\perp ST\\).\n(iii) The side lengths are \\(RS=\\sqrt{2564},\\; ST=\\sqrt{164096},\\; RT=\\sqrt{166660}.\\). Thus\n\\[\nr=\\frac{RS+ST-RT}{2}\\approx23.7417.\n\\]\nLocating the circumcentre at the midpoint of \\(RT\\) and the incentre by its equal side distances gives\n\\[\nHI\\approx178.8090,\n\\;\\;\n\\frac{ST}{2}\\approx202.5438.\n\\]\nThe claim is correct.\nAdditional expansion and checking steps:\n\\[\nf(x)=[x-(2k-3)]^2-441,\n\\]\n\\(k>0\\)\n\\[\nf(x)=x^2-58x+400=(x-8)(x-50),\n\\]\n\\[\nm_{RS}=\\frac{-50}{8}=-\\frac{25}{4},\n\\;\\;\nm_{ST}=\\frac{64}{400}=\\frac{4}{25}.\n\\]\n\\(-1\\)\n\\(HI<ST/2\\)",
+          "solutionZh": "中文詳解\n第一眼訊號：\\(\\alpha,\\beta\\) 是二次方程兩根，使用根的積配合等比條件最短。\n策略地圖：配方 → 根積求 \\(k\\) → 因式分解求根及 \\(p\\) → 頂點 → 直角三角形四心距離。\n(a)\n\\[\nf(x)=[x-(2k-3)]^2-441,\n\\]\n故 \\(R=(2k-3,-441)\\)。\n(b)(i) 由根的積及等比中項：\n\\[\n\\alpha\\beta=20^2=400=4k^2-12k-432.\n\\]\n所以\n\\[\nk^2-3k-208=0=(k-16)(k+13).\n\\]\n由 \\(k>0\\)，\\(k=16\\)。此時\n\\[\nf(x)=x^2-58x+400=(x-8)(x-50),\n\\]\n故 \\(\\alpha=8,\\beta=50\\)，而 \\(p=(8+50)/2=29\\)。因此\n\\[\nR=(29,-441),\\; S=(21,-391),\\; T=(421,-327).\n\\]\n(ii)\n\\[\nm_{RS}=\\frac{-50}{8}=-\\frac{25}{4},\n\\;\\;\nm_{ST}=\\frac{64}{400}=\\frac{4}{25}.\n\\]\n乘積為 \\(-1\\)，所以 \\(RS\\perp ST\\)。\n因 \\(S\\) 是直角頂點，外心 \\(H\\) 是 \\(RT\\) 中點。三邊長為\n\\[\nRS=\\sqrt{2564},\\; ST=\\sqrt{164096},\\; RT=\\sqrt{166660}.\n\\]\n直角三角形內切圓半徑\n\\[\nr=\\frac{RS+ST-RT}{2}\\approx23.7417.\n\\]\n以內心到斜邊垂足及外心的直角三角形計算，可得\n\\[\nHI\\approx178.8090,\n\\;\\;\n\\frac{ST}{2}\\approx202.5438.\n\\]\n所以 \\(HI<ST/2\\)，同意聲稱。\n易錯之處：最後比較使用的是 \\(ST/2\\)，不是外接圓半徑 \\(RT/2\\)。",
+          "subcategory": "centre-transformations",
+          "skill": "fc-transform",
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 4,
+          "source": "SchoolSFXC Mock · SourceSFXC Mock · 2025/26 · P1 · Original Q19 · TopicL5 Roots, Sequences and Centres / 根、數列及四心 · DSE Level5*",
+          "sourceZh": "SchoolSFXC Mock · SourceSFXC Mock · 2025/26 · P1 · Original Q19 · TopicL5 Roots, Sequences and Centres / 根、數列及四心 · DSE Level5*",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "four-centres-2026-10-23",
+            "section": "q-Q231",
+            "item": 0,
+            "title": "Q231. Root Sequences, Perpendicular Lines and a Centre Inequality"
+          },
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(k>0\\),"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\nf(x)=x^2-4kx+6x+4k^2-12k-432,\n\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "with vertex \\(R\\). Let \\(0<\\alpha<\\beta\\), where \\(\\alpha,p,\\beta\\) is arithmetic, \\(\\alpha,20,\\beta\\) is geometric, and \\(f(\\alpha)=f(\\beta)=0\\). Translate the graph left by \\(\\alpha\\) and up by \\(\\beta\\); the new vertex is \\(S\\). Also \\(T=(25k+21,21-12p)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a)Find \\(R\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b)(i)Find \\(S,T\\). (ii) Describe the relationship between \\(RS,ST\\). (iii) If \\(H,I\\) are the circumcentre and incentre of \\(\\triangle RST\\), determine whether \\(HI<ST/2\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(k>0\\)，"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\nf(x)=x^2-4kx+6x+4k^2-12k-432,\n\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "頂點為 \\(R\\)。實數 \\(0<\\alpha<\\beta\\)，\\(\\alpha,p,\\beta\\) 成等差數列，\\(\\alpha,20,\\beta\\) 成等比數列，且 \\(f(\\alpha)=f(\\beta)=0\\)。把 \\(f\\) 的圖像向左平移 \\(\\alpha\\)，再向上平移 \\(\\beta\\)，頂點為 \\(S\\)。另 \\(T=(25k+21,21-12p)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a)求 \\(R\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b)(i)求 \\(S,T\\)。 (ii) 說明 \\(RS,ST\\) 的關係。 (iii) 若 \\(H,I\\) 是 \\(\\triangle RST\\) 的外心及內心，判斷 \\(HI<ST/2\\) 是否成立。"
+              }
+            ]
+          },
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "long",
+            "sourceId": "Q231",
+            "row": 72
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "source method tag: graph/coordinate transformation",
+            "status": "rule-classified"
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Reconciled the full same-question source, formula and answer; stable website ID retained.",
+              "source": {
+                "file": "/Users/chester/Downloads/catagory big project auto/four_centres_rebuild/final_v1_1/four_centres_v1_1_master.html",
+                "locator": "q-Q231",
+                "sha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "import-four-centres-q238",
+          "stem": "In the figure, the circumcircle of \\(\\triangle ABC\\) is also the incircle of \\(\\triangle OPQ\\). The points \\(A,B,C\\) lie on \\(OQ,OP,PQ\\) respectively, and \\(AB=AC\\).\n(a)Prove that \\(\\angle POQ=\\angle BAC\\).\n(b)Let \\(O=(0,0)\\), with \\(A,Q\\) on the x-axis, \\(y_B=y_C=18\\), and \\(BC=12\\). Find the incentre \\(S\\) of \\(\\triangle OPQ\\), and determine whether \\(S\\) is the orthocentre of \\(\\triangle ABC\\).",
+          "stemZh": "下圖中，\\(\\triangle ABC\\) 的外接圓同時是 \\(\\triangle OPQ\\) 的內切圓。\\(A,B,C\\) 分別在 \\(OQ,OP,PQ\\) 上，且 \\(AB=AC\\)。\n(a)證明 \\(\\angle POQ=\\angle BAC\\)。\n(b)設 \\(O=(0,0)\\)，\\(A,Q\\) 在 x 軸上，\\(y_B=y_C=18\\)，且 \\(BC=12\\)。求 \\(\\triangle OPQ\\) 的內心 \\(S\\)，並判斷 \\(S\\) 是否為 \\(\\triangle ABC\\) 的垂心。",
+          "solution": "English Solution\nFirst-Look Signal: The three sides of (OPQ) are tangents to the same circle, so tangent-chord angles become inscribed angles.\nStrategy Map: tangent-chord theorem → equal base angles → angle equality → half-chord radius equation → tangent-radius perpendicularity → slope audit.\nComplete Worked Solution / 完整詳解\n(a)Since (OQ) is tangent at (A),\n\\[\n\\angle OAB=\\angle ACB.\n\\]\nSimilarly, since \\(OP\\) is tangent at \\(B\\),\n\\[\n\\angle OBA=\\angle ACB.\n\\]\nThe given \\(AB=AC\\) gives\n\\[\n\\angle ABC=\\angle ACB.\n\\]\nLet the common angle be \\(\\theta\\). In \\(\\triangle OAB\\),\n\\[\n\\angle POQ=\\angle AOB=180^\\circ-2\\theta.\n\\]\nIn \\(\\triangle ABC\\),\n\\[\n\\angle BAC=180^\\circ-2\\theta.\n\\]\nTherefore\n\\[\n\\angle POQ=\\angle BAC.\n\\]\n(b)Since \\(AB=AC\\) and \\(BC\\) is horizontal, write \\(A=(t,0)\\), so\n\\[\nB=(t-6,18),\\;\\; C=(t+6,18).\n\\]\nThe incircle touches the x-axis at \\(A\\), so its centre is \\(S=(t,r)\\). Because \\(SB=r\\),\n\\[\nr^2=6^2+(18-r)^2.\n\\]\nExpanding,\n\\[\nr^2=36+324-36r+r^2,\n\\]\nHence \\(36r=360\\), so \\(r=10\\).\nAlso \\(SB\\perp OB\\), so\n\\[\nm_{SB}=\\frac{18-10}{(t-6)-t}=-\\frac{4}{3},\n\\]\nand \\(m_{OB}=3/4\\). But\n\\[\nm_{OB}=\\frac{18}{t-6}.\n\\]\nHence\n\\[\n\\frac{18}{t-6}=\\frac{3}{4}\\Rightarrow72=3t-18\\Rightarrow t=30.\n\\]\nThus\n\\[\nS=(30,10),\\;\\; B=(24,18),\\;\\; C=(36,18),\\;\\; A=(30,0).\n\\]\nAlthough \\(AS\\perp BC\\), a second altitude is required to test the orthocentre claim:\n\\[\nm_{BS}=\\frac{10-18}{30-24}=-\\frac{4}{3},\n\\;\\;\nm_{AC}=\\frac{18-0}{36-30}=3.\n\\]\nTheir product is\n\\[\n-4\\ne-1,\n\\]\nso\n\\[\nBS\\not\\perp AC.\n\\]\nTherefore \\(S\\) is not the orthocentre.\nCommon Trap: A visually plausible perpendicular line is not a proof; verify a second altitude algebraically.",
+          "solutionZh": "中文詳解\n第一眼訊號：\\(OQ,OP,PQ\\) 都是內切圓切線；切線與弦的角可轉成圓周角。\n策略地圖：切線弦定理 → 等腰底角 → 證兩角相等 → 半弦直角三角形求半徑 → 切線垂直半徑求坐標 → 斜率檢查垂心。\n因 \\(OQ\\) 在 \\(A\\) 與圓相切，切線弦定理給\n\\[\n\\angle OAB=\\angle ACB.\n\\]\n同理，\\(OP\\) 在 \\(B\\) 與圓相切，\n\\[\n\\angle OBA=\\angle ACB.\n\\]\n又 \\(AB=AC\\)，所以\n\\[\n\\angle ABC=\\angle ACB.\n\\]\n設這些相等的角為 \\(\\theta\\)。在 \\(\\triangle OAB\\) 中，\n\\[\n\\angle POQ=\\angle AOB=180^\\circ-2\\theta.\n\\]\n在 \\(\\triangle ABC\\) 中，\n\\[\n\\angle BAC=180^\\circ-2\\theta.\n\\]\n故 \\(\\angle POQ=\\angle BAC\\)。\n因 \\(AB=AC\\) 且 \\(BC\\) 水平，\\(A\\) 在 \\(BC\\) 的中垂線上。設 \\(A=(t,0)\\)，則\n\\[\nB=(t-6,18),\\;\\; C=(t+6,18).\n\\]\n內切圓與 x 軸在 \\(A\\) 相切，所以圓心 \\(S=(t,r)\\)。由 \\(SB=r\\)：\n\\[\nr^2=6^2+(18-r)^2.\n\\]\n展開：\n\\[\nr^2=36+324-36r+r^2,\n\\]\n故 \\(36r=360\\)，\\(r=10\\)。\n又 \\(SB\\perp OB\\)。\n\\[\nm_{SB}=\\frac{18-10}{(t-6)-t}=-\\frac{4}{3},\n\\]\n所以 \\(m_{OB}=3/4\\)。但\n\\[\nm_{OB}=\\frac{18}{t-6}.\n\\]\n因此\n\\[\n\\frac{18}{t-6}=\\frac{3}{4}\n\\Rightarrow 72=3t-18\n\\Rightarrow t=30.\n\\]\n故\n\\[\nS=(30,10),\\; B=(24,18),\\; C=(36,18),\\; A=(30,0).\n\\]\n要檢查 \\(S\\) 是否為 \\(\\triangle ABC\\) 的垂心，雖然 \\(AS\\perp BC\\)，仍須檢查另一條高：\n\\[\nm_{BS}=\\frac{10-18}{30-24}=-\\frac{4}{3},\n\\;\\;\nm_{AC}=\\frac{18-0}{36-30}=3.\n\\]\n乘積為 \\(-4\\ne-1\\)，所以 \\(BS\\not\\perp AC\\)。因此 \\(S\\) 不是垂心。\n易錯之處：圖中兩線看似垂直不算證明；垂心必須同時在至少兩條高線上。",
+          "subcategory": "centre-relations",
+          "skill": "fc-centre-ratios",
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 4,
+          "source": "SchoolCanotta Set 2 Mock · SourceCanotta Set 2 Mock · 2025/26 · P1 · Original Q17 · TopicL7 Proof and Coordinate Centres / 證明及坐標四心 · DSE Level5*",
+          "sourceZh": "SchoolCanotta Set 2 Mock · SourceCanotta Set 2 Mock · 2025/26 · P1 · Original Q17 · TopicL7 Proof and Coordinate Centres / 證明及坐標四心 · DSE Level5*",
+          "assessmentMode": "solution-comparison",
+          "noteSource": {
+            "edition": "four-centres-2026-10-23",
+            "section": "q-Q238",
+            "item": 0,
+            "title": "Q238. Incircle-Circumcircle Proof and Centre Audit"
+          },
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "In the figure, the circumcircle of \\(\\triangle ABC\\) is also the incircle of \\(\\triangle OPQ\\). The points \\(A,B,C\\) lie on \\(OQ,OP,PQ\\) respectively, and \\(AB=AC\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a)Prove that \\(\\angle POQ=\\angle BAC\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b)Let \\(O=(0,0)\\), with \\(A,Q\\) on the x-axis, \\(y_B=y_C=18\\), and \\(BC=12\\). Find the incentre \\(S\\) of \\(\\triangle OPQ\\), and determine whether \\(S\\) is the orthocentre of \\(\\triangle ABC\\)."
+              },
+              {
+                "type": "figure",
+                "diagram": {
+                  "src": "assets/notes/import-four-centres-q238-1.svg",
+                  "alt": "import-four-centres-q238: source-matched mathematical diagram 1",
+                  "caption": "按同題原圖重建 / Reconstructed from the same-question source",
+                  "qa": {
+                    "questionId": "import-four-centres-q238",
+                    "status": "reviewed",
+                    "reviewedAt": "2026-10-23",
+                    "evidence": "2026-10-23: matched against same-question source; standalone asset and actual 900/390px question previews inspected. Persistent evidence: docs/qa/2026-10-23/figures/ and manifest.json; automated render manifest .cache/expansion/final-figures/render-manifest.json."
+                  }
+                }
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "下圖中，\\(\\triangle ABC\\) 的外接圓同時是 \\(\\triangle OPQ\\) 的內切圓。\\(A,B,C\\) 分別在 \\(OQ,OP,PQ\\) 上，且 \\(AB=AC\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a)證明 \\(\\angle POQ=\\angle BAC\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b)設 \\(O=(0,0)\\)，\\(A,Q\\) 在 x 軸上，\\(y_B=y_C=18\\)，且 \\(BC=12\\)。求 \\(\\triangle OPQ\\) 的內心 \\(S\\)，並判斷 \\(S\\) 是否為 \\(\\triangle ABC\\) 的垂心。"
+              },
+              {
+                "type": "figure",
+                "diagram": {
+                  "src": "assets/notes/import-four-centres-q238-1.svg",
+                  "alt": "import-four-centres-q238: source-matched mathematical diagram 1",
+                  "caption": "按同題原圖重建 / Reconstructed from the same-question source",
+                  "qa": {
+                    "questionId": "import-four-centres-q238",
+                    "status": "reviewed",
+                    "reviewedAt": "2026-10-23",
+                    "evidence": "2026-10-23: matched against same-question source; standalone asset and actual 900/390px question previews inspected. Persistent evidence: docs/qa/2026-10-23/figures/ and manifest.json; automated render manifest .cache/expansion/final-figures/render-manifest.json."
+                  }
+                }
+              }
+            ]
+          },
+          "diagram": {
+            "src": "assets/notes/import-four-centres-q238-1.svg",
+            "alt": "import-four-centres-q238: source-matched mathematical diagram 1",
+            "caption": "按同題原圖重建 / Reconstructed from the same-question source",
+            "qa": {
+              "questionId": "import-four-centres-q238",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-23",
+              "evidence": "2026-10-23: matched against same-question source; standalone asset and actual 900/390px question previews inspected. Persistent evidence: docs/qa/2026-10-23/figures/ and manifest.json; automated render manifest .cache/expansion/final-figures/render-manifest.json."
+            }
+          },
+          "provenance": {
+            "collection": "1013-webpage",
+            "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+            "topic": "fourCentres",
+            "kind": "long",
+            "sourceId": "Q238",
+            "row": 104
+          },
+          "classification": {
+            "version": "2026-10-23",
+            "basis": "multiple centres linked in the statement and solution",
+            "status": "rule-classified"
+          },
+          "editorialCorrections": [
+            {
+              "date": "2026-10-23",
+              "reason": "Reconciled the full same-question source, formula and answer; stable website ID retained.",
+              "source": {
+                "file": "/Users/chester/Downloads/catagory big project auto/four_centres_rebuild/final_v1_1/four_centres_v1_1_master.html",
+                "locator": "q-Q238",
+                "sha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3"
+              }
+            }
+          ]
         }
       ]
     },
@@ -295,7 +627,7 @@
           "sourceZh": "EAC 原創練習",
           "level": "free",
           "answerValue": 0.8333333333333334,
-          "tolerance": 0.00001,
+          "tolerance": 1e-05,
           "minForm": 3
         },
         {
@@ -5476,16 +5808,16 @@
           },
           "answer": "C",
           "options": {
-            "A": "The x-coordinate of the centroid is 6. / 形心的 x 坐標是 6。",
-            "B": "The y-coordinate of the in-centre is 8. / 內心的 y 坐標是 8。",
-            "C": "The x-coordinate of the circumcentre is 6. / 外心的 x 坐標是 6。",
-            "D": "The y-coordinate of the orthocentre is 8. / 垂心的 y 坐標是 8。"
+            "A": "The x-coordinate of the centroid is 6.",
+            "B": "The y-coordinate of the in-centre is 8.",
+            "C": "The x-coordinate of the circumcentre is 6.",
+            "D": "The y-coordinate of the orthocentre is 8."
           },
           "optionsZh": {
-            "A": "The x-coordinate of the centroid is 6. / 形心的 x 坐標是 6。",
-            "B": "The y-coordinate of the in-centre is 8. / 內心的 y 坐標是 8。",
-            "C": "The x-coordinate of the circumcentre is 6. / 外心的 x 坐標是 6。",
-            "D": "The y-coordinate of the orthocentre is 8. / 垂心的 y 坐標是 8。"
+            "A": "形心的 x 坐標是 6。",
+            "B": "內心的 y 坐標是 8。",
+            "C": "外心的 x 坐標是 6。",
+            "D": "垂心的 y 坐標是 8。"
           }
         },
         {

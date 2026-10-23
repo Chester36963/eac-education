@@ -19,15 +19,18 @@ test('all 898 supplied records have a traceable classification and disposition',
   }else if(r.status==='held'){assert.ok(r.reasons.length);assert.ok(!published.has(r.id));}
   else{assert.equal(r.status,'duplicate');assert.ok(published.has(r.duplicateOf));}
  }
- assert.equal(questions.filter(q=>!q.provenance).length,37,'original stable IDs survive');
- assert.equal(questions.length,37+audit.counts.published);
+ const original=questions.filter(q=>!q.id.startsWith('import-')&&!q.id.startsWith('note-'));
+ assert.equal(original.length,37,'original stable IDs survive');
+ const importedIds=new Set(audit.records.map(r=>r.id));
+ const publishedUnique=new Set(audit.records.filter(r=>r.status==='published').map(r=>r.id));
+ assert.equal(questions.length,37+publishedUnique.size+questions.filter(q=>q.id.startsWith('note-')&&!importedIds.has(q.id)).length);
 });
 
 test('verified answer corrections and broken source records cannot silently enter practice',()=>{
  const get=id=>questions.find(q=>q.id===id);
  for(const id of ['q169','q190','q245'])assert.equal(get('import-four-centres-'+id).answer,'B');
  for(const id of ['m031','m087','m061'])assert.equal(get('import-mensuration-mens-'+id).answer,'C');
- assert.ok(!get('import-mensuration-mens-m025'),'missing cuboid diagram cannot be guessed');
+ const cuboid=get('import-mensuration-mens-m025');assert.equal(cuboid.answer,'D');assert.match(cuboid.diagram.src,/recovered-mens-m025/);assert.match(cuboid.solution,/1120/);
  assert.ok(!get('import-mensuration-mens-m096'),'impossible sector data stays held');
  const repaired=get('import-mensuration-mens-l030');
  assert.ok(repaired.adaptation,'new authored solution is disclosed');
@@ -46,6 +49,7 @@ test('all 111 original holds retain a per-row recovery decision and stable ident
   assert.ok(r.assessment.length>40,r.id);assert.ok(r.reasons.length,r.id);
   const disposition=audit.records.find(a=>a.id===r.id);assert.ok(disposition);
   if(r.decision==='hold')assert.equal(disposition.status,'held',r.id);
+  else if(r.decision==='duplicate'){assert.equal(disposition.status,'duplicate');assert.equal(r.duplicateOf,disposition.duplicateOf);}
   else{
    assert.equal(disposition.status,'published',r.id);
    const q=questions.find(q=>q.id===r.id);assert.ok(q.editorialCorrections?.length);
@@ -61,7 +65,7 @@ test('all 111 original holds retain a per-row recovery decision and stable ident
  assert.equal(get('import-four-centres-q252').answer,'C');
  assert.equal(get('import-mensuration-mens-m075').answer,'B');
  assert.equal(get('import-mensuration-mens-m083').answer,'C');
- assert.ok(!get('import-four-centres-q216'),'underdetermined V cannot be repaired by closing a delimiter');
+ const q216=get('import-four-centres-q216');assert.ok(q216.adaptation);assert.match(q216.solution,/not determine a unique V/i,'underdetermined original explicitly disclosed');
 });
 
 test('details are bounded chunks; browsing metadata never contains solutions',()=>{

@@ -1,51 +1,71 @@
 {
   "schemaVersion": 2,
-  "revision": "8d5ce5d95d6989ec",
-  "totalQuestions": 853,
-  "chapterCount": 5,
-  "catalog": "data/catalog.fb6756919cd15161.json",
-  "index": "data/question-index.76396d89d6ec6c23.json",
+  "revision": "bb6b7d30233c8fd4",
+  "totalQuestions": 1187,
+  "chapterCount": 7,
+  "catalog": "data/catalog.66c3c04af0245f68.json",
+  "index": "data/question-index.da746f3f2c8be9ab.json",
   "search": [
-    "data/search/four-centres.f7ac242b58c6dfe9.json",
-    "data/search/four-centres.6b1276b963d84736.json",
+    "data/search/four-centres.ef262d4cd60411d9.json",
+    "data/search/four-centres.b200f86f90868cb2.json",
+    "data/search/four-centres.947fff1000609e75.json",
     "data/search/locus.659753f9d9081335.json",
-    "data/search/locus.c6faeffc50b9dbe3.json",
+    "data/search/locus.4e90f74c11a5052c.json",
+    "data/search/circle-equation.e5e332e02d56dec8.json",
+    "data/search/circle-equation.e9ccdf22fcdb1467.json",
     "data/search/polynomial.c91a6dbf0d3c825c.json",
     "data/search/polynomial.0815400086257914.json",
-    "data/search/sequences.28a549c6c12c4042.json",
-    "data/search/mensuration.0ee79cee12ad91a5.json",
-    "data/search/mensuration.83f116ff75aaf26d.json"
+    "data/search/sequences.d454bb436206d9a6.json",
+    "data/search/mensuration.9f579eaee1bb1392.json",
+    "data/search/mensuration.907e328feb8b52d8.json",
+    "data/search/statistics.35eed9bc62dcf371.json"
   ],
   "chapters": [
     {
       "topicId": "four-centres",
-      "path": "data/chapters/four-centres.3804383fe305c1e0.json",
+      "path": "data/chapters/four-centres.fc0e451881af5192.json",
       "chunks": [
-        "data/chapters/four-centres-chunk.b8c7e6ae973e8efe.json",
-        "data/chapters/four-centres-chunk.19a2ddba7d8d8590.json",
-        "data/chapters/four-centres-chunk.7b2a2ed9072f3a57.json",
-        "data/chapters/four-centres-chunk.6c60ecc2d3a32898.json",
-        "data/chapters/four-centres-chunk.70fd3a829ec43e0d.json",
-        "data/chapters/four-centres-chunk.1e679be25a383ff6.json",
-        "data/chapters/four-centres-chunk.a981716ce5fff29c.json",
-        "data/chapters/four-centres-chunk.1be5f25e89e96a95.json",
-        "data/chapters/four-centres-chunk.8304f50dc7be96a3.json"
+        "data/chapters/four-centres-chunk.bc384a702c55015f.json",
+        "data/chapters/four-centres-chunk.b077c7500bae8043.json",
+        "data/chapters/four-centres-chunk.b3e6f8016fef1149.json",
+        "data/chapters/four-centres-chunk.5e4d142cbd6dad4f.json",
+        "data/chapters/four-centres-chunk.04eec959cb6a3f14.json",
+        "data/chapters/four-centres-chunk.c62ae8fc7420246d.json",
+        "data/chapters/four-centres-chunk.17d07e6de6889c9c.json",
+        "data/chapters/four-centres-chunk.d47efc47294f19f6.json",
+        "data/chapters/four-centres-chunk.39aac827dd451765.json"
       ],
-      "questionCount": 254
+      "questionCount": 257
     },
     {
       "topicId": "locus",
-      "path": "data/chapters/locus.69626ae1d0f15b58.json",
+      "path": "data/chapters/locus.2cdf070b8c73c658.json",
       "chunks": [
         "data/chapters/locus-chunk.c250507f41eb6cb1.json",
         "data/chapters/locus-chunk.32f5321acdd145c0.json",
         "data/chapters/locus-chunk.2184b953aae99de9.json",
         "data/chapters/locus-chunk.94bcdfa5f6df2a8c.json",
-        "data/chapters/locus-chunk.f8eabf3509fbddd2.json",
-        "data/chapters/locus-chunk.4bc727a30c3051d8.json",
-        "data/chapters/locus-chunk.bfbc9a6faee9f07d.json"
+        "data/chapters/locus-chunk.ee23101db3bbc92e.json",
+        "data/chapters/locus-chunk.da377bba19770958.json",
+        "data/chapters/locus-chunk.7b1b857da5255314.json",
+        "data/chapters/locus-chunk.5736d23f4111af48.json"
       ],
-      "questionCount": 218
+      "questionCount": 225
+    },
+    {
+      "topicId": "circle-equation",
+      "path": "data/chapters/circle-equation.4a0fa3169f9b94c9.json",
+      "chunks": [
+        "data/chapters/circle-equation-chunk.eb47eda18274dcf2.json",
+        "data/chapters/circle-equation-chunk.ea3e5f6061d70070.json",
+        "data/chapters/circle-equation-chunk.326b6e3cd3dcc56d.json",
+        "data/chapters/circle-equation-chunk.0588d056957726e7.json",
+        "data/chapters/circle-equation-chunk.f7a766d755874523.json",
+        "data/chapters/circle-equation-chunk.b46fd1231d152e5b.json",
+        "data/chapters/circle-equation-chunk.8b219cb754cef095.json",
+        "data/chapters/circle-equation-chunk.8c6bbb0f1b6bc338.json"
+      ],
+      "questionCount": 229
     },
     {
       "topicId": "polynomial",
@@ -61,25 +81,35 @@
     },
     {
       "topicId": "sequences",
-      "path": "data/chapters/sequences.edafd4bb90f04aa1.json",
+      "path": "data/chapters/sequences.5ead779efe6432e3.json",
       "chunks": [
-        "data/chapters/sequences-chunk.9894220589f64270.json"
+        "data/chapters/sequences-chunk.e56578538e4a40ba.json"
       ],
-      "questionCount": 10
+      "questionCount": 21
     },
     {
       "topicId": "mensuration",
-      "path": "data/chapters/mensuration.e4bc6dff83f5fbbe.json",
+      "path": "data/chapters/mensuration.832765f43f907a87.json",
       "chunks": [
         "data/chapters/mensuration-chunk.d61add9c6d763829.json",
         "data/chapters/mensuration-chunk.e84ce6047df96cf1.json",
-        "data/chapters/mensuration-chunk.ca9fa0db4c8ab1f1.json",
-        "data/chapters/mensuration-chunk.3f2cc631ce73a7bc.json",
-        "data/chapters/mensuration-chunk.d5851ee1f5a8e071.json",
-        "data/chapters/mensuration-chunk.c6d71fc91cbee8b6.json",
-        "data/chapters/mensuration-chunk.854e27c7d06b0f58.json"
+        "data/chapters/mensuration-chunk.bf5a51e090cdbaa5.json",
+        "data/chapters/mensuration-chunk.e9e36aea0094fdb3.json",
+        "data/chapters/mensuration-chunk.d1e90f770e32a752.json",
+        "data/chapters/mensuration-chunk.2a66039fa1fe67c4.json",
+        "data/chapters/mensuration-chunk.490f6ca6ae2d8708.json",
+        "data/chapters/mensuration-chunk.ec2bc728c421fad0.json"
       ],
-      "questionCount": 217
+      "questionCount": 237
+    },
+    {
+      "topicId": "statistics",
+      "path": "data/chapters/statistics.d151a5f98d9375ee.json",
+      "chunks": [
+        "data/chapters/statistics-chunk.3999870e54de5e15.json",
+        "data/chapters/statistics-chunk.da22d5a8e312b763.json"
+      ],
+      "questionCount": 64
     }
   ]
 }

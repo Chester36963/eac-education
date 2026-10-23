@@ -1,0 +1,91 @@
+/* Generate auditable inventories from canonical data without changing questions. */
+const fs=require('node:fs'),crypto=require('node:crypto');
+const {readSource}=require('./content.cjs');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8')),write=(p,s)=>fs.writeFileSync(p,s.trimEnd()+'\n');
+const manifest=read('content/imports/2026-10-23-expansion.json'),audit=read('content/imports/1013-classification-audit.json'),recovery=read('content/imports/1013-recovery-review.json'),mens=read('content/imports/2026-10-23-mensuration-repairs.json');
+const source=readSource(),questions=source.topics.flatMap(t=>t.categories.flatMap(c=>c.questions.map(q=>({...q,topicId:t.id})))),byId=new Map(questions.map(q=>[q.id,q]));
+const escape=s=>String(s??'—').replaceAll('|','／').replaceAll('\n',' '),table=(headers,rows)=>[headers.join(' | '),headers.map(()=>'---').join(' | '),...rows.map(r=>r.map(escape).join(' | '))].map(s=>'| '+s+' |').join('\n');
+const sources=[...new Map(manifest.records.map(r=>[r.sourceFile,{file:r.sourceFile,hash:r.sourceSha256}])).values()];
+const asgsHtml='/Users/chester/Downloads/catagory big project auto/geometric_sequence_note_v2/geometric_sequence_note_v2.html';
+if(fs.existsSync(asgsHtml))sources.push({file:asgsHtml,hash:crypto.createHash('sha256').update(fs.readFileSync(asgsHtml)).digest('hex')});
+const resultNames={'added':'新增','recovered':'恢復','updated':'更新','matched-existing':'沿用已上架版本','held':'待補來源','duplicate':'重複來源合併'};
+const evidence='[驗收證據](qa/2026-10-23/README.md)';
+const independentlyChecked=q=>q.topicId==='sequences'||['import-four-centres-q216','import-four-centres-q231','import-four-centres-q238'].includes(q.id)||mens.some(r=>r.id===q.id);
+write('docs/CONTENT_EXPANSION_PLAN.md',`# EAC 題庫擴充與修復追蹤 · 2026-10-23
+
+## 範圍及真實狀態
+
+本批 canonical 題庫有 **${questions.length} 條獨立題、七課題**。853 條基線全部保留，增加 334 個 ID：293 條新來源題（圓方程 229＋統計 64）及 41 條新恢復舊題（四心 3＋軌跡 7＋數列 11＋度量 20）。不是 334 條全部新題。
+
+匯入、圖像及互動回歸已執行；**全部新舊題的逐小題獨立數學重算尚未完成**，不能把公式顯示通過當作答案全部核實。逐題表把匯入結果及數學驗收分開列。正式發布版本另見 [IMPLEMENTATION_LOG.md](IMPLEMENTATION_LOG.md)。
+
+狀態固定使用：待處理／處理中／待驗收／完成／待補來源。數量由 canonical 資料及來源 manifest 生成；不要手改 generated src/data。
+
+## 工作及批次
+
+${table(['編號','工作／批次','狀態','實際證據與限制'],[
+['CT-01','來源清單、815 條來源對照、1187 題清單','完成','本文件三份附錄、來源 SHA256；494 次舊題比對只屬差異偵測，非全部語意驗收'],
+['CT-02','B1：ASGS 23 條來源覆核','完成','tests/expansion-mathematics.cjs：21 獨立題定義域、全部根及整數邊界；23→21 而非原估22'],
+['CT-03','B1：四心 Q216/Q231/Q238 及 master 對照','待驗收','三題已恢復並有獨立算式測試；Q238 圖驗收；其餘 source/current 差異須逐題語意覆核'],
+['CT-04','B2：軌跡來源合併及待補修復','待驗收','7 個新恢復 ID；4 題待補來源；既有題差異仍需完整語意驗收'],
+['CT-05','B3：圓方程230條來源','待驗收','229 題新增、1 題矛盾保留；47 官方簡答分離語言；未逐小題獨立重算全部229題'],
+['CT-06','B3：統計BC v5','待驗收','64 題／19 SVG／Type0–9 對帳、圖像通過；獨立統計測試覆蓋多組資料，未覆蓋全部64題每個小問'],
+['CT-07','B2：原111暫存及度量','完成','原111：105 recover、2 duplicate、4 hold；另有風箏舊題重新暫停；20 度量題重建及計算紀錄'],
+['CT-08','多區塊、別名、舊記錄相容','完成','tests/alias-migration.cjs；browser/imported-bank.cjs、language-recovery.cjs、study-journey.cjs'],
+['CT-09','回歸及發布','待驗收','本地回歸完成；部署結果及版本以 IMPLEMENTATION_LOG 實際紀錄為準']])}
+
+本次採一個可回退的 main 發布批次，內容和 UI 在本地按 B1/B2/B3/B4 完成；沒有聲稱每個本地批次都曾獨立上線。
+
+## 課題與數量
+
+${table(['課題ID','獨立題數','分類來源'],source.topics.map(t=>[t.id,t.categories.reduce((n,c)=>n+c.questions.length,0),'content/chapters/'+t.id+'.json']))}
+
+898 條 legacy 來源記錄中，882 條 published、11 條 duplicate、5 條 held。882 條 published 包括 25 條重複引用相同 ID，因此是 857 個 legacy 獨立題。1187＝857 legacy＋37 原有原創＋293 新來源。815 條本批來源記錄包含對現有題的再次比對，**不可與1187相加**。
+
+## 鎖定來源及版本
+
+${table(['本地來源／版本','SHA256'],sources.map(s=>[s.file,s.hash]))}
+
+度量補查來源：/Users/chester/Downloads/catagory big project auto/mensuration_note/mensuration_integrated_reviewed.html、source_inventory、precise_crops 及 assets。逐題 locator、原圖和比對結果見 ../content/imports/2026-10-23-legacy-source-trace.json 及 2026-10-23-mensuration-repairs.json。
+
+ASGS 以 source_data.json 的原檔名、頁碼、原題號對應。quiz1=scan03、quiz2=scan02：確認兩對相同題，23來源→21獨立題。10舊題更新＋11獨立恢復，另2來源映射到已保留題。兩個退休ID仍由別名解析，作答、收藏及續做不重設。
+
+## 仍待補的六條獨立題
+
+${table(['編號／網站ID','已查及推導','具體缺失','下一步／狀態'],[
+['HOLD-01 import-mensuration-mens-m096','1013原資料、度量HTML、同目錄 inventory／圖像；檢查扇形周界至少2r','英文r=3π、周界12不可能；中文周界12π，雙語條件不一致','待補來源：原卷確認周界，不能自行改12或12π'],
+['HOLD-02 import-locus-f4d7095d86410b0c','1013 MC8、新軌跡 q-mcq-set-3/2、配方代入k=4','得到r²=−48，無實圓；原選項／答案不能成立','待補來源：原卷核對常數或k'],
+['HOLD-03 import-locus-819c87812b652840','1013 MC28、新軌跡q-mcq-set-10/1；重推等距直線','完整軌跡含兩角平分線及須處理退化情況，選項沒有對應完整答案','待補來源：原題完整選項及限制'],
+['HOLD-04 import-locus-1041dedc53bd54d3','1013 MC138、新軌跡q-mcq-set-48/1均已查','兩版本均欠題幹及選項；無法從空白推導','待補來源：原題頁；候選note ID已映射回原網站ID'],
+['HOLD-05 import-locus-c09d69a6562cc424','1013 Long75、新軌跡q-LongQ-75；比較兩種風箏等邊配對','OA=AB、OC=BC與OA=OC、AB=BC產生不同軌跡，未見可靠標記','待補來源：同題圖及等邊標記；不採條件式答案冒充唯一解'],
+['HOLD-06 note-circle-equation-official-mcq-circle-construction-4','圓方程v10同題題文、選項及來源答案；由圓心半徑重算','B半徑5與D最高y=3同時正確，單選不成立','待補來源：原卷或來源修正版；不可改干擾項湊答案']])}
+
+Q216 另列注意：最後原條件不足以唯一決定V。本版明示原題限制及整個V圓的通解，來源示例不是唯一解；沒有偷偷新增條件。tests/expansion-mathematics.cjs 驗證半徑平方13005/4、來源例子和另一可行點。
+
+## 圖像與資料介面
+
+43 幅本批題圖＝統計19＋度量20＋四心1＋圓方程3。保留來源SVG或按同題已核對圖重建；逐圖檢查獨立資產、實際900/390px題目。${evidence}包含六張接觸表、最終修正的L015/L001、桌面／手機頁面及資產SHA256。自動掃描不代替人工來源匹配。
+
+統計核對刻度、組界、頻數、單位、莖葉key、五數概括及圖例；R16頻數11、總數40，平均64、標準差8。莖葉表有讀法；原簡答標示「來源簡答」，不稱完整雙語評分解答。R02有兩種可行極差，R29資訊不足以算唯一精確概率，保留限制。
+
+contentBlocks 可選 en／zh-Hant 有序段落、表格、題圖；solution／solutionZh 與題目分開，只在解答區呈現。本批不把解析圖混入題圖。舊stem／stemZh及單diagram仍相容。題型、難度、來源層級與主要技巧分欄，跨課題可用標籤；分類是教學整理，並非官方年級認證。
+
+## 驗收界線與接力
+
+- 已通過：1187題顯示、48711次公式渲染檢查無MathJax錯誤（含雙語及摘要／區塊的重複檢查，不是48711條不同公式）；43獨立資產／86實際預覽；搜尋、組題、自評、收藏、錯題、續做、別名及舊記錄；320/390/768/1440px回歸。
+- 已獨立算式驗證：ASGS21、Q216/Q231/Q238、度量20，及 tests/statistics-answers.cjs 明列的統計資料／邊界。來源自帶答案檢查屬來源證據，不冒稱本次獨立覆核。
+- 待驗收：圓方程及統計全部小題的完整獨立重算、494次source/current題文差異的逐項語意裁定。比對包含來源選項內嵌與舊版拆欄的差異，不能依低相似度自動覆寫。
+- 待補來源：上述6題。新資料到達後以原ID修訂、補同題圖及獨立答案測試，重跑build、browser及圖像驗收。
+- UI完整規格／目前完成狀態：[UI_UX_ROADMAP.md](UI_UX_ROADMAP.md)。後續不可只看最後一則短日誌。
+
+## 逐題附錄
+
+- [815條本批來源清單、分類及結果](CONTENT_SOURCE_RESULTS.md)
+- [原111條暫存逐題結果](CONTENT_RECOVERY_RESULTS.md)
+- [1187條網站題目與數學驗收狀態](CONTENT_QUESTION_INVENTORY.md)
+- 機讀：content/imports/2026-10-23-expansion.json、2026-10-23-existing-comparison.json、1013-classification-audit.json、1013-recovery-review.json。
+`);
+write('docs/CONTENT_SOURCE_RESULTS.md','# 本批815條來源結果\n\n由 scripts/report-expansion.cjs 生成；來源記錄不等於獨立題數。沿用題目只表示來源配對，完整語意／答案驗收另列。\n\n'+table(['記錄編號','來源檔','原locator','網站ID','結果','分類／技巧','數學驗收'],manifest.records.map((r,i)=>{const q=byId.get(r.id);return ['SRC-'+String(i+1).padStart(4,'0'),r.sourceFile,r.locator,r.id,resultNames[r.status],q?[q.subcategory,q.skill].join(' / '):'—',r.status==='held'?'待補來源':q&&independentlyChecked(q)?'完成：獨立計算測試／修復紀錄':r.status==='duplicate'?'完成：來源合併；依保留題驗收':'待驗收：未宣稱逐小題全重算'];})));
+write('docs/CONTENT_RECOVERY_RESULTS.md','# 原111條暫存逐題結果\n\n105恢復、2重複合併、4仍待補。其後另暫停一條風箏題，不能把它算入原111條。原始reasons保留作追溯，不代表現狀仍有該問題。\n\n'+table(['編號','原題來源／行','網站ID','結果／狀態','嘗試／修復／限制','原問題'],recovery.records.map((r,i)=>['REC-'+String(i+1).padStart(3,'0'),`${r.sourceTopic} ${r.kind} ${r.sourceId||r.sourceRow}`,r.id,r.decision==='hold'?'待補來源':r.decision==='duplicate'?'完成：重複合併':'完成：恢復；數學驗收另見總清單',r.assessment||r.adaptation||'見來源manifest及修復紀錄',(r.reasons||[]).join('; ')])));
+write('docs/CONTENT_QUESTION_INVENTORY.md','# 網站全部獨立題目清單\n\n題數由canonical資料產生。技術驗收：全部題目通過build與公式渲染；數學驗收：只在有獨立算式／修復紀錄時列完成。未列完成不等於已知錯題。\n\n'+table(['題目編號','課題','網站ID','分類','技巧','題型／難度','來源','數學驗收'],questions.map((q,i)=>['Q-'+String(i+1).padStart(4,'0'),q.topicId,q.id,q.subcategory,q.skill,q.questionType+' / '+q.difficulty,q.source,independentlyChecked(q)?'完成：本批獨立計算／修復證據':'待驗收：來源解答已保留，未逐小題獨立覆核'])));
+console.log(`Generated complete inventories: ${manifest.records.length} source rows, ${recovery.records.length} original recovery rows, ${questions.length} unique questions.`);

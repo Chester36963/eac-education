@@ -22,7 +22,7 @@ const QuestionBank=(()=>{
     if(!metadataPromise)metadataPromise=manifest().then(m=>request(m.index)).then(data=>data.questions).catch(error=>{metadataPromise=null;throw error;});
     return metadataPromise;
   }
-  function lookup(){if(!lookupPromise)lookupPromise=index().then(rows=>new Map(rows.map(q=>[q.id,q]))).catch(error=>{lookupPromise=null;throw error;});return lookupPromise;}
+  function lookup(){if(!lookupPromise)lookupPromise=index().then(rows=>new Map(rows.flatMap(q=>[q.id,...(q.aliases||[])].map(id=>[id,q])))).catch(error=>{lookupPromise=null;throw error;});return lookupPromise;}
   async function topic(topicId){
     const entry=(await manifest()).chapters.find(c=>c.topicId===topicId);
     if(!entry)throw Error('Unknown chapter: '+topicId);
@@ -38,6 +38,7 @@ const QuestionBank=(()=>{
   async function question(id){
     const metadata=(await lookup()).get(id);
     if(!metadata)return null;
+    id=metadata.id;
     if(metadata.chunk){const rows=(await request(metadata.chunk)).questions;const q=rows.find(q=>q.id===id);return q?{...metadata,...q}:null;}
     const data=await topic(metadata.topicId);
     return data.categories.flatMap(c=>c.questions).find(q=>q.id===id)||null;

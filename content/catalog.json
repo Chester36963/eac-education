@@ -254,6 +254,80 @@
               ]
             }
           ]
+        },
+        {
+          "id": "circle-equation",
+          "topicId": "circle-equation",
+          "name": {
+            "en": "Equation of a Circle",
+            "zh-Hant": "圓方程"
+          },
+          "description": {
+            "en": "Equation of a Circle practice by solving skill.",
+            "zh-Hant": "圓方程題目按解題技巧分類。"
+          },
+          "subcategories": [
+            {
+              "id": "standard-form",
+              "name": {
+                "en": "Standard form and sketch",
+                "zh-Hant": "標準式與草圖"
+              },
+              "skills": [
+                "circle-equation-standard-form"
+              ]
+            },
+            {
+              "id": "general-form",
+              "name": {
+                "en": "General form and parameters",
+                "zh-Hant": "一般式與參數"
+              },
+              "skills": [
+                "circle-equation-general-form"
+              ]
+            },
+            {
+              "id": "tangents",
+              "name": {
+                "en": "Tangents",
+                "zh-Hant": "切線"
+              },
+              "skills": [
+                "circle-equation-tangents"
+              ]
+            },
+            {
+              "id": "circle-loci",
+              "name": {
+                "en": "Circle families and loci",
+                "zh-Hant": "動圓與軌跡"
+              },
+              "skills": [
+                "circle-equation-circle-loci"
+              ]
+            },
+            {
+              "id": "chords",
+              "name": {
+                "en": "Chords",
+                "zh-Hant": "弦的坐標與距離"
+              },
+              "skills": [
+                "circle-equation-chords"
+              ]
+            },
+            {
+              "id": "line-circle",
+              "name": {
+                "en": "Lines and circles",
+                "zh-Hant": "直線與圓"
+              },
+              "skills": [
+                "circle-equation-line-circle"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -519,6 +593,129 @@
             }
           ],
           "topicId": "mensuration"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": {
+        "en": "Statistics",
+        "zh-Hant": "統計"
+      },
+      "chapters": [
+        {
+          "id": "statistics",
+          "topicId": "statistics",
+          "name": {
+            "en": "Statistics",
+            "zh-Hant": "統計"
+          },
+          "description": {
+            "en": "Statistics practice by solving skill.",
+            "zh-Hant": "統計題目按解題技巧分類。"
+          },
+          "subcategories": [
+            {
+              "id": "type-0",
+              "name": {
+                "en": "Reading statistical displays",
+                "zh-Hant": "讀圖與基本統計量"
+              },
+              "skills": [
+                "statistics-type-0"
+              ]
+            },
+            {
+              "id": "type-1",
+              "name": {
+                "en": "Comparing distributions",
+                "zh-Hant": "分佈比較"
+              },
+              "skills": [
+                "statistics-type-1"
+              ]
+            },
+            {
+              "id": "type-2",
+              "name": {
+                "en": "Statistical relationships",
+                "zh-Hant": "統計量關係"
+              },
+              "skills": [
+                "statistics-type-2"
+              ]
+            },
+            {
+              "id": "type-3",
+              "name": {
+                "en": "Reconstructing observations",
+                "zh-Hant": "反推數據"
+              },
+              "skills": [
+                "statistics-type-3"
+              ]
+            },
+            {
+              "id": "type-4",
+              "name": {
+                "en": "Grouped data and bounds",
+                "zh-Hant": "分組數據與界限"
+              },
+              "skills": [
+                "statistics-type-4"
+              ]
+            },
+            {
+              "id": "type-5",
+              "name": {
+                "en": "Adding and deleting data",
+                "zh-Hant": "加入與刪除數據"
+              },
+              "skills": [
+                "statistics-type-5"
+              ]
+            },
+            {
+              "id": "type-6",
+              "name": {
+                "en": "Frequency balance",
+                "zh-Hant": "頻數平衡"
+              },
+              "skills": [
+                "statistics-type-6"
+              ]
+            },
+            {
+              "id": "type-7",
+              "name": {
+                "en": "Two unknown frequencies",
+                "zh-Hant": "兩個未知頻數"
+              },
+              "skills": [
+                "statistics-type-7"
+              ]
+            },
+            {
+              "id": "type-8",
+              "name": {
+                "en": "Combined groups",
+                "zh-Hant": "合併數據組"
+              },
+              "skills": [
+                "statistics-type-8"
+              ]
+            },
+            {
+              "id": "type-9",
+              "name": {
+                "en": "Linear transformations",
+                "zh-Hant": "線性變換"
+              },
+              "skills": [
+                "statistics-type-9"
+              ]
+            }
+          ]
         }
       ]
     }

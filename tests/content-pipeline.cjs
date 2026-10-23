@@ -36,9 +36,18 @@ test('validation blocks duplicate IDs, missing translation, broken taxonomy and 
     [s=>question(s).options.A='\\(broken',/unbalanced math delimiters in options.A/],
     [s=>question(s).skill='not-a-skill',/unknown subcategory\/skill/],
     [s=>question(s).stem='In the figure, find the answer.',/same-question diagram required/],
+    [s=>{const q=question(s);q.stem='The graph shows the distribution.';q.contentBlocks=Object.fromEntries(['en','zh-Hant'].map(k=>[k,[{type:'table',rows:[['x','f'],['1','3']]}]]));},/same-question diagram required/],
     [s=>{const q=s.topics.flatMap(t=>t.categories.flatMap(c=>c.questions)).find(q=>q.diagram);q.diagram.qa.questionId='wrong-id';},/reviewed same-question/],
     [s=>{const q=s.topics.flatMap(t=>t.categories.flatMap(c=>c.questions)).find(q=>q.diagram);q.diagram.src='assets/../secret.svg';},/local assets/]
   ]){const s=source();change(s);assert.match(validate(s.catalog,s.topics,s.skills).join('\n'),message);}
+});
+
+test('ordered figure blocks satisfy diagram QA without a legacy top-level image',()=>{
+  const s=source(),q=s.topics.flatMap(t=>t.categories.flatMap(c=>c.questions)).find(q=>q.diagram);
+  q.contentBlocks=Object.fromEntries(['en','zh-Hant'].map(lang=>[lang,[{type:'paragraph',text:lang==='en'?q.stem:q.stemZh},{type:'figure',diagram:structuredClone(q.diagram)}]]));
+  delete q.diagram;assert.deepEqual(validate(s.catalog,s.topics,s.skills),[]);
+  q.contentBlocks.en[1].diagram.qa.questionId='neighbour-question';
+  assert.match(validate(s.catalog,s.topics,s.skills).join('\n'),/reviewed same-question/);
 });
 
 test('import previews are idempotent; corrections require explicit replace and preserve IDs',()=>{
