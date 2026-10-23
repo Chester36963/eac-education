@@ -41,9 +41,9 @@ mjx-container:not([display="true"]) { display:inline-block;max-width:100%;overfl
 /* Content sets its own height; short questions should not become empty posters. */
 .practice-page .question-stem { font-size:21px;line-height:1.65;margin:14px 0 8px; }
 .practice-page .question-zh,.question-block-language[lang=zh-Hant],.preview-zh { font-family:var(--font-stack);font-size:16px;line-height:1.8; }
-.practice-page .options { gap:8px;margin-top:14px; }
-.practice-page .option { padding:10px 13px;min-height:48px; }
-.practice-page .option-text { font-size:19px;line-height:1.55; }
+.practice-page .options { gap:8px;margin-top:14px;grid-template-columns:minmax(0,1fr); }
+.practice-page .option { padding:10px 13px;min-height:48px;min-width:0; }
+.practice-page .option-text { font-size:19px;line-height:1.55;flex:1;overflow-wrap:anywhere; }
 .practice-page .option-text small { display:block;font-family:var(--font-stack);font-size:14px;line-height:1.6; }
 .question-block-language+.question-block-language { margin-top:12px;padding-top:12px; }
 .question-reading-tools select { min-height:44px; }

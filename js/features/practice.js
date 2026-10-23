@@ -162,6 +162,16 @@ async function renderQuestion({focusQuestion=false,revealResult=false}={}){
  el('submit-btn').disabled=false;el('hint-btn').disabled=false;el('solution-btn').disabled=false;
  EACMath.clear(el('active-set'));
  const q=question(),result=sessionState.answers[q.id];isAnswerSubmitted=!!result;selectedAnswer=result?.response||sessionState.drafts[q.id]||null;
+ // A recovered source may restore MC choices after a written-stage release.
+ // Keep the old working visible and archived; never grade it as a choice letter.
+ const prior=sessionState.drafts[q.id];
+ if(q.options&&prior&&!Object.hasOwn(q.options,prior)){
+  sessionState.previousWrittenDrafts||={};sessionState.previousWrittenDrafts[q.id]??=prior;persist();
+ }
+ let previous=document.getElementById('previous-written-response');
+ if(!previous){previous=document.createElement('aside');previous.id='previous-written-response';previous.className='editorial-note';el('options-container').before(previous);}
+ const oldWorking=q.options?(result?.assessment==='self'?result.response:sessionState.previousWrittenDrafts?.[q.id]):null;
+ previous.hidden=!oldWorking;previous.textContent=oldWorking?`此題已恢復來源選項。你之前的書面作答已保留：\n${oldWorking}`:'';
  el('reading-language').value=sessionState.selection.language||'bilingual';
  EACMath.syncLanguages();
  el('question-edition-wrap').hidden=!q.adaptation;
@@ -231,6 +241,7 @@ function response(){const q=question();return q.options?(selectedAnswer||session
 function handleSubmit(){
  if(isAnswerSubmitted)return;const q=question(),value=response();
  if(!value){showResult('請先輸入或選擇答案。',false);reveal(el('result-message'));return;}
+ if(q.options&&!Object.hasOwn(q.options,value)){showResult('此題已恢復選項，請選擇 A–D；之前的書面作答仍然保留。',false);reveal(el('result-message'));return;}
  if(q.questionType==='short-answer'&&!Number.isFinite(Learning.number(value))){showResult('請輸入數值或分數，例如 0.5 或 1/2。單位無需輸入。',false);reveal(el('result-message'));return;}
  if(!Learning.automatic(q)){
   const token=renderToken;el('assessment-panel').hidden=false;el('rubric-list').replaceChildren();for(const text of q.rubric||['此題沒有獨立評分準則。請對照來源解析，核對推理步驟與結論，再記錄自評。']){const li=document.createElement('li');li.textContent=text;el('rubric-list').append(li);}EACMath.render(el('rubric-list'));showSolution().then(()=>{if(token===renderToken&&sessionState)reveal(el('solution-panel'));});el('submit-btn').hidden=true;return;
