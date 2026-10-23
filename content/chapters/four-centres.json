@@ -627,7 +627,7 @@
           "sourceZh": "EAC 原創練習",
           "level": "free",
           "answerValue": 0.8333333333333334,
-          "tolerance": 1e-05,
+          "tolerance": 0.00001,
           "minForm": 3
         },
         {
@@ -1582,7 +1582,7 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "answer": "A",
+          "answer": "B",
           "options": {
             "A": "\\((0,5)\\)",
             "B": "\\((1,-3)\\)",

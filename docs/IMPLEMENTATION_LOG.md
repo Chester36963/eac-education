@@ -1,5 +1,16 @@
 # Implementation record
 
+## Priority source discrepancies and restored choices — 23 October 2026
+
+Status LOG-20261023-PRIORITY: 本地內容及作答驗收完成；本次發布待驗收。Revision `b12f375162729ec6`, unchanged1,186 questions/seven chapters. [Priority source review](PRIORITY_SOURCE_REVIEW.md) records39 adjudicated source/current differences;455 of the original494 remain pending. [Full scope](CONTENT_EXPANSION_PLAN.md) and [UI/UE handoff](UI_UX_ROADMAP.md) remain the authoritative follow-up lists.
+
+- Independently recomputed all39 low-similarity rows (six four-centres,33 locus). Corrected Q187's published A key to B=(1,−3), in agreement with both altitude equations and source solutions. Restored30 existing locus IDs to complete bilingual source A–D choices and automatic grading; no invented options, changed numbers, new IDs or reset records. Seventeen classifications corrected to the decisive relation, including angle bisectors, distance to parallel lines, area and focus/directrix.
+- Three English source panels describe different exercises from their Chinese counterparts and both solution panels. Kept the established question identity and translated the matching Chinese choices. A reflection question occurs twice with different option order and a mismatched English panel at one occurrence; used the coherent bilingual q-mcq-set-39/3, preserving both source snapshots. Fixed-distance zero ambiguity and a damaged/invalid-options item remain explicit written comparisons.
+- Archived old written drafts before selecting restored MCQ choices and kept them visible. Old self-assessments, bookmarks and resumed sessions remain intact; arbitrary old written text cannot be automatically graded as an A–D choice. Historical answers are not retrospectively recomputed. Fixed grid minimum width so long restored mathematical choices no longer expand the whole page at320px.
+- Actual checks:370 Node tests pass (including39 new independent calculations with full-question hashes); all1,186 questions pass48,854 formula-render checks. Browser suite passes156 question/viewport checks at320/390/768/1440px, all restored MCQ correct-key submissions at390px, previous-written migration and exact-skill routing. Study-journey regression passes. Five final mobile screenshots visually reviewed; no student-facing diagram assets changed and no PDF produced.
+
+Evidence: [B5 QA](qa/2026-10-23/priority-review/README.md). Six unresolved source problems still occupy seven held IDs. Browser-local accounts and storage remain the current persistence boundary. Publication evidence is recorded separately after matching live verification.
+
 ## Independent answer review and source repairs — 23 October 2026
 
 Status LOG-20261023-ANS: 本地內容、作答及本次正式發布驗收完成。Content revision `401aace4aac91429`, 1,186 published questions across seven chapters. This dated entry supersedes the previous 1,187 count. Full per-question evidence: [CONTENT_MATH_REVIEW.md](CONTENT_MATH_REVIEW.md); scope and unresolved sources: [CONTENT_EXPANSION_PLAN.md](CONTENT_EXPANSION_PLAN.md); eleven interface requirements: [UI_UX_ROADMAP.md](UI_UX_ROADMAP.md).

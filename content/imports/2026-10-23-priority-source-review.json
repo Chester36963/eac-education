@@ -1,0 +1,2619 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "scope": "39 source/current rows with similarity below 0.8. Source snapshots are evidence, not student-visible executable content.",
+  "records": [
+    {
+      "id": "import-four-centres-q055",
+      "topic": "four-centres",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/four_centres_rebuild/final_v1_1/four_centres_v1_1_master.html",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "locator": "q-Q055",
+      "sourceEn": "The coordinates of \\(A, B\\) and \\(C\\) are \\((2, a),(-16, k)\\) and \\((20, k)\\) respectively, where \\(a\\) and \\(k\\) are real numbers. If the orthocenter of \\(\\triangle A B C\\) is \\((2,10)\\), express \\(a\\) in terms of \\(k\\).\nA. \\(\\frac{10-k}{k^{2}-10 k-324}\\)\nB. \\(\\frac{k-10}{k^{2}-10 k-324}\\)\nC. \\(\\frac{k^{2}-10 k-324}{10-k}\\)\nD. \\(\\frac{k^{2}-10 k-324}{k-10}\\)",
+      "sourceZh": "點 \\(A,B,C\\) 的坐標分別為 \\((2,a)\\)、\\((-16,k)\\) 及 \\((20,k)\\)。若 \\(\\triangle ABC\\) 的垂心為 \\((2,10)\\)，以 \\(k\\) 表示 \\(a\\)。\nA. \\(\\frac{10-k}{k^{2}-10 k-324}\\)\nB. \\(\\frac{k-10}{k^{2}-10 k-324}\\)\nC. \\(\\frac{k^{2}-10 k-324}{10-k}\\)\nD. \\(\\frac{k^{2}-10 k-324}{k-10}\\)",
+      "sourceSolution": "English Solution\nSince \\(BC\\) is horizontal, the altitude from \\(A\\) is \\(x=2\\). The slope of \\(AC\\) is \\((k-a)/18\\), while the slope of \\(BH\\) is \\((10-k)/18\\). Perpendicularity gives\n\\[\n((k-a)/18)((10-k)/18)=-1.\n\\]\nHence \\(k-a=324/(k-10)\\), and\n\\[\na=k-324/(k-10)=(k^2-10k-324)/(k-10).\n\\]\nCheck: substitute the result back into the defining condition. A centroid must satisfy both coordinate averages, a circumcentre must satisfy both equal-distance equations, an orthocentre must lie on two altitudes, and an in-centre must satisfy equal distances from the sides. This rules out options that satisfy only one condition.",
+      "sourceSolutionZh": "中文詳解\n因 \\(BC\\) 水平，從 \\(A\\) 作出的高線是 \\(x=2\\)，與垂心坐標一致。\\(AC\\) 的斜率為 \\((k-a)/18\\)，而 \\(BH\\) 的斜率為 \\((10-k)/18\\)。兩者垂直：\n\\[\n((k-a)/18)((10-k)/18)=-1.\n\\]\n所以 \\((k-a)(10-k)=-324\\)，即 \\(k-a=324/(k-10)\\)。因此\n\\[\na=k-324/(k-10)=(k^2-10k-324)/(k-10).\n\\]\n核對：把求得的坐標重新放回原有定義。例如形心要逐坐標取平均，外心要同時滿足兩個等距方程，垂心要落在兩條高線上，內心則要符合邊距離相等。這一步可以排除只滿足其中一條條件的錯誤選項。",
+      "original": {
+        "stem": "The coordinates of \\(A, B\\) and \\(C\\) are \\((2, a),(-16, k)\\) and \\((20, k)\\) respectively, where \\(a\\) and \\(k\\) are real numbers. If the orthocenter of \\(\\triangle A B C\\) is \\((2,10)\\), express \\(a\\) in terms of \\(k\\).",
+        "stemZh": "點 \\(A,B,C\\) 的坐標分別為 \\((2,a)\\)、\\((-16,k)\\) 及 \\((20,k)\\)。若 \\(\\triangle ABC\\) 的垂心為 \\((2,10)\\)，以 \\(k\\) 表示 \\(a\\)。",
+        "hint": "Circle the centre name or the vertex form; it determines the first equation.",
+        "hintZh": "因 \\(BC\\) 水平，從 \\(A\\) 作出的高線是 \\(x=2\\)，與垂心坐標一致。\\(AC\\) 的斜率為 \\((k-a)/18\\)，而 \\(BH\\) 的斜率為 \\((10-k)/18\\)。兩者垂直：",
+        "solution": "Since \\(BC\\) is horizontal, the altitude from \\(A\\) is \\(x=2\\). The slope of \\(AC\\) is \\((k-a)/18\\), while the slope of \\(BH\\) is \\((10-k)/18\\). Perpendicularity gives\n\n\\[\n((k-a)/18)((10-k)/18)=-1.\n\\]\n\nHence \\(k-a=324/(k-10)\\), and\n\n\\[\na=k-324/(k-10)=(k^2-10k-324)/(k-10).\n\\]\n\nCheck: substitute the result back into the defining condition. A centroid must satisfy both coordinate averages, a circumcentre must satisfy both equal-distance equations, an orthocentre must lie on two altitudes, and an in-centre must satisfy equal distances from the sides. This rules out options that satisfy only one condition.",
+        "solutionZh": "因 \\(BC\\) 水平，從 \\(A\\) 作出的高線是 \\(x=2\\)，與垂心坐標一致。\\(AC\\) 的斜率為 \\((k-a)/18\\)，而 \\(BH\\) 的斜率為 \\((10-k)/18\\)。兩者垂直：\n\\[\n((k-a)/18)((10-k)/18)=-1.\n\\]\n所以 \\((k-a)(10-k)=-324\\)，即 \\(k-a=324/(k-10)\\)。因此\n\\[\na=k-324/(k-10)=(k^2-10k-324)/(k-10).\n\\]\n核對：把求得的坐標重新放回原有定義。例如形心要逐坐標取平均，外心要同時滿足兩個等距方程，垂心要落在兩條高線上，內心則要符合邊距離相等。這一步可以排除只滿足其中一條條件的錯誤選項。",
+        "id": "import-four-centres-q055",
+        "subcategory": "orthocentre",
+        "skill": "fc-altitudes",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "primary centre in statement; coordinate/property method in solution",
+          "status": "rule-classified",
+          "originalTopic": "Four Centres / Coordinate Geometry",
+          "sourceLevel": "Level 5"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2023/24 · P2 · Original Q40",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2023/24 · P2 · Original Q40",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "fourCentres",
+          "kind": "mc",
+          "sourceId": "Q055",
+          "row": 11,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "D",
+        "options": {
+          "A": "\\(\\frac{10-k}{k^{2}-10 k-324}\\)",
+          "B": "\\(\\frac{k-10}{k^{2}-10 k-324}\\)",
+          "C": "\\(\\frac{k^{2}-10 k-324}{10-k}\\)",
+          "D": "\\(\\frac{k^{2}-10 k-324}{k-10}\\)"
+        },
+        "optionsZh": {
+          "A": "\\(\\frac{10-k}{k^{2}-10 k-324}\\)",
+          "B": "\\(\\frac{k-10}{k^{2}-10 k-324}\\)",
+          "C": "\\(\\frac{k^{2}-10 k-324}{10-k}\\)",
+          "D": "\\(\\frac{k^{2}-10 k-324}{k-10}\\)"
+        }
+      },
+      "status": "完成",
+      "action": "retain-verified-content",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-four-centres-q187",
+      "topic": "four-centres",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/four_centres_rebuild/final_v1_1/four_centres_v1_1_master.html",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "locator": "q-Q187",
+      "sourceEn": "\\(O=(0,0)\\), \\(A=(5,5)\\) and \\(B=(-4,2)\\) are the vertices of \\(\\triangle OAB\\). Find its orthocentre.\nA. \\((0,5)\\) B. \\((1,-3)\\) C. \\(\\left(\\frac{1}{3},\\frac{7}{3}\\right)\\) D. \\(\\left(-\\frac{1}{2},\\frac{7}{2}\\right)\\)",
+      "sourceZh": "\\(O=(0,0)\\)、\\(A=(5,5)\\)、\\(B=(-4,2)\\) 是 \\(\\triangle OAB\\) 的頂點。其垂心坐標是：\nA. \\((0,5)\\) B. \\((1,-3)\\) C. \\(\\left(\\frac{1}{3},\\frac{7}{3}\\right)\\) D. \\(\\left(-\\frac{1}{2},\\frac{7}{2}\\right)\\)",
+      "sourceSolution": "English Solution\nFirst find the slopes of the opposite sides. The slope of OA is\n\\[\n\\frac{5-0}{5-0}=1.\n\\]\nTherefore the altitude from B has slope \\(-1\\) and passes through \\((-4,2)\\):\n\\[\ny-2=-1(x+4)\\Rightarrow y=-x-2.\n\\]\nThe slope of OB is\n\\[\n\\frac{2-0}{-4-0}=-\\frac{1}{2}.\n\\]\nTherefore the altitude from A has slope \\(2\\):\n\\[\ny-5=2(x-5)\\Rightarrow y=2x-5.\n\\]\nSolve the two altitude equations:\n\\[\n-x-2=2x-5\\Rightarrow 3x=3\\Rightarrow x=1.\n\\]\nSubstitute into \\(y=-x-2\\):\n\\[\ny=-1-2=-3.\n\\]\nThus the orthocentre is \\((1,-3)\\). Common Trap: Use the negative reciprocal, not merely the reciprocal; both its sign and numerator/denominator change.",
+      "sourceSolutionZh": "中文詳解\n先求兩條對邊的斜率。OA 的斜率為\n\\[\n\\frac{5-0}{5-0}=1,\n\\]\n故由 B 出發的高的斜率為 \\(-1\\)，且通過 \\((-4,2)\\)：\n\\[\ny-2=-1(x+4)\\Rightarrow y=-x-2.\n\\]\nOB 的斜率為\n\\[\n\\frac{2-0}{-4-0}=-\\frac{1}{2},\n\\]\n故由 A 出發的高的斜率為 \\(2\\)：\n\\[\ny-5=2(x-5)\\;\\Rightarrow\\; y=2x-5.\n\\]\n聯立兩條高：\n\\[\n-x-2=2x-5\\Rightarrow 3x=3\\Rightarrow x=1,\n\\]\n代回 \\(y=-x-2\\)：\n\\[\ny=-1-2=-3.\n\\]\n所以垂心是 \\((1,-3)\\)。陰濕位：求負倒數時，正負號和分子分母都要改。",
+      "original": {
+        "stem": "\\(O=(0,0)\\), \\(A=(5,5)\\) and \\(B=(-4,2)\\) are the vertices of \\(\\triangle OAB\\). Find its orthocentre.",
+        "stemZh": "\\(O=(0,0)\\)、\\(A=(5,5)\\)、\\(B=(-4,2)\\) 是 \\(\\triangle OAB\\) 的頂點。其垂心坐標是：",
+        "hint": "First find the slopes of the opposite sides. The slope of OA is",
+        "hintZh": "先求兩條對邊的斜率。OA 的斜率為",
+        "solution": "First find the slopes of the opposite sides. The slope of OA is\n\n\\[\n\\frac{5-0}{5-0}=1.\n\\]\n\nTherefore the altitude from B has slope \\(-1\\) and passes through \\((-4,2)\\):\n\n\\[\ny-2=-1(x+4)\\Rightarrow y=-x-2.\n\\]\n\nThe slope of OB is\n\n\\[\n\\frac{2-0}{-4-0}=-\\frac{1}{2}.\n\\]\n\nTherefore the altitude from A has slope \\(2\\):\n\n\\[\ny-5=2(x-5)\\Rightarrow y=2x-5.\n\\]\n\nSolve the two altitude equations:\n\n\\[\n-x-2=2x-5\\Rightarrow 3x=3\\Rightarrow x=1.\n\\]\n\nSubstitute into \\(y=-x-2\\):\n\n\\[\ny=-1-2=-3.\n\\]\n\nThus the orthocentre is \\((1,-3)\\). Common Trap: Use the negative reciprocal, not merely the reciprocal; both its sign and numerator/denominator change.",
+        "solutionZh": "先求兩條對邊的斜率。OA 的斜率為\n\\[\n\\frac{5-0}{5-0}=1,\n\\]\n故由 B 出發的高的斜率為 \\(-1\\)，且通過 \\((-4,2)\\)：\n\\[\ny-2=-1(x+4)\\Rightarrow y=-x-2.\n\\]\nOB 的斜率為\n\\[\n\\frac{2-0}{-4-0}=-\\frac{1}{2},\n\\]\n故由 A 出發的高的斜率為 \\(2\\)：\n\\[\ny-5=2(x-5)\\;\\Rightarrow\\; y=2x-5.\n\\]\n聯立兩條高：\n\\[\n-x-2=2x-5\\Rightarrow 3x=3\\Rightarrow x=1,\n\\]\n代回 \\(y=-x-2\\)：\n\\[\ny=-1-2=-3.\n\\]\n所以垂心是 \\((1,-3)\\)。易錯之處：求負倒數時，正負號和分子分母都要改。",
+        "id": "import-four-centres-q187",
+        "subcategory": "orthocentre",
+        "skill": "fc-altitudes",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "primary centre in statement; coordinate/property method in solution",
+          "status": "rule-classified",
+          "originalTopic": "M1 Orthocentre by Two Altitudes / 兩條高求垂心",
+          "sourceLevel": "Level 5"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "St. Joseph's College Mock · 2025/26 · P2 · Original Q41",
+        "sourceZh": "來源所列（未獨立核實）：St. Joseph's College Mock · 2025/26 · P2 · Original Q41",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "fourCentres",
+          "kind": "mc",
+          "sourceId": "Q187",
+          "row": 18,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "\\((0,5)\\)",
+          "B": "\\((1,-3)\\)",
+          "C": "\\(\\left(\\frac{1}{3},\\frac{7}{3}\\right)\\)",
+          "D": "\\(\\left(-\\frac{1}{2},\\frac{7}{2}\\right)\\)"
+        },
+        "optionsZh": {
+          "A": "\\((0,5)\\)",
+          "B": "\\((1,-3)\\)",
+          "C": "\\(\\left(\\frac{1}{3},\\frac{7}{3}\\right)\\)",
+          "D": "\\(\\left(-\\frac{1}{2},\\frac{7}{2}\\right)\\)"
+        }
+      },
+      "status": "完成",
+      "action": "correct-key",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-four-centres-q103",
+      "topic": "four-centres",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/four_centres_rebuild/final_v1_1/four_centres_v1_1_master.html",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "locator": "q-Q103",
+      "sourceEn": "\\(ABC\\) is a right-angled triangle, where \\(\\angle ACB=90^\\circ\\), \\(AC=CB\\), and \\(G\\) is the centroid of \\(\\triangle ABC\\). Find \\(\\sin\\angle AGC\\).\nA. \\(\\dfrac{\\sqrt{10}}{10}\\)\nB. \\(\\dfrac{3\\sqrt{10}}{10}\\)\nC. \\(\\dfrac{\\sqrt{5}}{5}\\)\nD. \\(\\dfrac{3\\sqrt{5}}{5}\\)",
+      "sourceZh": "\\(ABC\\) 是直角三角形，其中 \\(\\angle ACB=90^\\circ\\)、\\(AC=CB\\)，而 \\(G\\) 是 \\(\\triangle ABC\\) 的形心。求 \\(\\sin\\angle AGC\\)。\nA. \\(\\dfrac{\\sqrt{10}}{10}\\)\nB. \\(\\dfrac{3\\sqrt{10}}{10}\\)\nC. \\(\\dfrac{\\sqrt{5}}{5}\\)\nD. \\(\\dfrac{3\\sqrt{5}}{5}\\)",
+      "sourceSolution": "English Solution\nChoose convenient coordinates\n\\[\nC=(0,0),\\qquad A=(1,0),\\qquad B=(0,1).\n\\]\nThe centroid is\n\\[\nG=\\left(\\frac{1+0+0}{3},\\frac{0+1+0}{3}\\right)\n=\\left(\\frac{1}{3},\\frac{1}{3}\\right).\n\\]\nHence\n\\[\nGA:\\left(\\frac{2}{3},-\\frac{1}{3}\\right),\n\\qquad\nGC:\\left(-\\frac{1}{3},-\\frac{1}{3}\\right).\n\\]\nMultiplying both coordinate-difference pairs by \\(3\\) does not change their angle, so use \\((2,-1)\\) and \\((-1,-1)\\). If \\(\\theta=\\angle AGC\\),\n\\[\n\\sin\\theta\n=\\frac{|2(-1)-(-1)(-1)|}{\\sqrt{5}\\sqrt{2}}\n=\\frac{3}{\\sqrt{10}}\n=\\frac{3\\sqrt{10}}{10}.\n\\]\nTherefore the correct option is B.",
+      "sourceSolutionZh": "中文詳解\n不失一般性，設\n\\[\nC=(0,0),\\qquad A=(1,0),\\qquad B=(0,1).\n\\]\n形心是三個頂點坐標的平均：\n\\[\nG=\\left(\\frac{1+0+0}{3},\\frac{0+1+0}{3}\\right)\n=\\left(\\frac{1}{3},\\frac{1}{3}\\right).\n\\]\n因此\n\\[\nGA:\\left(\\frac{2}{3},-\\frac{1}{3}\\right),\n\\qquad\nGC:\\left(-\\frac{1}{3},-\\frac{1}{3}\\right).\n\\]\n把兩組坐標差同乘 \\(3\\) 不會改變夾角，所以可改用 \\((2,-1)\\) 及 \\((-1,-1)\\)。設 \\(\\theta=\\angle AGC\\)，則\n\\[\n\\sin\\theta\n=\\frac{|2(-1)-(-1)(-1)|}{\\sqrt{2^2+(-1)^2}\\sqrt{(-1)^2+(-1)^2}}\n=\\frac{3}{\\sqrt{10}}.\n\\]\n有理化分母：\n\\[\n\\frac{3}{\\sqrt{10}}=\\frac{3\\sqrt{10}}{10}.\n\\]\n故選 B。",
+      "original": {
+        "stem": "\\(ABC\\) is a right-angled triangle, where \\(\\angle ACB=90^\\circ\\), \\(AC=CB\\), and \\(G\\) is the centroid of \\(\\triangle ABC\\). Find \\(\\sin\\angle AGC\\).",
+        "stemZh": "\\(ABC\\) 是直角三角形，其中 \\(\\angle ACB=90^\\circ\\)、\\(AC=CB\\)，而 \\(G\\) 是 \\(\\triangle ABC\\) 的形心。求 \\(\\sin\\angle AGC\\)。",
+        "hint": "Only the shape is specified, so the answer is scale-invariant. Set both perpendicular legs equal to \\(1\\).",
+        "hintZh": "不失一般性，設",
+        "solution": "Choose convenient coordinates\n\n\\[\nC=(0,0),\\qquad A=(1,0),\\qquad B=(0,1).\n\\]\n\nThe centroid is\n\n\\[\nG=\\left(\\frac{1+0+0}{3},\\frac{0+1+0}{3}\\right)\n=\\left(\\frac{1}{3},\\frac{1}{3}\\right).\n\\]\n\nHence\n\n\\[\nGA:\\left(\\frac{2}{3},-\\frac{1}{3}\\right),\n\\qquad\nGC:\\left(-\\frac{1}{3},-\\frac{1}{3}\\right).\n\\]\n\nMultiplying both coordinate-difference pairs by \\(3\\) does not change their angle, so use \\((2,-1)\\) and \\((-1,-1)\\). If \\(\\theta=\\angle AGC\\),\n\n\\[\n\\sin\\theta\n=\\frac{|2(-1)-(-1)(-1)|}{\\sqrt{5}\\sqrt{2}}\n=\\frac{3}{\\sqrt{10}}\n=\\frac{3\\sqrt{10}}{10}.\n\\]\n\nTherefore the correct option is B.",
+        "solutionZh": "不失一般性，設\n\\[\nC=(0,0),\\qquad A=(1,0),\\qquad B=(0,1).\n\\]\n形心是三個頂點坐標的平均：\n\\[\nG=\\left(\\frac{1+0+0}{3},\\frac{0+1+0}{3}\\right)\n=\\left(\\frac{1}{3},\\frac{1}{3}\\right).\n\\]\n因此\n\\[\nGA:\\left(\\frac{2}{3},-\\frac{1}{3}\\right),\n\\qquad\nGC:\\left(-\\frac{1}{3},-\\frac{1}{3}\\right).\n\\]\n把兩組坐標差同乘 \\(3\\) 不會改變夾角，所以可改用 \\((2,-1)\\) 及 \\((-1,-1)\\)。設 \\(\\theta=\\angle AGC\\)，則\n\\[\n\\sin\\theta\n=\\frac{|2(-1)-(-1)(-1)|}{\\sqrt{2^2+(-1)^2}\\sqrt{(-1)^2+(-1)^2}}\n=\\frac{3}{\\sqrt{10}}.\n\\]\n有理化分母：\n\\[\n\\frac{3}{\\sqrt{10}}=\\frac{3\\sqrt{10}}{10}.\n\\]\n故選 B。",
+        "id": "import-four-centres-q103",
+        "subcategory": "centroid",
+        "skill": "fc-average",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "primary centre in statement; coordinate/property method in solution",
+          "status": "rule-classified",
+          "originalTopic": "Four Centres / Coordinate Geometry",
+          "sourceLevel": "Level 5"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2025/26 · P2 · Original Q41",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2025/26 · P2 · Original Q41",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "fourCentres",
+          "kind": "mc",
+          "sourceId": "Q103",
+          "row": 34,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "B",
+        "options": {
+          "A": "\\(\\dfrac{\\sqrt{10}}{10}\\)",
+          "B": "\\(\\dfrac{3\\sqrt{10}}{10}\\)",
+          "C": "\\(\\dfrac{\\sqrt{5}}{5}\\)",
+          "D": "\\(\\dfrac{3\\sqrt{5}}{5}\\)"
+        },
+        "optionsZh": {
+          "A": "\\(\\dfrac{\\sqrt{10}}{10}\\)",
+          "B": "\\(\\dfrac{3\\sqrt{10}}{10}\\)",
+          "C": "\\(\\dfrac{\\sqrt{5}}{5}\\)",
+          "D": "\\(\\dfrac{3\\sqrt{5}}{5}\\)"
+        }
+      },
+      "status": "完成",
+      "action": "retain-verified-content",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-four-centres-q122",
+      "topic": "four-centres",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/four_centres_rebuild/final_v1_1/four_centres_v1_1_master.html",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "locator": "q-Q122",
+      "sourceEn": "Let \\(O\\) be the origin. The coordinates of \\(A\\) and \\(B\\) are \\((24,0)\\) and \\((0,26)\\). Which statement is true?\nA. The centroid of \\(\\triangle OAB\\) lies outside the triangle.\nB. The \\(y\\)-coordinate of the in-centre is \\(0\\).\nC. The \\(x\\)-coordinate of the circumcentre is \\(12\\).\nD. The \\(y\\)-coordinate of the orthocentre is \\(13\\).",
+      "sourceZh": "設 \\(O\\) 為原點，\\(A=(24,0)\\)、\\(B=(0,26)\\)。下列哪項正確？\nA. \\(\\triangle OAB\\) 的形心位於三角形外。\nB. \\(\\triangle OAB\\) 的內心的 \\(y\\) 坐標為 \\(0\\)。\nC. \\(\\triangle OAB\\) 的外心的 \\(x\\) 坐標為 \\(12\\)。\nD. \\(\\triangle OAB\\) 的垂心的 \\(y\\) 坐標為 \\(13\\)。",
+      "sourceSolution": "English Solution\nThe centroid always lies inside a non-degenerate triangle, so A is false. The in-centre also lies inside, so its \\(y\\)-coordinate is not \\(0\\); B is false.\nSince the triangle is right-angled at \\(O\\), the circumcentre is the midpoint of \\(AB\\):\n\\[\nJ=\\left(\\frac{24+0}{2},\\frac{0+26}{2}\\right)=(12,13).\n\\]\nThus C is true. The orthocentre is the right-angle vertex \\(O=(0,0)\\), so D is false.",
+      "sourceSolutionZh": "中文詳解\n形心必定在非退化三角形內，所以 A 錯。內心也必定在三角形內，故其 \\(y\\) 坐標不會是 \\(0\\)，所以 B 錯。\n直角三角形的外心是斜邊 \\(AB\\) 的中點：\n\\[\nJ=\\left(\\frac{24+0}{2},\\frac{0+26}{2}\\right)=(12,13).\n\\]\n因此 C 正確。垂心是直角頂點 \\(O=(0,0)\\)，故 D 錯。",
+      "original": {
+        "stem": "Let \\(O\\) be the origin. The coordinates of \\(A\\) and \\(B\\) are \\((24,0)\\) and \\((0,26)\\). Which statement is true?",
+        "stemZh": "設 \\(O\\) 為原點，\\(A=(24,0)\\)、\\(B=(0,26)\\)。下列哪項正確？",
+        "hint": "\\(OA\\) and \\(OB\\) lie on the coordinate axes, so \\(\\angle AOB=90^\\circ\\).",
+        "hintZh": "形心必定在非退化三角形內，所以 A 錯。內心也必定在三角形內，故其 \\(y\\) 坐標不會是 \\(0\\)，所以 B 錯。",
+        "solution": "The centroid always lies inside a non-degenerate triangle, so A is false. The in-centre also lies inside, so its \\(y\\)-coordinate is not \\(0\\); B is false.\n\nSince the triangle is right-angled at \\(O\\), the circumcentre is the midpoint of \\(AB\\):\n\n\\[\nJ=\\left(\\frac{24+0}{2},\\frac{0+26}{2}\\right)=(12,13).\n\\]\n\nThus C is true. The orthocentre is the right-angle vertex \\(O=(0,0)\\), so D is false.",
+        "solutionZh": "形心必定在非退化三角形內，所以 A 錯。內心也必定在三角形內，故其 \\(y\\) 坐標不會是 \\(0\\)，所以 B 錯。\n直角三角形的外心是斜邊 \\(AB\\) 的中點：\n\\[\nJ=\\left(\\frac{24+0}{2},\\frac{0+26}{2}\\right)=(12,13).\n\\]\n因此 C 正確。垂心是直角頂點 \\(O=(0,0)\\)，故 D 錯。",
+        "id": "import-four-centres-q122",
+        "subcategory": "centre-statements",
+        "skill": "fc-statements",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "statement-by-statement centre property test",
+          "status": "rule-classified",
+          "originalTopic": "Four Centres / Coordinate Geometry",
+          "sourceLevel": "Level 5"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2024/25 · P2 · Original Q41",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2024/25 · P2 · Original Q41",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "fourCentres",
+          "kind": "mc",
+          "sourceId": "Q122",
+          "row": 103,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "C",
+        "options": {
+          "A": "The centroid of \\(\\triangle OAB\\) lies outside the triangle",
+          "B": "The \\(y\\)-coordinate of the in-centre is \\(0\\)",
+          "C": "The \\(x\\)-coordinate of the circumcentre is \\(12\\)",
+          "D": "The \\(y\\)-coordinate of the orthocentre is \\(13\\)"
+        },
+        "optionsZh": {
+          "A": "三角形 OAB 的重心在三角形外",
+          "B": "內心的 y 坐標為 0",
+          "C": "外心的 x 坐標為 12",
+          "D": "垂心的 y 坐標為 13"
+        }
+      },
+      "status": "完成",
+      "action": "retain-verified-content",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-four-centres-q097",
+      "topic": "four-centres",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/four_centres_rebuild/final_v1_1/four_centres_v1_1_master.html",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "locator": "q-Q097",
+      "sourceEn": "Let \\(O\\) be the origin, \\(A=(12,0)\\) and \\(B=(0,16)\\). Which statement about \\(\\triangle OAB\\) is true?\nA. The x-coordinate of the centroid is 6. / 形心的 x 坐標是 6。\nB. The y-coordinate of the in-centre is 8. / 內心的 y 坐標是 8。\nC. The x-coordinate of the circumcentre is 6. / 外心的 x 坐標是 6。\nD. The y-coordinate of the orthocentre is 8. / 垂心的 y 坐標是 8。",
+      "sourceZh": "設 \\(O\\) 為原點，\\(A=(12,0)\\)、\\(B=(0,16)\\)。以下哪項關於 \\(\\triangle OAB\\) 的敘述正確？\nA. The x-coordinate of the centroid is 6. / 形心的 x 坐標是 6。\nB. The y-coordinate of the in-centre is 8. / 內心的 y 坐標是 8。\nC. The x-coordinate of the circumcentre is 6. / 外心的 x 坐標是 6。\nD. The y-coordinate of the orthocentre is 8. / 垂心的 y 坐標是 8。",
+      "sourceSolution": "English Solution\nSince \\(OA\\) is horizontal and \\(OB\\) is vertical, the triangle is right-angled at \\(O\\).\nThe centroid is the average of the three vertices:\n\\[\nG=\\left(\\frac{0+12+0}{3},\\frac{0+0+16}{3}\\right)\n=\\left(4,\\frac{16}{3}\\right).\n\\]\nTherefore A is false.\nThe hypotenuse is\n\\[\nAB=\\sqrt{12^2+16^2}=20.\n\\]\nThe inradius is\n\\[\nr=\\frac{12+16-20}{2}=4.\n\\]\nThus the in-centre is \\((4,4)\\), so B is false.\nThe circumcentre of a right triangle is the midpoint of its hypotenuse:\n\\[\nJ=\\left(\\frac{12+0}{2},\\frac{0+16}{2}\\right)=(6,8).\n\\]\nHence the circumcentre has \\(x\\)-coordinate \\(6\\), so C is true.\nThe orthocentre of a right triangle is the right-angle vertex \\(O=(0,0)\\), so its \\(y\\)-coordinate is not \\(8\\). Therefore D is false.",
+      "sourceSolutionZh": "中文詳解\n因 \\(OA\\) 水平而 \\(OB\\) 垂直，三角形在 \\(O\\) 處為直角。\n形心為三個頂點坐標的平均：\n\\[\nG=\\left(\\frac{0+12+0}{3},\\frac{0+0+16}{3}\\right)\n=\\left(4,\\frac{16}{3}\\right).\n\\]\n所以選項 A 錯誤。\n斜邊長為\n\\[\nAB=\\sqrt{12^2+16^2}=20.\n\\]\n內切圓半徑為\n\\[\nr=\\frac{12+16-20}{2}=4.\n\\]\n故內心是 \\((4,4)\\)，選項 B 錯誤。\n直角三角形的外心是斜邊 \\(AB\\) 的中點：\n\\[\nJ=\\left(\\frac{12+0}{2},\\frac{0+16}{2}\\right)=(6,8).\n\\]\n所以外心的 \\(x\\) 坐標確是 \\(6\\)，選項 C 正確。\n直角三角形的垂心是直角頂點 \\(O=(0,0)\\)，其 \\(y\\) 坐標不是 \\(8\\)，所以 D 錯誤。",
+      "original": {
+        "stem": "Let \\(O\\) be the origin, \\(A=(12,0)\\) and \\(B=(0,16)\\). Which statement about \\(\\triangle OAB\\) is true?",
+        "stemZh": "設 \\(O\\) 為原點，\\(A=(12,0)\\)、\\(B=(0,16)\\)。以下哪項關於 \\(\\triangle OAB\\) 的敘述正確？",
+        "hint": "This is a right triangle whose legs lie on the coordinate axes. The centroid, in-centre, circumcentre and orthocentre each have a different quick rule, so test the statements one by one.",
+        "hintZh": "因 \\(OA\\) 水平而 \\(OB\\) 垂直，三角形在 \\(O\\) 處為直角。",
+        "solution": "Since \\(OA\\) is horizontal and \\(OB\\) is vertical, the triangle is right-angled at \\(O\\).\n\nThe centroid is the average of the three vertices:\n\n\\[\nG=\\left(\\frac{0+12+0}{3},\\frac{0+0+16}{3}\\right)\n=\\left(4,\\frac{16}{3}\\right).\n\\]\n\nTherefore A is false.\n\nThe hypotenuse is\n\n\\[\nAB=\\sqrt{12^2+16^2}=20.\n\\]\n\nThe inradius is\n\n\\[\nr=\\frac{12+16-20}{2}=4.\n\\]\n\nThus the in-centre is \\((4,4)\\), so B is false.\n\nThe circumcentre of a right triangle is the midpoint of its hypotenuse:\n\n\\[\nJ=\\left(\\frac{12+0}{2},\\frac{0+16}{2}\\right)=(6,8).\n\\]\n\nHence the circumcentre has \\(x\\)-coordinate \\(6\\), so C is true.\n\nThe orthocentre of a right triangle is the right-angle vertex \\(O=(0,0)\\), so its \\(y\\)-coordinate is not \\(8\\). Therefore D is false.",
+        "solutionZh": "因 \\(OA\\) 水平而 \\(OB\\) 垂直，三角形在 \\(O\\) 處為直角。\n形心為三個頂點坐標的平均：\n\\[\nG=\\left(\\frac{0+12+0}{3},\\frac{0+0+16}{3}\\right)\n=\\left(4,\\frac{16}{3}\\right).\n\\]\n所以選項 A 錯誤。\n斜邊長為\n\\[\nAB=\\sqrt{12^2+16^2}=20.\n\\]\n內切圓半徑為\n\\[\nr=\\frac{12+16-20}{2}=4.\n\\]\n故內心是 \\((4,4)\\)，選項 B 錯誤。\n直角三角形的外心是斜邊 \\(AB\\) 的中點：\n\\[\nJ=\\left(\\frac{12+0}{2},\\frac{0+16}{2}\\right)=(6,8).\n\\]\n所以外心的 \\(x\\) 坐標確是 \\(6\\)，選項 C 正確。\n直角三角形的垂心是直角頂點 \\(O=(0,0)\\)，其 \\(y\\) 坐標不是 \\(8\\)，所以 D 錯誤。",
+        "id": "import-four-centres-q097",
+        "subcategory": "centre-statements",
+        "skill": "fc-statements",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "statement-by-statement centre property test",
+          "status": "rule-classified",
+          "originalTopic": "Four Centres / Coordinate Geometry",
+          "sourceLevel": "Level 5"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2025/26 · P2 · Original Q41",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2025/26 · P2 · Original Q41",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "fourCentres",
+          "kind": "mc",
+          "sourceId": "Q097",
+          "row": 104,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "C",
+        "options": {
+          "A": "The x-coordinate of the centroid is 6.",
+          "B": "The y-coordinate of the in-centre is 8.",
+          "C": "The x-coordinate of the circumcentre is 6.",
+          "D": "The y-coordinate of the orthocentre is 8."
+        },
+        "optionsZh": {
+          "A": "形心的 x 坐標是 6。",
+          "B": "內心的 y 坐標是 8。",
+          "C": "外心的 x 坐標是 6。",
+          "D": "垂心的 y 坐標是 8。"
+        }
+      },
+      "status": "完成",
+      "action": "retain-verified-content",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-four-centres-q239",
+      "topic": "four-centres",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/four_centres_rebuild/final_v1_1/four_centres_v1_1_master.html",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "locator": "q-Q239",
+      "sourceEn": "Which of the following must lie inside an obtuse-angled triangle?\nI. Incentre　II. Median　III. Orthocentre\nA. I and II only　 B. I and III only　 C. II and III only　 D. I, II and III",
+      "sourceZh": "下列哪一項必定位於一個鈍角三角形內？\nI. 內心　II. 中線　III. 垂心\nA. 只有 I、II　 B. 只有 I、III　 C. 只有 II、III　 D. I、II、III",
+      "sourceSolution": "English Solution\nFirst-Look Signal: Test each “must” statement from its definition.\nStrategy Map: Locate the incentre → interpret a median as a segment → locate the orthocentre of an obtuse triangle.\nI is true because the internal angle bisectors meet inside every non-degenerate triangle. II is true because a median joins a vertex to the midpoint of the opposite side and lies inside the triangle. III is false because the orthocentre of an obtuse triangle lies outside it.\nCommon Trap: A median is a segment; it is not another name for the centroid.",
+      "sourceSolutionZh": "中文詳解\n第一眼訊號：題目問「必然」，所以每項都要用定義判斷。\n策略地圖：內心位置 → 中線線段 → 鈍角三角形垂心位置。\nI 正確。內心是三條內角平分線的交點，必在三角形內。\nII 正確。中線連接一個頂點與對邊中點；整條中線線段都在三角形內。\nIII 錯誤。鈍角三角形的兩條高要延長後才相交，所以垂心在三角形外。\n陰濕位：中線是一條線段，不是形心的另一個名稱。",
+      "original": {
+        "stem": "Which of the following must lie inside an obtuse-angled triangle?\n\nI. Incentre　II. Median　III. Orthocentre",
+        "stemZh": "下列哪一項必定位於一個鈍角三角形內？\n\nI. 內心　II. 中線　III. 垂心",
+        "hint": "Test each “must” statement from its definition. Locate the incentre → interpret a median as a segment → locate the orthocentre of an obtuse triangle. I is true because the internal angle bisectors meet inside every non-degenerate triangle. II is true because a median joins a vertex to the midpoint…",
+        "hintZh": "題目問「必然」，所以每項都要用定義判斷。",
+        "solution": "Test each “must” statement from its definition.\n\nLocate the incentre → interpret a median as a segment → locate the orthocentre of an obtuse triangle.\n\nI is true because the internal angle bisectors meet inside every non-degenerate triangle. II is true because a median joins a vertex to the midpoint of the opposite side and lies inside the triangle. III is false because the orthocentre of an obtuse triangle lies outside it.\n\nA median is a segment; it is not another name for the centroid.",
+        "solutionZh": "第一眼訊號：題目問「必然」，所以每項都要用定義判斷。\n策略地圖：內心位置 → 中線線段 → 鈍角三角形垂心位置。\nI 正確。內心是三條內角平分線的交點，必在三角形內。\nII 正確。中線連接一個頂點與對邊中點；整條中線線段都在三角形內。\nIII 錯誤。鈍角三角形的兩條高要延長後才相交，所以垂心在三角形外。\n易錯之處：中線是一條線段，不是形心的另一個名稱。",
+        "id": "import-four-centres-q239",
+        "subcategory": "centre-statements",
+        "skill": "fc-statements",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "statement-by-statement centre property test",
+          "status": "rule-classified",
+          "originalTopic": "M3 Centre Position Statements / 四心位置命題",
+          "sourceLevel": "Level 4"
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "HYS Mock · 2021 · P2 · Original Q41",
+        "sourceZh": "來源所列（未獨立核實）：HYS Mock · 2021 · P2 · Original Q41",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "fourCentres",
+          "kind": "mc",
+          "sourceId": "Q239",
+          "row": 132,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "answer": "A",
+        "options": {
+          "A": "I and II only",
+          "B": "I and III only",
+          "C": "II and III only",
+          "D": "I, II and III"
+        },
+        "optionsZh": {
+          "A": "I 及 II 才正確",
+          "B": "I 及 III 才正確",
+          "C": "II 及 III 才正確",
+          "D": "I, II 及 III"
+        }
+      },
+      "status": "完成",
+      "action": "retain-verified-content",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-4de4ccc36d5026d7",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-3/3",
+      "sourceEn": "25. Denote the origin by \\(O\\). The coordinates of the point \\(A\\) are \\((3,0)\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that the distance of \\(P\\) from \\(O\\) is twice the distance of \\(P\\) from \\(A\\). The locus of \\(P\\) is a A. point. B. circle. C. parabola. D. straight line.",
+      "sourceZh": "25. \\(O\\) 為原點，\\(A=(3,0)\\)。動點 \\(P\\) 滿足 \\(OP=2AP\\)。其軌跡是：\nA. 一點B. 一個圓C. 一條拋物線D. 一條直線",
+      "sourceSolution": "Q9. mock-publisher_hkep_mock11-2526-p2-final-q25\nAnswer: B\nSquaring OP=2AP gives (x-4)^2+y^2=4, a circle.",
+      "sourceSolutionZh": "Q9. mock-publisher_hkep_mock11-2526-p2-final-q25\n答案: B\n\\(x^2+y^2=4[(x-3)^2+y^2]\\)，配方得 \\((x-4)^2+y^2=4\\)，是圓。",
+      "original": {
+        "stem": "Let \\(O=(0,0)\\) and \\(A=(3,0)\\). A moving point \\(P\\) satisfies \\(OP=2AP\\). Find and describe its locus.",
+        "stemZh": "25. \\(O\\) 為原點，\\(A=(3,0)\\)。動點 \\(P\\) 滿足 \\(OP=2AP\\)。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "Squaring gives \\(x^2+y^2=4[(x-3)^2+y^2]\\). Hence \\((x-4)^2+y^2=4\\): a circle with centre \\((4,0)\\) and radius 2.",
+        "solutionZh": "平方得 \\(x^2+y^2=4[(x-3)^2+y^2]\\)，整理為 \\((x-4)^2+y^2=4\\)。軌跡是圓心 \\((4,0)\\)、半徑 2 的圓。",
+        "id": "import-locus-4de4ccc36d5026d7",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L1"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 9,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-5ad7ff017f01f61f",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-4/3",
+      "sourceEn": "25. The straight line \\(2x-y-8=0\\) cuts the \\(x\\)-axis and the \\(y\\)-axis at the points \\(A\\) and \\(B\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(AP=BP\\). The locus of \\(P\\) is A. a circle. B. a straight line. C. a pair of straight lines. D. a parabola.",
+      "sourceZh": "25. 直線 \\(2x-y-8=0\\) 分別與 \\(x\\) 軸、\\(y\\) 軸交於 \\(A,B\\)。動點 \\(P\\) 滿足 \\(AP=BP\\)。其軌跡是：\nA. 一個圓B. 一條直線C. 兩條直線D. 一條拋物線",
+      "sourceSolution": "Q12. mock-cccmkc-2526-p2-final-q25\nAnswer: B\nThe endpoints are (4,0),(0,-8); their bisector is x+2y+6=0.",
+      "sourceSolutionZh": "Q12. mock-cccmkc-2526-p2-final-q25\n答案: B\n\\(A=(4,0)\\)、\\(B=(0,-8)\\)。平方距離相等得 \\(x+2y+6=0\\)，是垂直平分線。",
+      "original": {
+        "stem": "The line \\(2x-y-8=0\\) meets the x- and y-axes at \\(A,B\\), respectively. Find the locus of \\(P\\) satisfying \\(AP=BP\\).",
+        "stemZh": "25. 直線 \\(2x-y-8=0\\) 分別與 \\(x\\) 軸、\\(y\\) 軸交於 \\(A,B\\)。動點 \\(P\\) 滿足 \\(AP=BP\\)。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(A=(4,0),B=(0,-8)\\). Equating squared distances gives \\((x-4)^2+y^2=x^2+(y+8)^2\\), so \\(x+2y+6=0\\).",
+        "solutionZh": "\\(A=(4,0),B=(0,-8)\\)。由 \\((x-4)^2+y^2=x^2+(y+8)^2\\)，得 \\(x+2y+6=0\\)，即 AB 的中垂線。",
+        "id": "import-locus-5ad7ff017f01f61f",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L1"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 12,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-ff803a24a3e0d94e",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-5/2",
+      "sourceEn": "26. The equation of the circle \\(C\\) is \\(x^2+y^2-6x+10y-66=0\\). Denote the centre of \\(C\\) by \\(G\\). The coordinates of the point \\(A\\) are \\((-3,3)\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(AP=GP\\). Find the equation of the locus of \\(P\\). A. \\(3x-4y-4=0\\) B. \\(3x-4y+21=0\\) C. \\(x^2+y^2+2y-24=0\\) D. \\(x^2+y^2+6x-6y-82=0\\)",
+      "sourceZh": "26. 圓 \\(C:x^2+y^2-6x+10y-66=0\\) 的圓心為 \\(G\\)。\\(A=(-3,3)\\)。動點 \\(P\\) 滿足 \\(AP=GP\\)。求轨跡方程。\nA. \\(3x-4y-4=0\\)B. \\(3x-4y+21=0\\)C. \\(x^2+y^2+2y-24=0\\)D. \\(x^2+y^2+6x-6y-82=0\\)",
+      "sourceSolution": "Q14. mock-scc-2526-p2-final-q26\nAnswer: A\nThe centre is (3,-5); equal squared distances give 3x-4y-4=0.",
+      "sourceSolutionZh": "Q14. mock-scc-2526-p2-final-q26\n答案: A\n\\(G=(3,-5)\\)。平方距離相等得 \\(12x-16y-16=0\\)，即 \\(3x-4y-4=0\\)。",
+      "original": {
+        "stem": "The circle \\(x^2+y^2-6x+10y-66=0\\) has centre \\(G\\). Let \\(A=(-3,3)\\). Find the locus of \\(P\\) satisfying \\(AP=GP\\).",
+        "stemZh": "26. 圓 \\(C:x^2+y^2-6x+10y-66=0\\) 的圓心為 \\(G\\)。\\(A=(-3,3)\\)。動點 \\(P\\) 滿足 \\(AP=GP\\)。求轨跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(G=(3,-5)\\). From \\((x+3)^2+(y-3)^2=(x-3)^2+(y+5)^2\\), obtain \\(3x-4y-4=0\\).",
+        "solutionZh": "配方得 \\(G=(3,-5)\\)。由 \\((x+3)^2+(y-3)^2=(x-3)^2+(y+5)^2\\)，得 \\(3x-4y-4=0\\)。",
+        "id": "import-locus-ff803a24a3e0d94e",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L1"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 14,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-5958937aeb20c640",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-5/3",
+      "sourceEn": "25. Consider the straight line \\(L:5x+7y=94\\). If \\(P\\) is a moving point in the rectangular coordinate plane such that it maintains a fixed distance from \\(L\\), then the locus of \\(P\\) is A. a straight line. B. a pair of straight lines. C. a parabola. D. a circle.",
+      "sourceZh": "25. 動點 \\(P\\) 與 \\(L:5x+7y=94\\) 保持固定距離。其軌跡是：\nA. 一條直線B. 兩條直線C. 一條拋物線D. 一個圓",
+      "sourceSolution": "Q15. mock-hoiping-2526-p2-final-q25\nAnswer: B\n（距離須為正）\nFor d>0 the locus is 5x+7y-94=±d sqrt(74), two parallel lines. If d=0 it is one line; positivity should be stated.",
+      "sourceSolutionZh": "Q15. mock-hoiping-2526-p2-final-q25\n答案: B\n（距離須為正）。設固定距離為 \\(d>0\\)，則 \\(5x+7y-94=\\pm d\\sqrt{74}\\)，是兩條平行線。若容許 \\(d=0\\)，則只有 \\(L\\)；題幹應指明正距離。",
+      "original": {
+        "stem": "A point \\(P\\) remains at a fixed distance \\(d\\geq0\\) from \\(L:5x+7y=94\\). Describe its locus, including the case \\(d=0\\).",
+        "stemZh": "動點 \\(P\\) 與直線 \\(5x+7y=94\\) 保持固定距離 \\(d\\geq0\\)。描述其軌跡，包括 \\(d=0\\) 的情況。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(|5x+7y-94|=d\\sqrt{74}\\). If \\(d>0\\), the locus is two parallel lines \\(5x+7y-94=\\pm d\\sqrt{74}\\). If \\(d=0\\), it is L itself.",
+        "solutionZh": "\\(|5x+7y-94|=d\\sqrt{74}\\)。若 \\(d>0\\)，軌跡為兩條平行線 \\(5x+7y-94=\\pm d\\sqrt{74}\\)；若 \\(d=0\\)，軌跡就是 L。",
+        "id": "import-locus-5958937aeb20c640",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L1"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 15,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh,stemZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "correct-classification",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-2768b240986133e2",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-6/1",
+      "sourceEn": "27. The coordinates of the points \\(A\\) and \\(B\\) are \\((5,8)\\) and \\((6,-7)\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(PA=AB\\). The locus of \\(P\\) is A. a straight line. B. a circle. C. a parabola. D. a pair of straight lines.",
+      "sourceZh": "27. \\(A=(5,8)\\)、\\(B=(6,-7)\\)。動點 \\(P\\) 滿足 \\(PA=AB\\)。其軌跡是：\nA. 一條直線B. 一個圓C. 一條拋物線D. 兩條直線",
+      "sourceSolution": "Q16. mock-cccmyc-2526-p2-final-q27\nAnswer: B\nThe circle is (x-5)^2+(y-8)^2=226.",
+      "sourceSolutionZh": "Q16. mock-cccmyc-2526-p2-final-q27\n答案: B\n\\(AB^2=1^2+(-15)^2=226\\)。軌跡為 \\((x-5)^2+(y-8)^2=226\\)。",
+      "original": {
+        "stem": "Let \\(A=(5,8),B=(6,-7)\\). Find the locus of a moving point \\(P\\) satisfying \\(PA=AB\\).",
+        "stemZh": "27. \\(A=(5,8)\\)、\\(B=(6,-7)\\)。動點 \\(P\\) 滿足 \\(PA=AB\\)。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(AB^2=1^2+(-15)^2=226\\). Thus \\((x-5)^2+(y-8)^2=226\\).",
+        "solutionZh": "\\(AB^2=1^2+(-15)^2=226\\)。軌跡為 \\((x-5)^2+(y-8)^2=226\\)。",
+        "id": "import-locus-2768b240986133e2",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L1"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 16,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-ae3fb32f55ff0c8c",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-6/2",
+      "sourceEn": "26. The straight line \\(5x+8y+40=0\\) cuts the \\(x\\)-axis and the \\(y\\)-axis at the points \\(A\\) and \\(B\\) respectively. Let \\(P\\) be a moving point in the rectangular coordinate plane such that \\(AP=AB\\). Find the equation of the locus of \\(P\\). A. \\(8x-5y+64=0\\) B. \\(16x-10y+39=0\\) C. \\(x^2+y^2+16x-25=0\\) D. \\(x^2+y^2+10y-64=0\\)",
+      "sourceZh": "26. 直線 \\(5x+8y+40=0\\) 分別與 \\(x\\) 軸、\\(y\\) 軸交於 \\(A,B\\)。動點 \\(P\\) 滿足 \\(AP=AB\\)。求轨跡方程。\nA. \\(8x-5y+64=0\\)B. \\(16x-10y+39=0\\)C. \\(x^2+y^2+16x-25=0\\)D. \\(x^2+y^2+10y-64=0\\)",
+      "sourceSolution": "Q17. mock-shcc-2526-p2-final-q26\nAnswer: C\nA=(-8,0), B=(0,-5), radius squared 89; expand the circle to obtain C.",
+      "sourceSolutionZh": "Q17. mock-shcc-2526-p2-final-q26\n答案: C\n\\(A=(-8,0)\\)、\\(B=(0,-5)\\)，\\(AB^2=89\\)。\\((x+8)^2+y^2=89\\)，展開得 C。",
+      "original": {
+        "stem": "The line \\(5x+8y+40=0\\) meets the x- and y-axes at \\(A,B\\), respectively. Find the locus of \\(P\\) satisfying \\(AP=AB\\).",
+        "stemZh": "26. 直線 \\(5x+8y+40=0\\) 分別與 \\(x\\) 軸、\\(y\\) 軸交於 \\(A,B\\)。動點 \\(P\\) 滿足 \\(AP=AB\\)。求轨跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(A=(-8,0),B=(0,-5)\\), so \\(AB^2=89\\). The locus is \\((x+8)^2+y^2=89\\).",
+        "solutionZh": "\\(A=(-8,0),B=(0,-5)\\)，故 \\(AB^2=89\\)。軌跡為 \\((x+8)^2+y^2=89\\)。",
+        "id": "import-locus-ae3fb32f55ff0c8c",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L1"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 17,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-8e722eb03f0dab72",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-17/3",
+      "sourceEn": "26. The equations of the straight lines \\(L_1\\) and \\(L_2\\) are \\(3x+8y-12=0\\) and \\(9x+24y=0\\) respectively. If \\(P\\) is a moving point in the rectangular coordinate plane such that the ratio of the perpendicular distance from \\(P\\) to \\(L_1\\) to that from \\(P\\) to \\(L_2\\) is \\(3:5\\), then the locus of \\(P\\) is A. a pair of parallel lines. B. a straight line. C. a parabola. D. a circle.",
+      "sourceZh": "26. \\(L_1:3x+8y-12=0\\)、\\(L_2:9x+24y=0\\)。動點 \\(P\\) 到 \\(L_1\\)、\\(L_2\\) 的垂直距離比為 \\(3:5\\)。其軌跡是：\nA. 兩條平行直線B. 一條直線C. 一條拋物線D. 一個圓",
+      "sourceSolution": "Q44. mock-tkpss-2526-p2-final-q26\nAnswer: A\nPut u=3x+8y. 5|u-12|=3|u| gives u=30 or 15/2.",
+      "sourceSolutionZh": "Q44. mock-tkpss-2526-p2-final-q26\n答案: A\n令 \\(u=3x+8y\\)。正規化後得 \\(5|u-12|=3|u|\\)，故 \\(u=30\\) 或 \\(u=\\frac{15}{2}\\)，是兩條平行直線。",
+      "original": {
+        "stem": "Let \\(L_1:3x+8y-12=0,L_2:9x+24y=0\\). Find the locus of \\(P\\) whose perpendicular distances to \\(L_1,L_2\\) are in the ratio \\(3:5\\).",
+        "stemZh": "26. \\(L_1:3x+8y-12=0\\)、\\(L_2:9x+24y=0\\)。動點 \\(P\\) 到 \\(L_1\\)、\\(L_2\\) 的垂直距離比為 \\(3:5\\)。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "Put \\(u=3x+8y\\). Normalising both line equations gives \\(5|u-12|=3|u|\\). The branches yield \\(u=30\\) or \\(u=15/2\\), two parallel lines.",
+        "solutionZh": "設 \\(u=3x+8y\\)。把兩直線方程正規化後得 \\(5|u-12|=3|u|\\)，兩分支給出 \\(u=30\\) 或 \\(u=15/2\\)，即兩條平行線。",
+        "id": "import-locus-8e722eb03f0dab72",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 50,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-7ee1b449b5eedaa3",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-18/1",
+      "sourceEn": "27. The coordinates of the points \\(M\\) and \\(N\\) are \\((4,4)\\) and \\((-4,-4)\\) respectively. Let \\(O\\) be the origin. If \\(P\\) is a moving point in the rectangular coordinate plane such that \\(OP=OM\\), then the locus of \\(P\\) is A. the angle bisector of \\(\\angle MON\\). B. a pair of parallel lines with slope \\(-1\\), where one line passes through \\(M\\) and the other line passes through \\(N\\). C. the perpendicular bisector of \\(OM\\). D. a circle with \\(MN\\) as a diameter.",
+      "sourceZh": "27. \\(M=(4,4)\\)、\\(N=(-4,-4)\\)，\\(O\\) 為原點。動點 \\(P\\) 滿足 \\(OP=OM\\)。其軌跡是：\nA. \\(angle MON\\) 的角平分線B. 兩條斜率為 \\(-1\\)、分別經過 \\(M,N\\) 的平行線C. \\(OM\\) 的垂直平分線D. 以 \\(MN\\) 為直徑的圓",
+      "sourceSolution": "Q45. mock-canossa-2526-p2-final-q27\nAnswer: D\nO is the midpoint of MN and OM=4sqrt2; x^2+y^2=32 has diameter MN.",
+      "sourceSolutionZh": "Q45. mock-canossa-2526-p2-final-q27\n答案: D\n\\(O\\) 是 \\(MN\\) 中點，\\(OM=4\\sqrt2\\)。軌跡為 \\(x^2+y^2=32\\)，即以 \\(MN\\) 為直徑的圓。",
+      "original": {
+        "stem": "Let \\(M=(4,4),N=(-4,-4),O=(0,0)\\). Find the locus of \\(P\\) satisfying \\(OP=OM\\).",
+        "stemZh": "27. \\(M=(4,4)\\)、\\(N=(-4,-4)\\)，\\(O\\) 為原點。動點 \\(P\\) 滿足 \\(OP=OM\\)。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(OM^2=32\\), so \\(x^2+y^2=32\\), the circle with diameter MN.",
+        "solutionZh": "\\(OM^2=32\\)，故 \\(x^2+y^2=32\\)，即以 MN 為直徑的圓。",
+        "id": "import-locus-7ee1b449b5eedaa3",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 51,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-0549dc09e7dec6d0",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-18/2",
+      "sourceEn": "25. The coordinates of the points \\(O\\), \\(H\\) and \\(K\\) are \\((0,0)\\), \\((4,0)\\) and \\((3,5)\\) respectively. If \\(P\\) is a moving point in the rectangular coordinate plane such that \\(PH=HK\\), then the locus of \\(P\\) is A. the perpendicular bisector of \\(HK\\). B. the angle bisector of \\(\\angle HOK\\). C. the circle with \\(HK\\) as a radius. D. the circle with \\(HK\\) as a diameter.",
+      "sourceZh": "25. \\(O=(0,0)\\)、\\(H=(4,0)\\)、\\(K=(3,5)\\)。動點 \\(P\\) 滿足 \\(PH=HK\\)。其軌跡是：\nA. \\(HK\\) 的垂直平分線B. \\(angle HOK\\) 的角平分線C. 以 \\(HK\\) 為半徑的圓D. 以 \\(HK\\) 為直徑的圓",
+      "sourceSolution": "Q46. mock-yottkpss-2526-p2-final-q25\nAnswer: C\nCentre H and radius HK give (x-4)^2+y^2=26.",
+      "sourceSolutionZh": "Q46. mock-yottkpss-2526-p2-final-q25\n答案: C\n\\(HK^2=26\\)，圓心是 \\(H\\)，方程為 \\((x-4)^2+y^2=26\\)。",
+      "original": {
+        "stem": "Let \\(O=(0,0),H=(4,0),K=(3,5)\\). Find the locus of \\(P\\) satisfying \\(PH=HK\\).",
+        "stemZh": "25. \\(O=(0,0)\\)、\\(H=(4,0)\\)、\\(K=(3,5)\\)。動點 \\(P\\) 滿足 \\(PH=HK\\)。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(HK^2=(-1)^2+5^2=26\\). Thus \\((x-4)^2+y^2=26\\).",
+        "solutionZh": "\\(HK^2=(-1)^2+5^2=26\\)，故 \\((x-4)^2+y^2=26\\)。",
+        "id": "import-locus-0549dc09e7dec6d0",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 52,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-e1a6eb412b89dc4f",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-18/3",
+      "sourceEn": "27. The coordinates of the points \\(A\\) and \\(B\\) are \\((1,5)\\) and \\((p,q)\\) respectively. Let \\(P\\) be a moving point on the rectangular coordinate plane such that \\(AP=BP\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). If the equation of \\(\\Gamma\\) is \\(x+2y-16=0\\), then \\(p+q=\\) A. 9 B. 12 C. 16 D. 21",
+      "sourceZh": "27. \\(A=(1,5)\\)、\\(B=(p,q)\\)。動點 \\(P\\) 滿足 \\(AP=BP\\)，轨跡為 \\(x+2y-16=0\\)。求 \\(p+q\\)。\nA. 9B. 12C. 16D. 21",
+      "sourceSolution": "Q47. mock-hkugac-2526-p2-final-q27\nAnswer: B\nReflect A across the bisector: B=(1,5)-2(-5)(1,2)/5=(3,9), so p+q=12.",
+      "sourceSolutionZh": "Q47. mock-hkugac-2526-p2-final-q27\n答案: B\n\\(B\\) 是 \\(A\\) 關於垂直平分線的反射像。\\(A\\) 代入左式得 \\(-5\\)，法向量平方長為 \\(5\\)，故 \\(B=A-2(-5)(1,2)/5=(3,9)\\)。所以 \\(p+q=12\\)。",
+      "original": {
+        "stem": "Let \\(A=(1,5),B=(p,q)\\). The locus of \\(P\\) satisfying \\(AP=BP\\) is \\(x+2y-16=0\\). Find \\(p+q\\).",
+        "stemZh": "27. \\(A=(1,5)\\)、\\(B=(p,q)\\)。動點 \\(P\\) 滿足 \\(AP=BP\\)，轨跡為 \\(x+2y-16=0\\)。求 \\(p+q\\)。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The given line is the perpendicular bisector of AB. Reflect A in it: \\(B=(1,5)-2(-5)(1,2)/5=(3,9)\\). Hence \\(p+q=12\\).",
+        "solutionZh": "已知直線是 AB 的中垂線。把 A 反射：\\(B=(1,5)-2(-5)(1,2)/5=(3,9)\\)，所以 \\(p+q=12\\)。",
+        "id": "import-locus-e1a6eb412b89dc4f",
+        "subcategory": "transformed-loci",
+        "skill": "locus-transform",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "coordinate transformation before substitution",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 53,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-5b4f007a3b83e572",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-19/2",
+      "sourceEn": "A moving point \\(P\\) is equidistant from \\(A(2,5)\\) and \\(B(1,-6)\\). The locus is A. a circle B. a straight line C. a parabola D. a pair of parallel lines.",
+      "sourceZh": "動點 \\(P\\) 與 \\(A(2,5)\\)、\\(B(1,-6)\\) 等距。其軌跡是：\nA. 一個圓。B. 一條直線。C. 一條拋物線。D. 一對平行直線。",
+      "sourceSolution": "Q49. Practice\nAnswer: B\nEquating squared distances gives \\(2x+22y+8=0\\). Thus the locus is the perpendicular bisector of \\(AB\\).",
+      "sourceSolutionZh": "Q49. Practice\n答案: B\n令兩個平方距離相等，得 \\(2x+22y+8=0\\)。故軌跡是 \\(AB\\) 的垂直平分線，是一條直線。",
+      "original": {
+        "stem": "Find the locus of a point \\(P\\) equidistant from \\(A=(2,5)\\) and \\(B=(1,-6)\\).",
+        "stemZh": "動點 \\(P\\) 與 \\(A(2,5)\\)、\\(B(1,-6)\\) 等距。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "Equate \\((x-2)^2+(y-5)^2=(x-1)^2+(y+6)^2\\). The locus is \\(x+11y+4=0\\), the perpendicular bisector of AB.",
+        "solutionZh": "由 \\((x-2)^2+(y-5)^2=(x-1)^2+(y+6)^2\\)，得 \\(x+11y+4=0\\)，即 AB 的中垂線。",
+        "id": "import-locus-5b4f007a3b83e572",
+        "subcategory": "equal-points",
+        "skill": "locus-perp-bisector",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equate squared distances to two points",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 55,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-781af1d4d83231ae",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-25/3",
+      "sourceEn": "25. The straight line 3x + 4y = 12 cuts the x-axis and the y-axis at the points C and D respectively. Let P be a moving point in the rectangular coordinate plane such that CP = CD. Find the equation of the locus of P. A. 3x + 4y – 12 = 0 B. 8x – 6y – 7 = 0 C. x2 + y2  8x  9 = 0 D. x2 + y2  6y  16 =",
+      "sourceZh": "25. 直線 \\(3x+4y=12\\) 分別與 \\(x\\) 軸、\\(y\\) 軸交於 \\(C,D\\)。動點 \\(P\\) 滿足 \\(CP=CD\\)。求轨跡方程。\nA. \\(3x+4y-12=0\\)B. \\(8x-6y-7=0\\)C. \\(x^2+y^2-8x-9=0\\)D. \\(x^2+y^2-6y-16=0\\)",
+      "sourceSolution": "Q63. mock-twghslktmc-2526-p2-final-q25\nAnswer: C\nC=(4,0), D=(0,3), CD=5; expansion gives C.",
+      "sourceSolutionZh": "Q63. mock-twghslktmc-2526-p2-final-q25\n答案: C\n\\(C=(4,0)\\)、\\(D=(0,3)\\)，\\(CD=5\\)。\\((x-4)^2+y^2=25\\)，展開為 C。",
+      "original": {
+        "stem": "The line \\(3x+4y=12\\) meets the x- and y-axes at \\(C,D\\), respectively. Find the locus of \\(P\\) satisfying \\(CP=CD\\).",
+        "stemZh": "25. 直線 \\(3x+4y=12\\) 分別與 \\(x\\) 軸、\\(y\\) 軸交於 \\(C,D\\)。動點 \\(P\\) 滿足 \\(CP=CD\\)。求轨跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(C=(4,0),D=(0,3),CD=5\\). Thus \\((x-4)^2+y^2=25\\).",
+        "solutionZh": "\\(C=(4,0),D=(0,3),CD=5\\)。軌跡為 \\((x-4)^2+y^2=25\\)。",
+        "id": "import-locus-781af1d4d83231ae",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L3"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 73,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-d973a515c63aebf8",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-31/3",
+      "sourceEn": "26. \\(L_1\\) and \\(L_2\\) are two horizontal lines passing through \\(A(1,-7)\\) and \\(B(-2,5)\\) respectively. If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L_1\\) is equal to \\(PB\\), then the locus of \\(P\\) is A. a pair of straight lines. B. a circle. C. a parabola. D. a perpendicular bisector of \\(AB\\).",
+      "sourceZh": "26. 水平直線 \\(L_1,L_2\\) 分別經過 \\(A=(1,-7)\\)、\\(B=(-2,5)\\)。動點 \\(P\\) 到 \\(L_1\\) 的垂直距離等於 \\(PB\\)。其軌跡是：\nA. 兩條直線B. 一個圓C. 一條拋物線D. \\(AB\\) 的垂直平分線",
+      "sourceSolution": "Q76. mock-plkchc-2526-p2-final-q26\nAnswer: C\nSquaring gives (x+2)^2=24(y+1), a parabola.",
+      "sourceSolutionZh": "Q76. mock-plkchc-2526-p2-final-q26\n答案: C\n\\(|y+7|^2=(x+2)^2+(y-5)^2\\)，故 \\((x+2)^2=24(y+1)\\)，是拋物線。",
+      "original": {
+        "stem": "Horizontal lines \\(L_1,L_2\\) pass through \\(A=(1,-7),B=(-2,5)\\), respectively. Find the locus of \\(P\\) whose perpendicular distance to \\(L_1\\) equals \\(PB\\).",
+        "stemZh": "26. 水平直線 \\(L_1,L_2\\) 分別經過 \\(A=(1,-7)\\)、\\(B=(-2,5)\\)。動點 \\(P\\) 到 \\(L_1\\) 的垂直距離等於 \\(PB\\)。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(L_1:y=-7\\). Equating squared distances gives \\((y+7)^2=(x+2)^2+(y-5)^2\\), hence \\((x+2)^2=24(y+1)\\), a parabola.",
+        "solutionZh": "\\(L_1:y=-7\\)。由 \\((y+7)^2=(x+2)^2+(y-5)^2\\)，得 \\((x+2)^2=24(y+1)\\)，軌跡是拋物線。",
+        "id": "import-locus-d973a515c63aebf8",
+        "subcategory": "distance-equations",
+        "skill": "locus-focus-directrix",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "point-line equal distance or parabola",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 90,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-f45b38d04a2b5ea5",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-32/1",
+      "sourceEn": "25. The equations of the straight lines \\(L_1\\) and \\(L_2\\) are \\(x-2y=3\\) and \\(x+2y=-3\\) respectively. If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L_1\\) is equal to the perpendicular distance from \\(P\\) to \\(L_2\\), then the locus of \\(P\\) is A. a circle. B. a straight line. C. a pair of parallel lines. D. a pair of perpendicular lines.",
+      "sourceZh": "25. \\(L_1:x-2y=3\\)、\\(L_2:x+2y=-3\\)。動點 \\(P\\) 到兩直線的垂直距離相等。其軌跡是：\nA. 一個圓B. 一條直線C. 兩條平行直線D. 兩條互相垂直的直線",
+      "sourceSolution": "Q77. mock-mc_munsang-2526-p2-final-q25\nAnswer: D\nThe two branches are x=0 and y=-3/2, perpendicular lines.",
+      "sourceSolutionZh": "Q77. mock-mc_munsang-2526-p2-final-q25\n答案: D\n\\(|x-2y-3|=|x+2y+3|\\)，得 \\(x=0\\) 或 \\(y=-\\frac32\\)，兩線互相垂直。",
+      "original": {
+        "stem": "Find the locus of \\(P\\) equidistant from \\(L_1:x-2y=3\\) and \\(L_2:x+2y=-3\\).",
+        "stemZh": "25. \\(L_1:x-2y=3\\)、\\(L_2:x+2y=-3\\)。動點 \\(P\\) 到兩直線的垂直距離相等。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(|x-2y-3|=|x+2y+3|\\). The two branches give \\(y=-3/2\\) or \\(x=0\\). Both perpendicular lines are required.",
+        "solutionZh": "\\(|x-2y-3|=|x+2y+3|\\)，兩分支給出 \\(y=-3/2\\) 或 \\(x=0\\)。須包括這兩條互相垂直的直線。",
+        "id": "import-locus-f45b38d04a2b5ea5",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 91,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-a437812a2010c9d3",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-32/3",
+      "sourceEn": "26. The equations of \\(L_1\\) and \\(L_2\\) are \\(x+a=0\\) and \\(y-a=0\\) respectively, where \\(a\\) is a non-zero constant. If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L_1\\) is equal to the perpendicular distance from \\(P\\) to \\(L_2\\), then the locus of \\(P\\) is A. a circle. B. a straight line. C. a pair of parallel lines. D. a pair of intersecting lines.",
+      "sourceZh": "26. \\(L_1:x+a=0\\)、\\(L_2:y-a=0\\)，其中 \\(a\\ne0\\)。動點 \\(P\\) 到兩直線的垂直距離相等。其軌跡是：\nA. 一個圓B. 一條直線C. 兩條平行直線D. 兩條相交直線",
+      "sourceSolution": "Q79. mock-cneccc-2526-p2-final-q26\nAnswer: D\nThe branches y=x+2a and y=-x intersect at (-a,a).",
+      "sourceSolutionZh": "Q79. mock-cneccc-2526-p2-final-q26\n答案: D\n\\(|x+a|=|y-a|\\)，故 \\(y=x+2a\\) 或 \\(y=-x\\)，兩支在 \\((-a,a)\\) 相交。",
+      "original": {
+        "stem": "Let \\(a\\ne0\\). Find the locus of \\(P\\) equidistant from \\(L_1:x+a=0\\) and \\(L_2:y-a=0\\).",
+        "stemZh": "26. \\(L_1:x+a=0\\)、\\(L_2:y-a=0\\)，其中 \\(a\\ne0\\)。動點 \\(P\\) 到兩直線的垂直距離相等。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(|x+a|=|y-a|\\), so \\(y=x+2a\\) or \\(y=-x\\). Both lines meet at \\((-a,a)\\).",
+        "solutionZh": "\\(|x+a|=|y-a|\\)，故 \\(y=x+2a\\) 或 \\(y=-x\\)，兩線交於 \\((-a,a)\\)。",
+        "id": "import-locus-a437812a2010c9d3",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-line-circle",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "substitute locus into another line or circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 93,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-346224fa914239db",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-33/1",
+      "sourceEn": "25. The equations of \\(L_1\\) and \\(L_2\\) are \\(y=mx\\) and \\(y=2mx\\) respectively, where \\(m\\) is a non-zero constant. Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L_1\\) is equal to the perpendicular distance from \\(P\\) to \\(L_2\\). The locus of \\(P\\) is a A. straight line. B. pair of parallel lines. C. pair of intersecting lines. D. circle.",
+      "sourceZh": "25. \\(L_1:y=mx\\)、\\(L_2:y=2mx\\)，其中 \\(m\\ne0\\)。動點 \\(P\\) 到兩直線的垂直距離相等。其軌跡是：\nA. 一條直線B. 兩條平行直線C. 兩條相交直線D. 一個圓",
+      "sourceSolution": "Q80. mock-ywgs-2526-p2-final-q25\nAnswer: C\nSince m is nonzero, the lines are distinct and intersect at the origin; both angle bisectors form the locus.",
+      "sourceSolutionZh": "Q80. mock-ywgs-2526-p2-final-q25\n答案: C\n兩線在原點相交而不重合。等距軌跡是通過原點的兩條角平分線。",
+      "original": {
+        "stem": "Let \\(m\\ne0\\). Find and describe the locus of \\(P\\) equidistant from \\(y=mx\\) and \\(y=2mx\\).",
+        "stemZh": "25. \\(L_1:y=mx\\)、\\(L_2:y=2mx\\)，其中 \\(m\\ne0\\)。動點 \\(P\\) 到兩直線的垂直距離相等。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The lines are distinct and meet at the origin. The locus comprises both angle bisectors, given by \\(\\frac{mx-y}{\\sqrt{m^2+1}}=\\pm\\frac{2mx-y}{\\sqrt{4m^2+1}}\\).",
+        "solutionZh": "兩線相異並交於原點。軌跡為兩條角平分線：\\(\\frac{mx-y}{\\sqrt{m^2+1}}=\\pm\\frac{2mx-y}{\\sqrt{4m^2+1}}\\)。",
+        "id": "import-locus-346224fa914239db",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-line-circle",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "substitute locus into another line or circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 94,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-e9c70b4525ca5dff",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-33/2",
+      "sourceEn": "25. \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distances from \\(P\\) to the straight lines \\(L_1:x=2\\) and \\(L_2:y=2x+3\\) are equal. The locus of \\(P\\) is A. a straight line passing through the point of intersection of \\(L_1\\) and \\(L_2\\). B. a circle with centre at the point of intersection of \\(L_1\\) and \\(L_2\\). C. the two angle bisectors of the two angles formed between \\(L_1\\) and \\(L_2\\). D. a parabola with vertex at the point of intersection of \\(L_1\\) and \\(L_2\\).",
+      "sourceZh": "25. 動點 \\(P\\) 到 \\(L_1:x=2\\) 和 \\(L_2:y=2x+3\\) 的垂直距離相等。其軌跡是：\nA. 通過兩線交點的一條直線B. 以兩線交點為圓心的圓C. 兩線所成角的兩條角平分線D. 以兩線交點為頂點的拋物線",
+      "sourceSolution": "Q81. mock-sjc-2526-p2-final-q25\nAnswer: C\nThe normalized absolute equality has two angle-bisector branches through (2,7).",
+      "sourceSolutionZh": "Q81. mock-sjc-2526-p2-final-q25\n答案: C\n\\(|x-2|=|2x-y+3|/\\sqrt5\\)，兩個分支均為通過 \\((2,7)\\) 的角平分線。",
+      "original": {
+        "stem": "Find the locus of \\(P\\) equidistant from \\(L_1:x=2\\) and \\(L_2:y=2x+3\\).",
+        "stemZh": "25. 動點 \\(P\\) 到 \\(L_1:x=2\\) 和 \\(L_2:y=2x+3\\) 的垂直距離相等。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(|x-2|=|2x-y+3|/\\sqrt5\\). Thus \\(\\sqrt5(x-2)=\\pm(2x-y+3)\\), both angle bisectors through \\((2,7)\\).",
+        "solutionZh": "\\(|x-2|=|2x-y+3|/\\sqrt5\\)，故 \\(\\sqrt5(x-2)=\\pm(2x-y+3)\\)，是通過 \\((2,7)\\) 的兩條角平分線。",
+        "id": "import-locus-e9c70b4525ca5dff",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 95,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-6557cc715ce74a31",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-33/3",
+      "sourceEn": "25. The equations of the straight lines \\(L_1\\) and \\(L_2\\) are \\(x-2y-6=0\\) and \\(4x+2y-10=0\\) respectively. If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L_1\\) is equal to the perpendicular distance from \\(P\\) to \\(L_2\\), then the locus of \\(P\\) is a A. circle. B. parabola. C. straight line. D. pair of straight lines.",
+      "sourceZh": "25. \\(L_1:x-2y-6=0\\)、\\(L_2:4x+2y-10=0\\)。動點 \\(P\\) 到兩直線的垂直距離相等。其軌跡是：\nA. 一個圓B. 一條拋物線C. 一條直線D. 兩條直線",
+      "sourceSolution": "Q82. mock-ccckyc-2526-p2-final-q25\nAnswer: D\nNormalize L2 by 2; the branches are x+3y+1=0 and 3x-y-11=0.",
+      "sourceSolutionZh": "Q82. mock-ccckyc-2526-p2-final-q25\n答案: D\n將第二式除以 \\(2\\)，等距條件為 \\(|x-2y-6|=|2x+y-5|\\)。兩支為 \\(x+3y+1=0\\) 或 \\(3x-y-11=0\\)。",
+      "original": {
+        "stem": "Find the locus of \\(P\\) equidistant from \\(L_1:x-2y-6=0\\) and \\(L_2:4x+2y-10=0\\).",
+        "stemZh": "25. \\(L_1:x-2y-6=0\\)、\\(L_2:4x+2y-10=0\\)。動點 \\(P\\) 到兩直線的垂直距離相等。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "Normalise L2 first. Then \\(|x-2y-6|=|2x+y-5|\\), giving \\(x+3y+1=0\\) or \\(3x-y-11=0\\).",
+        "solutionZh": "先把 L2 方程除以 2。由 \\(|x-2y-6|=|2x+y-5|\\)，得 \\(x+3y+1=0\\) 或 \\(3x-y-11=0\\)。",
+        "id": "import-locus-6557cc715ce74a31",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 96,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-63da3c21da666cc7",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-34/2",
+      "sourceEn": "\\(P\\) is equidistant from \\(A(a,b)\\) and \\(B(c,d)\\). Which is the locus equation? A. \\(2(c-a)x+2(d-b)y+a^2+b^2-c^2-d^2=0\\) B. \\(2(c-a)x+2(d-b)y+c^2+d^2-a^2-b^2=0\\) C. \\(2(a-c)x+2(b-d)y+a^2+b^2+c^2+d^2=0\\) D. \\(x+y=0\\)",
+      "sourceZh": "動點 \\(P\\) 與 \\(L_1:x=-1\\)、\\(L_2:y=1\\) 等距。以下哪些方程構成其軌跡？\nI. \\(x-y=0\\)\nII. \\(x+y=0\\)\nIII. \\(x-y+2=0\\)\nA. 只有 IB. 只有 IIC. 只有 I、IIID. 只有 II、III",
+      "sourceSolution": "Q84. Practice\nAnswer: D\n\\(|x+1|=|y-1|\\) gives \\(x-y+2=0\\) or \\(x+y=0\\). Both angle bisectors must be retained.",
+      "sourceSolutionZh": "Q84. Practice\n答案: D\n由 \\(|x+1|=|y-1|\\)，得 \\(x-y+2=0\\) 或 \\(x+y=0\\)。須保留兩條角平分線。",
+      "original": {
+        "stem": "A point \\(P\\) is equidistant from \\(x=-1\\) and \\(y=1\\). Which equations form its complete locus? I. \\(x-y=0\\). II. \\(x+y=0\\). III. \\(x-y+2=0\\). Explain.",
+        "stemZh": "動點 \\(P\\) 與 \\(L_1:x=-1\\)、\\(L_2:y=1\\) 等距。以下哪些方程構成其軌跡？\nI. \\(x-y=0\\)\nII. \\(x+y=0\\)\nIII. \\(x-y+2=0\\)",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(|x+1|=|y-1|\\) gives \\(x+y=0\\) or \\(x-y+2=0\\). Therefore II and III together describe the complete locus; I does not.",
+        "solutionZh": "由 \\(|x+1|=|y-1|\\)，得 \\(x+y=0\\) 或 \\(x-y+2=0\\)。所以 II、III 共同組成完整軌跡，I 不正確。",
+        "id": "import-locus-63da3c21da666cc7",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L4"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 98,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-e5f79185f3201efd",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-37/1",
+      "sourceEn": "25. The equations of the straight lines \\(L_1\\) and \\(L_2\\) are \\(6x+2y-9=0\\) and \\(3x+y+9=0\\) respectively. \\(L_1\\) cuts the \\(x\\)-axis at the point \\(A\\) while \\(L_2\\) cuts the \\(y\\)-axis at the point \\(B\\). Let \\(P\\) be a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L_1\\) is equal to the perpendicular distance from \\(P\\) to \\(L_2\\). Denote the locus of \\(P\\) by \\(\\Gamma\\). Which of the following is/are true? I. \\(\\Gamma\\) is parallel to \\(L_1\\). II. \\(\\Gamma\\) is perpendicular to \\(AB\\). III. \\(\\Gamma\\) passes through the origin. A. I only B. II only C. I and III only D. II and III only",
+      "sourceZh": "25. \\(L_1:6x+2y-9=0\\)、\\(L_2:3x+y+9=0\\)。\\(L_1\\) 與 \\(x\\) 軸交於 \\(A\\)，\\(L_2\\) 與 \\(y\\) 軸交於 \\(B\\)。動點 \\(P\\) 與兩線等距，軌跡記為 \\(\\Gamma\\)。\nI. \\(\\Gamma\\) 平行於 \\(L_1\\)。\nII. \\(\\Gamma\\) 垂直於 \\(AB\\)。\nIII. \\(\\Gamma\\) 通過原點。\n下列哪些正確？\nA. 只有 IB. 只有 IIC. 只有 I 及 IIID. 只有 II 及 III",
+      "sourceSolution": "Q88. mock-evangel_college-2526-p2-final-q25\nAnswer: A\nThe midline is 3x+y+9/4=0. It misses the origin; its slope -3 is not perpendicular to AB slope 6.",
+      "sourceSolutionZh": "Q88. mock-evangel_college-2526-p2-final-q25\n答案: A\n中線為 \\(3x+y+\\frac94=0\\)。它不經原點。\\(A=(\\frac32,0)\\)、\\(B=(0,-9)\\)，\\(AB\\) 斜率為 \\(6\\)，中線斜率為 \\(-3\\)，不互相垂直。只有 I 正確。",
+      "original": {
+        "stem": "Let \\(L_1:6x+2y-9=0,L_2:3x+y+9=0\\). L1 meets the x-axis at A; L2 meets the y-axis at B. The locus \\(\\Gamma\\) is equidistant from the two lines. Test: I. \\(\\Gamma\\parallel L_1\\). II. \\(\\Gamma\\perp AB\\). III. \\(\\Gamma\\) passes through the origin. Explain.",
+        "stemZh": "25. \\(L_1:6x+2y-9=0\\)、\\(L_2:3x+y+9=0\\)。\\(L_1\\) 與 \\(x\\) 軸交於 \\(A\\)，\\(L_2\\) 與 \\(y\\) 軸交於 \\(B\\)。動點 \\(P\\) 與兩線等距，軌跡記為 \\(\\Gamma\\)。\nI. \\(\\Gamma\\) 平行於 \\(L_1\\)。\nII. \\(\\Gamma\\) 垂直於 \\(AB\\)。\nIII. \\(\\Gamma\\) 通過原點。\n下列哪些正確？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The middle parallel is \\(3x+y+9/4=0\\). It has slope -3 and does not pass through the origin. \\(A=(3/2,0),B=(0,-9)\\), so AB has slope 6; the product is -18, not -1. Only I is true.",
+        "solutionZh": "中間平行線是 \\(3x+y+9/4=0\\)，斜率為 -3，亦不經原點。\\(A=(3/2,0),B=(0,-9)\\)，AB 斜率為 6，斜率積 -18 並非 -1。只有 I 正確。",
+        "id": "import-locus-e5f79185f3201efd",
+        "subcategory": "equal-lines",
+        "skill": "locus-parallel-midline",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equal perpendicular distances to two lines",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L5"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 106,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-01b462819a5d22bf",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-38/1",
+      "sourceEn": "Find the locus of a point equidistant from \\(2x+3y-1=0\\) and \\(4x+6y+7=0\\). A. \\(8x+12y+5=0\\) B. \\(8x-12y-5=0\\) C. \\(18x+12y+5=0\\) D. \\(18x-12y-5=0\\)",
+      "sourceZh": "\\(A=(-4,3)\\)、\\(B=(0,1)\\)。動點 \\(P\\) 滿足 \\(\\angle APB=90^\\circ\\)。求軌跡方程。\nA. \\(x+2y-2=0\\)B. \\(x+2y+2=0\\)C. \\(x^2+y^2+4x-4y+3=0\\)D. \\(x^2+y^2-4x-4y+3=0\\)",
+      "sourceSolution": "Q89. Practice\nAnswer: C\nThe diameter-circle has centre \\((-2,2)\\) and radius squared \\(5\\), hence \\((x+2)^2+(y-2)^2=5\\). Exclude \\(A,B\\), where the angle is undefined.",
+      "sourceSolutionZh": "Q89. Practice\n答案: C\n以 \\(AB\\) 為直徑的圓，圓心為 \\((-2,2)\\)，半徑平方為 \\(5\\)，故 \\((x+2)^2+(y-2)^2=5\\)。須排除 \\(A,B\\)，因為在端點角度沒有定義。",
+      "original": {
+        "stem": "Let \\(A=(-4,3),B=(0,1)\\). Find the locus of \\(P\\) satisfying \\(\\angle APB=90^\\circ\\), stating any exclusions.",
+        "stemZh": "\\(A=(-4,3)\\)、\\(B=(0,1)\\)。動點 \\(P\\) 滿足 \\(\\angle APB=90^\\circ\\)。求軌跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The circle with diameter AB has centre \\((-2,2)\\) and squared radius 5. Thus \\((x+2)^2+(y-2)^2=5\\), excluding A and B where the angle is undefined.",
+        "solutionZh": "以 AB 為直徑的圓，圓心為 \\((-2,2)\\)，半徑平方為 5。故 \\((x+2)^2+(y-2)^2=5\\)，須排除角度未定義的端點 A、B。",
+        "id": "import-locus-01b462819a5d22bf",
+        "subcategory": "diameter-circle",
+        "skill": "locus-thales",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "right-angle condition gives diameter circle",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L5"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 109,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-47/1",
+      "sourceEn": "\\(A=(5,5)\\) and \\(O=(0,0)\\). A moving point \\(P\\) satisfies \\(2OP=3AP\\). The locus is A. a point B. a straight line C. a parabola D. a circle.",
+      "sourceZh": "\\(P=(x,y)\\) 關於 \\(y\\) 軸反射後的像位於 \\(L:3x+2y-5=0\\) 上。求 \\(P\\) 的軌跡。\nA. \\(3x+2y+5=0\\)B. \\(3x-2y+5=0\\)C. \\(3x-2y-5=0\\)D. \\(2x+3y-5=0\\)",
+      "sourceSolution": "Q98. Practice\nAnswer: B\nThe image is \\((-x,y)\\), so \\(-3x+2y-5=0\\), equivalent to B. Reflection changes the sign of \\(x\\) only.",
+      "sourceSolutionZh": "Q98. Practice\n答案: B\n像的坐標為 \\((-x,y)\\)，代入得 \\(-3x+2y-5=0\\)，即 B。關於 \\(y\\) 軸反射只改變 \\(x\\) 的正負。",
+      "original": {
+        "stem": "The reflection of \\(P=(x,y)\\) in the y-axis lies on \\(3x+2y-5=0\\). Find the locus of P.",
+        "stemZh": "\\(P=(x,y)\\) 關於 \\(y\\) 軸反射後的像位於 \\(L:3x+2y-5=0\\) 上。求 \\(P\\) 的軌跡。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The reflected point is \\((-x,y)\\). Substituting gives \\(-3x+2y-5=0\\).",
+        "solutionZh": "反射像為 \\((-x,y)\\)，代入得 \\(-3x+2y-5=0\\)。",
+        "id": "import-locus-c3bfb9a8feddc782",
+        "subcategory": "transformed-loci",
+        "skill": "locus-transform",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "coordinate transformation before substitution",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L6"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 136,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "alternateSource": {
+        "locator": "q-mcq-set-39/3",
+        "sourceEn": "The reflection of \\(P=(x,y)\\) in the \\(y\\)-axis lies on \\(3x+2y-5=0\\). Find the locus of \\(P\\).\nA. \\(3x-2y+5=0\\)B. \\(3x+2y+5=0\\)C. \\(3x-2y-5=0\\)D. \\(3x+2y-5=0\\)",
+        "sourceZh": "點 \\(P=(x,y)\\) 關於 \\(y\\) 軸反射後的像位於直線 \\(3x+2y-5=0\\) 上。求 \\(P\\) 的軌跡。\nA. \\(3x-2y+5=0\\)B. \\(3x+2y+5=0\\)C. \\(3x-2y-5=0\\)D. \\(3x+2y-5=0\\)",
+        "sourceSolution": "Q92. Practice\nAnswer: A",
+        "sourceSolutionZh": "Q92. Practice\n答案: A\n點 \\(P=(x,y)\\) 關於 \\(y\\) 軸反射後的像位於直線 \\(3x+2y-5=0\\) 上。求 \\(P\\) 的軌跡。\nA. \\(3x-2y+5=0\\)\nB. \\(3x+2y+5=0\\)\nC. \\(3x-2y-5=0\\)\nD. \\(3x+2y-5=0\\)"
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-28b96bc4e4777fa1",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-49/1",
+      "sourceEn": "24. The equation of the straight line \\(L\\) is \\(3x-5y+24=0\\). \\(A\\) and \\(B\\) are two fixed points on \\(L\\). If \\(P\\) is a moving point in the rectangular coordinate plane such that the area of \\(\\triangle PAB\\) is 3, then the locus of \\(P\\) is A. a circle. B. a straight line. C. a parabola. D. a pair of straight lines.",
+      "sourceZh": "24. \\(A,B\\) 為直線 \\(L:3x-5y+24=0\\) 上的兩個固定點。動點 \\(P\\) 滿足三角形 \\(PAB\\) 的面積為 \\(3\\)。其轨跡是：\nA. 一個圓B. 一條直線C. 一條拋物線D. 兩條直線",
+      "sourceSolution": "Q101. mock-ccchwc-2526-p2-final-q24\nAnswer: D\nThe nonzero area implies A and B are distinct. Fixed height 6/AB on either side gives two parallel lines.",
+      "sourceSolutionZh": "Q101. mock-ccchwc-2526-p2-final-q24\n答案: D\n非零面積保證 \\(A\\ne B\\)。固定底 \\(AB\\) 的高度為 \\(6/AB>0\\)，故是位於 \\(L\\) 兩側、與 \\(L\\) 平行的兩條直線。",
+      "original": {
+        "stem": "Fixed points \\(A,B\\) lie on \\(3x-5y+24=0\\). A point \\(P\\) moves so that triangle PAB has area 3. Describe its locus.",
+        "stemZh": "24. \\(A,B\\) 為直線 \\(L:3x-5y+24=0\\) 上的兩個固定點。動點 \\(P\\) 滿足三角形 \\(PAB\\) 的面積為 \\(3\\)。其轨跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The nonzero area requires A and B to be distinct. With fixed base AB, the perpendicular height is \\(6/AB>0\\). The locus is two parallel lines, one on each side of AB, at this distance.",
+        "solutionZh": "面積非零，故 A、B 必相異。固定底 AB 對應的高是 \\(6/AB>0\\)。軌跡是在 AB 兩側、距離皆為此高度的兩條平行線。",
+        "id": "import-locus-28b96bc4e4777fa1",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L7"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 139,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-661754a0273fdbcc",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-50/3",
+      "sourceEn": "26. Consider the straight lines L : 5x + 4y = 26 and L : 5x – 4y = 26. If P is a moving point in the rectangular coordinate 1 2 plane such that it maintains equal distance from L and L , then the locus of P is 1 2 A. a straight line. B. a parabola. C. a pair of perpendicular straight lines. D. a pair of parallel straight lines.",
+      "sourceZh": "26. \\(L_1:5x+4y=26\\)、\\(L_2:5x-4y=26\\)。動點 \\(P\\) 與兩線等距。其轨跡是：\nA. 一條直線B. 一條拋物線C. 兩條互相垂直的直線D. 兩條平行直線",
+      "sourceSolution": "Q106. mock-skhmst-2526-p2-final-q26\nAnswer: C\nThe two branches are y=0 and x=26/5, perpendicular lines.",
+      "sourceSolutionZh": "Q106. mock-skhmst-2526-p2-final-q26\n答案: C\n\\(|5x+4y-26|=|5x-4y-26|\\)，得 \\(y=0\\) 或 \\(x=\\frac{26}{5}\\)，互相垂直。",
+      "original": {
+        "stem": "Find the locus of \\(P\\) equidistant from \\(5x+4y=26\\) and \\(5x-4y=26\\).",
+        "stemZh": "26. \\(L_1:5x+4y=26\\)、\\(L_2:5x-4y=26\\)。動點 \\(P\\) 與兩線等距。其轨跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(|5x+4y-26|=|5x-4y-26|\\), giving \\(y=0\\) or \\(x=26/5\\).",
+        "solutionZh": "\\(|5x+4y-26|=|5x-4y-26|\\)，得 \\(y=0\\) 或 \\(x=26/5\\)。",
+        "id": "import-locus-661754a0273fdbcc",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 144,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-0f10207b3c4041cb",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-51/1",
+      "sourceEn": "24. The equation of the straight line \\(L\\) is \\(4x+y-8=0\\). If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L\\) is equal to the perpendicular distance from \\(P\\) to the \\(x\\)-axis, which of the following is/are true? I. The locus of \\(P\\) is a straight line with a slope of \\(-4\\). II. The locus of \\(P\\) is a pair of straight lines. III. The locus of \\(P\\) passes through \\((2,0)\\). A. I only B. II only C. I and III only D. II and III only",
+      "sourceZh": "24. \\(L:4x+y-8=0\\)。動點 \\(P\\) 到 \\(L\\) 的垂直距離，等於到 \\(x\\) 軸的垂直距離。\nI. 軌跡是一條斜率為 \\(-4\\) 的直線。\nII. 軌跡是兩條直線。\nIII. 軌跡通過 \\((2,0)\\)。\n下列哪些正確？\nA. 只有 IB. 只有 IIC. 只有 I 及 IIID. 只有 II 及 III",
+      "sourceSolution": "Q107. mock-plktytc-2526-p2-final-q24\nAnswer: D\nThe equation |4x+y-8|=sqrt(17)|y| produces two lines through (2,0); II and III hold.",
+      "sourceSolutionZh": "Q107. mock-plktytc-2526-p2-final-q24\n答案: D\n\\(|4x+y-8|=\\sqrt{17}|y|\\)，兩支為 \\(4x+(1\\mp\\sqrt{17})y-8=0\\)。它們均經過 \\((2,0)\\)，故 II、III 正確。",
+      "original": {
+        "stem": "The distance from \\(P\\) to \\(L:4x+y-8=0\\) equals its distance to the x-axis. Test: I. The locus is one line of slope -4. II. It is two lines. III. It passes through \\((2,0)\\). Explain.",
+        "stemZh": "24. \\(L:4x+y-8=0\\)。動點 \\(P\\) 到 \\(L\\) 的垂直距離，等於到 \\(x\\) 軸的垂直距離。\nI. 軌跡是一條斜率為 \\(-4\\) 的直線。\nII. 軌跡是兩條直線。\nIII. 軌跡通過 \\((2,0)\\)。\n下列哪些正確？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(|4x+y-8|=\\sqrt{17}|y|\\). The branches are \\(4x+(1\\pm\\sqrt{17})y-8=0\\), two lines through \\((2,0)\\). Only II and III are true.",
+        "solutionZh": "\\(|4x+y-8|=\\sqrt{17}|y|\\)。兩分支是 \\(4x+(1\\pm\\sqrt{17})y-8=0\\)，皆經過 \\((2,0)\\)。只有 II、III 正確。",
+        "id": "import-locus-0f10207b3c4041cb",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 145,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-1451a52a342d6181",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-51/2",
+      "sourceEn": "26. If \\(P\\) is a moving point in the rectangular coordinate plane such that the distance between \\(P\\) and the straight line \\(y=-4\\) is equal to the distance between the origin and the point \\((0,1)\\), then the locus of \\(P\\) is A. a circle. B. a straight line. C. a pair of parallel lines. D. a parabola.",
+      "sourceZh": "26. 動點 \\(P\\) 到直線 \\(y=-4\\) 的距離，等於原點到 \\((0,1)\\) 的距離。其軌跡是：\nA. 一個圓B. 一條直線C. 兩條平行直線D. 一條拋物線",
+      "sourceSolution": "Q108. mock-ssc-2526-p2-final-q26\nAnswer: C\nThe fixed distance is 1, so |y+4|=1 gives y=-3 or -5.",
+      "sourceSolutionZh": "Q108. mock-ssc-2526-p2-final-q26\n答案: C\n固定距離為 \\(1\\)。\\(|y+4|=1\\)，得 \\(y=-3\\) 或 \\(y=-5\\)。",
+      "original": {
+        "stem": "The distance from \\(P\\) to \\(y=-4\\) equals the distance from the origin to \\((0,1)\\). Find the locus of P.",
+        "stemZh": "26. 動點 \\(P\\) 到直線 \\(y=-4\\) 的距離，等於原點到 \\((0,1)\\) 的距離。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The fixed distance is 1. Thus \\(|y+4|=1\\), so \\(y=-3\\) or \\(y=-5\\).",
+        "solutionZh": "固定距離為 1。由 \\(|y+4|=1\\)，得 \\(y=-3\\) 或 \\(y=-5\\)。",
+        "id": "import-locus-1451a52a342d6181",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 146,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-996bae734f95aaf8",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-52/1",
+      "sourceEn": "26. The equations of the straight lines ℓ and ℓ are x – 2y + 4 = 0 and 3x – 6y – 8 = 0 respectively. 1 2 ℓ cuts the x-axis at the point A while ℓ cuts the y-axis at the point B. Let P be a moving point 1 2 in the rectangular coordinate plane such that the perpendicular distance from P from ℓ is equal 1 to the perpendicular distance from P to ℓ . Denote the locus of P of Γ. Which of following 2 is/are true? I. Γ is parallel to ℓ . 1 II. The equation of Γ is 3x – 6y – 2 = 0 . III. Γ bisects the line segment AB . A. I only B. II only C. I and III only D. II and III only",
+      "sourceZh": "26. \\(\\ell_1:x-2y+4=0\\)、\\(\\ell_2:3x-6y-8=0\\)。\\(\\ell_1\\) 與 \\(x\\) 軸交於 \\(A\\)，\\(\\ell_2\\) 與 \\(y\\) 軸交於 \\(B\\)。動點 \\(P\\) 到兩線的垂直距離相等，軌跡為 \\(\\Gamma\\)。\nI. \\(\\Gamma\\) 平行於 \\(\\ell_1\\)。\nII. \\(\\Gamma\\) 的方程為 \\(3x-6y-2=0\\)。\nIII. \\(\\Gamma\\) 平分線段 \\(AB\\)。\n下列哪些正確？\nA. 只有 IB. 只有 IIC. 只有 I 及 IIID. 只有 II 及 III",
+      "sourceSolution": "Q109. mock-blmcss-2526-p2-final-q26\nAnswer: C\nThe midline is 3x-6y+2=0, not the stated negative constant. Midpoint (-2,-2/3) lies on it; I and III hold.",
+      "sourceSolutionZh": "Q109. mock-blmcss-2526-p2-final-q26\n答案: C\n中線為 \\(3x-6y+2=0\\)，故 II 的符號錯誤。\\(A=(-4,0)\\)、\\(B=(0,-\\frac43)\\)，中點 \\((-2,-\\frac23)\\) 在中線上。I、III 正確。",
+      "original": {
+        "stem": "Let \\(\\ell_1:x-2y+4=0,\\ell_2:3x-6y-8=0\\). The first meets the x-axis at A; the second meets the y-axis at B. The locus \\(\\Gamma\\) is equidistant from the lines. Test: I. \\(\\Gamma\\parallel\\ell_1\\). II. \\(\\Gamma:3x-6y-2=0\\). III. \\(\\Gamma\\) bisects AB. Explain.",
+        "stemZh": "26. \\(\\ell_1:x-2y+4=0\\)、\\(\\ell_2:3x-6y-8=0\\)。\\(\\ell_1\\) 與 \\(x\\) 軸交於 \\(A\\)，\\(\\ell_2\\) 與 \\(y\\) 軸交於 \\(B\\)。動點 \\(P\\) 到兩線的垂直距離相等，軌跡為 \\(\\Gamma\\)。\nI. \\(\\Gamma\\) 平行於 \\(\\ell_1\\)。\nII. \\(\\Gamma\\) 的方程為 \\(3x-6y-2=0\\)。\nIII. \\(\\Gamma\\) 平分線段 \\(AB\\)。\n下列哪些正確？",
+        "hint": "",
+        "hintZh": "",
+        "solution": "The middle parallel is \\(3x-6y+2=0\\), so I is true and II is false. \\(A=(-4,0),B=(0,-4/3)\\); their midpoint \\((-2,-2/3)\\) lies on it, so III is true.",
+        "solutionZh": "中間平行線為 \\(3x-6y+2=0\\)，所以 I 對、II 錯。\\(A=(-4,0),B=(0,-4/3)\\)，中點 \\((-2,-2/3)\\) 在線上，故 III 對。",
+        "id": "import-locus-996bae734f95aaf8",
+        "subcategory": "equal-lines",
+        "skill": "locus-parallel-midline",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "equal perpendicular distances to two lines",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 147,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-a7fb257cec5d1471",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-53/2",
+      "sourceEn": "25. The equation of the straight line \\(L\\) is \\(2x+7y-10=0\\). If \\(P\\) is a moving point in the rectangular coordinate plane such that the perpendicular distance from \\(P\\) to \\(L\\) is equal to 4 units, then the locus of \\(P\\) is A. a pair of straight lines. B. a straight line. C. a parabola. D. a circle.",
+      "sourceZh": "25. 動點 \\(P\\) 到 \\(L:2x+7y-10=0\\) 的垂直距離為 \\(4\\)。其軌跡是：\nA. 兩條直線B. 一條直線C. 一條拋物線D. 一個圓",
+      "sourceSolution": "Q111. mock-plklfc-2526-p2-final-q25\nAnswer: A\nThe two branches are 2x+7y-10=±4sqrt(53).",
+      "sourceSolutionZh": "Q111. mock-plklfc-2526-p2-final-q25\n答案: A\n\\(|2x+7y-10|=4\\sqrt{53}\\)，兩個分支為兩條平行線。",
+      "original": {
+        "stem": "Find the locus of \\(P\\) whose perpendicular distance to \\(2x+7y-10=0\\) is 4.",
+        "stemZh": "25. 動點 \\(P\\) 到 \\(L:2x+7y-10=0\\) 的垂直距離為 \\(4\\)。其軌跡是：",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(|2x+7y-10|=4\\sqrt{53}\\), hence \\(2x+7y-10=\\pm4\\sqrt{53}\\), two parallel lines.",
+        "solutionZh": "\\(|2x+7y-10|=4\\sqrt{53}\\)，故 \\(2x+7y-10=\\pm4\\sqrt{53}\\)，軌跡為兩條平行線。",
+        "id": "import-locus-a7fb257cec5d1471",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 151,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-7ee569f1d582c8b5",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-53/3",
+      "sourceEn": "The focus is \\(F=(4,1)\\) and the directrix is \\(y=4\\). Which is the parabola equation? A. \\(x^2-8x+6y+1=0\\) B. \\(x^2+8x+6y+1=0\\) C. \\(x^2-8x-6y+1=0\\) D. \\(x^2+8x-6y+1=0\\)",
+      "sourceZh": "水平直線 \\(L\\) 與 \\(y\\) 軸交於 \\((0,2)\\)。動點 \\(P\\) 與 \\(A(2,0)\\) 及 \\(L\\) 等距。求軌跡方程。\nA. \\(x=0\\)B. \\(x-y=0\\)C. \\(y=\\frac{x^2}{4}-x\\)D. \\(y=-\\frac{x^2}{4}+x\\)",
+      "sourceSolution": "Q112. Practice\nAnswer: D\n\\(L:y=2\\). From \\((x-2)^2+y^2=(y-2)^2\\), \\(x^2-4x+4y=0\\), giving D.",
+      "sourceSolutionZh": "Q112. Practice\n答案: D\n\\(L:y=2\\)。由 \\((x-2)^2+y^2=(y-2)^2\\)，得 \\(x^2-4x+4y=0\\)，即 D。",
+      "original": {
+        "stem": "A horizontal line L passes through \\((0,2)\\). Find the locus of \\(P\\) equidistant from \\(A=(2,0)\\) and L.",
+        "stemZh": "水平直線 \\(L\\) 與 \\(y\\) 軸交於 \\((0,2)\\)。動點 \\(P\\) 與 \\(A(2,0)\\) 及 \\(L\\) 等距。求軌跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(L:y=2\\). Squaring gives \\((x-2)^2+y^2=(y-2)^2\\), hence \\(x^2-4x+4y=0\\), a parabola.",
+        "solutionZh": "\\(L:y=2\\)。由 \\((x-2)^2+y^2=(y-2)^2\\)，得 \\(x^2-4x+4y=0\\)，軌跡為拋物線。",
+        "id": "import-locus-7ee569f1d582c8b5",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Practice · Supplementary",
+        "sourceZh": "來源所列（未獨立核實）：Practice · Supplementary",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 152,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": true,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-51e1618a7283c641",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-56/2",
+      "sourceEn": "15. The coordinates of the points A and B are ( 4 , 2 ) and ( - 2 , - 3 ) respectively. Let P be a moving point on the rectangular coordinate plane such that A P = A B. Find the equation of the locus of P. A. x 2 + y 2 + 8 x + 4 y - 4 1 = 0 B. x 2 + y 2 - 8 x - 4 y - 4 1 = 0 C. 1 2 x + 1 0 y - 7 = 0 D. 1 2 x - 1 0 y + 7 = 0",
+      "sourceZh": "15. \\(A=(4,2)\\)、\\(B=(-2,-3)\\)。動點 \\(P\\) 滿足 \\(AP=AB\\)。求轨跡方程。\nA. \\(x^2+y^2+8x+4y-41=0\\)B. \\(x^2+y^2-8x-4y-41=0\\)C. \\(12x+10y-7=0\\)D. \\(12x-10y+7=0\\)",
+      "sourceSolution": "Q120. mock-twghslksc-2526-p2-final-q15\nAnswer: B\nAB squared=61; expanding the radius circle gives B, correcting source key C.",
+      "sourceSolutionZh": "Q120. mock-twghslksc-2526-p2-final-q15\n答案: B\n\\(AB^2=61\\)。\\((x-4)^2+(y-2)^2=61\\)，展開為 B。原答案 C 錯誤。",
+      "original": {
+        "stem": "Let \\(A=(4,2),B=(-2,-3)\\). Find the locus of \\(P\\) satisfying \\(AP=AB\\).",
+        "stemZh": "15. \\(A=(4,2)\\)、\\(B=(-2,-3)\\)。動點 \\(P\\) 滿足 \\(AP=AB\\)。求轨跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(AB^2=(-6)^2+(-5)^2=61\\). Thus \\((x-4)^2+(y-2)^2=61\\).",
+        "solutionZh": "\\(AB^2=(-6)^2+(-5)^2=61\\)，故 \\((x-4)^2+(y-2)^2=61\\)。",
+        "id": "import-locus-51e1618a7283c641",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 160,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-281009323e517030",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-56/3",
+      "sourceEn": "25. The coordinates of the points M and N are ( 1 2 , 1 9 ) and (4,−5) respectively. Let P be a moving point in the rectangular coordinate plane such that P N = M N . Find the equation of the locus of P . A. x2 + y2 −8x +10y −599 = 0 B. x2 + y2 −24x−38y −135= 0 C. x +3y −29 = 0 D. 3x − y −17 =",
+      "sourceZh": "25. \\(M=(12,19)\\)、\\(N=(4,-5)\\)。動點 \\(P\\) 滿足 \\(PN=MN\\)。求轨跡方程。\nA. \\(x^2+y^2-8x+10y-599=0\\)B. \\(x^2+y^2-24x-38y-135=0\\)C. \\(x+3y-29=0\\)D. \\(3x-y-17=0\\)",
+      "sourceSolution": "Q121. mock-cms-2526-p2-final-q25\nAnswer: A\nMN squared=640; expand the circle centred at N to obtain A.",
+      "sourceSolutionZh": "Q121. mock-cms-2526-p2-final-q25\n答案: A\n\\(MN^2=640\\)，故 \\((x-4)^2+(y+5)^2=640\\)，展開為 A。",
+      "original": {
+        "stem": "Let \\(M=(12,19),N=(4,-5)\\). Find the locus of \\(P\\) satisfying \\(PN=MN\\).",
+        "stemZh": "25. \\(M=(12,19)\\)、\\(N=(4,-5)\\)。動點 \\(P\\) 滿足 \\(PN=MN\\)。求轨跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(MN^2=8^2+24^2=640\\). Thus \\((x-4)^2+(y+5)^2=640\\).",
+        "solutionZh": "\\(MN^2=8^2+24^2=640\\)，故 \\((x-4)^2+(y+5)^2=640\\)。",
+        "id": "import-locus-281009323e517030",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 161,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "restore-source-mcq",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-34418f66877769b4",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-mcq-set-57/2",
+      "sourceEn": "26. The coordinates of two points A and B are (1, 6) and (3, 2) respectively. Let P be a moving point in the rectangular coordinate plane such that \\(\\dot { P } A = A B\\) Find the equation of the locus of P. A. -y-3=0 B. x+y-5=0 C. \\(x ^ { 2 } + y ^ { 2 } + 2 x - 12 y + 5 = 0\\) D. \\(x ^ { 2 } + y ^ { 2 } - 6 x - 4 y - 19 = 0\\)",
+      "sourceZh": "26. \\(A=(1,6)\\)、\\(B=(3,2)\\)。動點 \\(P\\) 滿足 \\(PA=AB\\)。求轨跡方程。\nA. ［來源選項首項缺字：\\(-y-3=0\\)］B. \\(x+y-5=0\\)C. \\(x^2+y^2+2x-12y+5=0\\)D. \\(x^2+y^2-6x-4y-19=0\\)",
+      "sourceSolution": "Q123. mock-rc-2526-p2-final-q26\nAnswer: ?\nAnswer: 選項均不相符\nThe required circle is (x-1)^2+(y-6)^2=20, or x^2+y^2-2x-12y+17=0. None of the transcribed options matches.",
+      "sourceSolutionZh": "Q123. mock-rc-2526-p2-final-q26\n答案: ?\n答案：選項均不相符。\\(AB^2=20\\)，故 \\((x-1)^2+(y-6)^2=20\\)，即 \\(x^2+y^2-2x-12y+17=0\\)。原 C 的一次項和常數項皆不符，不能沿用原答案。",
+      "original": {
+        "stem": "Let \\(A=(1,6),B=(3,2)\\). Find the locus of \\(P\\) satisfying \\(PA=AB\\).",
+        "stemZh": "26. \\(A=(1,6)\\)、\\(B=(3,2)\\)。動點 \\(P\\) 滿足 \\(PA=AB\\)。求轨跡方程。",
+        "hint": "",
+        "hintZh": "",
+        "solution": "\\(AB^2=2^2+(-4)^2=20\\). Thus \\((x-1)^2+(y-6)^2=20\\), equivalently \\(x^2+y^2-2x-12y+17=0\\).",
+        "solutionZh": "\\(AB^2=2^2+(-4)^2=20\\)，故 \\((x-1)^2+(y-6)^2=20\\)，即 \\(x^2+y^2-2x-12y+17=0\\)。",
+        "id": "import-locus-34418f66877769b4",
+        "subcategory": "fixed-distance",
+        "skill": "locus-fixed-radius",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "fixed distance determines circle centre and radius",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L8"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "mc",
+          "sourceId": null,
+          "row": 163,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Written adaptation: original choices are missing or incomplete. English and worked solution edited from the stated conditions; assess by solution comparison.",
+          "zh-Hant": "書面作答改編：原選項缺漏或不完整，按原題條件補英文及解析，以對照解析自評。"
+        },
+        "editorialCorrections": [
+          {
+            "field": "stem,solution,solutionZh,questionType,assessmentMode,hint,hintZh",
+            "reason": "Re-derived from the complete coordinate/distance conditions; English translated from Chinese where missing. Both absolute-value branches and degenerate fixed-distance case checked.",
+            "review": "1013-recovery-review.json",
+            "date": "2026-10-22"
+          }
+        ]
+      },
+      "status": "完成",
+      "action": "retain-verified-content",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    },
+    {
+      "id": "import-locus-363a476160b04ac4",
+      "topic": "locus",
+      "sourceFile": "/Users/chester/Downloads/catagory big project auto/locus_note/output/v1/locus_note_v1.html",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "locator": "q-LongQ-28",
+      "sourceEn": "14. Denote the origin by O.\n(a) A and B are points lying on the positive x-axis and the positive y-axis respectively. Let\na be the x-coordinate of A. A horizontal line which passes through B cuts the straight\nline\n2y m x= at the point C such that\nAB AC= , where m is a non-zero constant. Let D\nbe a point such that ABDC is a rhombus. Express the area of ABDC in terms of a and m.\n(3 marks)\n(b) The coordinates of the points E and F are (128, 72) and (128, 0) respectively. EF cuts\nthe straight line\n2y m x= at the point S. U is a point on the positive y-axis such that the\nstraight line L passing through U and S is horizontal. Let T and V be points lying on the\npositive x-axis and the first quadrant respectively. It is given that the quadrilateral STUV\nis a rhombus with area 2 304.\n(i) Find the equation of L.\n(ii) P is a moving point in the rectangular coordinate plane such that P is equidistant\nfrom T and L. Find the equation of the locus of P.\n(5 marks)",
+      "sourceZh": "14. \\(O\\) 為原點，題設直線為 \\(y=m^2x\\)。\n(a) \\(A,B\\) 分別在正 \\(x\\) 軸、正 \\(y\\) 軸上，\\(A\\) 的 \\(x\\) 坐標為 \\(a\\)。過 \\(B\\) 的水平線與 \\(y=m^2x\\) 交於 \\(C\\)，且 \\(AB=AC\\)，\\(m\\ne0\\)。\\(ABDC\\) 是菱形，以 \\(a,m\\) 表示其面積。（3 分）\n(b) \\(E=(128,72)\\)、\\(F=(128,0)\\)。\\(EF\\) 與該直線交於 \\(S\\)；\\(U\\) 在正 \\(y\\) 軸上，\\(US\\) 水平，所在直線為 \\(L\\)。\\(T\\) 在正 \\(x\\) 軸上，\\(V\\) 在第一象限，\\(STUV\\) 是面積 \\(2304\\) 的菱形。\n(i) 求 \\(L\\)；(ii) 動點 \\(P\\) 與點 \\(T\\) 及直線 \\(L\\) 等距，求軌跡方程。（5 分）",
+      "sourceSolution": "English Solution\nUnder the source-solution reading y=m^2x:\n(a) B=(0,2m^2a), C=(2a,2m^2a), D=(a,4m^2a). Diagonal lengths 2a and 4m^2a give area 4m^2a^2.\n(b)(i) The horizontal diagonal has length 128; the other has length 2yS. Area 128yS=2304 gives L:y=18.\n(ii) T=(64,0). Squaring the point-line equality gives x^2-128x+36y+3772=0.\nThe equation \\(y=m^2x\\) has been confirmed against the original question screenshot.",
+      "sourceSolutionZh": "中文詳解\n(a) \\(A=(a,0)\\)。因 \\(B,C\\) 同高且 \\(AB=AC\\)，\\(A\\) 在 \\(BC\\) 的垂直平分線上，故 \\(C\\) 的 \\(x\\) 坐標為 \\(2a\\)，所以 \\(B=(0,2m^2a)\\)、\\(C=(2a,2m^2a)\\)、\\(D=(a,4m^2a)\\)。兩菱形對角線長 \\(2a,4m^2a\\)，面積 \\(4m^2a^2\\)。\n(b)(i) 菱形的水平對角線 \\(SU\\) 長 \\(128\\)。另一垂直對角線長 \\(2y_S\\)，面積 \\(128y_S=2304\\)，得 \\(y_S=18\\)，所以 \\(L:y=18\\)。\n(ii) 垂直對角線的下端點 \\(T=(64,0)\\)。等距条件為 \\((x-64)^2+y^2=(y-18)^2\\)，故 \\(x^2-128x+36y+3772=0\\)。",
+      "original": {
+        "stem": "Let O be the origin. The line is \\(y=m^2x\\), where \\(m\\ne0\\).\n(a) A and B lie on the positive x-axis and positive y-axis respectively. A has x-coordinate a. The horizontal line through B meets \\(y=m^2x\\) at C, where AB = AC. ABDC is a rhombus. Express its area in terms of a and m.\n(b) E = (128,72) and F = (128,0). EF meets the line at S. U lies on the positive y-axis and US is horizontal, on line L. T lies on the positive x-axis and V in the first quadrant; STUV is a rhombus of area 2304 square units.\n(i) Find L.\n(ii) P is equidistant from T and L. Find the equation of its locus.",
+        "stemZh": "14. \\(O\\) 為原點，題設直線為 \\(y=m^2x\\)。\n(a) \\(A,B\\) 分別在正 \\(x\\) 軸、正 \\(y\\) 軸上，\\(A\\) 的 \\(x\\) 坐標為 \\(a\\)。過 \\(B\\) 的水平線與 \\(y=m^2x\\) 交於 \\(C\\)，且 \\(AB=AC\\)，\\(m\\ne0\\)。\\(ABDC\\) 是菱形，以 \\(a,m\\) 表示其面積。（3 分）\n(b) \\(E=(128,72)\\)、\\(F=(128,0)\\)。\\(EF\\) 與該直線交於 \\(S\\)；\\(U\\) 在正 \\(y\\) 軸上，\\(US\\) 水平，所在直線為 \\(L\\)。\\(T\\) 在正 \\(x\\) 軸上，\\(V\\) 在第一象限，\\(STUV\\) 是面積 \\(2304\\) 的菱形。\n(i) 求 \\(L\\)；(ii) 動點 \\(P\\) 與點 \\(T\\) 及直線 \\(L\\) 等距，求軌跡方程。（5 分）",
+        "hint": "Parameterise coordinates. Area = diagonal product /2.",
+        "hintZh": "坐標參數化。面積 = 對角線積 /2。",
+        "solution": "(a) Write B = (0,b) and C = (c,b), with c > 0. From AB = AC, \\(a^2+b^2=(c-a)^2+b^2\\), giving c = 2a. Thus \\(b=2m^2a\\) and \\(D=(a,4m^2a)\\). The perpendicular diagonals BC and AD have lengths \\(2a\\) and \\(4m^2a\\), so the area is \\(4m^2a^2\\).\n(b)(i) If S = (128,s), then U = (0,s). The other diagonal of the rhombus is vertical through x = 64; T = (64,0), V = (64,2s). Thus \\(128(2s)/2=2304\\), giving s = 18 and L: y = 18.\n(ii) Equal squared distances give \\((x-64)^2+y^2=(y-18)^2\\), or \\(x^2-128x+36y+3772=0\\).",
+        "solutionZh": "(a) 設 B = (0,b)、C = (c,b)，其中 c > 0。由 AB = AC，\\(a^2+b^2=(c-a)^2+b^2\\)，得 c = 2a。因此 \\(b=2m^2a\\)、\\(D=(a,4m^2a)\\)。兩條垂直對角線 BC、AD 長分別為 \\(2a\\)、\\(4m^2a\\)，故面積為 \\(4m^2a^2\\)。\n(b)(i) 設 S = (128,s)，則 U = (0,s)。另一對角線垂直，且通過 x = 64，所以 T = (64,0)、V = (64,2s)。由 \\(128(2s)/2=2304\\) 得 s = 18，故 L: y = 18。\n(ii) 由距離平方相等，\\((x-64)^2+y^2=(y-18)^2\\)，即 \\(x^2-128x+36y+3772=0\\)。",
+        "id": "import-locus-363a476160b04ac4",
+        "subcategory": "intersecting-loci",
+        "skill": "locus-coordinate-chain",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "multi-part locus and coordinate geometry application",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "L2"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "Mock · 2526",
+        "sourceZh": "來源所列（未獨立核實）：Mock · 2526",
+        "provenance": {
+          "collection": "1013-webpage",
+          "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+          "topic": "locus",
+          "kind": "long",
+          "sourceId": null,
+          "row": 28,
+          "set": null,
+          "number": null,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "adaptation": {
+          "en": "Editorially reviewed edition: Translate the existing complete Chinese line equation and givens; replace the garbled English line and tentative source-solution commentary with a complete derivation.",
+          "zh-Hant": "編訂版：已按完整題意核對雙語條件及解法。"
+        }
+      },
+      "status": "完成",
+      "action": "retain-verified-content",
+      "classificationChanged": false,
+      "evidence": {
+        "math": "tests/priority-source-review.cjs",
+        "browser": "docs/qa/2026-10-23/priority-review/report.json",
+        "scope": "Independent source/current semantic review and computation; actual study page at four widths. Local delivery validated; publication verified separately."
+      }
+    }
+  ]
+}

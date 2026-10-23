@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "revision": "401aace4aac91429",
+  "revision": "b12f375162729ec6",
   "totalQuestions": 1186,
   "chapterCount": 7,
-  "catalog": "data/catalog.ad8344bc34e93bc3.json",
-  "index": "data/question-index.d79bbd79f777e41f.json",
+  "catalog": "data/catalog.305b41adde28eca4.json",
+  "index": "data/question-index.e7718d079f43ff8a.json",
   "search": [
     "data/search/four-centres.ef262d4cd60411d9.json",
     "data/search/four-centres.b200f86f90868cb2.json",
     "data/search/four-centres.947fff1000609e75.json",
-    "data/search/locus.659753f9d9081335.json",
-    "data/search/locus.4e90f74c11a5052c.json",
+    "data/search/locus.d635974de56be05f.json",
+    "data/search/locus.3ab1f82239b996c7.json",
     "data/search/circle-equation.23647cf8fd68fe5e.json",
     "data/search/circle-equation.2d5072be08c025d2.json",
     "data/search/polynomial.c91a6dbf0d3c825c.json",
@@ -23,10 +23,10 @@
   "chapters": [
     {
       "topicId": "four-centres",
-      "path": "data/chapters/four-centres.fc0e451881af5192.json",
+      "path": "data/chapters/four-centres.269979d269636971.json",
       "chunks": [
         "data/chapters/four-centres-chunk.bc384a702c55015f.json",
-        "data/chapters/four-centres-chunk.b077c7500bae8043.json",
+        "data/chapters/four-centres-chunk.ea61e4a19f4b4ed0.json",
         "data/chapters/four-centres-chunk.b3e6f8016fef1149.json",
         "data/chapters/four-centres-chunk.5e4d142cbd6dad4f.json",
         "data/chapters/four-centres-chunk.04eec959cb6a3f14.json",
@@ -39,13 +39,13 @@
     },
     {
       "topicId": "locus",
-      "path": "data/chapters/locus.2cdf070b8c73c658.json",
+      "path": "data/chapters/locus.70ca9dfb90c95156.json",
       "chunks": [
-        "data/chapters/locus-chunk.c250507f41eb6cb1.json",
-        "data/chapters/locus-chunk.32f5321acdd145c0.json",
-        "data/chapters/locus-chunk.2184b953aae99de9.json",
-        "data/chapters/locus-chunk.94bcdfa5f6df2a8c.json",
-        "data/chapters/locus-chunk.ee23101db3bbc92e.json",
+        "data/chapters/locus-chunk.bf22482fc87fd1fd.json",
+        "data/chapters/locus-chunk.c46b27d7a5191c02.json",
+        "data/chapters/locus-chunk.43407c2fc8056e9a.json",
+        "data/chapters/locus-chunk.344514eeb6402930.json",
+        "data/chapters/locus-chunk.ee07dbd310bdf5d0.json",
         "data/chapters/locus-chunk.da377bba19770958.json",
         "data/chapters/locus-chunk.7b1b857da5255314.json",
         "data/chapters/locus-chunk.5736d23f4111af48.json"

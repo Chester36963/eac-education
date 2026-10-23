@@ -1,0 +1,951 @@
+{
+  "testedAt": "2026-10-23T09:58:51.991Z",
+  "base": "http://127.0.0.1:4173/",
+  "revision": "b12f375162729ec6",
+  "totalQuestions": 1186,
+  "checked": [
+    {
+      "id": "import-four-centres-q055",
+      "width": 320,
+      "type": "mcq",
+      "skill": "fc-altitudes"
+    },
+    {
+      "id": "import-four-centres-q187",
+      "width": 320,
+      "type": "mcq",
+      "skill": "fc-altitudes"
+    },
+    {
+      "id": "import-four-centres-q103",
+      "width": 320,
+      "type": "mcq",
+      "skill": "fc-average"
+    },
+    {
+      "id": "import-four-centres-q122",
+      "width": 320,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-four-centres-q097",
+      "width": 320,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-four-centres-q239",
+      "width": 320,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-locus-4de4ccc36d5026d7",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-distance-ratio"
+    },
+    {
+      "id": "import-locus-5ad7ff017f01f61f",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-ff803a24a3e0d94e",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-5958937aeb20c640",
+      "width": 320,
+      "type": "structured",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-2768b240986133e2",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-ae3fb32f55ff0c8c",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-8e722eb03f0dab72",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-7ee1b449b5eedaa3",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-0549dc09e7dec6d0",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-e1a6eb412b89dc4f",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-5b4f007a3b83e572",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-781af1d4d83231ae",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-d973a515c63aebf8",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-focus-directrix"
+    },
+    {
+      "id": "import-locus-f45b38d04a2b5ea5",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-a437812a2010c9d3",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-346224fa914239db",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-e9c70b4525ca5dff",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-6557cc715ce74a31",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-63da3c21da666cc7",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-e5f79185f3201efd",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-parallel-midline"
+    },
+    {
+      "id": "import-locus-01b462819a5d22bf",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-thales"
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-transform"
+    },
+    {
+      "id": "import-locus-28b96bc4e4777fa1",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-fixed-area"
+    },
+    {
+      "id": "import-locus-661754a0273fdbcc",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-0f10207b3c4041cb",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-1451a52a342d6181",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-996bae734f95aaf8",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-parallel-midline"
+    },
+    {
+      "id": "import-locus-a7fb257cec5d1471",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-7ee569f1d582c8b5",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-focus-directrix"
+    },
+    {
+      "id": "import-locus-51e1618a7283c641",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-281009323e517030",
+      "width": 320,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-34418f66877769b4",
+      "width": 320,
+      "type": "structured",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-363a476160b04ac4",
+      "width": 320,
+      "type": "structured",
+      "skill": "locus-coordinate-chain"
+    },
+    {
+      "id": "import-four-centres-q055",
+      "width": 390,
+      "type": "mcq",
+      "skill": "fc-altitudes"
+    },
+    {
+      "id": "import-four-centres-q187",
+      "width": 390,
+      "type": "mcq",
+      "skill": "fc-altitudes"
+    },
+    {
+      "id": "import-four-centres-q103",
+      "width": 390,
+      "type": "mcq",
+      "skill": "fc-average"
+    },
+    {
+      "id": "import-four-centres-q122",
+      "width": 390,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-four-centres-q097",
+      "width": 390,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-four-centres-q239",
+      "width": 390,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-locus-4de4ccc36d5026d7",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-distance-ratio"
+    },
+    {
+      "id": "import-locus-5ad7ff017f01f61f",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-ff803a24a3e0d94e",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-5958937aeb20c640",
+      "width": 390,
+      "type": "structured",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-2768b240986133e2",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-ae3fb32f55ff0c8c",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-8e722eb03f0dab72",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-7ee1b449b5eedaa3",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-0549dc09e7dec6d0",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-e1a6eb412b89dc4f",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-5b4f007a3b83e572",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-781af1d4d83231ae",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-d973a515c63aebf8",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-focus-directrix"
+    },
+    {
+      "id": "import-locus-f45b38d04a2b5ea5",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-a437812a2010c9d3",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-346224fa914239db",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-e9c70b4525ca5dff",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-6557cc715ce74a31",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-63da3c21da666cc7",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-e5f79185f3201efd",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-parallel-midline"
+    },
+    {
+      "id": "import-locus-01b462819a5d22bf",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-thales"
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-transform"
+    },
+    {
+      "id": "import-locus-28b96bc4e4777fa1",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-fixed-area"
+    },
+    {
+      "id": "import-locus-661754a0273fdbcc",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-0f10207b3c4041cb",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-1451a52a342d6181",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-996bae734f95aaf8",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-parallel-midline"
+    },
+    {
+      "id": "import-locus-a7fb257cec5d1471",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-7ee569f1d582c8b5",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-focus-directrix"
+    },
+    {
+      "id": "import-locus-51e1618a7283c641",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-281009323e517030",
+      "width": 390,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-34418f66877769b4",
+      "width": 390,
+      "type": "structured",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-363a476160b04ac4",
+      "width": 390,
+      "type": "structured",
+      "skill": "locus-coordinate-chain"
+    },
+    {
+      "id": "import-four-centres-q055",
+      "width": 768,
+      "type": "mcq",
+      "skill": "fc-altitudes"
+    },
+    {
+      "id": "import-four-centres-q187",
+      "width": 768,
+      "type": "mcq",
+      "skill": "fc-altitudes"
+    },
+    {
+      "id": "import-four-centres-q103",
+      "width": 768,
+      "type": "mcq",
+      "skill": "fc-average"
+    },
+    {
+      "id": "import-four-centres-q122",
+      "width": 768,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-four-centres-q097",
+      "width": 768,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-four-centres-q239",
+      "width": 768,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-locus-4de4ccc36d5026d7",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-distance-ratio"
+    },
+    {
+      "id": "import-locus-5ad7ff017f01f61f",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-ff803a24a3e0d94e",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-5958937aeb20c640",
+      "width": 768,
+      "type": "structured",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-2768b240986133e2",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-ae3fb32f55ff0c8c",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-8e722eb03f0dab72",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-7ee1b449b5eedaa3",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-0549dc09e7dec6d0",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-e1a6eb412b89dc4f",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-5b4f007a3b83e572",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-781af1d4d83231ae",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-d973a515c63aebf8",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-focus-directrix"
+    },
+    {
+      "id": "import-locus-f45b38d04a2b5ea5",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-a437812a2010c9d3",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-346224fa914239db",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-e9c70b4525ca5dff",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-6557cc715ce74a31",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-63da3c21da666cc7",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-e5f79185f3201efd",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-parallel-midline"
+    },
+    {
+      "id": "import-locus-01b462819a5d22bf",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-thales"
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-transform"
+    },
+    {
+      "id": "import-locus-28b96bc4e4777fa1",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-fixed-area"
+    },
+    {
+      "id": "import-locus-661754a0273fdbcc",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-0f10207b3c4041cb",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-1451a52a342d6181",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-996bae734f95aaf8",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-parallel-midline"
+    },
+    {
+      "id": "import-locus-a7fb257cec5d1471",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-7ee569f1d582c8b5",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-focus-directrix"
+    },
+    {
+      "id": "import-locus-51e1618a7283c641",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-281009323e517030",
+      "width": 768,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-34418f66877769b4",
+      "width": 768,
+      "type": "structured",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-363a476160b04ac4",
+      "width": 768,
+      "type": "structured",
+      "skill": "locus-coordinate-chain"
+    },
+    {
+      "id": "import-four-centres-q055",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "fc-altitudes"
+    },
+    {
+      "id": "import-four-centres-q187",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "fc-altitudes"
+    },
+    {
+      "id": "import-four-centres-q103",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "fc-average"
+    },
+    {
+      "id": "import-four-centres-q122",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-four-centres-q097",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-four-centres-q239",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "fc-statements"
+    },
+    {
+      "id": "import-locus-4de4ccc36d5026d7",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-distance-ratio"
+    },
+    {
+      "id": "import-locus-5ad7ff017f01f61f",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-ff803a24a3e0d94e",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-5958937aeb20c640",
+      "width": 1440,
+      "type": "structured",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-2768b240986133e2",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-ae3fb32f55ff0c8c",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-8e722eb03f0dab72",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-7ee1b449b5eedaa3",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-0549dc09e7dec6d0",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-e1a6eb412b89dc4f",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-5b4f007a3b83e572",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-perp-bisector"
+    },
+    {
+      "id": "import-locus-781af1d4d83231ae",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-d973a515c63aebf8",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-focus-directrix"
+    },
+    {
+      "id": "import-locus-f45b38d04a2b5ea5",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-a437812a2010c9d3",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-346224fa914239db",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-e9c70b4525ca5dff",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-6557cc715ce74a31",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-63da3c21da666cc7",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-e5f79185f3201efd",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-parallel-midline"
+    },
+    {
+      "id": "import-locus-01b462819a5d22bf",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-thales"
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-transform"
+    },
+    {
+      "id": "import-locus-28b96bc4e4777fa1",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-fixed-area"
+    },
+    {
+      "id": "import-locus-661754a0273fdbcc",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-0f10207b3c4041cb",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-angle-bisectors"
+    },
+    {
+      "id": "import-locus-1451a52a342d6181",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-996bae734f95aaf8",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-parallel-midline"
+    },
+    {
+      "id": "import-locus-a7fb257cec5d1471",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-parallel-distance"
+    },
+    {
+      "id": "import-locus-7ee569f1d582c8b5",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-focus-directrix"
+    },
+    {
+      "id": "import-locus-51e1618a7283c641",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-281009323e517030",
+      "width": 1440,
+      "type": "mcq",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-34418f66877769b4",
+      "width": 1440,
+      "type": "structured",
+      "skill": "locus-fixed-radius"
+    },
+    {
+      "id": "import-locus-363a476160b04ac4",
+      "width": 1440,
+      "type": "structured",
+      "skill": "locus-coordinate-chain"
+    }
+  ],
+  "restoredMCQs": 30,
+  "oldDraftArchived": true,
+  "invalidDraftNotGraded": true,
+  "oldSelfAssessmentPreserved": true,
+  "bookmarkAndResumePreserved": true,
+  "exactSkillRouting": true,
+  "errors": []
+}

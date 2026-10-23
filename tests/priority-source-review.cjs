@@ -1,0 +1,68 @@
+/* Independent numerical/algebraic checks for the 39 highest source differences. */
+const {test,after}=require('node:test'),assert=require('node:assert/strict');
+const fs=require('node:fs'),crypto=require('node:crypto');
+const audit=require('../content/imports/2026-10-23-priority-source-review.json');
+const qs=['four-centres','locus'].flatMap(t=>require(`../content/chapters/${t}.json`).categories.flatMap(c=>c.questions));
+const byId=new Map(qs.map(q=>[q.id,q])),records=[];
+const path='content/imports/2026-10-23-priority-math-review.json';
+const update=process.env.EAC_UPDATE_PRIORITY_QA==='1',locked=fs.existsSync(path)?JSON.parse(fs.readFileSync(path)):null;
+const hash=x=>crypto.createHash('sha256').update(x).digest('hex');
+const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-8,`${a} != ${b}`);
+const norm=p=>p.reduce((s,x)=>s+x*x,0),d2=(p,q)=>norm(p.map((v,i)=>v-q[i]));
+const dot=(p,q)=>p.reduce((s,v,i)=>s+v*q[i],0),minus=(p,q)=>p.map((v,i)=>v-q[i]);
+const mid=(p,q)=>p.map((v,i)=>(v+q[i])/2);
+const at=(l,p)=>l[0]*p[0]+l[1]*p[1]+l[2];
+const distance=(l,p)=>Math.abs(at(l,p))/Math.hypot(l[0],l[1]);
+const point=(l,t)=>Math.abs(l[1])>1e-10?[t,-(l[0]*t+l[2])/l[1]]:[-l[2]/l[0],t];
+const equalLines=(L,M,branches,ratio=1)=>{for(const b of branches)for(const t of [-7,-1,0,2,13]){const p=point(b,t);close(distance(L,p),ratio*distance(M,p));}assert.equal(branches.length,2);return {L,M,branches,ratio};};
+const equalPoints=(A,B,L)=>{for(const t of [-9,-1,0,3,11]){const p=point(L,t);close(d2(p,A),d2(p,B));}return {A,B,line:L};};
+const circle=(O,R2,A,B,ratio)=>{for(const angle of [0,.3,1,2,4,5]){const p=[O[0]+Math.sqrt(R2)*Math.cos(angle),O[1]+Math.sqrt(R2)*Math.sin(angle)];if(A&&B)close(d2(p,A),ratio**2*d2(p,B));}return {centre:O,radiusSquared:R2};};
+function review(id,key,reason,calc){const q=byId.get(id);test('Priority source review: '+id,()=>{
+ assert.ok(q);const calculated=JSON.parse(JSON.stringify(calc(q)));if(key)assert.equal(q.answer,key);
+ if(q.questionType==='mcq'){assert.deepEqual(Object.keys(q.options),['A','B','C','D']);assert.deepEqual(Object.keys(q.optionsZh),['A','B','C','D']);assert.ok(!q.assessmentMode);}
+ const original=audit.records.find(r=>r.id===id);assert.ok(original);
+ const record={id,status:'完成',locator:original.locator,sourceSha256:original.sourceSha256,questionSha256:hash(JSON.stringify(q)),reason,calculated};
+ if(!update){const old=locked?.records.find(r=>r.id===id);assert.ok(old);assert.equal(record.questionSha256,old.questionSha256,'Redo independent/source review when content changes');assert.deepEqual(record.calculated,old.calculated);}
+ records.push(record);
+});}
+const fc=(s,...args)=>review('import-four-centres-'+s,...args),l=(s,...args)=>review('import-locus-'+s,...args);
+fc('q055','D','Options moved into fields; both altitude dot products vanish for the derived a. k=10 is impossible.',()=>{for(const k of [-8,0,9,11,20]){const a=(k*k-10*k-324)/(k-10),A=[2,a],B=[-16,k],C=[20,k],H=[2,10];close(dot(minus(H,A),minus(C,B)),0);close(dot(minus(H,B),minus(C,A)),0);}assert.notEqual(dot([18,0],[18,1]),0);return {a:'k-324/(k-10)',excluded:10};});
+fc('q187','B','Source solution and independent altitude intersection give (1,-3); published A was wrong.',()=>{const H=[1,-3],O=[0,0],A=[5,5],B=[-4,2];close(dot(minus(H,B),minus(A,O)),0);close(dot(minus(H,A),minus(B,O)),0);close(dot(H,minus(B,A)),0);return {orthocentre:H};});
+fc('q103','B','Right isosceles centroid angle: area/cross product gives 3/sqrt(10).',()=>{const u=[2,-1],v=[-1,-1],s=Math.abs(u[0]*v[1]-u[1]*v[0])/Math.sqrt(norm(u)*norm(v));close(s,3/Math.sqrt(10));return {sine:s};});
+fc('q122','C','Right triangle circumcentre is hypotenuse midpoint, orthocentre is origin; other statements false.',()=>{const J=mid([24,0],[0,26]);assert.deepEqual(J,[12,13]);const r=(24+26-Math.hypot(24,26))/2;assert.ok(r>0);return {circumcentre:J,inradius:r,orthocentre:[0,0],centroid:[8,26/3],statements:[false,false,true,false]};});
+fc('q097','C','Bilingual options separated correctly: centroid (4,16/3), inradius 4, circumcentre (6,8).',()=>{const J=mid([12,0],[0,16]),r=(12+16-20)/2;assert.deepEqual(J,[6,8]);close(r,4);return {circumcentre:J,incentre:[r,r],centroid:[4,16/3],orthocentre:[0,0]};});
+fc('q239','A','Incentre and median segment are internal; an obtuse triangle has external orthocentre. Median is not centroid.',()=>{const A=[0,0],B=[4,0],C=[1,1],H=[1,3],I=[(Math.sqrt(10)*A[0]+Math.sqrt(2)*B[0]+4*C[0])/(Math.sqrt(10)+Math.sqrt(2)+4),4/(Math.sqrt(10)+Math.sqrt(2)+4)];close(dot(minus(H,C),minus(B,A)),0);close(dot(minus(H,A),minus(C,B)),0);assert.ok(H[1]>1);assert.ok(I[0]>0&&I[1]>0);return {statements:[true,true,false],example:{A,B,C,H,I}};});
+l('4de4ccc36d5026d7','B','OP=2AP gives a genuine Apollonius circle, not just an unspecified conic.',()=>circle([4,0],4,[0,0],[3,0],2));
+l('5ad7ff017f01f61f','B','Axis intercepts are (4,0),(0,-8); equal distances give their perpendicular bisector.',()=>equalPoints([4,0],[0,-8],[1,2,6]));
+l('ff803a24a3e0d94e','A','Recover circle centre (3,-5), then equate distances to A and G.',()=>equalPoints([-3,3],[3,-5],[3,-4,-4]));
+l('5958937aeb20c640',null,'Source fixed distance omits positivity. Keep explicit written d=0/d>0 split rather than choose A or B.',q=>{assert.equal(q.questionType,'structured');assert.match(q.adaptation.en,/zero/);const L=[5,7,-94];for(const d of [0,1,3])for(const sign of [-1,1])close(distance(L,[0,(94+sign*d*Math.sqrt(74))/7]),d);return {zero:'one line',positive:'two parallel lines'};});
+l('2768b240986133e2','B','Fixed radius AB is sqrt(226).',()=>{const R2=d2([5,8],[6,-7]);close(R2,226);return circle([5,8],R2);});
+l('ae3fb32f55ff0c8c','C','Axis intercepts (-8,0),(0,-5) give radius squared 89; expand to option C.',()=>{const R2=d2([-8,0],[0,-5]);close(R2,89);return {...circle([-8,0],R2),expanded:[1,1,16,0,-25]};});
+l('8e722eb03f0dab72','A','Normalize proportional line normals before applying distance ratio; both branches required.',()=>equalLines([3,8,-12],[9,24,0],[[3,8,-30],[3,8,-7.5]],3/5));
+l('7ee1b449b5eedaa3','D','M and N are opposite ends of the circle with centre O and radius OM.',()=>{assert.deepEqual(mid([4,4],[-4,-4]),[0,0]);return circle([0,0],d2([4,4],[0,0]));});
+l('0549dc09e7dec6d0','C','PH is fixed HK; centre is H, HK is radius rather than diameter.',()=>{const R2=d2([4,0],[3,5]);close(R2,26);return circle([4,0],R2);});
+l('e1a6eb412b89dc4f','B','Reflect A across the known perpendicular bisector to recover B=(3,9).',()=>{const A=[1,5],L=[1,2,-16],t=at(L,A)/5,B=[A[0]-2*t,A[1]-4*t];assert.deepEqual(B,[3,9]);close(B[0]+B[1],12);return equalPoints(A,B,L);});
+l('5b4f007a3b83e572','B','Equal point distances produce x+11y+4=0, a line.',()=>equalPoints([2,5],[1,-6],[1,11,4]));
+l('781af1d4d83231ae','C','Use complete Chinese options to recover damaged English OCR equations; circle centred C=(4,0).',()=>{close(d2([4,0],[0,3]),25);return {...circle([4,0],25),expanded:[1,1,-8,0,-9]};});
+l('d973a515c63aebf8','C','Equal distance to focus (-2,5) and directrix y=-7 gives a parabola.',()=>{for(const x of [-8,-2,0,7]){const p=[x,(x+2)**2/24-1];close(d2(p,[-2,5]),distance([0,1,7],p)**2);}return {equation:'(x+2)^2=24(y+1)'};});
+l('f45b38d04a2b5ea5','D','Equal distances to two intersecting lines require BOTH perpendicular angle bisectors.',()=>equalLines([1,-2,-3],[1,2,3],[[0,2,3],[1,0,0]]));
+l('a437812a2010c9d3','D','For every nonzero a, y=x+2a and y=-x are distinct intersecting angle bisectors.',()=>{for(const a of [-4,-1,1,8])equalLines([1,0,a],[0,1,-a],[[1,-1,2*a],[1,1,0]]);return {branches:['y=x+2a','y=-x'],intersection:'(-a,a)'};});
+l('346224fa914239db','C','m nonzero makes two distinct lines; normalised signed-distance branches are intersecting perpendicular bisectors.',()=>{for(const m of [-3,-.5,.5,2]){const n=Math.hypot(m,1),v=Math.hypot(2*m,1);equalLines([m,-1,0],[2*m,-1,0],[[m/n-2*m/v,-1/n+1/v,0],[m/n+2*m/v,-1/n-1/v,0]]);}return {type:'two angle bisectors',excluded:0};});
+l('e9c70b4525ca5dff','C','Distances to x=2 and y=2x+3 give both angle bisectors through (2,7).',()=>equalLines([1,0,-2],[2,-1,3],[[Math.sqrt(5)-2,1,-2*Math.sqrt(5)-3],[Math.sqrt(5)+2,-1,-2*Math.sqrt(5)+3]]));
+l('6557cc715ce74a31','D','Normalising L2 by 2 is essential; retain both signed-distance branches.',()=>equalLines([1,-2,-6],[4,2,-10],[[1,3,1],[3,-1,-11]]));
+l('63da3c21da666cc7','D','English source panel is another question; Chinese and both solutions agree with current identity. Translate correct choices, retain II and III.',()=>equalLines([1,0,1],[0,1,-1],[[1,1,0],[1,-1,2]]));
+l('e5f79185f3201efd','A','Parallel midline is 3x+y+9/4=0; AB slope is 6, so II/III are false.',()=>{const L=[3,1,9/4];for(const t of [-8,0,4]){const p=point(L,t);close(distance([6,2,-9],p),distance([3,1,9],p));}close(-3*6,-18);assert.notEqual(at(L,[0,0]),0);return {midline:L,statements:[true,false,false]};});
+l('01b462819a5d22bf','C','Chinese and both source solutions define diameter AB; unrelated English distance-line panel is rejected. Endpoints excluded.',()=>{const A=[-4,3],B=[0,1],O=mid(A,B);assert.deepEqual(O,[-2,2]);const R2=d2(O,A);close(R2,5);for(const t of [.2,1,2,4]){const p=[O[0]+Math.sqrt(R2)*Math.cos(t),O[1]+Math.sqrt(R2)*Math.sin(t)];close(dot(minus(A,p),minus(B,p)),0);}return {O,R2,excluded:[A,B]};});
+l('c3bfb9a8feddc782','A','One repeated source row has mismatched English and different option ordering. Restore coherent bilingual q-mcq-set-39/3; A is correct there.',()=>{const L=[3,-2,5];for(const t of [-8,0,4]){const p=point(L,t);close(at([3,2,-5],[-p[0],p[1]]),0);}return {line:L,chosenLocator:'q-mcq-set-39/3',rejectedEnglishLocator:'q-mcq-set-47/1'};});
+l('28b96bc4e4777fa1','D','Positive fixed area implies distinct A,B and two fixed positive heights, hence two parallel lines.',()=>{const A=[-8,0],B=[-3,3],AB=Math.sqrt(d2(A,B)),h=6/AB;close(AB*h/2,3);return {height:h,area:3,branches:2};});
+l('661754a0273fdbcc','C','Equal-normal line equations give y=0 or x=26/5, perpendicular lines.',()=>equalLines([5,4,-26],[5,-4,-26],[[0,1,0],[5,0,-26]]));
+l('0f10207b3c4041cb','D','Normalise point-line distances; both branches pass through (2,0); locus is not a single line.',()=>equalLines([4,1,-8],[0,1,0],[[4,1+Math.sqrt(17),-8],[4,1-Math.sqrt(17),-8]]));
+l('1451a52a342d6181','C','Fixed distance is 1, giving y=-3 or -5.',()=>{for(const y of [-3,-5])close(distance([0,1,4],[0,y]),1);return {lines:[-3,-5]};});
+l('996bae734f95aaf8','C','Normalised parallel midline is 3x-6y+2=0; it bisects AB. Source statement II has wrong constant sign.',()=>{const L=[3,-6,2],A=[-4,0],B=[0,-4/3];close(at(L,mid(A,B)),0);for(const t of [-9,0,8]){const p=point(L,t);close(distance([1,-2,4],p),distance([3,-6,-8],p));}return {midline:L,midpoint:mid(A,B),statements:[true,false,true]};});
+l('a7fb257cec5d1471','A','Distance 4 to a fixed line gives exactly two parallel lines.',()=>{const L=[2,7,-10],branches=[-1,1].map(s=>[2,7,-10+s*4*Math.sqrt(53)]);for(const b of branches)for(const t of [-8,0,6])close(distance(L,point(b,t)),4);return {branches};});
+l('7ee569f1d582c8b5','D','Chinese and both worked solutions specify A=(2,0), directrix y=2. Reject unrelated English focus and translate its correct options.',()=>{for(const x of [-7,0,2,8]){const p=[x,-x*x/4+x];close(d2(p,[2,0]),distance([0,1,-2],p)**2);}return {equation:'y=-x^2/4+x'};});
+l('51e1618a7283c641','B','AP=AB gives radius squared61, expand with negative x/y coefficients.',()=>{const R2=d2([4,2],[-2,-3]);close(R2,61);return {...circle([4,2],R2),expanded:[1,1,-8,-4,-41]};});
+l('281009323e517030','A','PN=MN gives centre N and radius squared640; source Chinese options repair OCR loss.',()=>{const R2=d2([12,19],[4,-5]);close(R2,640);return {...circle([4,-5],R2),expanded:[1,1,-8,10,-599]};});
+l('34418f66877769b4',null,'Source options are damaged/incorrect. Keep explicit written adaptation; do not edit distractors to manufacture a key.',q=>{assert.equal(q.questionType,'structured');assert.match(q.adaptation.en,/none/);close(d2([1,6],[3,2]),20);return {...circle([1,6],20),expanded:[1,1,-2,-12,17]};});
+l('363a476160b04ac4',null,'Source OCR superscripts recovered from coherent Chinese conditions. Derive both rhombi areas and focus-directrix equation independently.',()=>{const a=3,m=2,b=2*m*m*a,A=[a,0],B=[0,b],C=[2*a,b],D=[a,2*b];close(d2(A,B),d2(A,C));close(d2(B,D),d2(C,D));close(2*a*2*b/2,4*m*m*a*a);const s=2304/128;close(s,18);for(const x of [0,20,64,128]){const y=(324-(x-64)**2)/36;close(d2([x,y],[64,0]),(y-18)**2);}return {area:'4m^2a^2',L:'y=18',T:[64,0],locus:[1,0,0,1/36,-128/36,3772/36]};});
+after(()=>{assert.equal(records.length,39);assert.deepEqual(records.map(r=>r.id).sort(),audit.records.map(r=>r.id).sort());if(update)fs.writeFileSync(path,JSON.stringify({version:1,reviewedAt:'2026-10-23',test:'tests/priority-source-review.cjs',scope:'39 low-similarity source rows. Explicit English/Chinese conflicts, duplicate-source option order and written adaptations adjudicated; 455 other rows remain pending.',records},null,2)+'\n');});

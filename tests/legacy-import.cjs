@@ -37,7 +37,10 @@ test('verified answer corrections and broken source records cannot silently ente
  assert.match(repaired.solution,/704/);assert.match(repaired.solution,/23\.65/);
  assert.notEqual(repaired.solution,repaired.stem,'original repeated solution replaced');
  for(const q of questions){
-  if(q.provenance)assert.equal(q.classification.status,'rule-classified');
+  if(q.provenance){
+   if(q.classification.status==='reviewed')assert.ok(require('../content/imports/2026-10-23-priority-math-review.json').records.some(r=>r.id===q.id),'Reviewed classification needs per-question evidence');
+   else assert.equal(q.classification.status,'rule-classified');
+  }
   if(q.options)assert.deepEqual(Object.keys(q.options),['A','B','C','D']);
  }
 });
@@ -54,8 +57,14 @@ test('all 111 original holds retain a per-row recovery decision and stable ident
    assert.equal(disposition.status,'published',r.id);
    const q=questions.find(q=>q.id===r.id);assert.ok(q.editorialCorrections?.length);
    if(r.overrides.questionType==='structured'){
-    assert.ok(q.adaptation?.en&&q.adaptation['zh-Hant']);assert.equal(q.assessmentMode,'solution-comparison');
-    assert.ok(!q.options&&!q.answer,'missing options never replaced by invented distractors');
+    const restored=require('../content/imports/2026-10-23-priority-source-review.json').records.find(x=>x.id===q.id&&x.action==='restore-source-mcq');
+    if(restored){
+     assert.equal(q.questionType,'mcq');assert.ok(restored.sourceZh.includes('D.'));
+     assert.ok(require('../content/imports/2026-10-23-priority-math-review.json').records.some(x=>x.id===q.id));
+    }else{
+     assert.ok(q.adaptation?.en&&q.adaptation['zh-Hant']);assert.equal(q.assessmentMode,'solution-comparison');
+     assert.ok(!q.options&&!q.answer,'missing options never replaced by invented distractors');
+    }
    }
   }
  }

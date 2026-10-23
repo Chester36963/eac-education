@@ -255,10 +255,10 @@
                 "locus-fixed-radius",
                 "locus-distance-ratio"
               ],
-              "questionCount": 73,
+              "questionCount": 60,
               "skillCounts": {
-                "locus-fixed-radius": 72,
-                "locus-distance-ratio": 1
+                "locus-fixed-radius": 58,
+                "locus-distance-ratio": 2
               }
             },
             {
@@ -270,9 +270,9 @@
               "skills": [
                 "locus-perp-bisector"
               ],
-              "questionCount": 42,
+              "questionCount": 44,
               "skillCounts": {
-                "locus-perp-bisector": 42
+                "locus-perp-bisector": 44
               }
             },
             {
@@ -286,11 +286,11 @@
                 "locus-angle-bisectors",
                 "locus-parallel-distance"
               ],
-              "questionCount": 30,
+              "questionCount": 42,
               "skillCounts": {
                 "locus-parallel-midline": 21,
-                "locus-angle-bisectors": 7,
-                "locus-parallel-distance": 2
+                "locus-angle-bisectors": 15,
+                "locus-parallel-distance": 6
               }
             },
             {
@@ -317,9 +317,9 @@
                 "locus-transform",
                 "locus-moving-centre"
               ],
-              "questionCount": 13,
+              "questionCount": 12,
               "skillCounts": {
-                "locus-transform": 11,
+                "locus-transform": 10,
                 "locus-moving-centre": 2
               }
             },
@@ -332,9 +332,9 @@
               "skills": [
                 "locus-fixed-area"
               ],
-              "questionCount": 8,
+              "questionCount": 9,
               "skillCounts": {
-                "locus-fixed-area": 8
+                "locus-fixed-area": 9
               }
             },
             {
@@ -347,9 +347,9 @@
                 "locus-focus-directrix",
                 "locus-expand-distances"
               ],
-              "questionCount": 5,
+              "questionCount": 6,
               "skillCounts": {
-                "locus-focus-directrix": 5,
+                "locus-focus-directrix": 6,
                 "locus-expand-distances": 0
               }
             },
@@ -363,9 +363,9 @@
                 "locus-line-circle",
                 "locus-coordinate-chain"
               ],
-              "questionCount": 36,
+              "questionCount": 34,
               "skillCounts": {
-                "locus-line-circle": 19,
+                "locus-line-circle": 17,
                 "locus-coordinate-chain": 17
               }
             }
@@ -373,8 +373,8 @@
           "questionCount": 225,
           "coverage": {
             "types": {
-              "mcq": 99,
-              "structured": 126
+              "mcq": 129,
+              "structured": 96
             },
             "difficulty": {
               "medium": 136,

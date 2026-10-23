@@ -1,0 +1,850 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-23",
+  "test": "tests/priority-source-review.cjs",
+  "scope": "39 low-similarity source rows. Explicit English/Chinese conflicts, duplicate-source option order and written adaptations adjudicated; 455 other rows remain pending.",
+  "records": [
+    {
+      "id": "import-four-centres-q055",
+      "status": "完成",
+      "locator": "q-Q055",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "questionSha256": "56e7059a2720d4f8ff1b40c313a220c2df025693d263899322fb4daa2e492b8c",
+      "reason": "Options moved into fields; both altitude dot products vanish for the derived a. k=10 is impossible.",
+      "calculated": {
+        "a": "k-324/(k-10)",
+        "excluded": 10
+      }
+    },
+    {
+      "id": "import-four-centres-q187",
+      "status": "完成",
+      "locator": "q-Q187",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "questionSha256": "dd02e033e3258907f364c72a2fb64df3ce0b7170eb56a8c2b71d3e9168676407",
+      "reason": "Source solution and independent altitude intersection give (1,-3); published A was wrong.",
+      "calculated": {
+        "orthocentre": [
+          1,
+          -3
+        ]
+      }
+    },
+    {
+      "id": "import-four-centres-q103",
+      "status": "完成",
+      "locator": "q-Q103",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "questionSha256": "7c9be6f63d97a80348486de92329c450da71cbe26491894236dd60d3e4923704",
+      "reason": "Right isosceles centroid angle: area/cross product gives 3/sqrt(10).",
+      "calculated": {
+        "sine": 0.9486832980505138
+      }
+    },
+    {
+      "id": "import-four-centres-q122",
+      "status": "完成",
+      "locator": "q-Q122",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "questionSha256": "8b6ed6fbeec0cca64f731c9694d002f43008e8934e89e360f62d053c9cdb7639",
+      "reason": "Right triangle circumcentre is hypotenuse midpoint, orthocentre is origin; other statements false.",
+      "calculated": {
+        "circumcentre": [
+          12,
+          13
+        ],
+        "inradius": 7.308193987045868,
+        "orthocentre": [
+          0,
+          0
+        ],
+        "centroid": [
+          8,
+          8.666666666666666
+        ],
+        "statements": [
+          false,
+          false,
+          true,
+          false
+        ]
+      }
+    },
+    {
+      "id": "import-four-centres-q097",
+      "status": "完成",
+      "locator": "q-Q097",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "questionSha256": "d0b3c763058c2395248e5fe8c89a857ca11e9ee7a7b466583523f0aeff1ffd67",
+      "reason": "Bilingual options separated correctly: centroid (4,16/3), inradius 4, circumcentre (6,8).",
+      "calculated": {
+        "circumcentre": [
+          6,
+          8
+        ],
+        "incentre": [
+          4,
+          4
+        ],
+        "centroid": [
+          4,
+          5.333333333333333
+        ],
+        "orthocentre": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "import-four-centres-q239",
+      "status": "完成",
+      "locator": "q-Q239",
+      "sourceSha256": "f5068d78b57498b4dcf579a6ce314f204a0790d2a7fa393a2f318251992573b3",
+      "questionSha256": "34111b78dfed469da013afc70b8300d38815c55ffc63235f61a727cc5417f3c3",
+      "reason": "Incentre and median segment are internal; an obtuse triangle has external orthocentre. Median is not centroid.",
+      "calculated": {
+        "statements": [
+          true,
+          true,
+          false
+        ],
+        "example": {
+          "A": [
+            0,
+            0
+          ],
+          "B": [
+            4,
+            0
+          ],
+          "C": [
+            1,
+            1
+          ],
+          "H": [
+            1,
+            3
+          ],
+          "I": [
+            1.125967951102358,
+            0.46639119614404256
+          ]
+        }
+      }
+    },
+    {
+      "id": "import-locus-4de4ccc36d5026d7",
+      "status": "完成",
+      "locator": "q-mcq-set-3/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "d092c69679d118b07dd1e1e0618aea1219872004c99b24f5e7b401e0bdf0d5cb",
+      "reason": "OP=2AP gives a genuine Apollonius circle, not just an unspecified conic.",
+      "calculated": {
+        "centre": [
+          4,
+          0
+        ],
+        "radiusSquared": 4
+      }
+    },
+    {
+      "id": "import-locus-5ad7ff017f01f61f",
+      "status": "完成",
+      "locator": "q-mcq-set-4/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "4b57ce0c2729a229cd12d39151127334c98977a0e3baa0c32362bf07c58e45ba",
+      "reason": "Axis intercepts are (4,0),(0,-8); equal distances give their perpendicular bisector.",
+      "calculated": {
+        "A": [
+          4,
+          0
+        ],
+        "B": [
+          0,
+          -8
+        ],
+        "line": [
+          1,
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "id": "import-locus-ff803a24a3e0d94e",
+      "status": "完成",
+      "locator": "q-mcq-set-5/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "2e411a8341d9689e1e96d159f8b440f75a82a7afc13259ffa6aedb246f922a78",
+      "reason": "Recover circle centre (3,-5), then equate distances to A and G.",
+      "calculated": {
+        "A": [
+          -3,
+          3
+        ],
+        "B": [
+          3,
+          -5
+        ],
+        "line": [
+          3,
+          -4,
+          -4
+        ]
+      }
+    },
+    {
+      "id": "import-locus-5958937aeb20c640",
+      "status": "完成",
+      "locator": "q-mcq-set-5/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "71f00e44ca4156c05d9ef0a963c78ad8238ed5a512290116d1bc2ab079abb0f9",
+      "reason": "Source fixed distance omits positivity. Keep explicit written d=0/d>0 split rather than choose A or B.",
+      "calculated": {
+        "zero": "one line",
+        "positive": "two parallel lines"
+      }
+    },
+    {
+      "id": "import-locus-2768b240986133e2",
+      "status": "完成",
+      "locator": "q-mcq-set-6/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "1d56e47181526f783b73dd33ebccc343111f3b619a1cd93260f0cbd1d6ef52d5",
+      "reason": "Fixed radius AB is sqrt(226).",
+      "calculated": {
+        "centre": [
+          5,
+          8
+        ],
+        "radiusSquared": 226
+      }
+    },
+    {
+      "id": "import-locus-ae3fb32f55ff0c8c",
+      "status": "完成",
+      "locator": "q-mcq-set-6/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "53ba8a30b608157034063e094fecfd6305938ecbc2b78aba5839a7f8553b9721",
+      "reason": "Axis intercepts (-8,0),(0,-5) give radius squared 89; expand to option C.",
+      "calculated": {
+        "centre": [
+          -8,
+          0
+        ],
+        "radiusSquared": 89,
+        "expanded": [
+          1,
+          1,
+          16,
+          0,
+          -25
+        ]
+      }
+    },
+    {
+      "id": "import-locus-8e722eb03f0dab72",
+      "status": "完成",
+      "locator": "q-mcq-set-17/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "6cd3cc055dedd96bedd85002031873b92d92bcc18dfedae800591641c6d29394",
+      "reason": "Normalize proportional line normals before applying distance ratio; both branches required.",
+      "calculated": {
+        "L": [
+          3,
+          8,
+          -12
+        ],
+        "M": [
+          9,
+          24,
+          0
+        ],
+        "branches": [
+          [
+            3,
+            8,
+            -30
+          ],
+          [
+            3,
+            8,
+            -7.5
+          ]
+        ],
+        "ratio": 0.6
+      }
+    },
+    {
+      "id": "import-locus-7ee1b449b5eedaa3",
+      "status": "完成",
+      "locator": "q-mcq-set-18/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "70b01816aa9dbb4c797231e8f89a56483474e031cf74e69a2066d802803dc436",
+      "reason": "M and N are opposite ends of the circle with centre O and radius OM.",
+      "calculated": {
+        "centre": [
+          0,
+          0
+        ],
+        "radiusSquared": 32
+      }
+    },
+    {
+      "id": "import-locus-0549dc09e7dec6d0",
+      "status": "完成",
+      "locator": "q-mcq-set-18/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "d99b2ff1377254ae535dbcb4f65e9ef167a2eb3d558ba05e1eda0c3c715a2dc2",
+      "reason": "PH is fixed HK; centre is H, HK is radius rather than diameter.",
+      "calculated": {
+        "centre": [
+          4,
+          0
+        ],
+        "radiusSquared": 26
+      }
+    },
+    {
+      "id": "import-locus-e1a6eb412b89dc4f",
+      "status": "完成",
+      "locator": "q-mcq-set-18/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "5c95451c129d2e2b527c2e326d6a6449cc21ba2ca0734287a9486095a727247b",
+      "reason": "Reflect A across the known perpendicular bisector to recover B=(3,9).",
+      "calculated": {
+        "A": [
+          1,
+          5
+        ],
+        "B": [
+          3,
+          9
+        ],
+        "line": [
+          1,
+          2,
+          -16
+        ]
+      }
+    },
+    {
+      "id": "import-locus-5b4f007a3b83e572",
+      "status": "完成",
+      "locator": "q-mcq-set-19/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "fcfd357754fae6559c6252c13c463544650c417c037f77242f8836222f10c5a9",
+      "reason": "Equal point distances produce x+11y+4=0, a line.",
+      "calculated": {
+        "A": [
+          2,
+          5
+        ],
+        "B": [
+          1,
+          -6
+        ],
+        "line": [
+          1,
+          11,
+          4
+        ]
+      }
+    },
+    {
+      "id": "import-locus-781af1d4d83231ae",
+      "status": "完成",
+      "locator": "q-mcq-set-25/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "9cd30f0f12090b84522ee55f63e71fa168f51bbd191ba207adf121e5c31b962a",
+      "reason": "Use complete Chinese options to recover damaged English OCR equations; circle centred C=(4,0).",
+      "calculated": {
+        "centre": [
+          4,
+          0
+        ],
+        "radiusSquared": 25,
+        "expanded": [
+          1,
+          1,
+          -8,
+          0,
+          -9
+        ]
+      }
+    },
+    {
+      "id": "import-locus-d973a515c63aebf8",
+      "status": "完成",
+      "locator": "q-mcq-set-31/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "a8383b76da3b87c5f4cc069fc26d8b876749ed15cd1b11cd7bd965e565475141",
+      "reason": "Equal distance to focus (-2,5) and directrix y=-7 gives a parabola.",
+      "calculated": {
+        "equation": "(x+2)^2=24(y+1)"
+      }
+    },
+    {
+      "id": "import-locus-f45b38d04a2b5ea5",
+      "status": "完成",
+      "locator": "q-mcq-set-32/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "1888431d145b85df5d314235b26f9fe8e26a41a16850378aa58b9317911cbc3a",
+      "reason": "Equal distances to two intersecting lines require BOTH perpendicular angle bisectors.",
+      "calculated": {
+        "L": [
+          1,
+          -2,
+          -3
+        ],
+        "M": [
+          1,
+          2,
+          3
+        ],
+        "branches": [
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ratio": 1
+      }
+    },
+    {
+      "id": "import-locus-a437812a2010c9d3",
+      "status": "完成",
+      "locator": "q-mcq-set-32/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "b9e7714020a17ad2b9c89c5c9dcfa354a78138da315d22811e88284aa0ec777d",
+      "reason": "For every nonzero a, y=x+2a and y=-x are distinct intersecting angle bisectors.",
+      "calculated": {
+        "branches": [
+          "y=x+2a",
+          "y=-x"
+        ],
+        "intersection": "(-a,a)"
+      }
+    },
+    {
+      "id": "import-locus-346224fa914239db",
+      "status": "完成",
+      "locator": "q-mcq-set-33/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "5856801e9f6a88d0d097ced480be772aa93bc5629fb4d1d4f286bb2eec280096",
+      "reason": "m nonzero makes two distinct lines; normalised signed-distance branches are intersecting perpendicular bisectors.",
+      "calculated": {
+        "type": "two angle bisectors",
+        "excluded": 0
+      }
+    },
+    {
+      "id": "import-locus-e9c70b4525ca5dff",
+      "status": "完成",
+      "locator": "q-mcq-set-33/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "c378cbe1f215efc5df31a30ea3e99cc3675e11b920d8c8e60ca663921dd35d78",
+      "reason": "Distances to x=2 and y=2x+3 give both angle bisectors through (2,7).",
+      "calculated": {
+        "L": [
+          1,
+          0,
+          -2
+        ],
+        "M": [
+          2,
+          -1,
+          3
+        ],
+        "branches": [
+          [
+            0.2360679774997898,
+            1,
+            -7.47213595499958
+          ],
+          [
+            4.23606797749979,
+            -1,
+            -1.4721359549995796
+          ]
+        ],
+        "ratio": 1
+      }
+    },
+    {
+      "id": "import-locus-6557cc715ce74a31",
+      "status": "完成",
+      "locator": "q-mcq-set-33/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "ce0893f39ab97fbcae352c0c2e5213d99ee033201d326fdd9e9a44230ccadf1c",
+      "reason": "Normalising L2 by 2 is essential; retain both signed-distance branches.",
+      "calculated": {
+        "L": [
+          1,
+          -2,
+          -6
+        ],
+        "M": [
+          4,
+          2,
+          -10
+        ],
+        "branches": [
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            3,
+            -1,
+            -11
+          ]
+        ],
+        "ratio": 1
+      }
+    },
+    {
+      "id": "import-locus-63da3c21da666cc7",
+      "status": "完成",
+      "locator": "q-mcq-set-34/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "5e4530d51a5540f0c0fd62b176a436fe9a0b6ace5b6a88163414c8611fcd6471",
+      "reason": "English source panel is another question; Chinese and both solutions agree with current identity. Translate correct choices, retain II and III.",
+      "calculated": {
+        "L": [
+          1,
+          0,
+          1
+        ],
+        "M": [
+          0,
+          1,
+          -1
+        ],
+        "branches": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            2
+          ]
+        ],
+        "ratio": 1
+      }
+    },
+    {
+      "id": "import-locus-e5f79185f3201efd",
+      "status": "完成",
+      "locator": "q-mcq-set-37/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "aa23819ee34676f6881cd1baca70966ac424125b40f8996d123af822643e4d16",
+      "reason": "Parallel midline is 3x+y+9/4=0; AB slope is 6, so II/III are false.",
+      "calculated": {
+        "midline": [
+          3,
+          1,
+          2.25
+        ],
+        "statements": [
+          true,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "import-locus-01b462819a5d22bf",
+      "status": "完成",
+      "locator": "q-mcq-set-38/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "a3da0d97ac97d412c6e06f0ac37f061a30d0753d43a5e968490d9e95656d1c4f",
+      "reason": "Chinese and both source solutions define diameter AB; unrelated English distance-line panel is rejected. Endpoints excluded.",
+      "calculated": {
+        "O": [
+          -2,
+          2
+        ],
+        "R2": 5,
+        "excluded": [
+          [
+            -4,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-c3bfb9a8feddc782",
+      "status": "完成",
+      "locator": "q-mcq-set-47/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "7ab6dae77355d44c9b8680d8c97159f9991e3ad966ba9542605dc57a741d8c80",
+      "reason": "One repeated source row has mismatched English and different option ordering. Restore coherent bilingual q-mcq-set-39/3; A is correct there.",
+      "calculated": {
+        "line": [
+          3,
+          -2,
+          5
+        ],
+        "chosenLocator": "q-mcq-set-39/3",
+        "rejectedEnglishLocator": "q-mcq-set-47/1"
+      }
+    },
+    {
+      "id": "import-locus-28b96bc4e4777fa1",
+      "status": "完成",
+      "locator": "q-mcq-set-49/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "d2d0c57d52f4c3ee33da575e5b19a2beced47917b1f3a6727f9fec65b2844a5e",
+      "reason": "Positive fixed area implies distinct A,B and two fixed positive heights, hence two parallel lines.",
+      "calculated": {
+        "height": 1.028991510855053,
+        "area": 3,
+        "branches": 2
+      }
+    },
+    {
+      "id": "import-locus-661754a0273fdbcc",
+      "status": "完成",
+      "locator": "q-mcq-set-50/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "a5dd74ed70072fd0a988deca7fec45c85f844b3520e5d69e43f49553347877fd",
+      "reason": "Equal-normal line equations give y=0 or x=26/5, perpendicular lines.",
+      "calculated": {
+        "L": [
+          5,
+          4,
+          -26
+        ],
+        "M": [
+          5,
+          -4,
+          -26
+        ],
+        "branches": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            5,
+            0,
+            -26
+          ]
+        ],
+        "ratio": 1
+      }
+    },
+    {
+      "id": "import-locus-0f10207b3c4041cb",
+      "status": "完成",
+      "locator": "q-mcq-set-51/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "7b7761697173fde10d4399dc7272228f00deb1246d5a4b864b450b9105a3c1ee",
+      "reason": "Normalise point-line distances; both branches pass through (2,0); locus is not a single line.",
+      "calculated": {
+        "L": [
+          4,
+          1,
+          -8
+        ],
+        "M": [
+          0,
+          1,
+          0
+        ],
+        "branches": [
+          [
+            4,
+            5.123105625617661,
+            -8
+          ],
+          [
+            4,
+            -3.1231056256176606,
+            -8
+          ]
+        ],
+        "ratio": 1
+      }
+    },
+    {
+      "id": "import-locus-1451a52a342d6181",
+      "status": "完成",
+      "locator": "q-mcq-set-51/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "f37fc3201749204e4ea2d69173536fcbd357f5e004fbd3f411509d73472e0d82",
+      "reason": "Fixed distance is 1, giving y=-3 or -5.",
+      "calculated": {
+        "lines": [
+          -3,
+          -5
+        ]
+      }
+    },
+    {
+      "id": "import-locus-996bae734f95aaf8",
+      "status": "完成",
+      "locator": "q-mcq-set-52/1",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "2ac5f8c4e35c61ea25b0a6802c76c7983128b7c7b7f053df28de077fcc61052f",
+      "reason": "Normalised parallel midline is 3x-6y+2=0; it bisects AB. Source statement II has wrong constant sign.",
+      "calculated": {
+        "midline": [
+          3,
+          -6,
+          2
+        ],
+        "midpoint": [
+          -2,
+          -0.6666666666666666
+        ],
+        "statements": [
+          true,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "id": "import-locus-a7fb257cec5d1471",
+      "status": "完成",
+      "locator": "q-mcq-set-53/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "583cd174f30923333b0c8d514d01846d9e214b07c7a282e1357458849306b0a2",
+      "reason": "Distance 4 to a fixed line gives exactly two parallel lines.",
+      "calculated": {
+        "branches": [
+          [
+            2,
+            7,
+            -39.12043955712207
+          ],
+          [
+            2,
+            7,
+            19.120439557122072
+          ]
+        ]
+      }
+    },
+    {
+      "id": "import-locus-7ee569f1d582c8b5",
+      "status": "完成",
+      "locator": "q-mcq-set-53/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "e3d418358bac3b360d61c250958e4874efd7f98f36704359f7740004f1771997",
+      "reason": "Chinese and both worked solutions specify A=(2,0), directrix y=2. Reject unrelated English focus and translate its correct options.",
+      "calculated": {
+        "equation": "y=-x^2/4+x"
+      }
+    },
+    {
+      "id": "import-locus-51e1618a7283c641",
+      "status": "完成",
+      "locator": "q-mcq-set-56/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "574d7b8da9bdc1944fbbadec9ab2c2eb56545219f15b6644a9f5eb67c197a671",
+      "reason": "AP=AB gives radius squared61, expand with negative x/y coefficients.",
+      "calculated": {
+        "centre": [
+          4,
+          2
+        ],
+        "radiusSquared": 61,
+        "expanded": [
+          1,
+          1,
+          -8,
+          -4,
+          -41
+        ]
+      }
+    },
+    {
+      "id": "import-locus-281009323e517030",
+      "status": "完成",
+      "locator": "q-mcq-set-56/3",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "1943b8596609c7032590f25ae358616fbab95795a69acfbe9d8e3e56819541d9",
+      "reason": "PN=MN gives centre N and radius squared640; source Chinese options repair OCR loss.",
+      "calculated": {
+        "centre": [
+          4,
+          -5
+        ],
+        "radiusSquared": 640,
+        "expanded": [
+          1,
+          1,
+          -8,
+          10,
+          -599
+        ]
+      }
+    },
+    {
+      "id": "import-locus-34418f66877769b4",
+      "status": "完成",
+      "locator": "q-mcq-set-57/2",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "d0c4f87b048147e1285a8130c58dc3d8332fd7da2ae9074be75c9faf247c4cb4",
+      "reason": "Source options are damaged/incorrect. Keep explicit written adaptation; do not edit distractors to manufacture a key.",
+      "calculated": {
+        "centre": [
+          1,
+          6
+        ],
+        "radiusSquared": 20,
+        "expanded": [
+          1,
+          1,
+          -2,
+          -12,
+          17
+        ]
+      }
+    },
+    {
+      "id": "import-locus-363a476160b04ac4",
+      "status": "完成",
+      "locator": "q-LongQ-28",
+      "sourceSha256": "6924d4217f37275eefafee0bd5ec857351e71ee8426ad8357ce305634293337c",
+      "questionSha256": "f7843eac9c215c3711ddbd4a345deb20e42d3458fba3528b714b875d0832680a",
+      "reason": "Source OCR superscripts recovered from coherent Chinese conditions. Derive both rhombi areas and focus-directrix equation independently.",
+      "calculated": {
+        "area": "4m^2a^2",
+        "L": "y=18",
+        "T": [
+          64,
+          0
+        ],
+        "locus": [
+          1,
+          0,
+          0,
+          0.027777777777777776,
+          -3.5555555555555554,
+          104.77777777777777
+        ]
+      }
+    }
+  ]
+}
