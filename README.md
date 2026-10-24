@@ -64,6 +64,7 @@ See [the question-bank workflow](docs/QUESTION_BANK_WORKFLOW.md), [content schem
 
 ```sh
 python3 -m pip install -r requirements-math.txt
+node scripts/version-study-assets.cjs --check
 node scripts/build-content.cjs --check
 node --test tests/*.cjs
 ./scripts/deploy.sh "Describe the update"
@@ -92,3 +93,5 @@ This is the agreed frontend-first prototype. Profiles, bookmarks, drafts and pro
 The static question files include solutions and are suitable for practice, not confidential examinations. Formal authentication, cloud records, teacher permissions and protected content require the backend phase. Learning-record export currently has no import/restore feature.
 
 Implementation decisions and verified changes are recorded in [the implementation log](docs/IMPLEMENTATION_LOG.md).
+
+When changing shared study graphics/styles, run `node scripts/version-study-assets.cjs` before testing; it updates the content-hashed asset URLs in existing entry pages. The same website URLs and main deployment remain. Current two-dimensional locus controls and evidence: [B11 QA](docs/qa/2026-10-24/locus-interaction/README.md).

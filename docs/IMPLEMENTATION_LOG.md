@@ -1,5 +1,9 @@
 # Implementation record
 
+## B11 Two-dimensional locus interaction — 24 October 2026
+
+Status LOG-20261024-B11: local implementation,1,070checks and four-width interaction evidence complete; live deployment pending. A/B now move in both coordinates using drag, keyboard, touch or paired sliders. Equal-distance and perpendicular relations stay driven by the shared model; 0.5 minimum separation guards coincident points. The diameter circle excludes its endpoints and has a right-angle marker. Bounds fit with equal scale; the mapping stays fixed during dragging. Language buttons have44px touch height, and five shared assets use content-hashed URLs across all entry pages. Scrolling over chapter rows no longer replaces an offscreen exploration; explicit keyboard focus still previews. No question data, grading or persisted records change;1,186 questions/seven chapters, revision2ffd9cb690908b1f. [Evidence](qa/2026-10-24/locus-interaction/README.md), [complete UI/UE roadmap](UI_UX_ROADMAP.md), [content plan](CONTENT_EXPANSION_PLAN.md).
+
 ## B10 Four Centres completion — 24 October 2026
 
 Status LOG-20261024-B10: 內容、數學、本地及正式站驗收完成。Revision `2ffd9cb690908b1f`, unchanged1,186 questions/seven chapters. Fixed104-ID queue independently reviewed,50IDs edited:49English solutions,7Chinese solutions and oneChinese hint (overlapping IDs). Full before snapshots, unchanged-field assertions, original source/locator hashes and calculations retained in [B10](FOUR_CENTRES_REVIEW.md). [Full plan](CONTENT_EXPANSION_PLAN.md), [UI/UE roadmap](UI_UX_ROADMAP.md), [source rechecks](SOURCE_HOLD_RECHECK.md).

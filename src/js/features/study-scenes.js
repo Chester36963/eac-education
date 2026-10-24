@@ -12,7 +12,7 @@ window.EACPlates=(()=>{
  function scene(raw,value,options={}){
   const id=canonical(raw),schema=window.EACInstruments.schemas[id],s={...EACInstruments.defaults(id),...options.state};
   if(value!==undefined&&!options.state){const t=value*Math.PI/180;if(id==='four-centres'){s.A+=value*.04;s.B-=value*.03;s.C+=value*.1;}if(id==='locus'||id==='trigonometry')s.angle=value;if(id==='sequences')s.step=1.6*Math.sin(t);if(id==='polynomials'){s.k=1.5*Math.sin(t);s.r=2*Math.cos(t);}if(id==='mensuration-core'){s.r=2.6+Math.sin(t);s.v=5+2*Math.cos(t);}if(id==='circle-equation'){s.a=Math.sin(t);s.b=Math.cos(t);}if(id==='statistics'){s.f1=Math.round(10+8*Math.sin(t));s.f2=Math.round(10+8*Math.sin(t+2));s.f3=Math.round(10+8*Math.sin(t+4));}}
-  let ink='',formula='',readout='',hint='',geometry,map;const theme={...themes[id],label:schema.label};
+  let ink='',formula='',readout='',hint='',geometry,map,unmap,locusGeometry,locusFrame;const theme={...themes[id],label:schema.label};
   const axes=(p=[180,132])=>line([28,p[1]],[333,p[1]],'art-axis')+line([p[0],22],[p[0],217],'art-axis')+text([335,p[1]+5],'x')+text([p[0]+7,24],'y');
   if(id==='four-centres'){
    geometry=M.triangle([s.A,s.B,s.C]);const {vertices:v,centres:c,R,r,kind,isosceles,equilateral}=geometry;
@@ -31,10 +31,37 @@ window.EACPlates=(()=>{
    const definitions={O:'外心：三邊垂直平分線交點，到 A、B、C 等距。',I:'內心：內角平分線交點，到三邊的垂直距離相等。',G:'重心：中線交點，以 2:1 分割每條中線。',H:'垂心：三條高交點，鈍角時在三角形外。',all:'外接圓固定；三個頂點均可沿圓周移動。'};
    hint=kind+' · '+definitions[mode];geometry={...geometry,scale,origin};
   }else if(id==='locus'){
-   const {A,B,M:mid,P,ab,excluded}=M.locus(s.mode,s.r,s.ax,s.bx,s.angle),scale=34;map=p=>[180+p[0]*scale,120-p[1]*scale];ink=axes([180,120]);
-   if(s.mode==='radius'){ink+=circle(map([0,0]),s.r*scale)+line(map([0,0]),map(P),'art-emphasis')+dot(map([0,0]),'art-centre')+text([166,140],'O');formula='OP = r';hint='圓周上的每一點與 O 的距離都是 r。';}
-   else{ink+=line(map(A),map(B));if(s.mode==='equal'){const v=[-(B[1]-A[1])/ab,(B[0]-A[0])/ab];ink+=line(map([mid[0]-3*v[0],mid[1]-3*v[1]]),map([mid[0]+3*v[0],mid[1]+3*v[1]]),'art-main');formula='PA = PB';hint='軌跡為 AB 的垂直平分線。';}else{ink+=circle(map(mid),ab/2*scale);formula='PA ⟂ PB · P ≠ A, B';hint='以 AB 為直徑的圓，端點 A、B 不包括在軌跡內。';}ink+=line(map(A),map(P))+line(map(B),map(P));[A,B].forEach((p,j)=>ink+=circle(map(p),3.5,'art-main')+text([map(p)[0]-6,map(p)[1]+20],'AB'[j]));}
-   if(!excluded)ink+=dot(map(P))+text([map(P)[0]+8,map(P)[1]-9],'P');readout=`r = ${fmt(s.r)} · θ = ${fmt(s.angle)}°`;
+   const q=M.locus(s.mode,s.r,[s.ax,s.ay],[s.bx,s.by],s.angle),{A,B,M:mid,P,ab,excluded}=q;locusGeometry=q;
+   if(!q.valid){formula='A ≠ B';readout='請將 A、B 分開';hint='兩個固定點重合時，不能定義這條垂直平分線或直徑圓。';}
+   else{
+    const v=[-(B[1]-A[1])/ab,(B[0]-A[0])/ab],reach=Math.max(3.3,s.r),ends=[-1,1].map(sign=>mid.map((x,j)=>x+sign*reach*v[j]));
+    const bounds=s.mode==='radius'?[[-s.r,-s.r],[s.r,s.r]]:s.mode==='perpendicular'?[[mid[0]-ab/2,mid[1]-ab/2],[mid[0]+ab/2,mid[1]+ab/2],A,B]:[A,B,...ends,P];
+    locusFrame=options.locusFrame||{xmin:Math.min(-.5,...bounds.map(p=>p[0])),xmax:Math.max(.5,...bounds.map(p=>p[0])),ymin:Math.min(-.5,...bounds.map(p=>p[1])),ymax:Math.max(.5,...bounds.map(p=>p[1]))};
+    const {xmin,xmax,ymin,ymax}=locusFrame,scale=Math.min(282/Math.max(2,xmax-xmin),160/Math.max(2,ymax-ymin)),cx=(xmin+xmax)/2,cy=(ymin+ymax)/2;
+    map=p=>[180+(p[0]-cx)*scale,120-(p[1]-cy)*scale];unmap=p=>[cx+(p[0]-180)/scale,cy-(p[1]-120)/scale];
+    const origin=map([0,0]);
+    if(origin[1]>=30&&origin[1]<=210)ink+=line([28,origin[1]],[333,origin[1]],'art-axis')+text([335,origin[1]+5],'x');
+    if(origin[0]>=34&&origin[0]<=326)ink+=line([origin[0],22],[origin[0],217],'art-axis')+text([origin[0]+7,24],'y');
+    if(s.mode==='radius'){ink+=circle(map([0,0]),s.r*scale)+line(map([0,0]),map(P),'art-emphasis')+dot(map([0,0]),'art-centre')+text([origin[0]-14,origin[1]+20],'O');formula='OP = r';hint='改變半徑或追蹤角度；圓周每一點與 O 的距離都是 r。';readout=`OP = ${fmt(s.r)} · θ = ${fmt(s.angle)}°`;}
+    else{
+     ink+=line(map(A),map(B));
+     if(s.mode==='equal'){
+      ink+=line(map(ends[0]),map(ends[1]),'art-main');formula='PA = PB';hint='拖動 A、B，觀察整條垂直平分線如何轉動；圖框會自動容納軌跡。';
+      readout=`PA = ${fmt(M.distance(P,A))} · PB = ${fmt(M.distance(P,B))}`;
+      const am=M.distance(A,mid),tick=(p,offset)=>{const c=p.map((x,j)=>x+offset*(B[j]-A[j])/ab);return line(map(c.map((x,j)=>x+.08*v[j])),map(c.map((x,j)=>x-.08*v[j])),'art-tick');};
+      ink+=tick(A,am/2)+tick(mid,am/2);
+     }else{
+      ink+=circle(map(mid),ab/2*scale);formula='PA ⟂ PB · P ≠ A, B';hint='A、B 是不包含的空心端點；拖動兩點可改變圓的位置、大小及方向。';
+      readout=excluded?'P 到達 A 或 B：端點不屬於軌跡':`直徑 AB = ${fmt(ab)} · 圓半徑 = ${fmt(ab/2)}`;
+     }
+     if(!excluded){ink+=line(map(A),map(P))+line(map(B),map(P));if(s.mode==='perpendicular'){
+      const u=A.map((x,j)=>(x-P[j])/M.distance(A,P)),w=B.map((x,j)=>(x-P[j])/M.distance(B,P)),size=Math.min(.2,M.distance(A,P)/3,M.distance(B,P)/3);
+      ink+=poly([P.map((x,j)=>x+size*u[j]),P.map((x,j)=>x+size*(u[j]+w[j])),P.map((x,j)=>x+size*w[j])].map(map),'art-right-angle');
+     }}
+     [A,B].forEach((p,j)=>{const a=map(p);ink+=circle(a,4,s.mode==='perpendicular'?'art-endpoint':'art-main')+text([a[0]+(j?10:-18),a[1]+19],'AB'[j]);});
+    }
+    if(!excluded){const p=map(P);ink+=dot(p)+text([p[0]+9,p[1]-10],'P');}
+   }
   }else if(id==='polynomials'){
    const fn=x=>M.polynomial(s.k,s.a,s.b,s.r,x);map=p=>[180+p[0]*42,132-p[1]*7];ink=axes()+graph(fn,map)+line(map([s.k,-10]),map([s.k,13]),'art-guide')+dot(map([s.k,s.r]))+text([map([s.k,0])[0]+6,154],'k')+text([map([s.k,s.r])[0]+10,map([s.k,s.r])[1]-12],'f(k) = r');
    formula=`f(x) = (x − (${fmt(s.k)}))(${fmt(s.a)}x + (${fmt(s.b)})) + (${fmt(s.r)})`;readout=`f(${fmt(s.k)}) = ${fmt(s.r)}`;hint='d(x) = x − k，q(x) = ax + b。代入 k，除式項為零，留下餘式 r。';
@@ -55,7 +82,7 @@ window.EACPlates=(()=>{
   }
   const description=formula+'。'+readout+'。'+hint;
   let viewBox='0 0 360 240';if(geometry){const points=Object.values(geometry.centres).map(map),xmin=Math.min(0,...points.map(p=>p[0]-25)),ymin=Math.min(0,...points.map(p=>p[1]-25)),xmax=Math.max(360,...points.map(p=>p[0]+25)),ymax=Math.max(240,...points.map(p=>p[1]+25));viewBox=`${xmin} ${ymin} ${xmax-xmin} ${ymax-ymin}`;}
-  return {id,theme,value:value??theme.initial,ink,formula,readout,hint,description,geometry,map,viewBox,svg:`<svg class="study-art" viewBox="${viewBox}" aria-hidden="true" focusable="false" style="--plate-ink:${theme.ink};--plate-accent:${theme.accent};--plate-wash:${theme.wash}"><g class="art-content">${ink}</g></svg>`};
+  return {id,theme,value:value??theme.initial,ink,formula,readout,hint,description,geometry,map,unmap,locusGeometry,locusFrame,viewBox,svg:`<svg class="study-art" viewBox="${viewBox}" aria-hidden="true" focusable="false" style="--plate-ink:${theme.ink};--plate-accent:${theme.accent};--plate-wash:${theme.wash}"><g class="art-content">${ink}</g></svg>`};
  }
  return {scene,canonical};
 })();

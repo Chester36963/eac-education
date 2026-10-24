@@ -17,13 +17,24 @@
  function sequence(mode,a,step,n=7){return Array.from({length:n},(_,i)=>mode==='geometric'?a*step**i:a+i*step);}
  function polynomial(k,a,b,r,x){return (x-k)*(a*x+b)+r;}
  function cone(mode,r,v){r=Math.max(.2,r);const h=mode==='slant'?Math.sqrt(Math.max(0,v*v-r*r)):Math.max(.2,v),l=Math.hypot(r,h);return {r,h,l,valid:mode!=='slant'||v>r,V:Math.PI*r*r*h/3,curved:Math.PI*r*l,surface:Math.PI*r*(l+r)};}
- function locus(mode,r,ax,bx,angle){const A=[ax,-.4],B=[bx,.6],M=midpoint(A,B),ab=distance(A,B),v=[(B[0]-A[0])/ab,(B[1]-A[1])/ab],t=radians(angle);let P;
+ function moveLocusPoint(A,B,index,candidate,bound=3,gap=.5){
+  const other=index===0?B:A,p=candidate.map(v=>Math.max(-bound,Math.min(bound,v)));
+  if(distance(p,other)>=gap)return p;
+  const old=index===0?A:B,delta=old.map((v,j)=>v-other[j]),length=Math.hypot(...delta);
+  const unit=length>1e-8?delta.map(v=>v/length):[index===0?-1:1,0];
+  const directions=[unit,[-unit[0],-unit[1]],[1,0],[-1,0],[0,1],[0,-1]];
+  for(const d of directions){const q=other.map((v,j)=>v+gap*d[j]);if(q.every(v=>v>=-bound&&v<=bound))return q;}
+  return old.slice();
+ }
+ function locus(mode,r,ax,bx,angle){const A=Array.isArray(ax)?ax.slice():[ax,-.4],B=Array.isArray(bx)?bx.slice():[bx,.6],M=midpoint(A,B),ab=distance(A,B),valid=ab>1e-8,t=radians(angle);let P;
+  if(!valid&&mode!=='radius')return {A,B,M,P:null,ab,excluded:true,valid:false};
+  const v=valid?[(B[0]-A[0])/ab,(B[1]-A[1])/ab]:[1,0];
   if(mode==='equal')P=[M[0]-v[1]*r*Math.sin(t),M[1]+v[0]*r*Math.sin(t)];
   else if(mode==='perpendicular')P=[M[0]+ab/2*Math.cos(t),M[1]+ab/2*Math.sin(t)];
   else P=[r*Math.cos(t),r*Math.sin(t)];
   const excluded=mode==='perpendicular'&&(distance(P,A)<1e-7||distance(P,B)<1e-7);
-  return {A,B,M,P,ab,excluded};
+  return {A,B,M,P,ab,excluded,valid:true};
  }
  function trigSegments(mode,start=-Math.PI*2,end=Math.PI*2,n=600){const segments=[];let current=[];for(let j=0;j<=n;j++){const x=start+(end-start)*j/n,c=Math.cos(x),y=mode==='tan'?Math.tan(x):mode==='cos'?c:Math.sin(x),prev=j?start+(end-start)*(j-1)/n:x;const crosses=mode==='tan'&&Math.floor((prev+Math.PI/2)/Math.PI)!==Math.floor((x+Math.PI/2)/Math.PI);if(crosses||!Number.isFinite(y)||Math.abs(y)>4||(mode==='tan'&&Math.abs(c)<1e-6)){if(current.length>1)segments.push(current);current=[];}if(Number.isFinite(y)&&Math.abs(y)<=4&&!(mode==='tan'&&Math.abs(c)<1e-6))current.push([x,y]);}if(current.length>1)segments.push(current);return segments;}
- return {radians,point,distance,midpoint,foot,presets,triangle,moveAngle,sequence,polynomial,cone,locus,trigSegments};
+ return {radians,point,distance,midpoint,foot,presets,triangle,moveAngle,sequence,polynomial,cone,locus,moveLocusPoint,trigSegments};
 });
