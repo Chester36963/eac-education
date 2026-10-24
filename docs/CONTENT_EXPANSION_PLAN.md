@@ -96,3 +96,7 @@ contentBlocks 可選 en／zh-Hant 有序段落、表格、題圖；solution／so
 - [原111條暫存逐題結果](CONTENT_RECOVERY_RESULTS.md)
 - [1186條網站題目與數學驗收狀態](CONTENT_QUESTION_INVENTORY.md)
 - 機讀：content/imports/2026-10-23-expansion.json、2026-10-23-existing-comparison.json、1013-classification-audit.json、1013-recovery-review.json。
+
+## B12 UI互動接力核對 · 2026-10-24
+
+CONTENT-B12狀態：完成本批無內容變動核對。數列逐項／前n項和與圓錐展開圖是獨立教學演示，沒有匯入或替換題目。新增0、修復0、內容更新0、重複變更0；仍1,186題／七課題、revision `2ffd9cb690908b1f`。六項來源問題／七個held IDs維持原有逐項追查，不因新增演示而改成完成。原來源記錄、穩定題號、解答及學生資料不變。1,072測試、本地及線上回歸、147部署檔案hash核對見[B12 QA](qa/2026-10-24/sequence-cone/README.md)；新UI參數與後續待辦見[完整roadmap](UI_UX_ROADMAP.md)。

@@ -1,6 +1,6 @@
 # B12 數列逐項探索與圓錐展開 · 2026-10-24
 
-狀態 B12-01：本地實作、數學及圖像驗收通過；正式發布及線上驗收待執行。題庫維持1,186題／七課題，revision `2ffd9cb690908b1f`。
+狀態 B12-01：本地及正式站實作、數學、圖像與發布驗收完成。題庫維持1,186題／七課題，revision `2ffd9cb690908b1f`。
 
 ## 實際實作
 
@@ -19,7 +19,7 @@
 
 人工圖像檢查記錄：獨立七幅SVG及28幅實際網站圖以兩張contact sheet與放大圖檢查。第一次發現負數項的點與索引太近、高瘦圓錐h/l標籤相疊；已把索引獨立置於圖底並拆開h/l位置，最終重跑及再檢視後才確認。扇形在接近360°與18°時不越界，細底圓保留真實比例，沒有為了放大而改變半徑。
 
-正式發布、各測試結果、實際檔案hash與剩餘限制在驗收後補記；尚未跑過的項目不列為完成。
+正式發布與實際檔案hash見下節；沒有執行的真實裝置／學生研究仍保留待辦狀態。
 
 ## 本地結果
 
@@ -30,3 +30,13 @@
 - 數學圖和可見頁面無NaN／Infinity／undefined；做題旅程代碼殘留及公式顯示檢查通過。保留先前完整題庫公式驗收，本批沒有改題文或解答，未重跑49,599公式全庫檢查。
 
 證據：`report.json`、`local-*.log`、`local-table-report.json`、兩張contact sheet及各同名SVG／PNG。Chromium emulated touch不代表實機；沒有實際學生觀察、真實登入／雲端同步或修補六項欠可靠來源的問題。
+
+## 正式發布與結果
+
+- Runtime commit `5d5b44b1bc5f72d87fca594505955daab2eeea83`；main Actions `40093894405`、Pages `40093927308`均success。
+- 正式站147檔SHA256與本地一致：六入口、程式／樣式、按需題庫及原有題圖。驗收時間見`live-verification.json`；不是只憑Actions綠燈判斷。
+- 正式站數列／圓錐、二維軌跡、四心動態、八場景、完整做題／錯題／續做、分類／記錄／設定、延遲載入等回歸全部通過；統計44題／176畫面亦通過全部四邊框和靠左對齊。
+- 正式390px交替等比數列與3-4-5展開圖已另外目視，保留`live-geometric-alternating-390.png`、`live-cone-net-3-4-5-390.png`；JSON與live日誌分開保存。其他四寬度畫面存於本次執行輸出`/tmp/eac-b12-live/`。
+- 本批題目新增0／修復0／內容更新0；仍1,186題、七課題、原revision。UX-N05／06／07完成；UX-N03更多教學場景持續中，UX-N01／02實際學生／裝置研究待處理。六項來源問題、真實帳戶與雲端同步未由本批解決。
+
+重跑：先執行`tests/browser/sequence-cone.cjs`及既有回歸，另設`EAC_SEQUENCE_CONE_OUTPUT`／`EAC_TABLE_QA_OUTPUT`／`EAC_LOCUS_UI_OUTPUT`保存證據。發布核對指令：`node scripts/verify-study-release.cjs 5d5b44b1bc5f72d87fca594505955daab2eeea83 40093894405 /tmp/eac-b12-live b12`。預設b11仍寫原B11證據目錄，b12不覆蓋歷史驗收。
