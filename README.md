@@ -94,4 +94,4 @@ The static question files include solutions and are suitable for practice, not c
 
 Implementation decisions and verified changes are recorded in [the implementation log](docs/IMPLEMENTATION_LOG.md).
 
-When changing shared study graphics/styles, run `node scripts/version-study-assets.cjs` before testing; it updates the content-hashed asset URLs in existing entry pages. The same website URLs and main deployment remain. Current two-dimensional locus controls and evidence: [B11 QA](docs/qa/2026-10-24/locus-interaction/README.md).
+When changing shared study graphics/styles, run `node scripts/version-study-assets.cjs` before testing; it updates the content-hashed asset URLs in existing entry pages. The deploy helper runs this step automatically. The same website URLs and main deployment remain. Current two-dimensional locus controls and evidence: [B11 QA](docs/qa/2026-10-24/locus-interaction/README.md).
