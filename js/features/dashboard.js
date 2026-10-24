@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   currentUser = Auth.ensureLocalSession();
   if (!currentUser) { byId('welcome-copy').textContent='瀏覽器未能儲存進度，請允許此網站使用本機儲存後重試。'; return; }
   const recordView=new URLSearchParams(location.search).get('view')==='record'||location.hash==='#learning-record';
+  byId('desk-shortcuts').hidden=recordView;
   for(const selector of ['.study-steps','.daily-grid','.library-section'])document.querySelector(selector).hidden=recordView;
   byId('dashboard-resume').hidden=true;
   byId('learning-record').hidden=!recordView;
@@ -27,7 +28,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const records = currentUser.progress.byQuestion || {};
     const chapters = catalog.subjects.flatMap(s => s.chapters);
     const shortNames={'four-centres':'四心',locus:'軌跡',polynomials:'多項式',sequences:'數列','mensuration-core':'度量'};
-    byId('desk-shortcuts').hidden=recordView;
     byId('desk-shortcuts').replaceChildren(...chapters.map(chapter=>{
       const b=document.createElement('button');b.type='button';b.dataset.chapter=chapter.id;
       b.setAttribute('aria-controls','desk-art');
