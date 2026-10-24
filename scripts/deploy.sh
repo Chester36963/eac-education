@@ -16,6 +16,7 @@ if [[ "$#" -lt 1 || -z "$1" ]]; then
 fi
 
 NODE_BIN="${EAC_NODE_BIN:-node}"
+"${NODE_BIN}" scripts/version-study-assets.cjs
 "${NODE_BIN}" scripts/build-content.cjs
 "${NODE_BIN}" --test tests/*.cjs
 git diff --check

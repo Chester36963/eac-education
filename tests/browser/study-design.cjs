@@ -51,8 +51,10 @@ fs.mkdirSync(output,{recursive:true});
    assert.equal(await figure.evaluate(img=>img.naturalWidth>0),true);
    await fits();await page.screenshot({path:output+'/diagram-'+width+'.png',fullPage:true});
    await page.locator('#finish-btn').click();
+   // Slow content must not flash the study-only controls on the record page.
+   await page.route('**/data/bank.json',async route=>{await new Promise(resolve=>setTimeout(resolve,400));await route.continue();});
    await page.goto(base+'dashboard.html?view=record');await page.locator('#learning-record').waitFor();
-   assert.equal(await page.locator('#desk-shortcuts').isVisible(),false);await fits();
+   assert.equal(await page.locator('#desk-shortcuts').isVisible(),false);await page.waitForFunction(()=>document.getElementById('desk-shortcuts').children.length===8);await page.unroute('**/data/bank.json');await fits();
    await page.screenshot({path:output+'/records-'+width+'.png',fullPage:true});
    await page.goto(base+'settings.html');await page.locator('#profile-name').waitFor();
    assert.equal(await page.locator('.study-brand-label').count(),1);await fits();
