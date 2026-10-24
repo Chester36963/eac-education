@@ -66,13 +66,25 @@ window.EACPlates=(()=>{
    const fn=x=>M.polynomial(s.k,s.a,s.b,s.r,x);map=p=>[180+p[0]*42,132-p[1]*7];ink=axes()+graph(fn,map)+line(map([s.k,-10]),map([s.k,13]),'art-guide')+dot(map([s.k,s.r]))+text([map([s.k,0])[0]+6,154],'k')+text([map([s.k,s.r])[0]+10,map([s.k,s.r])[1]-12],'f(k) = r');
    formula=`f(x) = (x − (${fmt(s.k)}))(${fmt(s.a)}x + (${fmt(s.b)})) + (${fmt(s.r)})`;readout=`f(${fmt(s.k)}) = ${fmt(s.r)}`;hint='d(x) = x − k，q(x) = ax + b。代入 k，除式項為零，留下餘式 r。';
   }else if(id==='sequences'){
-   const values=M.sequence(s.mode,s.a,s.step),bound=Math.max(1,...values.map(Math.abs)),scale=75/bound,zero=128;
-   ink=line([40,zero],[328,zero],'art-axis')+line([40,28],[40,218],'art-axis');values.forEach((v,j)=>{const x=60+j*41,y=zero-v*scale;ink+=line([x,zero],[x,y],'art-stem')+dot([x,y])+text([x-3,zero+22],j+1,'art-number')+text([x-7,y+(v<0?22:-11)],fmt(v),'art-number');});
-   formula=s.mode==='geometric'?'aₙ = a · rⁿ⁻¹':'aₙ = a + (n − 1)d';readout=`a = ${fmt(s.a)} · ${s.mode==='geometric'?'r':'d'} = ${fmt(s.step)}`;hint=s.mode==='geometric'?'負公比令項值交替；r = 0 時只有首項可非零。':'離散點表示各項；公差可以為正、零或負。';
+   const q=M.sequenceSummary(s.mode,s.a,s.step,s.n),{values}=q,bound=Math.max(1,...values.map(Math.abs)),scale=75/bound,zero=128;
+   ink=line([40,zero],[328,zero],'art-axis')+line([40,28],[40,218],'art-axis')+text([48,30],`n = ${q.n}`,'art-number')+text([328,224],'n','art-label');
+   values.forEach((v,j)=>{const x=60+j*41,y=zero-v*scale,active=j<q.n;ink+=`<g class="${active?'art-sequence-prefix':'art-sequence-rest'}" data-term="${j+1}" data-value="${v}"><title>a${j+1} = ${fmt(v)}</title>`+line([x,zero],[x,y],'art-stem')+dot([x,y],j===q.n-1?'art-live-point':'art-centre')+text([x-3,224],j+1,'art-number art-index')+'</g>';if(j===q.n-1)ink+=circle([x,y],7,'art-emphasis')+`<text class="art-number" text-anchor="middle" x="${x}" y="${f(y-14)}">${fmt(v)}</text>`;});
+   formula=s.mode==='geometric'?'aₙ = a · rⁿ⁻¹':'aₙ = a + (n − 1)d';readout=`a${String(q.n).replace(/[0-9]/g,d=>'₀₁₂₃₄₅₆₇₈₉'[d])} = ${fmt(q.term)} · S${String(q.n).replace(/[0-9]/g,d=>'₀₁₂₃₄₅₆₇₈₉'[d])} = ${fmt(q.sum)}`;
+   hint=`選取 n，看第 n 項與前 n 項和 Sₙ；深色點為首 n 項。${s.mode==='geometric'?'負公比令非零項正負交替；r = 0 時只有首項可非零。':'Sₙ = n(a₁ + aₙ)/2；公差可以為正、零或負。'}`;
   }else if(id==='mensuration-core'){
-   const c=M.cone(s.mode,s.r,s.v),scale=Math.min(19,155/c.h,95/c.r),rr=c.r*scale,top=36,base=top+c.h*scale,cx=166;
-   ink=`<path class="art-volume" d="M${f(cx-rr)} ${f(base)}L${cx} ${top}L${f(cx+rr)} ${f(base)}A${rr} ${rr*.23} 0 0 1 ${cx-rr} ${base}Z"/>`+`<ellipse class="art-main" cx="${cx}" cy="${base}" rx="${rr}" ry="${rr*.23}"/>`+line([cx-rr,base],[cx,top],'art-main')+line([cx,top],[cx+rr,base],'art-main')+line([cx,top],[cx,base])+line([cx,base],[cx+rr,base],'art-emphasis')+text([cx+rr+10,(top+base)/2],'l')+text([cx+8,(top+base)/2],'h')+text([cx+rr/2,base+22],'r');
-   formula='l² = r² + h² · V = ⅓πr²h';readout=`r ${fmt(c.r)} · h ${fmt(c.h)} · l ${fmt(c.l)}`;hint=`體積 ${fmt(c.V)} · 曲面積 ${fmt(c.curved)} · 總表面積 ${fmt(c.surface)}。${s.mode==='slant'?'斜高必須大於半徑。':''}`;
+   const c=M.coneNet(s.mode,s.r,s.v);
+   if(s.view==='net'){
+    // A cone unfolds to a sector of radius l; its arc is exactly the base circumference.
+    const radius=72,origin=[108,112],centre=[270,112],scale=radius/c.l,theta=M.radians(c.angle),start=Math.PI/2-theta/2,end=start+theta;
+    const at=t=>[origin[0]+radius*Math.cos(t),origin[1]+radius*Math.sin(t)],a=at(start),b=at(end),arc=`M${a.map(f)}A${radius} ${radius} 0 ${theta>Math.PI?1:0} 1 ${b.map(f)}`;
+    ink=`<path class="art-plane art-cone-sector" data-angle="${c.angle}" data-slant="${c.l}" d="M${origin}L${a.map(f)}A${radius} ${radius} 0 ${theta>Math.PI?1:0} 1 ${b.map(f)}Z"/>`+line(origin,a,'art-main')+line(origin,b,'art-main')+`<path class="art-emphasis" d="${arc}"/>`+dot(origin,'art-centre',2)+circle(centre,c.r*scale,'art-main art-cone-base')+line(centre,[centre[0]+c.r*scale,centre[1]],'art-emphasis')+text([centre[0]+c.r*scale/2,centre[1]-9],'r')+text([67,214],`l = ${fmt(c.l)}`,'art-number')+text([240,214],`r = ${fmt(c.r)}`,'art-number');
+    formula='θ = 360° × r/l · A = πrl + πr²';readout=`θ = ${fmt(c.angle)}° · 弧長 = 2πr = ${fmt(c.arc)}`;hint=`扇形與底圓使用相同比例；扇形半徑是斜高 l。曲面積 ${fmt(c.curved)} ＋ 底面積 ${fmt(c.base)} = 總面積 ${fmt(c.surface)}。`;
+   }else{
+    const scale=Math.min(19,155/c.h,95/c.r),rr=c.r*scale,top=36,base=top+c.h*scale,cx=166;
+    ink=`<path class="art-volume" d="M${f(cx-rr)} ${f(base)}L${cx} ${top}L${f(cx+rr)} ${f(base)}A${rr} ${rr*.23} 0 0 1 ${cx-rr} ${base}Z"/>`+`<ellipse class="art-main" cx="${cx}" cy="${base}" rx="${rr}" ry="${rr*.23}"/>`+line([cx-rr,base],[cx,top],'art-main')+line([cx,top],[cx+rr,base],'art-main')+line([cx,top],[cx,base])+line([cx,base],[cx+rr,base],'art-emphasis')+text([cx+Math.max(rr/2+14,32),(top+base)/2-12],'l')+text([cx+8,(top+base)/2+10],'h')+text([cx+rr/2,base+22],'r');
+    formula='l² = r² + h² · V = ⅓πr²h';readout=`r ${fmt(c.r)} · h ${fmt(c.h)} · l ${fmt(c.l)}`;hint=`體積 ${fmt(c.V)} · 曲面積 ${fmt(c.curved)} · 總表面積 ${fmt(c.surface)}。切換「展開」比較扇形與底圓。`;
+   }
+   if(s.mode==='slant')hint+=` 斜高 l 必須大於 r；滑桿下限隨 r 調整。`;
   }else if(id==='circle-equation'){
    map=p=>[180+p[0]*24,120-p[1]*24];ink=axes([180,120])+circle(map([s.a,s.b]),s.r*24)+dot(map([s.a,s.b]))+line(map([s.a,s.b]),map([s.a+s.r,s.b]),'art-emphasis')+text([map([s.a,s.b])[0]-8,map([s.a,s.b])[1]-12],'C')+text([map([s.a+s.r/2,s.b])[0],map([s.a,s.b])[1]+20],'r');formula=`(x − (${fmt(s.a)}))² + (y − (${fmt(s.b)}))² = ${fmt(s.r*s.r)}`;readout=`C = (${fmt(s.a)}, ${fmt(s.b)}) · r = ${fmt(s.r)}`;hint='移動圓心或改變半徑，標準式同步更新。';
   }else if(id==='statistics'){

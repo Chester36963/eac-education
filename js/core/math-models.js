@@ -15,8 +15,10 @@
  }
  function moveAngle(angles,index,angle){const values=angles.slice(),current=values[index],delta=((angle-current+540)%360+360)%360-180,lo=index?values[index-1]+12:values[2]-348,hi=index===2?values[0]+348:values[index+1]-12;values[index]=Math.max(lo,Math.min(hi,current+delta));return values;}
  function sequence(mode,a,step,n=7){return Array.from({length:n},(_,i)=>mode==='geometric'?a*step**i:a+i*step);}
+ function sequenceSummary(mode,a,step,n=4){const values=sequence(mode,a,step,7),count=Math.max(1,Math.min(7,Math.round(n)));return {values,n:count,term:values[count-1],sum:values.slice(0,count).reduce((s,v)=>s+v,0)};}
  function polynomial(k,a,b,r,x){return (x-k)*(a*x+b)+r;}
  function cone(mode,r,v){r=Math.max(.2,r);const h=mode==='slant'?Math.sqrt(Math.max(0,v*v-r*r)):Math.max(.2,v),l=Math.hypot(r,h);return {r,h,l,valid:mode!=='slant'||v>r,V:Math.PI*r*r*h/3,curved:Math.PI*r*l,surface:Math.PI*r*(l+r)};}
+ function coneNet(mode,r,v){const c=cone(mode,r,v);return {...c,angle:360*c.r/c.l,arc:2*Math.PI*c.r,base:Math.PI*c.r*c.r};}
  function moveLocusPoint(A,B,index,candidate,bound=3,gap=.5){
   const other=index===0?B:A,p=candidate.map(v=>Math.max(-bound,Math.min(bound,v)));
   if(distance(p,other)>=gap)return p;
@@ -36,5 +38,5 @@
   return {A,B,M,P,ab,excluded,valid:true};
  }
  function trigSegments(mode,start=-Math.PI*2,end=Math.PI*2,n=600){const segments=[];let current=[];for(let j=0;j<=n;j++){const x=start+(end-start)*j/n,c=Math.cos(x),y=mode==='tan'?Math.tan(x):mode==='cos'?c:Math.sin(x),prev=j?start+(end-start)*(j-1)/n:x;const crosses=mode==='tan'&&Math.floor((prev+Math.PI/2)/Math.PI)!==Math.floor((x+Math.PI/2)/Math.PI);if(crosses||!Number.isFinite(y)||Math.abs(y)>4||(mode==='tan'&&Math.abs(c)<1e-6)){if(current.length>1)segments.push(current);current=[];}if(Number.isFinite(y)&&Math.abs(y)<=4&&!(mode==='tan'&&Math.abs(c)<1e-6))current.push([x,y]);}if(current.length>1)segments.push(current);return segments;}
- return {radians,point,distance,midpoint,foot,presets,triangle,moveAngle,sequence,polynomial,cone,locus,moveLocusPoint,trigSegments};
+ return {radians,point,distance,midpoint,foot,presets,triangle,moveAngle,sequence,sequenceSummary,polynomial,cone,coneNet,locus,moveLocusPoint,trigSegments};
 });
