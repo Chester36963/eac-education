@@ -1,0 +1,55 @@
+{
+  "testedAt": "2026-10-25T11:56:13.345Z",
+  "base": "https://chester36963.github.io/eac-education/",
+  "contentRevision": "2ffd9cb690908b1f",
+  "checked": [
+    {
+      "width": 320,
+      "remainderIdentity": true,
+      "factorRoot": true,
+      "zeroPolynomial": true,
+      "circleRelations": true,
+      "keyboardAndTouch": true,
+      "modeAndChapterState": true,
+      "reset": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "remainderIdentity": true,
+      "factorRoot": true,
+      "zeroPolynomial": true,
+      "circleRelations": true,
+      "keyboardAndTouch": true,
+      "modeAndChapterState": true,
+      "reset": true,
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "remainderIdentity": true,
+      "factorRoot": true,
+      "zeroPolynomial": true,
+      "circleRelations": true,
+      "keyboardAndTouch": true,
+      "modeAndChapterState": true,
+      "reset": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "remainderIdentity": true,
+      "factorRoot": true,
+      "zeroPolynomial": true,
+      "circleRelations": true,
+      "keyboardAndTouch": true,
+      "modeAndChapterState": true,
+      "reset": true,
+      "noOverflow": true
+    }
+  ],
+  "autoplayAndPause": true,
+  "offscreenSuspensionAndResume": true,
+  "errors": [],
+  "limits": "Model-derived teaching diagrams, no question data/assets changed. Chromium responsive/emulated touch, not physical-device/student research."
+}

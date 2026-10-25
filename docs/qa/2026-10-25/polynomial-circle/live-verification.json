@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-25T11:57:15.726Z",
+  "base": "https://chester36963.github.io/eac-education/",
+  "releaseCommit": "cdce14ce9a2681d1737bc067eff23d022c8ec09b",
+  "workflowRunId": 40190599955,
+  "workflowConclusion": "success",
+  "contentRevision": "2ffd9cb690908b1f",
+  "totalQuestions": 1186,
+  "chapterCount": 7,
+  "deployedFileHashes": {
+    "checked": 147,
+    "algorithm": "SHA256",
+    "errors": []
+  },
+  "browser": {
+    "polynomialCircleInteraction": 4,
+    "statisticsTables": 176,
+    "instruments": "passed",
+    "fourCentresMotion": "passed",
+    "studyJourney": "passed",
+    "studyDesign": "passed"
+  },
+  "limits": "No question data, grading or student records changed. Chromium viewports/emulated touch are not physical-device or student usability research."
+}

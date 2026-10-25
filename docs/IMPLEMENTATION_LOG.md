@@ -2,7 +2,7 @@
 
 ## B13 Polynomial theorem and circle position exploration — 25 October 2026
 
-Status LOG-20261025-B13: local implementation under verification; formal deployment pending. Added polynomial remainder/factor modes with a shared division identity, expanded coefficient readout, factor-root highlight and zero-polynomial explanation. Added circle point-position mode with CP/r, angle and inside/on/outside controls, power comparison and general-form readout. Preserved the existing modes, question data, source figures, stable IDs, grading and student records. Evidence is in [B13 QA](qa/2026-10-25/polynomial-circle/README.md); the complete roadmap and content plan remain authoritative.
+Status LOG-20261025-B13: local and live verification complete:1,074 Node checks, four-width polynomial/circle browser tests, existing sequence/cone/locus/four-centres/learning/design/table regressions, and147 deployed SHA256 matches. Runtimecdce14c; Actions40190599955 and Pages40190628943 succeeded. UX-N08/09 complete; actual-device/student research and further scenes remain separately tracked. Added polynomial remainder/factor modes with a shared division identity, expanded coefficient readout, factor-root highlight and zero-polynomial explanation. Added circle point-position mode with CP/r, angle and inside/on/outside controls, power comparison and general-form readout. Preserved the existing modes, question data, source figures, stable IDs, grading and student records. Evidence is in [B13 QA](qa/2026-10-25/polynomial-circle/README.md); the complete roadmap and content plan remain authoritative.
 
 ## B12 Sequence selection and cone nets — 24 October 2026
 
