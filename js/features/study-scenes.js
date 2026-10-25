@@ -1,6 +1,8 @@
 /* Editable instrument graphics driven by the shared pure mathematical models. */
 window.EACPlates=(()=>{
  const M=EACModels,f=n=>Number(n.toFixed(3)),fmt=n=>Number(n.toFixed(2));
+ const expression=(pairs)=>{const terms=pairs.map(([value,symbol])=>[fmt(value),symbol]).filter(([value])=>value!==0);return terms.length?terms.map(([value,symbol],j)=>(value<0?' − ':j?' + ':'')+(Math.abs(value)===1&&symbol?'':Math.abs(value))+symbol).join('').trim():'0';};
+ const shifted=(symbol,value)=>symbol+(fmt(value)===0?'':fmt(value)>0?' − '+fmt(value):' + '+Math.abs(fmt(value)));
  const themes=Object.fromEntries(['four-centres','locus','polynomials','sequences','mensuration-core','circle-equation','statistics','trigonometry'].map(id=>[id,{ink:'#46586c',accent:'#697e96',wash:'#eef1f5',min:0,max:360,step:1,initial:50,label:id}]));
  const canonical=id=>({polynomial:'polynomials',mensuration:'mensuration-core'}[id]||(themes[id]?id:'four-centres'));
  const line=(a,b,cls='art-guide')=>`<path class="${cls}" d="M${a.map(f)}L${b.map(f)}"/>`;
@@ -63,8 +65,14 @@ window.EACPlates=(()=>{
     if(!excluded){const p=map(P);ink+=dot(p)+text([p[0]+9,p[1]-10],'P');}
    }
   }else if(id==='polynomials'){
-   const fn=x=>M.polynomial(s.k,s.a,s.b,s.r,x);map=p=>[180+p[0]*42,132-p[1]*7];ink=axes()+graph(fn,map)+line(map([s.k,-10]),map([s.k,13]),'art-guide')+dot(map([s.k,s.r]))+text([map([s.k,0])[0]+6,154],'k')+text([map([s.k,s.r])[0]+10,map([s.k,s.r])[1]-12],'f(k) = r');
-   formula=`f(x) = (x − (${fmt(s.k)}))(${fmt(s.a)}x + (${fmt(s.b)})) + (${fmt(s.r)})`;readout=`f(${fmt(s.k)}) = ${fmt(s.r)}`;hint='d(x) = x − k，q(x) = ax + b。代入 k，除式項為零，留下餘式 r。';
+   const r=s.mode==='factor'?0:s.r,detail=M.polynomialDetails(s.k,s.a,s.b,r),fn=x=>M.polynomial(s.k,s.a,s.b,r,x),product=x=>fn(x)-r;
+   const bound=Math.max(1,...Array.from({length:61},(_,j)=>Math.abs(fn(-3+j/10))),...Array.from({length:61},(_,j)=>Math.abs(product(-3+j/10)))),scale=82/bound;
+   map=p=>[180+p[0]*42,122-p[1]*scale];
+   const base=graph(product,map).replaceAll('class="art-main"','class="art-guide art-polynomial-product"');
+   ink=axes([180,122])+base+graph(fn,map)+line([map([s.k,0])[0],30],[map([s.k,0])[0],210],'art-guide')+line(map([s.k,0]),map([s.k,r]),'art-emphasis')+dot(map([s.k,r]))+text([map([s.k,r])[0]+10,map([s.k,r])[1]-12],s.mode==='factor'?'f(k) = 0':'f(k) = r')+text([map([s.k,0])[0]+6,217],`k = ${fmt(s.k)}`,'art-number');
+   const divisor=shifted('x',s.k),quotient=expression([[s.a,'x'],[s.b,'']]),expanded=expression(detail.coefficients.map((v,j)=>[v,['x²','x',''][j]]));
+   formula=`f(x) = (${divisor})(${quotient})${r<0?' − '+Math.abs(fmt(r)):r>0?' + '+fmt(r):''}`;readout=`f(${fmt(s.k)}) = ${fmt(r)}`;
+   hint=`展開式（讀數取近似）：f(x) = ${expanded}。${s.mode==='factor'?'餘式為零，x − k 是因式；圈點在 x 軸上。':'實線 f(x)，虛線 d(x)q(x)；兩者相差常數 r，代入 k 後只留下餘式。'}${s.a===0&&s.b===0&&r===0?' 這是零多項式，每個實數都是零點。':''}`;
   }else if(id==='sequences'){
    const q=M.sequenceSummary(s.mode,s.a,s.step,s.n),{values}=q,bound=Math.max(1,...values.map(Math.abs)),scale=75/bound,zero=128;
    ink=line([40,zero],[328,zero],'art-axis')+line([40,28],[40,218],'art-axis')+text([48,30],`n = ${q.n}`,'art-number')+text([328,224],'n','art-label');
@@ -86,7 +94,12 @@ window.EACPlates=(()=>{
    }
    if(s.mode==='slant')hint+=` 斜高 l 必須大於 r；滑桿下限隨 r 調整。`;
   }else if(id==='circle-equation'){
-   map=p=>[180+p[0]*24,120-p[1]*24];ink=axes([180,120])+circle(map([s.a,s.b]),s.r*24)+dot(map([s.a,s.b]))+line(map([s.a,s.b]),map([s.a+s.r,s.b]),'art-emphasis')+text([map([s.a,s.b])[0]-8,map([s.a,s.b])[1]-12],'C')+text([map([s.a+s.r/2,s.b])[0],map([s.a,s.b])[1]+20],'r');formula=`(x − (${fmt(s.a)}))² + (y − (${fmt(s.b)}))² = ${fmt(s.r*s.r)}`;readout=`C = (${fmt(s.a)}, ${fmt(s.b)}) · r = ${fmt(s.r)}`;hint='移動圓心或改變半徑，標準式同步更新。';
+   const q=M.circlePoint(s.a,s.b,s.r,s.t,s.angle),position=s.mode==='position',points=[[s.a-s.r,s.b-s.r],[s.a+s.r,s.b+s.r],[0,0],...(position?[q.P]:[])],xmin=Math.min(...points.map(p=>p[0])),xmax=Math.max(...points.map(p=>p[0])),ymin=Math.min(...points.map(p=>p[1])),ymax=Math.max(...points.map(p=>p[1])),scale=Math.min(260/Math.max(2,xmax-xmin),156/Math.max(2,ymax-ymin));
+   map=p=>[180+(p[0]-(xmin+xmax)/2)*scale,120-(p[1]-(ymin+ymax)/2)*scale];const origin=map([0,0]),C=map(q.C),P=map(q.P);
+   ink=axes(origin)+circle(C,s.r*scale,'art-main art-equation-circle')+dot(C,'art-centre')+text([C[0]-15,C[1]-12],'C');
+   if(position){ink+=line(C,P,'art-emphasis')+dot(P,'art-live-point')+text([P[0]+8,P[1]-10],'P');readout=`CP² ${fmt(q.cp*q.cp)} ${q.status==='on'?'=':q.status==='inside'?'<':'>'} r² ${fmt(q.rSquared)} · ${ {inside:'圓內',on:'圓上',outside:'圓外'}[q.status]}`;hint='調整 CP/r 或角度，亦可按圓內／圓上／圓外快速比較。代入圓的標準式，比較左方距離平方與 r²；讀數取近似。';}
+   else{ink+=line(C,map([s.a+s.r,s.b]),'art-emphasis')+text([C[0]+s.r*scale/2,C[1]+20],'r');readout=`C = (${fmt(s.a)}, ${fmt(s.b)}) · r = ${fmt(s.r)}`;hint=`一般式（讀數取近似）：x² + y²${expression([[q.D,'x'],[q.E,'y'],[q.F,'']])==='0'?'':(expression([[q.D,'x'],[q.E,'y'],[q.F,'']]).startsWith('−')?' ':' + ')+expression([[q.D,'x'],[q.E,'y'],[q.F,'']])} = 0。移動圓心與半徑，兩種寫法同步。`;}
+   formula=`(${shifted('x',s.a)})² + (${shifted('y',s.b)})² = ${fmt(s.r*s.r)}`;
   }else if(id==='statistics'){
    const vs=[s.f1,s.f2,s.f3],total=vs.reduce((a,b)=>a+b,0);ink=line([54,200],[320,200],'art-axis')+line([54,28],[54,202],'art-axis');[0,5,10,15,20].forEach(v=>ink+=text([27,204-v*7],v,'art-number')+line([50,200-v*7],[319,200-v*7],'art-grid'));vs.forEach((v,j)=>{const x=90+j*78;ink+=`<rect class="art-plane" x="${x}" y="${200-v*7}" width="44" height="${v*7}"/>`+poly([[x,200],[x,200-v*7],[x+44,200-v*7],[x+44,200]],'art-main')+text([x+16,221],j+1,'art-number')+text([x+14,190-v*7],v,'art-number');});formula='總頻數 n = f₁ + f₂ + f₃';readout=`n = ${total} · 平均值 = ${total?fmt(vs.reduce((a,b,j)=>a+b*(j+1),0)/total):'未定義'}`;hint='組別值為 1、2、3；改變頻數，觀察加權平均值。';
   }else{

@@ -17,6 +17,8 @@
  function sequence(mode,a,step,n=7){return Array.from({length:n},(_,i)=>mode==='geometric'?a*step**i:a+i*step);}
  function sequenceSummary(mode,a,step,n=4){const values=sequence(mode,a,step,7),count=Math.max(1,Math.min(7,Math.round(n)));return {values,n:count,term:values[count-1],sum:values.slice(0,count).reduce((s,v)=>s+v,0)};}
  function polynomial(k,a,b,r,x){return (x-k)*(a*x+b)+r;}
+ function polynomialDetails(k,a,b,r){return {coefficients:[a,b-a*k,r-b*k],product:[a,b-a*k,-b*k],remainder:r,atDivisor:r};}
+ function circlePoint(a,b,r,t=1,angle=45){const theta=radians(angle),C=[a,b],P=[a+r*t*Math.cos(theta),b+r*t*Math.sin(theta)],cp=distance(C,P),power=cp*cp-r*r;return {C,P,cp,power,rSquared:r*r,D:-2*a,E:-2*b,F:a*a+b*b-r*r,status:Math.abs(power)<1e-8?'on':power<0?'inside':'outside'};}
  function cone(mode,r,v){r=Math.max(.2,r);const h=mode==='slant'?Math.sqrt(Math.max(0,v*v-r*r)):Math.max(.2,v),l=Math.hypot(r,h);return {r,h,l,valid:mode!=='slant'||v>r,V:Math.PI*r*r*h/3,curved:Math.PI*r*l,surface:Math.PI*r*(l+r)};}
  function coneNet(mode,r,v){const c=cone(mode,r,v);return {...c,angle:360*c.r/c.l,arc:2*Math.PI*c.r,base:Math.PI*c.r*c.r};}
  function moveLocusPoint(A,B,index,candidate,bound=3,gap=.5){
@@ -38,5 +40,5 @@
   return {A,B,M,P,ab,excluded,valid:true};
  }
  function trigSegments(mode,start=-Math.PI*2,end=Math.PI*2,n=600){const segments=[];let current=[];for(let j=0;j<=n;j++){const x=start+(end-start)*j/n,c=Math.cos(x),y=mode==='tan'?Math.tan(x):mode==='cos'?c:Math.sin(x),prev=j?start+(end-start)*(j-1)/n:x;const crosses=mode==='tan'&&Math.floor((prev+Math.PI/2)/Math.PI)!==Math.floor((x+Math.PI/2)/Math.PI);if(crosses||!Number.isFinite(y)||Math.abs(y)>4||(mode==='tan'&&Math.abs(c)<1e-6)){if(current.length>1)segments.push(current);current=[];}if(Number.isFinite(y)&&Math.abs(y)<=4&&!(mode==='tan'&&Math.abs(c)<1e-6))current.push([x,y]);}if(current.length>1)segments.push(current);return segments;}
- return {radians,point,distance,midpoint,foot,presets,triangle,moveAngle,sequence,sequenceSummary,polynomial,cone,coneNet,locus,moveLocusPoint,trigSegments};
+ return {radians,point,distance,midpoint,foot,presets,triangle,moveAngle,sequence,sequenceSummary,polynomial,polynomialDetails,circlePoint,cone,coneNet,locus,moveLocusPoint,trigSegments};
 });
