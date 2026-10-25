@@ -1,5 +1,9 @@
 # Implementation record
 
+## B13 Polynomial theorem and circle position exploration — 25 October 2026
+
+Status LOG-20261025-B13: local implementation under verification; formal deployment pending. Added polynomial remainder/factor modes with a shared division identity, expanded coefficient readout, factor-root highlight and zero-polynomial explanation. Added circle point-position mode with CP/r, angle and inside/on/outside controls, power comparison and general-form readout. Preserved the existing modes, question data, source figures, stable IDs, grading and student records. Evidence is in [B13 QA](qa/2026-10-25/polynomial-circle/README.md); the complete roadmap and content plan remain authoritative.
+
 ## B12 Sequence selection and cone nets — 24 October 2026
 
 Status LOG-20261024-B12: local and live verification complete:1,072 Node checks, four-width interactive/browser tests, seven independently rendered scenes,28 website screenshots,176 statistics views and the existing journey/design/locus/four-centres regressions. Runtime5d5b44b; Actions40093894405 and Pages40093927308 succeeded;147 deployed SHA256 hashes match. UX-N05/06/07 complete; actual-device/student research and further scenes remain separately tracked. Added selected term n=1–7 with aₙ/Sₙ, prefix highlighting, AP/GP-specific parameter labels and mode/chapter state. Added solid/net cone views with equal-scale sector/base, sector angle360r/l, matching arc2πr and surface-area decomposition; dependent slant lower bound follows radius. Separated h/l labels for tall cones. Fixed hover stealing the selected scene while the exploration controls have focus. No question, answer, figure-source, grading or student-record changes. [B12 evidence](qa/2026-10-24/sequence-cone/README.md), [complete UI/UE roadmap](UI_UX_ROADMAP.md), [content plan](CONTENT_EXPANSION_PLAN.md).
