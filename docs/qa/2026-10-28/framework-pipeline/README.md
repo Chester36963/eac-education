@@ -29,3 +29,7 @@
 `tests/editor-pipeline.cjs` 覆蓋草稿不改正式庫、樂觀鎖、改題／改圖失效、來源改版、顯式採用、穩定 ID、全批對帳、重複 target、過期差異拒絕、重跑 no-op、交易恢復、來源 path／symlink 限制。`tests/editor-pilots.cjs` 鎖定來源對帳、31 算式、15 資產及舊題不變。`tests/browser/editor-workbench.cjs` 檢查同源權限、讀寫恢復、原頁、共用預覽與四寬度。Core／M1／M2 用只存在測試 runtime 的三題驗證搜尋、URL、組題、紀錄、續做、Dashboard 題數與連結，不把未有真題的 M1／M2 入口放到正式站。
 
 發布結果與最終測試數將在同資料夾 release.json／validation.json 及 IMPLEMENTATION_LOG 記錄；沒有這些證據前不把正式部署標成完成。
+
+## 最終發布與測試
+
+本輪1,109項Node checks全通過；27新增題實際評分／自評、324題面／解析／語言／寬度狀態，本機與正式站各通過一次。完整study-journey兩端通過。113個正式檔案SHA256與本機一致，revision d8fd17a348cd3caa；Deploy40648916414／Pages40648975689成功。原卷、頁圖快取及本機管理工具不在Pages發布目錄。release.json、deployed-hashes.json、live-pilots.log、live-journey.log、live-student/matrix.json提供可核對證據。三個第一階段交付已可操作；待補來源與後續真人UX工作仍如上列明。

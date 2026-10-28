@@ -7,7 +7,7 @@
 | PIPE-03 | 完成 | 舊 sequence review.pdf 重播，22 題不變、學生 ID 與原紀錄保留；重跑不加題。 |
 | PIPE-04 | 完成 | Sequence review2.pdf 全19題對帳：15新、Q16確認重複、Q3／10／11待補。scripts/verify-editor-pilots.py 逐題驗算，配對 Word 已追查。 |
 | PIPE-05 | 完成 | area ratio of 2D figures.pdf 全12題、12幅同題原圖，加入度量面積比例小節；獨立精確面積驗算及原尺寸／實際網站圖像檢視。 |
-| PIPE-06 | 待驗收 | 本輪正式 main 發布及線上內容 hash 核對；以 release.json 實際結果更新，不把本機完成當正式部署。 |
+| PIPE-06 | 完成 | 同一 main 正式發布；Deploy／Pages成功、113線上檔案SHA256一致、324線上作答／解析狀態與完整續做流程通過，見release.json。 |
 | PIPE-N01 | 待補來源 | 新數列 Q3零值比例、Q10印刷III／答案衝突、Q11對數定義域；逐題已有 investigation，等待可信修訂，不暗加條件。 |
 | PIPE-N02 | 待處理 | 下一份 PDF 沿用工作台；先點清題界與配對，再選小批，尚未開始大量入題。 |
 
