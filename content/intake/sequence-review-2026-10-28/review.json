@@ -12,73 +12,82 @@
       "number": 1,
       "page": 1,
       "id": "import-sequences-269521a8b923e7b4",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "b520c94e41a3ea141982cccf2ff314a99c4b425fb25ad68faa7b7b1c0c1f642e"
+      "questionSha256": "b520c94e41a3ea141982cccf2ff314a99c4b425fb25ad68faa7b7b1c0c1f642e",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 2,
       "page": 1,
       "id": "import-sequences-e189d03ff891b451",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "7a5d20876d1be3686f6ff3492b03d90c6941d8784decdc13935fa2ce5ed2460e"
+      "questionSha256": "7a5d20876d1be3686f6ff3492b03d90c6941d8784decdc13935fa2ce5ed2460e",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 3,
       "page": 1,
       "id": "import-sequences-ec6a387f760dec57",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "daae0dc4c612a54e63efd3dae16ec6748d5700fe96a68e5790a897b2d2943d46"
+      "questionSha256": "daae0dc4c612a54e63efd3dae16ec6748d5700fe96a68e5790a897b2d2943d46",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 4,
       "page": 1,
       "id": "import-sequences-3cf9c64b363c030b",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "f4a5f5efd3419bf1693736a6f6982a22a9f7cc0122997be0447722e32639a04d"
+      "questionSha256": "f4a5f5efd3419bf1693736a6f6982a22a9f7cc0122997be0447722e32639a04d",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 5,
       "page": 2,
       "id": "import-sequences-a61ec9fc6d2cf40e",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "0de0d53faa090f9ce3ee18366246ce3870ceeb0cda1d5c8f3011305f733ccfea"
+      "questionSha256": "0de0d53faa090f9ce3ee18366246ce3870ceeb0cda1d5c8f3011305f733ccfea",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 6,
       "page": 2,
       "id": "import-sequences-a90a65d2d883995b",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "388a0dddb46c0bc7c57fffdfe891d4c1cbf63295a2133221fff7ab3c70180ec8"
+      "questionSha256": "388a0dddb46c0bc7c57fffdfe891d4c1cbf63295a2133221fff7ab3c70180ec8",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 7,
       "page": 2,
       "id": "import-sequences-660a5bf776dee6ef",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "e8f4fd82a4ab1b58c5c3abf720c6f091fa74dee8a9e0010d661afa75c9f6596f"
+      "questionSha256": "e8f4fd82a4ab1b58c5c3abf720c6f091fa74dee8a9e0010d661afa75c9f6596f",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 8,
       "page": 3,
       "id": "import-sequences-23b5b0d5bb73cbc8",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "01f07544ca1204276616589140bb4027871a2b75345f9c65b7f54623e65f4a8e"
+      "questionSha256": "01f07544ca1204276616589140bb4027871a2b75345f9c65b7f54623e65f4a8e",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 9,
       "page": 3,
       "id": "import-sequences-f23cf1d311fc94a2",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "c2352efe3d23c85de18f49fcc3a8105f79b607eac212c4a0574d1510b2b55d5b"
+      "questionSha256": "c2352efe3d23c85de18f49fcc3a8105f79b607eac212c4a0574d1510b2b55d5b",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 10,
@@ -91,73 +100,82 @@
       "number": 11,
       "page": 4,
       "id": "import-sequences-09223be0bc3e03fd",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "487f256f9f0df40651ee24f8dc727cb690a033c37681623f5f4e3abfdcfb32ac"
+      "questionSha256": "487f256f9f0df40651ee24f8dc727cb690a033c37681623f5f4e3abfdcfb32ac",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 12,
       "page": 4,
       "id": "import-sequences-b71081eb0c88b64b",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "825d5c389bd4e058941523f84ae7caf3c6536c25c3e00b39455598bad59f0b7b"
+      "questionSha256": "825d5c389bd4e058941523f84ae7caf3c6536c25c3e00b39455598bad59f0b7b",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 13,
       "page": 4,
       "id": "import-sequences-27fcc8b2e30633cd",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "25245ca7a236d8c51f4423437403934d4d7930a82cf51751b5f7955803f8e11c"
+      "questionSha256": "25245ca7a236d8c51f4423437403934d4d7930a82cf51751b5f7955803f8e11c",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 14,
       "page": 4,
       "id": "import-sequences-9e194aa1e664f3f0",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "2a5c4150e17d5b6f357a53f7b24009f97efbbf568add32968ec0b859918a6135"
+      "questionSha256": "2a5c4150e17d5b6f357a53f7b24009f97efbbf568add32968ec0b859918a6135",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 15,
       "page": 4,
       "id": "import-sequences-fc8b140ff6062af5",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "b562a7e025ac59a7153d2fc6327895d006b19834c109d45b4e8ca1bed359343f"
+      "questionSha256": "b562a7e025ac59a7153d2fc6327895d006b19834c109d45b4e8ca1bed359343f",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 16,
       "page": 4,
       "id": "import-sequences-279fd5f2337f7a52",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "e766d2decd3d45480d8fc494eb75db972f84b09433b67f8977c7d2b578927747"
+      "questionSha256": "e766d2decd3d45480d8fc494eb75db972f84b09433b67f8977c7d2b578927747",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 17,
       "page": 5,
       "id": "import-sequences-f0aa410fa2d3106c",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "b91105341fab526972b814fe61c31911fd806a077c95e7db09416fb2212aa32d"
+      "questionSha256": "b91105341fab526972b814fe61c31911fd806a077c95e7db09416fb2212aa32d",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 18,
       "page": 5,
       "id": "import-sequences-b1a0ebb82e8bd2d3",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "c457582c8bfa6c2e0bc67aa23f8ba62447ae1c3685127001a1bd98d2348a0b10"
+      "questionSha256": "c457582c8bfa6c2e0bc67aa23f8ba62447ae1c3685127001a1bd98d2348a0b10",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 19,
       "page": 5,
       "id": "import-sequences-455c02f615a2538b",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "0a540b6f373f464ef5dc7f4b103dc395e1081a831e850107e8f14816b2496a45"
+      "questionSha256": "0a540b6f373f464ef5dc7f4b103dc395e1081a831e850107e8f14816b2496a45",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 20,
@@ -170,33 +188,37 @@
       "number": 21,
       "page": 5,
       "id": "import-sequences-97175359520cbadc",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "d618b07a61f87b2d95bb03e8091f767efac23d66594bb91775c1697ea493bbd5"
+      "questionSha256": "d618b07a61f87b2d95bb03e8091f767efac23d66594bb91775c1697ea493bbd5",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 22,
       "page": 5,
       "id": "import-sequences-14fea340bb56b38a",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "da5508b39c53b194ba3899b48dbe0a4a4e20f502bd956e0f7b89a7b524724cb1"
+      "questionSha256": "da5508b39c53b194ba3899b48dbe0a4a4e20f502bd956e0f7b89a7b524724cb1",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 23,
       "page": 6,
       "id": "import-sequences-a2987dbfdad5d4d8",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "75bf747ebc012f86878a9657698e328f9f348c062dde05399cf0a7ccd2c23623"
+      "questionSha256": "75bf747ebc012f86878a9657698e328f9f348c062dde05399cf0a7ccd2c23623",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     },
     {
       "number": 24,
       "page": 6,
       "id": "import-sequences-1ffb5de383481e90",
-      "status": "待驗收",
+      "status": "完成",
       "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
-      "questionSha256": "5d6811e6be2ec4962c0acc8e3b505fe45a88d84ef8a14e4af195fab6f718b278"
+      "questionSha256": "5d6811e6be2ec4962c0acc8e3b505fe45a88d84ef8a14e4af195fab6f718b278",
+      "evidence": "docs/qa/2026-10-28/sequence-review/live-verification.json"
     }
   ],
   "figures": [
@@ -214,9 +236,10 @@
         718
       ],
       "asset": "assets/diagrams/sequence-review/q02.png",
-      "status": "待驗收",
+      "status": "完成",
       "sha256": "158f47d51c0edfaf608a98f27d03df3b13270c918a516cbb384131df8e72bd87",
-      "sourceVisualReview": "Original same-question page, standalone source crop/final SVG and actual 390/1440px student renders personally inspected. Q23 has 4/7/10 equal-length sticks, complete P1/P2/P3 labels and fixed intrinsic 580x150 sizing."
+      "sourceVisualReview": "Original same-question page, standalone source crop/final SVG and actual 390/1440px student renders personally inspected. Q23 has 4/7/10 equal-length sticks, complete P1/P2/P3 labels and fixed intrinsic 580x150 sizing.",
+      "websiteEvidence": "docs/qa/2026-10-28/sequence-review/live/q2-figure-390.png"
     },
     {
       "question": 23,
@@ -232,11 +255,12 @@
         327
       ],
       "asset": "assets/diagrams/sequence-review/q23.svg",
-      "status": "待驗收",
+      "status": "完成",
       "sourceCropEvidence": "docs/qa/2026-10-28/sequence-review/q23-source-crop.png",
       "reconstruction": "Same 4/7/10 equal-length sticks and P1/P2/P3 labels. Exact 32-unit segment length and 8-unit junction gaps; enlarged labels for small screens. No answer annotations in the student diagram.",
       "sha256": "858e4f0cd3275e0153412dbdb28ffd138cf9f8a57138da03c1ebdbc1bd8f9a90",
-      "sourceVisualReview": "Original same-question page, standalone source crop/final SVG and actual 390/1440px student renders personally inspected. Q23 has 4/7/10 equal-length sticks, complete P1/P2/P3 labels and fixed intrinsic 580x150 sizing."
+      "sourceVisualReview": "Original same-question page, standalone source crop/final SVG and actual 390/1440px student renders personally inspected. Q23 has 4/7/10 equal-length sticks, complete P1/P2/P3 labels and fixed intrinsic 580x150 sizing.",
+      "websiteEvidence": "docs/qa/2026-10-28/sequence-review/live/q23-figure-390.png"
     }
   ],
   "heldQuestions": [
@@ -357,12 +381,24 @@
     "mathematics": "docs/qa/2026-10-28/sequence-review/mathematics.json",
     "browser": "docs/qa/2026-10-28/sequence-review/browser/report.json",
     "journey": "docs/qa/2026-10-28/sequence-review/study-journey.log",
-    "deployment": "待驗收"
+    "deployment": "docs/qa/2026-10-28/sequence-review/live-verification.json"
   },
   "counterpart": {
     "id": "source-6fe2030f28518ce0",
     "path": "S6/Sequence/sequence review.docx",
     "sha256": "cdf108db701eb8873369f21802114ce0c2aedb4011b183c598fc7024bc08cedb",
     "scope": "Counterpart text/conditions inspected for the two domain queries; not a blanket Word/PDF equivalence or question-image equivalence claim."
+  },
+  "publishedWorkStatus": "完成",
+  "sourceClarificationStatus": "待補來源",
+  "release": {
+    "commit": "335df26466118dbbace5a74e81c27ee73136e713",
+    "workflowRunId": 40638983248,
+    "pagesRunId": 40639022492,
+    "revision": "6f074237bb8e950f",
+    "publishedQuestions": 22,
+    "heldSourceRecords": 2,
+    "liveBrowserViews": 264,
+    "verifiedFileHashes": 104
   }
 }

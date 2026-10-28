@@ -17,7 +17,8 @@ fs.mkdirSync(output,{recursive:true});
  try{
   await Promise.all([320,390,768,1440].map(async width=>{
    const context=await browser.newContext({viewport:{width,height:1000}}),page=await context.newPage();page.on('pageerror',e=>errors.push({width,error:e.message}));
-   await page.goto(base+'dashboard.html');await page.locator('.chapter-row').first().waitFor();
+   const network=[];page.on('requestfailed',r=>network.push({url:r.url(),failure:r.failure()?.errorText}));page.on('response',r=>{if(r.status()>=400)network.push({url:r.url(),status:r.status()});});
+   try{await page.goto(base+'dashboard.html');await page.locator('.chapter-row').first().waitFor();}catch(e){fs.writeFileSync(path.join(output,`load-failure-${width}.json`),JSON.stringify({network,errors,body:await page.locator('body').innerText()},null,2));throw e;}
    await page.evaluate(ids=>{const u=Auth.ensureLocalSession();Learning.saveSession({userId:u.id,ids,index:0,answers:{},drafts:{},selection:{language:'bilingual',experience:'study'},elapsedMs:0,runningSince:null});},ids);
    await page.goto(base+'app.html');await page.locator('#resume-btn').click();await ready(page);
    for(let index=0;index<rows.length;index++)for(const language of ['en','zh','bilingual']){

@@ -1,0 +1,435 @@
+{
+  "checkedAt": "2026-10-28T05:40:38.144Z",
+  "base": "https://chester36963.github.io/eac-education/",
+  "releaseCommit": "335df26466118dbbace5a74e81c27ee73136e713",
+  "workflowRunId": 40638983248,
+  "workflowConclusion": "success",
+  "revision": "6f074237bb8e950f",
+  "totalQuestions": 1208,
+  "newQuestions": 22,
+  "sourceRecords": 24,
+  "sourceHolds": 2,
+  "files": [
+    {
+      "path": "app.html",
+      "sha256": "542e4a407da30f14be228e352daa67cb1daeabb7793a856d06211f07ff9e340c"
+    },
+    {
+      "path": "assets/diagrams/sequence-review/q02.png",
+      "sha256": "158f47d51c0edfaf608a98f27d03df3b13270c918a516cbb384131df8e72bd87"
+    },
+    {
+      "path": "assets/diagrams/sequence-review/q23.svg",
+      "sha256": "858e4f0cd3275e0153412dbdb28ffd138cf9f8a57138da03c1ebdbc1bd8f9a90"
+    },
+    {
+      "path": "auth.html",
+      "sha256": "dfe3f36e9f97e547bc056da9eb5ea0bd8bdfa8210a9c3662f429e7d09b6b2173"
+    },
+    {
+      "path": "css/base.css",
+      "sha256": "d85295e9aa06ce6ab6c1564e5743be4be6283900401804c65c49a01be09b0273"
+    },
+    {
+      "path": "css/components.css",
+      "sha256": "de178358c341513bbaa55e0a6e1111c4f269e1bcad5ab3a138d62abf4633d78f"
+    },
+    {
+      "path": "css/decorations.css",
+      "sha256": "1bb737bde14b52c32409e17d0019c4b36dc11dd342c2b11c2dd363a9e45ac8a9"
+    },
+    {
+      "path": "css/exploration.css",
+      "sha256": "0609db011d01f9dc2cf3f22283505f2aa0c315eb477c9d08de22eb90e9c7a88f"
+    },
+    {
+      "path": "css/journey.css",
+      "sha256": "92248b2da24d02dd623f873382ed7c386a152c9b27a44ac6717b9e8e28210ab1"
+    },
+    {
+      "path": "css/library.css",
+      "sha256": "c28de94da456a536d5d52d476a4d27f83404bf73f2c3be5076c0b11809a82bff"
+    },
+    {
+      "path": "css/math.css",
+      "sha256": "77c77caaa4f18d66eb37d162ac92ff326c06ace9f98944ecfc2ad3e6be137058"
+    },
+    {
+      "path": "css/responsive.css",
+      "sha256": "6bd65f67d1cdd2f3ce5d5b4cc195078a7112f4778154afb58d21933fc5e2f978"
+    },
+    {
+      "path": "css/site.css",
+      "sha256": "28d9a0b0b70966cef9de463185dabcee61e99d4d48c76f67a9a76b64b878a6c4"
+    },
+    {
+      "path": "css/study.css",
+      "sha256": "b33a93a1a096eb78bd5b9b41bf1fe13d746de5323279fc140b8ed5d0807bb6a6"
+    },
+    {
+      "path": "css/variables.css",
+      "sha256": "12cc8962c9780e2295b4a0bb88a89e2a0f1c8472603383ceed6fcfedbf81a3ab"
+    },
+    {
+      "path": "dashboard.html",
+      "sha256": "7093f7a98d0941bda48810151ac5ea37ed1bb387fece86fed4a996e7b61c0d1d"
+    },
+    {
+      "path": "data/bank.json",
+      "sha256": "627de464f08dc33b5f592716e26b8806a500a1bc8c7a29257c1c6ea9bae51fc0"
+    },
+    {
+      "path": "data/catalog.453d4005c8a0997d.json",
+      "sha256": "453d4005c8a0997dd75c15973babe9a33652a8f47d2e102f6d0a30344e69e345"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.39fee76a201ac6b3.json",
+      "sha256": "39fee76a201ac6b38c85d15511ed1b31bfd91dd9f866d5c78a657d51f11bb3d1"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.466fb4fdc78814c3.json",
+      "sha256": "466fb4fdc78814c3b2ff9f692e0bed5d1f4e5ee485eee4cb0bebcb1bdbde7694"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.4c12b438efcb00ee.json",
+      "sha256": "4c12b438efcb00ee7801d83993fc4ffef592352f9720e21a89f7e163547709ff"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.522a4f8b4d35f9a9.json",
+      "sha256": "522a4f8b4d35f9a92524a7eab423f79316322bc18b99a1693b71a3cdd0f9d266"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.60444d18a4269800.json",
+      "sha256": "60444d18a4269800c1a186df2affee655d5c1ba84beefde8d8aaea2b263d8d58"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.6d4056ce4090a843.json",
+      "sha256": "6d4056ce4090a84354c5830a1a91825b7496fb64edc16538727c3b24c7bb70da"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.7e0c25ffb204e583.json",
+      "sha256": "7e0c25ffb204e58369efa1fca27cf64da6b808cefd77bb1089bb3388d4b779bf"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.da7dacc8e1a5e5b5.json",
+      "sha256": "da7dacc8e1a5e5b59869028562b0069067116bc2a45a6f6a925f65222aab3400"
+    },
+    {
+      "path": "data/chapters/circle-equation.b5bafa7b1c30efd1.json",
+      "sha256": "b5bafa7b1c30efd177cbb8e1065ea8a2be5f75c6ef29a2e5e3ce94c1067eff71"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.16017cc4148c9591.json",
+      "sha256": "16017cc4148c9591b863836807b1f110e4769a9f15675cb757dbe6f60992d15a"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.1cc5bb6a32c61cf4.json",
+      "sha256": "1cc5bb6a32c61cf4ee5082183d9e0866d600d0df834726fef6f29e58892d62eb"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.1cce6346a01ccb8d.json",
+      "sha256": "1cce6346a01ccb8d9f24913d970987afad14b1861f22b46b85b2b85e89de9396"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.25df90d31996d702.json",
+      "sha256": "25df90d31996d702b0573aaf7656775d09ab7f9f205a2645ba40b6625efcb34e"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.4d9c407e16fe5aa2.json",
+      "sha256": "4d9c407e16fe5aa2cc9c75b66bfefac62dfb815dc7e67df28f44f78730742927"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.9b74598edc5ec7be.json",
+      "sha256": "9b74598edc5ec7be0bfa1206d5fbf33eff3cfced4bdb04723dd2724fb1598090"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.ca24ddf6ae3b18af.json",
+      "sha256": "ca24ddf6ae3b18af61514afb127f495a5ded1ddf8f90670713ae21639d150119"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.d04220a37d2f13cf.json",
+      "sha256": "d04220a37d2f13cfd71d99cc7d226945cf7c8293f06311c4e89af27fccaf70cd"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.fa3ed9ce89a82b09.json",
+      "sha256": "fa3ed9ce89a82b098552762bd19646be880102bd1dee050fca529392c5a4e3b9"
+    },
+    {
+      "path": "data/chapters/four-centres.f8542d03f6e70c03.json",
+      "sha256": "f8542d03f6e70c03dfd1ce52ee8b633ad143b1dc601de64530090548c6f0c03f"
+    },
+    {
+      "path": "data/chapters/locus-chunk.2bf4569992066058.json",
+      "sha256": "2bf4569992066058cf7ade51a20c1768f940ae920fde438ddf8001f99ec3a8b2"
+    },
+    {
+      "path": "data/chapters/locus-chunk.2fac3a0ff33f2bda.json",
+      "sha256": "2fac3a0ff33f2bda36a6b6af092ab51155a242a49a6b2b745076523cd4c45a00"
+    },
+    {
+      "path": "data/chapters/locus-chunk.365df4e928f90a96.json",
+      "sha256": "365df4e928f90a96040b1852334644a1cb1ec2e4ce03dbf07713f9e4c8c19c75"
+    },
+    {
+      "path": "data/chapters/locus-chunk.67a021f9205b9029.json",
+      "sha256": "67a021f9205b9029204194d4603e08347f07a79e1cc6acd6ac613ea438142391"
+    },
+    {
+      "path": "data/chapters/locus-chunk.680c462eff725efa.json",
+      "sha256": "680c462eff725efae0d64890e9aed6a573f903a45885277ccb366a11abfb75b0"
+    },
+    {
+      "path": "data/chapters/locus-chunk.83881647de7f1c46.json",
+      "sha256": "83881647de7f1c4653b4f4a4938cf967d2ea1c9974c770e71b97ba8d099319fe"
+    },
+    {
+      "path": "data/chapters/locus-chunk.d01cc34e50fade5e.json",
+      "sha256": "d01cc34e50fade5ec6e36224fc4691da809326cf285517aa8755720e50194b4f"
+    },
+    {
+      "path": "data/chapters/locus-chunk.e1615d5b12838256.json",
+      "sha256": "e1615d5b128382563708c8a504ed29fda560a9986807f2d9451995702b768202"
+    },
+    {
+      "path": "data/chapters/locus.d694622c94fdfa1e.json",
+      "sha256": "d694622c94fdfa1e2068827e629747ea7ec322b5ad5c78afe121251cfa3cb5b7"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.2a66039fa1fe67c4.json",
+      "sha256": "2a66039fa1fe67c4c1777e32a370a8f06c195e6ad0c9e7efc6abdf1afbc76d63"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.490f6ca6ae2d8708.json",
+      "sha256": "490f6ca6ae2d8708c218ff382fb6d0c27068ce7d0814025d7346061d1c376f99"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.bf5a51e090cdbaa5.json",
+      "sha256": "bf5a51e090cdbaa5618babcd11c22c742253297efbfa1c9d05a470e9444ea13e"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.d1e90f770e32a752.json",
+      "sha256": "d1e90f770e32a752f35f0873204d2b1f85c66936f5660c42ab498962e0c41908"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.d61add9c6d763829.json",
+      "sha256": "d61add9c6d76382920219e8d8fd21c653c30ad2915b75161d855f0bb714ccf3b"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.e84ce6047df96cf1.json",
+      "sha256": "e84ce6047df96cf1400e1a6309a02d909587a8baed7d766c58cb07c7e90b9b7a"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.e9e36aea0094fdb3.json",
+      "sha256": "e9e36aea0094fdb354cbda734996ba20293c060ecd85ad7f197e2fa3adbc727f"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.ec2bc728c421fad0.json",
+      "sha256": "ec2bc728c421fad04f0b1056dc772c579c269c344d62de6dae8225dd4b75a961"
+    },
+    {
+      "path": "data/chapters/mensuration.832765f43f907a87.json",
+      "sha256": "832765f43f907a87779a152899b475169ea5da91bd54310f643d14ea0938df16"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.4fff0a3ce915a35d.json",
+      "sha256": "4fff0a3ce915a35d731af178268df0e54d1c1b6aab8243f0289ade8a4320fa75"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.8db428fee4a0d2c9.json",
+      "sha256": "8db428fee4a0d2c99d7185b0779ea06a70d19a0934a0d7c8e47266125025cae1"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.8e7eb16e282b5728.json",
+      "sha256": "8e7eb16e282b572820393ca825c99af736906bf7b90b4edbba72c7dd20b816f4"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.960dc9c2feb61ee2.json",
+      "sha256": "960dc9c2feb61ee23e75a0453a9af5192dbac82f971fdb1f3ce88a8189d73a5d"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.a011dbf3b3322d2b.json",
+      "sha256": "a011dbf3b3322d2b6f22d767222036c92c208da35852d51c12f1b8c60916ecd3"
+    },
+    {
+      "path": "data/chapters/polynomial.c1459c875cf5e8f6.json",
+      "sha256": "c1459c875cf5e8f669726c7ca50ba23ebdef7dc2097ab9f894fe2c08ba1f7cb1"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.963188470630c945.json",
+      "sha256": "963188470630c945da6198bd35803b3b4b2d37ec2b6cb14ca218bc702e205e9c"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.bc72f151d5012e4c.json",
+      "sha256": "bc72f151d5012e4c6f4ecbd0c18796d2a78f6e6255da944462f3102f5867aa4d"
+    },
+    {
+      "path": "data/chapters/sequences.e2ef7fdc143b79b7.json",
+      "sha256": "e2ef7fdc143b79b74cbb5afc1c9c58ecd1e9cd346f20a577a0b8b0ed3f64be4d"
+    },
+    {
+      "path": "data/chapters/statistics-chunk.790e56f85f135e4f.json",
+      "sha256": "790e56f85f135e4ff218f1166382ad79d966e8665a6ab767d99e3bf75b531e14"
+    },
+    {
+      "path": "data/chapters/statistics-chunk.e129109d5c0a635d.json",
+      "sha256": "e129109d5c0a635dc8e916d171358d0304ed26e44d7ed0c19dfc22c1a7756198"
+    },
+    {
+      "path": "data/chapters/statistics.d9c5e87ca24de4cc.json",
+      "sha256": "d9c5e87ca24de4cc1c760c2fc60d43be18d290159577756567976dc3a2e9c6f9"
+    },
+    {
+      "path": "data/question-index.d4559b0e886b8563.json",
+      "sha256": "d4559b0e886b8563b5aa1bbb094a0a33abee217841247b64bd0464a231d189c6"
+    },
+    {
+      "path": "data/search/circle-equation.23647cf8fd68fe5e.json",
+      "sha256": "23647cf8fd68fe5ede18b3114c26830576aec40bb4fc2bb08c18b4435aca17de"
+    },
+    {
+      "path": "data/search/circle-equation.2d5072be08c025d2.json",
+      "sha256": "2d5072be08c025d2e0668a18ca1cac5196d7802b9cfd267ac9dad788a5ac4cc2"
+    },
+    {
+      "path": "data/search/four-centres.947fff1000609e75.json",
+      "sha256": "947fff1000609e753495a658704d8e78f36aca096cfcfe88320bc24d5b1f4032"
+    },
+    {
+      "path": "data/search/four-centres.9ec759b599c6aac7.json",
+      "sha256": "9ec759b599c6aac70eea70723991aaf7b39ce5520376e5c879a4d66e713d8d21"
+    },
+    {
+      "path": "data/search/four-centres.f01cd75ae8b18fcc.json",
+      "sha256": "f01cd75ae8b18fcc7efeb53b7faf417f8c85b34bf1b81465fd327d19857fe992"
+    },
+    {
+      "path": "data/search/locus.3ab1f82239b996c7.json",
+      "sha256": "3ab1f82239b996c73b80067069668a8d25af231ab58d51b2b4a02c0a3e89352c"
+    },
+    {
+      "path": "data/search/locus.e9cfdc8473ab80bc.json",
+      "sha256": "e9cfdc8473ab80bcdcec16e93452845aeda6c81c628a3a044686782c4670c08d"
+    },
+    {
+      "path": "data/search/mensuration.907e328feb8b52d8.json",
+      "sha256": "907e328feb8b52d881c83d0c68efede91e1042724fa0d875c33f7452a44163a3"
+    },
+    {
+      "path": "data/search/mensuration.9f579eaee1bb1392.json",
+      "sha256": "9f579eaee1bb13929f990fab8a34d316a0376b6810609f5e575ff280b2a4e667"
+    },
+    {
+      "path": "data/search/polynomial.0815400086257914.json",
+      "sha256": "08154000862579149d7a1604e8f040d78ddd9c429853d2d7aec43686cbf8fe5c"
+    },
+    {
+      "path": "data/search/polynomial.c91a6dbf0d3c825c.json",
+      "sha256": "c91a6dbf0d3c825cd121318a01444ede758dd210926424183dde414e8d81ae8c"
+    },
+    {
+      "path": "data/search/sequences.67aa13fa47966a6e.json",
+      "sha256": "67aa13fa47966a6ea6940974c6c7e0af5d1ae0e6270cca50becdd0de21713025"
+    },
+    {
+      "path": "data/search/statistics.35eed9bc62dcf371.json",
+      "sha256": "35eed9bc62dcf37116cc998cc922a2f8939731cc9d8fb222092f0a688d034c61"
+    },
+    {
+      "path": "index.html",
+      "sha256": "f8d65f3c70a3b4a9c670317a0c0ae8ccd5c8d9dcf0d11d9af1967265fbc028d8"
+    },
+    {
+      "path": "js/core/auth.js",
+      "sha256": "8766d5e2f05ba20c917719dfdf7ef685f4e37d9c4cda9ce663680ced43ef4b69"
+    },
+    {
+      "path": "js/core/config.js",
+      "sha256": "b1e1a8f12835bf18ba0a07eb572d80558fc95a6f43e973348130bdcbbb5d965a"
+    },
+    {
+      "path": "js/core/content.js",
+      "sha256": "aede1883ade9c7ead40ace21ee76b38840e022a639f5a518a6d58fc2e83fd888"
+    },
+    {
+      "path": "js/core/learning.js",
+      "sha256": "131c11888203500c88d13ad127d42e569df4d1ecd219b621b01e12f0a73c70ac"
+    },
+    {
+      "path": "js/core/math-models.js",
+      "sha256": "76643f15c160dbb31d4d1fa200aafd79fad7271052157006dc2ddc8d8ae560c0"
+    },
+    {
+      "path": "js/core/math.js",
+      "sha256": "64c2548586d695ffd55d4011f75a14cb89c6944dbca777e6c2a104275e46099f"
+    },
+    {
+      "path": "js/core/question-bank.js",
+      "sha256": "13eaa2f39d9dff7613cbbf29e61b6aaf15cb367042d71e6f5f9ee47ffabd335b"
+    },
+    {
+      "path": "js/core/search-worker.js",
+      "sha256": "275b3a9ab6605402ac1168034fa3992f533e3ef59320e809c7cd9d3a64e9fae2"
+    },
+    {
+      "path": "js/core/storage.js",
+      "sha256": "69d7aeaea77f612f40e19a9bcd9c60b1fd1d439382e762be346b9c043ece4f13"
+    },
+    {
+      "path": "js/engine/question-engine.js",
+      "sha256": "f068950ac4ee1ffb2d010529754aa8c667a17113ce1eb64f07dbf53461a36d75"
+    },
+    {
+      "path": "js/features/dashboard.js",
+      "sha256": "44308357ce0a6606a7424fe64996df8083d93d06c718acf410ae686004f93fbc"
+    },
+    {
+      "path": "js/features/exploration.js",
+      "sha256": "f4422958c1364d58c876f41d0b85768174e8ae0f56d0e4809c46496c213b1b2d"
+    },
+    {
+      "path": "js/features/gamification.js",
+      "sha256": "933f7b0f7aaad4aa1dc729fde0b8f5fa92fbc2f30c42ba5ac2037a1540a115f2"
+    },
+    {
+      "path": "js/features/home.js",
+      "sha256": "cbd18c196067a8303b1a5ec7546c50af9306b1a9e62d87803ae390809be8af76"
+    },
+    {
+      "path": "js/features/library.js",
+      "sha256": "c4ef48e2ba9f28a322d7c035e3ad4f1973d3e575d364620a19a155fbcf991c11"
+    },
+    {
+      "path": "js/features/practice.js",
+      "sha256": "b0b9175c28be65cb4629ff60abf43b03571b7797f0e9a6a754c5aa0d33d416d5"
+    },
+    {
+      "path": "js/features/settings.js",
+      "sha256": "a9589f2560d80f267d602d821b89f8b356e4cf6451d203589bdca4574a477df9"
+    },
+    {
+      "path": "js/features/study-instruments.js",
+      "sha256": "d923ec22afdb72be9152ffc0ad126c350f28577bcde9435a87833a32ef657568"
+    },
+    {
+      "path": "js/features/study-scenes.js",
+      "sha256": "7ce7ee752fb083f080535e8bbaccc895b51044d202068ab7a54df10b86fa58e1"
+    },
+    {
+      "path": "js/features/study-ui.js",
+      "sha256": "aebf05710738de58ac6be760cf7b113ac827824386fff5c4c355bfe4ddc0552b"
+    },
+    {
+      "path": "library.html",
+      "sha256": "7af5dbe89bfc5ac16536191ecca9ae4a65c97cfcd73bd1df9e6316212df6c0a0"
+    },
+    {
+      "path": "settings.html",
+      "sha256": "1ffa806acaaed0f39ebebca14434587071fd1dbe654f1cf5ec473adc92f9b6ca"
+    }
+  ],
+  "fileCount": 104,
+  "errors": [],
+  "browserViews": 264,
+  "liveStudyJourney": "passed",
+  "limitations": "Scope is this 24-record source batch plus shared runtime and generated bank. Two source-domain ambiguities remain held. Viewport testing is not physical-device/student research."
+}
