@@ -1,8 +1,8 @@
-# APGP review · cleaned bilingual source transcription
+# ASGS review · cleaned bilingual source transcription
 
-Source metadata: S6/Sequence/APGP review.pdf; SHA256 54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996. Question pages1–2; worked solutions pages3–10. No question requires a supplied figure. Metadata and duplicate decisions are editorial-only.
+Source metadata: S6/Sequence/ASGS review.pdf; SHA256 54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996. Question pages1–2; worked solutions pages3–10. No question requires a supplied figure. Metadata and duplicate decisions are editorial-only.
 
-## Q01. APGP / 等差等比數列
+## Q01. ASGS / 等差等比數列
 
 **分類：** log-products
 **主要技巧：** seq-product-sum
@@ -20,7 +20,7 @@ Let \(A(n)\) be the nth term of an AP, with \(A(3)=-14,A(10)=7\).
 ### 備註
 Original Q1; question page 1; solution page 3; duplicate.
 
-## Q02. APGP / 等差等比數列
+## Q02. ASGS / 等差等比數列
 
 **分類：** sequence-modelling
 **主要技巧：** seq-growth-model
@@ -34,7 +34,7 @@ A city spends \(\$3.24\times10^{10}\) on education in year 1 of a plan. Each sub
 ### 備註
 Original Q2; question page 1; solution page 4; duplicate.
 
-## Q03. APGP / 等差等比數列
+## Q03. ASGS / 等差等比數列
 
 **分類：** roots-sequences
 **主要技巧：** seq-vieta
@@ -52,7 +52,7 @@ Let \(p\) and \(q\) be respectively the sum and product of the roots of \((x+2)(
 ### 備註
 Original Q3; question page 1; solution page 5; publish.
 
-## Q04. APGP / 等差等比數列
+## Q04. ASGS / 等差等比數列
 
 **分類：** infinite-geometric
 **主要技巧：** seq-infinite-sum
@@ -70,7 +70,7 @@ A geometric sequence has first term \(2048\) and sum of its first three terms \(
 ### 備註
 Original Q4; question page 1; solution page 6; publish.
 
-## Q05. APGP / 等差等比數列
+## Q05. ASGS / 等差等比數列
 
 **分類：** infinite-geometric
 **主要技巧：** seq-infinite-sum
@@ -88,7 +88,7 @@ The second term of a geometric sequence is \(200\) and its sum to infinity is \(
 ### 備註
 Original Q5; question page 1; solution page 7; publish.
 
-## Q06. APGP / 等差等比數列
+## Q06. ASGS / 等差等比數列
 
 **分類：** infinite-geometric
 **主要技巧：** seq-infinite-subsequence
@@ -108,7 +108,7 @@ Let \(G(n)\) be the \(n\)th term of a geometric sequence. It is given that \(G(2
 ### 備註
 Original Q6; question page 2; solution page 8; publish.
 
-## Q07. APGP / 等差等比數列
+## Q07. ASGS / 等差等比數列
 
 **分類：** log-products
 **主要技巧：** seq-log-gp
@@ -126,7 +126,7 @@ Real numbers \(\alpha\) and \(\beta\) satisfy \(2^{\beta-\alpha}=16\) and \(\log
 ### 備註
 Original Q7; question page 2; solution page 9; publish.
 
-## Q08. APGP / 等差等比數列
+## Q08. ASGS / 等差等比數列
 
 **分類：** sequence-applications
 **主要技巧：** seq-interleave

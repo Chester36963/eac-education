@@ -129,7 +129,7 @@
 3. S1/introduction to algebra/Algebra review Final exam.docx 開首有捨入及指數等內容，初中複習卷必須拆至逐題主技巧。
 4. S5/combination and permutation 的代表題含集合式人數計算，不能將整份每題都當排列組合。
 5. S6/linear programming/mathskit_graph-paper_A4_2mm_Grid_Grey.pdf 是作圖支援材料，並非一道題。
-6. S6/Sequence/APGP review.docx 文字摘錄為空但有媒體；已看對應 PDF 第一頁，確有等差、等比及級數練習。
+6. S6/Sequence/ASGS review.docx 文字摘錄為空但有媒體；已看對應 PDF 第一頁，確有等差、等比及級數練習。
 7. M1/M1 prob distribution review.docx 抽文近乎只有 ANS；已看對應 PDF 第一頁，含幾何／泊松分佈及條件概率。不可當作缺題而棄掉。
 
 ## 可重現的資料

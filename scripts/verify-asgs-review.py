@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Independent exact/decimal checks for APGP review; no source answer key is evaluated."""
+"""Independent exact/decimal checks for ASGS review; no source answer key is evaluated."""
 from fractions import Fraction as F
 from decimal import Decimal as D, getcontext
 import json
@@ -47,4 +47,4 @@ valid=[m for m in range(1,140) if sum(terms[:2*m-1])>2251]
 check(8,'b',valid,list(range(48,96)),'Direct recurrence sums for m1..139: strict boundaries47 and96 excluded; minimum48.')
 product=lambda k:F(6,5)**sum(terms[2*n-1] for n in range(1,k+1))
 check(8,'c',product(16)<10**30<=product(17),True,'Exact integer-power product of even-index exponents at16/17; every exponent is positive.')
-print(json.dumps({'source':'S6/Sequence/APGP review.pdf','questions':8,'checks':checks,'totalChecks':len(checks)},ensure_ascii=False,indent=2))
+print(json.dumps({'source':'S6/Sequence/ASGS review.pdf','questions':8,'checks':checks,'totalChecks':len(checks)},ensure_ascii=False,indent=2))

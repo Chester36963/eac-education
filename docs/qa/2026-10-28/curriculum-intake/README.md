@@ -16,7 +16,7 @@
 
 | 原檔／頁 | 實際觀察 | 證據 |
 |---|---|---|
-| S6/Sequence/APGP review.pdf p1 | 五道編號練習可見，涉及等差、等比、有限／無窮級數、對數及根；DOCX 普通文字抽取卻是空白 | [原頁](sequence-page1.png) |
+| S6/Sequence/ASGS review.pdf p1 | 五道編號練習可見，涉及等差、等比、有限／無窮級數、對數及根；DOCX 普通文字抽取卻是空白 | [原頁](sequence-page1.png) |
 | M1/M1 prob distribution review.pdf p1 | 三道編號練習可見，含幾何／泊松分佈及條件概率；對應 DOCX 摘錄接近只有 ANS | [原頁](m1-distribution-page1.png) |
 
 同源路徑、source ID、原檔及 render SHA256、頁碼記在 [source-page-evidence.json](source-page-evidence.json)。兩頁已直接開啟視覺檢視，確認文字存在；未在此批次重新驗算其答案，未批准其中任何圖作學生資產。

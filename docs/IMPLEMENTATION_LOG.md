@@ -1,10 +1,10 @@
 # Implementation record
 
-## PIPE-07 · APGP review 小批匯入 · 2026-10-28
+## PIPE-07 · ASGS review 小批匯入 · 2026-10-28
 
-狀態 `LOG-20261028-APGP`：沿用工作台完成 8 個原題記錄（題目頁 p1–2，解答頁 p3–10）。Q1、Q2 逐題比對後分別指向已發布的數列穩定 ID，保留第二來源但沒有重複新增；Q3–Q8 新增 6 條 Core 結構題，分類到根與數列、收斂等比級數、數列對數、交錯數列等技巧。所有英文／繁體中文題幹、分題、解答、來源頁碼及解答頁碼已保存。
+狀態 `LOG-20261028-ASGS`：沿用工作台完成 8 個原題記錄（題目頁 p1–2，解答頁 p3–10）。Q1、Q2 逐題比對後分別指向已發布的數列穩定 ID，保留第二來源但沒有重複新增；Q3–Q8 新增 6 條 Core 結構題，分類到根與數列、收斂等比級數、數列對數、交錯數列等技巧。所有英文／繁體中文題幹、分題、解答、來源頁碼及解答頁碼已保存。
 
-來源 PDF 抽取文字不足，沒有把空白抽文當成沒有題目；逐頁檢視 p1–2，並檢視 p3–10 的解答圖片及配對 DOCX。這批題目沒有題幹圖像，不新增學生圖資。獨立 Fraction／Decimal／精確邊界核對保存於 [APGP mathematics](qa/2026-10-28/apgp-review/mathematics.json)，clean transcription 通過 math Markdown residue validator。匯入前五項驗收齊全、差異為 6 added／0 updated／2 duplicate／0 hold；匯入後 canonical 1,241 題，舊題 ID／學生記錄不重建。正式站 runtime commit 576c25b、Deploy 40687926759、Pages 40687985051 成功；公開 revision 12e783aa2dce36b9／1,241 題。
+來源 PDF 抽取文字不足，沒有把空白抽文當成沒有題目；逐頁檢視 p1–2，並檢視 p3–10 的解答圖片及配對 DOCX。這批題目沒有題幹圖像，不新增學生圖資。獨立 Fraction／Decimal／精確邊界核對保存於 [ASGS mathematics](qa/2026-10-28/asgs-review/mathematics.json)，clean transcription 通過 math Markdown residue validator。匯入前五項驗收齊全、差異為 6 added／0 updated／2 duplicate／0 hold；匯入後 canonical 1,241 題，舊題 ID／學生記錄不重建。正式站 runtime commit 576c25b、Deploy 40687926759、Pages 40687985051 成功；公開 revision 12e783aa2dce36b9／1,241 題。
 
 已跑內容 build、批次 preview、transaction apply；6 條新增題已實際作答／自評，四寬度及三語言共72個題面／解析狀態通過；本批沒有題圖。題圖 QA 不適用於本批（題幹沒有同題圖要求）。
 
@@ -38,7 +38,7 @@ Status LOG-20261028-CUR: completed the requested structure-first phase. **No new
 
 - Inventoried all nine supplied S1–S6/M1/M2/mock folders: 928 physical files (597 PDF, 329 DOCX, two ZIP) plus 23 archive members. Recorded fixed relative-path source IDs, SHA256, 324 Word/PDF pair candidates and 26 exact-byte duplicate groups. All 23 archive members match unpacked originals; three additional loose duplicate copies retained. File counts are not question counts.
 - Built 61 provisional curriculum containers (Core 42 / M1 9 / M2 10), bilingual names, learning purposes, advisory prerequisite graph, provisional teaching strands and unchanged bindings for seven published chapters. Source-level candidates remain distinct from question-level primary skills. All 951 source records have explicit routing status; 26 mixed/unclear sources retain a scope-review queue. Mock is a source dimension, not a duplicate course.
-- Inspected representative text openings, recorded 237 excerpts and 160 thin-extraction warnings; 328 Word files contain media. Rendered and directly inspected APGP p1 and M1 probability-distribution p1 to confirm ordinary text extraction misses actual questions. These two whole-page images are editorial evidence outside src, not approved student diagrams or independently checked answers.
+- Inspected representative text openings, recorded 237 excerpts and 160 thin-extraction warnings; 328 Word files contain media. Rendered and directly inspected ASGS p1 and M1 probability-distribution p1 to confirm ordinary text extraction misses actual questions. These two whole-page images are editorial evidence outside src, not approved student diagrams or independently checked answers.
 - Added a shared website template contract for approved charcoal/light-paper/grey-blue, existing fonts and MathJax, compact bilingual blocks, complete statistics borders/left alignment, explicit scene matching and accessible interactions. Explicitly recorded the missing M1/M2 course-filter/index/URL/active-set compatibility gate before publishing extended-course questions. No course support is falsely claimed.
 - Added reproducible read-only inventory, pure routing/validation and deterministic report build/check. CI and deploy helper check curriculum output. Completed CUR-01/02; CUR-03–07 remain pending. Source contents were not edited; documents were treated as source material, not task instructions.
 
@@ -383,3 +383,8 @@ Preserved the approved monochrome cover and book opening. Added the centroid G a
 Simplified interior decoration to faint curved geometry at the right edge, removed large mathematical glyphs and crossing background lines, and replaced repeated directory artwork with a single continuous background. Chapter-thumbnail motion now updates at 25 fps with slower parameter changes. Question content and its diagrams remain unchanged.
 
 Validation: exploration, four-centres-motion and study-design browser suites passed at 320, 390, 768 and 1440 px, including rendered G/H invariants, toggles, dragging, autoplay, reduced motion, navigation and overflow checks. Reviewed mobile obtuse/equilateral cover diagrams and desktop study layout. Canonical build check and all 23 unit/content tests passed. No PDF produced.
+# PIPE-08 · ASGS 命名一致化 · 2026-10-28
+
+狀態 `LOG-20261028-ASGS`：將本批原先誤寫為 APGP 的使用者面向標籤、來源顯示名稱、QA 目錄、驗證腳本及生成資料統一修正為 ASGS。原始本機 PDF／DOCX 同步改名為 `ASGS review`；檔案內容及 SHA256 不變，題目穩定 ID、學生記錄及 1,241 題總數不變。重新生成來源盤點及課程路由，`verify-asgs-review.py` 的 19 項獨立核對全部通過。
+
+驗收：`build-content.cjs --check`、`build-curriculum.cjs --check`、`git diff --check` 及完整 Node suite（1,113 passed）通過；未再發現 APGP 殘留字串。

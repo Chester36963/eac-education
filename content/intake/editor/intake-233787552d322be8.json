@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "intake-233787552d322be8",
   "sourceId": "source-233787552d322be8",
-  "sourcePath": "S6/Sequence/APGP review.pdf",
+  "sourcePath": "S6/Sequence/ASGS review.pdf",
   "sourceSha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
   "topicId": "sequences",
   "expectedQuestions": 8,
@@ -26,8 +26,8 @@
         "difficulty": "hard",
         "minForm": 4,
         "assessmentMode": "solution-comparison",
-        "source": "S6/Sequence/APGP review.pdf · Q1 (attribution not supplied)",
-        "sourceZh": "S6/Sequence/APGP review.pdf · 第1題（未提供原出處）",
+        "source": "S6/Sequence/ASGS review.pdf · Q1 (attribution not supplied)",
+        "sourceZh": "S6/Sequence/ASGS review.pdf · 第1題（未提供原出處）",
         "solution": "1. (a) Find the difference and first term.\n\\[d=\\frac{7-(-14)}7=3,\\quad A(1)=-14-2(3)=\\boxed{-20}\\]\n\n2. (b) Write the general term.\n\\[A(n)=-20+3(n-1)=3n-23\\]\n\n3. The product exponent is the sum of all A terms.\n\\[\\prod_{i=1}^kG(i)=3^{\\sum_{i=1}^kA(i)}\\]\n\n4. Find that exponent using the AP sum.\n\\[E_k=\\frac k2[-20+(3k-23)]=\\frac{k(3k-43)}2\\]\n\n5. Since 3>1, taking logarithms preserves the inequality.\n\\[E_k<\\log_3 100000\\approx10.479516\\]\n\n6. The exponent for 14 terms is still negative.\n\\[E_{14}=14(-1)/2=-7<10.479516\\]\n\n7. The exponent for 15 terms already exceeds the bound.\n\\[E_{15}=15(2)/2=15>10.479516\\]\n\n8. All subsequently added A terms are positive, so the exponent sum keeps increasing.\n\\[A(15)=22>0,\\quad d=3>0\\]\n\n9. Therefore the greatest valid integer is 14.\n\\[\\boxed{k=14}\\]",
         "solutionZh": "1. (a) 計算公差及首項。\n\\[d=\\frac{7-(-14)}7=3,\\quad A(1)=-14-2(3)=\\boxed{-20}\\]\n\n2. (b) 寫通項。\n\\[A(n)=-20+3(n-1)=3n-23\\]\n\n3. 乘積指數為所有 A 項的總和。\n\\[\\prod_{i=1}^kG(i)=3^{\\sum_{i=1}^kA(i)}\\]\n\n4. 求該指數的等差和。\n\\[E_k=\\frac k2[-20+(3k-23)]=\\frac{k(3k-43)}2\\]\n\n5. 底數 3>1，取對數方向不變。\n\\[E_k<\\log_3 100000\\approx10.479516\\]\n\n6. 14 項的指數仍為負。\n\\[E_{14}=14(-1)/2=-7<10.479516\\]\n\n7. 15 項的指數已超過。\n\\[E_{15}=15(2)/2=15>10.479516\\]\n\n8. 之後新增的 A 項為正，指數和只會繼續增加。\n\\[A(15)=22>0,\\quad d=3>0\\]\n\n9. 因此最大可行整數為 14。\n\\[\\boxed{k=14}\\]",
         "noteSource": {
@@ -39,14 +39,14 @@
           "collection": "by-topic-review-materials",
           "sourceId": "source-233787552d322be8",
           "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
-          "file": "S6/Sequence/APGP review.pdf",
+          "file": "S6/Sequence/ASGS review.pdf",
           "number": "1",
           "page": 1,
           "solutionPages": [
             3
           ],
           "attributionStatus": "not-supplied",
-          "intakeStage": "editor-apgp-2026-10-28"
+          "intakeStage": "editor-asgs-2026-10-28"
         },
         "classification": {
           "version": "2026-10-23",
@@ -69,7 +69,7 @@
         3
       ],
       "canonicalId": "import-sequences-91db2df506d63f63",
-      "reason": "Compared PDF question page1 and worked solution page3: same numerical data, both subparts, term indices, base and strict threshold as import-sequences-91db2df506d63f63. Existing stable student ID is retained; this APGP PDF is recorded as an additional source, not a second independent question.",
+      "reason": "Compared PDF question page1 and worked solution page3: same numerical data, both subparts, term indices, base and strict threshold as import-sequences-91db2df506d63f63. Existing stable student ID is retained; this ASGS PDF is recorded as an additional source, not a second independent question.",
       "history": [
         {
           "at": "2026-10-28T12:11:41.828Z",
@@ -103,20 +103,20 @@
         "solution": "Use \\(S_n=3.24\\times10^{10}(1.05^n-1)/0.05\\). (a) \\(S_{15}\\approx6.99145460258566\\times10^{11}\\) dollars, or \\(6.99\\times10^{11}\\) to 3 significant figures. (b) \\(1.05^n>206/81\\) gives \\(n>\\log(206/81)/\\log(1.05)\\approx19.13146\\). The least integer is 20; check n=19 and20 directly.",
         "solutionZh": "用等比和 \\(S_n=3.24\\times10^{10}(1.05^n-1)/0.05\\)。(a) \\(S_{15}\\approx6.99145460258566\\times10^{11}\\) 元，三位有效數字為 \\(6.99\\times10^{11}\\)。(b) 化簡得 \\(1.05^n>206/81\\)，取對數後 n 大於約 19.1，故最小整數為 20，並回代 19、20 檢查。",
         "solutionStatus": "independently-rederived",
-        "source": "S6/Sequence/APGP review.pdf · Q2 (attribution not supplied)",
-        "sourceZh": "S6/Sequence/APGP review.pdf · 第2題（未提供原出處）",
+        "source": "S6/Sequence/ASGS review.pdf · Q2 (attribution not supplied)",
+        "sourceZh": "S6/Sequence/ASGS review.pdf · 第2題（未提供原出處）",
         "provenance": {
           "collection": "by-topic-review-materials",
           "sourceId": "source-233787552d322be8",
           "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
-          "file": "S6/Sequence/APGP review.pdf",
+          "file": "S6/Sequence/ASGS review.pdf",
           "number": "2",
           "page": 1,
           "solutionPages": [
             4
           ],
           "attributionStatus": "not-supplied",
-          "intakeStage": "editor-apgp-2026-10-28"
+          "intakeStage": "editor-asgs-2026-10-28"
         },
         "classification": {
           "version": "editor-pilot-v1",
@@ -162,7 +162,7 @@
         4
       ],
       "canonicalId": "import-sequences-c43df14968861654",
-      "reason": "Compared PDF question page1 and worked solution page4: same numerical data, both subparts, term indices, base and strict threshold as import-sequences-c43df14968861654. Existing stable student ID is retained; this APGP PDF is recorded as an additional source, not a second independent question.",
+      "reason": "Compared PDF question page1 and worked solution page4: same numerical data, both subparts, term indices, base and strict threshold as import-sequences-c43df14968861654. Existing stable student ID is retained; this ASGS PDF is recorded as an additional source, not a second independent question.",
       "history": [
         {
           "at": "2026-10-28T12:11:41.829Z",
@@ -186,27 +186,27 @@
       "approvals": {
         "text": {
           "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.198Z"
         },
         "classification": {
           "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.201Z"
         },
         "mathematics": {
           "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.202Z"
         },
         "figures": {
           "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.202Z"
         },
         "studentView": {
           "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.203Z"
         }
       },
@@ -215,20 +215,20 @@
         "difficulty": "hard",
         "minForm": 5,
         "course": "core",
-        "source": "S6/Sequence/APGP review.pdf · Q3 (attribution not supplied)",
-        "sourceZh": "S6/Sequence/APGP review.pdf · 第3題（未提供原出處）",
+        "source": "S6/Sequence/ASGS review.pdf · Q3 (attribution not supplied)",
+        "sourceZh": "S6/Sequence/ASGS review.pdf · 第3題（未提供原出處）",
         "provenance": {
           "collection": "by-topic-review-materials",
           "sourceId": "source-233787552d322be8",
           "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
-          "file": "S6/Sequence/APGP review.pdf",
+          "file": "S6/Sequence/ASGS review.pdf",
           "number": "3",
           "page": 1,
           "solutionPages": [
             5
           ],
           "attributionStatus": "not-supplied",
-          "intakeStage": "editor-apgp-2026-10-28"
+          "intakeStage": "editor-asgs-2026-10-28"
         },
         "id": "import-sequences-35083d882189dbc8",
         "assessmentMode": "solution-comparison",
@@ -271,9 +271,9 @@
           ]
         },
         "classification": {
-          "version": "editor-apgp-v1",
+          "version": "editor-asgs-v1",
           "basis": "editor-reviewed-primary-solving-method",
-          "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q3",
+          "evidence": "docs/qa/2026-10-28/asgs-review/mathematics.json#Q3",
           "status": "editor-pipeline-reviewed"
         }
       },
@@ -298,27 +298,27 @@
       "approvals": {
         "text": {
           "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.204Z"
         },
         "classification": {
           "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.206Z"
         },
         "mathematics": {
           "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.206Z"
         },
         "figures": {
           "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.207Z"
         },
         "studentView": {
           "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.208Z"
         }
       },
@@ -327,20 +327,20 @@
         "difficulty": "medium",
         "minForm": 5,
         "course": "core",
-        "source": "S6/Sequence/APGP review.pdf · Q4 (attribution not supplied)",
-        "sourceZh": "S6/Sequence/APGP review.pdf · 第4題（未提供原出處）",
+        "source": "S6/Sequence/ASGS review.pdf · Q4 (attribution not supplied)",
+        "sourceZh": "S6/Sequence/ASGS review.pdf · 第4題（未提供原出處）",
         "provenance": {
           "collection": "by-topic-review-materials",
           "sourceId": "source-233787552d322be8",
           "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
-          "file": "S6/Sequence/APGP review.pdf",
+          "file": "S6/Sequence/ASGS review.pdf",
           "number": "4",
           "page": 1,
           "solutionPages": [
             6
           ],
           "attributionStatus": "not-supplied",
-          "intakeStage": "editor-apgp-2026-10-28"
+          "intakeStage": "editor-asgs-2026-10-28"
         },
         "id": "import-sequences-68c7d745d5ae8753",
         "assessmentMode": "solution-comparison",
@@ -383,9 +383,9 @@
           ]
         },
         "classification": {
-          "version": "editor-apgp-v1",
+          "version": "editor-asgs-v1",
           "basis": "editor-reviewed-primary-solving-method",
-          "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q4",
+          "evidence": "docs/qa/2026-10-28/asgs-review/mathematics.json#Q4",
           "status": "editor-pipeline-reviewed"
         }
       },
@@ -410,27 +410,27 @@
       "approvals": {
         "text": {
           "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.209Z"
         },
         "classification": {
           "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.209Z"
         },
         "mathematics": {
           "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.210Z"
         },
         "figures": {
           "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.211Z"
         },
         "studentView": {
           "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.212Z"
         }
       },
@@ -439,20 +439,20 @@
         "difficulty": "medium",
         "minForm": 5,
         "course": "core",
-        "source": "S6/Sequence/APGP review.pdf · Q5 (attribution not supplied)",
-        "sourceZh": "S6/Sequence/APGP review.pdf · 第5題（未提供原出處）",
+        "source": "S6/Sequence/ASGS review.pdf · Q5 (attribution not supplied)",
+        "sourceZh": "S6/Sequence/ASGS review.pdf · 第5題（未提供原出處）",
         "provenance": {
           "collection": "by-topic-review-materials",
           "sourceId": "source-233787552d322be8",
           "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
-          "file": "S6/Sequence/APGP review.pdf",
+          "file": "S6/Sequence/ASGS review.pdf",
           "number": "5",
           "page": 1,
           "solutionPages": [
             7
           ],
           "attributionStatus": "not-supplied",
-          "intakeStage": "editor-apgp-2026-10-28"
+          "intakeStage": "editor-asgs-2026-10-28"
         },
         "id": "import-sequences-9f2d3660ddb2c277",
         "assessmentMode": "solution-comparison",
@@ -495,9 +495,9 @@
           ]
         },
         "classification": {
-          "version": "editor-apgp-v1",
+          "version": "editor-asgs-v1",
           "basis": "editor-reviewed-primary-solving-method",
-          "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q5",
+          "evidence": "docs/qa/2026-10-28/asgs-review/mathematics.json#Q5",
           "status": "editor-pipeline-reviewed"
         }
       },
@@ -522,27 +522,27 @@
       "approvals": {
         "text": {
           "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.214Z"
         },
         "classification": {
           "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.215Z"
         },
         "mathematics": {
           "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.216Z"
         },
         "figures": {
           "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.217Z"
         },
         "studentView": {
           "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.217Z"
         }
       },
@@ -551,20 +551,20 @@
         "difficulty": "hard",
         "minForm": 5,
         "course": "core",
-        "source": "S6/Sequence/APGP review.pdf · Q6 (attribution not supplied)",
-        "sourceZh": "S6/Sequence/APGP review.pdf · 第6題（未提供原出處）",
+        "source": "S6/Sequence/ASGS review.pdf · Q6 (attribution not supplied)",
+        "sourceZh": "S6/Sequence/ASGS review.pdf · 第6題（未提供原出處）",
         "provenance": {
           "collection": "by-topic-review-materials",
           "sourceId": "source-233787552d322be8",
           "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
-          "file": "S6/Sequence/APGP review.pdf",
+          "file": "S6/Sequence/ASGS review.pdf",
           "number": "6",
           "page": 2,
           "solutionPages": [
             8
           ],
           "attributionStatus": "not-supplied",
-          "intakeStage": "editor-apgp-2026-10-28"
+          "intakeStage": "editor-asgs-2026-10-28"
         },
         "id": "import-sequences-ef33715928261796",
         "assessmentMode": "solution-comparison",
@@ -615,9 +615,9 @@
           ]
         },
         "classification": {
-          "version": "editor-apgp-v1",
+          "version": "editor-asgs-v1",
           "basis": "editor-reviewed-primary-solving-method",
-          "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q6",
+          "evidence": "docs/qa/2026-10-28/asgs-review/mathematics.json#Q6",
           "status": "editor-pipeline-reviewed"
         }
       },
@@ -642,27 +642,27 @@
       "approvals": {
         "text": {
           "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.218Z"
         },
         "classification": {
           "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.219Z"
         },
         "mathematics": {
           "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.220Z"
         },
         "figures": {
           "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.220Z"
         },
         "studentView": {
           "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.221Z"
         }
       },
@@ -671,20 +671,20 @@
         "difficulty": "hard",
         "minForm": 5,
         "course": "core",
-        "source": "S6/Sequence/APGP review.pdf · Q7 (attribution not supplied)",
-        "sourceZh": "S6/Sequence/APGP review.pdf · 第7題（未提供原出處）",
+        "source": "S6/Sequence/ASGS review.pdf · Q7 (attribution not supplied)",
+        "sourceZh": "S6/Sequence/ASGS review.pdf · 第7題（未提供原出處）",
         "provenance": {
           "collection": "by-topic-review-materials",
           "sourceId": "source-233787552d322be8",
           "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
-          "file": "S6/Sequence/APGP review.pdf",
+          "file": "S6/Sequence/ASGS review.pdf",
           "number": "7",
           "page": 2,
           "solutionPages": [
             9
           ],
           "attributionStatus": "not-supplied",
-          "intakeStage": "editor-apgp-2026-10-28"
+          "intakeStage": "editor-asgs-2026-10-28"
         },
         "id": "import-sequences-e03314fc746f0d18",
         "assessmentMode": "solution-comparison",
@@ -727,9 +727,9 @@
           ]
         },
         "classification": {
-          "version": "editor-apgp-v1",
+          "version": "editor-asgs-v1",
           "basis": "editor-reviewed-primary-solving-method",
-          "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q7",
+          "evidence": "docs/qa/2026-10-28/asgs-review/mathematics.json#Q7",
           "status": "editor-pipeline-reviewed"
         }
       },
@@ -754,27 +754,27 @@
       "approvals": {
         "text": {
           "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.222Z"
         },
         "classification": {
           "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.223Z"
         },
         "mathematics": {
           "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.224Z"
         },
         "figures": {
           "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.224Z"
         },
         "studentView": {
           "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/apgp-review/mathematics.json.",
+          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
           "at": "2026-10-28T12:13:26.225Z"
         }
       },
@@ -783,20 +783,20 @@
         "difficulty": "hard",
         "minForm": 5,
         "course": "core",
-        "source": "S6/Sequence/APGP review.pdf · Q8 (attribution not supplied)",
-        "sourceZh": "S6/Sequence/APGP review.pdf · 第8題（未提供原出處）",
+        "source": "S6/Sequence/ASGS review.pdf · Q8 (attribution not supplied)",
+        "sourceZh": "S6/Sequence/ASGS review.pdf · 第8題（未提供原出處）",
         "provenance": {
           "collection": "by-topic-review-materials",
           "sourceId": "source-233787552d322be8",
           "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
-          "file": "S6/Sequence/APGP review.pdf",
+          "file": "S6/Sequence/ASGS review.pdf",
           "number": "8",
           "page": 2,
           "solutionPages": [
             10
           ],
           "attributionStatus": "not-supplied",
-          "intakeStage": "editor-apgp-2026-10-28"
+          "intakeStage": "editor-asgs-2026-10-28"
         },
         "id": "import-sequences-ffd4d7a5803d0451",
         "assessmentMode": "solution-comparison",
@@ -847,9 +847,9 @@
           ]
         },
         "classification": {
-          "version": "editor-apgp-v1",
+          "version": "editor-asgs-v1",
           "basis": "editor-reviewed-primary-solving-method",
-          "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q8",
+          "evidence": "docs/qa/2026-10-28/asgs-review/mathematics.json#Q8",
           "status": "editor-pipeline-reviewed"
         }
       },
