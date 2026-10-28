@@ -116,7 +116,6 @@ CONTENT-B13狀態：完成本批UI驗收，內容不變。本批沒有匯入、�
 | SEQ-01 | 完成 | `S6/Sequence/sequence review.pdf` 24 個原題號已逐題定位、雙語整理及獨立算式核對；22 題匯入，Q10/Q20 因來源定義域缺口待補。 |
 | SEQ-02 | 完成 | Q2 原頁點圖裁剪、Q23 原頁圖審閱及可編輯 SVG 重建；圖題均綁定 source ID、頁碼、題號及 QA evidence。 |
 | SEQ-03 | 完成 | 數列新增 foundation、AP/GP、收斂及 modelling 小節；舊 21 題 ID／進度保留，題庫由 1,186 增至 1,208。 |
-
 | SEQ-04 | 待補來源 | Q10 缺非零首項條件；Q20 未排除零公比；PDF／Word 條件及所有額外分支已記錄，不擅自改題。 |
 
 數學驗算、來源欄位、重複掃描及限制見 [sequence QA](qa/2026-10-28/sequence-review/README.md)、[review manifest](../content/intake/sequence-review-2026-10-28/review.json) 及 `docs/qa/2026-10-28/sequence-review/mathematics.json`。Q22 保留原答案的三位有效數字，同時顯示未提前捨入的精確近似；Q24 明確分開數學臨界值 $4112.44 與整數仙足額供款 $4112.45。
