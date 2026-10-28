@@ -1,5 +1,13 @@
 # Implementation record
 
+## PIPE-07 · APGP review 小批匯入 · 2026-10-28
+
+狀態 `LOG-20261028-APGP`：沿用工作台完成 8 個原題記錄（題目頁 p1–2，解答頁 p3–10）。Q1、Q2 逐題比對後分別指向已發布的數列穩定 ID，保留第二來源但沒有重複新增；Q3–Q8 新增 6 條 Core 結構題，分類到根與數列、收斂等比級數、數列對數、交錯數列等技巧。所有英文／繁體中文題幹、分題、解答、來源頁碼及解答頁碼已保存。
+
+來源 PDF 抽取文字不足，沒有把空白抽文當成沒有題目；逐頁檢視 p1–2，並檢視 p3–10 的解答圖片及配對 DOCX。這批題目沒有題幹圖像，不新增學生圖資。獨立 Fraction／Decimal／精確邊界核對保存於 [APGP mathematics](qa/2026-10-28/apgp-review/mathematics.json)，clean transcription 通過 math Markdown residue validator。匯入前五項驗收齊全、差異為 6 added／0 updated／2 duplicate／0 hold；匯入後 canonical 1,241 題，舊題 ID／學生記錄不重建。
+
+已跑內容 build、批次 preview、transaction apply；6 條新增題已實際作答／自評，四寬度及三語言共72個題面／解析狀態通過；本批沒有題圖。題圖 QA 不適用於本批（題幹沒有同題圖要求）。
+
 ## PIPE-E · 本機工作台批量定位及連續編輯 · 2026-10-28
 
 已完成：原題號／跨頁清單預覽及空白草稿登記；同定位重跑略過、不同頁碼阻止整批覆寫、來源版本及revision檢查；原題搜尋及工作範圍、待辦直達、儲存並下一題；未儲存共用題面預覽、無效選項保留有效畫面、完整JSON未套用阻止儲存、Cmd／Ctrl+S及儲存期間防止輸入競態。沿用淺紙／灰藍及44px控制。沒有改動src、canonical題目、題圖、學生ID或紀錄；題庫仍1,235題。

@@ -1,0 +1,116 @@
+{
+  "sourceId": "source-233787552d322be8",
+  "sourcePath": "S6/Sequence/APGP review.pdf",
+  "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+  "pdfPages": 10,
+  "questionPages": [
+    1,
+    2
+  ],
+  "solutionPages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "originalQuestions": 8,
+  "newQuestions": 6,
+  "confirmedDuplicates": 2,
+  "held": 0,
+  "figureRequired": false,
+  "reviewMethod": "Original PDF pages1/2 and all11 embedded worked-solution images from pages3..10 inspected at their native size. No solutions were counted as extra questions and no answer images enter student question bodies.",
+  "records": [
+    {
+      "number": "1",
+      "questionPages": [
+        1
+      ],
+      "solutionPages": [
+        3
+      ],
+      "disposition": "duplicate",
+      "figureRequired": false
+    },
+    {
+      "number": "2",
+      "questionPages": [
+        1
+      ],
+      "solutionPages": [
+        4
+      ],
+      "disposition": "duplicate",
+      "figureRequired": false
+    },
+    {
+      "number": "3",
+      "questionPages": [
+        1
+      ],
+      "solutionPages": [
+        5
+      ],
+      "disposition": "publish",
+      "figureRequired": false
+    },
+    {
+      "number": "4",
+      "questionPages": [
+        1
+      ],
+      "solutionPages": [
+        6
+      ],
+      "disposition": "publish",
+      "figureRequired": false
+    },
+    {
+      "number": "5",
+      "questionPages": [
+        1
+      ],
+      "solutionPages": [
+        7
+      ],
+      "disposition": "publish",
+      "figureRequired": false
+    },
+    {
+      "number": "6",
+      "questionPages": [
+        2
+      ],
+      "solutionPages": [
+        8
+      ],
+      "disposition": "publish",
+      "figureRequired": false
+    },
+    {
+      "number": "7",
+      "questionPages": [
+        2
+      ],
+      "solutionPages": [
+        9
+      ],
+      "disposition": "publish",
+      "figureRequired": false
+    },
+    {
+      "number": "8",
+      "questionPages": [
+        2
+      ],
+      "solutionPages": [
+        10
+      ],
+      "disposition": "publish",
+      "figureRequired": false
+    }
+  ]
+}

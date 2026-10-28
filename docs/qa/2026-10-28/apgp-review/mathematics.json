@@ -1,0 +1,140 @@
+{
+  "source": "S6/Sequence/APGP review.pdf",
+  "questions": 8,
+  "checks": [
+    {
+      "question": 1,
+      "part": "a",
+      "value": "(Fraction(-20, 1), Fraction(3, 1))",
+      "method": "Solve the two AP observations, including the negative first term.",
+      "status": "pass"
+    },
+    {
+      "question": 1,
+      "part": "b",
+      "value": "True",
+      "method": "Exact products at k=14 and15; exponent grows for every k>=15.",
+      "status": "pass"
+    },
+    {
+      "question": 2,
+      "part": "a",
+      "value": "699145460258.56598300317382812500",
+      "method": "60-digit Decimal annual-term sum; final displayed result is 6.99e11 to 3sf.",
+      "status": "pass"
+    },
+    {
+      "question": 2,
+      "part": "b",
+      "value": "True",
+      "method": "Strict threshold checked at consecutive integers19/20.",
+      "status": "pass"
+    },
+    {
+      "question": 3,
+      "part": "a",
+      "value": "[37, 4, -8, 24]",
+      "method": "Original equation expands to x^2-8x+4; four substitutions independently confirm the coefficients, hence p=8,q=4.",
+      "status": "pass"
+    },
+    {
+      "question": 3,
+      "part": "b",
+      "value": "True",
+      "method": "Cancel positive log2, then directly evaluate alpha8/9; index condition makes alpha a nonnegative integer.",
+      "status": "pass"
+    },
+    {
+      "question": 4,
+      "part": "a:7/8",
+      "value": "5408",
+      "method": "Direct three-term substitution of each common-ratio root.",
+      "status": "pass"
+    },
+    {
+      "question": 4,
+      "part": "a:-15/8",
+      "value": "5408",
+      "method": "Direct three-term substitution of each common-ratio root.",
+      "status": "pass"
+    },
+    {
+      "question": 4,
+      "part": "b",
+      "value": "True",
+      "method": "Exact rational partial sums at37/38; negative ratio branch has absolute ratio>1.",
+      "status": "pass"
+    },
+    {
+      "question": 5,
+      "part": "a",
+      "value": "(Fraction(200, 1), Fraction(800, 1))",
+      "method": "Reconstruct second term and infinite sum; r(1-r)=1/4 has only r=1/2.",
+      "status": "pass"
+    },
+    {
+      "question": 5,
+      "part": "b",
+      "value": "True",
+      "method": "Exact rational comparison at33/34; no floating-point rounding of the near-limit sums.",
+      "status": "pass"
+    },
+    {
+      "question": 6,
+      "part": "a",
+      "value": "(Fraction(100, 1), Fraction(256, 5))",
+      "method": "Reconstruct G2 andG5; r^3=64/125 has unique real r=4/5.",
+      "status": "pass"
+    },
+    {
+      "question": 6,
+      "part": "b",
+      "value": "625",
+      "method": "All positive finite partial sums are below625, hence cannot exceed630.",
+      "status": "pass"
+    },
+    {
+      "question": 6,
+      "part": "c",
+      "value": "True",
+      "method": "Exact rational values at8/9; both exponential terms strictly decrease.",
+      "status": "pass"
+    },
+    {
+      "question": 7,
+      "part": "a",
+      "value": "(16, 16)",
+      "method": "Original exponential and logarithm arguments both reproduced.",
+      "status": "pass"
+    },
+    {
+      "question": 7,
+      "part": "b",
+      "value": "True",
+      "method": "Direct60-digit summation of16 and17 terms; log means base10.",
+      "status": "pass"
+    },
+    {
+      "question": 8,
+      "part": "a",
+      "value": "(Fraction(66, 1), Fraction(9, 1))",
+      "method": "Reconstruct initial odd/even terms using the two recurrences.",
+      "status": "pass"
+    },
+    {
+      "question": 8,
+      "part": "b",
+      "value": "[48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95]",
+      "method": "Direct recurrence sums for m1..139: strict boundaries47 and96 excluded; minimum48.",
+      "status": "pass"
+    },
+    {
+      "question": 8,
+      "part": "c",
+      "value": "True",
+      "method": "Exact integer-power product of even-index exponents at16/17; every exponent is positive.",
+      "status": "pass"
+    }
+  ],
+  "totalChecks": 19
+}
