@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "revision": "2ffd9cb690908b1f",
-  "totalQuestions": 1186,
+  "revision": "6f074237bb8e950f",
+  "totalQuestions": 1208,
   "chapterCount": 7,
-  "catalog": "data/catalog.b21422ad96331fa8.json",
-  "index": "data/question-index.f0301e109fff4128.json",
+  "catalog": "data/catalog.453d4005c8a0997d.json",
+  "index": "data/question-index.d4559b0e886b8563.json",
   "search": [
     "data/search/four-centres.f01cd75ae8b18fcc.json",
     "data/search/four-centres.9ec759b599c6aac7.json",
@@ -15,7 +15,7 @@
     "data/search/circle-equation.2d5072be08c025d2.json",
     "data/search/polynomial.c91a6dbf0d3c825c.json",
     "data/search/polynomial.0815400086257914.json",
-    "data/search/sequences.d454bb436206d9a6.json",
+    "data/search/sequences.67aa13fa47966a6e.json",
     "data/search/mensuration.9f579eaee1bb1392.json",
     "data/search/mensuration.907e328feb8b52d8.json",
     "data/search/statistics.35eed9bc62dcf371.json"
@@ -81,11 +81,12 @@
     },
     {
       "topicId": "sequences",
-      "path": "data/chapters/sequences.5ead779efe6432e3.json",
+      "path": "data/chapters/sequences.e2ef7fdc143b79b7.json",
       "chunks": [
-        "data/chapters/sequences-chunk.e56578538e4a40ba.json"
+        "data/chapters/sequences-chunk.963188470630c945.json",
+        "data/chapters/sequences-chunk.bc72f151d5012e4c.json"
       ],
-      "questionCount": 21
+      "questionCount": 43
     },
     {
       "topicId": "mensuration",

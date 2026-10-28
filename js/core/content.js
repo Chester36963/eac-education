@@ -94,5 +94,18 @@ const skillNames = {
   "statistics-type-6": "Frequency balance / 頻數平衡",
   "statistics-type-7": "Two unknown frequencies / 兩個未知頻數",
   "statistics-type-8": "Combined groups / 合併數據組",
-  "statistics-type-9": "Linear transformations / 線性變換"
+  "statistics-type-9": "Linear transformations / 線性變換",
+  "seq-term-pattern": "Read a term formula or visual pattern / 通項代入與圖案規律",
+  "seq-recognise-ap": "Test consecutive differences / 相鄰差判斷等差",
+  "seq-gp-properties": "Test GP properties with counterexamples / 等比性質與反例",
+  "seq-ap-term": "Arithmetic terms and equal differences / 等差通項與等差條件",
+  "seq-ap-threshold": "First term crossing a threshold / 跨越門檻的首項",
+  "seq-partial-sum-term": "Recover terms from partial sums / 部分和相減求通項",
+  "seq-ap-pattern-sum": "Count patterns and interval sums / 圖案計數與區間和",
+  "seq-gp-middle-term": "Square the middle geometric term / 等比中項平方",
+  "seq-infinite-sum": "Convergence and infinite sums / 收斂條件與無窮和",
+  "seq-infinite-subsequence": "Separate positive and negative GP terms / 正負等比子數列",
+  "seq-ap-model": "Model counts and repayments with an AP / 等差計數與還款建模",
+  "seq-growth-model": "Growth factors and sampling years / 增長因子與記錄年份",
+  "seq-loan-recurrence": "Monthly repayment timing and recurrence / 月供時序與遞推"
 };
