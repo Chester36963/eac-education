@@ -1,0 +1,1283 @@
+{
+  "skills": {
+    "seq-term-pattern": "Read a term formula or visual pattern / 通項代入與圖案規律",
+    "seq-recognise-ap": "Test consecutive differences / 相鄰差判斷等差",
+    "seq-gp-properties": "Test GP properties with counterexamples / 等比性質與反例",
+    "seq-ap-term": "Arithmetic terms and equal differences / 等差通項與等差條件",
+    "seq-ap-threshold": "First term crossing a threshold / 跨越門檻的首項",
+    "seq-partial-sum-term": "Recover terms from partial sums / 部分和相減求通項",
+    "seq-ap-pattern-sum": "Count patterns and interval sums / 圖案計數與區間和",
+    "seq-gp-middle-term": "Square the middle geometric term / 等比中項平方",
+    "seq-infinite-sum": "Convergence and infinite sums / 收斂條件與無窮和",
+    "seq-infinite-subsequence": "Separate positive and negative GP terms / 正負等比子數列",
+    "seq-ap-model": "Model counts and repayments with an AP / 等差計數與還款建模",
+    "seq-growth-model": "Growth factors and sampling years / 增長因子與記錄年份",
+    "seq-loan-recurrence": "Monthly repayment timing and recurrence / 月供時序與遞推"
+  },
+  "catalog": {
+    "subjects": [
+      {
+        "id": "algebra",
+        "name": {
+          "en": "Algebra",
+          "zh-Hant": "代數"
+        },
+        "chapters": [
+          {
+            "id": "sequences",
+            "topicId": "sequences",
+            "name": {
+              "en": "Sequences & Series",
+              "zh-Hant": "數列與級數"
+            },
+            "subcategories": [
+              {
+                "id": "sequence-foundations",
+                "name": {
+                  "en": "Terms and sequence properties",
+                  "zh-Hant": "通項與數列性質"
+                },
+                "skills": [
+                  "seq-term-pattern",
+                  "seq-recognise-ap",
+                  "seq-gp-properties"
+                ]
+              },
+              {
+                "id": "arithmetic-terms-sums",
+                "name": {
+                  "en": "Arithmetic terms and sums",
+                  "zh-Hant": "等差通項與和"
+                },
+                "skills": [
+                  "seq-ap-term",
+                  "seq-ap-threshold",
+                  "seq-partial-sum-term",
+                  "seq-ap-pattern-sum"
+                ]
+              },
+              {
+                "id": "geometric-sums",
+                "name": {
+                  "en": "Geometric terms and sums",
+                  "zh-Hant": "等比通項與和"
+                },
+                "skills": [
+                  "seq-gp-middle-term"
+                ]
+              },
+              {
+                "id": "infinite-geometric",
+                "name": {
+                  "en": "Convergent geometric series",
+                  "zh-Hant": "收斂等比級數"
+                },
+                "skills": [
+                  "seq-infinite-sum",
+                  "seq-infinite-subsequence"
+                ]
+              },
+              {
+                "id": "sequence-modelling",
+                "name": {
+                  "en": "Sequence modelling",
+                  "zh-Hant": "數列應用建模"
+                },
+                "skills": [
+                  "seq-ap-model",
+                  "seq-growth-model",
+                  "seq-loan-recurrence"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "topics": [
+    {
+      "id": "sequences",
+      "categories": [
+        {
+          "type": "mcq",
+          "questions": [
+            {
+              "id": "import-sequences-269521a8b923e7b4",
+              "stem": "Which of the following may represent the nth term of the sequence \\(-1,2,7,14,\\ldots\\)?",
+              "stemZh": "下列哪一項可能表示數列 \\(-1,2,7,14,\\ldots\\) 的第 \\(n\\) 項？",
+              "solution": "Substitute the indices \\(n=1,2,3,4\\) into each candidate. For B, \\(n^2-2\\) gives \\(-1,2,7,14\\), matching all four terms. A gives 1 at the first term; C gives 2; D fails at the third term, giving 14 instead of 7. Therefore B may represent the sequence. A finite list does not uniquely determine an infinite sequence, so the word “may” matters.",
+              "solutionZh": "將 \\(n=1,2,3,4\\) 代入各選項。B 的 \\(n^2-2\\) 得 \\(-1,2,7,14\\)，四項全部吻合。A 的首項為 1；C 的首項為 2；D 的第三項為 14，並非 7。因此選 B。有限個已知項不能唯一決定整個無窮數列，題目問的是「可能」。",
+              "subcategory": "sequence-foundations",
+              "skill": "seq-term-pattern",
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p1 · Q1",
+              "sourceZh": "sequence review.pdf · 第 1 頁 · 第 1 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 1,
+                "number": 1,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "options": {
+                "A": "\\(3n-2\\)",
+                "B": "\\(n^2-2\\)",
+                "C": "\\(n^2+2n-1\\)",
+                "D": "\\(4^{n-1}-2\\)"
+              },
+              "optionsZh": {
+                "A": "\\(3n-2\\)",
+                "B": "\\(n^2-2\\)",
+                "C": "\\(n^2+2n-1\\)",
+                "D": "\\(4^{n-1}-2\\)"
+              },
+              "answer": "B",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-e189d03ff891b451",
+              "stem": "In the figure, the 1st pattern consists of 6 dots. For any positive integer \\(n\\), the \\((n+1)\\)th pattern is formed by adding \\(2(n+2)\\) dots to the nth pattern. Find the number of dots in the 5th pattern.",
+              "stemZh": "圖中第一個圖案有 6 點。對任意正整數 \\(n\\)，在第 \\(n\\) 個圖案加上 \\(2(n+2)\\) 點，便得到第 \\(n+1\\) 個圖案。求第五個圖案的點數。",
+              "solution": "The additions for \\(n=1,2,3,4\\) are 6, 8, 10 and 12. Hence \\[T_5=6+6+8+10+12=42.\\] The initial 6 dots must be counted as well as the four additions. Answer: B.",
+              "solutionZh": "由第一個圖案到第五個圖案，要依次代入 \\(n=1,2,3,4\\)，加上的點數是 6、8、10、12。因此 \\[T_5=6+6+8+10+12=42.\\] 記得包括原有的 6 點，共作四次增加。答案：B。",
+              "subcategory": "sequence-foundations",
+              "skill": "seq-term-pattern",
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p1 · Q2",
+              "sourceZh": "sequence review.pdf · 第 1 頁 · 第 2 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 1,
+                "number": 2,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "options": {
+                "A": "38",
+                "B": "42",
+                "C": "46",
+                "D": "110"
+              },
+              "optionsZh": {
+                "A": "38",
+                "B": "42",
+                "C": "46",
+                "D": "110"
+              },
+              "answer": "B",
+              "diagram": {
+                "src": "assets/diagrams/sequence-review/q02.png",
+                "alt": "Source dot patterns with 6, 12 and 20 dots, connected by arrows.",
+                "caption": "原題圖 · Source figure",
+                "qa": {
+                  "questionId": "import-sequences-e189d03ff891b451",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "evidence": "docs/qa/2026-10-28/sequence-review/README.md",
+                  "sourceId": "source-46587d8d34399b76",
+                  "sourceQuestion": 2,
+                  "sourcePage": 1
+                }
+              },
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-ec6a387f760dec57",
+              "stem": "Which of the following are arithmetic sequences?\nI. \\(1,1,1,1,\\ldots\\)\nII. \\(2,3,2,3,\\ldots\\)\nIII. \\(1,2,4,7,\\ldots\\)",
+              "stemZh": "下列哪些是等差數列？\nI. \\(1,1,1,1,\\ldots\\)\nII. \\(2,3,2,3,\\ldots\\)\nIII. \\(1,2,4,7,\\ldots\\)",
+              "solution": "An AP has a constant difference between consecutive terms. I has difference 0, so it is an AP. II has differences 1, −1, 1; III has differences 1, 2, 3. The latter two are not APs. Answer: A (I only).",
+              "solutionZh": "等差數列的相鄰項之差須固定。I 的公差為 0，所以是等差數列。II 的相鄰項差為 1、−1、1；III 則為 1、2、3，兩者均非等差數列。答案：A（只有 I）。",
+              "subcategory": "sequence-foundations",
+              "skill": "seq-recognise-ap",
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p1 · Q3",
+              "sourceZh": "sequence review.pdf · 第 1 頁 · 第 3 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 1,
+                "number": 3,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "options": {
+                "A": "I only",
+                "B": "II only",
+                "C": "I and III only",
+                "D": "II and III only"
+              },
+              "optionsZh": {
+                "A": "只有 I",
+                "B": "只有 II",
+                "C": "只有 I 及 III",
+                "D": "只有 II 及 III"
+              },
+              "answer": "A",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-3cf9c64b363c030b",
+              "stem": "The first positive term in the arithmetic sequence \\(-358,-341,-324,\\ldots\\) is",
+              "stemZh": "等差數列 \\(-358,-341,-324,\\ldots\\) 的第一個正數項是",
+              "solution": "Here \\(a=-358,d=17\\), so \\(T_n=-358+17(n-1)=17n-375\\). Positivity requires \\(n>375/17\\), so the least index is 23. Check \\(T_{22}=-1\\) and \\(T_{23}=16\\). The question asks for the term value, not its index. Answer: D.",
+              "solutionZh": "首項 \\(a=-358\\)，公差 \\(d=17\\)，故 \\(T_n=17n-375\\)。由 \\(T_n>0\\) 得 \\(n>375/17\\)，最小整數項號是 23。核對 \\(T_{22}=-1\\)、\\(T_{23}=16\\)。題目問的是項值而非項號，故選 D。",
+              "subcategory": "arithmetic-terms-sums",
+              "skill": "seq-ap-threshold",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p1 · Q4",
+              "sourceZh": "sequence review.pdf · 第 1 頁 · 第 4 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 1,
+                "number": 4,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "options": {
+                "A": "1",
+                "B": "2",
+                "C": "15",
+                "D": "16"
+              },
+              "optionsZh": {
+                "A": "1",
+                "B": "2",
+                "C": "15",
+                "D": "16"
+              },
+              "answer": "D",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-a61ec9fc6d2cf40e",
+              "stem": "Mandy borrowed $2000 from her sister on 20 April 2016 and agreed to repay part of it on the first day of each month. Starting from the end of May 2016, the amounts owed at the end of the months were $1850, $1700, $1550, $1400, …, forming an arithmetic sequence. How much was the last repayment?",
+              "stemZh": "Mandy 於 2016 年 4 月 20 日向姐姐借了 $2000，並同意在每月第一天償還部分款項。由 2016 年 5 月底起，每月底所欠款項依次為 $1850、$1700、$1550、$1400、……，形成等差數列。最後一次還款是多少？",
+              "solution": "The balance decreases by $150 each month. Since \\(2000=13(150)+50\\), thirteen payments of $150 leave $50, which is the final repayment. Answer: A.",
+              "solutionZh": "每月底的欠款減少 $150。由 \\(2000=13(150)+50\\)，還了十三次 $150 後尚欠 $50，所以最後一次還款為 $50。答案：A。",
+              "subcategory": "sequence-modelling",
+              "skill": "seq-ap-model",
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p2 · Q5",
+              "sourceZh": "sequence review.pdf · 第 2 頁 · 第 5 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 2,
+                "number": 5,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "options": {
+                "A": "$50",
+                "B": "$100",
+                "C": "$120",
+                "D": "$150"
+              },
+              "optionsZh": {
+                "A": "$50",
+                "B": "$100",
+                "C": "$120",
+                "D": "$150"
+              },
+              "answer": "A",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-a90a65d2d883995b",
+              "stem": "If four numbers are inserted between \\(48\\) and \\(3/2048\\) such that these six numbers form a geometric sequence, find the common ratio.",
+              "stemZh": "在 \\(48\\) 與 \\(3/2048\\) 之間插入四個數，使這六個數形成等比數列。求公比。",
+              "solution": "There are six terms and five ratio steps. Thus \\[48r^5=\\frac3{2048},\\qquad r^5=\\frac1{32768}=\\left(\\frac18\\right)^5.\\] An odd power has just one real fifth root, so \\(r=1/8\\), not ±1/8. Answer: A.",
+              "solutionZh": "六項之間有五次乘公比的步驟。故 \\[48r^5=\\frac3{2048},\\qquad r^5=\\frac1{32768}=\\left(\\frac18\\right)^5.\\] 五次方為奇次方，只有一個實五次方根，所以 \\(r=1/8\\)，不是正負兩值。答案：A。",
+              "subcategory": "geometric-sums",
+              "skill": "seq-geometric-sum",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p2 · Q6",
+              "sourceZh": "sequence review.pdf · 第 2 頁 · 第 6 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 2,
+                "number": 6,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "options": {
+                "A": "\\(1/8\\)",
+                "B": "8",
+                "C": "\\(\\pm1/8\\)",
+                "D": "\\(\\pm8\\)"
+              },
+              "optionsZh": {
+                "A": "\\(1/8\\)",
+                "B": "8",
+                "C": "\\(\\pm1/8\\)",
+                "D": "\\(\\pm8\\)"
+              },
+              "answer": "A",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-660a5bf776dee6ef",
+              "stem": "If \\(a,b,c,d\\) form a geometric sequence, which of the following must be true?\nI. \\(b/a,c/b,d/c\\) form a geometric sequence.\nII. \\(a^2,b^2,d^2\\) form a geometric sequence.\nIII. \\(2^a,2^b,2^c\\) form a geometric sequence.",
+              "stemZh": "若 \\(a,b,c,d\\) 形成等比數列，下列哪些敘述必定正確？\nI. \\(b/a,c/b,d/c\\) 形成等比數列。\nII. \\(a^2,b^2,d^2\\) 形成等比數列。\nIII. \\(2^a,2^b,2^c\\) 形成等比數列。",
+              "solution": "The quotients displayed in I require \\(a,b,c\\ne0\\); work on this domain. Let the common ratio be \\(r\\ne0\\). Then I is \\(r,r,r\\), a GP of ratio 1. To disprove “must” in II and III, use the GP \\(1,2,4,8\\). II becomes \\(1,4,64\\), with ratios 4 and 16. III becomes \\(2,4,16\\), with ratios 2 and 4. Hence only I must hold: A. Domain note: if zero terms are admitted without requiring the displayed quotients to exist, the source item is undefined; A uses the nonzero domain implicit in those quotients.",
+              "solutionZh": "I 所列的商要求 \\(a,b,c\\ne0\\)，以下在此定義域討論。設原公比為 \\(r\\ne0\\)，I 便是 \\(r,r,r\\)，屬公比為 1 的等比數列。要推翻 II、III 的「必定」，可用 \\(1,2,4,8\\) 作反例：II 得 \\(1,4,64\\)，相鄰比為 4、16；III 得 \\(2,4,16\\)，相鄰比為 2、4。因此只有 I，答案 A。定義域提示：若容許零項而不要求題列商有定義，原題便不能成立；A 是按這些商隱含的非零定義域作答。",
+              "subcategory": "sequence-foundations",
+              "skill": "seq-gp-properties",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p2 · Q7",
+              "sourceZh": "sequence review.pdf · 第 2 頁 · 第 7 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 2,
+                "number": 7,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "options": {
+                "A": "I only",
+                "B": "II only",
+                "C": "I and III only",
+                "D": "II and III only"
+              },
+              "optionsZh": {
+                "A": "只有 I",
+                "B": "只有 II",
+                "C": "只有 I 及 III",
+                "D": "只有 II 及 III"
+              },
+              "answer": "A",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-23b5b0d5bb73cbc8",
+              "stem": "Find the sum of all the positive terms in the geometric sequence \\(-32,8,-2,1/2,\\ldots\\).",
+              "stemZh": "求等比數列 \\(-32,8,-2,1/2,\\ldots\\) 中所有正數項的和。",
+              "solution": "The original ratio is \\(-1/4\\). The positive terms are the even-indexed terms \\(8,1/2,1/32,\\ldots\\), which have ratio \\(1/16\\). Since \\(|1/16|<1\\), their sum is \\[\\frac8{1-1/16}=\\frac{128}{15}.\\] Do not sum the original alternating sequence. Answer: B.",
+              "solutionZh": "原數列公比為 \\(-1/4\\)。正數項是偶數項 \\(8,1/2,1/32,\\ldots\\)，公比為 \\(1/16\\)。因 \\(|1/16|<1\\)，其無窮和為 \\[\\frac8{1-1/16}=\\frac{128}{15}.\\] 不能直接計原交錯數列的和。答案：B。",
+              "subcategory": "infinite-geometric",
+              "skill": "seq-infinite-subsequence",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p3 · Q8",
+              "sourceZh": "sequence review.pdf · 第 3 頁 · 第 8 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 3,
+                "number": 8,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "options": {
+                "A": "\\(-128/15\\)",
+                "B": "\\(128/15\\)",
+                "C": "\\(32/5\\)",
+                "D": "\\(32/3\\)"
+              },
+              "optionsZh": {
+                "A": "\\(-128/15\\)",
+                "B": "\\(128/15\\)",
+                "C": "\\(32/5\\)",
+                "D": "\\(32/3\\)"
+              },
+              "answer": "B",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-f23cf1d311fc94a2",
+              "stem": "The sum of the 2nd and 3rd terms of a geometric sequence is 1020. The sum of the 2nd and 5th terms is 1785. If the common ratio is positive, find the first term.",
+              "stemZh": "一等比數列的第二及第三項之和為 1020，第二及第五項之和為 1785。若公比為正數，求首項。",
+              "solution": "Let the first term be \\(a\\) and ratio \\(r>0\\). Then \\(ar(1+r)=1020\\) and \\(ar(1+r^3)=1785\\). Divide to obtain \\[r^2-r+1=\\frac{1785}{1020}=\\frac74.\\] Thus \\((2r-3)(2r+1)=0\\). Positivity selects \\(r=3/2\\), excluding \\(-1/2\\). Therefore \\[a=\\frac{1020}{(3/2)(5/2)}=272.\\] Check \\(408+612=1020\\) and \\(408+1377=1785\\). Answer: C.",
+              "solutionZh": "設首項 \\(a\\)、公比 \\(r>0\\)。由題意 \\(ar(1+r)=1020\\)、\\(ar(1+r^3)=1785\\)。相除得 \\[r^2-r+1=\\frac{1785}{1020}=\\frac74.\\] 故 \\((2r-3)(2r+1)=0\\)。公比為正，所以取 \\(r=3/2\\)，排除 \\(-1/2\\)。因此 \\[a=\\frac{1020}{(3/2)(5/2)}=272.\\] 核對 \\(408+612=1020\\)、\\(408+1377=1785\\)。答案：C。",
+              "subcategory": "geometric-sums",
+              "skill": "seq-geometric-sum",
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p3 · Q9",
+              "sourceZh": "sequence review.pdf · 第 3 頁 · 第 9 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 3,
+                "number": 9,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "options": {
+                "A": "\\(3/2\\)",
+                "B": "204",
+                "C": "272",
+                "D": "765"
+              },
+              "optionsZh": {
+                "A": "\\(3/2\\)",
+                "B": "204",
+                "C": "272",
+                "D": "765"
+              },
+              "answer": "C",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            }
+          ]
+        },
+        {
+          "type": "long",
+          "questions": [
+            {
+              "id": "import-sequences-09223be0bc3e03fd",
+              "stem": "The general term of a sequence is \\(T_n=(3^n+(-1)^n)/2\\). Find its first three terms.",
+              "stemZh": "一數列的通項為 \\(T_n=(3^n+(-1)^n)/2\\)。求首三項。",
+              "solution": "Start at \\(n=1\\), not 0. \\[T_1=(3-1)/2=1,\\quad T_2=(9+1)/2=5,\\quad T_3=(27-1)/2=13.\\] The power of −1 alternates in sign. The first three terms are 1, 5, 13.",
+              "solutionZh": "由 \\(n=1\\) 開始，不是 0。\\[T_1=(3-1)/2=1,\\quad T_2=(9+1)/2=5,\\quad T_3=(27-1)/2=13.\\] 留意 −1 的冪次正負交替。首三項為 1、5、13。",
+              "subcategory": "sequence-foundations",
+              "skill": "seq-term-pattern",
+              "questionType": "structured",
+              "difficulty": "easy",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p4 · Q11",
+              "sourceZh": "sequence review.pdf · 第 4 頁 · 第 11 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 4,
+                "number": 11,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-b71081eb0c88b64b",
+              "stem": "Consider the arithmetic sequence \\(1.2,4.5,7.8,\\ldots,120\\). (a) Find its general term \\(T_n\\). (b) Find its number of terms.",
+              "stemZh": "考慮等差數列 \\(1.2,4.5,7.8,\\ldots,120\\)。(a) 求通項 \\(T_n\\)。(b) 求項數。",
+              "solution": "(a) The common difference is \\(4.5-1.2=3.3\\), so \\[T_n=1.2+3.3(n-1)=3.3n-2.1.\\] (b) Set the last term equal to 120: \\(3.3n-2.1=120\\), giving \\(n=37\\). Check \\(1.2+36(3.3)=120\\).",
+              "solutionZh": "(a) 公差為 \\(4.5-1.2=3.3\\)，故 \\[T_n=1.2+3.3(n-1)=3.3n-2.1.\\] (b) 令末項等於 120：\\(3.3n-2.1=120\\)，得 \\(n=37\\)。核對 \\(1.2+36(3.3)=120\\)。",
+              "subcategory": "arithmetic-terms-sums",
+              "skill": "seq-ap-term",
+              "questionType": "structured",
+              "difficulty": "easy",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p4 · Q12",
+              "sourceZh": "sequence review.pdf · 第 4 頁 · 第 12 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 4,
+                "number": 12,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-27fcc8b2e30633cd",
+              "stem": "The expressions \\(66-x,2x+31,4x+9\\) are the 3rd, 4th and 5th terms of an arithmetic sequence respectively. (a) Find \\(x\\). (b) Find the 13th term.",
+              "stemZh": "\\(66-x,2x+31,4x+9\\) 分別是一等差數列的第三、第四、第五項。(a) 求 \\(x\\)。(b) 求第十三項。",
+              "solution": "(a) Equal differences give \\[(2x+31)-(66-x)=(4x+9)-(2x+31),\\] so \\(3x-35=2x-22\\), hence \\(x=13\\). (b) The three terms become 53, 57, 61, with \\(d=4\\). The 13th term is ten steps after the 3rd, so \\(T_{13}=53+10(4)=93\\).",
+              "solutionZh": "(a) 相鄰項之差相等，故 \\[(2x+31)-(66-x)=(4x+9)-(2x+31).\\] 化簡得 \\(3x-35=2x-22\\)，所以 \\(x=13\\)。(b) 第三至第五項是 53、57、61，公差 \\(d=4\\)。第十三項比第三項多十個公差，故 \\(T_{13}=53+10(4)=93\\)。",
+              "subcategory": "arithmetic-terms-sums",
+              "skill": "seq-ap-term",
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p4 · Q13",
+              "sourceZh": "sequence review.pdf · 第 4 頁 · 第 13 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 4,
+                "number": 13,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-9e194aa1e664f3f0",
+              "stem": "Determine whether each of the following sequences is arithmetic. (a) \\(T_n=(n+1)/\\pi\\). (b) \\(T_n=n+1/n\\).",
+              "stemZh": "判斷下列數列是否等差數列。(a) \\(T_n=(n+1)/\\pi\\)。(b) \\(T_n=n+1/n\\)。",
+              "solution": "(a) \\(T_{n+1}-T_n=1/\\pi\\), independent of \\(n\\). Yes, it is an AP. (b) \\(T_1=2,T_2=5/2,T_3=10/3\\). The first two differences are \\(1/2\\) and \\(5/6\\), which are unequal, so it is not an AP. One pair of unequal consecutive differences is enough to disprove the AP property.",
+              "solutionZh": "(a) \\(T_{n+1}-T_n=1/\\pi\\)，不隨 \\(n\\) 改變，所以是等差數列。(b) \\(T_1=2,T_2=5/2,T_3=10/3\\)，首兩個相鄰差為 \\(1/2\\)、\\(5/6\\)，並不相等，故不是等差數列。只要找到相鄰差不相等的反例便足夠。",
+              "subcategory": "sequence-foundations",
+              "skill": "seq-recognise-ap",
+              "questionType": "structured",
+              "difficulty": "easy",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p4 · Q14",
+              "sourceZh": "sequence review.pdf · 第 4 頁 · 第 14 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 4,
+                "number": 14,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-fc8b140ff6062af5",
+              "stem": "The sum of the first \\(n\\) terms of an arithmetic sequence is \\(S_n=2n(n+7)/3\\). (a) Find \\(T_n\\). (b) Find \\(T_{111}\\). (c) Find \\(T_7+T_8+\\cdots+T_{24}\\).",
+              "stemZh": "一等差數列的首 \\(n\\) 項和為 \\(S_n=2n(n+7)/3\\)。(a) 求 \\(T_n\\)。(b) 求 \\(T_{111}\\)。(c) 求 \\(T_7+T_8+\\cdots+T_{24}\\)。",
+              "solution": "(a) Subtract successive partial sums (with \\(S_0=0\\)): \\[T_n=S_n-S_{n-1}=\\frac23[n(n+7)-(n-1)(n+6)]=\\frac{4n}3+4.\\] This also gives \\(T_1=S_1=16/3\\). (b) \\(T_{111}=4(111)/3+4=152\\). (c) Subtract the sum through term 6, not term 7: \\[S_{24}-S_6=\\frac{2(24)(31)}3-\\frac{2(6)(13)}3=496-52=444.\\]",
+              "solutionZh": "(a) 由相鄰部分和相減（取 \\(S_0=0\\)）：\\[T_n=S_n-S_{n-1}=\\frac23[n(n+7)-(n-1)(n+6)]=\\frac{4n}3+4.\\] 此式亦給 \\(T_1=S_1=16/3\\)。(b) \\(T_{111}=4(111)/3+4=152\\)。(c) 應減去首六項和，而不是首七項和：\\[S_{24}-S_6=\\frac{2(24)(31)}3-\\frac{2(6)(13)}3=496-52=444.\\]",
+              "subcategory": "arithmetic-terms-sums",
+              "skill": "seq-partial-sum-term",
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p4 · Q15",
+              "sourceZh": "sequence review.pdf · 第 4 頁 · 第 15 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 4,
+                "number": 15,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-279fd5f2337f7a52",
+              "stem": "The general term of a geometric sequence is \\(T_n=2(3/5)^n\\). Find its first term and common ratio.",
+              "stemZh": "一等比數列的通項為 \\(T_n=2(3/5)^n\\)。求首項及公比。",
+              "solution": "The exponent is \\(n\\), not \\(n-1\\), so substitute \\(n=1\\): \\(T_1=2(3/5)=6/5\\). Also \\(T_{n+1}/T_n=3/5\\). Thus the first term is \\(6/5\\) and common ratio \\(3/5\\). Check \\(T_n=(6/5)(3/5)^{n-1}\\).",
+              "solutionZh": "冪次是 \\(n\\)，並非 \\(n-1\\)，故代入 \\(n=1\\)：\\(T_1=2(3/5)=6/5\\)。另有 \\(T_{n+1}/T_n=3/5\\)。所以首項為 \\(6/5\\)，公比為 \\(3/5\\)。核對：\\(T_n=(6/5)(3/5)^{n-1}\\)。",
+              "subcategory": "geometric-sums",
+              "skill": "seq-geometric-sum",
+              "questionType": "structured",
+              "difficulty": "easy",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p4 · Q16",
+              "sourceZh": "sequence review.pdf · 第 4 頁 · 第 16 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 4,
+                "number": 16,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-f0aa410fa2d3106c",
+              "stem": "Given that \\(2,m+6,13m+6\\) are three consecutive terms of a geometric sequence, find the values of \\(m\\).",
+              "stemZh": "已知 \\(2,m+6,13m+6\\) 是一等比數列的連續三項，求 \\(m\\) 的所有值。",
+              "solution": "Square the middle term: \\[(m+6)^2=2(13m+6),\\qquad m^2-14m+24=(m-2)(m-12)=0.\\] Hence \\(m=2\\) or \\(12\\). Both are valid: the triples are \\((2,8,32)\\), ratio 4, and \\((2,18,162)\\), ratio 9. Do not discard either root.",
+              "solutionZh": "中項平方等於前後項之積：\\[(m+6)^2=2(13m+6),\\qquad m^2-14m+24=(m-2)(m-12)=0.\\] 故 \\(m=2\\) 或 \\(12\\)。兩值均成立：分別得 \\((2,8,32)\\)，公比 4；及 \\((2,18,162)\\)，公比 9。不能只保留其中一根。",
+              "subcategory": "geometric-sums",
+              "skill": "seq-gp-middle-term",
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p5 · Q17",
+              "sourceZh": "sequence review.pdf · 第 5 頁 · 第 17 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 5,
+                "number": 17,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-b1a0ebb82e8bd2d3",
+              "stem": "Consider the geometric sequence \\(2916,972,324,108,\\ldots,4\\). (a) Find the number of terms. (b) Find \\(2916+972+324+108+\\cdots+4\\).",
+              "stemZh": "考慮等比數列 \\(2916,972,324,108,\\ldots,4\\)。(a) 求項數。(b) 求 \\(2916+972+324+108+\\cdots+4\\)。",
+              "solution": "(a) The ratio is \\(1/3\\). Since \\(2916(1/3)^{n-1}=4\\), we have \\(3^{n-1}=729=3^6\\), giving \\(n=7\\). (b) \\[S_7=2916\\frac{1-(1/3)^7}{1-1/3}=4372.\\] Direct check: the terms are 2916, 972, 324, 108, 36, 12, 4.",
+              "solutionZh": "(a) 公比為 \\(1/3\\)。由 \\(2916(1/3)^{n-1}=4\\)，得 \\(3^{n-1}=729=3^6\\)，故 \\(n=7\\)。(b) \\[S_7=2916\\frac{1-(1/3)^7}{1-1/3}=4372.\\] 直接核對七項為 2916、972、324、108、36、12、4。",
+              "subcategory": "geometric-sums",
+              "skill": "seq-geometric-sum",
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p5 · Q18",
+              "sourceZh": "sequence review.pdf · 第 5 頁 · 第 18 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 5,
+                "number": 18,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-455c02f615a2538b",
+              "stem": "A geometric sequence \\(3,-2,4/3,-8/9,\\ldots\\) is given. (a) Find the sum of its first 5 terms. (b) Find the sum of all its negative terms.",
+              "stemZh": "已知等比數列 \\(3,-2,4/3,-8/9,\\ldots\\)。(a) 求首五項和。(b) 求所有負數項的和。",
+              "solution": "The common ratio is \\(-2/3\\). (a) \\[S_5=3\\frac{1-(-2/3)^5}{1+2/3}=\\frac{55}{27}.\\] (b) The negative terms are \\(-2,-8/9,-32/81,\\ldots\\). Their ratio is \\(4/9\\), whose absolute value is less than 1. Thus \\[S_{\\mathrm{negative}}=\\frac{-2}{1-4/9}=-\\frac{18}5.\\] The sum of negative terms must remain negative.",
+              "solutionZh": "公比為 \\(-2/3\\)。(a) \\[S_5=3\\frac{1-(-2/3)^5}{1+2/3}=\\frac{55}{27}.\\] (b) 負數項為 \\(-2,-8/9,-32/81,\\ldots\\)，其公比是 \\(4/9\\)，絕對值小於 1。因此 \\[S_{\\text{負數項}}=\\frac{-2}{1-4/9}=-\\frac{18}5.\\] 負數項的總和應仍為負數。",
+              "subcategory": "infinite-geometric",
+              "skill": "seq-infinite-subsequence",
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p5 · Q19",
+              "sourceZh": "sequence review.pdf · 第 5 頁 · 第 19 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 5,
+                "number": 19,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-97175359520cbadc",
+              "stem": "In a bag there are altogether 18 red, blue and green balls. The numbers of red, blue and green balls, in that order, form an arithmetic sequence, and their product is 192. Most of the balls are green. (a) Find the number of green balls. (b) Two balls are drawn at random without replacement. Find the probability that both have the same colour.",
+              "stemZh": "袋中共有 18 個紅、藍、綠色球。紅球、藍球、綠球的數目依此次序成等差數列，三數之積為 192，且綠球最多。(a) 求綠球數目。(b) 從袋中隨機抽出兩球，不放回，求兩球同色的概率。",
+              "solution": "(a) Write the counts as \\(6-d,6,6+d\\), since their sum is 18. Then \\[6(36-d^2)=192,\\quad d^2=4.\\] Green is most numerous, so \\(d=2\\). The counts are 4, 6, 8; there are 8 green balls. (b) Count unordered pairs: \\[P(\\text{same colour})=\\frac{\\binom42+\\binom62+\\binom82}{\\binom{18}2}=\\frac{6+15+28}{153}=\\frac{49}{153}.\\] Equivalently add the ordered probabilities \\((4\\cdot3+6\\cdot5+8\\cdot7)/(18\\cdot17)\\).",
+              "solutionZh": "(a) 總數為 18，故設三色數目為 \\(6-d,6,6+d\\)。由 \\[6(36-d^2)=192,\\quad d^2=4.\\] 因綠球最多，取 \\(d=2\\)，三色數目為 4、6、8，綠球有 8 個。(b) 按不分先後的球對計算：\\[P(\\text{同色})=\\frac{\\binom42+\\binom62+\\binom82}{\\binom{18}2}=\\frac{6+15+28}{153}=\\frac{49}{153}.\\] 亦可按有次序抽球計 \\((4\\cdot3+6\\cdot5+8\\cdot7)/(18\\cdot17)\\)。",
+              "subcategory": "sequence-modelling",
+              "skill": "seq-ap-model",
+              "questionType": "structured",
+              "difficulty": "hard",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p5 · Q21",
+              "sourceZh": "sequence review.pdf · 第 5 頁 · 第 21 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 5,
+                "number": 21,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-14fea340bb56b38a",
+              "stem": "A factory produced 240000 products in 2010. In each subsequent year production increases by 6%. (a) Find the number produced in the nth year since 2010 in terms of \\(n\\). (b) Find the total production from 2010 to 2030 inclusive. (c) From 2012 onwards the production every 4 years is recorded. Find the sum of these records from 2010 to 2030.",
+              "stemZh": "一工廠於 2010 年生產 240000 件產品，其後每年產量增加 6%。(a) 以 \\(n\\) 表示由 2010 年起計第 \\(n\\) 年的產量。(b) 求 2010 年至 2030 年（包括首尾兩年）的總產量。(c) 由 2012 年起，每隔四年記錄一次該年的產量。求 2010 年至 2030 年期間這些紀錄的總和。",
+              "solution": "(a) Taking 2010 as year 1 gives \\(T_n=240000(1.06)^{n-1}\\). (b) There are 21 years, not 20: \\[S=240000\\frac{1.06^{21}-1}{0.06}\\approx9598254.402.\\] This is approximately 9598254 products, or 9600000 to 3 significant figures as in the source key. (c) Record years are 2012, 2016, 2020, 2024 and 2028. Their exponents relative to 2010 are 2, 6, 10, 14, 18: \\[U=240000(1.06)^2\\frac{1.06^{20}-1}{1.06^4-1}\\approx2267570.380.\\] This is about 2267570 products, or 2270000 to 3 significant figures as in the source key. Keep exact expressions until the final rounding; the source does not specify an accuracy.",
+              "solutionZh": "(a) 2010 年是第一年，故 \\(T_n=240000(1.06)^{n-1}\\)。(b) 首尾共 21 年，不是 20 年：\\[S=240000\\frac{1.06^{21}-1}{0.06}\\approx9598254.402.\\] 約為 9598254 件；按原答案的三位有效數字則是 9600000 件。(c) 記錄年份為 2012、2016、2020、2024、2028，相對 2010 年的冪次為 2、6、10、14、18：\\[U=240000(1.06)^2\\frac{1.06^{20}-1}{1.06^4-1}\\approx2267570.380.\\] 約為 2267570 件；按原答案的三位有效數字則是 2270000 件。應保留精確式至最後才取近似值；原題未指定準確度。",
+              "subcategory": "sequence-modelling",
+              "skill": "seq-growth-model",
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p5 · Q22",
+              "sourceZh": "sequence review.pdf · 第 5 頁 · 第 22 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 5,
+                "number": 22,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            },
+            {
+              "id": "import-sequences-a2987dbfdad5d4d8",
+              "stem": "In the figure, a sequence of patterns is formed by sticks of equal length. (a) Find the number of sticks required to form \\(P_{40}\\). (b) Find the total required to form all patterns from \\(P_{18}\\) to \\(P_{32}\\). (c) There are 2100 sticks available. Elaine wants to form all patterns from \\(P_m\\) to \\(P_{42}\\). (i) What is the least value of \\(m\\)? (ii) How many patterns can be formed?",
+              "stemZh": "圖中是一列用等長棒砌成的圖案。(a) 求砌成 \\(P_{40}\\) 所需棒數。(b) 求砌成 \\(P_{18}\\) 至 \\(P_{32}\\) 所有圖案所需的總棒數。(c) Elaine 有 2100 支棒，要砌成 \\(P_m\\) 至 \\(P_{42}\\) 的所有圖案。(i) 求 \\(m\\) 的最小值。(ii) 共可砌多少個圖案？",
+              "solution": "Each new pattern adds 3 sticks: \\(T_n=4+3(n-1)=3n+1\\). (a) \\(T_{40}=121\\). (b) There are \\(32-18+1=15\\) patterns: \\[\\frac{15}2[(3\\cdot18+1)+(3\\cdot32+1)]=1140.\\] (c) The required total is \\[F(m)=\\frac{43-m}2[(3m+1)+127]=\\frac{(43-m)(3m+128)}2.\\] Check adjacent candidates: \\(F(22)=2037\\le2100\\), but \\(F(21)=2101>2100\\). Starting earlier adds positive numbers of sticks, so the least \\(m\\) is 22. The number of patterns is \\(42-22+1=21\\).",
+              "solutionZh": "每個新圖案比前一個多 3 支棒，故 \\(T_n=4+3(n-1)=3n+1\\)。(a) \\(T_{40}=121\\)。(b) 圖案數為 \\(32-18+1=15\\)：\\[\\frac{15}2[(3\\cdot18+1)+(3\\cdot32+1)]=1140.\\] (c) 所需總棒數為 \\[F(m)=\\frac{43-m}2[(3m+1)+127]=\\frac{(43-m)(3m+128)}2.\\] 核對相鄰候選值：\\(F(22)=2037\\le2100\\)，但 \\(F(21)=2101>2100\\)。越早開始會增加正數支棒，故最小 \\(m=22\\)。共有 \\(42-22+1=21\\) 個圖案。",
+              "subcategory": "arithmetic-terms-sums",
+              "skill": "seq-ap-pattern-sum",
+              "questionType": "structured",
+              "difficulty": "hard",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p6 · Q23",
+              "sourceZh": "sequence review.pdf · 第 6 頁 · 第 23 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 6,
+                "number": 23,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "diagram": {
+                "src": "assets/diagrams/sequence-review/q23.svg",
+                "alt": "Source stick patterns P1, P2, P3 with 4, 7 and 10 sticks respectively.",
+                "caption": "按原題重繪 · Reconstructed from the source figure",
+                "qa": {
+                  "questionId": "import-sequences-a2987dbfdad5d4d8",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "evidence": "docs/qa/2026-10-28/sequence-review/README.md",
+                  "sourceId": "source-46587d8d34399b76",
+                  "sourceQuestion": 23,
+                  "sourcePage": 6
+                }
+              },
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              },
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "In the figure, a sequence of patterns is formed by sticks of equal length."
+                  },
+                  {
+                    "type": "figure",
+                    "diagram": {
+                      "src": "assets/diagrams/sequence-review/q23.svg",
+                      "alt": "Source stick patterns P1, P2, P3 with 4, 7 and 10 sticks respectively.",
+                      "caption": "按原題重繪 · Reconstructed from the source figure",
+                      "qa": {
+                        "questionId": "import-sequences-a2987dbfdad5d4d8",
+                        "status": "reviewed",
+                        "reviewedAt": "2026-10-28",
+                        "evidence": "docs/qa/2026-10-28/sequence-review/README.md",
+                        "sourceId": "source-46587d8d34399b76",
+                        "sourceQuestion": 23,
+                        "sourcePage": 6
+                      }
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) Find the number of sticks required to form \\(P_{40}\\)."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(b) Find the total required to form all patterns from \\(P_{18}\\) to \\(P_{32}\\)."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(c) There are 2100 sticks available. Elaine wants to form all patterns from \\(P_m\\) to \\(P_{42}\\). (i) What is the least value of \\(m\\)? (ii) How many patterns can be formed?"
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "圖中是一列用等長棒砌成的圖案。"
+                  },
+                  {
+                    "type": "figure",
+                    "diagram": {
+                      "src": "assets/diagrams/sequence-review/q23.svg",
+                      "alt": "Source stick patterns P1, P2, P3 with 4, 7 and 10 sticks respectively.",
+                      "caption": "按原題重繪 · Reconstructed from the source figure",
+                      "qa": {
+                        "questionId": "import-sequences-a2987dbfdad5d4d8",
+                        "status": "reviewed",
+                        "reviewedAt": "2026-10-28",
+                        "evidence": "docs/qa/2026-10-28/sequence-review/README.md",
+                        "sourceId": "source-46587d8d34399b76",
+                        "sourceQuestion": 23,
+                        "sourcePage": 6
+                      }
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) 求砌成 \\(P_{40}\\) 所需棒數。(b) 求砌成 \\(P_{18}\\) 至 \\(P_{32}\\) 所有圖案所需的總棒數。(c) Elaine 有 2100 支棒，要砌成 \\(P_m\\) 至 \\(P_{42}\\) 的所有圖案。(i) 求 \\(m\\) 的最小值。(ii) 共可砌多少個圖案？"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "import-sequences-1ffb5de383481e90",
+              "stem": "At the beginning of a month Mr Lee borrowed $\\(P\\) from a bank at \\(r\\%\\) p.a., compounded monthly. From the beginning of the second month he repays $\\(x\\) at the beginning of each month until the loan is fully repaid. The last repayment may be less than $\\(x\\).\n(a) Find the balances owed (i) at the end of the first month and (ii) at the end of the second month.\n(b) Prove that the balance at the end of the nth month is \\[P\\left(1+\\frac r{1200}\\right)^n-x\\left(1+\\frac r{1200}\\right)\\frac{(1+r/1200)^{n-1}-1}{r/1200}.\\]\n(c) Let \\(P=100000,r=12\\). (i) If the loan is repaid in 28 instalments, find the least value of \\(x\\), correct to 2 decimal places. (ii) If he repays $5000 each month, when will the loan be fully repaid?",
+              "stemZh": "李先生於某月月初向銀行借款 $\\(P\\)，年利率為 \\(r\\%\\)，每月複息。由第二個月月初開始，每月月初還款 $\\(x\\)，直至清還；最後一期可少於 $\\(x\\)。\n(a) 求 (i) 第一個月底及 (ii) 第二個月底的欠款。\n(b) 證明第 \\(n\\) 個月底的欠款為 \\[P\\left(1+\\frac r{1200}\\right)^n-x\\left(1+\\frac r{1200}\\right)\\frac{(1+r/1200)^{n-1}-1}{r/1200}.\\]\n(c) 設 \\(P=100000,r=12\\)。(i) 若分 28 期清還，求 \\(x\\) 的最小值，答案準確至小數點後兩位。(ii) 若每月還 $5000，何時清還？",
+              "solution": "Put \\(q=1+r/1200\\); the percentage must be converted to a decimal before dividing by 12. (a) \\(B_1=Pq\\) and \\(B_2=(Pq-x)q=Pq^2-xq\\).\n(b) While the loan remains outstanding, \\(B_n=q(B_{n-1}-x)\\). Expanding gives \\[B_n=Pq^n-x(q+q^2+\\cdots+q^{n-1})=Pq^n-xq\\frac{q^{n-1}-1}{q-1}.\\] This is the required formula. It describes the balance before stopping repayments; after payoff the actual balance stays zero. For zero interest take the limit \\(B_n=P-(n-1)x\\).\n(c)(i) Here \\(q=1.01\\). The 28th payment is at the beginning of month 29. Immediately before it the balance is \\(B_{28}\\); clearing it requires \\(B_{28}\\le x\\). At the threshold, \\[x=\\frac{100000(1.01)^{28}(0.01)}{1.01^{28}-1}=4112.443557\\ldots.\\] To 2 decimal places the mathematical threshold is $4112.44, as in the source key. If instalments themselves must be whole cents, the least sufficient payment is $4112.45: $4112.44 leaves about $0.114 outstanding after the 28th payment. These are different rounding interpretations, not a change to the source conditions.\n(c)(ii) After \\(k\\) payments the formal balance is \\[D_k=100000(1.01)^k-5000\\frac{1.01^k-1}{0.01}.\\] Payoff requires \\((1.01)^k\\ge5/4\\), or \\(k\\ge\\log(5/4)/\\log(1.01)\\approx22.426\\). Thus 23 payments are needed. They start in month 2, so payoff is at the beginning of the 24th month, not the 23rd month. The final payment is smaller than $5000.",
+              "solutionZh": "設 \\(q=1+r/1200\\)；年利率的百分數須先轉成小數，再除以 12。(a) \\(B_1=Pq\\)，\\(B_2=(Pq-x)q=Pq^2-xq\\)。\n(b) 尚未清還時，\\(B_n=q(B_{n-1}-x)\\)。逐項展開：\\[B_n=Pq^n-x(q+q^2+\\cdots+q^{n-1})=Pq^n-xq\\frac{q^{n-1}-1}{q-1}.\\] 得證。此式適用於未停止供款的期間；清還後實際結餘保持為零。若利率為零，取極限得 \\(B_n=P-(n-1)x\\)。\n(c)(i) 此時 \\(q=1.01\\)。第 28 期在第 29 個月月初支付，付款前欠款是 \\(B_{28}\\)，故清還條件為 \\(B_{28}\\le x\\)。臨界值是 \\[x=\\frac{100000(1.01)^{28}(0.01)}{1.01^{28}-1}=4112.443557\\ldots.\\] 數學臨界值取兩位小數為 $4112.44，與原答案相同。但若每期金額本身必須是整數仙，最少足額供款應為 $4112.45；供 $4112.44 在第 28 期後仍約欠 $0.114。兩者是取近似值方式的分別，並非改動原題條件。\n(c)(ii) 還了 \\(k\\) 期後，未截斷的結餘式為 \\[D_k=100000(1.01)^k-5000\\frac{1.01^k-1}{0.01}.\\] 清還條件是 \\((1.01)^k\\ge5/4\\)，即 \\(k\\ge\\log(5/4)/\\log(1.01)\\approx22.426\\)，所以要供 23 期。第一期在第二個月，故於第 24 個月月初清還，不是第 23 個月。最後一期少於 $5000。",
+              "subcategory": "sequence-modelling",
+              "skill": "seq-loan-recurrence",
+              "questionType": "structured",
+              "difficulty": "challenging",
+              "minForm": 4,
+              "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+              "source": "sequence review.pdf · p6 · Q24",
+              "sourceZh": "sequence review.pdf · 第 6 頁 · 第 24 題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+                "sourceId": "source-46587d8d34399b76",
+                "path": "S6/Sequence/sequence review.pdf",
+                "page": 6,
+                "number": 24,
+                "attribution": "source-reported-unverified"
+              },
+              "classification": {
+                "version": "2026-10-28.1",
+                "basis": "Primary decisive solving skill; source order retained in provenance.",
+                "status": "editor-reviewed",
+                "originalTopic": "S6/Sequence"
+              },
+              "tags": [
+                "sequence-review"
+              ],
+              "assessmentMode": "solution-comparison",
+              "solutionStatus": "independently-rederived",
+              "solutionProvenance": {
+                "kind": "editorially-derived",
+                "sourceAnswerPage": 7,
+                "verification": "scripts/verify-sequence-review.py"
+              },
+              "adaptation": {
+                "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
+                "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

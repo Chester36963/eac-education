@@ -1,5 +1,11 @@
 # Implementation record
 
+## Sequence review intake · 28 October 2026
+
+Status `LOG-20261028-SEQ`: 內容批次完成實作，待本地瀏覽器及正式部署驗收。Imported 22 of 24 source records from `S6/Sequence/sequence review.pdf`; Q10 and Q20 are held with explicit additional mathematical branches and next-step source questions. Added bilingual MCQ/structured content, source provenance, stable source-derived IDs, four new sequence subcategories and an expanded geometric-terms subcategory, Q2 source crop and Q23 editable SVG reconstruction. Existing 1,186 question objects and IDs were preserved; generated bank now has 1,208 questions, including 43 sequences (9 MCQ, 34 structured).
+
+Independent exact arithmetic is recorded in `scripts/verify-sequence-review.py` and `docs/qa/2026-10-28/sequence-review/mathematics.json`. The 1,092 Node checks pass locally, including source locator/hash preservation, normalized duplicate scan, both held-domain decisions, figure QA and generated content metadata. Local 264 study views across EN/ZH/bilingual and 320/390/768/1440px pass, as does the complete study-journey. All nine new MCQs were actually graded; written self-assessment, search, scoped grouping, saved drafts/resume/bookmarks, old history preservation and reachable wide-formula scrolling pass. Formal deployment remains pending and will be recorded separately.
+
 ## CUR Full-course structure and source intake — 28 October 2026
 
 Status LOG-20261028-CUR: completed the requested structure-first phase. **No new questions or student UI were published in this batch.** Canonical bank remains 1,186 questions / seven chapters / revision `2ffd9cb690908b1f`.

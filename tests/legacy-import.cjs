@@ -23,7 +23,7 @@ test('all 898 supplied records have a traceable classification and disposition',
  assert.equal(original.length,37,'original stable IDs survive');
  const importedIds=new Set(audit.records.map(r=>r.id));
  const publishedUnique=new Set(audit.records.filter(r=>r.status==='published').map(r=>r.id));
- assert.equal(questions.length,37+publishedUnique.size+questions.filter(q=>q.id.startsWith('note-')&&!importedIds.has(q.id)).length);
+ assert.equal(questions.length,37+publishedUnique.size+questions.filter(q=>q.provenance?.collection==='by-topic-review-materials'||(q.id.startsWith('note-')&&!importedIds.has(q.id))).length);
 });
 
 test('verified answer corrections and broken source records cannot silently enter practice',()=>{
@@ -39,7 +39,10 @@ test('verified answer corrections and broken source records cannot silently ente
  for(const q of questions){
   if(q.provenance){
    if(q.classification.status==='reviewed')assert.ok(require('../content/imports/2026-10-23-priority-math-review.json').records.some(r=>r.id===q.id),'Reviewed classification needs per-question evidence');
-   else assert.equal(q.classification.status,'rule-classified');
+   else if(q.classification.status==='editor-reviewed'){
+    const review=require('../content/intake/sequence-review-2026-10-28/review.json');
+    assert.ok(review.questions.some(r=>r.id===q.id&&![10,20].includes(r.number)),'Editorial classification needs a source locator and review manifest');
+   }else assert.equal(q.classification.status,'rule-classified');
   }
   if(q.options)assert.deepEqual(Object.keys(q.options),['A','B','C','D']);
  }

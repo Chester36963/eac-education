@@ -70,12 +70,12 @@ const output='/tmp/eac-journey-qa';fs.mkdirSync(output,{recursive:true});
   const figure=page.locator('.summary-question img');await figure.waitFor();await figure.evaluate(i=>i.decode());
   assert.match(await figure.getAttribute('src'),/mens-diag-001/);
   await page.screenshot({path:output+'/diagram-review-desktop.png',fullPage:true});
-  // Every chapter starts a usable set, including the written-only chapter.
+  // Every chapter starts a usable set; sequences now also has source-verified MCQs.
   for(const chapter of ['four-centres','locus','polynomials','sequences','mensuration-core']){
    await page.goto(base+'dashboard.html');const row=page.locator('.chapter-row[href*="chapter='+chapter+'&"]');
-   await row.waitFor();if(chapter==='sequences')assert.match(await row.textContent(),/書面作答/);
+   await row.waitFor();if(chapter==='sequences')assert.doesNotMatch(await row.textContent(),/書面作答/);
    await row.click();await active();assert.equal(await page.evaluate(()=>queue.length),5);
-   if(chapter==='sequences')assert.equal(await page.locator('#written-answer').isVisible(),true);
+   if(chapter==='sequences'){assert.equal(await page.locator('.option').count(),4);assert.equal(await page.locator('#written-answer').isVisible(),false);}
    await page.locator('#finish-btn').click();
   }
   // Smaller-screen entry, options and language controls stay visible without overflow.

@@ -433,7 +433,8 @@
                 "zh-Hant": "等比通項與和"
               },
               "skills": [
-                "seq-geometric-sum"
+                "seq-geometric-sum",
+                "seq-gp-middle-term"
               ]
             },
             {
@@ -476,6 +477,54 @@
               "skills": [
                 "seq-interleave",
                 "seq-infinite"
+              ]
+            },
+            {
+              "id": "sequence-foundations",
+              "name": {
+                "en": "Terms and sequence properties",
+                "zh-Hant": "通項與數列性質"
+              },
+              "skills": [
+                "seq-term-pattern",
+                "seq-recognise-ap",
+                "seq-gp-properties"
+              ]
+            },
+            {
+              "id": "arithmetic-terms-sums",
+              "name": {
+                "en": "Arithmetic terms and sums",
+                "zh-Hant": "等差通項與和"
+              },
+              "skills": [
+                "seq-ap-term",
+                "seq-ap-threshold",
+                "seq-partial-sum-term",
+                "seq-ap-pattern-sum"
+              ]
+            },
+            {
+              "id": "infinite-geometric",
+              "name": {
+                "en": "Convergent geometric series",
+                "zh-Hant": "收斂等比級數"
+              },
+              "skills": [
+                "seq-infinite-sum",
+                "seq-infinite-subsequence"
+              ]
+            },
+            {
+              "id": "sequence-modelling",
+              "name": {
+                "en": "Sequence modelling",
+                "zh-Hant": "數列應用建模"
+              },
+              "skills": [
+                "seq-ap-model",
+                "seq-growth-model",
+                "seq-loan-recurrence"
               ]
             }
           ]

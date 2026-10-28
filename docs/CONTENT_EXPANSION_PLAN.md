@@ -1,3 +1,5 @@
+> **SEQ-20261028 最新內容批次**：新增 22 題雙語數列題，現全庫 1,208 題／七課題；數列 43 題（9 MCQ、34 書面題）。24 個來源原題號全部有處置，Q10／Q20 的零值分支暫存待補。四寬及正式發布狀態見 [本批 QA](qa/2026-10-28/sequence-review/README.md)；以下舊版數量保留作歷史對帳。
+
 > **2026-10-28 全課程結構擴充（CUR）**：新增用戶指定 S1–S6、M1、M2、mock 九個資料夾的來源快照與 61 個候選容器；這是下一階段架構，不是把 928 份檔案當成已驗收題目。既有七課題／1,186 題維持，今批新增題數 0。目的、先備鏈、來源差異、課程篩選依賴與共享模板見 [CURRICULUM_STRUCTURE](CURRICULUM_STRUCTURE.md)，完整清單見 [SOURCE_INVENTORY](planning/SOURCE_INVENTORY.md)。原有題目擴充及待補來源工作仍保留於本文件。
 
 # EAC 題庫擴充與修復追蹤 · 2026-10-23
@@ -106,3 +108,13 @@ CONTENT-B12狀態：完成本批無內容變動核對。數列逐項／前n項�
 ## B13 UI互動接力核對 · 2026-10-25
 
 CONTENT-B13狀態：完成本批UI驗收，內容不變。本批沒有匯入、修復或改寫題目；新增0、修復0、內容更新0、重複變更0。多項式因式／餘式和圓方程點位判斷是共享數學模型的教學演示，題庫仍1,186題／七課題、revision `2ffd9cb690908b1f`。正式驗收前不把UX-N08／09寫成完成；來源holds、答案、穩定ID及學生資料保持不變。見[B13 QA](qa/2026-10-25/polynomial-circle/README.md)。
+
+## Sequence review intake · 2026-10-28
+
+| 固定工作號 | 狀態 | 實際結果 |
+|---|---|---|
+| SEQ-01 | 待驗收 | `S6/Sequence/sequence review.pdf` 24 個原題號已逐題定位、雙語整理及獨立算式核對；22 題匯入，Q10/Q20 因來源定義域缺口待補。 |
+| SEQ-02 | 待驗收 | Q2 原頁點圖裁剪、Q23 原頁圖審閱及可編輯 SVG 重建；圖題均綁定 source ID、頁碼、題號及 QA evidence。 |
+| SEQ-03 | 待驗收 | 數列新增 foundation、AP/GP、收斂及 modelling 小節；舊 21 題 ID／進度保留，題庫由 1,186 增至 1,208。 |
+
+數學驗算、來源欄位、重複掃描及限制見 [sequence QA](qa/2026-10-28/sequence-review/README.md)、[review manifest](../content/intake/sequence-review-2026-10-28/review.json) 及 `docs/qa/2026-10-28/sequence-review/mathematics.json`。Q22 保留原答案的三位有效數字，同時顯示未提前捨入的精確近似；Q24 明確分開數學臨界值 $4112.44 與整數仙足額供款 $4112.45。

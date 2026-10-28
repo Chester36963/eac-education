@@ -1,0 +1,368 @@
+{
+  "batchId": "sequence-review-2026-10-28",
+  "status": "處理中",
+  "sourceId": "source-46587d8d34399b76",
+  "sourcePath": "S6/Sequence/sequence review.pdf",
+  "sourceSha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+  "sourcePages": 7,
+  "sourceQuestionCount": 24,
+  "idBasis": "SHA-256 of sourceId + :Q + original question number; first 16 hex characters, prefix import-sequences-. File content hash tracked separately so future corrections retain IDs.",
+  "questions": [
+    {
+      "number": 1,
+      "page": 1,
+      "id": "import-sequences-269521a8b923e7b4",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "b520c94e41a3ea141982cccf2ff314a99c4b425fb25ad68faa7b7b1c0c1f642e"
+    },
+    {
+      "number": 2,
+      "page": 1,
+      "id": "import-sequences-e189d03ff891b451",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "7a5d20876d1be3686f6ff3492b03d90c6941d8784decdc13935fa2ce5ed2460e"
+    },
+    {
+      "number": 3,
+      "page": 1,
+      "id": "import-sequences-ec6a387f760dec57",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "daae0dc4c612a54e63efd3dae16ec6748d5700fe96a68e5790a897b2d2943d46"
+    },
+    {
+      "number": 4,
+      "page": 1,
+      "id": "import-sequences-3cf9c64b363c030b",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "f4a5f5efd3419bf1693736a6f6982a22a9f7cc0122997be0447722e32639a04d"
+    },
+    {
+      "number": 5,
+      "page": 2,
+      "id": "import-sequences-a61ec9fc6d2cf40e",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "0de0d53faa090f9ce3ee18366246ce3870ceeb0cda1d5c8f3011305f733ccfea"
+    },
+    {
+      "number": 6,
+      "page": 2,
+      "id": "import-sequences-a90a65d2d883995b",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "388a0dddb46c0bc7c57fffdfe891d4c1cbf63295a2133221fff7ab3c70180ec8"
+    },
+    {
+      "number": 7,
+      "page": 2,
+      "id": "import-sequences-660a5bf776dee6ef",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "e8f4fd82a4ab1b58c5c3abf720c6f091fa74dee8a9e0010d661afa75c9f6596f"
+    },
+    {
+      "number": 8,
+      "page": 3,
+      "id": "import-sequences-23b5b0d5bb73cbc8",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "01f07544ca1204276616589140bb4027871a2b75345f9c65b7f54623e65f4a8e"
+    },
+    {
+      "number": 9,
+      "page": 3,
+      "id": "import-sequences-f23cf1d311fc94a2",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "c2352efe3d23c85de18f49fcc3a8105f79b607eac212c4a0574d1510b2b55d5b"
+    },
+    {
+      "number": 10,
+      "page": 3,
+      "id": "import-sequences-b88d70d9b6e500b7",
+      "status": "待補來源",
+      "answerReview": "zero-first-term ambiguity; nonzero branch verified"
+    },
+    {
+      "number": 11,
+      "page": 4,
+      "id": "import-sequences-09223be0bc3e03fd",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "487f256f9f0df40651ee24f8dc727cb690a033c37681623f5f4e3abfdcfb32ac"
+    },
+    {
+      "number": 12,
+      "page": 4,
+      "id": "import-sequences-b71081eb0c88b64b",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "825d5c389bd4e058941523f84ae7caf3c6536c25c3e00b39455598bad59f0b7b"
+    },
+    {
+      "number": 13,
+      "page": 4,
+      "id": "import-sequences-27fcc8b2e30633cd",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "25245ca7a236d8c51f4423437403934d4d7930a82cf51751b5f7955803f8e11c"
+    },
+    {
+      "number": 14,
+      "page": 4,
+      "id": "import-sequences-9e194aa1e664f3f0",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "2a5c4150e17d5b6f357a53f7b24009f97efbbf568add32968ec0b859918a6135"
+    },
+    {
+      "number": 15,
+      "page": 4,
+      "id": "import-sequences-fc8b140ff6062af5",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "b562a7e025ac59a7153d2fc6327895d006b19834c109d45b4e8ca1bed359343f"
+    },
+    {
+      "number": 16,
+      "page": 4,
+      "id": "import-sequences-279fd5f2337f7a52",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "e766d2decd3d45480d8fc494eb75db972f84b09433b67f8977c7d2b578927747"
+    },
+    {
+      "number": 17,
+      "page": 5,
+      "id": "import-sequences-f0aa410fa2d3106c",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "b91105341fab526972b814fe61c31911fd806a077c95e7db09416fb2212aa32d"
+    },
+    {
+      "number": 18,
+      "page": 5,
+      "id": "import-sequences-b1a0ebb82e8bd2d3",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "c457582c8bfa6c2e0bc67aa23f8ba62447ae1c3685127001a1bd98d2348a0b10"
+    },
+    {
+      "number": 19,
+      "page": 5,
+      "id": "import-sequences-455c02f615a2538b",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "0a540b6f373f464ef5dc7f4b103dc395e1081a831e850107e8f14816b2496a45"
+    },
+    {
+      "number": 20,
+      "page": 5,
+      "id": "import-sequences-1ea2a31b0b6109f9",
+      "status": "待補來源",
+      "answerReview": "source-key-ambiguity"
+    },
+    {
+      "number": 21,
+      "page": 5,
+      "id": "import-sequences-97175359520cbadc",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "d618b07a61f87b2d95bb03e8091f767efac23d66594bb91775c1697ea493bbd5"
+    },
+    {
+      "number": 22,
+      "page": 5,
+      "id": "import-sequences-14fea340bb56b38a",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "da5508b39c53b194ba3899b48dbe0a4a4e20f502bd956e0f7b89a7b524724cb1"
+    },
+    {
+      "number": 23,
+      "page": 6,
+      "id": "import-sequences-a2987dbfdad5d4d8",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "75bf747ebc012f86878a9657698e328f9f348c062dde05399cf0a7ccd2c23623"
+    },
+    {
+      "number": 24,
+      "page": 6,
+      "id": "import-sequences-1ffb5de383481e90",
+      "status": "待驗收",
+      "answerReview": "independently-derived and exact arithmetic verified; browser EN/ZH/bilingual at four widths passed",
+      "questionSha256": "5d6811e6be2ec4962c0acc8e3b505fe45a88d84ef8a14e4af195fab6f718b278"
+    }
+  ],
+  "figures": [
+    {
+      "question": 2,
+      "page": 1,
+      "renderSize": [
+        1273,
+        1800
+      ],
+      "cropBox": [
+        370,
+        558,
+        1118,
+        718
+      ],
+      "asset": "assets/diagrams/sequence-review/q02.png",
+      "status": "待驗收",
+      "sha256": "158f47d51c0edfaf608a98f27d03df3b13270c918a516cbb384131df8e72bd87",
+      "sourceVisualReview": "Original same-question page, standalone source crop/final SVG and actual 390/1440px student renders personally inspected. Q23 has 4/7/10 equal-length sticks, complete P1/P2/P3 labels and fixed intrinsic 580x150 sizing."
+    },
+    {
+      "question": 23,
+      "page": 6,
+      "renderSize": [
+        1273,
+        1800
+      ],
+      "cropBox": [
+        145,
+        165,
+        922,
+        327
+      ],
+      "asset": "assets/diagrams/sequence-review/q23.svg",
+      "status": "待驗收",
+      "sourceCropEvidence": "docs/qa/2026-10-28/sequence-review/q23-source-crop.png",
+      "reconstruction": "Same 4/7/10 equal-length sticks and P1/P2/P3 labels. Exact 32-unit segment length and 8-unit junction gaps; enlarged labels for small screens. No answer annotations in the student diagram.",
+      "sha256": "858e4f0cd3275e0153412dbdb28ffd138cf9f8a57138da03c1ebdbc1bd8f9a90",
+      "sourceVisualReview": "Original same-question page, standalone source crop/final SVG and actual 390/1440px student renders personally inspected. Q23 has 4/7/10 equal-length sticks, complete P1/P2/P3 labels and fixed intrinsic 580x150 sizing."
+    }
+  ],
+  "heldQuestions": [
+    {
+      "number": 20,
+      "status": "待補來源",
+      "stem": "Let T_n be the general term of a GP. T_1=672 and 125T_2=-8T_5. (a) Find T_n. (b) T_7=(25/4)T_m: (i) find m; (ii) sum the first m terms.",
+      "sourceAnswer": {
+        "term": "672(-5/2)^{n-1}",
+        "m": 5,
+        "sum": 18942
+      },
+      "finding": "The equation is 672r(125+8r^3)=0. Both r=0 and r=-5/2 satisfy every stated initial condition. In the zero-ratio branch T_n=0 for n>=2 and every integer m>=2 satisfies part (b), with S_m=672. The source key excludes this branch without an explicit nonzero-ratio condition.",
+      "checked": [
+        "PDF p5 Q20 and p7 key, visually and text",
+        "DOCX counterpart word/document.xml, same condition; no nonzero restriction",
+        "Exact symbolic factorisation and both-branch substitution"
+      ],
+      "nextStep": "Teacher/source confirmation of a nonzero common-ratio convention, or an explicitly approved labelled editorial correction; do not silently change the stem.",
+      "stemZh": "設 T_n 為等比數列的通項，T_1=672，125T_2=-8T_5。(a) 求 T_n。(b) 若第七項是第 m 項的 25/4 倍，(i) 求 m；(ii) 求首 m 項和。",
+      "completeBranchReview": {
+        "en": "r=-5/2 gives T_n=672(-5/2)^(n-1); r^(7-m)=25/4 gives m=5 and S_5=18942. The additional real root r=0 gives T_1=672, T_n=0 for n>=2; part (b) then holds for every positive integer m>=2 and every such partial sum is 672. Neither stated equality excludes this branch.",
+        "zh-Hant": "r=-5/2 時，T_n=672(-5/2)^(n-1)，由 r^(7-m)=25/4 得 m=5、S_5=18942。另一實根 r=0 給 T_1=672、n>=2 時 T_n=0；(b) 對任何整數 m>=2 均成立，這些部分和均為 672。原題兩個等式沒有排除此分支。"
+      }
+    },
+    {
+      "number": 10,
+      "status": "待補來源",
+      "sourceAnswer": "C; r=3/4",
+      "finding": "When the first term is nonzero, r=3/4 uniquely. But the identically zero sequence satisfies the stated sum relation for every convergent ratio; the source does not explicitly exclude it. A standalone automatic MCQ must not silently add this restriction.",
+      "checked": [
+        "PDF p3 Q10 and p7 key, visual source review",
+        "DOCX counterpart, same sum relation",
+        "Both zero and nonzero first-term branches derived"
+      ],
+      "nextStep": "Confirm the worksheet nonzero-GP definition or approve an explicitly labelled nonzero-first-term clarification.",
+      "candidate": {
+        "id": "import-sequences-b88d70d9b6e500b7",
+        "stem": "The sum to infinity of a geometric sequence is \\(64/37\\) times the sum of its first three terms. Find its common ratio.",
+        "stemZh": "一等比數列的無窮和是其首三項和的 \\(64/37\\) 倍。求公比。",
+        "solution": "For a nonzero convergent GP, \\(|r|<1\\), \\(S_\\infty=a/(1-r)\\), and \\(S_3=a(1-r^3)/(1-r)\\). Hence \\[\\frac1{1-r^3}=\\frac{64}{37},\\qquad r^3=\\frac{27}{64},\\qquad r=\\frac34.\\] This ratio satisfies convergence. Answer: C. The intended nonzero-GP convention matters: an identically zero sequence would not determine a ratio from these sums.",
+        "solutionZh": "對非零的收斂等比數列，\\(|r|<1\\)，\\(S_\\infty=a/(1-r)\\)，而 \\(S_3=a(1-r^3)/(1-r)\\)。故 \\[\\frac1{1-r^3}=\\frac{64}{37},\\qquad r^3=\\frac{27}{64},\\qquad r=\\frac34.\\] 此公比符合收斂條件，答案 C。本題按非零等比數列的慣例作答；若所有項均為零，僅憑這兩個和不能確定公比。",
+        "subcategory": "infinite-geometric",
+        "skill": "seq-infinite-sum",
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "sequence review.pdf · p3 · Q10",
+        "sourceZh": "sequence review.pdf · 第 3 頁 · 第 10 題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+          "sourceId": "source-46587d8d34399b76",
+          "path": "S6/Sequence/sequence review.pdf",
+          "page": 3,
+          "number": 10,
+          "attribution": "source-reported-unverified"
+        },
+        "classification": {
+          "version": "2026-10-28.1",
+          "basis": "Primary decisive solving skill; source order retained in provenance.",
+          "status": "editor-reviewed",
+          "originalTopic": "S6/Sequence"
+        },
+        "tags": [
+          "sequence-review"
+        ],
+        "options": {
+          "A": "\\(-4/3\\)",
+          "B": "\\(-3/4\\)",
+          "C": "\\(3/4\\)",
+          "D": "\\(4/3\\)"
+        },
+        "optionsZh": {
+          "A": "\\(-4/3\\)",
+          "B": "\\(-3/4\\)",
+          "C": "\\(3/4\\)",
+          "D": "\\(4/3\\)"
+        },
+        "answer": "C"
+      }
+    }
+  ],
+  "sourceConventions": [
+    {
+      "number": 7,
+      "finding": "Ratios in I explicitly require nonzero denominators; solution states that domain and gives counterexamples for II/III."
+    },
+    {
+      "number": 22,
+      "finding": "Source key uses 3 significant figures without an accuracy instruction; retain exact expressions and explain both rounding levels."
+    },
+    {
+      "number": 24,
+      "finding": "Source key 4112.44 rounds the real minimum to two decimals; whole-cent instalments require ceiling to 4112.45. Both interpretations explained without changing source wording."
+    }
+  ],
+  "counts": {
+    "sourceRecords": 24,
+    "candidateNew": 22,
+    "held": 2,
+    "existingBefore": 1186,
+    "expectedAfter": 1208
+  },
+  "baseline": {
+    "commit": "433be5a27d4c2dd3b7b4c4839f15b968345c92cf",
+    "count": 1186,
+    "questionArraySha256": "b1041931551927fb17c6d0e17d1926f912c5777eaf629df166b7597ee797b211"
+  },
+  "deduplication": {
+    "method": "Exact NFKC/alphanumeric normalized EN and ZH stem fingerprints across all existing 1186 questions, plus manual comparison against the existing 21 ASGS source conditions. No mathematical-equivalence completeness claim.",
+    "normalizedMatches": [],
+    "withinBatchMatches": []
+  },
+  "contentRevision": "6f074237bb8e950f",
+  "localChecks": {
+    "mathematics": "docs/qa/2026-10-28/sequence-review/mathematics.json",
+    "browser": "docs/qa/2026-10-28/sequence-review/browser/report.json",
+    "journey": "docs/qa/2026-10-28/sequence-review/study-journey.log",
+    "deployment": "待驗收"
+  },
+  "counterpart": {
+    "id": "source-6fe2030f28518ce0",
+    "path": "S6/Sequence/sequence review.docx",
+    "sha256": "cdf108db701eb8873369f21802114ce0c2aedb4011b183c598fc7024bc08cedb",
+    "scope": "Counterpart text/conditions inspected for the two domain queries; not a blanket Word/PDF equivalence or question-image equivalence claim."
+  }
+}

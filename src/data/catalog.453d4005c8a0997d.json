@@ -655,11 +655,13 @@
                 "zh-Hant": "等比通項與和"
               },
               "skills": [
-                "seq-geometric-sum"
+                "seq-geometric-sum",
+                "seq-gp-middle-term"
               ],
-              "questionCount": 2,
+              "questionCount": 7,
               "skillCounts": {
-                "seq-geometric-sum": 2
+                "seq-geometric-sum": 6,
+                "seq-gp-middle-term": 1
               }
             },
             {
@@ -721,18 +723,94 @@
                 "seq-interleave": 1,
                 "seq-infinite": 1
               }
+            },
+            {
+              "id": "sequence-foundations",
+              "name": {
+                "en": "Terms and sequence properties",
+                "zh-Hant": "通項與數列性質"
+              },
+              "skills": [
+                "seq-term-pattern",
+                "seq-recognise-ap",
+                "seq-gp-properties"
+              ],
+              "questionCount": 6,
+              "skillCounts": {
+                "seq-term-pattern": 3,
+                "seq-recognise-ap": 2,
+                "seq-gp-properties": 1
+              }
+            },
+            {
+              "id": "arithmetic-terms-sums",
+              "name": {
+                "en": "Arithmetic terms and sums",
+                "zh-Hant": "等差通項與和"
+              },
+              "skills": [
+                "seq-ap-term",
+                "seq-ap-threshold",
+                "seq-partial-sum-term",
+                "seq-ap-pattern-sum"
+              ],
+              "questionCount": 5,
+              "skillCounts": {
+                "seq-ap-term": 2,
+                "seq-ap-threshold": 1,
+                "seq-partial-sum-term": 1,
+                "seq-ap-pattern-sum": 1
+              }
+            },
+            {
+              "id": "infinite-geometric",
+              "name": {
+                "en": "Convergent geometric series",
+                "zh-Hant": "收斂等比級數"
+              },
+              "skills": [
+                "seq-infinite-sum",
+                "seq-infinite-subsequence"
+              ],
+              "questionCount": 2,
+              "skillCounts": {
+                "seq-infinite-sum": 0,
+                "seq-infinite-subsequence": 2
+              }
+            },
+            {
+              "id": "sequence-modelling",
+              "name": {
+                "en": "Sequence modelling",
+                "zh-Hant": "數列應用建模"
+              },
+              "skills": [
+                "seq-ap-model",
+                "seq-growth-model",
+                "seq-loan-recurrence"
+              ],
+              "questionCount": 4,
+              "skillCounts": {
+                "seq-ap-model": 2,
+                "seq-growth-model": 1,
+                "seq-loan-recurrence": 1
+              }
             }
           ],
-          "questionCount": 21,
+          "questionCount": 43,
           "coverage": {
             "types": {
-              "structured": 21
+              "structured": 34,
+              "mcq": 9
             },
             "difficulty": {
-              "hard": 21
+              "hard": 23,
+              "easy": 8,
+              "medium": 11,
+              "challenging": 1
             },
             "minForm": {
-              "4": 21
+              "4": 43
             }
           }
         }

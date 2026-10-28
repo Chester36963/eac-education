@@ -1,0 +1,198 @@
+{
+  "batchId": "sequence-review-2026-10-28",
+  "method": "Independent Fraction/Decimal arithmetic; source wording/figures reviewed separately",
+  "sourceRecords": 24,
+  "publishedCandidates": 22,
+  "held": 2,
+  "checks": [
+    {
+      "number": 1,
+      "check": "pass",
+      "result": "B",
+      "method": "Substitute all four source indices.",
+      "publication": "candidate"
+    },
+    {
+      "number": 2,
+      "check": "pass",
+      "result": "B; 42",
+      "method": "Iterate the source recurrence, including its initial value.",
+      "publication": "candidate"
+    },
+    {
+      "number": 3,
+      "check": "pass",
+      "result": "A",
+      "method": "Compare all three lists of adjacent differences; zero difference is valid.",
+      "publication": "candidate"
+    },
+    {
+      "number": 4,
+      "check": "pass",
+      "result": "D; 16 at n=23",
+      "method": "Enumerate through the first positive term; check its predecessor.",
+      "publication": "candidate"
+    },
+    {
+      "number": 5,
+      "check": "pass",
+      "result": "A; $50",
+      "method": "Euclidean division models the last partial repayment.",
+      "publication": "candidate"
+    },
+    {
+      "number": 6,
+      "check": "pass",
+      "result": "A; 1/8",
+      "method": "Substitute both possible signs into the fifth-power condition.",
+      "publication": "candidate"
+    },
+    {
+      "number": 7,
+      "check": "pass",
+      "result": "A on the quotient-defined nonzero domain",
+      "method": "Explicit ratios and the 1,2,4,8 counterexample disprove statements II/III.",
+      "publication": "candidate"
+    },
+    {
+      "number": 8,
+      "check": "pass",
+      "result": "B; 128/15",
+      "method": "Select the even-indexed positive subsequence and verify convergence.",
+      "publication": "candidate"
+    },
+    {
+      "number": 9,
+      "check": "pass",
+      "result": "C; 272",
+      "method": "Substitute the positive-ratio branch; also retain/exclude the negative root for its sign.",
+      "publication": "candidate"
+    },
+    {
+      "number": 10,
+      "check": "pass",
+      "result": "C only for nonzero first term; held",
+      "method": "Nonzero solution plus all-zero counterexamples; no silent domain edit.",
+      "publication": "held"
+    },
+    {
+      "number": 11,
+      "check": "pass",
+      "result": [
+        1,
+        5,
+        13
+      ],
+      "method": "Evaluate the source formula at indices 1,2,3.",
+      "publication": "candidate"
+    },
+    {
+      "number": 12,
+      "check": "pass",
+      "result": "3.3n-2.1; 37",
+      "method": "Exact decimal fractions verify the first/last terms and integer count.",
+      "publication": "candidate"
+    },
+    {
+      "number": 13,
+      "check": "pass",
+      "result": "x=13; T13=93",
+      "method": "Substitute the parameter into both differences and shift ten steps.",
+      "publication": "candidate"
+    },
+    {
+      "number": 14,
+      "check": "pass",
+      "result": [
+        "AP, d=1/pi",
+        "not AP"
+      ],
+      "method": "The linear-in-index formula has constant 1/pi difference; rational counterexample for n+1/n.",
+      "publication": "candidate"
+    },
+    {
+      "number": 15,
+      "check": "pass",
+      "result": "4n/3+4; 152; 444",
+      "method": "Difference of exact partial sums, including n=1 and the entire interval 7..24.",
+      "publication": "candidate"
+    },
+    {
+      "number": 16,
+      "check": "pass",
+      "result": "6/5; 3/5",
+      "method": "Direct first-term evaluation and adjacent ratio.",
+      "publication": "candidate"
+    },
+    {
+      "number": 17,
+      "check": "pass",
+      "result": [
+        2,
+        12
+      ],
+      "method": "Factor m²-14m+24; check both ratios and nonzero denominators.",
+      "publication": "candidate"
+    },
+    {
+      "number": 18,
+      "check": "pass",
+      "result": "7; 4372",
+      "method": "Generate all seven rational terms, including the endpoint.",
+      "publication": "candidate"
+    },
+    {
+      "number": 19,
+      "check": "pass",
+      "result": "55/27; -18/5",
+      "method": "Finite rational addition and the negative subsequence geometric sum.",
+      "publication": "candidate"
+    },
+    {
+      "number": 20,
+      "check": "pass",
+      "result": "r=-5/2, m=5, S5=18942 OR r=0, every m>=2, Sm=672; held",
+      "method": "Substitute both real roots of r(125+8r³)=0; the source key omits one branch.",
+      "publication": "held"
+    },
+    {
+      "number": 21,
+      "check": "pass",
+      "result": "8; 49/153",
+      "method": "Enumerate all positive integer colour counts; count unordered pairs.",
+      "publication": "candidate"
+    },
+    {
+      "number": 22,
+      "check": "pass",
+      "result": [
+        "9598254.4021824616631838902546105043769098240000",
+        "2267570.380191863551675146725995409571840000"
+      ],
+      "method": "Direct sums over 21 years and sampled exponents 2,6,10,14,18; no premature rounding.",
+      "publication": "candidate"
+    },
+    {
+      "number": 23,
+      "check": "pass",
+      "result": "121; 1140; m=22; 21 patterns",
+      "method": "Enumerate every feasible starting pattern, not just a rounded quadratic root.",
+      "publication": "candidate"
+    },
+    {
+      "number": 24,
+      "check": "pass",
+      "result": {
+        "realMinimum": "4112.4435574831726066441647540661243977952292278781",
+        "roundedSourceAnswer": "4112.44",
+        "leastWholeCentPayment": "4112.45",
+        "paymentCount": 23,
+        "calendarMonth": 24,
+        "lastPayment": "2134.7926606279331074396512897206249090587079600000"
+      },
+      "method": "Month-by-month recurrence, closed form, 28-payment cent bounds and 23-payment payoff simulation.",
+      "publication": "candidate"
+    }
+  ],
+  "limitations": "This script verifies stated mathematical conditions. It is not a substitute for source transcription, same-question visual inspection or student-device testing."
+}
