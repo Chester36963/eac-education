@@ -15,7 +15,7 @@ function serve(port=4174){const origin='http://127.0.0.1:'+port;const server=htt
  if(p.startsWith('/staged/')){const bits=p.split('/').slice(2),id=bits.shift();pipeline.get(id);return asset(inside(path.join(pipeline.workRoot,id),bits.join('/')));}
  if(p==='/source-page'){const b=pipeline.get(u.searchParams.get('batch')),page=Number(u.searchParams.get('page'));if(!Number.isInteger(page)||page<1)throw Error('Invalid page');const f=path.join(pipeline.workRoot,b.id,'extraction');const extraction=JSON.parse(fs.readFileSync(path.join(f,'extraction.json')));if(extraction.sha256!==pipeline.source(b.sourceId).sha256)throw Error('Stale extraction');if(!extraction.pages.some(p=>p.page===page))throw Error('Unknown page');return asset(inside(f,'page-'+page+'.jpg'));}
  if(p==='/preview')return asset(path.join(__dirname,'preview.html'));
- if(p==='/editor.js'||p==='/editor.css')return asset(path.join(__dirname,path.basename(p)));
+ if(p==='/editor.js'||p==='/editor.css'||p==='/workflow.js')return asset(path.join(__dirname,path.basename(p)));
  let body={};if(req.method==='POST'){let raw='';for await(const chunk of req){raw+=chunk;if(Buffer.byteLength(raw)>8*1024*1024)throw Error('Payload too large');}body=JSON.parse(raw||'{}');}
  if(p==='/api/sources'&&req.method==='GET')return send(200,{sources:pipeline.inventory.sources,routes:JSON.parse(fs.readFileSync(path.join(root,'content/planning/source-routing.json'))).routes.map(r=>({sourceId:r.sourceId,topics:r.candidateTopicIds})),batches:pipeline.list(),release:pipeline.release()});
  if(p==='/api/batch'&&req.method==='GET')return send(200,pipeline.get(u.searchParams.get('id')));
@@ -28,6 +28,8 @@ function serve(port=4174){const origin='http://127.0.0.1:'+port;const server=htt
  if(p==='/api/adopt-version')return send(200,pipeline.adoptVersion(body.id,body.sha256,body.reason,body.revision));
  if(p==='/api/create')return send(200,pipeline.create(body.sourceId,body.topicId));
  if(p==='/api/save')return send(200,pipeline.save(body.id,body.batch,body.revision));
+ if(p==='/api/plan-records')return send(200,pipeline.planRegistration(body.id,body.text));
+ if(p==='/api/register-records')return send(200,pipeline.registerRecords(body.id,body.text,body.revision));
  if(p==='/api/review')return send(200,pipeline.approve(body.id,body.locator,body.gate,body.evidence,body.revision));
  if(p==='/api/validate'||p==='/api/diff')return send(200,pipeline.preview(body.id));
  if(p==='/api/apply')return send(200,pipeline.apply(body.id,body.digest));

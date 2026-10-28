@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "checks": [
+    "unsaved shared preview leaves disk unchanged",
+    "invalid options preserve last valid preview",
+    "unapplied advanced JSON cannot be silently saved",
+    "dirty navigation blocked",
+    "save and next",
+    "keyboard save and in-flight edit protection",
+    "search and review filters",
+    "cross-page bulk registration",
+    "explicit unknown source count retained",
+    "repeated registration is no-op",
+    "conflicting pages rejected",
+    "todo opens exact source question",
+    "keyboard-sized controls",
+    "no horizontal page overflow",
+    "canonical sequences unchanged"
+  ],
+  "canonicalSHA256": "b9979b71d1690467890b853b5e5121a2df9198e3b26f6503e8f27c9d41c1f950",
+  "pageErrors": []
+}
