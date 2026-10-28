@@ -1,3 +1,5 @@
+> **Current architecture checkpoint — 28 October 2026:** The live bank is 1,186 questions across seven chapters. The full-course editorial layer now separates Core, M1 and M2, with 61 provisional topic containers and an audited source-file snapshot. It is not loaded by the student runtime. See [CURRICULUM_STRUCTURE.md](CURRICULUM_STRUCTURE.md) for the current purpose, taxonomy dimensions, stable legacy bindings, shared-template contract and explicit M1/M2 runtime dependency. Historical milestones and earlier counts below describe earlier implementations, not the present bank size. Current visual authority is charcoal / light paper / restrained grey-blue in `src/css/study.css`, superseding the old warm-accent wording.
+
 # EAC Education · Product Architecture
 
 ## Product direction

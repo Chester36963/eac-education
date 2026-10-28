@@ -1,3 +1,5 @@
+> **2026-10-28 CUR 模板延伸**：所有新課題沿用炭黑封面、淺紙面、灰藍重點及現有題目 renderer；不得每課建立獨立主題。新增 [全課程結構／模板契約](CURRICULUM_STRUCTURE.md) 及 `content/planning/template-contract.json`。本次只完成結構與契約，不把任何未實作的 UI／UE 項目改成完成。M1／M2 的 course 篩選、URL／組題／舊記錄相容列為發布前依賴 CUR-06。
+
 # EAC UI／UE 完整接力規格 · 2026-10-23
 
 此文件同時保存完整規格與實際驗收結果，供持續接力。2026-10-23 本地實作及下列回歸已完成；內容數學驗收仍有待辦，見 [題庫及圖像](CONTENT_EXPANSION_PLAN.md)。狀態：待處理／處理中／待驗收／完成／待補來源。完成須附測試及視覺證據；發布結果另見 IMPLEMENTATION_LOG。

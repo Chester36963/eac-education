@@ -17,6 +17,7 @@ fi
 
 NODE_BIN="${EAC_NODE_BIN:-node}"
 "${NODE_BIN}" scripts/version-study-assets.cjs
+"${NODE_BIN}" scripts/build-curriculum.cjs --check
 "${NODE_BIN}" scripts/build-content.cjs
 "${NODE_BIN}" --test tests/*.cjs
 git diff --check

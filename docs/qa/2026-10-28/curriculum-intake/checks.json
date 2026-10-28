@@ -1,0 +1,58 @@
+{
+  "batch": "CUR-20261028",
+  "date": "2026-10-28",
+  "status": "passed",
+  "scope": "Source inventory and future curriculum structure only; zero student runtime or question edits.",
+  "nodeTests": {
+    "command": "PYTHONPATH=/tmp/eac-math-deps node --test tests/*.cjs",
+    "total": 1088,
+    "passed": 1088,
+    "failed": 0
+  },
+  "newStructureNodeTests": 14,
+  "scannerPythonTests": 3,
+  "checks": {
+    "curriculumGeneratedOutput": "passed",
+    "canonicalPublishedContent": "passed",
+    "sharedAssetVersions": "passed",
+    "gitDiffWhitespace": "passed",
+    "sourceInventoryRebuildByteEquality": "passed"
+  },
+  "sources": {
+    "physicalFiles": 928,
+    "archiveMembers": 23,
+    "records": 951,
+    "representativeTextExcerpts": 237,
+    "thinExcerptWarnings": 160,
+    "wordFilesWithMedia": 328,
+    "wordFiles": 329,
+    "pairedFormatCandidates": 324,
+    "exactDuplicateGroups": 26
+  },
+  "plannedTopics": {
+    "core": 42,
+    "m1": 9,
+    "m2": 10
+  },
+  "bank": {
+    "totalQuestions": 1186,
+    "chapterCount": 7,
+    "revision": "2ffd9cb690908b1f",
+    "newQuestionsThisBatch": 0
+  },
+  "fileSHA256": {
+    "content/planning/curriculum.json": "21a7a9ed0bb4181a707c7f3bbdd9857993d9e32c6d4cbfdd634f5db226bc2363",
+    "content/planning/source-inventory.json": "8db1f62c261bd593f5c42c68863c5d1e03aedbb684415250fb2c9be8ee4269f9",
+    "content/planning/source-routing.json": "06be029cf34119a06ec318bc83d66d106569664bb267de69befd114e970f7316",
+    "content/planning/template-contract.json": "d65e8153b236d037854e4b9fabe828d4858640a1d56f9fc9b35c01a1ea001105",
+    "docs/planning/SOURCE_INVENTORY.md": "17aaf461e35d3fa5d3edafd1f1206fedc8ec45eeb5af56b8ae2de755f23b5b56"
+  },
+  "notPerformed": [
+    "full-question-extraction",
+    "full-source-page-reading",
+    "new-answer-recalculation",
+    "new-student-diagram-approval",
+    "new-responsive-UI-testing",
+    "M1-M2-course-runtime-implementation"
+  ]
+}

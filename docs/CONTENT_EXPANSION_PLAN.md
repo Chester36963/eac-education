@@ -1,3 +1,5 @@
+> **2026-10-28 全課程結構擴充（CUR）**：新增用戶指定 S1–S6、M1、M2、mock 九個資料夾的來源快照與 61 個候選容器；這是下一階段架構，不是把 928 份檔案當成已驗收題目。既有七課題／1,186 題維持，今批新增題數 0。目的、先備鏈、來源差異、課程篩選依賴與共享模板見 [CURRICULUM_STRUCTURE](CURRICULUM_STRUCTURE.md)，完整清單見 [SOURCE_INVENTORY](planning/SOURCE_INVENTORY.md)。原有題目擴充及待補來源工作仍保留於本文件。
+
 # EAC 題庫擴充與修復追蹤 · 2026-10-23
 
 ## 範圍及真實狀態

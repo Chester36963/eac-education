@@ -1,0 +1,3996 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-28",
+  "statusVocabulary": [
+    "待處理",
+    "處理中",
+    "待驗收",
+    "完成",
+    "待補來源"
+  ],
+  "boundary": "Private editorial structure; not a published syllabus or question bank. Source-level routes are candidates only.",
+  "tracks": [
+    {
+      "id": "core",
+      "name": {
+        "en": "Core Mathematics",
+        "zh-Hant": "數學必修部分"
+      },
+      "stages": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "runtimeSupport": "existing-form-1-to-6"
+    },
+    {
+      "id": "m1",
+      "name": {
+        "en": "M1 — Calculus and Statistics",
+        "zh-Hant": "M1 — 微積分與統計"
+      },
+      "stages": [
+        "M1"
+      ],
+      "runtimeSupport": "requires-explicit-course-filter-before-publication"
+    },
+    {
+      "id": "m2",
+      "name": {
+        "en": "M2 — Algebra and Calculus",
+        "zh-Hant": "M2 — 代數與微積分"
+      },
+      "stages": [
+        "M2"
+      ],
+      "runtimeSupport": "requires-explicit-course-filter-before-publication"
+    }
+  ],
+  "areas": [
+    {
+      "id": "number",
+      "name": {
+        "en": "Number",
+        "zh-Hant": "數與運算"
+      }
+    },
+    {
+      "id": "algebra",
+      "name": {
+        "en": "Algebra",
+        "zh-Hant": "代數"
+      }
+    },
+    {
+      "id": "geometry",
+      "name": {
+        "en": "Geometry",
+        "zh-Hant": "幾何"
+      }
+    },
+    {
+      "id": "coordinate-geometry",
+      "name": {
+        "en": "Coordinate geometry",
+        "zh-Hant": "坐標幾何"
+      }
+    },
+    {
+      "id": "mensuration",
+      "name": {
+        "en": "Mensuration",
+        "zh-Hant": "度量"
+      }
+    },
+    {
+      "id": "trigonometry",
+      "name": {
+        "en": "Trigonometry",
+        "zh-Hant": "三角學"
+      }
+    },
+    {
+      "id": "statistics",
+      "name": {
+        "en": "Statistics",
+        "zh-Hant": "統計"
+      }
+    },
+    {
+      "id": "probability",
+      "name": {
+        "en": "Probability",
+        "zh-Hant": "概率"
+      }
+    },
+    {
+      "id": "calculus",
+      "name": {
+        "en": "Calculus",
+        "zh-Hant": "微積分"
+      }
+    }
+  ],
+  "topics": [
+    {
+      "id": "number-foundations",
+      "trackId": "core",
+      "areaId": "number",
+      "name": {
+        "en": "Number foundations",
+        "zh-Hant": "數的基礎"
+      },
+      "learningPurpose": "先識別數的結構，再選擇可靠運算方法。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "number-foundations-strand-1",
+          "name": {
+            "en": "Factors and multiples",
+            "zh-Hant": "因數與倍數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "number-foundations-strand-2",
+          "name": {
+            "en": "Fractions and operations",
+            "zh-Hant": "分數與運算"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "number-foundations-strand-3",
+          "name": {
+            "en": "Order of operations",
+            "zh-Hant": "運算次序"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "directed-numbers",
+      "trackId": "core",
+      "areaId": "number",
+      "name": {
+        "en": "Directed numbers",
+        "zh-Hant": "有向數"
+      },
+      "learningPurpose": "將正負號連結數線位置，避免只背運算口訣。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "number-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "directed-numbers-strand-1",
+          "name": {
+            "en": "Number line",
+            "zh-Hant": "數線"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "directed-numbers-strand-2",
+          "name": {
+            "en": "Signed operations",
+            "zh-Hant": "正負數運算"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "indices-number-systems",
+      "trackId": "core",
+      "areaId": "number",
+      "name": {
+        "en": "Indices and number systems",
+        "zh-Hant": "指數與數系"
+      },
+      "learningPurpose": "先檢查底數、指數及根式限制，再化簡。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "directed-numbers"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "indices-number-systems-strand-1",
+          "name": {
+            "en": "Index laws",
+            "zh-Hant": "指數律"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "indices-number-systems-strand-2",
+          "name": {
+            "en": "Surds",
+            "zh-Hant": "根式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "indices-number-systems-strand-3",
+          "name": {
+            "en": "Number systems",
+            "zh-Hant": "數系"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "percentage",
+      "trackId": "core",
+      "areaId": "number",
+      "name": {
+        "en": "Percentages and interest",
+        "zh-Hant": "百分數與利息"
+      },
+      "learningPurpose": "分清基準量，建立百分變化及利息模型。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "number-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "percentage-strand-1",
+          "name": {
+            "en": "Percentage change",
+            "zh-Hant": "百分變化"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "percentage-strand-2",
+          "name": {
+            "en": "Profit and discount",
+            "zh-Hant": "盈虧與折扣"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "percentage-strand-3",
+          "name": {
+            "en": "Simple and compound interest",
+            "zh-Hant": "單利與複利"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "percentage-strand-4",
+          "name": {
+            "en": "Successive changes",
+            "zh-Hant": "連續變化"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "ratio-rate",
+      "trackId": "core",
+      "areaId": "number",
+      "name": {
+        "en": "Ratio and rate",
+        "zh-Hant": "比與率"
+      },
+      "learningPurpose": "先統一單位，分辨比例分配與每單位變化。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "number-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "ratio-rate-strand-1",
+          "name": {
+            "en": "Ratio sharing",
+            "zh-Hant": "按比分配"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "ratio-rate-strand-2",
+          "name": {
+            "en": "Rates and units",
+            "zh-Hant": "率與單位"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "ratio-rate-strand-3",
+          "name": {
+            "en": "Proportion",
+            "zh-Hant": "比例"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "approximation-errors",
+      "trackId": "core",
+      "areaId": "number",
+      "name": {
+        "en": "Approximation and errors",
+        "zh-Hant": "近似值與誤差"
+      },
+      "learningPurpose": "由量度精確度建立上下界，檢查答案合理範圍。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "number-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "approximation-errors-strand-1",
+          "name": {
+            "en": "Rounding",
+            "zh-Hant": "捨入"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "approximation-errors-strand-2",
+          "name": {
+            "en": "Bounds",
+            "zh-Hant": "上下界"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "approximation-errors-strand-3",
+          "name": {
+            "en": "Absolute and relative errors",
+            "zh-Hant": "絕對與相對誤差"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "algebra-foundations",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Algebra foundations",
+        "zh-Hant": "代數入門"
+      },
+      "learningPurpose": "把文字關係譯為代數式，再代入和化簡。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "directed-numbers"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "algebra-foundations-strand-1",
+          "name": {
+            "en": "Expressions and substitution",
+            "zh-Hant": "代數式與代入"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "algebra-foundations-strand-2",
+          "name": {
+            "en": "Collecting terms",
+            "zh-Hant": "合併同類項"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "algebra-foundations-strand-3",
+          "name": {
+            "en": "Forming expressions",
+            "zh-Hant": "建立代數式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "linear-equations",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Linear equations",
+        "zh-Hant": "一元一次方程"
+      },
+      "learningPurpose": "把未知量定義清楚，再列出等量關係。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "algebra-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "linear-equations-strand-1",
+          "name": {
+            "en": "Solving equations",
+            "zh-Hant": "解方程"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "linear-equations-strand-2",
+          "name": {
+            "en": "Word problems",
+            "zh-Hant": "應用題"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "simultaneous-equations",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Simultaneous linear equations",
+        "zh-Hant": "二元一次聯立方程"
+      },
+      "learningPurpose": "選擇消元或代入，並核對解是否同時符合兩條式。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "linear-equations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "simultaneous-equations-strand-1",
+          "name": {
+            "en": "Elimination",
+            "zh-Hant": "消元法"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "simultaneous-equations-strand-2",
+          "name": {
+            "en": "Substitution",
+            "zh-Hant": "代入法"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "simultaneous-equations-strand-3",
+          "name": {
+            "en": "Modelling",
+            "zh-Hant": "建立聯立方程"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "polynomials",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Polynomials",
+        "zh-Hant": "多項式"
+      },
+      "learningPurpose": "由基本運算進入除法恆等式，按真正主導解題的技巧分組。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "algebra-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "polynomials-strand-1",
+          "name": {
+            "en": "Terms and operations",
+            "zh-Hant": "項與運算"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "polynomials-strand-2",
+          "name": {
+            "en": "Division and identities",
+            "zh-Hant": "除法恆等式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "polynomials-strand-3",
+          "name": {
+            "en": "Remainder and factor theorems",
+            "zh-Hant": "餘式與因式定理"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "polynomials-strand-4",
+          "name": {
+            "en": "Polynomial HCF and LCM",
+            "zh-Hant": "多項式最大公因式與最小公倍式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": {
+        "topicId": "polynomial",
+        "chapterId": "polynomials",
+        "subjectId": "algebra"
+      },
+      "publicationGate": "existing-bank-expansion",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "identities",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Identities",
+        "zh-Hant": "恆等式"
+      },
+      "learningPurpose": "辨認結構，選擇展開或反向配對。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "polynomials"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "identities-strand-1",
+          "name": {
+            "en": "Expanding identities",
+            "zh-Hant": "展開恆等式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "identities-strand-2",
+          "name": {
+            "en": "Comparing coefficients",
+            "zh-Hant": "比較係數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "identities-strand-3",
+          "name": {
+            "en": "Rewriting expressions",
+            "zh-Hant": "重組代數式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "factorisation",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Factorisation",
+        "zh-Hant": "因式分解"
+      },
+      "learningPurpose": "由公因式開始，再辨認平方差、完全平方或分組。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "identities"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "factorisation-strand-1",
+          "name": {
+            "en": "Common factors",
+            "zh-Hant": "公因式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "factorisation-strand-2",
+          "name": {
+            "en": "Quadratic factorisation",
+            "zh-Hant": "二次式因式分解"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "factorisation-strand-3",
+          "name": {
+            "en": "Grouping and identities",
+            "zh-Hant": "分組與恆等式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "algebraic-fractions-formulae",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Algebraic fractions and formulae",
+        "zh-Hant": "代數分式與公式"
+      },
+      "learningPurpose": "先記錄分母限制，再約分、運算及變換公式主項。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "factorisation"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "algebraic-fractions-formulae-strand-1",
+          "name": {
+            "en": "Fraction operations",
+            "zh-Hant": "分式運算"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "algebraic-fractions-formulae-strand-2",
+          "name": {
+            "en": "Restrictions",
+            "zh-Hant": "分母限制"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "algebraic-fractions-formulae-strand-3",
+          "name": {
+            "en": "Change of subject",
+            "zh-Hant": "公式主項變換"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "inequalities",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Inequalities",
+        "zh-Hant": "不等式"
+      },
+      "learningPurpose": "把解表示為數線或區域，特別檢查乘負數及交集聯集。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "linear-equations",
+        "factorisation"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "inequalities-strand-1",
+          "name": {
+            "en": "Linear inequalities",
+            "zh-Hant": "一次不等式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "inequalities-strand-2",
+          "name": {
+            "en": "Compound inequalities",
+            "zh-Hant": "複合不等式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "inequalities-strand-3",
+          "name": {
+            "en": "Quadratic inequalities",
+            "zh-Hant": "二次不等式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "functions-quadratics",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Functions and quadratic equations",
+        "zh-Hant": "函數與二次方程"
+      },
+      "learningPurpose": "將函數、圖像與方程互相連結，選擇配方或判別式。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "factorisation"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "functions-quadratics-strand-1",
+          "name": {
+            "en": "Function notation",
+            "zh-Hant": "函數記號"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "functions-quadratics-strand-2",
+          "name": {
+            "en": "Quadratic equations",
+            "zh-Hant": "二次方程"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "functions-quadratics-strand-3",
+          "name": {
+            "en": "Completing the square",
+            "zh-Hant": "配方法"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "functions-quadratics-strand-4",
+          "name": {
+            "en": "Nature of roots",
+            "zh-Hant": "根的性質"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "functions-quadratics-strand-5",
+          "name": {
+            "en": "Quadratic graphs",
+            "zh-Hant": "二次函數圖像"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "equation-systems",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Further equations",
+        "zh-Hant": "進階方程"
+      },
+      "learningPurpose": "先辨認可代換結構及定義域，再檢查增根與所有可行解。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "functions-quadratics",
+        "simultaneous-equations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "equation-systems-strand-1",
+          "name": {
+            "en": "Substitution",
+            "zh-Hant": "代換"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "equation-systems-strand-2",
+          "name": {
+            "en": "Nonlinear systems",
+            "zh-Hant": "非線性聯立方程"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "equation-systems-strand-3",
+          "name": {
+            "en": "Extraneous roots",
+            "zh-Hant": "增根檢查"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "complex-numbers",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Complex numbers",
+        "zh-Hant": "複數"
+      },
+      "learningPurpose": "正確運用 i 的運算及共軛，將非實根納入解集。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "functions-quadratics"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "complex-numbers-strand-1",
+          "name": {
+            "en": "Powers of i",
+            "zh-Hant": "虛數單位"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "complex-numbers-strand-2",
+          "name": {
+            "en": "Complex operations",
+            "zh-Hant": "複數運算"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "complex-numbers-strand-3",
+          "name": {
+            "en": "Conjugates and roots",
+            "zh-Hant": "共軛與根"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "exponentials-logarithms",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Exponential and logarithmic functions",
+        "zh-Hant": "指數與對數函數"
+      },
+      "learningPurpose": "先檢查底數與真數限制，再以指數或對數關係解題。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "indices-number-systems",
+        "functions-quadratics"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "exponentials-logarithms-strand-1",
+          "name": {
+            "en": "Exponential equations",
+            "zh-Hant": "指數方程"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "exponentials-logarithms-strand-2",
+          "name": {
+            "en": "Logarithm laws",
+            "zh-Hant": "對數律"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "exponentials-logarithms-strand-3",
+          "name": {
+            "en": "Log equations and domains",
+            "zh-Hant": "對數方程與限制"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "exponentials-logarithms-strand-4",
+          "name": {
+            "en": "Graphs",
+            "zh-Hant": "圖像"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "variation",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Variation",
+        "zh-Hant": "變分"
+      },
+      "learningPurpose": "從變化描述建立含比例常數的模型。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "ratio-rate",
+        "algebra-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "variation-strand-1",
+          "name": {
+            "en": "Direct and inverse",
+            "zh-Hant": "正變與反變"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "variation-strand-2",
+          "name": {
+            "en": "Joint variation",
+            "zh-Hant": "聯變"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "variation-strand-3",
+          "name": {
+            "en": "Changing quantities",
+            "zh-Hant": "變量改變"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "sequences",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Sequences and series",
+        "zh-Hant": "數列與級數"
+      },
+      "learningPurpose": "分辨通項與部分和，核對公差公比及項數限制。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "linear-equations",
+        "exponentials-logarithms"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "sequences-strand-1",
+          "name": {
+            "en": "Arithmetic sequences",
+            "zh-Hant": "等差數列"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "sequences-strand-2",
+          "name": {
+            "en": "Geometric sequences",
+            "zh-Hant": "等比數列"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "sequences-strand-3",
+          "name": {
+            "en": "Finite series",
+            "zh-Hant": "有限級數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "sequences-strand-4",
+          "name": {
+            "en": "Infinite geometric series",
+            "zh-Hant": "無窮等比級數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "sequences-strand-5",
+          "name": {
+            "en": "Mixed constraints",
+            "zh-Hant": "混合條件"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": {
+        "topicId": "sequences",
+        "chapterId": "sequences",
+        "subjectId": "algebra"
+      },
+      "publicationGate": "existing-bank-expansion",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "geometry-foundations",
+      "trackId": "core",
+      "areaId": "geometry",
+      "name": {
+        "en": "Geometry foundations",
+        "zh-Hant": "幾何入門"
+      },
+      "learningPurpose": "讀懂點線面及圖形性質，為推理建立準確語言。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "geometry-foundations-strand-1",
+          "name": {
+            "en": "Points lines and solids",
+            "zh-Hant": "點線與立體"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "geometry-foundations-strand-2",
+          "name": {
+            "en": "Geometric language",
+            "zh-Hant": "幾何語言"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "angles-lines",
+      "trackId": "core",
+      "areaId": "geometry",
+      "name": {
+        "en": "Angles and straight lines",
+        "zh-Hant": "角與直線"
+      },
+      "learningPurpose": "由已知平行或共線條件選擇角度關係。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "geometry-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "angles-lines-strand-1",
+          "name": {
+            "en": "Angles on lines",
+            "zh-Hant": "直線上的角"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "angles-lines-strand-2",
+          "name": {
+            "en": "Parallel lines",
+            "zh-Hant": "平行線"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "angles-lines-strand-3",
+          "name": {
+            "en": "Reasoned angle chains",
+            "zh-Hant": "角度推理鏈"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "polygons",
+      "trackId": "core",
+      "areaId": "geometry",
+      "name": {
+        "en": "Triangles and polygons",
+        "zh-Hant": "三角形與多邊形"
+      },
+      "learningPurpose": "先確認內角外角定義，再建立角和關係。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "angles-lines"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "polygons-strand-1",
+          "name": {
+            "en": "Triangle angles",
+            "zh-Hant": "三角形角度"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "polygons-strand-2",
+          "name": {
+            "en": "Interior and exterior angles",
+            "zh-Hant": "內角與外角"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "polygons-strand-3",
+          "name": {
+            "en": "Regular polygons",
+            "zh-Hant": "正多邊形"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "congruence-similarity",
+      "trackId": "core",
+      "areaId": "geometry",
+      "name": {
+        "en": "Congruence and similarity",
+        "zh-Hant": "全等與相似"
+      },
+      "learningPurpose": "先配對對應頂點，再選判定條件和比例。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "polygons",
+        "ratio-rate"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "congruence-similarity-strand-1",
+          "name": {
+            "en": "Congruence tests",
+            "zh-Hant": "全等判定"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "congruence-similarity-strand-2",
+          "name": {
+            "en": "Similarity tests",
+            "zh-Hant": "相似判定"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "congruence-similarity-strand-3",
+          "name": {
+            "en": "Corresponding ratios",
+            "zh-Hant": "對應比例"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "pythagoras",
+      "trackId": "core",
+      "areaId": "geometry",
+      "name": {
+        "en": "Pythagoras’ theorem",
+        "zh-Hant": "畢氏定理"
+      },
+      "learningPurpose": "確認直角及斜邊，再列平方關係或檢驗逆定理。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "polygons",
+        "indices-number-systems"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "pythagoras-strand-1",
+          "name": {
+            "en": "Right triangle lengths",
+            "zh-Hant": "直角三角形邊長"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "pythagoras-strand-2",
+          "name": {
+            "en": "Converse",
+            "zh-Hant": "逆定理"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "pythagoras-strand-3",
+          "name": {
+            "en": "Surd lengths",
+            "zh-Hant": "根式邊長"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "quadrilaterals",
+      "trackId": "core",
+      "areaId": "geometry",
+      "name": {
+        "en": "Quadrilaterals",
+        "zh-Hant": "四邊形"
+      },
+      "learningPurpose": "由邊、角及對角線條件辨認圖形和證明性質。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "congruence-similarity"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "quadrilaterals-strand-1",
+          "name": {
+            "en": "Parallelograms",
+            "zh-Hant": "平行四邊形"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "quadrilaterals-strand-2",
+          "name": {
+            "en": "Rectangles and rhombi",
+            "zh-Hant": "長方形與菱形"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "quadrilaterals-strand-3",
+          "name": {
+            "en": "Trapezia and kites",
+            "zh-Hant": "梯形與風箏形"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "quadrilaterals-strand-4",
+          "name": {
+            "en": "Proof chains",
+            "zh-Hant": "證明鏈"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "four-centres",
+      "trackId": "core",
+      "areaId": "coordinate-geometry",
+      "name": {
+        "en": "Four centres",
+        "zh-Hant": "三角形四心"
+      },
+      "learningPurpose": "先辨認所需中心的定義線，再選幾何或坐標方法。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "congruence-similarity",
+        "coordinate-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "four-centres-strand-1",
+          "name": {
+            "en": "Circumcentre",
+            "zh-Hant": "外心"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "four-centres-strand-2",
+          "name": {
+            "en": "Incentre",
+            "zh-Hant": "內心"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "four-centres-strand-3",
+          "name": {
+            "en": "Centroid",
+            "zh-Hant": "重心"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "four-centres-strand-4",
+          "name": {
+            "en": "Orthocentre",
+            "zh-Hant": "垂心"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "four-centres-strand-5",
+          "name": {
+            "en": "Centre relations",
+            "zh-Hant": "四心關係"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": {
+        "topicId": "four-centres",
+        "chapterId": "four-centres",
+        "subjectId": "coordinate-geometry"
+      },
+      "publicationGate": "existing-bank-expansion",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "circle-properties",
+      "trackId": "core",
+      "areaId": "geometry",
+      "name": {
+        "en": "Circle properties",
+        "zh-Hant": "圓的性質"
+      },
+      "learningPurpose": "根據弦、圓周角、切線及內接四邊形條件建立推理鏈。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "quadrilaterals"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "circle-properties-strand-1",
+          "name": {
+            "en": "Angles and chords",
+            "zh-Hant": "角與弦"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "circle-properties-strand-2",
+          "name": {
+            "en": "Cyclic quadrilaterals",
+            "zh-Hant": "圓內接四邊形"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "circle-properties-strand-3",
+          "name": {
+            "en": "Tangents",
+            "zh-Hant": "切線"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "circle-properties-strand-4",
+          "name": {
+            "en": "Integrated proofs",
+            "zh-Hant": "綜合證明"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "coordinate-foundations",
+      "trackId": "core",
+      "areaId": "coordinate-geometry",
+      "name": {
+        "en": "Coordinates and coordinate geometry",
+        "zh-Hant": "坐標與坐標幾何"
+      },
+      "learningPurpose": "把圖形條件轉成距離、中點、斜率或面積。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "algebra-foundations",
+        "pythagoras"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "coordinate-foundations-strand-1",
+          "name": {
+            "en": "Coordinates and transformations",
+            "zh-Hant": "坐標與變換"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "coordinate-foundations-strand-2",
+          "name": {
+            "en": "Midpoint and distance",
+            "zh-Hant": "中點與距離"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "coordinate-foundations-strand-3",
+          "name": {
+            "en": "Gradient",
+            "zh-Hant": "斜率"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "coordinate-foundations-strand-4",
+          "name": {
+            "en": "Coordinate areas",
+            "zh-Hant": "坐標面積"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "straight-lines",
+      "trackId": "core",
+      "areaId": "coordinate-geometry",
+      "name": {
+        "en": "Equations of straight lines",
+        "zh-Hant": "直線方程"
+      },
+      "learningPurpose": "由點、斜率及平行垂直條件建立直線，處理垂直線例外。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "coordinate-foundations",
+        "simultaneous-equations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "straight-lines-strand-1",
+          "name": {
+            "en": "Line forms",
+            "zh-Hant": "直線形式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "straight-lines-strand-2",
+          "name": {
+            "en": "Parallel and perpendicular",
+            "zh-Hant": "平行與垂直"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "straight-lines-strand-3",
+          "name": {
+            "en": "Intersections",
+            "zh-Hant": "交點"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "straight-lines-strand-4",
+          "name": {
+            "en": "Intercepts",
+            "zh-Hant": "截距"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "locus",
+      "trackId": "core",
+      "areaId": "coordinate-geometry",
+      "name": {
+        "en": "Locus",
+        "zh-Hant": "軌跡"
+      },
+      "learningPurpose": "把動點限制轉為等距、定距或角度關係，再檢查端點。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "straight-lines"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "locus-strand-1",
+          "name": {
+            "en": "Fixed distances",
+            "zh-Hant": "定距"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "locus-strand-2",
+          "name": {
+            "en": "Equal distances",
+            "zh-Hant": "等距"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "locus-strand-3",
+          "name": {
+            "en": "Right-angle loci",
+            "zh-Hant": "直角軌跡"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "locus-strand-4",
+          "name": {
+            "en": "Intersections and transformations",
+            "zh-Hant": "交點與變換"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": {
+        "topicId": "locus",
+        "chapterId": "locus",
+        "subjectId": "coordinate-geometry"
+      },
+      "publicationGate": "existing-bank-expansion",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "circle-equation",
+      "trackId": "core",
+      "areaId": "coordinate-geometry",
+      "name": {
+        "en": "Equation of a circle",
+        "zh-Hant": "圓方程"
+      },
+      "learningPurpose": "由圓心半徑建立方程，連結直線交點、弦及切線。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "straight-lines",
+        "functions-quadratics"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "circle-equation-strand-1",
+          "name": {
+            "en": "Standard and general forms",
+            "zh-Hant": "標準式與一般式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "circle-equation-strand-2",
+          "name": {
+            "en": "Chords",
+            "zh-Hant": "弦"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "circle-equation-strand-3",
+          "name": {
+            "en": "Lines and tangents",
+            "zh-Hant": "直線與切線"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "circle-equation-strand-4",
+          "name": {
+            "en": "Circle families",
+            "zh-Hant": "圓族"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": {
+        "topicId": "circle-equation",
+        "chapterId": "circle-equation",
+        "subjectId": "coordinate-geometry"
+      },
+      "publicationGate": "existing-bank-expansion",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "mensuration",
+      "trackId": "core",
+      "areaId": "mensuration",
+      "name": {
+        "en": "Mensuration",
+        "zh-Hant": "度量"
+      },
+      "learningPurpose": "先確認要計的邊界或體積，選擇公式、分割及相似比例。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "ratio-rate",
+        "geometry-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "mensuration-strand-1",
+          "name": {
+            "en": "Plane areas",
+            "zh-Hant": "平面面積"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "mensuration-strand-2",
+          "name": {
+            "en": "Prisms and cylinders",
+            "zh-Hant": "柱體"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "mensuration-strand-3",
+          "name": {
+            "en": "Cones pyramids and spheres",
+            "zh-Hant": "錐體與球"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "mensuration-strand-4",
+          "name": {
+            "en": "Surface area",
+            "zh-Hant": "表面面積"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "mensuration-strand-5",
+          "name": {
+            "en": "Similarity and displacement",
+            "zh-Hant": "相似與排水"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": {
+        "topicId": "mensuration",
+        "chapterId": "mensuration-core",
+        "subjectId": "mensuration"
+      },
+      "publicationGate": "existing-bank-expansion",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "trigonometry-basics",
+      "trackId": "core",
+      "areaId": "trigonometry",
+      "name": {
+        "en": "Trigonometric ratios",
+        "zh-Hant": "三角比入門"
+      },
+      "learningPurpose": "以角為基準辨認對邊鄰邊斜邊，選擇比值。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "pythagoras",
+        "ratio-rate"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "trigonometry-basics-strand-1",
+          "name": {
+            "en": "Right-triangle ratios",
+            "zh-Hant": "直角三角比"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "trigonometry-basics-strand-2",
+          "name": {
+            "en": "Finding lengths and angles",
+            "zh-Hant": "求邊與角"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "trigonometry-relations",
+      "trackId": "core",
+      "areaId": "trigonometry",
+      "name": {
+        "en": "Trigonometric relations",
+        "zh-Hant": "三角比關係"
+      },
+      "learningPurpose": "用象限、角度變換及基本關係判斷符號和值。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "trigonometry-basics"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "trigonometry-relations-strand-1",
+          "name": {
+            "en": "Quadrants",
+            "zh-Hant": "象限"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "trigonometry-relations-strand-2",
+          "name": {
+            "en": "Related angles",
+            "zh-Hant": "相關角"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "trigonometry-relations-strand-3",
+          "name": {
+            "en": "Identities",
+            "zh-Hant": "三角恆等關係"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "trigonometry-relations-strand-4",
+          "name": {
+            "en": "Graphs",
+            "zh-Hant": "三角函數圖像"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "trigonometry-2d",
+      "trackId": "core",
+      "areaId": "trigonometry",
+      "name": {
+        "en": "Applications of trigonometry in 2D",
+        "zh-Hant": "平面三角學應用"
+      },
+      "learningPurpose": "從實景畫出三角形，選擇三角比、正弦或餘弦公式。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "trigonometry-relations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "trigonometry-2d-strand-1",
+          "name": {
+            "en": "Elevation and depression",
+            "zh-Hant": "仰角與俯角"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "trigonometry-2d-strand-2",
+          "name": {
+            "en": "Sine and cosine formulae",
+            "zh-Hant": "正弦與餘弦公式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "trigonometry-2d-strand-3",
+          "name": {
+            "en": "Areas and bearings",
+            "zh-Hant": "面積與方位"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "trigonometry-3d",
+      "trackId": "core",
+      "areaId": "trigonometry",
+      "name": {
+        "en": "Applications of trigonometry in 3D",
+        "zh-Hant": "立體三角學應用"
+      },
+      "learningPurpose": "先抽取正確平面及投影，再處理線面角及空間距離。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "trigonometry-2d",
+        "mensuration"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "trigonometry-3d-strand-1",
+          "name": {
+            "en": "Planes and projections",
+            "zh-Hant": "平面與投影"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "trigonometry-3d-strand-2",
+          "name": {
+            "en": "Line-plane angles",
+            "zh-Hant": "直線與平面的角"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "trigonometry-3d-strand-3",
+          "name": {
+            "en": "Bearings and compound solids",
+            "zh-Hant": "方位與組合立體"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "graph-transformations",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Transformations of functions",
+        "zh-Hant": "函數圖像變換"
+      },
+      "learningPurpose": "先追蹤點的坐標，再判斷平移反射及伸縮的先後。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "functions-quadratics",
+        "trigonometry-relations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "graph-transformations-strand-1",
+          "name": {
+            "en": "Translations",
+            "zh-Hant": "平移"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "graph-transformations-strand-2",
+          "name": {
+            "en": "Reflections",
+            "zh-Hant": "反射"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "graph-transformations-strand-3",
+          "name": {
+            "en": "Stretches",
+            "zh-Hant": "伸縮"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "graph-transformations-strand-4",
+          "name": {
+            "en": "Combined transformations",
+            "zh-Hant": "組合變換"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "statistics",
+      "trackId": "core",
+      "areaId": "statistics",
+      "name": {
+        "en": "Statistics",
+        "zh-Hant": "統計"
+      },
+      "learningPurpose": "由數據類型與圖表讀值開始，按統計量及比較目的選方法。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "number-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "statistics-strand-1",
+          "name": {
+            "en": "Data and displays",
+            "zh-Hant": "數據與圖表"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "statistics-strand-2",
+          "name": {
+            "en": "Central tendency",
+            "zh-Hant": "集中趨勢"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "statistics-strand-3",
+          "name": {
+            "en": "Dispersion",
+            "zh-Hant": "離差"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "statistics-strand-4",
+          "name": {
+            "en": "Grouped and combined data",
+            "zh-Hant": "分組與合併數據"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "statistics-strand-5",
+          "name": {
+            "en": "Statistical reasoning",
+            "zh-Hant": "統計推理"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": {
+        "topicId": "statistics",
+        "chapterId": "statistics",
+        "subjectId": "statistics"
+      },
+      "publicationGate": "existing-bank-expansion",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "probability",
+      "trackId": "core",
+      "areaId": "probability",
+      "name": {
+        "en": "Probability",
+        "zh-Hant": "概率"
+      },
+      "learningPurpose": "先定義樣本空間及事件，分清互斥、獨立及條件。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "ratio-rate"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "probability-strand-1",
+          "name": {
+            "en": "Sample spaces",
+            "zh-Hant": "樣本空間"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "probability-strand-2",
+          "name": {
+            "en": "Combined events",
+            "zh-Hant": "複合事件"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "probability-strand-3",
+          "name": {
+            "en": "Conditional probability",
+            "zh-Hant": "條件概率"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "probability-strand-4",
+          "name": {
+            "en": "Independent events",
+            "zh-Hant": "獨立事件"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "counting",
+      "trackId": "core",
+      "areaId": "probability",
+      "name": {
+        "en": "Permutations and combinations",
+        "zh-Hant": "排列與組合"
+      },
+      "learningPurpose": "先問次序是否重要，再處理限制及重複計數。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "number-foundations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "counting-strand-1",
+          "name": {
+            "en": "Counting principles",
+            "zh-Hant": "計數原理"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "counting-strand-2",
+          "name": {
+            "en": "Permutations",
+            "zh-Hant": "排列"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "counting-strand-3",
+          "name": {
+            "en": "Combinations",
+            "zh-Hant": "組合"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "counting-strand-4",
+          "name": {
+            "en": "Restricted counting",
+            "zh-Hant": "受限制計數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "linear-programming",
+      "trackId": "core",
+      "areaId": "algebra",
+      "name": {
+        "en": "Linear programming",
+        "zh-Hant": "線性規劃"
+      },
+      "learningPurpose": "把限制畫成可行區域，再用頂點比較目標量。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "inequalities",
+        "straight-lines"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "linear-programming-strand-1",
+          "name": {
+            "en": "Constraints and regions",
+            "zh-Hant": "限制與區域"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "linear-programming-strand-2",
+          "name": {
+            "en": "Objective functions",
+            "zh-Hant": "目標函數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "linear-programming-strand-3",
+          "name": {
+            "en": "Vertex optimisation",
+            "zh-Hant": "頂點最值"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m1-binomial",
+      "trackId": "m1",
+      "areaId": "algebra",
+      "name": {
+        "en": "Binomial expansion",
+        "zh-Hant": "二項式展開"
+      },
+      "learningPurpose": "辨認指定項與指數，選用展開或係數比較。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "polynomials"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m1-binomial-strand-1",
+          "name": {
+            "en": "Expansion",
+            "zh-Hant": "展開"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-binomial-strand-2",
+          "name": {
+            "en": "Coefficients",
+            "zh-Hant": "係數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-binomial-strand-3",
+          "name": {
+            "en": "Range and approximation",
+            "zh-Hant": "範圍與近似"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m1-limits",
+      "trackId": "m1",
+      "areaId": "calculus",
+      "name": {
+        "en": "Limits and continuity",
+        "zh-Hant": "極限與連續"
+      },
+      "learningPurpose": "先確認趨近方式，再選擇化簡與極限方法。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "functions-quadratics"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m1-limits-strand-1",
+          "name": {
+            "en": "Limit evaluation",
+            "zh-Hant": "極限計算"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-limits-strand-2",
+          "name": {
+            "en": "Continuity",
+            "zh-Hant": "連續"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-limits-strand-3",
+          "name": {
+            "en": "First principles bridge",
+            "zh-Hant": "第一原理連接"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m1-differentiation",
+      "trackId": "m1",
+      "areaId": "calculus",
+      "name": {
+        "en": "Differentiation",
+        "zh-Hant": "微分"
+      },
+      "learningPurpose": "辨認函數結構，選擇微分法則及檢查定義域。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m1-limits"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m1-differentiation-strand-1",
+          "name": {
+            "en": "First principles",
+            "zh-Hant": "第一原理"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-differentiation-strand-2",
+          "name": {
+            "en": "Derivative rules",
+            "zh-Hant": "微分法則"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-differentiation-strand-3",
+          "name": {
+            "en": "Implicit differentiation",
+            "zh-Hant": "隱函數微分"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-differentiation-strand-4",
+          "name": {
+            "en": "Higher derivatives",
+            "zh-Hant": "高階導數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m1-derivative-applications",
+      "trackId": "m1",
+      "areaId": "calculus",
+      "name": {
+        "en": "Applications of differentiation",
+        "zh-Hant": "微分應用"
+      },
+      "learningPurpose": "從斜率、變化率或最值需求建立導數關係。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m1-differentiation"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m1-derivative-applications-strand-1",
+          "name": {
+            "en": "Tangents and normals",
+            "zh-Hant": "切線與法線"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-derivative-applications-strand-2",
+          "name": {
+            "en": "Rates of change",
+            "zh-Hant": "變化率"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-derivative-applications-strand-3",
+          "name": {
+            "en": "Curve sketching",
+            "zh-Hant": "曲線繪圖"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-derivative-applications-strand-4",
+          "name": {
+            "en": "Optimisation",
+            "zh-Hant": "最值"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m1-integration",
+      "trackId": "m1",
+      "areaId": "calculus",
+      "name": {
+        "en": "Integration",
+        "zh-Hant": "積分"
+      },
+      "learningPurpose": "先辨認反微分結構，再選方法並處理界限。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m1-differentiation"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m1-integration-strand-1",
+          "name": {
+            "en": "Indefinite integrals",
+            "zh-Hant": "不定積分"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-integration-strand-2",
+          "name": {
+            "en": "Definite integrals",
+            "zh-Hant": "定積分"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-integration-strand-3",
+          "name": {
+            "en": "Method selection",
+            "zh-Hant": "選擇積分方法"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m1-integral-applications",
+      "trackId": "m1",
+      "areaId": "calculus",
+      "name": {
+        "en": "Applications of integration",
+        "zh-Hant": "積分應用"
+      },
+      "learningPurpose": "先畫清區域與上下界，再建立適當積分。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m1-integration"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m1-integral-applications-strand-1",
+          "name": {
+            "en": "Areas and accumulation",
+            "zh-Hant": "面積與累積"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-integral-applications-strand-2",
+          "name": {
+            "en": "Trapezoidal approximation",
+            "zh-Hant": "梯形法近似"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m1-probability",
+      "trackId": "m1",
+      "areaId": "probability",
+      "name": {
+        "en": "Probability",
+        "zh-Hant": "概率"
+      },
+      "learningPurpose": "先識別事件關係，再用適當的概率模型。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "probability",
+        "counting"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m1-probability-strand-1",
+          "name": {
+            "en": "Events and conditional probability",
+            "zh-Hant": "事件與條件概率"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-probability-strand-2",
+          "name": {
+            "en": "Independence",
+            "zh-Hant": "獨立性"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-probability-strand-3",
+          "name": {
+            "en": "Counting applications",
+            "zh-Hant": "計數應用"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m1-distributions",
+      "trackId": "m1",
+      "areaId": "probability",
+      "name": {
+        "en": "Probability distributions",
+        "zh-Hant": "概率分佈"
+      },
+      "learningPurpose": "由隨機變量定義開始，辨認分佈及期望量。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m1-probability"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m1-distributions-strand-1",
+          "name": {
+            "en": "Random variables",
+            "zh-Hant": "隨機變量"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-distributions-strand-2",
+          "name": {
+            "en": "Distribution models",
+            "zh-Hant": "分佈模型"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-distributions-strand-3",
+          "name": {
+            "en": "Expectation and variance",
+            "zh-Hant": "期望值與方差"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m1-sampling",
+      "trackId": "m1",
+      "areaId": "statistics",
+      "name": {
+        "en": "Sampling and estimation",
+        "zh-Hant": "抽樣與估計"
+      },
+      "learningPurpose": "分清母體參數與樣本統計量，再解讀估計的意義。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m1-distributions",
+        "statistics"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m1-sampling-strand-1",
+          "name": {
+            "en": "Sampling",
+            "zh-Hant": "抽樣"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-sampling-strand-2",
+          "name": {
+            "en": "Estimation",
+            "zh-Hant": "估計"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m1-sampling-strand-3",
+          "name": {
+            "en": "Interpretation",
+            "zh-Hant": "結果解讀"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-binomial",
+      "trackId": "m2",
+      "areaId": "algebra",
+      "name": {
+        "en": "Binomial expansion",
+        "zh-Hant": "二項式展開"
+      },
+      "learningPurpose": "辨認指定項與指數，選用展開或係數比較。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "polynomials"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-binomial-strand-1",
+          "name": {
+            "en": "Expansion",
+            "zh-Hant": "展開"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-binomial-strand-2",
+          "name": {
+            "en": "Coefficients",
+            "zh-Hant": "係數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-binomial-strand-3",
+          "name": {
+            "en": "Range and approximation",
+            "zh-Hant": "範圍與近似"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-limits",
+      "trackId": "m2",
+      "areaId": "calculus",
+      "name": {
+        "en": "Limits and continuity",
+        "zh-Hant": "極限與連續"
+      },
+      "learningPurpose": "先確認趨近方式，再選擇化簡與極限方法。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "functions-quadratics"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-limits-strand-1",
+          "name": {
+            "en": "Limit evaluation",
+            "zh-Hant": "極限計算"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-limits-strand-2",
+          "name": {
+            "en": "Continuity",
+            "zh-Hant": "連續"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-limits-strand-3",
+          "name": {
+            "en": "First principles bridge",
+            "zh-Hant": "第一原理連接"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-differentiation",
+      "trackId": "m2",
+      "areaId": "calculus",
+      "name": {
+        "en": "Differentiation",
+        "zh-Hant": "微分"
+      },
+      "learningPurpose": "辨認函數結構，選擇微分法則及檢查定義域。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m2-limits"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-differentiation-strand-1",
+          "name": {
+            "en": "First principles",
+            "zh-Hant": "第一原理"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-differentiation-strand-2",
+          "name": {
+            "en": "Derivative rules",
+            "zh-Hant": "微分法則"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-differentiation-strand-3",
+          "name": {
+            "en": "Implicit differentiation",
+            "zh-Hant": "隱函數微分"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-differentiation-strand-4",
+          "name": {
+            "en": "Higher derivatives",
+            "zh-Hant": "高階導數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-derivative-applications",
+      "trackId": "m2",
+      "areaId": "calculus",
+      "name": {
+        "en": "Applications of differentiation",
+        "zh-Hant": "微分應用"
+      },
+      "learningPurpose": "從斜率、變化率或最值需求建立導數關係。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m2-differentiation"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-derivative-applications-strand-1",
+          "name": {
+            "en": "Tangents and normals",
+            "zh-Hant": "切線與法線"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-derivative-applications-strand-2",
+          "name": {
+            "en": "Rates of change",
+            "zh-Hant": "變化率"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-derivative-applications-strand-3",
+          "name": {
+            "en": "Curve sketching",
+            "zh-Hant": "曲線繪圖"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-derivative-applications-strand-4",
+          "name": {
+            "en": "Optimisation",
+            "zh-Hant": "最值"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-integration",
+      "trackId": "m2",
+      "areaId": "calculus",
+      "name": {
+        "en": "Integration",
+        "zh-Hant": "積分"
+      },
+      "learningPurpose": "先辨認反微分結構，再選方法並處理界限。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m2-differentiation"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-integration-strand-1",
+          "name": {
+            "en": "Indefinite integrals",
+            "zh-Hant": "不定積分"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-integration-strand-2",
+          "name": {
+            "en": "Definite integrals",
+            "zh-Hant": "定積分"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-integration-strand-3",
+          "name": {
+            "en": "Method selection",
+            "zh-Hant": "選擇積分方法"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-integral-applications",
+      "trackId": "m2",
+      "areaId": "calculus",
+      "name": {
+        "en": "Applications of integration",
+        "zh-Hant": "積分應用"
+      },
+      "learningPurpose": "先畫清區域與上下界，再建立適當積分。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "m2-integration"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-integral-applications-strand-1",
+          "name": {
+            "en": "Areas",
+            "zh-Hant": "面積"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-integral-applications-strand-2",
+          "name": {
+            "en": "Volumes of revolution",
+            "zh-Hant": "旋轉體體積"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-induction",
+      "trackId": "m2",
+      "areaId": "algebra",
+      "name": {
+        "en": "Mathematical induction",
+        "zh-Hant": "數學歸納法"
+      },
+      "learningPurpose": "把起始步、假設及歸納步分清，寫出完整論證。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "identities"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-induction-strand-1",
+          "name": {
+            "en": "Base case",
+            "zh-Hant": "起始步"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-induction-strand-2",
+          "name": {
+            "en": "Inductive step",
+            "zh-Hant": "歸納步"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-induction-strand-3",
+          "name": {
+            "en": "Identities and inequalities",
+            "zh-Hant": "恆等式與不等式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-trigonometry",
+      "trackId": "m2",
+      "areaId": "trigonometry",
+      "name": {
+        "en": "Advanced trigonometry",
+        "zh-Hant": "進階三角學"
+      },
+      "learningPurpose": "由恆等式及角度關係化簡，再保留完整解集。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "trigonometry-relations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-trigonometry-strand-1",
+          "name": {
+            "en": "Compound angles",
+            "zh-Hant": "複角公式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-trigonometry-strand-2",
+          "name": {
+            "en": "Multiple angles",
+            "zh-Hant": "倍角公式"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-trigonometry-strand-3",
+          "name": {
+            "en": "Trigonometric equations",
+            "zh-Hant": "三角方程"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-matrices",
+      "trackId": "m2",
+      "areaId": "algebra",
+      "name": {
+        "en": "Matrices and linear systems",
+        "zh-Hant": "矩陣與線性方程組"
+      },
+      "learningPurpose": "確認維度與可逆性，再選矩陣運算、消元或行列式。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "simultaneous-equations"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-matrices-strand-1",
+          "name": {
+            "en": "Matrix operations",
+            "zh-Hant": "矩陣運算"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-matrices-strand-2",
+          "name": {
+            "en": "Determinants and inverses",
+            "zh-Hant": "行列式與逆矩陣"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-matrices-strand-3",
+          "name": {
+            "en": "Linear systems",
+            "zh-Hant": "線性方程組"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    },
+    {
+      "id": "m2-vectors",
+      "trackId": "m2",
+      "areaId": "geometry",
+      "name": {
+        "en": "Vectors",
+        "zh-Hant": "向量"
+      },
+      "learningPurpose": "把方向及位置轉為向量關係，再處理內積及幾何條件。",
+      "status": "待處理",
+      "scopeBasis": "provisional-source-derived-not-official-syllabus",
+      "prerequisites": [
+        "coordinate-foundations",
+        "trigonometry-3d"
+      ],
+      "prerequisitePolicy": "advisory-not-student-access-gate",
+      "subtopics": [
+        {
+          "id": "m2-vectors-strand-1",
+          "name": {
+            "en": "Vector algebra",
+            "zh-Hant": "向量代數"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-vectors-strand-2",
+          "name": {
+            "en": "Scalar products",
+            "zh-Hant": "純量積"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-vectors-strand-3",
+          "name": {
+            "en": "Lines and planes",
+            "zh-Hant": "直線與平面"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        },
+        {
+          "id": "m2-vectors-strand-4",
+          "name": {
+            "en": "Geometry applications",
+            "zh-Hant": "幾何應用"
+          },
+          "status": "待處理",
+          "skillStatus": "requires-question-level-review"
+        }
+      ],
+      "bankBinding": null,
+      "publicationGate": "new-topic-review",
+      "templateId": "eac-study-v1"
+    }
+  ],
+  "folderRules": [
+    {
+      "prefix": "S1/congruent and similar/",
+      "candidateTopicIds": [
+        "congruence-similarity"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/solving linear equation in one unknown/",
+      "candidateTopicIds": [
+        "linear-equations"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/introduction to geometry/",
+      "candidateTopicIds": [
+        "geometry-foundations"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/introduction to algebra/",
+      "candidateTopicIds": [
+        "algebra-foundations"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/statistic 1/",
+      "candidateTopicIds": [
+        "statistics"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/angle related to straight lines/",
+      "candidateTopicIds": [
+        "angles-lines"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/basic mathematics/",
+      "candidateTopicIds": [
+        "number-foundations"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/introduction to coordinates/",
+      "candidateTopicIds": [
+        "coordinate-foundations"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/area and volume 1/",
+      "candidateTopicIds": [
+        "mensuration"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/directed number/",
+      "candidateTopicIds": [
+        "directed-numbers"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/polynomials/",
+      "candidateTopicIds": [
+        "polynomials"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S1/percentage/",
+      "candidateTopicIds": [
+        "percentage"
+      ],
+      "stageCandidate": "S1"
+    },
+    {
+      "prefix": "S2/congruent and similar/",
+      "candidateTopicIds": [
+        "congruence-similarity"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/trigonometric relation/",
+      "candidateTopicIds": [
+        "trigonometry-relations"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/error and approximation/",
+      "candidateTopicIds": [
+        "approximation-errors"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/identity/",
+      "candidateTopicIds": [
+        "identities"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/statistic 2/",
+      "candidateTopicIds": [
+        "statistics"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/factorization/",
+      "candidateTopicIds": [
+        "factorisation"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/area and volume 2/",
+      "candidateTopicIds": [
+        "mensuration"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/introduction to trigonometry/",
+      "candidateTopicIds": [
+        "trigonometry-basics"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/rate and ratio/",
+      "candidateTopicIds": [
+        "ratio-rate"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/algebraic fraction and formulae/",
+      "candidateTopicIds": [
+        "algebraic-fractions-formulae"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/angle about polygon/",
+      "candidateTopicIds": [
+        "polygons"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/pyth theorm/",
+      "candidateTopicIds": [
+        "pythagoras"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/simultaneous equations/",
+      "candidateTopicIds": [
+        "simultaneous-equations"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S2/polynomials/",
+      "candidateTopicIds": [
+        "polynomials"
+      ],
+      "stageCandidate": "S2"
+    },
+    {
+      "prefix": "S3/index and number system/",
+      "candidateTopicIds": [
+        "indices-number-systems"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/application of trigonometry/",
+      "candidateTopicIds": [
+        "trigonometry-2d"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/central tendency/",
+      "candidateTopicIds": [
+        "statistics"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/probability/",
+      "candidateTopicIds": [
+        "probability"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/factorization/",
+      "candidateTopicIds": [
+        "factorisation"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/area and volume 3/",
+      "candidateTopicIds": [
+        "mensuration"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/coordinates geometry/",
+      "candidateTopicIds": [
+        "coordinate-foundations"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/inequalities/",
+      "candidateTopicIds": [
+        "inequalities"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/centre of triangle/",
+      "candidateTopicIds": [
+        "four-centres"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/percentage/",
+      "candidateTopicIds": [
+        "percentage"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S3/quadrilateral/",
+      "candidateTopicIds": [
+        "quadrilaterals"
+      ],
+      "stageCandidate": "S3"
+    },
+    {
+      "prefix": "S4/more about trigonometry/",
+      "candidateTopicIds": [
+        "trigonometry-relations"
+      ],
+      "stageCandidate": "S4"
+    },
+    {
+      "prefix": "S4/exponential and logarithm/",
+      "candidateTopicIds": [
+        "exponentials-logarithms"
+      ],
+      "stageCandidate": "S4"
+    },
+    {
+      "prefix": "S4/circle property/",
+      "candidateTopicIds": [
+        "circle-properties"
+      ],
+      "stageCandidate": "S4"
+    },
+    {
+      "prefix": "S4/function and quadratic equation/",
+      "candidateTopicIds": [
+        "functions-quadratics"
+      ],
+      "stageCandidate": "S4"
+    },
+    {
+      "prefix": "S4/more about polynomials/",
+      "candidateTopicIds": [
+        "polynomials",
+        "algebraic-fractions-formulae"
+      ],
+      "stageCandidate": "S4"
+    },
+    {
+      "prefix": "S4/more about equations/",
+      "candidateTopicIds": [
+        "equation-systems"
+      ],
+      "stageCandidate": "S4"
+    },
+    {
+      "prefix": "S4/complex numebr/",
+      "candidateTopicIds": [
+        "complex-numbers"
+      ],
+      "stageCandidate": "S4"
+    },
+    {
+      "prefix": "S4/equation of straight line/",
+      "candidateTopicIds": [
+        "straight-lines"
+      ],
+      "stageCandidate": "S4"
+    },
+    {
+      "prefix": "S5/compound inequalities/",
+      "candidateTopicIds": [
+        "inequalities"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S5/3D trigonometry/",
+      "candidateTopicIds": [
+        "trigonometry-3d"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S5/variation/",
+      "candidateTopicIds": [
+        "variation"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S5/transformation/",
+      "candidateTopicIds": [
+        "graph-transformations"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S5/combination and permutation/",
+      "candidateTopicIds": [
+        "counting"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S5/advance probability/",
+      "candidateTopicIds": [
+        "probability",
+        "counting"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S5/more about statistics/",
+      "candidateTopicIds": [
+        "statistics"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S5/locus/",
+      "candidateTopicIds": [
+        "locus"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S5/2D trigonometry/",
+      "candidateTopicIds": [
+        "trigonometry-2d"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S5/equation of circle/",
+      "candidateTopicIds": [
+        "circle-equation"
+      ],
+      "stageCandidate": "S5"
+    },
+    {
+      "prefix": "S6/linear programming/",
+      "candidateTopicIds": [
+        "linear-programming"
+      ],
+      "stageCandidate": "S6"
+    },
+    {
+      "prefix": "S6/Sequence/",
+      "candidateTopicIds": [
+        "sequences"
+      ],
+      "stageCandidate": "S6"
+    }
+  ],
+  "filenameRules": [
+    {
+      "trackId": "m1",
+      "pattern": "binomial",
+      "candidateTopicIds": [
+        "m1-binomial"
+      ]
+    },
+    {
+      "trackId": "m1",
+      "pattern": "limit",
+      "candidateTopicIds": [
+        "m1-limits"
+      ]
+    },
+    {
+      "trackId": "m1",
+      "pattern": "differentiation|differentitation|\\bdiff\\b|first prin|implicit",
+      "candidateTopicIds": [
+        "m1-differentiation"
+      ]
+    },
+    {
+      "trackId": "m1",
+      "pattern": "rate of change|curve|application of differentiation",
+      "candidateTopicIds": [
+        "m1-derivative-applications"
+      ]
+    },
+    {
+      "trackId": "m1",
+      "pattern": "integrat|integral",
+      "candidateTopicIds": [
+        "m1-integration"
+      ]
+    },
+    {
+      "trackId": "m1",
+      "pattern": "\\barea\\b|\\bvolume\\b|trapezoid",
+      "candidateTopicIds": [
+        "m1-integral-applications"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "binomial",
+      "candidateTopicIds": [
+        "m2-binomial"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "limit",
+      "candidateTopicIds": [
+        "m2-limits"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "differentiation|differentitation|\\bdiff\\b|first prin|implicit",
+      "candidateTopicIds": [
+        "m2-differentiation"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "rate of change|curve|application of differentiation",
+      "candidateTopicIds": [
+        "m2-derivative-applications"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "integrat|integral",
+      "candidateTopicIds": [
+        "m2-integration"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "\\barea\\b|\\bvolume\\b|trapezoid",
+      "candidateTopicIds": [
+        "m2-integral-applications"
+      ]
+    },
+    {
+      "trackId": "m1",
+      "pattern": "probability|\\bprob\\b",
+      "candidateTopicIds": [
+        "m1-probability"
+      ]
+    },
+    {
+      "trackId": "m1",
+      "pattern": "distribution",
+      "candidateTopicIds": [
+        "m1-distributions"
+      ]
+    },
+    {
+      "trackId": "m1",
+      "pattern": "sampling",
+      "candidateTopicIds": [
+        "m1-sampling"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "\\bmi\\b|m\\.i\\.|induction",
+      "candidateTopicIds": [
+        "m2-induction"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "trigo",
+      "candidateTopicIds": [
+        "m2-trigonometry"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "matrix|linear equation",
+      "candidateTopicIds": [
+        "m2-matrices"
+      ]
+    },
+    {
+      "trackId": "m2",
+      "pattern": "vector",
+      "candidateTopicIds": [
+        "m2-vectors"
+      ]
+    }
+  ],
+  "mockFilenameRules": [
+    {
+      "pattern": "polynomial",
+      "candidateTopicIds": [
+        "polynomials"
+      ]
+    },
+    {
+      "pattern": "mensuration|mensuartion",
+      "candidateTopicIds": [
+        "mensuration"
+      ]
+    },
+    {
+      "pattern": "sequence",
+      "candidateTopicIds": [
+        "sequences"
+      ]
+    },
+    {
+      "pattern": "four centre|4 centre",
+      "candidateTopicIds": [
+        "four-centres"
+      ]
+    },
+    {
+      "pattern": "locus",
+      "candidateTopicIds": [
+        "locus"
+      ]
+    },
+    {
+      "pattern": "equation of circle|eq of circle",
+      "candidateTopicIds": [
+        "circle-equation"
+      ]
+    },
+    {
+      "pattern": "circle propert",
+      "candidateTopicIds": [
+        "circle-properties"
+      ]
+    },
+    {
+      "pattern": "\\blog\\b",
+      "candidateTopicIds": [
+        "exponentials-logarithms"
+      ]
+    },
+    {
+      "pattern": "\\bstat|statistic",
+      "candidateTopicIds": [
+        "statistics"
+      ]
+    },
+    {
+      "pattern": "\\bprob|probability",
+      "candidateTopicIds": [
+        "probability"
+      ]
+    },
+    {
+      "pattern": "permutation|combination",
+      "candidateTopicIds": [
+        "counting"
+      ]
+    },
+    {
+      "pattern": "3d|3 d",
+      "candidateTopicIds": [
+        "trigonometry-3d"
+      ]
+    },
+    {
+      "pattern": "transformation",
+      "candidateTopicIds": [
+        "graph-transformations"
+      ]
+    },
+    {
+      "pattern": "quadratic",
+      "candidateTopicIds": [
+        "functions-quadratics"
+      ]
+    },
+    {
+      "pattern": "linear programming",
+      "candidateTopicIds": [
+        "linear-programming"
+      ]
+    },
+    {
+      "pattern": "matrix",
+      "candidateTopicIds": [
+        "m2-matrices"
+      ]
+    },
+    {
+      "pattern": "\\bm2\\b.*integrat",
+      "candidateTopicIds": [
+        "m2-integration"
+      ]
+    },
+    {
+      "pattern": "coordiantes|coordinates",
+      "candidateTopicIds": [
+        "coordinate-foundations"
+      ]
+    }
+  ],
+  "sourceOverrides": [
+    {
+      "path": "S5/transformation/M1 differentiation reviews.pdf",
+      "candidateTopicIds": [
+        "m1-differentiation"
+      ],
+      "reason": "M1-labelled calculus source filed inside S5 transformation; do not assign by folder alone. Question-level verification pending."
+    }
+  ],
+  "intakeOrder": [
+    {
+      "id": "CUR-01",
+      "name": "來源盤點、去重候選及抽查",
+      "status": "完成",
+      "evidence": "docs/planning/SOURCE_INVENTORY.md"
+    },
+    {
+      "id": "CUR-02",
+      "name": "課程軌道、課題及模板契約",
+      "status": "完成",
+      "evidence": "docs/qa/2026-10-28/curriculum-intake/README.md"
+    },
+    {
+      "id": "CUR-03",
+      "name": "逐題範圍與技巧覆核",
+      "status": "待處理",
+      "evidence": null
+    },
+    {
+      "id": "CUR-04",
+      "name": "既有七課題增量匯入",
+      "status": "待處理",
+      "evidence": null
+    },
+    {
+      "id": "CUR-05",
+      "name": "初中基礎至進階的先備鏈",
+      "status": "待處理",
+      "evidence": null
+    },
+    {
+      "id": "CUR-06",
+      "name": "M1／M2 課程篩選及記錄相容",
+      "status": "待處理",
+      "evidence": null
+    },
+    {
+      "id": "CUR-07",
+      "name": "分批逐題、逐圖及正式網站驗收",
+      "status": "待處理",
+      "evidence": null
+    }
+  ],
+  "publicationPolicy": {
+    "plannedTopicsVisible": false,
+    "questionCountsFrom": "validated-published-records-only",
+    "sourceCountsAreNotQuestionCounts": true,
+    "reuseExistingIds": true,
+    "inferOfficialAttributionFromFolder": false
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "eac-study-v1",
+  "version": 1,
+  "status": "完成",
+  "scope": "Future curriculum topics reuse the existing website; this is not a PDF layout template.",
+  "sharedAssets": [
+    "src/css/variables.css",
+    "src/css/study.css",
+    "src/css/math.css",
+    "src/js/core/content.js",
+    "src/js/core/learning.js",
+    "src/js/core/question-bank.js",
+    "src/js/core/math.js",
+    "src/js/core/math-models.js",
+    "src/js/features/study-instruments.js",
+    "src/js/features/study-scenes.js"
+  ],
+  "visual": {
+    "cover": "charcoal-monochrome",
+    "interiorPaper": "#f8f8f7",
+    "interiorInk": "#282b30",
+    "accent": "#404e5b",
+    "chineseBody": "var(--font-stack)",
+    "englishDisplay": "var(--study-display)",
+    "mathRenderer": "local-MathJax-3.2.2-SVG",
+    "forbiddenPrimaryThemes": [
+      "gold",
+      "green"
+    ],
+    "topicSpecificGlobalStyles": false,
+    "figureRule": "Geometry and chart colours convey mathematical meaning; never recolour source question visuals solely to match decoration."
+  },
+  "learningFlow": [
+    "choose-course-and-topic",
+    "choose-skill-or-start-five",
+    "answer-before-reveal",
+    "review-solution",
+    "retry-or-continue"
+  ],
+  "content": {
+    "languages": [
+      "en",
+      "zh-Hant"
+    ],
+    "questionTypeAndDifficulty": "independent-filters-not-nested-categories",
+    "primarySkill": "one-decisive-method-with-secondary-tags",
+    "orderedBlocks": [
+      "paragraph",
+      "table",
+      "figure"
+    ],
+    "solutionsSeparateFromQuestions": true,
+    "statisticsCells": "all-four-borders-and-left-aligned-values",
+    "sourceHtmlExecution": false,
+    "stableQuestionIds": true,
+    "autoGrade": "existing-supported-MCQ-and-numeric-only",
+    "writtenAssessment": "explicit-self-assessment"
+  },
+  "interaction": {
+    "minimumControlPx": 44,
+    "manualInputPausesPlayback": true,
+    "preserveModeState": true,
+    "offscreenAndBackgroundPause": true,
+    "reducedMotionDefault": "static-with-manual-exploration",
+    "access": [
+      "keyboard",
+      "touch",
+      "pointer"
+    ],
+    "newTopicScene": "explicit-reviewed-scene-or-neutral-symbol-no-unrelated-fallback",
+    "animationPlacement": "navigation-or-concept-area-not-answer-reading-area"
+  },
+  "acceptance": {
+    "viewportWidths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "sourceLocator": [
+      "sourceId",
+      "sha256",
+      "originalQuestionNumber",
+      "pageOrSection"
+    ],
+    "contentChecks": [
+      "bilingual-equivalence",
+      "independent-answer-check",
+      "domain-and-all-roots",
+      "no-code-or-OCR-residue",
+      "complete-choices-and-subparts"
+    ],
+    "visualChecks": [
+      "same-source-and-question",
+      "standalone-asset",
+      "actual-site-render",
+      "all-graph-options",
+      "labels-scales-units-legible"
+    ],
+    "regressions": [
+      "search",
+      "set-builder",
+      "grading-or-self-review",
+      "bookmarks",
+      "mistakes",
+      "draft-resume",
+      "legacy-records"
+    ],
+    "extendedCourseGate": "course-track-filter-and-record-compatibility-must-pass-before-M1-M2-publication"
+  },
+  "evidence": "docs/qa/2026-10-28/curriculum-intake/README.md"
+}

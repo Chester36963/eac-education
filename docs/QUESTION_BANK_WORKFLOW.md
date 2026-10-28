@@ -1,3 +1,5 @@
+> **Full-course intake, 28 October 2026:** Before importing the newly supplied PDF/DOCX collections, consult [the curriculum structure](CURRICULUM_STRUCTURE.md) and [source inventory](planning/SOURCE_INVENTORY.md). Run `node scripts/build-curriculum.cjs --check` before the existing importer. Source candidates are not per-question classifications; exact file duplicates and Word/PDF pair candidates are different. Do not publish M1/M2 until explicit course filtering and legacy-record compatibility are implemented. No planning file under `content/planning/` becomes a student chapter automatically.
+
 # EAC 題庫管理及上架流程
 
 ## 已核實的來源範圍

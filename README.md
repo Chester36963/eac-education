@@ -34,6 +34,12 @@ The supplied `/Users/chester/Downloads/1013 webpage/index.html` is the imported 
 
 Start revision at `dashboard.html`: choose a chapter, answer five questions, review explanations and retry mistakes. The library is optional browsing. Chapter starts use MCQs where available; Sequences & Series currently uses labelled written self-assessment. Advanced options remain inside a disclosure; English / 中英對照 / 繁體中文 controls are visible in the question header.
 
+## Upcoming full-course structure
+
+The supplied S1–S6, M1, M2 and mock folders are inventoried separately from the published bank. The current editorial registry has **61 provisional topic containers** (Core 42 / M1 9 / M2 10), with learning purposes, advisory prerequisites and links to all seven existing chapters. The 928 physical files plus 23 archive members are source records, not question counts; no new questions are published by this planning batch. Mock papers are source collections, and M1/M2 require explicit course filtering before release.
+
+Read [the purpose and shared-template contract](docs/CURRICULUM_STRUCTURE.md), [source matrix and pending scope reviews](docs/planning/SOURCE_INVENTORY.md), and the machine-readable registry in `content/planning/`. Run `node scripts/build-curriculum.cjs --check` to verify routing/report freshness. Planning files stay outside `src/`; students continue to see only validated available content.
+
 ## Content source and imports
 
 ```text
@@ -65,6 +71,7 @@ See [the question-bank workflow](docs/QUESTION_BANK_WORKFLOW.md), [content schem
 ```sh
 python3 -m pip install -r requirements-math.txt
 node scripts/version-study-assets.cjs --check
+node scripts/build-curriculum.cjs --check
 node scripts/build-content.cjs --check
 node --test tests/*.cjs
 ./scripts/deploy.sh "Describe the update"

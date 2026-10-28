@@ -1,0 +1,22 @@
+[
+  {
+    "sourceId": "source-233787552d322be8",
+    "sourcePath": "S6/Sequence/APGP review.pdf",
+    "sourceSHA256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+    "page": 1,
+    "render": "sequence-page1.png",
+    "renderSHA256": "17693e7d39ffd3e07e8257c7b8026d3f4834cd76076113b3657e41bf2d064b0e",
+    "purpose": "source-structure-audit-only",
+    "visualInspection": "Question text visible in PDF despite incomplete ordinary DOCX text extraction. No answer verification or student-facing diagram approval claimed."
+  },
+  {
+    "sourceId": "source-21d975d0ca8a6c56",
+    "sourcePath": "M1/M1 prob distribution review.pdf",
+    "sourceSHA256": "722eab2dcd465d8d8fbafc37a381f66a01ac0049a8c14db2083d4ce1c79cb1cc",
+    "page": 1,
+    "render": "m1-distribution-page1.png",
+    "renderSHA256": "0c310cac6cc427f9afd0b6b9b440a5944074a9ec885cf846fe3895ca676afaba",
+    "purpose": "source-structure-audit-only",
+    "visualInspection": "Question text visible in PDF despite incomplete ordinary DOCX text extraction. No answer verification or student-facing diagram approval claimed."
+  }
+]
