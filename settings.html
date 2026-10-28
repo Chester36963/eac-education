@@ -4,17 +4,17 @@
 <title>EAC · 學習設定</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/site.css"><link rel="stylesheet" href="css/study.css?v=b33a93a1a096">
-</head><body class="student-shell">
+<link rel="stylesheet" href="css/workspace.css?v=e51fbb263891"></head><body class="student-shell">
 <header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">開始溫習</a><a href="library.html">題庫</a><a href="dashboard.html?view=record">溫習記錄</a><a href="settings.html" aria-current="page">設定</a></nav></div></header>
 <main class="settings-main"><p class="eyebrow">YOUR STUDY PREFERENCES / EAC EDUCATION</p><p class="study-display" lang="en">At your pace.<br><em>In your own way.</em></p><h1>學習設定</h1><p>揀適合自己的練習方式。設定和進度會留在此瀏覽器。</p>
 <div class="settings-layout"><form id="settings-form">
 <label>顯示名稱<input id="profile-name" required minlength="3" maxlength="60" autocomplete="nickname"></label>
 <label>題目預設語言<select id="profile-language"><option value="bilingual">English + 繁體中文</option><option value="en">English</option><option value="zh">繁體中文</option></select></label>
-<label>建議練習程度<select id="profile-form"><option value="all">全部程度</option><option value="1">中一</option><option value="2">中二</option><option value="3">中三</option><option value="4">中四</option><option value="5">中五</option><option value="6">中六</option></select></label>
+<label id="profile-course-label" hidden>課程<select id="profile-course"></select></label><label>建議練習程度<select id="profile-form"><option value="all">全部程度</option><option value="1">中一</option><option value="2">中二</option><option value="3">中三</option><option value="4">中四</option><option value="5">中五</option><option value="6">中六</option></select></label>
 <button class="btn btn-primary" type="submit">儲存設定</button></form><aside><div class="settings-context" aria-hidden="true"></div><p class="field-note">每次練習仍可即時切換題目語言；建議程度會用於未指定範圍的新練習。</p></aside></div>
 <p id="settings-status" role="status"></p>
 <section class="settings-section"><h2>學習記錄備份</h2><p>匯出包含答題進度及收藏的 JSON 檔案，方便你自行保存；不包含密碼。這個檔案目前只作備份，未提供還原或雲端同步。</p><button id="export-btn" class="btn btn-outline">下載學習記錄</button></section>
 <section class="settings-section"><h2>進度儲存方式</h2><p>作答及收藏儲存在此瀏覽器。正式學生登入及跨裝置同步尚未開放；更換裝置不會自動帶入記錄。</p><a href="dashboard.html" class="cover-text-link">返回學習主頁 →</a></section>
 </main><footer class="site-footer"><span>© 2026 EAC Education</span><span>A little practice. A clearer mind.</span></footer>
-<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/features/settings.js"></script><script src="js/core/math-models.js?v=76643f15c160"></script><script src="js/features/study-instruments.js?v=d923ec22afdb"></script><script src="js/features/study-scenes.js?v=7ce7ee752fb0"></script><script src="js/features/study-ui.js"></script>
+<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/learning.js?v=5e3b6432a7a1"></script><script src="js/core/question-bank.js"></script><script src="js/features/settings.js?v=528fc37a02b6"></script><script src="js/core/math-models.js?v=76643f15c160"></script><script src="js/features/study-instruments.js?v=d923ec22afdb"></script><script src="js/features/study-scenes.js?v=7ce7ee752fb0"></script><script src="js/features/study-ui.js"></script>
 </body></html>

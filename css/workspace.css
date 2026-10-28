@@ -1,0 +1,42 @@
+/* One reading system for the desk, library, studio and editorial preview. */
+.student-shell{--workspace-paper:#f8f8f7;--workspace-ink:#282b30;--workspace-muted:#626d78;--workspace-line:#dce0e3;--workspace-accent:#404e5b;background:var(--workspace-paper);color:var(--workspace-ink)}
+.student-shell p,.student-shell label,.student-shell select,.student-shell button,.student-shell input,.student-shell textarea,.student-shell .question-zh,.student-shell .preview-zh{font-family:var(--font-stack);line-height:1.7}
+.student-shell .btn,.student-shell select,.student-shell input,.student-shell button{min-height:44px}
+.student-shell .btn-primary{background:var(--workspace-accent);border-color:var(--workspace-accent)}
+.student-shell :is(input,select,textarea,button,a,summary):focus-visible{outline:2px solid #758b9d;outline-offset:4px}
+.course-choice{display:flex;flex-direction:column;gap:7px;max-width:280px;font-size:12px;margin:18px 0}.course-choice select{width:100%}
+.student-shell .student-welcome{padding-top:32px;gap:clamp(28px,5vw,80px)}
+.student-shell .welcome-guidance{border-left:2px solid var(--workspace-line);padding-left:18px}
+.student-shell .welcome-guidance h1{font-family:var(--font-stack);font-weight:500;letter-spacing:.035em}
+.student-shell .welcome-guidance p{max-width:36em;font-size:14px}
+.student-shell .study-anchor{min-height:44px;display:inline-flex;align-items:center;gap:24px;color:var(--workspace-accent)}
+.student-shell .resume-banner{margin-top:26px;border:1px solid #cbd4dc;background:#eff2f4;padding:22px 26px}
+.student-shell .study-steps{border-block:1px solid var(--workspace-line);padding-block:22px}
+.student-shell .subject-heading h3 span,.student-shell .chapter-row small{font-family:var(--font-stack)}
+.student-shell .chapter-row{min-height:92px}.student-shell .chapter-methods>summary{padding-block:14px}
+.student-shell .bank-filters{padding:18px 0;gap:16px}.student-shell .bank-results-top{border-top:1px solid var(--workspace-line);padding-top:18px}
+.student-shell .bank-question{padding-block:23px}.student-shell .bank-question h3{font-family:var(--font-stack);font-weight:500;line-height:1.65;font-size:17px}
+.student-shell .question-row-zh{font-size:14px;line-height:1.75;color:var(--workspace-muted)}
+.student-shell .question-row-meta{letter-spacing:.015em;font-size:11px}
+.student-shell .question-row-topic{font-family:var(--font-stack);font-size:11px;line-height:1.8}
+.student-shell .bank-question-actions{gap:10px}.student-shell .bank-question-actions>*{min-height:44px;display:inline-flex;align-items:center}
+.student-shell .bank-preview h2{font-family:var(--font-stack);font-weight:500;font-size:20px;line-height:1.75}
+.student-shell .preview-options{padding-left:2em;list-style-type:upper-alpha;margin-block:14px}.student-shell .preview-options li{padding:9px 10px;border-block-end:1px solid var(--workspace-line);font-family:var(--font-stack);line-height:1.65}.student-shell .preview-options small{display:block;margin-top:3px;color:var(--workspace-muted)}
+.student-shell .preview-figure{margin:18px auto}.student-shell .preview-figure img{max-width:100%;height:auto;max-height:360px;object-fit:contain}.student-shell figcaption{font-family:var(--font-stack);font-size:11px;color:var(--workspace-muted);line-height:1.6}
+.student-shell .question-container{padding:clamp(18px,3vw,32px);border:1px solid var(--workspace-line);box-shadow:none}
+.student-shell #question-stem,.student-shell #question-zh{font-family:var(--font-stack);font-weight:400;line-height:1.8;font-size:17px;margin-block:8px 14px}
+.student-shell #question-zh{font-size:15px;color:var(--workspace-muted)}
+.student-shell .question-blocks p{margin-block:8px 14px;font-size:16px;line-height:1.8}
+.student-shell .question-block-language+ .question-block-language{border-top:1px solid var(--workspace-line);margin-top:18px;padding-top:10px}
+.student-shell .option{min-height:52px;padding:12px 16px}.student-shell .option .option-text{font-family:var(--font-stack);line-height:1.65}
+.student-shell .actions{padding-top:18px;margin-top:18px;border-top:1px solid var(--workspace-line);gap:10px}
+.student-shell .answer-panel{margin-top:18px;padding:20px;border-left:2px solid #8092a2;background:#f1f3f5}
+.student-shell .answer-panel p{font-size:15px;line-height:1.85}.student-shell .question-table-scroll table{border-collapse:collapse}.student-shell .question-table-scroll :is(td,th){border:1px solid #aeb7bf;text-align:left;padding:8px 12px}
+.study-return{display:inline-flex;align-items:center;min-height:44px;margin:18px 0;color:var(--workspace-accent);font-size:13px}
+.practice-flow{list-style:none;display:flex;gap:20px;flex-wrap:wrap;padding:12px 0 18px;margin:0;color:var(--workspace-muted);font:12px/1.6 var(--font-stack)}.practice-flow li[aria-current=step]{color:var(--workspace-ink);font-weight:600}.practice-flow li[aria-current=step]::after{content:'';display:block;height:2px;background:#748697;margin-top:4px}
+@media(max-width:650px){.student-shell .resume-banner{padding:18px;align-items:start;gap:12px}.student-shell .bank-question{padding-block:18px}.student-shell #question-stem{font-size:16px}.student-shell #question-zh{font-size:14px}.student-shell .question-container{padding:18px 14px}.student-shell .actions{gap:8px}.practice-flow{gap:14px;font-size:11px}.student-shell .answer-panel{padding:15px}.student-shell .bank-preview h2{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.student-shell{scroll-behavior:auto}.student-shell *{transition-duration:.01ms!important}}
+/* Source names and punctuation-heavy bilingual prose must wrap on narrow phones. */
+.student-shell :is(p,h2,summary,.question-text,.option-text){overflow-wrap:anywhere}
+
+.student-shell .question-blocks{font-family:var(--font-stack)}

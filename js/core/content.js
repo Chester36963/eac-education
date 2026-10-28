@@ -107,5 +107,9 @@ const skillNames = {
   "seq-infinite-subsequence": "Separate positive and negative GP terms / 正負等比子數列",
   "seq-ap-model": "Model counts and repayments with an AP / 等差計數與還款建模",
   "seq-growth-model": "Growth factors and sampling years / 增長因子與記錄年份",
-  "seq-loan-recurrence": "Monthly repayment timing and recurrence / 月供時序與遞推"
+  "seq-loan-recurrence": "Monthly repayment timing and recurrence / 月供時序與遞推",
+  "area-shared-height": "Shared bases and heights · 同底等高面積比",
+  "area-similar-triangles": "Similarity and area ratios · 相似與面積比",
+  "area-intersection-ratios": "Intersections and area partitions · 交點與面積分割",
+  "seq-mean-recurrence": "Mean recurrence and invariant terms · 平均遞推與不變項"
 };

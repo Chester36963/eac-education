@@ -5,11 +5,12 @@
   <title>EAC Education | 開始溫習</title>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/decorations.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css">
-  <link rel="stylesheet" href="css/journey.css"><link rel="stylesheet" href="css/study.css?v=b33a93a1a096"><link rel="stylesheet" href="css/math.css?v=77c77caaa4f1"><script src="js/core/math.js"></script><script defer src="vendor/mathjax/tex-svg.js"></script>
-</head>
+  <link rel="stylesheet" href="css/journey.css"><link rel="stylesheet" href="css/study.css?v=b33a93a1a096"><link rel="stylesheet" href="css/math.css?v=77c77caaa4f1"><script src="js/core/math.js?v=0453e7ce45c6"></script><script defer src="vendor/mathjax/tex-svg.js"></script>
+<link rel="stylesheet" href="css/workspace.css?v=e51fbb263891"></head>
 <body class="student-shell">
   <header class="site-header"><div class="header-inner"><a href="index.html" class="logo">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html" aria-current="page">開始溫習</a><a href="library.html">題庫</a><a href="dashboard.html?view=record">溫習記錄</a><a href="settings.html">設定</a></nav></div></header>
   <main class="student-main">
+    <section class="resume-banner" id="dashboard-resume" hidden><div><strong>接住上次未完成練習</strong><p id="dashboard-resume-copy"></p></div><a class="btn btn-primary" href="app.html?resume=1">繼續練習 →</a></section>
     <section class="student-welcome"><div class="welcome-editorial"><p class="eyebrow">THE STUDY DESK <span>01 / EAC × CHESTER</span></p><p class="study-display" lang="en"><span>A little</span> practice.<br><em>A clearer mind.</em></p><div class="welcome-guidance"><span class="welcome-mark" aria-hidden="true">∴</span><div><h1 id="welcome-heading">今日，溫邊一課？</h1><p id="welcome-copy">揀一個課題，先做 5 題。逐題核對解法，再重做未掌握的題目。</p></div></div><a class="study-anchor" href="#library">揀選今日課題 <span aria-hidden="true">↓</span></a><p class="welcome-byline">Mathematics, with Chester.<span>理解 · 練習 · 再進一步</span></p></div>
       <figure class="study-artboard">
         <nav id="desk-shortcuts" aria-label="選擇課題預覽"></nav>
@@ -23,13 +24,13 @@
         <figcaption><span id="desk-art-label">Four Centres / 四心</span><a id="plate-practice" href="app.html?chapter=four-centres&amp;length=5&amp;type=mcq">做 5 題 ↗</a></figcaption>
       </figure>
     </section>
-    <section class="resume-banner" id="dashboard-resume" hidden><div><strong>接住上次未完成練習</strong><p id="dashboard-resume-copy"></p></div><a class="btn btn-primary" href="app.html?resume=1">繼續練習 →</a></section>
+
     <ol class="study-steps" aria-label="溫習流程"><li><b>01</b><span><strong>揀課題</strong><small>由你最近上過的一課開始</small></span></li><li><b>02</b><span><strong>做 5 題</strong><small>先作答，再看提示與解法</small></span></li><li><b>03</b><span><strong>重做錯題</strong><small>做完一組，就有下一步</small></span></li></ol>
     <section class="daily-grid" id="progress">
       <article class="daily-card"><div class="daily-card-top"><span class="eyebrow">Today's direction</span><span class="daily-date" id="today-date"></span></div><h2 id="recommendation-heading">揀選今日的練習。</h2><p id="recommendation-copy">正在讀取你的學習記錄。</p><a class="btn btn-primary" id="recommendation-link" href="app.html">開始練習 →</a></article>
       <aside class="streak-panel" hidden><span id="streak-value">0</span><span id="accuracy-value">0%</span><span id="attempted-value">0</span></aside>
     </section>
-    <section class="library-section" id="library"><div class="section-heading"><div><p class="eyebrow">01 / FIND YOUR CHAPTER</p><h2>選擇今日的課題</h2><p>直接開始一組，或者展開分類，先揀想練嘅方法。</p></div><a class="text-button" href="library.html">瀏覽全部題目 ↗</a></div><div class="desk-search-row"><label class="library-search">搜尋課題或解題方法<input type="search" id="library-search" placeholder="四心、因式分解、體積…"></label><div id="desk-subjects" class="desk-subjects" role="group" aria-label="科目範疇"></div></div><p class="desk-result-count" id="desk-result-count" role="status"></p><div class="subject-list" id="subject-list"><p class="loading-copy">載入課題中…</p></div></section>
+    <section class="library-section" id="library"><div class="section-heading"><div><p class="eyebrow">01 / FIND YOUR CHAPTER</p><h2>選擇今日的課題</h2><p>直接開始一組，或者展開分類，先揀想練嘅方法。</p></div><a class="text-button" href="library.html">瀏覽全部題目 ↗</a></div><label id="desk-course-label" class="course-choice" hidden>課程 / Course<select id="desk-course"></select></label><div class="desk-search-row"><label class="library-search">搜尋課題或解題方法<input type="search" id="library-search" placeholder="四心、因式分解、體積…"></label><div id="desk-subjects" class="desk-subjects" role="group" aria-label="科目範疇"></div></div><p class="desk-result-count" id="desk-result-count" role="status"></p><div class="subject-list" id="subject-list"><p class="loading-copy">載入課題中…</p></div></section>
     <section class="learning-record" id="learning-record" aria-labelledby="record-heading">
       <div class="section-heading"><div><p class="eyebrow">YOUR STUDY RECORD</p><h2 id="record-heading">溫習記錄</h2></div><a class="text-button" href="dashboard.html">開始另一課 →</a></div>
       <div class="record-overview"><p id="record-overview-copy">完成第一組練習後，這裏會顯示進度。</p><a href="app.html?mode=review" id="review-all-link" hidden>重做待重溫題目 →</a><a href="app.html?mode=saved">查看收藏 →</a></div>
@@ -42,5 +43,5 @@
   </main>
   <footer class="site-footer"><span>© 2026 EAC Education <span class="footer-author">Mathematics by Chester</span></span><span>進度暫存於此瀏覽器 · 可在設定匯出備份</span></footer>
   <script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/features/gamification.js"></script>
-  <script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/dashboard.js?v=44308357ce0a"></script><script src="js/core/math-models.js?v=76643f15c160"></script><script src="js/features/study-instruments.js?v=d923ec22afdb"></script><script src="js/features/study-scenes.js?v=7ce7ee752fb0"></script><script src="js/features/study-ui.js"></script>
+  <script src="js/core/content.js"></script><script src="js/core/learning.js?v=5e3b6432a7a1"></script><script src="js/core/question-bank.js"></script><script src="js/features/dashboard.js?v=e4b2d7b5dcc4"></script><script src="js/core/math-models.js?v=76643f15c160"></script><script src="js/features/study-instruments.js?v=d923ec22afdb"></script><script src="js/features/study-scenes.js?v=7ce7ee752fb0"></script><script src="js/features/study-ui.js"></script>
 </body></html>

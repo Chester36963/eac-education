@@ -1,6 +1,7 @@
 /* Local learning record: latest answers guide review; all attempts remain in totals. */
 let currentUser;
-let selectedStudySubject='all';
+let deskQuestions=[];
+let selectedStudySubject='all',selectedStudyCourse='core';
 const byId = id => document.getElementById(id);
 document.addEventListener('DOMContentLoaded', async () => {
   currentUser = Auth.ensureLocalSession();
@@ -25,6 +26,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   try {
     const [catalog, questions] = await Promise.all([QuestionBank.catalog(), QuestionBank.index()]);
     if(Learning.migrateAliases(currentUser,questions))Storage.saveUser(currentUser);
+    deskQuestions=questions;
+    const courses=Learning.availableCourses(questions),select=byId('desk-course');
+    select.replaceChildren(...courses.map(c=>new Option(Learning.courses[c],c)));selectedStudyCourse=courses.includes(Storage.getPreferences().course)?Storage.getPreferences().course:'core';select.value=selectedStudyCourse;byId('desk-course-label').hidden=courses.length<2;
+    select.onchange=()=>{selectedStudyCourse=select.value;Storage.savePreferences({...Storage.getPreferences(),course:selectedStudyCourse});renderLibrary(catalog,byId('library-search').value);};
     const records = currentUser.progress.byQuestion || {};
     const chapters = catalog.subjects.flatMap(s => s.chapters);
     const shortNames={'four-centres':'四心',locus:'軌跡',polynomials:'多項式',sequences:'數列','mensuration-core':'度量'};
@@ -60,17 +65,18 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 function route(chapter, params = {}) {
-  return `app.html?${new URLSearchParams({chapter: chapter.id, type:'all', length:'5', language:Storage.getPreferences().questionLanguage||'bilingual', ...params})}`;
+  return `app.html?${new URLSearchParams({chapter: chapter.id, type:'all', length:'5', course:selectedStudyCourse,language:Storage.getPreferences().questionLanguage||'bilingual', ...params})}`;
 }
 function renderLibrary(catalog,query='') {
   const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  catalog=structuredClone(catalog);for(const c of catalog.subjects.flatMap(s=>s.chapters)){const qs=deskQuestions.filter(q=>Learning.course(q)===selectedStudyCourse&&q.topicId===c.topicId);c.questionCount=qs.length;c.coverage.types=Object.fromEntries(Object.keys(Learning.types).map(t=>[t,qs.filter(q=>q.questionType===t).length]));for(const sub of c.subcategories){const pool=qs.filter(q=>q.subcategory===sub.id);sub.questionCount=pool.length;sub.skillCounts=Object.fromEntries(sub.skills.map(k=>[k,pool.filter(q=>q.skill===k).length]));}}
   const needle=query.toLowerCase();
-  const filtered={...catalog,subjects:catalog.subjects.filter(s=>selectedStudySubject==='all'||s.id===selectedStudySubject).map(s=>({...s,chapters:s.chapters.filter(c=>`${s.name.en} ${s.name['zh-Hant']} ${c.name.en} ${c.name['zh-Hant']} ${c.subcategories.map(sub=>`${sub.name.en} ${sub.name['zh-Hant']} ${sub.skills.map(skill=>skillNames[skill]||skill).join(' ')}`).join(' ')}`.toLowerCase().includes(needle))})).filter(s=>s.chapters.length)};
+  const filtered={...catalog,subjects:catalog.subjects.filter(s=>selectedStudySubject==='all'||s.id===selectedStudySubject).map(s=>({...s,chapters:s.chapters.filter(c=>(c.courses||['core']).includes(selectedStudyCourse)).filter(c=>`${s.name.en} ${s.name['zh-Hant']} ${c.name.en} ${c.name['zh-Hant']} ${c.subcategories.map(sub=>`${sub.name.en} ${sub.name['zh-Hant']} ${sub.skills.map(skill=>skillNames[skill]||skill).join(' ')}`).join(' ')}`.toLowerCase().includes(needle))})).filter(s=>s.chapters.length)};
   document.querySelectorAll('#desk-subjects button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.subject===selectedStudySubject)));
   byId('desk-result-count').textContent=`${filtered.subjects.flatMap(s=>s.chapters).length} 個課題${query?' · 搜尋「'+query+'」':''}`;
   if(!filtered.subjects.length){byId('subject-list').textContent='沒有符合的課題，試下其他關鍵字或選擇全部課題。';return;}
   catalog=filtered;
-  byId('subject-list').innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><h3>${escape(subject.name.en)}<span>${escape(subject.name['zh-Hant'])}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<div class="chapter-entry" data-chapter="${escape(chapter.id)}"><a class="chapter-row" href="${route(chapter,{type:chapter.coverage.types.mcq?'mcq':'all'})}"><span class="chapter-picture" aria-hidden="true">${EACStudy.art(chapter.id)}</span><span><strong>${escape(chapter.name.en)}</strong><small>${escape(chapter.name['zh-Hant'])} · ${chapter.questionCount} 題${chapter.coverage.types.mcq?'':' · 書面作答，對照解法自評'}</small></span><span class="chapter-arrow">做 5 題 →</span></a><details class="chapter-methods"><summary>按技巧揀題目 · ${chapter.subcategories.filter(s=>s.questionCount).length} 個分類</summary><div class="chapter-method-grid">${chapter.subcategories.filter(s=>s.questionCount).map(sub=>`<details class="method-category"><summary><span><b>${escape(sub.name['zh-Hant'])}</b><small>${escape(sub.name.en)}</small></span><span>${sub.questionCount} 題 ＋</span></summary><div class="method-skill-list"><a href="${route(chapter,{subcategory:sub.id,form:'all'})}"><span>練習整個分類</span><small>${sub.questionCount} 題 ↗</small></a>${sub.skills.filter(skill=>sub.skillCounts?.[skill]).map(skill=>`<a class="method-skill" href="${route(chapter,{subcategory:sub.id,skill,form:'all'})}"><span>${escape(skillNames[skill]||skill)}</span><small>${sub.skillCounts[skill]} 題 ↗</small></a>`).join('')}<a href="library.html?${new URLSearchParams({chapter:chapter.id,subcategory:sub.id})}"><span>先瀏覽題目</span><small>↗</small></a></div></details>`).join('')}</div></details></div>`).join('')}</div></article>`).join('');
+  byId('subject-list').innerHTML = catalog.subjects.map(subject => `<article class="subject-block"><div class="subject-heading"><h3>${escape(subject.name.en)}<span>${escape(subject.name['zh-Hant'])}</span></h3></div><div class="chapter-list">${subject.chapters.map(chapter => `<div class="chapter-entry" data-chapter="${escape(chapter.id)}"><a class="chapter-row" href="${route(chapter,{type:chapter.coverage.types.mcq?'mcq':'all'})}"><span class="chapter-picture" aria-hidden="true">${EACStudy.art(chapter.id)}</span><span><strong>${escape(chapter.name.en)}</strong><small>${escape(chapter.name['zh-Hant'])} · ${chapter.questionCount} 題${chapter.coverage.types.mcq?'':' · 書面作答，對照解法自評'}</small></span><span class="chapter-arrow">做 5 題 →</span></a><details class="chapter-methods"><summary>按技巧揀題目 · ${chapter.subcategories.filter(s=>s.questionCount).length} 個分類</summary><div class="chapter-method-grid">${chapter.subcategories.filter(s=>s.questionCount).map(sub=>`<details class="method-category"><summary><span><b>${escape(sub.name['zh-Hant'])}</b><small>${escape(sub.name.en)}</small></span><span>${sub.questionCount} 題 ＋</span></summary><div class="method-skill-list"><a href="${route(chapter,{subcategory:sub.id,form:'all'})}"><span>練習整個分類</span><small>${sub.questionCount} 題 ↗</small></a>${sub.skills.filter(skill=>sub.skillCounts?.[skill]).map(skill=>`<a class="method-skill" href="${route(chapter,{subcategory:sub.id,skill,form:'all'})}"><span>${escape(skillNames[skill]||skill)}</span><small>${sub.skillCounts[skill]} 題 ↗</small></a>`).join('')}<a href="library.html?${new URLSearchParams({course:selectedStudyCourse,chapter:chapter.id,subcategory:sub.id})}"><span>先瀏覽題目</span><small>↗</small></a></div></details>`).join('')}</div></details></div>`).join('')}</div></article>`).join('');
   byId('subject-list').querySelectorAll('.chapter-entry').forEach(entry=>{const c=catalog.subjects.flatMap(s=>s.chapters).find(c=>c.id===entry.dataset.chapter);const show=()=>{EACStudy.mount('#desk-art',c.id);byId('desk-art-label').textContent=c.name.en+' / '+c.name['zh-Hant'];};entry.addEventListener('pointerenter',event=>{const artboard=byId('desk-art').closest('.study-artboard'),board=artboard.getBoundingClientRect();if(event.pointerType==='mouse'&&board.bottom>0&&board.top<innerHeight&&!artboard.contains(document.activeElement))show();});entry.addEventListener('focusin',show);});
   syncChapterPreview(byId('desk-art').dataset.art);
 }
@@ -125,6 +131,7 @@ function renderMistakes(chapters, questions, records) {
   EACMath.render(container);
 }
 function renderRecommendation(chapters, questions, records) {
+  questions=questions.filter(q=>Learning.course(q)===selectedStudyCourse);
   const wrong = questions.filter(q => records[q.id]?.lastCorrect === false).sort((a,b) => records[b.id].lastAttemptAt.localeCompare(records[a.id].lastAttemptAt))[0];
   const unseen = questions.find(q => !records[q.id]);
   if(!Object.keys(records).length){document.querySelector('.daily-grid').hidden=true;return;}

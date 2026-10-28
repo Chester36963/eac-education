@@ -3,7 +3,7 @@ let currentUser, catalog, allQuestions=[],questionLookup=new Map(), sessionState
 let selectedAnswer=null, isAnswerSubmitted=false, questionId=null;
 const el=id=>document.getElementById(id);
 const preferences=Storage.getPreferences();
-const fields={subject:'subject-select',chapter:'topic-select',subcategory:'subcategory-select',skill:'skill-select',type:'type-select',difficulty:'difficulty-select',form:'form-select',mode:'mode-select',experience:'experience-select',language:'language-select',length:'length-select',order:'order-select',timer:'timer-select'};
+const fields={course:'course-select',subject:'subject-select',chapter:'topic-select',subcategory:'subcategory-select',skill:'skill-select',type:'type-select',difficulty:'difficulty-select',form:'form-select',mode:'mode-select',experience:'experience-select',language:'language-select',length:'length-select',order:'order-select',timer:'timer-select'};
 const labels={easy:'基礎 · Foundation',medium:'進階 · Standard',hard:'挑戰 · Challenge',challenging:'進階挑戰'};
 function optionList(id,entries,all=true){
  const select=el(id),previous=select.value;select.replaceChildren();
@@ -11,9 +11,9 @@ function optionList(id,entries,all=true){
  for(const [value,label,disabled] of entries){const o=new Option(label,value);o.disabled=!!disabled;select.add(o);}
  if([...select.options].some(o=>o.value===previous&&!o.disabled))select.value=previous;
 }
-function chapters(){return catalog.subjects.filter(s=>el(fields.subject).value==='all'||s.id===el(fields.subject).value).flatMap(s=>s.chapters);}
+function chapters(){return catalog.subjects.filter(s=>el(fields.subject).value==='all'||s.id===el(fields.subject).value).flatMap(s=>s.chapters).filter(c=>(c.courses||['core']).includes(el(fields.course).value||'core'));}
 function scope(){const ch=el(fields.chapter).value;return chapters().filter(c=>ch==='all'||c.id===ch);}
-function filters(){return {topics:scope().map(c=>c.topicId),subcategory:el(fields.subcategory).value,skill:el(fields.skill).value,type:el(fields.type).value,difficulty:el(fields.difficulty).value,form:el(fields.form).value,mode:el(fields.mode).value,query:el('query-input').value.trim(),queryIds,question:questionId};}
+function filters(){return {course:el(fields.course).value,topics:scope().map(c=>c.topicId),subcategory:el(fields.subcategory).value,skill:el(fields.skill).value,type:el(fields.type).value,difficulty:el(fields.difficulty).value,form:el(fields.form).value,mode:el(fields.mode).value,query:el('query-input').value.trim(),queryIds,question:questionId};}
 function matchingQuestions(){
  const qs=Learning.select(allQuestions,filters(),Storage.getUser());
  return el(fields.experience).value==='test'?qs.filter(q=>Learning.automatic(q)):qs;
@@ -29,14 +29,14 @@ function updateCount(){
  document.querySelector('.advanced-filters>summary').textContent=`其他選擇：技巧、題型、難度及自測${refined?`（${refined} 項已套用）`:''}`;
 }
 function updateTaxonomy(level='subject'){
- if(level==='subject')optionList(fields.chapter,chapters().map(c=>[c.id,`${c.name.en} · ${c.name['zh-Hant']}`]));
- if(['subject','chapter'].includes(level)){
+ if(['course','subject'].includes(level))optionList(fields.chapter,chapters().map(c=>[c.id,`${c.name.en} · ${c.name['zh-Hant']}`]));
+ if(['course','subject','chapter'].includes(level)){
   const subs=new Map(scope().flatMap(c=>c.subcategories).map(s=>[s.id,s]));
   optionList(fields.subcategory,[...subs.values()].map(s=>[s.id,`${s.name.en} · ${s.name['zh-Hant']}`]));
  }
  const f=filters();
- const basic=Learning.select(allQuestions,{topics:f.topics,subcategory:f.subcategory,form:f.form},currentUser);
- if(['subject','chapter','subcategory','form'].includes(level))optionList(fields.skill,[...new Set(basic.map(q=>q.skill))].map(s=>[s,skillNames[s]||s]));
+ const basic=Learning.select(allQuestions,{course:f.course,topics:f.topics,subcategory:f.subcategory,form:f.form},currentUser);
+ if(['course','subject','chapter','subcategory','form'].includes(level))optionList(fields.skill,[...new Set(basic.map(q=>q.skill))].map(s=>[s,skillNames[s]||s]));
  const skill=el(fields.skill).value;
  const pool=basic.filter(q=>skill==='all'||q.skill===skill);
  optionList(fields.type,Object.entries(Learning.types).map(([type,label])=>{
@@ -52,6 +52,7 @@ function setValue(key,value){const select=el(fields[key]);if([...select.options]
 function selections(){return {...Object.fromEntries(Object.entries(fields).map(([key,id])=>[key,el(id).value])),query:el('query-input').value.trim()};}
 function applySelections(values){
  el('query-input').value=values.query||'';
+ setValue('course',values.course||'core');
  setValue('subject',values.subject||'all');updateTaxonomy('subject');
  setValue('chapter',values.chapter||'all');updateTaxonomy('chapter');
  for(const key of ['form','experience'])if(values[key])setValue(key,values[key]);
@@ -62,11 +63,13 @@ function applySelections(values){
  updateCount();
 }
 document.addEventListener('DOMContentLoaded',async()=>{
+ try{const back=JSON.parse(sessionStorage.getItem('eac_library_return'));if(/^library\.html(?:\?|$)/.test(back?.url||'')){const a=document.createElement('a');a.className='study-return';a.href=back.url;a.textContent='← 返回剛才嘅題目列表';el('studio-status').before(a);}}catch{}
  currentUser=Auth.ensureLocalSession();if(!currentUser){el('studio-status').textContent='無法儲存本機練習記錄，請允許網站儲存資料後重試。';return;}
  try{
   [allQuestions,catalog]=await Promise.all([QuestionBank.index(),QuestionBank.catalog()]);
   if(Learning.migrateAliases(currentUser,allQuestions))Storage.saveUser(currentUser);
   questionLookup=new Map(allQuestions.map(q=>[q.id,q]));
+  optionList(fields.course,Learning.availableCourses(allQuestions).map(c=>[c,Learning.courses[c]]),false);el('studio-course-label').hidden=Learning.availableCourses(allQuestions).length<2;
   optionList(fields.subject,catalog.subjects.map(s=>[s.id,`${s.name.en} · ${s.name['zh-Hant']}`]));
   el(fields.language).value=preferences.questionLanguage||'bilingual';
   el('reading-language').onchange=()=>{el(fields.language).value=el('reading-language').value;if(sessionState){sessionState.selection.language=el('reading-language').value;persist();renderQuestion();}};
@@ -74,13 +77,14 @@ document.addEventListener('DOMContentLoaded',async()=>{
   const params=Object.fromEntries(new URLSearchParams(location.search));
   if(params.chapter){const sub=catalog.subjects.find(s=>s.chapters.some(c=>c.id===params.chapter||c.topicId===params.chapter));if(sub){params.subject=sub.id;params.chapter=sub.chapters.find(c=>c.id===params.chapter||c.topicId===params.chapter).id;}}
   questionId=params.question||null;
-  const firstChapter=catalog.subjects.flatMap(s=>s.chapters).find(c=>allQuestions.some(q=>q.topicId===c.topicId&&q.questionType==='mcq'&&(preferences.form==='all'||!preferences.form||q.minForm<=Number(preferences.form))))||catalog.subjects.flatMap(s=>s.chapters)[0];
+  const defaultCourse=Learning.availableCourses(allQuestions).includes(preferences.course)?preferences.course:'core';
+  const firstChapter=catalog.subjects.flatMap(s=>s.chapters).find(c=>allQuestions.some(q=>Learning.course(q)===defaultCourse&&q.topicId===c.topicId&&q.questionType==='mcq'&&(preferences.form==='all'||!preferences.form||q.minForm<=Number(preferences.form))))||catalog.subjects.flatMap(s=>s.chapters)[0];
   const simpleStart=!Object.keys(params).some(k=>!['language','resume'].includes(k));
-  applySelections({...simpleStart?{chapter:firstChapter.id,type:'mcq'}:{},...params,form:params.form||((params.chapter||params.question)?'all':preferences.form)||'all'});
+  applySelections({...simpleStart?{chapter:firstChapter.id,type:'mcq'}:{},...params,course:params.course||preferences.course||'core',form:params.form||((params.chapter||params.question)?'all':preferences.form)||'all'});
   EACMath.bindLanguages();
   for(const [key,id] of Object.entries(fields))el(id).onchange=()=>{
    questionId=null;
-   if(['subject','chapter','subcategory','skill','type','form','experience'].includes(key))updateTaxonomy(key);else updateCount();
+   if(['course','subject','chapter','subcategory','skill','type','form','experience'].includes(key))updateTaxonomy(key);else updateCount();
    if(key==='language'&&sessionState){sessionState.selection.language=el(id).value;persist();renderQuestion();}
   };
   let queryTimer;el('query-input').oninput=()=>{questionId=null;clearTimeout(queryTimer);queryTimer=setTimeout(refreshSearch,200);};
@@ -133,6 +137,7 @@ function resumeSession(){
  const saved=Learning.readSession(currentUser.id);if(!saved)return;
  const found=saved.ids.map(id=>questionLookup.get(id));
  if(found.some(q=>!q)){el('studio-status').textContent='上次練習的題目已有更新。請重新選擇一組，已作答進度仍然保留。';return;}
+ if(found.some(q=>Learning.course(q)!==(saved.selection?.course||'core'))){el('studio-status').textContent='上次練習課程與題目不一致，請重新組題；已作答記錄保留。';return;}
  sessionState=saved;queue=found;sessionState.answers||={};sessionState.drafts||={};sessionState.elapsedMs=Number(sessionState.elapsedMs)||0;sessionState.runningSince=Date.now();
  document.querySelector('#practice-builder h1').textContent='這組練習的設定';
  applySelections(saved.selection||{});el('resume-banner').hidden=true;el('studio-empty').hidden=true;el('set-summary').hidden=true;el('active-set').hidden=true;el('practice-builder').open=false;persist();renderQuestion();
@@ -250,7 +255,7 @@ function handleSubmit(){
 }
 function recordAnswer(correct,assessment){
  if(isAnswerSubmitted)return;const q=question(),value=response();if(!value)return;
- if(!Storage.saveQuestion(q.topicId,q.category,q.difficulty,q.id,correct,{selectedAnswer:value,skill:q.skill,subcategory:q.subcategory,assessment})) {showResult('未能儲存作答，請檢查瀏覽器儲存空間後再試。',false);return;}
+ if(!Storage.saveQuestion(q.topicId,q.category,q.difficulty,q.id,correct,{selectedAnswer:value,skill:q.skill,subcategory:q.subcategory,course:Learning.course(q),assessment})) {showResult('未能儲存作答，請檢查瀏覽器儲存空間後再試。',false);return;}
  currentUser=Storage.getUser();Gamification.incrementDailyCount(currentUser);Gamification.updateStreak(currentUser,correct);Gamification.checkAchievements(currentUser);Storage.saveUser(currentUser);
  sessionState.answers[q.id]={response:value,correct,assessment};persist();renderQuestion({revealResult:true});updateCount();
 }

@@ -1,8 +1,11 @@
 /* Pure helpers shared by the practice studio, settings and tests. */
 const Learning = {
+  courses: {core:'必修 / Core',m1:'M1',m2:'M2'},
+  course(q) { return q.course || 'core'; },
+  availableCourses(questions) { return Object.keys(this.courses).filter(c=>questions.some(q=>this.course(q)===c)); },
   types: {'mcq':'MCQ · 選擇題','short-answer':'Short answer · 短答','structured':'Structured · 分題','proof':'Proof · 證明','diagram':'Diagram · 圖像題','dse-long':'DSE-style long · 長題'},
   flatten(data) {
-    return data.topics.flatMap(t => t.categories.flatMap(c => c.questions.map(q => ({...q,topicId:t.id,category:c.type}))));
+    return data.topics.flatMap(t => t.categories.flatMap(c => c.questions.map(q => ({...q,course:q.course||t.course||'core',topicId:t.id,category:c.type}))));
   },
   number(value) {
     const s = String(value).trim().replaceAll('−','-').replaceAll('／','/');
@@ -51,6 +54,7 @@ const Learning = {
     const records=user.progress?.byQuestion || {};
     const bookmarks=filters.mode==='saved'?new Set(user.bookmarks||[]):null;
     return questions.filter(q =>
+      (this.course(q)===(filters.course||'core') || filters.course==='all') &&
       (!filters.topics?.length || filters.topics.includes(q.topicId)) &&
       (!filters.subcategory || filters.subcategory==='all' || q.subcategory===filters.subcategory) &&
       (!filters.skill || filters.skill==='all' || q.skill===filters.skill) &&

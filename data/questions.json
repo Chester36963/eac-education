@@ -43498,6 +43498,884 @@
               }
             }
           ]
+        },
+        {
+          "type": "calculation",
+          "questions": [
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "arithmetic-terms-sums",
+              "skill": "seq-partial-sum-term",
+              "stem": "If the sum of the first \\(n\\) terms of a sequence is \\(n^2+n\\), find the second term.",
+              "stemZh": "某數列首 \\(n\\) 項之和為 \\(n^2+n\\)，求第二項。",
+              "solution": "\\(T_2=S_2-S_1=6-2=4\\).",
+              "solutionZh": "先分清「和」與「項」：\\(T_2=S_2-S_1=6-2=4\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q1 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第1題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "1",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q1",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "6",
+                "B": "4",
+                "C": "3",
+                "D": "2"
+              },
+              "optionsZh": {
+                "A": "6",
+                "B": "4",
+                "C": "3",
+                "D": "2"
+              },
+              "answer": "B",
+              "id": "import-sequences-543b53cd8538870a"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "infinite-geometric",
+              "skill": "seq-infinite-sum",
+              "stem": "\\(a,a^2,a^3,\\ldots\\) is a geometric sequence with sum to infinity \\(x\\). Which range describes \\(x\\)?",
+              "stemZh": "等比數列 \\(a,a^2,a^3,\\ldots\\) 的無窮和為 \\(x\\)。求 \\(x\\) 的範圍。",
+              "solution": "Convergence requires \\(-1<a<1\\). Then \\(x=a/(1-a)=1/(1-a)-1\\). Since \\(0<1-a<2\\), \\(x>-1/2\\); every such x is achieved by \\(a=x/(1+x)\\).",
+              "solutionZh": "無窮和存在要求 \\(-1<a<1\\)。\\(x=a/(1-a)=1/(1-a)-1\\)，由 \\(0<1-a<2\\) 得 \\(x>-1/2\\)；反解 \\(a=x/(1+x)\\) 可確認整個範圍均可達。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q2 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第2題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "2",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q2",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(-1<x<1\\)",
+                "B": "\\(-0.5<x<0.5\\)",
+                "C": "\\(x>-0.5\\)",
+                "D": "\\(x<1\\)"
+              },
+              "optionsZh": {
+                "A": "\\(-1<x<1\\)",
+                "B": "\\(-0.5<x<0.5\\)",
+                "C": "\\(x>-0.5\\)",
+                "D": "\\(x<1\\)"
+              },
+              "answer": "C",
+              "id": "import-sequences-81dc382ae1469dce"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "log-products",
+              "skill": "seq-product-sum",
+              "stem": "The product of the first n terms of the geometric sequence \\(1,2,2^2,2^3,\\ldots\\) is \\(2^{406}\\). Find n.",
+              "stemZh": "等比數列 \\(1,2,2^2,2^3,\\ldots\\) 首 n 項之積為 \\(2^{406}\\)。求 n。",
+              "solution": "Add exponents: \\(0+1+\\cdots+(n-1)=n(n-1)/2=406\\). Thus \\(n^2-n-812=0\\), giving \\(n=29\\) or \\(-28\\). Reject the negative number of terms.",
+              "solutionZh": "先將乘積轉為指數和：\\(n(n-1)/2=406\\)，解得 \\(n=29\\) 或 \\(-28\\)；項數必須為正整數，故 \\(n=29\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q4 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第4題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "4",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q4",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "19",
+                "B": "20",
+                "C": "28",
+                "D": "29"
+              },
+              "optionsZh": {
+                "A": "19",
+                "B": "20",
+                "C": "28",
+                "D": "29"
+              },
+              "answer": "D",
+              "id": "import-sequences-29578cd20b1a00e7"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "infinite-geometric",
+              "skill": "seq-infinite-sum",
+              "stem": "Let \\(-1<1/x<1\\) and \\(x\\ne0\\). If \\(1-1/x+1/x^2-1/x^3+\\cdots=5/6\\), find x.",
+              "stemZh": "已知 \\(-1<1/x<1\\) 且 \\(x\\ne0\\)。若 \\(1-1/x+1/x^2-1/x^3+\\cdots=5/6\\)，求 x。",
+              "solution": "The ratio is \\(-1/x\\) and its absolute value is below 1. Hence \\(1/(1+1/x)=5/6\\), so \\(6x=5x+5\\) and \\(x=5\\). This satisfies the domain.",
+              "solutionZh": "公比為 \\(-1/x\\)，且絕對值小於 1。套用無窮等比和得 \\(1/(1+1/x)=5/6\\)，所以 \\(x=5\\)；代回符合原限制。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q5 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第5題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "5",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q5",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "−6",
+                "B": "−5",
+                "C": "5",
+                "D": "6"
+              },
+              "optionsZh": {
+                "A": "−6",
+                "B": "−5",
+                "C": "5",
+                "D": "6"
+              },
+              "answer": "C",
+              "id": "import-sequences-083828c25b2ede1e"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "geometric-sums",
+              "skill": "seq-gp-middle-term",
+              "stem": "Real numbers a,b,c form a geometric sequence. If \\(a+b+c=14\\) and \\(abc=64\\), find \\(a+c\\).",
+              "stemZh": "實數 a、b、c 構成等比數列。若 \\(a+b+c=14\\) 且 \\(abc=64\\)，求 \\(a+c\\)。",
+              "solution": "The GP property gives \\(ac=b^2\\), hence \\(abc=b^3=64\\). The real root is \\(b=4\\), so \\(a+c=14-4=10\\).",
+              "solutionZh": "由等比中項性質 \\(ac=b^2\\)，得 \\(b^3=abc=64\\)。因此 \\(b=4\\)，所求 \\(a+c=14-4=10\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q6 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第6題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "6",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q6",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "6",
+                "B": "9",
+                "C": "10",
+                "D": "11"
+              },
+              "optionsZh": {
+                "A": "6",
+                "B": "9",
+                "C": "10",
+                "D": "11"
+              },
+              "answer": "C",
+              "id": "import-sequences-d2fc30a8928bb2cc"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "sequence-foundations",
+              "skill": "seq-mean-recurrence",
+              "stem": "A sequence satisfies \\(a_{n+2}=(a_n+a_{n+1})/2\\) for every positive integer n. If \\(a_1=a_2=4\\), find \\(a_{20}\\).",
+              "stemZh": "數列對每個正整數 n 均滿足 \\(a_{n+2}=(a_n+a_{n+1})/2\\)。若 \\(a_1=a_2=4\\)，求 \\(a_{20}\\)。",
+              "solution": "The next term is the mean of two 4s, so it is 4. Repeating this argument shows every term equals 4. Thus \\(a_{20}=4\\).",
+              "solutionZh": "每項是前兩項的平均值。由兩個 4 開始，下一項仍為 4；反覆使用相同推理，每項皆為 4，故 \\(a_{20}=4\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q7 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第7題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "7",
+                "page": 2,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q7",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "2",
+                "B": "4",
+                "C": "6",
+                "D": "8"
+              },
+              "optionsZh": {
+                "A": "2",
+                "B": "4",
+                "C": "6",
+                "D": "8"
+              },
+              "answer": "B",
+              "id": "import-sequences-98b7754ea4f78c96"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "sequence-foundations",
+              "skill": "seq-term-pattern",
+              "stem": "In the figure, the first pattern has 3 dots. For every positive integer n, pattern \\(n+1\\) is formed by adding \\(2n+1\\) dots to pattern n. Find the number of dots in the seventh pattern.",
+              "stemZh": "如圖，第一個圖案有 3 點。對每個正整數 n，第 \\(n+1\\) 個圖案由第 n 個圖案加入 \\(2n+1\\) 點形成。求第七個圖案的點數。",
+              "solution": "\\(3+\\sum_{n=1}^{6}(2n+1)=3+2(21)+6=51\\). Only six additions are needed to reach pattern 7.",
+              "solutionZh": "由第一個到第七個圖案只需加六次：\\(3+\\sum_{n=1}^{6}(2n+1)=3+42+6=51\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q8 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第8題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "8",
+                "page": 2,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q8",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "21",
+                "B": "24",
+                "C": "36",
+                "D": "51"
+              },
+              "optionsZh": {
+                "A": "21",
+                "B": "24",
+                "C": "36",
+                "D": "51"
+              },
+              "answer": "D",
+              "diagram": {
+                "src": "assets/intake/intake-611e81c1f3198537/q08.png",
+                "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q8.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-sequences-29efdd650e8a9ee9",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-611e81c1f3198537",
+                  "sourcePage": 2,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q8",
+                  "sha256": "eb10d633643e18a8959908029568381005521f374720fc8725e40252601391bd",
+                  "cropBox": [
+                    125,
+                    515,
+                    850,
+                    708
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-sequences-29efdd650e8a9ee9"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "arithmetic-terms-sums",
+              "skill": "seq-ap-term",
+              "stem": "The 12th term of an arithmetic sequence is ten times its 6th term. The sum of the first 10 terms is −5. Find the second term.",
+              "stemZh": "等差數列第 12 項是第 6 項的十倍，首 10 項之和為 −5。求第二項。",
+              "solution": "Let first term a and difference d. \\(a+11d=10(a+5d)\\) gives \\(9a+39d=0\\). Also \\(5(2a+9d)=-5\\). Solving gives \\(d=-3,a=13\\), hence \\(T_2=a+d=10\\).",
+              "solutionZh": "設首項 a、公差 d。由 \\(a+11d=10(a+5d)\\) 及 \\(5(2a+9d)=-5\\) 聯立得 \\(a=13,d=-3\\)。故第二項為 \\(a+d=10\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q9 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第9題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "9",
+                "page": 2,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q9",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "−3",
+                "B": "10",
+                "C": "13",
+                "D": "16"
+              },
+              "optionsZh": {
+                "A": "−3",
+                "B": "10",
+                "C": "13",
+                "D": "16"
+              },
+              "answer": "B",
+              "id": "import-sequences-33987111abb82cc0"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "sequence-foundations",
+              "skill": "seq-gp-properties",
+              "stem": "Let \\(a_n\\) be the nth term of a GP of nonzero real numbers. Which are true? I. \\(a_2,a_5,a_8,a_{11}\\) form a GP. II. \\(a_4^2=a_3a_5\\). III. \\(a_7/a_3>0\\).",
+              "stemZh": "設 \\(a_n\\) 為非零實數等比數列的第 n 項。以下哪些正確？I. \\(a_2,a_5,a_8,a_{11}\\) 成等比。II. \\(a_4^2=a_3a_5\\)。III. \\(a_7/a_3>0\\)。",
+              "solution": "Write \\(a_n=ar^{n-1}\\) with \\(a\\ne0,r\\ne0\\). I has ratio \\(r^3\\). II has both sides \\(a^2r^6\\). III equals \\(r^4>0\\), including negative r. All are true.",
+              "solutionZh": "寫成 \\(a_n=ar^{n-1}\\)，其中 a、r 均非零。I 的公比為 \\(r^3\\)；II 兩邊同為 \\(a^2r^6\\)；III 為 \\(r^4>0\\)，即使 r 負亦成立。三項皆正確。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q12 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第12題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "12",
+                "page": 3,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q12",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "I only",
+                "B": "I and II only",
+                "C": "II and III only",
+                "D": "I, II and III"
+              },
+              "optionsZh": {
+                "A": "只有 I",
+                "B": "只有 I 及 II",
+                "C": "只有 II 及 III",
+                "D": "I、II 及 III"
+              },
+              "answer": "D",
+              "id": "import-sequences-582a4d68428abf36"
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "arithmetic-terms-sums",
+              "skill": "seq-ap-threshold",
+              "stem": "In Figure 1, the first pattern has 5 dots. Each next pattern adds 2 dots. Find the least integer m such that the total number of dots in the first m patterns exceeds 7565.",
+              "stemZh": "圖 1 的第一個圖案有 5 點，其後每個圖案增加 2 點。求最小整數 m，使首 m 個圖案的總點數超過 7565。",
+              "solution": "The numbers form an AP with a=5,d=2. \\(S_m=m(2m+8)/2=m^2+4m\\). The inequality is \\((m-85)(m+89)>0\\). For positive integers, \\(m>85\\), so the least is \\(86\\). At 85 the total only equals 7565.",
+              "solutionZh": "點數成等差，\\(a=5,d=2\\)。\\(S_m=m^2+4m\\)，故 \\((m-85)(m+89)>0\\)。由 m 為正整數，得最小 \\(m=86\\)；m=85 只等於 7565，未超過。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q13 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第13題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "13",
+                "page": 3,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q13",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "diagram": {
+                "src": "assets/intake/intake-611e81c1f3198537/q13.png",
+                "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q13.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-sequences-de250efe011b7ef2",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-611e81c1f3198537",
+                  "sourcePage": 3,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q13",
+                  "sha256": "e9a92f108003f250952103f934473042b7f2d67de02857aeaa601897363cee04",
+                  "cropBox": [
+                    155,
+                    950,
+                    900,
+                    1055
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-sequences-de250efe011b7ef2"
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "sequence-modelling",
+              "skill": "seq-growth-model",
+              "stem": "Wilson deposits $P on the first day of each year for 10 years at Green Bank, at 6% p.a. compounded quarterly. If the total interest at the end of year 10 is $10000, find P to the nearest integer.",
+              "stemZh": "Wilson 連續 10 年於每年首日向 Green Bank 存入 $P，年利率 6%，按季複息。若第 10 年年底所得總利息為 $10000，求 P，答案取最接近整數。",
+              "solution": "The deposits earn 40,36,...,4 quarters of interest. Let \\(g=1.015^4\\). Final value \\(P\\sum_{k=1}^{10}g^k=Pg(g^{10}-1)/(g-1)\\). Deduct the total principal 10P: \\(P[g(g^{10}-1)/(g-1)-10]=10000\\). Thus \\(P=2451.26750\\ldots\\) and the requested answer is $2451.",
+              "solutionZh": "每季增長倍數 \\(1.015\\)；十筆存款分別增長 40、36、…、4 季。令 \\(g=1.015^4\\)，期末總額為 \\(Pg(g^{10}-1)/(g-1)\\)。利息須扣除本金 10P，解 \\(P[g(g^{10}-1)/(g-1)-10]=10000\\) 得約 $2451（整數）。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q14 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第14題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "14",
+                "page": 3,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q14",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "id": "import-sequences-93332cc9f00ee6f3"
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "sequence-modelling",
+              "skill": "seq-growth-model",
+              "stem": "A city spends \\(\\$3.24\\times10^{10}\\) on education in year 1 of a plan. Each subsequent year it spends 5% more. (a) Find total expenditure in the first 15 years. (b) Find the least integer n such that expenditure in the first n years exceeds \\(\\$10^{12}\\).",
+              "stemZh": "某城市計劃第一年的教育開支為 \\(\\$3.24\\times10^{10}\\)，其後每年比前一年增加 5%。(a) 求首 15 年總開支。(b) 求最小整數 n，使首 n 年總開支超過 \\(\\$10^{12}\\)。",
+              "solution": "Use \\(S_n=3.24\\times10^{10}(1.05^n-1)/0.05\\). (a) \\(S_{15}\\approx6.99145460258566\\times10^{11}\\) dollars, or \\(6.99\\times10^{11}\\) to 3 significant figures. (b) \\(1.05^n>206/81\\) gives \\(n>\\log(206/81)/\\log(1.05)\\approx19.13146\\). The least integer is 20; check n=19 and20 directly.",
+              "solutionZh": "用等比和 \\(S_n=3.24\\times10^{10}(1.05^n-1)/0.05\\)。(a) \\(S_{15}\\approx6.99145460258566\\times10^{11}\\) 元，三位有效數字為 \\(6.99\\times10^{11}\\)。(b) 化簡得 \\(1.05^n>206/81\\)，取對數後 n 大於約 19.1，故最小整數為 20，並回代 19、20 檢查。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q15 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第15題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "15",
+                "page": 3,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q15",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "id": "import-sequences-c43df14968861654",
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "A city spends \\(\\$3.24\\times10^{10}\\) on education in year 1 of a plan. Each subsequent year it spends 5% more."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) Find total expenditure in the first 15 years."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(b) Find the least integer n such that expenditure in the first n years exceeds \\(\\$10^{12}\\)."
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "某城市計劃第一年的教育開支為 \\(\\$3.24\\times10^{10}\\)，其後每年比前一年增加 5%。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) 求首 15 年總開支。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(b) 求最小整數 n，使首 n 年總開支超過 \\(\\$10^{12}\\)。"
+                  }
+                ]
+              }
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "geometric-sums",
+              "skill": "seq-geometric-sum",
+              "stem": "Boxes numbered 1,2,3,... contain numbers of one-dollar coins forming a GP. The third and fourth boxes contain 12 and24 coins. (a) Find the number in box 1. (b) Find the least n such that the total in boxes \\(n,n+1,\\ldots,2n\\) exceeds $48960.",
+              "stemZh": "編號 1、2、3、… 的盒內各有若干一元硬幣，數量成等比數列。第 3、4 盒分別有 12、24 枚。(a) 求第 1 盒數量。(b) 求最小 n，使第 \\(n,n+1,\\ldots,2n\\) 盒總金額超過 $48960。",
+              "solution": "(a) \\(r=24/12=2\\) and \\(a=12/2^2=3\\). (b) The inclusive range has n+1 boxes: \\(\\sum_{k=n}^{2n}3\\cdot2^{k-1}=3(2^{2n}-2^{n-1})\\). Let t=2ⁿ. The condition becomes \\((2t+255)(t-128)>0\\). Since t>0, \\(2^n>128\\); the least n is8. At n=7 the sum equals48960.",
+              "solutionZh": "(a) \\(r=2,a=3\\)。(b) 由第 n 至第 2n 盒包括首尾，共 n+1 盒。總和為 \\(3(2^{2n}-2^{n-1})\\)。令 \\(t=2^n\\)，化簡得 \\((2t+255)(t-128)>0\\)。由 t 正，得 \\(n>7\\)，故最小 \\(n=8\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q17 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第17題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "17",
+                "page": 4,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q17",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "id": "import-sequences-798f919f5154d8b7",
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "Boxes numbered 1,2,3,... contain numbers of one-dollar coins forming a GP. The third and fourth boxes contain 12 and24 coins."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) Find the number in box 1."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(b) Find the least n such that the total in boxes \\(n,n+1,\\ldots,2n\\) exceeds $48960."
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "編號 1、2、3、… 的盒內各有若干一元硬幣，數量成等比數列。第 3、4 盒分別有 12、24 枚。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) 求第 1 盒數量。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(b) 求最小 n，使第 \\(n,n+1,\\ldots,2n\\) 盒總金額超過 $48960。"
+                  }
+                ]
+              }
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "infinite-geometric",
+              "skill": "seq-infinite-sum",
+              "stem": "In the figure, ABC is an equilateral triangle of side 2 units. Square \\(B_1C_1D_1E_1\\) is inside ABC with \\(A,B_1,B\\), \\(A,C_1,C\\) and \\(B,E_1,D_1,C\\) collinear respectively. (a) Find \\(C_1D_1\\). (b) Square \\(B_2C_2D_2E_2\\) is similarly inscribed in \\(\\triangle AB_1C_1\\), with \\(A,B_2,B_1\\), \\(A,C_2,C_1\\) and \\(B_1,E_2,D_2,C_1\\) collinear. Find \\(C_2D_2\\). (c) Repeat to obtain a GP of square sides. Find (i) the common ratio; (ii) the sum to infinity of \\(C_1D_1+C_2D_2+C_3D_3+\\cdots\\). Give rationalized surd answers.",
+              "stemZh": "如圖，ABC 是邊長為 2 的等邊三角形。內接正方形 \\(B_1C_1D_1E_1\\) 滿足 \\(A,B_1,B\\)、\\(A,C_1,C\\)、\\(B,E_1,D_1,C\\) 分別共線。(a) 求 \\(C_1D_1\\)。(b) 在 \\(\\triangle AB_1C_1\\) 同樣內接正方形 \\(B_2C_2D_2E_2\\)，其中 \\(A,B_2,B_1\\)、\\(A,C_2,C_1\\)、\\(B_1,E_2,D_2,C_1\\) 分別共線，求 \\(C_2D_2\\)。(c) 持續相同過程，正方形邊長成等比數列，求 (i) 公比；(ii) 邊長無窮和。答案用根式表示並有理化。",
+              "solution": "For an equilateral triangle of side L, inscribed square side s satisfies \\(s=(L-s)\\sin60^\\circ\\). Thus \\(s/L=\\sqrt3/(2+\\sqrt3)=2\\sqrt3-3\\). (a) With L=2, \\(s_1=4\\sqrt3-6\\). (b) The next triangle side is s₁, so \\(s_2=s_1(2\\sqrt3-3)=42-24\\sqrt3\\). (c)(i) \\(r=2\\sqrt3-3\\) lies between0and1. (ii) \\(S_\\infty=(4\\sqrt3-6)/(1-r)=\\sqrt3\\).",
+              "solutionZh": "設等邊三角形邊長 L、內接正方形邊長 s。由直角三角形得 \\(s=(L-s)\\sin60^\\circ\\)，故 \\(s/L=2\\sqrt3-3\\)。(a) \\(s_1=4\\sqrt3-6\\)。(b) 下一等邊三角形的邊長為 \\(s_1\\)，所以 \\(s_2=42-24\\sqrt3\\)。(c)(i) 公比 \\(2\\sqrt3-3\\)；(ii) 因其絕對值小於 1，無窮和 \\((4\\sqrt3-6)/(1-(2\\sqrt3-3))=\\sqrt3\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q18 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第18題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "18",
+                "page": 4,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q18",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "diagram": {
+                "src": "assets/intake/intake-611e81c1f3198537/q18.png",
+                "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q18.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-sequences-8ef1f23da33dc9f3",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-611e81c1f3198537",
+                  "sourcePage": 4,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q18",
+                  "sha256": "5e9c5fd3689fe03c0d5e3e3cffe8532ba29b677f1d032fdb6806867fd8949e0d",
+                  "cropBox": [
+                    670,
+                    535,
+                    940,
+                    755
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-sequences-8ef1f23da33dc9f3",
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "In the figure, ABC is an equilateral triangle of side 2 units. Square \\(B_1C_1D_1E_1\\) is inside ABC with \\(A,B_1,B\\), \\(A,C_1,C\\) and \\(B,E_1,D_1,C\\) collinear respectively."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) Find \\(C_1D_1\\)."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(b) Square \\(B_2C_2D_2E_2\\) is similarly inscribed in \\(\\triangle AB_1C_1\\), with \\(A,B_2,B_1\\), \\(A,C_2,C_1\\) and \\(B_1,E_2,D_2,C_1\\) collinear. Find \\(C_2D_2\\)."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(c) Repeat to obtain a GP of square sides. Find (i) the common ratio; (ii) the sum to infinity of \\(C_1D_1+C_2D_2+C_3D_3+\\cdots\\). Give rationalized surd answers."
+                  },
+                  {
+                    "type": "figure",
+                    "diagram": {
+                      "src": "assets/intake/intake-611e81c1f3198537/q18.png",
+                      "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q18.",
+                      "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                      "qa": {
+                        "questionId": "import-sequences-8ef1f23da33dc9f3",
+                        "status": "reviewed",
+                        "reviewedAt": "2026-10-28",
+                        "sourceId": "source-611e81c1f3198537",
+                        "sourcePage": 4,
+                        "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q18",
+                        "sha256": "5e9c5fd3689fe03c0d5e3e3cffe8532ba29b677f1d032fdb6806867fd8949e0d",
+                        "cropBox": [
+                          670,
+                          535,
+                          940,
+                          755
+                        ],
+                        "verifiedUnrelatedMask": null
+                      }
+                    }
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "如圖，ABC 是邊長為 2 的等邊三角形。內接正方形 \\(B_1C_1D_1E_1\\) 滿足 \\(A,B_1,B\\)、\\(A,C_1,C\\)、\\(B,E_1,D_1,C\\) 分別共線。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) 求 \\(C_1D_1\\)。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(b) 在 \\(\\triangle AB_1C_1\\) 同樣內接正方形 \\(B_2C_2D_2E_2\\)，其中 \\(A,B_2,B_1\\)、\\(A,C_2,C_1\\)、\\(B_1,E_2,D_2,C_1\\) 分別共線，求 \\(C_2D_2\\)。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(c) 持續相同過程，正方形邊長成等比數列，求 (i) 公比；(ii) 邊長無窮和。答案用根式表示並有理化。"
+                  },
+                  {
+                    "type": "figure",
+                    "diagram": {
+                      "src": "assets/intake/intake-611e81c1f3198537/q18.png",
+                      "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q18.",
+                      "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                      "qa": {
+                        "questionId": "import-sequences-8ef1f23da33dc9f3",
+                        "status": "reviewed",
+                        "reviewedAt": "2026-10-28",
+                        "sourceId": "source-611e81c1f3198537",
+                        "sourcePage": 4,
+                        "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q18",
+                        "sha256": "5e9c5fd3689fe03c0d5e3e3cffe8532ba29b677f1d032fdb6806867fd8949e0d",
+                        "cropBox": [
+                          670,
+                          535,
+                          940,
+                          755
+                        ],
+                        "verifiedUnrelatedMask": null
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 5,
+              "course": "core",
+              "subcategory": "sequence-modelling",
+              "skill": "seq-growth-model",
+              "stem": "Alex has a permanent full-time job paying $10000 per month in year1, increasing10% at the beginning of each subsequent year. He may either take a spare-time job earning an additional $3000 per month, or study a two-year master degree during spare time. After study his monthly full-time pay in year3 becomes $15000 and thereafter rises10% yearly; he takes no part-time job. Let \\(P_n,F_n\\) be his respective annual salaries under the part-time and study routes. (a) Express \\(P_n\\) in n. (b)(i) Find \\(F_1,F_2\\); (ii) express \\(F_n\\) for \\(n\\ge3\\). Let \\(A_m,B_m\\) be total salaries over m years under the respective routes. (c) Show that \\(A_m-B_m=12000[3m-29(1.1^{m-2}-1)]\\) for \\(m\\ge3\\). (d) Which route earns more if he retires at the end of year10?",
+              "stemZh": "Alex 第一年的全職月薪為 $10000，其後每年年初加薪 10%。他可在工餘兼職，每月另賺 $3000；或在工餘修讀兩年碩士，完成後第三年的全職月薪為 $15000，其後每年仍加薪 10%，不再兼職。設 \\(P_n,F_n\\) 分別為兼職及進修方案第 n 年的年薪。(a) 以 n 表示 \\(P_n\\)。(b)(i) 求 \\(F_1,F_2\\)；(ii) 以 n 表示 \\(n\\ge3\\) 時的 \\(F_n\\)。設 \\(A_m,B_m\\) 為兩方案首 m 年總薪金。(c) 證明 \\(A_m-B_m=12000[3m-29(1.1^{m-2}-1)]\\)，其中 \\(m\\ge3\\)。(d) 若第 10 年年底退休，哪個方案總薪金較高？",
+              "solution": "(a) \\(P_n=120000(1.1)^{n-1}+36000\\). (b) Study is during spare time: \\(F_1=120000,F_2=132000\\) and \\(F_n=180000(1.1)^{n-3}\\ (n\\ge3)\\). (c) \\(A_m=1200000(1.1^m-1)+36000m\\); \\(B_m=252000+1800000(1.1^{m-2}-1)\\). Subtract and use \\(1.1^m=1.21(1.1^{m-2})\\) to obtain the required identity. (d) \\(A_{10}-B_{10}\\approx-37968.91\\), so study earns about $37968.91 more. No tuition cost is specified, so compare salaries only.",
+              "solutionZh": "(a) \\(P_n=120000(1.1)^{n-1}+36000\\)。(b) 工餘進修期間仍有全職收入，故 \\(F_1=120000,F_2=132000\\)，而 \\(F_n=180000(1.1)^{n-3}\\ (n\\ge3)\\)。(c) 分別求和得 \\(A_m=1200000(1.1^m-1)+36000m\\)、\\(B_m=252000+1800000(1.1^{m-2}-1)\\)，相減並用 \\(1.1^m=1.21(1.1^{m-2})\\) 整理即得所證。(d) \\(A_{10}-B_{10}\\approx-37968.91\\)，進修方案多約 $37968.91。題目未列學費，故只比較薪金。",
+              "solutionStatus": "independently-rederived",
+              "source": "S6/Sequence/Sequence review2.pdf · Q19 (attribution not supplied)",
+              "sourceZh": "S6/Sequence/Sequence review2.pdf · 第19題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-611e81c1f3198537",
+                "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                "file": "S6/Sequence/Sequence review2.pdf",
+                "number": "19",
+                "page": 5,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q19",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "id": "import-sequences-a8d5d3e3a011d51c",
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "Alex has a permanent full-time job paying $10000 per month in year1, increasing10% at the beginning of each subsequent year. He may either take a spare-time job earning an additional $3000 per month, or study a two-year master degree during spare time. After study his monthly full-time pay in year3 becomes $15000 and thereafter rises10% yearly; he takes no part-time job. Let \\(P_n,F_n\\) be his respective annual salaries under the part-time and study routes."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) Express \\(P_n\\) in n."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(b)(i) Find \\(F_1,F_2\\); (ii) express \\(F_n\\) for \\(n\\ge3\\). Let \\(A_m,B_m\\) be total salaries over m years under the respective routes."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(c) Show that \\(A_m-B_m=12000[3m-29(1.1^{m-2}-1)]\\) for \\(m\\ge3\\)."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(d) Which route earns more if he retires at the end of year10?"
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "Alex 第一年的全職月薪為 $10000，其後每年年初加薪 10%。他可在工餘兼職，每月另賺 $3000；或在工餘修讀兩年碩士，完成後第三年的全職月薪為 $15000，其後每年仍加薪 10%，不再兼職。設 \\(P_n,F_n\\) 分別為兼職及進修方案第 n 年的年薪。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(a) 以 n 表示 \\(P_n\\)。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(b)(i) 求 \\(F_1,F_2\\)；(ii) 以 n 表示 \\(n\\ge3\\) 時的 \\(F_n\\)。設 \\(A_m,B_m\\) 為兩方案首 m 年總薪金。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(c) 證明 \\(A_m-B_m=12000[3m-29(1.1^{m-2}-1)]\\)，其中 \\(m\\ge3\\)。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "(d) 若第 10 年年底退休，哪個方案總薪金較高？"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     },
@@ -43844,6 +44722,823 @@
                 }
               },
               "minForm": 1
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-similar-triangles",
+              "stem": "In the figure, \\(DE\\parallel BC\\) and \\([ADE]:[ADC]=1:4\\). Find \\([DEC]:[BDC]\\).",
+              "stemZh": "如圖，\\(DE\\parallel BC\\)，且 \\([ADE]:[ADC]=1:4\\)。求 \\([DEC]:[BDC]\\)。",
+              "solution": "Triangles ADE and ADC have bases AE and AC on the same line and a common altitude from D. Thus \\(AE/AC=[ADE]/[ADC]=1/4\\). Since \\(DE\\parallel BC\\), similarity gives \\(DE/BC=AE/AC=1/4\\). Triangles DEC and BDC have bases DE and BC with equal heights between the parallel lines, so \\([DEC]:[BDC]=1:4\\).",
+              "solutionZh": "先用同高三角形：\\([ADE]/[ADC]=AE/AC=1/4\\)。由 \\(DE\\parallel BC\\) 及相似三角形得 \\(DE/BC=1/4\\)。再以 DE、BC 為底，兩三角形在平行線之間等高，所以 \\([DEC]:[BDC]=1:4\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q1 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第1題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "1",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q1",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "1:2",
+                "B": "1:3",
+                "C": "1:4",
+                "D": "1:5"
+              },
+              "optionsZh": {
+                "A": "1:2",
+                "B": "1:3",
+                "C": "1:4",
+                "D": "1:5"
+              },
+              "answer": "C",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q01.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q1.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-52f514caf0e7b6df",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 1,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q1",
+                  "sha256": "fd88e35352ed966ba2d5adff57ff8d6557d3a6fa7721f69755721f451535c4d3",
+                  "cropBox": [
+                    500,
+                    185,
+                    775,
+                    365
+                  ],
+                  "verifiedUnrelatedMask": [
+                    0,
+                    0,
+                    48,
+                    28
+                  ]
+                }
+              },
+              "id": "import-mensuration-52f514caf0e7b6df"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-intersection-ratios",
+              "stem": "In the figure, ABCD is a parallelogram. M is the midpoint of AD; P lies on BC with \\(BP:PC=1:3\\). AC intersects MP at Q. If \\([AMQ]=120\\), find the area of ABPQ.",
+              "stemZh": "如圖，ABCD 為平行四邊形，M 是 AD 的中點，P 在 BC 上且 \\(BP:PC=1:3\\)。AC 與 MP 交於 Q。若 \\([AMQ]=120\\)，求四邊形 ABPQ 的面積。",
+              "solution": "Use an affine coordinate model \\(A=(0,1),B=(0,0),C=(1,0),D=(1,1)\\). Then \\(M=(1/2,1),P=(1/4,0),Q=(2/5,3/5)\\). The normalized areas are \\([AMQ]=1/10,[ABPQ]=11/40\\). Thus \\([ABPQ]=120(11/40)/(1/10)=330\\).",
+              "solutionZh": "以平行四邊形作面積單位。設 \\(A=(0,1),B=(0,0),C=(1,0),D=(1,1)\\)，由兩直線相交得 \\(Q=(2/5,3/5)\\)。底高／分割計算得 \\([AMQ]=1/10,[ABPQ]=11/40\\)，所以所求為 \\(120\\times11/4=330\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q2 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第2題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "2",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q2",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "270",
+                "B": "330",
+                "C": "480",
+                "D": "540"
+              },
+              "optionsZh": {
+                "A": "270",
+                "B": "330",
+                "C": "480",
+                "D": "540"
+              },
+              "answer": "B",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q02.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q2.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-820aaeac75c8bb75",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 1,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q2",
+                  "sha256": "d87cd18774839559740f963cbc7bdbcf62540fed343e532a6987b3ad150f6b4a",
+                  "cropBox": [
+                    680,
+                    405,
+                    955,
+                    565
+                  ],
+                  "verifiedUnrelatedMask": [
+                    0,
+                    0,
+                    275,
+                    8
+                  ]
+                }
+              },
+              "id": "import-mensuration-820aaeac75c8bb75"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-intersection-ratios",
+              "stem": "In the figure, ABCD is a parallelogram. E is the midpoint of AB; F and G lie on CD with \\(DF=FG=GC\\). BG and CE intersect at H. If \\([BCH]=6\\text{ cm}^2\\), find the area of EFGH.",
+              "stemZh": "如圖，ABCD 是平行四邊形，E 是 AB 的中點，F、G 三等分 CD，且 \\(DF=FG=GC\\)。BG 與 CE 交於 H。若 \\([BCH]=6\\text{ cm}^2\\)，求 EFGH 的面積。",
+              "solution": "Normalize \\(A=(0,0),B=(1,0),C=(1,1),D=(0,1)\\). Then \\(E=(1/2,0),F=(1/3,1),G=(2/3,1),H=(4/5,3/5)\\). Base-height subtraction gives \\([BCH]=1/10,[EFGH]=4/15\\) of the parallelogram. Thus \\(6(4/15)/(1/10)=16\\text{ cm}^2\\).",
+              "solutionZh": "把平行四邊形面積設為 1。按等分點定位交點，得 \\(H=(4/5,3/5)\\)（以相鄰兩邊為座標方向）。由底高及分割可得 \\([BCH]=1/10,[EFGH]=4/15\\)，所求為 \\(6\\times(4/15)/(1/10)=16\\text{ cm}^2\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q3 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第3題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "3",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q3",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(10\\text{ cm}^2\\)",
+                "B": "\\(12\\text{ cm}^2\\)",
+                "C": "\\(15\\text{ cm}^2\\)",
+                "D": "\\(16\\text{ cm}^2\\)"
+              },
+              "optionsZh": {
+                "A": "\\(10\\text{ cm}^2\\)",
+                "B": "\\(12\\text{ cm}^2\\)",
+                "C": "\\(15\\text{ cm}^2\\)",
+                "D": "\\(16\\text{ cm}^2\\)"
+              },
+              "answer": "D",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q03.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q3.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-0b77eafe562abbd1",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 1,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q3",
+                  "sha256": "998a997a627a09cb157ce5053bb2217c3d22bea0301796b2d02cb30ca7af7efc",
+                  "cropBox": [
+                    630,
+                    675,
+                    940,
+                    840
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-mensuration-0b77eafe562abbd1"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-shared-height",
+              "stem": "In the figure, ABCD is a parallelogram and E lies on AB. EC and BD intersect at F. If \\([DEF]=20\\text{ cm}^2\\), find \\([CBF]\\).",
+              "stemZh": "如圖，ABCD 是平行四邊形，E 在 AB 上。EC 與 BD 交於 F。若 \\([DEF]=20\\text{ cm}^2\\)，求 \\([CBF]\\)。",
+              "solution": "Triangles DBC and DEC share base DC and have equal heights because E and B lie on AB parallel DC. Subtract common triangle DFC: \\([CBF]=[DEF]=20\\text{ cm}^2\\).",
+              "solutionZh": "先認出等高同底。\\([DBC]=[DEC]\\)，因兩者同底 DC，而 B、E 在平行於 DC 的 AB 上。兩邊扣去共同的 \\(\\triangle DFC\\)，得 \\([CBF]=[DEF]=20\\text{ cm}^2\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q4 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第4題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "4",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q4",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(40\\text{ cm}^2\\)",
+                "B": "\\(30\\text{ cm}^2\\)",
+                "C": "\\(20\\text{ cm}^2\\)",
+                "D": "\\(10\\text{ cm}^2\\)"
+              },
+              "optionsZh": {
+                "A": "\\(40\\text{ cm}^2\\)",
+                "B": "\\(30\\text{ cm}^2\\)",
+                "C": "\\(20\\text{ cm}^2\\)",
+                "D": "\\(10\\text{ cm}^2\\)"
+              },
+              "answer": "C",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q04.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q4.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-c33332204d3d984d",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 1,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q4",
+                  "sha256": "174339b7a5a0fc42a4fe638ce740af6bcaaa94ad2bd785aed7da7c659918b478",
+                  "cropBox": [
+                    395,
+                    940,
+                    665,
+                    1125
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-mensuration-c33332204d3d984d"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-similar-triangles",
+              "stem": "In the figure, ABC, CDE and EFA are straight lines. \\(BF\\parallel CE\\), \\(AB:BC=2:3\\) and \\(CD:DE=1:4\\). If \\([ABF]=4\\), find the area of BDEF.",
+              "stemZh": "如圖，A、B、C 共線，C、D、E 共線，E、F、A 共線；\\(BF\\parallel CE\\)，\\(AB:BC=2:3\\)，\\(CD:DE=1:4\\)。若 \\([ABF]=4\\)，求 BDEF 的面積。",
+              "solution": "Similarity gives \\([ABF]/[ACE]=(2/5)^2=4/25\\), so \\([ACE]=25\\). Triangles BCD and ACE share angle C, with side ratios \\(CB/CA=3/5,CD/CE=1/5\\). Hence \\([BCD]=3\\) and \\([BDEF]=25-4-3=18\\).",
+              "solutionZh": "先用相似面積比：\\([ABF]:[ACE]=4:25\\)，故 \\([ACE]=25\\)。再利用同一夾角 C，得 \\([BCD]/[ACE]=(3/5)(1/5)=3/25\\)，所以 \\([BCD]=3\\)。所求為 \\(25-4-3=18\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q5 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第5題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "5",
+                "page": 1,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q5",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "12",
+                "B": "15",
+                "C": "18",
+                "D": "21"
+              },
+              "optionsZh": {
+                "A": "12",
+                "B": "15",
+                "C": "18",
+                "D": "21"
+              },
+              "answer": "C",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q05.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q5.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-68aaf525ccb7da19",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 1,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q5",
+                  "sha256": "d0c1854b8429682341a42d16db608ff90fa76d076c77d69f443f57c552135b74",
+                  "cropBox": [
+                    730,
+                    1130,
+                    975,
+                    1325
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-mensuration-68aaf525ccb7da19"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-intersection-ratios",
+              "stem": "In the figure, F lies on BC with \\(BF:FC=2:3\\). D lies on AC; BD cuts AF at E with \\(AE:EF=2:1\\). If \\([ABE]=12\\text{ cm}^2\\), find the area of CDEF.",
+              "stemZh": "如圖，F 在 BC 上且 \\(BF:FC=2:3\\)。D 在 AC 上，BD 與 AF 交於 E，且 \\(AE:EF=2:1\\)。若 \\([ABE]=12\\text{ cm}^2\\)，求 CDEF 的面積。",
+              "solution": "Since AE:EF=2:1, \\([BEF]=6,[ABF]=18\\). Thus \\([ACF]=27\\). To locate D use triangle ABC with \\(BF/FC=2/3,AE/EF=2\\): base-height ratios give \\(AD:DC=4:5\\). Hence \\([ABD]=20,[ADE]=8\\) and \\([CDEF]=[ACF]-[ADE]=27-8=19\\text{ cm}^2\\).",
+              "solutionZh": "由同高三角形得 \\([BEF]=6\\)，所以 \\([ABF]=18\\)，\\([ACF]=27\\)。交線比例可得 \\(AD:DC=4:5\\)，故 \\([ABD]=20\\)，\\([ADE]=[ABD]-[ABE]=8\\)。因此 \\([CDEF]=27-8=19\\text{ cm}^2\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q6 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第6題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "6",
+                "page": 2,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q6",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(19\\text{ cm}^2\\)",
+                "B": "\\(20\\text{ cm}^2\\)",
+                "C": "\\(21\\text{ cm}^2\\)",
+                "D": "\\(22\\text{ cm}^2\\)"
+              },
+              "optionsZh": {
+                "A": "\\(19\\text{ cm}^2\\)",
+                "B": "\\(20\\text{ cm}^2\\)",
+                "C": "\\(21\\text{ cm}^2\\)",
+                "D": "\\(22\\text{ cm}^2\\)"
+              },
+              "answer": "A",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q06.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q6.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-2fb2f7a3bc28e49e",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 2,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q6",
+                  "sha256": "216aa232e0f0d8becc9cbe8d941d70f593f9f64a9034db98744f04800c3069db",
+                  "cropBox": [
+                    630,
+                    245,
+                    975,
+                    450
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "editorialCorrections": [
+                "Removed duplicated OCR token DABE after the requested region; diagram and all numerical conditions preserved."
+              ],
+              "id": "import-mensuration-2fb2f7a3bc28e49e"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-shared-height",
+              "stem": "In the figure, ABCD is a rectangle. E is the midpoint of BC. AC and ED intersect at F. Find \\([AEB]:[FCE]\\).",
+              "stemZh": "如圖，ABCD 是長方形，E 是 BC 的中點，AC 與 ED 交於 F。求 \\([AEB]:[FCE]\\)。",
+              "solution": "Triangles FCE and FAD are similar with \\(CE:AD=1:2\\), hence F is at one-third of the rectangle height above BC. Since \\(BE=CE\\), triangles AEB and FCE have equal bases and height ratio 3:1. Therefore the area ratio is 3:1.",
+              "solutionZh": "先由 \\(\\triangle FCE\\sim\\triangle FAD\\) 得 \\(CE:AD=1:2\\)，所以 F 離 BC 的高度為長方形高度的 \\(1/3\\)。又 \\(BE=CE\\)，故兩三角形的面積比等於高比，即 3:1。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q7 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第7題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "7",
+                "page": 2,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q7",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "7:3",
+                "B": "5:2",
+                "C": "8:3",
+                "D": "3:1"
+              },
+              "optionsZh": {
+                "A": "7:3",
+                "B": "5:2",
+                "C": "8:3",
+                "D": "3:1"
+              },
+              "answer": "D",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q07.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q7.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-ea663dfcd2bfdcfe",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 2,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q7",
+                  "sha256": "c128e997b719dfab370bed4396f5e36bdef6facbdaa757b1324b85aadeb3d11a",
+                  "cropBox": [
+                    610,
+                    470,
+                    955,
+                    675
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-mensuration-ea663dfcd2bfdcfe"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-intersection-ratios",
+              "stem": "The figure shows trapezium ABCD with \\(AD\\parallel BC\\). AFE, BFD and BEC are straight lines. \\(BE:EC=BC:AD=1:3\\) and \\([ABF]=12\\text{ cm}^2\\). Find the area of CEFD.",
+              "stemZh": "如圖，ABCD 是梯形，\\(AD\\parallel BC\\)。A、F、E 共線，B、F、D 共線，B、E、C 共線；\\(BE:EC=BC:AD=1:3\\)，且 \\([ABF]=12\\text{ cm}^2\\)。求 CEFD 的面積。",
+              "solution": "Set BC=1, AD=3, BE=1/4 and height=1 in affine coordinates. Choose \\(B=(0,0),C=(1,0),A=(0,1),D=(3,1),E=(1/4,0)\\). Then \\(F=(3/13,1/13)\\). The normalized areas are \\([ABF]=3/26,[CEFD]=51/104\\). Scale by \\(12/(3/26)=104\\) to obtain \\(51\\text{ cm}^2\\).",
+              "solutionZh": "用平行底作座標方向：令 \\(BC=1,AD=3,BE=1/4\\)、高為 1。由兩直線相交得 \\(F=(3/13,1/13)\\)。底高分割得 \\([ABF]=3/26,[CEFD]=51/104\\)。實際面積比例因子為 104，故答案為 \\(51\\text{ cm}^2\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q8 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第8題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "8",
+                "page": 2,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q8",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(14\\text{ cm}^2\\)",
+                "B": "\\(42\\text{ cm}^2\\)",
+                "C": "\\(51\\text{ cm}^2\\)",
+                "D": "\\(58\\text{ cm}^2\\)"
+              },
+              "optionsZh": {
+                "A": "\\(14\\text{ cm}^2\\)",
+                "B": "\\(42\\text{ cm}^2\\)",
+                "C": "\\(51\\text{ cm}^2\\)",
+                "D": "\\(58\\text{ cm}^2\\)"
+              },
+              "answer": "C",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q08.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q8.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-4c3051ec72b3551e",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 2,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q8",
+                  "sha256": "96cbb0de3f10d685d9af86bd07a8bbaed225ad6d3c3b4aa3adb2e57dfb1bf08f",
+                  "cropBox": [
+                    595,
+                    785,
+                    860,
+                    950
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-mensuration-4c3051ec72b3551e"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-intersection-ratios",
+              "stem": "In the figure, ABCD is a square. E and F are midpoints of AD and AB. G lies on BC with \\(GC=3BG\\); H lies on DC with \\(HC=2DH\\). If \\([BFG]=3\\text{ cm}^2\\), find the area of EFGH.",
+              "stemZh": "如圖，ABCD 是正方形，E、F 分別是 AD、AB 的中點。G 在 BC 上且 \\(GC=3BG\\)；H 在 DC 上且 \\(HC=2DH\\)。若 \\([BFG]=3\\text{ cm}^2\\)，求 EFGH 的面積。",
+              "solution": "Let the square have area S. Then \\([BFG]=\\tfrac12\\cdot\\tfrac12\\cdot\\tfrac14S=S/16\\), so S=48. The four corner triangles have total fraction \\(1/8+1/16+1/4+1/12=25/48\\). Thus \\([EFGH]=48(1-25/48)=23\\text{ cm}^2\\).",
+              "solutionZh": "先由 \\([BFG]=\\tfrac12\\times\\tfrac12\\times\\tfrac14S=S/16=3\\) 得正方形面積 \\(S=48\\)。四個角的三角形面積佔比分別為 \\(1/8,1/16,1/4,1/12\\)。扣去後得 \\([EFGH]=48\\times23/48=23\\text{ cm}^2\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q9 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第9題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "9",
+                "page": 2,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q9",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(11\\text{ cm}^2\\)",
+                "B": "\\(23\\text{ cm}^2\\)",
+                "C": "\\(35\\text{ cm}^2\\)",
+                "D": "\\(47\\text{ cm}^2\\)"
+              },
+              "optionsZh": {
+                "A": "\\(11\\text{ cm}^2\\)",
+                "B": "\\(23\\text{ cm}^2\\)",
+                "C": "\\(35\\text{ cm}^2\\)",
+                "D": "\\(47\\text{ cm}^2\\)"
+              },
+              "answer": "B",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q09.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q9.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-2e2570882809d91a",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 2,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q9",
+                  "sha256": "af05a69a46ddc066223c0d6a08cb655ee57039d3bdb41cccbd5c3747b70898c8",
+                  "cropBox": [
+                    670,
+                    1090,
+                    885,
+                    1285
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-mensuration-2e2570882809d91a"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-shared-height",
+              "stem": "In triangle ABC, P lies on AB and Q lies on AC. \\(AP:PB=2:1\\) and \\(AQ:QC=1:3\\). Find \\([BCP]:[BCQ]\\).",
+              "stemZh": "在 \\(\\triangle ABC\\) 中，P、Q 分別在 AB、AC 上，\\(AP:PB=2:1\\)，\\(AQ:QC=1:3\\)。求 \\([BCP]:[BCQ]\\)。",
+              "solution": "Both triangles use BC as base. Their heights above BC are \\(1/3\\) and \\(3/4\\) of the height from A. Thus \\([BCP]:[BCQ]=\\tfrac13:\\tfrac34=4:9\\).",
+              "solutionZh": "兩三角形共用底 BC。P、Q 離 BC 的高度分別為 A 的 \\(1/3\\) 及 \\(3/4\\)，故面積比為 \\(\\tfrac13:\\tfrac34=4:9\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q10 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第10題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "10",
+                "page": 3,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q10",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "1:4",
+                "B": "2:3",
+                "C": "3:5",
+                "D": "4:9"
+              },
+              "optionsZh": {
+                "A": "1:4",
+                "B": "2:3",
+                "C": "3:5",
+                "D": "4:9"
+              },
+              "answer": "D",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q10.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q10.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-fe2b4778bb969c95",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 3,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q10",
+                  "sha256": "61243bd6b47e819135b9746da33d042a130b5f9f099e4f25c690fb4675a701d0",
+                  "cropBox": [
+                    690,
+                    220,
+                    910,
+                    395
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-mensuration-fe2b4778bb969c95"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-similar-triangles",
+              "stem": "In the figure, ABCD is a trapezium with \\(AD\\parallel BC\\) and \\(AD:BC=1:3\\). E lies on BC so ABED is a parallelogram; F is the midpoint of BC. DE and AF intersect at G. If \\([EGF]=7\\text{ cm}^2\\), find the area of ABCD.",
+              "stemZh": "如圖，ABCD 是梯形，\\(AD\\parallel BC\\)，\\(AD:BC=1:3\\)。E 在 BC 上使 ABED 成為平行四邊形；F 是 BC 的中點。DE 與 AF 交於 G。若 \\([EGF]=7\\text{ cm}^2\\)，求梯形 ABCD 的面積。",
+              "solution": "Normalize AD=BE=1, BC=3 and height h. Then EF=1/2. Similar triangles GAD and GFE give \\(GF:GA=EF:AD=1:2\\), so G is at height h/3 above BC. Hence \\([EGF]=\\tfrac12\\cdot\\tfrac12\\cdot h/3=h/12\\) while \\([ABCD]=(1+3)h/2=2h\\). The factor is 24, giving \\(168\\text{ cm}^2\\).",
+              "solutionZh": "令 \\(AD=BE=1,BC=3\\)，梯形高為 h，則 \\(EF=1/2\\)。由相似三角形得 G 離 BC 的高度為 \\(h/3\\)，所以 \\([EGF]=h/12\\)，而梯形面積為 \\(2h\\)，是前者的 24 倍。答案 \\(7\\times24=168\\text{ cm}^2\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q11 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第11題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "11",
+                "page": 3,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q11",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(133\\text{ cm}^2\\)",
+                "B": "\\(147\\text{ cm}^2\\)",
+                "C": "\\(168\\text{ cm}^2\\)",
+                "D": "\\(288\\text{ cm}^2\\)"
+              },
+              "optionsZh": {
+                "A": "\\(133\\text{ cm}^2\\)",
+                "B": "\\(147\\text{ cm}^2\\)",
+                "C": "\\(168\\text{ cm}^2\\)",
+                "D": "\\(288\\text{ cm}^2\\)"
+              },
+              "answer": "C",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q11.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q11.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-16472d1360abcf9f",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 3,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q11",
+                  "sha256": "da37907dba250f6f4d577a953542a9e12bfa81f0a9cfae09ed9238f750f4b9c9",
+                  "cropBox": [
+                    600,
+                    475,
+                    915,
+                    635
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-mensuration-16472d1360abcf9f"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 3,
+              "course": "core",
+              "subcategory": "plane-area-ratios",
+              "skill": "area-similar-triangles",
+              "stem": "In the figure, ABCD is a trapezium with \\(AD\\parallel BC\\) and \\(AD:BC=3:2\\). E lies on AD with \\(AE:AD=1:3\\). AC and BE intersect at F. If \\([BCF]=8\\text{ cm}^2\\), find the area of ABCD.",
+              "stemZh": "如圖，ABCD 是梯形，\\(AD\\parallel BC\\)，\\(AD:BC=3:2\\)。E 在 AD 上，且 \\(AE:AD=1:3\\)。AC 與 BE 交於 F。若 \\([BCF]=8\\text{ cm}^2\\)，求梯形 ABCD 的面積。",
+              "solution": "Let AD=3, BC=2 and height h, so AE=1. Similar triangles AEF and CBF give \\(AF:FC=AE:BC=1:2\\). Thus F has height 2h/3 above BC and \\([BCF]=2h/3\\). The trapezium area is \\(5h/2\\), giving ratio \\(15/4\\) and area \\(8\\times15/4=30\\text{ cm}^2\\).",
+              "solutionZh": "令 \\(AD=3,BC=2\\)，高為 h，得 \\(AE=1\\)。由 \\(\\triangle AEF\\sim\\triangle CBF\\) 得 \\(AF:FC=1:2\\)，故 F 離 BC 的高度為 \\(2h/3\\)。\\([BCF]=2h/3\\)，梯形面積為 \\(5h/2\\)，所以答案為 \\(8\\times15/4=30\\text{ cm}^2\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q12 (attribution not supplied)",
+              "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第12題（未提供原出處）",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-d7bc46f81937cc09",
+                "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+                "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+                "number": "12",
+                "page": 3,
+                "attributionStatus": "not-supplied",
+                "intakeStage": "editor-pilot-2026-10-28"
+              },
+              "classification": {
+                "version": "editor-pilot-v1",
+                "basis": "editor-reviewed-primary-solving-method",
+                "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q12",
+                "status": "editor-pipeline-reviewed"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(21\\text{ cm}^2\\)",
+                "B": "\\(22\\text{ cm}^2\\)",
+                "C": "\\(25\\text{ cm}^2\\)",
+                "D": "\\(30\\text{ cm}^2\\)"
+              },
+              "optionsZh": {
+                "A": "\\(21\\text{ cm}^2\\)",
+                "B": "\\(22\\text{ cm}^2\\)",
+                "C": "\\(25\\text{ cm}^2\\)",
+                "D": "\\(30\\text{ cm}^2\\)"
+              },
+              "answer": "D",
+              "diagram": {
+                "src": "assets/intake/intake-d7bc46f81937cc09/q12.png",
+                "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q12.",
+                "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                "qa": {
+                  "questionId": "import-mensuration-8c1dcf0e8b602006",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-10-28",
+                  "sourceId": "source-d7bc46f81937cc09",
+                  "sourcePage": 3,
+                  "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q12",
+                  "sha256": "72831652c8002106cf8bd6e33c44b7d538785c7608e51e8a8bc6b28b42805499",
+                  "cropBox": [
+                    680,
+                    725,
+                    930,
+                    930
+                  ],
+                  "verifiedUnrelatedMask": null
+                }
+              },
+              "id": "import-mensuration-8c1dcf0e8b602006"
             }
           ]
         },
