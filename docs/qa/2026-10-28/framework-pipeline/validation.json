@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-28",
+  "nodeTests": {
+    "passed": 1108,
+    "failed": 0
+  },
+  "sourceMath": 31,
+  "sharedPreviewCases": 588,
+  "studentPracticeSolutionCases": 324,
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "languages": [
+    "en",
+    "zh",
+    "bilingual"
+  ],
+  "newQuestionsActuallyGraded": 27,
+  "diagramAssetsIndividuallyInspected": 15,
+  "sameQuestionFiguresRendered": 15,
+  "allPriorCanonicalObjectsPreserved": 1208,
+  "totalQuestions": 1235,
+  "revision": "d8fd17a348cd3caa",
+  "editorWorkBench": "save/reload/source page/preview/four widths/origin and token checks passed",
+  "courseBrowser": "Core/M1/M2 isolated search, grouping, record, resume, dashboard counts and links passed",
+  "studyJourney": "passed",
+  "limitations": [
+    "Headless Chromium, not actual-device or student research",
+    "No new PDF output",
+    "Three new-source questions and two previous-source questions held with explicit reasons"
+  ]
+}

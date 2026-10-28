@@ -1,5 +1,16 @@
 # Implementation record
 
+## PIPE-20261028 · 共用學生框架與本機流水線
+
+本輪完成：本機來源登記／版本顯式採用、PDF頁面／文字及Word媒體提取、逐題草稿與共用學生預覽、待辦分類、五項分開審核、內容／圖像／版本修改自動失效、全批對帳、重複候選、差異預覽、交易備份／中斷恢復及重跑no-op。服務僅127.0.0.1，Host／Origin／cookie／token檢查與來源／工作目錄限制；原始文件及快取不在src。學生頁統一淺紙／灰藍閱讀與字體、長題分段、四步指引、上次續做入口，並加入Core／M1／M2全流程隔離，舊題／紀錄預設Core。保留封面及既有動畫。
+
+來源：重播已覆核數列卷24記錄（22不變、2舊待補）；兩份新PDF31原題＝27新增＋1確認同題＋3待補。新題含15幅原題精準裁圖；數列Q16合併指向既有ASGS ID，Q3／10／11追查配對Word後仍欠可靠條件修正，原題及具體反例留帳。原1,208題canonical物件／ID全數不變，新總數1,235，數列58、度量249。題庫發布與所有597份PDF完成是不同狀態，其他來源未當作已入題。
+
+已執行測試：1,108 Node checks通過；31獨立Fraction／Decimal數學檢查；49題×4寬度×3語言588共用預覽；本機管理UI來源頁、讀寫重開、同源限制及四寬度；runtime Core／M1／M2搜尋／作答／紀錄／續做／Dashboard題數連結；study-journey錯題／收藏／續做／舊紀錄通過。新增27題亦已實際自動核對／自評，324組正式題面／解析／語言／寬度狀態通過；見本輪validation.json。正式部署結果另在release.json記錄。
+
+限制：無自動數學認證／機器翻譯認證；Word頁碼依賴配對PDF，WMF／EMF保留供原檔核對；首版一批一主要課題，真人學生／實機Safari測試仍待做。詳見 [操作手冊](EDITOR_OPERATIONS.md)、[內容完整清單](CONTENT_EXPANSION_PLAN.md)、[UI／UE完整路線圖](UI_UX_ROADMAP.md)、[QA及逐來源對帳](qa/2026-10-28/framework-pipeline/README.md)。
+
+
 ## Sequence review intake · 28 October 2026
 
 Status `LOG-20261028-SEQ`: 本批 22 題內容、本地及正式部署驗收完成；另 2 題來源條件待補。Imported 22 of 24 source records from `S6/Sequence/sequence review.pdf`; Q10 and Q20 are held with explicit additional mathematical branches and next-step source questions. Added bilingual MCQ/structured content, source provenance, stable source-derived IDs, four new sequence subcategories and an expanded geometric-terms subcategory, Q2 source crop and Q23 editable SVG reconstruction. Existing 1,186 question objects and IDs were preserved; generated bank now has 1,208 questions, including 43 sequences (9 MCQ, 34 structured).

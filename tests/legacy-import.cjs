@@ -42,7 +42,7 @@ test('verified answer corrections and broken source records cannot silently ente
    else if(q.classification.status==='editor-reviewed'){
     const review=require('../content/intake/sequence-review-2026-10-28/review.json');
     assert.ok(review.questions.some(r=>r.id===q.id&&![10,20].includes(r.number)),'Editorial classification needs a source locator and review manifest');
-   }else assert.equal(q.classification.status,'rule-classified');
+   }else if(q.classification.status==='editor-pipeline-reviewed'){const rows=['intake-d7bc46f81937cc09','intake-611e81c1f3198537'].flatMap(id=>require('../content/intake/editor/'+id+'.json').records);assert.ok(rows.some(r=>r.disposition==='publish'&&r.question.id===q.id&&r.approvals.classification));}else assert.equal(q.classification.status,'rule-classified');
   }
   if(q.options)assert.deepEqual(Object.keys(q.options),['A','B','C','D']);
  }

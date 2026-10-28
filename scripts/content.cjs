@@ -47,6 +47,9 @@ function validate(catalog,topics,skills,assetRoot=path.join(ROOT,'src')){
       need(validId(category.type)&&!categoryIds.has(category.type),`${topic.id}: invalid/duplicate category ${category.type}`);categoryIds.add(category.type);
       need(Array.isArray(category.questions),`${topic.id}/${category.type}: questions array required.`);
       for(const q of category.questions||[]){
+        need(q.course===undefined||Object.hasOwn(Learning.courses,q.course),`Invalid course: ${q.id}`);
+        need(topic.course===undefined||Object.hasOwn(Learning.courses,topic.course),`Invalid topic course: ${topic.id}`);
+        need(!q.course||!topic.course||q.course===topic.course,`${q.id}: course differs from topic.`);
         const label=q.id||`${topic.id}/unnamed`;
         need(validId(q.id)&&!ids.has(q.id),`Invalid/duplicate question: ${label}`);ids.add(q.id);
         const sub=chapter?.subcategories?.find(s=>s.id===q.subcategory);
@@ -104,7 +107,8 @@ function validate(catalog,topics,skills,assetRoot=path.join(ROOT,'src')){
           need(typeof d.alt==='string'&&d.alt.trim()&&typeof d.caption==='string'&&d.caption.trim(),`${label}: diagram alt/caption required.`);
           need(d.qa?.questionId===q.id&&d.qa?.status==='reviewed'&&/^\d{4}-\d{2}-\d{2}$/.test(d.qa?.reviewedAt||'')&&d.qa?.evidence,`${label}: reviewed same-question visual evidence required.`);
           if(safe){
-            const file=path.resolve(assetRoot,d.src);
+            const roots=Array.isArray(assetRoot)?assetRoot:[assetRoot];
+            const file=roots.map(root=>path.resolve(root,d.src)).find(f=>fs.existsSync(f))||path.resolve(roots[0],d.src);
             need(fs.existsSync(file),`${label}: missing diagram ${d.src}.`);
             if(fs.existsSync(file)&&file.endsWith('.svg'))need(!/<script|<foreignObject|onload=|onerror=|href\s*=\s*["'](?:https?:|javascript:)/i.test(fs.readFileSync(file,'utf8')),`${label}: unsafe SVG.`);
           }
@@ -137,6 +141,7 @@ function compile(source){
   for(const chapter of catalog.subjects.flatMap(s=>s.chapters)){
     const qs=questions.filter(q=>q.topicId===chapter.topicId);
     chapter.questionCount=qs.length;
+    chapter.courses=Learning.availableCourses(qs);
     chapter.coverage={types:countBy(qs,'questionType'),difficulty:countBy(qs,'difficulty'),minForm:countBy(qs,'minForm')};
     for(const sub of chapter.subcategories){const rows=qs.filter(q=>q.subcategory===sub.id);sub.questionCount=rows.length;sub.skillCounts=Object.fromEntries(sub.skills.map(skill=>[skill,rows.filter(q=>q.skill===skill).length]));}
   }
@@ -153,7 +158,7 @@ function compile(source){
     };
     for(const q of rows){const size=Buffer.byteLength(JSON.stringify(q));if(batch.length&&(batch.length>=32||bytes+size>192*1024))flush();batch.push(q);bytes+=size;}flush();
     for(let start=0;start<rows.length;start+=128){
-      const body=JSON.stringify({questions:rows.slice(start,start+128).map(q=>({id:q.id,text:[q.id,q.stem,q.stemZh,q.source,q.sourceZh,skills[q.skill]].join(' ').normalize('NFKC').toLowerCase()}))})+'\n';
+      const body=JSON.stringify({questions:rows.slice(start,start+128).map(q=>({id:q.id,course:q.course,text:[q.id,q.stem,q.stemZh,q.source,q.sourceZh,skills[q.skill]].join(' ').normalize('NFKC').toLowerCase()}))})+'\n';
       const name=`data/search/${topic.id}.${hash(body)}.json`;files.set(name,body);searchFiles.push(name);
     }
     chapterManifest.push({topicId:topic.id,path:file,chunks,questionCount:rows.length});
@@ -167,7 +172,7 @@ function compile(source){
       return short.trim()+'…';
     };
     const aliases=[...new Set([...(q.aliases||[]),...(q.sourceAliases||[]).map(a=>a.retiredId).filter(Boolean)])];
-    return {...Object.fromEntries(['id','topicId','category','subcategory','skill','questionType','difficulty','minForm'].map(k=>[k,q[k]])),...(aliases.length?{aliases}:{}),stem:excerpt(q.stem,200),stemZh:excerpt(q.stemZh,120),chunk:chunkFor.get(q.id),searchText:[...Object.values(subject.name),...Object.values(chapter.name),...Object.values(sub.name),skills[q.skill]].join(' ')};
+    return {...Object.fromEntries(['id','topicId','category','subcategory','skill','questionType','difficulty','minForm','course'].map(k=>[k,q[k]])),...(aliases.length?{aliases}:{}),stem:excerpt(q.stem,200),stemZh:excerpt(q.stemZh,120),chunk:chunkFor.get(q.id),searchText:[...Object.values(subject.name),...Object.values(chapter.name),...Object.values(sub.name),skills[q.skill]].join(' ')};
   });
   const indexBody=JSON.stringify({questions:index})+'\n',indexFile=`data/question-index.${hash(indexBody)}.json`;
   const catalogBody=json(catalog),catalogFile=`data/catalog.${hash(catalogBody)}.json`;

@@ -56,5 +56,20 @@ const EACMath=(()=>{
     }
     return true;
   }
-  return {clear,render,bindLanguages,syncLanguages,content};
+  function preview(root,q,language='bilingual'){
+    const make=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
+    clear(root);root.replaceChildren();const heading=make('h2',q.contentBlocks?'題目預覽 / Question preview':language==='zh'?q.stemZh:q.stem);heading.id='preview-heading';root.append(heading);
+    if(q.contentBlocks){const blocks=make('div');content(blocks,q,language);root.append(blocks);}
+    else {
+      if(language==='bilingual'&&q.stemZh!==q.stem)root.append(make('p',q.stemZh,'preview-zh'));
+      if(q.diagram){const f=make('figure',undefined,'preview-figure'),i=make('img');i.src=q.diagram.src;i.alt=q.diagram.alt;f.append(i,make('figcaption',q.diagram.caption));root.append(f);}
+    }
+    if(q.adaptation)root.append(make('p',language==='en'?q.adaptation.en:language==='zh'?q.adaptation['zh-Hant']:[q.adaptation.en,q.adaptation['zh-Hant']].join('\n'),'editorial-note'));
+    if(q.options){const list=make('ol',undefined,'preview-options');for(const k of ['A','B','C','D']){const item=make('li',language==='zh'?q.optionsZh?.[k]:q.options[k]);if(language==='bilingual'&&q.optionsZh?.[k]!==q.options[k])item.append(make('small',q.optionsZh?.[k]));list.append(item);}root.append(list);}
+    root.append(make('p',q.source===q.sourceZh?q.source:[q.source,q.sourceZh].filter(Boolean).join(' · '),'field-note'));
+    if(['structured','proof','dse-long'].includes(q.questionType))root.append(make('p','書面作答 · 完成後對照解法自評','field-note'));
+    return render(root);
+  }
+  return {clear,render,bindLanguages,syncLanguages,content,preview};
+
 })();

@@ -3,7 +3,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const {ROOT,read,json,hash,validId,readSource,validate,compile}=require('./content.cjs');
 
-function merge(source,bundle,{replace=false}={}){
+function merge(source,bundle,{replace=false,assetRoot=path.join(ROOT,'src')}={}){
   const merged=structuredClone(source);const report={added:[],updated:[],unchanged:[],chapters:[],taxonomyChanged:false};
   const incoming=Array.isArray(bundle.topics)?bundle.topics:bundle.id&&bundle.categories?[bundle]:null;
   if(!incoming)throw Error('Expected {topics:[...]} or one complete topic object. No source files were changed.');
@@ -53,7 +53,7 @@ function merge(source,bundle,{replace=false}={}){
       }
     }
   }
-  const errors=validate(merged.catalog,merged.topics,merged.skills);
+  const errors=validate(merged.catalog,merged.topics,merged.skills,assetRoot);
   if(errors.length)throw Error(errors.join('\n'));
   report.taxonomyChanged=json(merged.catalog)!==json(source.catalog)||json(merged.skills)!==json(source.skills);
   return {source:merged,report};

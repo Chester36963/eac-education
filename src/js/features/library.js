@@ -2,12 +2,12 @@
 (()=>{
   const byId=id=>document.getElementById(id),pageSize=12;
   const difficulty={easy:'基礎',medium:'進階',hard:'挑戰',challenging:'進階挑戰'};
-  const controls={subcategory:'bank-subcategory',skill:'bank-skill',type:'bank-type',difficulty:'bank-difficulty',form:'bank-form',mode:'bank-mode',order:'bank-order'};
+  const controls={course:'bank-course',subcategory:'bank-subcategory',skill:'bank-skill',type:'bank-type',difficulty:'bank-difficulty',form:'bank-form',mode:'bank-mode',order:'bank-order'};
   let catalog,metadata=[],user=null,state={},previewId=null,previewToken=0,loaded=false,queryIds=null,searchTerm='',searchToken=0;
   const node=(tag,text,className)=>{const element=document.createElement(tag);if(text!==undefined)element.textContent=text;if(className)element.className=className;return element;};
   const chapter=id=>catalog.subjects.flatMap(s=>s.chapters).find(c=>c.id===id);
   const subjectFor=chapterId=>catalog.subjects.find(s=>s.chapters.some(c=>c.id===chapterId));
-  const defaultState=()=>({subject:'all',chapter:'all',subcategory:'all',skill:'all',type:'all',difficulty:'all',form:'all',mode:'all',query:'',order:'chapter',language:'bilingual',page:1});
+  const defaultState=()=>({course:'core',subject:'all',chapter:'all',subcategory:'all',skill:'all',type:'all',difficulty:'all',form:'all',mode:'all',query:'',order:'chapter',language:'bilingual',page:1});
   function readState(){
     const params=Object.fromEntries(new URLSearchParams(location.search));
     state={...defaultState(),...Object.fromEntries(Object.entries(params).filter(([key])=>key in defaultState()))};
@@ -20,7 +20,7 @@
     if(!catalog.subjects.some(s=>s.id===state.subject))state.subject='all';
     for(const key of ['form','mode','order'])if(![...byId(controls[key]).options].some(o=>o.value===state[key]))state[key]=defaultState()[key];
   }
-  function scope(){return catalog.subjects.filter(s=>state.subject==='all'||s.id===state.subject).flatMap(s=>s.chapters).filter(c=>state.chapter==='all'||c.id===state.chapter);}
+  function scope(){return catalog.subjects.filter(s=>state.subject==='all'||s.id===state.subject).flatMap(s=>s.chapters).filter(c=>(c.courses||['core']).includes(state.course)).filter(c=>state.chapter==='all'||c.id===state.chapter);}
   function filters(){return {...state,queryIds,topics:scope().map(c=>c.topicId)};}
   function link(values={},practice=false){
     const selected={...state,...values};const params=new URLSearchParams();
@@ -36,7 +36,9 @@
     return select.value;
   }
   function refreshFilters(){
-    const chapters=scope(),pool=metadata.filter(q=>chapters.some(c=>c.topicId===q.topicId));
+    const available=Learning.availableCourses(metadata);
+    const course=byId(controls.course);course.replaceChildren(...available.map(c=>new Option(Learning.courses[c],c)));course.value=available.includes(state.course)?state.course:'core';state.course=course.value;byId('bank-course-label').hidden=available.length<2;
+    const chapters=scope(),pool=metadata.filter(q=>Learning.course(q)===state.course&&chapters.some(c=>c.topicId===q.topicId));
     const subs=[...new Map(chapters.flatMap(c=>c.subcategories).map(s=>[s.id,s])).values()];
     state.subcategory=options(controls.subcategory,subs.map(s=>[s.id,`${s.name.en} · ${s.name['zh-Hant']}`,pool.filter(q=>q.subcategory===s.id).length]),state.subcategory);
     const narrowed=pool.filter(q=>state.subcategory==='all'||q.subcategory===state.subcategory);
@@ -48,7 +50,7 @@
     byId('bank-search').value=state.query;
     byId('bank-language').value=state.language;
     EACMath.syncLanguages();
-    const applied=Object.keys(controls).filter(key=>key!=='order'&&state[key]!=='all').length;
+    const applied=Object.keys(controls).filter(key=>!['order','course'].includes(key)&&state[key]!=='all').length;
     byId('bank-refinement-status').textContent=applied?`${applied} 項篩選已套用`:'Refine your practice';
     byId('bank-refinement-status').classList.toggle('is-active',!!applied);
   }
@@ -61,26 +63,27 @@
     catch(error){if(token===searchToken){byId('bank-status').textContent='完整搜尋暫時無法載入，請重新輸入再試。';queryIds=null;return false;}return false;}
   }
   async function navigate(values,{historyMode='push',scroll=false}={}){
-    state={...state,...values};refreshFilters();if(!await runSearch())return;render();
+    state={...state,...values};if(values.course&&chapter(state.chapter)&&!(chapter(state.chapter).courses||['core']).includes(values.course)){state.chapter='all';state.subject='all';state.subcategory='all';state.skill='all';}refreshFilters();if(!await runSearch())return;render();
     const url=link();if(location.pathname.split('/').pop()+location.search!==url)history[historyMode==='replace'?'replaceState':'pushState'](null,'',url);
     if(scroll)byId('bank-heading').scrollIntoView({block:'start',behavior:'smooth'});
   }
   function chapterLink(label,values,count){
-    const a=node('a',undefined,'bank-chapter-link');a.href=link({...defaultState(),...values,language:state.language});
+    const a=node('a',undefined,'bank-chapter-link');a.href=link({...defaultState(),course:state.course,...values,language:state.language});
     const title=node('span',label.en);title.append(node('small',label['zh-Hant']));
     a.append(title,node('span',String(count),'bank-chapter-count'));
     if(state.chapter===(values.chapter||'all')&&state.subject===(values.subject||'all'))a.setAttribute('aria-current','page');
-    a.onclick=event=>{if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();navigate({...defaultState(),...values,language:state.language});};
+    a.onclick=event=>{if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();navigate({...defaultState(),course:state.course,...values,language:state.language});};
     return a;
   }
   function renderNavigation(){
-    const container=byId('bank-chapters');container.replaceChildren(chapterLink({en:'All questions','zh-Hant':'全部題目'},{},metadata.length));
+    const container=byId('bank-chapters');container.replaceChildren(chapterLink({en:'All questions','zh-Hant':'全部題目'},{},metadata.filter(q=>Learning.course(q)===state.course).length));
     for(const subject of catalog.subjects){
+      if(!subject.chapters.some(c=>(c.courses||['core']).includes(state.course)))continue;
       const heading=node('p',`${subject.name.en} · ${subject.name['zh-Hant']}`,'bank-subject');container.append(heading);
-      for(const c of subject.chapters)container.append(chapterLink(c.name,{subject:subject.id,chapter:c.id},c.questionCount));
+      for(const c of subject.chapters.filter(c=>(c.courses||['core']).includes(state.course)))container.append(chapterLink(c.name,{subject:subject.id,chapter:c.id},metadata.filter(q=>Learning.course(q)===state.course&&q.topicId===c.topicId).length));
     }
   }
-  function breadcrumb(label,values){const a=node('a',label);a.href=link({...defaultState(),...values,language:state.language});a.onclick=event=>{if(event.metaKey||event.ctrlKey)return;event.preventDefault();navigate({...defaultState(),...values,language:state.language});};return a;}
+  function breadcrumb(label,values){const a=node('a',label);a.href=link({...defaultState(),course:state.course,...values,language:state.language});a.onclick=event=>{if(event.metaKey||event.ctrlKey)return;event.preventDefault();navigate({...defaultState(),course:state.course,...values,language:state.language});};return a;}
   function renderHeading(){
     const c=chapter(state.chapter),s=c?subjectFor(c.id):catalog.subjects.find(s=>s.id===state.subject);
     const name=c?.name||s?.name||{en:'All questions','zh-Hant':'全部題目'};
@@ -94,7 +97,7 @@
     if(sub)trail.append(node('span','/'),node('span',sub.name['zh-Hant']));
     if(state.skill!=='all')trail.append(node('span','/'),node('span',skillNames[state.skill]||state.skill));
     const outline=byId('bank-taxonomy'),links=byId('bank-taxonomy-links');outline.hidden=!c;links.replaceChildren();
-    if(c)for(const category of c.subcategories.filter(s=>s.questionCount)){
+    if(c)for(const original of c.subcategories){const category={...original,questionCount:metadata.filter(q=>Learning.course(q)===state.course&&q.topicId===c.topicId&&q.subcategory===original.id).length};if(!category.questionCount)continue;
       const a=node('a');a.href=link({subcategory:category.id,skill:'all',page:1});
       if(state.subcategory===category.id)a.setAttribute('aria-current','true');
       const title=node('span',category.name.en);title.append(node('small',category.name['zh-Hant']));a.append(title,node('b',`${category.questionCount} 題`));
@@ -107,11 +110,14 @@
     if(state.order==='type')selected.sort((a,b)=>Object.keys(Learning.types).indexOf(a.questionType)-Object.keys(Learning.types).indexOf(b.questionType));
     return selected;
   }
-  function questionRoute(q){const c=catalog.subjects.flatMap(s=>s.chapters).find(c=>c.topicId===q.topicId);return 'app.html?'+new URLSearchParams({chapter:c.id,question:q.id,form:'all',language:state.language});}
+  function savePosition(){try{sessionStorage.setItem('eac_library_return',JSON.stringify({url:location.pathname.split('/').pop()+location.search,y:scrollY}));}catch{}}
+  function restorePosition(){try{const saved=JSON.parse(sessionStorage.getItem('eac_library_return'));if(saved?.url===location.pathname.split('/').pop()+location.search)requestAnimationFrame(()=>scrollTo(0,saved.y||0));}catch{}}
+  addEventListener('pagehide',savePosition);
+  function questionRoute(q){const c=catalog.subjects.flatMap(s=>s.chapters).find(c=>c.topicId===q.topicId);return 'app.html?'+new URLSearchParams({chapter:c.id,course:Learning.course(q),question:q.id,form:'all',language:state.language});}
   function renderRow(q,index){
     const article=node('article',undefined,'bank-question');article.dataset.questionId=q.id;
     const content=node('div'),meta=node('div',undefined,'question-row-meta');
-    for(const label of [Learning.types[q.questionType],difficulty[q.difficulty],`中${q.minForm}起`])meta.append(node('span',label));
+    for(const label of [Learning.types[q.questionType],difficulty[q.difficulty],Learning.course(q)==='core'?`中${q.minForm}起`:Learning.courses[Learning.course(q)]])meta.append(node('span',label));
     content.append(meta,node('h3',state.language==='zh'?q.stemZh:q.stem));
     if(state.language==='bilingual')content.append(node('p',q.stemZh,'question-row-zh'));
     const c=catalog.subjects.flatMap(s=>s.chapters).find(c=>c.topicId===q.topicId),sub=c.subcategories.find(s=>s.id===q.subcategory);
@@ -153,15 +159,7 @@
     try{
       const q=await QuestionBank.question(id);if(token!==previewToken||!dialog.open)return;
       if(!q)throw Error('Missing question');
-      EACMath.clear(content);const heading=node('h2',state.language==='zh'?q.stemZh:q.stem);heading.id='preview-heading';
-      content.replaceChildren(node('p',`${Learning.types[q.questionType]} · ${difficulty[q.difficulty]}`,'question-row-meta'),heading);
-      if(state.language==='bilingual')content.append(node('p',q.stemZh,'preview-zh'));
-      if(q.adaptation)content.append(node('p',state.language==='en'?q.adaptation.en:state.language==='zh'?q.adaptation['zh-Hant']:`${q.adaptation.en}\n${q.adaptation['zh-Hant']}`,'editorial-note'));
-      if(q.contentBlocks){heading.textContent='題目預覽 / Question preview';content.querySelector('.preview-zh')?.remove();const blocks=node('div');EACMath.content(blocks,q,state.language);content.append(blocks);}
-      if(q.diagram&&!q.contentBlocks){const figure=node('figure',undefined,'preview-figure'),img=node('img');img.src=q.diagram.src;img.alt=q.diagram.alt;figure.append(img,node('figcaption',q.diagram.caption));content.append(figure);}
-      if(q.options){const options=node('ol',undefined,'preview-options');for(const key of ['A','B','C','D']){const item=node('li',state.language==='zh'?q.optionsZh[key]:q.options[key]);if(state.language==='bilingual'&&q.optionsZh[key]!==q.options[key])item.append(node('small',q.optionsZh[key]));options.append(item);}content.append(options);}
-      content.append(node('p',q.source===q.sourceZh?q.source:`${q.source} · ${q.sourceZh}`,'field-note'));
-      if(!Learning.automatic(q))content.append(node('p',q.assessmentMode==='solution-comparison'?'附來源解析；完成後對照解析自評，未另設逐分評分準則。':'附完整解析及評分要點，完成後自行核對。','field-note'));
+      await EACMath.preview(content,q,state.language);
       byId('preview-practice').href=questionRoute(metadata.find(q=>q.id===id));byId('preview-practice').hidden=false;
       byId('preview-bookmark').hidden=false;updateBookmark();
       EACMath.render(content);
@@ -183,7 +181,7 @@
       if(user){byId('library-account').textContent='設定';byId('library-account').href='settings.html';}
       readState();refreshFilters();await runSearch();render();
       byId('bank-inventory').replaceChildren(node('span',`${metadata.length} 題 · ${catalog.subjects.flatMap(s=>s.chapters).length} 個課題`));
-      byId('bank-status').textContent='';byId('bank-reload').hidden=true;loaded=true;
+      byId('bank-status').textContent='';byId('bank-reload').hidden=true;loaded=true;restorePosition();
       if(innerWidth<=650)byId('bank-navigation').open=false;
     }catch(error){byId('bank-count').textContent='題庫暫時無法載入。';byId('bank-status').textContent='請重新載入，或稍後再試。';byId('bank-reload').hidden=false;byId('practice-selection').hidden=true;}
   }
@@ -193,7 +191,7 @@
     for(const [key,id]of Object.entries(controls))byId(id).onchange=()=>{if(loaded)navigate({[key]:byId(id).value,page:1});};
     let searchTimer;
     byId('bank-search').oninput=()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{if(loaded)navigate({query:byId('bank-search').value.trim(),page:1},{historyMode:'replace'});},150);};
-    byId('bank-reset').onclick=()=>{clearTimeout(searchTimer);if(loaded)navigate({...defaultState(),chapter:state.chapter,subject:state.subject,language:state.language});};
+    byId('bank-reset').onclick=()=>{clearTimeout(searchTimer);if(loaded)navigate({...defaultState(),course:state.course,chapter:state.chapter,subject:state.subject,language:state.language});};
     byId('bank-prev').onclick=()=>{if(loaded)navigate({page:state.page-1},{scroll:true});};
     byId('bank-next').onclick=()=>{if(loaded)navigate({page:state.page+1},{scroll:true});};
     byId('preview-close').onclick=()=>byId('question-preview').close();

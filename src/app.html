@@ -2,8 +2,8 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EAC Education · Practice Studio</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css">
-<link rel="stylesheet" href="css/math.css?v=77c77caaa4f1"><script src="js/core/math.js"></script><script defer src="vendor/mathjax/tex-svg.js"></script>
-<link rel="stylesheet" href="css/journey.css"><link rel="stylesheet" href="css/study.css?v=b33a93a1a096"></head><body class="practice-page">
+<link rel="stylesheet" href="css/math.css?v=77c77caaa4f1"><script src="js/core/math.js?v=0453e7ce45c6"></script><script defer src="vendor/mathjax/tex-svg.js"></script>
+<link rel="stylesheet" href="css/journey.css"><link rel="stylesheet" href="css/study.css?v=b33a93a1a096"><link rel="stylesheet" href="css/workspace.css?v=e51fbb263891"></head><body class="student-shell practice-page">
 <header class="site-header"><div class="header-inner"><a class="logo" href="index.html">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">開始溫習</a><a href="library.html">題庫</a><a href="dashboard.html?view=record">溫習記錄</a><a href="settings.html">設定</a></nav></div></header>
 <main class="main-container">
 <div class="practice-identity"><div><p class="eyebrow">THE PRACTICE ROOM / EAC EDUCATION</p><p class="practice-display" lang="en">One question.<br><em>One clearer idea.</em></p></div><div class="practice-emblem" aria-hidden="true"></div></div>
@@ -16,7 +16,7 @@
 <label>解題方法<select id="subcategory-select"></select></label><label>每組題數<select id="length-select"><option value="5">5 題</option><option value="10">10 題</option><option value="20">20 題</option><option value="all">全部符合題目</option></select></label>
 </div>
 <details class="advanced-filters"><summary>其他選擇：技巧、題型、難度及自測</summary><div class="filter-grid">
-<label>科目範疇 / Subject<select id="subject-select"></select></label>
+<label class="course-choice" id="studio-course-label" hidden>課程 / Course<select id="course-select"></select></label><label>科目範疇 / Subject<select id="subject-select"></select></label>
 <label>題型 / Question type<select id="type-select"></select></label>
 <label>題目範圍<select id="mode-select"><option value="all">全部題目</option><option value="new">未做題目</option><option value="review">待重溫錯題</option><option value="saved">我的收藏</option></select></label>
 <label>練習體驗<select id="experience-select"><option value="study">學習練習 · 每題看解析</option><option value="test">自測 · 完成後看解析（自動核對題）</option></select></label>
@@ -57,5 +57,5 @@
 <section class="set-summary" id="set-summary" hidden><p class="eyebrow">REVIEW · 本組結果</p><h2>這組練完，下一步呢？</h2><p id="summary-copy"></p><p class="summary-next" id="summary-next"></p><div class="summary-actions"><button class="btn btn-primary" id="retry-mistakes-btn">重練本組錯題 →</button><button class="btn btn-outline" id="retry-skipped-btn">完成未答題目 →</button><a class="btn btn-outline" href="dashboard.html">選擇下一課 →</a><a class="text-button" href="dashboard.html?view=record">查看溫習記錄</a></div><h3>逐題核對解法</h3><div id="summary-questions"></div></section>
 <p id="studio-status" role="status" aria-live="polite"></p>
 </main><footer class="site-footer"><span>© 2026 EAC Education</span><span>學生練習室 · 進度儲存在此瀏覽器</span></footer>
-<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/gamification.js"></script><script src="js/features/practice.js"></script><script src="js/core/math-models.js?v=76643f15c160"></script><script src="js/features/study-instruments.js?v=d923ec22afdb"></script><script src="js/features/study-scenes.js?v=7ce7ee752fb0"></script><script src="js/features/study-ui.js"></script>
+<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/content.js"></script><script src="js/core/learning.js?v=5e3b6432a7a1"></script><script src="js/core/question-bank.js"></script><script src="js/features/gamification.js"></script><script src="js/features/practice.js?v=cb29542ddb4b"></script><script src="js/features/workspace.js?v=2bfb682f432c"></script><script src="js/core/math-models.js?v=76643f15c160"></script><script src="js/features/study-instruments.js?v=d923ec22afdb"></script><script src="js/features/study-scenes.js?v=7ce7ee752fb0"></script><script src="js/features/study-ui.js"></script>
 </body></html>

@@ -1,0 +1,121 @@
+{
+  "receipts": [
+    {
+      "id": "intake-46587d8d34399b76",
+      "counts": {
+        "source": 24,
+        "recorded": 24,
+        "publish": 22,
+        "duplicate": 0,
+        "held": 2
+      },
+      "diff": {
+        "added": [],
+        "updated": [],
+        "unchanged": [
+          "import-sequences-269521a8b923e7b4",
+          "import-sequences-e189d03ff891b451",
+          "import-sequences-ec6a387f760dec57",
+          "import-sequences-3cf9c64b363c030b",
+          "import-sequences-a61ec9fc6d2cf40e",
+          "import-sequences-a90a65d2d883995b",
+          "import-sequences-660a5bf776dee6ef",
+          "import-sequences-23b5b0d5bb73cbc8",
+          "import-sequences-f23cf1d311fc94a2",
+          "import-sequences-09223be0bc3e03fd",
+          "import-sequences-b71081eb0c88b64b",
+          "import-sequences-27fcc8b2e30633cd",
+          "import-sequences-9e194aa1e664f3f0",
+          "import-sequences-fc8b140ff6062af5",
+          "import-sequences-279fd5f2337f7a52",
+          "import-sequences-f0aa410fa2d3106c",
+          "import-sequences-b1a0ebb82e8bd2d3",
+          "import-sequences-455c02f615a2538b",
+          "import-sequences-97175359520cbadc",
+          "import-sequences-14fea340bb56b38a",
+          "import-sequences-a2987dbfdad5d4d8",
+          "import-sequences-1ffb5de383481e90"
+        ],
+        "chapters": [],
+        "taxonomyChanged": false
+      },
+      "applied": false,
+      "baseline": "e3693739a20a16538c214df36d8975a4bcd6989907cca3608bc72ce73e33202f",
+      "backup": null
+    },
+    {
+      "id": "intake-d7bc46f81937cc09",
+      "counts": {
+        "source": 12,
+        "recorded": 12,
+        "publish": 12,
+        "duplicate": 0,
+        "held": 0
+      },
+      "diff": {
+        "added": [
+          "import-mensuration-52f514caf0e7b6df",
+          "import-mensuration-820aaeac75c8bb75",
+          "import-mensuration-0b77eafe562abbd1",
+          "import-mensuration-c33332204d3d984d",
+          "import-mensuration-68aaf525ccb7da19",
+          "import-mensuration-2fb2f7a3bc28e49e",
+          "import-mensuration-ea663dfcd2bfdcfe",
+          "import-mensuration-4c3051ec72b3551e",
+          "import-mensuration-2e2570882809d91a",
+          "import-mensuration-fe2b4778bb969c95",
+          "import-mensuration-16472d1360abcf9f",
+          "import-mensuration-8c1dcf0e8b602006"
+        ],
+        "updated": [],
+        "unchanged": [],
+        "chapters": [],
+        "taxonomyChanged": true
+      },
+      "applied": true,
+      "baseline": "e3693739a20a16538c214df36d8975a4bcd6989907cca3608bc72ce73e33202f",
+      "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1793170715801-intake-d7bc46f81937cc09"
+    },
+    {
+      "id": "intake-611e81c1f3198537",
+      "counts": {
+        "source": 19,
+        "recorded": 19,
+        "publish": 15,
+        "duplicate": 1,
+        "held": 3
+      },
+      "diff": {
+        "added": [
+          "import-sequences-543b53cd8538870a",
+          "import-sequences-81dc382ae1469dce",
+          "import-sequences-29578cd20b1a00e7",
+          "import-sequences-083828c25b2ede1e",
+          "import-sequences-d2fc30a8928bb2cc",
+          "import-sequences-98b7754ea4f78c96",
+          "import-sequences-29efdd650e8a9ee9",
+          "import-sequences-33987111abb82cc0",
+          "import-sequences-582a4d68428abf36",
+          "import-sequences-de250efe011b7ef2",
+          "import-sequences-93332cc9f00ee6f3",
+          "import-sequences-c43df14968861654",
+          "import-sequences-798f919f5154d8b7",
+          "import-sequences-8ef1f23da33dc9f3",
+          "import-sequences-a8d5d3e3a011d51c"
+        ],
+        "updated": [],
+        "unchanged": [],
+        "chapters": [],
+        "taxonomyChanged": true
+      },
+      "applied": true,
+      "baseline": "b3fb60e88bd1ff8c89d7c368ec65ccc30544ecd128acc329d17e3f9539023759",
+      "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1793170717782-intake-611e81c1f3198537"
+    }
+  ],
+  "baselineCount": 1208,
+  "total": 1235,
+  "existingQuestionObjectsPreserved": true,
+  "existingQuestionArraySha256": "afc663573f005499c77695d2560a0d7d1d2680d7bcd04954d39823d8ef2321de",
+  "added": 27
+}

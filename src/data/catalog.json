@@ -214,6 +214,9 @@
           ],
           "topicId": "four-centres",
           "questionCount": 257,
+          "courses": [
+            "core"
+          ],
           "coverage": {
             "types": {
               "mcq": 146,
@@ -371,6 +374,9 @@
             }
           ],
           "questionCount": 225,
+          "courses": [
+            "core"
+          ],
           "coverage": {
             "types": {
               "mcq": 128,
@@ -483,6 +489,9 @@
             }
           ],
           "questionCount": 228,
+          "courses": [
+            "core"
+          ],
           "coverage": {
             "types": {
               "mcq": 149,
@@ -614,6 +623,9 @@
           ],
           "topicId": "polynomial",
           "questionCount": 154,
+          "courses": [
+            "core"
+          ],
           "coverage": {
             "types": {
               "mcq": 74,
@@ -658,10 +670,10 @@
                 "seq-geometric-sum",
                 "seq-gp-middle-term"
               ],
-              "questionCount": 7,
+              "questionCount": 9,
               "skillCounts": {
-                "seq-geometric-sum": 6,
-                "seq-gp-middle-term": 1
+                "seq-geometric-sum": 7,
+                "seq-gp-middle-term": 2
               }
             },
             {
@@ -674,9 +686,9 @@
                 "seq-product-sum",
                 "seq-log-gp"
               ],
-              "questionCount": 6,
+              "questionCount": 7,
               "skillCounts": {
-                "seq-product-sum": 6,
+                "seq-product-sum": 7,
                 "seq-log-gp": 0
               }
             },
@@ -733,13 +745,15 @@
               "skills": [
                 "seq-term-pattern",
                 "seq-recognise-ap",
-                "seq-gp-properties"
+                "seq-gp-properties",
+                "seq-mean-recurrence"
               ],
-              "questionCount": 6,
+              "questionCount": 9,
               "skillCounts": {
-                "seq-term-pattern": 3,
+                "seq-term-pattern": 4,
                 "seq-recognise-ap": 2,
-                "seq-gp-properties": 1
+                "seq-gp-properties": 2,
+                "seq-mean-recurrence": 1
               }
             },
             {
@@ -754,11 +768,11 @@
                 "seq-partial-sum-term",
                 "seq-ap-pattern-sum"
               ],
-              "questionCount": 5,
+              "questionCount": 8,
               "skillCounts": {
-                "seq-ap-term": 2,
-                "seq-ap-threshold": 1,
-                "seq-partial-sum-term": 1,
+                "seq-ap-term": 3,
+                "seq-ap-threshold": 2,
+                "seq-partial-sum-term": 2,
                 "seq-ap-pattern-sum": 1
               }
             },
@@ -772,9 +786,9 @@
                 "seq-infinite-sum",
                 "seq-infinite-subsequence"
               ],
-              "questionCount": 2,
+              "questionCount": 5,
               "skillCounts": {
-                "seq-infinite-sum": 0,
+                "seq-infinite-sum": 3,
                 "seq-infinite-subsequence": 2
               }
             },
@@ -789,28 +803,32 @@
                 "seq-growth-model",
                 "seq-loan-recurrence"
               ],
-              "questionCount": 4,
+              "questionCount": 7,
               "skillCounts": {
                 "seq-ap-model": 2,
-                "seq-growth-model": 1,
+                "seq-growth-model": 4,
                 "seq-loan-recurrence": 1
               }
             }
           ],
-          "questionCount": 43,
+          "questionCount": 58,
+          "courses": [
+            "core"
+          ],
           "coverage": {
             "types": {
-              "structured": 34,
-              "mcq": 9
+              "structured": 40,
+              "mcq": 18
             },
             "difficulty": {
               "hard": 23,
               "easy": 8,
-              "medium": 11,
+              "medium": 26,
               "challenging": 1
             },
             "minForm": {
-              "4": 43
+              "4": 43,
+              "5": 15
             }
           }
         }
@@ -967,13 +985,34 @@
               "skillCounts": {
                 "mens-map-scale": 1
               }
+            },
+            {
+              "id": "plane-area-ratios",
+              "name": {
+                "en": "Plane area ratios",
+                "zh-Hant": "平面圖形面積比"
+              },
+              "skills": [
+                "area-shared-height",
+                "area-similar-triangles",
+                "area-intersection-ratios"
+              ],
+              "questionCount": 12,
+              "skillCounts": {
+                "area-shared-height": 3,
+                "area-similar-triangles": 4,
+                "area-intersection-ratios": 5
+              }
             }
           ],
           "topicId": "mensuration",
-          "questionCount": 237,
+          "questionCount": 249,
+          "courses": [
+            "core"
+          ],
           "coverage": {
             "types": {
-              "mcq": 98,
+              "mcq": 110,
               "short-answer": 2,
               "structured": 135,
               "dse-long": 1,
@@ -981,13 +1020,13 @@
             },
             "difficulty": {
               "easy": 6,
-              "medium": 97,
+              "medium": 109,
               "hard": 134
             },
             "minForm": {
               "1": 5,
               "2": 1,
-              "3": 6,
+              "3": 18,
               "4": 225
             }
           }
@@ -1155,6 +1194,9 @@
             }
           ],
           "questionCount": 64,
+          "courses": [
+            "core"
+          ],
           "coverage": {
             "types": {
               "structured": 64

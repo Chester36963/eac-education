@@ -2075,6 +2075,884 @@
           }
         }
       ]
+    },
+    {
+      "type": "calculation",
+      "questions": [
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "arithmetic-terms-sums",
+          "skill": "seq-partial-sum-term",
+          "stem": "If the sum of the first \\(n\\) terms of a sequence is \\(n^2+n\\), find the second term.",
+          "stemZh": "某數列首 \\(n\\) 項之和為 \\(n^2+n\\)，求第二項。",
+          "solution": "\\(T_2=S_2-S_1=6-2=4\\).",
+          "solutionZh": "先分清「和」與「項」：\\(T_2=S_2-S_1=6-2=4\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q1 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第1題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "1",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q1",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "6",
+            "B": "4",
+            "C": "3",
+            "D": "2"
+          },
+          "optionsZh": {
+            "A": "6",
+            "B": "4",
+            "C": "3",
+            "D": "2"
+          },
+          "answer": "B",
+          "id": "import-sequences-543b53cd8538870a"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "infinite-geometric",
+          "skill": "seq-infinite-sum",
+          "stem": "\\(a,a^2,a^3,\\ldots\\) is a geometric sequence with sum to infinity \\(x\\). Which range describes \\(x\\)?",
+          "stemZh": "等比數列 \\(a,a^2,a^3,\\ldots\\) 的無窮和為 \\(x\\)。求 \\(x\\) 的範圍。",
+          "solution": "Convergence requires \\(-1<a<1\\). Then \\(x=a/(1-a)=1/(1-a)-1\\). Since \\(0<1-a<2\\), \\(x>-1/2\\); every such x is achieved by \\(a=x/(1+x)\\).",
+          "solutionZh": "無窮和存在要求 \\(-1<a<1\\)。\\(x=a/(1-a)=1/(1-a)-1\\)，由 \\(0<1-a<2\\) 得 \\(x>-1/2\\)；反解 \\(a=x/(1+x)\\) 可確認整個範圍均可達。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q2 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第2題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "2",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q2",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "\\(-1<x<1\\)",
+            "B": "\\(-0.5<x<0.5\\)",
+            "C": "\\(x>-0.5\\)",
+            "D": "\\(x<1\\)"
+          },
+          "optionsZh": {
+            "A": "\\(-1<x<1\\)",
+            "B": "\\(-0.5<x<0.5\\)",
+            "C": "\\(x>-0.5\\)",
+            "D": "\\(x<1\\)"
+          },
+          "answer": "C",
+          "id": "import-sequences-81dc382ae1469dce"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "log-products",
+          "skill": "seq-product-sum",
+          "stem": "The product of the first n terms of the geometric sequence \\(1,2,2^2,2^3,\\ldots\\) is \\(2^{406}\\). Find n.",
+          "stemZh": "等比數列 \\(1,2,2^2,2^3,\\ldots\\) 首 n 項之積為 \\(2^{406}\\)。求 n。",
+          "solution": "Add exponents: \\(0+1+\\cdots+(n-1)=n(n-1)/2=406\\). Thus \\(n^2-n-812=0\\), giving \\(n=29\\) or \\(-28\\). Reject the negative number of terms.",
+          "solutionZh": "先將乘積轉為指數和：\\(n(n-1)/2=406\\)，解得 \\(n=29\\) 或 \\(-28\\)；項數必須為正整數，故 \\(n=29\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q4 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第4題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "4",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q4",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "19",
+            "B": "20",
+            "C": "28",
+            "D": "29"
+          },
+          "optionsZh": {
+            "A": "19",
+            "B": "20",
+            "C": "28",
+            "D": "29"
+          },
+          "answer": "D",
+          "id": "import-sequences-29578cd20b1a00e7"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "infinite-geometric",
+          "skill": "seq-infinite-sum",
+          "stem": "Let \\(-1<1/x<1\\) and \\(x\\ne0\\). If \\(1-1/x+1/x^2-1/x^3+\\cdots=5/6\\), find x.",
+          "stemZh": "已知 \\(-1<1/x<1\\) 且 \\(x\\ne0\\)。若 \\(1-1/x+1/x^2-1/x^3+\\cdots=5/6\\)，求 x。",
+          "solution": "The ratio is \\(-1/x\\) and its absolute value is below 1. Hence \\(1/(1+1/x)=5/6\\), so \\(6x=5x+5\\) and \\(x=5\\). This satisfies the domain.",
+          "solutionZh": "公比為 \\(-1/x\\)，且絕對值小於 1。套用無窮等比和得 \\(1/(1+1/x)=5/6\\)，所以 \\(x=5\\)；代回符合原限制。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q5 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第5題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "5",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q5",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "−6",
+            "B": "−5",
+            "C": "5",
+            "D": "6"
+          },
+          "optionsZh": {
+            "A": "−6",
+            "B": "−5",
+            "C": "5",
+            "D": "6"
+          },
+          "answer": "C",
+          "id": "import-sequences-083828c25b2ede1e"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "geometric-sums",
+          "skill": "seq-gp-middle-term",
+          "stem": "Real numbers a,b,c form a geometric sequence. If \\(a+b+c=14\\) and \\(abc=64\\), find \\(a+c\\).",
+          "stemZh": "實數 a、b、c 構成等比數列。若 \\(a+b+c=14\\) 且 \\(abc=64\\)，求 \\(a+c\\)。",
+          "solution": "The GP property gives \\(ac=b^2\\), hence \\(abc=b^3=64\\). The real root is \\(b=4\\), so \\(a+c=14-4=10\\).",
+          "solutionZh": "由等比中項性質 \\(ac=b^2\\)，得 \\(b^3=abc=64\\)。因此 \\(b=4\\)，所求 \\(a+c=14-4=10\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q6 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第6題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "6",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q6",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "6",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "optionsZh": {
+            "A": "6",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "answer": "C",
+          "id": "import-sequences-d2fc30a8928bb2cc"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "sequence-foundations",
+          "skill": "seq-mean-recurrence",
+          "stem": "A sequence satisfies \\(a_{n+2}=(a_n+a_{n+1})/2\\) for every positive integer n. If \\(a_1=a_2=4\\), find \\(a_{20}\\).",
+          "stemZh": "數列對每個正整數 n 均滿足 \\(a_{n+2}=(a_n+a_{n+1})/2\\)。若 \\(a_1=a_2=4\\)，求 \\(a_{20}\\)。",
+          "solution": "The next term is the mean of two 4s, so it is 4. Repeating this argument shows every term equals 4. Thus \\(a_{20}=4\\).",
+          "solutionZh": "每項是前兩項的平均值。由兩個 4 開始，下一項仍為 4；反覆使用相同推理，每項皆為 4，故 \\(a_{20}=4\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q7 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第7題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "7",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q7",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "8"
+          },
+          "optionsZh": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "8"
+          },
+          "answer": "B",
+          "id": "import-sequences-98b7754ea4f78c96"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "sequence-foundations",
+          "skill": "seq-term-pattern",
+          "stem": "In the figure, the first pattern has 3 dots. For every positive integer n, pattern \\(n+1\\) is formed by adding \\(2n+1\\) dots to pattern n. Find the number of dots in the seventh pattern.",
+          "stemZh": "如圖，第一個圖案有 3 點。對每個正整數 n，第 \\(n+1\\) 個圖案由第 n 個圖案加入 \\(2n+1\\) 點形成。求第七個圖案的點數。",
+          "solution": "\\(3+\\sum_{n=1}^{6}(2n+1)=3+2(21)+6=51\\). Only six additions are needed to reach pattern 7.",
+          "solutionZh": "由第一個到第七個圖案只需加六次：\\(3+\\sum_{n=1}^{6}(2n+1)=3+42+6=51\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q8 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第8題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "8",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q8",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "21",
+            "B": "24",
+            "C": "36",
+            "D": "51"
+          },
+          "optionsZh": {
+            "A": "21",
+            "B": "24",
+            "C": "36",
+            "D": "51"
+          },
+          "answer": "D",
+          "diagram": {
+            "src": "assets/intake/intake-611e81c1f3198537/q08.png",
+            "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q8.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-sequences-29efdd650e8a9ee9",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-611e81c1f3198537",
+              "sourcePage": 2,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q8",
+              "sha256": "eb10d633643e18a8959908029568381005521f374720fc8725e40252601391bd",
+              "cropBox": [
+                125,
+                515,
+                850,
+                708
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-sequences-29efdd650e8a9ee9"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "arithmetic-terms-sums",
+          "skill": "seq-ap-term",
+          "stem": "The 12th term of an arithmetic sequence is ten times its 6th term. The sum of the first 10 terms is −5. Find the second term.",
+          "stemZh": "等差數列第 12 項是第 6 項的十倍，首 10 項之和為 −5。求第二項。",
+          "solution": "Let first term a and difference d. \\(a+11d=10(a+5d)\\) gives \\(9a+39d=0\\). Also \\(5(2a+9d)=-5\\). Solving gives \\(d=-3,a=13\\), hence \\(T_2=a+d=10\\).",
+          "solutionZh": "設首項 a、公差 d。由 \\(a+11d=10(a+5d)\\) 及 \\(5(2a+9d)=-5\\) 聯立得 \\(a=13,d=-3\\)。故第二項為 \\(a+d=10\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q9 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第9題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "9",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q9",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "−3",
+            "B": "10",
+            "C": "13",
+            "D": "16"
+          },
+          "optionsZh": {
+            "A": "−3",
+            "B": "10",
+            "C": "13",
+            "D": "16"
+          },
+          "answer": "B",
+          "id": "import-sequences-33987111abb82cc0"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "sequence-foundations",
+          "skill": "seq-gp-properties",
+          "stem": "Let \\(a_n\\) be the nth term of a GP of nonzero real numbers. Which are true? I. \\(a_2,a_5,a_8,a_{11}\\) form a GP. II. \\(a_4^2=a_3a_5\\). III. \\(a_7/a_3>0\\).",
+          "stemZh": "設 \\(a_n\\) 為非零實數等比數列的第 n 項。以下哪些正確？I. \\(a_2,a_5,a_8,a_{11}\\) 成等比。II. \\(a_4^2=a_3a_5\\)。III. \\(a_7/a_3>0\\)。",
+          "solution": "Write \\(a_n=ar^{n-1}\\) with \\(a\\ne0,r\\ne0\\). I has ratio \\(r^3\\). II has both sides \\(a^2r^6\\). III equals \\(r^4>0\\), including negative r. All are true.",
+          "solutionZh": "寫成 \\(a_n=ar^{n-1}\\)，其中 a、r 均非零。I 的公比為 \\(r^3\\)；II 兩邊同為 \\(a^2r^6\\)；III 為 \\(r^4>0\\)，即使 r 負亦成立。三項皆正確。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q12 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第12題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "12",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q12",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "I only",
+            "B": "I and II only",
+            "C": "II and III only",
+            "D": "I, II and III"
+          },
+          "optionsZh": {
+            "A": "只有 I",
+            "B": "只有 I 及 II",
+            "C": "只有 II 及 III",
+            "D": "I、II 及 III"
+          },
+          "answer": "D",
+          "id": "import-sequences-582a4d68428abf36"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "arithmetic-terms-sums",
+          "skill": "seq-ap-threshold",
+          "stem": "In Figure 1, the first pattern has 5 dots. Each next pattern adds 2 dots. Find the least integer m such that the total number of dots in the first m patterns exceeds 7565.",
+          "stemZh": "圖 1 的第一個圖案有 5 點，其後每個圖案增加 2 點。求最小整數 m，使首 m 個圖案的總點數超過 7565。",
+          "solution": "The numbers form an AP with a=5,d=2. \\(S_m=m(2m+8)/2=m^2+4m\\). The inequality is \\((m-85)(m+89)>0\\). For positive integers, \\(m>85\\), so the least is \\(86\\). At 85 the total only equals 7565.",
+          "solutionZh": "點數成等差，\\(a=5,d=2\\)。\\(S_m=m^2+4m\\)，故 \\((m-85)(m+89)>0\\)。由 m 為正整數，得最小 \\(m=86\\)；m=85 只等於 7565，未超過。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q13 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第13題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "13",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q13",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "assessmentMode": "solution-comparison",
+          "diagram": {
+            "src": "assets/intake/intake-611e81c1f3198537/q13.png",
+            "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q13.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-sequences-de250efe011b7ef2",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-611e81c1f3198537",
+              "sourcePage": 3,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q13",
+              "sha256": "e9a92f108003f250952103f934473042b7f2d67de02857aeaa601897363cee04",
+              "cropBox": [
+                155,
+                950,
+                900,
+                1055
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-sequences-de250efe011b7ef2"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "sequence-modelling",
+          "skill": "seq-growth-model",
+          "stem": "Wilson deposits $P on the first day of each year for 10 years at Green Bank, at 6% p.a. compounded quarterly. If the total interest at the end of year 10 is $10000, find P to the nearest integer.",
+          "stemZh": "Wilson 連續 10 年於每年首日向 Green Bank 存入 $P，年利率 6%，按季複息。若第 10 年年底所得總利息為 $10000，求 P，答案取最接近整數。",
+          "solution": "The deposits earn 40,36,...,4 quarters of interest. Let \\(g=1.015^4\\). Final value \\(P\\sum_{k=1}^{10}g^k=Pg(g^{10}-1)/(g-1)\\). Deduct the total principal 10P: \\(P[g(g^{10}-1)/(g-1)-10]=10000\\). Thus \\(P=2451.26750\\ldots\\) and the requested answer is $2451.",
+          "solutionZh": "每季增長倍數 \\(1.015\\)；十筆存款分別增長 40、36、…、4 季。令 \\(g=1.015^4\\)，期末總額為 \\(Pg(g^{10}-1)/(g-1)\\)。利息須扣除本金 10P，解 \\(P[g(g^{10}-1)/(g-1)-10]=10000\\) 得約 $2451（整數）。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q14 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第14題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "14",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q14",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "assessmentMode": "solution-comparison",
+          "id": "import-sequences-93332cc9f00ee6f3"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "sequence-modelling",
+          "skill": "seq-growth-model",
+          "stem": "A city spends \\(\\$3.24\\times10^{10}\\) on education in year 1 of a plan. Each subsequent year it spends 5% more. (a) Find total expenditure in the first 15 years. (b) Find the least integer n such that expenditure in the first n years exceeds \\(\\$10^{12}\\).",
+          "stemZh": "某城市計劃第一年的教育開支為 \\(\\$3.24\\times10^{10}\\)，其後每年比前一年增加 5%。(a) 求首 15 年總開支。(b) 求最小整數 n，使首 n 年總開支超過 \\(\\$10^{12}\\)。",
+          "solution": "Use \\(S_n=3.24\\times10^{10}(1.05^n-1)/0.05\\). (a) \\(S_{15}\\approx6.99145460258566\\times10^{11}\\) dollars, or \\(6.99\\times10^{11}\\) to 3 significant figures. (b) \\(1.05^n>206/81\\) gives \\(n>\\log(206/81)/\\log(1.05)\\approx19.13146\\). The least integer is 20; check n=19 and20 directly.",
+          "solutionZh": "用等比和 \\(S_n=3.24\\times10^{10}(1.05^n-1)/0.05\\)。(a) \\(S_{15}\\approx6.99145460258566\\times10^{11}\\) 元，三位有效數字為 \\(6.99\\times10^{11}\\)。(b) 化簡得 \\(1.05^n>206/81\\)，取對數後 n 大於約 19.1，故最小整數為 20，並回代 19、20 檢查。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q15 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第15題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "15",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q15",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "assessmentMode": "solution-comparison",
+          "id": "import-sequences-c43df14968861654",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "A city spends \\(\\$3.24\\times10^{10}\\) on education in year 1 of a plan. Each subsequent year it spends 5% more."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find total expenditure in the first 15 years."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the least integer n such that expenditure in the first n years exceeds \\(\\$10^{12}\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "某城市計劃第一年的教育開支為 \\(\\$3.24\\times10^{10}\\)，其後每年比前一年增加 5%。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求首 15 年總開支。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 求最小整數 n，使首 n 年總開支超過 \\(\\$10^{12}\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "geometric-sums",
+          "skill": "seq-geometric-sum",
+          "stem": "Boxes numbered 1,2,3,... contain numbers of one-dollar coins forming a GP. The third and fourth boxes contain 12 and24 coins. (a) Find the number in box 1. (b) Find the least n such that the total in boxes \\(n,n+1,\\ldots,2n\\) exceeds $48960.",
+          "stemZh": "編號 1、2、3、… 的盒內各有若干一元硬幣，數量成等比數列。第 3、4 盒分別有 12、24 枚。(a) 求第 1 盒數量。(b) 求最小 n，使第 \\(n,n+1,\\ldots,2n\\) 盒總金額超過 $48960。",
+          "solution": "(a) \\(r=24/12=2\\) and \\(a=12/2^2=3\\). (b) The inclusive range has n+1 boxes: \\(\\sum_{k=n}^{2n}3\\cdot2^{k-1}=3(2^{2n}-2^{n-1})\\). Let t=2ⁿ. The condition becomes \\((2t+255)(t-128)>0\\). Since t>0, \\(2^n>128\\); the least n is8. At n=7 the sum equals48960.",
+          "solutionZh": "(a) \\(r=2,a=3\\)。(b) 由第 n 至第 2n 盒包括首尾，共 n+1 盒。總和為 \\(3(2^{2n}-2^{n-1})\\)。令 \\(t=2^n\\)，化簡得 \\((2t+255)(t-128)>0\\)。由 t 正，得 \\(n>7\\)，故最小 \\(n=8\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q17 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第17題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "17",
+            "page": 4,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q17",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "assessmentMode": "solution-comparison",
+          "id": "import-sequences-798f919f5154d8b7",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Boxes numbered 1,2,3,... contain numbers of one-dollar coins forming a GP. The third and fourth boxes contain 12 and24 coins."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find the number in box 1."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the least n such that the total in boxes \\(n,n+1,\\ldots,2n\\) exceeds $48960."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "編號 1、2、3、… 的盒內各有若干一元硬幣，數量成等比數列。第 3、4 盒分別有 12、24 枚。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求第 1 盒數量。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 求最小 n，使第 \\(n,n+1,\\ldots,2n\\) 盒總金額超過 $48960。"
+              }
+            ]
+          }
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "infinite-geometric",
+          "skill": "seq-infinite-sum",
+          "stem": "In the figure, ABC is an equilateral triangle of side 2 units. Square \\(B_1C_1D_1E_1\\) is inside ABC with \\(A,B_1,B\\), \\(A,C_1,C\\) and \\(B,E_1,D_1,C\\) collinear respectively. (a) Find \\(C_1D_1\\). (b) Square \\(B_2C_2D_2E_2\\) is similarly inscribed in \\(\\triangle AB_1C_1\\), with \\(A,B_2,B_1\\), \\(A,C_2,C_1\\) and \\(B_1,E_2,D_2,C_1\\) collinear. Find \\(C_2D_2\\). (c) Repeat to obtain a GP of square sides. Find (i) the common ratio; (ii) the sum to infinity of \\(C_1D_1+C_2D_2+C_3D_3+\\cdots\\). Give rationalized surd answers.",
+          "stemZh": "如圖，ABC 是邊長為 2 的等邊三角形。內接正方形 \\(B_1C_1D_1E_1\\) 滿足 \\(A,B_1,B\\)、\\(A,C_1,C\\)、\\(B,E_1,D_1,C\\) 分別共線。(a) 求 \\(C_1D_1\\)。(b) 在 \\(\\triangle AB_1C_1\\) 同樣內接正方形 \\(B_2C_2D_2E_2\\)，其中 \\(A,B_2,B_1\\)、\\(A,C_2,C_1\\)、\\(B_1,E_2,D_2,C_1\\) 分別共線，求 \\(C_2D_2\\)。(c) 持續相同過程，正方形邊長成等比數列，求 (i) 公比；(ii) 邊長無窮和。答案用根式表示並有理化。",
+          "solution": "For an equilateral triangle of side L, inscribed square side s satisfies \\(s=(L-s)\\sin60^\\circ\\). Thus \\(s/L=\\sqrt3/(2+\\sqrt3)=2\\sqrt3-3\\). (a) With L=2, \\(s_1=4\\sqrt3-6\\). (b) The next triangle side is s₁, so \\(s_2=s_1(2\\sqrt3-3)=42-24\\sqrt3\\). (c)(i) \\(r=2\\sqrt3-3\\) lies between0and1. (ii) \\(S_\\infty=(4\\sqrt3-6)/(1-r)=\\sqrt3\\).",
+          "solutionZh": "設等邊三角形邊長 L、內接正方形邊長 s。由直角三角形得 \\(s=(L-s)\\sin60^\\circ\\)，故 \\(s/L=2\\sqrt3-3\\)。(a) \\(s_1=4\\sqrt3-6\\)。(b) 下一等邊三角形的邊長為 \\(s_1\\)，所以 \\(s_2=42-24\\sqrt3\\)。(c)(i) 公比 \\(2\\sqrt3-3\\)；(ii) 因其絕對值小於 1，無窮和 \\((4\\sqrt3-6)/(1-(2\\sqrt3-3))=\\sqrt3\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q18 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第18題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "18",
+            "page": 4,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q18",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "assessmentMode": "solution-comparison",
+          "diagram": {
+            "src": "assets/intake/intake-611e81c1f3198537/q18.png",
+            "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q18.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-sequences-8ef1f23da33dc9f3",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-611e81c1f3198537",
+              "sourcePage": 4,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q18",
+              "sha256": "5e9c5fd3689fe03c0d5e3e3cffe8532ba29b677f1d032fdb6806867fd8949e0d",
+              "cropBox": [
+                670,
+                535,
+                940,
+                755
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-sequences-8ef1f23da33dc9f3",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "In the figure, ABC is an equilateral triangle of side 2 units. Square \\(B_1C_1D_1E_1\\) is inside ABC with \\(A,B_1,B\\), \\(A,C_1,C\\) and \\(B,E_1,D_1,C\\) collinear respectively."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find \\(C_1D_1\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Square \\(B_2C_2D_2E_2\\) is similarly inscribed in \\(\\triangle AB_1C_1\\), with \\(A,B_2,B_1\\), \\(A,C_2,C_1\\) and \\(B_1,E_2,D_2,C_1\\) collinear. Find \\(C_2D_2\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Repeat to obtain a GP of square sides. Find (i) the common ratio; (ii) the sum to infinity of \\(C_1D_1+C_2D_2+C_3D_3+\\cdots\\). Give rationalized surd answers."
+              },
+              {
+                "type": "figure",
+                "diagram": {
+                  "src": "assets/intake/intake-611e81c1f3198537/q18.png",
+                  "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q18.",
+                  "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                  "qa": {
+                    "questionId": "import-sequences-8ef1f23da33dc9f3",
+                    "status": "reviewed",
+                    "reviewedAt": "2026-10-28",
+                    "sourceId": "source-611e81c1f3198537",
+                    "sourcePage": 4,
+                    "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q18",
+                    "sha256": "5e9c5fd3689fe03c0d5e3e3cffe8532ba29b677f1d032fdb6806867fd8949e0d",
+                    "cropBox": [
+                      670,
+                      535,
+                      940,
+                      755
+                    ],
+                    "verifiedUnrelatedMask": null
+                  }
+                }
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "如圖，ABC 是邊長為 2 的等邊三角形。內接正方形 \\(B_1C_1D_1E_1\\) 滿足 \\(A,B_1,B\\)、\\(A,C_1,C\\)、\\(B,E_1,D_1,C\\) 分別共線。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(C_1D_1\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 在 \\(\\triangle AB_1C_1\\) 同樣內接正方形 \\(B_2C_2D_2E_2\\)，其中 \\(A,B_2,B_1\\)、\\(A,C_2,C_1\\)、\\(B_1,E_2,D_2,C_1\\) 分別共線，求 \\(C_2D_2\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 持續相同過程，正方形邊長成等比數列，求 (i) 公比；(ii) 邊長無窮和。答案用根式表示並有理化。"
+              },
+              {
+                "type": "figure",
+                "diagram": {
+                  "src": "assets/intake/intake-611e81c1f3198537/q18.png",
+                  "alt": "Same-question source diagram, S6/Sequence/Sequence review2.pdf, Q18.",
+                  "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+                  "qa": {
+                    "questionId": "import-sequences-8ef1f23da33dc9f3",
+                    "status": "reviewed",
+                    "reviewedAt": "2026-10-28",
+                    "sourceId": "source-611e81c1f3198537",
+                    "sourcePage": 4,
+                    "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-611e81c1f3198537-q18",
+                    "sha256": "5e9c5fd3689fe03c0d5e3e3cffe8532ba29b677f1d032fdb6806867fd8949e0d",
+                    "cropBox": [
+                      670,
+                      535,
+                      940,
+                      755
+                    ],
+                    "verifiedUnrelatedMask": null
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "subcategory": "sequence-modelling",
+          "skill": "seq-growth-model",
+          "stem": "Alex has a permanent full-time job paying $10000 per month in year1, increasing10% at the beginning of each subsequent year. He may either take a spare-time job earning an additional $3000 per month, or study a two-year master degree during spare time. After study his monthly full-time pay in year3 becomes $15000 and thereafter rises10% yearly; he takes no part-time job. Let \\(P_n,F_n\\) be his respective annual salaries under the part-time and study routes. (a) Express \\(P_n\\) in n. (b)(i) Find \\(F_1,F_2\\); (ii) express \\(F_n\\) for \\(n\\ge3\\). Let \\(A_m,B_m\\) be total salaries over m years under the respective routes. (c) Show that \\(A_m-B_m=12000[3m-29(1.1^{m-2}-1)]\\) for \\(m\\ge3\\). (d) Which route earns more if he retires at the end of year10?",
+          "stemZh": "Alex 第一年的全職月薪為 $10000，其後每年年初加薪 10%。他可在工餘兼職，每月另賺 $3000；或在工餘修讀兩年碩士，完成後第三年的全職月薪為 $15000，其後每年仍加薪 10%，不再兼職。設 \\(P_n,F_n\\) 分別為兼職及進修方案第 n 年的年薪。(a) 以 n 表示 \\(P_n\\)。(b)(i) 求 \\(F_1,F_2\\)；(ii) 以 n 表示 \\(n\\ge3\\) 時的 \\(F_n\\)。設 \\(A_m,B_m\\) 為兩方案首 m 年總薪金。(c) 證明 \\(A_m-B_m=12000[3m-29(1.1^{m-2}-1)]\\)，其中 \\(m\\ge3\\)。(d) 若第 10 年年底退休，哪個方案總薪金較高？",
+          "solution": "(a) \\(P_n=120000(1.1)^{n-1}+36000\\). (b) Study is during spare time: \\(F_1=120000,F_2=132000\\) and \\(F_n=180000(1.1)^{n-3}\\ (n\\ge3)\\). (c) \\(A_m=1200000(1.1^m-1)+36000m\\); \\(B_m=252000+1800000(1.1^{m-2}-1)\\). Subtract and use \\(1.1^m=1.21(1.1^{m-2})\\) to obtain the required identity. (d) \\(A_{10}-B_{10}\\approx-37968.91\\), so study earns about $37968.91 more. No tuition cost is specified, so compare salaries only.",
+          "solutionZh": "(a) \\(P_n=120000(1.1)^{n-1}+36000\\)。(b) 工餘進修期間仍有全職收入，故 \\(F_1=120000,F_2=132000\\)，而 \\(F_n=180000(1.1)^{n-3}\\ (n\\ge3)\\)。(c) 分別求和得 \\(A_m=1200000(1.1^m-1)+36000m\\)、\\(B_m=252000+1800000(1.1^{m-2}-1)\\)，相減並用 \\(1.1^m=1.21(1.1^{m-2})\\) 整理即得所證。(d) \\(A_{10}-B_{10}\\approx-37968.91\\)，進修方案多約 $37968.91。題目未列學費，故只比較薪金。",
+          "solutionStatus": "independently-rederived",
+          "source": "S6/Sequence/Sequence review2.pdf · Q19 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/Sequence review2.pdf · 第19題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-611e81c1f3198537",
+            "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+            "file": "S6/Sequence/Sequence review2.pdf",
+            "number": "19",
+            "page": 5,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#sequences-q19",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "assessmentMode": "solution-comparison",
+          "id": "import-sequences-a8d5d3e3a011d51c",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Alex has a permanent full-time job paying $10000 per month in year1, increasing10% at the beginning of each subsequent year. He may either take a spare-time job earning an additional $3000 per month, or study a two-year master degree during spare time. After study his monthly full-time pay in year3 becomes $15000 and thereafter rises10% yearly; he takes no part-time job. Let \\(P_n,F_n\\) be his respective annual salaries under the part-time and study routes."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Express \\(P_n\\) in n."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b)(i) Find \\(F_1,F_2\\); (ii) express \\(F_n\\) for \\(n\\ge3\\). Let \\(A_m,B_m\\) be total salaries over m years under the respective routes."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Show that \\(A_m-B_m=12000[3m-29(1.1^{m-2}-1)]\\) for \\(m\\ge3\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(d) Which route earns more if he retires at the end of year10?"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "Alex 第一年的全職月薪為 $10000，其後每年年初加薪 10%。他可在工餘兼職，每月另賺 $3000；或在工餘修讀兩年碩士，完成後第三年的全職月薪為 $15000，其後每年仍加薪 10%，不再兼職。設 \\(P_n,F_n\\) 分別為兼職及進修方案第 n 年的年薪。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 以 n 表示 \\(P_n\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b)(i) 求 \\(F_1,F_2\\)；(ii) 以 n 表示 \\(n\\ge3\\) 時的 \\(F_n\\)。設 \\(A_m,B_m\\) 為兩方案首 m 年總薪金。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 證明 \\(A_m-B_m=12000[3m-29(1.1^{m-2}-1)]\\)，其中 \\(m\\ge3\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(d) 若第 10 年年底退休，哪個方案總薪金較高？"
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

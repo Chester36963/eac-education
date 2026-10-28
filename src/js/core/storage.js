@@ -100,6 +100,7 @@ const Storage = {
         lastCorrect: isCorrect,
         lastAttemptAt: new Date().toISOString(),
         topicId, categoryType, difficulty,
+        course: details.course || 'core',
         selectedAnswer: details.selectedAnswer || null,
         assessment: details.assessment || 'automatic',
         skill: details.skill || null,

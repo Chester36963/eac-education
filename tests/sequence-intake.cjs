@@ -13,12 +13,12 @@ test('curriculum intake accounts for all 24 original locators, with two explicit
  assert.deepEqual(review.deduplication.normalizedMatches,[]);assert.deepEqual(review.deduplication.withinBatchMatches,[]);
 });
 test('intake preserves all 1186 earlier question objects and IDs, including 21 ASGS questions',()=>{
- const original=all.filter(q=>!newIds.has(q.id));assert.equal(original.length,review.baseline.count);assert.equal(original.length,1186);assert.equal(sha(original),review.baseline.questionArraySha256);
- assert.equal(all.length,1208);assert.equal(all.filter(q=>q.id.startsWith('import-sequences-')&&!newIds.has(q.id)).length,21);
+ const pilotIds=new Set(['intake-d7bc46f81937cc09','intake-611e81c1f3198537'].flatMap(id=>require('../content/intake/editor/'+id+'.json').records.filter(r=>r.disposition==='publish').map(r=>r.question.id)));const original=all.filter(q=>!newIds.has(q.id)&&!pilotIds.has(q.id));assert.equal(original.length,review.baseline.count);assert.equal(original.length,1186);assert.equal(sha(original),review.baseline.questionArraySha256);
+ assert.equal(all.length,1208+pilotIds.size);assert.equal(all.filter(q=>q.id.startsWith('import-sequences-')&&!newIds.has(q.id)&&!pilotIds.has(q.id)).length,21);
  assert.equal(validate(source.catalog,source.topics,source.skills).length,0);
- const files=compile(source),manifest=JSON.parse(files.get('data/bank.json'));assert.equal(manifest.totalQuestions,1208);
+ const files=compile(source),manifest=JSON.parse(files.get('data/bank.json'));assert.equal(manifest.totalQuestions,1208+pilotIds.size);
  const chapter=JSON.parse(files.get('data/catalog.json')).subjects.flatMap(s=>s.chapters).find(c=>c.id==='sequences');
- assert.equal(chapter.questionCount,43);assert.equal(chapter.coverage.types.mcq,9);assert.equal(chapter.coverage.types.structured,34);
+ assert.equal(chapter.questionCount,58);assert.equal(chapter.coverage.types.mcq,18);assert.equal(chapter.coverage.types.structured,40);
  for(const q of incoming){assert.ok(chapter.subcategories.some(s=>s.id===q.subcategory&&s.skills.includes(q.skill)));assert.equal(q.solutionStatus,'independently-rederived');assert.ok(q.adaptation.en&&q.adaptation['zh-Hant']);}
 });
 test('24-source independent arithmetic checks execute without OCR or external runtime dependencies',()=>{

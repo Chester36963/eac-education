@@ -341,6 +341,823 @@
             }
           },
           "minForm": 1
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-similar-triangles",
+          "stem": "In the figure, \\(DE\\parallel BC\\) and \\([ADE]:[ADC]=1:4\\). Find \\([DEC]:[BDC]\\).",
+          "stemZh": "如圖，\\(DE\\parallel BC\\)，且 \\([ADE]:[ADC]=1:4\\)。求 \\([DEC]:[BDC]\\)。",
+          "solution": "Triangles ADE and ADC have bases AE and AC on the same line and a common altitude from D. Thus \\(AE/AC=[ADE]/[ADC]=1/4\\). Since \\(DE\\parallel BC\\), similarity gives \\(DE/BC=AE/AC=1/4\\). Triangles DEC and BDC have bases DE and BC with equal heights between the parallel lines, so \\([DEC]:[BDC]=1:4\\).",
+          "solutionZh": "先用同高三角形：\\([ADE]/[ADC]=AE/AC=1/4\\)。由 \\(DE\\parallel BC\\) 及相似三角形得 \\(DE/BC=1/4\\)。再以 DE、BC 為底，兩三角形在平行線之間等高，所以 \\([DEC]:[BDC]=1:4\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q1 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第1題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "1",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q1",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "1:2",
+            "B": "1:3",
+            "C": "1:4",
+            "D": "1:5"
+          },
+          "optionsZh": {
+            "A": "1:2",
+            "B": "1:3",
+            "C": "1:4",
+            "D": "1:5"
+          },
+          "answer": "C",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q01.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q1.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-52f514caf0e7b6df",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 1,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q1",
+              "sha256": "fd88e35352ed966ba2d5adff57ff8d6557d3a6fa7721f69755721f451535c4d3",
+              "cropBox": [
+                500,
+                185,
+                775,
+                365
+              ],
+              "verifiedUnrelatedMask": [
+                0,
+                0,
+                48,
+                28
+              ]
+            }
+          },
+          "id": "import-mensuration-52f514caf0e7b6df"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-intersection-ratios",
+          "stem": "In the figure, ABCD is a parallelogram. M is the midpoint of AD; P lies on BC with \\(BP:PC=1:3\\). AC intersects MP at Q. If \\([AMQ]=120\\), find the area of ABPQ.",
+          "stemZh": "如圖，ABCD 為平行四邊形，M 是 AD 的中點，P 在 BC 上且 \\(BP:PC=1:3\\)。AC 與 MP 交於 Q。若 \\([AMQ]=120\\)，求四邊形 ABPQ 的面積。",
+          "solution": "Use an affine coordinate model \\(A=(0,1),B=(0,0),C=(1,0),D=(1,1)\\). Then \\(M=(1/2,1),P=(1/4,0),Q=(2/5,3/5)\\). The normalized areas are \\([AMQ]=1/10,[ABPQ]=11/40\\). Thus \\([ABPQ]=120(11/40)/(1/10)=330\\).",
+          "solutionZh": "以平行四邊形作面積單位。設 \\(A=(0,1),B=(0,0),C=(1,0),D=(1,1)\\)，由兩直線相交得 \\(Q=(2/5,3/5)\\)。底高／分割計算得 \\([AMQ]=1/10,[ABPQ]=11/40\\)，所以所求為 \\(120\\times11/4=330\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q2 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第2題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "2",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q2",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "270",
+            "B": "330",
+            "C": "480",
+            "D": "540"
+          },
+          "optionsZh": {
+            "A": "270",
+            "B": "330",
+            "C": "480",
+            "D": "540"
+          },
+          "answer": "B",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q02.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q2.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-820aaeac75c8bb75",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 1,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q2",
+              "sha256": "d87cd18774839559740f963cbc7bdbcf62540fed343e532a6987b3ad150f6b4a",
+              "cropBox": [
+                680,
+                405,
+                955,
+                565
+              ],
+              "verifiedUnrelatedMask": [
+                0,
+                0,
+                275,
+                8
+              ]
+            }
+          },
+          "id": "import-mensuration-820aaeac75c8bb75"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-intersection-ratios",
+          "stem": "In the figure, ABCD is a parallelogram. E is the midpoint of AB; F and G lie on CD with \\(DF=FG=GC\\). BG and CE intersect at H. If \\([BCH]=6\\text{ cm}^2\\), find the area of EFGH.",
+          "stemZh": "如圖，ABCD 是平行四邊形，E 是 AB 的中點，F、G 三等分 CD，且 \\(DF=FG=GC\\)。BG 與 CE 交於 H。若 \\([BCH]=6\\text{ cm}^2\\)，求 EFGH 的面積。",
+          "solution": "Normalize \\(A=(0,0),B=(1,0),C=(1,1),D=(0,1)\\). Then \\(E=(1/2,0),F=(1/3,1),G=(2/3,1),H=(4/5,3/5)\\). Base-height subtraction gives \\([BCH]=1/10,[EFGH]=4/15\\) of the parallelogram. Thus \\(6(4/15)/(1/10)=16\\text{ cm}^2\\).",
+          "solutionZh": "把平行四邊形面積設為 1。按等分點定位交點，得 \\(H=(4/5,3/5)\\)（以相鄰兩邊為座標方向）。由底高及分割可得 \\([BCH]=1/10,[EFGH]=4/15\\)，所求為 \\(6\\times(4/15)/(1/10)=16\\text{ cm}^2\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q3 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第3題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "3",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q3",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "\\(10\\text{ cm}^2\\)",
+            "B": "\\(12\\text{ cm}^2\\)",
+            "C": "\\(15\\text{ cm}^2\\)",
+            "D": "\\(16\\text{ cm}^2\\)"
+          },
+          "optionsZh": {
+            "A": "\\(10\\text{ cm}^2\\)",
+            "B": "\\(12\\text{ cm}^2\\)",
+            "C": "\\(15\\text{ cm}^2\\)",
+            "D": "\\(16\\text{ cm}^2\\)"
+          },
+          "answer": "D",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q03.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q3.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-0b77eafe562abbd1",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 1,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q3",
+              "sha256": "998a997a627a09cb157ce5053bb2217c3d22bea0301796b2d02cb30ca7af7efc",
+              "cropBox": [
+                630,
+                675,
+                940,
+                840
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-mensuration-0b77eafe562abbd1"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-shared-height",
+          "stem": "In the figure, ABCD is a parallelogram and E lies on AB. EC and BD intersect at F. If \\([DEF]=20\\text{ cm}^2\\), find \\([CBF]\\).",
+          "stemZh": "如圖，ABCD 是平行四邊形，E 在 AB 上。EC 與 BD 交於 F。若 \\([DEF]=20\\text{ cm}^2\\)，求 \\([CBF]\\)。",
+          "solution": "Triangles DBC and DEC share base DC and have equal heights because E and B lie on AB parallel DC. Subtract common triangle DFC: \\([CBF]=[DEF]=20\\text{ cm}^2\\).",
+          "solutionZh": "先認出等高同底。\\([DBC]=[DEC]\\)，因兩者同底 DC，而 B、E 在平行於 DC 的 AB 上。兩邊扣去共同的 \\(\\triangle DFC\\)，得 \\([CBF]=[DEF]=20\\text{ cm}^2\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q4 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第4題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "4",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q4",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "\\(40\\text{ cm}^2\\)",
+            "B": "\\(30\\text{ cm}^2\\)",
+            "C": "\\(20\\text{ cm}^2\\)",
+            "D": "\\(10\\text{ cm}^2\\)"
+          },
+          "optionsZh": {
+            "A": "\\(40\\text{ cm}^2\\)",
+            "B": "\\(30\\text{ cm}^2\\)",
+            "C": "\\(20\\text{ cm}^2\\)",
+            "D": "\\(10\\text{ cm}^2\\)"
+          },
+          "answer": "C",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q04.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q4.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-c33332204d3d984d",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 1,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q4",
+              "sha256": "174339b7a5a0fc42a4fe638ce740af6bcaaa94ad2bd785aed7da7c659918b478",
+              "cropBox": [
+                395,
+                940,
+                665,
+                1125
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-mensuration-c33332204d3d984d"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-similar-triangles",
+          "stem": "In the figure, ABC, CDE and EFA are straight lines. \\(BF\\parallel CE\\), \\(AB:BC=2:3\\) and \\(CD:DE=1:4\\). If \\([ABF]=4\\), find the area of BDEF.",
+          "stemZh": "如圖，A、B、C 共線，C、D、E 共線，E、F、A 共線；\\(BF\\parallel CE\\)，\\(AB:BC=2:3\\)，\\(CD:DE=1:4\\)。若 \\([ABF]=4\\)，求 BDEF 的面積。",
+          "solution": "Similarity gives \\([ABF]/[ACE]=(2/5)^2=4/25\\), so \\([ACE]=25\\). Triangles BCD and ACE share angle C, with side ratios \\(CB/CA=3/5,CD/CE=1/5\\). Hence \\([BCD]=3\\) and \\([BDEF]=25-4-3=18\\).",
+          "solutionZh": "先用相似面積比：\\([ABF]:[ACE]=4:25\\)，故 \\([ACE]=25\\)。再利用同一夾角 C，得 \\([BCD]/[ACE]=(3/5)(1/5)=3/25\\)，所以 \\([BCD]=3\\)。所求為 \\(25-4-3=18\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q5 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第5題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "5",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q5",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "12",
+            "B": "15",
+            "C": "18",
+            "D": "21"
+          },
+          "optionsZh": {
+            "A": "12",
+            "B": "15",
+            "C": "18",
+            "D": "21"
+          },
+          "answer": "C",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q05.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q5.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-68aaf525ccb7da19",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 1,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q5",
+              "sha256": "d0c1854b8429682341a42d16db608ff90fa76d076c77d69f443f57c552135b74",
+              "cropBox": [
+                730,
+                1130,
+                975,
+                1325
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-mensuration-68aaf525ccb7da19"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-intersection-ratios",
+          "stem": "In the figure, F lies on BC with \\(BF:FC=2:3\\). D lies on AC; BD cuts AF at E with \\(AE:EF=2:1\\). If \\([ABE]=12\\text{ cm}^2\\), find the area of CDEF.",
+          "stemZh": "如圖，F 在 BC 上且 \\(BF:FC=2:3\\)。D 在 AC 上，BD 與 AF 交於 E，且 \\(AE:EF=2:1\\)。若 \\([ABE]=12\\text{ cm}^2\\)，求 CDEF 的面積。",
+          "solution": "Since AE:EF=2:1, \\([BEF]=6,[ABF]=18\\). Thus \\([ACF]=27\\). To locate D use triangle ABC with \\(BF/FC=2/3,AE/EF=2\\): base-height ratios give \\(AD:DC=4:5\\). Hence \\([ABD]=20,[ADE]=8\\) and \\([CDEF]=[ACF]-[ADE]=27-8=19\\text{ cm}^2\\).",
+          "solutionZh": "由同高三角形得 \\([BEF]=6\\)，所以 \\([ABF]=18\\)，\\([ACF]=27\\)。交線比例可得 \\(AD:DC=4:5\\)，故 \\([ABD]=20\\)，\\([ADE]=[ABD]-[ABE]=8\\)。因此 \\([CDEF]=27-8=19\\text{ cm}^2\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q6 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第6題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "6",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q6",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "\\(19\\text{ cm}^2\\)",
+            "B": "\\(20\\text{ cm}^2\\)",
+            "C": "\\(21\\text{ cm}^2\\)",
+            "D": "\\(22\\text{ cm}^2\\)"
+          },
+          "optionsZh": {
+            "A": "\\(19\\text{ cm}^2\\)",
+            "B": "\\(20\\text{ cm}^2\\)",
+            "C": "\\(21\\text{ cm}^2\\)",
+            "D": "\\(22\\text{ cm}^2\\)"
+          },
+          "answer": "A",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q06.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q6.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-2fb2f7a3bc28e49e",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 2,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q6",
+              "sha256": "216aa232e0f0d8becc9cbe8d941d70f593f9f64a9034db98744f04800c3069db",
+              "cropBox": [
+                630,
+                245,
+                975,
+                450
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "editorialCorrections": [
+            "Removed duplicated OCR token DABE after the requested region; diagram and all numerical conditions preserved."
+          ],
+          "id": "import-mensuration-2fb2f7a3bc28e49e"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-shared-height",
+          "stem": "In the figure, ABCD is a rectangle. E is the midpoint of BC. AC and ED intersect at F. Find \\([AEB]:[FCE]\\).",
+          "stemZh": "如圖，ABCD 是長方形，E 是 BC 的中點，AC 與 ED 交於 F。求 \\([AEB]:[FCE]\\)。",
+          "solution": "Triangles FCE and FAD are similar with \\(CE:AD=1:2\\), hence F is at one-third of the rectangle height above BC. Since \\(BE=CE\\), triangles AEB and FCE have equal bases and height ratio 3:1. Therefore the area ratio is 3:1.",
+          "solutionZh": "先由 \\(\\triangle FCE\\sim\\triangle FAD\\) 得 \\(CE:AD=1:2\\)，所以 F 離 BC 的高度為長方形高度的 \\(1/3\\)。又 \\(BE=CE\\)，故兩三角形的面積比等於高比，即 3:1。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q7 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第7題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "7",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q7",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "7:3",
+            "B": "5:2",
+            "C": "8:3",
+            "D": "3:1"
+          },
+          "optionsZh": {
+            "A": "7:3",
+            "B": "5:2",
+            "C": "8:3",
+            "D": "3:1"
+          },
+          "answer": "D",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q07.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q7.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-ea663dfcd2bfdcfe",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 2,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q7",
+              "sha256": "c128e997b719dfab370bed4396f5e36bdef6facbdaa757b1324b85aadeb3d11a",
+              "cropBox": [
+                610,
+                470,
+                955,
+                675
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-mensuration-ea663dfcd2bfdcfe"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-intersection-ratios",
+          "stem": "The figure shows trapezium ABCD with \\(AD\\parallel BC\\). AFE, BFD and BEC are straight lines. \\(BE:EC=BC:AD=1:3\\) and \\([ABF]=12\\text{ cm}^2\\). Find the area of CEFD.",
+          "stemZh": "如圖，ABCD 是梯形，\\(AD\\parallel BC\\)。A、F、E 共線，B、F、D 共線，B、E、C 共線；\\(BE:EC=BC:AD=1:3\\)，且 \\([ABF]=12\\text{ cm}^2\\)。求 CEFD 的面積。",
+          "solution": "Set BC=1, AD=3, BE=1/4 and height=1 in affine coordinates. Choose \\(B=(0,0),C=(1,0),A=(0,1),D=(3,1),E=(1/4,0)\\). Then \\(F=(3/13,1/13)\\). The normalized areas are \\([ABF]=3/26,[CEFD]=51/104\\). Scale by \\(12/(3/26)=104\\) to obtain \\(51\\text{ cm}^2\\).",
+          "solutionZh": "用平行底作座標方向：令 \\(BC=1,AD=3,BE=1/4\\)、高為 1。由兩直線相交得 \\(F=(3/13,1/13)\\)。底高分割得 \\([ABF]=3/26,[CEFD]=51/104\\)。實際面積比例因子為 104，故答案為 \\(51\\text{ cm}^2\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q8 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第8題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "8",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q8",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "\\(14\\text{ cm}^2\\)",
+            "B": "\\(42\\text{ cm}^2\\)",
+            "C": "\\(51\\text{ cm}^2\\)",
+            "D": "\\(58\\text{ cm}^2\\)"
+          },
+          "optionsZh": {
+            "A": "\\(14\\text{ cm}^2\\)",
+            "B": "\\(42\\text{ cm}^2\\)",
+            "C": "\\(51\\text{ cm}^2\\)",
+            "D": "\\(58\\text{ cm}^2\\)"
+          },
+          "answer": "C",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q08.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q8.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-4c3051ec72b3551e",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 2,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q8",
+              "sha256": "96cbb0de3f10d685d9af86bd07a8bbaed225ad6d3c3b4aa3adb2e57dfb1bf08f",
+              "cropBox": [
+                595,
+                785,
+                860,
+                950
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-mensuration-4c3051ec72b3551e"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-intersection-ratios",
+          "stem": "In the figure, ABCD is a square. E and F are midpoints of AD and AB. G lies on BC with \\(GC=3BG\\); H lies on DC with \\(HC=2DH\\). If \\([BFG]=3\\text{ cm}^2\\), find the area of EFGH.",
+          "stemZh": "如圖，ABCD 是正方形，E、F 分別是 AD、AB 的中點。G 在 BC 上且 \\(GC=3BG\\)；H 在 DC 上且 \\(HC=2DH\\)。若 \\([BFG]=3\\text{ cm}^2\\)，求 EFGH 的面積。",
+          "solution": "Let the square have area S. Then \\([BFG]=\\tfrac12\\cdot\\tfrac12\\cdot\\tfrac14S=S/16\\), so S=48. The four corner triangles have total fraction \\(1/8+1/16+1/4+1/12=25/48\\). Thus \\([EFGH]=48(1-25/48)=23\\text{ cm}^2\\).",
+          "solutionZh": "先由 \\([BFG]=\\tfrac12\\times\\tfrac12\\times\\tfrac14S=S/16=3\\) 得正方形面積 \\(S=48\\)。四個角的三角形面積佔比分別為 \\(1/8,1/16,1/4,1/12\\)。扣去後得 \\([EFGH]=48\\times23/48=23\\text{ cm}^2\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q9 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第9題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "9",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q9",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "\\(11\\text{ cm}^2\\)",
+            "B": "\\(23\\text{ cm}^2\\)",
+            "C": "\\(35\\text{ cm}^2\\)",
+            "D": "\\(47\\text{ cm}^2\\)"
+          },
+          "optionsZh": {
+            "A": "\\(11\\text{ cm}^2\\)",
+            "B": "\\(23\\text{ cm}^2\\)",
+            "C": "\\(35\\text{ cm}^2\\)",
+            "D": "\\(47\\text{ cm}^2\\)"
+          },
+          "answer": "B",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q09.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q9.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-2e2570882809d91a",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 2,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q9",
+              "sha256": "af05a69a46ddc066223c0d6a08cb655ee57039d3bdb41cccbd5c3747b70898c8",
+              "cropBox": [
+                670,
+                1090,
+                885,
+                1285
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-mensuration-2e2570882809d91a"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-shared-height",
+          "stem": "In triangle ABC, P lies on AB and Q lies on AC. \\(AP:PB=2:1\\) and \\(AQ:QC=1:3\\). Find \\([BCP]:[BCQ]\\).",
+          "stemZh": "在 \\(\\triangle ABC\\) 中，P、Q 分別在 AB、AC 上，\\(AP:PB=2:1\\)，\\(AQ:QC=1:3\\)。求 \\([BCP]:[BCQ]\\)。",
+          "solution": "Both triangles use BC as base. Their heights above BC are \\(1/3\\) and \\(3/4\\) of the height from A. Thus \\([BCP]:[BCQ]=\\tfrac13:\\tfrac34=4:9\\).",
+          "solutionZh": "兩三角形共用底 BC。P、Q 離 BC 的高度分別為 A 的 \\(1/3\\) 及 \\(3/4\\)，故面積比為 \\(\\tfrac13:\\tfrac34=4:9\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q10 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第10題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "10",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q10",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "1:4",
+            "B": "2:3",
+            "C": "3:5",
+            "D": "4:9"
+          },
+          "optionsZh": {
+            "A": "1:4",
+            "B": "2:3",
+            "C": "3:5",
+            "D": "4:9"
+          },
+          "answer": "D",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q10.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q10.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-fe2b4778bb969c95",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 3,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q10",
+              "sha256": "61243bd6b47e819135b9746da33d042a130b5f9f099e4f25c690fb4675a701d0",
+              "cropBox": [
+                690,
+                220,
+                910,
+                395
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-mensuration-fe2b4778bb969c95"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-similar-triangles",
+          "stem": "In the figure, ABCD is a trapezium with \\(AD\\parallel BC\\) and \\(AD:BC=1:3\\). E lies on BC so ABED is a parallelogram; F is the midpoint of BC. DE and AF intersect at G. If \\([EGF]=7\\text{ cm}^2\\), find the area of ABCD.",
+          "stemZh": "如圖，ABCD 是梯形，\\(AD\\parallel BC\\)，\\(AD:BC=1:3\\)。E 在 BC 上使 ABED 成為平行四邊形；F 是 BC 的中點。DE 與 AF 交於 G。若 \\([EGF]=7\\text{ cm}^2\\)，求梯形 ABCD 的面積。",
+          "solution": "Normalize AD=BE=1, BC=3 and height h. Then EF=1/2. Similar triangles GAD and GFE give \\(GF:GA=EF:AD=1:2\\), so G is at height h/3 above BC. Hence \\([EGF]=\\tfrac12\\cdot\\tfrac12\\cdot h/3=h/12\\) while \\([ABCD]=(1+3)h/2=2h\\). The factor is 24, giving \\(168\\text{ cm}^2\\).",
+          "solutionZh": "令 \\(AD=BE=1,BC=3\\)，梯形高為 h，則 \\(EF=1/2\\)。由相似三角形得 G 離 BC 的高度為 \\(h/3\\)，所以 \\([EGF]=h/12\\)，而梯形面積為 \\(2h\\)，是前者的 24 倍。答案 \\(7\\times24=168\\text{ cm}^2\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q11 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第11題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "11",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q11",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "\\(133\\text{ cm}^2\\)",
+            "B": "\\(147\\text{ cm}^2\\)",
+            "C": "\\(168\\text{ cm}^2\\)",
+            "D": "\\(288\\text{ cm}^2\\)"
+          },
+          "optionsZh": {
+            "A": "\\(133\\text{ cm}^2\\)",
+            "B": "\\(147\\text{ cm}^2\\)",
+            "C": "\\(168\\text{ cm}^2\\)",
+            "D": "\\(288\\text{ cm}^2\\)"
+          },
+          "answer": "C",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q11.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q11.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-16472d1360abcf9f",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 3,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q11",
+              "sha256": "da37907dba250f6f4d577a953542a9e12bfa81f0a9cfae09ed9238f750f4b9c9",
+              "cropBox": [
+                600,
+                475,
+                915,
+                635
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-mensuration-16472d1360abcf9f"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 3,
+          "course": "core",
+          "subcategory": "plane-area-ratios",
+          "skill": "area-similar-triangles",
+          "stem": "In the figure, ABCD is a trapezium with \\(AD\\parallel BC\\) and \\(AD:BC=3:2\\). E lies on AD with \\(AE:AD=1:3\\). AC and BE intersect at F. If \\([BCF]=8\\text{ cm}^2\\), find the area of ABCD.",
+          "stemZh": "如圖，ABCD 是梯形，\\(AD\\parallel BC\\)，\\(AD:BC=3:2\\)。E 在 AD 上，且 \\(AE:AD=1:3\\)。AC 與 BE 交於 F。若 \\([BCF]=8\\text{ cm}^2\\)，求梯形 ABCD 的面積。",
+          "solution": "Let AD=3, BC=2 and height h, so AE=1. Similar triangles AEF and CBF give \\(AF:FC=AE:BC=1:2\\). Thus F has height 2h/3 above BC and \\([BCF]=2h/3\\). The trapezium area is \\(5h/2\\), giving ratio \\(15/4\\) and area \\(8\\times15/4=30\\text{ cm}^2\\).",
+          "solutionZh": "令 \\(AD=3,BC=2\\)，高為 h，得 \\(AE=1\\)。由 \\(\\triangle AEF\\sim\\triangle CBF\\) 得 \\(AF:FC=1:2\\)，故 F 離 BC 的高度為 \\(2h/3\\)。\\([BCF]=2h/3\\)，梯形面積為 \\(5h/2\\)，所以答案為 \\(8\\times15/4=30\\text{ cm}^2\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S3/area and volume 3/area ratio of 2D figures.pdf · Q12 (attribution not supplied)",
+          "sourceZh": "S3/area and volume 3/area ratio of 2D figures.pdf · 第12題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-d7bc46f81937cc09",
+            "sha256": "cfe0fecd0a943def138f9fcb25968b9221a36bc2448de9f05c05b2533de90d9c",
+            "file": "S3/area and volume 3/area ratio of 2D figures.pdf",
+            "number": "12",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-pilot-2026-10-28"
+          },
+          "classification": {
+            "version": "editor-pilot-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/framework-pipeline/mathematics.json#mensuration-q12",
+            "status": "editor-pipeline-reviewed"
+          },
+          "level": "free",
+          "options": {
+            "A": "\\(21\\text{ cm}^2\\)",
+            "B": "\\(22\\text{ cm}^2\\)",
+            "C": "\\(25\\text{ cm}^2\\)",
+            "D": "\\(30\\text{ cm}^2\\)"
+          },
+          "optionsZh": {
+            "A": "\\(21\\text{ cm}^2\\)",
+            "B": "\\(22\\text{ cm}^2\\)",
+            "C": "\\(25\\text{ cm}^2\\)",
+            "D": "\\(30\\text{ cm}^2\\)"
+          },
+          "answer": "D",
+          "diagram": {
+            "src": "assets/intake/intake-d7bc46f81937cc09/q12.png",
+            "alt": "Same-question source diagram, S3/area and volume 3/area ratio of 2D figures.pdf, Q12.",
+            "caption": "原題精準裁圖 / Source figure · 不按比例 / Not to scale",
+            "qa": {
+              "questionId": "import-mensuration-8c1dcf0e8b602006",
+              "status": "reviewed",
+              "reviewedAt": "2026-10-28",
+              "sourceId": "source-d7bc46f81937cc09",
+              "sourcePage": 3,
+              "evidence": "docs/qa/2026-10-28/framework-pipeline/figures.json#source-d7bc46f81937cc09-q12",
+              "sha256": "72831652c8002106cf8bd6e33c44b7d538785c7608e51e8a8bc6b28b42805499",
+              "cropBox": [
+                680,
+                725,
+                930,
+                930
+              ],
+              "verifiedUnrelatedMask": null
+            }
+          },
+          "id": "import-mensuration-8c1dcf0e8b602006"
         }
       ]
     },

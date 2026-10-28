@@ -21,6 +21,6 @@ NODE_BIN="${EAC_NODE_BIN:-node}"
 "${NODE_BIN}" scripts/build-content.cjs
 "${NODE_BIN}" --test tests/*.cjs
 git diff --check
-git add src content docs scripts tests .github README.md .gitignore requirements-math.txt
+git add src content docs scripts tests tools .github README.md .gitignore requirements-math.txt requirements-editor.txt
 git commit -m "$1"
 git push origin main

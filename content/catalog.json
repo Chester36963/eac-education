@@ -488,7 +488,8 @@
               "skills": [
                 "seq-term-pattern",
                 "seq-recognise-ap",
-                "seq-gp-properties"
+                "seq-gp-properties",
+                "seq-mean-recurrence"
               ]
             },
             {
@@ -638,6 +639,18 @@
               },
               "skills": [
                 "mens-map-scale"
+              ]
+            },
+            {
+              "id": "plane-area-ratios",
+              "name": {
+                "en": "Plane area ratios",
+                "zh-Hant": "平面圖形面積比"
+              },
+              "skills": [
+                "area-shared-height",
+                "area-similar-triangles",
+                "area-intersection-ratios"
               ]
             }
           ],
