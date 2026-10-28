@@ -1550,6 +1550,424 @@
             "en": "The supplied source has a short answer key. The full bilingual worked solution is independently derived; the question conditions and choices are retained.",
             "zh-Hant": "原卷附簡答；網站的雙語詳解為獨立推導，題目條件及選項沿用來源。"
           }
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 5,
+          "course": "core",
+          "source": "S6/Sequence/APGP review.pdf · Q3 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/APGP review.pdf · 第3題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-233787552d322be8",
+            "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+            "file": "S6/Sequence/APGP review.pdf",
+            "number": "3",
+            "page": 1,
+            "solutionPages": [
+              5
+            ],
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-apgp-2026-10-28"
+          },
+          "id": "import-sequences-35083d882189dbc8",
+          "assessmentMode": "solution-comparison",
+          "subcategory": "roots-sequences",
+          "skill": "seq-vieta",
+          "stem": "Let \\(p\\) and \\(q\\) be respectively the sum and product of the roots of \\((x+2)(x-2)=8(x-1)\\).\n(a) Write down the values of \\(p\\) and \\(q\\).\n(b) A geometric sequence has first term \\(\\log q\\) and second term \\(\\log p\\). Find the greatest value of \\(\\alpha\\) such that the sum of its \\((\\alpha+1)\\)th and \\((2\\alpha+1)\\)th terms is less than \\(\\log 2^{2020}\\).",
+          "stemZh": "設 \\(p\\) 及 \\(q\\) 分別為二次方程 \\((x+2)(x-2)=8(x-1)\\) 的兩根之和與積。\n(a) 寫出 \\(p\\) 及 \\(q\\) 的值。\n(b) 某等比數列的首項及第二項分別為 \\(\\log q\\) 及 \\(\\log p\\)。求 \\(\\alpha\\) 的最大值，使該數列第 \\((\\alpha+1)\\) 項與第 \\((2\\alpha+1)\\) 項之和小於 \\(\\log 2^{2020}\\)。",
+          "solution": "(a) Expanding gives \\(x^2-8x+4=0\\). By the sum and product of roots, \\(p=8\\) and \\(q=4\\).\n(b) The common ratio is \\(r=\\log8/\\log4=3/2\\), so \\(T_n=2\\log2\\,(3/2)^{n-1}\\). The term indices imply that \\(\\alpha\\) is a nonnegative integer. Cancel the positive factor \\(2\\log2\\) to obtain \\[(3/2)^\\alpha+(3/2)^{2\\alpha}<1010.\\] Set \\(t=(3/2)^\\alpha>0\\). Then \\(t^2+t-1010<0\\), hence \\(t<(\\sqrt{4041}-1)/2\\). Therefore \\(\\alpha<\\log[(\\sqrt{4041}-1)/2]/\\log(3/2)\\approx8.49\\). The greatest value is \\(\\boxed{8}\\). Direct substitution confirms that 8 satisfies the strict inequality and 9 does not.",
+          "solutionZh": "(a) 展開得 \\(x^2-8x+4=0\\)。由根與係數關係，\\(p=8\\)、\\(q=4\\)。\n(b) 公比為 \\(r=\\log8/\\log4=3/2\\)，故 \\(T_n=2\\log2\\,(3/2)^{n-1}\\)。由項數必須為正整數，\\(\\alpha\\) 為非負整數。兩邊除以正數 \\(2\\log2\\)，得 \\[(3/2)^\\alpha+(3/2)^{2\\alpha}<1010.\\] 令 \\(t=(3/2)^\\alpha>0\\)，則 \\(t^2+t-1010<0\\)，即 \\(t<(\\sqrt{4041}-1)/2\\)。取對數得 \\(\\alpha<8.49\\)（約值），故最大值為 \\(\\boxed{8}\\)。回代 8 及 9 可確認嚴格不等號的整數邊界。",
+          "solutionStatus": "independently-rederived",
+          "level": "free",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(p\\) and \\(q\\) be respectively the sum and product of the roots of \\((x+2)(x-2)=8(x-1)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Write down the values of \\(p\\) and \\(q\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) A geometric sequence has first term \\(\\log q\\) and second term \\(\\log p\\). Find the greatest value of \\(\\alpha\\) such that the sum of its \\((\\alpha+1)\\)th and \\((2\\alpha+1)\\)th terms is less than \\(\\log 2^{2020}\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(p\\) 及 \\(q\\) 分別為二次方程 \\((x+2)(x-2)=8(x-1)\\) 的兩根之和與積。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 寫出 \\(p\\) 及 \\(q\\) 的值。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 某等比數列的首項及第二項分別為 \\(\\log q\\) 及 \\(\\log p\\)。求 \\(\\alpha\\) 的最大值，使該數列第 \\((\\alpha+1)\\) 項與第 \\((2\\alpha+1)\\) 項之和小於 \\(\\log 2^{2020}\\)。"
+              }
+            ]
+          },
+          "classification": {
+            "version": "editor-apgp-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q3",
+            "status": "editor-pipeline-reviewed"
+          }
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "source": "S6/Sequence/APGP review.pdf · Q4 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/APGP review.pdf · 第4題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-233787552d322be8",
+            "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+            "file": "S6/Sequence/APGP review.pdf",
+            "number": "4",
+            "page": 1,
+            "solutionPages": [
+              6
+            ],
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-apgp-2026-10-28"
+          },
+          "id": "import-sequences-68c7d745d5ae8753",
+          "assessmentMode": "solution-comparison",
+          "subcategory": "infinite-geometric",
+          "skill": "seq-infinite-sum",
+          "stem": "A geometric sequence has first term \\(2048\\) and sum of its first three terms \\(5408\\). Let \\(r\\) be its common ratio.\n(a) Find the values of \\(r\\).\n(b) Its sum to infinity exists. Find the least value of \\(n\\) such that the sum of its first \\(n\\) terms is greater than \\(16270\\).",
+          "stemZh": "某等比數列的首項為 \\(2048\\)，首三項之和為 \\(5408\\)。設公比為 \\(r\\)。\n(a) 求 \\(r\\) 的值。\n(b) 已知該數列的無窮和存在。求最小的 \\(n\\)，使首 \\(n\\) 項之和大於 \\(16270\\)。",
+          "solution": "(a) Use the three terms directly: \\(2048(1+r+r^2)=5408\\). Thus \\(64r^2+64r-105=(8r-7)(8r+15)=0\\), giving \\(\\boxed{r=7/8\\text{ or }-15/8}\\). Both satisfy the three-term sum; neither may be discarded in part (a).\n(b) Convergence requires \\(|r|<1\\), so \\(r=7/8\\). Then \\[S_n=16384\\left[1-(7/8)^n\\right]>16270\\quad\\Longleftrightarrow\\quad(7/8)^n<57/8192.\\] Since \\(\\log(7/8)<0\\), dividing reverses the inequality: \\(n>\\log(57/8192)/\\log(7/8)\\approx37.20\\). Hence the least value is \\(\\boxed{38}\\); indeed \\(S_{37}\\le16270<S_{38}\\).",
+          "solutionZh": "(a) 直接用首三項：\\(2048(1+r+r^2)=5408\\)。化簡得 \\(64r^2+64r-105=(8r-7)(8r+15)=0\\)，所以 \\(\\boxed{r=7/8\\text{ 或 }-15/8}\\)。兩根均符合首三項和，(a) 不能預先捨去負公比。\n(b) 無窮和存在要求 \\(|r|<1\\)，故只取 \\(r=7/8\\)。由 \\[S_n=16384[1-(7/8)^n]>16270\\] 得 \\((7/8)^n<57/8192\\)。因 \\(\\log(7/8)<0\\)，相除時不等號反向，得 \\(n>37.20\\)（約值）。最小整數為 \\(\\boxed{38}\\)，並有 \\(S_{37}\\le16270<S_{38}\\)。",
+          "solutionStatus": "independently-rederived",
+          "level": "free",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "A geometric sequence has first term \\(2048\\) and sum of its first three terms \\(5408\\). Let \\(r\\) be its common ratio."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find the values of \\(r\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Its sum to infinity exists. Find the least value of \\(n\\) such that the sum of its first \\(n\\) terms is greater than \\(16270\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "某等比數列的首項為 \\(2048\\)，首三項之和為 \\(5408\\)。設公比為 \\(r\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(r\\) 的值。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 已知該數列的無窮和存在。求最小的 \\(n\\)，使首 \\(n\\) 項之和大於 \\(16270\\)。"
+              }
+            ]
+          },
+          "classification": {
+            "version": "editor-apgp-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q4",
+            "status": "editor-pipeline-reviewed"
+          }
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 5,
+          "course": "core",
+          "source": "S6/Sequence/APGP review.pdf · Q5 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/APGP review.pdf · 第5題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-233787552d322be8",
+            "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+            "file": "S6/Sequence/APGP review.pdf",
+            "number": "5",
+            "page": 1,
+            "solutionPages": [
+              7
+            ],
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-apgp-2026-10-28"
+          },
+          "id": "import-sequences-9f2d3660ddb2c277",
+          "assessmentMode": "solution-comparison",
+          "subcategory": "infinite-geometric",
+          "skill": "seq-infinite-sum",
+          "stem": "The second term of a geometric sequence is \\(200\\) and its sum to infinity is \\(800\\).\n(a) Find its first term and common ratio.\n(b) Find the least value of \\(n\\) such that the sum of its first \\(n\\) terms is greater than \\(800(1-10^{-10})\\).",
+          "stemZh": "某等比數列的第二項為 \\(200\\)，無窮和為 \\(800\\)。\n(a) 求首項及公比。\n(b) 求最小的 \\(n\\)，使首 \\(n\\) 項之和大於 \\(800(1-10^{-10})\\)。",
+          "solution": "(a) Let the first term be \\(a\\) and the common ratio be \\(r\\), where \\(|r|<1\\). From \\(ar=200\\) and \\(a/(1-r)=800\\), obtain \\(r(1-r)=1/4\\), so \\((2r-1)^2=0\\). Therefore \\(\\boxed{r=1/2,\\ a=400}\\).\n(b) \\(S_n=800(1-2^{-n})\\). The strict condition is \\(2^{-n}<10^{-10}\\), or \\(n>10/\\log2\\approx33.21928\\), with common logarithms. Thus \\(\\boxed{n=34}\\) is the least value. Check the exact powers at 33 and 34 rather than rounding the near-limit sums to 800.",
+          "solutionZh": "(a) 設首項為 \\(a\\)、公比為 \\(r\\)，其中 \\(|r|<1\\)。由 \\(ar=200\\)、\\(a/(1-r)=800\\)，得 \\(r(1-r)=1/4\\)，即 \\((2r-1)^2=0\\)。所以 \\(\\boxed{r=1/2,\\ a=400}\\)。\n(b) \\(S_n=800(1-2^{-n})\\)。原來的嚴格不等式等價於 \\(2^{-n}<10^{-10}\\)，故 \\(n>10/\\log2\\approx33.21928\\)，此處用常用對數。最小值為 \\(\\boxed{n=34}\\)。應比較 33 及 34 的精確次方，不要先把接近極限的和捨入至 800。",
+          "solutionStatus": "independently-rederived",
+          "level": "free",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The second term of a geometric sequence is \\(200\\) and its sum to infinity is \\(800\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find its first term and common ratio."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the least value of \\(n\\) such that the sum of its first \\(n\\) terms is greater than \\(800(1-10^{-10})\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "某等比數列的第二項為 \\(200\\)，無窮和為 \\(800\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求首項及公比。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 求最小的 \\(n\\)，使首 \\(n\\) 項之和大於 \\(800(1-10^{-10})\\)。"
+              }
+            ]
+          },
+          "classification": {
+            "version": "editor-apgp-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q5",
+            "status": "editor-pipeline-reviewed"
+          }
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 5,
+          "course": "core",
+          "source": "S6/Sequence/APGP review.pdf · Q6 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/APGP review.pdf · 第6題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-233787552d322be8",
+            "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+            "file": "S6/Sequence/APGP review.pdf",
+            "number": "6",
+            "page": 2,
+            "solutionPages": [
+              8
+            ],
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-apgp-2026-10-28"
+          },
+          "id": "import-sequences-ef33715928261796",
+          "assessmentMode": "solution-comparison",
+          "subcategory": "infinite-geometric",
+          "skill": "seq-infinite-subsequence",
+          "stem": "Let \\(G(n)\\) be the \\(n\\)th term of a geometric sequence. It is given that \\(G(2)=100\\) and \\(G(5)=256/5\\).\n(a) Find \\(G(1)\\).\n(b) Is it possible that the sum of the first \\(n\\) terms is greater than \\(630\\)? Explain.\n(c) Find the least value of \\(k\\) such that \\(G(k+1)+G(2k+1)<20\\).",
+          "stemZh": "設 \\(G(n)\\) 為某等比數列的第 \\(n\\) 項。已知 \\(G(2)=100\\) 及 \\(G(5)=256/5\\)。\n(a) 求 \\(G(1)\\)。\n(b) 首 \\(n\\) 項之和有沒有可能大於 \\(630\\)？解釋你的答案。\n(c) 求最小的 \\(k\\)，使 \\(G(k+1)+G(2k+1)<20\\)。",
+          "solution": "(a) If the common ratio is \\(r\\), then \\(r^3=G(5)/G(2)=64/125\\). Its unique real root is \\(r=4/5\\), so \\(\\boxed{G(1)=125}\\).\n(b) No. Every term is positive and \\(S_n=625[1-(4/5)^n]<625<630\\).\n(c) Put \\(t=(4/5)^k>0\\). Then \\(125(t+t^2)<20\\), or \\(25t^2+25t-4<0\\). Hence \\(t<(\\sqrt{41}-5)/10\\). Taking logarithms and reversing the inequality when dividing by \\(\\log(4/5)<0\\) gives \\[k>\\frac{\\log[(\\sqrt{41}-5)/10]}{\\log(4/5)}\\approx8.80099.\\] The least value is \\(\\boxed{9}\\). The exact expression is at least 20 for \\(k=8\\) and less than 20 for \\(k=9\\); it decreases thereafter.",
+          "solutionZh": "(a) 設公比為 \\(r\\)，則 \\(r^3=G(5)/G(2)=64/125\\)。唯一實根為 \\(r=4/5\\)，所以 \\(\\boxed{G(1)=125}\\)。\n(b) 不可能。所有項均為正數，而 \\(S_n=625[1-(4/5)^n]<625<630\\)。\n(c) 令 \\(t=(4/5)^k>0\\)，得 \\(125(t+t^2)<20\\)，即 \\(25t^2+25t-4<0\\)，所以 \\(t<(\\sqrt{41}-5)/10\\)。取對數後，因 \\(\\log(4/5)<0\\)，相除時不等號反向：\\[k>\\frac{\\log[(\\sqrt{41}-5)/10]}{\\log(4/5)}\\approx8.80099.\\] 最小值為 \\(\\boxed{9}\\)。回代 8 及 9 分別不符合及符合條件，且其後兩項之和持續遞減。",
+          "solutionStatus": "independently-rederived",
+          "level": "free",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(G(n)\\) be the \\(n\\)th term of a geometric sequence. It is given that \\(G(2)=100\\) and \\(G(5)=256/5\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find \\(G(1)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Is it possible that the sum of the first \\(n\\) terms is greater than \\(630\\)? Explain."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Find the least value of \\(k\\) such that \\(G(k+1)+G(2k+1)<20\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(G(n)\\) 為某等比數列的第 \\(n\\) 項。已知 \\(G(2)=100\\) 及 \\(G(5)=256/5\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(G(1)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 首 \\(n\\) 項之和有沒有可能大於 \\(630\\)？解釋你的答案。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 求最小的 \\(k\\)，使 \\(G(k+1)+G(2k+1)<20\\)。"
+              }
+            ]
+          },
+          "classification": {
+            "version": "editor-apgp-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q6",
+            "status": "editor-pipeline-reviewed"
+          }
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 5,
+          "course": "core",
+          "source": "S6/Sequence/APGP review.pdf · Q7 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/APGP review.pdf · 第7題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-233787552d322be8",
+            "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+            "file": "S6/Sequence/APGP review.pdf",
+            "number": "7",
+            "page": 2,
+            "solutionPages": [
+              9
+            ],
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-apgp-2026-10-28"
+          },
+          "id": "import-sequences-e03314fc746f0d18",
+          "assessmentMode": "solution-comparison",
+          "subcategory": "log-products",
+          "skill": "seq-log-gp",
+          "stem": "Real numbers \\(\\alpha\\) and \\(\\beta\\) satisfy \\(2^{\\beta-\\alpha}=16\\) and \\(\\log_2(2\\alpha+\\beta)=4\\).\n(a) Find \\(\\alpha\\) and \\(\\beta\\).\n(b) A geometric sequence has first term \\(\\log\\alpha\\) and second term \\(\\log\\beta\\). Find the least value of \\(n\\) such that the sum of its first \\(n\\) terms is greater than \\(1000\\).",
+          "stemZh": "實數 \\(\\alpha\\)、\\(\\beta\\) 滿足 \\(2^{\\beta-\\alpha}=16\\) 及 \\(\\log_2(2\\alpha+\\beta)=4\\)。\n(a) 求 \\(\\alpha\\) 及 \\(\\beta\\)。\n(b) 某等比數列的首項及第二項分別為 \\(\\log\\alpha\\) 及 \\(\\log\\beta\\)。求最小的 \\(n\\)，使首 \\(n\\) 項之和大於 \\(1000\\)。",
+          "solution": "(a) The two conditions give \\(\\beta-\\alpha=4\\) and \\(2\\alpha+\\beta=16\\). Thus \\(\\boxed{\\alpha=4,\\ \\beta=8}\\); both logarithms in part (b) are defined.\n(b) Using common logarithms, the first term is \\(2\\log2\\) and the ratio is \\(3/2\\). Therefore \\[S_n=4\\log2\\left[(3/2)^n-1\\right]>1000.\\] Since \\(\\log2>0\\), this gives \\((3/2)^n>1+250/\\log2\\), hence \\(n>\\log(1+250/\\log2)/\\log(3/2)\\approx16.58148\\). The least value is \\(\\boxed{17}\\); direct sums satisfy \\(S_{16}\\le1000<S_{17}\\). Note that the subscripted logarithm in part (a) has base 2, while the unbased logarithms in part (b) are common logarithms.",
+          "solutionZh": "(a) 兩個條件分別化為 \\(\\beta-\\alpha=4\\)、\\(2\\alpha+\\beta=16\\)。聯立得 \\(\\boxed{\\alpha=4,\\ \\beta=8}\\)，兩數均為正，(b) 的對數有定義。\n(b) 用常用對數，首項為 \\(2\\log2\\)，公比為 \\(3/2\\)。因此 \\[S_n=4\\log2[(3/2)^n-1]>1000.\\] 由 \\(\\log2>0\\)，得 \\((3/2)^n>1+250/\\log2\\)。取對數後 \\(n>16.58148\\)（約值），故最小值為 \\(\\boxed{17}\\)。回代有 \\(S_{16}\\le1000<S_{17}\\)。留意 (a) 的下標對數以 2 為底，(b) 沒有下標的對數則是常用對數。",
+          "solutionStatus": "independently-rederived",
+          "level": "free",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Real numbers \\(\\alpha\\) and \\(\\beta\\) satisfy \\(2^{\\beta-\\alpha}=16\\) and \\(\\log_2(2\\alpha+\\beta)=4\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find \\(\\alpha\\) and \\(\\beta\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) A geometric sequence has first term \\(\\log\\alpha\\) and second term \\(\\log\\beta\\). Find the least value of \\(n\\) such that the sum of its first \\(n\\) terms is greater than \\(1000\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "實數 \\(\\alpha\\)、\\(\\beta\\) 滿足 \\(2^{\\beta-\\alpha}=16\\) 及 \\(\\log_2(2\\alpha+\\beta)=4\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(\\alpha\\) 及 \\(\\beta\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 某等比數列的首項及第二項分別為 \\(\\log\\alpha\\) 及 \\(\\log\\beta\\)。求最小的 \\(n\\)，使首 \\(n\\) 項之和大於 \\(1000\\)。"
+              }
+            ]
+          },
+          "classification": {
+            "version": "editor-apgp-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q7",
+            "status": "editor-pipeline-reviewed"
+          }
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "hard",
+          "minForm": 5,
+          "course": "core",
+          "source": "S6/Sequence/APGP review.pdf · Q8 (attribution not supplied)",
+          "sourceZh": "S6/Sequence/APGP review.pdf · 第8題（未提供原出處）",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-233787552d322be8",
+            "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+            "file": "S6/Sequence/APGP review.pdf",
+            "number": "8",
+            "page": 2,
+            "solutionPages": [
+              10
+            ],
+            "attributionStatus": "not-supplied",
+            "intakeStage": "editor-apgp-2026-10-28"
+          },
+          "id": "import-sequences-ffd4d7a5803d0451",
+          "assessmentMode": "solution-comparison",
+          "subcategory": "sequence-applications",
+          "skill": "seq-interleave",
+          "stem": "Let \\(a_n\\) be the \\(n\\)th term of sequence \\(X\\). For every positive integer \\(n\\), \\(a_{2n+2}=a_{2n}+2\\) and \\(a_{2n+1}=a_{2n-1}-3\\). It is given that \\(a_2=7\\) and \\(a_3=63\\).\n(a) Find \\(a_1\\) and \\(a_4\\).\n(b) If \\(m\\) is an integer, find the smallest value of \\(m\\) such that the sum of the first \\((2m-1)\\) terms of \\(X\\) is greater than \\(2251\\).\n(c) Let \\(b_n\\) be the \\(n\\)th term of sequence \\(Y\\), where \\(b_n=1.2^{a_{2n}}\\) for every positive integer \\(n\\). Find the greatest value of \\(k\\) such that the product of its first \\(k\\) terms is less than \\(10^{30}\\).",
+          "stemZh": "設 \\(a_n\\) 為數列 \\(X\\) 的第 \\(n\\) 項。對所有正整數 \\(n\\)，\\(a_{2n+2}=a_{2n}+2\\) 及 \\(a_{2n+1}=a_{2n-1}-3\\)。已知 \\(a_2=7\\)、\\(a_3=63\\)。\n(a) 求 \\(a_1\\) 及 \\(a_4\\)。\n(b) 設 \\(m\\) 為整數。求最小的 \\(m\\)，使數列 \\(X\\) 首 \\((2m-1)\\) 項之和大於 \\(2251\\)。\n(c) 數列 \\(Y\\) 的第 \\(n\\) 項為 \\(b_n=1.2^{a_{2n}}\\)，其中 \\(n\\) 為正整數。求最大的 \\(k\\)，使數列 \\(Y\\) 首 \\(k\\) 項之積小於 \\(10^{30}\\)。",
+          "solution": "(a) \\(a_3=a_1-3=63\\), so \\(\\boxed{a_1=66}\\); also \\(\\boxed{a_4=a_2+2=9}\\).\n(b) Odd-indexed terms form an AP with first term 66 and difference -3; even-indexed terms form an AP with first term 7 and difference 2. Among the first \\(2m-1\\) terms there are \\(m\\) odd-indexed terms and \\(m-1\\) even-indexed terms. Thus \\[S_{2m-1}=\\frac m2[132-3(m-1)]+\\frac{m-1}{2}[14+2(m-2)]=\\frac{-m^2+143m-10}{2}.\\] The condition becomes \\(m^2-143m+4512=(m-47)(m-96)<0\\). Hence \\(47<m<96\\), and the smallest integer is \\(\\boxed{48}\\). Both endpoints give equality, not an admissible sum; the sum is not assumed to increase for all \\(m\\).\n(c) \\(a_{2n}=7+2(n-1)=2n+5\\). Hence \\[\\prod_{n=1}^{k}b_n=1.2^{\\sum_{n=1}^{k}(2n+5)}=1.2^{k(k+6)}.\\] Taking common logarithms gives \\(k(k+6)\\log1.2<30\\). Therefore \\(k<-3+\\sqrt{9+30/\\log1.2}\\approx16.69461\\), so the greatest value is \\(\\boxed{16}\\). Exact powers confirm the boundary at 16 and 17.",
+          "solutionZh": "(a) 由 \\(a_3=a_1-3=63\\)，得 \\(\\boxed{a_1=66}\\)；另有 \\(\\boxed{a_4=a_2+2=9}\\)。\n(b) 奇數位置各項成等差數列，首項 66、公差 -3；偶數位置各項亦成等差數列，首項 7、公差 2。首 \\(2m-1\\) 項有 \\(m\\) 個奇數位置項及 \\(m-1\\) 個偶數位置項，故 \\[S_{2m-1}=\\frac m2[132-3(m-1)]+\\frac{m-1}{2}[14+2(m-2)]=\\frac{-m^2+143m-10}{2}.\\] 原條件化為 \\((m-47)(m-96)<0\\)，即 \\(47<m<96\\)。最小整數為 \\(\\boxed{48}\\)。47 與 96 均只得相等，不能包括；也不能假設總和一直遞增。\n(c) \\(a_{2n}=7+2(n-1)=2n+5\\)，所以 \\[\\prod_{n=1}^{k}b_n=1.2^{\\sum_{n=1}^{k}(2n+5)}=1.2^{k(k+6)}.\\] 取常用對數，得 \\(k(k+6)\\log1.2<30\\)。由此 \\(k<-3+\\sqrt{9+30/\\log1.2}\\approx16.69461\\)，故最大值為 \\(\\boxed{16}\\)。以精確次方檢查 16、17，可確定嚴格不等號的邊界。",
+          "solutionStatus": "independently-rederived",
+          "level": "free",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(a_n\\) be the \\(n\\)th term of sequence \\(X\\). For every positive integer \\(n\\), \\(a_{2n+2}=a_{2n}+2\\) and \\(a_{2n+1}=a_{2n-1}-3\\). It is given that \\(a_2=7\\) and \\(a_3=63\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find \\(a_1\\) and \\(a_4\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) If \\(m\\) is an integer, find the smallest value of \\(m\\) such that the sum of the first \\((2m-1)\\) terms of \\(X\\) is greater than \\(2251\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Let \\(b_n\\) be the \\(n\\)th term of sequence \\(Y\\), where \\(b_n=1.2^{a_{2n}}\\) for every positive integer \\(n\\). Find the greatest value of \\(k\\) such that the product of its first \\(k\\) terms is less than \\(10^{30}\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(a_n\\) 為數列 \\(X\\) 的第 \\(n\\) 項。對所有正整數 \\(n\\)，\\(a_{2n+2}=a_{2n}+2\\) 及 \\(a_{2n+1}=a_{2n-1}-3\\)。已知 \\(a_2=7\\)、\\(a_3=63\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(a_1\\) 及 \\(a_4\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 設 \\(m\\) 為整數。求最小的 \\(m\\)，使數列 \\(X\\) 首 \\((2m-1)\\) 項之和大於 \\(2251\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 數列 \\(Y\\) 的第 \\(n\\) 項為 \\(b_n=1.2^{a_{2n}}\\)，其中 \\(n\\) 為正整數。求最大的 \\(k\\)，使數列 \\(Y\\) 首 \\(k\\) 項之積小於 \\(10^{30}\\)。"
+              }
+            ]
+          },
+          "classification": {
+            "version": "editor-apgp-v1",
+            "basis": "editor-reviewed-primary-solving-method",
+            "evidence": "docs/qa/2026-10-28/apgp-review/mathematics.json#Q8",
+            "status": "editor-pipeline-reviewed"
+          }
         }
       ]
     },

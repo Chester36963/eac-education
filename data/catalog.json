@@ -686,10 +686,10 @@
                 "seq-product-sum",
                 "seq-log-gp"
               ],
-              "questionCount": 7,
+              "questionCount": 8,
               "skillCounts": {
                 "seq-product-sum": 7,
-                "seq-log-gp": 0
+                "seq-log-gp": 1
               }
             },
             {
@@ -715,9 +715,9 @@
               "skills": [
                 "seq-vieta"
               ],
-              "questionCount": 5,
+              "questionCount": 6,
               "skillCounts": {
-                "seq-vieta": 5
+                "seq-vieta": 6
               }
             },
             {
@@ -730,9 +730,9 @@
                 "seq-interleave",
                 "seq-infinite"
               ],
-              "questionCount": 2,
+              "questionCount": 3,
               "skillCounts": {
-                "seq-interleave": 1,
+                "seq-interleave": 2,
                 "seq-infinite": 1
               }
             },
@@ -786,10 +786,10 @@
                 "seq-infinite-sum",
                 "seq-infinite-subsequence"
               ],
-              "questionCount": 5,
+              "questionCount": 8,
               "skillCounts": {
-                "seq-infinite-sum": 3,
-                "seq-infinite-subsequence": 2
+                "seq-infinite-sum": 5,
+                "seq-infinite-subsequence": 3
               }
             },
             {
@@ -811,24 +811,24 @@
               }
             }
           ],
-          "questionCount": 58,
+          "questionCount": 64,
           "courses": [
             "core"
           ],
           "coverage": {
             "types": {
-              "structured": 40,
+              "structured": 46,
               "mcq": 18
             },
             "difficulty": {
-              "hard": 23,
+              "hard": 27,
               "easy": 8,
-              "medium": 26,
+              "medium": 28,
               "challenging": 1
             },
             "minForm": {
               "4": 43,
-              "5": 15
+              "5": 21
             }
           }
         }
