@@ -854,9 +854,9 @@
                 "lp-half-plane",
                 "lp-parameter-feasibility"
               ],
-              "questionCount": 2,
+              "questionCount": 4,
               "skillCounts": {
-                "lp-half-plane": 1,
+                "lp-half-plane": 3,
                 "lp-parameter-feasibility": 1
               }
             },
@@ -870,10 +870,10 @@
                 "lp-lattice-count",
                 "lp-discrete-objective"
               ],
-              "questionCount": 3,
+              "questionCount": 6,
               "skillCounts": {
-                "lp-lattice-count": 1,
-                "lp-discrete-objective": 2
+                "lp-lattice-count": 3,
+                "lp-discrete-objective": 3
               }
             },
             {
@@ -886,10 +886,10 @@
                 "lp-objective-vertices",
                 "lp-objective-range"
               ],
-              "questionCount": 4,
+              "questionCount": 18,
               "skillCounts": {
-                "lp-objective-vertices": 3,
-                "lp-objective-range": 1
+                "lp-objective-vertices": 15,
+                "lp-objective-range": 3
               }
             },
             {
@@ -901,9 +901,9 @@
               "skills": [
                 "lp-graph-systems"
               ],
-              "questionCount": 2,
+              "questionCount": 8,
               "skillCounts": {
-                "lp-graph-systems": 2
+                "lp-graph-systems": 8
               }
             },
             {
@@ -915,27 +915,27 @@
               "skills": [
                 "lp-modelling"
               ],
-              "questionCount": 1,
+              "questionCount": 3,
               "skillCounts": {
-                "lp-modelling": 1
+                "lp-modelling": 3
               }
             }
           ],
-          "questionCount": 12,
+          "questionCount": 39,
           "courses": [
             "core"
           ],
           "coverage": {
             "types": {
-              "mcq": 8,
-              "structured": 4
+              "mcq": 29,
+              "structured": 10
             },
             "difficulty": {
-              "medium": 3,
-              "hard": 9
+              "medium": 25,
+              "hard": 14
             },
             "minForm": {
-              "6": 12
+              "6": 39
             }
           }
         }
