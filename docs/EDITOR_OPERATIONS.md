@@ -10,7 +10,7 @@
 
 服務只綁定 127.0.0.1；管理頁、原卷、提取快取及備份不在 src，GitHub Pages 只發布 src。API 要求本機 session cookie、token 與同源；不接受跨網站呼叫。不要將管理埠轉發至公網。
 
-預設來源根目錄為 `/Users/chester/Downloads/By topic Review materials`；可用 `EAC_SOURCE_ROOT=/absolute/folder ./scripts/editor.sh` 指定。只接受已登記、位於根目錄內的 PDF／DOCX，拒絕 symlink／越界路徑。Node 22+、Python3（`python3 -m pip install -r requirements-editor.txt`，包含 pypdf、Pillow）及 Poppler `pdftoppm` 須可用；抽取時沿用啟動 shell 的 PATH／PYTHONPATH。本機需要時可用 `PYTHONPATH=/tmp/eac-math-deps ./scripts/editor.sh`，新電腦應在自己的 Python 環境安裝依賴，勿依賴這個暫存路徑。
+預設來源根目錄為 `/Users/chester/Downloads/By topic Review materials`；可用 `EAC_SOURCE_ROOT=/absolute/folder ./scripts/editor.sh` 指定。只接受已登記、位於根目錄內的 PDF／DOCX，拒絕 symlink／越界路徑。Node 22+、Python3（`python3 -m pip install -r requirements-editor.txt`，包含 pypdf、Pillow、供精準裁圖重建使用的 PyMuPDF）及 Poppler `pdftoppm` 須可用；抽取時沿用啟動 shell 的 PATH／PYTHONPATH。本機需要時可用 `PYTHONPATH=/tmp/eac-math-deps ./scripts/editor.sh`，新電腦應在自己的 Python 環境安裝依賴，勿依賴這個暫存路徑。
 
 ## 固定流程
 
@@ -50,3 +50,13 @@
 - `node tests/browser/editor-pilots.cjs`：兩份新卷實際作答／自評、四寬度三語及解析畫面。
 
 首版限制：尚未提供自動數學解題／自動翻譯審核；Word 的 WMF／EMF 保留供原檔核查，瀏覽器不能直接顯示時使用配對 PDF。混合課題原卷可分開批次前須先擴展批次模型，目前每批主要課題一個，跨課內容用標籤。資料庫帳戶及跨裝置同步不屬本階段；學生紀錄仍在原瀏覽器。
+
+
+## 多來源共用驗收與發布核對
+
+- `scripts/preview-editor-batch.cjs <batch-id> <QA目錄>` 逐題使用共用 renderer，檢查 320／390／768／1440px × 英文／繁中／雙語，保留完整頁及每幅實際 rendered figure 截圖。原圖必須先完成來源／題號／標記與 standalone 資產核對，截圖存在不等於完成圖像驗收。
+- `EAC_EDITOR_BATCHES=<batch-id> EAC_QA_OUTPUT=<QA目錄> node tests/browser/editor-pilots.cjs` 四種尺寸使用獨立 context／儲存並行；每種仍逐題作答、評分／自評、切換三語言與結束。數學正確性不由此測試判定。
+- `EAC_EDITOR_BATCH=<batch-id> EAC_QA_OUTPUT=<QA目錄> node tests/browser/solution-blocks.cjs` 根據批次的正式課題對應檢查含 solutionBlocks 的解析、圖像不得提前揭示、完成後 session 清空時仍能展開回顧。
+- `node scripts/verify-editor-release.cjs <batch-id> <main SHA> <Deploy run ID> <Pages run ID> <QA目錄>` 先確認 main 的 Deploy 成功，再查 Pages 使用的 gh-pages commit，其訊息須為 `deploy: <main SHA>`。最後核對 manifest、所有當前章節／搜尋／程式／樣式與今批圖資 SHA256。Pages head SHA 不是 main SHA，不能直接比較兩者。
+
+本機頁圖與提取快取不隨學生網站發布。來源 `questionCount` 未逐題確認時保持未知，支援方格紙不當作一份零題練習卷。每批 QA 的 `review.json` 與工作台記錄才是逐題結果；原始 inventory 是來源快照，不冒充最新入題完成清單。

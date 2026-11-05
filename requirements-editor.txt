@@ -1,3 +1,5 @@
 # Local-only PDF/text/media intake. Requires Poppler pdftoppm on PATH.
 pypdf>=5,<7
 Pillow>=11,<13
+# Deterministic PDF crop rendering used by reviewed figure rebuild scripts.
+PyMuPDF>=1.24,<2

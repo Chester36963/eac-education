@@ -18,7 +18,7 @@
 | LP2-02 | 完成 | 71 項精確數學、符號、答案與雙語選項對照；`mathematics.json`。Q15、Q27 使用參數差值證明，不以少量代入代替全稱推理。 |
 | LP2-03 | 完成 | 原頁→獨立資產→實際草稿圖像逐幅檢視。修正 Q10、Q18、Q21、Q26、Q28 裁邊，移除 Q5／Q10 無關掃描殘留；記錄 deterministic crop boxes、mask、來源 SHA 與資產 SHA。見 `content/intake/linear-programming-review2/figures.json`、`previews/figure-contact-*.png`。 |
 | LP2-04 | 完成 | 324 草稿狀態、324 實際評分／自評狀態、96 解析及完成後回顧狀態，涵蓋 320／390／768／1440px 與三語言；`previews/`、`student/`、`solution-journey/`。1,121 Node 測試、完整 study-journey、Core/M1/M2 搜尋／組題／續做隔離通過，見 `unit-tests.log`、`study-journey.log`、`courses.log`。已執行匯入重播，`replay.json` 確認 no-op。 |
-| LP2-05 | 待驗收 | 同 repository／main 發布、正式檔案 SHA256 及正式作答流程核對；完成後寫入 `release.json`，不以本機匯入冒充部署。 |
+| LP2-05 | 完成 | main `f13ed9a` 已發布；Deploy `42045076928`、Pages `42045182185` 成功，128 個正式檔案 SHA256 一致，revision `1b59271bbc82cf4f`／1,280 題。正式站 324 實際作答狀態及96解析／完成後回顧狀態通過，見 `release.json`、`live-student/`、`live-solution-journey/`。正式題庫搜尋／篩選／收藏／預覽／手機版及完整溫習／續做／錯題重練亦通過，見 `live-library.log`、`live-study-journey.log`。 |
 | LP2-H09 | 待補來源 | p3 Q9：由坐標得面積 `k(k+4)/2`；由 60° 得 `k=2+2√3`，故面積 `12+8√3`，不等於原題 `18√3`。原答案 D 所指 `k=6` 亦只給面積 30。已查原題 p3、來源答案 p11、坐標面積與角公式，不能同時成立。下一步：取得乾淨原題／作者訂正，再重新驗算；沒有自行更改題目數值。 |
 | LP2-NEXT | 待處理 | 下一來源 `linear programming review oxford.pdf` 尚未逐題點清，題數維持未知；方格紙是支援素材，不算題目來源。 |
 

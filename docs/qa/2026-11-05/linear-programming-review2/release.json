@@ -1,0 +1,538 @@
+{
+  "checkedAt": "2026-11-05T14:28:39.880Z",
+  "base": "https://chester36963.github.io/eac-education/",
+  "batchId": "intake-819f9b07a7b59212",
+  "sourceId": "source-819f9b07a7b59212",
+  "sourceSha256": "20b34e69a4ef345fbfaafa6cabbf7d05bbb66a94756a8f03fc620718bb5b6929",
+  "commit": "f13ed9aca38858a383689fcd707142a315716d1a",
+  "deployRunId": 42045076928,
+  "pagesRunId": 42045182185,
+  "pagesCommit": "3e6a2f0274827080ee9da3ba8a6fe6f332fae966",
+  "revision": "1b59271bbc82cf4f",
+  "totalQuestions": 1280,
+  "chapters": 8,
+  "counts": {
+    "source": 28,
+    "recorded": 28,
+    "publish": 27,
+    "duplicate": 0,
+    "held": 1
+  },
+  "sha256Files": 128,
+  "checked": [
+    {
+      "path": "app.html",
+      "sha256": "68103c2a85ee81cdbfb6b9d1a792ed3e437981453de40a1b6403aca54e9b38cf"
+    },
+    {
+      "path": "data/bank.json",
+      "sha256": "2d284e6857478475c48683794401b48857e76c5febe529eb23ba8b12580453d5"
+    },
+    {
+      "path": "auth.html",
+      "sha256": "dfe3f36e9f97e547bc056da9eb5ea0bd8bdfa8210a9c3662f429e7d09b6b2173"
+    },
+    {
+      "path": "settings.html",
+      "sha256": "b61271ab7b3f582b80980d2923092123a24895e9e616d5be478f238b5fa0952c"
+    },
+    {
+      "path": "dashboard.html",
+      "sha256": "5750b220aa0eb6804b6158ec008dd97f43da8e47c28edb338e9e9bddb1d961e1"
+    },
+    {
+      "path": "index.html",
+      "sha256": "c10d631dd47171ce805743a0b897315d169f7f591c86162afdea823eda11052b"
+    },
+    {
+      "path": "data/catalog.53569b86e93eb7dd.json",
+      "sha256": "53569b86e93eb7dd68390adc9ee6884fd87dc463c75a68e642b768fe4f4ac705"
+    },
+    {
+      "path": "library.html",
+      "sha256": "4afb0d63c8f5cf0650606157c487f83383b87bb261ddd72847650544f82bf9fa"
+    },
+    {
+      "path": "data/question-index.e0d6beb06359bf23.json",
+      "sha256": "e0d6beb06359bf23cd12061a62106a5daa68b04d8c3d8ca31c2a05855bcf2ffe"
+    },
+    {
+      "path": "data/search/four-centres.87b6577506cd23ee.json",
+      "sha256": "87b6577506cd23ee56669747d965ffef465c4644cc372ec8989a53069418245e"
+    },
+    {
+      "path": "data/search/four-centres.d429c20eae20ee5d.json",
+      "sha256": "d429c20eae20ee5de1fda55c549b9b87a67cc47ed9eb1393a5f4a75027cd4855"
+    },
+    {
+      "path": "data/search/locus.52eeea5df7a7b98a.json",
+      "sha256": "52eeea5df7a7b98a109d462df1fadd4ba8376cdf2f8142310b1b0cdf4fa9376a"
+    },
+    {
+      "path": "data/search/four-centres.7ea64259ee7debde.json",
+      "sha256": "7ea64259ee7debde58e943a164638d7aaf2353937e23419a3f24b55559ce80ae"
+    },
+    {
+      "path": "data/search/circle-equation.214dcf1887b898c3.json",
+      "sha256": "214dcf1887b898c35d74b8bd2e44eb4f81b9eaf7e6b154ec6918f638b61103ab"
+    },
+    {
+      "path": "data/search/circle-equation.69c02a8dff1c5568.json",
+      "sha256": "69c02a8dff1c5568e5f8fe8239038b9c963d8021bbe17fac74147b9106d04e66"
+    },
+    {
+      "path": "data/search/locus.fd9d2cbf7ed2a335.json",
+      "sha256": "fd9d2cbf7ed2a335d647055e54f291cb76458c7fc6105f3d113cbf41ba6c85ce"
+    },
+    {
+      "path": "data/search/polynomial.f377bd2e2e02c9a9.json",
+      "sha256": "f377bd2e2e02c9a9950eae37af264f541755b0c36fae53fe7d060f7275606a89"
+    },
+    {
+      "path": "data/search/polynomial.43e823bf32a4c91e.json",
+      "sha256": "43e823bf32a4c91e2ef42b50468695c87aa6b535ffdbdee612b2fd8e35d5736f"
+    },
+    {
+      "path": "data/search/sequences.ab6715dfc2311f80.json",
+      "sha256": "ab6715dfc2311f801660bb92743606d85fd6af81da1afab01ccd89fb0937d397"
+    },
+    {
+      "path": "data/search/linear-programming.cf5843c47f3edb53.json",
+      "sha256": "cf5843c47f3edb53f0240e3c3c31accaf2499943895c809b06b859420ba429e3"
+    },
+    {
+      "path": "data/search/mensuration.2c9f75323de6b8af.json",
+      "sha256": "2c9f75323de6b8affe8af2f4e83bd7e396883ea03e46786c58af1fcfa79ff00a"
+    },
+    {
+      "path": "data/search/statistics.f98d3c312fd36bfc.json",
+      "sha256": "f98d3c312fd36bfc7480a6a852bfd9f91c799f29347a50093b66faf11889af42"
+    },
+    {
+      "path": "data/search/mensuration.41feba679a2cdf02.json",
+      "sha256": "41feba679a2cdf028672e921d326a24a56866767b29795ef78228e5e003a737a"
+    },
+    {
+      "path": "data/chapters/four-centres.f8542d03f6e70c03.json",
+      "sha256": "f8542d03f6e70c03dfd1ce52ee8b633ad143b1dc601de64530090548c6f0c03f"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.36bdbac50be61a32.json",
+      "sha256": "36bdbac50be61a32d0ab5e463a7cf420455b0a712f657c3ef31287873627dc49"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.25043db8d2d630b6.json",
+      "sha256": "25043db8d2d630b637c71d06be4d897acf188648cef24ba55cc111c900f14693"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.b63a0aee73d69123.json",
+      "sha256": "b63a0aee73d691231dcd71931db9cd2233ab09b1d2345496e91b19a631f05ef1"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.204ffe0b177b293b.json",
+      "sha256": "204ffe0b177b293b2aa32dadb34aa29954c09973c98b15eadf0830a565c721f7"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.cd307039fa581f69.json",
+      "sha256": "cd307039fa581f69a186c323ea925492de48a225dbeef7fdcee970376e0cb0d2"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.3d2d2f9942a5fa55.json",
+      "sha256": "3d2d2f9942a5fa55a7eea8c288925c95a2074b3450fffcf92c2b618293a52d56"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.dded4aa6b17a8b7a.json",
+      "sha256": "dded4aa6b17a8b7a2eb728f40b9369b9bf0231f2a884fc0ba780fc8a034734a4"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.a89b90fc62b5b753.json",
+      "sha256": "a89b90fc62b5b753a0b5e53339a0b2ba312bd5d7f07d476133346352f6f678ea"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.c2b5cf0cf3a78033.json",
+      "sha256": "c2b5cf0cf3a78033e05e645ec37a79a489262018390f8fd334a898f54c5cf8e6"
+    },
+    {
+      "path": "data/chapters/locus.d694622c94fdfa1e.json",
+      "sha256": "d694622c94fdfa1e2068827e629747ea7ec322b5ad5c78afe121251cfa3cb5b7"
+    },
+    {
+      "path": "data/chapters/locus-chunk.f8906ee0387b0f57.json",
+      "sha256": "f8906ee0387b0f575dd3dc1a14436ce18b04a14cce0565e2e271249aaeb6ab06"
+    },
+    {
+      "path": "data/chapters/locus-chunk.beb02589c41afa79.json",
+      "sha256": "beb02589c41afa79a85f3a3ccf58c82ddd65a73ac2f7e5d0a14ba07e344b7d3e"
+    },
+    {
+      "path": "data/chapters/locus-chunk.fb14d2dd226a2949.json",
+      "sha256": "fb14d2dd226a294914be5afffb50e4e367b2772ff830e87ef1f05ced0372c94b"
+    },
+    {
+      "path": "data/chapters/locus-chunk.c4cc6cbf95c8941a.json",
+      "sha256": "c4cc6cbf95c8941a8d5cf1b1fc2be07519b7d65c9ab4a812829aa66b1808aba7"
+    },
+    {
+      "path": "data/chapters/locus-chunk.9e249576900be271.json",
+      "sha256": "9e249576900be2715b1359dee470359ea790a4118d5df1dbf650e10686b36139"
+    },
+    {
+      "path": "data/chapters/locus-chunk.b9bfe610181f5fd6.json",
+      "sha256": "b9bfe610181f5fd623e28961a70fea8dc358741dbdc2af21301945155ee36682"
+    },
+    {
+      "path": "data/chapters/locus-chunk.0001268726684be7.json",
+      "sha256": "0001268726684be7b37b977b2986830ae21cf882d76bcadc343206d3b10d6a59"
+    },
+    {
+      "path": "data/chapters/locus-chunk.60b2e22e6c5bb0e0.json",
+      "sha256": "60b2e22e6c5bb0e0521cbe892675fafe8eed3b32a35feaf13cff3e46235273df"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.338f86fde18d83f5.json",
+      "sha256": "338f86fde18d83f54dcd8dcfbadb11b4240805baf5dad7d9fb8f13ea85f74bc5"
+    },
+    {
+      "path": "data/chapters/circle-equation.b5bafa7b1c30efd1.json",
+      "sha256": "b5bafa7b1c30efd177cbb8e1065ea8a2be5f75c6ef29a2e5e3ce94c1067eff71"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.6d3c12c6dd366489.json",
+      "sha256": "6d3c12c6dd366489729eca7b95780e62f8bdc7140f14505a8df1bcbe4bfea091"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.1a90f36f0ee4a479.json",
+      "sha256": "1a90f36f0ee4a4799e46c6d9f9629b05157fe749098ad637f3edfb38a5e1d9af"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.d9f8c16f84fdf3bd.json",
+      "sha256": "d9f8c16f84fdf3bd08c8ab8f1ff32d166493c4bf6e4f72ace19597ba4b10e4f6"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.b7ca70659bfb7347.json",
+      "sha256": "b7ca70659bfb7347950ac0becf730256edaaee02cce9eab0a7da93e2c0134f8d"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.1a1af2f44952bf9e.json",
+      "sha256": "1a1af2f44952bf9ea71538c2782ccfbecc0c40637215a33f112ff4c579e42bf6"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.9228dc35a578e2f9.json",
+      "sha256": "9228dc35a578e2f981282f3e79fd22ea2e5f1725a27e9f28637d1129ef2a2190"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.035eefe4f53bea43.json",
+      "sha256": "035eefe4f53bea437dd3f72e59b02fec8169dbb62a4a8f3aa180ed6cf5609a3b"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.c3a534bae42e3574.json",
+      "sha256": "c3a534bae42e357482c33a9286b61fe420517d60791cd202fd71ce9eac532461"
+    },
+    {
+      "path": "data/chapters/polynomial.c1459c875cf5e8f6.json",
+      "sha256": "c1459c875cf5e8f669726c7ca50ba23ebdef7dc2097ab9f894fe2c08ba1f7cb1"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.f97dbb2231d270b3.json",
+      "sha256": "f97dbb2231d270b35d71d3ec8ef903cff6974aff17b5ac6b9badad1fefb2216b"
+    },
+    {
+      "path": "data/chapters/linear-programming-chunk.bb25fbc868c5c88c.json",
+      "sha256": "bb25fbc868c5c88cca2da1b7766eb6a8667b0008ed54953aa86056fe663df77b"
+    },
+    {
+      "path": "data/chapters/linear-programming-chunk.cafd9978ffffebde.json",
+      "sha256": "cafd9978ffffebdefba6573df7aa289c03612c24f5e9fd90627c869d8268d286"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.7b83d9a00850e417.json",
+      "sha256": "7b83d9a00850e4171424eba06c11fa65eaac3435a611293879212492e81485a2"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.4982fae94b51e357.json",
+      "sha256": "4982fae94b51e357919ae5c3dfc43d98c89dbd5dc4c9b7e872eb0e30ccf1d392"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.0ad3b3e8f36383e1.json",
+      "sha256": "0ad3b3e8f36383e1cebab69463f8165125bcc99cd890d8326775761d9fb78e9f"
+    },
+    {
+      "path": "data/chapters/sequences.d1e3ee27ca6ce182.json",
+      "sha256": "d1e3ee27ca6ce1822b51c462e128a0583218ca57b2ed1d88c7841acfefa4670c"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.782aa648b8812086.json",
+      "sha256": "782aa648b8812086e119e82f2d104b122b0a40338ff0bb1e07df76b8c7907ad5"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.4380a41d41ff0ba1.json",
+      "sha256": "4380a41d41ff0ba1732b3b4bb6b10ee80fb2346c68e989db5006a7519166f302"
+    },
+    {
+      "path": "data/chapters/linear-programming.b6b0c00d6b3da76a.json",
+      "sha256": "b6b0c00d6b3da76a9948d80c83c576a5ebcc41644c47975123118c417a02e68b"
+    },
+    {
+      "path": "data/chapters/mensuration.c03e50392cdcef04.json",
+      "sha256": "c03e50392cdcef044bac49ef08233a11e416ba0c5a46990c00403fc9c558ddae"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.48e8de054a67adc2.json",
+      "sha256": "48e8de054a67adc2e7119d7dbf4df6710a44790cab673d51aeb51ecfdd1d3f13"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.682036138afa8841.json",
+      "sha256": "682036138afa8841d9433382c8b1796dc6fc6161aaa478fa35cad938a224ef82"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.0775352123959810.json",
+      "sha256": "0775352123959810e206def20b6ad75b22c7bb05e96d689243b7387a8d87bcd3"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.e7eed03fd237bc1a.json",
+      "sha256": "e7eed03fd237bc1a110ba15be69f246fbcdf0becd58d5730cf139872dc5c592c"
+    },
+    {
+      "path": "js/core/auth.js",
+      "sha256": "8766d5e2f05ba20c917719dfdf7ef685f4e37d9c4cda9ce663680ced43ef4b69"
+    },
+    {
+      "path": "js/core/config.js",
+      "sha256": "b1e1a8f12835bf18ba0a07eb572d80558fc95a6f43e973348130bdcbbb5d965a"
+    },
+    {
+      "path": "js/core/content.js",
+      "sha256": "b7a675a5667ec47da54be55f108603873e469815abbb19825f54b30694d87437"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.86178a75a62bcce1.json",
+      "sha256": "86178a75a62bcce10c1555da2783a31f594e1616b0f78b8ea42a4c64b9c4696b"
+    },
+    {
+      "path": "js/core/learning.js",
+      "sha256": "5e3b6432a7a1ece9cc4f9b30b3eab1ea206c491678e4de023d7ada125c65480b"
+    },
+    {
+      "path": "js/core/math-models.js",
+      "sha256": "24789fc6d7908620651280652858eeb885f46fb276addec67a41a0df43109222"
+    },
+    {
+      "path": "js/core/math.js",
+      "sha256": "c8546b6621226ddf1c6e00841aaeeadb65dfc68180f2f908fd50cbab670e1de2"
+    },
+    {
+      "path": "js/core/question-bank.js",
+      "sha256": "13eaa2f39d9dff7613cbbf29e61b6aaf15cb367042d71e6f5f9ee47ffabd335b"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.946871f3e8244647.json",
+      "sha256": "946871f3e8244647fdc3e1d9694e7f432eae1dcded412b9359108b24e275a615"
+    },
+    {
+      "path": "js/core/storage.js",
+      "sha256": "2917baa7d38ab76f852667809a509b8656abf3b3e27b7e2103fcce7ebd28e533"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.74361f8889e0b19f.json",
+      "sha256": "74361f8889e0b19f356b030b922564f2bd84252aa1be000ce8b7608ef8ecb19e"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.66579812c9e60b7a.json",
+      "sha256": "66579812c9e60b7a5195b9c36af1938c46609a725e4683822bf08bcc829662d5"
+    },
+    {
+      "path": "js/features/gamification.js",
+      "sha256": "933f7b0f7aaad4aa1dc729fde0b8f5fa92fbc2f30c42ba5ac2037a1540a115f2"
+    },
+    {
+      "path": "data/chapters/statistics.d9c5e87ca24de4cc.json",
+      "sha256": "d9c5e87ca24de4cc1c760c2fc60d43be18d290159577756567976dc3a2e9c6f9"
+    },
+    {
+      "path": "data/chapters/statistics-chunk.94190e7ddcdde6b2.json",
+      "sha256": "94190e7ddcdde6b2301af986d046b96d859933a657bbef3ea17b4b9b1a65b22e"
+    },
+    {
+      "path": "js/features/practice.js",
+      "sha256": "0126edb6aa10419c8492d494f2c354e36a91726c1e12c3af24163d3e663f2169"
+    },
+    {
+      "path": "data/chapters/statistics-chunk.dde2f0be2960a852.json",
+      "sha256": "dde2f0be2960a852fe77e9c15ffd6758366d6b7031c6e35b47572113e9946396"
+    },
+    {
+      "path": "js/features/study-instruments.js",
+      "sha256": "1dfa26db0176588fb276a2969d7ee4251e0b21fdcfe84cf9c754e00ea439e994"
+    },
+    {
+      "path": "js/features/study-scenes.js",
+      "sha256": "6a9b1270d2ae8899dcb311725cdfcd2c339216a93f030c9e90cee4682ab3e72e"
+    },
+    {
+      "path": "js/features/study-ui.js",
+      "sha256": "e808fa8fa069484cf186de045972e6da823ff94e9e657fec526e7acfd7540678"
+    },
+    {
+      "path": "js/features/workspace.js",
+      "sha256": "2bfb682f432c3c4a41144340c5218f52aca5fabb0ca24adcfa954272857bd955"
+    },
+    {
+      "path": "css/base.css",
+      "sha256": "d85295e9aa06ce6ab6c1564e5743be4be6283900401804c65c49a01be09b0273"
+    },
+    {
+      "path": "js/engine/question-engine.js",
+      "sha256": "f068950ac4ee1ffb2d010529754aa8c667a17113ce1eb64f07dbf53461a36d75"
+    },
+    {
+      "path": "css/components.css",
+      "sha256": "de178358c341513bbaa55e0a6e1111c4f269e1bcad5ab3a138d62abf4633d78f"
+    },
+    {
+      "path": "js/core/search-worker.js",
+      "sha256": "275b3a9ab6605402ac1168034fa3992f533e3ef59320e809c7cd9d3a64e9fae2"
+    },
+    {
+      "path": "js/features/dashboard.js",
+      "sha256": "e4b2d7b5dcc477926cc07e24c62430aa234d27f6f0acf25b7a5265204a3f58d2"
+    },
+    {
+      "path": "css/journey.css",
+      "sha256": "92248b2da24d02dd623f873382ed7c386a152c9b27a44ac6717b9e8e28210ab1"
+    },
+    {
+      "path": "css/math.css",
+      "sha256": "77c77caaa4f18d66eb37d162ac92ff326c06ace9f98944ecfc2ad3e6be137058"
+    },
+    {
+      "path": "js/features/exploration.js",
+      "sha256": "f4422958c1364d58c876f41d0b85768174e8ae0f56d0e4809c46496c213b1b2d"
+    },
+    {
+      "path": "css/responsive.css",
+      "sha256": "6bd65f67d1cdd2f3ce5d5b4cc195078a7112f4778154afb58d21933fc5e2f978"
+    },
+    {
+      "path": "css/site.css",
+      "sha256": "28d9a0b0b70966cef9de463185dabcee61e99d4d48c76f67a9a76b64b878a6c4"
+    },
+    {
+      "path": "css/variables.css",
+      "sha256": "12cc8962c9780e2295b4a0bb88a89e2a0f1c8472603383ceed6fcfedbf81a3ab"
+    },
+    {
+      "path": "css/study.css",
+      "sha256": "b33a93a1a096eb78bd5b9b41bf1fe13d746de5323279fc140b8ed5d0807bb6a6"
+    },
+    {
+      "path": "css/workspace.css",
+      "sha256": "e51fbb263891c0c5aee9fe00442953b080d4f098b69e585a590b36d2945d3b8e"
+    },
+    {
+      "path": "js/features/home.js",
+      "sha256": "8a98430db36c3881150859eb3958a7534eacdf8ea21da0467a3731fcd185744d"
+    },
+    {
+      "path": "js/features/library.js",
+      "sha256": "8191e304018022b102202716545ca13577d9c5b046f6bc1d92a0d45278ed5a31"
+    },
+    {
+      "path": "js/features/settings.js",
+      "sha256": "528fc37a02b660b893bfd1ba88ffc8567254ff16a4ebe0079fb6fdd7ca8ee165"
+    },
+    {
+      "path": "css/decorations.css",
+      "sha256": "1bb737bde14b52c32409e17d0019c4b36dc11dd342c2b11c2dd363a9e45ac8a9"
+    },
+    {
+      "path": "css/library.css",
+      "sha256": "c28de94da456a536d5d52d476a4d27f83404bf73f2c3be5076c0b11809a82bff"
+    },
+    {
+      "path": "css/exploration.css",
+      "sha256": "0609db011d01f9dc2cf3f22283505f2aa0c315eb477c9d08de22eb90e9c7a88f"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q05-question.png",
+      "sha256": "97426b2dd3d7ffde4e340a0a5147e68d3d6f6c2cd18cfd95a9709886acffd614"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q06-question.png",
+      "sha256": "5e14af68f850a44be6270dc5ee192d10b21612275b12b36982a0792999522277"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q07-question.png",
+      "sha256": "b681736d155bfe460e7470cb2d7e3416b522daaaee69ab1eed1043bcac202418"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q10-question.png",
+      "sha256": "d8916e512fbc362da0b65b1484f9ea6dcbf920f1495afd976d80d6a179260fb6"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q11-question.png",
+      "sha256": "c7dc0b9eba563fb6e8ab66f6e666ebbe7964dc7786b1024160f895a8b8a0b879"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q23-question.png",
+      "sha256": "76308193cc485e8728a24f7b9824ee99d42f2f0d666bdc7713b2e380cf240e4c"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q13-question.png",
+      "sha256": "f8d64f822e2ce81400dea551412c7fc24d60d25f664ae59d2a6b1a31b408698e"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q14-question.png",
+      "sha256": "f61ece494ac13c3ed0ad7a4267829c9b3e347e0af06526d78c1e708e865ed3b7"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q15-question.png",
+      "sha256": "658b8b034c497fe6e2d0df2c8d73c598d07d771089f66f68250164137b636923"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q18-question.png",
+      "sha256": "fcc699f4c18a575737872738c761e0331f24fe915799bc72d6c5e304d77fd2e8"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q17-question.png",
+      "sha256": "8b53e6a7633abb6ba51448d0530e4a0c5ed8472eec1876281b841481fa41cb62"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q21-question.png",
+      "sha256": "e1a40e1f575d4b841343b217d36a6a3ba96e6e6aa29129fe042788bacf11caee"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q24-question.png",
+      "sha256": "c0abb4d4a22dcc586ab4e0e90ae77ed32e09ab560a4b7ef10092f3961e3b8204"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q22-question.svg",
+      "sha256": "ae26de07effe05e3f9cc56941015518ba4d792afdca761f81585e242e8c0b8ae"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q25-question.png",
+      "sha256": "1f7f07558896352db36ec91982a824718b0386255fb287432412398d32c6c87b"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q26-question.png",
+      "sha256": "6ef9ffd5de12b8b5240712769af825b953a4d9145bd301617620dd5c861a2c58"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q27-question.png",
+      "sha256": "4d4116c0d74dd8a8094780f4d011d0427ff45e9fe9fdccf07bebd4f6d08e5192"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q26-solution.svg",
+      "sha256": "6ab3b0208674b594ab3948007613b790d3c31c944829d78d177bafc3101851bd"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q28-question.png",
+      "sha256": "d166b8922e59adde60056fa88712b3eec1aaca4b232c59435e940589eb6d15a5"
+    },
+    {
+      "path": "assets/intake/intake-819f9b07a7b59212/lp2-q28-solution.svg",
+      "sha256": "b779ce4ffc7a95d1f9f9360b87c48c26ef91deb82d2502b89c80df0e70e2bb92"
+    }
+  ],
+  "errors": [],
+  "limits": "Byte verification and successful deployment only. Browser journeys, source mathematics and graphic review have separate evidence; unprocessed sources are not counted as complete."
+}

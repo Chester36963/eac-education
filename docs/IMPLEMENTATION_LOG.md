@@ -6,7 +6,7 @@
 
 本機驗收完成：71 項精確／符號／答案／雙語選項核對；324 草稿、324 實際作答／自評、96 解析及完成後回顧狀態；1,121 Node 測試、完整溫習流程與 Core/M1/M2 隔離通過。修正今批 Q11／Q21 中文 C 選項；修改後重跑最終草稿與實際作答，兩條更新不重複計新題。工作台重播 no-op、交易備份及舊題物件比較均通過。
 
-共用 editor-pilots 四尺寸改為獨立儲存並行；solution-blocks 支援批次與課題對應；preview-editor-batch 除完整頁外記錄獨立實際圖像。加入可跨來源重用的 verify-editor-release，核對 main→gh-pages 部署關係及正式 bytes。正式部署尚待本輪核對，不能以本機結果冒充已發布。
+共用 editor-pilots 四尺寸改為獨立儲存並行；solution-blocks 支援批次與課題對應；preview-editor-batch 除完整頁外記錄獨立實際圖像。加入可跨來源重用的 verify-editor-release，核對 main→gh-pages 部署關係及正式 bytes。正式 main `f13ed9a` 已發布；Deploy `42045076928` 及 Pages `42045182185` 成功，128 個正式檔案 SHA256 一致。正式站另完成324實際作答與96解析／完成後回顧狀態，revision `1b59271bbc82cf4f`／1,280題；正式題庫導航／篩選／收藏與完整溫習／續做／錯題重練亦通過。
 
 逐題結果／限制見 [LP2 QA](qa/2026-11-05/linear-programming-review2/README.md)、[內容計劃](CONTENT_EXPANSION_PLAN.md)；保留全部 [UI／UE 路線圖](UI_UX_ROADMAP.md) 未完成項目。下一來源為 Oxford 線性規劃卷，尚未逐題點清。
 
