@@ -12,9 +12,11 @@ def digest(data): return hashlib.sha256(data).hexdigest()
 def relevant(name):
     p=Path(name)
     return not any(part.startswith('.') or part == '__MACOSX' for part in p.parts)
-def record(relative, data, container=None, member=None):
+def record(relative, data, container=None, member=None, identity_path=None):
     ext=Path(member or relative).suffix.lower()
-    return dict(id='source-'+digest(relative.encode())[:16], path=relative, group=relative.split('/')[0],
+    identity_path=identity_path or relative
+    return dict(id='source-'+digest(identity_path.encode())[:16], path=relative,
+        **({'identityPath':identity_path} if identity_path != relative else {}), group=relative.split('/')[0],
         extension=ext, bytes=len(data), sha256=digest(data), container=container, member=member,
         roleHint=('answer-candidate' if re.search(r'\bans(?:wer)?\b',Path(member or relative).stem,re.I) else
                   'support-candidate' if 'graph-paper' in relative.lower() else 'exercise-candidate'),
@@ -38,13 +40,15 @@ def excerpt(path, extension):
 
 def scan(source_root, snapshot_date=None):
     rows=[]; samples={}
+    alias_file=ROOT/'content/planning/source-identity-aliases.json'
+    aliases=json.loads(alias_file.read_text()) if alias_file.exists() else {}
     for group in GROUPS:
         folder=source_root/group
         if not folder.is_dir(): raise ValueError('Missing supplied folder: '+group)
         for path in sorted(folder.rglob('*')):
             relative=path.relative_to(source_root).as_posix()
             if not path.is_file() or not relevant(relative):continue
-            data=path.read_bytes(); row=record(relative,data); rows.append(row)
+            data=path.read_bytes(); row=record(relative,data,identity_path=aliases.get(relative)); rows.append(row)
             if path.suffix.lower()=='.docx':
                 try:
                     with zipfile.ZipFile(io.BytesIO(data)) as z:

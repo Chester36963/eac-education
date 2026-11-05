@@ -383,8 +383,8 @@ Preserved the approved monochrome cover and book opening. Added the centroid G a
 Simplified interior decoration to faint curved geometry at the right edge, removed large mathematical glyphs and crossing background lines, and replaced repeated directory artwork with a single continuous background. Chapter-thumbnail motion now updates at 25 fps with slower parameter changes. Question content and its diagrams remain unchanged.
 
 Validation: exploration, four-centres-motion and study-design browser suites passed at 320, 390, 768 and 1440 px, including rendered G/H invariants, toggles, dragging, autoplay, reduced motion, navigation and overflow checks. Reviewed mobile obtuse/equilateral cover diagrams and desktop study layout. Canonical build check and all 23 unit/content tests passed. No PDF produced.
-# PIPE-08 · ASGS 命名一致化 · 2026-10-28
+# PIPE-08 · ASGS 命名一致化 · 2026-11-05
 
-狀態 `LOG-20261028-ASGS`：將本批原先誤寫為 APGP 的使用者面向標籤、來源顯示名稱、QA 目錄、驗證腳本及生成資料統一修正為 ASGS。原始本機 PDF／DOCX 同步改名為 `ASGS review`；檔案內容及 SHA256 不變，題目穩定 ID、學生記錄及 1,241 題總數不變。重新生成來源盤點及課程路由，`verify-asgs-review.py` 的 19 項獨立核對全部通過。
+狀態 `LOG-20261105-ASGS`：將本批使用者面向標籤、來源顯示名稱、QA 目錄、驗證腳本及生成資料統一修正為 ASGS。來源以 ASGS 現行路徑呈現；`source-identity-aliases.json` 只保留原檔名作身份追溯，使 source ID、批次連結及學生 ID 穩定。PDF／DOCX 檔案 bytes 及 SHA256 不變，學生記錄及 1,241 題總數不變。重新生成來源盤點及課程路由，六條發布題的五項審核均按標籤差異重新確認；工作台原批次無錯誤、無待審核。
 
-驗收：`build-content.cjs --check`、`build-curriculum.cjs --check`、`git diff --check` 及完整 Node suite（1,113 passed）通過；未再發現 APGP 殘留字串。
+驗收：`build-content.cjs --check`、`build-curriculum.cjs --check`、`git diff --check`、ASGS 19 項精確／小數檢查及完整 Node suite（新增身份別名測試後 1,114 passed）通過。舊檔名只會出現在內部 identity alias 欄位，所有題目及來源顯示名稱均為 ASGS。

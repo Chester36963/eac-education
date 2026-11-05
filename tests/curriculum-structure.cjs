@@ -16,6 +16,14 @@ test('full source snapshot reconciles files, archive members and all supplied gr
  assert.ok(i.sources.every(s=>s.questionCount===null));
 });
 
+test('ASGS renamed source paths retain their original stable source identities',()=>{
+ const {inventory:i}=load();
+ for(const [current,identity,id] of [
+  ['S6/Sequence/ASGS review.pdf','S6/Sequence/APGP review.pdf','source-233787552d322be8'],
+  ['S6/Sequence/ASGS review.docx','S6/Sequence/APGP review.docx','source-9d544273df11abe0']
+ ]){const s=i.sources.find(row=>row.path===current);assert.equal(s.id,id);assert.equal(s.identityPath,identity);}
+});
+
 test('core, M1 and M2 have separate stable topic containers and bilingual purposes',()=>{
  const {curriculum:c}=load();
  assert.deepEqual(['core','m1','m2'].map(id=>c.topics.filter(t=>t.trackId===id).length),[42,9,10]);

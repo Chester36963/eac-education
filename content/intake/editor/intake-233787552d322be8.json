@@ -6,7 +6,7 @@
   "sourceSha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
   "topicId": "sequences",
   "expectedQuestions": 8,
-  "revision": 35,
+  "revision": 65,
   "records": [
     {
       "locator": "1",
@@ -185,29 +185,29 @@
       "category": "long",
       "approvals": {
         "text": {
-          "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.198Z"
+          "fingerprint": "add8df3efacb2913433ef806c8163612d304d554e2924c1677834b00e7f470a8",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.948Z"
         },
         "classification": {
-          "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.201Z"
+          "fingerprint": "add8df3efacb2913433ef806c8163612d304d554e2924c1677834b00e7f470a8",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.951Z"
         },
         "mathematics": {
-          "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.202Z"
+          "fingerprint": "add8df3efacb2913433ef806c8163612d304d554e2924c1677834b00e7f470a8",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.951Z"
         },
         "figures": {
-          "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.202Z"
+          "fingerprint": "add8df3efacb2913433ef806c8163612d304d554e2924c1677834b00e7f470a8",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.952Z"
         },
         "studentView": {
-          "fingerprint": "8a3daa6e479f327eaae3510413b7d56029d8db6c3aeb6c82236a7fa815677931",
-          "evidence": "PDF pages 1-2 and paired worked solution page 5 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.203Z"
+          "fingerprint": "add8df3efacb2913433ef806c8163612d304d554e2924c1677834b00e7f470a8",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.953Z"
         }
       },
       "question": {
@@ -297,29 +297,29 @@
       "category": "long",
       "approvals": {
         "text": {
-          "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.204Z"
+          "fingerprint": "4844fb2b9b9f8ca07ac9ef773bd1c894433a339a76d2ca2e871a9de84e6b797e",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.953Z"
         },
         "classification": {
-          "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.206Z"
+          "fingerprint": "4844fb2b9b9f8ca07ac9ef773bd1c894433a339a76d2ca2e871a9de84e6b797e",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.954Z"
         },
         "mathematics": {
-          "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.206Z"
+          "fingerprint": "4844fb2b9b9f8ca07ac9ef773bd1c894433a339a76d2ca2e871a9de84e6b797e",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.955Z"
         },
         "figures": {
-          "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.207Z"
+          "fingerprint": "4844fb2b9b9f8ca07ac9ef773bd1c894433a339a76d2ca2e871a9de84e6b797e",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.956Z"
         },
         "studentView": {
-          "fingerprint": "59323db07ac1f0ef5fbca400fcd91a946dd736dbfd8df1d0210ca8d3f22ef5cc",
-          "evidence": "PDF pages 1-2 and paired worked solution page 6 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.208Z"
+          "fingerprint": "4844fb2b9b9f8ca07ac9ef773bd1c894433a339a76d2ca2e871a9de84e6b797e",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.957Z"
         }
       },
       "question": {
@@ -409,29 +409,29 @@
       "category": "long",
       "approvals": {
         "text": {
-          "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.209Z"
+          "fingerprint": "f1549eb41653a6e4e7d18f2cf1c5fc6d815f43c6d2433a67bc462ba0228bbdb1",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.958Z"
         },
         "classification": {
-          "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.209Z"
+          "fingerprint": "f1549eb41653a6e4e7d18f2cf1c5fc6d815f43c6d2433a67bc462ba0228bbdb1",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.958Z"
         },
         "mathematics": {
-          "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.210Z"
+          "fingerprint": "f1549eb41653a6e4e7d18f2cf1c5fc6d815f43c6d2433a67bc462ba0228bbdb1",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.959Z"
         },
         "figures": {
-          "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.211Z"
+          "fingerprint": "f1549eb41653a6e4e7d18f2cf1c5fc6d815f43c6d2433a67bc462ba0228bbdb1",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.960Z"
         },
         "studentView": {
-          "fingerprint": "b022168021ccf7deb88e82b3ca7fc75a66e0ada8ed5a790b289fd26cba9e9eef",
-          "evidence": "PDF pages 1-2 and paired worked solution page 7 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.212Z"
+          "fingerprint": "f1549eb41653a6e4e7d18f2cf1c5fc6d815f43c6d2433a67bc462ba0228bbdb1",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.960Z"
         }
       },
       "question": {
@@ -521,29 +521,29 @@
       "category": "long",
       "approvals": {
         "text": {
-          "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.214Z"
+          "fingerprint": "b570510a511d39c3b4c74370b069ea3e8c054e0fe70543e372c5e45414bdfa2c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.961Z"
         },
         "classification": {
-          "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.215Z"
+          "fingerprint": "b570510a511d39c3b4c74370b069ea3e8c054e0fe70543e372c5e45414bdfa2c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.962Z"
         },
         "mathematics": {
-          "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.216Z"
+          "fingerprint": "b570510a511d39c3b4c74370b069ea3e8c054e0fe70543e372c5e45414bdfa2c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.963Z"
         },
         "figures": {
-          "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.217Z"
+          "fingerprint": "b570510a511d39c3b4c74370b069ea3e8c054e0fe70543e372c5e45414bdfa2c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.963Z"
         },
         "studentView": {
-          "fingerprint": "b65b1a68f5c9d0f1d02c43f0daa694bd898c670feca68e1ba70290f1ffcfb61c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 8 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.217Z"
+          "fingerprint": "b570510a511d39c3b4c74370b069ea3e8c054e0fe70543e372c5e45414bdfa2c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.964Z"
         }
       },
       "question": {
@@ -641,29 +641,29 @@
       "category": "long",
       "approvals": {
         "text": {
-          "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.218Z"
+          "fingerprint": "fa5cc3b8c55f8e8909557535d2efc6f2b89f1b2a4320ab6bf6c6bd9ed3130d5c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.965Z"
         },
         "classification": {
-          "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.219Z"
+          "fingerprint": "fa5cc3b8c55f8e8909557535d2efc6f2b89f1b2a4320ab6bf6c6bd9ed3130d5c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.965Z"
         },
         "mathematics": {
-          "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.220Z"
+          "fingerprint": "fa5cc3b8c55f8e8909557535d2efc6f2b89f1b2a4320ab6bf6c6bd9ed3130d5c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.966Z"
         },
         "figures": {
-          "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.220Z"
+          "fingerprint": "fa5cc3b8c55f8e8909557535d2efc6f2b89f1b2a4320ab6bf6c6bd9ed3130d5c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.966Z"
         },
         "studentView": {
-          "fingerprint": "1bf98c1d1184768630fabda6bd46b262cd6ae71dad0016a719a32b790ffcc64c",
-          "evidence": "PDF pages 1-2 and paired worked solution page 9 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.221Z"
+          "fingerprint": "fa5cc3b8c55f8e8909557535d2efc6f2b89f1b2a4320ab6bf6c6bd9ed3130d5c",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.968Z"
         }
       },
       "question": {
@@ -753,29 +753,29 @@
       "category": "long",
       "approvals": {
         "text": {
-          "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.222Z"
+          "fingerprint": "4e4e8ce662784e9b0eb42e4cdabed680f4d20a5a47d523172b2d9bf887b98728",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.968Z"
         },
         "classification": {
-          "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.223Z"
+          "fingerprint": "4e4e8ce662784e9b0eb42e4cdabed680f4d20a5a47d523172b2d9bf887b98728",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.969Z"
         },
         "mathematics": {
-          "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.224Z"
+          "fingerprint": "4e4e8ce662784e9b0eb42e4cdabed680f4d20a5a47d523172b2d9bf887b98728",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.970Z"
         },
         "figures": {
-          "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.224Z"
+          "fingerprint": "4e4e8ce662784e9b0eb42e4cdabed680f4d20a5a47d523172b2d9bf887b98728",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.970Z"
         },
         "studentView": {
-          "fingerprint": "ca8d056a6f2fe366cb78d82db98df4ad94537768312b2f9e9ee211f2231f059d",
-          "evidence": "PDF pages 1-2 and paired worked solution page 10 visually checked; independent exact arithmetic in docs/qa/2026-10-28/asgs-review/mathematics.json.",
-          "at": "2026-10-28T12:13:26.225Z"
+          "fingerprint": "4e4e8ce662784e9b0eb42e4cdabed680f4d20a5a47d523172b2d9bf887b98728",
+          "evidence": "Reviewed ASGS source-name correction only; original page, content bytes, calculation and published rendering are unchanged. The previous gate evidence remains valid.",
+          "at": "2026-11-05T06:48:12.971Z"
         }
       },
       "question": {

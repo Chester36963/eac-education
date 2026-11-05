@@ -41,7 +41,7 @@ function validate({curriculum:c,inventory:i,catalog}){
  need(sourceIds.size===i.sources.length&&sourcePaths.size===i.sources.length,'Duplicate source IDs/paths.');
  for(const s of i.sources){
   need(i.scope.includes(s.group)&&s.path.startsWith(s.group+'/')&&!s.path.split('/').includes('..')&&!path.isAbsolute(s.path),`${s.id}: invalid source path.`);
-  need(s.id==='source-'+digest(s.path).slice(0,16)&&/^[a-f0-9]{64}$/.test(s.sha256),`${s.id}: unstable identity/hash.`);
+  need(s.id==='source-'+digest(s.identityPath||s.path).slice(0,16)&&/^[a-f0-9]{64}$/.test(s.sha256),`${s.id}: unstable identity/hash.`);
   need(s.questionCount===null&&s.attributionStatus==='unverified',`${s.id}: inventory cannot invent question counts or attribution.`);
   if(s.container)need(sourcePaths.has(s.container),`${s.id}: missing archive container.`);
  }
