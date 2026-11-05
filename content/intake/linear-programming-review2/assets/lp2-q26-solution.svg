@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 560" role="img">
+<title>Q26: reconstructed from the original question constraints</title>
+<rect width="660" height="560" fill="white"/>
+<defs><clipPath id="plot"><rect x="60" y="40" width="520" height="440"/></clipPath></defs>
+<g font-family="Arial,sans-serif" fill="#303a47" font-size="17">
+<polygon points="164.00,186.67 164.00,392.00 216.00,392.00 394.29,316.57" fill="#dbe3eb"/>
+<line x1="60.00" y1="480.00" x2="60.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="60.00" y="416.00" text-anchor="middle">-1</text>
+<line x1="112.00" y1="480.00" x2="112.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="112.00" y="416.00" text-anchor="middle">0</text>
+<line x1="164.00" y1="480.00" x2="164.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="164.00" y="416.00" text-anchor="middle">1</text>
+<line x1="216.00" y1="480.00" x2="216.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="216.00" y="416.00" text-anchor="middle">2</text>
+<line x1="268.00" y1="480.00" x2="268.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="268.00" y="416.00" text-anchor="middle">3</text>
+<line x1="320.00" y1="480.00" x2="320.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="320.00" y="416.00" text-anchor="middle">4</text>
+<line x1="372.00" y1="480.00" x2="372.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="372.00" y="416.00" text-anchor="middle">5</text>
+<line x1="424.00" y1="480.00" x2="424.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="424.00" y="416.00" text-anchor="middle">6</text>
+<line x1="476.00" y1="480.00" x2="476.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="476.00" y="416.00" text-anchor="middle">7</text>
+<line x1="528.00" y1="480.00" x2="528.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="528.00" y="416.00" text-anchor="middle">8</text>
+<line x1="580.00" y1="480.00" x2="580.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="580.00" y="416.00" text-anchor="middle">9</text>
+<line x1="60.00" y1="480.00" x2="580.00" y2="480.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="485.00" text-anchor="end">-2</text>
+<line x1="60.00" y1="436.00" x2="580.00" y2="436.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="441.00" text-anchor="end">-1</text>
+<line x1="60.00" y1="392.00" x2="580.00" y2="392.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<line x1="60.00" y1="348.00" x2="580.00" y2="348.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="353.00" text-anchor="end">1</text>
+<line x1="60.00" y1="304.00" x2="580.00" y2="304.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="309.00" text-anchor="end">2</text>
+<line x1="60.00" y1="260.00" x2="580.00" y2="260.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="265.00" text-anchor="end">3</text>
+<line x1="60.00" y1="216.00" x2="580.00" y2="216.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="221.00" text-anchor="end">4</text>
+<line x1="60.00" y1="172.00" x2="580.00" y2="172.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="177.00" text-anchor="end">5</text>
+<line x1="60.00" y1="128.00" x2="580.00" y2="128.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="133.00" text-anchor="end">6</text>
+<line x1="60.00" y1="84.00" x2="580.00" y2="84.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="89.00" text-anchor="end">7</text>
+<line x1="60.00" y1="40.00" x2="580.00" y2="40.00" stroke="#dfe3e8" stroke-width="1" stroke-dasharray=""/>
+<text x="100.00" y="45.00" text-anchor="end">8</text>
+<line x1="60.00" y1="392.00" x2="580.00" y2="392.00" stroke="#566271" stroke-width="2" stroke-dasharray=""/>
+<line x1="112.00" y1="480.00" x2="112.00" y2="40.00" stroke="#566271" stroke-width="2" stroke-dasharray=""/>
+<text x="594.00" y="396.00">x</text>
+<text x="107.00" y="25.00">y</text>
+<g clip-path="url(#plot)">
+<line x1="164.00" y1="480.00" x2="164.00" y2="40.00" stroke="#46576c" stroke-width="2.2" stroke-dasharray=""/>
+<line x1="60.00" y1="392.00" x2="580.00" y2="392.00" stroke="#46576c" stroke-width="2.2" stroke-dasharray=""/>
+<line x1="60.00" y1="128.00" x2="580.00" y2="421.33" stroke="#46576c" stroke-width="2.2" stroke-dasharray="8 6"/>
+<line x1="60.00" y1="458.00" x2="580.00" y2="238.00" stroke="#46576c" stroke-width="2.2" stroke-dasharray=""/>
+<circle cx="164.00" cy="392.00" r="4.5" fill="#263c56"/>
+<circle cx="164.00" cy="348.00" r="4.5" fill="#263c56"/>
+<circle cx="164.00" cy="304.00" r="4.5" fill="#263c56"/>
+<circle cx="164.00" cy="260.00" r="4.5" fill="#263c56"/>
+<circle cx="164.00" cy="216.00" r="4.5" fill="#263c56"/>
+<circle cx="216.00" cy="392.00" r="4.5" fill="#263c56"/>
+<circle cx="216.00" cy="348.00" r="4.5" fill="#263c56"/>
+<circle cx="216.00" cy="304.00" r="4.5" fill="#263c56"/>
+<circle cx="216.00" cy="260.00" r="4.5" fill="#263c56"/>
+<circle cx="268.00" cy="348.00" r="4.5" fill="#263c56"/>
+<circle cx="268.00" cy="304.00" r="4.5" fill="#263c56"/>
+<circle cx="268.00" cy="260.00" r="4.5" fill="#263c56"/>
+<circle cx="320.00" cy="348.00" r="4.5" fill="#263c56"/>
+<circle cx="320.00" cy="304.00" r="4.5" fill="#263c56"/>
+</g>
+<text x="252.40" y="163.20" paint-order="stroke" stroke="white" stroke-width="5" stroke-linejoin="round">2x+3y=16</text>
+<text x="408.40" y="330.40" paint-order="stroke" stroke="white" stroke-width="5" stroke-linejoin="round">x−2y=2</text>
+<text x="174.40" y="75.20" paint-order="stroke" stroke="white" stroke-width="5" stroke-linejoin="round">x=1</text>
+<text x="60" y="533" font-size="15">14 integer points · dashed boundary excluded</text>
+</g></svg>

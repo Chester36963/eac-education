@@ -1,0 +1,693 @@
+{
+  "batchId": "intake-819f9b07a7b59212",
+  "sourceId": "source-819f9b07a7b59212",
+  "sourceSha256": "20b34e69a4ef345fbfaafa6cabbf7d05bbb66a94756a8f03fc620718bb5b6929",
+  "sourceQuestions": 28,
+  "added": 27,
+  "oldQuestionsUpdated": 0,
+  "duplicate": 0,
+  "held": 1,
+  "records": [
+    {
+      "locator": "1",
+      "pages": [
+        1
+      ],
+      "id": "import-linear-programming-62d4289251e80f46",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "eeef81380fe05c1e65c1ede2a9d37c6f0a8afd27f83688ccdbcf0c01d6dc3c0a",
+      "checks": [
+        "minimum objective",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q1-390.png",
+        "previews/q1-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q1-390.png",
+        "student/intake-819f9b07a7b59212-q1-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "2",
+      "pages": [
+        1
+      ],
+      "id": "import-linear-programming-0315d6b41fa760db",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-range",
+      "questionSha256": "92d79678826ddf2ab9a923960ce038cd2da7c35ea718dae27a5f44f0e517d188",
+      "checks": [
+        "objective range",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q2-390.png",
+        "previews/q2-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q2-390.png",
+        "student/intake-819f9b07a7b59212-q2-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "3",
+      "pages": [
+        1
+      ],
+      "id": "import-linear-programming-bb48fd9a0eb6703a",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "dda6fc418eb7e75abb1fedebb01bb0689802ee3f20d71cf299f5c3844a8321a9",
+      "checks": [
+        "constant k",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q3-390.png",
+        "previews/q3-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q3-390.png",
+        "student/intake-819f9b07a7b59212-q3-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "4",
+      "pages": [
+        2
+      ],
+      "id": "import-linear-programming-259d9f8c8b96417b",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "365a34a98168d1d953b5cdbd6fcc91b135ac9ea6c58bab33d1fa509086a81167",
+      "checks": [
+        "minimum objective",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q4-390.png",
+        "previews/q4-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q4-390.png",
+        "student/intake-819f9b07a7b59212-q4-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "5",
+      "pages": [
+        2
+      ],
+      "id": "import-linear-programming-dfe6c1c2ccf064ed",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-half-plane",
+      "questionSha256": "bba3b0a7c28c64ec21585f1b63071250db0338aeb666446c1b5985920d9c3929",
+      "checks": [
+        "boundary has slope -1 and origin is included",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q5-390.png",
+        "previews/q5-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q5-390.png",
+        "student/intake-819f9b07a7b59212-q5-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "6",
+      "pages": [
+        2
+      ],
+      "id": "import-linear-programming-fd1cb6f6990d6d4d",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-graph-systems",
+      "questionSha256": "6fae6380111ba76018d79d03f785df956af5881fe0e060843c0d992e4b22f60f",
+      "checks": [
+        "source-labelled region witnesses",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q6-390.png",
+        "previews/q6-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q6-390.png",
+        "student/intake-819f9b07a7b59212-q6-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "7",
+      "pages": [
+        2
+      ],
+      "id": "import-linear-programming-d142fb1f4c1b90ec",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-graph-systems",
+      "questionSha256": "9a2d3d3fa2387f3a3870d4b9433dcd2ba03402446fbd41ddf12090e17aa3413d",
+      "checks": [
+        "source shade contains origin",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q7-390.png",
+        "previews/q7-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q7-390.png",
+        "student/intake-819f9b07a7b59212-q7-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "8",
+      "pages": [
+        3
+      ],
+      "id": "import-linear-programming-816bb57ff68e2c6f",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "d7f0929b06ca70b698c3602e5e23202561257dc96267887379830c83156ece8b",
+      "checks": [
+        "perpendicular slopes",
+        "maximum",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q8-390.png",
+        "previews/q8-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q8-390.png",
+        "student/intake-819f9b07a7b59212-q8-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "9",
+      "pages": [
+        3
+      ],
+      "id": "import-linear-programming-6cbcd0ac9e263eff",
+      "status": "待補來源",
+      "disposition": "待補",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "934e830fd0f0f4b60df2aa97a4682487b41fb36cd90b5ae83eaf1621afa0fbe8",
+      "checks": [
+        "source conflict: coordinate area",
+        "angle condition root",
+        "area from angle",
+        "area cannot equal printed area",
+        "bilingual statement option A",
+        "bilingual statement option B",
+        "bilingual statement option C",
+        "bilingual statement option D",
+        "conflicting question excluded from publication"
+      ],
+      "questionPreview": [],
+      "studentPreview": [],
+      "note": "Original p3 Q9 has mutually inconsistent coordinates, 60-degree angle and area 18sqrt(3); independently derived area k(k+4)/2 and k=2+2sqrt(3). Need original clean question or author correction; source key D is not reliable."
+    },
+    {
+      "locator": "10",
+      "pages": [
+        3
+      ],
+      "id": "import-linear-programming-a5db8fc656e1d6ba",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-range",
+      "questionSha256": "8a4f88a870f3c20933c94043467be3c5a2fc6e48ab1fab6f2217c74369686419",
+      "checks": [
+        "unbounded lower-left objective direction",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q10-390.png",
+        "previews/q10-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q10-390.png",
+        "student/intake-819f9b07a7b59212-q10-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "11",
+      "pages": [
+        3
+      ],
+      "id": "import-linear-programming-26d5d12d0849c4c4",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-graph-systems",
+      "questionSha256": "fc867de00e26397512144a794ce520f6c1b27e4a80e17fa025a54b18354f92d7",
+      "checks": [
+        "counterexample to statement I",
+        "transcribed answer agrees with reviewed source key",
+        "bilingual statement option A",
+        "bilingual statement option B",
+        "bilingual statement option C",
+        "bilingual statement option D"
+      ],
+      "questionPreview": [
+        "previews/q11-390.png",
+        "previews/q11-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q11-390.png",
+        "student/intake-819f9b07a7b59212-q11-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "12",
+      "pages": [
+        4
+      ],
+      "id": "import-linear-programming-598b5fcadf86bc3a",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "992c6975df41964eb00d15caf1d13f5193ec090ef8c72fffca4a19a2d4dd1670",
+      "checks": [
+        "maximum objective",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q12-390.png",
+        "previews/q12-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q12-390.png",
+        "student/intake-819f9b07a7b59212-q12-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "13",
+      "pages": [
+        4
+      ],
+      "id": "import-linear-programming-d2caf3c11ede91b2",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-graph-systems",
+      "questionSha256": "c3ec11ba16292dcd45cdea9c6e69e38612a2ad998d9ad5ca9fbc9d334d263ccc",
+      "checks": [
+        "negative x counterexample to option A",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q13-390.png",
+        "previews/q13-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q13-390.png",
+        "student/intake-819f9b07a7b59212-q13-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "14",
+      "pages": [
+        4
+      ],
+      "id": "import-linear-programming-058fb3a3d9f30e40",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "3e8ccce38f16cae1e98b1acf6ad12934c37513f1b65c2f9f7e299df420fd0bfb",
+      "checks": [
+        "maximum",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q14-390.png",
+        "previews/q14-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q14-390.png",
+        "student/intake-819f9b07a7b59212-q14-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "15",
+      "pages": [
+        4
+      ],
+      "id": "import-linear-programming-ae07f90ba956e9a7",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "8e96aad07ebf190726259f736103fbba47559f2c386be30eaa1ba94224bffcca",
+      "checks": [
+        "differences from vertex D",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q15-390.png",
+        "previews/q15-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q15-390.png",
+        "student/intake-819f9b07a7b59212-q15-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "16",
+      "pages": [
+        5
+      ],
+      "id": "import-linear-programming-329156c7a0f472c7",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "711ec7cc15c2b9f44a981195cc0cf1a2f0018d4c5c11b3413957624fa263bd9f",
+      "checks": [
+        "minimum objective",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q16-390.png",
+        "previews/q16-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q16-390.png",
+        "student/intake-819f9b07a7b59212-q16-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "17",
+      "pages": [
+        5
+      ],
+      "id": "import-linear-programming-a29bf87e7900c5d8",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-graph-systems",
+      "questionSha256": "c95efcb65d008b577ec0f4e38c8d375f942a4ba4a3f6e86c13c18a98ef284c6c",
+      "checks": [
+        "source-labelled square regions",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q17-390.png",
+        "previews/q17-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q17-390.png",
+        "student/intake-819f9b07a7b59212-q17-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "18",
+      "pages": [
+        5
+      ],
+      "id": "import-linear-programming-e1ea8e406e6fc78a",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-half-plane",
+      "questionSha256": "8a2b8c7c88ab66c4eed10d275b5d83be38af57a110d97109343dee5510b514d5",
+      "checks": [
+        "boundary sign example a=-1 c=1",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q18-390.png",
+        "previews/q18-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q18-390.png",
+        "student/intake-819f9b07a7b59212-q18-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "19",
+      "pages": [
+        6
+      ],
+      "id": "import-linear-programming-1a6a76c89451807a",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "dcec103b066de30a46b6f3c47731d7d2010d68a9379a13011736ed133a4b88a4",
+      "checks": [
+        "maximum objective",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q19-390.png",
+        "previews/q19-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q19-390.png",
+        "student/intake-819f9b07a7b59212-q19-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "20",
+      "pages": [
+        6
+      ],
+      "id": "import-linear-programming-a7aa9a15ce6fdd70",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "c737c8b4eb168b4025145a5a57b68bc3ac1b33466bbe626b32fb585f4584775d",
+      "checks": [
+        "minimum objective",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q20-390.png",
+        "previews/q20-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q20-390.png",
+        "student/intake-819f9b07a7b59212-q20-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "21",
+      "pages": [
+        6
+      ],
+      "id": "import-linear-programming-6fa87b467a89ec5a",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-graph-systems",
+      "questionSha256": "7d44fc2947f6c425ebd6f2a9fb6b179958ab8d574f71741c48d34f9ea045eea3",
+      "checks": [
+        "counterexample to statement III",
+        "transcribed answer agrees with reviewed source key",
+        "bilingual statement option A",
+        "bilingual statement option B",
+        "bilingual statement option C",
+        "bilingual statement option D"
+      ],
+      "questionPreview": [
+        "previews/q21-390.png",
+        "previews/q21-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q21-390.png",
+        "student/intake-819f9b07a7b59212-q21-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "22",
+      "pages": [
+        7
+      ],
+      "id": "import-linear-programming-e45350f51915eb2d",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "bdf93557f9ff8d815fd07489ee945227c650edbab460b478275f03ca547249af",
+      "checks": [
+        "all four objective values",
+        "transcribed answer agrees with reviewed source key"
+      ],
+      "questionPreview": [
+        "previews/q22-390.png",
+        "previews/q22-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q22-390.png",
+        "student/intake-819f9b07a7b59212-q22-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "23",
+      "pages": [
+        7
+      ],
+      "id": "import-linear-programming-16c5d7d403c4106d",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-discrete-objective",
+      "questionSha256": "0a17296c9aedc195eb9cc89810fff1b6d89f06b44d881e0e0105797d3971845d",
+      "checks": [
+        "maximum displayed dot"
+      ],
+      "questionPreview": [
+        "previews/q23-390.png",
+        "previews/q23-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q23-390.png",
+        "student/intake-819f9b07a7b59212-q23-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "24",
+      "pages": [
+        7
+      ],
+      "id": "import-linear-programming-4731eafe75f81a79",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-lattice-count",
+      "questionSha256": "95bfef3cf1d74be5a0f3c2484cbf4d3ace9ac6c22cdd5c33bcc34bd9b8075a89",
+      "checks": [
+        "all feasible integer b"
+      ],
+      "questionPreview": [
+        "previews/q24-390.png",
+        "previews/q24-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q24-390.png",
+        "student/intake-819f9b07a7b59212-q24-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "25",
+      "pages": [
+        8
+      ],
+      "id": "import-linear-programming-961a5b812520b833",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-modelling",
+      "questionSha256": "30ca4d13563f942300ac24e09eb096607007b97cb17a0d3632160cfb9e23f9ee",
+      "checks": [
+        "maximum objective",
+        "integer optimum"
+      ],
+      "questionPreview": [
+        "previews/q25-390.png",
+        "previews/q25-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q25-390.png",
+        "student/intake-819f9b07a7b59212-q25-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "26",
+      "pages": [
+        9
+      ],
+      "id": "import-linear-programming-bcbc677143ef81e6",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-lattice-count",
+      "questionSha256": "8d8f6c152c523ffbd39f11be104f290d3aeb551eaf7783559522da0887638e65",
+      "checks": [
+        "integer row counts",
+        "total integer points",
+        "exactly three",
+        "at least three"
+      ],
+      "questionPreview": [
+        "previews/q26-390.png",
+        "previews/q26-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q26-390.png",
+        "student/intake-819f9b07a7b59212-q26-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "27",
+      "pages": [
+        9
+      ],
+      "id": "import-linear-programming-25859ed555ac7abd",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "498f9a22050ee3fd7b2d7d4c8ff080fa0d8468bbb838b9a6dd9d076589ad1a89",
+      "checks": [
+        "competitor difference"
+      ],
+      "questionPreview": [
+        "previews/q27-390.png",
+        "previews/q27-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q27-390.png",
+        "student/intake-819f9b07a7b59212-q27-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    },
+    {
+      "locator": "28",
+      "pages": [
+        10
+      ],
+      "id": "import-linear-programming-4bb96fdde5306afd",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-modelling",
+      "questionSha256": "ba57a279f377fc1a75eaa0860d2374968c82e1747ff37b4056f6bd9bdaf0ad37",
+      "checks": [
+        "maximum objective",
+        "integer optimum"
+      ],
+      "questionPreview": [
+        "previews/q28-390.png",
+        "previews/q28-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-819f9b07a7b59212-q28-390.png",
+        "student/intake-819f9b07a7b59212-q28-1440.png"
+      ],
+      "note": "原題條件、全選項及分題保留；完整雙語解法獨立核對。"
+    }
+  ]
+}

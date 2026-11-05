@@ -1,0 +1,188 @@
+{
+  "errors": [],
+  "pending": [],
+  "ready": true,
+  "counts": {
+    "source": 28,
+    "recorded": 28,
+    "publish": 27,
+    "duplicate": 0,
+    "held": 1
+  },
+  "diff": {
+    "added": [],
+    "updated": [
+      "import-linear-programming-26d5d12d0849c4c4",
+      "import-linear-programming-6fa87b467a89ec5a"
+    ],
+    "unchanged": [
+      "import-linear-programming-62d4289251e80f46",
+      "import-linear-programming-0315d6b41fa760db",
+      "import-linear-programming-bb48fd9a0eb6703a",
+      "import-linear-programming-259d9f8c8b96417b",
+      "import-linear-programming-dfe6c1c2ccf064ed",
+      "import-linear-programming-fd1cb6f6990d6d4d",
+      "import-linear-programming-d142fb1f4c1b90ec",
+      "import-linear-programming-816bb57ff68e2c6f",
+      "import-linear-programming-a5db8fc656e1d6ba",
+      "import-linear-programming-598b5fcadf86bc3a",
+      "import-linear-programming-d2caf3c11ede91b2",
+      "import-linear-programming-058fb3a3d9f30e40",
+      "import-linear-programming-ae07f90ba956e9a7",
+      "import-linear-programming-329156c7a0f472c7",
+      "import-linear-programming-a29bf87e7900c5d8",
+      "import-linear-programming-e1ea8e406e6fc78a",
+      "import-linear-programming-1a6a76c89451807a",
+      "import-linear-programming-a7aa9a15ce6fdd70",
+      "import-linear-programming-e45350f51915eb2d",
+      "import-linear-programming-16c5d7d403c4106d",
+      "import-linear-programming-4731eafe75f81a79",
+      "import-linear-programming-961a5b812520b833",
+      "import-linear-programming-bcbc677143ef81e6",
+      "import-linear-programming-25859ed555ac7abd",
+      "import-linear-programming-4bb96fdde5306afd"
+    ],
+    "chapters": [],
+    "taxonomyChanged": false
+  },
+  "changes": [
+    {
+      "id": "import-linear-programming-26d5d12d0849c4c4",
+      "locator": "11",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "optionsZh",
+          "before": {
+            "A": "只有 I 及 II",
+            "B": "只有 I 及 III",
+            "C": "I只有 I 及 III",
+            "D": "I、II 及 III"
+          },
+          "after": {
+            "A": "只有 I 及 II",
+            "B": "只有 I 及 III",
+            "C": "只有 II 及 III",
+            "D": "I、II 及 III"
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-linear-programming-6fa87b467a89ec5a",
+      "locator": "21",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "optionsZh",
+          "before": {
+            "A": "只有 I 及 II",
+            "B": "只有 I 及 III",
+            "C": "I只有 I 及 III",
+            "D": "I、II 及 III"
+          },
+          "after": {
+            "A": "只有 I 及 II",
+            "B": "只有 I 及 III",
+            "C": "只有 II 及 III",
+            "D": "I、II 及 III"
+          }
+        }
+      ]
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "locator": "1",
+      "candidateId": "import-linear-programming-329156c7a0f472c7",
+      "score": 0.73,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "1",
+      "candidateId": "import-linear-programming-259d9f8c8b96417b",
+      "score": 0.703,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "1",
+      "candidateId": "import-linear-programming-0315d6b41fa760db",
+      "score": 0.7,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "2",
+      "candidateId": "import-linear-programming-62d4289251e80f46",
+      "score": 0.7,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "4",
+      "candidateId": "import-linear-programming-62d4289251e80f46",
+      "score": 0.703,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "12",
+      "candidateId": "import-linear-programming-1a6a76c89451807a",
+      "score": 0.714,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "16",
+      "candidateId": "import-linear-programming-62d4289251e80f46",
+      "score": 0.73,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "19",
+      "candidateId": "import-linear-programming-598b5fcadf86bc3a",
+      "score": 0.714,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    }
+  ],
+  "digest": "dc7d68b528d06dd4b8bfc68f065fb648e40ece0b28205efafd768235af4b092c",
+  "baseline": "cac01cfab2e374dda141b6f1c2f03c3043c6e25483fabf58e3c2c21f35677276",
+  "applied": true,
+  "import": {
+    "at": "2026-11-05T14:20:21.404Z",
+    "baseline": "cac01cfab2e374dda141b6f1c2f03c3043c6e25483fabf58e3c2c21f35677276",
+    "report": {
+      "added": [],
+      "updated": [
+        "import-linear-programming-26d5d12d0849c4c4",
+        "import-linear-programming-6fa87b467a89ec5a"
+      ],
+      "unchanged": [
+        "import-linear-programming-62d4289251e80f46",
+        "import-linear-programming-0315d6b41fa760db",
+        "import-linear-programming-bb48fd9a0eb6703a",
+        "import-linear-programming-259d9f8c8b96417b",
+        "import-linear-programming-dfe6c1c2ccf064ed",
+        "import-linear-programming-fd1cb6f6990d6d4d",
+        "import-linear-programming-d142fb1f4c1b90ec",
+        "import-linear-programming-816bb57ff68e2c6f",
+        "import-linear-programming-a5db8fc656e1d6ba",
+        "import-linear-programming-598b5fcadf86bc3a",
+        "import-linear-programming-d2caf3c11ede91b2",
+        "import-linear-programming-058fb3a3d9f30e40",
+        "import-linear-programming-ae07f90ba956e9a7",
+        "import-linear-programming-329156c7a0f472c7",
+        "import-linear-programming-a29bf87e7900c5d8",
+        "import-linear-programming-e1ea8e406e6fc78a",
+        "import-linear-programming-1a6a76c89451807a",
+        "import-linear-programming-a7aa9a15ce6fdd70",
+        "import-linear-programming-e45350f51915eb2d",
+        "import-linear-programming-16c5d7d403c4106d",
+        "import-linear-programming-4731eafe75f81a79",
+        "import-linear-programming-961a5b812520b833",
+        "import-linear-programming-bcbc677143ef81e6",
+        "import-linear-programming-25859ed555ac7abd",
+        "import-linear-programming-4bb96fdde5306afd"
+      ],
+      "chapters": [],
+      "taxonomyChanged": false
+    },
+    "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1793888421404-intake-819f9b07a7b59212"
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "source": "S6/linear programming/linear programming review 2.pdf",
+  "sourceRecords": 28,
+  "publishable": 27,
+  "held": [
+    {
+      "question": 9,
+      "reason": "Mutually inconsistent printed coordinates, angle and area; no numeric givens changed."
+    }
+  ],
+  "checks": [
+    {
+      "question": 1,
+      "part": "minimum objective",
+      "actual": "-17",
+      "expected": "-17",
+      "status": "pass"
+    },
+    {
+      "question": 4,
+      "part": "minimum objective",
+      "actual": "11",
+      "expected": "11",
+      "status": "pass"
+    },
+    {
+      "question": 16,
+      "part": "minimum objective",
+      "actual": "-54",
+      "expected": "-54",
+      "status": "pass"
+    },
+    {
+      "question": 20,
+      "part": "minimum objective",
+      "actual": "15",
+      "expected": "15",
+      "status": "pass"
+    },
+    {
+      "question": 2,
+      "part": "objective range",
+      "actual": "36",
+      "expected": "36",
+      "status": "pass"
+    },
+    {
+      "question": 3,
+      "part": "constant k",
+      "actual": "25",
+      "expected": "25",
+      "status": "pass"
+    },
+    {
+      "question": 12,
+      "part": "maximum objective",
+      "actual": "26",
+      "expected": "26",
+      "status": "pass"
+    },
+    {
+      "question": 19,
+      "part": "maximum objective",
+      "actual": "21",
+      "expected": "21",
+      "status": "pass"
+    },
+    {
+      "question": 25,
+      "part": "maximum objective",
+      "actual": "42",
+      "expected": "42",
+      "status": "pass"
+    },
+    {
+      "question": 28,
+      "part": "maximum objective",
+      "actual": "68",
+      "expected": "68",
+      "status": "pass"
+    },
+    {
+      "question": 8,
+      "part": "perpendicular slopes",
+      "actual": "-1",
+      "expected": "-1",
+      "status": "pass"
+    },
+    {
+      "question": 8,
+      "part": "maximum",
+      "actual": "40",
+      "expected": "40",
+      "status": "pass"
+    },
+    {
+      "question": 14,
+      "part": "maximum",
+      "actual": "37",
+      "expected": "37",
+      "status": "pass"
+    },
+    {
+      "question": 22,
+      "part": "all four objective values",
+      "actual": "[55, -89, 10, 106]",
+      "expected": "[55, -89, 10, 106]",
+      "status": "pass"
+    },
+    {
+      "question": 23,
+      "part": "maximum displayed dot",
+      "actual": "(2, 3, 1)",
+      "expected": "(2, 3, 1)",
+      "status": "pass"
+    },
+    {
+      "question": 24,
+      "part": "all feasible integer b",
+      "actual": "[-3, -2, -1]",
+      "expected": "[-3, -2, -1]",
+      "status": "pass"
+    },
+    {
+      "question": 25,
+      "part": "integer optimum",
+      "actual": "(42, 12, 6)",
+      "expected": "(42, 12, 6)",
+      "status": "pass"
+    },
+    {
+      "question": 26,
+      "part": "integer row counts",
+      "actual": "[5, 4, 3, 2]",
+      "expected": "[5, 4, 3, 2]",
+      "status": "pass"
+    },
+    {
+      "question": 26,
+      "part": "total integer points",
+      "actual": "14",
+      "expected": "14",
+      "status": "pass"
+    },
+    {
+      "question": 26,
+      "part": "exactly three",
+      "actual": "90/1001",
+      "expected": "90/1001",
+      "status": "pass"
+    },
+    {
+      "question": 26,
+      "part": "at least three",
+      "actual": "95/1001",
+      "expected": "95/1001",
+      "status": "pass"
+    },
+    {
+      "question": 28,
+      "part": "integer optimum",
+      "actual": "(Fraction(68, 1), 20, 40)",
+      "expected": "(Fraction(68, 1), 20, 40)",
+      "status": "pass"
+    },
+    {
+      "question": 15,
+      "part": "differences from vertex D",
+      "actual": "[2*a**2, 2*b**2, a**2 - 2*a*b + b**2, 0, 2*a**2 + a*b + b**2]",
+      "expected": "[2*a**2, 2*b**2, a**2 - 2*a*b + b**2, 0, 2*a**2 + a*b + b**2]",
+      "status": "pass"
+    },
+    {
+      "question": 27,
+      "part": "competitor difference",
+      "actual": "4*a - 5",
+      "expected": "4*a - 5",
+      "status": "pass"
+    },
+    {
+      "question": 9,
+      "part": "source conflict: coordinate area",
+      "actual": "k**2/2 + 2*k",
+      "expected": "k**2/2 + 2*k",
+      "status": "pass"
+    },
+    {
+      "question": 9,
+      "part": "angle condition root",
+      "actual": "1/2",
+      "expected": "1/2",
+      "status": "pass"
+    },
+    {
+      "question": 9,
+      "part": "area from angle",
+      "actual": "12 + 8*sqrt(3)",
+      "expected": "12 + 8*sqrt(3)",
+      "status": "pass"
+    },
+    {
+      "question": 9,
+      "part": "area cannot equal printed area",
+      "actual": "True",
+      "expected": "True",
+      "status": "pass"
+    },
+    {
+      "question": 5,
+      "part": "boundary has slope -1 and origin is included",
+      "actual": "(-1, True)",
+      "expected": "(-1, True)",
+      "status": "pass"
+    },
+    {
+      "question": 6,
+      "part": "source-labelled region witnesses",
+      "actual": "[False, True, False, False]",
+      "expected": "[False, True, False, False]",
+      "status": "pass"
+    },
+    {
+      "question": 7,
+      "part": "source shade contains origin",
+      "actual": "True",
+      "expected": "True",
+      "status": "pass"
+    },
+    {
+      "question": 10,
+      "part": "unbounded lower-left objective direction",
+      "actual": "-3",
+      "expected": "-3",
+      "status": "pass"
+    },
+    {
+      "question": 11,
+      "part": "counterexample to statement I",
+      "actual": "(True, True, False)",
+      "expected": "(True, True, False)",
+      "status": "pass"
+    },
+    {
+      "question": 13,
+      "part": "negative x counterexample to option A",
+      "actual": "(True, True, False)",
+      "expected": "(True, True, False)",
+      "status": "pass"
+    },
+    {
+      "question": 17,
+      "part": "source-labelled square regions",
+      "actual": "[True, False, False, False]",
+      "expected": "[True, False, False, False]",
+      "status": "pass"
+    },
+    {
+      "question": 18,
+      "part": "boundary sign example a=-1 c=1",
+      "actual": "(True, True, True)",
+      "expected": "(True, True, True)",
+      "status": "pass"
+    },
+    {
+      "question": 21,
+      "part": "counterexample to statement III",
+      "actual": "(True, True, False)",
+      "expected": "(True, True, False)",
+      "status": "pass"
+    },
+    {
+      "question": 1,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "B",
+      "expected": "B",
+      "status": "pass"
+    },
+    {
+      "question": 2,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "A",
+      "expected": "A",
+      "status": "pass"
+    },
+    {
+      "question": 3,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "C",
+      "expected": "C",
+      "status": "pass"
+    },
+    {
+      "question": 4,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "B",
+      "expected": "B",
+      "status": "pass"
+    },
+    {
+      "question": 5,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "C",
+      "expected": "C",
+      "status": "pass"
+    },
+    {
+      "question": 6,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "B",
+      "expected": "B",
+      "status": "pass"
+    },
+    {
+      "question": 7,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "B",
+      "expected": "B",
+      "status": "pass"
+    },
+    {
+      "question": 8,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "A",
+      "expected": "A",
+      "status": "pass"
+    },
+    {
+      "question": 10,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "C",
+      "expected": "C",
+      "status": "pass"
+    },
+    {
+      "question": 11,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "C",
+      "expected": "C",
+      "status": "pass"
+    },
+    {
+      "question": 12,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "D",
+      "expected": "D",
+      "status": "pass"
+    },
+    {
+      "question": 13,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "D",
+      "expected": "D",
+      "status": "pass"
+    },
+    {
+      "question": 14,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "C",
+      "expected": "C",
+      "status": "pass"
+    },
+    {
+      "question": 15,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "D",
+      "expected": "D",
+      "status": "pass"
+    },
+    {
+      "question": 16,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "B",
+      "expected": "B",
+      "status": "pass"
+    },
+    {
+      "question": 17,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "A",
+      "expected": "A",
+      "status": "pass"
+    },
+    {
+      "question": 18,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "B",
+      "expected": "B",
+      "status": "pass"
+    },
+    {
+      "question": 19,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "B",
+      "expected": "B",
+      "status": "pass"
+    },
+    {
+      "question": 20,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "C",
+      "expected": "C",
+      "status": "pass"
+    },
+    {
+      "question": 21,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "A",
+      "expected": "A",
+      "status": "pass"
+    },
+    {
+      "question": 22,
+      "part": "transcribed answer agrees with reviewed source key",
+      "actual": "D",
+      "expected": "D",
+      "status": "pass"
+    },
+    {
+      "question": 9,
+      "part": "bilingual statement option A",
+      "actual": "只有 I 及 II",
+      "expected": "只有 I 及 II",
+      "status": "pass"
+    },
+    {
+      "question": 9,
+      "part": "bilingual statement option B",
+      "actual": "只有 I 及 III",
+      "expected": "只有 I 及 III",
+      "status": "pass"
+    },
+    {
+      "question": 9,
+      "part": "bilingual statement option C",
+      "actual": "只有 II 及 III",
+      "expected": "只有 II 及 III",
+      "status": "pass"
+    },
+    {
+      "question": 9,
+      "part": "bilingual statement option D",
+      "actual": "I、II 及 III",
+      "expected": "I、II 及 III",
+      "status": "pass"
+    },
+    {
+      "question": 11,
+      "part": "bilingual statement option A",
+      "actual": "只有 I 及 II",
+      "expected": "只有 I 及 II",
+      "status": "pass"
+    },
+    {
+      "question": 11,
+      "part": "bilingual statement option B",
+      "actual": "只有 I 及 III",
+      "expected": "只有 I 及 III",
+      "status": "pass"
+    },
+    {
+      "question": 11,
+      "part": "bilingual statement option C",
+      "actual": "只有 II 及 III",
+      "expected": "只有 II 及 III",
+      "status": "pass"
+    },
+    {
+      "question": 11,
+      "part": "bilingual statement option D",
+      "actual": "I、II 及 III",
+      "expected": "I、II 及 III",
+      "status": "pass"
+    },
+    {
+      "question": 21,
+      "part": "bilingual statement option A",
+      "actual": "只有 I 及 II",
+      "expected": "只有 I 及 II",
+      "status": "pass"
+    },
+    {
+      "question": 21,
+      "part": "bilingual statement option B",
+      "actual": "只有 I 及 III",
+      "expected": "只有 I 及 III",
+      "status": "pass"
+    },
+    {
+      "question": 21,
+      "part": "bilingual statement option C",
+      "actual": "只有 II 及 III",
+      "expected": "只有 II 及 III",
+      "status": "pass"
+    },
+    {
+      "question": 21,
+      "part": "bilingual statement option D",
+      "actual": "I、II 及 III",
+      "expected": "I、II 及 III",
+      "status": "pass"
+    },
+    {
+      "question": 9,
+      "part": "conflicting question excluded from publication",
+      "actual": "hold",
+      "expected": "hold",
+      "status": "pass"
+    }
+  ],
+  "totalChecks": 71
+}

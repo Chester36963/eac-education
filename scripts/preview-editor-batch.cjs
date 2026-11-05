@@ -30,7 +30,11 @@ fs.mkdirSync(output,{recursive:true});
       return found;
      });assert.deepEqual(residue,[]);
      results.push({locator:record.locator,id:record.question.id,width,language,status:'pass',scope:'draft question and expanded text solution; no actual student grading'});
-     if(language==='bilingual'&&[390,1440].includes(width))await page.screenshot({path:path.join(output,'q'+record.locator+'-'+width+'.png'),fullPage:true});
+     if(language==='bilingual'&&[390,1440].includes(width)){
+      await page.screenshot({path:path.join(output,'q'+record.locator+'-'+width+'.png'),fullPage:true});
+      const figures=page.locator('main img');
+      for(let i=0;i<await figures.count();i++)await figures.nth(i).screenshot({path:path.join(output,'q'+record.locator+'-figure-'+i+'-'+width+'.png')});
+     }
     }
    }
    console.log('PASS draft Q'+record.locator);

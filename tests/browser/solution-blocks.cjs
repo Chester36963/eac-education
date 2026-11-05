@@ -2,14 +2,18 @@
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const fs=require('node:fs'),assert=require('node:assert/strict');
 const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/',out=process.env.EAC_QA_OUTPUT||'docs/qa/2026-11-05/linear-programming/solution-journey';
-const batch=require('../../content/intake/editor/intake-d2b66a083bf979af.json');fs.mkdirSync(out,{recursive:true});
+const batchId=process.env.EAC_EDITOR_BATCH||'intake-d2b66a083bf979af';
+assert.match(batchId,/^intake-[a-f0-9]+$/);
+const batch=require('../../content/intake/editor/'+batchId+'.json');
+const chapter=require('../../content/catalog.json').subjects.flatMap(s=>s.chapters).find(c=>c.topicId===batch.topicId)?.id;
+assert.ok(chapter,'Editorial batch must map to an existing chapter');fs.mkdirSync(out,{recursive:true});
 (async()=>{const browser=await chromium.launch(),results=[],errors=[];
  try{await Promise.all([320,390,768,1440].map(async width=>{
   const p=await browser.newPage({viewport:{width,height:1000}});p.on('pageerror',e=>errors.push({width,error:e.message}));
   const ready=()=>p.waitForFunction(()=>typeof sessionState!=='undefined'&&sessionState&&document.getElementById('active-set').getAttribute('aria-busy')==='false');
-  for(const r of batch.records.filter(r=>Number(r.locator)>=9)){
+  for(const r of batch.records.filter(r=>r.disposition==='publish'&&r.question.solutionBlocks)){
    const q=r.question,assets=[...new Set(Object.values(q.solutionBlocks).flat().filter(b=>b.type==='figure').map(b=>b.diagram.src))];
-   await p.goto(base+'app.html?'+new URLSearchParams({question:q.id,chapter:'linear-programming',language:'bilingual',form:'all'}));await ready();
+   await p.goto(base+'app.html?'+new URLSearchParams({question:q.id,chapter,language:'bilingual',form:'all'}));await ready();
    assert.equal(await p.locator('#question-content-blocks img').evaluateAll((imgs,assets)=>imgs.some(i=>assets.some(a=>i.src.endsWith(a))),assets),false);
    for(const language of ['en','zh','bilingual']){
     await p.locator('[data-language="'+language+'"]').click();await ready();await p.locator('#solution-btn').click();await p.locator('#solution-panel:not([hidden])').waitFor();
