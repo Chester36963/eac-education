@@ -529,6 +529,73 @@
               ]
             }
           ]
+        },
+        {
+          "id": "linear-programming",
+          "topicId": "linear-programming",
+          "name": {
+            "en": "Linear Programming",
+            "zh-Hant": "線性規劃"
+          },
+          "description": {
+            "en": "Translate constraints into a feasible region, then optimise and interpret a linear objective.",
+            "zh-Hant": "把限制轉成可行區域，再求線性目標式的極值並解釋結果。"
+          },
+          "subcategories": [
+            {
+              "id": "graphing-constraints",
+              "name": {
+                "en": "Graphing constraints",
+                "zh-Hant": "限制與可行區域圖解"
+              },
+              "skills": [
+                "lp-half-plane",
+                "lp-parameter-feasibility"
+              ]
+            },
+            {
+              "id": "integer-feasible-points",
+              "name": {
+                "en": "Integer feasible points",
+                "zh-Hant": "整數可行解"
+              },
+              "skills": [
+                "lp-lattice-count",
+                "lp-discrete-objective"
+              ]
+            },
+            {
+              "id": "objective-and-vertices",
+              "name": {
+                "en": "Objective functions and vertices",
+                "zh-Hant": "目標函數與頂點"
+              },
+              "skills": [
+                "lp-objective-vertices",
+                "lp-objective-range"
+              ]
+            },
+            {
+              "id": "systems-of-inequalities",
+              "name": {
+                "en": "Systems of inequalities",
+                "zh-Hant": "聯立不等式"
+              },
+              "skills": [
+                "lp-graph-systems"
+              ]
+            },
+            {
+              "id": "resource-modelling",
+              "name": {
+                "en": "Resource modelling",
+                "zh-Hant": "資源限制建模"
+              },
+              "skills": [
+                "lp-modelling"
+              ]
+            }
+          ]
         }
       ]
     },

@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded',async()=>{
         sequences:'<path d="M9 65H27V52H45V39H63V26H81V13H96" class="art-accent"/><path d="M9 74H96" opacity=".4"/><circle cx="18" cy="58" r="2"/><circle cx="36" cy="45" r="2"/><circle cx="54" cy="32" r="2"/><circle cx="72" cy="19" r="2"/>',
         'mensuration-core':'<path d="M20 62L50 10L80 62"/><ellipse cx="50" cy="62" rx="30" ry="8"/><path d="M50 10V62H80" stroke-dasharray="3 3" class="art-accent"/>',
         'circle-equation':'<path d="M12 62H92M35 75V7" opacity=".4"/><circle cx="56" cy="35" r="25" class="art-accent"/><circle cx="56" cy="35" r="2"/><path d="M56 35H81" stroke-dasharray="3 3"/>',
-        statistics:'<path d="M10 66H94M14 66V10" opacity=".4"/><path d="M23 66V45H38V66M45 66V20H60V66M67 66V33H82V66" class="art-accent"/>'
+        statistics:'<path d="M10 66H94M14 66V10" opacity=".4"/><path d="M23 66V45H38V66M45 66V20H60V66M67 66V33H82V66" class="art-accent"/>',
+        'linear-programming':'<path d="M10 66H94M14 66V7" opacity=".4"/><path d="M28 57H77L63 24L28 35Z" class="art-accent"/><path d="M16 47L85 15" stroke-dasharray="3 3"/><circle cx="63" cy="24" r="3"/>'
       };
       art.innerHTML='<svg viewBox="0 0 100 80">'+(drawings[chapter.id]||drawings['four-centres'])+'</svg>';
       const arrow=document.createElement('span');arrow.className='index-arrow';arrow.textContent='↗';link.append(number,art,title,description,arrow);return link;

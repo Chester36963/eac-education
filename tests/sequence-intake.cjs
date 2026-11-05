@@ -13,7 +13,8 @@ test('curriculum intake accounts for all 24 original locators, with two explicit
  assert.deepEqual(review.deduplication.normalizedMatches,[]);assert.deepEqual(review.deduplication.withinBatchMatches,[]);
 });
 test('intake preserves all 1186 earlier question objects and IDs, including 21 ASGS questions',()=>{
- const pilotIds=new Set(['intake-d7bc46f81937cc09','intake-611e81c1f3198537','intake-233787552d322be8'].flatMap(id=>require('../content/intake/editor/'+id+'.json').records.filter(r=>r.disposition==='publish').map(r=>r.question.id)));const original=all.filter(q=>!newIds.has(q.id)&&!pilotIds.has(q.id));assert.equal(original.length,review.baseline.count);assert.equal(original.length,review.baseline.count);assert.equal(sha(original),review.baseline.questionArraySha256);
+ const pilotIds=new Set(fs.readdirSync(path.join(ROOT,'content/intake/editor')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(fs.readFileSync(path.join(ROOT,'content/intake/editor',f)))).filter(b=>b.import).flatMap(b=>b.records.filter(r=>r.disposition==='publish'&&all.some(q=>q.id===r.question.id)).map(r=>r.question.id)));const original=all.filter(q=>!newIds.has(q.id)&&!pilotIds.has(q.id));assert.equal(original.length,review.baseline.count);assert.equal(original.length,review.baseline.count);assert.equal(sha(original),review.baseline.questionArraySha256);
+ for(const id of newIds)pilotIds.delete(id);
  assert.equal(all.length,1208+pilotIds.size);assert.equal(all.filter(q=>q.id.startsWith('import-sequences-')&&!newIds.has(q.id)&&!pilotIds.has(q.id)).length,21);
  assert.equal(validate(source.catalog,source.topics,source.skills).length,0);
  const files=compile(source),manifest=JSON.parse(files.get('data/bank.json'));assert.equal(manifest.totalQuestions,1208+pilotIds.size);

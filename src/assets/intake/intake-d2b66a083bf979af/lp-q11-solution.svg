@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 580" role="img" aria-label="Question 11 reconstructed solution graph">
+<title>Question 11: reconstructed from the printed constraints</title>
+<rect width="680" height="580" fill="white"/>
+<defs><clipPath id="plot"><rect x="60" y="40" width="560" height="460"/></clipPath></defs>
+<g font-family="Arial, sans-serif" font-size="17" fill="#303a47">
+<polygon points="508.000,327.500 340.000,212.500 228.000,327.500" fill="#dbe3eb"/>
+<line x1="60.000" y1="500.000" x2="60.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="60.000" y="351.500" text-anchor="middle">-5</text>
+<line x1="116.000" y1="500.000" x2="116.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="116.000" y="351.500" text-anchor="middle">-4</text>
+<line x1="172.000" y1="500.000" x2="172.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="172.000" y="351.500" text-anchor="middle">-3</text>
+<line x1="228.000" y1="500.000" x2="228.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="228.000" y="351.500" text-anchor="middle">-2</text>
+<line x1="284.000" y1="500.000" x2="284.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="284.000" y="351.500" text-anchor="middle">-1</text>
+<line x1="340.000" y1="500.000" x2="340.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="340.000" y="351.500" text-anchor="middle">0</text>
+<line x1="396.000" y1="500.000" x2="396.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="396.000" y="351.500" text-anchor="middle">1</text>
+<line x1="452.000" y1="500.000" x2="452.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="452.000" y="351.500" text-anchor="middle">2</text>
+<line x1="508.000" y1="500.000" x2="508.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="508.000" y="351.500" text-anchor="middle">3</text>
+<line x1="564.000" y1="500.000" x2="564.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="564.000" y="351.500" text-anchor="middle">4</text>
+<line x1="620.000" y1="500.000" x2="620.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="620.000" y="351.500" text-anchor="middle">5</text>
+<line x1="60.000" y1="500.000" x2="620.000" y2="500.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="328.000" y="506.000" text-anchor="end">-3</text>
+<line x1="60.000" y1="442.500" x2="620.000" y2="442.500" stroke="#dfe3e8" stroke-width="1"/>
+<text x="328.000" y="448.500" text-anchor="end">-2</text>
+<line x1="60.000" y1="385.000" x2="620.000" y2="385.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="328.000" y="391.000" text-anchor="end">-1</text>
+<line x1="60.000" y1="327.500" x2="620.000" y2="327.500" stroke="#dfe3e8" stroke-width="1"/>
+<line x1="60.000" y1="270.000" x2="620.000" y2="270.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="328.000" y="276.000" text-anchor="end">1</text>
+<line x1="60.000" y1="212.500" x2="620.000" y2="212.500" stroke="#dfe3e8" stroke-width="1"/>
+<text x="328.000" y="218.500" text-anchor="end">2</text>
+<line x1="60.000" y1="155.000" x2="620.000" y2="155.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="328.000" y="161.000" text-anchor="end">3</text>
+<line x1="60.000" y1="97.500" x2="620.000" y2="97.500" stroke="#dfe3e8" stroke-width="1"/>
+<text x="328.000" y="103.500" text-anchor="end">4</text>
+<line x1="60.000" y1="40.000" x2="620.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="328.000" y="46.000" text-anchor="end">5</text>
+<line x1="60.000" y1="327.500" x2="620.000" y2="327.500" stroke="#566271" stroke-width="2"/>
+<line x1="340.000" y1="500.000" x2="340.000" y2="40.000" stroke="#566271" stroke-width="2"/>
+<text x="634.0" y="332.5">x</text>
+<text x="335.0" y="25.0">y</text>
+<g clip-path="url(#plot)">
+<line x1="60.000" y1="20.833" x2="620.000" y2="404.167" stroke="#46576c" stroke-width="2.2"/>
+<line x1="60.000" y1="500.000" x2="620.000" y2="-75.000" stroke="#46576c" stroke-width="2.2"/>
+<line x1="60.000" y1="456.875" x2="620.000" y2="313.125" stroke="#46576c" stroke-width="2.2"/>
+<line x1="60.000" y1="327.500" x2="620.000" y2="327.500" stroke="#46576c" stroke-width="2.2"/>
+<circle cx="228.000" cy="327.500" r="5" fill="#1c2f47"/>
+<circle cx="284.000" cy="327.500" r="5" fill="#1c2f47"/>
+<circle cx="284.000" cy="270.000" r="5" fill="#1c2f47"/>
+<circle cx="340.000" cy="327.500" r="5" fill="#1c2f47"/>
+<circle cx="340.000" cy="270.000" r="5" fill="#1c2f47"/>
+<circle cx="340.000" cy="212.500" r="5" fill="#1c2f47"/>
+<circle cx="396.000" cy="327.500" r="5" fill="#1c2f47"/>
+<circle cx="396.000" cy="270.000" r="5" fill="#1c2f47"/>
+<circle cx="452.000" cy="327.500" r="5" fill="#1c2f47"/>
+<circle cx="508.000" cy="327.500" r="5" fill="#1c2f47"/>
+</g>
+<text x="116.000" y="97.500" paint-order="stroke" stroke="white" stroke-width="5" stroke-linejoin="round">2x+3y=6</text>
+<text x="384.800" y="74.500" paint-order="stroke" stroke="white" stroke-width="5" stroke-linejoin="round">x−y=−2</text>
+<text x="401.600" y="408.000" paint-order="stroke" stroke="white" stroke-width="5" stroke-linejoin="round">x−4y=4</text>
+<text x="60" y="548" font-size="16">Dots: integer solutions · shade: continuous relaxation</text>
+</g></svg>

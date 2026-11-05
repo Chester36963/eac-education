@@ -1,0 +1,34 @@
+{
+  "batch": "intake-d2b66a083bf979af",
+  "status": "pass",
+  "applied": false,
+  "canonicalBefore": "411bd02c092fa575133a1b4c517197dcea7d0f4c2df23a53d71cd6586938c5d8",
+  "canonicalAfter": "411bd02c092fa575133a1b4c517197dcea7d0f4c2df23a53d71cd6586938c5d8",
+  "counts": {
+    "source": 12,
+    "recorded": 12,
+    "publish": 12,
+    "duplicate": 0,
+    "held": 0
+  },
+  "diff": {
+    "added": [],
+    "updated": [],
+    "unchanged": [
+      "import-linear-programming-4eca0a5b2e1cf4d1",
+      "import-linear-programming-3135c83dd9f3dbb6",
+      "import-linear-programming-9a560aafe0461de0",
+      "import-linear-programming-9c12a76435d46065",
+      "import-linear-programming-33614b195fd202f1",
+      "import-linear-programming-1e45b3a6193c5c61",
+      "import-linear-programming-e70d315aaad9a93f",
+      "import-linear-programming-a5cdab6403f5bbad",
+      "import-linear-programming-5fa65706c7f186e6",
+      "import-linear-programming-d487218ca46e0b7e",
+      "import-linear-programming-853276bf43ff9201",
+      "import-linear-programming-bc6c3bd7c4a0755c"
+    ],
+    "chapters": [],
+    "taxonomyChanged": false
+  }
+}

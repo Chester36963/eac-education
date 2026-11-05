@@ -2302,7 +2302,7 @@
         "zh-Hant": "線性規劃"
       },
       "learningPurpose": "把限制畫成可行區域，再用頂點比較目標量。",
-      "status": "待處理",
+      "status": "處理中",
       "scopeBasis": "provisional-source-derived-not-official-syllabus",
       "prerequisites": [
         "inequalities",
@@ -2338,8 +2338,12 @@
           "skillStatus": "requires-question-level-review"
         }
       ],
-      "bankBinding": null,
-      "publicationGate": "new-topic-review",
+      "bankBinding": {
+        "topicId": "linear-programming",
+        "chapterId": "linear-programming",
+        "subjectId": "algebra"
+      },
+      "publicationGate": "first-source-reviewed-additional-sources-pending",
       "templateId": "eac-study-v1"
     },
     {

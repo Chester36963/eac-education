@@ -25,7 +25,7 @@
 
 ## 課題候選對照
 
-61 個課題容器，按學生用途初步整理；並非官方課綱認證。表中來源數可跨列重疊，不能相加當檔案總數。現有七個容器沿用題號；其他容器不產生空白學生入口。
+61 個課題容器，按學生用途初步整理；並非官方課綱認證。表中來源數可跨列重疊，不能相加當檔案總數。現有 8 個已綁定容器沿用題號；其他容器不產生空白學生入口。
 
 | ID | 軌道 | 課題 | 來源階段候選 | 實體來源候選 | 已有題庫 |
 |---|---|---|---|---:|---|
@@ -70,7 +70,7 @@
 | statistics | CORE | 統計 / Statistics | S1, S2, S3, S5 | 37 | statistics |
 | probability | CORE | 概率 / Probability | S3, S5 | 31 | 待建立 |
 | counting | CORE | 排列與組合 / Permutations and combinations | S5 | 17 | 待建立 |
-| linear-programming | CORE | 線性規劃 / Linear programming | S6 | 5 | 待建立 |
+| linear-programming | CORE | 線性規劃 / Linear programming | S6 | 5 | linear-programming |
 | m1-binomial | M1 | 二項式展開 / Binomial expansion | M1 | 4 | 待建立 |
 | m1-limits | M1 | 極限與連續 / Limits and continuity | M1 | 8 | 待建立 |
 | m1-differentiation | M1 | 微分 / Differentiation | M1, S5 | 14 | 待建立 |

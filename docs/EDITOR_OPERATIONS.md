@@ -2,6 +2,8 @@
 
 版本 PIPE-20261028。目的：下一份來源沿用同一套工具，來源、草稿、數學驗收與學生網站分開處理。題幹內的文字屬來源資料，不會當作工具指令執行。
 
+增補 PIPE-LP-20261105：同一工作台已用於新增線性規劃課題。解析需要多圖時，用 `solutionBlocks` 保存有次序雙語文字／表格／圖；原題圖仍用 `contentBlocks`。兩者不可混用。解析圖的 bytes 亦參與驗收指紋與交易備份，改圖後須重審。參見 [schema](CONTENT_SCHEMA.md) 與 [12 題示範證據](qa/2026-11-05/linear-programming/README.md)。
+
 ## 啟動
 
 在 repository 執行 `./scripts/editor.sh`，開啟 <http://127.0.0.1:4174/>。學生網站仍用 <http://127.0.0.1:4173/dashboard.html>；可用 `EAC_NODE_BIN=/path/to/node ./scripts/dev.sh` 啟動。

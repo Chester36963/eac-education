@@ -1,0 +1,260 @@
+[
+  {
+    "asset": "content/intake/linear-programming-review/assets/lp-q09a-solution.svg",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q09a-solution.svg",
+    "sha256": "a82782be02583ef132b956121b359d67ce7969538f40696ce8e7ece46563dbb3",
+    "questionNumber": "9",
+    "kind": "solution",
+    "construction": "Reconstructed from exact printed constraints; independently checked by verify-linear-programming-review.py",
+    "bounds": [
+      -2,
+      8,
+      -7,
+      8
+    ],
+    "constraints": [
+      [
+        -3,
+        2,
+        -12,
+        false
+      ],
+      [
+        2,
+        1,
+        6,
+        true
+      ]
+    ],
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q9-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q9-1440.png"
+    ]
+  },
+  {
+    "asset": "content/intake/linear-programming-review/assets/lp-q09b-solution.svg",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q09b-solution.svg",
+    "sha256": "34833c4afc885b1230cdce5fdce78fbcf9a95988671a3d702da49d7e6d072eac",
+    "questionNumber": "9",
+    "kind": "solution",
+    "construction": "Reconstructed from exact printed constraints; independently checked by verify-linear-programming-review.py",
+    "bounds": [
+      -11,
+      6,
+      -6,
+      9
+    ],
+    "constraints": [
+      [
+        3,
+        2,
+        10,
+        false
+      ],
+      [
+        -1,
+        4,
+        8,
+        true
+      ],
+      [
+        1,
+        -1,
+        -5,
+        true
+      ]
+    ],
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q9-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q9-1440.png"
+    ]
+  },
+  {
+    "asset": "content/intake/linear-programming-review/assets/lp-q10-solution.svg",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q10-solution.svg",
+    "sha256": "c7df183871a5d78bce0020ed2796836218f043295c574a7dc7d93bd527c7fe3a",
+    "questionNumber": "10",
+    "kind": "solution",
+    "construction": "Reconstructed from exact printed constraints; independently checked by verify-linear-programming-review.py",
+    "bounds": [
+      -1,
+      6,
+      -2,
+      7
+    ],
+    "constraints": [
+      [
+        -4,
+        -1,
+        -8,
+        true
+      ],
+      [
+        1,
+        -1,
+        2,
+        false
+      ],
+      [
+        1,
+        2,
+        10,
+        true
+      ]
+    ],
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q10-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q10-1440.png"
+    ]
+  },
+  {
+    "asset": "content/intake/linear-programming-review/assets/lp-q11-solution.svg",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q11-solution.svg",
+    "sha256": "5d7e691f13655c09b2c142bdf33a020a9ca0579f2aec449234b03a5ebf01863e",
+    "questionNumber": "11",
+    "kind": "solution",
+    "construction": "Reconstructed from exact printed constraints; independently checked by verify-linear-programming-review.py",
+    "bounds": [
+      -5,
+      5,
+      -3,
+      5
+    ],
+    "constraints": [
+      [
+        2,
+        3,
+        6,
+        false
+      ],
+      [
+        -1,
+        1,
+        2,
+        false
+      ],
+      [
+        1,
+        -4,
+        4,
+        false
+      ],
+      [
+        0,
+        -1,
+        0,
+        false
+      ]
+    ],
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q11-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q11-1440.png"
+    ]
+  },
+  {
+    "asset": "content/intake/linear-programming-review/assets/lp-q11c-solution.svg",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q11c-solution.svg",
+    "sha256": "f82e82594e20a9eb109c83dc0d4b402c6802fa77cc763a7fccfc4d9d9174420d",
+    "questionNumber": "11",
+    "kind": "solution",
+    "construction": "Reconstructed from exact printed constraints; independently checked by verify-linear-programming-review.py",
+    "bounds": [
+      -5,
+      5,
+      -3,
+      5
+    ],
+    "constraints": [
+      [
+        2,
+        3,
+        6,
+        false
+      ],
+      [
+        -1,
+        1,
+        2,
+        false
+      ],
+      [
+        1,
+        -4,
+        4,
+        false
+      ]
+    ],
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q11-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q11-1440.png"
+    ]
+  },
+  {
+    "asset": "content/intake/linear-programming-review/assets/lp-q12-solution.svg",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q12-solution.svg",
+    "sha256": "8bea8978e5ca720e5922c6ddcaa2d528dac276d7b2cc91f2507ec3b725bb5040",
+    "questionNumber": "12",
+    "kind": "solution",
+    "construction": "Reconstructed from exact printed constraints; independently checked by verify-linear-programming-review.py",
+    "bounds": [
+      -100,
+      700,
+      -100,
+      650
+    ],
+    "constraints": [
+      [
+        1,
+        1,
+        550,
+        false
+      ],
+      [
+        2,
+        1,
+        900,
+        false
+      ],
+      [
+        2,
+        3,
+        1500,
+        false
+      ],
+      [
+        -1,
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        -1,
+        0,
+        false
+      ]
+    ],
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q12-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q12-1440.png"
+    ]
+  }
+]

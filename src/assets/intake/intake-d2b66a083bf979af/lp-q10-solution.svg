@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 580" role="img" aria-label="Question 10 reconstructed solution graph">
+<title>Question 10: reconstructed from the printed constraints</title>
+<rect width="680" height="580" fill="white"/>
+<defs><clipPath id="plot"><rect x="60" y="40" width="560" height="460"/></clipPath></defs>
+<g font-family="Arial, sans-serif" font-size="17" fill="#303a47">
+<polygon points="208.571,164.127 300.000,397.778 513.333,261.481" fill="#dbe3eb"/>
+<line x1="60.000" y1="500.000" x2="60.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="60.000" y="421.778" text-anchor="middle">-1</text>
+<line x1="140.000" y1="500.000" x2="140.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="140.000" y="421.778" text-anchor="middle">0</text>
+<line x1="220.000" y1="500.000" x2="220.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="220.000" y="421.778" text-anchor="middle">1</text>
+<line x1="300.000" y1="500.000" x2="300.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="300.000" y="421.778" text-anchor="middle">2</text>
+<line x1="380.000" y1="500.000" x2="380.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="380.000" y="421.778" text-anchor="middle">3</text>
+<line x1="460.000" y1="500.000" x2="460.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="460.000" y="421.778" text-anchor="middle">4</text>
+<line x1="540.000" y1="500.000" x2="540.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="540.000" y="421.778" text-anchor="middle">5</text>
+<line x1="620.000" y1="500.000" x2="620.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="620.000" y="421.778" text-anchor="middle">6</text>
+<line x1="60.000" y1="500.000" x2="620.000" y2="500.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="128.000" y="506.000" text-anchor="end">-2</text>
+<line x1="60.000" y1="448.889" x2="620.000" y2="448.889" stroke="#dfe3e8" stroke-width="1"/>
+<text x="128.000" y="454.889" text-anchor="end">-1</text>
+<line x1="60.000" y1="397.778" x2="620.000" y2="397.778" stroke="#dfe3e8" stroke-width="1"/>
+<line x1="60.000" y1="346.667" x2="620.000" y2="346.667" stroke="#dfe3e8" stroke-width="1"/>
+<text x="128.000" y="352.667" text-anchor="end">1</text>
+<line x1="60.000" y1="295.556" x2="620.000" y2="295.556" stroke="#dfe3e8" stroke-width="1"/>
+<text x="128.000" y="301.556" text-anchor="end">2</text>
+<line x1="60.000" y1="244.444" x2="620.000" y2="244.444" stroke="#dfe3e8" stroke-width="1"/>
+<text x="128.000" y="250.444" text-anchor="end">3</text>
+<line x1="60.000" y1="193.333" x2="620.000" y2="193.333" stroke="#dfe3e8" stroke-width="1"/>
+<text x="128.000" y="199.333" text-anchor="end">4</text>
+<line x1="60.000" y1="142.222" x2="620.000" y2="142.222" stroke="#dfe3e8" stroke-width="1"/>
+<text x="128.000" y="148.222" text-anchor="end">5</text>
+<line x1="60.000" y1="91.111" x2="620.000" y2="91.111" stroke="#dfe3e8" stroke-width="1"/>
+<text x="128.000" y="97.111" text-anchor="end">6</text>
+<line x1="60.000" y1="40.000" x2="620.000" y2="40.000" stroke="#dfe3e8" stroke-width="1"/>
+<text x="128.000" y="46.000" text-anchor="end">7</text>
+<line x1="60.000" y1="397.778" x2="620.000" y2="397.778" stroke="#566271" stroke-width="2"/>
+<line x1="140.000" y1="500.000" x2="140.000" y2="40.000" stroke="#566271" stroke-width="2"/>
+<text x="634.0" y="402.77777777777777">x</text>
+<text x="135.0" y="25.0">y</text>
+<g clip-path="url(#plot)">
+<line x1="60.000" y1="-215.556" x2="620.000" y2="1215.556" stroke="#46576c" stroke-width="2.2" stroke-dasharray="9 6"/>
+<line x1="60.000" y1="551.111" x2="620.000" y2="193.333" stroke="#46576c" stroke-width="2.2"/>
+<line x1="60.000" y1="116.667" x2="620.000" y2="295.556" stroke="#46576c" stroke-width="2.2" stroke-dasharray="9 6"/>
+<circle cx="300.000" cy="244.444" r="5" fill="#1c2f47"/>
+<circle cx="380.000" cy="244.444" r="5" fill="#1c2f47"/>
+</g>
+<text x="92.000" y="86.000" paint-order="stroke" stroke="white" stroke-width="5" stroke-linejoin="round">4x+y=8</text>
+<text x="444.000" y="336.444" paint-order="stroke" stroke="white" stroke-width="5" stroke-linejoin="round">y=x−2</text>
+<text x="348.000" y="152.444" paint-order="stroke" stroke="white" stroke-width="5" stroke-linejoin="round">x+2y=10</text>
+<text x="60" y="548" font-size="16">Shade: part (a) region · dots: part (b) integer pairs</text>
+</g></svg>

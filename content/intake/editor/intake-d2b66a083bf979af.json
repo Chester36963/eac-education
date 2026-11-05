@@ -1,0 +1,2626 @@
+{
+  "schemaVersion": 1,
+  "id": "intake-d2b66a083bf979af",
+  "sourceId": "source-d2b66a083bf979af",
+  "sourcePath": "S6/linear programming/Linear programming reviews.pdf",
+  "sourceSha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+  "topicId": "linear-programming",
+  "expectedQuestions": 12,
+  "revision": 106,
+  "records": [
+    {
+      "locator": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "mcq",
+      "approvals": {
+        "text": {
+          "fingerprint": "9522c675eacaacca6591d8d8b306666f88e72a31bfc101ef037b2e0d3ea95b05",
+          "evidence": "Q1: matched full printed PDF page 1, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.202Z"
+        },
+        "classification": {
+          "fingerprint": "9522c675eacaacca6591d8d8b306666f88e72a31bfc101ef037b2e0d3ea95b05",
+          "evidence": "Q1: reviewed primary skill lp-half-plane and subcategory graphing-constraints against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.204Z"
+        },
+        "mathematics": {
+          "fingerprint": "9522c675eacaacca6591d8d8b306666f88e72a31bfc101ef037b2e0d3ea95b05",
+          "evidence": "Q1: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.205Z"
+        },
+        "figures": {
+          "fingerprint": "9522c675eacaacca6591d8d8b306666f88e72a31bfc101ef037b2e0d3ea95b05",
+          "evidence": "Q1: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.207Z"
+        },
+        "studentView": {
+          "fingerprint": "9522c675eacaacca6591d8d8b306666f88e72a31bfc101ef037b2e0d3ea95b05",
+          "evidence": "Q1: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q1-390.png and q1-1440.png; production grading tested separately after import. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.208Z"
+        }
+      },
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 6,
+        "course": "core",
+        "stem": "Which of the following shaded regions may represent the solution set of \\(4x+5y+20\\leq 0\\)?",
+        "stemZh": "以下哪個陰影區域可能表示不等式 \\(4x+5y+20\\leq 0\\) 的解集？",
+        "options": {
+          "A": "Graph A",
+          "B": "Graph B",
+          "C": "Graph C",
+          "D": "Graph D"
+        },
+        "optionsZh": {
+          "A": "圖 A",
+          "B": "圖 B",
+          "C": "圖 C",
+          "D": "圖 D"
+        },
+        "answer": "B",
+        "diagram": {
+          "src": "assets/intake/intake-d2b66a083bf979af/lp-q01-graphs.png",
+          "alt": "Four coordinate graphs A to D showing different shaded half-planes",
+          "altZh": "四個坐標圖 A 至 D，展示不同的陰影半平面",
+          "caption": "Question 1 · original options / 第 1 題原題選項",
+          "qa": {
+            "questionId": "import-linear-programming-4eca0a5b2e1cf4d1",
+            "status": "reviewed",
+            "reviewedAt": "2026-11-05",
+            "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+          }
+        },
+        "subcategory": "graphing-constraints",
+        "skill": "lp-half-plane",
+        "hint": "Test the origin, then check which side of the boundary line contains the solution.",
+        "hintZh": "先代入原點，再判斷解集位於邊界直線的哪一側。",
+        "solution": "The boundary is \\(4x+5y+20=0\\), with intercepts \\((-5,0)\\) and \\((0,-4)\\). At the origin, \\(4(0)+5(0)+20=20>0\\), so the origin is not in the solution set. The required half-plane is the side opposite the origin, and the boundary is included. This is graph B.\n\\[\\boxed{\\text{B}}\\]",
+        "solutionZh": "邊界直線為 \\(4x+5y+20=0\\)，截距為 \\((-5,0)\\) 及 \\((0,-4)\\)。代入原點得 \\(4(0)+5(0)+20=20>0\\)，所以原點不屬於解集。解集在原點另一側，而且包含邊界，故選圖 B。\n\\[\\boxed{\\text{B}}\\]",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p1 · Q1",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p1 · Q1",
+        "id": "import-linear-programming-4eca0a5b2e1cf4d1",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "1",
+          "page": 1,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Which of the following shaded regions may represent the solution set of \\(4x+5y+20\\leq 0\\)?"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q01-graphs.png",
+                "alt": "Four coordinate graphs A to D showing different shaded half-planes",
+                "altZh": "四個坐標圖 A 至 D，展示不同的陰影半平面",
+                "caption": "Question 1 · original options / 第 1 題原題選項",
+                "qa": {
+                  "questionId": "import-linear-programming-4eca0a5b2e1cf4d1",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "以下哪個陰影區域可能表示不等式 \\(4x+5y+20\\leq 0\\) 的解集？"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q01-graphs.png",
+                "alt": "Four coordinate graphs A to D showing different shaded half-planes",
+                "altZh": "四個坐標圖 A 至 D，展示不同的陰影半平面",
+                "caption": "Question 1 · original options / 第 1 題原題選項",
+                "qa": {
+                  "questionId": "import-linear-programming-4eca0a5b2e1cf4d1",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The boundary is \\(4x+5y+20=0\\), with intercepts \\((-5,0)\\) and \\((0,-4)\\). At the origin, \\(4(0)+5(0)+20=20>0\\), so the origin is not in the solution set. The required half-plane is the side opposite the origin, and the boundary is included. This is graph B."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{B}}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "邊界直線為 \\(4x+5y+20=0\\)，截距為 \\((-5,0)\\) 及 \\((0,-4)\\)。代入原點得 \\(4(0)+5(0)+20=20>0\\)，所以原點不屬於解集。解集在原點另一側，而且包含邊界，故選圖 B。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{B}}\\]"
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q1 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:26:41.573Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:28:10.925Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.565Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.257Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:51:24.822Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "379fe38a6f3192055431c225a14685de2bdb51b1b81475aa6be7a337c8f4ceba",
+              "evidence": "Q1: matched full printed PDF page 1, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+              "at": "2026-11-05T07:43:51.634Z"
+            },
+            "classification": {
+              "fingerprint": "379fe38a6f3192055431c225a14685de2bdb51b1b81475aa6be7a337c8f4ceba",
+              "evidence": "Q1: reviewed primary skill lp-half-plane and subcategory graphing-constraints against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+              "at": "2026-11-05T07:43:51.637Z"
+            },
+            "mathematics": {
+              "fingerprint": "379fe38a6f3192055431c225a14685de2bdb51b1b81475aa6be7a337c8f4ceba",
+              "evidence": "Q1: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+              "at": "2026-11-05T07:43:51.638Z"
+            },
+            "figures": {
+              "fingerprint": "379fe38a6f3192055431c225a14685de2bdb51b1b81475aa6be7a337c8f4ceba",
+              "evidence": "Q1: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+              "at": "2026-11-05T07:43:51.639Z"
+            },
+            "studentView": {
+              "fingerprint": "379fe38a6f3192055431c225a14685de2bdb51b1b81475aa6be7a337c8f4ceba",
+              "evidence": "Q1: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q1-390.png and q1-1440.png; production grading tested separately after import.",
+              "at": "2026-11-05T07:43:51.641Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "mcq",
+      "approvals": {
+        "text": {
+          "fingerprint": "3df6557b010932b4d6bbec3cec06868d736798b1399d873111196db1f964c0db",
+          "evidence": "Q2: matched full printed PDF page 1, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.209Z"
+        },
+        "classification": {
+          "fingerprint": "3df6557b010932b4d6bbec3cec06868d736798b1399d873111196db1f964c0db",
+          "evidence": "Q2: reviewed primary skill lp-parameter-feasibility and subcategory graphing-constraints against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.211Z"
+        },
+        "mathematics": {
+          "fingerprint": "3df6557b010932b4d6bbec3cec06868d736798b1399d873111196db1f964c0db",
+          "evidence": "Q2: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.212Z"
+        },
+        "figures": {
+          "fingerprint": "3df6557b010932b4d6bbec3cec06868d736798b1399d873111196db1f964c0db",
+          "evidence": "Q2: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.214Z"
+        },
+        "studentView": {
+          "fingerprint": "3df6557b010932b4d6bbec3cec06868d736798b1399d873111196db1f964c0db",
+          "evidence": "Q2: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q2-390.png and q2-1440.png; production grading tested separately after import. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.215Z"
+        }
+      },
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 6,
+        "course": "core",
+        "stem": "In the figure, the shaded region is bounded by \\(x=k\\), \\(x+y=k\\) and \\(2x-y=-h\\), where \\(h\\) and \\(k\\) are positive. If \\((2,6)\\) lies in the shaded region, including its boundary, which of the following value pairs \\((h,k)\\) are possible?\nI. \\(h=2,k=6\\)\nII. \\(h=2,k=9\\)\nIII. \\(h=3,k=8\\)",
+        "stemZh": "圖中陰影區域由直線 \\(x=k\\)、\\(x+y=k\\) 及 \\(2x-y=-h\\) 圍成，其中 \\(h\\) 和 \\(k\\) 均為正數。若 \\((2,6)\\) 位於陰影區域內（包括邊界），以下哪些 \\((h,k)\\) 數值組合可能成立？\nI. \\(h=2,k=6\\)\nII. \\(h=2,k=9\\)\nIII. \\(h=3,k=8\\)",
+        "options": {
+          "A": "I only",
+          "B": "II only",
+          "C": "I and III only",
+          "D": "II and III only"
+        },
+        "optionsZh": {
+          "A": "只有 I",
+          "B": "只有 II",
+          "C": "只有 I 和 III",
+          "D": "只有 II 和 III"
+        },
+        "answer": "C",
+        "diagram": {
+          "src": "assets/intake/intake-d2b66a083bf979af/lp-q02-region.png",
+          "alt": "Shaded triangle bounded by x=k, x+y=k and 2x-y=-h",
+          "altZh": "由 x=k、x+y=k 及 2x-y=-h 圍成的陰影三角形",
+          "caption": "Question 2 · original feasible region / 第 2 題原題可行區域",
+          "qa": {
+            "questionId": "import-linear-programming-3135c83dd9f3dbb6",
+            "status": "reviewed",
+            "reviewedAt": "2026-11-05",
+            "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+          }
+        },
+        "subcategory": "graphing-constraints",
+        "skill": "lp-parameter-feasibility",
+        "hint": "Translate the shaded triangle into inequalities before testing the point.",
+        "hintZh": "先把陰影三角形寫成不等式，再逐組代入該點。",
+        "solution": "From the figure, points in the region satisfy \\(x\\leq k\\), \\(y\\leq 2x+h\\) and \\(y\\geq k-x\\). At \\((2,6)\\), these require \\(2\\leq k\\), \\(6\\leq 4+h\\), and \\(6\\geq k-2\\).\nI: \\(h=2,k=6\\) satisfies all three. II: \\(h=2,k=9\\) fails \\(6\\geq 7\\). III: \\(h=3,k=8\\) satisfies all three. Hence I and III only.\n\\[\\boxed{\\text{C}}\\]",
+        "solutionZh": "按圖中陰影位置，區域內的點須符合 \\(x\\leq k\\)、\\(y\\leq 2x+h\\) 及 \\(y\\geq k-x\\)。代入 \\((2,6)\\)，條件為 \\(2\\leq k\\)、\\(6\\leq 4+h\\) 及 \\(6\\geq k-2\\)。\nI：\\(h=2,k=6\\) 三項均成立。II：\\(h=2,k=9\\) 不符合 \\(6\\geq 7\\)。III：\\(h=3,k=8\\) 三項均成立。因此只有 I 和 III。\n\\[\\boxed{\\text{C}}\\]",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p1 · Q2",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p1 · Q2",
+        "id": "import-linear-programming-3135c83dd9f3dbb6",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "2",
+          "page": 1,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "In the figure, the shaded region is bounded by \\(x=k\\), \\(x+y=k\\) and \\(2x-y=-h\\), where \\(h\\) and \\(k\\) are positive. If \\((2,6)\\) lies in the shaded region, including its boundary, which of the following value pairs \\((h,k)\\) are possible?"
+            },
+            {
+              "type": "paragraph",
+              "text": "I. \\(h=2,k=6\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "II. \\(h=2,k=9\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "III. \\(h=3,k=8\\)"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q02-region.png",
+                "alt": "Shaded triangle bounded by x=k, x+y=k and 2x-y=-h",
+                "altZh": "由 x=k、x+y=k 及 2x-y=-h 圍成的陰影三角形",
+                "caption": "Question 2 · original feasible region / 第 2 題原題可行區域",
+                "qa": {
+                  "questionId": "import-linear-programming-3135c83dd9f3dbb6",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "圖中陰影區域由直線 \\(x=k\\)、\\(x+y=k\\) 及 \\(2x-y=-h\\) 圍成，其中 \\(h\\) 和 \\(k\\) 均為正數。若 \\((2,6)\\) 位於陰影區域內（包括邊界），以下哪些 \\((h,k)\\) 數值組合可能成立？"
+            },
+            {
+              "type": "paragraph",
+              "text": "I. \\(h=2,k=6\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "II. \\(h=2,k=9\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "III. \\(h=3,k=8\\)"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q02-region.png",
+                "alt": "Shaded triangle bounded by x=k, x+y=k and 2x-y=-h",
+                "altZh": "由 x=k、x+y=k 及 2x-y=-h 圍成的陰影三角形",
+                "caption": "Question 2 · original feasible region / 第 2 題原題可行區域",
+                "qa": {
+                  "questionId": "import-linear-programming-3135c83dd9f3dbb6",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "From the figure, points in the region satisfy \\(x\\leq k\\), \\(y\\leq 2x+h\\) and \\(y\\geq k-x\\). At \\((2,6)\\), these require \\(2\\leq k\\), \\(6\\leq 4+h\\), and \\(6\\geq k-2\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "I: \\(h=2,k=6\\) satisfies all three. II: \\(h=2,k=9\\) fails \\(6\\geq 7\\). III: \\(h=3,k=8\\) satisfies all three. Hence I and III only."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{C}}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "按圖中陰影位置，區域內的點須符合 \\(x\\leq k\\)、\\(y\\leq 2x+h\\) 及 \\(y\\geq k-x\\)。代入 \\((2,6)\\)，條件為 \\(2\\leq k\\)、\\(6\\leq 4+h\\) 及 \\(6\\geq k-2\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "I：\\(h=2,k=6\\) 三項均成立。II：\\(h=2,k=9\\) 不符合 \\(6\\geq 7\\)。III：\\(h=3,k=8\\) 三項均成立。因此只有 I 和 III。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{C}}\\]"
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q2 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:26:41.574Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:28:10.927Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.566Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.258Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:51:24.823Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "d7508a5866ba537c234b3e565fb9df91b5c337a664d9413c2bd59f8e1f84a0de",
+              "evidence": "Q2: matched full printed PDF page 1, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+              "at": "2026-11-05T07:43:51.642Z"
+            },
+            "classification": {
+              "fingerprint": "d7508a5866ba537c234b3e565fb9df91b5c337a664d9413c2bd59f8e1f84a0de",
+              "evidence": "Q2: reviewed primary skill lp-parameter-feasibility and subcategory graphing-constraints against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+              "at": "2026-11-05T07:43:51.643Z"
+            },
+            "mathematics": {
+              "fingerprint": "d7508a5866ba537c234b3e565fb9df91b5c337a664d9413c2bd59f8e1f84a0de",
+              "evidence": "Q2: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+              "at": "2026-11-05T07:43:51.644Z"
+            },
+            "figures": {
+              "fingerprint": "d7508a5866ba537c234b3e565fb9df91b5c337a664d9413c2bd59f8e1f84a0de",
+              "evidence": "Q2: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+              "at": "2026-11-05T07:43:51.645Z"
+            },
+            "studentView": {
+              "fingerprint": "d7508a5866ba537c234b3e565fb9df91b5c337a664d9413c2bd59f8e1f84a0de",
+              "evidence": "Q2: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q2-390.png and q2-1440.png; production grading tested separately after import.",
+              "at": "2026-11-05T07:43:51.646Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "3",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "category": "mcq",
+      "approvals": {
+        "text": {
+          "fingerprint": "6d8dbb5afabf632979f4d84f8fe5fd2f62ae6252ca4983c51f06dc724caff54d",
+          "evidence": "Q3: matched full printed PDF page 2, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.217Z"
+        },
+        "classification": {
+          "fingerprint": "6d8dbb5afabf632979f4d84f8fe5fd2f62ae6252ca4983c51f06dc724caff54d",
+          "evidence": "Q3: reviewed primary skill lp-lattice-count and subcategory integer-feasible-points against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.218Z"
+        },
+        "mathematics": {
+          "fingerprint": "6d8dbb5afabf632979f4d84f8fe5fd2f62ae6252ca4983c51f06dc724caff54d",
+          "evidence": "Q3: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.219Z"
+        },
+        "figures": {
+          "fingerprint": "6d8dbb5afabf632979f4d84f8fe5fd2f62ae6252ca4983c51f06dc724caff54d",
+          "evidence": "Q3: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.221Z"
+        },
+        "studentView": {
+          "fingerprint": "6d8dbb5afabf632979f4d84f8fe5fd2f62ae6252ca4983c51f06dc724caff54d",
+          "evidence": "Q3: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q3-390.png and q3-1440.png; production grading tested separately after import. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.222Z"
+        }
+      },
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 6,
+        "course": "core",
+        "stem": "If \\(x\\) and \\(y\\) are integers, how many ordered pairs \\((x,y)\\) satisfy \\(5x+4y\\leq20\\), \\(2x-3y\\leq3\\) and \\(x>-2\\)?",
+        "stemZh": "若 \\(x\\) 和 \\(y\\) 均為整數，有多少個有序數對 \\((x,y)\\) 符合 \\(5x+4y\\leq20\\)、\\(2x-3y\\leq3\\) 及 \\(x>-2\\)？",
+        "options": {
+          "A": "19",
+          "B": "22",
+          "C": "29",
+          "D": "32"
+        },
+        "optionsZh": {
+          "A": "19",
+          "B": "22",
+          "C": "29",
+          "D": "32"
+        },
+        "answer": "B",
+        "diagram": {
+          "src": "assets/intake/intake-d2b66a083bf979af/lp-q03-lattice-region.png",
+          "alt": "Coordinate grid with the three boundary lines x=-2, 5x+4y=20 and 2x-3y=3",
+          "altZh": "坐標網格及三條邊界線 x=-2、5x+4y=20 和 2x-3y=3",
+          "caption": "Question 3 · original coordinate grid / 第 3 題原題坐標圖",
+          "qa": {
+            "questionId": "import-linear-programming-9a560aafe0461de0",
+            "status": "reviewed",
+            "reviewedAt": "2026-11-05",
+            "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+          }
+        },
+        "subcategory": "integer-feasible-points",
+        "skill": "lp-lattice-count",
+        "hint": "Find the possible integer x-values first, then count the integer y-values for each.",
+        "hintZh": "先找出可能的整數 x，再逐個 x 計算整數 y 的個數。",
+        "solution": "Since \\(x>-2\\) and \\(x\\) is an integer, \\(x\\geq-1\\). Combining the two sloping bounds shows \\(x\\leq3\\), so test \\(x=-1,0,1,2,3\\).\nThe integer y-ranges are respectively \\([-1,6]\\), \\([-1,5]\\), \\([0,3]\\), \\([1,2]\\), and \\([1,1]\\). Their counts are \\(8,7,4,2,1\\), giving \\(8+7+4+2+1=22\\).\n\\[\\boxed{22}\\]",
+        "solutionZh": "由 \\(x>-2\\) 且 x 為整數，得 \\(x\\geq-1\\)。合併兩條斜線所給的上下界，可得 \\(x\\leq3\\)，因此只需檢查 \\(x=-1,0,1,2,3\\)。\n各 x 對應的整數 y 範圍依次為 \\([-1,6]\\)、\\([-1,5]\\)、\\([0,3]\\)、\\([1,2]\\) 及 \\([1,1]\\)，個數分別為 \\(8,7,4,2,1\\)。總數為 \\(8+7+4+2+1=22\\)。\n\\[\\boxed{22}\\]",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p2 · Q3",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p2 · Q3",
+        "id": "import-linear-programming-9a560aafe0461de0",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "3",
+          "page": 2,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "If \\(x\\) and \\(y\\) are integers, how many ordered pairs \\((x,y)\\) satisfy \\(5x+4y\\leq20\\), \\(2x-3y\\leq3\\) and \\(x>-2\\)?"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q03-lattice-region.png",
+                "alt": "Coordinate grid with the three boundary lines x=-2, 5x+4y=20 and 2x-3y=3",
+                "altZh": "坐標網格及三條邊界線 x=-2、5x+4y=20 和 2x-3y=3",
+                "caption": "Question 3 · original coordinate grid / 第 3 題原題坐標圖",
+                "qa": {
+                  "questionId": "import-linear-programming-9a560aafe0461de0",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "若 \\(x\\) 和 \\(y\\) 均為整數，有多少個有序數對 \\((x,y)\\) 符合 \\(5x+4y\\leq20\\)、\\(2x-3y\\leq3\\) 及 \\(x>-2\\)？"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q03-lattice-region.png",
+                "alt": "Coordinate grid with the three boundary lines x=-2, 5x+4y=20 and 2x-3y=3",
+                "altZh": "坐標網格及三條邊界線 x=-2、5x+4y=20 和 2x-3y=3",
+                "caption": "Question 3 · original coordinate grid / 第 3 題原題坐標圖",
+                "qa": {
+                  "questionId": "import-linear-programming-9a560aafe0461de0",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Since \\(x>-2\\) and \\(x\\) is an integer, \\(x\\geq-1\\). Combining the two sloping bounds shows \\(x\\leq3\\), so test \\(x=-1,0,1,2,3\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "The integer y-ranges are respectively \\([-1,6]\\), \\([-1,5]\\), \\([0,3]\\), \\([1,2]\\), and \\([1,1]\\). Their counts are \\(8,7,4,2,1\\), giving \\(8+7+4+2+1=22\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{22}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "由 \\(x>-2\\) 且 x 為整數，得 \\(x\\geq-1\\)。合併兩條斜線所給的上下界，可得 \\(x\\leq3\\)，因此只需檢查 \\(x=-1,0,1,2,3\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "各 x 對應的整數 y 範圍依次為 \\([-1,6]\\)、\\([-1,5]\\)、\\([0,3]\\)、\\([1,2]\\) 及 \\([1,1]\\)，個數分別為 \\(8,7,4,2,1\\)。總數為 \\(8+7+4+2+1=22\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{22}\\]"
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q3 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:26:41.574Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:28:10.927Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.567Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.259Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:51:24.824Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "c83a8fe37d1709f5306f851858d92ccfe74d5f68fcc70caece9e3c9d8ae21256",
+              "evidence": "Q3: matched full printed PDF page 2, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+              "at": "2026-11-05T07:43:51.647Z"
+            },
+            "classification": {
+              "fingerprint": "c83a8fe37d1709f5306f851858d92ccfe74d5f68fcc70caece9e3c9d8ae21256",
+              "evidence": "Q3: reviewed primary skill lp-lattice-count and subcategory integer-feasible-points against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+              "at": "2026-11-05T07:43:51.648Z"
+            },
+            "mathematics": {
+              "fingerprint": "c83a8fe37d1709f5306f851858d92ccfe74d5f68fcc70caece9e3c9d8ae21256",
+              "evidence": "Q3: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+              "at": "2026-11-05T07:43:51.650Z"
+            },
+            "figures": {
+              "fingerprint": "c83a8fe37d1709f5306f851858d92ccfe74d5f68fcc70caece9e3c9d8ae21256",
+              "evidence": "Q3: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+              "at": "2026-11-05T07:43:51.651Z"
+            },
+            "studentView": {
+              "fingerprint": "c83a8fe37d1709f5306f851858d92ccfe74d5f68fcc70caece9e3c9d8ae21256",
+              "evidence": "Q3: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q3-390.png and q3-1440.png; production grading tested separately after import.",
+              "at": "2026-11-05T07:43:51.652Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "4",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "category": "mcq",
+      "approvals": {
+        "text": {
+          "fingerprint": "08f65179b3e49c38f1a75d82d8473a494833dab28ce71670b0b73bf399a9aa5b",
+          "evidence": "Q4: matched full printed PDF page 2, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.224Z"
+        },
+        "classification": {
+          "fingerprint": "08f65179b3e49c38f1a75d82d8473a494833dab28ce71670b0b73bf399a9aa5b",
+          "evidence": "Q4: reviewed primary skill lp-discrete-objective and subcategory integer-feasible-points against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.225Z"
+        },
+        "mathematics": {
+          "fingerprint": "08f65179b3e49c38f1a75d82d8473a494833dab28ce71670b0b73bf399a9aa5b",
+          "evidence": "Q4: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.227Z"
+        },
+        "figures": {
+          "fingerprint": "08f65179b3e49c38f1a75d82d8473a494833dab28ce71670b0b73bf399a9aa5b",
+          "evidence": "Q4: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.228Z"
+        },
+        "studentView": {
+          "fingerprint": "08f65179b3e49c38f1a75d82d8473a494833dab28ce71670b0b73bf399a9aa5b",
+          "evidence": "Q4: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q4-390.png and q4-1440.png; production grading tested separately after import. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.229Z"
+        }
+      },
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "hard",
+        "minForm": 6,
+        "course": "core",
+        "stem": "The dots in the figure are the feasible solutions of a set of constraints. Among them, what is the maximum value of \\(5x-2y\\)?",
+        "stemZh": "圖中的點表示一組限制條件的可行解。在這些可行解中，\\(5x-2y\\) 的最大值是多少？",
+        "options": {
+          "A": "−5",
+          "B": "−3",
+          "C": "33",
+          "D": "38"
+        },
+        "optionsZh": {
+          "A": "−5",
+          "B": "−3",
+          "C": "33",
+          "D": "38"
+        },
+        "answer": "C",
+        "diagram": {
+          "src": "assets/intake/intake-d2b66a083bf979af/lp-q04-feasible-points.png",
+          "alt": "Lattice points on a coordinate grid forming the feasible set",
+          "altZh": "坐標網格上構成可行集合的整數點",
+          "caption": "Question 4 · original feasible integer points / 第 4 題原題可行整數點",
+          "qa": {
+            "questionId": "import-linear-programming-9c12a76435d46065",
+            "status": "reviewed",
+            "reviewedAt": "2026-11-05",
+            "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+          }
+        },
+        "subcategory": "integer-feasible-points",
+        "skill": "lp-discrete-objective",
+        "hint": "Evaluate the objective at the feasible point farthest in the direction of increasing x and decreasing y.",
+        "hintZh": "留意 x 較大、y 較小的可行點，再比較目標式。",
+        "solution": "For each fixed y, the objective \\(5x-2y\\) increases with x, so check the rightmost feasible dot on each row. The row maxima for \\(y=9,8,7,6,5,4,3,2,1\\) are \\(-3,-1,6,13,15,22,24,31,33\\), respectively. Hence the maximum is 33 at \\((7,1)\\).\n\\[\\boxed{33}\\]",
+        "solutionZh": "固定 y 時，目標式 \\(5x-2y\\) 隨 x 增加，因此只需檢查每一行最右邊的可行點。當 \\(y=9,8,7,6,5,4,3,2,1\\) 時，各行最大值依次為 \\(-3,-1,6,13,15,22,24,31,33\\)。故最大值為 33，在 \\((7,1)\\) 取得。\n\\[\\boxed{33}\\]",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p2 · Q4",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p2 · Q4",
+        "id": "import-linear-programming-9c12a76435d46065",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "4",
+          "page": 2,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The dots in the figure are the feasible solutions of a set of constraints. Among them, what is the maximum value of \\(5x-2y\\)?"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q04-feasible-points.png",
+                "alt": "Lattice points on a coordinate grid forming the feasible set",
+                "altZh": "坐標網格上構成可行集合的整數點",
+                "caption": "Question 4 · original feasible integer points / 第 4 題原題可行整數點",
+                "qa": {
+                  "questionId": "import-linear-programming-9c12a76435d46065",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "圖中的點表示一組限制條件的可行解。在這些可行解中，\\(5x-2y\\) 的最大值是多少？"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q04-feasible-points.png",
+                "alt": "Lattice points on a coordinate grid forming the feasible set",
+                "altZh": "坐標網格上構成可行集合的整數點",
+                "caption": "Question 4 · original feasible integer points / 第 4 題原題可行整數點",
+                "qa": {
+                  "questionId": "import-linear-programming-9c12a76435d46065",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "For each fixed y, the objective \\(5x-2y\\) increases with x, so check the rightmost feasible dot on each row. The row maxima for \\(y=9,8,7,6,5,4,3,2,1\\) are \\(-3,-1,6,13,15,22,24,31,33\\), respectively. Hence the maximum is 33 at \\((7,1)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{33}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "固定 y 時，目標式 \\(5x-2y\\) 隨 x 增加，因此只需檢查每一行最右邊的可行點。當 \\(y=9,8,7,6,5,4,3,2,1\\) 時，各行最大值依次為 \\(-3,-1,6,13,15,22,24,31,33\\)。故最大值為 33，在 \\((7,1)\\) 取得。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{33}\\]"
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q4 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:26:41.575Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:28:10.927Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.567Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.259Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:51:24.824Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "a3bb96e61bd5486c3cb9154ef41c668774d635ac9e246e805b6a10fdcf884ad8",
+              "evidence": "Q4: matched full printed PDF page 2, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+              "at": "2026-11-05T07:43:51.653Z"
+            },
+            "classification": {
+              "fingerprint": "a3bb96e61bd5486c3cb9154ef41c668774d635ac9e246e805b6a10fdcf884ad8",
+              "evidence": "Q4: reviewed primary skill lp-discrete-objective and subcategory integer-feasible-points against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+              "at": "2026-11-05T07:43:51.654Z"
+            },
+            "mathematics": {
+              "fingerprint": "a3bb96e61bd5486c3cb9154ef41c668774d635ac9e246e805b6a10fdcf884ad8",
+              "evidence": "Q4: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+              "at": "2026-11-05T07:43:51.656Z"
+            },
+            "figures": {
+              "fingerprint": "a3bb96e61bd5486c3cb9154ef41c668774d635ac9e246e805b6a10fdcf884ad8",
+              "evidence": "Q4: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+              "at": "2026-11-05T07:43:51.657Z"
+            },
+            "studentView": {
+              "fingerprint": "a3bb96e61bd5486c3cb9154ef41c668774d635ac9e246e805b6a10fdcf884ad8",
+              "evidence": "Q4: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q4-390.png and q4-1440.png; production grading tested separately after import.",
+              "at": "2026-11-05T07:43:51.659Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "5",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "category": "mcq",
+      "approvals": {
+        "text": {
+          "fingerprint": "a0f42a3ca086485f417efe2605cd53d95e8c2a7c931cd0572b19c90823e389ce",
+          "evidence": "Q5: matched full printed PDF page 2, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.231Z"
+        },
+        "classification": {
+          "fingerprint": "a0f42a3ca086485f417efe2605cd53d95e8c2a7c931cd0572b19c90823e389ce",
+          "evidence": "Q5: reviewed primary skill lp-objective-vertices and subcategory objective-and-vertices against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.232Z"
+        },
+        "mathematics": {
+          "fingerprint": "a0f42a3ca086485f417efe2605cd53d95e8c2a7c931cd0572b19c90823e389ce",
+          "evidence": "Q5: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.234Z"
+        },
+        "figures": {
+          "fingerprint": "a0f42a3ca086485f417efe2605cd53d95e8c2a7c931cd0572b19c90823e389ce",
+          "evidence": "Q5: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.236Z"
+        },
+        "studentView": {
+          "fingerprint": "a0f42a3ca086485f417efe2605cd53d95e8c2a7c931cd0572b19c90823e389ce",
+          "evidence": "Q5: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q5-390.png and q5-1440.png; production grading tested separately after import. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.237Z"
+        }
+      },
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "hard",
+        "minForm": 6,
+        "course": "core",
+        "stem": "The shaded region is bounded by \\(9x-2y=-28\\), \\(2x-9y=28\\) and \\(x+y=3\\). Find the maximum value of \\(x-y\\) in the region, including its boundary.",
+        "stemZh": "陰影區域由 \\(9x-2y=-28\\)、\\(2x-9y=28\\) 及 \\(x+y=3\\) 圍成。求區域內（包括邊界）\\(x-y\\) 的最大值。",
+        "options": {
+          "A": "−14",
+          "B": "−7",
+          "C": "0",
+          "D": "7"
+        },
+        "optionsZh": {
+          "A": "−14",
+          "B": "−7",
+          "C": "0",
+          "D": "7"
+        },
+        "answer": "D",
+        "diagram": {
+          "src": "assets/intake/intake-d2b66a083bf979af/lp-q05-shaded-region.png",
+          "alt": "Shaded triangular region bounded by 9x-2y=-28, 2x-9y=28 and x+y=3",
+          "altZh": "由 9x-2y=-28、2x-9y=28 及 x+y=3 圍成的陰影三角形",
+          "caption": "Question 5 · original shaded region / 第 5 題原題陰影區域",
+          "qa": {
+            "questionId": "import-linear-programming-33614b195fd202f1",
+            "status": "reviewed",
+            "reviewedAt": "2026-11-05",
+            "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+          }
+        },
+        "subcategory": "objective-and-vertices",
+        "skill": "lp-objective-vertices",
+        "hint": "Find the three pairwise intersections and evaluate x-y at each feasible vertex.",
+        "hintZh": "求三組直線的交點，再在可行頂點比較 x-y。",
+        "solution": "The vertices are \\((5,-2)\\), \\((-2,5)\\) and \\((-4,-4)\\), found by solving pairs of boundary equations. The corresponding values of \\(x-y\\) are \\(7,-7,0\\). Hence the maximum is 7.\n\\[\\boxed{\\text{D}}\\]",
+        "solutionZh": "解各組邊界方程，三個頂點為 \\((5,-2)\\)、\\((-2,5)\\) 及 \\((-4,-4)\\)。相應的 \\(x-y\\) 值為 \\(7,-7,0\\)，故最大值為 7。\n\\[\\boxed{\\text{D}}\\]",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p2 · Q5",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p2 · Q5",
+        "id": "import-linear-programming-33614b195fd202f1",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "5",
+          "page": 2,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The shaded region is bounded by \\(9x-2y=-28\\), \\(2x-9y=28\\) and \\(x+y=3\\). Find the maximum value of \\(x-y\\) in the region, including its boundary."
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q05-shaded-region.png",
+                "alt": "Shaded triangular region bounded by 9x-2y=-28, 2x-9y=28 and x+y=3",
+                "altZh": "由 9x-2y=-28、2x-9y=28 及 x+y=3 圍成的陰影三角形",
+                "caption": "Question 5 · original shaded region / 第 5 題原題陰影區域",
+                "qa": {
+                  "questionId": "import-linear-programming-33614b195fd202f1",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "陰影區域由 \\(9x-2y=-28\\)、\\(2x-9y=28\\) 及 \\(x+y=3\\) 圍成。求區域內（包括邊界）\\(x-y\\) 的最大值。"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q05-shaded-region.png",
+                "alt": "Shaded triangular region bounded by 9x-2y=-28, 2x-9y=28 and x+y=3",
+                "altZh": "由 9x-2y=-28、2x-9y=28 及 x+y=3 圍成的陰影三角形",
+                "caption": "Question 5 · original shaded region / 第 5 題原題陰影區域",
+                "qa": {
+                  "questionId": "import-linear-programming-33614b195fd202f1",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The vertices are \\((5,-2)\\), \\((-2,5)\\) and \\((-4,-4)\\), found by solving pairs of boundary equations. The corresponding values of \\(x-y\\) are \\(7,-7,0\\). Hence the maximum is 7."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{D}}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "解各組邊界方程，三個頂點為 \\((5,-2)\\)、\\((-2,5)\\) 及 \\((-4,-4)\\)。相應的 \\(x-y\\) 值為 \\(7,-7,0\\)，故最大值為 7。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{D}}\\]"
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q5 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:26:41.575Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:28:10.927Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.567Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.259Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:51:24.824Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "b64af12bcc6c42a9b8878ca29fadd62c6256822be063ce8a7c68136293684aeb",
+              "evidence": "Q5: matched full printed PDF page 2, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+              "at": "2026-11-05T07:43:51.660Z"
+            },
+            "classification": {
+              "fingerprint": "b64af12bcc6c42a9b8878ca29fadd62c6256822be063ce8a7c68136293684aeb",
+              "evidence": "Q5: reviewed primary skill lp-objective-vertices and subcategory objective-and-vertices against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+              "at": "2026-11-05T07:43:51.662Z"
+            },
+            "mathematics": {
+              "fingerprint": "b64af12bcc6c42a9b8878ca29fadd62c6256822be063ce8a7c68136293684aeb",
+              "evidence": "Q5: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+              "at": "2026-11-05T07:43:51.663Z"
+            },
+            "figures": {
+              "fingerprint": "b64af12bcc6c42a9b8878ca29fadd62c6256822be063ce8a7c68136293684aeb",
+              "evidence": "Q5: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+              "at": "2026-11-05T07:43:51.664Z"
+            },
+            "studentView": {
+              "fingerprint": "b64af12bcc6c42a9b8878ca29fadd62c6256822be063ce8a7c68136293684aeb",
+              "evidence": "Q5: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q5-390.png and q5-1440.png; production grading tested separately after import.",
+              "at": "2026-11-05T07:43:51.665Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "6",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "category": "mcq",
+      "approvals": {
+        "text": {
+          "fingerprint": "be93a0c87edbb0eb6ec537102c0a708eae3a882392d585732abc2170dc2d6a7f",
+          "evidence": "Q6: matched full printed PDF page 3, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.239Z"
+        },
+        "classification": {
+          "fingerprint": "be93a0c87edbb0eb6ec537102c0a708eae3a882392d585732abc2170dc2d6a7f",
+          "evidence": "Q6: reviewed primary skill lp-objective-vertices and subcategory objective-and-vertices against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.241Z"
+        },
+        "mathematics": {
+          "fingerprint": "be93a0c87edbb0eb6ec537102c0a708eae3a882392d585732abc2170dc2d6a7f",
+          "evidence": "Q6: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.242Z"
+        },
+        "figures": {
+          "fingerprint": "be93a0c87edbb0eb6ec537102c0a708eae3a882392d585732abc2170dc2d6a7f",
+          "evidence": "Q6: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.244Z"
+        },
+        "studentView": {
+          "fingerprint": "be93a0c87edbb0eb6ec537102c0a708eae3a882392d585732abc2170dc2d6a7f",
+          "evidence": "Q6: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q6-390.png and q6-1440.png; production grading tested separately after import. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.245Z"
+        }
+      },
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "hard",
+        "minForm": 6,
+        "course": "core",
+        "stem": "A point \\( (x,y) \\) lies in the shaded quadrilateral, including its boundary. At which listed point does \\(-2x+4y\\) attain neither its maximum nor its minimum?",
+        "stemZh": "點 \\((x,y)\\) 位於陰影四邊形內（包括邊界）。以下哪一點令 \\(-2x+4y\\) 既不取最大值，也不取最小值？",
+        "options": {
+          "A": "(2, 1)",
+          "B": "(−5, 3)",
+          "C": "(−1, −6)",
+          "D": "(3, −4)"
+        },
+        "optionsZh": {
+          "A": "(2, 1)",
+          "B": "(−5, 3)",
+          "C": "(−1, −6)",
+          "D": "(3, −4)"
+        },
+        "answer": "A",
+        "diagram": {
+          "src": "assets/intake/intake-d2b66a083bf979af/lp-q06-polygon.png",
+          "alt": "Shaded quadrilateral with vertices (-5,3), (2,1), (3,-4) and (-1,-6)",
+          "altZh": "頂點為 (-5,3)、(2,1)、(3,-4) 及 (-1,-6) 的陰影四邊形",
+          "caption": "Question 6 · original polygon / 第 6 題原題多邊形",
+          "qa": {
+            "questionId": "import-linear-programming-1e45b3a6193c5c61",
+            "status": "reviewed",
+            "reviewedAt": "2026-11-05",
+            "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+          }
+        },
+        "subcategory": "objective-and-vertices",
+        "skill": "lp-objective-vertices",
+        "hint": "For a linear objective over a polygon, check its values at every vertex.",
+        "hintZh": "線性目標式在多邊形上的極值可在頂點比較。",
+        "solution": "At the four vertices, \\(-2x+4y\\) equals 0 at \\((2,1)\\), 22 at \\((-5,3)\\), and −22 at both \\((-1,-6)\\) and \\((3,-4)\\). Thus the value at \\((2,1)\\) is neither the maximum nor the minimum.\n\\[\\boxed{\\text{A}}\\]",
+        "solutionZh": "在四個頂點計算 \\(-2x+4y\\)：\\((2,1)\\) 得 0；\\((-5,3)\\) 得 22；\\((-1,-6)\\) 及 \\((3,-4)\\) 均得 −22。因此 \\((2,1)\\) 對應的值既非最大值，也非最小值。\n\\[\\boxed{\\text{A}}\\]",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p3 · Q6",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p3 · Q6",
+        "id": "import-linear-programming-1e45b3a6193c5c61",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "6",
+          "page": 3,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "A point \\( (x,y) \\) lies in the shaded quadrilateral, including its boundary. At which listed point does \\(-2x+4y\\) attain neither its maximum nor its minimum?"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q06-polygon.png",
+                "alt": "Shaded quadrilateral with vertices (-5,3), (2,1), (3,-4) and (-1,-6)",
+                "altZh": "頂點為 (-5,3)、(2,1)、(3,-4) 及 (-1,-6) 的陰影四邊形",
+                "caption": "Question 6 · original polygon / 第 6 題原題多邊形",
+                "qa": {
+                  "questionId": "import-linear-programming-1e45b3a6193c5c61",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "點 \\((x,y)\\) 位於陰影四邊形內（包括邊界）。以下哪一點令 \\(-2x+4y\\) 既不取最大值，也不取最小值？"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q06-polygon.png",
+                "alt": "Shaded quadrilateral with vertices (-5,3), (2,1), (3,-4) and (-1,-6)",
+                "altZh": "頂點為 (-5,3)、(2,1)、(3,-4) 及 (-1,-6) 的陰影四邊形",
+                "caption": "Question 6 · original polygon / 第 6 題原題多邊形",
+                "qa": {
+                  "questionId": "import-linear-programming-1e45b3a6193c5c61",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "At the four vertices, \\(-2x+4y\\) equals 0 at \\((2,1)\\), 22 at \\((-5,3)\\), and −22 at both \\((-1,-6)\\) and \\((3,-4)\\). Thus the value at \\((2,1)\\) is neither the maximum nor the minimum."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{A}}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "在四個頂點計算 \\(-2x+4y\\)：\\((2,1)\\) 得 0；\\((-5,3)\\) 得 22；\\((-1,-6)\\) 及 \\((3,-4)\\) 均得 −22。因此 \\((2,1)\\) 對應的值既非最大值，也非最小值。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{A}}\\]"
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q6 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:26:41.575Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:28:10.928Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.567Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.259Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:51:24.824Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "2a144d0b0fc491ced1cbaa44fd3696b1038d24810c9a68daad7a6824dccf9003",
+              "evidence": "Q6: matched full printed PDF page 3, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+              "at": "2026-11-05T07:43:51.666Z"
+            },
+            "classification": {
+              "fingerprint": "2a144d0b0fc491ced1cbaa44fd3696b1038d24810c9a68daad7a6824dccf9003",
+              "evidence": "Q6: reviewed primary skill lp-objective-vertices and subcategory objective-and-vertices against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+              "at": "2026-11-05T07:43:51.668Z"
+            },
+            "mathematics": {
+              "fingerprint": "2a144d0b0fc491ced1cbaa44fd3696b1038d24810c9a68daad7a6824dccf9003",
+              "evidence": "Q6: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+              "at": "2026-11-05T07:43:51.669Z"
+            },
+            "figures": {
+              "fingerprint": "2a144d0b0fc491ced1cbaa44fd3696b1038d24810c9a68daad7a6824dccf9003",
+              "evidence": "Q6: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+              "at": "2026-11-05T07:43:51.670Z"
+            },
+            "studentView": {
+              "fingerprint": "2a144d0b0fc491ced1cbaa44fd3696b1038d24810c9a68daad7a6824dccf9003",
+              "evidence": "Q6: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q6-390.png and q6-1440.png; production grading tested separately after import.",
+              "at": "2026-11-05T07:43:51.671Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "7",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "category": "mcq",
+      "approvals": {
+        "text": {
+          "fingerprint": "e72f2a1ab2bcc12cd94a994acd96e4d070decdb2aaeddf284ba140c0e2d423ab",
+          "evidence": "Q7: matched full printed PDF page 3, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.246Z"
+        },
+        "classification": {
+          "fingerprint": "e72f2a1ab2bcc12cd94a994acd96e4d070decdb2aaeddf284ba140c0e2d423ab",
+          "evidence": "Q7: reviewed primary skill lp-objective-vertices and subcategory objective-and-vertices against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.248Z"
+        },
+        "mathematics": {
+          "fingerprint": "e72f2a1ab2bcc12cd94a994acd96e4d070decdb2aaeddf284ba140c0e2d423ab",
+          "evidence": "Q7: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.250Z"
+        },
+        "figures": {
+          "fingerprint": "e72f2a1ab2bcc12cd94a994acd96e4d070decdb2aaeddf284ba140c0e2d423ab",
+          "evidence": "Q7: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.251Z"
+        },
+        "studentView": {
+          "fingerprint": "e72f2a1ab2bcc12cd94a994acd96e4d070decdb2aaeddf284ba140c0e2d423ab",
+          "evidence": "Q7: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q7-390.png and q7-1440.png; production grading tested separately after import. Final release metadata now links the passed actual-student matrix; source conditions, answers and visual bytes are unchanged.",
+          "at": "2026-11-05T07:51:25.253Z"
+        }
+      },
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "hard",
+        "minForm": 6,
+        "course": "core",
+        "stem": "The sides \\(PQ, QR, RS, SP\\) of the shaded quadrilateral lie on \\(x-y=-2\\), \\(2x+y=0\\), \\(y=-1\\) and \\(x+y=6\\), respectively. At which vertex does \\(3x+6y\\) attain its minimum?",
+        "stemZh": "陰影四邊形的邊 \\(PQ,QR,RS,SP\\) 分別位於直線 \\(x-y=-2\\)、\\(2x+y=0\\)、\\(y=-1\\) 及 \\(x+y=6\\) 上。\\(3x+6y\\) 在哪個頂點取得最小值？",
+        "options": {
+          "A": "P",
+          "B": "Q",
+          "C": "R",
+          "D": "S"
+        },
+        "optionsZh": {
+          "A": "P",
+          "B": "Q",
+          "C": "R",
+          "D": "S"
+        },
+        "answer": "C",
+        "diagram": {
+          "src": "assets/intake/intake-d2b66a083bf979af/lp-q07-polygon.png",
+          "alt": "Shaded quadrilateral with vertices P, Q, R and S and its four boundary lines",
+          "altZh": "標示頂點 P、Q、R、S 及四條邊界線的陰影四邊形",
+          "caption": "Question 7 · original labelled quadrilateral / 第 7 題原題標記四邊形",
+          "qa": {
+            "questionId": "import-linear-programming-e70d315aaad9a93f",
+            "status": "reviewed",
+            "reviewedAt": "2026-11-05",
+            "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+          }
+        },
+        "subcategory": "objective-and-vertices",
+        "skill": "lp-objective-vertices",
+        "hint": "Solve adjacent boundary equations to get P, Q, R and S, then compare the objective values.",
+        "hintZh": "聯立相鄰邊界方程求出 P、Q、R、S，再比較目標式。",
+        "solution": "The vertices are \\(P=(2,4)\\), \\(Q=(-2/3,4/3)\\), \\(R=(1/2,-1)\\) and \\(S=(7,-1)\\). The values of \\(3x+6y\\) are respectively \\(30,6,-9/2,15\\). The minimum occurs at \\(R\\).\n\\[\\boxed{\\text{C}}\\]",
+        "solutionZh": "四個頂點為 \\(P=(2,4)\\)、\\(Q=(-2/3,4/3)\\)、\\(R=(1/2,-1)\\) 及 \\(S=(7,-1)\\)。\\(3x+6y\\) 的值依次為 \\(30,6,-9/2,15\\)，最小值在 \\(R\\) 取得。\n\\[\\boxed{\\text{C}}\\]",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p3 · Q7",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p3 · Q7",
+        "id": "import-linear-programming-e70d315aaad9a93f",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "7",
+          "page": 3,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The sides \\(PQ, QR, RS, SP\\) of the shaded quadrilateral lie on \\(x-y=-2\\), \\(2x+y=0\\), \\(y=-1\\) and \\(x+y=6\\), respectively. At which vertex does \\(3x+6y\\) attain its minimum?"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q07-polygon.png",
+                "alt": "Shaded quadrilateral with vertices P, Q, R and S and its four boundary lines",
+                "altZh": "標示頂點 P、Q、R、S 及四條邊界線的陰影四邊形",
+                "caption": "Question 7 · original labelled quadrilateral / 第 7 題原題標記四邊形",
+                "qa": {
+                  "questionId": "import-linear-programming-e70d315aaad9a93f",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "陰影四邊形的邊 \\(PQ,QR,RS,SP\\) 分別位於直線 \\(x-y=-2\\)、\\(2x+y=0\\)、\\(y=-1\\) 及 \\(x+y=6\\) 上。\\(3x+6y\\) 在哪個頂點取得最小值？"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q07-polygon.png",
+                "alt": "Shaded quadrilateral with vertices P, Q, R and S and its four boundary lines",
+                "altZh": "標示頂點 P、Q、R、S 及四條邊界線的陰影四邊形",
+                "caption": "Question 7 · original labelled quadrilateral / 第 7 題原題標記四邊形",
+                "qa": {
+                  "questionId": "import-linear-programming-e70d315aaad9a93f",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Standalone exact source crop inspected against same-question PDF page and labels; crop manifest content/intake/linear-programming-review/figures.json. Student-view acceptance is separately recorded in current batch approvals and docs/qa/2026-11-05/linear-programming/student/matrix.json."
+                }
+              }
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The vertices are \\(P=(2,4)\\), \\(Q=(-2/3,4/3)\\), \\(R=(1/2,-1)\\) and \\(S=(7,-1)\\). The values of \\(3x+6y\\) are respectively \\(30,6,-9/2,15\\). The minimum occurs at \\(R\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{C}}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "四個頂點為 \\(P=(2,4)\\)、\\(Q=(-2/3,4/3)\\)、\\(R=(1/2,-1)\\) 及 \\(S=(7,-1)\\)。\\(3x+6y\\) 的值依次為 \\(30,6,-9/2,15\\)，最小值在 \\(R\\) 取得。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{C}}\\]"
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q7 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:26:41.575Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:28:10.928Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.567Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.259Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:51:24.825Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "22dfb9dd88760e3a35f45e59a3a5d45bd0764fea797a1589e8c0545bc05fb74f",
+              "evidence": "Q7: matched full printed PDF page 3, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+              "at": "2026-11-05T07:43:51.673Z"
+            },
+            "classification": {
+              "fingerprint": "22dfb9dd88760e3a35f45e59a3a5d45bd0764fea797a1589e8c0545bc05fb74f",
+              "evidence": "Q7: reviewed primary skill lp-objective-vertices and subcategory objective-and-vertices against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+              "at": "2026-11-05T07:43:51.674Z"
+            },
+            "mathematics": {
+              "fingerprint": "22dfb9dd88760e3a35f45e59a3a5d45bd0764fea797a1589e8c0545bc05fb74f",
+              "evidence": "Q7: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+              "at": "2026-11-05T07:43:51.675Z"
+            },
+            "figures": {
+              "fingerprint": "22dfb9dd88760e3a35f45e59a3a5d45bd0764fea797a1589e8c0545bc05fb74f",
+              "evidence": "Q7: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+              "at": "2026-11-05T07:43:51.679Z"
+            },
+            "studentView": {
+              "fingerprint": "22dfb9dd88760e3a35f45e59a3a5d45bd0764fea797a1589e8c0545bc05fb74f",
+              "evidence": "Q7: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q7-390.png and q7-1440.png; production grading tested separately after import.",
+              "at": "2026-11-05T07:43:51.681Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "8",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "category": "mcq",
+      "approvals": {
+        "text": {
+          "fingerprint": "b6d9b58650b796bc87f636d613585cada049c85b6590e98ad3ce031deeb4bb14",
+          "evidence": "Q8: matched full printed PDF page 3, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+          "at": "2026-11-05T07:43:51.682Z"
+        },
+        "classification": {
+          "fingerprint": "b6d9b58650b796bc87f636d613585cada049c85b6590e98ad3ce031deeb4bb14",
+          "evidence": "Q8: reviewed primary skill lp-objective-range and subcategory objective-and-vertices against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+          "at": "2026-11-05T07:43:51.683Z"
+        },
+        "mathematics": {
+          "fingerprint": "b6d9b58650b796bc87f636d613585cada049c85b6590e98ad3ce031deeb4bb14",
+          "evidence": "Q8: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+          "at": "2026-11-05T07:43:51.684Z"
+        },
+        "figures": {
+          "fingerprint": "b6d9b58650b796bc87f636d613585cada049c85b6590e98ad3ce031deeb4bb14",
+          "evidence": "Q8: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+          "at": "2026-11-05T07:43:51.685Z"
+        },
+        "studentView": {
+          "fingerprint": "b6d9b58650b796bc87f636d613585cada049c85b6590e98ad3ce031deeb4bb14",
+          "evidence": "Q8: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q8-390.png and q8-1440.png; production grading tested separately after import.",
+          "at": "2026-11-05T07:43:51.686Z"
+        }
+      },
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "hard",
+        "minForm": 6,
+        "course": "core",
+        "stem": "Consider \\(x\\geq2\\), \\(y\\geq1\\), \\(3x+2y\\leq23\\) and \\(3y-x\\leq7\\). If \\((x,y)\\) lies in the feasible region, what is the difference between the greatest and least values of \\(x+2y-k\\), where \\(k\\) is a constant?",
+        "stemZh": "考慮限制 \\(x\\geq2\\)、\\(y\\geq1\\)、\\(3x+2y\\leq23\\) 及 \\(3y-x\\leq7\\)。若 \\((x,y)\\) 位於可行區域，\\(x+2y-k\\) 的最大值與最小值之差是多少？其中 \\(k\\) 為常數。",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "9",
+          "D": "13"
+        },
+        "optionsZh": {
+          "A": "4",
+          "B": "5",
+          "C": "9",
+          "D": "13"
+        },
+        "answer": "C",
+        "subcategory": "objective-and-vertices",
+        "skill": "lp-objective-range",
+        "hint": "The constant k shifts both extreme values equally, so it cancels in their difference.",
+        "hintZh": "常數 k 會令最大值和最小值同時平移，因此在兩者之差中抵消。",
+        "solution": "The feasible vertices are \\((2,1)\\), \\((2,3)\\), \\((5,4)\\) and \\((7,1)\\). The corresponding values of \\(x+2y\\) are 4, 8, 13 and 9. Subtracting the least from the greatest gives \\(13-4=9\\); the \\(-k\\) term cancels.\n\\[\\boxed{\\text{C}}\\]",
+        "solutionZh": "可行區域的頂點為 \\((2,1)\\)、\\((2,3)\\)、\\((5,4)\\) 及 \\((7,1)\\)。相應的 \\(x+2y\\) 值為 4、8、13 及 9。最大與最小值之差為 \\(13-4=9\\)；兩者均含有的 \\(-k\\) 會抵消。\n\\[\\boxed{\\text{C}}\\]",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p3 · Q8",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p3 · Q8",
+        "id": "import-linear-programming-a5cdab6403f5bbad",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "8",
+          "page": 3,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Consider \\(x\\geq2\\), \\(y\\geq1\\), \\(3x+2y\\leq23\\) and \\(3y-x\\leq7\\). If \\((x,y)\\) lies in the feasible region, what is the difference between the greatest and least values of \\(x+2y-k\\), where \\(k\\) is a constant?"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "考慮限制 \\(x\\geq2\\)、\\(y\\geq1\\)、\\(3x+2y\\leq23\\) 及 \\(3y-x\\leq7\\)。若 \\((x,y)\\) 位於可行區域，\\(x+2y-k\\) 的最大值與最小值之差是多少？其中 \\(k\\) 為常數。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The feasible vertices are \\((2,1)\\), \\((2,3)\\), \\((5,4)\\) and \\((7,1)\\). The corresponding values of \\(x+2y\\) are 4, 8, 13 and 9. Subtracting the least from the greatest gives \\(13-4=9\\); the \\(-k\\) term cancels."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{C}}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "可行區域的頂點為 \\((2,1)\\)、\\((2,3)\\)、\\((5,4)\\) 及 \\((7,1)\\)。相應的 \\(x+2y\\) 值為 4、8、13 及 9。最大與最小值之差為 \\(13-4=9\\)；兩者均含有的 \\(-k\\) 會抵消。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\boxed{\\text{C}}\\]"
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q8 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:28:10.928Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.568Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.259Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "9",
+      "pages": [
+        4
+      ],
+      "disposition": "publish",
+      "category": "long",
+      "approvals": {
+        "text": {
+          "fingerprint": "f6a7e148284fc36a9fc21256edba00ac29f188cae030c234f517520715c80a04",
+          "evidence": "Q9: matched full printed PDF page 4, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+          "at": "2026-11-05T07:43:51.688Z"
+        },
+        "classification": {
+          "fingerprint": "f6a7e148284fc36a9fc21256edba00ac29f188cae030c234f517520715c80a04",
+          "evidence": "Q9: reviewed primary skill lp-graph-systems and subcategory systems-of-inequalities against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+          "at": "2026-11-05T07:43:51.689Z"
+        },
+        "mathematics": {
+          "fingerprint": "f6a7e148284fc36a9fc21256edba00ac29f188cae030c234f517520715c80a04",
+          "evidence": "Q9: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+          "at": "2026-11-05T07:43:51.691Z"
+        },
+        "figures": {
+          "fingerprint": "f6a7e148284fc36a9fc21256edba00ac29f188cae030c234f517520715c80a04",
+          "evidence": "Q9: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+          "at": "2026-11-05T07:43:51.693Z"
+        },
+        "studentView": {
+          "fingerprint": "f6a7e148284fc36a9fc21256edba00ac29f188cae030c234f517520715c80a04",
+          "evidence": "Q9: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q9-390.png and q9-1440.png; production grading tested separately after import.",
+          "at": "2026-11-05T07:43:51.694Z"
+        }
+      },
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 6,
+        "course": "core",
+        "stem": "Solve the following systems of inequalities graphically.\n(a) \\(3x-2y-12\\geq0\\), \\(2x+y<6\\).\n(b) \\(3x+2y\\leq10\\), \\(4y-x<8\\), \\(-5>x-y\\).",
+        "stemZh": "以圖解法解下列不等式組。\n(a) \\(3x-2y-12\\geq0\\)、\\(2x+y<6\\)。\n(b) \\(3x+2y\\leq10\\)、\\(4y-x<8\\)、\\(-5>x-y\\)。",
+        "subcategory": "systems-of-inequalities",
+        "skill": "lp-graph-systems",
+        "hint": "Rewrite each boundary as y=mx+c, mark strict boundaries dashed, and shade the common half-plane.",
+        "hintZh": "把各邊界改寫成 y=mx+c；嚴格不等式用虛線，並找出共同半平面。",
+        "answer": "(a) The common region is below both lines y=(3x−12)/2 and y=6−2x; their intersection is (24/7,−6/7). The first boundary is included and the second is excluded. (b) The common region is x<−4 and x+5<y<x/4+2; the two sloping boundaries are excluded. The inequality 3x+2y≤10 is redundant in this region.",
+        "answerZh": "(a) 共同解集位於直線 y=(3x−12)/2 及 y=6−2x 的下方；兩線交點為 (24/7,−6/7)。第一條邊界包括在解集中，第二條不包括。(b) 共同解集為 x<−4 且 x+5<y<x/4+2；兩條斜邊界均不包括。在此區域內 3x+2y≤10 是冗餘限制。",
+        "solution": "(a) Rewrite the inequalities as \\(y\\leq(3x-12)/2\\) and \\(y<6-2x\\). Their boundary lines meet when \\(3x/2-6=6-2x\\), giving \\(x=24/7\\), \\(y=-6/7\\). Shade below both; use a solid line for the first boundary and a dashed line for the second.\n(b) The last two inequalities give \\(y<x/4+2\\) and \\(y>x+5\\), which can overlap only when \\(x<-4\\). Thus \\(x+5<y<x/4+2\\). In this region, \\(3x+2y<3x+x/2+4< -10\\), so \\(3x+2y\\leq10\\) is automatically satisfied. The boundary point \\((-4,1)\\) is excluded.",
+        "solutionZh": "(a) 改寫為 \\(y\\leq(3x-12)/2\\) 及 \\(y<6-2x\\)。兩條邊界線相交時，\\(3x/2-6=6-2x\\)，得 \\(x=24/7\\)、\\(y=-6/7\\)。陰影須在兩線下方；第一條用實線，第二條用虛線。(b) 後兩項限制分別給出 \\(y<x/4+2\\) 及 \\(y>x+5\\)，兩者有重疊只可能在 \\(x<-4\\)。因此 \\(x+5<y<x/4+2\\)。在這個區域內，\\(3x+2y<3x+x/2+4<-10\\)，故 \\(3x+2y\\leq10\\) 自動成立。交界點 \\((-4,1)\\) 不包括在解集中。",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p4 · Q9",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p4 · Q9",
+        "id": "import-linear-programming-5fa65706c7f186e6",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "9",
+          "page": 4,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Solve the following systems of inequalities graphically."
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) \\(3x-2y-12\\geq0\\), \\(2x+y<6\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) \\(3x+2y\\leq10\\), \\(4y-x<8\\), \\(-5>x-y\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "以圖解法解下列不等式組。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) \\(3x-2y-12\\geq0\\)、\\(2x+y<6\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) \\(3x+2y\\leq10\\)、\\(4y-x<8\\)、\\(-5>x-y\\)。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) Rewrite the inequalities as \\(y\\leq(3x-12)/2\\) and \\(y<6-2x\\). Their boundary lines meet when \\(3x/2-6=6-2x\\), giving \\(x=24/7\\), \\(y=-6/7\\). Shade below both; use a solid line for the first boundary and a dashed line for the second."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) The last two inequalities give \\(y<x/4+2\\) and \\(y>x+5\\), which can overlap only when \\(x<-4\\). Thus \\(x+5<y<x/4+2\\). In this region, \\(3x+2y<3x+x/2+4< -10\\), so \\(3x+2y\\leq10\\) is automatically satisfied. The boundary point \\((-4,1)\\) is excluded."
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q09a-solution.svg",
+                "alt": "Q9: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed from printed constraints / 依原題限制重建解答圖",
+                "qa": {
+                  "questionId": "import-linear-programming-5fa65706c7f186e6",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q09b-solution.svg",
+                "alt": "Q9: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed from printed constraints / 依原題限制重建解答圖",
+                "qa": {
+                  "questionId": "import-linear-programming-5fa65706c7f186e6",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 改寫為 \\(y\\leq(3x-12)/2\\) 及 \\(y<6-2x\\)。兩條邊界線相交時，\\(3x/2-6=6-2x\\)，得 \\(x=24/7\\)、\\(y=-6/7\\)。陰影須在兩線下方；第一條用實線，第二條用虛線。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 後兩項限制分別給出 \\(y<x/4+2\\) 及 \\(y>x+5\\)，兩者有重疊只可能在 \\(x<-4\\)。因此 \\(x+5<y<x/4+2\\)。在這個區域內，\\(3x+2y<3x+x/2+4<-10\\)，故 \\(3x+2y\\leq10\\) 自動成立。交界點 \\((-4,1)\\) 不包括在解集中。"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q09a-solution.svg",
+                "alt": "Q9: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed from printed constraints / 依原題限制重建解答圖",
+                "qa": {
+                  "questionId": "import-linear-programming-5fa65706c7f186e6",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q09b-solution.svg",
+                "alt": "Q9: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed from printed constraints / 依原題限制重建解答圖",
+                "qa": {
+                  "questionId": "import-linear-programming-5fa65706c7f186e6",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q9 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:28:10.928Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.568Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.260Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "10",
+      "pages": [
+        4
+      ],
+      "disposition": "publish",
+      "category": "long",
+      "approvals": {
+        "text": {
+          "fingerprint": "29270ccc388c5d473f417b3a96c006947a62d9845b866596a33df4e48d395903",
+          "evidence": "Q10: matched full printed PDF page 4, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+          "at": "2026-11-05T07:43:51.695Z"
+        },
+        "classification": {
+          "fingerprint": "29270ccc388c5d473f417b3a96c006947a62d9845b866596a33df4e48d395903",
+          "evidence": "Q10: reviewed primary skill lp-graph-systems and subcategory systems-of-inequalities against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+          "at": "2026-11-05T07:43:51.696Z"
+        },
+        "mathematics": {
+          "fingerprint": "29270ccc388c5d473f417b3a96c006947a62d9845b866596a33df4e48d395903",
+          "evidence": "Q10: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+          "at": "2026-11-05T07:43:51.698Z"
+        },
+        "figures": {
+          "fingerprint": "29270ccc388c5d473f417b3a96c006947a62d9845b866596a33df4e48d395903",
+          "evidence": "Q10: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+          "at": "2026-11-05T07:43:51.699Z"
+        },
+        "studentView": {
+          "fingerprint": "29270ccc388c5d473f417b3a96c006947a62d9845b866596a33df4e48d395903",
+          "evidence": "Q10: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q10-390.png and q10-1440.png; production grading tested separately after import.",
+          "at": "2026-11-05T07:43:51.700Z"
+        }
+      },
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 6,
+        "course": "core",
+        "stem": "(a) Solve graphically: \\(4x+y>8\\), \\(-x+y\\geq-2\\), \\(x+2y<10\\).\n(b) If \\(x,y\\) are integers, list all ordered pairs satisfying these inequalities and \\(y>2\\).",
+        "stemZh": "(a) 以圖解法解 \\(4x+y>8\\)、\\(-x+y\\geq-2\\) 及 \\(x+2y<10\\)。\n(b) 若 x、y 均為整數，列出符合以上不等式及 \\(y>2\\) 的所有有序數對。",
+        "subcategory": "systems-of-inequalities",
+        "skill": "lp-graph-systems",
+        "hint": "For part (b), combine y>2 with x+2y<10 before checking integer x-values.",
+        "hintZh": "(b) 先合併 y>2 和 x+2y<10，再逐個檢查整數 x。",
+        "answer": "(b) (2,3), (3,3)",
+        "answerZh": "(b) (2,3)、(3,3)",
+        "solution": "(a) The boundary lines are \\(y=8-4x\\) (dashed), \\(y=x-2\\) (solid) and \\(y=5-x/2\\) (dashed). Shade above the first two and below the third. Their pairwise intersections are \\((2,0)\\), \\((6/7,32/7)\\) and \\((14/3,8/3)\\); all three vertices lie on at least one strict boundary and are excluded.\n(b) Since \\(y\\geq3\\) and \\(x+2y<10\\), integer x is at most 3. Combining \\(4x+y>8\\) with \\(x+2y<10\\) gives \\(x>6/7\\), so x is 1, 2 or 3. At x=1, y>4 and y<9/2 allow no integer y. At x=2, 3≤y<4 gives y=3; at x=3, 3≤y<7/2 also gives y=3. Thus only \\((2,3)\\) and \\((3,3)\\).",
+        "solutionZh": "(a) 三條邊界為 \\(y=8-4x\\)（虛線）、\\(y=x-2\\)（實線）及 \\(y=5-x/2\\)（虛線）。陰影在首兩線上方及第三線下方。三組交點為 \\((2,0)\\)、\\((6/7,32/7)\\) 及 \\((14/3,8/3)\\)；每個頂點至少落在一條嚴格不等式的邊界上，均不包括。(b) 由 \\(y\\geq3\\) 及 \\(x+2y<10\\)，整數 x 至多為 3。合併 \\(4x+y>8\\) 和 \\(x+2y<10\\)，得 \\(x>6/7\\)，故 x 只可能為 1、2、3。x=1 時 y>4 和 y<9/2 沒有整數解；x=2 時 3≤y<4，得 y=3；x=3 時 3≤y<7/2，亦得 y=3。因此只有 \\((2,3)\\) 和 \\((3,3)\\)。",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p4 · Q10",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p4 · Q10",
+        "id": "import-linear-programming-d487218ca46e0b7e",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "10",
+          "page": 4,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) Solve graphically: \\(4x+y>8\\), \\(-x+y\\geq-2\\), \\(x+2y<10\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) If \\(x,y\\) are integers, list all ordered pairs satisfying these inequalities and \\(y>2\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 以圖解法解 \\(4x+y>8\\)、\\(-x+y\\geq-2\\) 及 \\(x+2y<10\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 若 x、y 均為整數，列出符合以上不等式及 \\(y>2\\) 的所有有序數對。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) The boundary lines are \\(y=8-4x\\) (dashed), \\(y=x-2\\) (solid) and \\(y=5-x/2\\) (dashed). Shade above the first two and below the third. Their pairwise intersections are \\((2,0)\\), \\((6/7,32/7)\\) and \\((14/3,8/3)\\); all three vertices lie on at least one strict boundary and are excluded."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Since \\(y\\geq3\\) and \\(x+2y<10\\), integer x is at most 3. Combining \\(4x+y>8\\) with \\(x+2y<10\\) gives \\(x>6/7\\), so x is 1, 2 or 3. At x=1, y>4 and y<9/2 allow no integer y. At x=2, 3≤y<4 gives y=3; at x=3, 3≤y<7/2 also gives y=3. Thus only \\((2,3)\\) and \\((3,3)\\)."
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q10-solution.svg",
+                "alt": "Q10: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed solution; dots show part (b) integer pairs / 依題意重建解答圖；點為 (b) 整數解",
+                "qa": {
+                  "questionId": "import-linear-programming-d487218ca46e0b7e",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 三條邊界為 \\(y=8-4x\\)（虛線）、\\(y=x-2\\)（實線）及 \\(y=5-x/2\\)（虛線）。陰影在首兩線上方及第三線下方。三組交點為 \\((2,0)\\)、\\((6/7,32/7)\\) 及 \\((14/3,8/3)\\)；每個頂點至少落在一條嚴格不等式的邊界上，均不包括。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 由 \\(y\\geq3\\) 及 \\(x+2y<10\\)，整數 x 至多為 3。合併 \\(4x+y>8\\) 和 \\(x+2y<10\\)，得 \\(x>6/7\\)，故 x 只可能為 1、2、3。x=1 時 y>4 和 y<9/2 沒有整數解；x=2 時 3≤y<4，得 y=3；x=3 時 3≤y<7/2，亦得 y=3。因此只有 \\((2,3)\\) 和 \\((3,3)\\)。"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q10-solution.svg",
+                "alt": "Q10: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed solution; dots show part (b) integer pairs / 依題意重建解答圖；點為 (b) 整數解",
+                "qa": {
+                  "questionId": "import-linear-programming-d487218ca46e0b7e",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q10 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:28:10.928Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.568Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.260Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "11",
+      "pages": [
+        4
+      ],
+      "disposition": "publish",
+      "category": "long",
+      "approvals": {
+        "text": {
+          "fingerprint": "b47e2d3e336f262382caab19ba51e8b5733840b1faf4a872dd9ab058084bec66",
+          "evidence": "Q11: matched full printed PDF page 4, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+          "at": "2026-11-05T07:43:51.702Z"
+        },
+        "classification": {
+          "fingerprint": "b47e2d3e336f262382caab19ba51e8b5733840b1faf4a872dd9ab058084bec66",
+          "evidence": "Q11: reviewed primary skill lp-discrete-objective and subcategory integer-feasible-points against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+          "at": "2026-11-05T07:43:51.703Z"
+        },
+        "mathematics": {
+          "fingerprint": "b47e2d3e336f262382caab19ba51e8b5733840b1faf4a872dd9ab058084bec66",
+          "evidence": "Q11: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Compared working and answer with original source; strict boundaries and integer domain retained.",
+          "at": "2026-11-05T07:43:51.705Z"
+        },
+        "figures": {
+          "fingerprint": "b47e2d3e336f262382caab19ba51e8b5733840b1faf4a872dd9ab058084bec66",
+          "evidence": "Q11: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+          "at": "2026-11-05T07:43:51.706Z"
+        },
+        "studentView": {
+          "fingerprint": "b47e2d3e336f262382caab19ba51e8b5733840b1faf4a872dd9ab058084bec66",
+          "evidence": "Q11: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q11-390.png and q11-1440.png; production grading tested separately after import.",
+          "at": "2026-11-05T07:43:51.708Z"
+        }
+      },
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 6,
+        "course": "core",
+        "stem": "(a) If \\(x,y\\) are integers, solve graphically \\(2x+3y\\leq6\\), \\(x-y\\geq-2\\), \\(x-4y\\leq4\\) and \\(y\\geq0\\).\n(b) Find the maximum and minimum of \\(P=x-2y\\) over these integer solutions.\n(c) If \\(y\\geq0\\) is removed, do the maximum and minimum remain unchanged? Explain.",
+        "stemZh": "(a) 若 x、y 均為整數，以圖解法求解 \\(2x+3y\\leq6\\)、\\(x-y\\geq-2\\)、\\(x-4y\\leq4\\) 及 \\(y\\geq0\\)。\n(b) 求這些整數解中 \\(P=x-2y\\) 的最大值和最小值。\n(c) 若刪去 \\(y\\geq0\\)，最大值和最小值會否改變？解釋你的答案。",
+        "subcategory": "integer-feasible-points",
+        "skill": "lp-discrete-objective",
+        "hint": "List integer lattice points row by row; for part (c), find the new lower boundary created by the remaining inequalities.",
+        "hintZh": "逐行列出整數格點；(c) 須由其餘限制找出新的下界。",
+        "answer": "(a) 10 integer points. (b) Maximum 3; minimum −4. (c) Unchanged.",
+        "answerZh": "(a) 共有 10 個整數解。(b) 最大值 3；最小值 −4。(c) 不變。",
+        "solution": "(a) The feasible polygon has vertices \\((-2,0)\\), \\((0,2)\\) and \\((3,0)\\); \\(x-4y\\leq4\\) does not cut this region. The integer points by rows are: y=0, x=−2 to 3; y=1, x=−1 to 1; y=2, x=0. There are 6+3+1=10 points.\n(b) At these points, \\(P=x-2y\\) has maximum 3 at \\((3,0)\\) and minimum −4 at \\((0,2)\\).\n(c) Without \\(y\\geq0\\), the remaining constraints imply \\(-2\\leq y\\leq2\\). New integer rows are y=−2, x=−4; and y=−1, x=−3,−2,−1,0. Their objective values are 0 and −1,0,1,2, respectively. None exceeds 3 or is below −4, so both extrema remain unchanged. The continuous polygon has a fractional vertex \\((36/11,-2/11)\\), which is not an integer feasible point.",
+        "solutionZh": "(a) 可行多邊形頂點為 \\((-2,0)\\)、\\((0,2)\\) 及 \\((3,0)\\)；\\(x-4y\\leq4\\) 不會再截走此區域。逐行整數點為：y=0 時 x=−2 至 3；y=1 時 x=−1 至 1；y=2 時 x=0。總數為 6+3+1=10。(b) 這些點的 \\(P=x-2y\\) 最大值為 3（在 \\((3,0)\\)），最小值為 −4（在 \\((0,2)\\)）。(c) 刪去 \\(y\\geq0\\) 後，其餘限制給出 \\(-2\\leq y\\leq2\\)。新增整數行為 y=−2 時 x=−4；以及 y=−1 時 x=−3、−2、−1、0。相應目標值分別為 0 及 −1、0、1、2，均不超過 3 或小於 −4，所以兩個極值不變。連續多邊形的分數頂點 \\((36/11,-2/11)\\) 不是整數可行點。",
+        "solutionStatus": "independently-verified",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p4 · Q11",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p4 · Q11",
+        "id": "import-linear-programming-853276bf43ff9201",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "11",
+          "page": 4,
+          "solutionPages": [
+            5
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) If \\(x,y\\) are integers, solve graphically \\(2x+3y\\leq6\\), \\(x-y\\geq-2\\), \\(x-4y\\leq4\\) and \\(y\\geq0\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Find the maximum and minimum of \\(P=x-2y\\) over these integer solutions."
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) If \\(y\\geq0\\) is removed, do the maximum and minimum remain unchanged? Explain."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 若 x、y 均為整數，以圖解法求解 \\(2x+3y\\leq6\\)、\\(x-y\\geq-2\\)、\\(x-4y\\leq4\\) 及 \\(y\\geq0\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 求這些整數解中 \\(P=x-2y\\) 的最大值和最小值。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) 若刪去 \\(y\\geq0\\)，最大值和最小值會否改變？解釋你的答案。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) The feasible polygon has vertices \\((-2,0)\\), \\((0,2)\\) and \\((3,0)\\); \\(x-4y\\leq4\\) does not cut this region. The integer points by rows are: y=0, x=−2 to 3; y=1, x=−1 to 1; y=2, x=0. There are 6+3+1=10 points."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) At these points, \\(P=x-2y\\) has maximum 3 at \\((3,0)\\) and minimum −4 at \\((0,2)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) Without \\(y\\geq0\\), the remaining constraints imply \\(-2\\leq y\\leq2\\). New integer rows are y=−2, x=−4; and y=−1, x=−3,−2,−1,0. Their objective values are 0 and −1,0,1,2, respectively. None exceeds 3 or is below −4, so both extrema remain unchanged. The continuous polygon has a fractional vertex \\((36/11,-2/11)\\), which is not an integer feasible point."
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q11-solution.svg",
+                "alt": "Q11: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed from printed constraints / 依原題限制重建解答圖",
+                "qa": {
+                  "questionId": "import-linear-programming-853276bf43ff9201",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q11c-solution.svg",
+                "alt": "Q11: reconstructed solution graph from the printed inequalities",
+                "caption": "Part (c): remove y≥0, integer points only / (c) 刪去 y≥0，只取整數點",
+                "qa": {
+                  "questionId": "import-linear-programming-853276bf43ff9201",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 可行多邊形頂點為 \\((-2,0)\\)、\\((0,2)\\) 及 \\((3,0)\\)；\\(x-4y\\leq4\\) 不會再截走此區域。逐行整數點為：y=0 時 x=−2 至 3；y=1 時 x=−1 至 1；y=2 時 x=0。總數為 6+3+1=10。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 這些點的 \\(P=x-2y\\) 最大值為 3（在 \\((3,0)\\)），最小值為 −4（在 \\((0,2)\\)）。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) 刪去 \\(y\\geq0\\) 後，其餘限制給出 \\(-2\\leq y\\leq2\\)。新增整數行為 y=−2 時 x=−4；以及 y=−1 時 x=−3、−2、−1、0。相應目標值分別為 0 及 −1、0、1、2，均不超過 3 或小於 −4，所以兩個極值不變。連續多邊形的分數頂點 \\((36/11,-2/11)\\) 不是整數可行點。"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q11-solution.svg",
+                "alt": "Q11: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed from printed constraints / 依原題限制重建解答圖",
+                "qa": {
+                  "questionId": "import-linear-programming-853276bf43ff9201",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q11c-solution.svg",
+                "alt": "Q11: reconstructed solution graph from the printed inequalities",
+                "caption": "Part (c): remove y≥0, integer points only / (c) 刪去 y≥0，只取整數點",
+                "qa": {
+                  "questionId": "import-linear-programming-853276bf43ff9201",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q11 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:28:10.928Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.568Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:36:00.822Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.260Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "12",
+      "pages": [
+        4
+      ],
+      "disposition": "publish",
+      "category": "long",
+      "approvals": {
+        "text": {
+          "fingerprint": "8d08a9d8cd6b0ad02d8fb11dd321e908b1b91c0dfe26a0bf3f4f7dcf157e6a91",
+          "evidence": "Q12: matched full printed PDF page 4, original question number, all subparts and A–D where present; Traditional Chinese checked against English. Source SHA verified by pipeline.",
+          "at": "2026-11-05T07:43:51.709Z"
+        },
+        "classification": {
+          "fingerprint": "8d08a9d8cd6b0ad02d8fb11dd321e908b1b91c0dfe26a0bf3f4f7dcf157e6a91",
+          "evidence": "Q12: reviewed primary skill lp-modelling and subcategory resource-modelling against required solving method; Core/Form 6 editorial prerequisite; no official-paper attribution inferred.",
+          "at": "2026-11-05T07:43:51.710Z"
+        },
+        "mathematics": {
+          "fingerprint": "8d08a9d8cd6b0ad02d8fb11dd321e908b1b91c0dfe26a0bf3f4f7dcf157e6a91",
+          "evidence": "Q12: independently checked constraints and objective using exact rational arithmetic in scripts/verify-linear-programming-review.py; report docs/qa/2026-11-05/linear-programming/mathematics.json. Whole-bottle $190 versus continuous $200 explained explicitly.",
+          "at": "2026-11-05T07:43:51.711Z"
+        },
+        "figures": {
+          "fingerprint": "8d08a9d8cd6b0ad02d8fb11dd321e908b1b91c0dfe26a0bf3f4f7dcf157e6a91",
+          "evidence": "Q12: matched question visuals to source ID/page/labels and options in figures.json; standalone seven source crops and six reconstructed solution graphs inspected. Q9–12 graphs checked against exact constraints, not copied from unrelated answer pages.",
+          "at": "2026-11-05T07:43:51.712Z"
+        },
+        "studentView": {
+          "fingerprint": "8d08a9d8cd6b0ad02d8fb11dd321e908b1b91c0dfe26a0bf3f4f7dcf157e6a91",
+          "evidence": "Q12: actual local draft question and expanded solution reviewed; 320/390/768/1440px × en/zh/bilingual matrix, no overflow/math residue/errors or solution-image leak. Evidence previews/q12-390.png and q12-1440.png; production grading tested separately after import.",
+          "at": "2026-11-05T07:43:51.714Z"
+        }
+      },
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 6,
+        "course": "core",
+        "stem": "Jessica prepares \\(x\\) g of sauce A and \\(y\\) g of sauce B using 110 g of vinegar, 180 g of salad cream and 300 g of ketchup. Sauce A uses vinegar, salad cream and ketchup in the ratio \\(1:2:2\\); sauce B uses them in the ratio \\(1:1:3\\).\n(a) Write all constraints on \\(x,y\\).\n(b) Represent the feasible region graphically.\n(c) A 100 g bottle of sauce A earns $40 and a 100 g bottle of sauce B earns $30. Find the maximum profit.",
+        "stemZh": "Jessica 用 110 g 醋、180 g 沙律醬及 300 g 茄汁製作 x g 醬汁 A 和 y g 醬汁 B。醬汁 A 中醋、沙律醬及茄汁的比例為 \\(1:2:2\\)；醬汁 B 的比例為 \\(1:1:3\\)。\n(a) 列出 x、y 的所有限制。\n(b) 在坐標平面上表示可行區域。\n(c) 每瓶 100 g 醬汁 A 和醬汁 B 的利潤分別為 $40 和 $30。求最大利潤。",
+        "subcategory": "resource-modelling",
+        "skill": "lp-modelling",
+        "hint": "Convert each ingredient ratio into a per-gram usage, then compare profit at every feasible vertex.",
+        "hintZh": "先把配方比例轉成每克用量，再於每個可行頂點比較利潤。",
+        "answer": "(a) x+y≤550, 2x+y≤900, 2x+3y≤1500, x≥0, y≥0. (c) $190 for whole 100 g bottles. The continuous-by-gram model gives $200.",
+        "answerZh": "(a) x+y≤550、2x+y≤900、2x+3y≤1500、x≥0、y≥0。(c) 按完整 100 g 瓶出售為 $190；按克出售的連續模型為 $200。",
+        "solution": "(a) Each sauce has total ratio 5. The vinegar limit gives \\((x+y)/5\\leq110\\), hence \\(x+y\\leq550\\). Salad cream gives \\((2x+y)/5\\leq180\\), hence \\(2x+y\\leq900\\). Ketchup gives \\((2x+3y)/5\\leq300\\), hence \\(2x+3y\\leq1500\\), with \\(x,y\\geq0\\).\n(b) The feasible vertices are \\((0,0)\\), \\((450,0)\\), \\((350,200)\\), \\((150,400)\\) and \\((0,500)\\).\n(c) For whole 100 g bottles, let \\(a=x/100\\) and \\(b=y/100\\) be nonnegative integers. Then \\(a+b\\leq5.5\\), \\(2a+b\\leq9\\) and \\(2a+3b\\leq15\\). For a=0,1,2,3,4, the greatest possible b is 5,4,3,2,1; the corresponding profits \\(40a+30b\\) are $150,$160,$170,$180,$190. The maximum is $190 from 4 bottles of A and 1 bottle of B (400 g and 100 g), matching the source key. If partial bottles/by-gram sales are permitted instead, the continuous model reaches $200 at (350,200). Thus the printed answer requires the whole-bottle interpretation.",
+        "solutionZh": "(a) 兩種醬汁的比例總和均為 5。醋的限制為 \\((x+y)/5\\leq110\\)，即 \\(x+y\\leq550\\)。沙律醬給出 \\((2x+y)/5\\leq180\\)，即 \\(2x+y\\leq900\\)。茄汁給出 \\((2x+3y)/5\\leq300\\)，即 \\(2x+3y\\leq1500\\)，另有 \\(x,y\\geq0\\)。(b) 可行區域頂點為 \\((0,0)\\)、\\((450,0)\\)、\\((350,200)\\)、\\((150,400)\\) 及 \\((0,500)\\)。(c) 按完整 100 g 瓶出售，設 \\(a=x/100\\)、\\(b=y/100\\) 為非負整數，則 \\(a+b\\leq5.5\\)、\\(2a+b\\leq9\\) 及 \\(2a+3b\\leq15\\)。a=0、1、2、3、4 時，b 最大依次為 5、4、3、2、1；利潤 \\(40a+30b\\) 依次為 $150、$160、$170、$180、$190。最大利潤是 $190，即 4 瓶 A 和 1 瓶 B（400 g 及 100 g），與來源答案一致。若容許不足一瓶／按克出售，連續模型則在 (350,200) 達 $200。因此來源答案必須按完整瓶裝解讀。",
+        "solutionStatus": "source-answer-retained-with-explicit-whole-bottle-interpretation",
+        "source": "S6/linear programming/Linear programming reviews.pdf · p4 · Q12",
+        "sourceZh": "S6/linear programming/Linear programming reviews.pdf · p4 · Q12",
+        "id": "import-linear-programming-bc6c3bd7c4a0755c",
+        "provenance": {
+          "sourceId": "source-d2b66a083bf979af",
+          "sha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+          "file": "S6/linear programming/Linear programming reviews.pdf",
+          "number": "12",
+          "page": 4,
+          "solutionPages": [
+            6
+          ],
+          "pairedSourceId": "source-a2ab910d1ec236f4",
+          "attribution": "source-reported-unverified",
+          "collection": "by-topic-review-materials"
+        },
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Jessica prepares \\(x\\) g of sauce A and \\(y\\) g of sauce B using 110 g of vinegar, 180 g of salad cream and 300 g of ketchup. Sauce A uses vinegar, salad cream and ketchup in the ratio \\(1:2:2\\); sauce B uses them in the ratio \\(1:1:3\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) Write all constraints on \\(x,y\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Represent the feasible region graphically."
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) A 100 g bottle of sauce A earns $40 and a 100 g bottle of sauce B earns $30. Find the maximum profit."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "Jessica 用 110 g 醋、180 g 沙律醬及 300 g 茄汁製作 x g 醬汁 A 和 y g 醬汁 B。醬汁 A 中醋、沙律醬及茄汁的比例為 \\(1:2:2\\)；醬汁 B 的比例為 \\(1:1:3\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) 列出 x、y 的所有限制。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 在坐標平面上表示可行區域。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) 每瓶 100 g 醬汁 A 和醬汁 B 的利潤分別為 $40 和 $30。求最大利潤。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) Each sauce has total ratio 5. The vinegar limit gives \\((x+y)/5\\leq110\\), hence \\(x+y\\leq550\\). Salad cream gives \\((2x+y)/5\\leq180\\), hence \\(2x+y\\leq900\\). Ketchup gives \\((2x+3y)/5\\leq300\\), hence \\(2x+3y\\leq1500\\), with \\(x,y\\geq0\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) The feasible vertices are \\((0,0)\\), \\((450,0)\\), \\((350,200)\\), \\((150,400)\\) and \\((0,500)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) For whole 100 g bottles, let \\(a=x/100\\) and \\(b=y/100\\) be nonnegative integers. Then \\(a+b\\leq5.5\\), \\(2a+b\\leq9\\) and \\(2a+3b\\leq15\\). For a=0,1,2,3,4, the greatest possible b is 5,4,3,2,1; the corresponding profits \\(40a+30b\\) are $150,$160,$170,$180,$190. The maximum is $190 from 4 bottles of A and 1 bottle of B (400 g and 100 g), matching the source key. If partial bottles/by-gram sales are permitted instead, the continuous model reaches $200 at (350,200). Thus the printed answer requires the whole-bottle interpretation."
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q12-solution.svg",
+                "alt": "Q12: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed continuous region; dots are whole 100 g bottle quantities / 重建連續區域；點為完整 100 g 瓶裝數量",
+                "qa": {
+                  "questionId": "import-linear-programming-bc6c3bd7c4a0755c",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 兩種醬汁的比例總和均為 5。醋的限制為 \\((x+y)/5\\leq110\\)，即 \\(x+y\\leq550\\)。沙律醬給出 \\((2x+y)/5\\leq180\\)，即 \\(2x+y\\leq900\\)。茄汁給出 \\((2x+3y)/5\\leq300\\)，即 \\(2x+3y\\leq1500\\)，另有 \\(x,y\\geq0\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 可行區域頂點為 \\((0,0)\\)、\\((450,0)\\)、\\((350,200)\\)、\\((150,400)\\) 及 \\((0,500)\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) 按完整 100 g 瓶出售，設 \\(a=x/100\\)、\\(b=y/100\\) 為非負整數，則 \\(a+b\\leq5.5\\)、\\(2a+b\\leq9\\) 及 \\(2a+3b\\leq15\\)。a=0、1、2、3、4 時，b 最大依次為 5、4、3、2、1；利潤 \\(40a+30b\\) 依次為 $150、$160、$170、$180、$190。最大利潤是 $190，即 4 瓶 A 和 1 瓶 B（400 g 及 100 g），與來源答案一致。若容許不足一瓶／按克出售，連續模型則在 (350,200) 達 $200。因此來源答案必須按完整瓶裝解讀。"
+            },
+            {
+              "type": "figure",
+              "diagram": {
+                "src": "assets/intake/intake-d2b66a083bf979af/lp-q12-solution.svg",
+                "alt": "Q12: reconstructed solution graph from the printed inequalities",
+                "caption": "Reconstructed continuous region; dots are whole 100 g bottle quantities / 重建連續區域；點為完整 100 g 瓶裝數量",
+                "qa": {
+                  "questionId": "import-linear-programming-bc6c3bd7c4a0755c",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-05",
+                  "evidence": "Independent exact constraint checks in scripts/verify-linear-programming-review.py; standalone and student rendering review tracked separately in content/intake/linear-programming-review/solution-figures.json."
+                }
+              }
+            }
+          ]
+        },
+        "classification": {
+          "version": "2026-11-05",
+          "status": "editor-pipeline-reviewed",
+          "basis": "Primary method reviewed against printed source Q12 and independent exact feasibility/objective checks."
+        },
+        "formBasis": "Editorial prerequisite recommendation, not a source syllabus certification."
+      },
+      "history": [
+        {
+          "at": "2026-11-05T07:28:10.928Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:32:30.568Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-05T07:37:06.261Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-11-05T07:09:42.929Z",
+      "event": "draft-saved",
+      "revision": 1
+    },
+    {
+      "at": "2026-11-05T07:21:36.616Z",
+      "event": "draft-saved",
+      "revision": 2
+    },
+    {
+      "at": "2026-11-05T07:26:41.575Z",
+      "event": "draft-saved",
+      "revision": 3
+    },
+    {
+      "at": "2026-11-05T07:28:10.928Z",
+      "event": "draft-saved",
+      "revision": 4
+    },
+    {
+      "at": "2026-11-05T07:32:30.568Z",
+      "event": "draft-saved",
+      "revision": 5
+    },
+    {
+      "at": "2026-11-05T07:36:00.823Z",
+      "event": "draft-saved",
+      "revision": 6
+    },
+    {
+      "at": "2026-11-05T07:37:06.261Z",
+      "event": "draft-saved",
+      "revision": 7
+    },
+    {
+      "at": "2026-11-05T07:51:24.826Z",
+      "event": "draft-saved",
+      "revision": 69
+    }
+  ],
+  "createdAt": "2026-11-05T07:09:42.928Z",
+  "catalog": {
+    "subjects": [
+      {
+        "id": "algebra",
+        "name": {
+          "en": "Algebra",
+          "zh-Hant": "代數"
+        },
+        "chapters": [
+          {
+            "id": "linear-programming",
+            "topicId": "linear-programming",
+            "name": {
+              "en": "Linear Programming",
+              "zh-Hant": "線性規劃"
+            },
+            "description": {
+              "en": "Translate constraints into a feasible region, then optimise and interpret a linear objective.",
+              "zh-Hant": "把限制轉成可行區域，再求線性目標式的極值並解釋結果。"
+            },
+            "subcategories": [
+              {
+                "id": "graphing-constraints",
+                "name": {
+                  "en": "Graphing constraints",
+                  "zh-Hant": "限制與可行區域圖解"
+                },
+                "skills": [
+                  "lp-half-plane",
+                  "lp-parameter-feasibility"
+                ]
+              },
+              {
+                "id": "integer-feasible-points",
+                "name": {
+                  "en": "Integer feasible points",
+                  "zh-Hant": "整數可行解"
+                },
+                "skills": [
+                  "lp-lattice-count",
+                  "lp-discrete-objective"
+                ]
+              },
+              {
+                "id": "objective-and-vertices",
+                "name": {
+                  "en": "Objective functions and vertices",
+                  "zh-Hant": "目標函數與頂點"
+                },
+                "skills": [
+                  "lp-objective-vertices",
+                  "lp-objective-range"
+                ]
+              },
+              {
+                "id": "systems-of-inequalities",
+                "name": {
+                  "en": "Systems of inequalities",
+                  "zh-Hant": "聯立不等式"
+                },
+                "skills": [
+                  "lp-graph-systems"
+                ]
+              },
+              {
+                "id": "resource-modelling",
+                "name": {
+                  "en": "Resource modelling",
+                  "zh-Hant": "資源限制建模"
+                },
+                "skills": [
+                  "lp-modelling"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "lp-half-plane": "Half-plane test point · 半平面測試點",
+    "lp-parameter-feasibility": "Parameter feasibility · 參數可行性",
+    "lp-lattice-count": "Count integer lattice points · 整數格點計數",
+    "lp-discrete-objective": "Optimise at discrete points · 離散點目標最值",
+    "lp-objective-vertices": "Compare a linear objective at vertices · 頂點比較線性目標",
+    "lp-objective-range": "Find the range of a linear objective · 線性目標值域",
+    "lp-graph-systems": "Graph a system of inequalities · 不等式組圖解",
+    "lp-modelling": "Convert resource ratios into constraints · 配方比例轉限制"
+  },
+  "import": {
+    "at": "2026-11-05T07:55:54.676Z",
+    "baseline": "411bd02c092fa575133a1b4c517197dcea7d0f4c2df23a53d71cd6586938c5d8",
+    "report": {
+      "added": [],
+      "updated": [],
+      "unchanged": [
+        "import-linear-programming-4eca0a5b2e1cf4d1",
+        "import-linear-programming-3135c83dd9f3dbb6",
+        "import-linear-programming-9a560aafe0461de0",
+        "import-linear-programming-9c12a76435d46065",
+        "import-linear-programming-33614b195fd202f1",
+        "import-linear-programming-1e45b3a6193c5c61",
+        "import-linear-programming-e70d315aaad9a93f",
+        "import-linear-programming-a5cdab6403f5bbad",
+        "import-linear-programming-5fa65706c7f186e6",
+        "import-linear-programming-d487218ca46e0b7e",
+        "import-linear-programming-853276bf43ff9201",
+        "import-linear-programming-bc6c3bd7c4a0755c"
+      ],
+      "chapters": [],
+      "taxonomyChanged": false
+    },
+    "mode": "verified-replay",
+    "backup": null
+  }
+}

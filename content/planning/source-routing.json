@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "curriculumHash": "c99870e734da18c5b6e20703d66d0b6d41320a7857c7efcdd41e8276c2d337a6",
+  "curriculumHash": "e36a7f91e6529ed69e56e767ad743f539f5344657b3d000493d233b9c79335a0",
   "inventoryHash": "aa6c93abaacab6917603ec20365ada4992737da50ef369bc4020da413d697180",
   "routes": [
     {
@@ -18506,7 +18506,11 @@
       "sourceStageCandidates": [
         "S6"
       ],
-      "publishedBinding": null,
+      "publishedBinding": {
+        "topicId": "linear-programming",
+        "chapterId": "linear-programming",
+        "subjectId": "algebra"
+      },
       "importedQuestionCount": 0
     },
     {

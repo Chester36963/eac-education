@@ -32,13 +32,13 @@ const EACMath=(()=>{
     });
     syncLanguages();
   }
-  function content(root,q,language='bilingual'){
-    if(!q.contentBlocks)return false;
+  function content(root,q,language='bilingual',field='contentBlocks'){
+    if(!q[field])return false;
     const languages=language==='zh'?['zh-Hant']:language==='en'?['en']:['en','zh-Hant'];
     const seen=new Set();root.replaceChildren();root.classList.add('question-blocks');
     for(const code of languages){
       const group=document.createElement('div');group.lang=code;group.className='question-block-language';
-      for(const block of q.contentBlocks[code]||[]){
+      for(const block of q[field][code]||[]){
         if(block.type==='paragraph'){const p=document.createElement('p');p.textContent=block.text;group.append(p);}
         if(block.type==='table'){
           const wrap=document.createElement('div');wrap.className='question-table-scroll';wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label',code==='en'?'Question data table':'題目數據表');
@@ -56,6 +56,12 @@ const EACMath=(()=>{
     }
     return true;
   }
+  function solution(root,q,language='bilingual'){
+    clear(root);
+    if(content(root,q,language,'solutionBlocks'))return;
+    root.classList.remove('question-blocks');
+    root.textContent=(q.solutionStatus==='source-answer-or-brief-explanation'?'來源只附答案或簡短解釋；未提供完整推導。\n\n':'')+(language==='en'?q.solution:language==='zh'?q.solutionZh:q.solution===q.solutionZh?q.solution:[q.solution,q.solutionZh].filter(Boolean).join('\n\n'));
+  }
   function preview(root,q,language='bilingual'){
     const make=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
     clear(root);root.replaceChildren();const heading=make('h2',q.contentBlocks?'題目預覽 / Question preview':language==='zh'?q.stemZh:q.stem);heading.id='preview-heading';root.append(heading);
@@ -70,6 +76,6 @@ const EACMath=(()=>{
     if(['structured','proof','dse-long'].includes(q.questionType))root.append(make('p','書面作答 · 完成後對照解法自評','field-note'));
     return render(root);
   }
-  return {clear,render,bindLanguages,syncLanguages,content,preview};
+  return {clear,render,bindLanguages,syncLanguages,content,solution,preview};
 
 })();

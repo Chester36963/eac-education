@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "revision": "5d66d16cac070085",
-  "totalQuestions": 1241,
-  "chapterCount": 7,
-  "catalog": "data/catalog.4641bed890b16943.json",
-  "index": "data/question-index.41b376a5ca4d83fa.json",
+  "revision": "491bf4292f82f7be",
+  "totalQuestions": 1253,
+  "chapterCount": 8,
+  "catalog": "data/catalog.79b147802328b156.json",
+  "index": "data/question-index.1146b00c7e03e2aa.json",
   "search": [
     "data/search/four-centres.87b6577506cd23ee.json",
     "data/search/four-centres.7ea64259ee7debde.json",
@@ -16,6 +16,7 @@
     "data/search/polynomial.43e823bf32a4c91e.json",
     "data/search/polynomial.f377bd2e2e02c9a9.json",
     "data/search/sequences.ab6715dfc2311f80.json",
+    "data/search/linear-programming.488c3c2918627f48.json",
     "data/search/mensuration.2c9f75323de6b8af.json",
     "data/search/mensuration.41feba679a2cdf02.json",
     "data/search/statistics.f98d3c312fd36bfc.json"
@@ -87,6 +88,14 @@
         "data/chapters/sequences-chunk.4380a41d41ff0ba1.json"
       ],
       "questionCount": 64
+    },
+    {
+      "topicId": "linear-programming",
+      "path": "data/chapters/linear-programming.0ab96c6f6e8b0b5e.json",
+      "chunks": [
+        "data/chapters/linear-programming-chunk.e9b7334dc3d17626.json"
+      ],
+      "questionCount": 12
     },
     {
       "topicId": "mensuration",

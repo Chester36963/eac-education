@@ -110,5 +110,13 @@
   "area-shared-height": "Shared bases and heights · 同底等高面積比",
   "area-similar-triangles": "Similarity and area ratios · 相似與面積比",
   "area-intersection-ratios": "Intersections and area partitions · 交點與面積分割",
-  "seq-mean-recurrence": "Mean recurrence and invariant terms · 平均遞推與不變項"
+  "seq-mean-recurrence": "Mean recurrence and invariant terms · 平均遞推與不變項",
+  "lp-half-plane": "Half-plane test point · 半平面測試點",
+  "lp-parameter-feasibility": "Parameter feasibility · 參數可行性",
+  "lp-lattice-count": "Count integer lattice points · 整數格點計數",
+  "lp-discrete-objective": "Optimise at discrete points · 離散點目標最值",
+  "lp-objective-vertices": "Compare a linear objective at vertices · 頂點比較線性目標",
+  "lp-objective-range": "Find the range of a linear objective · 線性目標值域",
+  "lp-graph-systems": "Graph a system of inequalities · 不等式組圖解",
+  "lp-modelling": "Convert resource ratios into constraints · 配方比例轉限制"
 }

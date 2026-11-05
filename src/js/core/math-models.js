@@ -40,5 +40,12 @@
   return {A,B,M,P,ab,excluded,valid:true};
  }
  function trigSegments(mode,start=-Math.PI*2,end=Math.PI*2,n=600){const segments=[];let current=[];for(let j=0;j<=n;j++){const x=start+(end-start)*j/n,c=Math.cos(x),y=mode==='tan'?Math.tan(x):mode==='cos'?c:Math.sin(x),prev=j?start+(end-start)*(j-1)/n:x;const crosses=mode==='tan'&&Math.floor((prev+Math.PI/2)/Math.PI)!==Math.floor((x+Math.PI/2)/Math.PI);if(crosses||!Number.isFinite(y)||Math.abs(y)>4||(mode==='tan'&&Math.abs(c)<1e-6)){if(current.length>1)segments.push(current);current=[];}if(Number.isFinite(y)&&Math.abs(y)<=4&&!(mode==='tan'&&Math.abs(c)<1e-6))current.push([x,y]);}if(current.length>1)segments.push(current);return segments;}
- return {radians,point,distance,midpoint,foot,presets,triangle,moveAngle,sequence,sequenceSummary,polynomial,polynomialDetails,circlePoint,cone,coneNet,locus,moveLocusPoint,trigSegments};
+ function linearObjective(k,mode='maximum'){
+  if(!Number.isFinite(k)||!['maximum','minimum'].includes(mode))throw new Error('Invalid objective');
+  // The exact feasible region of the published LP review Q8.
+  const vertices=[[2,1],[7,1],[5,4],[2,3]],values=vertices.map(([x,y])=>x+k*y);
+  const optimum=mode==='maximum'?Math.max(...values):Math.min(...values);
+  return {vertices,values,optimum,best:vertices.filter((p,j)=>Math.abs(values[j]-optimum)<1e-8)};
+ }
+ return {radians,point,distance,midpoint,foot,presets,triangle,moveAngle,sequence,sequenceSummary,polynomial,polynomialDetails,circlePoint,cone,coneNet,locus,moveLocusPoint,trigSegments,linearObjective};
 });

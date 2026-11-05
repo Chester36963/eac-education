@@ -84,7 +84,7 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
       await page.keyboard.press('Escape');
     }
     await page.goto(base+'index.html');await page.waitForFunction(()=>document.querySelector('#home-chapters .index-desc')?.textContent.includes('題'));
-    assert.equal(await page.locator('#home-chapters .index-row').count(),Math.min(6,manifest.chapterCount));
+    assert.equal(await page.locator('#home-chapters .index-row').count(),manifest.chapterCount);
     assert.deepEqual(errors,[]);
     console.log('PASS: public index-only library, taxonomy, counts, pagination/back, shared filters, authenticated return, exact preview/diagram, bookmarks, empty recovery, 320/390/768px layouts, dynamic home, zero JavaScript errors.');
   }finally{await browser.close();}

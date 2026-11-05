@@ -36,7 +36,7 @@ const output='/tmp/eac-journey-qa';fs.mkdirSync(output,{recursive:true});
   await page.locator('#finish-btn').click();await page.locator('#set-summary').waitFor();
   assert.match(await page.locator('#summary-next').textContent(),/找出錯在哪一步/);
   await page.locator('.summary-question summary').first().click();
-  await page.locator('.summary-question p[data-loaded]').waitFor();await noResidue();
+  await page.locator('.summary-question .summary-answer-copy[data-loaded]').waitFor();await noResidue();
   await page.screenshot({path:output+'/review-desktop.png',fullPage:true});
   await page.locator('#retry-mistakes-btn').click();await active();assert.equal(await page.evaluate(()=>queue.length),1);
   await page.locator('#pause-btn').click();await page.locator('#dashboard-resume').waitFor();

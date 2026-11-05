@@ -32,7 +32,7 @@ test('core, M1 and M2 have separate stable topic containers and bilingual purpos
  assert.equal(c.publicationPolicy.plannedTopicsVisible,false);
 });
 
-test('all seven published chapter bindings retain topic and chapter IDs',()=>{
+test('all published chapter bindings retain topic and chapter IDs',()=>{
  const {curriculum:c,catalog}=load(),bindings=c.topics.filter(t=>t.bankBinding).map(t=>t.bankBinding);
  assert.equal(bindings.length,catalog.subjects.flatMap(s=>s.chapters).length);
  assert.deepEqual(bindings.find(b=>b.topicId==='polynomial'),{topicId:'polynomial',chapterId:'polynomials',subjectId:'algebra'});

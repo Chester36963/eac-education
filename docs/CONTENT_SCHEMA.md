@@ -44,7 +44,13 @@ Question IDs must be globally unique and stable across deployments; learning rec
 
 The optional `contentBlocks` field has nonempty `en` and `zh-Hant` arrays. Array order is reading order. Supported entries are `{ "type": "paragraph", "text": "..." }`, `{ "type": "table", "rows": [["Header", "Value"], ["...", "..."]], "caption": "..." }` and `{ "type": "figure", "diagram": { ... } }`. Figures use the same reviewed diagram schema above. A stem-and-leaf display may be an editable table with its key in `caption`; an arbitrary table cannot substitute for a missing graph. Table headers use column `th`; wide tables can scroll locally using keyboard or touch.
 
-The renderer uses these blocks when present, while retaining `stem`/`stemZh` for search, compatibility and the summary index. Shared diagrams appear once in bilingual mode. The build validates nested text, formulas, taxonomy and each image, not only top-level fields. Existing plain questions and single `diagram` work unchanged. Solution text remains separate in `solution`/`solutionZh`; no source HTML is executed and no answer figure belongs in the question blocks. This batch does not add a separate rich solution-block schema.
+The renderer uses these blocks when present, while retaining `stem`/`stemZh` for search, compatibility and the summary index. Shared diagrams appear once in bilingual mode. The build validates nested text, formulas, taxonomy and each image, not only top-level fields. Existing plain questions and single `diagram` work unchanged. No source HTML is executed and no answer figure belongs in the question blocks.
+
+### Ordered solution blocks · 5 November 2026
+
+Optional `solutionBlocks` uses the same nonempty bilingual arrays and paragraph/table/figure schema. Keep `solution` and `solutionZh` as complete text equivalents for compatibility. `EACMath.solution` renders blocks only in the revealed solution and completed-set review; the question preview reads only `contentBlocks`. A solution-only figure never satisfies a statement's required question-figure check.
+
+All solution figures require the same local-path, same-question QA and asset checks as question figures. The editor fingerprints their bytes: changing a solution SVG invalidates the five reviews. Apply copies them transactionally with the batch and retains restorable asset backups. Existing text-only solutions need no migration. Completed-set reviews use the captured selection, because the active session is cleared when the set ends.
 
 ## Duplicate aliases and progress migration
 

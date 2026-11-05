@@ -50,6 +50,16 @@ test('ordered figure blocks satisfy diagram QA without a legacy top-level image'
   assert.match(validate(s.catalog,s.topics,s.skills).join('\n'),/reviewed same-question/);
 });
 
+test('solution blocks validate independently and cannot satisfy a missing question diagram',()=>{
+  const s=source(),q=s.topics.flatMap(t=>t.categories.flatMap(c=>c.questions)).find(q=>q.diagram),d=structuredClone(q.diagram);
+  delete q.diagram;delete q.contentBlocks;q.stem='In the figure, find the result.';
+  q.solutionBlocks=Object.fromEntries(['en','zh-Hant'].map(lang=>[lang,[{type:'paragraph',text:lang==='en'?q.solution:q.solutionZh},{type:'figure',diagram:structuredClone(d)}]]));
+  assert.match(validate(s.catalog,s.topics,s.skills).join('\n'),/same-question diagram required/);
+  q.stem='Find the result.';q.stemZh='求結果。';assert.deepEqual(validate(s.catalog,s.topics,s.skills),[]);
+  q.solutionBlocks.en[1].diagram.qa.questionId='wrong-source-question';assert.match(validate(s.catalog,s.topics,s.skills).join('\n'),/reviewed same-question/);
+  q.solutionBlocks.en[1].diagram.qa.questionId=q.id;q.solutionBlocks.en[0].text='\\frac{1}{2}';assert.match(validate(s.catalog,s.topics,s.skills).join('\n'),/raw TeX.*solutionBlocks/);
+});
+
 test('import previews are idempotent; corrections require explicit replace and preserve IDs',()=>{
   const s=source(),before=JSON.stringify(s);
   const same=merge(s,{topics:s.topics});assert.equal(same.report.added.length,0);assert.equal(same.report.unchanged.length,total(s));

@@ -1,0 +1,184 @@
+[
+  {
+    "sourceId": "source-d2b66a083bf979af",
+    "questionNumber": "1",
+    "page": 1,
+    "dpi": 220,
+    "cropBox": [
+      316,
+      330,
+      1488,
+      1224
+    ],
+    "sourceRenderSize": [
+      1820,
+      2573
+    ],
+    "asset": "content/intake/linear-programming-review/assets/lp-q01-graphs.png",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q01-graphs.png",
+    "sha256": "c90db8752f1cb65d0987d4d3cd0818bfbdf0d243606142ff91e50d625da8a56d",
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q1-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q1-1440.png"
+    ]
+  },
+  {
+    "sourceId": "source-d2b66a083bf979af",
+    "questionNumber": "2",
+    "page": 1,
+    "dpi": 220,
+    "cropBox": [
+      1040,
+      1436,
+      1460,
+      1860
+    ],
+    "sourceRenderSize": [
+      1820,
+      2573
+    ],
+    "asset": "content/intake/linear-programming-review/assets/lp-q02-region.png",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q02-region.png",
+    "sha256": "6b60e51aed7ad3589f38e9959a4c821321b4f9ec966050d043d633e2471bb5ff",
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q2-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q2-1440.png"
+    ]
+  },
+  {
+    "sourceId": "source-d2b66a083bf979af",
+    "questionNumber": "3",
+    "page": 2,
+    "dpi": 220,
+    "cropBox": [
+      1120,
+      410,
+      1650,
+      1032
+    ],
+    "sourceRenderSize": [
+      1820,
+      2573
+    ],
+    "asset": "content/intake/linear-programming-review/assets/lp-q03-lattice-region.png",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q03-lattice-region.png",
+    "sha256": "e888bd4d312dc94c97293b4563d34b99740f1e2764ea2c62f5fde93b87b8bdc9",
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q3-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q3-1440.png"
+    ]
+  },
+  {
+    "sourceId": "source-d2b66a083bf979af",
+    "questionNumber": "4",
+    "page": 2,
+    "dpi": 220,
+    "cropBox": [
+      1320,
+      1124,
+      1810,
+      1644
+    ],
+    "sourceRenderSize": [
+      1820,
+      2573
+    ],
+    "asset": "content/intake/linear-programming-review/assets/lp-q04-feasible-points.png",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q04-feasible-points.png",
+    "sha256": "83cd40bfb2ad0992a3707494e9e9e73a8de9440b993514a0166ba17ef770a864",
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q4-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q4-1440.png"
+    ]
+  },
+  {
+    "sourceId": "source-d2b66a083bf979af",
+    "questionNumber": "5",
+    "page": 2,
+    "dpi": 220,
+    "cropBox": [
+      1220,
+      1784,
+      1782,
+      2244
+    ],
+    "sourceRenderSize": [
+      1820,
+      2573
+    ],
+    "asset": "content/intake/linear-programming-review/assets/lp-q05-shaded-region.png",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q05-shaded-region.png",
+    "sha256": "8d5fd846248c593d7ded2a80dd3a7f39a40632af24ce27792f33b661c7f88a9b",
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q5-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q5-1440.png"
+    ]
+  },
+  {
+    "sourceId": "source-d2b66a083bf979af",
+    "questionNumber": "6",
+    "page": 3,
+    "dpi": 220,
+    "cropBox": [
+      1306,
+      390,
+      1732,
+      820
+    ],
+    "sourceRenderSize": [
+      1820,
+      2573
+    ],
+    "asset": "content/intake/linear-programming-review/assets/lp-q06-polygon.png",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q06-polygon.png",
+    "sha256": "c092032dfd230dc486a7ac39fac8e0e9c5c12943524d95ed03aa306552d1cc03",
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q6-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q6-1440.png"
+    ]
+  },
+  {
+    "sourceId": "source-d2b66a083bf979af",
+    "questionNumber": "7",
+    "page": 3,
+    "dpi": 220,
+    "cropBox": [
+      1140,
+      1070,
+      1578,
+      1488
+    ],
+    "sourceRenderSize": [
+      1820,
+      2573
+    ],
+    "asset": "content/intake/linear-programming-review/assets/lp-q07-polygon.png",
+    "stagedPath": "assets/intake/intake-d2b66a083bf979af/lp-q07-polygon.png",
+    "sha256": "45b96e29b3a6c18b5cb169f6c40065f0b6b00daf7ab8b1b5f33ab1fd6cfab6d0",
+    "status": "reviewed",
+    "studentView": "reviewed",
+    "reviewedAt": "2026-11-05",
+    "evidence": [
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q7-390.png",
+      "docs/qa/2026-11-05/linear-programming/student/intake-d2b66a083bf979af-q7-1440.png"
+    ]
+  }
+]

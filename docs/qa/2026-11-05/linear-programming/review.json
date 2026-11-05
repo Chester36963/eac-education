@@ -1,0 +1,296 @@
+{
+  "batchId": "intake-d2b66a083bf979af",
+  "sourceId": "source-d2b66a083bf979af",
+  "sourceSha256": "3413b3d2d36f3871f69e66a20682d52063727f8daa60a4b9ed353ccb9e8f6439",
+  "sourceQuestions": 12,
+  "added": 12,
+  "oldQuestionsUpdated": 0,
+  "duplicate": 0,
+  "held": 0,
+  "records": [
+    {
+      "locator": "1",
+      "pages": [
+        1
+      ],
+      "id": "import-linear-programming-4eca0a5b2e1cf4d1",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-half-plane",
+      "questionSha256": "476f1a580415e95a6ac0d56f4374e37807a4943f7cd06f57b7b71fd7b088451e",
+      "checks": [
+        "intercepts"
+      ],
+      "questionPreview": [
+        "previews/q1-390.png",
+        "previews/q1-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q1-390.png",
+        "student/intake-d2b66a083bf979af-q1-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "2",
+      "pages": [
+        1
+      ],
+      "id": "import-linear-programming-3135c83dd9f3dbb6",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-parameter-feasibility",
+      "questionSha256": "84579991ac431a38d68e642ef7c7904c070fe18cbc1667ad4258bd82a20157e8",
+      "checks": [
+        "candidate pairs"
+      ],
+      "questionPreview": [
+        "previews/q2-390.png",
+        "previews/q2-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q2-390.png",
+        "student/intake-d2b66a083bf979af-q2-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "3",
+      "pages": [
+        2
+      ],
+      "id": "import-linear-programming-9a560aafe0461de0",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-lattice-count",
+      "questionSha256": "9d68894fce011b94fbf5f6da3d71541382ebb30f7d96737f82c590caea403d08",
+      "checks": [
+        "count",
+        "row counts"
+      ],
+      "questionPreview": [
+        "previews/q3-390.png",
+        "previews/q3-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q3-390.png",
+        "student/intake-d2b66a083bf979af-q3-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "4",
+      "pages": [
+        2
+      ],
+      "id": "import-linear-programming-9c12a76435d46065",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-discrete-objective",
+      "questionSha256": "2ec66eb06267adc615ffb350f8749deb54bc9376ae07a6f302c0af7b65eba96f",
+      "checks": [
+        "row maxima"
+      ],
+      "questionPreview": [
+        "previews/q4-390.png",
+        "previews/q4-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q4-390.png",
+        "student/intake-d2b66a083bf979af-q4-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "5",
+      "pages": [
+        2
+      ],
+      "id": "import-linear-programming-33614b195fd202f1",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "5fafc63d68430fa09e1ac28ff61997e91b9ca85a79a383db6e67664041b80ed6",
+      "checks": [
+        "vertices",
+        "maximum"
+      ],
+      "questionPreview": [
+        "previews/q5-390.png",
+        "previews/q5-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q5-390.png",
+        "student/intake-d2b66a083bf979af-q5-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "6",
+      "pages": [
+        3
+      ],
+      "id": "import-linear-programming-1e45b3a6193c5c61",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "9e3d2457a0c9ba4d6986075fd3893633ee22c8360e7d2b5e578696e3e771dd4d",
+      "checks": [
+        "values"
+      ],
+      "questionPreview": [
+        "previews/q6-390.png",
+        "previews/q6-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q6-390.png",
+        "student/intake-d2b66a083bf979af-q6-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "7",
+      "pages": [
+        3
+      ],
+      "id": "import-linear-programming-e70d315aaad9a93f",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-vertices",
+      "questionSha256": "36c4ecc09e5df029bb0117bff03e1a11fca34de447b904f329fe9dc84099147a",
+      "checks": [
+        "minimum"
+      ],
+      "questionPreview": [
+        "previews/q7-390.png",
+        "previews/q7-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q7-390.png",
+        "student/intake-d2b66a083bf979af-q7-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "8",
+      "pages": [
+        3
+      ],
+      "id": "import-linear-programming-a5cdab6403f5bbad",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-objective-range",
+      "questionSha256": "f11265379802c32a6292965e94317ed955b30814e75e789ba7cf05f556265c3a",
+      "checks": [
+        "range"
+      ],
+      "questionPreview": [
+        "previews/q8-390.png",
+        "previews/q8-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q8-390.png",
+        "student/intake-d2b66a083bf979af-q8-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "9",
+      "pages": [
+        4
+      ],
+      "id": "import-linear-programming-5fa65706c7f186e6",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-graph-systems",
+      "questionSha256": "726d3aca5bdef04b5258f764c1b57e92ddb20754327c7ea281f7f5eb5d469cb0",
+      "checks": [
+        "a intersection",
+        "b intersection",
+        "b test points"
+      ],
+      "questionPreview": [
+        "previews/q9-390.png",
+        "previews/q9-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q9-390.png",
+        "student/intake-d2b66a083bf979af-q9-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "10",
+      "pages": [
+        4
+      ],
+      "id": "import-linear-programming-d487218ca46e0b7e",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-graph-systems",
+      "questionSha256": "5737a5cc71380d76986d301a765934cc0d0003f3e9cb53cf726e9ac90d98b90d",
+      "checks": [
+        "integer pairs"
+      ],
+      "questionPreview": [
+        "previews/q10-390.png",
+        "previews/q10-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q10-390.png",
+        "student/intake-d2b66a083bf979af-q10-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "11",
+      "pages": [
+        4
+      ],
+      "id": "import-linear-programming-853276bf43ff9201",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-discrete-objective",
+      "questionSha256": "b5c457b48e9b77ddad42777ec147e3e4982c4eff192cfb5a1cfcebe8a6fe6b77",
+      "checks": [
+        "initial count",
+        "extrema with y>=0=True",
+        "extrema with y>=0=False"
+      ],
+      "questionPreview": [
+        "previews/q11-390.png",
+        "previews/q11-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q11-390.png",
+        "student/intake-d2b66a083bf979af-q11-1440.png"
+      ],
+      "note": "原題條件與選項保留；詳細雙語解法獨立核對。"
+    },
+    {
+      "locator": "12",
+      "pages": [
+        4
+      ],
+      "id": "import-linear-programming-bc6c3bd7c4a0755c",
+      "status": "完成",
+      "disposition": "新增",
+      "primarySkill": "lp-modelling",
+      "questionSha256": "54d1fd398f35d6efa07e9889bed54a2c77f71d368252d9563eabb043b26ef91c",
+      "checks": [
+        "continuous vertices",
+        "continuous maximum",
+        "whole-bottle maximum"
+      ],
+      "questionPreview": [
+        "previews/q12-390.png",
+        "previews/q12-1440.png"
+      ],
+      "studentPreview": [
+        "student/intake-d2b66a083bf979af-q12-390.png",
+        "student/intake-d2b66a083bf979af-q12-1440.png"
+      ],
+      "note": "Q12 整瓶出售 $190；連續模型 $200，明確列出解讀。"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-11-05T07:55:54.750Z",
+  "scope": "Local LP first source and shared runtime; public deployment separate",
+  "revision": "491bf4292f82f7be",
+  "totalQuestions": 1253,
+  "chapterCount": 8,
+  "nodeTests": 1121,
+  "nodeFailures": 0,
+  "draftPreviewStates": 144,
+  "actualGradingStates": 144,
+  "solutionAndCompletedSummaryStates": 64,
+  "independentArithmeticChecks": 20,
+  "instrumentWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "sourceCrops": 7,
+  "reconstructedSolutionSvgs": 6,
+  "original1241ObjectsPreserved": true,
+  "actualReplay": "no-op",
+  "studyJourney": "passed",
+  "courseIsolation": "passed",
+  "publicLibraryLocal": "passed",
+  "limits": "Chromium viewport and keyboard testing; no physical-device/student research; only this 12-record LP source imported."
+}
