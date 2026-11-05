@@ -3,7 +3,7 @@ window.EACPlates=(()=>{
  const M=EACModels,f=n=>Number(n.toFixed(3)),fmt=n=>Number(n.toFixed(2));
  const expression=(pairs)=>{const terms=pairs.map(([value,symbol])=>[fmt(value),symbol]).filter(([value])=>value!==0);return terms.length?terms.map(([value,symbol],j)=>(value<0?' − ':j?' + ':'')+(Math.abs(value)===1&&symbol?'':Math.abs(value))+symbol).join('').trim():'0';};
  const shifted=(symbol,value)=>symbol+(fmt(value)===0?'':fmt(value)>0?' − '+fmt(value):' + '+Math.abs(fmt(value)));
- const themes=Object.fromEntries(['four-centres','locus','polynomials','sequences','mensuration-core','circle-equation','statistics','trigonometry'].map(id=>[id,{ink:'#46586c',accent:'#697e96',wash:'#eef1f5',min:0,max:360,step:1,initial:50,label:id}]));
+ const themes=Object.fromEntries(['four-centres','locus','polynomials','sequences','mensuration-core','circle-equation','statistics','trigonometry','linear-programming'].map(id=>[id,{ink:'#46586c',accent:'#697e96',wash:'#eef1f5',min:0,max:360,step:1,initial:50,label:id}]));
  const canonical=id=>({polynomial:'polynomials',mensuration:'mensuration-core'}[id]||(themes[id]?id:'four-centres'));
  const line=(a,b,cls='art-guide')=>`<path class="${cls}" d="M${a.map(f)}L${b.map(f)}"/>`;
  const dot=(p,cls='art-live-point',r=3)=>`<circle class="${cls}" cx="${f(p[0])}" cy="${f(p[1])}" r="${r}"/>`;
@@ -100,6 +100,17 @@ window.EACPlates=(()=>{
    if(position){ink+=line(C,P,'art-emphasis')+dot(P,'art-live-point')+text([P[0]+8,P[1]-10],'P');readout=`CP² ${fmt(q.cp*q.cp)} ${q.status==='on'?'=':q.status==='inside'?'<':'>'} r² ${fmt(q.rSquared)} · ${ {inside:'圓內',on:'圓上',outside:'圓外'}[q.status]}`;hint='調整 CP/r 或角度，亦可按圓內／圓上／圓外快速比較。代入圓的標準式，比較左方距離平方與 r²；讀數取近似。';}
    else{ink+=line(C,map([s.a+s.r,s.b]),'art-emphasis')+text([C[0]+s.r*scale/2,C[1]+20],'r');readout=`C = (${fmt(s.a)}, ${fmt(s.b)}) · r = ${fmt(s.r)}`;hint=`一般式（讀數取近似）：x² + y²${expression([[q.D,'x'],[q.E,'y'],[q.F,'']])==='0'?'':(expression([[q.D,'x'],[q.E,'y'],[q.F,'']]).startsWith('−')?' ':' + ')+expression([[q.D,'x'],[q.E,'y'],[q.F,'']])} = 0。移動圓心與半徑，兩種寫法同步。`;}
    formula=`(${shifted('x',s.a)})² + (${shifted('y',s.b)})² = ${fmt(s.r*s.r)}`;
+  }else if(id==='linear-programming'){
+   if(value!==undefined&&!options.state)s.k=3*Math.sin(value*Math.PI/180);
+   const q=M.linearObjective(s.k,s.mode),map=p=>[36+p[0]*35,207-p[1]*35];
+   ink=axes([36,207])+poly(q.vertices.map(map),'art-plane',true)+poly(q.vertices.map(map),'art-main',true);
+   for(let x=2;x<=7;x++)ink+=text([map([x,0])[0]-4,225],x,'art-number');
+   for(let y=1;y<=4;y++)ink+=text([20,map([0,y])[1]+4],y,'art-number');
+   const ends=[];for(const y of [0,5]){const x=q.optimum-s.k*y;if(x>=0&&x<=8)ends.push([x,y]);}if(s.k!==0)for(const x of [0,8]){const y=(q.optimum-x)/s.k;if(y>=0&&y<=5)ends.push([x,y]);}
+   const unique=ends.filter((p,j)=>!ends.slice(0,j).some(a=>M.distance(a,p)<1e-8));if(unique.length>1)ink+=line(map(unique[0]),map(unique[1]),'art-guide');
+   q.vertices.forEach(p=>{ink+=dot(map(p),'art-centre',2.5);});q.best.forEach(p=>{ink+=circle(map(p),7,'art-emphasis')+dot(map(p));});
+   formula=`P = ${expression([[1,'x'],[s.k,'y']])}`;readout=`${s.mode==='minimum'?'最小值':'最大值'} ${fmt(q.optimum)} · ${q.best.map(p=>'('+p.join(', ')+')').join(' / ')}`;
+   hint='取自題庫 Q8 的可行區域：x ≥ 2，y ≥ 1，3x + 2y ≤ 23，3y − x ≤ 7。改變目標式係數，圈點標示最優頂點；兩點同時最優時，連接它們的整條邊皆最優。讀數取近似。';
   }else if(id==='statistics'){
    const vs=[s.f1,s.f2,s.f3],total=vs.reduce((a,b)=>a+b,0);ink=line([54,200],[320,200],'art-axis')+line([54,28],[54,202],'art-axis');[0,5,10,15,20].forEach(v=>ink+=text([27,204-v*7],v,'art-number')+line([50,200-v*7],[319,200-v*7],'art-grid'));vs.forEach((v,j)=>{const x=90+j*78;ink+=`<rect class="art-plane" x="${x}" y="${200-v*7}" width="44" height="${v*7}"/>`+poly([[x,200],[x,200-v*7],[x+44,200-v*7],[x+44,200]],'art-main')+text([x+16,221],j+1,'art-number')+text([x+14,190-v*7],v,'art-number');});formula='總頻數 n = f₁ + f₂ + f₃';readout=`n = ${total} · 平均值 = ${total?fmt(vs.reduce((a,b,j)=>a+b*(j+1),0)/total):'未定義'}`;hint='組別值為 1、2、3；改變頻數，觀察加權平均值。';
   }else{

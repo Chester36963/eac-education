@@ -261,7 +261,7 @@ function recordAnswer(correct,assessment){
 }
 function nextQuestion(){if(sessionState.index===queue.length-1)finishSession();else{sessionState.index++;persist();renderQuestion({focusQuestion:true});}}
 async function showHint(){if(selfTest())return;const q=question();EACMath.clear(el('hint-text'));el('hint-text').textContent=textPair(q.hint,q.hintZh);el('hint-panel').hidden=false;el('hint-btn').setAttribute('aria-expanded','true');el('hint-btn').textContent='收起提示';await EACMath.render(el('hint-text'));}
-async function showSolution(){if(selfTest())return;const q=question();EACMath.clear(el('solution-text'));el('solution-text').textContent=(q.solutionStatus==='source-answer-or-brief-explanation'?'來源只附答案或簡短解釋；未提供完整推導。\n\n':'')+textPair(q.solution,q.solutionZh);el('solution-panel').hidden=false;el('solution-btn').setAttribute('aria-expanded','true');el('solution-btn').textContent='收起解析';await EACMath.render(el('solution-text'));}
+async function showSolution(){if(selfTest())return;const q=question();EACMath.solution(el('solution-text'),q,sessionState.selection.language);el('solution-panel').hidden=false;el('solution-btn').setAttribute('aria-expanded','true');el('solution-btn').textContent='收起解析';await EACMath.render(el('solution-text'));}
 function showResult(text,success){el('result-message').textContent=text;el('result-message').className=`result-message ${success?'success':'error'}`;el('result-message').hidden=false;}
 function finishSession(){
  if(!sessionState)return;const answers=sessionState.answers,answered=Object.keys(answers).length;
@@ -275,7 +275,7 @@ function finishSession(){
  for(const [i,{question:q,result}]of lastSet.slice(0,100).entries()){
   const details=document.createElement('details');details.className='summary-question';
   const title=document.createElement('summary');title.textContent=`${i+1}. ${result?(result.correct?'已掌握':'需要重練'):'未作答'}${result?.assessment==='self'?' · 自行核對':''}`;
-  const answer=document.createElement('p');answer.className='summary-answer-copy';
+  const answer=document.createElement('div');answer.className='summary-answer-copy';
   details.ontoggle=async()=>{
    if(!details.open||answer.dataset.loaded)return;
    const full=await QuestionBank.question(q.id).catch(()=>null);
@@ -284,7 +284,7 @@ function finishSession(){
    const stem=document.createElement('div');stem.className='summary-answer-copy';const blocked=EACMath.content(stem,full,lastSelection?.language||'bilingual');if(!blocked)stem.textContent=textPair(full.stem,full.stemZh);details.insertBefore(stem,answer);
    if(full.diagram&&!blocked){const figure=document.createElement('figure');figure.className='question-figure';const img=document.createElement('img');img.src=full.diagram.src;img.alt=full.diagram.alt;const caption=document.createElement('figcaption');caption.textContent=full.diagram.caption;figure.append(img,caption);details.insertBefore(figure,answer);}
    if(full.options){const options=document.createElement('ul');options.className='summary-options';for(const [letter,text]of Object.entries(full.options)){const item=document.createElement('li');const mark=document.createElement('strong');mark.textContent=letter+'.';const copy=document.createElement('span');copy.textContent=textPair(text,full.optionsZh?.[letter]||text);item.append(mark,copy);options.append(item);}details.insertBefore(options,answer);}
-   answer.textContent=`你的作答：${result?.response||'未作答'}\n\n${full.solutionStatus==='source-answer-or-brief-explanation'?'來源簡答：未附完整推導。\n\n':''}${textPair(full.solution,full.solutionZh)}`;EACMath.render(details);
+   answer.replaceChildren();const responseText=document.createElement('p');responseText.textContent=`你的作答：${result?.response||'未作答'}`;const explanation=document.createElement('div');EACMath.solution(explanation,full,lastSelection?.language||'bilingual');answer.append(responseText,explanation);EACMath.render(details);
   };
   details.append(title,answer);el('summary-questions').append(details);
  }

@@ -9,6 +9,7 @@ window.EACInstruments=(()=>{
   'mensuration-core':{label:'Cone / 圓錐',modes:{height:'半徑 r ＋ 高 h',slant:'半徑 r ＋ 斜高 l'},mode:'height',params:[['r','半徑 r',.5,5,.1,3],['v','高 h／斜高 l',.5,10,.1,5]]},
   'circle-equation':{label:'Equation of Circle / 圓方程',modes:{circle:'圓心與半徑',position:'點與圓的位置'},mode:'circle',params:[['a','圓心橫坐標 a',-2,2,.1,0],['b','圓心縱坐標 b',-2,2,.1,0],['r','半徑 r',.5,3,.1,2],['t','CP / r',0,1.6,.05,1],['angle','點 P 角度 θ · °',0,360,1,45]]},
   statistics:{label:'Statistics / 統計',modes:{distribution:'頻數分佈'},mode:'distribution',params:[['f1','組別 1 頻數',0,20,1,4],['f2','組別 2 頻數',0,20,1,10],['f3','組別 3 頻數',0,20,1,7]]},
+  'linear-programming':{label:'Linear Programming / 線性規劃',modes:{maximum:'最大值 Maximum',minimum:'最小值 Minimum'},mode:'maximum',params:[['k','目標式 x + ky · 係數 k',-3,3,.05,1]]},
   trigonometry:{label:'Trigonometry / 三角函數',modes:{sin:'sin θ',cos:'cos θ',tan:'tan θ'},mode:'sin',params:[['angle','角度 θ · °',0,360,1,45]]}
  };
  function defaults(id,mode){const s=schemas[id],state={mode:mode||s.mode,...Object.fromEntries(s.params.map(p=>[p[0],p[5]]))};if(id==='locus'&&state.mode==='perpendicular')state.angle=125;if(id==='sequences')state.n=4;if(id==='mensuration-core')state.view='solid';if(id==='polynomials'&&state.mode==='factor')state.r=0;return state;}
