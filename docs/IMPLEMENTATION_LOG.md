@@ -388,3 +388,5 @@ Validation: exploration, four-centres-motion and study-design browser suites pas
 狀態 `LOG-20261105-ASGS`：將本批使用者面向標籤、來源顯示名稱、QA 目錄、驗證腳本及生成資料統一修正為 ASGS。來源以 ASGS 現行路徑呈現；`source-identity-aliases.json` 只保留原檔名作身份追溯，使 source ID、批次連結及學生 ID 穩定。PDF／DOCX 檔案 bytes 及 SHA256 不變，學生記錄及 1,241 題總數不變。重新生成來源盤點及課程路由，六條發布題的五項審核均按標籤差異重新確認；工作台原批次無錯誤、無待審核。
 
 驗收：`build-content.cjs --check`、`build-curriculum.cjs --check`、`git diff --check`、ASGS 19 項精確／小數檢查及完整 Node suite（新增身份別名測試後 1,114 passed）通過。舊檔名只會出現在內部 identity alias 欄位，所有題目及來源顯示名稱均為 ASGS。
+
+正式發布：GitHub Desktop 推送 `de8273a` 至 `main`；Deploy workflow `41983247338` 成功，Pages workflow `41983312051` 成功。公開題庫回傳 revision `5d66d16cac070085`／1,241 題，數列題庫內六條新題的來源標籤均顯示 `ASGS review.pdf`。
