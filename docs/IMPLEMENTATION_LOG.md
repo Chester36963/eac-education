@@ -6,7 +6,9 @@
 
 新增 solutionBlocks 驗證、資產 bytes 指紋、交易備份及共用 renderer；完成後回顧改用已保存 selection，避免讀取已清空的 sessionState。LP 課題圖不再 fallback 四心圖，加入 Q8 區域的目標式／頂點最值演示與 ≤ 圖標。
 
-本地驗收：1,121 Node 測試、144 草稿狀態、144 實際評分／自評狀態、64 解析／完成後回顧狀態、四尺寸 LP 操作及完整 study-journey 通過。Core/M1/M2 搜尋、組題、記錄與續做隔離通過。正式發布結果以本批 release.json 記錄，未有證據前不宣稱已上線。
+本地驗收：1,121 Node 測試、144 草稿狀態、144 實際評分／自評狀態、64 解析／完成後回顧狀態、四尺寸 LP 操作及完整 study-journey 通過。Core/M1/M2 搜尋、組題、記錄與續做隔離通過。
+
+正式發布：main `be6071c`；Deploy `41990987858` 及 Pages `41991051582` 成功。120 個正式檔案 SHA256 與本機一致，revision `491bf4292f82f7be`／1,253 題／8 課題。正式站 64 個解析／回顧狀態、四尺寸 LP 互動及完整 study-journey 通過，見本批 `release.json` 及 live 矩陣。下一批為 `linear programming review 2.pdf` 和 `linear programming review oxford.pdf`；尚未逐題點清，不沿用早期估計題數。
 
 來源與逐題結果見 [內容計劃](CONTENT_EXPANSION_PLAN.md)；視覺／交互及未完成項目見 [UI／UE 路線圖](UI_UX_ROADMAP.md)；詳細命令／圖片見 [LP QA](qa/2026-11-05/linear-programming/README.md)。
 

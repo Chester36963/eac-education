@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "status": "pass",
+      "checks": [
+        "Q8 region",
+        "keyboard coefficient",
+        "manual pause",
+        "two-vertex tie",
+        "mode state retention",
+        "reset",
+        "reduced motion",
+        "chapter link",
+        "symbol"
+      ]
+    },
+    {
+      "width": 390,
+      "status": "pass",
+      "checks": [
+        "Q8 region",
+        "keyboard coefficient",
+        "manual pause",
+        "two-vertex tie",
+        "mode state retention",
+        "reset",
+        "reduced motion",
+        "chapter link",
+        "symbol"
+      ]
+    },
+    {
+      "width": 768,
+      "status": "pass",
+      "checks": [
+        "Q8 region",
+        "keyboard coefficient",
+        "manual pause",
+        "two-vertex tie",
+        "mode state retention",
+        "reset",
+        "reduced motion",
+        "chapter link",
+        "symbol"
+      ]
+    },
+    {
+      "width": 1440,
+      "status": "pass",
+      "checks": [
+        "Q8 region",
+        "keyboard coefficient",
+        "manual pause",
+        "two-vertex tie",
+        "mode state retention",
+        "reset",
+        "reduced motion",
+        "chapter link",
+        "symbol"
+      ]
+    }
+  ],
+  "errors": []
+}

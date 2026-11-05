@@ -13,7 +13,7 @@
 | LP-05 | 完成 | 本機新增 12 題，原 1,241 題物件／ID 雜湊不變；現 1,253 題／8 課題。首次匯入見 `import.json`；後續只更新七條新題的驗收連結，見 `metadata-review.json`，不計作七條額外新題。交易備份在 `.cache/editor/transactions/`。 |
 | LP-06 | 完成 | 144 草稿狀態＋144 實際作答／自評／語言／尺寸狀態；64 個 Q9–12 解析及完成後回顧狀態。證據分別在 `previews/`、`student/`、`solution-journey/`。四尺寸 320、390、768、1440px；英文、繁中、雙語。 |
 | LP-07 | 完成 | 新課題使用正確可行區域與 ≤ 圖標，無四心 fallback。以原 Q8 限制演示 x+ky 的最大／最小值；係數 −3 至 3、模式各自保留、手動暫停、重設、鍵盤及減少動態通過。見 `instrument/`。演示不計作新題。 |
-| LP-08 | 待驗收 | 正式 main／Pages 發布以 `release.json` 和正式檔案 SHA 核對為準；沒有該檔案前不當成已上線。 |
+| LP-08 | 完成 | `be6071c` 已發布：Deploy `41990987858`、Pages `41991051582` 成功。120 個正式檔案 SHA256 全數一致；revision `491bf4292f82f7be`，1,253 題／8 課題。正式站 64 個解析／回顧狀態、四尺寸 LP 互動及 study-journey 通過。見 `release.json`、`live-solution-journey/`、`live-instrument/` 及 `live-study-journey.log`。 |
 | LP-09 | 待處理 | 其餘線性規劃來源尚未逐題點清；先前約 28／24 題號只是初步觀察，不當正式題數。方格紙屬支援材料。 |
 
 ## 實作修正
@@ -35,6 +35,7 @@ node --test tests/*.cjs
 node scripts/build-content.cjs --check
 node scripts/build-curriculum.cjs --check
 node scripts/version-study-assets.cjs --check
+node scripts/verify-linear-programming-release.cjs be6071c4b3d0cfeea03963d6e7ed0ba6ab5435e0 41990987858 41991051582
 git diff --check
 ```
 
