@@ -422,3 +422,5 @@ Validation: exploration, four-centres-motion and study-design browser suites pas
 61個容器以公開、安全的課程目錄接通：Core42、M1九、M2十。新增可重建公開metadata與課程／範疇／狀態搜尋、雙語小節dialog及先備導航；只有正式題庫提供揀題／五題連結。首頁與共用內頁加入入口，保留現有1,280題、穩定ID及學習記錄。只移除翻書頁內兩條裝飾線，保留立體書脊、頁疊、陰影及3D翻頁。
 
 本地1123個Node測試、四尺寸新目錄、library、study-journey通過；動畫回歸及正式發布另以本批QA更新。修正舊exploration測試固定七章的過期斷言為manifest章數。詳見[本批測試及圖像](qa/2026-11-10/course-directory/README.md)。尚未完成三步組卷、我的練習庫或教師後端，沒有大量新題匯入。
+
+DIR-20261110正式驗收：c4ceb0a／Deploy42779571876／Pages42779630815成功，13個公開檔案SHA256一致，四尺寸目錄操作／隔離／搜尋／刷新／dialog／深連結於正式站通過。書本保留3D，僅移除兩條頁內裝飾橫線。見本批release.json與live-directory-tests.log。

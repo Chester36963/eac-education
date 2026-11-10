@@ -1,6 +1,6 @@
 # DIR-20261110 · 完整課程框架與翻書清理
 
-狀態：本地驗收通過；正式發布另記。
+狀態：本地及正式站驗收通過。
 
 用戶後續補充：移除頁內兩條橫線後仍須保持原有3D書本，已納入四尺寸動畫回歸。
 
@@ -22,3 +22,7 @@
 ## 視覺證據與限制
 
 已檢視目錄桌面、390px頂部／首批課題、390px數列dialog及翻開書頁畫面，截圖見本目錄。四尺寸全頁截圖保留。book-no-underlines.png為暫停動畫作檢視的測試畫面；3D實際動畫另由exploration四尺寸檢查。沒有新增或修改題目圖，沒有產生PDF。真實手機／學生研究、教師帳戶／派卷／報告、三步組卷及我的練習庫未在本批完成。
+
+## 正式發布
+
+`c4ceb0a` 已經GitHub Desktop推至main；Deploy 42779571876、Pages 42779630815均success。13個公開HTML／JS／CSS／目錄及bank檔案SHA256與本地一致，見release.json。四尺寸courses測試亦於正式站通過，見live-directory-tests.log。正式網址：https://chester36963.github.io/eac-education/courses.html 。

@@ -1,0 +1,59 @@
+{
+  "commit": "c4ceb0ade5d29c99ce3e252812c5d726dae9c63c",
+  "deployRun": 42779571876,
+  "pagesRun": 42779630815,
+  "files": [
+    {
+      "path": "courses.html",
+      "matches": true
+    },
+    {
+      "path": "index.html",
+      "matches": true
+    },
+    {
+      "path": "dashboard.html",
+      "matches": true
+    },
+    {
+      "path": "library.html",
+      "matches": true
+    },
+    {
+      "path": "app.html",
+      "matches": true
+    },
+    {
+      "path": "settings.html",
+      "matches": true
+    },
+    {
+      "path": "data/curriculum.json",
+      "matches": true
+    },
+    {
+      "path": "js/features/courses.js",
+      "matches": true
+    },
+    {
+      "path": "js/features/exploration.js",
+      "matches": true
+    },
+    {
+      "path": "css/courses.css",
+      "matches": true
+    },
+    {
+      "path": "css/workspace.css",
+      "matches": true
+    },
+    {
+      "path": "css/exploration.css",
+      "matches": true
+    },
+    {
+      "path": "data/bank.json",
+      "matches": true
+    }
+  ]
+}
