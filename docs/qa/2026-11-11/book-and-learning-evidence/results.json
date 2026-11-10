@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-11",
+  "sourceCommit": "ead972d370b633efb3e9d04113ae1503a0286474",
+  "nodeTests": 1139,
+  "guideStates": 96,
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "openingStabilityWidths": [
+    390,
+    1440
+  ],
+  "localBrowserSuites": [
+    "home-experience",
+    "book-stability",
+    "exploration",
+    "lesson",
+    "batch-guides",
+    "learning-evidence"
+  ],
+  "bank": {
+    "questions": 1280,
+    "chapters": 8,
+    "revision": "1b59271bbc82cf4f"
+  },
+  "limitations": [
+    "Original user GPU flicker not directly reproduced",
+    "No cloud parent account or automatic sharing",
+    "Latest per-question evidence only, no trend/mastery estimate"
+  ]
+}

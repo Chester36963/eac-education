@@ -8,7 +8,7 @@
 
 驗收：1139 Node 測試；8導讀×4尺寸×3語言=96狀態；既有開場／四心／課題入口與導讀流程通過；390／1440最後頁像素快照穩定、獨立深度、退出及重播通過；320／390／768／1440新證據面板、真正摘要下載、精確review路由實際載入一條對應錯題、語言切換及記錄保持通過。第一次完整測試因本機 sympy 搜尋路徑漏設而失敗，設定既有 PYTHONPATH 後重跑全通過；修改JS後再更新快取hash並重跑，未隱藏測試失敗。
 
-題庫仍1280題／8課題，revision 1b59271bbc82cf4f；沒有新增題目、題圖或PDF。[產品方法及EDU-04–08待辦](EDUCATION_PRODUCT_APPROACH.md)、[QA與限制](qa/2026-11-11/book-and-learning-evidence/README.md)、[UI／UE路線圖](UI_UX_ROADMAP.md)。正式發布另記。
+題庫仍1280題／8課題，revision 1b59271bbc82cf4f；沒有新增題目、題圖或PDF。[產品方法及EDU-04–08待辦](EDUCATION_PRODUCT_APPROACH.md)、[QA與限制](qa/2026-11-11/book-and-learning-evidence/README.md)、[UI／UE路線圖](UI_UX_ROADMAP.md)。正式源碼 `ead972d` 已發布：Deploy42892974056、Pages42893062833成功；七個公開檔案SHA256一致，正式站最後頁及四尺寸學習摘要／實際錯題入口通過。詳見同一QA目錄release.json。
 
 
 ## LP2-20261105 · 第二份線性規劃卷與批次驗收重用

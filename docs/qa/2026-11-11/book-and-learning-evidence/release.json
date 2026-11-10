@@ -1,0 +1,52 @@
+{
+  "sourceCommit": "ead972d370b633efb3e9d04113ae1503a0286474",
+  "deployRun": 42892974056,
+  "pagesRun": 42893062833,
+  "pagesSha": "b074cf63bea8d7f7e09cef230d808decfd0fc57d",
+  "bothConclusions": "success",
+  "fileChecks": [
+    {
+      "path": "index.html",
+      "match": true,
+      "sha256": "0f55b0a6bd6f3aeef853e45047b021b982d28e77633023c694874b41d8b80bda"
+    },
+    {
+      "path": "lesson.html",
+      "match": true,
+      "sha256": "afa9d0f18dda75122a9dd87150f55967915b800e3e237459c1eb170a07c47a5c"
+    },
+    {
+      "path": "css/home-journey.css",
+      "match": true,
+      "sha256": "aff6aee90c0c21135098d0b4e9f3c3aa6c1441325c4c0c12649cd7a66dc11f13"
+    },
+    {
+      "path": "css/lesson.css",
+      "match": true,
+      "sha256": "dca4c69b5053cdb9421a68ddfe8bbf6a217dbc4d3b79e16bd91c2d901fe3c668"
+    },
+    {
+      "path": "js/features/exploration.js",
+      "match": true,
+      "sha256": "18148e21003a973162e4f49c10322c162d96a2048d7f486304596504b7e104a4"
+    },
+    {
+      "path": "js/features/lesson.js",
+      "match": true,
+      "sha256": "9e88797f6b14400e12d05e25d9b15d81f094e683937e4ba117f0a16dcaba63d7"
+    },
+    {
+      "path": "js/core/study-evidence.js",
+      "match": true,
+      "sha256": "9682c63c26225fa7fc82317c43d59fe8cd66920f12480459d8c0e92f7ed532f1"
+    }
+  ],
+  "liveBrowserSuites": [
+    "book-stability",
+    "learning-evidence",
+    "home-experience"
+  ],
+  "notes": [
+    "Pre-Pages checks encountered old assets/404 and were not accepted; all accepted checks ran after Pages success."
+  ]
+}
