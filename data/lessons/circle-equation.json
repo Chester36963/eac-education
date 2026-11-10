@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "topicId": "circle-equation",
+  "chapterId": "circle-equation",
+  "course": "core",
+  "name": {
+    "en": "Equation of a Circle",
+    "zh-Hant": "圓方程"
+  },
+  "purpose": {
+    "zh-Hant": "由方程讀出圓，再處理切線、交點與弦長。",
+    "en": "Read a circle from its equation, then study tangency, intersections and chords."
+  },
+  "prerequisites": {
+    "zh-Hant": "完成平方、直線方程、點到直線距離及畢氏定理。",
+    "en": "Completing the square, line equations, point-to-line distance and Pythagoras’ theorem."
+  },
+  "scopeNote": {
+    "zh-Hant": "本頁提供基本方法導讀及現有題庫入口；進階分支與完整圖解會繼續補充，並非完整課綱或全章筆記。",
+    "en": "This is a foundational method guide and an entry to the published bank. Advanced branches and complete visual explanations are still being developed; this is not a complete syllabus or chapter note."
+  },
+  "sections": [
+    {
+      "id": "forms",
+      "title": {
+        "zh-Hant": "讀出圓心與半徑",
+        "en": "Read the centre and radius"
+      },
+      "intro": {
+        "zh-Hant": "標準式直接顯示圓心及半徑平方；一般式先完成平方。右邊是半徑平方，不能直接當半徑。",
+        "en": "The standard form gives the centre and squared radius. Complete the square for a general form. The right-hand side is the squared radius, not the radius."
+      },
+      "formulas": [
+        "\\((x-h)^2+(y-k)^2=R^2\\)",
+        "\\(x^2+y^2+Dx+Ey+F=0\\)",
+        "\\(C=(-D/2,-E/2),\\quad R^2=(D^2+E^2)/4-F\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "先完成平方，再檢查半徑平方是否為正。",
+        "en": "Complete the square and check whether the squared radius is positive."
+      },
+      "trap": {
+        "zh-Hant": "R²=0 是一點；R²<0 沒有實點，不能當成普通圓。",
+        "en": "R²=0 gives one point; R²<0 has no real points. Neither is an ordinary circle."
+      },
+      "skills": [
+        "circle-equation-standard-form",
+        "circle-equation-general-form"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "line-circle",
+      "title": {
+        "zh-Hant": "直線與圓：用距離或判別式",
+        "en": "Line and circle: distance or discriminant"
+      },
+      "intro": {
+        "zh-Hant": "比較圓心到直線的距離 d 與半徑 R，可判斷相離、相切或相交；要求交點時可聯立方程。",
+        "en": "Compare the centre-to-line distance d with R to identify no intersection, tangency or two intersections. Solve simultaneous equations when coordinates are needed."
+      },
+      "formulas": [
+        "\\(d=\\frac{|Ah+Bk+C|}{\\sqrt{A^2+B^2}}\\quad(A^2+B^2>0)\\)",
+        "\\(d=R\\;\\Longleftrightarrow\\;\\text{tangent}\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "相切題用 d=R，或代入後令二次方程判別式為零；切線垂直於切點半徑。",
+        "en": "For tangency use d=R, or substitute and set the quadratic discriminant to zero. A tangent is perpendicular to the radius at contact."
+      },
+      "trap": {
+        "zh-Hant": "距離公式要有絕對值；平方後仍須檢查原本參數及圓是否存在。",
+        "en": "Keep the absolute value in the distance formula. After squaring, recheck parameters and the existence of the circle."
+      },
+      "skills": [
+        "circle-equation-tangents",
+        "circle-equation-line-circle"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "chords-loci",
+      "title": {
+        "zh-Hant": "弦、垂足與軌跡",
+        "en": "Chords, perpendicular feet and loci"
+      },
+      "intro": {
+        "zh-Hant": "圓心到弦的垂線平分弦。先求圓心到弦所在直線的距離，再用直角三角形關係求半弦長。",
+        "en": "The perpendicular from the centre bisects a chord. Find the centre-to-line distance, then use a right triangle to obtain the half-chord."
+      },
+      "formulas": [
+        "\\(\\text{chord length}=2\\sqrt{R^2-d^2}\\quad(0\\le d\\le R)\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "求完整弦長時記得乘 2；軌跡題先翻譯距離條件再化成圓方程。",
+        "en": "Double the half-chord for the full length. Translate distance conditions before simplifying a locus to a circle equation."
+      },
+      "trap": {
+        "zh-Hant": "d>R 沒有實弦；不要把半弦長當作整條弦長。",
+        "en": "If d>R there is no real chord. Do not confuse a half-chord with the full chord."
+      },
+      "skills": [
+        "circle-equation-chords",
+        "circle-equation-circle-loci"
+      ],
+      "exampleIds": []
+    }
+  ]
+}

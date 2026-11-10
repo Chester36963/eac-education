@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "lessons": [
+    {
+      "topicId": "circle-equation",
+      "chapterId": "circle-equation",
+      "course": "core",
+      "name": {
+        "en": "Equation of a Circle",
+        "zh-Hant": "圓方程"
+      }
+    },
+    {
+      "topicId": "four-centres",
+      "chapterId": "four-centres",
+      "course": "core",
+      "name": {
+        "en": "Four Centres",
+        "zh-Hant": "四心坐標幾何"
+      }
+    },
+    {
+      "topicId": "linear-programming",
+      "chapterId": "linear-programming",
+      "course": "core",
+      "name": {
+        "en": "Linear Programming",
+        "zh-Hant": "線性規劃"
+      }
+    },
+    {
+      "topicId": "locus",
+      "chapterId": "locus",
+      "course": "core",
+      "name": {
+        "en": "Locus",
+        "zh-Hant": "軌跡"
+      }
+    },
+    {
+      "topicId": "mensuration",
+      "chapterId": "mensuration-core",
+      "course": "core",
+      "name": {
+        "en": "Mensuration",
+        "zh-Hant": "度量"
+      }
+    },
+    {
+      "topicId": "polynomial",
+      "chapterId": "polynomials",
+      "course": "core",
+      "name": {
+        "en": "Polynomials",
+        "zh-Hant": "多項式"
+      }
+    },
+    {
+      "topicId": "sequences",
+      "chapterId": "sequences",
+      "course": "core",
+      "name": {
+        "zh-Hant": "ASGS · 等差與等比數列",
+        "en": "ASGS · Arithmetic & Geometric Sequences"
+      }
+    },
+    {
+      "topicId": "statistics",
+      "chapterId": "statistics",
+      "course": "core",
+      "name": {
+        "en": "Statistics",
+        "zh-Hant": "統計"
+      }
+    }
+  ]
+}

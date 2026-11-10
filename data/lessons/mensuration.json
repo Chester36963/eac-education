@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "topicId": "mensuration",
+  "chapterId": "mensuration-core",
+  "course": "core",
+  "name": {
+    "en": "Mensuration",
+    "zh-Hant": "度量"
+  },
+  "purpose": {
+    "zh-Hant": "先辨認尺寸與單位，再連接面積、體積及相似比例。",
+    "en": "Identify dimensions and units, then connect areas, volumes and similarity ratios."
+  },
+  "prerequisites": {
+    "zh-Hant": "單位換算、面積／體積、畢氏定理及相似。",
+    "en": "Unit conversion, areas and volumes, Pythagoras’ theorem and similarity."
+  },
+  "scopeNote": {
+    "zh-Hant": "本頁提供基本方法導讀及現有題庫入口；進階分支與完整圖解會繼續補充，並非完整課綱或全章筆記。",
+    "en": "This is a foundational method guide and an entry to the published bank. Advanced branches and complete visual explanations are still being developed; this is not a complete syllabus or chapter note."
+  },
+  "sections": [
+    {
+      "id": "units",
+      "title": {
+        "zh-Hant": "先統一單位，再選公式",
+        "en": "Unify units before choosing formulas"
+      },
+      "intro": {
+        "zh-Hant": "長度、面積及體積的單位次方不同。面積是平方單位，體積是立方單位；圖中的垂直高度不一定等於斜高。",
+        "en": "Length, area and volume use different powers of units. Area uses square units and volume uses cubic units. Perpendicular height is not necessarily slant height."
+      },
+      "formulas": [
+        "\\(A_{\\rm circle}=\\pi r^2,\\quad C=2\\pi r\\)",
+        "\\(A_{\\rm sector}=\\frac{\\theta}{360^\\circ}\\pi r^2\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "先圈出半徑、直徑、垂直高及角度，再選所需面積或體積。",
+        "en": "Identify radius, diameter, perpendicular height and angle before choosing an area or volume formula."
+      },
+      "trap": {
+        "zh-Hant": "扇形公式此處用度數；題目若用弧度須改用相應公式。",
+        "en": "This sector formula uses degrees. Use the appropriate formula if the angle is in radians."
+      },
+      "skills": [
+        "rectangle-area",
+        "circle-area",
+        "sector-area",
+        "mens-sector",
+        "mens-composite-area"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "solids",
+      "title": {
+        "zh-Hant": "體積與外露表面",
+        "en": "Volume and exposed surfaces"
+      },
+      "intro": {
+        "zh-Hant": "圓錐體積用垂直高 h；曲面積用斜高 l。組合立體先判斷哪些面外露，黏合面不重複計算。",
+        "en": "Cone volume uses perpendicular height h; curved surface area uses slant height l. For composites, identify exposed surfaces and omit joined internal faces."
+      },
+      "formulas": [
+        "\\(V_{\\rm cone}=\\frac13\\pi r^2h,\\quad l^2=r^2+h^2\\)",
+        "\\(A_{\\rm cone,total}=\\pi rl+\\pi r^2\\)",
+        "\\(V_{\\rm prism}=A_{\\rm base}h\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "截去或挖空部分以相減處理；熔鑄或液體轉移先寫體積守恆。",
+        "en": "Subtract removed or hollow portions. For recasting or liquid transfer, start with conservation of volume."
+      },
+      "trap": {
+        "zh-Hant": "圓錐總表面積包含底面，開口或黏合時未必需要計底面。",
+        "en": "Total cone area includes the base, but an open or joined base may not be exposed."
+      },
+      "skills": [
+        "prism-volume",
+        "cylinder-volume",
+        "cylinder-surface-area",
+        "mens-direct-volume",
+        "mens-exposed-area",
+        "mens-subtract-cones",
+        "mens-water-depth",
+        "mens-displacement",
+        "mens-volume-conservation",
+        "mens-split-ratio"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "scale",
+      "title": {
+        "zh-Hant": "相似：長度、面積、體積分開",
+        "en": "Similarity: separate length, area and volume"
+      },
+      "intro": {
+        "zh-Hant": "相似圖形的對應長度比為 k，面積比為 k²；相似立體體積比為 k³。先證明相似，再套比例。",
+        "en": "If corresponding lengths in similar figures have ratio k, areas have ratio k²; similar solids have volume ratio k³. Establish similarity before applying these ratios."
+      },
+      "formulas": [
+        "\\(L_1:L_2=k:1\\Rightarrow A_1:A_2=k^2:1,\\;V_1:V_2=k^3:1\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "地圖比例先統一長度單位；平面三角形面積比先找共底或共高。",
+        "en": "For map scales, unify length units first. For triangle area ratios, look for a shared base or height."
+      },
+      "trap": {
+        "zh-Hant": "只有面積或體積相等不代表相似；非相似立體不能直接套立方比例。",
+        "en": "Equal areas or volumes do not imply similarity. Do not apply cubic scaling to non-similar solids."
+      },
+      "skills": [
+        "volume-scale",
+        "mens-scale-powers",
+        "mens-prove-similarity",
+        "mens-map-scale",
+        "area-shared-height",
+        "area-similar-triangles",
+        "area-intersection-ratios"
+      ],
+      "exampleIds": []
+    }
+  ]
+}

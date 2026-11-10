@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "topicId": "four-centres",
+  "chapterId": "four-centres",
+  "course": "core",
+  "name": {
+    "en": "Four Centres",
+    "zh-Hant": "四心坐標幾何"
+  },
+  "purpose": {
+    "zh-Hant": "分清四心的定義，用等距、垂直與中點條件建立解法。",
+    "en": "Distinguish the four centres and build solutions from equal distances, perpendicularity and midpoints."
+  },
+  "prerequisites": {
+    "zh-Hant": "三角形、中線／高線、畢氏定理與基本坐標。",
+    "en": "Triangles, medians and altitudes, Pythagoras’ theorem and coordinates."
+  },
+  "scopeNote": {
+    "zh-Hant": "本頁提供基本方法導讀及現有題庫入口；進階分支與完整圖解會繼續補充，並非完整課綱或全章筆記。",
+    "en": "This is a foundational method guide and an entry to the published bank. Advanced branches and complete visual explanations are still being developed; this is not a complete syllabus or chapter note."
+  },
+  "sections": [
+    {
+      "id": "definitions",
+      "title": {
+        "zh-Hant": "四心：先分清交點",
+        "en": "Four centres: distinguish the intersections"
+      },
+      "intro": {
+        "zh-Hant": "外心 O 是三邊中垂線的交點；內心 I 是三條內角平分線的交點；重心 G 是中線交點；垂心 H 是高線交點。",
+        "en": "The circumcentre O is the intersection of perpendicular bisectors; the incentre I is the intersection of internal angle bisectors; the centroid G is the intersection of medians; the orthocentre H is the intersection of altitudes."
+      },
+      "formulas": [
+        "\\(OA=OB=OC,\\qquad d(I,AB)=d(I,BC)=d(I,CA)\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "先辨認題目給的是頂點距離、到邊距離、中點或垂直條件，再決定找哪個心。",
+        "en": "Identify whether the givens concern distances to vertices, distances to sides, midpoints or perpendicularity before choosing a centre."
+      },
+      "trap": {
+        "zh-Hant": "內心的等距是到三邊所在直線的垂直距離，不是到三頂點的距離。",
+        "en": "The incentre is equidistant from the lines containing the sides, not from the vertices."
+      },
+      "skills": [
+        "definition",
+        "fc-bisectors",
+        "fc-angle-bisector",
+        "fc-distance-sides",
+        "fc-altitudes",
+        "altitude-method",
+        "equal-distance-property"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "coordinates",
+      "title": {
+        "zh-Hant": "坐標法：用最短的兩條條件",
+        "en": "Coordinates: use two decisive conditions"
+      },
+      "intro": {
+        "zh-Hant": "求外心可用兩組等距平方；求垂心可用兩條高線；重心直接取三頂點坐標平均。",
+        "en": "For the circumcentre, use two equal squared distances. For the orthocentre, use two altitudes. The centroid is the coordinate average of the vertices."
+      },
+      "formulas": [
+        "\\(G=\\left(\\frac{x_A+x_B+x_C}{3},\\frac{y_A+y_B+y_C}{3}\\right)\\)",
+        "\\(\\overrightarrow{AH}\\cdot\\overrightarrow{BC}=0\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "先檢查水平或垂直邊；遇到垂直線，可直接寫 x=常數，而不是套斜率相乘。",
+        "en": "Check for horizontal or vertical sides first. Write a vertical line as x=constant rather than multiplying undefined slopes."
+      },
+      "trap": {
+        "zh-Hant": "高線經過頂點並垂直對邊；中垂線經過邊的中點，兩者不要混淆。",
+        "en": "An altitude passes through a vertex; a perpendicular bisector passes through a side midpoint. They are different lines."
+      },
+      "skills": [
+        "coordinate-method",
+        "fc-equal-radii",
+        "fc-average",
+        "fc-median-ratio",
+        "fc-hypotenuse",
+        "right-triangle-property"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "relations",
+      "title": {
+        "zh-Hant": "特殊三角形與四心關係",
+        "en": "Special triangles and centre relations"
+      },
+      "intro": {
+        "zh-Hant": "一般非等邊三角形的 O、G、H 在歐拉線上；I 通常不在這條線。等腰三角形四心在對稱軸上；等邊三角形四心重合。",
+        "en": "For a non-equilateral triangle, O, G and H lie on the Euler line; I does not generally lie on it. In an isosceles triangle all four centres lie on the symmetry axis; in an equilateral triangle they coincide."
+      },
+      "formulas": [
+        "\\(\\overrightarrow{OH}=3\\overrightarrow{OG}\\)",
+        "\\(\\Delta=rs,\\qquad \\Delta=\\frac{abc}{4R}\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "先判斷三角形種類，再使用中心關係、面積或內外接半徑；s 是半周界。",
+        "en": "Identify the triangle type before using centre relations, area or radii. Here s is the semiperimeter."
+      },
+      "trap": {
+        "zh-Hant": "鈍角三角形的外心與垂心可在三角形外；不能靠圖上看似在內就判斷。",
+        "en": "The circumcentre and orthocentre of an obtuse triangle can lie outside it. Do not decide from an informal sketch."
+      },
+      "skills": [
+        "fc-euler",
+        "fc-centre-ratios",
+        "fc-radius-area",
+        "fc-incentre-angle",
+        "fc-parameter",
+        "fc-statements",
+        "fc-locus-bisector",
+        "fc-tangent-chain",
+        "fc-transform"
+      ],
+      "exampleIds": []
+    }
+  ]
+}
