@@ -1,0 +1,120 @@
+{
+  "commit": "29b1eb0249376d92bef3bca57427852b53060284",
+  "deployRun": 42793305514,
+  "pagesRun": 42793393561,
+  "files": [
+    {
+      "path": "courses.html",
+      "sha256": "f79034636cb1f092dc938218ec8705534b954926b9fcfeab34f83cf9a67a8c82",
+      "status": "match"
+    },
+    {
+      "path": "library.html",
+      "sha256": "846b1b8941aa69e98f3f4aed05b0a7a88ffc0538e69d6deadad687adf2a97a40",
+      "status": "match"
+    },
+    {
+      "path": "lesson.html",
+      "sha256": "c0936cd7bd795a59126633751182c605f385f1be9b12925c2b3ae7a7589d7c73",
+      "status": "match"
+    },
+    {
+      "path": "papers.html",
+      "sha256": "060bcf65e2c2237fa02e6cbcd08a8d6c4d640e78616bae7ebc013a3ba2e3c713",
+      "status": "match"
+    },
+    {
+      "path": "css/lesson.css",
+      "sha256": "08d721f45b895627a72e88c720a94e8deb57450419c4f5ae197bd22ed2d09214",
+      "status": "match"
+    },
+    {
+      "path": "css/papers.css",
+      "sha256": "6227f3093ea47ee49aa596fda0d6cae22e3448b2ee343138f26348000012d8cb",
+      "status": "match"
+    },
+    {
+      "path": "js/features/courses.js",
+      "sha256": "cb4bc23ef812a35bb8204be9df49e19c1d472f427c8a2be3fc1b9d5ac3a784bd",
+      "status": "match"
+    },
+    {
+      "path": "js/features/lesson.js",
+      "sha256": "f5b0e66b8d9bfa958081a6d941fd7ad6c8f2bc12e364c1e1c65314240f493602",
+      "status": "match"
+    },
+    {
+      "path": "js/features/papers.js",
+      "sha256": "0ed5d0c935f4928a0a2bafc789067898d120d3c25c332680fb38382a7c716c77",
+      "status": "match"
+    },
+    {
+      "path": "js/core/papers.js",
+      "sha256": "501401530bac374c5e10721ee58d435163f313bef9f43bfe6df03394f8341aba",
+      "status": "match"
+    },
+    {
+      "path": "data/lessons/index.json",
+      "sha256": "56b4682602ff03cebc0ceb9ddd621b70b3412ff852fdf43b2d221a0f2f0bf6e5",
+      "status": "match"
+    },
+    {
+      "path": "data/lessons/locus.json",
+      "sha256": "40dd367d746d6cf3b6a1b82beb181f2df6fd3767dc84f294a727a89261c866a4",
+      "status": "match"
+    },
+    {
+      "path": "data/lessons/mensuration.json",
+      "sha256": "3c94d47152c284735482a17949f18b9dab3cba184aff4423ccc5354e60ca58f4",
+      "status": "match"
+    },
+    {
+      "path": "data/lessons/polynomial.json",
+      "sha256": "3bd7c2e7e110394f46320e92ac3df6c94b4deae3dd82ef8c5da4dd10a39205be",
+      "status": "match"
+    },
+    {
+      "path": "data/lessons/sequences.json",
+      "sha256": "d30863be8c83062ccf2b0e1d04b6d44a5d26c2a99b2cc9496ca173ed84f5014b",
+      "status": "match"
+    },
+    {
+      "path": "data/lessons/linear-programming.json",
+      "sha256": "3742d4c186c3ed08de2dad1c960debefcf08c01c4304e362b8dd65a88bcd8abd",
+      "status": "match"
+    },
+    {
+      "path": "data/lessons/statistics.json",
+      "sha256": "cd908c9a10688500594230fb541d437cc56dc9debfdecc9059506007008d7212",
+      "status": "match"
+    },
+    {
+      "path": "data/lessons/circle-equation.json",
+      "sha256": "9a5fe5881ff2b22c0acef174811a0f150fbf24e7d85d74fb394311df555a1de9",
+      "status": "match"
+    },
+    {
+      "path": "data/lessons/four-centres.json",
+      "sha256": "e86253383247fe9bab011447c39aaa8c16692a28c2203e74abda3fe4a64f7f83",
+      "status": "match"
+    }
+  ],
+  "verifiedAtUTC": "2026-11-10T09:49:42Z",
+  "deployStatus": "success",
+  "pagesStatus": "success",
+  "liveSmoke": {
+    "status": "pass",
+    "checks": [
+      "course guide entry",
+      "canonical example lazy load without answer",
+      "skill filter compose handoff",
+      "selection limited to available skill questions",
+      "local saved paper survives reload",
+      "390px overflow",
+      "no page errors"
+    ]
+  },
+  "questionsAdded": 0,
+  "questionsPublished": 1280,
+  "bankRevision": "1b59271bbc82cf4f"
+}
