@@ -13,7 +13,7 @@
  }
  const leaf=()=>{const d=document.createElement('div');d.className='book-leaf';return d;};
  for(let j=0;j<3;j++){const d=leaf();d.classList.add('leaf-extra');d.style.setProperty('--leaf-index',j);intro.querySelector('.book-cover').before(d);}
- intro.querySelectorAll('.book-leaf').forEach((leaf,i)=>{leaf.innerHTML=`<svg viewBox="0 0 240 320" aria-hidden="true"><g class="page-ink"><text x="30" y="28">EAC / THE MATHEMATICS OF POSSIBILITY</text>${bookDiagram(i)}<path d="M35 270H205M35 282H165" opacity=".25"/><text x="204" y="305">0${i+1}</text></g></svg>`;});
+ intro.querySelectorAll('.book-leaf').forEach((leaf,i)=>{leaf.innerHTML=`<svg viewBox="0 0 240 320" aria-hidden="true"><g class="page-ink"><text x="30" y="28">EAC / THE MATHEMATICS OF POSSIBILITY</text>${bookDiagram(i)}<text x="204" y="305">0${i+1}</text></g></svg>`;});
  intro.querySelector('.book-pages svg').setAttribute('viewBox','0 0 240 320');intro.querySelector('.book-pages svg').innerHTML=bookDiagram(0);intro.querySelector('.book-cover svg').setAttribute('viewBox','0 0 240 320');intro.querySelector('.book-cover svg').innerHTML=bookDiagram(0);
  let openingTimer;
  function closeBook(){clearTimeout(openingTimer);figure.classList.remove('is-opening');intro.classList.remove('is-active');intro.setAttribute('aria-hidden','true');if(intro.contains(document.activeElement))document.getElementById('replay-book').focus();}
