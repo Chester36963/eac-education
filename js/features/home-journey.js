@@ -1,0 +1,13 @@
+/* A goal-first route, using the same published catalog and chapter identifiers. */
+document.addEventListener('DOMContentLoaded',async()=>{
+ const root=document.getElementById('start-your-way');if(!root)return;
+ const select=document.getElementById('journey-topic'),link=document.getElementById('journey-go'),description=document.getElementById('journey-description'),label=document.getElementById('journey-mode-label'),art=document.getElementById('journey-art');
+ const modes={learn:{title:'01 / UNDERSTAND',text:'先睇概念、公式同易錯位，再由例題連去同技巧練習。解法由你決定幾時打開。',action:'打開概念導讀',page:'lesson.html'},practice:{title:'02 / PRACTISE',text:'進入所選課題，按細分類、技巧、難度同題型揀題。未準備好作答，可以先預覽。',action:'揀技巧及題目',page:'library.html'},compose:{title:'03 / COMPOSE',text:'以呢個課題開始，加入其他課題、設定題量同自訂配分，儲存成你自己嘅練習卷。',action:'開始編一份卷',page:'papers.html'}};
+ let chapters=[],guides=[],mode='learn';
+ function render(){const id=select.value,c=chapters.find(c=>c.id===id);if(!c)return;const m=modes[mode],guide=guides.find(g=>g.chapterId===id);label.textContent=m.title;description.textContent=m.text;link.textContent=m.action+' ↗';link.href=m.page+'?'+new URLSearchParams(mode==='learn'?{topic:guide.topicId}:{chapter:id,course:guide.course});root.dataset.mode=mode;for(const g of art.querySelectorAll('[data-journey-scene]'))g.style.display=g.dataset.journeyScene===mode?'':'none';}
+ try{const [catalog,r]=await Promise.all([QuestionBank.catalog(),fetch('data/lessons/index.json')]);if(!r.ok)throw Error('Guides unavailable');guides=(await r.json()).lessons;chapters=catalog.subjects.flatMap(s=>s.chapters).filter(c=>c.questionCount&&guides.some(g=>g.chapterId===c.id));if(!chapters.length)throw Error('No published routes');select.replaceChildren(...chapters.map(c=>new Option(c.name['zh-Hant']+' / '+c.name.en,c.id)));select.value=chapters.find(c=>c.id==='sequences')?.id||chapters[0].id;select.onchange=render;root.querySelectorAll('input[name="journey-goal"]').forEach(r=>r.onchange=()=>{mode=r.value;render();});render();root.classList.add('journey-ready');document.getElementById('journey-controls').hidden=false;document.getElementById('journey-fallback').hidden=true;}
+ catch(e){/* Direct course/library/paper links remain usable when metadata is offline. */}
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');let observer;
+ function motion(){observer?.disconnect();root.classList.remove('journey-arrives');if(reduced.matches)return;observer=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){root.classList.add('journey-arrives');observer.disconnect();}},{threshold:.12});observer.observe(root);}
+ reduced.addEventListener('change',motion);motion();
+});
