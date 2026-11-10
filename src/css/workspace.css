@@ -40,3 +40,7 @@
 .student-shell :is(p,h2,summary,.question-text,.option-text){overflow-wrap:anywhere}
 
 .student-shell .question-blocks{font-family:var(--font-stack)}
+
+.directory-callout{display:block;padding:18px 14px;margin-bottom:20px;background:#eff2f4;border:1px solid #d3dbe1;color:#404e5b}.directory-callout strong,.directory-callout small{display:block}.directory-callout strong{font:500 14px var(--font-stack)}.directory-callout small{font:11px/1.8 var(--font-stack);margin-top:8px}.student-shell .studio-nav{gap:18px;flex-wrap:wrap}
+
+@media(max-width:650px){.student-shell .site-header .header-inner{flex-wrap:wrap;gap:12px;padding:16px 18px}.student-shell .studio-nav{gap:14px}.student-shell .studio-nav a{font-size:12px}}

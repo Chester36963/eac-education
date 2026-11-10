@@ -412,3 +412,13 @@ Validation: exploration, four-centres-motion and study-design browser suites pas
 驗收：`build-content.cjs --check`、`build-curriculum.cjs --check`、`git diff --check`、ASGS 19 項精確／小數檢查及完整 Node suite（新增身份別名測試後 1,114 passed）通過。舊檔名只會出現在內部 identity alias 欄位，所有題目及來源顯示名稱均為 ASGS。
 
 正式發布：GitHub Desktop 推送 `de8273a` 至 `main`；Deploy workflow `41983247338` 成功，Pages workflow `41983312051` 成功。公開題庫回傳 revision `5d66d16cac070085`／1,241 題，數列題庫內六條新題的來源標籤均顯示 `ASGS review.pdf`。
+
+## REF-20261110 · PaperKing 產品參考
+
+完成瀏覽器登入及六組頁面觀察，新增 [參考分析與功能契約](PAPERKING_REFERENCE_REVIEW.md)，連結至 UI／UE 路線圖。實際走過三步選題及既有卷→網上作答；沒有生成、交卷、派卷、修改學生或上載。報告為空狀態，未驗證評分與雲端功能。PK-01至07保持待處理；本輪沒有改動學生程式、題庫、ID或部署。文件以 git diff --check 檢查。
+
+## DIR-20261110 · 全課題導航與保留3D翻書
+
+61個容器以公開、安全的課程目錄接通：Core42、M1九、M2十。新增可重建公開metadata與課程／範疇／狀態搜尋、雙語小節dialog及先備導航；只有正式題庫提供揀題／五題連結。首頁與共用內頁加入入口，保留現有1,280題、穩定ID及學習記錄。只移除翻書頁內兩條裝飾線，保留立體書脊、頁疊、陰影及3D翻頁。
+
+本地1123個Node測試、四尺寸新目錄、library、study-journey通過；動畫回歸及正式發布另以本批QA更新。修正舊exploration測試固定七章的過期斷言為manifest章數。詳見[本批測試及圖像](qa/2026-11-10/course-directory/README.md)。尚未完成三步組卷、我的練習庫或教師後端，沒有大量新題匯入。

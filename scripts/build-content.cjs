@@ -6,6 +6,11 @@ try{
   const source=readSource();const errors=validate(source.catalog,source.topics,source.skills);
   if(errors.length)throw Error(errors.join('\n'));
   const files=compile(source),check=process.argv.includes('--check');
+  const manifest=JSON.parse(files.get('data/bank.json'));
+  const directory=require('./public-curriculum.cjs').publicCurriculum(
+    JSON.parse(fs.readFileSync(path.join(ROOT,'content/planning/curriculum.json'),'utf8')),
+    JSON.parse(files.get(manifest.index)).questions);
+  files.set('data/curriculum.json',JSON.stringify(directory,null,2)+'\n');
   const stale=[];
   for(const [relative,body] of files){
     const target=path.join(ROOT,'src',relative);

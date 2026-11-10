@@ -2,6 +2,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const assert=require('node:assert/strict'),fs=require('node:fs');
 const output='/tmp/eac-explore';fs.mkdirSync(output,{recursive:true});
 const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
+const chapterCount=require('../../src/data/bank.json').chapterCount;
 (async()=>{
  const browser=await chromium.launch();
  try{
@@ -17,7 +18,10 @@ const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
    assert.equal(await page.locator('.leaf-two').evaluate(e=>getComputedStyle(e).backfaceVisibility),'visible');
    const moving=await page.locator('#triangle-shape').inputValue();await page.waitForTimeout(500);
    assert.notEqual(await page.locator('#triangle-shape').inputValue(),moving,'hero automatically changes geometry');
-   assert.equal(await page.locator('.chapter-art').count(),7);
+   assert.equal(await page.locator('.chapter-art').count(),chapterCount);
+   assert.equal(await page.locator('.book-leaf path[d="M35 270H205M35 282H165"]').count(),0);
+   assert.equal(await page.locator('.book-object').evaluate(e=>getComputedStyle(e).transformStyle),'preserve-3d');
+   assert.ok(parseFloat(await page.locator('.book-intro').evaluate(e=>getComputedStyle(e).perspective))>0);
    const checkGeometry=async()=>{
     const data=await page.locator('.circle-study svg').evaluate(svg=>{
      const point=c=>[+c.getAttribute('cx'),+c.getAttribute('cy')],outer=svg.querySelector('.circumcircle'),inner=svg.querySelector('.incircle'),o=point(outer),i=point(inner),R=+outer.getAttribute('r'),r=+inner.getAttribute('r'),d=Math.hypot(i[0]-o[0],i[1]-o[1]);

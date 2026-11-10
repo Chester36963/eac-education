@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EAC Education · 課程目錄</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css"><link rel="stylesheet" href="css/workspace.css?v=efec144678a0"><link rel="stylesheet" href="css/courses.css?v=ddce1ca1dc86">
+</head><body class="student-shell course-directory">
+<header class="site-header"><div class="header-inner"><a class="logo" href="index.html" aria-label="EAC 主頁">EAC</a><nav class="studio-nav" aria-label="學生導覽"><a href="dashboard.html">開始溫習</a><a href="courses.html" aria-current="page">課程目錄</a><a href="library.html">題庫</a><a href="dashboard.html?view=record">溫習記錄</a></nav></div></header>
+<main class="courses-main">
+<section class="courses-intro"><div><p class="eyebrow">THE MATHEMATICS LIBRARY / EAC × CHESTER</p><h1>A place for<br><em>every chapter.</em></h1><p class="courses-lead">你想學嘅，由呢度開始。</p><p>先揀課程，再搵課題。由概念到技巧，逐步練出把握。</p></div><aside class="courses-guide"><span class="eyebrow">YOUR NEXT STEP</span><h2>揀一課，開始一小步。</h2><ol><li>揀 Core、M1 或 M2</li><li>查看課題內容及學習方向</li><li>有題嘅課題，直接開始練習</li></ol><a href="app.html?resume=1" id="course-resume" hidden>接住上次未完成練習 →</a><a href="library.html">只想搵題目？進入題庫 ↗</a></aside></section>
+<section class="courses-browser" aria-labelledby="courses-heading">
+<div class="course-track" role="group" aria-label="選擇課程"><button data-track="all" aria-pressed="true">全部課程</button><button data-track="core" aria-pressed="false">Core <small>中一至中六</small></button><button data-track="m1" aria-pressed="false">M1 <small>微積分與統計</small></button><button data-track="m2" aria-pressed="false">M2 <small>代數與微積分</small></button></div>
+<div class="course-tools"><label class="course-search">搜尋課題或學習內容<input type="search" id="course-search" placeholder="例如：ASGS、畢氏定理、微分…" autocomplete="off"></label><label>範疇<select id="course-area"><option value="all">全部範疇</option></select></label><label>開放狀態<select id="course-status"><option value="all">全部課題</option><option value="available">可以開始練習</option><option value="preparing">準備中</option></select></label></div>
+<div class="courses-heading"><div><h2 id="courses-heading">探索課題</h2><p id="course-count" role="status" aria-live="polite">載入課程目錄…</p></div><button id="course-reset" type="button">重設條件 ↺</button></div>
+<p class="course-disclosure">全部課題已列出；標示「準備中」嘅課題會分批加入題目與解答。現有題數只計已上架內容。</p>
+<div id="course-results"></div><p id="course-error" role="alert" hidden>暫時未能載入目錄。<button type="button" id="course-retry">重新載入</button>，或<a href="library.html">先進入題庫</a>。</p>
+<noscript><p>請啟用 JavaScript 查看完整目錄，或<a href="library.html">進入題庫</a>。</p></noscript>
+</section></main>
+<dialog id="course-detail" aria-labelledby="course-detail-heading"><button class="course-close" id="course-close" type="button" aria-label="關閉課題內容">×</button><div id="course-detail-content"></div></dialog>
+<footer class="site-footer"><span>© 2026 EAC Education · Mathematics by Chester</span><span>理解 · 練習 · 再進一步</span></footer>
+<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/learning.js?v=5e3b6432a7a1"></script><script src="js/features/courses.js?v=8220e13fa736"></script>
+</body></html>
