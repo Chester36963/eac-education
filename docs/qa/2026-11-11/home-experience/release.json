@@ -1,0 +1,35 @@
+{
+  "commit": "c117b59003d80fac0c18a07f4f965bf186cac18e",
+  "deployRun": 42888633659,
+  "pagesRun": 42888704206,
+  "status": "success",
+  "publicFiles": [
+    {
+      "path": "index.html",
+      "sha256": "0eda5f190f888b502256fe691a6e25adda874bd3ea468397994a78fbbf8dbbdc"
+    },
+    {
+      "path": "courses.html",
+      "sha256": "508969bf206ab514c500c2dfc0384c1c7d6c05f9e737a4e03400d64b9685a710"
+    },
+    {
+      "path": "css/home-journey.css",
+      "sha256": "8665c5d345039ae61be5ff15e2d6b2b5f6eda2c24902a38103d2106cb19d513b"
+    },
+    {
+      "path": "css/courses.css",
+      "sha256": "353478983a44d09f70cbd6f3fcef65910afd31f140e9140f1fcc04c71b70916f"
+    },
+    {
+      "path": "js/features/home-journey.js",
+      "sha256": "a377d661dc9d256e648f7d238b53d2110ed6c984b204bf7488ca32d7c71efcab"
+    },
+    {
+      "path": "js/features/exploration.js",
+      "sha256": "030379107b7aa5c6525c82c5f2a3ac6dfe4b63b0e9f0b0e17c0bdb012f98b124"
+    }
+  ],
+  "bankQuestions": 1280,
+  "questionsAdded": 0,
+  "liveBrowser": "passed home-experience: opening, 4 widths x 3 modes, exact paper handoff, keyboard, reduced-motion, fallback"
+}

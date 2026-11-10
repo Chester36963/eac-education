@@ -1,6 +1,6 @@
 # EDU-UX / MOT-01 · 首頁動態及目標入口
 
-本機驗收記錄；正式部署見 release.json。產品取捨與參考觀察見 [教育網站研究](../../../EDUCATION_UX_REFERENCE_20261111.md)。
+本機及正式站驗收完成。main c117b59，Deploy 42888633659／Pages 42888704206 成功；6個公開檔案SHA256一致，正式站重跑home-experience通過。見 release.json／live-test.log。產品取捨與參考觀察見 [教育網站研究](../../../EDUCATION_UX_REFERENCE_20261111.md)。
 
 ## 實際完成
 
