@@ -15,11 +15,11 @@ const out=process.env.EAC_QA_OUTPUT||'/tmp/eac-courses-qa';fs.mkdirSync(out,{rec
     await page.locator('#course-reset').click();await page.locator('#course-search').fill('ASGS');assert.equal(await page.locator('.course-card').count(),1);
     await page.reload();await page.waitForFunction(()=>document.querySelectorAll('.course-card').length===1);assert.equal(await page.locator('#course-search').inputValue(),'ASGS');
     await page.locator('[data-topic=sequences] button').click();assert.ok((await page.locator('#course-detail').textContent()).includes('等比'));await page.screenshot({path:`${out}/sequence-detail-${width}.png`});
-    assert.ok(await page.locator('#course-detail a[href*="chapter=sequences"]').count()===2);
+    assert.ok(await page.locator('#course-detail a[href*="chapter=sequences"]').count()>=2);
     await page.keyboard.press('Escape');assert.ok(await page.locator('[data-topic=sequences] button').evaluate(e=>e===document.activeElement));
     await page.locator('#course-reset').click();await page.locator('#course-status').selectOption('available');assert.equal(await page.locator('.course-card').count(),manifest.chapterCount);
     await page.locator('#course-search').fill('no-matching-chapter');assert.equal(await page.locator('.courses-empty').count(),1);
-    await page.locator('#course-reset').click();await page.locator('[data-topic=sequences] a').click();await page.waitForFunction(()=>document.querySelector('#bank-count')?.textContent.includes('題符合'));assert.ok(new URL(page.url()).searchParams.get('chapter')==='sequences');
+    await page.locator('#course-reset').click();await page.locator('[data-topic=sequences] a[href*="library.html"]').click();await page.waitForFunction(()=>document.querySelector('#bank-count')?.textContent.includes('題符合'));assert.ok(new URL(page.url()).searchParams.get('chapter')==='sequences');
     assert.deepEqual(errors,[]);await context.close();
   }
   const context=await browser.newContext(),page=await context.newPage();

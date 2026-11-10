@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "topicId": "linear-programming",
+  "chapterId": "linear-programming",
+  "course": "core",
+  "name": {
+    "en": "Linear Programming",
+    "zh-Hant": "線性規劃"
+  },
+  "purpose": {
+    "zh-Hant": "由文字限制建立可行區域，再選擇連續或整數最優解。",
+    "en": "Build a feasible region from constraints, then distinguish continuous and integer optimisation."
+  },
+  "prerequisites": {
+    "zh-Hant": "二元一次方程、不等式、坐標與整數限制。",
+    "en": "Simultaneous linear equations, inequalities, coordinates and integer constraints."
+  },
+  "scopeNote": {
+    "zh-Hant": "本頁提供基本方法導讀及現有題庫入口；進階分支與完整圖解會繼續補充，並非完整課綱或全章筆記。",
+    "en": "This is a foundational method guide and an entry to the published bank. Advanced branches and complete visual explanations are still being developed; this is not a complete syllabus or chapter note."
+  },
+  "sections": [
+    {
+      "id": "constraints",
+      "title": {
+        "zh-Hant": "把限制畫成可行區域",
+        "en": "Translate constraints into a feasible region"
+      },
+      "intro": {
+        "zh-Hant": "先畫邊界直線，再用不在邊界上的測試點決定半平面。所有限制的交集才是可行區域。",
+        "en": "Draw each boundary, then use a test point off the line to choose a half-plane. The feasible region is the intersection of all constraints."
+      },
+      "formulas": [
+        "\\(Ax+By\\le C\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "先處理 x、y 的非負或整數限制，再列資源、時間及數量條件；嚴格不等號邊界不包含在內。",
+        "en": "Record nonnegative and integer restrictions, then resource, time and quantity constraints. Strict inequalities exclude their boundaries."
+      },
+      "trap": {
+        "zh-Hant": "測試點不可在邊界上；圖窗只是顯示範圍，不是額外限制。",
+        "en": "A test point must not lie on the boundary. The plotting window is not an extra constraint."
+      },
+      "skills": [
+        "lp-half-plane",
+        "lp-parameter-feasibility",
+        "lp-graph-systems",
+        "lp-modelling"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "vertices",
+      "title": {
+        "zh-Hant": "目標式：先找候選頂點",
+        "en": "Objective functions: identify candidate vertices"
+      },
+      "intro": {
+        "zh-Hant": "在非空、有界、包含邊界的多邊形可行區域，線性目標式至少在一個頂點取得最大及最小值。先解邊界交點，再逐個檢查可行性。",
+        "en": "For a nonempty bounded polygonal feasible region including its boundary, a linear objective attains maxima and minima at vertices. Solve boundary intersections and check each for feasibility."
+      },
+      "formulas": [
+        "\\(P=ax+by+c\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "列頂點表，代入同一目標式比較；有整條邊同值時，最優解可能不唯一。",
+        "en": "Make a vertex table and evaluate the same objective at each point. An entire edge can share an optimum, so the solution may not be unique."
+      },
+      "trap": {
+        "zh-Hant": "開邊界可能只有上確界或下確界而沒有取到的最值；無界區域要另查目標是否無界。",
+        "en": "Open boundaries may give a supremum or infimum without an attained optimum. For an unbounded region, check whether the objective is unbounded."
+      },
+      "skills": [
+        "lp-objective-vertices",
+        "lp-objective-range"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "integers",
+      "title": {
+        "zh-Hant": "整數解：唔好把連續解直接四捨五入",
+        "en": "Integer solutions: do not simply round"
+      },
+      "intro": {
+        "zh-Hant": "數量題可能要求整數。連續最優頂點若不是整數，四捨五入未必可行，更未必最優。",
+        "en": "Counts may require integers. Rounding a continuous optimum can produce an infeasible or non-optimal point."
+      },
+      "formulas": [
+        "\\((x,y)\\in\\mathbb Z^2\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "在可行範圍按固定 x 或 y 列出整數點，再比較目標值；嚴格邊界要先排除。",
+        "en": "Enumerate feasible integer points by fixing x or y, then compare objective values. Exclude strict boundaries first."
+      },
+      "trap": {
+        "zh-Hant": "只有確認所有可行候選已涵蓋，才能宣稱最優；不可憑最接近圖上頂點決定。",
+        "en": "An optimum needs coverage of all feasible candidates, not just points visually close to a continuous vertex."
+      },
+      "skills": [
+        "lp-lattice-count",
+        "lp-discrete-objective"
+      ],
+      "exampleIds": []
+    }
+  ]
+}

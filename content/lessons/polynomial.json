@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "topicId": "polynomial",
+  "chapterId": "polynomials",
+  "course": "core",
+  "name": {
+    "en": "Polynomials",
+    "zh-Hant": "多項式"
+  },
+  "purpose": {
+    "zh-Hant": "辨認因式結構，連接餘式、除法恆等式與根。",
+    "en": "Recognise factors and connect remainders, division identities and roots."
+  },
+  "prerequisites": {
+    "zh-Hant": "整式運算、解一次及二次方程。",
+    "en": "Polynomial arithmetic and linear and quadratic equations."
+  },
+  "scopeNote": {
+    "zh-Hant": "本頁提供基本方法導讀及現有題庫入口；進階分支與完整圖解會繼續補充，並非完整課綱或全章筆記。",
+    "en": "This is a foundational method guide and an entry to the published bank. Advanced branches and complete visual explanations are still being developed; this is not a complete syllabus or chapter note."
+  },
+  "sections": [
+    {
+      "id": "factorisation",
+      "title": {
+        "zh-Hant": "因式分解：先找結構",
+        "en": "Factorisation: recognise the structure"
+      },
+      "intro": {
+        "zh-Hant": "先找公因式，再檢查平方差或二次式結構。分解之後乘回原式，能同時檢查符號及係數。",
+        "en": "Extract common factors first, then check for a difference of squares or a quadratic structure. Expand the factors to verify both signs and coefficients."
+      },
+      "formulas": [
+        "\\(u^2-v^2=(u-v)(u+v)\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "每項都有同一因子，先提出；二次首項係數是 1 時，可找兩數的和與積。",
+        "en": "Extract a factor shared by all terms. For a monic quadratic, look for two numbers with the required sum and product."
+      },
+      "trap": {
+        "zh-Hant": "平方和一般不能照搬平方差分解；最後須乘回檢查。",
+        "en": "A sum of squares does not generally factor like a difference of squares. Always expand to check."
+      },
+      "skills": [
+        "common-factor",
+        "difference-of-squares",
+        "quadratic-factorisation"
+      ],
+      "exampleIds": [
+        "poly-cal-001",
+        "poly-cal-002"
+      ]
+    },
+    {
+      "id": "remainder-factor",
+      "title": {
+        "zh-Hant": "餘式與因式：代入零點",
+        "en": "Remainders and factors: substitute the root"
+      },
+      "intro": {
+        "zh-Hant": "除以一次式時，先找令除式為零的 x 值，再代入被除式。因式條件就是相應餘式為零。",
+        "en": "For division by a linear polynomial, find the value making the divisor zero and evaluate the dividend there. A factor condition means the corresponding remainder is zero."
+      },
+      "formulas": [
+        "\\(f(x)=(x-a)q(x)+f(a)\\)",
+        "\\((x-a)\\mid f(x)\\iff f(a)=0\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "多個餘式／因式條件，分別代入，再聯立求參數。",
+        "en": "Evaluate each remainder or factor condition separately, then solve the resulting equations for the parameters."
+      },
+      "trap": {
+        "zh-Hant": "除式是 ax+b 時代入 −b/a，並須 a≠0；不是直接代 b。",
+        "en": "For divisor ax+b, substitute −b/a with a≠0, not b."
+      },
+      "skills": [
+        "remainder-theorem",
+        "factor-theorem",
+        "poly-direct-remainder",
+        "poly-factor-parameters",
+        "poly-multiple-conditions"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "division",
+      "title": {
+        "zh-Hant": "除法恆等式與根",
+        "en": "Division identities and roots"
+      },
+      "intro": {
+        "zh-Hant": "餘式的次數必須低於除式。未知商或餘式可先寫一般形式，再比較係數或代入合適數值。",
+        "en": "The remainder must have lower degree than the divisor. Write a general form for an unknown quotient or remainder, then compare coefficients or substitute useful values."
+      },
+      "formulas": [
+        "\\(f(x)=d(x)q(x)+r(x),\\quad \\deg r<\\deg d\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "二次除式的餘式最多一次；求根時先分解，逐個因式設零。",
+        "en": "A quadratic divisor has a remainder of degree at most one. To find roots, factorise and set each factor equal to zero."
+      },
+      "trap": {
+        "zh-Hant": "常數餘式只是一次除式的必然形式；零多項式餘式另行理解，不對它硬套次數。",
+        "en": "A constant remainder is guaranteed for a linear divisor, not every divisor. Treat a zero remainder separately rather than assigning it an ordinary degree."
+      },
+      "skills": [
+        "poly-division-identity",
+        "poly-compare-coefficients",
+        "poly-higher-remainder",
+        "roots",
+        "poly-root-nature",
+        "poly-transformed-roots",
+        "poly-root-relations",
+        "poly-substitution",
+        "poly-quotient-sign"
+      ],
+      "exampleIds": []
+    }
+  ]
+}

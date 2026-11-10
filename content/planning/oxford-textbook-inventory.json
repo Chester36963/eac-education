@@ -1,0 +1,2169 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-11-10",
+  "status": "待驗收",
+  "root": "/Users/chester/Downloads/DSE Maths All Extra Materials/準備教材/牛津Dse数学英文版",
+  "boundary": "File inventory only; not registered for editor import, not question or syllabus approval. Chapter and answer locations require source inspection.",
+  "sources": [
+    {
+      "id": "textbook-914c9dd87e0e04ba",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1A/OJM_TBook_PDF_1A01_c.pdf",
+      "sha256": "a6aa82eb4bf2e4e27cde7cb5b29e22d0fe77b747a0d67298bc18461b3be0c263",
+      "bytes": 7341194,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-a7e4c94967729629",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1A/OJM_TBook_PDF_1A02_c.pdf",
+      "sha256": "5457bed4b0318e8568ad6d6f68fba7eabcc8bb2024239f7d9c3075c693a31e87",
+      "bytes": 7514658,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-477ece4a601fa161",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1A/OJM_TBook_PDF_1A03_c.pdf",
+      "sha256": "ccc3031e7df9bdebedf4f557aea17b82926dba1fe5f66e57846c95095ee2898d",
+      "bytes": 7259454,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-60817542dd61c894",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1A/OJM_TBook_PDF_1A04_c.pdf",
+      "sha256": "e7823b68723c464bb1198fdad3626bb6038060a6103ca01bb0e3f5db02e13655",
+      "bytes": 5765851,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f4abbe98d5b4ab78",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1A/OJM_TBook_PDF_1A05_c.pdf",
+      "sha256": "809c0de6c418868358377de79818b6788f6f26608f803b6ea89dc711f2cbb028",
+      "bytes": 9678129,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-4fefc872a823e762",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1A/OJM_TBook_PDF_1A06_c.pdf",
+      "sha256": "0bedddf06d0c391fc35cddb1d3fa3f3aa3dd9ed739b7d1db9afe76afc9ac81e3",
+      "bytes": 6337088,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-9adfcc527a01ebf0",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1B/OJM_TBook_PDF_1B07_c.pdf",
+      "sha256": "17039225f7cdd66f2bd520f0f178f47fe8b7bfbdaf3c2f9131c69df879d37467",
+      "bytes": 7805133,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-8328d962a4937a1f",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1B/OJM_TBook_PDF_1B08_c.pdf",
+      "sha256": "cc6ed07cb8b1ae5d871e2376f2c9948ee2c0efe1ac6dcdec8ee4d556326ca51a",
+      "bytes": 11563152,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f3a311a84353e418",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1B/OJM_TBook_PDF_1B09_c.pdf",
+      "sha256": "78662022ffa54df3e8a2602ffbe26e0ee64a3ae0d6665257c7b5dde2fc47f8f5",
+      "bytes": 16474128,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-a3fade6f4ea565fc",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1B/OJM_TBook_PDF_1B10_c.pdf",
+      "sha256": "47e3d67b05fe7a502de64e0b33bc92c24a482088dd4fca99872d9d01f4a01177",
+      "bytes": 9199801,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-7183b88a62669f4a",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1B/OJM_TBook_PDF_1B11_c.pdf",
+      "sha256": "774f7422720eb14c287c971dfd1d45a0e9d0a65531404041467966c63fefb7c0",
+      "bytes": 4198624,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5fe5ddb92e8606cc",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/1B/OJM_TBook_PDF_1B12_c.pdf",
+      "sha256": "9bc7f780bc21c68a91f6bf238a416f2bf8e4f79abc5ca9dcd207ed318b8c6678",
+      "bytes": 6937540,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-3f3532bdf5d03460",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2A/OJM_TBook_PDF_2A01_c.pdf",
+      "sha256": "3813cd718d0731f0bf7fe6e394d1553da934760c0d9e0781bb51ebeb70d34f91",
+      "bytes": 6466272,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-64c396ff6569f573",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2A/OJM_TBook_PDF_2A02_c.pdf",
+      "sha256": "10d3b5f2b0987fc769ddcc4823595d2c26fff6116dbcdac3f39b2bb49cb4d5fd",
+      "bytes": 7972663,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f06411f21bf1733e",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2A/OJM_TBook_PDF_2A03_c.pdf",
+      "sha256": "72fdb1c436e8e74e133e60b00996441e922addec882efb67e9247b4e70898ab6",
+      "bytes": 4996645,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-4a9f300799b2d35e",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2A/OJM_TBook_PDF_2A04_c.pdf",
+      "sha256": "f1f2cc9c6684a830b3eedcbe1b417413c07ca2749a035ec704fa70c0270ff93b",
+      "bytes": 5841578,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-06c79689bf2cdaa2",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2A/OJM_TBook_PDF_2A05_c.pdf",
+      "sha256": "ceca04a608948b7ff6aa532f6263faa4660a43b0dfb035e96ae667a026875499",
+      "bytes": 8348177,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-097bad2307a764df",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2A/OJM_TBook_PDF_2A06_c.pdf",
+      "sha256": "2f7dc426c4f179f5689130595cb5984d231f821ef949c4c61e5b819bc535622d",
+      "bytes": 6805998,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-78de258da43316ef",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2A/OJM_TBook_PDF_2A07_c.pdf",
+      "sha256": "62e4459db0fd711770097740385ba6ffb5164a1f743fa000e3156514356f964a",
+      "bytes": 13329916,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-d0ac3df17d502443",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2B/OJM_TBook_PDF_2B08_c.pdf",
+      "sha256": "475362492b82f592dadfabc6f2233d598b69c9f9d09aa07d0c59258c778b7157",
+      "bytes": 13565891,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-17df6afce94999b0",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2B/OJM_TBook_PDF_2B09_c.pdf",
+      "sha256": "d8521d3748af7c78d5cac9c33240ceec67a1fd6c9c420791ee4c83e49c8aa222",
+      "bytes": 11795366,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f71ff1ecd6966a19",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2B/OJM_TBook_PDF_2B10_c.pdf",
+      "sha256": "716db35ab4109c8a5a26c266b7a665ac5a3fe687c4bdf6128235853caabe8121",
+      "bytes": 7828913,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-d7e1799c1f6dc130",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2B/OJM_TBook_PDF_2B11_c.pdf",
+      "sha256": "6eef805efc3ea027d30fe195ecc3f4249a550850b49d7890a3c827f1ff90285b",
+      "bytes": 9107463,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-510b0d28e137b42c",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2B/OJM_TBook_PDF_2B12_c.pdf",
+      "sha256": "5a612ed7bb63661facb3a25699af9a0a6cf0c3fd076f7a24856f1025b5565a62",
+      "bytes": 10830348,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-0a0eb92ade9b8b36",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/2B/OJM_TBook_PDF_2B13_c.pdf",
+      "sha256": "14daf3ad1f52ba38fe8db4d63375018de1bc1a199a4712e0dee9a14978e38a23",
+      "bytes": 10620242,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-705e0b6912e2f672",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3A/OJM_TBook_PDF_3A01_c.pdf",
+      "sha256": "70227c6fc8dd5182bcfd026b9ef3b466ac08cb6218d5ef34281c5552e3757932",
+      "bytes": 5297278,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-0c0092e36012d802",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3A/OJM_TBook_PDF_3A02_c.pdf",
+      "sha256": "274a66c4bf453d5067d49a9bf88bf218eb8f7cb76419796518a85ce90bd4b514",
+      "bytes": 9324084,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-bfcfb978b25d8c09",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3A/OJM_TBook_PDF_3A03_c.pdf",
+      "sha256": "3562cb46a293267a47ea87437b65638439e1b98e2a3bb3d401834ec4332aeb5d",
+      "bytes": 12629973,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-c4506f1096c7434c",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3A/OJM_TBook_PDF_3A04_c.pdf",
+      "sha256": "f9a21e3ca081aeb6fa90c54113d9ccd5f973610a62d2415d5f11706027aa0919",
+      "bytes": 6875000,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-a4c0aff3afd01239",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3A/OJM_TBook_PDF_3A05_c.pdf",
+      "sha256": "7795bc7978e075028546c3116549f76dc52676d4447c193679b77531e4a2b94b",
+      "bytes": 10665448,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-6c44ab7205afdc3b",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3A/OJM_TBook_PDF_3A06_c.pdf",
+      "sha256": "f31f867d0458c2ded2bfae2397d3cb5e8088c435094f270e59efa54567e99ea0",
+      "bytes": 14467327,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5646f6e6ad1c9180",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3A/OJM_TBook_PDF_3A07_c.pdf",
+      "sha256": "a233ddbb8c657d6abaf3007cf80266e20b19af8b4aef49c03f23aa572f3a960d",
+      "bytes": 6223777,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-a011f8c03690c58c",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3B/OJM_TBook_PDF_3B08_c.docx",
+      "sha256": "987ad2de77a2f1d989eb41a51344ae1baabf4ee3c0558c3072b283ec622b1c76",
+      "bytes": 6420205,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-d08cedbb9729f75c",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3B/OJM_TBook_PDF_3B08_c.pdf",
+      "sha256": "7b3cd715db909b8445c8e816fd79a52dd6c3176ac0cb145e1279636be3a116a3",
+      "bytes": 8340727,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-4107f1122a9391e9",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3B/OJM_TBook_PDF_3B09_c.pdf",
+      "sha256": "b5dce99345eb4ab57f46095785257e167bd4d73641f3b06257977d70d3a52cad",
+      "bytes": 4661398,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5d0957c6329c3b4b",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3B/OJM_TBook_PDF_3B10_c.pdf",
+      "sha256": "35620cb23120562e934d8da26a28213cb90d3489bd585377e76ea55a9eea9fc7",
+      "bytes": 10883805,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-18c56b24d75a3038",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3B/OJM_TBook_PDF_3B11_c.pdf",
+      "sha256": "7f0248d4ca9ba6b4312a8e6ce564d115479a36e780c112e8c07dd5f89337bd78",
+      "bytes": 5092999,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-444d4a830e645152",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3B/OJM_TBook_PDF_3B12_c.pdf",
+      "sha256": "4b7d41e5363ea097cfa180872ff3ab868dd79af2326ed4956f9c31f9d5df0892",
+      "bytes": 11062158,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-e1a94f1cbffb9c27",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/中一到中三/3B/OJM_TBook_PDF_3B13_c.pdf",
+      "sha256": "f6c0f06689d127836e8bb553c214b6f175664e097242516645bf00a6484979ad",
+      "bytes": 12329554,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-70ba9fd46dfddd25",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1A/OJM_TBook_PDF_1A01_e.pdf",
+      "sha256": "f389007303228533a9911254dc35b6d186fd946ad6e095431bc4992454521653",
+      "bytes": 7108203,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-236df905c6f4c202",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1A/OJM_TBook_PDF_1A02_e.pdf",
+      "sha256": "b307ac9700e9fa604bb3dde37da4488c812de2039391d896a47f80ccb07c614d",
+      "bytes": 6618621,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-443f1a426ffc8d05",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1A/OJM_TBook_PDF_1A03_e.pdf",
+      "sha256": "94e4357c50e387a8f8f2115c6c65044af41a095de533585950f3dd78dc8d2e5d",
+      "bytes": 6333095,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-8ac893b805f272a7",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1A/OJM_TBook_PDF_1A04_e.pdf",
+      "sha256": "9a02e52296b429d62843f9ac739ac36c447cdcf123ed942f2ea8c6c18944aeab",
+      "bytes": 5248960,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-faec3e06ff22e80e",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1A/OJM_TBook_PDF_1A05_e.pdf",
+      "sha256": "599e97fad1a44f7c7d3980172847d2a773f1f77afb927c9c62ead9c5b60111ba",
+      "bytes": 8129399,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-e61af94b7a9a5648",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1A/OJM_TBook_PDF_1A06_e.pdf",
+      "sha256": "9e88dfbc3f12b5fbc01ef8f0807920d13995472bd8c950494bab619bea9fa013",
+      "bytes": 7446835,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f7c05d51fa014d08",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1B/OJM_TBook_PDF_1B07_e.pdf",
+      "sha256": "3f8af570f0e7e5e69d543f2f6c7fa7f9c0801d47c9969b816f4987a0b521a874",
+      "bytes": 10745999,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-176e289bb0e7bead",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1B/OJM_TBook_PDF_1B08_e.pdf",
+      "sha256": "a8ec758c81ca0a5ba1fb6348eb8736b036ff0b60f3f46d7599b9a65205dd84b8",
+      "bytes": 17987663,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5cf300a0a0a5e890",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1B/OJM_TBook_PDF_1B09_e.pdf",
+      "sha256": "d3cea6722ffbb0d47cb237290674cb7106ba81866e5383976b80900cd23d23cf",
+      "bytes": 9841353,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-1c3c35640fb820bf",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1B/OJM_TBook_PDF_1B10_e.pdf",
+      "sha256": "abc12ce6e0ec6ea828dfa6337924f692452497042e1987394cb8353ebd9660e3",
+      "bytes": 8466189,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5c28399e62ec3443",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1B/OJM_TBook_PDF_1B11_e.pdf",
+      "sha256": "004b5254821d4ccb09630cf50f981985b9ce0cbc7b085b14f665ac570dfa583f",
+      "bytes": 3925545,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-c3bfccc9ad2a00ba",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/1B/OJM_TBook_PDF_1B12_e.pdf",
+      "sha256": "0ffed66c6498f66372a4128277bb683a6077167cdfc101618a181fe787d57a41",
+      "bytes": 6558737,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f79f87159d4afffc",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2A/OJM_TBook_PDF_2A01_e.pdf",
+      "sha256": "154ffb32e4e6562912aa0ec6375cfbec0cacd56a45edf6dd5b301fe4e9518840",
+      "bytes": 5744568,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5ee09d846bd6c4a9",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2A/OJM_TBook_PDF_2A02_e.pdf",
+      "sha256": "72d3c2ff9d8615e6e7e11b3486f71392bca54326df173d98c82504c75a011481",
+      "bytes": 7309854,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-689a86ab8ba18c3c",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2A/OJM_TBook_PDF_2A03_e.pdf",
+      "sha256": "af46fc762553e0d60f1978db2e4853dd0a47908edb40482a4dced077edccd806",
+      "bytes": 6173929,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-1b771e28bfddd8aa",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2A/OJM_TBook_PDF_2A04_e.pdf",
+      "sha256": "45ff4580359567cff6f777a0a8585a16ab66c6dd7072a1632041983587386cb0",
+      "bytes": 7346171,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-43018d3e662ab307",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2A/OJM_TBook_PDF_2A05_e.pdf",
+      "sha256": "8ff1d1eb00463975d25b9508716147017b9c685dd05ec30533786e5de3105747",
+      "bytes": 7364627,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-659eee1c60e4408b",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2A/OJM_TBook_PDF_2A06_e.pdf",
+      "sha256": "6355afcebbcfb11a23fef890fecedb0fc30e17ad09a3183059451c657e22e306",
+      "bytes": 4101462,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-264369ec0a5e7d80",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2A/OJM_TBook_PDF_2A07_e.pdf",
+      "sha256": "b8622fef710f48363a75bf394d63a0c397ffc08ae6c17e96993d5582ce6ebf84",
+      "bytes": 7834906,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-fe8f31e469bdfd01",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2B/OJM_TBook_PDF_2B08_e.pdf",
+      "sha256": "a243bc7689edbe801e1975e07986b17129bcfccaccd43c01fc0e001f2f8413e5",
+      "bytes": 12475862,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-13eb63a95d6fa206",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2B/OJM_TBook_PDF_2B09_e.pdf",
+      "sha256": "0e9bc6302f127fad2afe60eb79d17d8267a3f399b7c96eec049e98a8df7da88f",
+      "bytes": 10970853,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-47ddbed1ca536b55",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2B/OJM_TBook_PDF_2B10_e.pdf",
+      "sha256": "278cf17c4600fc3692fe2b679a8c0fcb719a5df72ebdd3bc399fc7a9c436f59c",
+      "bytes": 6956741,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-9472436dc764cd0b",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2B/OJM_TBook_PDF_2B11_e.pdf",
+      "sha256": "f9a82a9c69178752eaf50291db6d86770a6067e49c6bc77271ff30afb54f2ce9",
+      "bytes": 12632463,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-8ec42704d8ef0643",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2B/OJM_TBook_PDF_2B12_e.pdf",
+      "sha256": "5d201e4091b6d1db3a2b1091ce29d480cd33bf6fb50fbf7fa1ff9915190eef58",
+      "bytes": 9696115,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-c66d1139f2f952d3",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/2B/OJM_TBook_PDF_2B13_e.pdf",
+      "sha256": "d1740d86ca59821d9f90829d566f08575b0c313c0c00eb65148281c531f854f3",
+      "bytes": 9789546,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-962e92197c49ea77",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3A/OJM_TBook_PDF_3A01_e.pdf",
+      "sha256": "a40d4a968408fa01c668a324931460d9a1ffc2b9bf75fbfb8ceceb419a3d84e1",
+      "bytes": 6431077,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-ae658c6119be6a94",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3A/OJM_TBook_PDF_3A02_e.pdf",
+      "sha256": "0f1cb75feabaf2a23a632796f212f3191686f0e78174533be03dcd485fcac277",
+      "bytes": 8462649,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-94431cb2e86dfb6f",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3A/OJM_TBook_PDF_3A03_e.pdf",
+      "sha256": "fc356183dc2794480c08815edbf6e83b6d78f776cda9db3d1dd6da7807cbec80",
+      "bytes": 11478692,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-abfd6e5481a6be20",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3A/OJM_TBook_PDF_3A04_e.pdf",
+      "sha256": "f0923f98eabc3ba0d1f98166ca95945e9ec933c3d5ae384c820fa34977221e13",
+      "bytes": 7935240,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-922f59b29ae09be8",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3A/OJM_TBook_PDF_3A05_e.pdf",
+      "sha256": "c91974c7ff96c13e94df6b62b4093ce86a1d930f1d782a408e7e5558f7191a82",
+      "bytes": 6991482,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-e2728b31ba852524",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3A/OJM_TBook_PDF_3A06_e.pdf",
+      "sha256": "e18bb2e2fcf02e31fa02aa193a5fdbdbcaad63e8410b75f2c9604c75406a3783",
+      "bytes": 8167442,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-6f13b6bb7b2fdc3f",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3A/OJM_TBook_PDF_3A07_e.pdf",
+      "sha256": "557e3d92c64a26c9fa3ef0cb8333f381d9fd6fdf7bbc5a42a0c1f053634ef050",
+      "bytes": 8678824,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-72bf24fb2009590a",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3B/OJM_TBook_PDF_3B08_e.pdf",
+      "sha256": "eea6a25439ab8621e757254e512a254c8e47748e2774c00fe2f34bc8263af3b7",
+      "bytes": 7613992,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-78d4298aed886e50",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3B/OJM_TBook_PDF_3B09_e.pdf",
+      "sha256": "b993f7e46e2db478974e42da24bffab1bd10859df9fe0d2aef115d7289b4bc02",
+      "bytes": 5719927,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-2366037fb65ba247",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3B/OJM_TBook_PDF_3B10_e.pdf",
+      "sha256": "3d7e17e56491dcea439c7661b882877a2c28ff268eaed6d4cdfc838964fbcb88",
+      "bytes": 15068148,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f1589d9b26525b21",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3B/OJM_TBook_PDF_3B11_e.docx",
+      "sha256": "da1575a017ed642db5ec9c0d2c86f6f39feed8b32e88bfe926df682f551d2ee3",
+      "bytes": 3633774,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-b59903044413be16",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3B/OJM_TBook_PDF_3B11_e.pdf",
+      "sha256": "286c3c4f51200171737376623127b96e9ad1d38d1809ed94b4e9c4c915010c46",
+      "bytes": 6461442,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-afffef8ecc5c0189",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3B/OJM_TBook_PDF_3B12_e.pdf",
+      "sha256": "11bc22db55d891e7741866889acca4e9bd3c78b0b3ced709ea83aae5ac2868ab",
+      "bytes": 10061263,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5a4828e311073009",
+      "path": "牛津DSE数学中一到中三（中文+英文版）/英文中一到中三/Textbook  英文/3B/OJM_TBook_PDF_3B13_e.pdf",
+      "sha256": "25c670aa52b4fb0a44a9952e225ca5b521cbc7823a72157e5546805f8ad5abb8",
+      "bytes": 11486173,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "3B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5fb637ffb939da67",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4A/OSM_TBPDF_4A01_e.pdf",
+      "sha256": "a02f489fc198b52f47a58c6f671eb6c23d29feb72f7551290a347a4252fc2dfe",
+      "bytes": 4791393,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-ec167d8a307a59d2",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4A/OSM_TBPDF_4A02_e.pdf",
+      "sha256": "659512ddb273c5569a8b5ce43d3535ae7a5825bd7a607837ce8c553a96484283",
+      "bytes": 5884129,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-6ca56ff265edb396",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4A/OSM_TBPDF_4A03_e.pdf",
+      "sha256": "b993dc32008532c2b7eb72277179f3696209bdca325a2f72f8dd8ce6cf64b892",
+      "bytes": 6644665,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-0d0a2851e708c07f",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4A/OSM_TBPDF_4A04_e.pdf",
+      "sha256": "10b562ba18af2ac8e5766e97c8dce64b4f9a1e187339797c5196560c5cd0220f",
+      "bytes": 4777078,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f466fd917561f709",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4A/OSM_TBPDF_4A05_e.pdf",
+      "sha256": "347e75790bdabaabc4b623f10937ce6bf5520280ea09bfb66ea7af2668cee758",
+      "bytes": 6379476,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-28fc06ef1a8beff5",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4A/OSM_TBPDF_4A06_e.pdf",
+      "sha256": "5e71dc7d9c58579915cccc0331bd1e8bdd702755bbc28afa5895ecd51076631c",
+      "bytes": 5695052,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-b252d63613789c53",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4A/OSM_TBPDF_4AAR_e.pdf",
+      "sha256": "e4ffe2a029eae68701f5686bcdbd4b7c9b4fb4d66fabfe4ab8b8344499fdd816",
+      "bytes": 864920,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-26f20f1d46a617a8",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4B/OSM_TBPDF_4B07_e.pdf",
+      "sha256": "0f0c66e9c5029355e8d3542291488b2a3fb66edd1f5d0ff3cee9f864f8b2a89d",
+      "bytes": 3778515,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f594e355118b5a3d",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4B/OSM_TBPDF_4B08_e.pdf",
+      "sha256": "1ae78dfaebe6c433602ea755fd77d12ea3f594d30fc88b765bd39c7bd7979697",
+      "bytes": 6140658,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-0d02fc34f55db07d",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4B/OSM_TBPDF_4B09_e.pdf",
+      "sha256": "879beb0f9dd8e8c2b0a19df8d6ab85e7b653d45b519e959297e985d9b690981b",
+      "bytes": 4167652,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-a3abda5e8643f4cc",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4B/OSM_TBPDF_4B10_e.pdf",
+      "sha256": "811f855158193658516bfd176fe67eaccbedd091af350768a590112498510999",
+      "bytes": 5687319,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-da14062ee6ef9508",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4B/OSM_TBPDF_4B11_e.pdf",
+      "sha256": "52a45441d6a6b1f70b6b047b87e06bf65e9b8f023006d0158a1051fd295ecee4",
+      "bytes": 5682767,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-0282a99e5add9cf2",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4B/OSM_TBPDF_4B12_e.pdf",
+      "sha256": "00d78cb6536ec6f346a35d2fadda43facdf4819fce2d9d6f2674f0dcd7c3dd29",
+      "bytes": 6510165,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f9383641b732b8ef",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/4B/OSM_TBPDF_4BAR_e.pdf",
+      "sha256": "f3eafdedcb726c88add0234ff187662ceefd5651639f244505e786a4e0d98e7d",
+      "bytes": 835239,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "4B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-0b27d223bdf7ff98",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5A/OSM_TBPDF_5A01_e.pdf",
+      "sha256": "12745e75f30f3b61eb735fa3b7160c0c3b3ba7bb100d1248da0e499d2ac9dc2a",
+      "bytes": 4740221,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-bad13a8004d45634",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5A/OSM_TBPDF_5A02_e.pdf",
+      "sha256": "493bf0193adaa32fdc1e9318e470504fad3c1ad3005b5ef7eae691c4d9c9106e",
+      "bytes": 7298590,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-183c6bcfd3310c29",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5A/OSM_TBPDF_5A03_e.pdf",
+      "sha256": "afb859308d64d709bec8169b389aad010e66ea8f07beba6a9359daf818de33f9",
+      "bytes": 7690190,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-227ef26cdd3dd9c1",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5A/OSM_TBPDF_5A04_e.pdf",
+      "sha256": "14e889e80013fab575631b6eaad1834d302459341c72d713117105f11665fbbe",
+      "bytes": 5096218,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f5a07b9f9ad4c8f6",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5A/OSM_TBPDF_5A05_e.pdf",
+      "sha256": "a2c63b5260ef38f313820142a2140226e590c7ae86778d5e1edcec43d95721b7",
+      "bytes": 6507532,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-798ae8b0a9088171",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5A/OSM_TBPDF_5A06_e.pdf",
+      "sha256": "95066f3be6a837fd4debeb6f7b831e39c2f55511067b7189d13110bac102a278",
+      "bytes": 6392999,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-8279c630f5f22336",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5A/OSM_TBPDF_5AAR_e.pdf",
+      "sha256": "1bda90e52ab27c9051fd83551fa4a73c0884a6c501a1086f93a7e6f2fab36eae",
+      "bytes": 888542,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-69aef1c833ce0684",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5B/OSM_TBPDF_5B07_e.pdf",
+      "sha256": "4076e95831019f86161b695761f2e89b2fa792455a9e8bbd52ec4a56aae72251",
+      "bytes": 4043966,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-9ace12781400d10f",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5B/OSM_TBPDF_5B08_e.pdf",
+      "sha256": "e7b8031dc5a4b3d97028c481cdc9dcf85c1bc53d3c0d68af6fa8f755537e085d",
+      "bytes": 5553051,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f70a8d0754f96a9f",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5B/OSM_TBPDF_5B09_e.pdf",
+      "sha256": "549544e92d5e60e112945e7865392060937d8684cfac5effc5831ff639f5ac24",
+      "bytes": 5537361,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-458e615c2c69e9b3",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5B/OSM_TBPDF_5B10_e.pdf",
+      "sha256": "0d7fe05d9e04c65323c9175d154557c538f7448b9f7b79641f44aca0ca179c38",
+      "bytes": 6139409,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-35b863b34ee584e7",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5B/OSM_TBPDF_5B11_e.pdf",
+      "sha256": "518d73b16a2e38849a0e26a94f04a9bc5aeadc50c8bb164818f979df1989ec4b",
+      "bytes": 6656256,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-d878677dd18aa858",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/5B/OSM_TBPDF_5BAR_e.pdf",
+      "sha256": "48f25e97f84e2de017d607d889f9a1f1483595d7fc95ce0e5797f58ff607da72",
+      "bytes": 731200,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "5B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "core",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-709a70bdf06ca289",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1A/OSM_TBPDF_M1A01_e.pdf",
+      "sha256": "565a5ce393875477d4a68646c41fa80c419e103f12dc4a63e2f7aa51bb065a1c",
+      "bytes": 2712700,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-ac4f5a3c3f533979",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1A/OSM_TBPDF_M1A02_e.pdf",
+      "sha256": "7d3ca56864a7a1bb3fe10546f4903ba5042b472e078a79fe62b9c3018753d585",
+      "bytes": 4156210,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-752c1cd11a96d900",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1A/OSM_TBPDF_M1A03_e.pdf",
+      "sha256": "f77bd71e55c78211d490bc9385b1436e6a383d7998632b7c27122bade9c2daa9",
+      "bytes": 2583156,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5a9bc5a6097fcf3f",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1A/OSM_TBPDF_M1A04_e.pdf",
+      "sha256": "aadb00c7c1fc04926c77e23852311e28ff8c77ac4d34e119908f9f0209139108",
+      "bytes": 3873755,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-44a30821d3e880c4",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1A/OSM_TBPDF_M1A05_e.pdf",
+      "sha256": "71b0a523a732ec976293d647efecd472e5662444df56fa6dad80e5a11483e41a",
+      "bytes": 5717451,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-a7f5279cee6142de",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1A/OSM_TBPDF_M1A06_e.pdf",
+      "sha256": "edb9f32f5864d474ee7644a18685861ef0f153e4df02ee619c283974bf5b52d1",
+      "bytes": 4327832,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-dab99f2cbfb9c744",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1A/OSM_TBPDF_M1A07_e.pdf",
+      "sha256": "11994fb455f7ea34f7e3f7820a39e12331d6d1622b5230d5a2b0596d6c9fbb69",
+      "bytes": 5512914,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-6b5b8d2c95058297",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1A/OSM_TBPDF_M1AAR_e.pdf",
+      "sha256": "4a82ed8ed944f9c7be7715fbf21323caeb43714df50b124ffb02137cdaaa269f",
+      "bytes": 201451,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-e3545153449476e6",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1B/OSM_TBPDF_M1B08_e.pdf",
+      "sha256": "dcf18ae4b23e0fc4f8b47d7cace75089a8f40cb3e64ed8e22609c08ed4d78c68",
+      "bytes": 3669225,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-51f01cac7bc93441",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1B/OSM_TBPDF_M1B09_e.pdf",
+      "sha256": "f2f74569f3f651b54aebc353c1c50e60edf18cce05df752721d0b000bc81ee87",
+      "bytes": 3958416,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-57b6a246fdb520fa",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1B/OSM_TBPDF_M1B10_e.pdf",
+      "sha256": "b41fcfffbaffc0d98b4e585a2513e42c19d70440c19372ca43f2d2061270ffda",
+      "bytes": 3189286,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5965f35586c4bf0f",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1B/OSM_TBPDF_M1B11_e.pdf",
+      "sha256": "a629839b14823988503c0516c11bc7a745551d6d042208e796f77e4fffe5795c",
+      "bytes": 3614202,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-ae38fe9f5de99166",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1B/OSM_TBPDF_M1B12_e.pdf",
+      "sha256": "102502d6ae0c2f3260473c66bf1db510dcb35996c9d63de2af008173e2890acc",
+      "bytes": 3736265,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-2d509e6584e11142",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1B/OSM_TBPDF_M1B13_e.pdf",
+      "sha256": "c3f595b17055ab4d79279e439b3220aa3c06e74245e084567377ffb728b0c54a",
+      "bytes": 4279228,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-690a1a956591ebe3",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M1英文版教材/M1B/OSM_TBPDF_M1BAR_e.pdf",
+      "sha256": "b77c8e71dcce7b1fc3a9ca1395a741a639b15775cfe93e0c74cda75896b9ea0f",
+      "bytes": 191012,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M1B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m1",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-8bccf666dcc4b050",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2A/OSM_TBPDF_M2A01_e.pdf",
+      "sha256": "49c9f0c3645e819dabff49c8076634ed92d549a5edc3db30e501a12ea08dd78c",
+      "bytes": 1873636,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-d048a4cdab3e0ff3",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2A/OSM_TBPDF_M2A02_e.pdf",
+      "sha256": "b1b5fcba49aa2fe1bdc73005873171d83a29a11bc5b344f114d4dd3a68985bb5",
+      "bytes": 2394947,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-201ca1e9473ef7a3",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2A/OSM_TBPDF_M2A03_e.pdf",
+      "sha256": "2d7c646dc5ab819cf0015ef994a0c9077a9bff8b03bc53d91e105dbd9dd0a839",
+      "bytes": 5133338,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-27d05f84697e7ea3",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2A/OSM_TBPDF_M2A04_e.pdf",
+      "sha256": "c2185ca852462dc7c8cbef491d374c4586867bdb28067cbe7d7964fbcaaf0727",
+      "bytes": 3085739,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-f967ecbeec858d03",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2A/OSM_TBPDF_M2A05_e.pdf",
+      "sha256": "062be48b6b84b042d3f25d82fc1e2e5f921bf93e26616ed0d1f20425c5512fb2",
+      "bytes": 5867966,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-3737d47985b6e86b",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2A/OSM_TBPDF_M2A06_e.pdf",
+      "sha256": "2026f8e485e29ca56515c666d4ea60fd25467d33a8540395920e4940adfcafe3",
+      "bytes": 7010732,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-68242bb32b810192",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2A/OSM_TBPDF_M2AAR_e.pdf",
+      "sha256": "5ac9d092f1c9df73c84783bac24a30846cd936673e6c8f2f4d0b625e0d82f0b7",
+      "bytes": 203349,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2A",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-ea0bacfe2a20e3d4",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2B/OSM_TBPDF_M2B07_e.pdf",
+      "sha256": "af3345b96b17c0b3b8d9f7febaaf03267565f5e6716bf6ad5ca42d99fc6039c7",
+      "bytes": 6161791,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-38738c484c4cf7f8",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2B/OSM_TBPDF_M2B08_e.pdf",
+      "sha256": "4d7706c0a70e87938880d5bc6b45d778ed3fc853564b153f4840de358959df37",
+      "bytes": 4049252,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-832fde79c18ab0fa",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2B/OSM_TBPDF_M2B09_e.pdf",
+      "sha256": "f65bb6396cd9c27ceaf7215a4efe4792e0841920131375e9e291bcfb3dd5d71e",
+      "bytes": 5365310,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-5699a6c681a24caf",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2B/OSM_TBPDF_M2B10_e.pdf",
+      "sha256": "d85eedf6568128a37e21e0acc6b165949c46e33929d0b800107f13d67e5204c6",
+      "bytes": 5162455,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-7e38578a59c45689",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2B/OSM_TBPDF_M2B11_e.pdf",
+      "sha256": "12309fda3b1a12c01a1b476f2f8822edb0c493c96f2ef7a95c9ed401f24f5910",
+      "bytes": 4505909,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-033183f3fa57adb9",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2B/OSM_TBPDF_M2B12_e.pdf",
+      "sha256": "03a78c489d9451883db9b750b1a99b05124a0cf1c8cc21360057639574f9bf95",
+      "bytes": 4706540,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-487c7f3add457e24",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2B/OSM_TBPDF_M2B13_e.pdf",
+      "sha256": "c3ecdf1c72e73d1b059d2b6971bae25ad76a52932240bb29332e93d41a96bea2",
+      "bytes": 4127709,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    },
+    {
+      "id": "textbook-8473ba802ce0dd51",
+      "path": "牛津DSE数学英文教材4AB,5AB（还包括M1M2）/M2B/OSM_TBPDF_M2BAR_e.pdf",
+      "sha256": "8d0634b7d17fa25fb2da90ba00c7fc4737089c5b6eef6327e26c642906ae6ee0",
+      "bytes": 215776,
+      "collection": "oxford-textbooks",
+      "bookLocator": {
+        "volumeFolder": "M2B",
+        "edition": null,
+        "chapter": null,
+        "exercise": null
+      },
+      "courseCandidate": "m2",
+      "scopeReview": "待處理",
+      "scopeBasis": "folder-candidate-not-syllabus-verification"
+    }
+  ]
+}

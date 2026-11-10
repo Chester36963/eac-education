@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-10",
+  "summary": {
+    "sourceRecords": 1086,
+    "textbookFiles": 135,
+    "confirmedQuestionCountSources": 6,
+    "publishedQuestions": 1280,
+    "unlinkedPublishedQuestions": 1186,
+    "classificationFindingQuestions": 1280
+  },
+  "classificationIssueCounts": {
+    "difficulty-reason-not-recorded": 1280
+  },
+  "asgsSources": [
+    {
+      "id": "source-9d544273df11abe0",
+      "path": "S6/Sequence/ASGS review.docx",
+      "identityPath": "S6/Sequence/APGP review.docx",
+      "group": "S6",
+      "extension": ".docx",
+      "bytes": 1152152,
+      "sha256": "9720bbce2e334c342311b364323cef1b24646868e95820e8dd25dd7dd22cbaeb",
+      "container": null,
+      "member": null,
+      "roleHint": "exercise-candidate",
+      "reviewStatus": "待處理",
+      "questionCount": null,
+      "attributionStatus": "unverified",
+      "documentSignals": {
+        "mediaFiles": 19,
+        "embeddedObjects": 0,
+        "ommlElements": 0,
+        "textCharacters": 0
+      },
+      "collection": "by-topic-review-materials",
+      "confirmedSourceQuestions": null,
+      "questionCountLabel": "未點清",
+      "publishedUniqueQuestions": 0,
+      "publishedQuestionIds": [],
+      "otherOrUnknownVersionQuestionIds": [],
+      "batches": [],
+      "needsReconciliation": false,
+      "sourceVersionMismatch": false,
+      "workStatus": "待處理",
+      "publicationStatus": "not-linked-to-published-questions"
+    },
+    {
+      "id": "source-233787552d322be8",
+      "path": "S6/Sequence/ASGS review.pdf",
+      "identityPath": "S6/Sequence/APGP review.pdf",
+      "group": "S6",
+      "extension": ".pdf",
+      "bytes": 680642,
+      "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+      "container": null,
+      "member": null,
+      "roleHint": "exercise-candidate",
+      "reviewStatus": "待處理",
+      "questionCount": null,
+      "attributionStatus": "unverified",
+      "collection": "by-topic-review-materials",
+      "confirmedSourceQuestions": 8,
+      "questionCountLabel": "8",
+      "publishedUniqueQuestions": 6,
+      "publishedQuestionIds": [
+        "import-sequences-35083d882189dbc8",
+        "import-sequences-68c7d745d5ae8753",
+        "import-sequences-9f2d3660ddb2c277",
+        "import-sequences-e03314fc746f0d18",
+        "import-sequences-ef33715928261796",
+        "import-sequences-ffd4d7a5803d0451"
+      ],
+      "otherOrUnknownVersionQuestionIds": [],
+      "batches": [
+        {
+          "id": "intake-233787552d322be8",
+          "recorded": 8,
+          "expected": 8,
+          "dispositions": {
+            "duplicate": 2,
+            "publish": 6
+          },
+          "importReceipt": true
+        }
+      ],
+      "needsReconciliation": false,
+      "sourceVersionMismatch": false,
+      "workStatus": "處理中",
+      "publicationStatus": "has-published-questions"
+    },
+    {
+      "id": "source-c3c79dd6f99674ad",
+      "path": "S6/Sequence/Sequence review2.docx",
+      "group": "S6",
+      "extension": ".docx",
+      "bytes": 1178679,
+      "sha256": "3c735a199970f7dcb41e4c3dfb3cc3ed97cff1484264bade53411cf32c0638e0",
+      "container": null,
+      "member": null,
+      "roleHint": "exercise-candidate",
+      "reviewStatus": "待處理",
+      "questionCount": null,
+      "attributionStatus": "unverified",
+      "documentSignals": {
+        "mediaFiles": 34,
+        "embeddedObjects": 15,
+        "ommlElements": 0,
+        "textCharacters": 1636
+      },
+      "collection": "by-topic-review-materials",
+      "confirmedSourceQuestions": null,
+      "questionCountLabel": "未點清",
+      "publishedUniqueQuestions": 0,
+      "publishedQuestionIds": [],
+      "otherOrUnknownVersionQuestionIds": [],
+      "batches": [],
+      "needsReconciliation": false,
+      "sourceVersionMismatch": false,
+      "workStatus": "待處理",
+      "publicationStatus": "not-linked-to-published-questions"
+    },
+    {
+      "id": "source-611e81c1f3198537",
+      "path": "S6/Sequence/Sequence review2.pdf",
+      "group": "S6",
+      "extension": ".pdf",
+      "bytes": 920151,
+      "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+      "container": null,
+      "member": null,
+      "roleHint": "exercise-candidate",
+      "reviewStatus": "待處理",
+      "questionCount": null,
+      "attributionStatus": "unverified",
+      "collection": "by-topic-review-materials",
+      "confirmedSourceQuestions": 19,
+      "questionCountLabel": "19",
+      "publishedUniqueQuestions": 15,
+      "publishedQuestionIds": [
+        "import-sequences-083828c25b2ede1e",
+        "import-sequences-29578cd20b1a00e7",
+        "import-sequences-29efdd650e8a9ee9",
+        "import-sequences-33987111abb82cc0",
+        "import-sequences-543b53cd8538870a",
+        "import-sequences-582a4d68428abf36",
+        "import-sequences-798f919f5154d8b7",
+        "import-sequences-81dc382ae1469dce",
+        "import-sequences-8ef1f23da33dc9f3",
+        "import-sequences-93332cc9f00ee6f3",
+        "import-sequences-98b7754ea4f78c96",
+        "import-sequences-a8d5d3e3a011d51c",
+        "import-sequences-c43df14968861654",
+        "import-sequences-d2fc30a8928bb2cc",
+        "import-sequences-de250efe011b7ef2"
+      ],
+      "otherOrUnknownVersionQuestionIds": [],
+      "batches": [
+        {
+          "id": "intake-611e81c1f3198537",
+          "recorded": 19,
+          "expected": 19,
+          "dispositions": {
+            "publish": 15,
+            "hold": 3,
+            "duplicate": 1
+          },
+          "importReceipt": true
+        }
+      ],
+      "needsReconciliation": false,
+      "sourceVersionMismatch": false,
+      "workStatus": "處理中",
+      "publicationStatus": "has-published-questions"
+    },
+    {
+      "id": "source-6fe2030f28518ce0",
+      "path": "S6/Sequence/sequence review.docx",
+      "group": "S6",
+      "extension": ".docx",
+      "bytes": 126414,
+      "sha256": "cdf108db701eb8873369f21802114ce0c2aedb4011b183c598fc7024bc08cedb",
+      "container": null,
+      "member": null,
+      "roleHint": "exercise-candidate",
+      "reviewStatus": "待處理",
+      "questionCount": null,
+      "attributionStatus": "unverified",
+      "documentSignals": {
+        "mediaFiles": 78,
+        "embeddedObjects": 77,
+        "ommlElements": 0,
+        "textCharacters": 5131
+      },
+      "collection": "by-topic-review-materials",
+      "confirmedSourceQuestions": null,
+      "questionCountLabel": "未點清",
+      "publishedUniqueQuestions": 0,
+      "publishedQuestionIds": [],
+      "otherOrUnknownVersionQuestionIds": [],
+      "batches": [],
+      "needsReconciliation": false,
+      "sourceVersionMismatch": false,
+      "workStatus": "待處理",
+      "publicationStatus": "not-linked-to-published-questions"
+    },
+    {
+      "id": "source-46587d8d34399b76",
+      "path": "S6/Sequence/sequence review.pdf",
+      "group": "S6",
+      "extension": ".pdf",
+      "bytes": 231017,
+      "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+      "container": null,
+      "member": null,
+      "roleHint": "exercise-candidate",
+      "reviewStatus": "待處理",
+      "questionCount": null,
+      "attributionStatus": "unverified",
+      "collection": "by-topic-review-materials",
+      "confirmedSourceQuestions": 24,
+      "questionCountLabel": "24",
+      "publishedUniqueQuestions": 22,
+      "publishedQuestionIds": [
+        "import-sequences-09223be0bc3e03fd",
+        "import-sequences-14fea340bb56b38a",
+        "import-sequences-1ffb5de383481e90",
+        "import-sequences-23b5b0d5bb73cbc8",
+        "import-sequences-269521a8b923e7b4",
+        "import-sequences-279fd5f2337f7a52",
+        "import-sequences-27fcc8b2e30633cd",
+        "import-sequences-3cf9c64b363c030b",
+        "import-sequences-455c02f615a2538b",
+        "import-sequences-660a5bf776dee6ef",
+        "import-sequences-97175359520cbadc",
+        "import-sequences-9e194aa1e664f3f0",
+        "import-sequences-a2987dbfdad5d4d8",
+        "import-sequences-a61ec9fc6d2cf40e",
+        "import-sequences-a90a65d2d883995b",
+        "import-sequences-b1a0ebb82e8bd2d3",
+        "import-sequences-b71081eb0c88b64b",
+        "import-sequences-e189d03ff891b451",
+        "import-sequences-ec6a387f760dec57",
+        "import-sequences-f0aa410fa2d3106c",
+        "import-sequences-f23cf1d311fc94a2",
+        "import-sequences-fc8b140ff6062af5"
+      ],
+      "otherOrUnknownVersionQuestionIds": [],
+      "batches": [
+        {
+          "id": "intake-46587d8d34399b76",
+          "recorded": 24,
+          "expected": 24,
+          "dispositions": {
+            "publish": 22,
+            "hold": 2
+          },
+          "importReceipt": true
+        }
+      ],
+      "needsReconciliation": false,
+      "sourceVersionMismatch": false,
+      "workStatus": "處理中",
+      "publicationStatus": "has-published-questions"
+    }
+  ],
+  "limits": [
+    "No questions added or mathematically re-reviewed.",
+    "Unlinked legacy questions are not proof of absence; legacy HTML/note provenance remains separate.",
+    "Textbook registry supports future integration; current editor only accepts its original source root."
+  ]
+}

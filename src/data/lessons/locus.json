@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "topicId": "locus",
+  "chapterId": "locus",
+  "course": "core",
+  "name": {
+    "en": "Locus",
+    "zh-Hant": "軌跡"
+  },
+  "purpose": {
+    "zh-Hant": "把移動條件翻成幾何集合，再檢查交點與端點限制。",
+    "en": "Translate moving-point conditions into geometric sets, then check intersections and endpoint restrictions."
+  },
+  "prerequisites": {
+    "zh-Hant": "距離、中點、中垂線、角平分線及圓。",
+    "en": "Distances, midpoints, perpendicular bisectors, angle bisectors and circles."
+  },
+  "scopeNote": {
+    "zh-Hant": "本頁提供基本方法導讀及現有題庫入口；進階分支與完整圖解會繼續補充，並非完整課綱或全章筆記。",
+    "en": "This is a foundational method guide and an entry to the published bank. Advanced branches and complete visual explanations are still being developed; this is not a complete syllabus or chapter note."
+  },
+  "sections": [
+    {
+      "id": "translate",
+      "title": {
+        "zh-Hant": "把移動條件翻成集合",
+        "en": "Translate a moving-point condition into a set"
+      },
+      "intro": {
+        "zh-Hant": "軌跡是所有符合條件的位置。P 到固定點 O 的距離為正數 r，形成以 O 為圓心、r 為半徑的圓。",
+        "en": "A locus is the set of all positions satisfying a condition. A point P at a fixed positive distance r from O traces a circle centred at O."
+      },
+      "formulas": [
+        "\\(OP=r\\quad(r>0)\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "先寫誰是固定、誰在移動，以及距離是相等、固定還是成比例。",
+        "en": "Identify the fixed objects, the moving point, and whether distances are equal, fixed or in a ratio."
+      },
+      "trap": {
+        "zh-Hant": "只有符合全部條件的位置才保留；r=0 時退化成單一點。",
+        "en": "Retain only positions satisfying every condition. For r=0 the locus degenerates to one point."
+      },
+      "skills": [
+        "locus-fixed-radius",
+        "locus-distance-ratio"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "equal-distance",
+      "title": {
+        "zh-Hant": "等距：兩點與兩線",
+        "en": "Equal distances: points and lines"
+      },
+      "intro": {
+        "zh-Hant": "到兩個不同固定點等距，軌跡是連線的中垂線。到兩相交直線等距，軌跡是兩條角平分線；到兩平行直線等距，則是中間平行線。",
+        "en": "Equidistance from two distinct points gives their perpendicular bisector. Equidistance from two intersecting lines gives both angle bisectors; for two parallel lines it gives the parallel line midway between them."
+      },
+      "formulas": [
+        "\\(PA=PB\\quad(A\\ne B)\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "把「到點」與「到直線」分開；到直線的距離一定沿垂直方向量度。",
+        "en": "Distinguish point distances from line distances. Distance to a line is measured perpendicularly."
+      },
+      "trap": {
+        "zh-Hant": "相交線的等距軌跡有兩條角平分線；題目限制角域時才取相應部分。",
+        "en": "There are two angle bisectors for intersecting lines. Restrict the locus only when the question restricts the region."
+      },
+      "skills": [
+        "locus-perp-bisector",
+        "locus-parallel-midline",
+        "locus-angle-bisectors",
+        "locus-parallel-distance"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "intersection",
+      "title": {
+        "zh-Hant": "直角、交集與坐標檢查",
+        "en": "Right angles, intersections and coordinates"
+      },
+      "intro": {
+        "zh-Hant": "若 PA 垂直 PB，P 在以 AB 為直徑的圓上，但 P 不能等於 A 或 B，否則夾角沒有定義。多個條件要取軌跡交集。",
+        "en": "If PA is perpendicular to PB, P lies on the circle with diameter AB, excluding A and B where the angle is undefined. Multiple conditions require intersecting loci."
+      },
+      "formulas": [
+        "\\(\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=0,\\quad P\\ne A,B\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "先各自找軌跡，再解交點，最後逐點代回原條件並排除端點。",
+        "en": "Find each locus first, solve their intersections, then check every candidate against the original conditions and excluded endpoints."
+      },
+      "trap": {
+        "zh-Hant": "距離平方或代數化可帶來退化或多餘候選；線段限制不能當作整條直線。",
+        "en": "Squaring distances or algebraic conversion can introduce degenerate or unwanted candidates. A segment restriction is not a whole line."
+      },
+      "skills": [
+        "locus-thales",
+        "locus-line-circle",
+        "locus-coordinate-chain",
+        "locus-transform",
+        "locus-moving-centre",
+        "locus-fixed-area",
+        "locus-focus-directrix",
+        "locus-expand-distances"
+      ],
+      "exampleIds": []
+    }
+  ]
+}

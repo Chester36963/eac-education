@@ -11,6 +11,7 @@ try{
     JSON.parse(fs.readFileSync(path.join(ROOT,'content/planning/curriculum.json'),'utf8')),
     JSON.parse(files.get(manifest.index)).questions);
   files.set('data/curriculum.json',JSON.stringify(directory,null,2)+'\n');
+  for(const [name,body] of require('./lessons.cjs').lessonFiles(ROOT,source))files.set(name,body);
   const stale=[];
   for(const [relative,body] of files){
     const target=path.join(ROOT,'src',relative);

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "topicId": "statistics",
+  "chapterId": "statistics",
+  "course": "core",
+  "name": {
+    "en": "Statistics",
+    "zh-Hant": "統計"
+  },
+  "purpose": {
+    "zh-Hant": "讀懂分佈、反推頻數，並檢查合併與變換對統計量的影響。",
+    "en": "Read distributions, recover frequencies and check how combining or transforming data affects statistics."
+  },
+  "prerequisites": {
+    "zh-Hant": "四則運算、百分比、排序與基本代數。",
+    "en": "Arithmetic, percentages, ordering and basic algebra."
+  },
+  "scopeNote": {
+    "zh-Hant": "本頁提供基本方法導讀及現有題庫入口；進階分支與完整圖解會繼續補充，並非完整課綱或全章筆記。",
+    "en": "This is a foundational method guide and an entry to the published bank. Advanced branches and complete visual explanations are still being developed; this is not a complete syllabus or chapter note."
+  },
+  "sections": [
+    {
+      "id": "read",
+      "title": {
+        "zh-Hant": "先讀清數據與圖表",
+        "en": "Read the data and displays carefully"
+      },
+      "intro": {
+        "zh-Hant": "先找樣本數、變量、單位、組界及頻數。平均數、中位數與眾數描述的中心不同；比較分佈時須同時考慮中心與離散。",
+        "en": "Identify sample size, variable, units, class boundaries and frequencies. Mean, median and mode describe different centres. Compare both centre and spread."
+      },
+      "formulas": [
+        "\\(\\bar x=\\frac{\\sum f_ix_i}{\\sum f_i}\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "排序後才找中位數及四分位數；幹葉圖先讀 key，框線圖先辨認五數概括。",
+        "en": "Order observations before finding the median and quartiles. Read a stem-and-leaf key and identify the five-number summary of a box plot."
+      },
+      "trap": {
+        "zh-Hant": "分組數據用組中值估計平均數，不代表每個原值都等於組中值。",
+        "en": "A grouped-data mean estimated with class midpoints does not mean all observations equal those midpoints."
+      },
+      "skills": [
+        "statistics-type-0",
+        "statistics-type-1",
+        "statistics-type-2",
+        "statistics-type-4"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "unknowns",
+      "title": {
+        "zh-Hant": "由統計條件反推數據",
+        "en": "Recover observations and frequencies"
+      },
+      "intro": {
+        "zh-Hant": "反推題先列總頻數及加權總和；中位數條件涉及排序位置，不能只列平均數方程。",
+        "en": "Start reconstruction with total frequency and weighted sum. Median conditions constrain ordered positions, not just the mean equation."
+      },
+      "formulas": [
+        "\\(\\sum f_i=N,\\qquad\\sum f_ix_i=N\\bar x\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "未知頻數通常要是非負整數；同時檢查排序、中位數位置及題目附加條件。",
+        "en": "Unknown frequencies normally need to be nonnegative integers. Also check ordering, median positions and additional conditions."
+      },
+      "trap": {
+        "zh-Hant": "聯立方程的根可能不符合頻數或次序；必須回到原數據定義篩選。",
+        "en": "Solutions of the equations can violate frequency or ordering constraints. Filter them against the original data."
+      },
+      "skills": [
+        "statistics-type-3",
+        "statistics-type-5",
+        "statistics-type-6",
+        "statistics-type-7"
+      ],
+      "exampleIds": []
+    },
+    {
+      "id": "transformations",
+      "title": {
+        "zh-Hant": "合併與線性變換",
+        "en": "Combining groups and linear transformations"
+      },
+      "intro": {
+        "zh-Hant": "合併平均數按樣本數加權；每項變成 y=ax+b 時，平均數跟同一變換，標準差乘以 |a|。",
+        "en": "A combined mean is weighted by group sizes. If y=ax+b for every observation, the mean follows the same transformation and the standard deviation is multiplied by |a|."
+      },
+      "formulas": [
+        "\\(\\bar x_{\\rm combined}=\\frac{n_1\\bar x_1+n_2\\bar x_2}{n_1+n_2}\\)",
+        "\\(\\bar y=a\\bar x+b,\\quad\\sigma_y=|a|\\sigma_x\\)"
+      ],
+      "trigger": {
+        "zh-Hant": "先分清是整組變換還是加入／刪除某個數據；兩者不能用同一規則。",
+        "en": "Distinguish transforming every observation from adding or deleting observations; they require different rules."
+      },
+      "trap": {
+        "zh-Hant": "平移不改變標準差；負倍數不能令標準差變成負數。合併標準差也不能直接取加權平均。",
+        "en": "Translation leaves standard deviation unchanged. A negative scale factor cannot make it negative. Combined standard deviations are not obtained by a simple weighted average."
+      },
+      "skills": [
+        "statistics-type-8",
+        "statistics-type-9"
+      ],
+      "exampleIds": []
+    }
+  ]
+}
