@@ -1,13 +1,15 @@
 document.addEventListener('DOMContentLoaded',async()=>{
   const container=document.getElementById('home-chapters');if(!container)return;
   try{
-    const catalog=await QuestionBank.catalog();const chapters=catalog.subjects.flatMap(s=>s.chapters);
-    const links=chapters.map((chapter,index)=>{
-      const link=document.createElement('a');link.className='index-row';link.href='library.html?'+new URLSearchParams({chapter:chapter.id});
+    const [catalog,response]=await Promise.all([QuestionBank.catalog(),fetch('data/curriculum.json',{cache:'no-cache'})]);if(!response.ok)throw Error('Curriculum unavailable');const curriculum=await response.json();const chapters=catalog.subjects.flatMap(s=>s.chapters);const byChapter=new Map(chapters.map(c=>[c.id,c]));
+    const symbols={number:'ℕ',algebra:'ƒ',geometry:'△','coordinate-geometry':'(x,y)',mensuration:'πr²',trigonometry:'sin θ',statistics:'x̄',probability:'P(A)',calculus:'∫'};
+    const controls=document.createElement('div');controls.className='home-course-controls';controls.setAttribute('aria-label','選擇課程');const summary=document.createElement('p');summary.className='home-course-summary';summary.setAttribute('aria-live','polite');const groups=document.createElement('div');
+    const links=curriculum.topics.map((topic,index)=>{const chapter=byChapter.get(topic.chapterId);
+      const link=document.createElement('a');link.className='index-row';link.dataset.track=topic.trackId;link.dataset.topic=topic.id;link.href=chapter?'library.html?'+new URLSearchParams({chapter:chapter.id,course:topic.trackId}):'courses.html?'+new URLSearchParams({track:topic.trackId,q:topic.name.en});
       const number=document.createElement('span');number.className='index-no';number.textContent=String(index+1).padStart(2,'0');
-      const title=document.createElement('span');title.className='index-title';title.textContent=chapter.name.en;
-      const zh=document.createElement('small');zh.textContent=chapter.name['zh-Hant'];title.append(zh);
-      const description=document.createElement('span');description.className='index-desc';description.textContent=`${chapter.questionCount} 題 · ${chapter.subcategories.length} 個分類`;
+      const title=document.createElement('span');title.className='index-title';title.textContent=topic.name.en;
+      const zh=document.createElement('small');zh.textContent=topic.name['zh-Hant'];title.append(zh);
+      const description=document.createElement('span');description.className='index-desc';description.textContent=chapter?`${chapter.questionCount} 題 · ${chapter.subcategories.length} 個分類`:`內容準備中 · 查看 ${topic.subtopics.length} 個學習範圍`;const state=document.createElement('small');state.className='home-topic-state';state.textContent=chapter?'可開始練習':'內容準備中';title.append(state);
       const art=document.createElement('span');art.className='chapter-art';art.setAttribute('aria-hidden','true');
       const drawings={
         'four-centres':'<g class="art-orbit"><circle cx="50" cy="40" r="29" class="art-accent"/><path d="M15 65L43 8L87 65Z M43 8V65 M15 65L65 35"/><circle cx="43" cy="43" r="2"/></g>',
@@ -19,9 +21,11 @@ document.addEventListener('DOMContentLoaded',async()=>{
         statistics:'<path d="M10 66H94M14 66V10" opacity=".4"/><path d="M23 66V45H38V66M45 66V20H60V66M67 66V33H82V66" class="art-accent"/>',
         'linear-programming':'<path d="M10 66H94M14 66V7" opacity=".4"/><path d="M28 57H77L63 24L28 35Z" class="art-accent"/><path d="M16 47L85 15" stroke-dasharray="3 3"/><circle cx="63" cy="24" r="3"/>'
       };
-      art.innerHTML='<svg viewBox="0 0 100 80">'+(drawings[chapter.id]||drawings['four-centres'])+'</svg>';
+      if(chapter&&drawings[chapter.id])art.innerHTML='<svg viewBox="0 0 100 80">'+drawings[chapter.id]+'</svg>';else{art.classList.add('chapter-symbol');art.textContent=symbols[topic.areaId]||'∴';}
       const arrow=document.createElement('span');arrow.className='index-arrow';arrow.textContent='↗';link.append(number,art,title,description,arrow);return link;
     });
-    container.replaceChildren(...links);
+    for(const track of curriculum.tracks){const group=document.createElement('section');group.className='home-course-group';group.dataset.track=track.id;const heading=document.createElement('h3');heading.textContent=track.name['zh-Hant'];const english=document.createElement('small');english.textContent=track.name.en;heading.append(english);group.append(heading,...links.filter(l=>l.dataset.track===track.id));groups.append(group);}
+    for(const [id,label]of [['all','全部課程'],...curriculum.tracks.map(t=>[t.id,t.id==='core'?'Core 必修':t.id.toUpperCase()])]){const b=document.createElement('button');b.type='button';b.textContent=label;b.dataset.homeTrack=id;b.setAttribute('aria-pressed',String(id==='all'));b.onclick=()=>{controls.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));groups.querySelectorAll('.home-course-group').forEach(g=>g.hidden=id!=='all'&&g.dataset.track!==id);const rows=curriculum.topics.filter(t=>id==='all'||t.trackId===id);summary.textContent=`${rows.length} 個課題 · ${rows.filter(t=>t.questionCount).length} 個可開始練習 · 其餘內容準備中`;};controls.append(b);}
+    container.replaceChildren(controls,summary,groups);controls.querySelector('button').click();
   }catch(error){/* Keep the existing chapter links available if the catalog is offline. */}
 });
