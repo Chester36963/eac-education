@@ -8,23 +8,35 @@
  intro.insertAdjacentHTML('afterbegin','<span class="book-intro-label">EAC EDUCATION / A NEW CHAPTER</span><button class="book-skip" type="button">略過動畫 ↗</button>');
  intro.insertAdjacentHTML('beforeend','<span class="book-intro-footer">Every idea begins with an open page.</span>');
  function bookDiagram(i){
-  if(i%2===0){const model=EACModels.triangle(EACModels.presets.acute),p=v=>[120+72*v[0],150-72*v[1]],v=model.vertices.map(p),c=p(model.centres.I);return `<circle cx="120" cy="150" r="72"/><path d="M${v.join('L')}Z"/><circle cx="${c[0]}" cy="${c[1]}" r="${model.r*72}"/><circle cx="120" cy="150" r="2"/><text x="126" y="147">O</text>`;}
+  if(i%3===0){const model=EACModels.triangle(EACModels.presets.acute),p=v=>[120+72*v[0],150-72*v[1]],v=model.vertices.map(p),c=p(model.centres.I);return `<circle cx="120" cy="150" r="72"/><path d="M${v.join('L')}Z"/><circle cx="${c[0]}" cy="${c[1]}" r="${model.r*72}"/><circle cx="120" cy="150" r="2"/><text x="126" y="147">O</text>`;}
+  if(i%3===2){const ps=Array.from({length:81},(_,j)=>{const x=-1.6+j/25;return [120+55*x,225-55*x*x];});return `<path d="M28 170H218M120 60V245" opacity=".3"/><path d="M${ps.join('L')}"/><circle cx="65" cy="170" r="2"/><circle cx="175" cy="170" r="2"/><text x="61" y="187">−1</text><text x="173" y="187">1</text><text x="74" y="50">y = x² − 1</text>`;}
   const ps=Array.from({length:121},(_,j)=>[28+j*1.55,150-55*Math.sin(j/120*2*Math.PI)]);return `<path d="M28 150H218M28 65V235" opacity=".3"/><path d="M${ps.join('L')}"/><text x="95" y="75">y = sin x</text>`;
  }
  const leaf=()=>{const d=document.createElement('div');d.className='book-leaf';return d;};
  for(let j=0;j<3;j++){const d=leaf();d.classList.add('leaf-extra');d.style.setProperty('--leaf-index',j);intro.querySelector('.book-cover').before(d);}
- intro.querySelectorAll('.book-leaf').forEach((leaf,i)=>{leaf.innerHTML=`<svg viewBox="0 0 240 320" aria-hidden="true"><g class="page-ink"><text x="30" y="28">EAC / THE MATHEMATICS OF POSSIBILITY</text>${bookDiagram(i)}<text x="204" y="305">0${i+1}</text></g></svg>`;});
+ intro.querySelectorAll('.book-leaf').forEach((leaf,i)=>{leaf.innerHTML=`<svg viewBox="0 0 240 320" aria-hidden="true"><g class="page-ink"><text x="30" y="28">EAC / MATHEMATICS</text>${bookDiagram(i)}<text x="204" y="305">0${i+1}</text></g></svg>`;});
  intro.querySelector('.book-pages svg').setAttribute('viewBox','0 0 240 320');intro.querySelector('.book-pages svg').innerHTML=bookDiagram(0);intro.querySelector('.book-cover svg').setAttribute('viewBox','0 0 240 320');intro.querySelector('.book-cover svg').innerHTML=bookDiagram(0);
- let openingTimer;
- function closeBook(){clearTimeout(openingTimer);figure.classList.remove('is-opening');intro.classList.remove('is-active');intro.setAttribute('aria-hidden','true');if(intro.contains(document.activeElement))document.getElementById('replay-book').focus();}
+ const object=intro.querySelector('.book-object'),stage=document.createElement('div');stage.className='book-stage';object.before(stage);stage.append(object);
+ const ambience=document.createElement('div');ambience.className='book-ambience';ambience.setAttribute('aria-hidden','true');ambience.innerHTML='<svg viewBox="0 0 1000 700"><circle cx="500" cy="350" r="235"/><ellipse cx="500" cy="350" rx="340" ry="130" transform="rotate(-24 500 350)"/><path d="M180 530L500 110L820 530Z"/><circle cx="500" cy="110" r="4"/><circle cx="180" cy="530" r="4"/><circle cx="820" cy="530" r="4"/></svg>';intro.prepend(ambience);
+ intro.insertAdjacentHTML('beforeend','<div class="book-playback"><button class="book-pause" type="button" aria-pressed="false">Ⅱ 暫停</button><span class="book-chapter" aria-live="off">01 / RECOGNISE THE IDEA</span><span class="book-progress" aria-hidden="true"><i></i></span></div>');
+ const pauseBook=intro.querySelector('.book-pause'),chapterBook=intro.querySelector('.book-chapter');
+ let openingFrame=0,openingElapsed=0,openingPrevious=0,openingPaused=false,openingActive=false,returnFocus=null,previousOverflow=null;
+ const pageRegions=[...document.querySelectorAll('body>header,body>main,body>footer')],priorInert=new Map();
+ function syncBookPause(){intro.classList.toggle('book-is-paused',openingPaused||document.hidden);pauseBook.textContent=openingPaused?'▷ 繼續':'Ⅱ 暫停';pauseBook.setAttribute('aria-pressed',String(openingPaused));}
+ function closeBook(){cancelAnimationFrame(openingFrame);if(previousOverflow!==null){document.body.style.overflow=previousOverflow;previousOverflow=null;}openingActive=false;figure.classList.remove('is-opening');intro.classList.remove('is-active','book-is-paused');intro.setAttribute('aria-hidden','true');for(const region of pageRegions)if(priorInert.has(region))region.inert=priorInert.get(region);priorInert.clear();stage.style.transform='';if(intro.contains(document.activeElement))(returnFocus&&returnFocus!==document.body&&returnFocus.isConnected?returnFocus:document.getElementById('replay-book')).focus({preventScroll:true});}
+ function openingTick(time){if(!openingActive)return;if(!openingPaused&&!document.hidden&&openingPrevious)openingElapsed+=Math.min(time-openingPrevious,60);openingPrevious=time;const t=Math.min(1,openingElapsed/4800);intro.style.setProperty('--intro-progress',t);intro.dataset.openingPhase=t<.32?'idea':t<.69?'method':'practice';chapterBook.textContent=t<.32?'01 / RECOGNISE THE IDEA':t<.69?'02 / EXPLORE THE METHOD':'03 / MAKE IT YOURS';if(t===1){closeBook();return;}openingFrame=requestAnimationFrame(openingTick);}
  function openBook(){
-  closeBook();
-  if(reduced.matches)return;
-  void intro.offsetWidth;figure.classList.add('is-opening');intro.classList.add('is-active');intro.setAttribute('aria-hidden','false');
-  openingTimer=setTimeout(closeBook,4800);
+  closeBook();if(reduced.matches)return;
+  returnFocus=document.activeElement;previousOverflow=document.body.style.overflow;document.body.style.overflow='hidden';openingElapsed=0;openingPrevious=0;openingPaused=false;openingActive=true;intro.style.setProperty('--intro-progress',0);intro.dataset.openingPhase='idea';chapterBook.textContent='01 / RECOGNISE THE IDEA';for(const region of pageRegions){priorInert.set(region,region.inert);region.inert=true;}
+  void intro.offsetWidth;figure.classList.add('is-opening');intro.classList.add('is-active');intro.setAttribute('aria-hidden','false');syncBookPause();intro.querySelector('.book-skip').focus({preventScroll:true});openingFrame=requestAnimationFrame(openingTick);
  }
+ intro.setAttribute('role','dialog');intro.setAttribute('aria-modal','true');
+ pauseBook.onclick=()=>{openingPaused=!openingPaused;syncBookPause();};
  intro.querySelector('.book-skip').onclick=closeBook;
- document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBook();});
+ intro.addEventListener('keydown',e=>{if(e.key!=='Tab')return;const buttons=[intro.querySelector('.book-skip'),pauseBook],index=buttons.indexOf(document.activeElement);e.preventDefault();buttons[(index+(e.shiftKey?-1:1)+buttons.length)%buttons.length].focus();});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&openingActive)closeBook();});
+ document.addEventListener('visibilitychange',()=>{openingPrevious=0;syncBookPause();if(document.hidden&&openingActive){cancelAnimationFrame(openingFrame);openingFrame=0;}else if(openingActive&&!openingFrame)openingFrame=requestAnimationFrame(openingTick);});
+ intro.addEventListener('pointermove',e=>{if(!openingActive||openingPaused||reduced.matches||e.pointerType!=='mouse')return;const x=Math.max(-1,Math.min(1,(e.clientX/innerWidth-.5)*2)),y=Math.max(-1,Math.min(1,(e.clientY/innerHeight-.5)*2));stage.style.transform=`rotateX(${-y*3}deg) rotateY(${x*4}deg)`;});intro.addEventListener('pointerleave',()=>stage.style.transform='');
  document.getElementById('replay-book').onclick=openBook;
  reduced.addEventListener('change',()=>{if(reduced.matches)closeBook();});
  openBook();
@@ -146,7 +158,7 @@
  const visibility=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.target===figure)heroVisible=entry.isIntersecting;else studioVisible=entry.isIntersecting;}));visibility.observe(figure);visibility.observe(studio);
  function frame(now){
   const dt=previous?Math.min((now-previous)/1000,.08):0;previous=now;
-  if(!document.hidden&&!paused&&!reduced.matches&&(heroVisible||studioVisible)){
+  if(!openingActive&&!document.hidden&&!paused&&!reduced.matches&&(heroVisible||studioVisible)){
    elapsed+=dt;
    if(now-lastPaint>40){const paintDt=Math.min((now-lastPaint)/1000,.08);lastPaint=now;
     if(heroVisible&&!geometryManual&&!dragging&&!handles.includes(document.activeElement)&&document.activeElement!==slider){phase=(phase+paintDt*12)%360;slider.value=Math.round(phase);const target=shapeAt(phase);if(resumeFrom){resumeTime=Math.min(1,resumeTime+paintDt);const mix=(1-Math.cos(resumeTime*Math.PI))/2;angles=target.map((v,i)=>resumeFrom[i]+(v-resumeFrom[i])*mix);if(resumeTime===1)resumeFrom=null;}else angles=target;updateGeometry();}

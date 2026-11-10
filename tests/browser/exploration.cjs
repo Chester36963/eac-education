@@ -2,7 +2,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const assert=require('node:assert/strict'),fs=require('node:fs');
 const output='/tmp/eac-explore';fs.mkdirSync(output,{recursive:true});
 const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
-const chapterCount=require('../../src/data/bank.json').chapterCount;
+const chapterCount=require('../../src/data/curriculum.json').topics.length;
 (async()=>{
  const browser=await chromium.launch();
  try{

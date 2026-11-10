@@ -1,0 +1,27 @@
+{
+  "status": "local-pass-awaiting-release",
+  "nodeTests": 1136,
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "goalModes": [
+    "learn",
+    "practice",
+    "compose"
+  ],
+  "browserSuites": [
+    "home-experience",
+    "exploration",
+    "courses",
+    "home-curriculum",
+    "library"
+  ],
+  "diagrams": "original conceptual illustrations; no question diagrams changed",
+  "visibilityTest": "synthetic document visibility event and progress freeze; physical device/background-tab performance not measured",
+  "questionsAdded": 0,
+  "bankTotal": 1280,
+  "bankRevision": "1b59271bbc82cf4f"
+}

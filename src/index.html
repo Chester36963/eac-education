@@ -5,6 +5,7 @@
   <title>EAC Education | Mathematics, taught properly</title>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/decorations.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/site.css"><link rel="stylesheet" href="css/exploration.css?v=f23c9b6de366">
+  <link rel="stylesheet" href="css/home-journey.css?v=8665c5d34503">
 </head>
 <body class="editorial-home">
   <header class="site-header editorial-header"><div class="header-inner"><a href="index.html" class="logo" aria-label="EAC Education 主頁">EAC<span class="brand-name">EDUCATION</span></a><div class="header-edition">MATHEMATICS / 香港</div><nav class="site-nav" aria-label="Main navigation"><a href="courses.html">課程目錄</a><a href="#approach">教學理念</a><a href="dashboard.html" class="btn btn-primary btn-sm">開始溫習 ↗</a></nav></div></header>
@@ -21,6 +22,16 @@
         <figcaption class="composition-caption"><div><span>FOUR CENTRES · ONE TRIANGLE</span><strong>圓不變，關係在變。</strong></div><p><span class="geometry-equation">OI² = R(R − 2r)</span>拖動頂點，觀察四心</p></figcaption>
       </figure>
       <div class="cover-signoff"><span>Understand. Practise. Make progress.</span><a href="#library" class="cover-text-link">探索課題 <span aria-hidden="true">↓</span></a><span>FORM 1–6 / HONG KONG</span></div>
+    </section>
+    <section class="home-journey" id="start-your-way" aria-labelledby="journey-title">
+      <div><p class="cover-kicker">YOUR NEXT MOVE</p><h2 id="journey-title">One idea.<br>Three ways in.</h2><p class="journey-lead">今日想先學懂，定直接落手？揀一個課題，由適合你嘅一步開始。</p>
+      <div id="journey-controls" hidden><fieldset class="journey-options"><legend>你想點樣開始？</legend><label class="journey-choice"><input type="radio" name="journey-goal" value="learn" checked>學概念<small>UNDERSTAND</small></label><label class="journey-choice"><input type="radio" name="journey-goal" value="practice">練技巧<small>PRACTISE</small></label><label class="journey-choice"><input type="radio" name="journey-goal" value="compose">編試卷<small>COMPOSE</small></label></fieldset><label class="journey-topic-label">選擇已上架課題<select id="journey-topic"></select></label><a class="journey-action" id="journey-go" href="courses.html">打開概念導讀 ↗</a></div>
+      <div id="journey-fallback"><a href="courses.html">探索課程 →</a><a href="library.html">按技巧揀題 →</a><a href="papers.html">自訂試卷 →</a></div></div>
+      <div class="journey-preview"><span id="journey-mode-label">01 / UNDERSTAND</span><svg id="journey-art" viewBox="0 0 400 260" role="img" aria-label="概念、技巧練習與自訂試卷的示意圖">
+      <g data-journey-scene="learn"><path class="journey-paper" d="M55 34Q125 20 200 45Q275 20 345 34V224Q275 210 200 235Q125 210 55 224Z"/><path d="M200 45V235"/><circle class="journey-ink" cx="126" cy="125" r="49"/><path class="journey-ink" d="M83.565 149.5L126 76L168.435 149.5Z"/><circle cx="126" cy="125" r="24.5"/><text x="227" y="104">Recognise.</text><text x="227" y="136">Connect.</text><text x="227" y="168">Understand.</text></g>
+      <g data-journey-scene="practice" style="display:none"><path d="M65 205H350M65 205V38"/><path class="journey-ink" d="M100 166V205M170 140V205M240 114V205M310 88V205"/><g class="journey-dot"><circle class="journey-dot" cx="100" cy="166" r="5"/><circle class="journey-dot" cx="170" cy="140" r="5"/><circle class="journey-dot" cx="240" cy="114" r="5"/><circle class="journey-dot" cx="310" cy="88" r="5"/></g><text x="93" y="154">3</text><text x="163" y="128">5</text><text x="233" y="102">7</text><text x="303" y="76">9</text><text x="91" y="225">1</text><text x="161" y="225">2</text><text x="231" y="225">3</text><text x="301" y="225">4</text><text x="346" y="225">n</text><text x="90" y="42">Tₙ = 2n + 1</text></g>
+      <g data-journey-scene="compose" style="display:none"><path class="journey-paper" d="M112 35H307V215H112Z"/><path class="journey-paper" d="M100 25H295V205H100Z"/><path class="journey-paper" d="M88 15H283V195H88Z"/><text x="109" y="48">YOUR PRACTICE / 01</text><path class="journey-ink" d="M112 78H254M112 119H254M112 160H254"/><text x="111" y="71">01</text><text x="111" y="112">02</text><text x="111" y="153">03</text><text x="105" y="245">Choose. Arrange. Practise.</text></g>
+      </svg><p id="journey-description">由概念連到例題，再以同技巧練習核對理解。</p></div>
     </section>
     <section class="math-studio" id="math-studio" aria-labelledby="studio-title">
       <div class="studio-heading"><div><p class="cover-kicker">THE MATHEMATICS IN MOTION · 02</p><h2 id="studio-title">An idea.<br><em>Set in motion.</em></h2></div><p>轉一個角，改一個數。<br>睇見公式背後嘅變化。</p><button type="button" id="motion-toggle" class="motion-toggle" aria-pressed="false">Ⅱ 暫停動態</button></div>
@@ -40,5 +51,6 @@
     <section class="approach-strip" id="approach"><div><p class="cover-kicker">THE EAC APPROACH</p><h2>Less noise.<br>More knowing why.</h2></div><div class="approach-copy"><p>每一頁都由老師嘅解題取向出發：先分清概念，再揀方法，最後用題目驗證自己真係識。</p><div class="approach-notes"><span><b>01</b> Name the idea</span><span><b>02</b> Choose the method</span><span><b>03</b> Explain the step</span></div></div></section>
     <section class="editorial-cta"><span class="cover-kicker">A QUIET PLACE TO PRACTISE</span><h2>Open your next set.</h2><a href="dashboard.html" class="btn btn-primary">Enter EAC →</a></section>
   </main><footer class="site-footer"><span>© 2026 EAC Education</span><span>Mathematics for the long view.</span></footer>
-  <script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/home.js?v=5a357ec26387"></script><script src="js/core/math-models.js?v=24789fc6d790"></script><script src="js/features/exploration.js?v=2cfa9e2a450d"></script>
+  <script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script><script src="js/core/question-bank.js"></script><script src="js/features/home.js?v=5a357ec26387"></script><script src="js/core/math-models.js?v=24789fc6d790"></script><script src="js/features/exploration.js?v=030379107b7a"></script>
+<script src="js/features/home-journey.js?v=a377d661dc9d"></script>
 </body></html>
