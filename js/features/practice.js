@@ -209,7 +209,7 @@ async function renderQuestion({focusQuestion=false,revealResult=false}={}){
   el('options-container').append(b);
  }
  const numeric=q.questionType==='short-answer',manual=!Learning.automatic(q);
- el('question-guidance').textContent=manual?'先在紙上完成推導，然後在下面記下答案。按「核對書面作答」查看解法，再記錄是否掌握。':numeric?'輸入數值或分數，例如 5/6。單位不用輸入，再按「核對答案」。':'選一個答案，再按「核對答案」。卡住可以先看提示。';
+ el('question-guidance').textContent=manual?'先在紙上完成推導，然後在下面記下答案。按「核對書面作答」查看解法，再記錄是否符合要點。':numeric?'輸入數值或分數，例如 5/6。單位不用輸入，再按「核對答案」。':'選一個答案，再按「核對答案」。卡住可以先看提示。';
  if(result)el('question-guidance').textContent=selfTest()?'答案已記錄；本組完成後可查看解法。':'已完成核對。讀完解題方法，就可以前往下一題。';
  el('numeric-answer-wrap').hidden=!numeric;el('written-answer-wrap').hidden=!manual;
  el('numeric-answer').value=numeric?(result?.response||sessionState.drafts[q.id]||''):'';el('written-answer').value=manual?(result?.response||sessionState.drafts[q.id]||''):'';
@@ -217,7 +217,7 @@ async function renderQuestion({focusQuestion=false,revealResult=false}={}){
  el('submit-btn').hidden=!!result;el('submit-btn').textContent=manual?'核對書面作答':selfTest()?'記錄答案':'核對答案';
  el('next-btn').hidden=!result;el('next-btn').textContent=sessionState.index===queue.length-1?'完成並查看回顧 →':'下一題 →';
  el('skip-btn').hidden=!!result;el('hint-btn').hidden=selfTest()||!q.hint;el('solution-btn').hidden=selfTest();
- renderBookmark();if(result&&!selfTest()){showResult(result.assessment==='self'?`已記錄自評：${result.correct?'符合要點':'仍需重練'}`:result.correct?'答對了，睇返解題方法。':'需要再練，先釐清解析。',result.correct);showSolution();}
+ renderReflection(result&&!selfTest()&&!result.correct?result:null);renderBookmark();if(result&&!selfTest()){showResult(result.assessment==='self'?`已記錄自評：${result.correct?'符合要點':'仍需重練'}`:result.correct?'答對了，睇返解題方法。':'需要再練，先釐清解析。',result.correct);showSolution();}
  if(result&&selfTest())showResult('答案已記錄，完成本組後再看解析。',true);
  el('active-set').hidden=false;el('active-set').dataset.questionId=q.id;
  await EACMath.render(el('active-set'));
@@ -255,13 +255,13 @@ function handleSubmit(){
 }
 function recordAnswer(correct,assessment){
  if(isAnswerSubmitted)return;const q=question(),value=response();if(!value)return;
- if(!Storage.saveQuestion(q.topicId,q.category,q.difficulty,q.id,correct,{selectedAnswer:value,skill:q.skill,subcategory:q.subcategory,course:Learning.course(q),assessment})) {showResult('未能儲存作答，請檢查瀏覽器儲存空間後再試。',false);return;}
+ if(!Storage.saveQuestion(q.topicId,q.category,q.difficulty,q.id,correct,{selectedAnswer:value,skill:q.skill,subcategory:q.subcategory,course:Learning.course(q),assessment,attemptId:attemptEvidence(q).id,...attemptEvidence(q)})) {showResult('未能儲存作答，請檢查瀏覽器儲存空間後再試。',false);return;}
  currentUser=Storage.getUser();Gamification.incrementDailyCount(currentUser);Gamification.updateStreak(currentUser,correct);Gamification.checkAchievements(currentUser);Storage.saveUser(currentUser);
- sessionState.answers[q.id]={response:value,correct,assessment};persist();renderQuestion({revealResult:true});updateCount();
+ sessionState.answers[q.id]={response:value,correct,assessment,attemptId:attemptEvidence(q).id};persist();renderQuestion({revealResult:true});updateCount();
 }
 function nextQuestion(){if(sessionState.index===queue.length-1)finishSession();else{sessionState.index++;persist();renderQuestion({focusQuestion:true});}}
-async function showHint(){if(selfTest())return;const q=question();EACMath.clear(el('hint-text'));el('hint-text').textContent=textPair(q.hint,q.hintZh);el('hint-panel').hidden=false;el('hint-btn').setAttribute('aria-expanded','true');el('hint-btn').textContent='收起提示';await EACMath.render(el('hint-text'));}
-async function showSolution(){if(selfTest())return;const q=question();EACMath.solution(el('solution-text'),q,sessionState.selection.language);el('solution-panel').hidden=false;el('solution-btn').setAttribute('aria-expanded','true');el('solution-btn').textContent='收起解析';await EACMath.render(el('solution-text'));}
+async function showHint(){if(selfTest())return;if(!isAnswerSubmitted){attemptEvidence(question()).hintBeforeSubmit=true;persist();}const q=question();EACMath.clear(el('hint-text'));el('hint-text').textContent=textPair(q.hint,q.hintZh);el('hint-panel').hidden=false;el('hint-btn').setAttribute('aria-expanded','true');el('hint-btn').textContent='收起提示';await EACMath.render(el('hint-text'));}
+async function showSolution(){if(selfTest())return;if(!isAnswerSubmitted){attemptEvidence(question()).solutionBeforeSubmit=true;persist();}const q=question();EACMath.solution(el('solution-text'),q,sessionState.selection.language);el('solution-panel').hidden=false;el('solution-btn').setAttribute('aria-expanded','true');el('solution-btn').textContent='收起解析';await EACMath.render(el('solution-text'));}
 function showResult(text,success){el('result-message').textContent=text;el('result-message').className=`result-message ${success?'success':'error'}`;el('result-message').hidden=false;}
 function finishSession(){
  if(!sessionState)return;const answers=sessionState.answers,answered=Object.keys(answers).length;
@@ -269,13 +269,14 @@ function finishSession(){
  lastSet=queue.map(q=>({question:q,result:answers[q.id]}));
  const auto=Object.values(answers).filter(a=>a.assessment==='automatic'),correct=auto.filter(a=>a.correct).length,self=Object.values(answers).filter(a=>a.assessment==='self').length;
  el('summary-copy').textContent=`已作答 ${answered}/${queue.length} 題 · 自動核對答對 ${correct}/${auto.length} 題${self?` · 自評 ${self} 題`:''} · 跳過 ${queue.length-answered} 題。`;
- el('summary-next').textContent=Object.values(answers).some(a=>!a.correct)?'先展開答錯的題目，找出錯在哪一步，再按「重練本組錯題」。':answered<queue.length?'還有題目未完成。可以先補做，再選下一課。':'這組已全部掌握。可以選下一課；下次回來再試一次，看看方法是否記得。';
+ el('summary-next').textContent=Object.values(answers).some(a=>!a.correct)?'先展開答錯的題目，找出錯在哪一步，再按「重練本組錯題」。':answered<queue.length?'還有題目未完成。可以先補做，再選下一課。':'這組已完成核對。一次答對未代表掌握；可以選下一課，稍後再獨立重做。';
  el('retry-mistakes-btn').hidden=!lastSet.some(q=>q.result?.correct===false);el('retry-skipped-btn').hidden=!lastSet.some(q=>!q.result);
  EACMath.clear(el('summary-questions'));el('summary-questions').replaceChildren();
  for(const [i,{question:q,result}]of lastSet.slice(0,100).entries()){
   const details=document.createElement('details');details.className='summary-question';
-  const title=document.createElement('summary');title.textContent=`${i+1}. ${result?(result.correct?'已掌握':'需要重練'):'未作答'}${result?.assessment==='self'?' · 自行核對':''}`;
+  const title=document.createElement('summary');title.textContent=`${i+1}. ${result?(result.correct?'本次核對符合':'需要重練'):'未作答'}${result?.assessment==='self'?' · 自行核對':''}`;
   const answer=document.createElement('div');answer.className='summary-answer-copy';
+  if(result){const attempt=Storage.getUser()?.progress?.attemptHistory?.find(item=>item.id===result.attemptId);const context=document.createElement('p');context.textContent=!attempt?'舊作答：未記錄提示／解析使用情況。':attempt.assessment==='self'?'書寫自評：已對照解析，不等同獨立批改。':attempt.solutionBeforeSubmit?'本次在核對前已開啟解析。':attempt.hintBeforeSubmit?'本次在核對前已開啟提示。':'本次核對前未開啟本頁提示或解析；不代表沒有其他協助。';details.append(context);}
   details.ontoggle=async()=>{
    if(!details.open||answer.dataset.loaded)return;
    const full=await QuestionBank.question(q.id).catch(()=>null);
@@ -286,7 +287,7 @@ function finishSession(){
    if(full.options){const options=document.createElement('ul');options.className='summary-options';for(const [letter,text]of Object.entries(full.options)){const item=document.createElement('li');const mark=document.createElement('strong');mark.textContent=letter+'.';const copy=document.createElement('span');copy.textContent=textPair(text,full.optionsZh?.[letter]||text);item.append(mark,copy);options.append(item);}details.insertBefore(options,answer);}
    answer.replaceChildren();const responseText=document.createElement('p');responseText.textContent=`你的作答：${result?.response||'未作答'}`;const explanation=document.createElement('div');EACMath.solution(explanation,full,lastSelection?.language||'bilingual');answer.append(responseText,explanation);EACMath.render(details);
   };
-  details.append(title,answer);el('summary-questions').append(details);
+  if(result?.correct===false&&result.attemptId){const reflection=reflectionEditor(result.attemptId);details.append(reflection);const more=allQuestions.filter(other=>other.id!==q.id&&!lastSet.some(item=>item.question.id===other.id)&&Learning.course(other)===Learning.course(q)&&other.topicId===q.topicId&&other.skill===q.skill);if(more.length){const next=document.createElement('button');next.type='button';next.className='btn btn-outline';next.textContent='換題驗證同一技巧 →';next.onclick=()=>beginSet(more.slice(0,5),{...lastSelection,mode:'all',query:'',experience:'study'});details.append(next);}else{const note=document.createElement('p');note.textContent='暫時沒有另一條同技巧題目；可稍後重做原題。';details.append(note);}}details.prepend(title);details.append(answer);el('summary-questions').append(details);
  }
  if(lastSet.length>100){const note=document.createElement('p');note.textContent=`此頁顯示首 100 題；全部 ${lastSet.length} 題的作答記錄已保留，可在學習主頁查看或重練錯題。`;el('summary-questions').append(note);}
  EACMath.render(el('summary-questions'));
@@ -305,3 +306,30 @@ document.addEventListener('keydown',event=>{
   event.preventDefault();if(isAnswerSubmitted)nextQuestion();else if(!el('submit-btn').hidden)handleSubmit();
  }
 });
+
+function attemptEvidence(q){
+ sessionState.evidence||={};
+ return sessionState.evidence[q.id]||=( {id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${Math.random().toString(36).slice(2)}`,hintBeforeSubmit:false,solutionBeforeSubmit:false} );
+}
+function reflectionEditor(attemptId){
+ const box=document.createElement('section');box.className='error-reflection';
+ const title=document.createElement('h3');title.textContent='修正這一步';
+ const intro=document.createElement('p');intro.textContent='可選：記下你認為的錯因及下次第一步。這是學生自述，並非老師診斷；不影響評分。';
+ const label=document.createElement('label');label.textContent='我認為的錯因';
+ const select=document.createElement('select');select.setAttribute('aria-label','我認為的錯因');
+ select.add(new Option('請選擇',''));
+ for(const [value,text]of Object.entries({concept:'概念未清楚',method:'未找對方法',algebra:'計算或代數',reading:'讀漏條件',checking:'未檢查可行答案',unsure:'暫時未確定'}))select.add(new Option(text,value));
+ label.append(select);
+ const noteLabel=document.createElement('label');noteLabel.textContent='下次我會先做甚麼？';
+ const note=document.createElement('textarea');note.maxLength=500;note.rows=2;note.setAttribute('aria-label','下次我會先做甚麼');noteLabel.append(note);
+ const previous=Storage.getUser()?.progress?.attemptHistory?.find(a=>a.id===attemptId)?.reflection;
+ select.value=previous?.reason||'';note.value=previous?.note||'';
+ const button=document.createElement('button');button.type='button';button.className='btn btn-outline';button.textContent='儲存修正筆記';
+ const status=document.createElement('p');status.setAttribute('role','status');
+ button.onclick=()=>{status.textContent=Storage.saveReflection(attemptId,select.value,note.value)?'已儲存在此瀏覽器，可隨時修訂。':'未能儲存：請選擇錯因，並檢查瀏覽器儲存空間。';};
+ box.append(title,intro,label,noteLabel,button,status);return box;
+}
+function renderReflection(result){
+ let host=el('reflection-host');if(!host){host=document.createElement('div');host.id='reflection-host';el('assessment-panel').after(host);}
+ host.replaceChildren();host.hidden=!result?.attemptId;if(result?.attemptId)host.append(reflectionEditor(result.attemptId));
+}
