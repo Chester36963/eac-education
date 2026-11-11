@@ -106,6 +106,21 @@ const Storage = {
         skill: details.skill || null,
         subcategory: details.subcategory || null,
       };
+      // Preserve actual new attempts separately; never reconstruct legacy history.
+      if (details.attemptId) {
+        const attempts = user.progress.attemptHistory || [];
+        if (attempts.some(item => item.id === details.attemptId)) return true;
+        attempts.push({
+          id: details.attemptId, questionId, topicId,
+          course: details.course || 'core', skill: details.skill || null,
+          assessment: details.assessment || 'automatic', correct: !!isCorrect,
+          at: user.progress.byQuestion[questionId].lastAttemptAt,
+          hintBeforeSubmit: !!details.hintBeforeSubmit,
+          solutionBeforeSubmit: !!details.solutionBeforeSubmit,
+        });
+        user.progress.attemptHistory = attempts.slice(-2000);
+        user.progress.byQuestion[questionId].lastAttemptId = details.attemptId;
+      }
 
       // Automatic accuracy excludes written work assessed by the student.
       if (user.progress.autoAttempted === undefined) {
@@ -126,6 +141,19 @@ const Storage = {
       console.error('Error saving question progress:', e);
       return false;
     }
+  },
+
+  // Optional student reflection, attached to one actual attempt rather than a diagnosis.
+  saveReflection: function(attemptId, reason, note) {
+    try {
+      const allowed = ['concept', 'method', 'algebra', 'reading', 'checking', 'unsure'];
+      if (!allowed.includes(reason) || typeof note !== 'string') return false;
+      const user = this.getUser();
+      const attempt = user?.progress?.attemptHistory?.find(item => item.id === attemptId);
+      if (!attempt || attempt.correct) return false;
+      attempt.reflection = { reason, note: note.trim().slice(0, 500), reportedBy: 'student', at: new Date().toISOString() };
+      return this.saveUser(user);
+    } catch (error) { return false; }
   },
 
   // Get completion status for a specific category

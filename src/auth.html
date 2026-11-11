@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/site.css"><link rel="stylesheet" href="css/journey.css">
 </head><body class="student-shell"><header class="site-header"><div class="header-inner"><a href="index.html" class="logo">EAC</a><nav class="studio-nav"><a href="dashboard.html">開始溫習</a><a href="library.html">題庫</a></nav></div></header>
 <main class="settings-main"><p class="eyebrow">EAC EDUCATION · STUDY</p><h1>由一課，五題開始。</h1><p>目前可直接練習，毋須註冊。作答、收藏及未完成的練習會儲存在此瀏覽器。</p><button type="button" id="enter-study" class="btn btn-primary">開始溫習 →</button><p class="field-note">正式學生登入及跨裝置同步尚未開放。</p><p id="preview-error" role="alert"></p></main>
-<script src="js/core/config.js"></script><script src="js/core/storage.js"></script><script src="js/core/auth.js"></script>
+<script src="js/core/config.js"></script><script src="js/core/storage.js?v=ed53ab097b52"></script><script src="js/core/auth.js"></script>
 <script>
 const requested=new URLSearchParams(location.search).get('next')||'dashboard.html';
 const destination=/^(?:app|settings|library|dashboard)\.html(?:\?[^#]*)?$/.test(requested)?requested:'dashboard.html';

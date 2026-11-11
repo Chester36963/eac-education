@@ -49,3 +49,19 @@ test('self-assessment stays separate from automatic accuracy and preserves legac
   assert.equal(run('Storage.getUser().progress.totalQuestionsAttempted'),10);
   assert.equal(run("Storage.getUser().progress.byQuestion.written.assessment"),'self');
 });
+
+test('attempt evidence is additive, idempotent and reflection belongs to one incorrect attempt',()=>{
+ const run=storageFixture({id:'student',progress:{totalQuestionsAttempted:8}});
+ run("Storage.saveQuestion('sequences','calculation','medium','q1',false,{attemptId:'a1',hintBeforeSubmit:true})");
+ run("Storage.saveQuestion('sequences','calculation','medium','q1',false,{attemptId:'a1'})");
+ assert.equal(run('Storage.getUser().progress.totalQuestionsAttempted'),9);
+ assert.equal(run('Storage.getUser().progress.attemptHistory.length'),1);
+ assert.equal(run('Storage.getUser().progress.attemptHistory[0].hintBeforeSubmit'),true);
+ assert.equal(run("Storage.saveReflection('a1','reading','Check all conditions')"),true);
+ run("Storage.saveQuestion('sequences','calculation','medium','q1',true,{attemptId:'a2'})");
+ assert.equal(run('Storage.getUser().progress.attemptHistory.length'),2);
+ assert.equal(run('Storage.getUser().progress.attemptHistory[0].reflection.reportedBy'), 'student');
+ assert.equal(run("Storage.saveReflection('a2','concept','')"),false);
+ assert.equal(run("Storage.saveReflection('missing','reading','')"),false);
+ assert.equal(run("Storage.saveReflection('a1','invented','')"),false);
+});
