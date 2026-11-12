@@ -143,3 +143,7 @@ CONTENT-B13狀態：完成本批UI驗收，內容不變。本批沒有匯入、�
 數學驗算、來源欄位、重複掃描及限制見 [sequence QA](qa/2026-10-28/sequence-review/README.md)、[review manifest](../content/intake/sequence-review-2026-10-28/review.json) 及 `docs/qa/2026-10-28/sequence-review/mathematics.json`。Q22 保留原答案的三位有效數字，同時顯示未提前捨入的精確近似；Q24 明確分開數學臨界值 $4112.44 與整數仙足額供款 $4112.45。
 
 SEQ 正式發布：main 335df26；Deploy40638983248／Pages40639022492 成功。264 本地＋264 正式站題面、完整 study-journey 及104個範圍內內容／程式／題圖 SHA256 核對通過。其餘課程的逐題匯入仍為處理中，並非全 928 份材料完成。
+
+## ASGS-RECON-20261112 · 接續來源對帳
+
+完成：三份來源共51個原題號對帳；44條上架記錄、3條確認重複、4條待補來源，對應45條canonical題。新增／恢復僅1條（sequence review Q20），總題數1,281；保留原條件，以完整零／非零公比分支作書寫自評。44條難度理由已記錄，尚未全數回填canonical。待處理：3個重複來源alias；待補來源4題的具體缺失見[逐題ledger](qa/2026-11-12/asgs-reconciliation/ledger.json)。歷史22／2快照保留，不代表現況。測試及發布狀態見[本批QA](qa/2026-11-12/asgs-reconciliation/README.md)。

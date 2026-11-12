@@ -1,0 +1,17 @@
+{
+  "questionId": "import-sequences-1ea2a31b0b6109f9",
+  "status": "pass",
+  "branches": [
+    {
+      "ratio": "0",
+      "m": "all integers >=2",
+      "sum": 672
+    },
+    {
+      "ratio": "-5/2",
+      "m": 5,
+      "sum": 18942
+    }
+  ],
+  "completeness": "Zero branch: all terms from n=2 vanish and m=1 fails. Nonzero branch: absolute-value base 5/2 is strictly increasing, forcing 7-m=2; even exponent verifies sign. Enumeration 1..100 is an additional check, not the completeness proof."
+}

@@ -475,3 +475,9 @@ EDU-UX-20261111 正式發布：main `c117b59`，Deploy `42888633659`／Pages `42
 證據：Node 全套 1,140 項通過；study-journey 瀏覽器回歸通過；error-reflection 實測 320／390／768／1440px、語言切換、重新整理續做、提示／解析標記、同技巧不同題與無橫向溢出；截圖 `.cache/qa/error-reflection/`。已人工檢視 390px 修正筆記畫面。尚未新增跨日安排、家長雲端、教師診斷、進步趨勢或真實學生效果驗證。正式部署狀態另記。
 
 正式站驗收：程式版本 `69a7adf8a67c489bde4c1f704a146a753a0ebacf`；Deploy 42969844488、Pages 42969890982 均成功。正式站四個修改資產（app.html／storage.js／practice.js／study.css）SHA-256 與本機一致；error-reflection 瀏覽器測試在正式網址四個寬度全部通過。
+
+## ASGS-RECON-20261112 · 直接接回入題工作
+
+停止第二agent檔案交接，直接恢復 `sequence review.pdf` Q20，原題條件不變，以完整雙語分支解答及書寫自評解決來源簡答遺漏。題庫1,280→1,281；所有既有題目物件／ID不變。三份ASGS來源51條對帳：44上架、3重複、4待補；44條既有／恢復題的難度理由存於獨立審核表，未冒稱已全部回填canonical。3個重複來源別名缺口明列待處理。
+
+本地Node 1,143項、74項既有獨立數學檢查、新Q20雙分支驗證、12個草稿狀態及study-journey通過。批量學生測試與正式發布詳見[本批證據](qa/2026-11-12/asgs-reconciliation/README.md)。未改圖，Q20原頁親自確認屬純文字題。內容總計與歷史快照分開保留；[內容擴充計劃](CONTENT_EXPANSION_PLAN.md)、[UI／UE路線圖](UI_UX_ROADMAP.md)仍持續執行，未宣稱整體完成。

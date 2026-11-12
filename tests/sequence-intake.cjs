@@ -8,7 +8,7 @@ test('curriculum intake accounts for all 24 original locators, with two explicit
  assert.equal(review.questions.length,24);assert.deepEqual(review.questions.map(r=>r.number),Array.from({length:24},(_,i)=>i+1));
  assert.equal(incoming.length,22);assert.equal(incoming.filter(q=>q.questionType==='mcq').length,9);
  assert.deepEqual(review.heldQuestions.map(r=>r.number).sort((a,b)=>a-b),[10,20]);
- for(const r of review.questions){assert.equal(r.id,'import-sequences-'+crypto.createHash('sha256').update(review.sourceId+':Q'+r.number).digest('hex').slice(0,16));if([10,20].includes(r.number))assert.ok(!all.some(q=>q.id===r.id));else {const q=all.find(q=>q.id===r.id);assert.deepEqual(q,incoming.find(q=>q.id===r.id));assert.equal(q.provenance.page,r.page);assert.equal(q.provenance.number,r.number);assert.equal(q.provenance.sha256,review.sourceSha256);assert.equal(sha(q),r.questionSha256);}}
+ for(const r of review.questions){assert.equal(r.id,'import-sequences-'+crypto.createHash('sha256').update(review.sourceId+':Q'+r.number).digest('hex').slice(0,16));if(r.number===10)assert.ok(!all.some(q=>q.id===r.id));else if(r.number===20){const recovered=all.find(q=>q.id===r.id);assert.ok(recovered);assert.match(recovered.solution,/every integer/);assert.equal(recovered.assessmentMode,'solution-comparison');}else {const q=all.find(q=>q.id===r.id);assert.deepEqual(q,incoming.find(q=>q.id===r.id));assert.equal(q.provenance.page,r.page);assert.equal(q.provenance.number,r.number);assert.equal(q.provenance.sha256,review.sourceSha256);assert.equal(sha(q),r.questionSha256);}}
  for(const r of review.heldQuestions){assert.ok(r.finding.length>100);assert.ok(r.checked.length>=3);assert.ok(r.nextStep.length>50);}
  assert.deepEqual(review.deduplication.normalizedMatches,[]);assert.deepEqual(review.deduplication.withinBatchMatches,[]);
 });
@@ -19,7 +19,7 @@ test('intake preserves all 1186 earlier question objects and IDs, including 21 A
  assert.equal(validate(source.catalog,source.topics,source.skills).length,0);
  const files=compile(source),manifest=JSON.parse(files.get('data/bank.json'));assert.equal(manifest.totalQuestions,1208+pilotIds.size);
  const chapter=JSON.parse(files.get('data/catalog.json')).subjects.flatMap(s=>s.chapters).find(c=>c.id==='sequences');
- assert.equal(chapter.questionCount,64);assert.equal(chapter.coverage.types.mcq,18);assert.equal(chapter.coverage.types.structured,46);
+ assert.equal(chapter.questionCount,65);assert.equal(chapter.coverage.types.mcq,18);assert.equal(chapter.coverage.types.structured,47);
  for(const q of incoming){assert.ok(chapter.subcategories.some(s=>s.id===q.subcategory&&s.skills.includes(q.skill)));assert.equal(q.solutionStatus,'independently-rederived');assert.ok(q.adaptation.en&&q.adaptation['zh-Hant']);}
 });
 test('24-source independent arithmetic checks execute without OCR or external runtime dependencies',()=>{

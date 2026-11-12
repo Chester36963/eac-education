@@ -670,9 +670,9 @@
                 "seq-geometric-sum",
                 "seq-gp-middle-term"
               ],
-              "questionCount": 9,
+              "questionCount": 10,
               "skillCounts": {
-                "seq-geometric-sum": 7,
+                "seq-geometric-sum": 8,
                 "seq-gp-middle-term": 2
               }
             },
@@ -811,23 +811,23 @@
               }
             }
           ],
-          "questionCount": 64,
+          "questionCount": 65,
           "courses": [
             "core"
           ],
           "coverage": {
             "types": {
-              "structured": 46,
+              "structured": 47,
               "mcq": 18
             },
             "difficulty": {
-              "hard": 27,
+              "hard": 28,
               "easy": 8,
               "medium": 28,
               "challenging": 1
             },
             "minForm": {
-              "4": 43,
+              "4": 44,
               "5": 21
             }
           }

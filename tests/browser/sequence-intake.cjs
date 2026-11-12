@@ -67,7 +67,7 @@ fs.mkdirSync(output,{recursive:true});
    await page.locator('.bank-question').getByRole('button',{name:'睇題目',exact:true}).click();await page.locator('#preview-practice:not([hidden])').waitFor();for(const img of await page.locator('#preview-content img').all())await img.evaluate(i=>i.decode());assert.equal(await page.locator('#preview-content img').count(),1);await page.keyboard.press('Escape');
   }
   await page.goto(base+'library.html?chapter=sequences&subcategory=arithmetic-terms-sums');await page.locator('.bank-question').first().waitFor();assert.equal(await page.locator('.bank-question').count(),5);
-  for(const held of review.questions.filter(r=>[10,20].includes(r.number))){const found=await page.evaluate(async id=>await QuestionBank.question(id),held.id);assert.equal(found,null);}
+  for(const held of review.questions.filter(r=>r.number===10)){const found=await page.evaluate(async id=>await QuestionBank.question(id),held.id);assert.equal(found,null);}
   assert.deepEqual(await page.evaluate(old=>Storage.getUser().progress.byQuestion[old],old),oldRecord);assert.ok(await page.evaluate(old=>Storage.getUser().bookmarks.includes(old),old));
   await context.close();assert.deepEqual(errors,[]);
   const bank=await (await fetch(base+'data/bank.json',{cache:'no-store'})).json();assert.equal(bank.totalQuestions,1208);

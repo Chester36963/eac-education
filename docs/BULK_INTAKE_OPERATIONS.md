@@ -60,3 +60,7 @@ python3 -m unittest discover -s tests -p 'test_bulk_intake_queue.py' -v
 2. 現有工作台只接受原來 source root；牛津清單目前**未接入可匯入 registry**。須以 collection ID 對應明確允許根目錄，保持既有路徑限制，不能單純放寬為任意本機檔案。
 3. 批量渲染優化、共用裁圖 manifest、增量 QA、新題難度理由發布 gate，以及課程目錄交易整合尚待實作。
 4. 上述工具通過後處理新來源試產，才報新增／修復題量與正式發布。
+
+## 2026-11-12 · 直接接回批量流程
+
+執行 `python3 scripts/reconcile-asgs.py --output .cache/asgs-ledger.json` 可重建三份ASGS原題號對帳；來源SHA或草稿／canonical不符會中止。來源題數、publish記錄數、duplicate數及獨立canonical數分開計算。Q20由完整題意恢復，沒有更改原題條件或學生ID。四條剩餘hold與三條未寫入canonical的重複來源alias明列；詳見[本批QA](qa/2026-11-12/asgs-reconciliation/README.md)。新增題仍沿用editor五項審核、差異預覽及transaction，這份只讀報表不替代審核與匯入。

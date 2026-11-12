@@ -6,7 +6,7 @@
   "sourceSha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
   "topicId": "sequences",
   "expectedQuestions": 24,
-  "revision": 113,
+  "revision": 122,
   "records": [
     {
       "locator": "1",
@@ -1589,14 +1589,160 @@
       "pages": [
         5
       ],
-      "disposition": "hold",
+      "disposition": "publish",
       "category": "calculation",
-      "reason": "The equation is 672r(125+8r^3)=0. Both r=0 and r=-5/2 satisfy every stated initial condition. In the zero-ratio branch T_n=0 for n>=2 and every integer m>=2 satisfies part (b), with S_m=672. The source key excludes this branch without an explicit nonzero-ratio condition.",
+      "reason": "",
       "question": {
         "id": "import-sequences-1ea2a31b0b6109f9",
-        "stem": "Held original question 20"
+        "stem": "Let \\(T_n\\) be the general term of a geometric sequence. It is given that \\(T_1=672\\) and \\(125T_2=-8T_5\\).\n(a) Find \\(T_n\\).\n(b) If the 7th term is \\(25/4\\) times the mth term, (i) find the value of \\(m\\), (ii) find the sum of the first \\(m\\) terms of the sequence.",
+        "stemZh": "設 \\(T_n\\) 為一等比數列的通項。已知 \\(T_1=672\\) 及 \\(125T_2=-8T_5\\)。\n(a) 求 \\(T_n\\)。\n(b) 若第 7 項為第 \\(m\\) 項的 \\(25/4\\) 倍，(i) 求 \\(m\\)，(ii) 求首 \\(m\\) 項之和。",
+        "solution": "(a) Write \\(T_n=672r^{n-1}\\). The condition gives \\[125(672r)=-8(672r^4),\\quad 672r(125+8r^3)=0.\\] Do not divide by \\(r\\) before checking zero. Thus \\(r=0\\) or \\(r=-5/2\\). For \\(r=0\\), state the sequence without a \\(0^0\\) convention: \\(T_1=672\\), \\(T_n=0\\) for every integer \\(n\\ge2\\). Otherwise, \\(T_n=672(-5/2)^{n-1}\\).\n(b) If \\(r=-5/2\\), then \\(T_7/T_m=(-5/2)^{7-m}=25/4=(-5/2)^2\\). Taking absolute values gives \\(7-m=2\\), hence \\(m=5\\); its even exponent also checks the sign. The sum is \\[S_5=672\\frac{1-(-5/2)^5}{1+5/2}=18942.\\] If \\(r=0\\), then \\(T_7=(25/4)T_m\\) is satisfied by every integer \\(m\\ge2\\), and \\(S_m=672\\). The case \\(m=1\\) fails.\nSource-answer note: the printed short answer lists only the nonzero-ratio branch. Under the printed conditions both branches above must be retained, so part (b) does not determine a unique m unless a nonzero ratio is specified.",
+        "solutionZh": "(a) 設 \\(T_n=672r^{n-1}\\)。由條件得 \\[125(672r)=-8(672r^4),\\quad 672r(125+8r^3)=0.\\] 未檢查零值前不可除以 \\(r\\)。故 \\(r=0\\) 或 \\(r=-5/2\\)。當 \\(r=0\\)，直接寫 \\(T_1=672\\)，所有整數 \\(n\\ge2\\) 均有 \\(T_n=0\\)，避免使用 \\(0^0\\)。另一分支為 \\(T_n=672(-5/2)^{n-1}\\)。\n(b) 當 \\(r=-5/2\\)，有 \\(T_7/T_m=(-5/2)^{7-m}=25/4=(-5/2)^2\\)。先比較絕對值得 \\(7-m=2\\)，故 \\(m=5\\)，偶次方亦符合正號。首五項和為 \\[S_5=672\\frac{1-(-5/2)^5}{1+5/2}=18942.\\] 當 \\(r=0\\)，每個整數 \\(m\\ge2\\) 均符合 \\(T_7=(25/4)T_m\\)，且 \\(S_m=672\\)；\\(m=1\\) 不符合。\n來源答案說明：原卷簡答只列非零公比分支。按原題條件須保留以上兩個分支；未限制公比非零時，(b) 的 m 並非唯一。",
+        "subcategory": "geometric-sums",
+        "skill": "seq-geometric-sum",
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "classification": {
+          "version": "2026-11-12.1",
+          "basis": "Factor the common-ratio equation before division; split admissible zero and negative branches.",
+          "difficultyReason": "Requires retaining a lost zero-ratio root, solving an integer exponent with a negative base, and distinguishing unique versus non-unique m and their sums.",
+          "status": "editor-pipeline-reviewed",
+          "originalTopic": "S6/Sequence"
+        },
+        "source": "sequence review.pdf · p5 · Q20",
+        "sourceZh": "sequence review.pdf · 第 5 頁 · 第 20 題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+          "sourceId": "source-46587d8d34399b76",
+          "path": "S6/Sequence/sequence review.pdf",
+          "page": 5,
+          "number": 20,
+          "attribution": "source-reported-unverified"
+        },
+        "assessmentMode": "solution-comparison",
+        "solutionStatus": "independently-rederived",
+        "solutionProvenance": {
+          "kind": "editorially-derived",
+          "sourceAnswerPage": 7,
+          "verification": "scripts/verify-sequence-review.py"
+        },
+        "adaptation": {
+          "en": "Original conditions retained. The independently derived solution includes the zero-ratio branch omitted by the printed short answer.",
+          "zh-Hant": "保留原題條件；獨立推導的詳解補回來源簡答遺漏的零公比分支。"
+        },
+        "tags": [
+          "sequence-review",
+          "zero-ratio",
+          "source-answer-incomplete"
+        ],
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Let \\(T_n\\) be the general term of a geometric sequence. It is given that \\(T_1=672\\) and \\(125T_2=-8T_5\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) Find \\(T_n\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) If the 7th term is \\(25/4\\) times the mth term, (i) find the value of \\(m\\), (ii) find the sum of the first \\(m\\) terms of the sequence."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "設 \\(T_n\\) 為一等比數列的通項。已知 \\(T_1=672\\) 及 \\(125T_2=-8T_5\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) 求 \\(T_n\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 若第 7 項為第 \\(m\\) 項的 \\(25/4\\) 倍，(i) 求 \\(m\\)，(ii) 求首 \\(m\\) 項之和。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) Write \\(T_n=672r^{n-1}\\). The condition gives \\[125(672r)=-8(672r^4),\\quad 672r(125+8r^3)=0.\\] Do not divide by \\(r\\) before checking zero. Thus \\(r=0\\) or \\(r=-5/2\\). For \\(r=0\\), state the sequence without a \\(0^0\\) convention: \\(T_1=672\\), \\(T_n=0\\) for every integer \\(n\\ge2\\). Otherwise, \\(T_n=672(-5/2)^{n-1}\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) If \\(r=-5/2\\), then \\(T_7/T_m=(-5/2)^{7-m}=25/4=(-5/2)^2\\). Taking absolute values gives \\(7-m=2\\), hence \\(m=5\\); its even exponent also checks the sign. The sum is \\[S_5=672\\frac{1-(-5/2)^5}{1+5/2}=18942.\\] If \\(r=0\\), then \\(T_7=(25/4)T_m\\) is satisfied by every integer \\(m\\ge2\\), and \\(S_m=672\\). The case \\(m=1\\) fails."
+            },
+            {
+              "type": "paragraph",
+              "text": "Source-answer note: the printed short answer lists only the nonzero-ratio branch. Under the printed conditions both branches above must be retained, so part (b) does not determine a unique m unless a nonzero ratio is specified."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 設 \\(T_n=672r^{n-1}\\)。由條件得 \\[125(672r)=-8(672r^4),\\quad 672r(125+8r^3)=0.\\] 未檢查零值前不可除以 \\(r\\)。故 \\(r=0\\) 或 \\(r=-5/2\\)。當 \\(r=0\\)，直接寫 \\(T_1=672\\)，所有整數 \\(n\\ge2\\) 均有 \\(T_n=0\\)，避免使用 \\(0^0\\)。另一分支為 \\(T_n=672(-5/2)^{n-1}\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 當 \\(r=-5/2\\)，有 \\(T_7/T_m=(-5/2)^{7-m}=25/4=(-5/2)^2\\)。先比較絕對值得 \\(7-m=2\\)，故 \\(m=5\\)，偶次方亦符合正號。首五項和為 \\[S_5=672\\frac{1-(-5/2)^5}{1+5/2}=18942.\\] 當 \\(r=0\\)，每個整數 \\(m\\ge2\\) 均符合 \\(T_7=(25/4)T_m\\)，且 \\(S_m=672\\)；\\(m=1\\) 不符合。"
+            },
+            {
+              "type": "paragraph",
+              "text": "來源答案說明：原卷簡答只列非零公比分支。按原題條件須保留以上兩個分支；未限制公比非零時，(b) 的 m 並非唯一。"
+            }
+          ]
+        }
       },
-      "approvals": {}
+      "approvals": {
+        "text": {
+          "fingerprint": "30a35e03ce600a3e837149d16c893839fa02045a732fc267810dc265ba9f15d8",
+          "evidence": "Personally compared PDF page 5 Q20 (.cache/editor/intake-46587d8d34399b76/extraction/page-5.jpg) with both languages and all subparts; source answer page 7 retained as incomplete, no condition added.",
+          "at": "2026-11-12T01:08:39.412Z"
+        },
+        "classification": {
+          "fingerprint": "30a35e03ce600a3e837149d16c893839fa02045a732fc267810dc265ba9f15d8",
+          "evidence": "ASGS geometric-sums / seq-geometric-sum; hard because factorisation must retain zero and negative ratio branches, integer exponent domain and nonunique m; content/intake/asgs-difficulty-review-2026-11-12.json.",
+          "at": "2026-11-12T01:08:39.416Z"
+        },
+        "mathematics": {
+          "fingerprint": "30a35e03ce600a3e837149d16c893839fa02045a732fc267810dc265ba9f15d8",
+          "evidence": "Independent Fraction calculations rerun: docs/qa/2026-11-12/asgs-reconciliation/sequence-mathematics.json Q20. Roots 0 and -5/2; zero branch m>=2 and sum672, nonzero m5 sum18942. Checked m1 and avoided 0^0.",
+          "at": "2026-11-12T01:08:39.418Z"
+        },
+        "figures": {
+          "fingerprint": "30a35e03ce600a3e837149d16c893839fa02045a732fc267810dc265ba9f15d8",
+          "evidence": "Personally inspected original PDF page5 Q20: purely textual, no diagram, graph or options. New question/solution contain no visual assets; no legacy diagram approvals renewed.",
+          "at": "2026-11-12T01:08:39.419Z"
+        },
+        "studentView": {
+          "fingerprint": "30a35e03ce600a3e837149d16c893839fa02045a732fc267810dc265ba9f15d8",
+          "evidence": "Actual shared draft preview 12 states EN/ZH/bilingual at 320/390/768/1440: docs/qa/2026-11-12/asgs-reconciliation/q20-preview.json. Personally inspected q20-draft-390.png for full bilingual branches, readable formulae and subpart spacing.",
+          "at": "2026-11-12T01:08:39.421Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-12T00:42:11.953Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-12T00:56:02.161Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-12T01:08:21.818Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
     },
     {
       "locator": "21",
@@ -2002,14 +2148,31 @@
       "at": "2026-10-28T06:29:23.703Z",
       "event": "draft-saved",
       "revision": 1
+    },
+    {
+      "at": "2026-11-12T00:42:11.953Z",
+      "event": "draft-saved",
+      "revision": 114
+    },
+    {
+      "at": "2026-11-12T00:56:02.162Z",
+      "event": "draft-saved",
+      "revision": 115
+    },
+    {
+      "at": "2026-11-12T01:08:21.821Z",
+      "event": "draft-saved",
+      "revision": 116
     }
   ],
   "createdAt": "2026-10-28T06:16:10.360Z",
   "import": {
-    "at": "2026-10-28T06:58:34.891Z",
-    "baseline": "e3693739a20a16538c214df36d8975a4bcd6989907cca3608bc72ce73e33202f",
+    "at": "2026-11-12T01:08:40.813Z",
+    "baseline": "058cdfb8ee4064315d947e63a28d0f9c30880b5b07bb1d0166ce12839032c482",
     "report": {
-      "added": [],
+      "added": [
+        "import-sequences-1ea2a31b0b6109f9"
+      ],
       "updated": [],
       "unchanged": [
         "import-sequences-269521a8b923e7b4",
@@ -2038,7 +2201,6 @@
       "chapters": [],
       "taxonomyChanged": false
     },
-    "mode": "verified-replay",
-    "backup": null
+    "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1794445720813-intake-46587d8d34399b76"
   }
 }

@@ -1,0 +1,233 @@
+{
+  "checks": [
+    {
+      "source": "area-ratio",
+      "question": 1,
+      "result": "1/4",
+      "reason": "Similar triangles give DE/BC=1/4; equal base-line height ratio independently checked.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 2,
+      "result": "330",
+      "reason": "Affine parallelogram coordinates; intersect AC and MP, then shoelace ABPQ.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 3,
+      "result": "16",
+      "reason": "H=(4/5,3/5); scale two independently computed polygon areas.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 4,
+      "result": "20",
+      "reason": "Equal areas of DBC and DEC minus their common DFC; coordinate cross-check.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 5,
+      "result": "18",
+      "reason": "AB/AC=2/5 and CD/CE=1/5; BF parallel CE fixes F.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 6,
+      "result": "19",
+      "reason": "AE/AF=2/3; locate BD intersection with AC before polygon area.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 7,
+      "result": "3",
+      "reason": "F=(4/3,1/3); shared base-height calculation gives 3:1.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 8,
+      "result": "51",
+      "reason": "AD=3 BC and BE=BC/4; F=(3/13,1/13).",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 9,
+      "result": "23",
+      "reason": "Subtract four corner triangles of a square; equivalent shoelace check.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 10,
+      "result": "4/9",
+      "reason": "Same BC base; heights are 1/3 and 3/4 of original.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 11,
+      "result": "168",
+      "reason": "EGF is 1/24 of the trapezium; exact line intersection.",
+      "check": "pass"
+    },
+    {
+      "source": "area-ratio",
+      "question": 12,
+      "result": "30",
+      "reason": "F has height 2/3 of trapezium; trapezium-to-BCF area ratio 15/4.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 1,
+      "result": "4",
+      "reason": "Second term is S2-S1, not S2.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 2,
+      "result": "True",
+      "reason": "x=a/(1-a), -1<a<1; monotone with range (-1/2,infinity).",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 3,
+      "result": "True",
+      "reason": "Held: zero AP satisfies sum relation but makes a:d undefined; nonzero branch a=3d.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 4,
+      "result": "29",
+      "reason": "Product exponent is 0+1+...+(n-1).",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 5,
+      "result": "5/6",
+      "reason": "Convergent ratio -1/x gives x=5, within stated domain.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 6,
+      "result": "10",
+      "reason": "GP has b^3=abc=64, hence real b=4.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 7,
+      "result": "4",
+      "reason": "Induction on mean recurrence preserves constant terms.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 8,
+      "result": "51",
+      "reason": "Add 3,5,7,9,11,13 to first pattern of 3 dots.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 9,
+      "result": "10",
+      "reason": "Solve a+11d=10(a+5d), 5(2a+9d)=-5; a=13,d=-3.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 10,
+      "result": "False",
+      "reason": "Held: (2,4,8,16) disproves II; III logs are -t,2t,3t, not AP. Key B invalid.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 11,
+      "result": "True",
+      "reason": "Held: h=k=l=-1 gives a repeated root but real log h/log k/log l undefined; no II-only option.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 12,
+      "result": "4",
+      "reason": "I ratio r^3; II equal exponents 6; III a7/a3=r^4>0 for nonzero real r.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 13,
+      "result": "86",
+      "reason": "85 patterns give exactly 7565; strict exceeds requires 86.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 14,
+      "result": "2451",
+      "reason": "Beginning-year deposits accrue 4,8,...,40 quarters; deduct 10P principal.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 15,
+      "result": "20",
+      "reason": "Sum 15 years ~6.99145460258566e11; integer threshold checked on both sides.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 16,
+      "result": "14",
+      "reason": "A1=-20,d=3; sum exponent k(3k-43)/2, compare k=14 and15.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 17,
+      "result": "8",
+      "reason": "T1=3,r=2; n=7 equals threshold, n=8 exceeds.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 18,
+      "result": "True",
+      "reason": "Square fit gives s=(L-s)sqrt(3)/2; then geometric ratio and infinite sum.",
+      "check": "pass"
+    },
+    {
+      "source": "sequence-review2",
+      "question": 19,
+      "result": "-37968.91",
+      "reason": "Retain full-time income during study years; compare total annual incomes, ignoring unspecified tuition.",
+      "check": "pass"
+    }
+  ],
+  "counts": {
+    "area": 12,
+    "sequence": 19
+  },
+  "sequenceHolds": [
+    3,
+    10,
+    11
+  ],
+  "investmentP": "2451.26750176892636919917816919627687770983967",
+  "education15": "699145460258.56598300317382812500",
+  "salaryDifference10": "-37968.90588000"
+}

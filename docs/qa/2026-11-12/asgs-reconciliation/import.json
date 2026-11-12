@@ -1,0 +1,287 @@
+{
+  "errors": [],
+  "pending": [],
+  "ready": true,
+  "counts": {
+    "source": 24,
+    "recorded": 24,
+    "publish": 23,
+    "duplicate": 0,
+    "held": 1
+  },
+  "diff": {
+    "added": [
+      "import-sequences-1ea2a31b0b6109f9"
+    ],
+    "updated": [],
+    "unchanged": [
+      "import-sequences-269521a8b923e7b4",
+      "import-sequences-e189d03ff891b451",
+      "import-sequences-ec6a387f760dec57",
+      "import-sequences-3cf9c64b363c030b",
+      "import-sequences-a61ec9fc6d2cf40e",
+      "import-sequences-a90a65d2d883995b",
+      "import-sequences-660a5bf776dee6ef",
+      "import-sequences-23b5b0d5bb73cbc8",
+      "import-sequences-f23cf1d311fc94a2",
+      "import-sequences-09223be0bc3e03fd",
+      "import-sequences-b71081eb0c88b64b",
+      "import-sequences-27fcc8b2e30633cd",
+      "import-sequences-9e194aa1e664f3f0",
+      "import-sequences-fc8b140ff6062af5",
+      "import-sequences-279fd5f2337f7a52",
+      "import-sequences-f0aa410fa2d3106c",
+      "import-sequences-b1a0ebb82e8bd2d3",
+      "import-sequences-455c02f615a2538b",
+      "import-sequences-97175359520cbadc",
+      "import-sequences-14fea340bb56b38a",
+      "import-sequences-a2987dbfdad5d4d8",
+      "import-sequences-1ffb5de383481e90"
+    ],
+    "chapters": [],
+    "taxonomyChanged": false
+  },
+  "changes": [
+    {
+      "id": "import-sequences-1ea2a31b0b6109f9",
+      "locator": "20",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-sequences-1ea2a31b0b6109f9"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Let \\(T_n\\) be the general term of a geometric sequence. It is given that \\(T_1=672\\) and \\(125T_2=-8T_5\\).\n(a) Find \\(T_n\\).\n(b) If the 7th term is \\(25/4\\) times the mth term, (i) find the value of \\(m\\), (ii) find the sum of the first \\(m\\) terms of the sequence."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "設 \\(T_n\\) 為一等比數列的通項。已知 \\(T_1=672\\) 及 \\(125T_2=-8T_5\\)。\n(a) 求 \\(T_n\\)。\n(b) 若第 7 項為第 \\(m\\) 項的 \\(25/4\\) 倍，(i) 求 \\(m\\)，(ii) 求首 \\(m\\) 項之和。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) Write \\(T_n=672r^{n-1}\\). The condition gives \\[125(672r)=-8(672r^4),\\quad 672r(125+8r^3)=0.\\] Do not divide by \\(r\\) before checking zero. Thus \\(r=0\\) or \\(r=-5/2\\). For \\(r=0\\), state the sequence without a \\(0^0\\) convention: \\(T_1=672\\), \\(T_n=0\\) for every integer \\(n\\ge2\\). Otherwise, \\(T_n=672(-5/2)^{n-1}\\).\n(b) If \\(r=-5/2\\), then \\(T_7/T_m=(-5/2)^{7-m}=25/4=(-5/2)^2\\). Taking absolute values gives \\(7-m=2\\), hence \\(m=5\\); its even exponent also checks the sign. The sum is \\[S_5=672\\frac{1-(-5/2)^5}{1+5/2}=18942.\\] If \\(r=0\\), then \\(T_7=(25/4)T_m\\) is satisfied by every integer \\(m\\ge2\\), and \\(S_m=672\\). The case \\(m=1\\) fails.\nSource-answer note: the printed short answer lists only the nonzero-ratio branch. Under the printed conditions both branches above must be retained, so part (b) does not determine a unique m unless a nonzero ratio is specified."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 設 \\(T_n=672r^{n-1}\\)。由條件得 \\[125(672r)=-8(672r^4),\\quad 672r(125+8r^3)=0.\\] 未檢查零值前不可除以 \\(r\\)。故 \\(r=0\\) 或 \\(r=-5/2\\)。當 \\(r=0\\)，直接寫 \\(T_1=672\\)，所有整數 \\(n\\ge2\\) 均有 \\(T_n=0\\)，避免使用 \\(0^0\\)。另一分支為 \\(T_n=672(-5/2)^{n-1}\\)。\n(b) 當 \\(r=-5/2\\)，有 \\(T_7/T_m=(-5/2)^{7-m}=25/4=(-5/2)^2\\)。先比較絕對值得 \\(7-m=2\\)，故 \\(m=5\\)，偶次方亦符合正號。首五項和為 \\[S_5=672\\frac{1-(-5/2)^5}{1+5/2}=18942.\\] 當 \\(r=0\\)，每個整數 \\(m\\ge2\\) 均符合 \\(T_7=(25/4)T_m\\)，且 \\(S_m=672\\)；\\(m=1\\) 不符合。\n來源答案說明：原卷簡答只列非零公比分支。按原題條件須保留以上兩個分支；未限制公比非零時，(b) 的 m 並非唯一。"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "geometric-sums"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "seq-geometric-sum"
+        },
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "hard"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 4
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "2026-11-12.1",
+            "basis": "Factor the common-ratio equation before division; split admissible zero and negative branches.",
+            "difficultyReason": "Requires retaining a lost zero-ratio root, solving an integer exponent with a negative base, and distinguishing unique versus non-unique m and their sums.",
+            "status": "editor-pipeline-reviewed",
+            "originalTopic": "S6/Sequence"
+          }
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "sequence review.pdf · p5 · Q20"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "sequence review.pdf · 第 5 頁 · 第 20 題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sha256": "ca4d8645d5cece65cccfeb0ac865d19349d5b49660fda509fad760a12a2b2682",
+            "sourceId": "source-46587d8d34399b76",
+            "path": "S6/Sequence/sequence review.pdf",
+            "page": 5,
+            "number": 20,
+            "attribution": "source-reported-unverified"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "solutionProvenance",
+          "before": null,
+          "after": {
+            "kind": "editorially-derived",
+            "sourceAnswerPage": 7,
+            "verification": "scripts/verify-sequence-review.py"
+          }
+        },
+        {
+          "field": "adaptation",
+          "before": null,
+          "after": {
+            "en": "Original conditions retained. The independently derived solution includes the zero-ratio branch omitted by the printed short answer.",
+            "zh-Hant": "保留原題條件；獨立推導的詳解補回來源簡答遺漏的零公比分支。"
+          }
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            "sequence-review",
+            "zero-ratio",
+            "source-answer-incomplete"
+          ]
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(T_n\\) be the general term of a geometric sequence. It is given that \\(T_1=672\\) and \\(125T_2=-8T_5\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find \\(T_n\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) If the 7th term is \\(25/4\\) times the mth term, (i) find the value of \\(m\\), (ii) find the sum of the first \\(m\\) terms of the sequence."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(T_n\\) 為一等比數列的通項。已知 \\(T_1=672\\) 及 \\(125T_2=-8T_5\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(T_n\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 若第 7 項為第 \\(m\\) 項的 \\(25/4\\) 倍，(i) 求 \\(m\\)，(ii) 求首 \\(m\\) 項之和。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Write \\(T_n=672r^{n-1}\\). The condition gives \\[125(672r)=-8(672r^4),\\quad 672r(125+8r^3)=0.\\] Do not divide by \\(r\\) before checking zero. Thus \\(r=0\\) or \\(r=-5/2\\). For \\(r=0\\), state the sequence without a \\(0^0\\) convention: \\(T_1=672\\), \\(T_n=0\\) for every integer \\(n\\ge2\\). Otherwise, \\(T_n=672(-5/2)^{n-1}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) If \\(r=-5/2\\), then \\(T_7/T_m=(-5/2)^{7-m}=25/4=(-5/2)^2\\). Taking absolute values gives \\(7-m=2\\), hence \\(m=5\\); its even exponent also checks the sign. The sum is \\[S_5=672\\frac{1-(-5/2)^5}{1+5/2}=18942.\\] If \\(r=0\\), then \\(T_7=(25/4)T_m\\) is satisfied by every integer \\(m\\ge2\\), and \\(S_m=672\\). The case \\(m=1\\) fails."
+              },
+              {
+                "type": "paragraph",
+                "text": "Source-answer note: the printed short answer lists only the nonzero-ratio branch. Under the printed conditions both branches above must be retained, so part (b) does not determine a unique m unless a nonzero ratio is specified."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 設 \\(T_n=672r^{n-1}\\)。由條件得 \\[125(672r)=-8(672r^4),\\quad 672r(125+8r^3)=0.\\] 未檢查零值前不可除以 \\(r\\)。故 \\(r=0\\) 或 \\(r=-5/2\\)。當 \\(r=0\\)，直接寫 \\(T_1=672\\)，所有整數 \\(n\\ge2\\) 均有 \\(T_n=0\\)，避免使用 \\(0^0\\)。另一分支為 \\(T_n=672(-5/2)^{n-1}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 當 \\(r=-5/2\\)，有 \\(T_7/T_m=(-5/2)^{7-m}=25/4=(-5/2)^2\\)。先比較絕對值得 \\(7-m=2\\)，故 \\(m=5\\)，偶次方亦符合正號。首五項和為 \\[S_5=672\\frac{1-(-5/2)^5}{1+5/2}=18942.\\] 當 \\(r=0\\)，每個整數 \\(m\\ge2\\) 均符合 \\(T_7=(25/4)T_m\\)，且 \\(S_m=672\\)；\\(m=1\\) 不符合。"
+              },
+              {
+                "type": "paragraph",
+                "text": "來源答案說明：原卷簡答只列非零公比分支。按原題條件須保留以上兩個分支；未限制公比非零時，(b) 的 m 並非唯一。"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "duplicateCandidates": [],
+  "digest": "03e34178c11b10a5f634ca4dcb921efd72c39805d8bd3adf661b7fb429271b25",
+  "baseline": "058cdfb8ee4064315d947e63a28d0f9c30880b5b07bb1d0166ce12839032c482",
+  "applied": true,
+  "import": {
+    "at": "2026-11-12T01:08:40.813Z",
+    "baseline": "058cdfb8ee4064315d947e63a28d0f9c30880b5b07bb1d0166ce12839032c482",
+    "report": {
+      "added": [
+        "import-sequences-1ea2a31b0b6109f9"
+      ],
+      "updated": [],
+      "unchanged": [
+        "import-sequences-269521a8b923e7b4",
+        "import-sequences-e189d03ff891b451",
+        "import-sequences-ec6a387f760dec57",
+        "import-sequences-3cf9c64b363c030b",
+        "import-sequences-a61ec9fc6d2cf40e",
+        "import-sequences-a90a65d2d883995b",
+        "import-sequences-660a5bf776dee6ef",
+        "import-sequences-23b5b0d5bb73cbc8",
+        "import-sequences-f23cf1d311fc94a2",
+        "import-sequences-09223be0bc3e03fd",
+        "import-sequences-b71081eb0c88b64b",
+        "import-sequences-27fcc8b2e30633cd",
+        "import-sequences-9e194aa1e664f3f0",
+        "import-sequences-fc8b140ff6062af5",
+        "import-sequences-279fd5f2337f7a52",
+        "import-sequences-f0aa410fa2d3106c",
+        "import-sequences-b1a0ebb82e8bd2d3",
+        "import-sequences-455c02f615a2538b",
+        "import-sequences-97175359520cbadc",
+        "import-sequences-14fea340bb56b38a",
+        "import-sequences-a2987dbfdad5d4d8",
+        "import-sequences-1ffb5de383481e90"
+      ],
+      "chapters": [],
+      "taxonomyChanged": false
+    },
+    "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1794445720813-intake-46587d8d34399b76"
+  }
+}
