@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-11-12T04:07:52Z",
+  "base": "https://chester36963.github.io/eac-education/",
+  "revision": "7f55ab6645bb3680",
+  "totalQuestions": 1281,
+  "files": [
+    {
+      "path": "data/bank.json",
+      "sha256": "f319e2872490eae74ad613d6a8cda399e20df5c1d25cb0ad2b5ce5a8b9187cc6"
+    },
+    {
+      "path": "data/question-index.482f99fac6b7b0f5.json",
+      "sha256": "482f99fac6b7b0f5d1e8f61f51cc72bb665727a7762fcc7173033a2d3ee4884b"
+    },
+    {
+      "path": "data/catalog.5eceedaf07c4858e.json",
+      "sha256": "5eceedaf07c4858e61ad85ee4dc96fa647a2d26d6cbecb85019870294d35ee14"
+    },
+    {
+      "path": "data/curriculum.json",
+      "sha256": "112a7e38c0c02b8ce923f955c4deb677d5a3488ec9cc4aee6aacff2eaccca159"
+    },
+    {
+      "path": "data/chapters/sequences.312facc75efa49f8.json",
+      "sha256": "312facc75efa49f85299cd3d2a336369848bb28e76aea27068bd968291b497b8"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.782aa648b8812086.json",
+      "sha256": "782aa648b8812086e119e82f2d104b122b0a40338ff0bb1e07df76b8c7907ad5"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.4380a41d41ff0ba1.json",
+      "sha256": "4380a41d41ff0ba1732b3b4bb6b10ee80fb2346c68e989db5006a7519166f302"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.a9ad03fad141cf7a.json",
+      "sha256": "a9ad03fad141cf7a1c636139331b9bbe5531eeb0c3c225639f9d2a20ab5d3f26"
+    }
+  ]
+}

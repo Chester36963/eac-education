@@ -17,3 +17,5 @@
 沒有新PDF，沒有重新宣稱舊圖QA，沒有新增自行編造題目，沒有重建學生ID。匯入使用既有五項審核及可回復交易；`import-preview.json`、`import.json` 留存差異與備份位置。下一步依來源批次擴充，題圖仍由主agent親自重繪及驗收。
 
 完整重跑：44題 × 3語言 × 4尺寸共528個狀態通過，每題實際自動評分或自評。見 `student-matrix.json`；新Q20實際學生390px截圖已親自檢視。
+
+正式發布完成：main `37c7e8eadb33f663417b163fefe716f15afe40be`，Deploy `43152633389` 及 Pages `43152696989` 成功。正式題庫revision `7f55ab6645bb3680`，總數1,281；8個範圍內資料檔SHA256與本機一致（`live-assets.json`）。新Q20於正式站三語言四尺寸共12狀態實際自評通過（`live-student-matrix.json`）。沒有把本機528狀態寫成全部正式站重跑。

@@ -481,3 +481,5 @@ EDU-UX-20261111 正式發布：main `c117b59`，Deploy `42888633659`／Pages `42
 停止第二agent檔案交接，直接恢復 `sequence review.pdf` Q20，原題條件不變，以完整雙語分支解答及書寫自評解決來源簡答遺漏。題庫1,280→1,281；所有既有題目物件／ID不變。三份ASGS來源51條對帳：44上架、3重複、4待補；44條既有／恢復題的難度理由存於獨立審核表，未冒稱已全部回填canonical。3個重複來源別名缺口明列待處理。
 
 本地Node 1,143項、74項既有獨立數學檢查、新Q20雙分支驗證、12個草稿狀態及study-journey通過。批量學生測試與正式發布詳見[本批證據](qa/2026-11-12/asgs-reconciliation/README.md)。未改圖，Q20原頁親自確認屬純文字題。內容總計與歷史快照分開保留；[內容擴充計劃](CONTENT_EXPANSION_PLAN.md)、[UI／UE路線圖](UI_UX_ROADMAP.md)仍持續執行，未宣稱整體完成。
+
+ASGS-RECON-20261112正式驗收：main `37c7e8e`／Deploy43152633389／Pages43152696989成功，正式題庫1,281及revision `7f55ab6645bb3680`。本機44題528狀態通過，正式新Q20另12狀態通過，8個資料檔hash一致；詳見同批live-assets、live-student-matrix、release報告。
