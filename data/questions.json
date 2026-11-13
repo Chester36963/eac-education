@@ -42102,6 +42102,32 @@
                     "sha256": "c98bdc64479914947ab4bd9c34ad7670f73c87983bad300e21afc22ab116d6c6"
                   }
                 }
+              ],
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-611e81c1f3198537",
+                  "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+                  "file": "S6/Sequence/Sequence review2.pdf",
+                  "number": "16",
+                  "page": 4,
+                  "pages": [
+                    4
+                  ],
+                  "duplicateQuestionId": "import-sequences-a7097fa66d71539f"
+                },
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-233787552d322be8",
+                  "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+                  "file": "S6/Sequence/ASGS review.pdf",
+                  "number": "1",
+                  "page": 1,
+                  "pages": [
+                    1
+                  ],
+                  "duplicateQuestionId": "import-sequences-731dfc8e80f92944"
+                }
               ]
             },
             {
@@ -44506,7 +44532,21 @@
                     "text": "(b) 求最小整數 n，使首 n 年總開支超過 \\(\\$10^{12}\\)。"
                   }
                 ]
-              }
+              },
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-233787552d322be8",
+                  "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+                  "file": "S6/Sequence/ASGS review.pdf",
+                  "number": "2",
+                  "page": 1,
+                  "pages": [
+                    1
+                  ],
+                  "duplicateQuestionId": "import-sequences-64608ee76f13054d"
+                }
+              ]
             },
             {
               "questionType": "structured",
