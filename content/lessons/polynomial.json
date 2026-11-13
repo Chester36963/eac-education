@@ -21,6 +21,68 @@
   },
   "sections": [
     {
+      "id": "terms-and-degree",
+      "title": {
+        "en": "Read the structure before calculating",
+        "zh-Hant": "先看項、係數及次數"
+      },
+      "intro": {
+        "en": "Separate terms at addition and subtraction signs. The numerical coefficient includes its sign. For two variables, add the exponents within each monomial to find its total degree.",
+        "zh-Hant": "以加減號分辨各項；數字係數包括正負號。含兩個變量時，先把同一單項式的指數相加，再找最大總次數。"
+      },
+      "formulas": [
+        "\\(\\deg(x^2y^3)=2+3=5\\)"
+      ],
+      "trigger": {
+        "en": "Identify the requested monomial exactly. The x² term and the x²y³ term are different terms.",
+        "zh-Hant": "準確辨認題目指定的單項式；x² 項與 x²y³ 項並不是同一項。"
+      },
+      "trap": {
+        "en": "An absent monomial has coefficient zero. Do not count only the exponent of x when finding total degree.",
+        "zh-Hant": "沒有出現的單項式，其係數為零；求總次數時不可只看 x 的指數。"
+      },
+      "skills": [
+        "poly-read-structure"
+      ],
+      "exampleIds": [
+        "import-polynomial-75769dcce9763181"
+      ]
+    },
+    {
+      "id": "expand-and-check",
+      "title": {
+        "en": "Expand, collect, then answer the next part",
+        "zh-Hant": "展開、合併，再處理分題"
+      },
+      "intro": {
+        "en": "Distribute each product and reverse every sign after a minus before brackets. Combine only terms with identical variables and exponents. Use the simplified expression for substitution or coefficient questions.",
+        "zh-Hant": "逐個乘積用分配律展開；括號前是負號時，每項都要變號。只有變量及指數完全相同的項才可合併，再用化簡式代入求值或判讀係數。"
+      },
+      "formulas": [
+        "\\((u+v)^2=u^2+2uv+v^2\\)",
+        "\\((u-v)(u+v)=u^2-v^2\\)"
+      ],
+      "trigger": {
+        "en": "For (a) simplify and (b) evaluate, finish collecting before substituting. Check a numerical case against the original expression to detect sign errors.",
+        "zh-Hant": "遇到 (a) 化簡、(b) 求值，先完成合併，再代入數值；可把同一組數值代入原式作符號檢查。"
+      },
+      "trap": {
+        "en": "A supplied brief answer can contain a typo. Q10, Q21 and Q22 in this source have explicit corrections; the question statements are unchanged.",
+        "zh-Hant": "來源簡答也可能有筆誤。本卷 Q10、Q21、Q22 已明示更正，沒有更改原題條件。"
+      },
+      "skills": [
+        "poly-collect-terms",
+        "poly-expand-collect",
+        "poly-expand-identities",
+        "poly-evaluate-expanded",
+        "poly-expanded-structure"
+      ],
+      "exampleIds": [
+        "import-polynomial-6bb7e02c49ad2bfe",
+        "import-polynomial-18bbe71cc5e51d82"
+      ]
+    },
+    {
       "id": "factorisation",
       "title": {
         "zh-Hant": "因式分解：先找結構",

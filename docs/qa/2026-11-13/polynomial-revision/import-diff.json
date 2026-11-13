@@ -1,0 +1,3585 @@
+{
+  "errors": [],
+  "pending": [],
+  "ready": true,
+  "counts": {
+    "source": 28,
+    "recorded": 28,
+    "publish": 28,
+    "duplicate": 0,
+    "held": 0
+  },
+  "diff": {
+    "added": [
+      "import-polynomial-49b2d2b488b10e26",
+      "import-polynomial-8228b72483d00248",
+      "import-polynomial-75769dcce9763181",
+      "import-polynomial-2da82a82a28349f5",
+      "import-polynomial-6213de8edfdd8015",
+      "import-polynomial-8112d5c3e4e4377e",
+      "import-polynomial-2b738fe3e5ad3242",
+      "import-polynomial-6cfd24bcdda234bd",
+      "import-polynomial-c68d5c7af219cad7",
+      "import-polynomial-87b9d9bdd4782c69",
+      "import-polynomial-19cf65e4cfab6c50",
+      "import-polynomial-7623e697bc5587b9",
+      "import-polynomial-e933a2aef033dbaa",
+      "import-polynomial-126b98a6a1667150",
+      "import-polynomial-0a90a0c43c94a6a4",
+      "import-polynomial-f2217a3406521a55",
+      "import-polynomial-d197802ff7e27f96",
+      "import-polynomial-86e0154064e1f524",
+      "import-polynomial-b249e9a402d3f1d8",
+      "import-polynomial-5d72a890eeab2cc1",
+      "import-polynomial-6bb7e02c49ad2bfe",
+      "import-polynomial-48ae53f12f886692",
+      "import-polynomial-3997375ef8332530",
+      "import-polynomial-4d45d821a2fb3ba8",
+      "import-polynomial-a4dd7295524ee648",
+      "import-polynomial-18bbe71cc5e51d82",
+      "import-polynomial-0c67556d3e79e44e",
+      "import-polynomial-9d18bbb848f60c90"
+    ],
+    "updated": [],
+    "unchanged": [],
+    "chapters": [],
+    "taxonomyChanged": true
+  },
+  "changes": [
+    {
+      "id": "import-polynomial-49b2d2b488b10e26",
+      "locator": "1",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Read numerical coefficients and count total degree, including a two-variable term in Q3."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For the polynomial \\(5 x^{3}+6 x^{2}+3 x+2\\), state the number of terms, the coefficients of \\(x^3,x^2,x\\) (in that order), the constant term, and its degree."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對多項式 \\(5 x^{3}+6 x^{2}+3 x+2\\)，寫出項數、\\(x^3,x^2,x\\) 的係數（依此順序）、常數項及次數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Count the nonzero monomial terms and read their numerical coefficients. The degree is the largest sum of exponents in one term. In the requested order: \\(4; 5, 6, 3; 2; 3\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "數出非零單項式，讀取各項的數字係數；多項式的次數是各項指數和的最大值。按題目次序：\\(4; 5, 6, 3; 2; 3\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q1"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第1題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "1",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q1"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-49b2d2b488b10e26"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-8228b72483d00248",
+      "locator": "2",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Read numerical coefficients and count total degree, including a two-variable term in Q3."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For the polynomial \\(2 x^{2}+1-3 x\\), state the number of terms, the coefficients of \\(x^3,x^2,x\\) (in that order), the constant term, and its degree."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對多項式 \\(2 x^{2}+1-3 x\\)，寫出項數、\\(x^3,x^2,x\\) 的係數（依此順序）、常數項及次數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Count the nonzero monomial terms and read their numerical coefficients. The degree is the largest sum of exponents in one term. In the requested order: \\(3; 0, 2, -3; 1; 2\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "數出非零單項式，讀取各項的數字係數；多項式的次數是各項指數和的最大值。按題目次序：\\(3; 0, 2, -3; 1; 2\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q2"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第2題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "2",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q2"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-8228b72483d00248"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-75769dcce9763181",
+      "locator": "3",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Read numerical coefficients and count total degree, including a two-variable term in Q3."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For the polynomial \\[\\begin{gathered}5 +2 x^{3} -x y^{2} +4 x^{2} \\\\ -3 x^{2} y^{3}\\end{gathered}\\], state the number of terms, the numerical coefficients of the terms \\(x^3\\) and \\(x^2\\), the coefficient of the term \\(x\\) (write zero if absent), the constant term, and the total degree."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對多項式 \\[\\begin{gathered}5 +2 x^{3} -x y^{2} +4 x^{2} \\\\ -3 x^{2} y^{3}\\end{gathered}\\]，寫出項數、\\(x^3\\) 項及 \\(x^2\\) 項的數字係數、\\(x\\) 項的係數（沒有該項則寫零）、常數項及總次數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Count the nonzero monomial terms and read their numerical coefficients. The degree is the largest sum of exponents in one term. In the requested order: \\(5; 2, 4, 0; 5; 5\\). The term \\(-3x^2y^3\\) has total degree \\(2+3=5\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "數出非零單項式，讀取各項的數字係數；多項式的次數是各項指數和的最大值。按題目次序：\\(5; 2, 4, 0; 5; 5\\)。其中 \\(-3x^2y^3\\) 的總次數為 \\(2+3=5\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q3"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第3題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "3",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q3"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-75769dcce9763181"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-2da82a82a28349f5",
+      "locator": "4",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\((h^{2}-3 h+1)+(2 h^{2}-3 h+2)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\((h^{2}-3 h+1)+(2 h^{2}-3 h+2)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(h^{2}-3 h+1) +(2 h^{2}-3 h+2) = 3 h^{2} \\\\ - 6 h + 3\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(h^{2}-3 h+1) +(2 h^{2}-3 h+2) = 3 h^{2} \\\\ - 6 h + 3\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q4"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第4題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "4",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q4"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-2da82a82a28349f5"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-6213de8edfdd8015",
+      "locator": "5",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\((m-6 n-4)-(2 m+9 n-3)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\((m-6 n-4)-(2 m+9 n-3)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(m-6 n-4) -(2 m+9 n-3) = - m - 15 n - 1\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(m-6 n-4) -(2 m+9 n-3) = - m - 15 n - 1\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q5"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第5題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "5",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q5"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-6213de8edfdd8015"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-8112d5c3e4e4377e",
+      "locator": "6",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\((3 v^{2}-5 v-2)-(v^{2}-6 v+5)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\((3 v^{2}-5 v-2)-(v^{2}-6 v+5)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(3 v^{2}-5 v-2) -(v^{2}-6 v+5) = 2 v^{2} \\\\ + v - 7\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(3 v^{2}-5 v-2) -(v^{2}-6 v+5) = 2 v^{2} \\\\ + v - 7\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q6"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第6題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "6",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q6"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-8112d5c3e4e4377e"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-2b738fe3e5ad3242",
+      "locator": "7",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\((5 k^{2}-2 k+6)+(k^{2}+4 k-8)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\((5 k^{2}-2 k+6)+(k^{2}+4 k-8)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(5 k^{2}-2 k+6) +(k^{2}+4 k-8) = 6 k^{2} \\\\ + 2 k - 2\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(5 k^{2}-2 k+6) +(k^{2}+4 k-8) = 6 k^{2} \\\\ + 2 k - 2\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q7"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第7題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "7",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q7"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-2b738fe3e5ad3242"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-6cfd24bcdda234bd",
+      "locator": "8",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\((3 t+1)+(4 t-2)+(t-3)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\((3 t+1)+(4 t-2)+(t-3)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\((3 t+1)+(4 t-2)+(t-3) = 8 t - 4\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\((3 t+1)+(4 t-2)+(t-3) = 8 t - 4\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q8"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第8題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "8",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q8"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-6cfd24bcdda234bd"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-c68d5c7af219cad7",
+      "locator": "9",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\((6 a+5 b)-(2 a-b)+(a-6 b)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\((6 a+5 b)-(2 a-b)+(a-6 b)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\((6 a+5 b)-(2 a-b)+(a-6 b) = 5 a\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\((6 a+5 b)-(2 a-b)+(a-6 b) = 5 a\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q9"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第9題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "9",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q9"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-c68d5c7af219cad7"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-87b9d9bdd4782c69",
+      "locator": "10",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\((a^{2}-4 a)+(2 a^{2}+6)-(3 a-1)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\((a^{2}-4 a)+(2 a^{2}+6)-(3 a-1)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(a^{2}-4 a) +(2 a^{2}+6) -(3 a-1) \\\\ = 3 a^{2} - 7 a + 7\\end{gathered}\\] Source-key correction: the supplied brief answer is \\(3a^2-7a+6\\), which does not equal the given expression. The result above follows the original question unchanged."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(a^{2}-4 a) +(2 a^{2}+6) -(3 a-1) \\\\ = 3 a^{2} - 7 a + 7\\end{gathered}\\]原卷簡答更正：原簡答為 \\(3a^2-7a+6\\)，與原式不相等。以上結果按原題計算，沒有更改題目條件。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q10"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第10題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "10",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q10"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-87b9d9bdd4782c69"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-19cf65e4cfab6c50",
+      "locator": "11",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\((5 m^{2}-3 m)-(8-3 m)-(4 m^{2}-7)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\((5 m^{2}-3 m)-(8-3 m)-(4 m^{2}-7)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(5 m^{2}-3 m) -(8-3 m) -(4 m^{2}-7) \\\\ = m^{2} - 1\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(5 m^{2}-3 m) -(8-3 m) -(4 m^{2}-7) \\\\ = m^{2} - 1\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q11"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第11題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "11",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q11"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-19cf65e4cfab6c50"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-7623e697bc5587b9",
+      "locator": "12",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand \\((3 h-k) (h-k)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\((3 h-k) (h-k)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(3 h-k) (h-k) = 3 h^{2} - 4 h k + k^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(3 h-k) (h-k) = 3 h^{2} - 4 h k + k^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q12"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第12題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "12",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q12"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-7623e697bc5587b9"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-e933a2aef033dbaa",
+      "locator": "13",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand \\((4 a+5 b) (2 a-3 b)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\((4 a+5 b) (2 a-3 b)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(4 a+5 b) (2 a-3 b) = 8 a^{2} - 2 a b \\\\ - 15 b^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(4 a+5 b) (2 a-3 b) = 8 a^{2} - 2 a b \\\\ - 15 b^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q13"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第13題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "13",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q13"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-e933a2aef033dbaa"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-126b98a6a1667150",
+      "locator": "14",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Use the difference-of-squares identity and collect remaining terms."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-identities"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand \\((2 p-q) (2 p+q)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\((2 p-q) (2 p+q)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\((2 p-q) (2 p+q) = 4 p^{2} - q^{2}\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\((2 p-q) (2 p+q) = 4 p^{2} - q^{2}\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q14"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第14題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "14",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q14"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-126b98a6a1667150"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-0a90a0c43c94a6a4",
+      "locator": "15",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand \\((7 x-2 y) (4 x-3 y)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\((7 x-2 y) (4 x-3 y)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(7 x-2 y) (4 x-3 y) = 28 x^{2} - 29 x y \\\\ + 6 y^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(7 x-2 y) (4 x-3 y) = 28 x^{2} - 29 x y \\\\ + 6 y^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q15"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第15題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "15",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q15"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-0a90a0c43c94a6a4"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-f2217a3406521a55",
+      "locator": "16",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Apply the square-of-a-binomial identity with the cross term."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-identities"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand \\((2 c+d)^{2}\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\((2 c+d)^{2}\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(2 c+d)^{2} = 4 c^{2} + 4 c d + d^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(2 c+d)^{2} = 4 c^{2} + 4 c d + d^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q16"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第16題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "16",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q16"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-f2217a3406521a55"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-d197802ff7e27f96",
+      "locator": "17",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Apply the square-of-a-binomial identity with the cross term."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-identities"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand \\((5 x-6 y)^{2}\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\((5 x-6 y)^{2}\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(5 x-6 y)^{2} = 25 x^{2} - 60 x y \\\\ + 36 y^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(5 x-6 y)^{2} = 25 x^{2} - 60 x y \\\\ + 36 y^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q17"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第17題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "17",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q17"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-d197802ff7e27f96"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-86e0154064e1f524",
+      "locator": "18",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand and simplify \\(-e (e+2)+3 e (e-1)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開並化簡 \\(-e (e+2)+3 e (e-1)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}-e (e+2) +3 e (e-1) = - e^{2} - 2 e \\\\ + 3 e^{2} - 3 e = 2 e^{2} - 5 e\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}-e (e+2) +3 e (e-1) = - e^{2} - 2 e \\\\ + 3 e^{2} - 3 e = 2 e^{2} - 5 e\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q18"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第18題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "18",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q18"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-86e0154064e1f524"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-b249e9a402d3f1d8",
+      "locator": "19",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand and simplify \\(3 f (3 f-2)-2 f (2 f+4)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開並化簡 \\(3 f (3 f-2)-2 f (2 f+4)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}3 f (3 f-2) -2 f (2 f+4) = 9 f^{2} - 6 f \\\\ + (- 4 f^{2} - 8 f) = 5 f^{2} - 14 f\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}3 f (3 f-2) -2 f (2 f+4) = 9 f^{2} - 6 f \\\\ + (- 4 f^{2} - 8 f) = 5 f^{2} - 14 f\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q19"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第19題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "19",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q19"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-b249e9a402d3f1d8"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-5d72a890eeab2cc1",
+      "locator": "20",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Use the difference-of-squares identity and collect remaining terms."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-identities"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand and simplify \\((a+b) (a-b)+(2 a^{2}+b^{2})\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開並化簡 \\((a+b) (a-b)+(2 a^{2}+b^{2})\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(a+b) (a-b) +(2 a^{2}+b^{2}) = a^{2} \\\\ - b^{2} + 2 a^{2} + b^{2} = 3 a^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(a+b) (a-b) +(2 a^{2}+b^{2}) = a^{2} \\\\ - b^{2} + 2 a^{2} + b^{2} = 3 a^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q20"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第20題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "20",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q20"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-5d72a890eeab2cc1"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-6bb7e02c49ad2bfe",
+      "locator": "21",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand and simplify \\((x-3 y) (2 x+y)-(2 x^{2}+4 y^{2})\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開並化簡 \\((x-3 y) (2 x+y)-(2 x^{2}+4 y^{2})\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(x-3 y) (2 x+y) -(2 x^{2}+4 y^{2}) \\\\ = 2 x^{2} - 5 x y - 3 y^{2} \\\\ + (- 2 x^{2} - 4 y^{2}) = - 5 x y \\\\ - 7 y^{2}\\end{gathered}\\] Source-key correction: the supplied brief answer is \\(4x^2-5xy+y^2\\), which does not equal the given expression. The result above follows the original question unchanged."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(x-3 y) (2 x+y) -(2 x^{2}+4 y^{2}) \\\\ = 2 x^{2} - 5 x y - 3 y^{2} \\\\ + (- 2 x^{2} - 4 y^{2}) = - 5 x y \\\\ - 7 y^{2}\\end{gathered}\\]原卷簡答更正：原簡答為 \\(4x^2-5xy+y^2\\)，與原式不相等。以上結果按原題計算，沒有更改題目條件。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q21"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第21題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "21",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q21"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-6bb7e02c49ad2bfe"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-48ae53f12f886692",
+      "locator": "22",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Use the difference-of-squares identity and collect remaining terms."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-identities"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand and simplify \\((2 a-b) (2 a+b)-(2 a^{2}-3 b^{2})\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開並化簡 \\((2 a-b) (2 a+b)-(2 a^{2}-3 b^{2})\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(2 a-b) (2 a+b) -(2 a^{2}-3 b^{2}) \\\\ = 4 a^{2} - b^{2} + (- 2 a^{2} + 3 b^{2}) \\\\ = 2 a^{2} + 2 b^{2}\\end{gathered}\\] Source-key correction: the supplied brief answer is \\(6a^2-4b^2\\), which does not equal the given expression. The result above follows the original question unchanged."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(2 a-b) (2 a+b) -(2 a^{2}-3 b^{2}) \\\\ = 4 a^{2} - b^{2} + (- 2 a^{2} + 3 b^{2}) \\\\ = 2 a^{2} + 2 b^{2}\\end{gathered}\\]原卷簡答更正：原簡答為 \\(6a^2-4b^2\\)，與原式不相等。以上結果按原題計算，沒有更改題目條件。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q22"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第22題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "22",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q22"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-48ae53f12f886692"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-3997375ef8332530",
+      "locator": "23",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand and simplify \\((3 x^{2}-y^{2})+(4 x-7 y) (2 x+y)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開並化簡 \\((3 x^{2}-y^{2})+(4 x-7 y) (2 x+y)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(3 x^{2}-y^{2}) +(4 x-7 y) (2 x+y) \\\\ = 3 x^{2} + (- y^{2}) + 8 x^{2} - 10 x y \\\\ - 7 y^{2} = 11 x^{2} - 10 x y - 8 y^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(3 x^{2}-y^{2}) +(4 x-7 y) (2 x+y) \\\\ = 3 x^{2} + (- y^{2}) + 8 x^{2} - 10 x y \\\\ - 7 y^{2} = 11 x^{2} - 10 x y - 8 y^{2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q23"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第23題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "23",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q23"
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-3997375ef8332530"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-4d45d821a2fb3ba8",
+      "locator": "24",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-evaluate-expanded"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "(a) Simplify \\((5 x^{3}-x^{2}+x-1)-(7 x^{2}+5)\\).\n(b) Find the value of the polynomial when \\(x=-2\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "(a) 化簡 \\((5 x^{3}-x^{2}+x-1)-(7 x^{2}+5)\\)。\n(b) 當 \\(x=-2\\) 時，求該多項式的值。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) -(7 x^{2}+5) = 5 x^{3} \\\\ + (- x^{2}) + x + (-1) + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} + x - 6\\end{gathered}\\]\n(b) Substitute \\(x=-2\\): \\(5 x^{3} - 8 x^{2} + x - 6=-80\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) -(7 x^{2}+5) = 5 x^{3} \\\\ + (- x^{2}) + x + (-1) + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} + x - 6\\end{gathered}\\]\n(b) 代入 \\(x=-2\\)：\\(5 x^{3} - 8 x^{2} + x - 6=-80\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q24"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第24題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "24",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q24"
+          }
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Simplify \\((5 x^{3}-x^{2}+x-1)-(7 x^{2}+5)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the value of the polynomial when \\(x=-2\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 化簡 \\((5 x^{3}-x^{2}+x-1)-(7 x^{2}+5)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 當 \\(x=-2\\) 時，求該多項式的值。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) -(7 x^{2}+5) = 5 x^{3} \\\\ + (- x^{2}) + x + (-1) + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} + x - 6\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Substitute \\(x=-2\\): \\(5 x^{3} - 8 x^{2} + x - 6=-80\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) -(7 x^{2}+5) = 5 x^{3} \\\\ + (- x^{2}) + x + (-1) + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} + x - 6\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 代入 \\(x=-2\\)：\\(5 x^{3} - 8 x^{2} + x - 6=-80\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-4d45d821a2fb3ba8"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-a4dd7295524ee648",
+      "locator": "25",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-evaluate-expanded"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "(a) Simplify \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]\n(b) Find the value of the polynomial when \\(a=-1, b=-2\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "(a) 化簡 \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]\n(b) 當 \\(a=-1, b=-2\\) 時，求該多項式的值。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) = 6 a^{2} \\\\ + (- 5 a b) + (- b^{2}) + a b + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) = a^{2} \\\\ - 11 a b - b^{2}\\end{gathered}\\]\n(b) Substitute \\(a=-1, b=-2\\): \\(a^{2} - 11 a b - b^{2}=-25\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) = 6 a^{2} \\\\ + (- 5 a b) + (- b^{2}) + a b + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) = a^{2} \\\\ - 11 a b - b^{2}\\end{gathered}\\]\n(b) 代入 \\(a=-1, b=-2\\)：\\(a^{2} - 11 a b - b^{2}=-25\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q25"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第25題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "25",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q25"
+          }
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Simplify \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the value of the polynomial when \\(a=-1, b=-2\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 化簡 \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 當 \\(a=-1, b=-2\\) 時，求該多項式的值。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) = 6 a^{2} \\\\ + (- 5 a b) + (- b^{2}) + a b + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) = a^{2} \\\\ - 11 a b - b^{2}\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Substitute \\(a=-1, b=-2\\): \\(a^{2} - 11 a b - b^{2}=-25\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) = 6 a^{2} \\\\ + (- 5 a b) + (- b^{2}) + a b + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) = a^{2} \\\\ - 11 a b - b^{2}\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 代入 \\(a=-1, b=-2\\)：\\(a^{2} - 11 a b - b^{2}=-25\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-a4dd7295524ee648"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-18bbe71cc5e51d82",
+      "locator": "26",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expanded-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "(a) Simplify \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3})\\end{gathered}\\]\n(b) Find the coefficient of \\(x^{2} y^{3}\\) in the expansion in (a).\n(c) Find the degree of the expansion in (a)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "(a) 化簡 \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3})\\end{gathered}\\]\n(b) 求 (a) 中展開式的 \\(x^{2} y^{3}\\) 項的係數。\n(c) 求 (a) 中展開式的次數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} - 10 x y^{5} \\\\ + 5 x^{3} y^{2} + 5 x^{2} y^{3} \\\\ + 5 x y^{5} = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} - 5 x y^{5}\\end{gathered}\\]\n(b) Coefficient: \\(7\\). (c) Total degree: \\(6\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} - 10 x y^{5} \\\\ + 5 x^{3} y^{2} + 5 x^{2} y^{3} \\\\ + 5 x y^{5} = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} - 5 x y^{5}\\end{gathered}\\]\n(b) 係數：\\(7\\)。(c) 總次數：\\(6\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q26"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第26題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "26",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q26"
+          }
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Simplify \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3})\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the coefficient of \\(x^{2} y^{3}\\) in the expansion in (a)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Find the degree of the expansion in (a)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 化簡 \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3})\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 求 (a) 中展開式的 \\(x^{2} y^{3}\\) 項的係數。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 求 (a) 中展開式的次數。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} - 10 x y^{5} \\\\ + 5 x^{3} y^{2} + 5 x^{2} y^{3} \\\\ + 5 x y^{5} = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} - 5 x y^{5}\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Coefficient: \\(7\\). (c) Total degree: \\(6\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} - 10 x y^{5} \\\\ + 5 x^{3} y^{2} + 5 x^{2} y^{3} \\\\ + 5 x y^{5} = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} - 5 x y^{5}\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 係數：\\(7\\)。(c) 總次數：\\(6\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-18bbe71cc5e51d82"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-0c67556d3e79e44e",
+      "locator": "27",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expanded-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "(a) Expand \\((x^{2}-2 x+1) (x-1)\\).\n(b) Find the degree of the expansion in (a).\n(c) Find the coefficient of \\(x^{2}\\) in the expansion in (a)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "(a) 展開 \\((x^{2}-2 x+1) (x-1)\\)。\n(b) 求 (a) 中展開式的次數。\n(c) 求 (a) 中展開式的 \\(x^{2}\\) 項的係數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(x^{2}-2 x+1) (x-1) = x^{3} - 3 x^{2} \\\\ + 3 x - 1\\end{gathered}\\]\n(b) Degree: \\(3\\). (c) Coefficient: \\(-3\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(x^{2}-2 x+1) (x-1) = x^{3} - 3 x^{2} \\\\ + 3 x - 1\\end{gathered}\\]\n(b) 次數：\\(3\\)。(c) 係數：\\(-3\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q27"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第27題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "27",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q27"
+          }
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Expand \\((x^{2}-2 x+1) (x-1)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the degree of the expansion in (a)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Find the coefficient of \\(x^{2}\\) in the expansion in (a)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 展開 \\((x^{2}-2 x+1) (x-1)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 求 (a) 中展開式的次數。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 求 (a) 中展開式的 \\(x^{2}\\) 項的係數。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(x^{2}-2 x+1) (x-1) = x^{3} - 3 x^{2} \\\\ + 3 x - 1\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Degree: \\(3\\). (c) Coefficient: \\(-3\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(x^{2}-2 x+1) (x-1) = x^{3} - 3 x^{2} \\\\ + 3 x - 1\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 次數：\\(3\\)。(c) 係數：\\(-3\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-0c67556d3e79e44e"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-9d18bbb848f60c90",
+      "locator": "28",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "difficultyReason",
+          "before": null,
+          "after": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expanded-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "(a) Expand \\((m-2 n) (m-3+n)\\).\n(b) Find the degree of the expansion in (a).\n(c) Find the coefficient of \\(m n\\) in the expansion in (a)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "(a) 展開 \\((m-2 n) (m-3+n)\\)。\n(b) 求 (a) 中展開式的次數。\n(c) 求 (a) 中展開式的 \\(m n\\) 項的係數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(m-2 n) (m-3+n) = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]\n(b) Degree: \\(2\\). (c) Coefficient: \\(-1\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(m-2 n) (m-3+n) = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]\n(b) 次數：\\(2\\)。(c) 係數：\\(-1\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · Q28"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Revision of polynomials.pdf · 第28題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a5903b13f42caade",
+            "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+            "file": "S1/polynomials/Revision of polynomials.pdf",
+            "number": "28",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-13"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q28"
+          }
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Expand \\((m-2 n) (m-3+n)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the degree of the expansion in (a)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Find the coefficient of \\(m n\\) in the expansion in (a)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 展開 \\((m-2 n) (m-3+n)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 求 (a) 中展開式的次數。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 求 (a) 中展開式的 \\(m n\\) 項的係數。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(m-2 n) (m-3+n) = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Degree: \\(2\\). (c) Coefficient: \\(-1\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(m-2 n) (m-3+n) = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 次數：\\(2\\)。(c) 係數：\\(-1\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-9d18bbb848f60c90"
+        }
+      ]
+    }
+  ],
+  "duplicateCandidates": [],
+  "digest": "ec16bb8855d7566fe26327d136a92fbb6676f8edee6154f2f3d7329741845820",
+  "baseline": "75ecb117ea07980a56bd8a01db2a210d5dffeeceae513822e063cb5c4756c261"
+}

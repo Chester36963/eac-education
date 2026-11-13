@@ -1,0 +1,313 @@
+{
+  "sourceId": "source-a5903b13f42caade",
+  "sha256": "323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188",
+  "sourcePagesVisuallyInspected": [
+    1,
+    2,
+    3
+  ],
+  "count": 28,
+  "checks": [
+    {
+      "number": 1,
+      "terms": 4,
+      "coefficients": [
+        "5",
+        "6",
+        "3"
+      ],
+      "constant": "2",
+      "degree": 3,
+      "sourceKey": "matches; x^j denotes the individual monomial row, not a polynomial coefficient in y"
+    },
+    {
+      "number": 2,
+      "terms": 3,
+      "coefficients": [
+        "0",
+        "2",
+        "-3"
+      ],
+      "constant": "1",
+      "degree": 2,
+      "sourceKey": "matches; x^j denotes the individual monomial row, not a polynomial coefficient in y"
+    },
+    {
+      "number": 3,
+      "terms": 5,
+      "coefficients": [
+        "2",
+        "4",
+        "0"
+      ],
+      "constant": "5",
+      "degree": 5,
+      "sourceKey": "matches; x^j denotes the individual monomial row, not a polynomial coefficient in y"
+    },
+    {
+      "number": 4,
+      "expression": "(h^2-3*h+1)+(2*h^2-3*h+2)",
+      "expected": "3*h^2-6*h+3",
+      "sympyExpanded": "3*h**2 - 6*h + 3",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 5,
+      "expression": "(m-6*n-4)-(2*m+9*n-3)",
+      "expected": "-m-15*n-1",
+      "sympyExpanded": "-m - 15*n - 1",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 6,
+      "expression": "(3*v^2-5*v-2)-(v^2-6*v+5)",
+      "expected": "2*v^2+v-7",
+      "sympyExpanded": "2*v**2 + v - 7",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 7,
+      "expression": "(5*k^2-2*k+6)+(k^2+4*k-8)",
+      "expected": "6*k^2+2*k-2",
+      "sympyExpanded": "6*k**2 + 2*k - 2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 8,
+      "expression": "(3*t+1)+(4*t-2)+(t-3)",
+      "expected": "8*t-4",
+      "sympyExpanded": "8*t - 4",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 9,
+      "expression": "(6*a+5*b)-(2*a-b)+(a-6*b)",
+      "expected": "5*a",
+      "sympyExpanded": "5*a",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 10,
+      "expression": "(a^2-4*a)+(2*a^2+6)-(3*a-1)",
+      "expected": "3*a^2-7*a+7",
+      "sympyExpanded": "3*a**2 - 7*a + 7",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "corrected",
+      "correction": [
+        "3a^2-7a+6",
+        "3a^2-7a+7"
+      ]
+    },
+    {
+      "number": 11,
+      "expression": "(5*m^2-3*m)-(8-3*m)-(4*m^2-7)",
+      "expected": "m^2-1",
+      "sympyExpanded": "m**2 - 1",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 12,
+      "expression": "(3*h-k)*(h-k)",
+      "expected": "3*h^2-4*h*k+k^2",
+      "sympyExpanded": "3*h**2 - 4*h*k + k**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 13,
+      "expression": "(4*a+5*b)*(2*a-3*b)",
+      "expected": "8*a^2-2*a*b-15*b^2",
+      "sympyExpanded": "8*a**2 - 2*a*b - 15*b**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 14,
+      "expression": "(2*p-q)*(2*p+q)",
+      "expected": "4*p^2-q^2",
+      "sympyExpanded": "4*p**2 - q**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 15,
+      "expression": "(7*x-2*y)*(4*x-3*y)",
+      "expected": "28*x^2-29*x*y+6*y^2",
+      "sympyExpanded": "28*x**2 - 29*x*y + 6*y**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 16,
+      "expression": "(2*c+d)^2",
+      "expected": "4*c^2+4*c*d+d^2",
+      "sympyExpanded": "4*c**2 + 4*c*d + d**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 17,
+      "expression": "(5*x-6*y)^2",
+      "expected": "25*x^2-60*x*y+36*y^2",
+      "sympyExpanded": "25*x**2 - 60*x*y + 36*y**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 18,
+      "expression": "-e*(e+2)+3*e*(e-1)",
+      "expected": "2*e^2-5*e",
+      "sympyExpanded": "2*e**2 - 5*e",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 19,
+      "expression": "3*f*(3*f-2)-2*f*(2*f+4)",
+      "expected": "5*f^2-14*f",
+      "sympyExpanded": "5*f**2 - 14*f",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 20,
+      "expression": "(a+b)*(a-b)+(2*a^2+b^2)",
+      "expected": "3*a^2",
+      "sympyExpanded": "3*a**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 21,
+      "expression": "(x-3*y)*(2*x+y)-(2*x^2+4*y^2)",
+      "expected": "-5*x*y-7*y^2",
+      "sympyExpanded": "-5*x*y - 7*y**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "corrected",
+      "correction": [
+        "4x^2-5xy+y^2",
+        "-5xy-7y^2"
+      ]
+    },
+    {
+      "number": 22,
+      "expression": "(2*a-b)*(2*a+b)-(2*a^2-3*b^2)",
+      "expected": "2*a^2+2*b^2",
+      "sympyExpanded": "2*a**2 + 2*b**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "corrected",
+      "correction": [
+        "6a^2-4b^2",
+        "2a^2+2b^2"
+      ]
+    },
+    {
+      "number": 23,
+      "expression": "(3*x^2-y^2)+(4*x-7*y)*(2*x+y)",
+      "expected": "11*x^2-10*x*y-8*y^2",
+      "sympyExpanded": "11*x**2 - 10*x*y - 8*y**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 24,
+      "expression": "(5*x^3-x^2+x-1)-(7*x^2+5)",
+      "expected": "5*x^3-8*x^2+x-6",
+      "sympyExpanded": "5*x**3 - 8*x**2 + x - 6",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 25,
+      "expression": "(6*a^2-5*a*b-b^2)+(a*b-b^2)-(7*a*b+5*a^2-b^2)",
+      "expected": "a^2-11*a*b-b^2",
+      "sympyExpanded": "a**2 - 11*a*b - b**2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 26,
+      "expression": "2*x*y^3*(x-5*y^2)+5*x*y^2*(x^2+x*y+y^3)",
+      "expected": "5*x^3*y^2+7*x^2*y^3-5*x*y^5",
+      "sympyExpanded": "5*x**3*y**2 + 7*x**2*y**3 - 5*x*y**5",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 27,
+      "expression": "(x^2-2*x+1)*(x-1)",
+      "expected": "x^3-3*x^2+3*x-1",
+      "sympyExpanded": "x**3 - 3*x**2 + 3*x - 1",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    },
+    {
+      "number": 28,
+      "expression": "(m-2*n)*(m-3+n)",
+      "expected": "m^2-2*n^2-m*n-3*m+6*n",
+      "sympyExpanded": "m**2 - m*n - 3*m - 2*n**2 + 6*n",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5,
+      "sourceKey": "matches",
+      "correction": null
+    }
+  ],
+  "sourceKeyCorrections": [
+    10,
+    21,
+    22
+  ],
+  "limits": "No supplied worked solutions. Independently expanded all expressions; source brief answers compared visually. Q1–3 tabular prompts restated with every requested field; Q3 asks individual monomial numerical coefficients, preserving source meaning."
+}
