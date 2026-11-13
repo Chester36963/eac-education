@@ -13,13 +13,13 @@ def m(text):
  for i,char in enumerate(text):
   if char in '({[': depth+=1
   elif char in ')}]': depth-=1
-  elif depth==0 and char in '+-=' and i>start:
+  elif depth==0 and (char in '+-=' or text[i:i+5]==r'\cdot') and i>start:
    chunks.append(text[start:i].strip()); start=i
  chunks.append(text[start:].strip())
- if len(text)>34 and len(chunks)>1:
+ if len(text)>17 and len(chunks)>1:
   lines=[]; line=''
   for chunk in chunks:
-   if line and len(line+' '+chunk)>42 and line.strip() not in ['=','+','-']:
+   if line and len(line+' '+chunk)>19 and line.strip() not in ['=','+','-']:
     lines.append(line); line=chunk
    else: line=(' '.join([line,chunk])).strip()
   if line: lines.append(line)
@@ -60,7 +60,7 @@ def tex(z):return s.latex(parse(z),order='lex')
 # Preserve supplied bracket structure when formatting a source expression.
 def source_tex(z):
  import re
- z=z.replace('*',' ').replace('^2','^{2}').replace('^3','^{3}').replace('^5','^{5}')
+ z=z.replace(')*(',r')\cdot (').replace('*',' ').replace('^2','^{2}').replace('^3','^{3}').replace('^5','^{5}')
  return z
 records=[];checks=[]
 source='S1/polynomials/Revision of polynomials.pdf';sid='source-a5903b13f42caade';sha=hashlib.sha256((args.source_root/source).read_bytes()).hexdigest()

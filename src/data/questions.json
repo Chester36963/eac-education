@@ -35191,8 +35191,8 @@
               "course": "core",
               "subcategory": "polynomial-structure",
               "skill": "poly-read-structure",
-              "stem": "For the polynomial \\(5 x^{3}+6 x^{2}+3 x+2\\), state the number of terms, the coefficients of \\(x^3,x^2,x\\) (in that order), the constant term, and its degree.",
-              "stemZh": "對多項式 \\(5 x^{3}+6 x^{2}+3 x+2\\)，寫出項數、\\(x^3,x^2,x\\) 的係數（依此順序）、常數項及次數。",
+              "stem": "For the polynomial \\[\\begin{gathered}5 x^{3} +6 x^{2} \\\\ +3 x +2\\end{gathered}\\], state the number of terms, the coefficients of \\(x^3,x^2,x\\) (in that order), the constant term, and its degree.",
+              "stemZh": "對多項式 \\[\\begin{gathered}5 x^{3} +6 x^{2} \\\\ +3 x +2\\end{gathered}\\]，寫出項數、\\(x^3,x^2,x\\) 的係數（依此順序）、常數項及次數。",
               "solution": "Count the nonzero monomial terms and read their numerical coefficients. The degree is the largest sum of exponents in one term. In the requested order: \\(4; 5, 6, 3; 2; 3\\).",
               "solutionZh": "數出非零單項式，讀取各項的數字係數；多項式的次數是各項指數和的最大值。按題目次序：\\(4; 5, 6, 3; 2; 3\\)。",
               "solutionStatus": "independently-rederived",
@@ -35214,8 +35214,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q1",
-                "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3."
+                "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q1"
               },
               "id": "import-polynomial-49b2d2b488b10e26"
             },
@@ -35250,8 +35250,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q2",
-                "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3."
+                "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q2"
               },
               "id": "import-polynomial-8228b72483d00248"
             },
@@ -35263,8 +35263,8 @@
               "course": "core",
               "subcategory": "polynomial-structure",
               "skill": "poly-read-structure",
-              "stem": "For the polynomial \\[\\begin{gathered}5 +2 x^{3} -x y^{2} +4 x^{2} \\\\ -3 x^{2} y^{3}\\end{gathered}\\], state the number of terms, the numerical coefficients of the terms \\(x^3\\) and \\(x^2\\), the coefficient of the term \\(x\\) (write zero if absent), the constant term, and the total degree.",
-              "stemZh": "對多項式 \\[\\begin{gathered}5 +2 x^{3} -x y^{2} +4 x^{2} \\\\ -3 x^{2} y^{3}\\end{gathered}\\]，寫出項數、\\(x^3\\) 項及 \\(x^2\\) 項的數字係數、\\(x\\) 項的係數（沒有該項則寫零）、常數項及總次數。",
+              "stem": "For the polynomial \\[\\begin{gathered}5 +2 x^{3} -x y^{2} \\\\ +4 x^{2} \\\\ -3 x^{2} y^{3}\\end{gathered}\\], state the number of terms, the numerical coefficients of the terms \\(x^3\\) and \\(x^2\\), the coefficient of the term \\(x\\) (write zero if absent), the constant term, and the total degree.",
+              "stemZh": "對多項式 \\[\\begin{gathered}5 +2 x^{3} -x y^{2} \\\\ +4 x^{2} \\\\ -3 x^{2} y^{3}\\end{gathered}\\]，寫出項數、\\(x^3\\) 項及 \\(x^2\\) 項的數字係數、\\(x\\) 項的係數（沒有該項則寫零）、常數項及總次數。",
               "solution": "Count the nonzero monomial terms and read their numerical coefficients. The degree is the largest sum of exponents in one term. In the requested order: \\(5; 2, 4, 0; 5; 5\\). The term \\(-3x^2y^3\\) has total degree \\(2+3=5\\).",
               "solutionZh": "數出非零單項式，讀取各項的數字係數；多項式的次數是各項指數和的最大值。按題目次序：\\(5; 2, 4, 0; 5; 5\\)。其中 \\(-3x^2y^3\\) 的總次數為 \\(2+3=5\\)。",
               "solutionStatus": "independently-rederived",
@@ -35286,8 +35286,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q3",
-                "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3."
+                "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q3"
               },
               "id": "import-polynomial-75769dcce9763181"
             }
@@ -35588,10 +35588,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-collect-terms",
-              "stem": "Simplify \\((h^{2}-3 h+1)+(2 h^{2}-3 h+2)\\).",
-              "stemZh": "化簡 \\((h^{2}-3 h+1)+(2 h^{2}-3 h+2)\\)。",
-              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(h^{2}-3 h+1) +(2 h^{2}-3 h+2) = 3 h^{2} \\\\ - 6 h + 3\\end{gathered}\\]",
-              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(h^{2}-3 h+1) +(2 h^{2}-3 h+2) = 3 h^{2} \\\\ - 6 h + 3\\end{gathered}\\]",
+              "stem": "Simplify \\[\\begin{gathered}(h^{2}-3 h+1) \\\\ +(2 h^{2}-3 h+2)\\end{gathered}\\]",
+              "stemZh": "化簡 \\[\\begin{gathered}(h^{2}-3 h+1) \\\\ +(2 h^{2}-3 h+2)\\end{gathered}\\]",
+              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(h^{2}-3 h+1) \\\\ +(2 h^{2}-3 h+2) \\\\ = 3 h^{2} - 6 h + 3\\end{gathered}\\]",
+              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(h^{2}-3 h+1) \\\\ +(2 h^{2}-3 h+2) \\\\ = 3 h^{2} - 6 h + 3\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35611,8 +35611,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q4",
-                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q4"
               },
               "id": "import-polynomial-2da82a82a28349f5"
             },
@@ -35624,10 +35624,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-collect-terms",
-              "stem": "Simplify \\((m-6 n-4)-(2 m+9 n-3)\\).",
-              "stemZh": "化簡 \\((m-6 n-4)-(2 m+9 n-3)\\)。",
-              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(m-6 n-4) -(2 m+9 n-3) = - m - 15 n - 1\\end{gathered}\\]",
-              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(m-6 n-4) -(2 m+9 n-3) = - m - 15 n - 1\\end{gathered}\\]",
+              "stem": "Simplify \\[\\begin{gathered}(m-6 n-4) \\\\ -(2 m+9 n-3)\\end{gathered}\\]",
+              "stemZh": "化簡 \\[\\begin{gathered}(m-6 n-4) \\\\ -(2 m+9 n-3)\\end{gathered}\\]",
+              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(m-6 n-4) \\\\ -(2 m+9 n-3) = - m \\\\ - 15 n - 1\\end{gathered}\\]",
+              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(m-6 n-4) \\\\ -(2 m+9 n-3) = - m \\\\ - 15 n - 1\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35647,8 +35647,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q5",
-                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q5"
               },
               "id": "import-polynomial-6213de8edfdd8015"
             },
@@ -35660,10 +35660,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-collect-terms",
-              "stem": "Simplify \\((3 v^{2}-5 v-2)-(v^{2}-6 v+5)\\).",
-              "stemZh": "化簡 \\((3 v^{2}-5 v-2)-(v^{2}-6 v+5)\\)。",
-              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(3 v^{2}-5 v-2) -(v^{2}-6 v+5) = 2 v^{2} \\\\ + v - 7\\end{gathered}\\]",
-              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(3 v^{2}-5 v-2) -(v^{2}-6 v+5) = 2 v^{2} \\\\ + v - 7\\end{gathered}\\]",
+              "stem": "Simplify \\[\\begin{gathered}(3 v^{2}-5 v-2) \\\\ -(v^{2}-6 v+5)\\end{gathered}\\]",
+              "stemZh": "化簡 \\[\\begin{gathered}(3 v^{2}-5 v-2) \\\\ -(v^{2}-6 v+5)\\end{gathered}\\]",
+              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(3 v^{2}-5 v-2) \\\\ -(v^{2}-6 v+5) \\\\ = 2 v^{2} + v - 7\\end{gathered}\\]",
+              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(3 v^{2}-5 v-2) \\\\ -(v^{2}-6 v+5) \\\\ = 2 v^{2} + v - 7\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35683,8 +35683,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q6",
-                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q6"
               },
               "id": "import-polynomial-8112d5c3e4e4377e"
             },
@@ -35696,10 +35696,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-collect-terms",
-              "stem": "Simplify \\((5 k^{2}-2 k+6)+(k^{2}+4 k-8)\\).",
-              "stemZh": "化簡 \\((5 k^{2}-2 k+6)+(k^{2}+4 k-8)\\)。",
-              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(5 k^{2}-2 k+6) +(k^{2}+4 k-8) = 6 k^{2} \\\\ + 2 k - 2\\end{gathered}\\]",
-              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(5 k^{2}-2 k+6) +(k^{2}+4 k-8) = 6 k^{2} \\\\ + 2 k - 2\\end{gathered}\\]",
+              "stem": "Simplify \\[\\begin{gathered}(5 k^{2}-2 k+6) \\\\ +(k^{2}+4 k-8)\\end{gathered}\\]",
+              "stemZh": "化簡 \\[\\begin{gathered}(5 k^{2}-2 k+6) \\\\ +(k^{2}+4 k-8)\\end{gathered}\\]",
+              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(5 k^{2}-2 k+6) \\\\ +(k^{2}+4 k-8) \\\\ = 6 k^{2} + 2 k - 2\\end{gathered}\\]",
+              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(5 k^{2}-2 k+6) \\\\ +(k^{2}+4 k-8) \\\\ = 6 k^{2} + 2 k - 2\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35719,8 +35719,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q7",
-                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q7"
               },
               "id": "import-polynomial-2b738fe3e5ad3242"
             },
@@ -35732,10 +35732,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-collect-terms",
-              "stem": "Simplify \\((3 t+1)+(4 t-2)+(t-3)\\).",
-              "stemZh": "化簡 \\((3 t+1)+(4 t-2)+(t-3)\\)。",
-              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\((3 t+1)+(4 t-2)+(t-3) = 8 t - 4\\).",
-              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\((3 t+1)+(4 t-2)+(t-3) = 8 t - 4\\)。",
+              "stem": "Simplify \\[\\begin{gathered}(3 t+1) +(4 t-2) \\\\ +(t-3)\\end{gathered}\\]",
+              "stemZh": "化簡 \\[\\begin{gathered}(3 t+1) +(4 t-2) \\\\ +(t-3)\\end{gathered}\\]",
+              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(3 t+1) +(4 t-2) \\\\ +(t-3) = 8 t - 4\\end{gathered}\\]",
+              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(3 t+1) +(4 t-2) \\\\ +(t-3) = 8 t - 4\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35755,8 +35755,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q8",
-                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q8"
               },
               "id": "import-polynomial-6cfd24bcdda234bd"
             },
@@ -35768,10 +35768,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-collect-terms",
-              "stem": "Simplify \\((6 a+5 b)-(2 a-b)+(a-6 b)\\).",
-              "stemZh": "化簡 \\((6 a+5 b)-(2 a-b)+(a-6 b)\\)。",
-              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\((6 a+5 b)-(2 a-b)+(a-6 b) = 5 a\\).",
-              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\((6 a+5 b)-(2 a-b)+(a-6 b) = 5 a\\)。",
+              "stem": "Simplify \\[\\begin{gathered}(6 a+5 b) -(2 a-b) \\\\ +(a-6 b)\\end{gathered}\\]",
+              "stemZh": "化簡 \\[\\begin{gathered}(6 a+5 b) -(2 a-b) \\\\ +(a-6 b)\\end{gathered}\\]",
+              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(6 a+5 b) -(2 a-b) \\\\ +(a-6 b) = 5 a\\end{gathered}\\]",
+              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(6 a+5 b) -(2 a-b) \\\\ +(a-6 b) = 5 a\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35791,8 +35791,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q9",
-                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q9"
               },
               "id": "import-polynomial-c68d5c7af219cad7"
             },
@@ -35804,10 +35804,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-collect-terms",
-              "stem": "Simplify \\((a^{2}-4 a)+(2 a^{2}+6)-(3 a-1)\\).",
-              "stemZh": "化簡 \\((a^{2}-4 a)+(2 a^{2}+6)-(3 a-1)\\)。",
-              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(a^{2}-4 a) +(2 a^{2}+6) -(3 a-1) \\\\ = 3 a^{2} - 7 a + 7\\end{gathered}\\] Source-key correction: the supplied brief answer is \\(3a^2-7a+6\\), which does not equal the given expression. The result above follows the original question unchanged.",
-              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(a^{2}-4 a) +(2 a^{2}+6) -(3 a-1) \\\\ = 3 a^{2} - 7 a + 7\\end{gathered}\\]原卷簡答更正：原簡答為 \\(3a^2-7a+6\\)，與原式不相等。以上結果按原題計算，沒有更改題目條件。",
+              "stem": "Simplify \\[\\begin{gathered}(a^{2}-4 a) \\\\ +(2 a^{2}+6) \\\\ -(3 a-1)\\end{gathered}\\]",
+              "stemZh": "化簡 \\[\\begin{gathered}(a^{2}-4 a) \\\\ +(2 a^{2}+6) \\\\ -(3 a-1)\\end{gathered}\\]",
+              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(a^{2}-4 a) \\\\ +(2 a^{2}+6) \\\\ -(3 a-1) = 3 a^{2} \\\\ - 7 a + 7\\end{gathered}\\] Source-key correction: the supplied brief answer is \\(3a^2-7a+6\\), which does not equal the given expression. The result above follows the original question unchanged.",
+              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(a^{2}-4 a) \\\\ +(2 a^{2}+6) \\\\ -(3 a-1) = 3 a^{2} \\\\ - 7 a + 7\\end{gathered}\\]原卷簡答更正：原簡答為 \\(3a^2-7a+6\\)，與原式不相等。以上結果按原題計算，沒有更改題目條件。",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35827,8 +35827,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q10",
-                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q10"
               },
               "id": "import-polynomial-87b9d9bdd4782c69"
             },
@@ -35840,10 +35840,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-collect-terms",
-              "stem": "Simplify \\((5 m^{2}-3 m)-(8-3 m)-(4 m^{2}-7)\\).",
-              "stemZh": "化簡 \\((5 m^{2}-3 m)-(8-3 m)-(4 m^{2}-7)\\)。",
-              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(5 m^{2}-3 m) -(8-3 m) -(4 m^{2}-7) \\\\ = m^{2} - 1\\end{gathered}\\]",
-              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(5 m^{2}-3 m) -(8-3 m) -(4 m^{2}-7) \\\\ = m^{2} - 1\\end{gathered}\\]",
+              "stem": "Simplify \\[\\begin{gathered}(5 m^{2}-3 m) \\\\ -(8-3 m) \\\\ -(4 m^{2}-7)\\end{gathered}\\]",
+              "stemZh": "化簡 \\[\\begin{gathered}(5 m^{2}-3 m) \\\\ -(8-3 m) \\\\ -(4 m^{2}-7)\\end{gathered}\\]",
+              "solution": "Remove brackets, reversing every sign in a subtracted bracket, then collect like terms: \\[\\begin{gathered}(5 m^{2}-3 m) \\\\ -(8-3 m) \\\\ -(4 m^{2}-7) \\\\ = m^{2} - 1\\end{gathered}\\]",
+              "solutionZh": "去括號；括號前是負號時，括號內每項都要變號，再合併同類項：\\[\\begin{gathered}(5 m^{2}-3 m) \\\\ -(8-3 m) \\\\ -(4 m^{2}-7) \\\\ = m^{2} - 1\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35863,8 +35863,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q11",
-                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions."
+                "difficultyReason": "Remove brackets and collect like terms; no parameter elimination or hidden conditions.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q11"
               },
               "id": "import-polynomial-19cf65e4cfab6c50"
             },
@@ -35876,10 +35876,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-collect",
-              "stem": "Expand \\((3 h-k) (h-k)\\).",
-              "stemZh": "展開 \\((3 h-k) (h-k)\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(3 h-k) (h-k) = 3 h^{2} - 4 h k + k^{2}\\end{gathered}\\]",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(3 h-k) (h-k) = 3 h^{2} - 4 h k + k^{2}\\end{gathered}\\]",
+              "stem": "Expand \\[\\begin{gathered}(3 h-k) \\cdot (h-k)\\end{gathered}\\]",
+              "stemZh": "展開 \\[\\begin{gathered}(3 h-k) \\cdot (h-k)\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(3 h-k) \\cdot (h-k) \\\\ = 3 h^{2} - 4 h k \\\\ + k^{2}\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(3 h-k) \\cdot (h-k) \\\\ = 3 h^{2} - 4 h k \\\\ + k^{2}\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35899,8 +35899,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q12",
-                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q12"
               },
               "id": "import-polynomial-7623e697bc5587b9"
             },
@@ -35912,10 +35912,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-collect",
-              "stem": "Expand \\((4 a+5 b) (2 a-3 b)\\).",
-              "stemZh": "展開 \\((4 a+5 b) (2 a-3 b)\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(4 a+5 b) (2 a-3 b) = 8 a^{2} - 2 a b \\\\ - 15 b^{2}\\end{gathered}\\]",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(4 a+5 b) (2 a-3 b) = 8 a^{2} - 2 a b \\\\ - 15 b^{2}\\end{gathered}\\]",
+              "stem": "Expand \\[\\begin{gathered}(4 a+5 b) \\\\ \\cdot (2 a-3 b)\\end{gathered}\\]",
+              "stemZh": "展開 \\[\\begin{gathered}(4 a+5 b) \\\\ \\cdot (2 a-3 b)\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(4 a+5 b) \\\\ \\cdot (2 a-3 b) \\\\ = 8 a^{2} - 2 a b \\\\ - 15 b^{2}\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(4 a+5 b) \\\\ \\cdot (2 a-3 b) \\\\ = 8 a^{2} - 2 a b \\\\ - 15 b^{2}\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35935,8 +35935,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q13",
-                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q13"
               },
               "id": "import-polynomial-e933a2aef033dbaa"
             },
@@ -35948,10 +35948,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-identities",
-              "stem": "Expand \\((2 p-q) (2 p+q)\\).",
-              "stemZh": "展開 \\((2 p-q) (2 p+q)\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\((2 p-q) (2 p+q) = 4 p^{2} - q^{2}\\).",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\((2 p-q) (2 p+q) = 4 p^{2} - q^{2}\\)。",
+              "stem": "Expand \\[\\begin{gathered}(2 p-q) \\\\ \\cdot (2 p+q)\\end{gathered}\\]",
+              "stemZh": "展開 \\[\\begin{gathered}(2 p-q) \\\\ \\cdot (2 p+q)\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(2 p-q) \\\\ \\cdot (2 p+q) \\\\ = 4 p^{2} - q^{2}\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(2 p-q) \\\\ \\cdot (2 p+q) \\\\ = 4 p^{2} - q^{2}\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -35971,8 +35971,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q14",
-                "difficultyReason": "Use the difference-of-squares identity and collect remaining terms."
+                "difficultyReason": "Use the difference-of-squares identity and collect remaining terms.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q14"
               },
               "id": "import-polynomial-126b98a6a1667150"
             },
@@ -35984,10 +35984,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-collect",
-              "stem": "Expand \\((7 x-2 y) (4 x-3 y)\\).",
-              "stemZh": "展開 \\((7 x-2 y) (4 x-3 y)\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(7 x-2 y) (4 x-3 y) = 28 x^{2} - 29 x y \\\\ + 6 y^{2}\\end{gathered}\\]",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(7 x-2 y) (4 x-3 y) = 28 x^{2} - 29 x y \\\\ + 6 y^{2}\\end{gathered}\\]",
+              "stem": "Expand \\[\\begin{gathered}(7 x-2 y) \\\\ \\cdot (4 x-3 y)\\end{gathered}\\]",
+              "stemZh": "展開 \\[\\begin{gathered}(7 x-2 y) \\\\ \\cdot (4 x-3 y)\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(7 x-2 y) \\\\ \\cdot (4 x-3 y) \\\\ = 28 x^{2} - 29 x y \\\\ + 6 y^{2}\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(7 x-2 y) \\\\ \\cdot (4 x-3 y) \\\\ = 28 x^{2} - 29 x y \\\\ + 6 y^{2}\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36007,8 +36007,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q15",
-                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q15"
               },
               "id": "import-polynomial-0a90a0c43c94a6a4"
             },
@@ -36022,8 +36022,8 @@
               "skill": "poly-expand-identities",
               "stem": "Expand \\((2 c+d)^{2}\\).",
               "stemZh": "展開 \\((2 c+d)^{2}\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(2 c+d)^{2} = 4 c^{2} + 4 c d + d^{2}\\end{gathered}\\]",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(2 c+d)^{2} = 4 c^{2} + 4 c d + d^{2}\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(2 c+d)^{2} \\\\ = 4 c^{2} + 4 c d \\\\ + d^{2}\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(2 c+d)^{2} \\\\ = 4 c^{2} + 4 c d \\\\ + d^{2}\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36043,8 +36043,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q16",
-                "difficultyReason": "Apply the square-of-a-binomial identity with the cross term."
+                "difficultyReason": "Apply the square-of-a-binomial identity with the cross term.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q16"
               },
               "id": "import-polynomial-f2217a3406521a55"
             },
@@ -36058,8 +36058,8 @@
               "skill": "poly-expand-identities",
               "stem": "Expand \\((5 x-6 y)^{2}\\).",
               "stemZh": "展開 \\((5 x-6 y)^{2}\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(5 x-6 y)^{2} = 25 x^{2} - 60 x y \\\\ + 36 y^{2}\\end{gathered}\\]",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(5 x-6 y)^{2} = 25 x^{2} - 60 x y \\\\ + 36 y^{2}\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(5 x-6 y)^{2} \\\\ = 25 x^{2} - 60 x y \\\\ + 36 y^{2}\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(5 x-6 y)^{2} \\\\ = 25 x^{2} - 60 x y \\\\ + 36 y^{2}\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36079,8 +36079,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q17",
-                "difficultyReason": "Apply the square-of-a-binomial identity with the cross term."
+                "difficultyReason": "Apply the square-of-a-binomial identity with the cross term.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q17"
               },
               "id": "import-polynomial-d197802ff7e27f96"
             },
@@ -36092,10 +36092,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-collect",
-              "stem": "Expand and simplify \\(-e (e+2)+3 e (e-1)\\).",
-              "stemZh": "展開並化簡 \\(-e (e+2)+3 e (e-1)\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}-e (e+2) +3 e (e-1) = - e^{2} - 2 e \\\\ + 3 e^{2} - 3 e = 2 e^{2} - 5 e\\end{gathered}\\]",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}-e (e+2) +3 e (e-1) = - e^{2} - 2 e \\\\ + 3 e^{2} - 3 e = 2 e^{2} - 5 e\\end{gathered}\\]",
+              "stem": "Expand and simplify \\[\\begin{gathered}-e (e+2) +3 e (e-1)\\end{gathered}\\]",
+              "stemZh": "展開並化簡 \\[\\begin{gathered}-e (e+2) +3 e (e-1)\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}-e (e+2) +3 e (e-1) \\\\ = - e^{2} - 2 e \\\\ + 3 e^{2} - 3 e \\\\ = 2 e^{2} - 5 e\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}-e (e+2) +3 e (e-1) \\\\ = - e^{2} - 2 e \\\\ + 3 e^{2} - 3 e \\\\ = 2 e^{2} - 5 e\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36115,8 +36115,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q18",
-                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q18"
               },
               "id": "import-polynomial-86e0154064e1f524"
             },
@@ -36128,10 +36128,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-collect",
-              "stem": "Expand and simplify \\(3 f (3 f-2)-2 f (2 f+4)\\).",
-              "stemZh": "展開並化簡 \\(3 f (3 f-2)-2 f (2 f+4)\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}3 f (3 f-2) -2 f (2 f+4) = 9 f^{2} - 6 f \\\\ + (- 4 f^{2} - 8 f) = 5 f^{2} - 14 f\\end{gathered}\\]",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}3 f (3 f-2) -2 f (2 f+4) = 9 f^{2} - 6 f \\\\ + (- 4 f^{2} - 8 f) = 5 f^{2} - 14 f\\end{gathered}\\]",
+              "stem": "Expand and simplify \\[\\begin{gathered}3 f (3 f-2) \\\\ -2 f (2 f+4)\\end{gathered}\\]",
+              "stemZh": "展開並化簡 \\[\\begin{gathered}3 f (3 f-2) \\\\ -2 f (2 f+4)\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}3 f (3 f-2) \\\\ -2 f (2 f+4) \\\\ = 9 f^{2} - 6 f \\\\ + (- 4 f^{2} - 8 f) \\\\ = 5 f^{2} - 14 f\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}3 f (3 f-2) \\\\ -2 f (2 f+4) \\\\ = 9 f^{2} - 6 f \\\\ + (- 4 f^{2} - 8 f) \\\\ = 5 f^{2} - 14 f\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36151,8 +36151,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q19",
-                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q19"
               },
               "id": "import-polynomial-b249e9a402d3f1d8"
             },
@@ -36164,10 +36164,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-identities",
-              "stem": "Expand and simplify \\((a+b) (a-b)+(2 a^{2}+b^{2})\\).",
-              "stemZh": "展開並化簡 \\((a+b) (a-b)+(2 a^{2}+b^{2})\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(a+b) (a-b) +(2 a^{2}+b^{2}) = a^{2} \\\\ - b^{2} + 2 a^{2} + b^{2} = 3 a^{2}\\end{gathered}\\]",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(a+b) (a-b) +(2 a^{2}+b^{2}) = a^{2} \\\\ - b^{2} + 2 a^{2} + b^{2} = 3 a^{2}\\end{gathered}\\]",
+              "stem": "Expand and simplify \\[\\begin{gathered}(a+b) \\cdot (a-b) \\\\ +(2 a^{2}+b^{2})\\end{gathered}\\]",
+              "stemZh": "展開並化簡 \\[\\begin{gathered}(a+b) \\cdot (a-b) \\\\ +(2 a^{2}+b^{2})\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(a+b) \\cdot (a-b) \\\\ +(2 a^{2}+b^{2}) \\\\ = a^{2} - b^{2} \\\\ + 2 a^{2} + b^{2} \\\\ = 3 a^{2}\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(a+b) \\cdot (a-b) \\\\ +(2 a^{2}+b^{2}) \\\\ = a^{2} - b^{2} \\\\ + 2 a^{2} + b^{2} \\\\ = 3 a^{2}\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36187,8 +36187,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q20",
-                "difficultyReason": "Use the difference-of-squares identity and collect remaining terms."
+                "difficultyReason": "Use the difference-of-squares identity and collect remaining terms.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q20"
               },
               "id": "import-polynomial-5d72a890eeab2cc1"
             },
@@ -36200,10 +36200,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-collect",
-              "stem": "Expand and simplify \\((x-3 y) (2 x+y)-(2 x^{2}+4 y^{2})\\).",
-              "stemZh": "展開並化簡 \\((x-3 y) (2 x+y)-(2 x^{2}+4 y^{2})\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(x-3 y) (2 x+y) -(2 x^{2}+4 y^{2}) \\\\ = 2 x^{2} - 5 x y - 3 y^{2} \\\\ + (- 2 x^{2} - 4 y^{2}) = - 5 x y \\\\ - 7 y^{2}\\end{gathered}\\] Source-key correction: the supplied brief answer is \\(4x^2-5xy+y^2\\), which does not equal the given expression. The result above follows the original question unchanged.",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(x-3 y) (2 x+y) -(2 x^{2}+4 y^{2}) \\\\ = 2 x^{2} - 5 x y - 3 y^{2} \\\\ + (- 2 x^{2} - 4 y^{2}) = - 5 x y \\\\ - 7 y^{2}\\end{gathered}\\]原卷簡答更正：原簡答為 \\(4x^2-5xy+y^2\\)，與原式不相等。以上結果按原題計算，沒有更改題目條件。",
+              "stem": "Expand and simplify \\[\\begin{gathered}(x-3 y) \\\\ \\cdot (2 x+y) \\\\ -(2 x^{2}+4 y^{2})\\end{gathered}\\]",
+              "stemZh": "展開並化簡 \\[\\begin{gathered}(x-3 y) \\\\ \\cdot (2 x+y) \\\\ -(2 x^{2}+4 y^{2})\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(x-3 y) \\\\ \\cdot (2 x+y) \\\\ -(2 x^{2}+4 y^{2}) \\\\ = 2 x^{2} - 5 x y \\\\ - 3 y^{2} \\\\ + (- 2 x^{2} - 4 y^{2}) \\\\ = - 5 x y - 7 y^{2}\\end{gathered}\\] Source-key correction: the supplied brief answer is \\(4x^2-5xy+y^2\\), which does not equal the given expression. The result above follows the original question unchanged.",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(x-3 y) \\\\ \\cdot (2 x+y) \\\\ -(2 x^{2}+4 y^{2}) \\\\ = 2 x^{2} - 5 x y \\\\ - 3 y^{2} \\\\ + (- 2 x^{2} - 4 y^{2}) \\\\ = - 5 x y - 7 y^{2}\\end{gathered}\\]原卷簡答更正：原簡答為 \\(4x^2-5xy+y^2\\)，與原式不相等。以上結果按原題計算，沒有更改題目條件。",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36223,8 +36223,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q21",
-                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q21"
               },
               "id": "import-polynomial-6bb7e02c49ad2bfe"
             },
@@ -36236,10 +36236,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-identities",
-              "stem": "Expand and simplify \\((2 a-b) (2 a+b)-(2 a^{2}-3 b^{2})\\).",
-              "stemZh": "展開並化簡 \\((2 a-b) (2 a+b)-(2 a^{2}-3 b^{2})\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(2 a-b) (2 a+b) -(2 a^{2}-3 b^{2}) \\\\ = 4 a^{2} - b^{2} + (- 2 a^{2} + 3 b^{2}) \\\\ = 2 a^{2} + 2 b^{2}\\end{gathered}\\] Source-key correction: the supplied brief answer is \\(6a^2-4b^2\\), which does not equal the given expression. The result above follows the original question unchanged.",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(2 a-b) (2 a+b) -(2 a^{2}-3 b^{2}) \\\\ = 4 a^{2} - b^{2} + (- 2 a^{2} + 3 b^{2}) \\\\ = 2 a^{2} + 2 b^{2}\\end{gathered}\\]原卷簡答更正：原簡答為 \\(6a^2-4b^2\\)，與原式不相等。以上結果按原題計算，沒有更改題目條件。",
+              "stem": "Expand and simplify \\[\\begin{gathered}(2 a-b) \\\\ \\cdot (2 a+b) \\\\ -(2 a^{2}-3 b^{2})\\end{gathered}\\]",
+              "stemZh": "展開並化簡 \\[\\begin{gathered}(2 a-b) \\\\ \\cdot (2 a+b) \\\\ -(2 a^{2}-3 b^{2})\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(2 a-b) \\\\ \\cdot (2 a+b) \\\\ -(2 a^{2}-3 b^{2}) \\\\ = 4 a^{2} - b^{2} \\\\ + (- 2 a^{2} + 3 b^{2}) \\\\ = 2 a^{2} + 2 b^{2}\\end{gathered}\\] Source-key correction: the supplied brief answer is \\(6a^2-4b^2\\), which does not equal the given expression. The result above follows the original question unchanged.",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(2 a-b) \\\\ \\cdot (2 a+b) \\\\ -(2 a^{2}-3 b^{2}) \\\\ = 4 a^{2} - b^{2} \\\\ + (- 2 a^{2} + 3 b^{2}) \\\\ = 2 a^{2} + 2 b^{2}\\end{gathered}\\]原卷簡答更正：原簡答為 \\(6a^2-4b^2\\)，與原式不相等。以上結果按原題計算，沒有更改題目條件。",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36259,8 +36259,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q22",
-                "difficultyReason": "Use the difference-of-squares identity and collect remaining terms."
+                "difficultyReason": "Use the difference-of-squares identity and collect remaining terms.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q22"
               },
               "id": "import-polynomial-48ae53f12f886692"
             },
@@ -36272,10 +36272,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expand-collect",
-              "stem": "Expand and simplify \\((3 x^{2}-y^{2})+(4 x-7 y) (2 x+y)\\).",
-              "stemZh": "展開並化簡 \\((3 x^{2}-y^{2})+(4 x-7 y) (2 x+y)\\)。",
-              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(3 x^{2}-y^{2}) +(4 x-7 y) (2 x+y) \\\\ = 3 x^{2} + (- y^{2}) + 8 x^{2} - 10 x y \\\\ - 7 y^{2} = 11 x^{2} - 10 x y - 8 y^{2}\\end{gathered}\\]",
-              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(3 x^{2}-y^{2}) +(4 x-7 y) (2 x+y) \\\\ = 3 x^{2} + (- y^{2}) + 8 x^{2} - 10 x y \\\\ - 7 y^{2} = 11 x^{2} - 10 x y - 8 y^{2}\\end{gathered}\\]",
+              "stem": "Expand and simplify \\[\\begin{gathered}(3 x^{2}-y^{2}) \\\\ +(4 x-7 y) \\\\ \\cdot (2 x+y)\\end{gathered}\\]",
+              "stemZh": "展開並化簡 \\[\\begin{gathered}(3 x^{2}-y^{2}) \\\\ +(4 x-7 y) \\\\ \\cdot (2 x+y)\\end{gathered}\\]",
+              "solution": "Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(3 x^{2}-y^{2}) \\\\ +(4 x-7 y) \\\\ \\cdot (2 x+y) \\\\ = 3 x^{2} \\\\ + (- y^{2}) \\\\ + 8 x^{2} - 10 x y \\\\ - 7 y^{2} \\\\ = 11 x^{2} - 10 x y \\\\ - 8 y^{2}\\end{gathered}\\]",
+              "solutionZh": "用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(3 x^{2}-y^{2}) \\\\ +(4 x-7 y) \\\\ \\cdot (2 x+y) \\\\ = 3 x^{2} \\\\ + (- y^{2}) \\\\ + 8 x^{2} - 10 x y \\\\ - 7 y^{2} \\\\ = 11 x^{2} - 10 x y \\\\ - 8 y^{2}\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36295,8 +36295,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q23",
-                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking."
+                "difficultyReason": "Apply distributive expansion and combine like terms; repeated products require sign tracking.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q23"
               },
               "id": "import-polynomial-3997375ef8332530"
             },
@@ -36308,10 +36308,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-evaluate-expanded",
-              "stem": "(a) Simplify \\((5 x^{3}-x^{2}+x-1)-(7 x^{2}+5)\\).\n(b) Find the value of the polynomial when \\(x=-2\\).",
-              "stemZh": "(a) 化簡 \\((5 x^{3}-x^{2}+x-1)-(7 x^{2}+5)\\)。\n(b) 當 \\(x=-2\\) 時，求該多項式的值。",
-              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) -(7 x^{2}+5) = 5 x^{3} \\\\ + (- x^{2}) + x + (-1) + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} + x - 6\\end{gathered}\\]\n(b) Substitute \\(x=-2\\): \\(5 x^{3} - 8 x^{2} + x - 6=-80\\).",
-              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) -(7 x^{2}+5) = 5 x^{3} \\\\ + (- x^{2}) + x + (-1) + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} + x - 6\\end{gathered}\\]\n(b) 代入 \\(x=-2\\)：\\(5 x^{3} - 8 x^{2} + x - 6=-80\\)。",
+              "stem": "(a) Simplify \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) \\\\ -(7 x^{2}+5)\\end{gathered}\\]\n(b) Find the value of the polynomial when \\(x=-2\\).",
+              "stemZh": "(a) 化簡 \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) \\\\ -(7 x^{2}+5)\\end{gathered}\\]\n(b) 當 \\(x=-2\\) 時，求該多項式的值。",
+              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) \\\\ -(7 x^{2}+5) \\\\ = 5 x^{3} \\\\ + (- x^{2}) + x \\\\ + (-1) \\\\ + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} \\\\ + x - 6\\end{gathered}\\]\n(b) Substitute \\(x=-2\\): \\[\\begin{gathered}5 x^{3} - 8 x^{2} \\\\ + x - 6 = -80\\end{gathered}\\]",
+              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) \\\\ -(7 x^{2}+5) \\\\ = 5 x^{3} \\\\ + (- x^{2}) + x \\\\ + (-1) \\\\ + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} \\\\ + x - 6\\end{gathered}\\]\n(b) 代入 \\(x=-2\\)：\\[\\begin{gathered}5 x^{3} - 8 x^{2} \\\\ + x - 6 = -80\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36331,14 +36331,14 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q24",
-                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q24"
               },
               "contentBlocks": {
                 "en": [
                   {
                     "type": "paragraph",
-                    "text": "(a) Simplify \\((5 x^{3}-x^{2}+x-1)-(7 x^{2}+5)\\)."
+                    "text": "(a) Simplify \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) \\\\ -(7 x^{2}+5)\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36348,7 +36348,7 @@
                 "zh-Hant": [
                   {
                     "type": "paragraph",
-                    "text": "(a) 化簡 \\((5 x^{3}-x^{2}+x-1)-(7 x^{2}+5)\\)。"
+                    "text": "(a) 化簡 \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) \\\\ -(7 x^{2}+5)\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36360,21 +36360,21 @@
                 "en": [
                   {
                     "type": "paragraph",
-                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) -(7 x^{2}+5) = 5 x^{3} \\\\ + (- x^{2}) + x + (-1) + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} + x - 6\\end{gathered}\\]"
+                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) \\\\ -(7 x^{2}+5) \\\\ = 5 x^{3} \\\\ + (- x^{2}) + x \\\\ + (-1) \\\\ + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} \\\\ + x - 6\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
-                    "text": "(b) Substitute \\(x=-2\\): \\(5 x^{3} - 8 x^{2} + x - 6=-80\\)."
+                    "text": "(b) Substitute \\(x=-2\\): \\[\\begin{gathered}5 x^{3} - 8 x^{2} \\\\ + x - 6 = -80\\end{gathered}\\]"
                   }
                 ],
                 "zh-Hant": [
                   {
                     "type": "paragraph",
-                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) -(7 x^{2}+5) = 5 x^{3} \\\\ + (- x^{2}) + x + (-1) + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} + x - 6\\end{gathered}\\]"
+                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(5 x^{3}-x^{2}+x-1) \\\\ -(7 x^{2}+5) \\\\ = 5 x^{3} \\\\ + (- x^{2}) + x \\\\ + (-1) \\\\ + (- 7 x^{2} - 5) \\\\ = 5 x^{3} - 8 x^{2} \\\\ + x - 6\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
-                    "text": "(b) 代入 \\(x=-2\\)：\\(5 x^{3} - 8 x^{2} + x - 6=-80\\)。"
+                    "text": "(b) 代入 \\(x=-2\\)：\\[\\begin{gathered}5 x^{3} - 8 x^{2} \\\\ + x - 6 = -80\\end{gathered}\\]"
                   }
                 ]
               },
@@ -36388,10 +36388,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-evaluate-expanded",
-              "stem": "(a) Simplify \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]\n(b) Find the value of the polynomial when \\(a=-1, b=-2\\).",
-              "stemZh": "(a) 化簡 \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]\n(b) 當 \\(a=-1, b=-2\\) 時，求該多項式的值。",
-              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) = 6 a^{2} \\\\ + (- 5 a b) + (- b^{2}) + a b + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) = a^{2} \\\\ - 11 a b - b^{2}\\end{gathered}\\]\n(b) Substitute \\(a=-1, b=-2\\): \\(a^{2} - 11 a b - b^{2}=-25\\).",
-              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) = 6 a^{2} \\\\ + (- 5 a b) + (- b^{2}) + a b + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) = a^{2} \\\\ - 11 a b - b^{2}\\end{gathered}\\]\n(b) 代入 \\(a=-1, b=-2\\)：\\(a^{2} - 11 a b - b^{2}=-25\\)。",
+              "stem": "(a) Simplify \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) \\\\ +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]\n(b) Find the value of the polynomial when \\(a=-1, b=-2\\).",
+              "stemZh": "(a) 化簡 \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) \\\\ +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]\n(b) 當 \\(a=-1, b=-2\\) 時，求該多項式的值。",
+              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) \\\\ +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) \\\\ = 6 a^{2} \\\\ + (- 5 a b) \\\\ + (- b^{2}) + a b \\\\ + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) \\\\ = a^{2} - 11 a b \\\\ - b^{2}\\end{gathered}\\]\n(b) Substitute \\(a=-1, b=-2\\): \\[\\begin{gathered}a^{2} - 11 a b \\\\ - b^{2} = -25\\end{gathered}\\]",
+              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) \\\\ +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) \\\\ = 6 a^{2} \\\\ + (- 5 a b) \\\\ + (- b^{2}) + a b \\\\ + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) \\\\ = a^{2} - 11 a b \\\\ - b^{2}\\end{gathered}\\]\n(b) 代入 \\(a=-1, b=-2\\)：\\[\\begin{gathered}a^{2} - 11 a b \\\\ - b^{2} = -25\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36411,14 +36411,14 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q25",
-                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q25"
               },
               "contentBlocks": {
                 "en": [
                   {
                     "type": "paragraph",
-                    "text": "(a) Simplify \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]"
+                    "text": "(a) Simplify \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) \\\\ +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36428,7 +36428,7 @@
                 "zh-Hant": [
                   {
                     "type": "paragraph",
-                    "text": "(a) 化簡 \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]"
+                    "text": "(a) 化簡 \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) \\\\ +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2})\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36440,21 +36440,21 @@
                 "en": [
                   {
                     "type": "paragraph",
-                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) = 6 a^{2} \\\\ + (- 5 a b) + (- b^{2}) + a b + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) = a^{2} \\\\ - 11 a b - b^{2}\\end{gathered}\\]"
+                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) \\\\ +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) \\\\ = 6 a^{2} \\\\ + (- 5 a b) \\\\ + (- b^{2}) + a b \\\\ + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) \\\\ = a^{2} - 11 a b \\\\ - b^{2}\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
-                    "text": "(b) Substitute \\(a=-1, b=-2\\): \\(a^{2} - 11 a b - b^{2}=-25\\)."
+                    "text": "(b) Substitute \\(a=-1, b=-2\\): \\[\\begin{gathered}a^{2} - 11 a b \\\\ - b^{2} = -25\\end{gathered}\\]"
                   }
                 ],
                 "zh-Hant": [
                   {
                     "type": "paragraph",
-                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) = 6 a^{2} \\\\ + (- 5 a b) + (- b^{2}) + a b + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) = a^{2} \\\\ - 11 a b - b^{2}\\end{gathered}\\]"
+                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(6 a^{2}-5 a b-b^{2}) \\\\ +(a b-b^{2}) \\\\ -(7 a b+5 a^{2}-b^{2}) \\\\ = 6 a^{2} \\\\ + (- 5 a b) \\\\ + (- b^{2}) + a b \\\\ + (- b^{2}) \\\\ + (- 5 a^{2} - 7 a b + b^{2}) \\\\ = a^{2} - 11 a b \\\\ - b^{2}\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
-                    "text": "(b) 代入 \\(a=-1, b=-2\\)：\\(a^{2} - 11 a b - b^{2}=-25\\)。"
+                    "text": "(b) 代入 \\(a=-1, b=-2\\)：\\[\\begin{gathered}a^{2} - 11 a b \\\\ - b^{2} = -25\\end{gathered}\\]"
                   }
                 ]
               },
@@ -36470,8 +36470,8 @@
               "skill": "poly-expanded-structure",
               "stem": "(a) Simplify \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3})\\end{gathered}\\]\n(b) Find the coefficient of \\(x^{2} y^{3}\\) in the expansion in (a).\n(c) Find the degree of the expansion in (a).",
               "stemZh": "(a) 化簡 \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3})\\end{gathered}\\]\n(b) 求 (a) 中展開式的 \\(x^{2} y^{3}\\) 項的係數。\n(c) 求 (a) 中展開式的次數。",
-              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} - 10 x y^{5} \\\\ + 5 x^{3} y^{2} + 5 x^{2} y^{3} \\\\ + 5 x y^{5} = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} - 5 x y^{5}\\end{gathered}\\]\n(b) Coefficient: \\(7\\). (c) Total degree: \\(6\\).",
-              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} - 10 x y^{5} \\\\ + 5 x^{3} y^{2} + 5 x^{2} y^{3} \\\\ + 5 x y^{5} = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} - 5 x y^{5}\\end{gathered}\\]\n(b) 係數：\\(7\\)。(c) 總次數：\\(6\\)。",
+              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} \\\\ - 10 x y^{5} \\\\ + 5 x^{3} y^{2} \\\\ + 5 x^{2} y^{3} \\\\ + 5 x y^{5} \\\\ = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} \\\\ - 5 x y^{5}\\end{gathered}\\]\n(b) Coefficient: \\(7\\). (c) Total degree: \\(6\\).",
+              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} \\\\ - 10 x y^{5} \\\\ + 5 x^{3} y^{2} \\\\ + 5 x^{2} y^{3} \\\\ + 5 x y^{5} \\\\ = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} \\\\ - 5 x y^{5}\\end{gathered}\\]\n(b) 係數：\\(7\\)。(c) 總次數：\\(6\\)。",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36491,8 +36491,8 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q26",
-                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q26"
               },
               "contentBlocks": {
                 "en": [
@@ -36528,7 +36528,7 @@
                 "en": [
                   {
                     "type": "paragraph",
-                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} - 10 x y^{5} \\\\ + 5 x^{3} y^{2} + 5 x^{2} y^{3} \\\\ + 5 x y^{5} = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} - 5 x y^{5}\\end{gathered}\\]"
+                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} \\\\ - 10 x y^{5} \\\\ + 5 x^{3} y^{2} \\\\ + 5 x^{2} y^{3} \\\\ + 5 x y^{5} \\\\ = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} \\\\ - 5 x y^{5}\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36538,7 +36538,7 @@
                 "zh-Hant": [
                   {
                     "type": "paragraph",
-                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} - 10 x y^{5} \\\\ + 5 x^{3} y^{2} + 5 x^{2} y^{3} \\\\ + 5 x y^{5} = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} - 5 x y^{5}\\end{gathered}\\]"
+                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}2 x y^{3} (x-5 y^{2}) \\\\ +5 x y^{2} (x^{2}+x y+y^{3}) \\\\ = 2 x^{2} y^{3} \\\\ - 10 x y^{5} \\\\ + 5 x^{3} y^{2} \\\\ + 5 x^{2} y^{3} \\\\ + 5 x y^{5} \\\\ = 5 x^{3} y^{2} \\\\ + 7 x^{2} y^{3} \\\\ - 5 x y^{5}\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36556,10 +36556,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expanded-structure",
-              "stem": "(a) Expand \\((x^{2}-2 x+1) (x-1)\\).\n(b) Find the degree of the expansion in (a).\n(c) Find the coefficient of \\(x^{2}\\) in the expansion in (a).",
-              "stemZh": "(a) 展開 \\((x^{2}-2 x+1) (x-1)\\)。\n(b) 求 (a) 中展開式的次數。\n(c) 求 (a) 中展開式的 \\(x^{2}\\) 項的係數。",
-              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(x^{2}-2 x+1) (x-1) = x^{3} - 3 x^{2} \\\\ + 3 x - 1\\end{gathered}\\]\n(b) Degree: \\(3\\). (c) Coefficient: \\(-3\\).",
-              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(x^{2}-2 x+1) (x-1) = x^{3} - 3 x^{2} \\\\ + 3 x - 1\\end{gathered}\\]\n(b) 次數：\\(3\\)。(c) 係數：\\(-3\\)。",
+              "stem": "(a) Expand \\[\\begin{gathered}(x^{2}-2 x+1) \\\\ \\cdot (x-1)\\end{gathered}\\]\n(b) Find the degree of the expansion in (a).\n(c) Find the coefficient of \\(x^{2}\\) in the expansion in (a).",
+              "stemZh": "(a) 展開 \\[\\begin{gathered}(x^{2}-2 x+1) \\\\ \\cdot (x-1)\\end{gathered}\\]\n(b) 求 (a) 中展開式的次數。\n(c) 求 (a) 中展開式的 \\(x^{2}\\) 項的係數。",
+              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(x^{2}-2 x+1) \\\\ \\cdot (x-1) = x^{3} \\\\ - 3 x^{2} + 3 x - 1\\end{gathered}\\]\n(b) Degree: \\(3\\). (c) Coefficient: \\(-3\\).",
+              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(x^{2}-2 x+1) \\\\ \\cdot (x-1) = x^{3} \\\\ - 3 x^{2} + 3 x - 1\\end{gathered}\\]\n(b) 次數：\\(3\\)。(c) 係數：\\(-3\\)。",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36579,14 +36579,14 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q27",
-                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q27"
               },
               "contentBlocks": {
                 "en": [
                   {
                     "type": "paragraph",
-                    "text": "(a) Expand \\((x^{2}-2 x+1) (x-1)\\)."
+                    "text": "(a) Expand \\[\\begin{gathered}(x^{2}-2 x+1) \\\\ \\cdot (x-1)\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36600,7 +36600,7 @@
                 "zh-Hant": [
                   {
                     "type": "paragraph",
-                    "text": "(a) 展開 \\((x^{2}-2 x+1) (x-1)\\)。"
+                    "text": "(a) 展開 \\[\\begin{gathered}(x^{2}-2 x+1) \\\\ \\cdot (x-1)\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36616,7 +36616,7 @@
                 "en": [
                   {
                     "type": "paragraph",
-                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(x^{2}-2 x+1) (x-1) = x^{3} - 3 x^{2} \\\\ + 3 x - 1\\end{gathered}\\]"
+                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(x^{2}-2 x+1) \\\\ \\cdot (x-1) = x^{3} \\\\ - 3 x^{2} + 3 x - 1\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36626,7 +36626,7 @@
                 "zh-Hant": [
                   {
                     "type": "paragraph",
-                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(x^{2}-2 x+1) (x-1) = x^{3} - 3 x^{2} \\\\ + 3 x - 1\\end{gathered}\\]"
+                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(x^{2}-2 x+1) \\\\ \\cdot (x-1) = x^{3} \\\\ - 3 x^{2} + 3 x - 1\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36644,10 +36644,10 @@
               "course": "core",
               "subcategory": "basic-operations",
               "skill": "poly-expanded-structure",
-              "stem": "(a) Expand \\((m-2 n) (m-3+n)\\).\n(b) Find the degree of the expansion in (a).\n(c) Find the coefficient of \\(m n\\) in the expansion in (a).",
-              "stemZh": "(a) 展開 \\((m-2 n) (m-3+n)\\)。\n(b) 求 (a) 中展開式的次數。\n(c) 求 (a) 中展開式的 \\(m n\\) 項的係數。",
-              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(m-2 n) (m-3+n) = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]\n(b) Degree: \\(2\\). (c) Coefficient: \\(-1\\).",
-              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(m-2 n) (m-3+n) = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]\n(b) 次數：\\(2\\)。(c) 係數：\\(-1\\)。",
+              "stem": "(a) Expand \\[\\begin{gathered}(m-2 n) \\\\ \\cdot (m-3+n)\\end{gathered}\\]\n(b) Find the degree of the expansion in (a).\n(c) Find the coefficient of \\(m n\\) in the expansion in (a).",
+              "stemZh": "(a) 展開 \\[\\begin{gathered}(m-2 n) \\\\ \\cdot (m-3+n)\\end{gathered}\\]\n(b) 求 (a) 中展開式的次數。\n(c) 求 (a) 中展開式的 \\(m n\\) 項的係數。",
+              "solution": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(m-2 n) \\\\ \\cdot (m-3+n) \\\\ = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]\n(b) Degree: \\(2\\). (c) Coefficient: \\(-1\\).",
+              "solutionZh": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(m-2 n) \\\\ \\cdot (m-3+n) \\\\ = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]\n(b) 次數：\\(2\\)。(c) 係數：\\(-1\\)。",
               "solutionStatus": "independently-rederived",
               "assessmentMode": "solution-comparison",
               "level": "free",
@@ -36667,14 +36667,14 @@
                 "version": "solving-method-v1",
                 "basis": "reviewed-decisive-solving-method",
                 "status": "editor-pipeline-reviewed",
-                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q28",
-                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+                "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts.",
+                "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q28"
               },
               "contentBlocks": {
                 "en": [
                   {
                     "type": "paragraph",
-                    "text": "(a) Expand \\((m-2 n) (m-3+n)\\)."
+                    "text": "(a) Expand \\[\\begin{gathered}(m-2 n) \\\\ \\cdot (m-3+n)\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36688,7 +36688,7 @@
                 "zh-Hant": [
                   {
                     "type": "paragraph",
-                    "text": "(a) 展開 \\((m-2 n) (m-3+n)\\)。"
+                    "text": "(a) 展開 \\[\\begin{gathered}(m-2 n) \\\\ \\cdot (m-3+n)\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36704,7 +36704,7 @@
                 "en": [
                   {
                     "type": "paragraph",
-                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(m-2 n) (m-3+n) = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]"
+                    "text": "(a) Expand each product using the distributive law, then collect like terms: \\[\\begin{gathered}(m-2 n) \\\\ \\cdot (m-3+n) \\\\ = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
@@ -36714,7 +36714,7 @@
                 "zh-Hant": [
                   {
                     "type": "paragraph",
-                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(m-2 n) (m-3+n) = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]"
+                    "text": "(a) 用分配律展開每個乘積，再合併同類項：\\[\\begin{gathered}(m-2 n) \\\\ \\cdot (m-3+n) \\\\ = m^{2} - m n - 3 m \\\\ - 2 n^{2} + 6 n\\end{gathered}\\]"
                   },
                   {
                     "type": "paragraph",
