@@ -1,0 +1,5 @@
+page.waitForFunction: Timeout 30000ms exceeded.
+    at /Users/chester/Downloads/Chester ip/tests/browser/source-links.cjs:8:141 {
+  log: [],
+  name: 'TimeoutError'
+}

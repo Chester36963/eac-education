@@ -147,3 +147,7 @@ SEQ 正式發布：main 335df26；Deploy40638983248／Pages40639022492 成功。
 ## ASGS-RECON-20261112 · 接續來源對帳
 
 完成：三份來源共51個原題號對帳；44條上架記錄、3條確認重複、4條待補來源，對應45條canonical題。新增／恢復僅1條（sequence review Q20），總題數1,281；保留原條件，以完整零／非零公比分支作書寫自評。44條難度理由已記錄，尚未全數回填canonical。待處理：3個重複來源alias；待補來源4題的具體缺失見[逐題ledger](qa/2026-11-12/asgs-reconciliation/ledger.json)。歷史22／2快照保留，不代表現況。測試及發布狀態見[本批QA](qa/2026-11-12/asgs-reconciliation/README.md)。
+
+## SRC-LINK-20261113 · 重複來源連結完成
+
+ASGS-05由待處理改為完成：3條已確認重複來源以canonical關聯檔 `content/source-links.json` 連到2條既有題；公開章檔及按需資料均保留完整來源別名。新對帳未連結duplicate=0，三批重播無新增／修改。新題數0，題庫維持1,281；4條待補來源疑點不變。逐項測試、發布狀態及界線見[本批QA](qa/2026-11-13/source-links/README.md)。

@@ -9,6 +9,8 @@ def read(p):return json.loads(p.read_text())
 def reconcile(source_root):
     bank={q['id']:q for p in sorted((ROOT/'content/chapters').glob('*.json')) for c in read(p)['categories'] for q in c['questions']}
     reviews=read(ROOT/'content/intake/asgs-difficulty-review-2026-11-12.json')
+    link_file=ROOT/'content/source-links.json'
+    source_links=read(link_file)['links'] if link_file.exists() else []
     rows=[];sources=[]
     for bid in BATCHES:
         b=read(ROOT/f'content/intake/editor/{bid}.json')
@@ -25,6 +27,7 @@ def reconcile(source_root):
             reason=reviews.get(bid,{}).get(r['locator'])
             if r['disposition']=='publish':assert reason
             refs=([q.get('provenance',{})]+q.get('sourceAliases',[])) if q else []
+            refs += [link['source'] for link in source_links if link['canonicalId']==target]
             linked=any(x.get('sha256')==actual and str(x.get('number'))==r['locator'] for x in refs)
             rows.append({'batchId':bid,'sourceId':b['sourceId'],'sourcePath':b['sourcePath'],'locator':r['locator'],'pages':r['pages'],'disposition':r['disposition'],'questionId':r['question']['id'],'canonicalId':target,'course':q.get('course','core') if q else None,'subcategory':q.get('subcategory') if q else None,'skill':q.get('skill') if q else None,'difficulty':q.get('difficulty') if q else None,'difficultyReason':reason,'canonicalProvenanceLinked':linked,'duplicateEvidence':r.get('reason') if r['disposition']=='duplicate' else None,'holdReason':r.get('reason') if r['disposition']=='hold' else None,'nextStep':r.get('investigation',{}).get('nextStep','Locate an authoritative nonzero-first-term definition or correction; current MCQ admits the all-zero counterexample. Do not add a condition silently.') if r['disposition']=='hold' else None,'status':'待補來源' if r['disposition']=='hold' else '完成'})
     return {'id':'ASGS-RECON-20261112','status':'完成','scope':'Source SHA and locator accounting; existing difficulty tiers reviewed, not recalibrated. Diagram QA not renewed by this ledger. Duplicate locators are explicitly linked here; absent canonical aliases remain visible as a provenance gap.','sourceRecords':len(rows),'counts':dict(Counter(r['disposition'] for r in rows)),'uniqueCanonicalTargets':len({r['canonicalId'] for r in rows if r['canonicalId']}),'unlinkedDuplicateLocators':sum(r['disposition']=='duplicate' and not r['canonicalProvenanceLinked'] for r in rows),'sources':sources,'records':rows}

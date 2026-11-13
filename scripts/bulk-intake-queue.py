@@ -139,6 +139,13 @@ def build(root, textbooks):
     questions = [dict(q, _topicId=p.stem)
                  for p in sorted((root / 'content/chapters').glob('*.json'))
                  for c in read(p)['categories'] for q in c['questions']]
+    link_file = root / 'content/source-links.json'
+    if link_file.exists():
+        by_id = {q['id']: q for q in questions}
+        for link in read(link_file)['links']:
+            q = by_id[link['canonicalId']]
+            alias = link['source']
+            q['sourceAliases'] = q.get('sourceAliases', []) + [alias]
     rows = reconcile(list(sources.values()), batches, questions)
     hashes = {}
     for s in rows:

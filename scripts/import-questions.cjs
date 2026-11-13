@@ -55,6 +55,7 @@ function merge(source,bundle,{replace=false,assetRoot=path.join(ROOT,'src')}={})
   }
   const errors=validate(merged.catalog,merged.topics,merged.skills,assetRoot);
   if(errors.length)throw Error(errors.join('\n'));
+  require('./source-links.cjs').validateLinks(merged.sourceLinks||[],merged.topics);
   report.taxonomyChanged=json(merged.catalog)!==json(source.catalog)||json(merged.skills)!==json(source.skills);
   return {source:merged,report};
 }

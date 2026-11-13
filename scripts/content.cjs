@@ -131,11 +131,12 @@ function readSource(root=ROOT){
   const declared=new Set(topics.map(t=>t.id+'.json'));
   const extra=fs.readdirSync(path.join(directory,'chapters')).filter(f=>f.endsWith('.json')&&!declared.has(f));
   if(extra.length)throw Error('Uncatalogued chapter files: '+extra.join(', '));
-  return {catalog,topics,skills};
+  const sourceLinks=require('./source-links.cjs').readLinks(root,topics);
+  return {catalog,topics,skills,...(sourceLinks.length?{sourceLinks}:{})};
 }
 
 function compile(source){
-  const {topics,skills}=source;const catalog=structuredClone(source.catalog);
+  const {skills}=source;const topics=require('./source-links.cjs').attachLinks(source.topics,source.sourceLinks);const catalog=structuredClone(source.catalog);
   const questions=Learning.flatten({topics});
   const countBy=(rows,key)=>Object.fromEntries([...new Set(rows.map(q=>q[key]))].map(value=>[value,rows.filter(q=>q[key]===value).length]));
   for(const chapter of catalog.subjects.flatMap(s=>s.chapters)){

@@ -1,0 +1,65 @@
+{
+  "mode": "apply",
+  "added": 3,
+  "total": 3,
+  "links": [
+    {
+      "batchId": "intake-611e81c1f3198537",
+      "canonicalId": "import-sequences-91db2df506d63f63",
+      "duplicateQuestionId": "import-sequences-a7097fa66d71539f",
+      "targetQuestionSha256": "5e4eb980de3570ad01498ef2259cfb2dc839a5e2749959da5b0395a0cf5a8932",
+      "sourceQuestionSha256": "a39cd9ec3bbfddba7638da4e9fa82bc608f635a4fe44dd010fca1a8552091458",
+      "evidence": "Confirmed same complete question as geometric-sequence-v2 scan-10 / source PDF p10 Q17: A(3)=-14, A(10)=7, G(n)=3^A(n), product <100000, greatest k=14, both subparts identical. Preserve existing student ID; retain this second source locator in the intake ledger.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-611e81c1f3198537",
+        "sha256": "2177061843148fa5d8021e5708953ee263b980a6e96abe59807fdc3c779b9d64",
+        "file": "S6/Sequence/Sequence review2.pdf",
+        "number": "16",
+        "page": 4,
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "batchId": "intake-233787552d322be8",
+      "canonicalId": "import-sequences-91db2df506d63f63",
+      "duplicateQuestionId": "import-sequences-731dfc8e80f92944",
+      "targetQuestionSha256": "5e4eb980de3570ad01498ef2259cfb2dc839a5e2749959da5b0395a0cf5a8932",
+      "sourceQuestionSha256": "0726c80eaa25a459cc055259053383f74fa04daf8540be6ae0dc44a7056cefb8",
+      "evidence": "Compared PDF question page1 and worked solution page3: same numerical data, both subparts, term indices, base and strict threshold as import-sequences-91db2df506d63f63. Existing stable student ID is retained; this ASGS PDF is recorded as an additional source, not a second independent question.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-233787552d322be8",
+        "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+        "file": "S6/Sequence/ASGS review.pdf",
+        "number": "1",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-233787552d322be8",
+      "canonicalId": "import-sequences-c43df14968861654",
+      "duplicateQuestionId": "import-sequences-64608ee76f13054d",
+      "targetQuestionSha256": "0b34982799adf6a4403989bf6c051103afe88b9b200d7e413794f62b3eb6aece",
+      "sourceQuestionSha256": "6f11bbc33f855855d4b18afc4859658c702b892707be6674f37dd5d7c9d6b10f",
+      "evidence": "Compared PDF question page1 and worked solution page4: same numerical data, both subparts, term indices, base and strict threshold as import-sequences-c43df14968861654. Existing stable student ID is retained; this ASGS PDF is recorded as an additional source, not a second independent question.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-233787552d322be8",
+        "sha256": "54afc2e7c5dffaeb052cb56510bdbda3ac1fa5f846bf4cd0de754ee4ca542996",
+        "file": "S6/Sequence/ASGS review.pdf",
+        "number": "2",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    }
+  ]
+}
+

@@ -64,3 +64,7 @@ python3 -m unittest discover -s tests -p 'test_bulk_intake_queue.py' -v
 ## 2026-11-12 · 直接接回批量流程
 
 執行 `python3 scripts/reconcile-asgs.py --output .cache/asgs-ledger.json` 可重建三份ASGS原題號對帳；來源SHA或草稿／canonical不符會中止。來源題數、publish記錄數、duplicate數及獨立canonical數分開計算。Q20由完整題意恢復，沒有更改原題條件或學生ID。四條剩餘hold與三條未寫入canonical的重複來源alias明列；詳見[本批QA](qa/2026-11-12/asgs-reconciliation/README.md)。新增題仍沿用editor五項審核、差異預覽及transaction，這份只讀報表不替代審核與匯入。
+
+## SRC-LINK-20261113 · 已確認同題保留所有來源
+
+三個ASGS重複定位已透過canonical關聯檔補齊，編譯後sourceAliases亦保留頁碼／原題號；來源佇列同步計算。預覽：`node scripts/register-source-links.cjs intake-611e81c1f3198537 intake-233787552d322be8`；檢視後加 `--apply`，再 `node scripts/build-content.cjs`。只接受現有確認duplicate，原PDF SHA須一致。重跑新增0；不新增學生題號、不刪除原題。修改題面後若關係hash失效，先重新核對同題證據，不能機械更新hash。見[本批證據](qa/2026-11-13/source-links/README.md)。

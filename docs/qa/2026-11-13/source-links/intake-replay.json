@@ -1,0 +1,38 @@
+[
+  {
+    "id": "intake-46587d8d34399b76",
+    "ready": true,
+    "changes": [],
+    "counts": {
+      "source": 24,
+      "recorded": 24,
+      "publish": 23,
+      "duplicate": 0,
+      "held": 1
+    }
+  },
+  {
+    "id": "intake-611e81c1f3198537",
+    "ready": true,
+    "changes": [],
+    "counts": {
+      "source": 19,
+      "recorded": 19,
+      "publish": 15,
+      "duplicate": 1,
+      "held": 3
+    }
+  },
+  {
+    "id": "intake-233787552d322be8",
+    "ready": true,
+    "changes": [],
+    "counts": {
+      "source": 8,
+      "recorded": 8,
+      "publish": 6,
+      "duplicate": 2,
+      "held": 0
+    }
+  }
+]

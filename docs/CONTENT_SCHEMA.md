@@ -96,3 +96,7 @@ The local profile is stored under `eac_user`. Existing `progress.byTopic` aggreg
 - Local `eac_preferences` stores `questionLanguage` and `form`. Settings also update the profile display name. Export excludes authentication fields and does not currently support import.
 
 This remains a single-browser preview. Formal authentication, cloud progress and account migration are a future backend phase.
+
+### Confirmed source relationships · 13 November 2026
+
+`content/source-links.json` is a canonical relation registry for already confirmed duplicate source locators. It binds `canonicalId`, the source ID/SHA/file/pages/original number, source and target question hashes, and the matching intake decision/evidence. `readSource` validates the relationship against the current intake and target. `compile` enriches a cloned publication with `sourceAliases`; reviewed chapter objects and their historical QA hashes stay unchanged. The full bank, chapter export and on-demand chunks receive identical aliases. Unpublished duplicate IDs are labelled `duplicateQuestionId`, never `retiredId`, so provenance repair cannot migrate student attempts/bookmarks. A changed question/duplicate decision requires a fresh relationship review. No fuzzy-match candidate can register itself.

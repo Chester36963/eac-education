@@ -1,0 +1,36 @@
+✔ canonical chapter files compile into exact, complete published content (349.264958ms)
+✔ validation blocks duplicate IDs, missing translation, broken taxonomy and unreviewed figures (735.423584ms)
+✔ ordered figure blocks satisfy diagram QA without a legacy top-level image (113.251541ms)
+✔ solution blocks validate independently and cannot satisfy a missing question diagram (219.666166ms)
+✔ import previews are idempotent; corrections require explicit replace and preserve IDs (228.434375ms)
+✔ new questions append only with valid metadata; no taxonomy or answer is guessed (176.49475ms)
+✔ taxonomy-only additions are reported as a real change without duplicating questions (161.074125ms)
+✔ CLI preview never writes source files or published bank files (190.781375ms)
+✔ a new chapter needs explicit taxonomy and joins every generated index without UI changes (326.847791ms)
+✔ public bank loads just the index until a chapter is requested and retries a failed request (27.772917ms)
+✔ local editorial draft validation and preview never mutate canonical source (51.369042ms)
+✔ editing an approved question invalidates reviews and preserves its source-derived ID (33.463416ms)
+✔ source revision mismatch blocks previews and repeated extraction cannot recreate a batch (31.832625ms)
+✔ import requires current diff, keeps original IDs, and reapplying is a no-op (53.831042ms)
+✔ unaccounted source questions, unexplained holds and invalid duplicate targets cannot pass (37.717292ms)
+✔ journal recovery restores interrupted writes, removes newly created files, and blocks new imports (41.857541ms)
+✔ path traversal and source symlinks cannot escape source roots (30.564ms)
+✔ course defaults preserve core while explicit course and all-course filters stay isolated (28.676042ms)
+✔ new source registration and explicit version adoption retain locators and invalidate all reviews (34.49325ms)
+✔ changed figure bytes invalidate approval fingerprints even when question JSON is unchanged (33.882791ms)
+✔ solution-only assets are fingerprinted, copied transactionally and never replace a missing question figure (67.287333ms)
+✔ a real write failure rolls back canonical content, generated output and draft receipt together (50.454417ms)
+✔ cross-page original locators preserve all ordered bilingual blocks through draft restoration (33.103875ms)
+✔ a statement referring to its figure cannot be released with only prose and approvals (37.057958ms)
+✔ bulk locator registration is repeatable, preserves reviewed records and cannot certify blank drafts (40.0195ms)
+✔ three confirmed duplicate locators enrich two canonical questions without changing IDs or raw question objects (75.590333ms)
+✔ source-link replay is a no-op and conflicting targets or changed question bodies cannot silently reuse a review (33.722042ms)
+✔ all publication paths expose the same sources while metadata creates no retired-ID migrations (245.344958ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2740.253416
