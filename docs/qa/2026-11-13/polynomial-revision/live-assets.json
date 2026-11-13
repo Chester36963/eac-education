@@ -1,0 +1,66 @@
+{
+  "revision": "7e6ef1265256102a",
+  "totalQuestions": 1309,
+  "files": [
+    {
+      "path": "data/bank.json",
+      "sha256": "1874072cc5e4fc798f173d41aea1a8d3c221d6d6cb13656ded3b2cf19cec4151"
+    },
+    {
+      "path": "data/catalog.6284e384e722ec4c.json",
+      "sha256": "6284e384e722ec4cd31ff8bab548ef774d28bd9ffefdffe5f9f399a281e09c9b"
+    },
+    {
+      "path": "data/question-index.86ad42a344a64038.json",
+      "sha256": "86ad42a344a64038f30e8508cd660b5dd0d3f6c7f3c92cdd1300ba567180d39e"
+    },
+    {
+      "path": "data/chapters/polynomial.0203e8b1c6ef8ee5.json",
+      "sha256": "0203e8b1c6ef8ee550c26542151cc5a3c1d8a25f66f7fa1bfb7631e7a2e6c01e"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.89b7da26ae10e3c3.json",
+      "sha256": "89b7da26ae10e3c3418a658195b8ba3d4b13ee378ab6740490fcc0a00e44f74c"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.bec151d70eb708f3.json",
+      "sha256": "bec151d70eb708f3401f9f56c88e1fb500ef1cf9acd8cdea88414715d5d5611b"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.555ce5a923076d74.json",
+      "sha256": "555ce5a923076d74560c2f7e99f11bfb33599ef403ffb2c39f632abfe574c258"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.1530fc94f6dc0ec5.json",
+      "sha256": "1530fc94f6dc0ec5597166bc413bdf99b922136d81715cce7de8e36d2456fc00"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.3ec05a873f46cc8c.json",
+      "sha256": "3ec05a873f46cc8c0a254fd1402f94349e2383b32b946a598852160b7196d059"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.cfc52baa5b3e76cf.json",
+      "sha256": "cfc52baa5b3e76cf2c4e1f47d682eaf72bf20acb1ab088e93fb462618c4e2d56"
+    },
+    {
+      "path": "data/search/polynomial.3e17c45a372c3d09.json",
+      "sha256": "3e17c45a372c3d0995bd4075217fa73d901b081b90503d8da8fbfc1bc7ca174b"
+    },
+    {
+      "path": "data/search/polynomial.91f983bca1508aff.json",
+      "sha256": "91f983bca1508aff8ba210def9652d5d5737785a16e3470fe6eefa5429ad436e"
+    },
+    {
+      "path": "data/curriculum.json",
+      "sha256": "bc4a8fdd520aab9c952dd21f914dcebb6a5954885d947c991cc9d8eaf5f9c178"
+    },
+    {
+      "path": "data/lessons/polynomial.json",
+      "sha256": "ccfa8a9dfb84df59efb9c4e176dcb81b9731b46c8aca0677263becf2c2fe8204"
+    },
+    {
+      "path": "js/core/content.js",
+      "sha256": "a6bd543bb58e35fa85177b7b6cd05c13e506c9c70e1e2440411bc3de246f35d6"
+    }
+  ]
+}

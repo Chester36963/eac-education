@@ -493,3 +493,5 @@ SRC-LINK-20261113正式驗收：`f3ee80c` 已部署，Deploy43434790367／Pages4
 ## POLY-20261113 · 完整多項式原卷批量匯入（本機完成）
 
 28 原題全部新增，沒有拆分子題灌大題數；1,281→1,309，原題物件及 ID 保留。完整雙語題文／解答、六項技巧及難度理由、來源定位、兩段對應導讀完成。Q10／Q21／Q22 原簡答更正；沒有圖像題，未建立假圖像QA。336草稿＋336實際作答狀態及1,146項Node通過；長公式經手機實際畫面核對。正式部署狀態另記，見[本批證據](qa/2026-11-13/polynomial-revision/README.md)、[內容進度](CONTENT_EXPANSION_PLAN.md)及[後續UI／UE](UI_UX_ROADMAP.md)。
+
+POLY-20261113正式驗收：main `0be4ffd`、Deploy43441708920／Pages43441795917成功；正式1,309題／revision `7e6ef1265256102a`。15檔hash一致，28題本機及正式作答各336狀態通過；新增56組320／390px MathJax實際寬度檢查，無隱藏公式；重新預覽不重複入題。詳見同批release.json及live-student-matrix.json。

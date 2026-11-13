@@ -1,6 +1,6 @@
 # POLY-20261113 · Revision of polynomials
 
-狀態：本機完成；正式發布證據另記 release.json。
+狀態：完成（已正式發布）；正式發布證據見 release.json。
 
 - 來源：`S1/polynomials/Revision of polynomials.pdf`，source-a5903b13f42caade；SHA256 `323b7a5a7a1b78f570b74f3139c0b029437eea75c1f8e7433b2a143fcc1f4188`。
 - 全卷 28 原題＝28 新增、0 舊題更新、0 確認重複、0 待補。p1 Q1–23、p2 Q24–28、p3 簡答；親自檢視三頁，未遺漏分題。
@@ -31,3 +31,5 @@ Q10 原簡答 3a²−7a+6，正確 3a²−7a+7；Q21 原簡答 4x²−5xy+y²，
 ## 發布後手機公式補驗
 
 第一版 dc394f6 已正式部署；再以 MathJax 元素本身的 scrollWidth／clientWidth 檢查，發現320px仍有公式需要橫向捲動，已追加等價分行及明確乘號。最後草稿336狀態重跑，全部28題在320／390px共56組完整公式寬度檢查通過（math-fit.json）。未改題意或答案。正式最終版本及線上作答矩陣另見 release.json。
+
+最終正式驗收：main `0be4ffd`；Deploy43441708920及Pages43441795917成功。正式revision `7e6ef1265256102a`、1,309題；15個資料／導讀／技巧資產SHA一致。正式28題全部完成書寫自評，四尺寸三語言336狀態通過（live-student-matrix.json）。最後本機336狀態亦重跑通過，重複預覽0新增／0修訂。
