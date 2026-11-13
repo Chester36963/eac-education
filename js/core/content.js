@@ -119,5 +119,11 @@ const skillNames = {
   "lp-objective-vertices": "Compare a linear objective at vertices · 頂點比較線性目標",
   "lp-objective-range": "Find the range of a linear objective · 線性目標值域",
   "lp-graph-systems": "Graph a system of inequalities · 不等式組圖解",
-  "lp-modelling": "Convert resource ratios into constraints · 配方比例轉限制"
+  "lp-modelling": "Convert resource ratios into constraints · 配方比例轉限制",
+  "poly-read-structure": "Read monomial coefficients and total degree / 單項式係數與總次數",
+  "poly-collect-terms": "Remove brackets and collect like terms / 去括號及合併同類項",
+  "poly-expand-collect": "Distribute products then collect / 分配律展開及合併",
+  "poly-expand-identities": "Expand with algebraic identities / 用恆等式展開",
+  "poly-evaluate-expanded": "Simplify then substitute values / 化簡後代入求值",
+  "poly-expanded-structure": "Expand then read coefficients and degree / 展開後判讀係數及次數"
 };

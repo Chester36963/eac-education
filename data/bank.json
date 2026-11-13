@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "revision": "6e315e2a0b9beff4",
-  "totalQuestions": 1281,
+  "revision": "63e8fd25e1a49507",
+  "totalQuestions": 1309,
   "chapterCount": 8,
-  "catalog": "data/catalog.5eceedaf07c4858e.json",
-  "index": "data/question-index.a57619611cae600d.json",
+  "catalog": "data/catalog.6284e384e722ec4c.json",
+  "index": "data/question-index.ae2bb6774a524fa1.json",
   "search": [
     "data/search/four-centres.87b6577506cd23ee.json",
     "data/search/four-centres.7ea64259ee7debde.json",
@@ -13,8 +13,8 @@
     "data/search/locus.fd9d2cbf7ed2a335.json",
     "data/search/circle-equation.214dcf1887b898c3.json",
     "data/search/circle-equation.69c02a8dff1c5568.json",
-    "data/search/polynomial.43e823bf32a4c91e.json",
-    "data/search/polynomial.f377bd2e2e02c9a9.json",
+    "data/search/polynomial.8736f4f95ea9e557.json",
+    "data/search/polynomial.91f983bca1508aff.json",
     "data/search/sequences.c1f1b2789681a32a.json",
     "data/search/linear-programming.cf5843c47f3edb53.json",
     "data/search/mensuration.2c9f75323de6b8af.json",
@@ -70,15 +70,16 @@
     },
     {
       "topicId": "polynomial",
-      "path": "data/chapters/polynomial.c1459c875cf5e8f6.json",
+      "path": "data/chapters/polynomial.c98372654db369cf.json",
       "chunks": [
-        "data/chapters/polynomial-chunk.c3a534bae42e3574.json",
-        "data/chapters/polynomial-chunk.f97dbb2231d270b3.json",
-        "data/chapters/polynomial-chunk.7b83d9a00850e417.json",
-        "data/chapters/polynomial-chunk.4982fae94b51e357.json",
-        "data/chapters/polynomial-chunk.0ad3b3e8f36383e1.json"
+        "data/chapters/polynomial-chunk.3593f7344415d03d.json",
+        "data/chapters/polynomial-chunk.c678eeb4a1fa7bd1.json",
+        "data/chapters/polynomial-chunk.555ce5a923076d74.json",
+        "data/chapters/polynomial-chunk.1530fc94f6dc0ec5.json",
+        "data/chapters/polynomial-chunk.3ec05a873f46cc8c.json",
+        "data/chapters/polynomial-chunk.cfc52baa5b3e76cf.json"
       ],
-      "questionCount": 154
+      "questionCount": 182
     },
     {
       "topicId": "sequences",

@@ -619,29 +619,65 @@
                 "poly-substitution": 10,
                 "poly-quotient-sign": 1
               }
+            },
+            {
+              "id": "polynomial-structure",
+              "name": {
+                "en": "Terms, coefficients and degree",
+                "zh-Hant": "項、係數與次數"
+              },
+              "skills": [
+                "poly-read-structure"
+              ],
+              "questionCount": 3,
+              "skillCounts": {
+                "poly-read-structure": 3
+              }
+            },
+            {
+              "id": "basic-operations",
+              "name": {
+                "en": "Expansion and polynomial operations",
+                "zh-Hant": "展開與多項式運算"
+              },
+              "skills": [
+                "poly-collect-terms",
+                "poly-expand-collect",
+                "poly-expand-identities",
+                "poly-evaluate-expanded",
+                "poly-expanded-structure"
+              ],
+              "questionCount": 25,
+              "skillCounts": {
+                "poly-collect-terms": 8,
+                "poly-expand-collect": 7,
+                "poly-expand-identities": 5,
+                "poly-evaluate-expanded": 2,
+                "poly-expanded-structure": 3
+              }
             }
           ],
           "topicId": "polynomial",
-          "questionCount": 154,
+          "questionCount": 182,
           "courses": [
             "core"
           ],
           "coverage": {
             "types": {
               "mcq": 74,
+              "structured": 104,
               "short-answer": 2,
-              "structured": 76,
               "dse-long": 1,
               "proof": 1
             },
             "difficulty": {
-              "easy": 2,
-              "medium": 86,
+              "easy": 25,
+              "medium": 91,
               "hard": 35,
               "challenging": 31
             },
             "minForm": {
-              "1": 1,
+              "1": 29,
               "2": 1,
               "3": 4,
               "4": 148
