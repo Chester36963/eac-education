@@ -487,3 +487,5 @@ ASGS-RECON-20261112正式驗收：main `37c7e8e`／Deploy43152633389／Pages4315
 ## SRC-LINK-20261113 · 補齊ASGS三條重複來源
 
 完成canonical來源關聯、嚴格版本／定位驗證、預覽／可重跑登記，以及完整題庫／章檔／按需chunk一致的來源別名輸出；批量來源佇列與ASGS對帳同步。三條缺失來源連到兩條既有題，來源未連結數由3降至0；1,281條題目及全部原題面／學生ID不變。本機Node1,146項及build檢查通過，瀏覽器與正式發布另記。[QA](qa/2026-11-13/source-links/README.md)。本批未新增題目／重繪圖；[內容計劃](CONTENT_EXPANSION_PLAN.md)、[UI／UE路線圖](UI_UX_ROADMAP.md)持續。
+
+SRC-LINK-20261113正式驗收：`f3ee80c` 已部署，Deploy43434790367／Pages43434863229成功；revision `6e315e2a0b9beff4`／1,281題，7檔hash一致，正式站24個作答／語言／尺寸狀態通過。三條已確認重複來源缺口全部補齊；並非新增3題。
