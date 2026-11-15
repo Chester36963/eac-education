@@ -147,6 +147,291 @@
             "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q3"
           },
           "id": "import-polynomial-75769dcce9763181"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "polynomial-structure",
+          "skill": "poly-read-structure",
+          "stem": "What is the degree of \\[\\begin{gathered}10a^3 +6ab^4 \\\\ -8a^3b^4 -4\\end{gathered}\\]?",
+          "stemZh": "多項式 \\[\\begin{gathered}10a^3 +6ab^4 \\\\ -8a^3b^4 -4\\end{gathered}\\] 的次數是多少？",
+          "solution": "The term degrees are \\(3,5,7,0\\) respectively. The greatest is \\(7\\).",
+          "solutionZh": "各項的總次數依次為 \\(3,5,7,0\\)，最大為 \\(7\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q7",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第7題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "7",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q7"
+          },
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "10",
+            "D": "12"
+          },
+          "optionsZh": {
+            "A": "6",
+            "B": "7",
+            "C": "10",
+            "D": "12"
+          },
+          "answer": "B",
+          "id": "import-polynomial-1be5ec96b04c12df"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "polynomial-structure",
+          "skill": "poly-read-structure",
+          "stem": "What is the constant term of \\[\\begin{gathered}8x^5y^3 +5x^2y -2xy \\\\ -9\\end{gathered}\\]?",
+          "stemZh": "多項式 \\[\\begin{gathered}8x^5y^3 +5x^2y -2xy \\\\ -9\\end{gathered}\\] 的常數項是多少？",
+          "solution": "Only the term \\(-9\\) has no variables.",
+          "solutionZh": "只有 \\(-9\\) 這一項不含變量。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q8",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第8題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "8",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q8"
+          },
+          "options": {
+            "A": "\\(-9\\)",
+            "B": "\\(-2\\)",
+            "C": "5",
+            "D": "8"
+          },
+          "optionsZh": {
+            "A": "\\(-9\\)",
+            "B": "\\(-2\\)",
+            "C": "5",
+            "D": "8"
+          },
+          "answer": "A",
+          "id": "import-polynomial-6d5ecffc5ec06cb7"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "polynomial-structure",
+          "skill": "poly-power-order",
+          "stem": "Which polynomial has its terms arranged in ascending powers of \\(x\\)?",
+          "stemZh": "下列哪個多項式按 \\(x\\) 的升冪排列？",
+          "solution": "Option D has exponents \\(1,2,3\\) in order. A and B descend; C places the constant term last.",
+          "solutionZh": "D 的指數依次為 \\(1,2,3\\)。A、B 為降冪，C 把常數項放在最後。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q9",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第9題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "9",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q9"
+          },
+          "options": {
+            "A": "\\[\\begin{gathered}7x^3 \\\\ +8x^2 \\\\ +9x +10\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}10x^3 \\\\ +9x^2 \\\\ +8x\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}7x \\\\ +8x^2 \\\\ +9x^3 \\\\ +10\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}10x \\\\ +9x^2 \\\\ +8x^3\\end{gathered}\\]"
+          },
+          "optionsZh": {
+            "A": "\\[\\begin{gathered}7x^3 \\\\ +8x^2 \\\\ +9x +10\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}10x^3 \\\\ +9x^2 \\\\ +8x\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}7x \\\\ +8x^2 \\\\ +9x^3 \\\\ +10\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}10x \\\\ +9x^2 \\\\ +8x^3\\end{gathered}\\]"
+          },
+          "answer": "D",
+          "id": "import-polynomial-76c6072ba4f6acac"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "polynomial-structure",
+          "skill": "poly-read-structure",
+          "stem": "For \\[\\begin{gathered}-4 x^{3} \\\\ +2 x^{2} y^{2} \\\\ -5 x y +8\\end{gathered}\\], state the number of terms, the numerical coefficients of the individual monomials \\(x,x^2,x^3,xy\\) (zero if absent), the constant term, and the total degree.",
+          "stemZh": "對 \\[\\begin{gathered}-4 x^{3} \\\\ +2 x^{2} y^{2} \\\\ -5 x y +8\\end{gathered}\\]，依次寫出項數、各個單項式 \\(x,x^2,x^3,xy\\) 的數字係數（沒有該項則寫零）、常數項及總次數。",
+          "solution": "Count nonzero monomials. Read the numerical coefficient of each specified monomial, then the constant and maximum total degree. In the requested order: \\[\\begin{gathered}4; 0,0, -4, \\\\ -5; 8; 4\\end{gathered}\\]",
+          "solutionZh": "數出非零單項式，讀取各指定單項式的數字係數，再讀取常數及最大總次數。按題目次序：\\[\\begin{gathered}4; 0,0, -4, \\\\ -5; 8; 4\\end{gathered}\\]",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q19",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第19題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "19",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q19"
+          },
+          "assessmentMode": "solution-comparison",
+          "reviewedFinalAnswer": "4; 0,0,-4,-5; 8; 4",
+          "id": "import-polynomial-1cd94d262e94161a"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "polynomial-structure",
+          "skill": "poly-read-structure",
+          "stem": "For \\[\\begin{gathered}7 x^{2} +2 x -3 x y \\\\ +4\\end{gathered}\\], state the number of terms, the numerical coefficients of the individual monomials \\(x,x^2,x^3,xy\\) (zero if absent), the constant term, and the total degree.",
+          "stemZh": "對 \\[\\begin{gathered}7 x^{2} +2 x -3 x y \\\\ +4\\end{gathered}\\]，依次寫出項數、各個單項式 \\(x,x^2,x^3,xy\\) 的數字係數（沒有該項則寫零）、常數項及總次數。",
+          "solution": "Count nonzero monomials. Read the numerical coefficient of each specified monomial, then the constant and maximum total degree. In the requested order: \\(4; 2,7,0,-3; 4; 2\\).",
+          "solutionZh": "數出非零單項式，讀取各指定單項式的數字係數，再讀取常數及最大總次數。按題目次序：\\(4; 2,7,0,-3; 4; 2\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q20",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第20題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "20",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q20"
+          },
+          "assessmentMode": "solution-comparison",
+          "reviewedFinalAnswer": "4; 2,7,0,-3; 4; 2",
+          "id": "import-polynomial-bf77fada405a39b1"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "polynomial-structure",
+          "skill": "poly-read-structure",
+          "stem": "For \\[\\begin{gathered}x^{3} y^{2} \\\\ -6 x^{2} +9 \\\\ -2 x^{3} +5 x y\\end{gathered}\\], state the number of terms, the numerical coefficients of the individual monomials \\(x,x^2,x^3,xy\\) (zero if absent), the constant term, and the total degree.",
+          "stemZh": "對 \\[\\begin{gathered}x^{3} y^{2} \\\\ -6 x^{2} +9 \\\\ -2 x^{3} +5 x y\\end{gathered}\\]，依次寫出項數、各個單項式 \\(x,x^2,x^3,xy\\) 的數字係數（沒有該項則寫零）、常數項及總次數。",
+          "solution": "Count nonzero monomials. Read the numerical coefficient of each specified monomial, then the constant and maximum total degree. In the requested order: \\[\\begin{gathered}5; 0, -6, \\\\ -2,5; 9; 5\\end{gathered}\\]",
+          "solutionZh": "數出非零單項式，讀取各指定單項式的數字係數，再讀取常數及最大總次數。按題目次序：\\[\\begin{gathered}5; 0, -6, \\\\ -2,5; 9; 5\\end{gathered}\\]",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q21",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第21題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "21",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q21"
+          },
+          "assessmentMode": "solution-comparison",
+          "reviewedFinalAnswer": "5; 0,-6,-2,5; 9; 5",
+          "id": "import-polynomial-68c4e108381371b4"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "polynomial-structure",
+          "skill": "poly-read-structure",
+          "stem": "For \\[\\begin{gathered}x y/2 -2 x^{3} -6 \\\\ -7 x\\end{gathered}\\], state the number of terms, the numerical coefficients of the individual monomials \\(x,x^2,x^3,xy\\) (zero if absent), the constant term, and the total degree.",
+          "stemZh": "對 \\[\\begin{gathered}x y/2 -2 x^{3} -6 \\\\ -7 x\\end{gathered}\\]，依次寫出項數、各個單項式 \\(x,x^2,x^3,xy\\) 的數字係數（沒有該項則寫零）、常數項及總次數。",
+          "solution": "Count nonzero monomials. Read the numerical coefficient of each specified monomial, then the constant and maximum total degree. In the requested order: \\[\\begin{gathered}4; -7,0, \\\\ -2,\\frac{1}{2}; \\\\ -6; 3\\end{gathered}\\] The original answer table omits the \\(-6\\) term. The original question has four terms and constant \\(-6\\); it is retained unchanged.",
+          "solutionZh": "數出非零單項式，讀取各指定單項式的數字係數，再讀取常數及最大總次數。按題目次序：\\[\\begin{gathered}4; -7,0, \\\\ -2,\\frac{1}{2}; \\\\ -6; 3\\end{gathered}\\]原簡答表漏去 \\(-6\\) 項；原題有四項，常數項為 \\(-6\\)。保留原題不變，按原題更正答案。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q22",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第22題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "22",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q22"
+          },
+          "assessmentMode": "solution-comparison",
+          "reviewedFinalAnswer": "4; -7,0,-2,\\frac{1}{2}; -6; 3",
+          "id": "import-polynomial-a711d3a269220ae7"
         }
       ]
     },
@@ -1580,6 +1865,1238 @@
             ]
           },
           "id": "import-polynomial-9d18bbb848f60c90"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-index-laws",
+          "stem": "Simplify \\(c^4c^5c^6\\).",
+          "stemZh": "化簡 \\(c^4c^5c^6\\)。",
+          "solution": "Add exponents of the same base: \\(c^{4+5+6}=c^{15}\\).",
+          "solutionZh": "同底數相乘，指數相加：\\(c^{4+5+6}=c^{15}\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q1",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第1題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "1",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q1"
+          },
+          "options": {
+            "A": "\\(c^{15}\\)",
+            "B": "\\(c^{26}\\)",
+            "C": "\\(c^{34}\\)",
+            "D": "\\(c^{120}\\)"
+          },
+          "optionsZh": {
+            "A": "\\(c^{15}\\)",
+            "B": "\\(c^{26}\\)",
+            "C": "\\(c^{34}\\)",
+            "D": "\\(c^{120}\\)"
+          },
+          "answer": "A",
+          "id": "import-polynomial-99a04d6aaf31b1d7"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-index-laws",
+          "stem": "Simplify \\((2p^3q)(4p^6q^2)\\).",
+          "stemZh": "化簡 \\((2p^3q)(4p^6q^2)\\)。",
+          "solution": "Multiply coefficients and add the exponents of each variable: \\[\\begin{gathered}2(4)p^{3+6}q^{1+2} \\\\ =8p^9q^3\\end{gathered}\\]",
+          "solutionZh": "數字係數相乘，各變量的指數分別相加：\\[\\begin{gathered}2(4)p^{3+6}q^{1+2} \\\\ =8p^9q^3\\end{gathered}\\]",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q2",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第2題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "2",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q2"
+          },
+          "options": {
+            "A": "\\(6p^{18}q^2\\)",
+            "B": "\\(8p^9q^3\\)",
+            "C": "\\(8p^{18}q^2\\)",
+            "D": "\\(33p^9q^3\\)"
+          },
+          "optionsZh": {
+            "A": "\\(6p^{18}q^2\\)",
+            "B": "\\(8p^9q^3\\)",
+            "C": "\\(8p^{18}q^2\\)",
+            "D": "\\(33p^9q^3\\)"
+          },
+          "answer": "B",
+          "id": "import-polynomial-8cb804b59d293981"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-index-laws",
+          "stem": "Simplify \\(5^{1-s}\\times5^{2-3s}\\), where all indices are positive integers.",
+          "stemZh": "化簡 \\(5^{1-s}\\times5^{2-3s}\\)，其中所有指數均為正整數。",
+          "solution": "Add the exponents: \\((1-s)+(2-3s)=3-4s\\). Therefore the result is \\(5^{3-4s}\\). The stated exponent conditions are consistent, for example at \\(s=0\\).",
+          "solutionZh": "指數相加：\\((1-s)+(2-3s)=3-4s\\)，故結果為 \\(5^{3-4s}\\)。題目的正整數指數條件可成立，例如 \\(s=0\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q3",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第3題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "3",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q3"
+          },
+          "options": {
+            "A": "\\(5^{2+3s^2}\\)",
+            "B": "\\(5^{3-4s}\\)",
+            "C": "\\(10^{3-4s}\\)",
+            "D": "\\(25^{3-4s}\\)"
+          },
+          "optionsZh": {
+            "A": "\\(5^{2+3s^2}\\)",
+            "B": "\\(5^{3-4s}\\)",
+            "C": "\\(10^{3-4s}\\)",
+            "D": "\\(25^{3-4s}\\)"
+          },
+          "answer": "B",
+          "id": "import-polynomial-6fdcf801c1a74fdd"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-index-laws",
+          "stem": "If \\[\\begin{gathered}(a^2b^n)^6 \\\\ =a^mb^{18}\\end{gathered}\\], where \\(m\\) and \\(n\\) are positive integers, find \\(m\\) and \\(n\\).",
+          "stemZh": "若 \\[\\begin{gathered}(a^2b^n)^6 \\\\ =a^mb^{18}\\end{gathered}\\]，其中 \\(m,n\\) 為正整數，求 \\(m,n\\)。",
+          "solution": "Compare exponents in \\[\\begin{gathered}a^{12}b^{6n} \\\\ =a^mb^{18}\\end{gathered}\\]: \\(m=12\\), \\(6n=18\\), so \\(n=3\\).",
+          "solutionZh": "由 \\[\\begin{gathered}a^{12}b^{6n} \\\\ =a^mb^{18}\\end{gathered}\\] 比較指數：\\(m=12\\)、\\(6n=18\\)，所以 \\(n=3\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q4",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第4題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "4",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q4"
+          },
+          "options": {
+            "A": "\\(m=6\\), \\(n=6\\)",
+            "B": "\\(m=6\\), \\(n=18\\)",
+            "C": "\\(m=12\\), \\(n=3\\)",
+            "D": "\\(m=12\\), \\(n=6\\)"
+          },
+          "optionsZh": {
+            "A": "\\(m=6\\), \\(n=6\\)",
+            "B": "\\(m=6\\), \\(n=18\\)",
+            "C": "\\(m=12\\), \\(n=3\\)",
+            "D": "\\(m=12\\), \\(n=6\\)"
+          },
+          "answer": "C",
+          "id": "import-polynomial-825e2a120af363c1"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-index-laws",
+          "stem": "Simplify \\(\\frac{(-8c^7)^2}{(4c^3)^3}\\).",
+          "stemZh": "化簡 \\(\\frac{(-8c^7)^2}{(4c^3)^3}\\)。",
+          "solution": "\\[\\begin{gathered}(-8c^7)^2 =64c^{14}\\end{gathered}\\] and \\((4c^3)^3=64c^9\\). Divide to obtain \\(c^5\\), on the original domain \\(c\\ne0\\).",
+          "solutionZh": "\\[\\begin{gathered}(-8c^7)^2 =64c^{14}\\end{gathered}\\]，\\((4c^3)^3=64c^9\\)，相除得 \\(c^5\\)；原式定義域為 \\(c\\ne0\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q5",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第5題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "5",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q5"
+          },
+          "options": {
+            "A": "\\(c^3\\)",
+            "B": "\\(c^5\\)",
+            "C": "\\(4c^3\\)",
+            "D": "\\(4c^5\\)"
+          },
+          "optionsZh": {
+            "A": "\\(c^3\\)",
+            "B": "\\(c^5\\)",
+            "C": "\\(4c^3\\)",
+            "D": "\\(4c^5\\)"
+          },
+          "answer": "B",
+          "id": "import-polynomial-f22a877745524653"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-index-laws",
+          "stem": "Simplify \\(\\frac{(m^2n^3)^2(3mn^2)^3}{(-3mn)^2}\\).",
+          "stemZh": "化簡 \\(\\frac{(m^2n^3)^2(3mn^2)^3}{(-3mn)^2}\\)。",
+          "solution": "The numerator is \\(27m^7n^{12}\\) and the denominator is \\(9m^2n^2\\). The result is \\(3m^5n^{10}\\), for \\(mn\\ne0\\).",
+          "solutionZh": "分子為 \\(27m^7n^{12}\\)，分母為 \\(9m^2n^2\\)，所以結果為 \\(3m^5n^{10}\\)；原式要求 \\(mn\\ne0\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q6",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第6題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "6",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Combine nested powers, multiplication and division, retaining the original nonzero denominator domain.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q6"
+          },
+          "options": {
+            "A": "\\(3m^4n^8\\)",
+            "B": "\\(3m^4n^{10}\\)",
+            "C": "\\(3m^5n^8\\)",
+            "D": "\\(3m^5n^{10}\\)"
+          },
+          "optionsZh": {
+            "A": "\\(3m^4n^8\\)",
+            "B": "\\(3m^4n^{10}\\)",
+            "C": "\\(3m^5n^8\\)",
+            "D": "\\(3m^5n^{10}\\)"
+          },
+          "answer": "D",
+          "id": "import-polynomial-ec33c270d646e8cc"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-collect-terms",
+          "stem": "Simplify \\[\\begin{gathered}(7 m^{2} n-8 m n^{2}+6 m n) \\\\ +(3 m n+m n^{2}-m^{2} n)\\end{gathered}\\]",
+          "stemZh": "化簡 \\[\\begin{gathered}(7 m^{2} n-8 m n^{2}+6 m n) \\\\ +(3 m n+m n^{2}-m^{2} n)\\end{gathered}\\]",
+          "solution": "Remove brackets or distribute products, then combine like terms.\nThe result is \\[\\begin{gathered}6 m^{2} n \\\\ - 7 m n^{2} + 9 m n\\end{gathered}\\]",
+          "solutionZh": "去括號或用分配律展開，再合併同類項。\n結果為 \\[\\begin{gathered}6 m^{2} n \\\\ - 7 m n^{2} + 9 m n\\end{gathered}\\]",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q10",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第10題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "10",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q10"
+          },
+          "options": {
+            "A": "\\[\\begin{gathered}6m^2n \\\\ +7mn^2 \\\\ +9mn\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}6m^2n \\\\ -7mn^2 \\\\ +9mn\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}8m^2n \\\\ -7mn^2 \\\\ -9mn\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}8m^2n \\\\ +7mn^2 \\\\ +9mn\\end{gathered}\\]"
+          },
+          "optionsZh": {
+            "A": "\\[\\begin{gathered}6m^2n \\\\ +7mn^2 \\\\ +9mn\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}6m^2n \\\\ -7mn^2 \\\\ +9mn\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}8m^2n \\\\ -7mn^2 \\\\ -9mn\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}8m^2n \\\\ +7mn^2 \\\\ +9mn\\end{gathered}\\]"
+          },
+          "answer": "B",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Simplify \\[\\begin{gathered}(7 m^{2} n-8 m n^{2}+6 m n) \\\\ +(3 m n+m n^{2}-m^{2} n)\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "化簡 \\[\\begin{gathered}(7 m^{2} n-8 m n^{2}+6 m n) \\\\ +(3 m n+m n^{2}-m^{2} n)\\end{gathered}\\]"
+              }
+            ]
+          },
+          "solutionBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Remove brackets or distribute products, then combine like terms."
+              },
+              {
+                "type": "paragraph",
+                "text": "The result is \\[\\begin{gathered}6 m^{2} n \\\\ - 7 m n^{2} + 9 m n\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "去括號或用分配律展開，再合併同類項。"
+              },
+              {
+                "type": "paragraph",
+                "text": "結果為 \\[\\begin{gathered}6 m^{2} n \\\\ - 7 m n^{2} + 9 m n\\end{gathered}\\]"
+              }
+            ]
+          },
+          "id": "import-polynomial-74b404c2eab25d58"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-collect-terms",
+          "stem": "Simplify \\[\\begin{gathered}(g^{2}+2 g+1) \\\\ +(3 g-2 g^{2}) \\\\ -(6 g^{2}+4 g+1)\\end{gathered}\\] and arrange the terms in descending powers of \\(g\\).",
+          "stemZh": "化簡 \\[\\begin{gathered}(g^{2}+2 g+1) \\\\ +(3 g-2 g^{2}) \\\\ -(6 g^{2}+4 g+1)\\end{gathered}\\]，並按 \\(g\\) 的降冪排列。",
+          "solution": "Remove brackets or distribute products, then combine like terms.\nThe result is \\(- 7 g^{2} + g\\).",
+          "solutionZh": "去括號或用分配律展開，再合併同類項。\n結果為 \\(- 7 g^{2} + g\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q11",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第11題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "11",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q11"
+          },
+          "options": {
+            "A": "\\(-7g^2+g\\)",
+            "B": "\\[\\begin{gathered}-7g^2 \\\\ +9g +2\\end{gathered}\\]",
+            "C": "\\(g-7g^2\\)",
+            "D": "\\[\\begin{gathered}2 +9g \\\\ -7g^2\\end{gathered}\\]"
+          },
+          "optionsZh": {
+            "A": "\\(-7g^2+g\\)",
+            "B": "\\[\\begin{gathered}-7g^2 \\\\ +9g +2\\end{gathered}\\]",
+            "C": "\\(g-7g^2\\)",
+            "D": "\\[\\begin{gathered}2 +9g \\\\ -7g^2\\end{gathered}\\]"
+          },
+          "answer": "A",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Simplify \\[\\begin{gathered}(g^{2}+2 g+1) \\\\ +(3 g-2 g^{2}) \\\\ -(6 g^{2}+4 g+1)\\end{gathered}\\] and arrange the terms in descending powers of \\(g\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "化簡 \\[\\begin{gathered}(g^{2}+2 g+1) \\\\ +(3 g-2 g^{2}) \\\\ -(6 g^{2}+4 g+1)\\end{gathered}\\]，並按 \\(g\\) 的降冪排列。"
+              }
+            ]
+          },
+          "solutionBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Remove brackets or distribute products, then combine like terms."
+              },
+              {
+                "type": "paragraph",
+                "text": "The result is \\(- 7 g^{2} + g\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "去括號或用分配律展開，再合併同類項。"
+              },
+              {
+                "type": "paragraph",
+                "text": "結果為 \\(- 7 g^{2} + g\\)。"
+              }
+            ]
+          },
+          "id": "import-polynomial-18e9ad2f153cab6b"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-expand-collect",
+          "stem": "Expand \\[\\begin{gathered}(p-1) \\\\ \\cdot (p^{2}+1)\\end{gathered}\\]",
+          "stemZh": "展開 \\[\\begin{gathered}(p-1) \\\\ \\cdot (p^{2}+1)\\end{gathered}\\]",
+          "solution": "Remove brackets or distribute products, then combine like terms.\nThe result is \\[\\begin{gathered}p^{3} - p^{2} + p \\\\ - 1\\end{gathered}\\]",
+          "solutionZh": "去括號或用分配律展開，再合併同類項。\n結果為 \\[\\begin{gathered}p^{3} - p^{2} + p \\\\ - 1\\end{gathered}\\]",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q12",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第12題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "12",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q12"
+          },
+          "options": {
+            "A": "\\(p^3+p-1\\)",
+            "B": "\\[\\begin{gathered}p^3 \\\\ -p^2 -1\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}p^3 \\\\ -p^2 +p \\\\ -1\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}p^3 \\\\ -p^2 -p \\\\ -1\\end{gathered}\\]"
+          },
+          "optionsZh": {
+            "A": "\\(p^3+p-1\\)",
+            "B": "\\[\\begin{gathered}p^3 \\\\ -p^2 -1\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}p^3 \\\\ -p^2 +p \\\\ -1\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}p^3 \\\\ -p^2 -p \\\\ -1\\end{gathered}\\]"
+          },
+          "answer": "C",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Expand \\[\\begin{gathered}(p-1) \\\\ \\cdot (p^{2}+1)\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "展開 \\[\\begin{gathered}(p-1) \\\\ \\cdot (p^{2}+1)\\end{gathered}\\]"
+              }
+            ]
+          },
+          "solutionBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Remove brackets or distribute products, then combine like terms."
+              },
+              {
+                "type": "paragraph",
+                "text": "The result is \\[\\begin{gathered}p^{3} - p^{2} + p \\\\ - 1\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "去括號或用分配律展開，再合併同類項。"
+              },
+              {
+                "type": "paragraph",
+                "text": "結果為 \\[\\begin{gathered}p^{3} - p^{2} + p \\\\ - 1\\end{gathered}\\]"
+              }
+            ]
+          },
+          "id": "import-polynomial-b7740c940a4fdd56"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-index-laws",
+          "stem": "Simplify:\n(a) \\(2g^2\\times10g^6\\div(-5g^4)\\).\n(b) \\(\\frac{-6c^8}{(2c)^2(-c)^3}\\).",
+          "stemZh": "化簡：\n(a) \\(2g^2\\times10g^6\\div(-5g^4)\\)。\n(b) \\(\\frac{-6c^8}{(2c)^2(-c)^3}\\)。",
+          "solution": "(a) Divide coefficients and subtract exponents: \\[\\begin{gathered}\\frac{20}{-5}g^{2+6-4} \\\\ = -4g^4\\end{gathered}\\], for \\(g\\ne0\\).\n(b) The denominator is \\(-4c^5\\), hence the quotient is \\(\\frac32c^3\\), for \\(c\\ne0\\).",
+          "solutionZh": "(a) 係數相除，指數相減：\\[\\begin{gathered}\\frac{20}{-5}g^{2+6-4} \\\\ = -4g^4\\end{gathered}\\]，其中 \\(g\\ne0\\)。\n(b) 分母為 \\(-4c^5\\)，故相除得 \\(\\frac32c^3\\)，其中 \\(c\\ne0\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q13",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第13題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "13",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Two parts combine powers and negative denominators; retain the original nonzero domains.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q13"
+          },
+          "assessmentMode": "solution-comparison",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Simplify:"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) \\(2g^2\\times10g^6\\div(-5g^4)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\(\\frac{-6c^8}{(2c)^2(-c)^3}\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "化簡："
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) \\(2g^2\\times10g^6\\div(-5g^4)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\(\\frac{-6c^8}{(2c)^2(-c)^3}\\)。"
+              }
+            ]
+          },
+          "solutionBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Divide coefficients and subtract exponents: \\[\\begin{gathered}\\frac{20}{-5}g^{2+6-4} \\\\ = -4g^4\\end{gathered}\\], for \\(g\\ne0\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) The denominator is \\(-4c^5\\), hence the quotient is \\(\\frac32c^3\\), for \\(c\\ne0\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 係數相除，指數相減：\\[\\begin{gathered}\\frac{20}{-5}g^{2+6-4} \\\\ = -4g^4\\end{gathered}\\]，其中 \\(g\\ne0\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 分母為 \\(-4c^5\\)，故相除得 \\(\\frac32c^3\\)，其中 \\(c\\ne0\\)。"
+              }
+            ]
+          },
+          "id": "import-polynomial-be33d0f092aca57e"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-collect-terms",
+          "stem": "Simplify and arrange in descending powers of \\(x\\).\n(a) \\[\\begin{gathered}(5-2 x) \\\\ -(3 x^{2}+7+2 x) \\\\ +(3 x^{2}-2)\\end{gathered}\\]\n(b) \\((3 x^{2}-4)\\) minus \\(\\left[\\begin{gathered}(3x-2) \\\\ +(2x^2-x+3)\\end{gathered}\\right]\\).",
+          "stemZh": "化簡，並按 \\(x\\) 的降冪排列。\n(a) \\[\\begin{gathered}(5-2 x) \\\\ -(3 x^{2}+7+2 x) \\\\ +(3 x^{2}-2)\\end{gathered}\\]\n(b) \\((3 x^{2}-4)\\) 減去 \\(\\left[\\begin{gathered}(3x-2) \\\\ +(2x^2-x+3)\\end{gathered}\\right]\\)。",
+          "solution": "(a) The quadratic terms cancel; linear terms sum to \\(-4x\\) and constants to \\(-4\\). Answer: \\(-4x-4\\).\n(b) First the inner bracket is \\(2x^2+2x+1\\). Subtracting gives \\(x^2-2x-5\\).",
+          "solutionZh": "(a) 二次項抵消，一次項合共 \\(-4x\\)，常數項合共 \\(-4\\)，得 \\(-4x-4\\)。\n(b) 先化簡內括號為 \\(2x^2+2x+1\\)，相減得 \\(x^2-2x-5\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q14",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第14題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "14",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Nested brackets require reversing the signs of all enclosed terms.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q14"
+          },
+          "assessmentMode": "solution-comparison",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Simplify and arrange in descending powers of \\(x\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) \\[\\begin{gathered}(5-2 x) \\\\ -(3 x^{2}+7+2 x) \\\\ +(3 x^{2}-2)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\((3 x^{2}-4)\\) minus \\(\\left[\\begin{gathered}(3x-2) \\\\ +(2x^2-x+3)\\end{gathered}\\right]\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "化簡，並按 \\(x\\) 的降冪排列。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) \\[\\begin{gathered}(5-2 x) \\\\ -(3 x^{2}+7+2 x) \\\\ +(3 x^{2}-2)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\((3 x^{2}-4)\\) 減去 \\(\\left[\\begin{gathered}(3x-2) \\\\ +(2x^2-x+3)\\end{gathered}\\right]\\)。"
+              }
+            ]
+          },
+          "solutionBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) The quadratic terms cancel; linear terms sum to \\(-4x\\) and constants to \\(-4\\). Answer: \\(-4x-4\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) First the inner bracket is \\(2x^2+2x+1\\). Subtracting gives \\(x^2-2x-5\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 二次項抵消，一次項合共 \\(-4x\\)，常數項合共 \\(-4\\)，得 \\(-4x-4\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 先化簡內括號為 \\(2x^2+2x+1\\)，相減得 \\(x^2-2x-5\\)。"
+              }
+            ]
+          },
+          "id": "import-polynomial-9e1f8f1b79b32c98"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-evaluate-expanded",
+          "stem": "(a) Simplify \\[\\begin{gathered}(2 p^{2}-4 p q+q^{2}) \\\\ +(2 p q-p^{2}+3 q^{2}) \\\\ +10 p q\\end{gathered}\\]\n(b) Hence find its value when \\(p=-1\\) and \\(q=2\\).",
+          "stemZh": "(a) 化簡 \\[\\begin{gathered}(2 p^{2}-4 p q+q^{2}) \\\\ +(2 p q-p^{2}+3 q^{2}) \\\\ +10 p q\\end{gathered}\\]\n(b) 從而求當 \\(p=-1\\)、\\(q=2\\) 時上式的值。",
+          "solution": "(a) Collect the \\(p^2,pq,q^2\\) terms to obtain \\(p^2+8pq+4q^2\\).\n(b) Substitute: \\(1-16+16=1\\).",
+          "solutionZh": "(a) 分別合併 \\(p^2,pq,q^2\\) 項，得 \\(p^2+8pq+4q^2\\)。\n(b) 代入得 \\(1-16+16=1\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q15",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第15題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "15",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Simplify a two-variable expression, then substitute a negative value and evaluate all terms.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q15"
+          },
+          "assessmentMode": "solution-comparison",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Simplify \\[\\begin{gathered}(2 p^{2}-4 p q+q^{2}) \\\\ +(2 p q-p^{2}+3 q^{2}) \\\\ +10 p q\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Hence find its value when \\(p=-1\\) and \\(q=2\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 化簡 \\[\\begin{gathered}(2 p^{2}-4 p q+q^{2}) \\\\ +(2 p q-p^{2}+3 q^{2}) \\\\ +10 p q\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 從而求當 \\(p=-1\\)、\\(q=2\\) 時上式的值。"
+              }
+            ]
+          },
+          "solutionBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Collect the \\(p^2,pq,q^2\\) terms to obtain \\(p^2+8pq+4q^2\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Substitute: \\(1-16+16=1\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 分別合併 \\(p^2,pq,q^2\\) 項，得 \\(p^2+8pq+4q^2\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 代入得 \\(1-16+16=1\\)。"
+              }
+            ]
+          },
+          "id": "import-polynomial-ad14942dcd8dc6f1"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "easy",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-expand-collect",
+          "stem": "Expand \\((a+1)\\cdot (a-7)\\).",
+          "stemZh": "展開 \\((a+1)\\cdot (a-7)\\)。",
+          "solution": "Distribute each term over the second bracket, then collect like terms. The result is \\(a^{2} - 6 a - 7\\).",
+          "solutionZh": "將第一個括號每一項分配到第二個括號，再合併同類項，結果為 \\(a^{2} - 6 a - 7\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q16",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第16題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "16",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Expand two binomials and collect terms.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q16"
+          },
+          "assessmentMode": "solution-comparison",
+          "id": "import-polynomial-1a4aa8fa65c76c34"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-expand-collect",
+          "stem": "Expand \\[\\begin{gathered}(x^{2}+2 x+1) \\\\ \\cdot (4 x-3)\\end{gathered}\\]",
+          "stemZh": "展開 \\[\\begin{gathered}(x^{2}+2 x+1) \\\\ \\cdot (4 x-3)\\end{gathered}\\]",
+          "solution": "Distribute each term over the second bracket, then collect like terms. The result is \\[\\begin{gathered}4 x^{3} + 5 x^{2} \\\\ - 2 x - 3\\end{gathered}\\]",
+          "solutionZh": "將第一個括號每一項分配到第二個括號，再合併同類項，結果為 \\[\\begin{gathered}4 x^{3} + 5 x^{2} \\\\ - 2 x - 3\\end{gathered}\\]",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q17",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第17題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "17",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Six distributive products must be collected into a cubic polynomial.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q17"
+          },
+          "assessmentMode": "solution-comparison",
+          "id": "import-polynomial-3f2278b045a3aec4"
+        },
+        {
+          "questionType": "structured",
+          "difficulty": "medium",
+          "minForm": 1,
+          "course": "core",
+          "subcategory": "basic-operations",
+          "skill": "poly-expanded-structure",
+          "stem": "(a) Expand \\((x^2+2x+1)(x-1)\\).\n(b) Find the degree of the expansion in (a).\n(c) Find the coefficient of \\(x^2\\) in the expansion in (a).",
+          "stemZh": "(a) 展開 \\((x^2+2x+1)(x-1)\\)。\n(b) 求 (a) 中展開式的次數。\n(c) 求 (a) 中展開式的 \\(x^2\\) 項係數。",
+          "solution": "(a) Distribute and collect: \\(x^3+x^2-x-1\\).\n(b) The highest power is \\(3\\).\n(c) The coefficient of \\(x^2\\) is \\(1\\).",
+          "solutionZh": "(a) 用分配律展開並合併，得 \\(x^3+x^2-x-1\\)。\n(b) 最高次冪為 \\(3\\)。\n(c) \\(x^2\\) 的係數為 \\(1\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S1/polynomials/Polynomials review3.pdf · Q18",
+          "sourceZh": "S1/polynomials/Polynomials review3.pdf · 第18題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "18",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Link cubic expansion to the degree and coefficient requested in two following subparts.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q18"
+          },
+          "assessmentMode": "solution-comparison",
+          "contentBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Expand \\((x^2+2x+1)(x-1)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the degree of the expansion in (a)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Find the coefficient of \\(x^2\\) in the expansion in (a)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 展開 \\((x^2+2x+1)(x-1)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 求 (a) 中展開式的次數。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 求 (a) 中展開式的 \\(x^2\\) 項係數。"
+              }
+            ]
+          },
+          "solutionBlocks": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Distribute and collect: \\(x^3+x^2-x-1\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) The highest power is \\(3\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) The coefficient of \\(x^2\\) is \\(1\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 用分配律展開並合併，得 \\(x^3+x^2-x-1\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 最高次冪為 \\(3\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) \\(x^2\\) 的係數為 \\(1\\)。"
+              }
+            ]
+          },
+          "id": "import-polynomial-6ec993d9bfe1d66d"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "course": "core",
+          "subcategory": "transformed-polynomials",
+          "skill": "poly-substitution",
+          "stem": "When a polynomial \\(f(x)\\) is divided by \\(2x+1\\), the remainder is \\(R\\). Find the remainder when \\(f(2x+1)\\) is divided by \\(4x+3\\).",
+          "stemZh": "多項式 \\(f(x)\\) 除以 \\(2x+1\\) 的餘式為 \\(R\\)。求 \\(f(2x+1)\\) 除以 \\(4x+3\\) 的餘式。",
+          "solution": "The given remainder is \\(f(-\\frac12)=R\\). The new divisor vanishes at \\(x=-\\frac34\\), where \\(2x+1=-\\frac12\\). Thus the new remainder is \\(R\\).",
+          "solutionZh": "已知 \\(f(-\\frac12)=R\\)。新除式的零點為 \\(x=-\\frac34\\)，此時 \\(2x+1=-\\frac12\\)，所以新餘式仍為 \\(R\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S4/more about polynomials/S4 polynomials review.pdf · Q3",
+          "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第3題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "3",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Follow a linear input substitution through two different divisor roots.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q3"
+          },
+          "options": {
+            "A": "\\(R\\)",
+            "B": "\\(\\frac23R\\)",
+            "C": "\\(4R\\)",
+            "D": "\\(4R+3\\)"
+          },
+          "optionsZh": {
+            "A": "\\(R\\)",
+            "B": "\\(\\frac23R\\)",
+            "C": "\\(4R\\)",
+            "D": "\\(4R+3\\)"
+          },
+          "answer": "A",
+          "id": "import-polynomial-09275c0edfd81f14"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "course": "core",
+          "subcategory": "transformed-polynomials",
+          "skill": "poly-substitution",
+          "stem": "Let \\(f(x)\\) be a polynomial with \\(f(2)=-6\\). Which expression must have the factor \\(2x+1\\)?",
+          "stemZh": "設 \\(f(x)\\) 為多項式，且 \\(f(2)=-6\\)。下列哪個式子必定有因式 \\(2x+1\\)？",
+          "solution": "Set \\(x=-\\frac12\\). Then \\(2x+3=2\\), so \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\] By the factor theorem, option D has the factor \\(2x+1\\). The other choices need information about \\(f(0)\\) or give \\(-12\\).",
+          "solutionZh": "代入 \\(x=-\\frac12\\)，得 \\(2x+3=2\\)，所以 \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\]由因式定理，D 必有因式 \\(2x+1\\)。其他選項須知道 \\(f(0)\\) 或得到 \\(-12\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S4/more about polynomials/S4 polynomials review.pdf · Q4",
+          "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第4題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "4",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Choose a shifted polynomial that vanishes at the specified divisor root.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q4"
+          },
+          "options": {
+            "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+          },
+          "optionsZh": {
+            "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+          },
+          "answer": "D",
+          "id": "import-polynomial-054f9c6861f38928"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "course": "core",
+          "subcategory": "transformed-polynomials",
+          "skill": "poly-substitution",
+          "stem": "Let \\(f(x)=2x^2+3x-5\\) and \\(g(x)=f(x^2+1)\\). Find the remainder when \\(g(x)\\) is divided by \\(x-3\\).",
+          "stemZh": "設 \\(f(x)=2x^2+3x-5\\)、\\(g(x)=f(x^2+1)\\)。求 \\(g(x)\\) 除以 \\(x-3\\) 的餘式。",
+          "solution": "The remainder is \\(g(3)=f(10)\\). Hence \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+          "solutionZh": "餘式為 \\(g(3)=f(10)\\)，所以 \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+          "solutionStatus": "independently-rederived",
+          "source": "S4/more about polynomials/S4 polynomials review.pdf · Q5",
+          "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第5題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "5",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Evaluate the inner input first, then apply the remainder theorem.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q5"
+          },
+          "options": {
+            "A": "225",
+            "B": "22",
+            "C": "\\(-235\\)",
+            "D": "4"
+          },
+          "optionsZh": {
+            "A": "225",
+            "B": "22",
+            "C": "\\(-235\\)",
+            "D": "4"
+          },
+          "answer": "A",
+          "id": "import-polynomial-13b1a4fdf43e3a50"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "course": "core",
+          "subcategory": "transformed-polynomials",
+          "skill": "poly-substitution",
+          "stem": "Let \\(g(x)\\) be a polynomial divisible by \\(x+1\\). Then \\(g(4x-5)\\) must be divisible by which expression?",
+          "stemZh": "設多項式 \\(g(x)\\) 可被 \\(x+1\\) 整除，則 \\(g(4x-5)\\) 必可被下列哪個式子整除？",
+          "solution": "Since \\(g(-1)=0\\), solve \\(4x-5=-1\\) to get \\(x=1\\). Thus \\(x-1\\) is a factor.",
+          "solutionZh": "由 \\(g(-1)=0\\)，解 \\(4x-5=-1\\) 得 \\(x=1\\)，因此 \\(x-1\\) 為因式。",
+          "solutionStatus": "independently-rederived",
+          "source": "S4/more about polynomials/S4 polynomials review.pdf · Q6",
+          "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第6題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "6",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15",
+            "relatedQuestionId": "import-polynomial-p074"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Solve the transformed input-root condition; the source has a different distractor set from p074.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q6"
+          },
+          "options": {
+            "A": "\\(x-1\\)",
+            "B": "\\(x+1\\)",
+            "C": "\\(4x-1\\)",
+            "D": "\\(4x-5\\)"
+          },
+          "optionsZh": {
+            "A": "\\(x-1\\)",
+            "B": "\\(x+1\\)",
+            "C": "\\(4x-1\\)",
+            "D": "\\(4x-5\\)"
+          },
+          "answer": "A",
+          "id": "import-polynomial-51cc94213ae3ba63"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "medium",
+          "minForm": 4,
+          "course": "core",
+          "subcategory": "theorems",
+          "skill": "poly-multiple-conditions",
+          "stem": "Let \\(f(x)=2x^2+ax-2\\), where \\(a\\) is a constant. If \\(f(x)\\) is divisible by \\(2x-1\\), find the remainder when \\(f(x)\\) is divided by \\(x-a\\).",
+          "stemZh": "設 \\(f(x)=2x^2+ax-2\\)，其中 \\(a\\) 為常數。若 \\(f(x)\\) 可被 \\(2x-1\\) 整除，求 \\(f(x)\\) 除以 \\(x-a\\) 的餘式。",
+          "solution": "\\(f(\\frac12)=0\\) gives \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\], hence \\(a=3\\). The required remainder is \\(f(3)=18+9-2=25\\).",
+          "solutionZh": "由 \\(f(\\frac12)=0\\) 得 \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\]，所以 \\(a=3\\)。所求餘式為 \\(f(3)=18+9-2=25\\)。",
+          "solutionStatus": "independently-rederived",
+          "source": "S4/more about polynomials/S4 polynomials review.pdf · Q7",
+          "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第7題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "7",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Determine a parameter from a factor, then use it as the evaluation point for a second division.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q7"
+          },
+          "options": {
+            "A": "50",
+            "B": "45",
+            "C": "25",
+            "D": "\\(-50\\)"
+          },
+          "optionsZh": {
+            "A": "50",
+            "B": "45",
+            "C": "25",
+            "D": "\\(-50\\)"
+          },
+          "answer": "C",
+          "id": "import-polynomial-f5b54db82cf1f5e7"
+        },
+        {
+          "questionType": "mcq",
+          "difficulty": "hard",
+          "minForm": 4,
+          "course": "core",
+          "subcategory": "theorems",
+          "skill": "poly-multiple-conditions",
+          "stem": "Let \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\], where \\(p,q\\) are constants. If \\(f(x)\\) is divisible by \\(x-5\\) and \\(2x+1\\), find the remainder when it is divided by \\(x+1\\).",
+          "stemZh": "設 \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\]，其中 \\(p,q\\) 為常數。若 \\(f(x)\\) 可被 \\(x-5\\) 及 \\(2x+1\\) 整除，求它除以 \\(x+1\\) 的餘式。",
+          "solution": "\\(f(5)=0\\) gives \\(5p-2q=-45\\). \\(f(-\\frac12)=0\\) gives \\(p+4q=101\\). Solving yields \\(p=1,q=25\\). Then \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+          "solutionZh": "由 \\(f(5)=0\\) 得 \\(5p-2q=-45\\)；由 \\(f(-\\frac12)=0\\) 得 \\(p+4q=101\\)。聯立解得 \\(p=1,q=25\\)，所以 \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+          "solutionStatus": "independently-rederived",
+          "source": "S4/more about polynomials/S4 polynomials review.pdf · Q8",
+          "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第8題",
+          "level": "free",
+          "provenance": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "8",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "classification": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Translate two distinct factor conditions into simultaneous equations before evaluating the final remainder.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q8"
+          },
+          "options": {
+            "A": "\\(-20\\)",
+            "B": "1",
+            "C": "24",
+            "D": "36"
+          },
+          "optionsZh": {
+            "A": "\\(-20\\)",
+            "B": "1",
+            "C": "24",
+            "D": "36"
+          },
+          "answer": "C",
+          "id": "import-polynomial-e60f443b345c79e8"
         }
       ]
     },
@@ -2214,7 +3731,21 @@
             "B": "\\(-1\\)",
             "C": "\\(0\\) 或 \\(-1\\)",
             "D": "\\(0\\) 或 \\(1\\)"
-          }
+          },
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "1",
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "duplicateQuestionId": "import-polynomial-0c0e9ec5983ca55e"
+            }
+          ]
         },
         {
           "stem": "If \\(x^3+4x^2+kx-12\\) is divisible by \\(x+3\\), find \\(k\\).",
@@ -4099,7 +5630,21 @@
             "B": "\\(-1\\)",
             "C": "\\(0\\)",
             "D": "\\(1\\)"
-          }
+          },
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "2",
+              "page": 1,
+              "pages": [
+                1
+              ],
+              "duplicateQuestionId": "import-polynomial-6ddaf769c33db9f4"
+            }
+          ]
         },
         {
           "stem": "If \\(f(x)=x^{2n+1}-x^{2n}\\), where \\(n\\) is a positive integer, is divided by \\(x+1\\), find the remainder.",
@@ -4932,7 +6477,21 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "9",
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "duplicateQuestionId": "import-polynomial-4e692ede7cd3b2c6"
+            }
+          ]
         },
         {
           "stem": "Consider \\(f(x)=x^3+7x^2+ax-15\\) and \\(g(x)=2x^3+bx^2+54x+45\\). It is given that \\(f(-3)=g(-3)=0\\).\n\n(a) Find the values of \\(a\\) and \\(b\\).\n\n(b) Solve the equation \\(f(x)=g(x)\\).",
@@ -4968,7 +6527,21 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "15",
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "duplicateQuestionId": "import-polynomial-49c1e281b44e1ce8"
+            }
+          ]
         },
         {
           "stem": "Let\n\n\\[\nf(x)=4x(x+1)^2+ax+b,\n\\]\n\nwhere \\(a\\) and \\(b\\) are constants. It is given that \\(x-3\\) is a factor of \\(f(x)\\). When \\(f(x)\\) is divided by \\(x+2\\), the remainder is \\(2b+165\\).\n\n(a) Find \\(a\\) and \\(b\\).\n\n(b) Someone claims that the equation \\(f(x)=0\\) has at least one irrational root. Do you agree? Explain your answer.\n\n(7 marks)",
@@ -5832,7 +7405,21 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "12",
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "duplicateQuestionId": "import-polynomial-385e5728a93939e6"
+            }
+          ]
         },
         {
           "stem": "Let \\(f(x)=2x^{3}+kx^{2}+3x-2\\), where \\(k\\) is a constant. It is given that\n\n\\[\nf(x)\\equiv (x-2)(ax^{2}+bx+c),\n\\]\n\nwhere \\(a,b,c\\) are constants.\n\n(a) Find \\(a,b\\) and \\(c\\).\n\n(b) Someone claims that all roots of \\(f(x)=0\\) are real. Do you agree? Explain your answer.",
@@ -5868,7 +7455,21 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "10",
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "duplicateQuestionId": "import-polynomial-57ba16fdb03da69e"
+            }
+          ]
         },
         {
           "stem": "Let \\(f(x)=6x^3-13x^2-46x+34\\). When \\(f(x)\\) is divided by \\(2x^2+ax+4\\), the quotient and the remainder are \\(3x+7\\) and \\(bx+c\\) respectively, where \\(a\\), \\(b\\) and \\(c\\) are constants.\n\n(a) Find \\(a\\).\n\n(b) Let \\(g(x)\\) be a quadratic polynomial such that when \\(g(x)\\) is divided by \\(2x^2+ax+4\\), the remainder is \\(bx+c\\).\n\n(i) Prove that \\(f(x)-g(x)\\) is divisible by \\(2x^2+ax+4\\).\n\n(ii) Someone claims that all the roots of the equation \\(f(x)-g(x)=0\\) are integers. Do you agree? Explain your answer.\n\n(8 marks)",
@@ -5940,7 +7541,21 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "13",
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "duplicateQuestionId": "import-polynomial-55370608dc1d3f59"
+            }
+          ]
         },
         {
           "stem": "Let \\(p(x)=x^4+ax^3+x^2+x+b\\), where \\(a\\) and \\(b\\) are constants. When \\(p(x)\\) is divided by \\(x^3+2x\\), the quotient is \\(x+a\\) and the remainder is \\(-x^2-5x+b\\). The polynomial \\(p(x)\\) is divisible by \\(x-1\\).\n\n(a) Find the values of \\(a\\) and \\(b\\).\n\n(b) Find \\(p(-3)\\).\n\n(c) Someone claims that \\(p(x)=0\\) has no irrational roots. Is the claim correct? Explain your answer.",
@@ -6559,8 +8174,8 @@
           "stemZh": "三次多項式 \\(P(x)\\) 被 \\(x+2\\) 和 \\(x-4\\) 除時餘式分別為 \\(-11\\) 和 \\(7\\)。\n\n(a) 求 \\(P(x)\\) 被 \\(x^2-2x-8\\) 除的餘式。\n\n(b) 已知 \\(P(1)=34,P(-1)=72\\)，所有根是否為有理數（rational numbers）？",
           "hint": "Read the divisor roots and the degree before calculating; the stated conditions determine the required polynomial structure.",
           "hintZh": "二次除式（quadratic divisor）的兩個根（roots）正好用來重建一次餘式（linear remainder）。",
-          "solution": "Part (a)\n\nSince\n\n\\[\nx^2-2x-8=(x+2)(x-4),\n\\]\n\nthe remainder has degree less than 2. Let the remainder be \\(ax+b\\).\n\nUsing \\(P(-2)=-11\\),\n\n\\[\n-2a+b=-11. \\tag{1}\n\\]\n\nUsing \\(P(4)=7\\),\n\n\\[\n4a+b=7. \\tag{2}\n\\]\n\nSubtracting \\(1\\) from \\(2\\),\n\n\\[\n6a=18,\n\\]\n\nso\n\n\\[\na=3.\n\\]\n\nSubstitute into \\(2\\):\n\n\\[\n12+b=7,\n\\]\n\nso\n\n\\[\nb=-5.\n\\]\n\nTherefore the remainder is\n\n\\[\n3x-5.\n\\]\n\nPart (b)\n\nSince \\(P(x)\\) is cubic,\n\n\\[\nP(x)=(x^2-2x-8)(mx+n)+3x-5\n\\]\n\nfor constants \\(m,n\\).\n\nUse \\(P(1)=34\\):\n\n\\[\n(1-2-8)(m+n)+3-5=34\n\\]\n\n\\[\n-9(m+n)-2=34\n\\]\n\n\\[\nm+n=-4. \\tag{3}\n\\]\n\nUse \\(P(-1)=72\\):\n\n\\[\n(1+2-8)(-m+n)-3-5=72\n\\]\n\n\\[\n-5(-m+n)-8=72\n\\]\n\n\\[\n-m+n=-16. \\tag{4}\n\\]\n\nSolving \\(3\\) and \\(4\\),\n\n\\[\nm=6,\\qquad n=-10.\n\\]\n\nThus\n\n\\[\nP(x)=(x^2-2x-8)(6x-10)+3x-5.\n\\]\n\nSince\n\n\\[\nx^2-2x-8=(x+2)(x-4),\\qquad 6x-10=2(3x-5),\n\\]\n\nthe roots are\n\n\\[\nx=-2,  4,  \\frac{5}{3}.\n\\]\n\nAll are rational numbers. Therefore all roots of \\(P(x)=0\\) are rational.",
-          "solutionZh": "第 (a) 部分\n\n\\(x^2-2x-8=(x+2)(x-4)\\)，設餘式（remainder）\\(ax+b\\)。\n\n\\(-2a+b=-11,4a+b=7\\)，所以餘式為 \\(3x-5\\)。\n\n第 (b) 部分\n\n再設 \\(P(x)=(x^2-2x-8)(mx+n)+3x-5\\)。\n\n由 \\(P(1)=34,P(-1)=72\\) 得 \\(m=6,n=-10\\)。\n\n因此 \\(P(x)=(x+2)(x-4)2(3x-5)\\)，根為 \\(-2,4,\\frac{5}{3}\\)，全為有理數。",
+          "solution": "(a) Factor \\[\\begin{gathered}x^2 -2x -8 \\\\ =(x+2)(x-4)\\end{gathered}\\] Let the remainder be \\(ax+b\\). The given values imply \\(-2a+b=-11\\) and \\(4a+b=7\\). Subtracting gives \\(6a=18\\), so \\(a=3,b=-5\\). The remainder is \\(3x-5\\).\n(b) Put \\(D(x)=x^2-2x-8\\) and write \\[\\begin{gathered}P(x) =D(x)(mx+n) \\\\ +3x -5\\end{gathered}\\] At \\(x=1\\), \\(-9(m+n)-2=34\\), hence \\(m+n=-4\\). At \\(x=-1\\), \\(-5(-m+n)-8=72\\), hence \\(-m+n=-16\\). Thus \\(m=6,n=-10\\).\nExpand the complete expression, retaining the remainder: \\[\\begin{gathered}P(x) =6x^3 -22x^2 \\\\ -25x +75\\end{gathered}\\] Factor by grouping: \\[\\begin{gathered}P(x) =(3x-5) \\\\ \\cdot(2x^2-4x-15)\\end{gathered}\\] Therefore \\(x=\\frac53\\) or \\[\\begin{gathered}x \\\\ =1\\pm\\frac{\\sqrt{34}}2\\end{gathered}\\] The quadratic discriminant is \\(136\\), which is not a perfect square. Two roots are irrational, so not all roots are rational. The previous solution incorrectly dropped the remainder when factorising.",
+          "solutionZh": "(a) 分解 \\[\\begin{gathered}x^2 -2x -8 \\\\ =(x+2)(x-4)\\end{gathered}\\]，設餘式為 \\(ax+b\\)。由已知值得 \\(-2a+b=-11\\) 及 \\(4a+b=7\\)。兩式相減得 \\(6a=18\\)，所以 \\(a=3,b=-5\\)，餘式為 \\(3x-5\\)。\n(b) 設 \\(D(x)=x^2-2x-8\\)，再設 \\[\\begin{gathered}P(x) =D(x)(mx+n) \\\\ +3x -5\\end{gathered}\\]當 \\(x=1\\) 時，\\(-9(m+n)-2=34\\)，即 \\(m+n=-4\\)。當 \\(x=-1\\) 時，\\(-5(-m+n)-8=72\\)，即 \\(-m+n=-16\\)。解得 \\(m=6,n=-10\\)。\n把餘式一併保留，展開得 \\[\\begin{gathered}P(x) =6x^3 -22x^2 \\\\ -25x +75\\end{gathered}\\]分組分解得 \\[\\begin{gathered}P(x) =(3x-5) \\\\ \\cdot(2x^2-4x-15)\\end{gathered}\\]所以 \\(x=\\frac53\\) 或 \\[\\begin{gathered}x \\\\ =1\\pm\\frac{\\sqrt{34}}2\\end{gathered}\\]二次因式的判別式為 \\(136\\)，並非完全平方數，因此有兩個無理根，並非所有根均為有理數。舊解答分解時漏去餘式，故結論有誤。",
           "id": "import-polynomial-pl049",
           "subcategory": "theorems",
           "skill": "poly-direct-remainder",
@@ -6588,7 +8203,22 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "solutionStatus": "independently-rederived",
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "11",
+              "page": 2,
+              "pages": [
+                2
+              ],
+              "duplicateQuestionId": "import-polynomial-7a379671fa201389"
+            }
+          ]
         },
         {
           "stem": "\\(f(x)\\) is a cubic polynomial divisible by \\(x-1\\). When \\(f(x)\\) is divided by \\(3x^{2}-x-2\\), the remainder is \\(5x+k\\), where \\(k\\) is a constant.\n\n(a) Find \\(k\\).\n\n(b) It is given that \\(3x-1\\) is a factor of \\(f(x)\\). When \\(f(x)\\) is divided by \\(x+2\\), the remainder is \\(-63\\). Someone claims that all the roots of the equation \\(f(x)=0\\) are different in values. Is the claim correct? Explain your answer.",
@@ -7200,7 +8830,21 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "16",
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "duplicateQuestionId": "import-polynomial-c58e675f37f18d91"
+            }
+          ]
         },
         {
           "stem": "Let \\(f(x)=2x^3-x^2+ax+b\\), where \\(a\\) and \\(b\\) are real constants. It is given that \\(f(x)\\) is divisible by \\(x+2\\). When \\(f(x)\\) is divided by \\(x+1\\), the remainder is \\(10\\).\n\n(a) Find the values of \\(a\\) and \\(b\\).\n\n(b) Susan claims that \\(f(n)f(n+1)\\) is even for any integer \\(n\\). Do you agree? Explain your answer.",
@@ -7272,7 +8916,21 @@
             "number": null,
             "attribution": "source-reported-unverified"
           },
-          "assessmentMode": "solution-comparison"
+          "assessmentMode": "solution-comparison",
+          "sourceAliases": [
+            {
+              "collection": "by-topic-review-materials",
+              "sourceId": "source-a11ea3a915f0b682",
+              "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+              "file": "S4/more about polynomials/S4 polynomials review.pdf",
+              "number": "14",
+              "page": 3,
+              "pages": [
+                3
+              ],
+              "duplicateQuestionId": "import-polynomial-efeefab86a2b4516"
+            }
+          ]
         },
         {
           "stem": "Let \\(f(x)\\) be a polynomial of degree \\(4\\). It is given that \\(f(x)\\) is divisible by \\((x-3)^2\\). The remainders when \\(f(x)\\) is divided by \\(x-2\\), \\(x+1\\) and \\(x\\) are \\(4\\), \\(256\\) and \\(54\\) respectively.\n\n(a) Factorize \\(f(x)\\).\n\n(b) Someone claims that the roots of the equation\n\n\\[\nf(x)=(3x^2-7x+6)(2x-3)\n\\]\n\nare all rational. Do you agree? Explain your answer.",

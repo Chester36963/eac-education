@@ -27,8 +27,8 @@
         "zh-Hant": "先看項、係數及次數"
       },
       "intro": {
-        "en": "Separate terms at addition and subtraction signs. The numerical coefficient includes its sign. For two variables, add the exponents within each monomial to find its total degree.",
-        "zh-Hant": "以加減號分辨各項；數字係數包括正負號。含兩個變量時，先把同一單項式的指數相加，再找最大總次數。"
+        "en": "Separate terms at addition and subtraction signs. The numerical coefficient includes its sign. For two variables, add the exponents within each monomial to find its total degree. For ascending order, place the smallest exponent first; descending order starts with the largest. Include the constant term as power zero.",
+        "zh-Hant": "以加減號分辨各項；數字係數包括正負號。含兩個變量時，先把同一單項式的指數相加，再找最大總次數。升冪排列由最小指數開始，降冪排列則由最大指數開始；常數項的次冪為零。"
       },
       "formulas": [
         "\\(\\deg(x^2y^3)=2+3=5\\)"
@@ -42,10 +42,41 @@
         "zh-Hant": "沒有出現的單項式，其係數為零；求總次數時不可只看 x 的指數。"
       },
       "skills": [
-        "poly-read-structure"
+        "poly-read-structure",
+        "poly-power-order"
       ],
       "exampleIds": [
         "import-polynomial-75769dcce9763181"
+      ]
+    },
+    {
+      "id": "index-laws",
+      "title": {
+        "en": "Combine powers before expanding",
+        "zh-Hant": "先用指數律整理乘除"
+      },
+      "intro": {
+        "en": "For the same base, add indices when multiplying and subtract when dividing. A power of a power multiplies indices; apply the power to the numerical coefficient as well.",
+        "zh-Hant": "同底數相乘時指數相加，相除時指數相減。冪的乘方把指數相乘，數字係數亦須一併乘方。"
+      },
+      "formulas": [
+        "\\(u^m u^n=u^{m+n}\\)",
+        "\\(u^m/u^n=u^{m-n}\\quad(u\\ne0)\\)",
+        "\\((u^m)^n=u^{mn}\\)"
+      ],
+      "trigger": {
+        "en": "Simplify each power, collect coefficients, then combine each variable separately.",
+        "zh-Hant": "先處理各個乘方，再計數字係數，最後分別整理每個變量。"
+      },
+      "trap": {
+        "en": "Retain the original nonzero denominator conditions. A negative coefficient raised to an even power becomes positive.",
+        "zh-Hant": "保留原式分母非零的條件；負係數的偶數次方為正數。"
+      },
+      "skills": [
+        "poly-index-laws"
+      ],
+      "exampleIds": [
+        "import-polynomial-ec33c270d646e8cc"
       ]
     },
     {

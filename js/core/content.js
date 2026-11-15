@@ -125,5 +125,7 @@ const skillNames = {
   "poly-expand-collect": "Distribute products then collect / 分配律展開及合併",
   "poly-expand-identities": "Expand with algebraic identities / 用恆等式展開",
   "poly-evaluate-expanded": "Simplify then substitute values / 化簡後代入求值",
-  "poly-expanded-structure": "Expand then read coefficients and degree / 展開後判讀係數及次數"
+  "poly-expanded-structure": "Expand then read coefficients and degree / 展開後判讀係數及次數",
+  "poly-index-laws": "Combine powers with index laws / 指數律運算",
+  "poly-power-order": "Arrange ascending and descending powers / 升冪及降冪排列"
 };
