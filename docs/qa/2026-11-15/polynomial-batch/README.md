@@ -1,6 +1,6 @@
 # POLY-20261115 · 兩卷完整對帳
 
-狀態：待驗收（本機匯入及測試完成，正式發布另記 release.json）。
+狀態：完成（main已正式發布，見release.json）。
 
 | 來源 | 原題定位 | 新增 | 確認重複 | 待補 |
 |---|---|---:|---:|---:|
@@ -28,10 +28,14 @@
 - 58組完整公式寬度檢查：28新題＋1修正題×320/390px；math-fit.json。只容許MathJax小於等於6px的字形斜體外伸，長選項／巢狀括號實際超欄已分行修正。
 - 336真正作答狀態：MCQ自動評分、書寫自評及進度寫入；student-matrix.json。修正舊題另12狀態，correction-matrix.json。
 - 親自檢視草稿Q9/Q13/Q14、S4Q8及正式學生模板Q14／修正pl049的390px畫面；截圖存本機.cache/qa/2026-11-15/polynomial-batch，來源頁圖在/tmp/eac-poly{2,3}-{1..4}.png，均不當學生題圖發布。
-- Node全套1,146項通過，另新增pl049精確條件／分解／根驗證1項通過。舊歷史基線hash未覆寫；只以可稽核before/after映射這一條解答修正，其他題仍嚴格保護。來源連結測試保留歷史三條核對，容許新增其他來源。
+- Node全套1,147項通過，包括新增pl049精確條件／分解／根驗證。舊歷史基線hash未覆寫；只以可稽核before/after映射這一條解答修正，其他題仍嚴格保護。來源連結測試保留歷史三條核對，容許新增其他來源。
 - study-journey、build-content --check、build-curriculum --check及git diff --check通過。
 - preservation.json：原1,309題中1,308完全不變，1題只改solution/solutionZh/solutionStatus，28新增；所有舊ID保留。replay.json：兩批再次預覽均0新增／0修訂，不重複入題。
 
 ## 限制與下一批
 
 本輪完成兩份卷，不代表全部PDF或教科書完成。來源總清單仍有1,086來源記錄（含容器成員，不能當獨立PDF檔數），其中135教科書檔案；9來源已點清題數。未點清維持未知。現有其他來源／分類缺口及ASGS四題待補仍保留，沒有改成完成。下一批先對帳其餘S4多項式卷，沿用同一工作台；圖像題逐幅核查及重繪，不交其他agent。UI／UE後續規格繼續見[路線圖](../../../UI_UX_ROADMAP.md)，本輪沒有宣稱新UI完成。
+
+## 正式部署驗收
+
+main `def6246`；Deploy43721485789及Pages43721539266均成功。正式revision b18b53fcb329ae48、1,337題；15個資料／程式／導讀資產SHA一致。28新題及1修正舊題全部在線上實際作答，三語四尺寸348狀態通過，見live-student-matrix.json及live-assets.json。
