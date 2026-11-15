@@ -3,9 +3,16 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const assert=require('node:assert/strict'),fs=require('node:fs');
 const base=process.env.EAC_BASE_URL||'http://127.0.0.1:4173/';
 const out=process.env.EAC_QA_OUTPUT||'docs/qa/2026-10-28/framework-pipeline/student';fs.mkdirSync(out,{recursive:true});
-const batchIds=(process.env.EAC_EDITOR_BATCHES||'intake-d7bc46f81937cc09,intake-611e81c1f3198537').split(',');
+const batchIds=(process.env.EAC_EDITOR_BATCHES??'intake-d7bc46f81937cc09,intake-611e81c1f3198537').split(',').filter(Boolean);
 const chapters=require('../../content/catalog.json').subjects.flatMap(s=>s.chapters);
 const rows=batchIds.flatMap(id=>{const b=require('../../content/intake/editor/'+id+'.json');return b.records.filter(r=>r.disposition==='publish').map(r=>({batch:id,chapter:chapters.find(c=>c.topicId===b.topicId).id,...r}));});
+// Target reviewed corrections without inventing another source batch or question ID.
+for(const id of (process.env.EAC_QUESTION_IDS||'').split(',').filter(Boolean)){
+ const topic=require('../../scripts/content.cjs').readSource().topics.find(t=>t.categories.some(c=>c.questions.some(q=>q.id===id)));
+ if(!topic)throw Error('Unknown reviewed question: '+id);
+ const question=topic.categories.flatMap(c=>c.questions).find(q=>q.id===id);
+ rows.push({batch:'reviewed-correction',chapter:chapters.find(c=>c.topicId===topic.id).id,locator:id,question});
+}
 const results=[];
 (async()=>{const browser=await chromium.launch(),errors=[];
  try{
@@ -21,7 +28,7 @@ const results=[];
      const residue=await p.locator('#active-set').evaluate(el=>{const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),found=[];let n;while(n=w.nextNode())if(!n.parentElement.closest('mjx-container,svg,script,style,[hidden]')&&/\\[()[\]]|\\(?:frac|sqrt)|cm\^[23]|勾股定理|I只有/.test(n.textContent))found.push(n.textContent);return found});assert.deepEqual(residue,[]);
      results.push({id:q.id,locator:row.locator,width,language,grading:q.options?'automatic':'self',status:'pass'});
     }
-    if([390,1440].includes(width)&&(q.diagram||q.contentBlocks))await p.locator('#active-set').screenshot({path:out+'/'+row.batch+'-q'+row.locator+'-'+width+'.png'});
+    if([390,1440].includes(width)&&(q.diagram||q.contentBlocks||row.batch==='reviewed-correction'))await p.locator('#active-set').screenshot({path:out+'/'+row.batch+'-q'+row.locator+'-'+width+'.png'});
     await p.locator('#finish-btn').click();
    }
    await p.close();console.log('PASS '+rows.length+' actual questions at '+width+'px');

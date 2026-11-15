@@ -557,13 +557,13 @@
                 "poly-factor-parameters",
                 "poly-multiple-conditions"
               ],
-              "questionCount": 81,
+              "questionCount": 83,
               "skillCounts": {
                 "remainder-theorem": 2,
                 "factor-theorem": 4,
                 "poly-direct-remainder": 34,
                 "poly-factor-parameters": 11,
-                "poly-multiple-conditions": 30
+                "poly-multiple-conditions": 32
               }
             },
             {
@@ -614,9 +614,9 @@
                 "poly-substitution",
                 "poly-quotient-sign"
               ],
-              "questionCount": 11,
+              "questionCount": 15,
               "skillCounts": {
-                "poly-substitution": 10,
+                "poly-substitution": 14,
                 "poly-quotient-sign": 1
               }
             },
@@ -627,11 +627,13 @@
                 "zh-Hant": "項、係數與次數"
               },
               "skills": [
-                "poly-read-structure"
+                "poly-read-structure",
+                "poly-power-order"
               ],
-              "questionCount": 3,
+              "questionCount": 10,
               "skillCounts": {
-                "poly-read-structure": 3
+                "poly-read-structure": 9,
+                "poly-power-order": 1
               }
             },
             {
@@ -645,42 +647,44 @@
                 "poly-expand-collect",
                 "poly-expand-identities",
                 "poly-evaluate-expanded",
-                "poly-expanded-structure"
+                "poly-expanded-structure",
+                "poly-index-laws"
               ],
-              "questionCount": 25,
+              "questionCount": 40,
               "skillCounts": {
-                "poly-collect-terms": 8,
-                "poly-expand-collect": 7,
+                "poly-collect-terms": 11,
+                "poly-expand-collect": 10,
                 "poly-expand-identities": 5,
-                "poly-evaluate-expanded": 2,
-                "poly-expanded-structure": 3
+                "poly-evaluate-expanded": 3,
+                "poly-expanded-structure": 4,
+                "poly-index-laws": 7
               }
             }
           ],
           "topicId": "polynomial",
-          "questionCount": 182,
+          "questionCount": 210,
           "courses": [
             "core"
           ],
           "coverage": {
             "types": {
-              "mcq": 74,
-              "structured": 104,
+              "mcq": 92,
+              "structured": 114,
               "short-answer": 2,
               "dse-long": 1,
               "proof": 1
             },
             "difficulty": {
-              "easy": 25,
-              "medium": 91,
-              "hard": 35,
+              "easy": 41,
+              "medium": 102,
+              "hard": 36,
               "challenging": 31
             },
             "minForm": {
-              "1": 29,
+              "1": 51,
               "2": 1,
               "3": 4,
-              "4": 148
+              "4": 154
             }
           }
         },

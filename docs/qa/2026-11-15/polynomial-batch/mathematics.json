@@ -1,0 +1,296 @@
+{
+  "checks": [
+    {
+      "question": "S1-Q1",
+      "originalExpression": "c^4*c^5*c^6",
+      "expected": "c^15",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q2",
+      "originalExpression": "(2*p^3*q)*(4*p^6*q^2)",
+      "expected": "8*p^9*q^3",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q3",
+      "exponentIdentity": "(1-s)+(2-3s)=3-4s",
+      "domain": "s integer <=0 makes both original exponents positive integers; not an assumption that s>0"
+    },
+    {
+      "question": "S1-Q4",
+      "coefficientExponentComparison": {
+        "m": 12,
+        "6n": 18,
+        "n": 3
+      }
+    },
+    {
+      "question": "S1-Q5",
+      "originalExpression": "(-8*c^7)^2/(4*c^3)^3",
+      "expected": "c^5",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q6",
+      "originalExpression": "(m^2*n^3)^2*(3*m*n^2)^3/(-3*m*n)^2",
+      "expected": "3*m^5*n^10",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q10",
+      "originalExpression": "(7*m^2*n-8*m*n^2+6*m*n)+(3*m*n+m*n^2-m^2*n)",
+      "expected": "6*m^2*n-7*m*n^2+9*m*n",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q11",
+      "originalExpression": "(g^2+2*g+1)+(3*g-2*g^2)-(6*g^2+4*g+1)",
+      "expected": "-7*g^2+g",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q12",
+      "originalExpression": "(p-1)*(p^2+1)",
+      "expected": "p^3-p^2+p-1",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q13a",
+      "originalExpression": "2*g^2*10*g^6/(-5*g^4)",
+      "expected": "-4*g^4",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q13b",
+      "originalExpression": "-6*c^8/((2*c)^2*(-c)^3)",
+      "expected": "3*c^3/2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q14a",
+      "originalExpression": "(5-2*x)-(3*x^2+7+2*x)+(3*x^2-2)",
+      "expected": "-4*x-4",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q14b",
+      "originalExpression": "(3*x^2-4)-((3*x-2)+(2*x^2-x+3))",
+      "expected": "x^2-2*x-5",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q15a",
+      "originalExpression": "(2*p^2-4*p*q+q^2)+(2*p*q-p^2+3*q^2)+10*p*q",
+      "expected": "p^2+8*p*q+4*q^2",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q16",
+      "originalExpression": "(a+1)*(a-7)",
+      "expected": "a^2-6*a-7",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q17",
+      "originalExpression": "(x^2+2*x+1)*(4*x-3)",
+      "expected": "4*x^3+5*x^2-2*x-3",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q18",
+      "originalExpression": "(x^2+2*x+1)*(x-1)",
+      "expected": "x^3+x^2-x-1",
+      "symbolicEquality": true,
+      "directSubstitutionSamples": 5
+    },
+    {
+      "question": "S1-Q19",
+      "terms": 4,
+      "numericalMonomialCoefficients": [
+        "0",
+        "0",
+        "-4",
+        "-5"
+      ],
+      "constant": "8",
+      "degree": 4,
+      "sourceAnswerCorrection": false
+    },
+    {
+      "question": "S1-Q20",
+      "terms": 4,
+      "numericalMonomialCoefficients": [
+        "2",
+        "7",
+        "0",
+        "-3"
+      ],
+      "constant": "4",
+      "degree": 2,
+      "sourceAnswerCorrection": false
+    },
+    {
+      "question": "S1-Q21",
+      "terms": 5,
+      "numericalMonomialCoefficients": [
+        "0",
+        "-6",
+        "-2",
+        "5"
+      ],
+      "constant": "9",
+      "degree": 5,
+      "sourceAnswerCorrection": false
+    },
+    {
+      "question": "S1-Q22",
+      "terms": 4,
+      "numericalMonomialCoefficients": [
+        "-7",
+        "0",
+        "-2",
+        "1/2"
+      ],
+      "constant": "-6",
+      "degree": 3,
+      "sourceAnswerCorrection": true
+    },
+    {
+      "question": "S4-Q1",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q2",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q3",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q4",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q5",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q6",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q7",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q8",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q9",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q10",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q11",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q12",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q13",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q14",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": true
+    },
+    {
+      "question": "S4-Q15",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": true
+    },
+    {
+      "question": "S4-Q16",
+      "review": "Independently rederived; complete statement/options and all long-question subparts compared to rendered source pages 1–3.",
+      "sourceKeyCorrection": false
+    },
+    {
+      "question": "S4-Q14",
+      "sourceKey": "k=-7 or 9",
+      "correct": "k=1±4sqrt(3)",
+      "discriminant": "k**2 - 2*k - 47",
+      "canonicalAlreadyCorrect": true
+    },
+    {
+      "question": "S4-Q15",
+      "sourceKey": "a=-7,b=19; roots -3,-5,4",
+      "correct": "a=7,b=19; roots -3,-5,-4",
+      "canonicalAlreadyCorrect": true
+    }
+  ],
+  "sourcePagesPersonallyReviewed": {
+    "source-408e6525d1ffcccf": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source-a11ea3a915f0b682": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "noDiagramQuestions": true,
+  "sources": {
+    "source-408e6525d1ffcccf": {
+      "sourceRecords": 22,
+      "publish": 22,
+      "duplicate": 0,
+      "held": 0
+    },
+    "source-a11ea3a915f0b682": {
+      "sourceRecords": 16,
+      "publish": 6,
+      "duplicate": 10,
+      "held": 0
+    }
+  }
+}

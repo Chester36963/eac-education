@@ -1,3 +1,4 @@
+const reviewedBaseline=require('./helpers/reviewed-baseline.cjs');
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),{execFileSync}=require('node:child_process');
 const {readSource,validate,compile,ROOT}=require('../scripts/content.cjs');
 const bundle=require('../content/intake/sequence-review-2026-10-28/bundle.json'),review=require('../content/intake/sequence-review-2026-10-28/review.json');
@@ -13,7 +14,7 @@ test('curriculum intake accounts for all 24 original locators, with two explicit
  assert.deepEqual(review.deduplication.normalizedMatches,[]);assert.deepEqual(review.deduplication.withinBatchMatches,[]);
 });
 test('intake preserves all 1186 earlier question objects and IDs, including 21 ASGS questions',()=>{
- const pilotIds=new Set(fs.readdirSync(path.join(ROOT,'content/intake/editor')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(fs.readFileSync(path.join(ROOT,'content/intake/editor',f)))).filter(b=>b.import).flatMap(b=>b.records.filter(r=>r.disposition==='publish'&&all.some(q=>q.id===r.question.id)).map(r=>r.question.id)));const original=all.filter(q=>!newIds.has(q.id)&&!pilotIds.has(q.id));assert.equal(original.length,review.baseline.count);assert.equal(original.length,review.baseline.count);assert.equal(sha(original),review.baseline.questionArraySha256);
+ const pilotIds=new Set(fs.readdirSync(path.join(ROOT,'content/intake/editor')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(fs.readFileSync(path.join(ROOT,'content/intake/editor',f)))).filter(b=>b.import).flatMap(b=>b.records.filter(r=>r.disposition==='publish'&&all.some(q=>q.id===r.question.id)).map(r=>r.question.id)));const original=all.filter(q=>!newIds.has(q.id)&&!pilotIds.has(q.id));assert.equal(original.length,review.baseline.count);assert.equal(original.length,review.baseline.count);assert.equal(sha(original.map(reviewedBaseline)),review.baseline.questionArraySha256);
  for(const id of newIds)pilotIds.delete(id);
  assert.equal(all.length,1208+pilotIds.size);assert.equal(all.filter(q=>q.id.startsWith('import-sequences-')&&!newIds.has(q.id)&&!pilotIds.has(q.id)).length,21);
  assert.equal(validate(source.catalog,source.topics,source.skills).length,0);

@@ -1,0 +1,1923 @@
+{
+  "schemaVersion": 1,
+  "id": "intake-a11ea3a915f0b682",
+  "sourceId": "source-a11ea3a915f0b682",
+  "sourcePath": "S4/more about polynomials/S4 polynomials review.pdf",
+  "sourceSha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+  "topicId": "polynomial",
+  "expectedQuestions": 16,
+  "revision": 41,
+  "records": [
+    {
+      "locator": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-p013",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=x^2-kx+2k\\). If \\(f(x)\\) is divisible by \\(x+k\\), find \\(k\\).",
+        "stemZh": "設 \\(f(x)=x^2-kx+2k\\)。若 \\(f(x)\\) 可被 \\(x+k\\) 整除，求 \\(k\\)。",
+        "hint": "Since \\(x+k\\) is a factor, substitute \\(x=-k\\): \\(2k(k+1)=0\\).",
+        "hintZh": "\\(x+k\\) 是因式，代 \\(x=-k\\)：\\(k^2+k^2+2k=2k(k+1)=0\\)，所以 \\(k=0\\) 或 \\(-1\\)",
+        "solution": "Since \\(x+k\\) is a factor, substitute \\(x=-k\\): \\(2k(k+1)=0\\). Thus \\(k=0\\) or \\(-1\\).",
+        "solutionZh": "\\(x+k\\) 是因式，代 \\(x=-k\\)：\\(k^2+k^2+2k=2k(k+1)=0\\)，所以 \\(k=0\\) 或 \\(-1\\)。。",
+        "subcategory": "theorems",
+        "skill": "poly-factor-parameters",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "zero remainder determines parameter",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": null
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q1",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第1題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "1",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "answer": "C",
+        "options": {
+          "A": "\\(1\\)",
+          "B": "\\(-1\\)",
+          "C": "\\(0\\) or \\(-1\\)",
+          "D": "\\(0\\) or \\(1\\)"
+        },
+        "optionsZh": {
+          "A": "\\(1\\)",
+          "B": "\\(-1\\)",
+          "C": "\\(0\\) 或 \\(-1\\)",
+          "D": "\\(0\\) 或 \\(1\\)"
+        },
+        "id": "import-polynomial-0c0e9ec5983ca55e"
+      },
+      "reason": "Personally compared rendered S4 source question 1 and canonical p013: identical polynomial coefficients, conditions, full requested subparts and complete A–D choices. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.787Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.039Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.142Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.103Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.630Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.596Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.495Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-p065",
+      "category": "calculation",
+      "question": {
+        "stem": "If \\((x+2)^{2n}+x^{2n+1}\\), where \\(n\\) is a positive integer, is divided by \\(x+1\\), find the remainder.",
+        "stemZh": "若 \\((x+2)^{2n}+x^{2n+1}\\) 被 \\(x+1\\) 除，其中 \\(n\\) 為正整數，求餘式。",
+        "hint": "Substitute \\(x=-1\\): \\(1^{2n}+(-1)^{2n+1}=1-1=0\\).",
+        "hintZh": "代 \\(x=-1\\)：\\((1)^{2n}+(-1)^{2n+1}=1-1=0\\)",
+        "solution": "Substitute \\(x=-1\\): \\(1^{2n}+(-1)^{2n+1}=1-1=0\\).",
+        "solutionZh": "代 \\(x=-1\\)：\\((1)^{2n}+(-1)^{2n+1}=1-1=0\\)。。",
+        "subcategory": "theorems",
+        "skill": "poly-direct-remainder",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "evaluate polynomial at a divisor root",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": null
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q2",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第2題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "2",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "answer": "C",
+        "options": {
+          "A": "\\(-2\\)",
+          "B": "\\(-1\\)",
+          "C": "\\(0\\)",
+          "D": "\\(1\\)"
+        },
+        "optionsZh": {
+          "A": "\\(-2\\)",
+          "B": "\\(-1\\)",
+          "C": "\\(0\\)",
+          "D": "\\(1\\)"
+        },
+        "id": "import-polynomial-6ddaf769c33db9f4"
+      },
+      "reason": "Personally compared rendered S4 source question 2 and canonical p065: identical polynomial coefficients, conditions, full requested subparts and complete A–D choices. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.787Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.039Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.142Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.103Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.630Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.596Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "When a polynomial \\(f(x)\\) is divided by \\(2x+1\\), the remainder is \\(R\\). Find the remainder when \\(f(2x+1)\\) is divided by \\(4x+3\\).",
+        "stemZh": "多項式 \\(f(x)\\) 除以 \\(2x+1\\) 的餘式為 \\(R\\)。求 \\(f(2x+1)\\) 除以 \\(4x+3\\) 的餘式。",
+        "solution": "The given remainder is \\(f(-\\frac12)=R\\). The new divisor vanishes at \\(x=-\\frac34\\), where \\(2x+1=-\\frac12\\). Thus the new remainder is \\(R\\).",
+        "solutionZh": "已知 \\(f(-\\frac12)=R\\)。新除式的零點為 \\(x=-\\frac34\\)，此時 \\(2x+1=-\\frac12\\)，所以新餘式仍為 \\(R\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q3",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第3題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "3",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Follow a linear input substitution through two different divisor roots.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q3"
+        },
+        "options": {
+          "A": "\\(R\\)",
+          "B": "\\(\\frac23R\\)",
+          "C": "\\(4R\\)",
+          "D": "\\(4R+3\\)"
+        },
+        "optionsZh": {
+          "A": "\\(R\\)",
+          "B": "\\(\\frac23R\\)",
+          "C": "\\(4R\\)",
+          "D": "\\(4R+3\\)"
+        },
+        "answer": "A",
+        "id": "import-polynomial-09275c0edfd81f14"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "d59700dbbe1ae2c5553fa11ee21ad02b39c62ed027d4b7b50c5d14d7c5296c1c",
+          "evidence": "Personally compared all rendered source pages and original locators, including every option and subpart. Complete bilingual bank: docs/qa/2026-11-15/polynomial-batch/source-a11ea3a915f0b682.md",
+          "at": "2026-11-15T13:45:55.941Z"
+        },
+        "classification": {
+          "fingerprint": "d59700dbbe1ae2c5553fa11ee21ad02b39c62ed027d4b7b50c5d14d7c5296c1c",
+          "evidence": "Each question classified by decisive solving operation and source form, with explicit difficulty reasoning. Two added skills are index laws and ascending/descending order.",
+          "at": "2026-11-15T13:45:55.943Z"
+        },
+        "mathematics": {
+          "fingerprint": "d59700dbbe1ae2c5553fa11ee21ad02b39c62ed027d4b7b50c5d14d7c5296c1c",
+          "evidence": "Exact symbolic expansions, coefficient extraction and direct substitution checks; all S4 long answers independently rederived. S1 Q22 source-key omission corrected. See docs/qa/2026-11-15/polynomial-batch/mathematics.json",
+          "at": "2026-11-15T13:45:55.944Z"
+        },
+        "figures": {
+          "fingerprint": "d59700dbbe1ae2c5553fa11ee21ad02b39c62ed027d4b7b50c5d14d7c5296c1c",
+          "evidence": "Personally inspected all four pages of each source. No graph/image questions. Answer-entry table requests restated with all original fields, no figure substitution.",
+          "at": "2026-11-15T13:45:55.945Z"
+        },
+        "studentView": {
+          "fingerprint": "d59700dbbe1ae2c5553fa11ee21ad02b39c62ed027d4b7b50c5d14d7c5296c1c",
+          "evidence": "72 final draft language/viewport states passed; mobile full-formula-fit checked separately. Personally viewed Q9/Q13/Q14 and S4 Q8. See docs/qa/2026-11-15/polynomial-batch/s4-preview-matrix.json",
+          "at": "2026-11-15T13:45:55.946Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.787Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.039Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.142Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.630Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.596Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(f(x)\\) be a polynomial with \\(f(2)=-6\\). Which expression must have the factor \\(2x+1\\)?",
+        "stemZh": "設 \\(f(x)\\) 為多項式，且 \\(f(2)=-6\\)。下列哪個式子必定有因式 \\(2x+1\\)？",
+        "solution": "Set \\(x=-\\frac12\\). Then \\(2x+3=2\\), so \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\] By the factor theorem, option D has the factor \\(2x+1\\). The other choices need information about \\(f(0)\\) or give \\(-12\\).",
+        "solutionZh": "代入 \\(x=-\\frac12\\)，得 \\(2x+3=2\\)，所以 \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\]由因式定理，D 必有因式 \\(2x+1\\)。其他選項須知道 \\(f(0)\\) 或得到 \\(-12\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q4",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第4題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "4",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Choose a shifted polynomial that vanishes at the specified divisor root.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q4"
+        },
+        "options": {
+          "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+          "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+          "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+        },
+        "optionsZh": {
+          "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+          "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+          "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+        },
+        "answer": "D",
+        "id": "import-polynomial-054f9c6861f38928"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "461865e45046a5123f3d08fdc693d31e1bb35a5d8da5741f9cf3c48cc3110553",
+          "evidence": "Personally compared all rendered source pages and original locators, including every option and subpart. Complete bilingual bank: docs/qa/2026-11-15/polynomial-batch/source-a11ea3a915f0b682.md",
+          "at": "2026-11-15T13:45:55.947Z"
+        },
+        "classification": {
+          "fingerprint": "461865e45046a5123f3d08fdc693d31e1bb35a5d8da5741f9cf3c48cc3110553",
+          "evidence": "Each question classified by decisive solving operation and source form, with explicit difficulty reasoning. Two added skills are index laws and ascending/descending order.",
+          "at": "2026-11-15T13:45:55.948Z"
+        },
+        "mathematics": {
+          "fingerprint": "461865e45046a5123f3d08fdc693d31e1bb35a5d8da5741f9cf3c48cc3110553",
+          "evidence": "Exact symbolic expansions, coefficient extraction and direct substitution checks; all S4 long answers independently rederived. S1 Q22 source-key omission corrected. See docs/qa/2026-11-15/polynomial-batch/mathematics.json",
+          "at": "2026-11-15T13:45:55.949Z"
+        },
+        "figures": {
+          "fingerprint": "461865e45046a5123f3d08fdc693d31e1bb35a5d8da5741f9cf3c48cc3110553",
+          "evidence": "Personally inspected all four pages of each source. No graph/image questions. Answer-entry table requests restated with all original fields, no figure substitution.",
+          "at": "2026-11-15T13:45:55.951Z"
+        },
+        "studentView": {
+          "fingerprint": "461865e45046a5123f3d08fdc693d31e1bb35a5d8da5741f9cf3c48cc3110553",
+          "evidence": "72 final draft language/viewport states passed; mobile full-formula-fit checked separately. Personally viewed Q9/Q13/Q14 and S4 Q8. See docs/qa/2026-11-15/polynomial-batch/s4-preview-matrix.json",
+          "at": "2026-11-15T13:45:55.952Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.787Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.039Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.142Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.596Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(f(x)=2x^2+3x-5\\) and \\(g(x)=f(x^2+1)\\). Find the remainder when \\(g(x)\\) is divided by \\(x-3\\).",
+        "stemZh": "設 \\(f(x)=2x^2+3x-5\\)、\\(g(x)=f(x^2+1)\\)。求 \\(g(x)\\) 除以 \\(x-3\\) 的餘式。",
+        "solution": "The remainder is \\(g(3)=f(10)\\). Hence \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+        "solutionZh": "餘式為 \\(g(3)=f(10)\\)，所以 \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q5",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第5題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "5",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Evaluate the inner input first, then apply the remainder theorem.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q5"
+        },
+        "options": {
+          "A": "225",
+          "B": "22",
+          "C": "\\(-235\\)",
+          "D": "4"
+        },
+        "optionsZh": {
+          "A": "225",
+          "B": "22",
+          "C": "\\(-235\\)",
+          "D": "4"
+        },
+        "answer": "A",
+        "id": "import-polynomial-13b1a4fdf43e3a50"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "716b0d15e6698e1c110dc9de31ff3c3b3f807b12e986c1009cbf7b56518fdbd9",
+          "evidence": "Personally compared all rendered source pages and original locators, including every option and subpart. Complete bilingual bank: docs/qa/2026-11-15/polynomial-batch/source-a11ea3a915f0b682.md",
+          "at": "2026-11-15T13:45:55.953Z"
+        },
+        "classification": {
+          "fingerprint": "716b0d15e6698e1c110dc9de31ff3c3b3f807b12e986c1009cbf7b56518fdbd9",
+          "evidence": "Each question classified by decisive solving operation and source form, with explicit difficulty reasoning. Two added skills are index laws and ascending/descending order.",
+          "at": "2026-11-15T13:45:55.954Z"
+        },
+        "mathematics": {
+          "fingerprint": "716b0d15e6698e1c110dc9de31ff3c3b3f807b12e986c1009cbf7b56518fdbd9",
+          "evidence": "Exact symbolic expansions, coefficient extraction and direct substitution checks; all S4 long answers independently rederived. S1 Q22 source-key omission corrected. See docs/qa/2026-11-15/polynomial-batch/mathematics.json",
+          "at": "2026-11-15T13:45:55.955Z"
+        },
+        "figures": {
+          "fingerprint": "716b0d15e6698e1c110dc9de31ff3c3b3f807b12e986c1009cbf7b56518fdbd9",
+          "evidence": "Personally inspected all four pages of each source. No graph/image questions. Answer-entry table requests restated with all original fields, no figure substitution.",
+          "at": "2026-11-15T13:45:55.956Z"
+        },
+        "studentView": {
+          "fingerprint": "716b0d15e6698e1c110dc9de31ff3c3b3f807b12e986c1009cbf7b56518fdbd9",
+          "evidence": "72 final draft language/viewport states passed; mobile full-formula-fit checked separately. Personally viewed Q9/Q13/Q14 and S4 Q8. See docs/qa/2026-11-15/polynomial-batch/s4-preview-matrix.json",
+          "at": "2026-11-15T13:45:55.958Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.787Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.039Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.142Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.596Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(g(x)\\) be a polynomial divisible by \\(x+1\\). Then \\(g(4x-5)\\) must be divisible by which expression?",
+        "stemZh": "設多項式 \\(g(x)\\) 可被 \\(x+1\\) 整除，則 \\(g(4x-5)\\) 必可被下列哪個式子整除？",
+        "solution": "Since \\(g(-1)=0\\), solve \\(4x-5=-1\\) to get \\(x=1\\). Thus \\(x-1\\) is a factor.",
+        "solutionZh": "由 \\(g(-1)=0\\)，解 \\(4x-5=-1\\) 得 \\(x=1\\)，因此 \\(x-1\\) 為因式。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q6",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第6題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "6",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15",
+          "relatedQuestionId": "import-polynomial-p074"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Solve the transformed input-root condition; the source has a different distractor set from p074.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q6"
+        },
+        "options": {
+          "A": "\\(x-1\\)",
+          "B": "\\(x+1\\)",
+          "C": "\\(4x-1\\)",
+          "D": "\\(4x-5\\)"
+        },
+        "optionsZh": {
+          "A": "\\(x-1\\)",
+          "B": "\\(x+1\\)",
+          "C": "\\(4x-1\\)",
+          "D": "\\(4x-5\\)"
+        },
+        "answer": "A",
+        "id": "import-polynomial-51cc94213ae3ba63"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "9f74b8ef4d20743adee1603af1aeff67ca62b91b7659f1f56d89722a7552f481",
+          "evidence": "Personally compared all rendered source pages and original locators, including every option and subpart. Complete bilingual bank: docs/qa/2026-11-15/polynomial-batch/source-a11ea3a915f0b682.md",
+          "at": "2026-11-15T13:45:55.959Z"
+        },
+        "classification": {
+          "fingerprint": "9f74b8ef4d20743adee1603af1aeff67ca62b91b7659f1f56d89722a7552f481",
+          "evidence": "Each question classified by decisive solving operation and source form, with explicit difficulty reasoning. Two added skills are index laws and ascending/descending order.",
+          "at": "2026-11-15T13:45:55.960Z"
+        },
+        "mathematics": {
+          "fingerprint": "9f74b8ef4d20743adee1603af1aeff67ca62b91b7659f1f56d89722a7552f481",
+          "evidence": "Exact symbolic expansions, coefficient extraction and direct substitution checks; all S4 long answers independently rederived. S1 Q22 source-key omission corrected. See docs/qa/2026-11-15/polynomial-batch/mathematics.json",
+          "at": "2026-11-15T13:45:55.962Z"
+        },
+        "figures": {
+          "fingerprint": "9f74b8ef4d20743adee1603af1aeff67ca62b91b7659f1f56d89722a7552f481",
+          "evidence": "Personally inspected all four pages of each source. No graph/image questions. Answer-entry table requests restated with all original fields, no figure substitution.",
+          "at": "2026-11-15T13:45:55.963Z"
+        },
+        "studentView": {
+          "fingerprint": "9f74b8ef4d20743adee1603af1aeff67ca62b91b7659f1f56d89722a7552f481",
+          "evidence": "72 final draft language/viewport states passed; mobile full-formula-fit checked separately. Personally viewed Q9/Q13/Q14 and S4 Q8. See docs/qa/2026-11-15/polynomial-batch/s4-preview-matrix.json",
+          "at": "2026-11-15T13:45:55.964Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.039Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.142Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "7",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "poly-multiple-conditions",
+        "stem": "Let \\(f(x)=2x^2+ax-2\\), where \\(a\\) is a constant. If \\(f(x)\\) is divisible by \\(2x-1\\), find the remainder when \\(f(x)\\) is divided by \\(x-a\\).",
+        "stemZh": "設 \\(f(x)=2x^2+ax-2\\)，其中 \\(a\\) 為常數。若 \\(f(x)\\) 可被 \\(2x-1\\) 整除，求 \\(f(x)\\) 除以 \\(x-a\\) 的餘式。",
+        "solution": "\\(f(\\frac12)=0\\) gives \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\], hence \\(a=3\\). The required remainder is \\(f(3)=18+9-2=25\\).",
+        "solutionZh": "由 \\(f(\\frac12)=0\\) 得 \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\]，所以 \\(a=3\\)。所求餘式為 \\(f(3)=18+9-2=25\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q7",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第7題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "7",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Determine a parameter from a factor, then use it as the evaluation point for a second division.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q7"
+        },
+        "options": {
+          "A": "50",
+          "B": "45",
+          "C": "25",
+          "D": "\\(-50\\)"
+        },
+        "optionsZh": {
+          "A": "50",
+          "B": "45",
+          "C": "25",
+          "D": "\\(-50\\)"
+        },
+        "answer": "C",
+        "id": "import-polynomial-f5b54db82cf1f5e7"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "189819a0cfa22f09434c188e6c49da49885668edd59734ba592377619af9d07a",
+          "evidence": "Personally compared all rendered source pages and original locators, including every option and subpart. Complete bilingual bank: docs/qa/2026-11-15/polynomial-batch/source-a11ea3a915f0b682.md",
+          "at": "2026-11-15T13:45:55.965Z"
+        },
+        "classification": {
+          "fingerprint": "189819a0cfa22f09434c188e6c49da49885668edd59734ba592377619af9d07a",
+          "evidence": "Each question classified by decisive solving operation and source form, with explicit difficulty reasoning. Two added skills are index laws and ascending/descending order.",
+          "at": "2026-11-15T13:45:55.966Z"
+        },
+        "mathematics": {
+          "fingerprint": "189819a0cfa22f09434c188e6c49da49885668edd59734ba592377619af9d07a",
+          "evidence": "Exact symbolic expansions, coefficient extraction and direct substitution checks; all S4 long answers independently rederived. S1 Q22 source-key omission corrected. See docs/qa/2026-11-15/polynomial-batch/mathematics.json",
+          "at": "2026-11-15T13:45:55.967Z"
+        },
+        "figures": {
+          "fingerprint": "189819a0cfa22f09434c188e6c49da49885668edd59734ba592377619af9d07a",
+          "evidence": "Personally inspected all four pages of each source. No graph/image questions. Answer-entry table requests restated with all original fields, no figure substitution.",
+          "at": "2026-11-15T13:45:55.968Z"
+        },
+        "studentView": {
+          "fingerprint": "189819a0cfa22f09434c188e6c49da49885668edd59734ba592377619af9d07a",
+          "evidence": "72 final draft language/viewport states passed; mobile full-formula-fit checked separately. Personally viewed Q9/Q13/Q14 and S4 Q8. See docs/qa/2026-11-15/polynomial-batch/s4-preview-matrix.json",
+          "at": "2026-11-15T13:45:55.970Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.039Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.142Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "8",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "poly-multiple-conditions",
+        "stem": "Let \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\], where \\(p,q\\) are constants. If \\(f(x)\\) is divisible by \\(x-5\\) and \\(2x+1\\), find the remainder when it is divided by \\(x+1\\).",
+        "stemZh": "設 \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\]，其中 \\(p,q\\) 為常數。若 \\(f(x)\\) 可被 \\(x-5\\) 及 \\(2x+1\\) 整除，求它除以 \\(x+1\\) 的餘式。",
+        "solution": "\\(f(5)=0\\) gives \\(5p-2q=-45\\). \\(f(-\\frac12)=0\\) gives \\(p+4q=101\\). Solving yields \\(p=1,q=25\\). Then \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+        "solutionZh": "由 \\(f(5)=0\\) 得 \\(5p-2q=-45\\)；由 \\(f(-\\frac12)=0\\) 得 \\(p+4q=101\\)。聯立解得 \\(p=1,q=25\\)，所以 \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q8",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第8題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "8",
+          "page": 2,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Translate two distinct factor conditions into simultaneous equations before evaluating the final remainder.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q8"
+        },
+        "options": {
+          "A": "\\(-20\\)",
+          "B": "1",
+          "C": "24",
+          "D": "36"
+        },
+        "optionsZh": {
+          "A": "\\(-20\\)",
+          "B": "1",
+          "C": "24",
+          "D": "36"
+        },
+        "answer": "C",
+        "id": "import-polynomial-e60f443b345c79e8"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "2105f57fd0e35953661ce0efb4959a73df1f4ed0f49552c2a26dc879c06898b7",
+          "evidence": "Personally compared all rendered source pages and original locators, including every option and subpart. Complete bilingual bank: docs/qa/2026-11-15/polynomial-batch/source-a11ea3a915f0b682.md",
+          "at": "2026-11-15T13:45:55.971Z"
+        },
+        "classification": {
+          "fingerprint": "2105f57fd0e35953661ce0efb4959a73df1f4ed0f49552c2a26dc879c06898b7",
+          "evidence": "Each question classified by decisive solving operation and source form, with explicit difficulty reasoning. Two added skills are index laws and ascending/descending order.",
+          "at": "2026-11-15T13:45:55.973Z"
+        },
+        "mathematics": {
+          "fingerprint": "2105f57fd0e35953661ce0efb4959a73df1f4ed0f49552c2a26dc879c06898b7",
+          "evidence": "Exact symbolic expansions, coefficient extraction and direct substitution checks; all S4 long answers independently rederived. S1 Q22 source-key omission corrected. See docs/qa/2026-11-15/polynomial-batch/mathematics.json",
+          "at": "2026-11-15T13:45:55.975Z"
+        },
+        "figures": {
+          "fingerprint": "2105f57fd0e35953661ce0efb4959a73df1f4ed0f49552c2a26dc879c06898b7",
+          "evidence": "Personally inspected all four pages of each source. No graph/image questions. Answer-entry table requests restated with all original fields, no figure substitution.",
+          "at": "2026-11-15T13:45:55.976Z"
+        },
+        "studentView": {
+          "fingerprint": "2105f57fd0e35953661ce0efb4959a73df1f4ed0f49552c2a26dc879c06898b7",
+          "evidence": "72 final draft language/viewport states passed; mobile full-formula-fit checked separately. Personally viewed Q9/Q13/Q14 and S4 Q8. See docs/qa/2026-11-15/polynomial-batch/s4-preview-matrix.json",
+          "at": "2026-11-15T13:45:55.977Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.039Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.143Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "9",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl003",
+      "category": "calculation",
+      "question": {
+        "stem": "Given that \\(P(x)=2x^{3}-hx^{2}-18x+k\\) is divisible by \\(2x+1\\). When \\(P(x)\\) is divided by \\(x-2\\), the remainder is \\(-40\\).\n\n(a) Find the values of \\(h\\) and \\(k\\).\n\n(b) Prove that \\(2x+1\\) is a factor of \\(P(x)\\).\n\n(c) Are all the roots of \\(P(x)=0\\) real numbers? Explain briefly.",
+        "stemZh": "設 \\(P(x)=2x^3-hx^2-18x+k\\)，其中 \\(h,k\\) 為常數。已知 \\(P(x)\\) 可被 \\(2x+1\\) 整除，而 \\(P(x)\\) 被 \\(x-2\\) 除時，餘式為 \\(-40\\)。\n\n(a) 求 \\(h,k\\)。\n\n(b) 證明 \\(2x+1\\) 是 \\(P(x)\\) 的因式。\n\n(c) \\(P(x)=0\\) 的所有根是否都是實數？解釋你的答案。",
+        "hint": "Translate the non-monic factor \\(2x+1\\) into the root \\(x=-\\frac{1}{2}\\) before forming the two value equations.",
+        "hintZh": "非首一（non-首一（monic）） 因式 \\(2x+1\\) 先變成 根（root） \\(x=-\\frac{1}{2}\\)；再把兩個條件寫成兩條 函數值方程（function-value equation）。",
+        "solution": "Part (a)\n\nSince \\(P(x)\\) is divisible by \\(2x+1\\), \\(P\\left(-\\frac{1}{2}\\right)=0\\).\n\n\\[\n2\\left(-\\frac{1}{2}\\right)^3-h\\left(-\\frac{1}{2}\\right)^2-18\\left(-\\frac{1}{2}\\right)+k=0\n\\]\n\n\\[\n-\\frac{1}{4}-\\frac h4+9+k=0\n\\]\n\nMultiplying by 4,\n\n\\[\n-1-h+36+4k=0  \\Rightarrow  h-4k=35. \\tag{1}\n\\]\n\nAlso, when \\(P(x)\\) is divided by \\(x-2\\), the remainder is \\(-40\\), so \\(P(2)=-40\\).\n\n\\[\n16-4h-36+k=-40\n\\]\n\n\\[\n-4h+k=-20. \\tag{2}\n\\]\n\nFrom \\(2\\), \\(k=4h-20\\). Substitute into \\(1\\):\n\n\\[\nh-4(4h-20)=35\n\\]\n\n\\[\n-15h=-45\n\\]\n\n\\[\nh=3,\\qquad k=-8.\n\\]\n\nPart (b)\n\nWith \\(h=3\\) and \\(k=-8\\),\n\n\\[\nP(x)=2x^3-3x^2-18x-8.\n\\]\n\n\\[\nP\\left(-\\frac{1}{2}\\right)\n=2\\left(-\\frac{1}{2}\\right)^3-3\\left(-\\frac{1}{2}\\right)^2-18\\left(-\\frac{1}{2}\\right)-8\n=0.\n\\]\n\nTherefore, by the factor theorem, \\(2x+1\\) is a factor of \\(P(x)\\).\n\nPart (c)\n\nDividing \\(P(x)\\) by \\(2x+1\\),\n\n\\[\nP(x)=(2x+1)(x^2-2x-8).\n\\]\n\nHence\n\n\\[\nP(x)=(2x+1)(x-4)(x+2).\n\\]\n\nThe roots are\n\n\\[\nx=-\\frac{1}{2},  4,  -2.\n\\]\n\nTherefore all the roots of \\(P(x)=0\\) are real numbers.",
+        "solutionZh": "第 (a) 部分\n\n\\(2x+1\\) 是因式，所以第一個 input 是 \\(x=-\\frac{1}{2}\\)，而不是 \\(2\\) 或 \\(1\\)：\n\n\\[\nP\\left(-\\frac{1}{2}\\right)=0\n\\Rightarrow h-4k=35. \\tag{1}\n\\]\n\n餘式條件給\n\n\\[\nP(2)=-40\n\\Rightarrow -4h+k=-20. \\tag{2}\n\\]\n\n聯立得\n\n\\[\nh=3,\\qquad k=-8.\n\\]\n\n第 (b) 部分\n\n\\[\nP(x)=2x^3-3x^2-18x-8.\n\\]\n\n再次驗算 \\(P\\left(-\\frac{1}{2}\\right)=0\\)，故 \\(2x+1\\) 是因式。\n\n第 (c) 部分\n\n\\[\nP(x)=(2x+1)(x^2-2x-8)\n=(2x+1)(x-4)(x+2).\n\\]\n\n根為 \\( -\\frac{1}{2},4,-2\\)，全部是實數。",
+        "subcategory": "theorems",
+        "skill": "poly-multiple-conditions",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "combine zero remainder and specified remainder",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★☆☆"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q9",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第9題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "9",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-4e692ede7cd3b2c6"
+      },
+      "reason": "Personally compared rendered S4 source question 9 and canonical pl003: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.040Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.143Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "10",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl029",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=2x^{3}+kx^{2}+3x-2\\), where \\(k\\) is a constant. It is given that\n\n\\[\nf(x)\\equiv (x-2)(ax^{2}+bx+c),\n\\]\n\nwhere \\(a,b,c\\) are constants.\n\n(a) Find \\(a,b\\) and \\(c\\).\n\n(b) Someone claims that all roots of \\(f(x)=0\\) are real. Do you agree? Explain your answer.",
+        "stemZh": "設 \\(f(x)=2x^3+kx^2+3x-2\\)，其中 \\(k\\) 為常數。已知\n\n\\[\nf(x)\\equiv(x-2)(ax^2+bx+c),\n\\]\n\n其中 \\(a,b,c\\) 為常數。\n\n(a) 求 \\(a,b,c\\)。\n\n(b) 有人聲稱 \\(f(x)=0\\) 的所有根都是實數。你是否同意？解釋你的答案。",
+        "hint": "The symbol \\(\\equiv\\) announces an identity, so expand the given product and compare coefficients.",
+        "hintZh": "“\\(\\equiv\\)” 表示恆等式；不用先找特別 輸入值（input），直接展開並比較係數。",
+        "solution": "Part (a)\n\nExpand the identity:\n\n\\[\n(x-2)(ax^2+bx+c)=ax^3+(b-2a)x^2+(c-2b)x-2c.\n\\]\n\nCompare it with\n\n\\[\n2x^3+kx^2+3x-2.\n\\]\n\nBy comparing coefficients,\n\n\\[\na=2,\\qquad -2c=-2,\\qquad c-2b=3.\n\\]\n\nThus\n\n\\[\nc=1,\\qquad 1-2b=3,\n\\]\n\nso\n\n\\[\nb=-1.\n\\]\n\nTherefore\n\n\\[\na=2,  b=-1,  c=1.\n\\]\n\nPart (b)\n\nFrom (a),\n\n\\[\nf(x)=(x-2)(2x^2-x+1).\n\\]\n\nFor the quadratic factor,\n\n\\[\n\\Delta=(-1)^2-4(2)(1)=1-8=-7<0.\n\\]\n\nTherefore \\(2x^2-x+1=0\\) has no real roots. Only \\(x=2\\) is real. So not all roots of \\(f(x)=0\\) are real. The claim is disagreed.",
+        "solutionZh": "第 (a) 部分\n\n這是對每個 \\(x\\) 都成立的 identity，先展開右方：\n\n\\[\n(x-2)(ax^2+bx+c)\n=ax^3+(b-2a)x^2+(c-2b)x-2c.\n\\]\n\n與 \\(2x^3+kx^2+3x-2\\) 比較最直接的係數：\n\n\\[\na=2,\\qquad -2c=-2,\\qquad c-2b=3.\n\\]\n\n故\n\n\\[\na=2,\\qquad b=-1,\\qquad c=1.\n\\]\n\n第 (b) 部分\n\n\\[\nf(x)=(x-2)(2x^2-x+1).\n\\]\n\n對二次因式，\n\n\\[\n\\Delta=(-1)^2-4(2)(1)=-7<0.\n\\]\n\n因此只有 \\(x=2\\) 是實根；不同意該聲稱。",
+        "subcategory": "polynomial-equations",
+        "skill": "poly-root-nature",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "factorisation and discriminant/root classification required",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★☆☆"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q10",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第10題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "10",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-57ba16fdb03da69e"
+      },
+      "reason": "Personally compared rendered S4 source question 10 and canonical pl029: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.040Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.143Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "11",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl049",
+      "category": "calculation",
+      "question": {
+        "stem": "It is given that \\(P(x)\\) is a cubic polynomial. If \\(P(x)\\) is divided by \\(x+2\\), the remainder is \\(-11\\). If \\(P(x)\\) is divided by \\(x-4\\), the remainder is \\(7\\).\n\n(a) Find the remainder when \\(P(x)\\) is divided by \\(x^2-2x-8\\).\n\n(b) If \\(P(1)=34\\) and \\(P(-1)=72\\), are all the roots of \\(P(x)=0\\) rational numbers? Explain briefly.",
+        "stemZh": "三次多項式 \\(P(x)\\) 被 \\(x+2\\) 和 \\(x-4\\) 除時餘式分別為 \\(-11\\) 和 \\(7\\)。\n\n(a) 求 \\(P(x)\\) 被 \\(x^2-2x-8\\) 除的餘式。\n\n(b) 已知 \\(P(1)=34,P(-1)=72\\)，所有根是否為有理數（rational numbers）？",
+        "hint": "Read the divisor roots and the degree before calculating; the stated conditions determine the required polynomial structure.",
+        "hintZh": "二次除式（quadratic divisor）的兩個根（roots）正好用來重建一次餘式（linear remainder）。",
+        "solution": "(a) Factor \\[\\begin{gathered}x^2 -2x -8 \\\\ =(x+2)(x-4)\\end{gathered}\\] Let the remainder be \\(ax+b\\). The given values imply \\(-2a+b=-11\\) and \\(4a+b=7\\). Subtracting gives \\(6a=18\\), so \\(a=3,b=-5\\). The remainder is \\(3x-5\\).\n(b) Put \\(D(x)=x^2-2x-8\\) and write \\[\\begin{gathered}P(x) =D(x)(mx+n) \\\\ +3x -5\\end{gathered}\\] At \\(x=1\\), \\(-9(m+n)-2=34\\), hence \\(m+n=-4\\). At \\(x=-1\\), \\(-5(-m+n)-8=72\\), hence \\(-m+n=-16\\). Thus \\(m=6,n=-10\\).\nExpand the complete expression, retaining the remainder: \\[\\begin{gathered}P(x) =6x^3 -22x^2 \\\\ -25x +75\\end{gathered}\\] Factor by grouping: \\[\\begin{gathered}P(x) =(3x-5) \\\\ \\cdot(2x^2-4x-15)\\end{gathered}\\] Therefore \\(x=\\frac53\\) or \\[\\begin{gathered}x \\\\ =1\\pm\\frac{\\sqrt{34}}2\\end{gathered}\\] The quadratic discriminant is \\(136\\), which is not a perfect square. Two roots are irrational, so not all roots are rational. The previous solution incorrectly dropped the remainder when factorising.",
+        "solutionZh": "(a) 分解 \\[\\begin{gathered}x^2 -2x -8 \\\\ =(x+2)(x-4)\\end{gathered}\\]，設餘式為 \\(ax+b\\)。由已知值得 \\(-2a+b=-11\\) 及 \\(4a+b=7\\)。兩式相減得 \\(6a=18\\)，所以 \\(a=3,b=-5\\)，餘式為 \\(3x-5\\)。\n(b) 設 \\(D(x)=x^2-2x-8\\)，再設 \\[\\begin{gathered}P(x) =D(x)(mx+n) \\\\ +3x -5\\end{gathered}\\]當 \\(x=1\\) 時，\\(-9(m+n)-2=34\\)，即 \\(m+n=-4\\)。當 \\(x=-1\\) 時，\\(-5(-m+n)-8=72\\)，即 \\(-m+n=-16\\)。解得 \\(m=6,n=-10\\)。\n把餘式一併保留，展開得 \\[\\begin{gathered}P(x) =6x^3 -22x^2 \\\\ -25x +75\\end{gathered}\\]分組分解得 \\[\\begin{gathered}P(x) =(3x-5) \\\\ \\cdot(2x^2-4x-15)\\end{gathered}\\]所以 \\(x=\\frac53\\) 或 \\[\\begin{gathered}x \\\\ =1\\pm\\frac{\\sqrt{34}}2\\end{gathered}\\]二次因式的判別式為 \\(136\\)，並非完全平方數，因此有兩個無理根，並非所有根均為有理數。舊解答分解時漏去餘式，故結論有誤。",
+        "subcategory": "theorems",
+        "skill": "poly-direct-remainder",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "evaluate polynomial at a divisor root",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★☆"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q11",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第11題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "11",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "solutionStatus": "independently-rederived",
+        "id": "import-polynomial-7a379671fa201389"
+      },
+      "reason": "Personally compared rendered S4 source question 11 and canonical pl049: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.040Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.143Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "12",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl028",
+      "category": "calculation",
+      "question": {
+        "stem": "Let\n\n\\[\np(x)=6x^4+7x^3+ax^2+bx+c,\n\\]\n\nwhere \\(a\\), \\(b\\) and \\(c\\) are constants. When \\(p(x)\\) is divided by \\(x+2\\) and when \\(p(x)\\) is divided by \\(x-2\\), the two remainders are equal. It is given that\n\n\\[\np(x)\\equiv(lx^2+5x+8)(2x^2+mx+n),\n\\]\n\nwhere \\(l\\), \\(m\\) and \\(n\\) are constants.\n\n(a) Find \\(l\\), \\(m\\) and \\(n\\).\n\n(b) How many real roots does the equation \\(p(x)=0\\) have? Explain your answer.\n\n(10 marks)",
+        "stemZh": "設\n\n\\[\np(x)=6x^4+7x^3+ax^2+bx+c,\n\\]\n\n其中 \\(a,b,c\\) 為常數。當 \\(p(x)\\) 分別被 \\(x+2\\) 及 \\(x-2\\) 除時，兩個餘式相等。已知\n\n\\[\np(x)\\equiv(lx^2+5x+8)(2x^2+mx+n),\n\\]\n\n其中 \\(l,m,n\\) 為常數。\n\n(a) 求 \\(l,m,n\\)。\n\n(b) 方程 \\(p(x)=0\\) 有多少個實根？解釋你的答案。\n\n（10 分）",
+        "hint": "Preserve any visible square or product structure before expanding.",
+        "hintZh": "式子已呈現平方或乘積結構，先保留結構再判斷 根（roots）。",
+        "solution": "Part (a)\n\nSince \\(p(2)=p(-2)\\), comparing the two expressions gives a condition on the odd-power coefficients. In the factorization,\n\n\\[\n(lx^2+5x+8)(2x^2+mx+n),\n\\]\n\ncomparing the coefficient of \\(x^4\\) gives\n\n\\[\n2l=6,\\qquad l=3.\n\\]\n\nThe coefficient of \\(x^3\\) is \\(3m+10\\), so\n\n\\[\n3m+10=7,\\qquad m=-1.\n\\]\n\nUsing the equal-remainder condition gives\n\n\\[\n8m+5n=-28.\n\\]\n\nSubstituting \\(m=-1\\),\n\n\\[\n-8+5n=-28,\\qquad n=-4.\n\\]\n\nPart (b)\n\n\\[\np(x)=(3x^2+5x+8)(2x^2-x-4).\n\\]\n\nFor\n\n\\[\n3x^2+5x+8=0,\n\\]\n\nthe discriminant is\n\n\\[\n5^2-4(3)(8)=-71<0,\n\\]\n\nso it has no real roots. For\n\n\\[\n2x^2-x-4=0,\n\\]\n\nthe discriminant is\n\n\\[\n(-1)^2-4(2)(-4)=33>0,\n\\]\n\nso it has two real roots. Therefore \\(p(x)=0\\) has \\(2\\) real roots.",
+        "solutionZh": "第 (a) 部分\n\n比較最高次項：\n\n\\[\n2l=6,\\qquad l=3.\n\\]\n\n比較 \\(x^3\\) 係數：\n\n\\[\n3m+10=7,\\qquad m=-1.\n\\]\n\n餘式相等即 \\(p(2)=p(-2)\\)。\n\n偶次項在兩邊相同，只需比較 odd part；由乘積的奇次係數條件可得\n\n\\[\n8m+5n=-28.\n\\]\n\n代入 \\(m=-1\\)：\n\n\\[\n-8+5n=-28,\\qquad n=-4.\n\\]\n\n第 (b) 部分\n\n\\[\np(x)=(3x^2+5x+8)(2x^2-x-4).\n\\]\n\n第一個二次因式：\n\n\\[\n\\Delta_1=5^2-4(3)(8)=-71<0,\n\\]\n\n沒有實根。\n\n第二個二次因式：\n\n\\[\n\\Delta_2=(-1)^2-4(2)(-4)=33>0,\n\\]\n\n有兩個相異實根。\n\n因此整條方程有 \\(2\\) 個實根。",
+        "subcategory": "polynomial-equations",
+        "skill": "poly-root-nature",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "factorisation and discriminant/root classification required",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★★"
+        },
+        "questionType": "structured",
+        "difficulty": "challenging",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q12",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第12題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "12",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-385e5728a93939e6"
+      },
+      "reason": "Personally compared rendered S4 source question 12 and canonical pl028: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.040Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.143Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "13",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl031",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=2x^{3}-7x^{2}+bx+c\\), where \\(b\\) and \\(c\\) are constants. When \\(f(x)\\) is divided by \\(2x^{2}-13x+24\\), the quotient and the remainder are \\(x+3\\) and \\(b-7\\) respectively.\n\n(a) Find the value of \\(c\\).\n\n(b) Prove that \\(2x-5\\) is a factor of \\(f(x)\\).\n\n(c) Someone claims that all the roots of the equation \\(f(x)=0\\) are rational numbers. Do you agree? Explain your answer.",
+        "stemZh": "設 \\(f(x)=2x^{3}-7x^{2}+bx+c\\)，其中 \\(b,c\\) 為常數。當 \\(f(x)\\) 被 \\(2x^{2}-13x+24\\) 除時，商式及餘式分別為 \\(x+3\\) 及 \\(b-7\\)。\n\n(a) 求 \\(c\\)。\n\n(b) 證明 \\(2x-5\\) 是 \\(f(x)\\) 的因式。\n\n(c) 有人聲稱方程 \\(f(x)=0\\) 的所有根都是有理數。你是否同意？解釋你的答案。",
+        "hint": "The quotient and remainder are both given, so write one polynomial identity before doing any root work.",
+        "hintZh": "商式與餘式都已給出；這是完整除法恆等式，先展開再比較係數。",
+        "solution": "Part (a)\n\nBy the division algorithm,\n\n\\[\nf(x)=(2x^2-13x+24)(x+3)+(b-7).\n\\]\n\nExpanding,\n\n\\[\n(2x^2-13x+24)(x+3)=2x^3-7x^2-15x+72.\n\\]\n\nHence\n\n\\[\nf(x)=2x^3-7x^2-15x+b+65.\n\\]\n\nCompare with\n\n\\[\nf(x)=2x^3-7x^2+bx+c.\n\\]\n\nThus\n\n\\[\nb=-15,\\qquad c=b+65=50.\n\\]\n\nSo\n\n\\[\nc=50.\n\\]\n\nPart (b)\n\nNow\n\n\\[\nf(x)=2x^3-7x^2-15x+50.\n\\]\n\nCheck \\(x=\\frac{5}{2}\\):\n\n\\[\nf\\left(\\frac{5}{2}\\right)\n=2\\left(\\frac{5}{2}\\right)^3-7\\left(\\frac{5}{2}\\right)^2-15\\left(\\frac{5}{2}\\right)+50=0.\n\\]\n\nTherefore \\(x-\\frac{5}{2}\\) is a factor of \\(f(x)\\), so \\(2x-5\\) is also a factor of \\(f(x)\\).\n\nPart (c)\n\nFactorizing,\n\n\\[\nf(x)=(2x-5)(x^2-x-10).\n\\]\n\nFor\n\n\\[\nx^2-x-10=0,\n\\]\n\n\\[\n\\Delta=(-1)^2-4(1)(-10)=41.\n\\]\n\nSince \\(41\\) is not a perfect square, the two roots of the quadratic are irrational. Therefore not all the roots of \\(f(x)=0\\) are rational. The claim is disagreed.",
+        "solutionZh": "第 (a) 部分\n\n先寫除法恆等式：\n\n\\[\nf(x)=(2x^2-13x+24)(x+3)+(b-7).\n\\]\n\n展開乘積：\n\n\\[\n(2x^2-13x+24)(x+3)=2x^3-7x^2-15x+72.\n\\]\n\n故\n\n\\[\nf(x)=2x^3-7x^2-15x+b+65.\n\\]\n\n與 \\(2x^3-7x^2+bx+c\\) 比較係數，得\n\n\\[\nb=-15,\\qquad c=b+65=50.\n\\]\n\n第 (b) 部分\n\n代入 \\(b=-15,c=50\\)：\n\n\\[\nf(x)=2x^3-7x^2-15x+50.\n\\]\n\n\\[\nf\\!\\left(\\frac{5}{2}\\right)=0.\n\\]\n\n所以 \\(x-\\frac{5}{2}\\) 是因式，即 \\(2x-5\\) 是因式。\n\n第 (c) 部分\n\n\\[\nf(x)=(2x-5)(x^2-x-10).\n\\]\n\n對二次式，\n\n\\[\n\\Delta=(-1)^2-4(1)(-10)=41.\n\\]\n\n\\(41\\) 不是完全平方數，所以二次式的兩根是無理數。\n\n因此不同意該聲稱。",
+        "subcategory": "polynomial-equations",
+        "skill": "poly-root-nature",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "factorisation and discriminant/root classification required",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★☆"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q13",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第13題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "13",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-55370608dc1d3f59"
+      },
+      "reason": "Personally compared rendered S4 source question 13 and canonical pl031: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.040Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.143Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "14",
+      "pages": [
+        3
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl068",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=(x-a)(x-b)(x+1)-2\\), where \\(a\\) and \\(b\\) are positive integers with \\(a\\lt b\\). It is given that \\(f(1)=2\\).\n\n(a)(i) Prove that \\((a-1)(b-1)=2\\).\n\n(ii) Write down the values of \\(a\\) and \\(b\\).\n\n(b) Let \\(g(x)=x^3-6x^2+kx-2\\), where \\(k\\) is a constant. Use the results of (a)(ii), find the value(s) of \\(k\\) such that the equation \\(f(x)=g(x)\\) has two equal roots.",
+        "stemZh": "設\n\n\\[\nf(x)=(x-a)(x-b)(x+1)-2,\n\\]\n\n其中 \\(a,b\\) 為正整數且 \\(a\\lt b\\)。已知 \\(f(1)=2\\)。\n\n(a)(i) 證明 \\((a-1)(b-1)=2\\)。\n\n(ii) 寫出 \\(a,b\\) 的值。\n\n(b) 設 \\(g(x)=x^3-6x^2+kx-2\\)，其中 \\(k\\) 為常數。利用 (a)(ii) 的結果，求 \\(k\\) 的值，使方程 \\(f(x)=g(x)\\) 有兩個相等根。",
+        "hint": "The positive-integer condition turns a product into a finite factor-pair choice. The repeated-root condition applies only after forming the equation \\(f(x)=g(x)\\).",
+        "hintZh": "正整數條件把一個乘積式變成有限的因子配對；最後問相等根，才把兩個多項式相減並用判別式。",
+        "solution": "Part (a)(i)\n\n\\[\nf(1)=(1-a)(1-b)(2)-2.\n\\]\n\nSince \\(f(1)=2\\),\n\n\\[\n2(1-a)(1-b)-2=2.\n\\]\n\n\\[\n(1-a)(1-b)=2.\n\\]\n\nBut\n\n\\[\n(1-a)(1-b)=(a-1)(b-1).\n\\]\n\nTherefore\n\n\\[\n(a-1)(b-1)=2.\n\\]\n\nPart (a)(ii)\n\nSince \\(a,b\\) are positive integers and \\(a\\lt b\\), the only possibility is\n\n\\[\na-1=1,\\qquad b-1=2.\n\\]\n\nHence\n\n\\[\na=2,\\qquad b=3.\n\\]\n\nPart (b)\n\nUsing \\(a=2,b=3\\),\n\n\\[\nf(x)=(x-2)(x-3)(x+1)-2.\n\\]\n\nExpanding,\n\n\\[\nf(x)=x^3-4x^2+x+4.\n\\]\n\nNow\n\n\\[\nf(x)=g(x)\n\\]\n\ngives\n\n\\[\nx^3-4x^2+x+4=x^3-6x^2+kx-2.\n\\]\n\n\\[\n2x^2+(1-k)x+6=0.\n\\]\n\nFor the equation to have two equal roots, its discriminant is zero:\n\n\\[\n(1-k)^2-4(2)(6)=0.\n\\]\n\n\\[\n(1-k)^2=48.\n\\]\n\n\\[\n1-k=\\pm4\\sqrt{3}.\n\\]\n\nTherefore\n\n\\[\nk=1\\pm4\\sqrt{3}.\n\\]",
+        "solutionZh": "第 \\(a\\)\\(i\\) 部分\n\n\\[\nf(1)=(1-a)(1-b)(2)-2.\n\\]\n\n由 \\(f(1)=2\\)，\n\n\\[\n2(1-a)(1-b)-2=2\n\\Rightarrow(1-a)(1-b)=2.\n\\]\n\n而\n\n\\[\n(1-a)(1-b)=(a-1)(b-1),\n\\]\n\n故 \\((a-1)(b-1)=2\\)。\n\n第 \\(a\\)\\(ii\\) 部分\n\n\\(a,b\\) 是正整數且 \\(a\\lt b\\)，所以唯一可能是\n\n\\[\na-1=1,\\qquad b-1=2.\n\\]\n\n因此 \\(a=2,b=3\\)。\n\n第 (b) 部分\n\n\\[\nf(x)=(x-2)(x-3)(x+1)-2=x^3-4x^2+x+4.\n\\]\n\n令 \\(f(x)=g(x)\\)：\n\n\\[\nx^3-4x^2+x+4=x^3-6x^2+kx-2,\n\\]\n\n即\n\n\\[\n2x^2+(1-k)x+6=0.\n\\]\n\n有兩個相等根的條件是判別式為零：\n\n\\[\n(1-k)^2-4(2)(6)=0.\n\\]\n\n\\[\n(1-k)^2=48\n\\Rightarrow k=1\\pm4\\sqrt{3}.\n\\]",
+        "subcategory": "theorems",
+        "skill": "poly-direct-remainder",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "evaluate polynomial at a divisor root",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★★"
+        },
+        "questionType": "structured",
+        "difficulty": "challenging",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q14",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第14題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "14",
+          "page": 3,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-efeefab86a2b4516"
+      },
+      "reason": "Personally compared rendered S4 source question 14 and canonical pl068: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.040Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.143Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "15",
+      "pages": [
+        3
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl004",
+      "category": "calculation",
+      "question": {
+        "stem": "Consider \\(f(x)=x^3+7x^2+ax-15\\) and \\(g(x)=2x^3+bx^2+54x+45\\). It is given that \\(f(-3)=g(-3)=0\\).\n\n(a) Find the values of \\(a\\) and \\(b\\).\n\n(b) Solve the equation \\(f(x)=g(x)\\).",
+        "stemZh": "設\n\n\\[\nf(x)=x^3+7x^2+ax-15,\n\\qquad\ng(x)=2x^3+bx^2+54x+45,\n\\]\n\n其中 \\(a,b\\) 為常數。已知 \\(f(-3)=g(-3)=0\\)。\n\n(a) 求 \\(a,b\\)。\n\n(b) 解方程 \\(f(x)=g(x)\\)。",
+        "hint": "Both polynomials vanish at the same input. Use that fact for the parameters first; then \\(f(x)-g(x)\\) still has the root \\(-3\\).",
+        "hintZh": "兩個多項式在同一個 輸入值（input） 都等於零；先用它找參數，之後 \\(f(x)-g(x)\\) 仍必有 \\(x=-3\\) 這個根。",
+        "solution": "Part (a)\n\nSince \\(f(-3)=0\\),\n\n\\[\n(-3)^3+7(-3)^2+a(-3)-15=0.\n\\]\n\n\\[\n-27+63-3a-15=0.\n\\]\n\n\\[\n21-3a=0\n\\]\n\n\\[\na=7.\n\\]\n\nSince \\(g(-3)=0\\),\n\n\\[\n2(-3)^3+b(-3)^2+54(-3)+45=0.\n\\]\n\n\\[\n-54+9b-162+45=0.\n\\]\n\n\\[\n9b-171=0\n\\]\n\n\\[\nb=19.\n\\]\n\nPart (b)\n\nWith \\(a=7,b=19\\),\n\n\\[\nf(x)=x^3+7x^2+7x-15,\n\\]\n\n\\[\ng(x)=2x^3+19x^2+54x+45.\n\\]\n\nSolve \\(f(x)=g(x)\\):\n\n\\[\nx^3+12x^2+47x+60=0.\n\\]\n\nSince \\(x=-3\\) is a root,\n\n\\[\nx^3+12x^2+47x+60=(x+3)(x^2+9x+20).\n\\]\n\n\\[\n=(x+3)(x+4)(x+5).\n\\]\n\nTherefore\n\n\\[\nx=-3,\\ -4,\\ -5.\n\\]",
+        "solutionZh": "第 (a) 部分\n\n由 \\(f(-3)=0\\)，\n\n\\[\n(-3)^3+7(-3)^2-3a-15=0.\n\\]\n\n\\[\n21-3a=0\n\\Rightarrow a=7.\n\\]\n\n同樣，由 \\(g(-3)=0\\)，\n\n\\[\n2(-3)^3+9b+54(-3)+45=0.\n\\]\n\n\\[\n9b-171=0\n\\Rightarrow b=19.\n\\]\n\n第 (b) 部分\n\n代入 \\(a=7,b=19\\) 後，\\(f(x)=g(x)\\) 化為\n\n\\[\nx^3+12x^2+47x+60=0.\n\\]\n\n由已知 \\(f(-3)=g(-3)\\)，\\(x=-3\\) 是這條方程的根。\n\n因此 \\(x+3\\) 是因式。\n\n以長除法（或綜合除法）得\n\n\\[\nx^3+12x^2+47x+60=(x+3)(x^2+9x+20).\n\\]\n\n\\[\nx^2+9x+20=(x+4)(x+5).\n\\]\n\n所以\n\n\\[\nx=-3,-4,-5.\n\\]",
+        "subcategory": "theorems",
+        "skill": "poly-direct-remainder",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "evaluate polynomial at a divisor root",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★☆☆"
+        },
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q15",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第15題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "15",
+          "page": 3,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-49c1e281b44e1ce8"
+      },
+      "reason": "Personally compared rendered S4 source question 15 and canonical pl004: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.040Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.143Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "16",
+      "pages": [
+        3
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl066",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=(x+h)^2(x-1)+k\\), where \\(h\\) and \\(k\\) are constants. When \\(f(x)\\) is divided by \\(x-1\\), the remainder is \\(6\\). Given that \\(f(x)\\) is divisible by \\(x+5\\).\n\n(a) Find \\(h\\) and \\(k\\).\n\n(b) Let \\(h\\) be the smaller value obtained in (a). Someone claims that all roots of the equation \\(f(x)=0\\) are rational numbers. Do you agree? Explain your answer.",
+        "stemZh": "設\n\n\\[\nf(x)=(x+h)^2(x-1)+k,\n\\]\n\n其中 \\(h,k\\) 為常數。當 \\(f(x)\\) 被 \\(x-1\\) 除時，餘式為 \\(6\\)。已知 \\(f(x)\\) 可被 \\(x+5\\) 整除。\n\n(a) 求 \\(h,k\\)。\n\n(b) 取 \\(a\\) 中較小的 \\(h\\) 值。有人聲稱方程 \\(f(x)=0\\) 的所有根均為有理數。你是否同意？解釋你的答案。",
+        "hint": "The remainder and factor conditions determine the parameters first; only then can the root-rationality claim be audited.",
+        "hintZh": "題目先給一個簡單餘式，再給一個 因式（factor）；最後才問根的有理性，所以根審核必須放在參數完成之後。",
+        "solution": "Part (a)\n\nBy the remainder theorem,\n\n\\[\nf(1)=6.\n\\]\n\nSince\n\n\\[\nf(1)=(1+h)^2(0)+k=k,\n\\]\n\nwe have\n\n\\[\nk=6.\n\\]\n\nAlso, \\(f(x)\\) is divisible by \\(x+5\\), so\n\n\\[\nf(-5)=0.\n\\]\n\n\\[\n(-5+h)^2(-6)+6=0\n\\]\n\n\\[\n-6(h-5)^2+6=0\n\\]\n\n\\[\n(h-5)^2=1.\n\\]\n\nHence\n\nThus \\(h=4\\) or \\(h=6\\).\n\nPart (b)\n\nUse the smaller value \\(h=4\\). Then\n\n\\[\nf(x)=(x+4)^2(x-1)+6.\n\\]\n\nExpand:\n\n\\[\nf(x)=x^3+7x^2+8x-10.\n\\]\n\nCheck \\(x=-5\\):\n\n\\[\nf(-5)=-125+175-40-10=0.\n\\]\n\nThus\n\n\\[\nf(x)=(x+5)(x^2+2x-2).\n\\]\n\nFor\n\n\\[\nx^2+2x-2=0,\n\\]\n\n\\[\nx=\\frac{-2\\pm\\sqrt{4+8}}2=-1\\pm\\sqrt{3},\n\\]\n\nwhich are irrational. Therefore not all roots are rational. The claim is disagreed.",
+        "solutionZh": "第 (a) 部分\n\n由 \\(x-1\\) 的餘式條件，\n\n\\[\nf(1)=k=6.\n\\]\n\n又 \\(x+5\\) 是因式，所以\n\n\\[\nf(-5)=0.\n\\]\n\n\\[\n(-5+h)^2(-6)+6=0\n\\Rightarrow(h-5)^2=1.\n\\]\n\n因此，\\(h=4\\) 或 \\(h=6\\)，並且 \\(k=6\\)。\n\n第 (b) 部分\n\n取較小值 \\(h=4\\)：\n\n\\[\nf(x)=(x+4)^2(x-1)+6=x^3+7x^2+8x-10.\n\\]\n\n已知 \\(x=-5\\) 是根，故\n\n\\[\nf(x)=(x+5)(x^2+2x-2).\n\\]\n\n對剩餘二次式，\n\n\\[\n\\Delta=2^2-4(1)(-2)=12,\n\\]\n\n不是完全平方數。\n\n因此根\n\n\\[\nx=-1\\pm\\sqrt{3}\n\\]\n\n是無理數；不同意該聲稱。",
+        "subcategory": "polynomial-equations",
+        "skill": "poly-root-nature",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "factorisation and discriminant/root classification required",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★☆"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q16",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第16題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "16",
+          "page": 3,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-c58e675f37f18d91"
+      },
+      "reason": "Personally compared rendered S4 source question 16 and canonical pl066: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "approvals": {},
+      "history": [
+        {
+          "at": "2026-11-15T13:34:05.788Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:37:13.040Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:12.174Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:39:48.143Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:08.104Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:41:52.631Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:43:05.834Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:44:21.597Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-15T13:45:02.496Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-11-15T13:33:52.870Z",
+      "event": "draft-saved",
+      "revision": 1
+    },
+    {
+      "at": "2026-11-15T13:34:05.788Z",
+      "event": "draft-saved",
+      "revision": 2
+    },
+    {
+      "at": "2026-11-15T13:37:13.040Z",
+      "event": "draft-saved",
+      "revision": 3
+    },
+    {
+      "at": "2026-11-15T13:39:12.174Z",
+      "event": "draft-saved",
+      "revision": 4
+    },
+    {
+      "at": "2026-11-15T13:39:48.143Z",
+      "event": "draft-saved",
+      "revision": 5
+    },
+    {
+      "at": "2026-11-15T13:41:08.104Z",
+      "event": "draft-saved",
+      "revision": 6
+    },
+    {
+      "at": "2026-11-15T13:41:52.631Z",
+      "event": "draft-saved",
+      "revision": 7
+    },
+    {
+      "at": "2026-11-15T13:43:05.834Z",
+      "event": "draft-saved",
+      "revision": 8
+    },
+    {
+      "at": "2026-11-15T13:44:21.597Z",
+      "event": "draft-saved",
+      "revision": 9
+    },
+    {
+      "at": "2026-11-15T13:45:02.496Z",
+      "event": "draft-saved",
+      "revision": 10
+    }
+  ],
+  "createdAt": "2026-11-15T13:33:52.869Z",
+  "catalog": {
+    "subjects": [
+      {
+        "id": "algebra",
+        "name": {
+          "en": "Algebra",
+          "zh-Hant": "代數"
+        },
+        "chapters": [
+          {
+            "id": "polynomials",
+            "name": {
+              "en": "Polynomials",
+              "zh-Hant": "多項式"
+            },
+            "description": {
+              "en": "Factorisation, identities and theorem-led algebra.",
+              "zh-Hant": "由因式分解、恆等式到定理應用。"
+            },
+            "subcategories": [
+              {
+                "id": "factorisation",
+                "name": {
+                  "en": "Factorisation",
+                  "zh-Hant": "因式分解"
+                },
+                "skills": [
+                  "difference-of-squares",
+                  "common-factor",
+                  "quadratic-factorisation"
+                ]
+              },
+              {
+                "id": "theorems",
+                "name": {
+                  "en": "Remainder & factor theorems",
+                  "zh-Hant": "餘式及因式定理"
+                },
+                "skills": [
+                  "remainder-theorem",
+                  "factor-theorem",
+                  "poly-direct-remainder",
+                  "poly-factor-parameters",
+                  "poly-multiple-conditions"
+                ]
+              },
+              {
+                "id": "polynomial-equations",
+                "name": {
+                  "en": "Polynomial equations",
+                  "zh-Hant": "多項式方程"
+                },
+                "skills": [
+                  "roots",
+                  "poly-root-nature",
+                  "poly-transformed-roots",
+                  "poly-root-relations"
+                ]
+              },
+              {
+                "id": "division-identities",
+                "name": {
+                  "en": "Division and identities",
+                  "zh-Hant": "除法恆等式"
+                },
+                "skills": [
+                  "poly-division-identity",
+                  "poly-compare-coefficients",
+                  "poly-higher-remainder"
+                ]
+              },
+              {
+                "id": "transformed-polynomials",
+                "name": {
+                  "en": "Transformed polynomial arguments",
+                  "zh-Hant": "多項式代換"
+                },
+                "skills": [
+                  "poly-substitution",
+                  "poly-quotient-sign"
+                ]
+              },
+              {
+                "id": "polynomial-structure",
+                "name": {
+                  "en": "Terms, coefficients and degree",
+                  "zh-Hant": "項、係數與次數"
+                },
+                "skills": [
+                  "poly-read-structure",
+                  "poly-power-order"
+                ]
+              },
+              {
+                "id": "basic-operations",
+                "name": {
+                  "en": "Expansion and polynomial operations",
+                  "zh-Hant": "展開與多項式運算"
+                },
+                "skills": [
+                  "poly-collect-terms",
+                  "poly-expand-collect",
+                  "poly-expand-identities",
+                  "poly-evaluate-expanded",
+                  "poly-expanded-structure",
+                  "poly-index-laws"
+                ]
+              }
+            ],
+            "topicId": "polynomial"
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "poly-index-laws": "Combine powers with index laws / 指數律運算",
+    "poly-power-order": "Arrange ascending and descending powers / 升冪及降冪排列"
+  },
+  "import": {
+    "at": "2026-11-15T13:45:56.879Z",
+    "baseline": "4ea527c2a52f3a0eb724f4b53a870d2dd70eb4bbd59ba02abf4dab420d3c5281",
+    "report": {
+      "added": [
+        "import-polynomial-09275c0edfd81f14",
+        "import-polynomial-054f9c6861f38928",
+        "import-polynomial-13b1a4fdf43e3a50",
+        "import-polynomial-51cc94213ae3ba63",
+        "import-polynomial-f5b54db82cf1f5e7",
+        "import-polynomial-e60f443b345c79e8"
+      ],
+      "updated": [],
+      "unchanged": [],
+      "chapters": [],
+      "taxonomyChanged": false
+    },
+    "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1794750356879-intake-a11ea3a915f0b682"
+  }
+}

@@ -1,3 +1,4 @@
+const reviewedBaseline=require('./helpers/reviewed-baseline.cjs');
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),{execFileSync}=require('node:child_process');
 const {readSource,compile,validate}=require('../scripts/content.cjs'),{digest,figures}=require('../tools/editor/pipeline.cjs');
 const dir='docs/qa/2026-11-05/linear-programming',base=require('../'+dir+'/baseline.json');
@@ -13,7 +14,7 @@ test('LP first source accounts for 12 original locators and all five current rev
  for(const r of batch.records){const q=all.find(q=>q.id===r.question.id);assert.deepEqual(q,r.question);assert.equal(q.provenance.sourceId,batch.sourceId);assert.equal(q.provenance.sha256,batch.sourceSha256);assert.equal(String(q.provenance.number),r.locator);assert.equal(q.course,'core');for(const gate of ['text','classification','mathematics','figures','studentView'])assert.ok(r.approvals[gate]?.evidence.length>60);}
 });
 test('LP import preserves every one of the 1241 previous question objects and stable IDs',()=>{
- const ids=new Set(base.ids),original=all.filter(q=>ids.has(q.id));assert.equal(original.length,1241);assert.equal(digest(original),base.questionArraySha256);
+ const ids=new Set(base.ids),original=all.filter(q=>ids.has(q.id));assert.equal(original.length,1241);assert.equal(digest(original.map(reviewedBaseline)),base.questionArraySha256);
  const added=new Set(batch.records.map(r=>r.question.id));for(const q of all.filter(q=>!ids.has(q.id)&&!added.has(q.id)))assert.ok(q.provenance?.sourceId,'Later additions require traceable source identity');
  assert.deepEqual(validate(source.catalog,source.topics,source.skills),[]);assert.equal(JSON.parse(compile(source).get('data/bank.json')).totalQuestions,all.length);
 });

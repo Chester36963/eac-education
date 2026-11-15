@@ -1,0 +1,26 @@
+[
+  {
+    "id": "intake-408e6525d1ffcccf",
+    "changes": [],
+    "ready": true,
+    "counts": {
+      "source": 22,
+      "recorded": 22,
+      "publish": 22,
+      "duplicate": 0,
+      "held": 0
+    }
+  },
+  {
+    "id": "intake-a11ea3a915f0b682",
+    "changes": [],
+    "ready": true,
+    "counts": {
+      "source": 16,
+      "recorded": 16,
+      "publish": 6,
+      "duplicate": 10,
+      "held": 0
+    }
+  }
+]

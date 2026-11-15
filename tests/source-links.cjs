@@ -5,7 +5,7 @@ const {proposedLinks}=require('../scripts/register-source-links.cjs');
 const batches=['611e81c1f3198537','233787552d322be8'].map(id=>require('../content/intake/editor/intake-'+id+'.json'));
 test('three confirmed duplicate locators enrich two canonical questions without changing IDs or raw question objects',()=>{
   const source=readSource(),before=digest(source.topics),links=proposedLinks(source,batches),topics=attachLinks(source.topics,links);
-  assert.equal(links.length,3);assert.equal(new Set(links.map(l=>l.canonicalId)).size,2);assert.equal(digest(source.topics),before);
+  const historical=links.filter(l=>batches.some(b=>b.id===l.batchId));assert.equal(historical.length,3);assert.equal(new Set(historical.map(l=>l.canonicalId)).size,2);assert.equal(digest(source.topics),before);
   const all=t=>t.flatMap(t=>t.categories.flatMap(c=>c.questions));assert.deepEqual(all(topics).map(q=>q.id),all(source.topics).map(q=>q.id));
   for(const link of links){const q=all(topics).find(q=>q.id===link.canonicalId);assert.ok(q.sourceAliases.some(a=>a.sha256===link.source.sha256&&String(a.number)===link.source.number));assert.ok(q.sourceAliases.every(a=>!a.retiredId));}
 });

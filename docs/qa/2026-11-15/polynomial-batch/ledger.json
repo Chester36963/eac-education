@@ -1,0 +1,619 @@
+{
+  "sourceRecords": 38,
+  "new": 28,
+  "duplicate": 10,
+  "held": 0,
+  "existingSolutionCorrections": [
+    "import-polynomial-pl049"
+  ],
+  "records": [
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-99a04d6aaf31b1d7",
+      "skill": "poly-index-laws",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-8cb804b59d293981",
+      "skill": "poly-index-laws",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-6fdcf801c1a74fdd",
+      "skill": "poly-index-laws",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-825e2a120af363c1",
+      "skill": "poly-index-laws",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-f22a877745524653",
+      "skill": "poly-index-laws",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-ec33c270d646e8cc",
+      "skill": "poly-index-laws",
+      "difficulty": "medium",
+      "difficultyReason": "Combine nested powers, multiplication and division, retaining the original nonzero denominator domain.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "7",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-1be5ec96b04c12df",
+      "skill": "poly-read-structure",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "8",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-6d5ecffc5ec06cb7",
+      "skill": "poly-read-structure",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "9",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-76c6072ba4f6acac",
+      "skill": "poly-power-order",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "10",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-74b404c2eab25d58",
+      "skill": "poly-collect-terms",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "11",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-18e9ad2f153cab6b",
+      "skill": "poly-collect-terms",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "12",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-b7740c940a4fdd56",
+      "skill": "poly-expand-collect",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "13",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-be33d0f092aca57e",
+      "skill": "poly-index-laws",
+      "difficulty": "medium",
+      "difficultyReason": "Two parts combine powers and negative denominators; retain the original nonzero domains.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "14",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-9e1f8f1b79b32c98",
+      "skill": "poly-collect-terms",
+      "difficulty": "medium",
+      "difficultyReason": "Nested brackets require reversing the signs of all enclosed terms.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "15",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-ad14942dcd8dc6f1",
+      "skill": "poly-evaluate-expanded",
+      "difficulty": "medium",
+      "difficultyReason": "Simplify a two-variable expression, then substitute a negative value and evaluate all terms.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "16",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-1a4aa8fa65c76c34",
+      "skill": "poly-expand-collect",
+      "difficulty": "easy",
+      "difficultyReason": "Expand two binomials and collect terms.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "17",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-3f2278b045a3aec4",
+      "skill": "poly-expand-collect",
+      "difficulty": "medium",
+      "difficultyReason": "Six distributive products must be collected into a cubic polynomial.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "18",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-6ec993d9bfe1d66d",
+      "skill": "poly-expanded-structure",
+      "difficulty": "medium",
+      "difficultyReason": "Link cubic expansion to the degree and coefficient requested in two following subparts.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "19",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-1cd94d262e94161a",
+      "skill": "poly-read-structure",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "20",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-bf77fada405a39b1",
+      "skill": "poly-read-structure",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "21",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-68c4e108381371b4",
+      "skill": "poly-read-structure",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-408e6525d1ffcccf",
+      "file": "S1/polynomials/Polynomials review3.pdf",
+      "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+      "number": "22",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-a711d3a269220ae7",
+      "skill": "poly-read-structure",
+      "difficulty": "easy",
+      "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-p013",
+      "skill": "poly-factor-parameters",
+      "difficulty": "medium",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 1 and canonical p013: identical polynomial coefficients, conditions, full requested subparts and complete A–D choices. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-p065",
+      "skill": "poly-direct-remainder",
+      "difficulty": "medium",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 2 and canonical p065: identical polynomial coefficients, conditions, full requested subparts and complete A–D choices. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-09275c0edfd81f14",
+      "skill": "poly-substitution",
+      "difficulty": "medium",
+      "difficultyReason": "Follow a linear input substitution through two different divisor roots.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-054f9c6861f38928",
+      "skill": "poly-substitution",
+      "difficulty": "medium",
+      "difficultyReason": "Choose a shifted polynomial that vanishes at the specified divisor root.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-13b1a4fdf43e3a50",
+      "skill": "poly-substitution",
+      "difficulty": "medium",
+      "difficultyReason": "Evaluate the inner input first, then apply the remainder theorem.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-51cc94213ae3ba63",
+      "skill": "poly-substitution",
+      "difficulty": "medium",
+      "difficultyReason": "Solve the transformed input-root condition; the source has a different distractor set from p074.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "7",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-f5b54db82cf1f5e7",
+      "skill": "poly-multiple-conditions",
+      "difficulty": "medium",
+      "difficultyReason": "Determine a parameter from a factor, then use it as the evaluation point for a second division.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "8",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-e60f443b345c79e8",
+      "skill": "poly-multiple-conditions",
+      "difficulty": "hard",
+      "difficultyReason": "Translate two distinct factor conditions into simultaneous equations before evaluating the final remainder.",
+      "reason": null,
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "9",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl003",
+      "skill": "poly-multiple-conditions",
+      "difficulty": "medium",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 9 and canonical pl003: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "10",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl029",
+      "skill": "poly-root-nature",
+      "difficulty": "medium",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 10 and canonical pl029: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "11",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl049",
+      "skill": "poly-direct-remainder",
+      "difficulty": "hard",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 11 and canonical pl049: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "12",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl028",
+      "skill": "poly-root-nature",
+      "difficulty": "challenging",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 12 and canonical pl028: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "13",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl031",
+      "skill": "poly-root-nature",
+      "difficulty": "hard",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 13 and canonical pl031: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "14",
+      "pages": [
+        3
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl068",
+      "skill": "poly-direct-remainder",
+      "difficulty": "challenging",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 14 and canonical pl068: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "15",
+      "pages": [
+        3
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl004",
+      "skill": "poly-direct-remainder",
+      "difficulty": "medium",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 15 and canonical pl004: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "16",
+      "pages": [
+        3
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl066",
+      "skill": "poly-root-nature",
+      "difficulty": "hard",
+      "difficultyReason": null,
+      "reason": "Personally compared rendered S4 source question 16 and canonical pl066: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+      "status": "待驗收（正式部署）"
+    }
+  ]
+}

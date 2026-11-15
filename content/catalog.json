@@ -418,7 +418,8 @@
                 "zh-Hant": "項、係數與次數"
               },
               "skills": [
-                "poly-read-structure"
+                "poly-read-structure",
+                "poly-power-order"
               ]
             },
             {
@@ -432,7 +433,8 @@
                 "poly-expand-collect",
                 "poly-expand-identities",
                 "poly-evaluate-expanded",
-                "poly-expanded-structure"
+                "poly-expanded-structure",
+                "poly-index-laws"
               ]
             }
           ],

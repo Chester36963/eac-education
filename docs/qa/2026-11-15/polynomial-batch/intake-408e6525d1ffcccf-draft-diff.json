@@ -1,0 +1,3725 @@
+{
+  "errors": [],
+  "pending": [
+    {
+      "locator": "1",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "1",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "1",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "1",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "1",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "8",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "8",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "8",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "8",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "8",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "9",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "9",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "9",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "9",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "9",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "12",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "12",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "12",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "12",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "12",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "19",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "19",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "19",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "19",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "19",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "20",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "20",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "20",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "20",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "20",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "21",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "21",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "21",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "21",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "21",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "22",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "22",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "22",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "22",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "22",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    }
+  ],
+  "ready": false,
+  "counts": {
+    "source": 22,
+    "recorded": 22,
+    "publish": 22,
+    "duplicate": 0,
+    "held": 0
+  },
+  "diff": {
+    "added": [
+      "import-polynomial-99a04d6aaf31b1d7",
+      "import-polynomial-8cb804b59d293981",
+      "import-polynomial-6fdcf801c1a74fdd",
+      "import-polynomial-825e2a120af363c1",
+      "import-polynomial-f22a877745524653",
+      "import-polynomial-ec33c270d646e8cc",
+      "import-polynomial-74b404c2eab25d58",
+      "import-polynomial-18e9ad2f153cab6b",
+      "import-polynomial-b7740c940a4fdd56",
+      "import-polynomial-be33d0f092aca57e",
+      "import-polynomial-9e1f8f1b79b32c98",
+      "import-polynomial-ad14942dcd8dc6f1",
+      "import-polynomial-1a4aa8fa65c76c34",
+      "import-polynomial-3f2278b045a3aec4",
+      "import-polynomial-6ec993d9bfe1d66d",
+      "import-polynomial-1be5ec96b04c12df",
+      "import-polynomial-6d5ecffc5ec06cb7",
+      "import-polynomial-76c6072ba4f6acac",
+      "import-polynomial-1cd94d262e94161a",
+      "import-polynomial-bf77fada405a39b1",
+      "import-polynomial-68c4e108381371b4",
+      "import-polynomial-a711d3a269220ae7"
+    ],
+    "updated": [],
+    "unchanged": [],
+    "chapters": [],
+    "taxonomyChanged": true
+  },
+  "changes": [
+    {
+      "id": "import-polynomial-99a04d6aaf31b1d7",
+      "locator": "1",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-index-laws"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\(c^4c^5c^6\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\(c^4c^5c^6\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Add exponents of the same base: \\(c^{4+5+6}=c^{15}\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "同底數相乘，指數相加：\\(c^{4+5+6}=c^{15}\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q1"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第1題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "1",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q1"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(c^{15}\\)",
+            "B": "\\(c^{26}\\)",
+            "C": "\\(c^{34}\\)",
+            "D": "\\(c^{120}\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(c^{15}\\)",
+            "B": "\\(c^{26}\\)",
+            "C": "\\(c^{34}\\)",
+            "D": "\\(c^{120}\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "A"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-99a04d6aaf31b1d7"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-8cb804b59d293981",
+      "locator": "2",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-index-laws"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\((2p^3q)(4p^6q^2)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\((2p^3q)(4p^6q^2)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Multiply coefficients and add the exponents of each variable: \\[\\begin{gathered}2(4)p^{3+6}q^{1+2} \\\\ =8p^9q^3\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "數字係數相乘，各變量的指數分別相加：\\[\\begin{gathered}2(4)p^{3+6}q^{1+2} \\\\ =8p^9q^3\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q2"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第2題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "2",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q2"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(6p^{18}q^2\\)",
+            "B": "\\(8p^9q^3\\)",
+            "C": "\\(8p^{18}q^2\\)",
+            "D": "\\(33p^9q^3\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(6p^{18}q^2\\)",
+            "B": "\\(8p^9q^3\\)",
+            "C": "\\(8p^{18}q^2\\)",
+            "D": "\\(33p^9q^3\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-8cb804b59d293981"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-6fdcf801c1a74fdd",
+      "locator": "3",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-index-laws"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\(5^{1-s}\\times5^{2-3s}\\), where all indices are positive integers."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\(5^{1-s}\\times5^{2-3s}\\)，其中所有指數均為正整數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Add the exponents: \\((1-s)+(2-3s)=3-4s\\). Therefore the result is \\(5^{3-4s}\\). The stated exponent conditions are consistent, for example at \\(s=0\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "指數相加：\\((1-s)+(2-3s)=3-4s\\)，故結果為 \\(5^{3-4s}\\)。題目的正整數指數條件可成立，例如 \\(s=0\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q3"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第3題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "3",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q3"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(5^{2+3s^2}\\)",
+            "B": "\\(5^{3-4s}\\)",
+            "C": "\\(10^{3-4s}\\)",
+            "D": "\\(25^{3-4s}\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(5^{2+3s^2}\\)",
+            "B": "\\(5^{3-4s}\\)",
+            "C": "\\(10^{3-4s}\\)",
+            "D": "\\(25^{3-4s}\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-6fdcf801c1a74fdd"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-825e2a120af363c1",
+      "locator": "4",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-index-laws"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "If \\[\\begin{gathered}(a^2b^n)^6 \\\\ =a^mb^{18}\\end{gathered}\\], where \\(m\\) and \\(n\\) are positive integers, find \\(m\\) and \\(n\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "若 \\[\\begin{gathered}(a^2b^n)^6 \\\\ =a^mb^{18}\\end{gathered}\\]，其中 \\(m,n\\) 為正整數，求 \\(m,n\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Compare exponents in \\[\\begin{gathered}a^{12}b^{6n} \\\\ =a^mb^{18}\\end{gathered}\\]: \\(m=12\\), \\(6n=18\\), so \\(n=3\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "由 \\[\\begin{gathered}a^{12}b^{6n} \\\\ =a^mb^{18}\\end{gathered}\\] 比較指數：\\(m=12\\)、\\(6n=18\\)，所以 \\(n=3\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q4"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第4題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "4",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q4"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(m=6\\), \\(n=6\\)",
+            "B": "\\(m=6\\), \\(n=18\\)",
+            "C": "\\(m=12\\), \\(n=3\\)",
+            "D": "\\(m=12\\), \\(n=6\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(m=6\\), \\(n=6\\)",
+            "B": "\\(m=6\\), \\(n=18\\)",
+            "C": "\\(m=12\\), \\(n=3\\)",
+            "D": "\\(m=12\\), \\(n=6\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "C"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-825e2a120af363c1"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-f22a877745524653",
+      "locator": "5",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-index-laws"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\(\\frac{(-8c^7)^2}{(4c^3)^3}\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\(\\frac{(-8c^7)^2}{(4c^3)^3}\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "\\[\\begin{gathered}(-8c^7)^2 =64c^{14}\\end{gathered}\\] and \\((4c^3)^3=64c^9\\). Divide to obtain \\(c^5\\), on the original domain \\(c\\ne0\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "\\[\\begin{gathered}(-8c^7)^2 =64c^{14}\\end{gathered}\\]，\\((4c^3)^3=64c^9\\)，相除得 \\(c^5\\)；原式定義域為 \\(c\\ne0\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q5"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第5題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "5",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q5"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(c^3\\)",
+            "B": "\\(c^5\\)",
+            "C": "\\(4c^3\\)",
+            "D": "\\(4c^5\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(c^3\\)",
+            "B": "\\(c^5\\)",
+            "C": "\\(4c^3\\)",
+            "D": "\\(4c^5\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-f22a877745524653"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-ec33c270d646e8cc",
+      "locator": "6",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-index-laws"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\(\\frac{(m^2n^3)^2(3mn^2)^3}{(-3mn)^2}\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\(\\frac{(m^2n^3)^2(3mn^2)^3}{(-3mn)^2}\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The numerator is \\(27m^7n^{12}\\) and the denominator is \\(9m^2n^2\\). The result is \\(3m^5n^{10}\\), for \\(mn\\ne0\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "分子為 \\(27m^7n^{12}\\)，分母為 \\(9m^2n^2\\)，所以結果為 \\(3m^5n^{10}\\)；原式要求 \\(mn\\ne0\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q6"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第6題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "6",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Combine nested powers, multiplication and division, retaining the original nonzero denominator domain.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q6"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(3m^4n^8\\)",
+            "B": "\\(3m^4n^{10}\\)",
+            "C": "\\(3m^5n^8\\)",
+            "D": "\\(3m^5n^{10}\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(3m^4n^8\\)",
+            "B": "\\(3m^4n^{10}\\)",
+            "C": "\\(3m^5n^8\\)",
+            "D": "\\(3m^5n^{10}\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "D"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-ec33c270d646e8cc"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-1be5ec96b04c12df",
+      "locator": "7",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "What is the degree of \\[\\begin{gathered}10a^3 +6ab^4 \\\\ -8a^3b^4 -4\\end{gathered}\\]?"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "多項式 \\[\\begin{gathered}10a^3 +6ab^4 \\\\ -8a^3b^4 -4\\end{gathered}\\] 的次數是多少？"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The term degrees are \\(3,5,7,0\\) respectively. The greatest is \\(7\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "各項的總次數依次為 \\(3,5,7,0\\)，最大為 \\(7\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q7"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第7題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "7",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q7"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "6",
+            "B": "7",
+            "C": "10",
+            "D": "12"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "6",
+            "B": "7",
+            "C": "10",
+            "D": "12"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-1be5ec96b04c12df"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-6d5ecffc5ec06cb7",
+      "locator": "8",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "What is the constant term of \\[\\begin{gathered}8x^5y^3 +5x^2y -2xy \\\\ -9\\end{gathered}\\]?"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "多項式 \\[\\begin{gathered}8x^5y^3 +5x^2y -2xy \\\\ -9\\end{gathered}\\] 的常數項是多少？"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Only the term \\(-9\\) has no variables."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "只有 \\(-9\\) 這一項不含變量。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q8"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第8題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "8",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q8"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(-9\\)",
+            "B": "\\(-2\\)",
+            "C": "5",
+            "D": "8"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(-9\\)",
+            "B": "\\(-2\\)",
+            "C": "5",
+            "D": "8"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "A"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-6d5ecffc5ec06cb7"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-76c6072ba4f6acac",
+      "locator": "9",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-power-order"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Which polynomial has its terms arranged in ascending powers of \\(x\\)?"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "下列哪個多項式按 \\(x\\) 的升冪排列？"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Option D has exponents \\(1,2,3\\) in order. A and B descend; C places the constant term last."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "D 的指數依次為 \\(1,2,3\\)。A、B 為降冪，C 把常數項放在最後。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q9"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第9題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "9",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q9"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\[\\begin{gathered}7x^3 \\\\ +8x^2 \\\\ +9x +10\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}10x^3 \\\\ +9x^2 \\\\ +8x\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}7x \\\\ +8x^2 \\\\ +9x^3 \\\\ +10\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}10x \\\\ +9x^2 \\\\ +8x^3\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\[\\begin{gathered}7x^3 \\\\ +8x^2 \\\\ +9x +10\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}10x^3 \\\\ +9x^2 \\\\ +8x\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}7x \\\\ +8x^2 \\\\ +9x^3 \\\\ +10\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}10x \\\\ +9x^2 \\\\ +8x^3\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "D"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-76c6072ba4f6acac"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-74b404c2eab25d58",
+      "locator": "10",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\[\\begin{gathered}(7 m^{2} n-8 m n^{2}+6 m n) \\\\ +(3 m n+m n^{2}-m^{2} n)\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\[\\begin{gathered}(7 m^{2} n-8 m n^{2}+6 m n) \\\\ +(3 m n+m n^{2}-m^{2} n)\\end{gathered}\\]"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets or distribute products, then combine like terms.\nThe result is \\[\\begin{gathered}6 m^{2} n \\\\ - 7 m n^{2} + 9 m n\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號或用分配律展開，再合併同類項。\n結果為 \\[\\begin{gathered}6 m^{2} n \\\\ - 7 m n^{2} + 9 m n\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q10"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第10題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "10",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q10"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\[\\begin{gathered}6m^2n \\\\ +7mn^2 \\\\ +9mn\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}6m^2n \\\\ -7mn^2 \\\\ +9mn\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}8m^2n \\\\ -7mn^2 \\\\ -9mn\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}8m^2n \\\\ +7mn^2 \\\\ +9mn\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\[\\begin{gathered}6m^2n \\\\ +7mn^2 \\\\ +9mn\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}6m^2n \\\\ -7mn^2 \\\\ +9mn\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}8m^2n \\\\ -7mn^2 \\\\ -9mn\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}8m^2n \\\\ +7mn^2 \\\\ +9mn\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Simplify \\[\\begin{gathered}(7 m^{2} n-8 m n^{2}+6 m n) \\\\ +(3 m n+m n^{2}-m^{2} n)\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "化簡 \\[\\begin{gathered}(7 m^{2} n-8 m n^{2}+6 m n) \\\\ +(3 m n+m n^{2}-m^{2} n)\\end{gathered}\\]"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Remove brackets or distribute products, then combine like terms."
+              },
+              {
+                "type": "paragraph",
+                "text": "The result is \\[\\begin{gathered}6 m^{2} n \\\\ - 7 m n^{2} + 9 m n\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "去括號或用分配律展開，再合併同類項。"
+              },
+              {
+                "type": "paragraph",
+                "text": "結果為 \\[\\begin{gathered}6 m^{2} n \\\\ - 7 m n^{2} + 9 m n\\end{gathered}\\]"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-74b404c2eab25d58"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-18e9ad2f153cab6b",
+      "locator": "11",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify \\[\\begin{gathered}(g^{2}+2 g+1) \\\\ +(3 g-2 g^{2}) \\\\ -(6 g^{2}+4 g+1)\\end{gathered}\\] and arrange the terms in descending powers of \\(g\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡 \\[\\begin{gathered}(g^{2}+2 g+1) \\\\ +(3 g-2 g^{2}) \\\\ -(6 g^{2}+4 g+1)\\end{gathered}\\]，並按 \\(g\\) 的降冪排列。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets or distribute products, then combine like terms.\nThe result is \\(- 7 g^{2} + g\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號或用分配律展開，再合併同類項。\n結果為 \\(- 7 g^{2} + g\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q11"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第11題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "11",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q11"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(-7g^2+g\\)",
+            "B": "\\[\\begin{gathered}-7g^2 \\\\ +9g +2\\end{gathered}\\]",
+            "C": "\\(g-7g^2\\)",
+            "D": "\\[\\begin{gathered}2 +9g \\\\ -7g^2\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(-7g^2+g\\)",
+            "B": "\\[\\begin{gathered}-7g^2 \\\\ +9g +2\\end{gathered}\\]",
+            "C": "\\(g-7g^2\\)",
+            "D": "\\[\\begin{gathered}2 +9g \\\\ -7g^2\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "A"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Simplify \\[\\begin{gathered}(g^{2}+2 g+1) \\\\ +(3 g-2 g^{2}) \\\\ -(6 g^{2}+4 g+1)\\end{gathered}\\] and arrange the terms in descending powers of \\(g\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "化簡 \\[\\begin{gathered}(g^{2}+2 g+1) \\\\ +(3 g-2 g^{2}) \\\\ -(6 g^{2}+4 g+1)\\end{gathered}\\]，並按 \\(g\\) 的降冪排列。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Remove brackets or distribute products, then combine like terms."
+              },
+              {
+                "type": "paragraph",
+                "text": "The result is \\(- 7 g^{2} + g\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "去括號或用分配律展開，再合併同類項。"
+              },
+              {
+                "type": "paragraph",
+                "text": "結果為 \\(- 7 g^{2} + g\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-18e9ad2f153cab6b"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-b7740c940a4fdd56",
+      "locator": "12",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand \\[\\begin{gathered}(p-1) \\\\ \\cdot (p^{2}+1)\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\[\\begin{gathered}(p-1) \\\\ \\cdot (p^{2}+1)\\end{gathered}\\]"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Remove brackets or distribute products, then combine like terms.\nThe result is \\[\\begin{gathered}p^{3} - p^{2} + p \\\\ - 1\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "去括號或用分配律展開，再合併同類項。\n結果為 \\[\\begin{gathered}p^{3} - p^{2} + p \\\\ - 1\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q12"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第12題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "12",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q12"
+          }
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(p^3+p-1\\)",
+            "B": "\\[\\begin{gathered}p^3 \\\\ -p^2 -1\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}p^3 \\\\ -p^2 +p \\\\ -1\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}p^3 \\\\ -p^2 -p \\\\ -1\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(p^3+p-1\\)",
+            "B": "\\[\\begin{gathered}p^3 \\\\ -p^2 -1\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}p^3 \\\\ -p^2 +p \\\\ -1\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}p^3 \\\\ -p^2 -p \\\\ -1\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "C"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Expand \\[\\begin{gathered}(p-1) \\\\ \\cdot (p^{2}+1)\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "展開 \\[\\begin{gathered}(p-1) \\\\ \\cdot (p^{2}+1)\\end{gathered}\\]"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Remove brackets or distribute products, then combine like terms."
+              },
+              {
+                "type": "paragraph",
+                "text": "The result is \\[\\begin{gathered}p^{3} - p^{2} + p \\\\ - 1\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "去括號或用分配律展開，再合併同類項。"
+              },
+              {
+                "type": "paragraph",
+                "text": "結果為 \\[\\begin{gathered}p^{3} - p^{2} + p \\\\ - 1\\end{gathered}\\]"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-b7740c940a4fdd56"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-be33d0f092aca57e",
+      "locator": "13",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-index-laws"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify:\n(a) \\(2g^2\\times10g^6\\div(-5g^4)\\).\n(b) \\(\\frac{-6c^8}{(2c)^2(-c)^3}\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡：\n(a) \\(2g^2\\times10g^6\\div(-5g^4)\\)。\n(b) \\(\\frac{-6c^8}{(2c)^2(-c)^3}\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) Divide coefficients and subtract exponents: \\[\\begin{gathered}\\frac{20}{-5}g^{2+6-4} \\\\ = -4g^4\\end{gathered}\\], for \\(g\\ne0\\).\n(b) The denominator is \\(-4c^5\\), hence the quotient is \\(\\frac32c^3\\), for \\(c\\ne0\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 係數相除，指數相減：\\[\\begin{gathered}\\frac{20}{-5}g^{2+6-4} \\\\ = -4g^4\\end{gathered}\\]，其中 \\(g\\ne0\\)。\n(b) 分母為 \\(-4c^5\\)，故相除得 \\(\\frac32c^3\\)，其中 \\(c\\ne0\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q13"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第13題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "13",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Two parts combine powers and negative denominators; retain the original nonzero domains.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q13"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Simplify:"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) \\(2g^2\\times10g^6\\div(-5g^4)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\(\\frac{-6c^8}{(2c)^2(-c)^3}\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "化簡："
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) \\(2g^2\\times10g^6\\div(-5g^4)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\(\\frac{-6c^8}{(2c)^2(-c)^3}\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Divide coefficients and subtract exponents: \\[\\begin{gathered}\\frac{20}{-5}g^{2+6-4} \\\\ = -4g^4\\end{gathered}\\], for \\(g\\ne0\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) The denominator is \\(-4c^5\\), hence the quotient is \\(\\frac32c^3\\), for \\(c\\ne0\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 係數相除，指數相減：\\[\\begin{gathered}\\frac{20}{-5}g^{2+6-4} \\\\ = -4g^4\\end{gathered}\\]，其中 \\(g\\ne0\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 分母為 \\(-4c^5\\)，故相除得 \\(\\frac32c^3\\)，其中 \\(c\\ne0\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-be33d0f092aca57e"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-9e1f8f1b79b32c98",
+      "locator": "14",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-collect-terms"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Simplify and arrange in descending powers of \\(x\\).\n(a) \\[\\begin{gathered}(5-2 x) \\\\ -(3 x^{2}+7+2 x) \\\\ +(3 x^{2}-2)\\end{gathered}\\]\n(b) \\((3 x^{2}-4)\\) minus \\(\\left[\\begin{gathered}(3x-2) \\\\ +(2x^2-x+3)\\end{gathered}\\right]\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "化簡，並按 \\(x\\) 的降冪排列。\n(a) \\[\\begin{gathered}(5-2 x) \\\\ -(3 x^{2}+7+2 x) \\\\ +(3 x^{2}-2)\\end{gathered}\\]\n(b) \\((3 x^{2}-4)\\) 減去 \\(\\left[\\begin{gathered}(3x-2) \\\\ +(2x^2-x+3)\\end{gathered}\\right]\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) The quadratic terms cancel; linear terms sum to \\(-4x\\) and constants to \\(-4\\). Answer: \\(-4x-4\\).\n(b) First the inner bracket is \\(2x^2+2x+1\\). Subtracting gives \\(x^2-2x-5\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 二次項抵消，一次項合共 \\(-4x\\)，常數項合共 \\(-4\\)，得 \\(-4x-4\\)。\n(b) 先化簡內括號為 \\(2x^2+2x+1\\)，相減得 \\(x^2-2x-5\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q14"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第14題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "14",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Nested brackets require reversing the signs of all enclosed terms.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q14"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Simplify and arrange in descending powers of \\(x\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) \\[\\begin{gathered}(5-2 x) \\\\ -(3 x^{2}+7+2 x) \\\\ +(3 x^{2}-2)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\((3 x^{2}-4)\\) minus \\(\\left[\\begin{gathered}(3x-2) \\\\ +(2x^2-x+3)\\end{gathered}\\right]\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "化簡，並按 \\(x\\) 的降冪排列。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) \\[\\begin{gathered}(5-2 x) \\\\ -(3 x^{2}+7+2 x) \\\\ +(3 x^{2}-2)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) \\((3 x^{2}-4)\\) 減去 \\(\\left[\\begin{gathered}(3x-2) \\\\ +(2x^2-x+3)\\end{gathered}\\right]\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) The quadratic terms cancel; linear terms sum to \\(-4x\\) and constants to \\(-4\\). Answer: \\(-4x-4\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) First the inner bracket is \\(2x^2+2x+1\\). Subtracting gives \\(x^2-2x-5\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 二次項抵消，一次項合共 \\(-4x\\)，常數項合共 \\(-4\\)，得 \\(-4x-4\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 先化簡內括號為 \\(2x^2+2x+1\\)，相減得 \\(x^2-2x-5\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-9e1f8f1b79b32c98"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-ad14942dcd8dc6f1",
+      "locator": "15",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-evaluate-expanded"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "(a) Simplify \\[\\begin{gathered}(2 p^{2}-4 p q+q^{2}) \\\\ +(2 p q-p^{2}+3 q^{2}) \\\\ +10 p q\\end{gathered}\\]\n(b) Hence find its value when \\(p=-1\\) and \\(q=2\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "(a) 化簡 \\[\\begin{gathered}(2 p^{2}-4 p q+q^{2}) \\\\ +(2 p q-p^{2}+3 q^{2}) \\\\ +10 p q\\end{gathered}\\]\n(b) 從而求當 \\(p=-1\\)、\\(q=2\\) 時上式的值。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) Collect the \\(p^2,pq,q^2\\) terms to obtain \\(p^2+8pq+4q^2\\).\n(b) Substitute: \\(1-16+16=1\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 分別合併 \\(p^2,pq,q^2\\) 項，得 \\(p^2+8pq+4q^2\\)。\n(b) 代入得 \\(1-16+16=1\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q15"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第15題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "15",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Simplify a two-variable expression, then substitute a negative value and evaluate all terms.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q15"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Simplify \\[\\begin{gathered}(2 p^{2}-4 p q+q^{2}) \\\\ +(2 p q-p^{2}+3 q^{2}) \\\\ +10 p q\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Hence find its value when \\(p=-1\\) and \\(q=2\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 化簡 \\[\\begin{gathered}(2 p^{2}-4 p q+q^{2}) \\\\ +(2 p q-p^{2}+3 q^{2}) \\\\ +10 p q\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 從而求當 \\(p=-1\\)、\\(q=2\\) 時上式的值。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Collect the \\(p^2,pq,q^2\\) terms to obtain \\(p^2+8pq+4q^2\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Substitute: \\(1-16+16=1\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 分別合併 \\(p^2,pq,q^2\\) 項，得 \\(p^2+8pq+4q^2\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 代入得 \\(1-16+16=1\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-ad14942dcd8dc6f1"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-1a4aa8fa65c76c34",
+      "locator": "16",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand \\((a+1)\\cdot (a-7)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\((a+1)\\cdot (a-7)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Distribute each term over the second bracket, then collect like terms. The result is \\(a^{2} - 6 a - 7\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "將第一個括號每一項分配到第二個括號，再合併同類項，結果為 \\(a^{2} - 6 a - 7\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q16"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第16題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "16",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Expand two binomials and collect terms.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q16"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-1a4aa8fa65c76c34"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-3f2278b045a3aec4",
+      "locator": "17",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expand-collect"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Expand \\[\\begin{gathered}(x^{2}+2 x+1) \\\\ \\cdot (4 x-3)\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\[\\begin{gathered}(x^{2}+2 x+1) \\\\ \\cdot (4 x-3)\\end{gathered}\\]"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Distribute each term over the second bracket, then collect like terms. The result is \\[\\begin{gathered}4 x^{3} + 5 x^{2} \\\\ - 2 x - 3\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "將第一個括號每一項分配到第二個括號，再合併同類項，結果為 \\[\\begin{gathered}4 x^{3} + 5 x^{2} \\\\ - 2 x - 3\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q17"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第17題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "17",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Six distributive products must be collected into a cubic polynomial.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q17"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-3f2278b045a3aec4"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-6ec993d9bfe1d66d",
+      "locator": "18",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expanded-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "(a) Expand \\((x^2+2x+1)(x-1)\\).\n(b) Find the degree of the expansion in (a).\n(c) Find the coefficient of \\(x^2\\) in the expansion in (a)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "(a) 展開 \\((x^2+2x+1)(x-1)\\)。\n(b) 求 (a) 中展開式的次數。\n(c) 求 (a) 中展開式的 \\(x^2\\) 項係數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "(a) Distribute and collect: \\(x^3+x^2-x-1\\).\n(b) The highest power is \\(3\\).\n(c) The coefficient of \\(x^2\\) is \\(1\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "(a) 用分配律展開並合併，得 \\(x^3+x^2-x-1\\)。\n(b) 最高次冪為 \\(3\\)。\n(c) \\(x^2\\) 的係數為 \\(1\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q18"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第18題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "18",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Link cubic expansion to the degree and coefficient requested in two following subparts.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q18"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Expand \\((x^2+2x+1)(x-1)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Find the degree of the expansion in (a)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Find the coefficient of \\(x^2\\) in the expansion in (a)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 展開 \\((x^2+2x+1)(x-1)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 求 (a) 中展開式的次數。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 求 (a) 中展開式的 \\(x^2\\) 項係數。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Distribute and collect: \\(x^3+x^2-x-1\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) The highest power is \\(3\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) The coefficient of \\(x^2\\) is \\(1\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 用分配律展開並合併，得 \\(x^3+x^2-x-1\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 最高次冪為 \\(3\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) \\(x^2\\) 的係數為 \\(1\\)。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-6ec993d9bfe1d66d"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-1cd94d262e94161a",
+      "locator": "19",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For \\[\\begin{gathered}-4 x^{3} \\\\ +2 x^{2} y^{2} \\\\ -5 x y +8\\end{gathered}\\], state the number of terms, the numerical coefficients of the individual monomials \\(x,x^2,x^3,xy\\) (zero if absent), the constant term, and the total degree."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對 \\[\\begin{gathered}-4 x^{3} \\\\ +2 x^{2} y^{2} \\\\ -5 x y +8\\end{gathered}\\]，依次寫出項數、各個單項式 \\(x,x^2,x^3,xy\\) 的數字係數（沒有該項則寫零）、常數項及總次數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Count nonzero monomials. Read the numerical coefficient of each specified monomial, then the constant and maximum total degree. In the requested order: \\[\\begin{gathered}4; 0,0, -4, \\\\ -5; 8; 4\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "數出非零單項式，讀取各指定單項式的數字係數，再讀取常數及最大總次數。按題目次序：\\[\\begin{gathered}4; 0,0, -4, \\\\ -5; 8; 4\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q19"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第19題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "19",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q19"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "reviewedFinalAnswer",
+          "before": null,
+          "after": "4; 0,0,-4,-5; 8; 4"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-1cd94d262e94161a"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-bf77fada405a39b1",
+      "locator": "20",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For \\[\\begin{gathered}7 x^{2} +2 x -3 x y \\\\ +4\\end{gathered}\\], state the number of terms, the numerical coefficients of the individual monomials \\(x,x^2,x^3,xy\\) (zero if absent), the constant term, and the total degree."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對 \\[\\begin{gathered}7 x^{2} +2 x -3 x y \\\\ +4\\end{gathered}\\]，依次寫出項數、各個單項式 \\(x,x^2,x^3,xy\\) 的數字係數（沒有該項則寫零）、常數項及總次數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Count nonzero monomials. Read the numerical coefficient of each specified monomial, then the constant and maximum total degree. In the requested order: \\(4; 2,7,0,-3; 4; 2\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "數出非零單項式，讀取各指定單項式的數字係數，再讀取常數及最大總次數。按題目次序：\\(4; 2,7,0,-3; 4; 2\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q20"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第20題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "20",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q20"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "reviewedFinalAnswer",
+          "before": null,
+          "after": "4; 2,7,0,-3; 4; 2"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-bf77fada405a39b1"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-68c4e108381371b4",
+      "locator": "21",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For \\[\\begin{gathered}x^{3} y^{2} \\\\ -6 x^{2} +9 \\\\ -2 x^{3} +5 x y\\end{gathered}\\], state the number of terms, the numerical coefficients of the individual monomials \\(x,x^2,x^3,xy\\) (zero if absent), the constant term, and the total degree."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對 \\[\\begin{gathered}x^{3} y^{2} \\\\ -6 x^{2} +9 \\\\ -2 x^{3} +5 x y\\end{gathered}\\]，依次寫出項數、各個單項式 \\(x,x^2,x^3,xy\\) 的數字係數（沒有該項則寫零）、常數項及總次數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Count nonzero monomials. Read the numerical coefficient of each specified monomial, then the constant and maximum total degree. In the requested order: \\[\\begin{gathered}5; 0, -6, \\\\ -2,5; 9; 5\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "數出非零單項式，讀取各指定單項式的數字係數，再讀取常數及最大總次數。按題目次序：\\[\\begin{gathered}5; 0, -6, \\\\ -2,5; 9; 5\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q21"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第21題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "21",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q21"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "reviewedFinalAnswer",
+          "before": null,
+          "after": "5; 0,-6,-2,5; 9; 5"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-68c4e108381371b4"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-a711d3a269220ae7",
+      "locator": "22",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For \\[\\begin{gathered}x y/2 -2 x^{3} -6 \\\\ -7 x\\end{gathered}\\], state the number of terms, the numerical coefficients of the individual monomials \\(x,x^2,x^3,xy\\) (zero if absent), the constant term, and the total degree."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對 \\[\\begin{gathered}x y/2 -2 x^{3} -6 \\\\ -7 x\\end{gathered}\\]，依次寫出項數、各個單項式 \\(x,x^2,x^3,xy\\) 的數字係數（沒有該項則寫零）、常數項及總次數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Count nonzero monomials. Read the numerical coefficient of each specified monomial, then the constant and maximum total degree. In the requested order: \\[\\begin{gathered}4; -7,0, \\\\ -2,\\frac{1}{2}; \\\\ -6; 3\\end{gathered}\\] The original answer table omits the \\(-6\\) term. The original question has four terms and constant \\(-6\\); it is retained unchanged."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "數出非零單項式，讀取各指定單項式的數字係數，再讀取常數及最大總次數。按題目次序：\\[\\begin{gathered}4; -7,0, \\\\ -2,\\frac{1}{2}; \\\\ -6; 3\\end{gathered}\\]原簡答表漏去 \\(-6\\) 項；原題有四項，常數項為 \\(-6\\)。保留原題不變，按原題更正答案。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · Q22"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review3.pdf · 第22題"
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-408e6525d1ffcccf",
+            "sha256": "d352044d822252418c0f6a6d60f1fd36fee16944bb0a6fb12d8c5a7fbfb56f6c",
+            "file": "S1/polynomials/Polynomials review3.pdf",
+            "number": "22",
+            "page": 3,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "One direct algebraic operation; track signs and exponents.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-408e6525d1ffcccf-Q22"
+          }
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "reviewedFinalAnswer",
+          "before": null,
+          "after": "4; -7,0,-2,\\frac{1}{2}; -6; 3"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-a711d3a269220ae7"
+        }
+      ]
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "locator": "18",
+      "candidateId": "import-polynomial-0c67556d3e79e44e",
+      "score": 0.875,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "19",
+      "candidateId": "import-polynomial-75769dcce9763181",
+      "score": 0.767,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "20",
+      "candidateId": "import-polynomial-75769dcce9763181",
+      "score": 0.733,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "21",
+      "candidateId": "import-polynomial-75769dcce9763181",
+      "score": 0.71,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "22",
+      "candidateId": "import-polynomial-75769dcce9763181",
+      "score": 0.677,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    }
+  ],
+  "digest": "edc3efc251ea86b1634011ee2e36c9ce982366e49488c924ab6ce688886a2cea",
+  "baseline": "e6944acdfca750b6331591921e2764d92070e320791b4737848015f75b57720c"
+}

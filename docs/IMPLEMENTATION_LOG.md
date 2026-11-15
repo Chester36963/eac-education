@@ -495,3 +495,8 @@ SRC-LINK-20261113正式驗收：`f3ee80c` 已部署，Deploy43434790367／Pages4
 28 原題全部新增，沒有拆分子題灌大題數；1,281→1,309，原題物件及 ID 保留。完整雙語題文／解答、六項技巧及難度理由、來源定位、兩段對應導讀完成。Q10／Q21／Q22 原簡答更正；沒有圖像題，未建立假圖像QA。336草稿＋336實際作答狀態及1,146項Node通過；長公式經手機實際畫面核對。正式部署狀態另記，見[本批證據](qa/2026-11-13/polynomial-revision/README.md)、[內容進度](CONTENT_EXPANSION_PLAN.md)及[後續UI／UE](UI_UX_ROADMAP.md)。
 
 POLY-20261113正式驗收：main `0be4ffd`、Deploy43441708920／Pages43441795917成功；正式1,309題／revision `7e6ef1265256102a`。15檔hash一致，28題本機及正式作答各336狀態通過；新增56組320／390px MathJax實際寬度檢查，無隱藏公式；重新預覽不重複入題。詳見同批release.json及live-student-matrix.json。
+
+
+## POLY-20261115 · 兩卷對帳及舊解答修復（本機完成）
+
+38來源記錄完整對帳：28新增、10確認重複補來源，0待補；總題庫1,337、revision b18b53fcb329ae48。指數律與升降冪分類／雙語導讀完成；S1 Q22漏常數更正；舊pl049因漏餘式而錯判有理根，已保留ID修正雙語詳解。1,308舊題物件不變，另1題僅修改解答及解答狀態。336草稿、336真正作答、12修正題狀態、58窄屏公式檢查、Node1,146項加新獨立回歸1項、study-journey及build檢查通過。正式發布另記，不將本機測試當正式證據。[本批逐題及驗算](qa/2026-11-15/polynomial-batch/README.md)、[內容進度](CONTENT_EXPANSION_PLAN.md)、[UI／UE路線圖](UI_UX_ROADMAP.md)。
