@@ -447,6 +447,19 @@
                 "poly-hcf-lcm-factors",
                 "poly-hcf-lcm-recover"
               ]
+            },
+            {
+              "id": "rational-expressions",
+              "name": {
+                "en": "Algebraic fractions",
+                "zh-Hant": "代數分式"
+              },
+              "skills": [
+                "poly-rational-products",
+                "poly-rational-sums",
+                "poly-complex-fractions",
+                "poly-partial-fractions"
+              ]
             }
           ],
           "topicId": "polynomial"

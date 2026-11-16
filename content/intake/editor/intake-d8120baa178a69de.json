@@ -1,0 +1,2046 @@
+{
+  "schemaVersion": 1,
+  "id": "intake-d8120baa178a69de",
+  "sourceId": "source-d8120baa178a69de",
+  "sourcePath": "S4/more about polynomials/HCF LCM rational function review.pdf",
+  "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+  "topicId": "polynomial",
+  "expectedQuestions": 12,
+  "revision": 145,
+  "records": [
+    {
+      "locator": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(5x^2+20x\\)\n\\(x^2+8x+16\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(5x^2+20x\\)\n\\(x^2+8x+16\\)",
+        "solution": "Factor as \\(5x(x+4)\\) and \\((x+4)^2\\), then compare factor powers.\nH.C.F.: \\(x+4\\).\nL.C.M.: \\(5x(x+4)^2\\).",
+        "solutionZh": "先分解為 \\(5x(x+4)\\) 及 \\((x+4)^2\\)，再比較因式次冪。\n最大公因式：\\(x+4\\)。\n最小公倍式：\\(5x(x+4)^2\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q1",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第1題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "1",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q5"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(5x^2+20x\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(x^2+8x+16\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(5x^2+20x\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(x^2+8x+16\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor as \\(5x(x+4)\\) and \\((x+4)^2\\), then compare factor powers."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(x+4\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\(5x(x+4)^2\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "先分解為 \\(5x(x+4)\\) 及 \\((x+4)^2\\)，再比較因式次冪。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(x+4\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\(5x(x+4)^2\\)。"
+            }
+          ]
+        },
+        "id": "import-polynomial-53d5cbff59aa6b83"
+      },
+      "canonicalId": "import-polynomial-8d1864fe82ad22db",
+      "reason": "Primary Codex personally matched the entire expression list and both requested HCF/LCM results on source page1; exact values, variables and task match canonical import-polynomial-8d1864fe82ad22db. Retain existing student ID.",
+      "approvals": {}
+    },
+    {
+      "locator": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "level": "free",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of:\n\n\\(u^2-5u-14\\)\n\n\\(2u^2+11u+14\\)",
+        "stemZh": "求下列各式的最大公因式及最小公倍式：\n\n\\(u^2-5u-14\\)\n\n\\(2u^2+11u+14\\)",
+        "solution": "Factor each expression:\n\n\\((u-7)(u+2)\\)\n\n\\((u+2)(2u+7)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=u + 2\\).\n\n\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]",
+        "solutionZh": "先把各式因式分解：\n\n\\((u-7)(u+2)\\)\n\n\\((u+2)(2u+7)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=u + 2\\)。\n\n\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q2",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第2題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "2",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor every expression and compare numerical coefficients and minimum/maximum multiplicities.",
+          "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q2"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(u^2-5u-14\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(2u^2+11u+14\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求下列各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(u^2-5u-14\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(2u^2+11u+14\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor each expression:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\((u-7)(u+2)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\((u+2)(2u+7)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(H=u + 2\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "先把各式因式分解："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\((u-7)(u+2)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\((u+2)(2u+7)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(H=u + 2\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]"
+            }
+          ]
+        },
+        "id": "import-polynomial-0f771244c57ce81f"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "745c31f11ce57071efaf1a3b3b7ba2f091671f92c6c95a03dae43748531b4de0",
+          "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+          "at": "2026-11-16T16:44:46.263Z"
+        },
+        "classification": {
+          "fingerprint": "745c31f11ce57071efaf1a3b3b7ba2f091671f92c6c95a03dae43748531b4de0",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+          "at": "2026-11-16T16:44:46.265Z"
+        },
+        "mathematics": {
+          "fingerprint": "745c31f11ce57071efaf1a3b3b7ba2f091671f92c6c95a03dae43748531b4de0",
+          "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.266Z"
+        },
+        "figures": {
+          "fingerprint": "745c31f11ce57071efaf1a3b3b7ba2f091671f92c6c95a03dae43748531b4de0",
+          "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.267Z"
+        },
+        "studentView": {
+          "fingerprint": "745c31f11ce57071efaf1a3b3b7ba2f091671f92c6c95a03dae43748531b4de0",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+          "at": "2026-11-16T16:44:46.268Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T16:44:46.135Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "915494fb104234b1010b96e2d193ef7ba0e0a73f24d18e303b3ba009cd7327d2",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:38:57.212Z"
+            },
+            "classification": {
+              "fingerprint": "915494fb104234b1010b96e2d193ef7ba0e0a73f24d18e303b3ba009cd7327d2",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:38:57.214Z"
+            },
+            "mathematics": {
+              "fingerprint": "915494fb104234b1010b96e2d193ef7ba0e0a73f24d18e303b3ba009cd7327d2",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.215Z"
+            },
+            "figures": {
+              "fingerprint": "915494fb104234b1010b96e2d193ef7ba0e0a73f24d18e303b3ba009cd7327d2",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.216Z"
+            },
+            "studentView": {
+              "fingerprint": "915494fb104234b1010b96e2d193ef7ba0e0a73f24d18e303b3ba009cd7327d2",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:38:57.217Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(3v^2-9vz-12z^2\\)\n\\(8v^2-36vz+16z^2\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(3v^2-9vz-12z^2\\)\n\\(8v^2-36vz+16z^2\\)",
+        "solution": "Factor as \\(3(v-4z)(v+z)\\) and \\(4(v-4z)(2v-z)\\). Only \\(v-4z\\) is common; the coefficient lcm is 12.\nH.C.F.: \\(v-4z\\).\nL.C.M.: \\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\].",
+        "solutionZh": "分解為 \\(3(v-4z)(v+z)\\) 及 \\(4(v-4z)(2v-z)\\)。只有 \\(v-4z\\) 共同，係數最小公倍數為 12。\n最大公因式：\\(v-4z\\)。\n最小公倍式：\\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\]。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q3",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第3題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "3",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q6"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(3v^2-9vz-12z^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8v^2-36vz+16z^2\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(3v^2-9vz-12z^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8v^2-36vz+16z^2\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor as \\(3(v-4z)(v+z)\\) and \\(4(v-4z)(2v-z)\\). Only \\(v-4z\\) is common; the coefficient lcm is 12."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(v-4z\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\]."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "分解為 \\(3(v-4z)(v+z)\\) 及 \\(4(v-4z)(2v-z)\\)。只有 \\(v-4z\\) 共同，係數最小公倍數為 12。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(v-4z\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\]。"
+            }
+          ]
+        },
+        "id": "import-polynomial-a4d5c07f5becd647"
+      },
+      "canonicalId": "import-polynomial-ce4b61bb3dd9ff24",
+      "reason": "Primary Codex personally matched the entire expression list and both requested HCF/LCM results on source page1; exact values, variables and task match canonical import-polynomial-ce4b61bb3dd9ff24. Retain existing student ID.",
+      "approvals": {}
+    },
+    {
+      "locator": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(8a^3+1\\)\n\\(2ab+c+b+2ac\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(8a^3+1\\)\n\\(2ab+c+b+2ac\\)",
+        "solution": "Use the sum of cubes and grouping: \\((2a+1)(4a^2-2a+1)\\) and \\((2a+1)(b+c)\\).\nH.C.F.: \\(2a+1\\).\nL.C.M.: \\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\].",
+        "solutionZh": "利用立方和及分組，得 \\((2a+1)(4a^2-2a+1)\\) 及 \\((2a+1)(b+c)\\)。\n最大公因式：\\(2a+1\\)。\n最小公倍式：\\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\]。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q4",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第4題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "4",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q7"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8a^3+1\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(2ab+c+b+2ac\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8a^3+1\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(2ab+c+b+2ac\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Use the sum of cubes and grouping: \\((2a+1)(4a^2-2a+1)\\) and \\((2a+1)(b+c)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(2a+1\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\]."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "利用立方和及分組，得 \\((2a+1)(4a^2-2a+1)\\) 及 \\((2a+1)(b+c)\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(2a+1\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\]。"
+            }
+          ]
+        },
+        "id": "import-polynomial-59b442e72e2a61dd"
+      },
+      "canonicalId": "import-polynomial-09ecedda60d5ccb3",
+      "reason": "Primary Codex personally matched the entire expression list and both requested HCF/LCM results on source page1; exact values, variables and task match canonical import-polynomial-09ecedda60d5ccb3. Retain existing student ID.",
+      "approvals": {}
+    },
+    {
+      "locator": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "level": "free",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of:\n\n\\(10m+15\\)\n\n\\(60m^2+60m+15\\)\n\n\\(20m^2+60m+25\\)",
+        "stemZh": "求下列各式的最大公因式及最小公倍式：\n\n\\(10m+15\\)\n\n\\(60m^2+60m+15\\)\n\n\\(20m^2+60m+25\\)",
+        "solution": "Factor each expression:\n\n\\(5(2m+3)\\)\n\n\\(15(2m+1)^2\\)\n\n\\(5(2m+1)(2m+5)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=5\\).\n\n\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]",
+        "solutionZh": "先把各式因式分解：\n\n\\(5(2m+3)\\)\n\n\\(15(2m+1)^2\\)\n\n\\(5(2m+1)(2m+5)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=5\\)。\n\n\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q5",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第5題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "5",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor every expression and compare numerical coefficients and minimum/maximum multiplicities.",
+          "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q5"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(10m+15\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(60m^2+60m+15\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(20m^2+60m+25\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求下列各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(10m+15\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(60m^2+60m+15\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(20m^2+60m+25\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor each expression:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(5(2m+3)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(15(2m+1)^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(5(2m+1)(2m+5)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(H=5\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "先把各式因式分解："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(5(2m+3)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(15(2m+1)^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(5(2m+1)(2m+5)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(H=5\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]"
+            }
+          ]
+        },
+        "id": "import-polynomial-b3ca80e93cb419ba"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "cb60730bcecb97ca40a0bd1830ce123c39afba9dfde429930cb1a21ff612875a",
+          "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+          "at": "2026-11-16T16:44:46.269Z"
+        },
+        "classification": {
+          "fingerprint": "cb60730bcecb97ca40a0bd1830ce123c39afba9dfde429930cb1a21ff612875a",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+          "at": "2026-11-16T16:44:46.270Z"
+        },
+        "mathematics": {
+          "fingerprint": "cb60730bcecb97ca40a0bd1830ce123c39afba9dfde429930cb1a21ff612875a",
+          "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.271Z"
+        },
+        "figures": {
+          "fingerprint": "cb60730bcecb97ca40a0bd1830ce123c39afba9dfde429930cb1a21ff612875a",
+          "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.272Z"
+        },
+        "studentView": {
+          "fingerprint": "cb60730bcecb97ca40a0bd1830ce123c39afba9dfde429930cb1a21ff612875a",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+          "at": "2026-11-16T16:44:46.273Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T16:36:39.216Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "9e2e6584bafee50d446f89e21c3ce50d7dfa46baa16e6b66f3c4ef6e05f5e0e1",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:30:23.681Z"
+            },
+            "classification": {
+              "fingerprint": "9e2e6584bafee50d446f89e21c3ce50d7dfa46baa16e6b66f3c4ef6e05f5e0e1",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:30:23.682Z"
+            },
+            "mathematics": {
+              "fingerprint": "9e2e6584bafee50d446f89e21c3ce50d7dfa46baa16e6b66f3c4ef6e05f5e0e1",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.683Z"
+            },
+            "figures": {
+              "fingerprint": "9e2e6584bafee50d446f89e21c3ce50d7dfa46baa16e6b66f3c4ef6e05f5e0e1",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.684Z"
+            },
+            "studentView": {
+              "fingerprint": "9e2e6584bafee50d446f89e21c3ce50d7dfa46baa16e6b66f3c4ef6e05f5e0e1",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:30:23.685Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T16:44:46.136Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "4ed0f521880895a6863610028967e804a30f13a84c45a7f53b48ee6a0ecb5de8",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:38:57.218Z"
+            },
+            "classification": {
+              "fingerprint": "4ed0f521880895a6863610028967e804a30f13a84c45a7f53b48ee6a0ecb5de8",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:38:57.219Z"
+            },
+            "mathematics": {
+              "fingerprint": "4ed0f521880895a6863610028967e804a30f13a84c45a7f53b48ee6a0ecb5de8",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.219Z"
+            },
+            "figures": {
+              "fingerprint": "4ed0f521880895a6863610028967e804a30f13a84c45a7f53b48ee6a0ecb5de8",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.220Z"
+            },
+            "studentView": {
+              "fingerprint": "4ed0f521880895a6863610028967e804a30f13a84c45a7f53b48ee6a0ecb5de8",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:38:57.221Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "level": "free",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of:\n\n\\(36x^2+36xy+9y^2\\)\n\n\\(24x^3+3y^3\\)\n\n\\(72x^2+84xy+24y^2\\)",
+        "stemZh": "求下列各式的最大公因式及最小公倍式：\n\n\\(36x^2+36xy+9y^2\\)\n\n\\(24x^3+3y^3\\)\n\n\\(72x^2+84xy+24y^2\\)",
+        "solution": "Factor each expression:\n\n\\(9(2x+y)^2\\)\n\n\\(3(2x+y)(4x^2-2xy+y^2)\\)\n\n\\(12(2x+y)(3x+2y)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=6 x + 3 y\\).\n\n\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]",
+        "solutionZh": "先把各式因式分解：\n\n\\(9(2x+y)^2\\)\n\n\\(3(2x+y)(4x^2-2xy+y^2)\\)\n\n\\(12(2x+y)(3x+2y)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=6 x + 3 y\\)。\n\n\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q6",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第6題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "6",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor every expression and compare numerical coefficients and minimum/maximum multiplicities.",
+          "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q6"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(36x^2+36xy+9y^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(24x^3+3y^3\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(72x^2+84xy+24y^2\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求下列各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(36x^2+36xy+9y^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(24x^3+3y^3\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(72x^2+84xy+24y^2\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor each expression:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(9(2x+y)^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(3(2x+y)(4x^2-2xy+y^2)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(12(2x+y)(3x+2y)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(H=6 x + 3 y\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "先把各式因式分解："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(9(2x+y)^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(3(2x+y)(4x^2-2xy+y^2)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(12(2x+y)(3x+2y)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(H=6 x + 3 y\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]"
+            }
+          ]
+        },
+        "id": "import-polynomial-b668e0683e11c648"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "71b1d0bfcbfef486ce4dce50f18070426b9d3061f074d92daf4a5b6467cf3503",
+          "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+          "at": "2026-11-16T16:44:46.275Z"
+        },
+        "classification": {
+          "fingerprint": "71b1d0bfcbfef486ce4dce50f18070426b9d3061f074d92daf4a5b6467cf3503",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+          "at": "2026-11-16T16:44:46.276Z"
+        },
+        "mathematics": {
+          "fingerprint": "71b1d0bfcbfef486ce4dce50f18070426b9d3061f074d92daf4a5b6467cf3503",
+          "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.277Z"
+        },
+        "figures": {
+          "fingerprint": "71b1d0bfcbfef486ce4dce50f18070426b9d3061f074d92daf4a5b6467cf3503",
+          "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.278Z"
+        },
+        "studentView": {
+          "fingerprint": "71b1d0bfcbfef486ce4dce50f18070426b9d3061f074d92daf4a5b6467cf3503",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+          "at": "2026-11-16T16:44:46.279Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T16:27:52.812Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-16T16:44:46.136Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "8856572f29473a6651fa478ed5dbff153427447edc55c1a559e6aac615344494",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:38:57.222Z"
+            },
+            "classification": {
+              "fingerprint": "8856572f29473a6651fa478ed5dbff153427447edc55c1a559e6aac615344494",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:38:57.223Z"
+            },
+            "mathematics": {
+              "fingerprint": "8856572f29473a6651fa478ed5dbff153427447edc55c1a559e6aac615344494",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.224Z"
+            },
+            "figures": {
+              "fingerprint": "8856572f29473a6651fa478ed5dbff153427447edc55c1a559e6aac615344494",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.225Z"
+            },
+            "studentView": {
+              "fingerprint": "8856572f29473a6651fa478ed5dbff153427447edc55c1a559e6aac615344494",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:38:57.226Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "7",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "level": "free",
+        "subcategory": "rational-expressions",
+        "skill": "poly-rational-sums",
+        "stem": "Simplify \\[\\begin{gathered}\\frac3{4x+1}\\\\+\\frac{9x}{4x^2+5x+1}\\end{gathered}\\]",
+        "stemZh": "化簡 \\[\\begin{gathered}\\frac3{4x+1}\\\\+\\frac{9x}{4x^2+5x+1}\\end{gathered}\\]",
+        "solution": "Factor \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\] The common-denominator numerator is \\(3(x+1)+9x=3(4x+1)\\).\n\nThus the result is \\(\\frac{3}{x + 1}\\).\n\nKeep the original domain: \\(x\\ne-1,-\\frac14\\). Cancellation does not restore excluded values.",
+        "solutionZh": "分母分解為 \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\]。通分後分子為 \\(3(x+1)+9x=3(4x+1)\\)。\n\n所以結果為 \\(\\frac{3}{x + 1}\\)。\n\n保留原式定義域：\\(x\\ne-1,-\\frac14\\)。約去因式不能恢復原本排除的值。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q7",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第7題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "7",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+          "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q7"
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\] The common-denominator numerator is \\(3(x+1)+9x=3(4x+1)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Thus the result is \\(\\frac{3}{x + 1}\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keep the original domain: \\(x\\ne-1,-\\frac14\\). Cancellation does not restore excluded values."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "分母分解為 \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\]。通分後分子為 \\(3(x+1)+9x=3(4x+1)\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "所以結果為 \\(\\frac{3}{x + 1}\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "保留原式定義域：\\(x\\ne-1,-\\frac14\\)。約去因式不能恢復原本排除的值。"
+            }
+          ]
+        },
+        "id": "import-polynomial-0087f80bd45360cc"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "53630875d056e06cb87e5bd038a521b3191df1b82a4f97d13b39dacd0269bc1e",
+          "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+          "at": "2026-11-16T16:44:46.280Z"
+        },
+        "classification": {
+          "fingerprint": "53630875d056e06cb87e5bd038a521b3191df1b82a4f97d13b39dacd0269bc1e",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+          "at": "2026-11-16T16:44:46.281Z"
+        },
+        "mathematics": {
+          "fingerprint": "53630875d056e06cb87e5bd038a521b3191df1b82a4f97d13b39dacd0269bc1e",
+          "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.281Z"
+        },
+        "figures": {
+          "fingerprint": "53630875d056e06cb87e5bd038a521b3191df1b82a4f97d13b39dacd0269bc1e",
+          "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.282Z"
+        },
+        "studentView": {
+          "fingerprint": "53630875d056e06cb87e5bd038a521b3191df1b82a4f97d13b39dacd0269bc1e",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+          "at": "2026-11-16T16:44:46.283Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T16:36:39.217Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "c5037dc2797fefef3dd7a2dfa06a78116ede0f7d561c84d8c14b7fe8e0b5d49a",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:30:23.689Z"
+            },
+            "classification": {
+              "fingerprint": "c5037dc2797fefef3dd7a2dfa06a78116ede0f7d561c84d8c14b7fe8e0b5d49a",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:30:23.690Z"
+            },
+            "mathematics": {
+              "fingerprint": "c5037dc2797fefef3dd7a2dfa06a78116ede0f7d561c84d8c14b7fe8e0b5d49a",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.691Z"
+            },
+            "figures": {
+              "fingerprint": "c5037dc2797fefef3dd7a2dfa06a78116ede0f7d561c84d8c14b7fe8e0b5d49a",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.691Z"
+            },
+            "studentView": {
+              "fingerprint": "c5037dc2797fefef3dd7a2dfa06a78116ede0f7d561c84d8c14b7fe8e0b5d49a",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:30:23.692Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T16:44:46.136Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "75a07fd0c39dbb9c05e82c24e7fa71f03cecbc855ab4290ae09891562508b46f",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:38:57.226Z"
+            },
+            "classification": {
+              "fingerprint": "75a07fd0c39dbb9c05e82c24e7fa71f03cecbc855ab4290ae09891562508b46f",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:38:57.227Z"
+            },
+            "mathematics": {
+              "fingerprint": "75a07fd0c39dbb9c05e82c24e7fa71f03cecbc855ab4290ae09891562508b46f",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.228Z"
+            },
+            "figures": {
+              "fingerprint": "75a07fd0c39dbb9c05e82c24e7fa71f03cecbc855ab4290ae09891562508b46f",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.229Z"
+            },
+            "studentView": {
+              "fingerprint": "75a07fd0c39dbb9c05e82c24e7fa71f03cecbc855ab4290ae09891562508b46f",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:38:57.229Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "8",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "level": "free",
+        "subcategory": "rational-expressions",
+        "skill": "poly-rational-sums",
+        "stem": "Simplify \\[\\begin{gathered}\\frac{2x-3}{x^3-1}\\\\-\\frac2{x^2-8x+7}\\end{gathered}\\]",
+        "stemZh": "化簡 \\[\\begin{gathered}\\frac{2x-3}{x^3-1}\\\\-\\frac2{x^2-8x+7}\\end{gathered}\\]",
+        "solution": "The denominators factor as \\((x-1)(x^2+x+1)\\) and \\((x-1)(x-7)\\). The combined numerator is \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]\n\nThus the result is \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\).\n\nKeep the original domain: \\(x\\ne1,7\\) (real variables). Cancellation does not restore excluded values.",
+        "solutionZh": "分母分別分解為 \\((x-1)(x^2+x+1)\\) 及 \\((x-1)(x-7)\\)。通分後分子為 \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]\n\n所以結果為 \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)。\n\n保留原式定義域：\\(x\\ne1,7\\)（實數變量）。約去因式不能恢復原本排除的值。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q8",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第8題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "8",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+          "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q8"
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The denominators factor as \\((x-1)(x^2+x+1)\\) and \\((x-1)(x-7)\\). The combined numerator is \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Thus the result is \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keep the original domain: \\(x\\ne1,7\\) (real variables). Cancellation does not restore excluded values."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "分母分別分解為 \\((x-1)(x^2+x+1)\\) 及 \\((x-1)(x-7)\\)。通分後分子為 \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]"
+            },
+            {
+              "type": "paragraph",
+              "text": "所以結果為 \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "保留原式定義域：\\(x\\ne1,7\\)（實數變量）。約去因式不能恢復原本排除的值。"
+            }
+          ]
+        },
+        "id": "import-polynomial-6d4c054ed4fa0b97"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "bbe6d8058c34021e5ec74777cfa9db6fd03b8182cb6e89b337eb67b1d5672897",
+          "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+          "at": "2026-11-16T16:44:46.284Z"
+        },
+        "classification": {
+          "fingerprint": "bbe6d8058c34021e5ec74777cfa9db6fd03b8182cb6e89b337eb67b1d5672897",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+          "at": "2026-11-16T16:44:46.285Z"
+        },
+        "mathematics": {
+          "fingerprint": "bbe6d8058c34021e5ec74777cfa9db6fd03b8182cb6e89b337eb67b1d5672897",
+          "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.286Z"
+        },
+        "figures": {
+          "fingerprint": "bbe6d8058c34021e5ec74777cfa9db6fd03b8182cb6e89b337eb67b1d5672897",
+          "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.287Z"
+        },
+        "studentView": {
+          "fingerprint": "bbe6d8058c34021e5ec74777cfa9db6fd03b8182cb6e89b337eb67b1d5672897",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+          "at": "2026-11-16T16:44:46.288Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T16:36:39.217Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "0ef2289a2f7d336d089dbdd87f982035ab9fc4e8c68027850d2b194ad56f2f24",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:30:23.692Z"
+            },
+            "classification": {
+              "fingerprint": "0ef2289a2f7d336d089dbdd87f982035ab9fc4e8c68027850d2b194ad56f2f24",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:30:23.693Z"
+            },
+            "mathematics": {
+              "fingerprint": "0ef2289a2f7d336d089dbdd87f982035ab9fc4e8c68027850d2b194ad56f2f24",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.694Z"
+            },
+            "figures": {
+              "fingerprint": "0ef2289a2f7d336d089dbdd87f982035ab9fc4e8c68027850d2b194ad56f2f24",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.694Z"
+            },
+            "studentView": {
+              "fingerprint": "0ef2289a2f7d336d089dbdd87f982035ab9fc4e8c68027850d2b194ad56f2f24",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:30:23.695Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T16:44:46.136Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "0f04fb0aae2161bb2a7d6817b944ff5aa8b89d1065cdea2931e5a2e661680daf",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:38:57.230Z"
+            },
+            "classification": {
+              "fingerprint": "0f04fb0aae2161bb2a7d6817b944ff5aa8b89d1065cdea2931e5a2e661680daf",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:38:57.231Z"
+            },
+            "mathematics": {
+              "fingerprint": "0f04fb0aae2161bb2a7d6817b944ff5aa8b89d1065cdea2931e5a2e661680daf",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.232Z"
+            },
+            "figures": {
+              "fingerprint": "0f04fb0aae2161bb2a7d6817b944ff5aa8b89d1065cdea2931e5a2e661680daf",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.233Z"
+            },
+            "studentView": {
+              "fingerprint": "0f04fb0aae2161bb2a7d6817b944ff5aa8b89d1065cdea2931e5a2e661680daf",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:38:57.233Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "9",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "level": "free",
+        "subcategory": "rational-expressions",
+        "skill": "poly-rational-products",
+        "stem": "Simplify \\(\\frac{2x^2-13x+6}{9-25x^2}\\)\n\n\\(\\times\\frac{9x^2+6x+1}{10x-5}\\)\n\n\\(\\times\\frac{5x+3}{3x^2-17x-6}\\).",
+        "stemZh": "化簡 \\(\\frac{2x^2-13x+6}{9-25x^2}\\)\n\n\\(\\times\\frac{9x^2+6x+1}{10x-5}\\)\n\n\\(\\times\\frac{5x+3}{3x^2-17x-6}\\)。",
+        "solution": "Factor \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\] \\(9-25x^2=(3-5x)(3+5x)\\), \\(9x^2+6x+1=(3x+1)^2\\), \\(10x-5=5(2x-1)\\) and \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\] Cancel common factors in the full product.\n\nThus the result is \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\).\n\nKeep the original domain: \\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\] Cancellation does not restore excluded values.",
+        "solutionZh": "分解 \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\]、\\(9-25x^2=(3-5x)(3+5x)\\)、\\(9x^2+6x+1=(3x+1)^2\\)、\\(10x-5=5(2x-1)\\) 及 \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\]，再於整個乘積中約去共同因式。\n\n所以結果為 \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)。\n\n保留原式定義域：\\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]。約去因式不能恢復原本排除的值。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q9",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第9題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "9",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+          "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q9"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Simplify \\(\\frac{2x^2-13x+6}{9-25x^2}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\times\\frac{9x^2+6x+1}{10x-5}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\times\\frac{5x+3}{3x^2-17x-6}\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "化簡 \\(\\frac{2x^2-13x+6}{9-25x^2}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\times\\frac{9x^2+6x+1}{10x-5}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\times\\frac{5x+3}{3x^2-17x-6}\\)。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\] \\(9-25x^2=(3-5x)(3+5x)\\), \\(9x^2+6x+1=(3x+1)^2\\), \\(10x-5=5(2x-1)\\) and \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\] Cancel common factors in the full product."
+            },
+            {
+              "type": "paragraph",
+              "text": "Thus the result is \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keep the original domain: \\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\] Cancellation does not restore excluded values."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "分解 \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\]、\\(9-25x^2=(3-5x)(3+5x)\\)、\\(9x^2+6x+1=(3x+1)^2\\)、\\(10x-5=5(2x-1)\\) 及 \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\]，再於整個乘積中約去共同因式。"
+            },
+            {
+              "type": "paragraph",
+              "text": "所以結果為 \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "保留原式定義域：\\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]。約去因式不能恢復原本排除的值。"
+            }
+          ]
+        },
+        "id": "import-polynomial-7ca98018c1df6095"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "81df05e16f88d290f4609c2c77290a41b85dcae6dacd678703981b02009dcb9c",
+          "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+          "at": "2026-11-16T16:44:46.289Z"
+        },
+        "classification": {
+          "fingerprint": "81df05e16f88d290f4609c2c77290a41b85dcae6dacd678703981b02009dcb9c",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+          "at": "2026-11-16T16:44:46.290Z"
+        },
+        "mathematics": {
+          "fingerprint": "81df05e16f88d290f4609c2c77290a41b85dcae6dacd678703981b02009dcb9c",
+          "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.291Z"
+        },
+        "figures": {
+          "fingerprint": "81df05e16f88d290f4609c2c77290a41b85dcae6dacd678703981b02009dcb9c",
+          "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.292Z"
+        },
+        "studentView": {
+          "fingerprint": "81df05e16f88d290f4609c2c77290a41b85dcae6dacd678703981b02009dcb9c",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+          "at": "2026-11-16T16:44:46.293Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T16:36:39.217Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "63b1edc0e8563a3f4d7b31a59575bdb9311630011ae267c155bdd5e1fa031b3a",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:30:23.696Z"
+            },
+            "classification": {
+              "fingerprint": "63b1edc0e8563a3f4d7b31a59575bdb9311630011ae267c155bdd5e1fa031b3a",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:30:23.697Z"
+            },
+            "mathematics": {
+              "fingerprint": "63b1edc0e8563a3f4d7b31a59575bdb9311630011ae267c155bdd5e1fa031b3a",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.697Z"
+            },
+            "figures": {
+              "fingerprint": "63b1edc0e8563a3f4d7b31a59575bdb9311630011ae267c155bdd5e1fa031b3a",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.699Z"
+            },
+            "studentView": {
+              "fingerprint": "63b1edc0e8563a3f4d7b31a59575bdb9311630011ae267c155bdd5e1fa031b3a",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:30:23.699Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T16:44:46.136Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "085fad3205cf6193307eb97d4679331801757b3cdf4d5d3550fed0b6ca371889",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:38:57.235Z"
+            },
+            "classification": {
+              "fingerprint": "085fad3205cf6193307eb97d4679331801757b3cdf4d5d3550fed0b6ca371889",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:38:57.236Z"
+            },
+            "mathematics": {
+              "fingerprint": "085fad3205cf6193307eb97d4679331801757b3cdf4d5d3550fed0b6ca371889",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.237Z"
+            },
+            "figures": {
+              "fingerprint": "085fad3205cf6193307eb97d4679331801757b3cdf4d5d3550fed0b6ca371889",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.238Z"
+            },
+            "studentView": {
+              "fingerprint": "085fad3205cf6193307eb97d4679331801757b3cdf4d5d3550fed0b6ca371889",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:38:57.239Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "10",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "level": "free",
+        "subcategory": "rational-expressions",
+        "skill": "poly-rational-products",
+        "stem": "Simplify \\(\\frac{25x^2-9y^2}{3x^2-6xy}\\)\n\n\\(\\times\\frac{x^2}{5x^2-2xy-3y^2}\\)\n\n\\(\\div\\frac{5x^2y-3xy^2}{x^2-4xy+4y^2}\\).",
+        "stemZh": "化簡 \\(\\frac{25x^2-9y^2}{3x^2-6xy}\\)\n\n\\(\\times\\frac{x^2}{5x^2-2xy-3y^2}\\)\n\n\\(\\div\\frac{5x^2y-3xy^2}{x^2-4xy+4y^2}\\)。",
+        "solution": "Factor the first numerator as \\((5x-3y)(5x+3y)\\); the other denominator factors are \\(3x(x-2y)\\), \\((5x+3y)(x-y)\\) and \\((x-2y)^2\\). Invert the last fraction, whose numerator is \\(xy(5x-3y)\\), then cancel.\n\nThus the result is \\(\\frac{x - 2 y}{3 y \\left(x - y\\right)}\\).\n\nKeep the original domain: \\(x\\ne0\\), \\(y\\ne0\\), \\(x-2y\\ne0\\), \\(x-y\\ne0\\), \\(5x+3y\\ne0\\), \\(5x-3y\\ne0\\). Cancellation does not restore excluded values.",
+        "solutionZh": "首個分子為 \\((5x-3y)(5x+3y)\\)；各分母的因式分解為 \\(3x(x-2y)\\)、\\((5x+3y)(x-y)\\)、\\((x-2y)^2\\)。最後分式的分子為 \\(xy(5x-3y)\\)，除以它須先取倒數，再約去因式。\n\n所以結果為 \\(\\frac{x - 2 y}{3 y \\left(x - y\\right)}\\)。\n\n保留原式定義域：\\(x\\ne0\\)、\\(y\\ne0\\)、\\(x-2y\\ne0\\)、\\(x-y\\ne0\\)、\\(5x+3y\\ne0\\)、\\(5x-3y\\ne0\\)。約去因式不能恢復原本排除的值。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q10",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第10題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "10",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+          "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q10"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Simplify \\(\\frac{25x^2-9y^2}{3x^2-6xy}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\times\\frac{x^2}{5x^2-2xy-3y^2}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\div\\frac{5x^2y-3xy^2}{x^2-4xy+4y^2}\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "化簡 \\(\\frac{25x^2-9y^2}{3x^2-6xy}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\times\\frac{x^2}{5x^2-2xy-3y^2}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\div\\frac{5x^2y-3xy^2}{x^2-4xy+4y^2}\\)。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor the first numerator as \\((5x-3y)(5x+3y)\\); the other denominator factors are \\(3x(x-2y)\\), \\((5x+3y)(x-y)\\) and \\((x-2y)^2\\). Invert the last fraction, whose numerator is \\(xy(5x-3y)\\), then cancel."
+            },
+            {
+              "type": "paragraph",
+              "text": "Thus the result is \\(\\frac{x - 2 y}{3 y \\left(x - y\\right)}\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keep the original domain: \\(x\\ne0\\), \\(y\\ne0\\), \\(x-2y\\ne0\\), \\(x-y\\ne0\\), \\(5x+3y\\ne0\\), \\(5x-3y\\ne0\\). Cancellation does not restore excluded values."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "首個分子為 \\((5x-3y)(5x+3y)\\)；各分母的因式分解為 \\(3x(x-2y)\\)、\\((5x+3y)(x-y)\\)、\\((x-2y)^2\\)。最後分式的分子為 \\(xy(5x-3y)\\)，除以它須先取倒數，再約去因式。"
+            },
+            {
+              "type": "paragraph",
+              "text": "所以結果為 \\(\\frac{x - 2 y}{3 y \\left(x - y\\right)}\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "保留原式定義域：\\(x\\ne0\\)、\\(y\\ne0\\)、\\(x-2y\\ne0\\)、\\(x-y\\ne0\\)、\\(5x+3y\\ne0\\)、\\(5x-3y\\ne0\\)。約去因式不能恢復原本排除的值。"
+            }
+          ]
+        },
+        "id": "import-polynomial-0a80ee10ccd7f47b"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "8f4c32ee5c9e676a3531c12eccb24ce187d1efcfbbdfe4530523b16cacf0cfa7",
+          "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+          "at": "2026-11-16T16:44:46.293Z"
+        },
+        "classification": {
+          "fingerprint": "8f4c32ee5c9e676a3531c12eccb24ce187d1efcfbbdfe4530523b16cacf0cfa7",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+          "at": "2026-11-16T16:44:46.294Z"
+        },
+        "mathematics": {
+          "fingerprint": "8f4c32ee5c9e676a3531c12eccb24ce187d1efcfbbdfe4530523b16cacf0cfa7",
+          "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.295Z"
+        },
+        "figures": {
+          "fingerprint": "8f4c32ee5c9e676a3531c12eccb24ce187d1efcfbbdfe4530523b16cacf0cfa7",
+          "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.296Z"
+        },
+        "studentView": {
+          "fingerprint": "8f4c32ee5c9e676a3531c12eccb24ce187d1efcfbbdfe4530523b16cacf0cfa7",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+          "at": "2026-11-16T16:44:46.297Z"
+        }
+      }
+    },
+    {
+      "locator": "11",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "level": "free",
+        "subcategory": "rational-expressions",
+        "skill": "poly-rational-sums",
+        "stem": "Simplify \\[\\begin{gathered}\\frac2{x^2-6x+8}\\\\+\\frac4{x^2-4}\\end{gathered}\\]\n\n\\(-\\frac5{x^2-2x-8}\\).",
+        "stemZh": "化簡 \\[\\begin{gathered}\\frac2{x^2-6x+8}\\\\+\\frac4{x^2-4}\\end{gathered}\\]\n\n\\(-\\frac5{x^2-2x-8}\\)。",
+        "solution": "The common denominator is \\((x-2)(x+2)(x-4)\\). The numerator becomes \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]\n\nThus the result is \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\).\n\nKeep the original domain: \\(x\\ne2,-2,4\\). Cancellation does not restore excluded values.",
+        "solutionZh": "公分母為 \\((x-2)(x+2)(x-4)\\)，分子化為 \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]\n\n所以結果為 \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)。\n\n保留原式定義域：\\(x\\ne2,-2,4\\)。約去因式不能恢復原本排除的值。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q11",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第11題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "11",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+          "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q11"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Simplify \\[\\begin{gathered}\\frac2{x^2-6x+8}\\\\+\\frac4{x^2-4}\\end{gathered}\\]"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(-\\frac5{x^2-2x-8}\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "化簡 \\[\\begin{gathered}\\frac2{x^2-6x+8}\\\\+\\frac4{x^2-4}\\end{gathered}\\]"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(-\\frac5{x^2-2x-8}\\)。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The common denominator is \\((x-2)(x+2)(x-4)\\). The numerator becomes \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Thus the result is \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keep the original domain: \\(x\\ne2,-2,4\\). Cancellation does not restore excluded values."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "公分母為 \\((x-2)(x+2)(x-4)\\)，分子化為 \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]"
+            },
+            {
+              "type": "paragraph",
+              "text": "所以結果為 \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "保留原式定義域：\\(x\\ne2,-2,4\\)。約去因式不能恢復原本排除的值。"
+            }
+          ]
+        },
+        "id": "import-polynomial-1f451aac9fbab328"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "632c0350fa3c7c02a541f7c03dd7802dde354d70ed38fb2ab9cadb715c3d461c",
+          "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+          "at": "2026-11-16T16:44:46.298Z"
+        },
+        "classification": {
+          "fingerprint": "632c0350fa3c7c02a541f7c03dd7802dde354d70ed38fb2ab9cadb715c3d461c",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+          "at": "2026-11-16T16:44:46.299Z"
+        },
+        "mathematics": {
+          "fingerprint": "632c0350fa3c7c02a541f7c03dd7802dde354d70ed38fb2ab9cadb715c3d461c",
+          "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.300Z"
+        },
+        "figures": {
+          "fingerprint": "632c0350fa3c7c02a541f7c03dd7802dde354d70ed38fb2ab9cadb715c3d461c",
+          "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.302Z"
+        },
+        "studentView": {
+          "fingerprint": "632c0350fa3c7c02a541f7c03dd7802dde354d70ed38fb2ab9cadb715c3d461c",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+          "at": "2026-11-16T16:44:46.303Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T16:27:52.813Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-16T16:44:46.136Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "181e9d87fffd9c5e3b947d23b97e0b07408cfd0be7db95f7eba98f1460d265d7",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:38:57.246Z"
+            },
+            "classification": {
+              "fingerprint": "181e9d87fffd9c5e3b947d23b97e0b07408cfd0be7db95f7eba98f1460d265d7",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:38:57.247Z"
+            },
+            "mathematics": {
+              "fingerprint": "181e9d87fffd9c5e3b947d23b97e0b07408cfd0be7db95f7eba98f1460d265d7",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.248Z"
+            },
+            "figures": {
+              "fingerprint": "181e9d87fffd9c5e3b947d23b97e0b07408cfd0be7db95f7eba98f1460d265d7",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.249Z"
+            },
+            "studentView": {
+              "fingerprint": "181e9d87fffd9c5e3b947d23b97e0b07408cfd0be7db95f7eba98f1460d265d7",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:38:57.249Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locator": "12",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "assessmentMode": "solution-comparison",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "level": "free",
+        "subcategory": "rational-expressions",
+        "skill": "poly-rational-products",
+        "stem": "Simplify \\(\\frac{x-y}{x+y}\\)\n\n\\(-\\frac{(2xy+1)(5x+y)}{x+2xy^2+y+2x^2y}\\)\n\n\\(\\times\\frac{x^2-2xy+y^2}{5x^2-4xy-y^2}\\).",
+        "stemZh": "化簡 \\(\\frac{x-y}{x+y}\\)\n\n\\(-\\frac{(2xy+1)(5x+y)}{x+2xy^2+y+2x^2y}\\)\n\n\\(\\times\\frac{x^2-2xy+y^2}{5x^2-4xy-y^2}\\)。",
+        "solution": "Use \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] and \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\] The product being subtracted reduces to \\((x-y)/(x+y)\\), exactly the first term.\n\nThus the result is \\(0\\).\n\nKeep the original domain: \\(x+y\\ne0\\), \\(1+2xy\\ne0\\), \\(5x+y\\ne0\\), \\(x-y\\ne0\\). Cancellation does not restore excluded values.",
+        "solutionZh": "利用 \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] 及 \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\]，被減去的乘積化為 \\((x-y)/(x+y)\\)，與首項相同。\n\n所以結果為 \\(0\\)。\n\n保留原式定義域：\\(x+y\\ne0\\)、\\(1+2xy\\ne0\\)、\\(5x+y\\ne0\\)、\\(x-y\\ne0\\)。約去因式不能恢復原本排除的值。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q12",
+        "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第12題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-d8120baa178a69de",
+          "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+          "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+          "number": "12",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+          "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q12"
+        },
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Simplify \\(\\frac{x-y}{x+y}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(-\\frac{(2xy+1)(5x+y)}{x+2xy^2+y+2x^2y}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\times\\frac{x^2-2xy+y^2}{5x^2-4xy-y^2}\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "化簡 \\(\\frac{x-y}{x+y}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(-\\frac{(2xy+1)(5x+y)}{x+2xy^2+y+2x^2y}\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(\\times\\frac{x^2-2xy+y^2}{5x^2-4xy-y^2}\\)。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Use \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] and \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\] The product being subtracted reduces to \\((x-y)/(x+y)\\), exactly the first term."
+            },
+            {
+              "type": "paragraph",
+              "text": "Thus the result is \\(0\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keep the original domain: \\(x+y\\ne0\\), \\(1+2xy\\ne0\\), \\(5x+y\\ne0\\), \\(x-y\\ne0\\). Cancellation does not restore excluded values."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "利用 \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] 及 \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\]，被減去的乘積化為 \\((x-y)/(x+y)\\)，與首項相同。"
+            },
+            {
+              "type": "paragraph",
+              "text": "所以結果為 \\(0\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "保留原式定義域：\\(x+y\\ne0\\)、\\(1+2xy\\ne0\\)、\\(5x+y\\ne0\\)、\\(x-y\\ne0\\)。約去因式不能恢復原本排除的值。"
+            }
+          ]
+        },
+        "id": "import-polynomial-a84116b6ffd58b93"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "9466b06929767ddba90a302f8e7227387a8f7ec5eecf6b88a48e560977837297",
+          "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+          "at": "2026-11-16T16:44:46.304Z"
+        },
+        "classification": {
+          "fingerprint": "9466b06929767ddba90a302f8e7227387a8f7ec5eecf6b88a48e560977837297",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+          "at": "2026-11-16T16:44:46.305Z"
+        },
+        "mathematics": {
+          "fingerprint": "9466b06929767ddba90a302f8e7227387a8f7ec5eecf6b88a48e560977837297",
+          "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.306Z"
+        },
+        "figures": {
+          "fingerprint": "9466b06929767ddba90a302f8e7227387a8f7ec5eecf6b88a48e560977837297",
+          "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+          "at": "2026-11-16T16:44:46.307Z"
+        },
+        "studentView": {
+          "fingerprint": "9466b06929767ddba90a302f8e7227387a8f7ec5eecf6b88a48e560977837297",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+          "at": "2026-11-16T16:44:46.308Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T16:36:39.217Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "256f5d53c6d950f52a6087ae6a8eadb4d325bf9137c9534d1d95116cfc8646fe",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:30:23.708Z"
+            },
+            "classification": {
+              "fingerprint": "256f5d53c6d950f52a6087ae6a8eadb4d325bf9137c9534d1d95116cfc8646fe",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:30:23.709Z"
+            },
+            "mathematics": {
+              "fingerprint": "256f5d53c6d950f52a6087ae6a8eadb4d325bf9137c9534d1d95116cfc8646fe",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.710Z"
+            },
+            "figures": {
+              "fingerprint": "256f5d53c6d950f52a6087ae6a8eadb4d325bf9137c9534d1d95116cfc8646fe",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:30:23.711Z"
+            },
+            "studentView": {
+              "fingerprint": "256f5d53c6d950f52a6087ae6a8eadb4d325bf9137c9534d1d95116cfc8646fe",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:30:23.712Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T16:44:46.137Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "c20bed942671b4c72ebfee70cbd819a67421511ce4cd08caf6d1c64b3da8d2c3",
+              "evidence": "Primary Codex personally reviewed all7 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-17/rational-wave",
+              "at": "2026-11-16T16:38:57.250Z"
+            },
+            "classification": {
+              "fingerprint": "c20bed942671b4c72ebfee70cbd819a67421511ce4cd08caf6d1c64b3da8d2c3",
+              "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-17/rational-wave/wave.json",
+              "at": "2026-11-16T16:38:57.251Z"
+            },
+            "mathematics": {
+              "fingerprint": "c20bed942671b4c72ebfee70cbd819a67421511ce4cd08caf6d1c64b3da8d2c3",
+              "evidence": "Independent symbolic/manual review across30 original records,53 checks; all denominator/divisor exclusions, repeated versus distinct roots, rational versus irrational roots and source-key corrections checked. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.252Z"
+            },
+            "figures": {
+              "fingerprint": "c20bed942671b4c72ebfee70cbd819a67421511ce4cd08caf6d1c64b3da8d2c3",
+              "evidence": "All7 source pages personally inspected. All three sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-17/rational-wave/mathematics.json",
+              "at": "2026-11-16T16:38:57.253Z"
+            },
+            "studentView": {
+              "fingerprint": "c20bed942671b4c72ebfee70cbd819a67421511ce4cd08caf6d1c64b3da8d2c3",
+              "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-17/rational-wave/draft/wave-qa.json",
+              "at": "2026-11-16T16:38:57.253Z"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-11-16T16:23:51.752Z",
+      "event": "draft-saved",
+      "revision": 1
+    },
+    {
+      "at": "2026-11-16T16:27:52.813Z",
+      "event": "draft-saved",
+      "revision": 2
+    },
+    {
+      "at": "2026-11-16T16:28:51.537Z",
+      "event": "draft-saved",
+      "revision": 3
+    },
+    {
+      "at": "2026-11-16T16:36:39.217Z",
+      "event": "draft-saved",
+      "revision": 50
+    },
+    {
+      "at": "2026-11-16T16:44:46.137Z",
+      "event": "draft-saved",
+      "revision": 98
+    }
+  ],
+  "createdAt": "2026-11-16T16:23:51.703Z",
+  "catalog": {
+    "subjects": [
+      {
+        "id": "algebra",
+        "name": {
+          "en": "Algebra",
+          "zh-Hant": "代數"
+        },
+        "chapters": [
+          {
+            "id": "polynomials",
+            "topicId": "polynomial",
+            "name": {
+              "en": "Polynomials",
+              "zh-Hant": "多項式"
+            },
+            "subcategories": [
+              {
+                "id": "rational-expressions",
+                "name": {
+                  "en": "Algebraic fractions",
+                  "zh-Hant": "代數分式"
+                },
+                "skills": [
+                  "poly-rational-products",
+                  "poly-rational-sums",
+                  "poly-complex-fractions",
+                  "poly-partial-fractions"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "poly-rational-products": "Factor, cancel and divide algebraic fractions｜分式因式分解、約分及除法",
+    "poly-rational-sums": "Add/subtract algebraic fractions｜分式通分與加減",
+    "poly-complex-fractions": "Simplify compound fractions｜複分式化簡",
+    "poly-partial-fractions": "Recover partial-fraction constants｜部分分式常數"
+  },
+  "import": {
+    "at": "2026-11-16T16:49:16.859Z",
+    "baseline": "f0a1de35c85108be64142eaa2e8341fcc8f60fabcb0b40f4debdcd254a0a9025",
+    "report": {
+      "added": [],
+      "updated": [],
+      "unchanged": [
+        "import-polynomial-0f771244c57ce81f",
+        "import-polynomial-b3ca80e93cb419ba",
+        "import-polynomial-b668e0683e11c648",
+        "import-polynomial-0087f80bd45360cc",
+        "import-polynomial-6d4c054ed4fa0b97",
+        "import-polynomial-7ca98018c1df6095",
+        "import-polynomial-0a80ee10ccd7f47b",
+        "import-polynomial-1f451aac9fbab328",
+        "import-polynomial-a84116b6ffd58b93"
+      ],
+      "chapters": [],
+      "taxonomyChanged": false
+    },
+    "mode": "verified-replay",
+    "backup": null
+  }
+}

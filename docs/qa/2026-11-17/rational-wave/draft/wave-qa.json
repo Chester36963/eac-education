@@ -1,0 +1,370 @@
+{
+  "status": "draft-rendering-verified",
+  "batches": [
+    {
+      "id": "intake-d8120baa178a69de",
+      "source": {
+        "id": "source-d8120baa178a69de",
+        "path": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "pageCount": 1
+      },
+      "fingerprint": "494505fc00bae2429349d88d4c892f7ce465a14db544a7a6df9e5907b8a7b64d",
+      "cached": false,
+      "count": 108
+    },
+    {
+      "id": "intake-694fe8baac70e10e",
+      "source": {
+        "id": "source-694fe8baac70e10e",
+        "path": "S4/more about polynomials/S4 polynomials revise.pdf",
+        "sha256": "2df3c02a2dd137e949975adee26149c7a8e3b6faefe8bc632c22fbb6a10e4b6c",
+        "pageCount": 3
+      },
+      "fingerprint": "cfb299f6e2c094670963b3d72307504d96195e447baf20fa21d6e24b107c68b9",
+      "cached": false,
+      "count": 36
+    },
+    {
+      "id": "intake-98d8641aac7de987",
+      "source": {
+        "id": "source-98d8641aac7de987",
+        "path": "S4/more about polynomials/Rational function review.pdf",
+        "sha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+        "pageCount": 3
+      },
+      "fingerprint": "295507b89374e6ba02393c733ccb54b97929b68691d10db7edec6172019de5b5",
+      "cached": false,
+      "count": 180
+    }
+  ],
+  "previewStates": 324,
+  "formulaFitStates": 54,
+  "formulaFit": [
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "2",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "5",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "6",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "7",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "8",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "9",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "10",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "11",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "12",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "1",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "2",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "3",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "4",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "5",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "6",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "7",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "8",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "9",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "10",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "11",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "12",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "13",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "14",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "15",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-694fe8baac70e10e",
+      "locator": "1",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-694fe8baac70e10e",
+      "locator": "2",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-694fe8baac70e10e",
+      "locator": "3",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "2",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "5",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "6",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "7",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "8",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "9",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "10",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "11",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-d8120baa178a69de",
+      "locator": "12",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "1",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "2",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "3",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "4",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "5",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "6",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "7",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "8",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "9",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "10",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "11",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "12",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "13",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "14",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-98d8641aac7de987",
+      "locator": "15",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-694fe8baac70e10e",
+      "locator": "1",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-694fe8baac70e10e",
+      "locator": "2",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-694fe8baac70e10e",
+      "locator": "3",
+      "width": 390,
+      "status": "pass"
+    }
+  ],
+  "boundary": "Source identity and rendering only. Does not grant human text, mathematical, classification or diagram approvals."
+}

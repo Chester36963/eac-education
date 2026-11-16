@@ -1,0 +1,701 @@
+{
+  "sourceRecords": 30,
+  "counts": {
+    "new": 27,
+    "duplicate": 3,
+    "held": 0,
+    "existingSolutionCorrections": 0
+  },
+  "records": [
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-8d1864fe82ad22db",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-0f771244c57ce81f",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Factor every expression and compare numerical coefficients and minimum/maximum multiplicities.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-ce4b61bb3dd9ff24",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-09ecedda60d5ccb3",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-b3ca80e93cb419ba",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Factor every expression and compare numerical coefficients and minimum/maximum multiplicities.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-b668e0683e11c648",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Factor every expression and compare numerical coefficients and minimum/maximum multiplicities.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "7",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-0087f80bd45360cc",
+      "skill": "poly-rational-sums",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "8",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-6d4c054ed4fa0b97",
+      "skill": "poly-rational-sums",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "9",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-7ca98018c1df6095",
+      "skill": "poly-rational-products",
+      "subcategory": "rational-expressions",
+      "difficulty": "hard",
+      "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "10",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-0a80ee10ccd7f47b",
+      "skill": "poly-rational-products",
+      "subcategory": "rational-expressions",
+      "difficulty": "hard",
+      "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "11",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-1f451aac9fbab328",
+      "skill": "poly-rational-sums",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "number": "12",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-a84116b6ffd58b93",
+      "skill": "poly-rational-products",
+      "subcategory": "rational-expressions",
+      "difficulty": "hard",
+      "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-5c6ccca29569bc78",
+      "skill": "poly-rational-products",
+      "subcategory": "rational-expressions",
+      "difficulty": "hard",
+      "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-ff807e3c34c3b90f",
+      "skill": "poly-rational-sums",
+      "subcategory": "rational-expressions",
+      "difficulty": "easy",
+      "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-26effab2c839224e",
+      "skill": "poly-rational-sums",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-5b73f6f7e11a5879",
+      "skill": "poly-rational-products",
+      "subcategory": "rational-expressions",
+      "difficulty": "hard",
+      "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-7c9c7d5236180af1",
+      "skill": "poly-complex-fractions",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Clear nested fractions without losing nonzero inner denominators or the original divisor condition.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-00b35e4e6c822d20",
+      "skill": "poly-partial-fractions",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Clear denominators to a polynomial identity, then evaluate at each denominator root.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "7",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-5eb91d556ece00fe",
+      "skill": "poly-rational-products",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "8",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-00ec405b684dfff7",
+      "skill": "poly-rational-products",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "9",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-5688a0aff2597c78",
+      "skill": "poly-rational-sums",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "10",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-7d15d404d8f7cce0",
+      "skill": "poly-rational-sums",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "11",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-89804a008993d220",
+      "skill": "poly-rational-sums",
+      "subcategory": "rational-expressions",
+      "difficulty": "hard",
+      "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "12",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-1270e0ea5468a75e",
+      "skill": "poly-complex-fractions",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Clear nested fractions without losing nonzero inner denominators or the original divisor condition.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "13",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-108cd00fe4c49284",
+      "skill": "poly-partial-fractions",
+      "subcategory": "rational-expressions",
+      "difficulty": "medium",
+      "difficultyReason": "Clear denominators, evaluate the resulting polynomial identity at two roots and verify coefficients.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "14",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-49eddb5704b5adeb",
+      "skill": "poly-rational-products",
+      "subcategory": "rational-expressions",
+      "difficulty": "hard",
+      "difficultyReason": "Use a remainder to create a factor, factorise both cubic expressions and preserve exclusions after cancellation.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "file": "S4/more about polynomials/Rational function review.pdf",
+      "number": "15",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-86804a63fa008ec5",
+      "skill": "poly-rational-sums",
+      "subcategory": "rational-expressions",
+      "difficulty": "hard",
+      "difficultyReason": "Solve linked remainder conditions, factor two cubics, combine fractions and retain all cancelled domain exclusions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-694fe8baac70e10e",
+      "sourceId": "source-694fe8baac70e10e",
+      "sourceSha256": "2df3c02a2dd137e949975adee26149c7a8e3b6faefe8bc632c22fbb6a10e4b6c",
+      "file": "S4/more about polynomials/S4 polynomials revise.pdf",
+      "number": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-b2df5903bac8602b",
+      "skill": "poly-root-nature",
+      "subcategory": "polynomial-equations",
+      "difficulty": "hard",
+      "difficultyReason": "Compare linked parameter coefficients, factor a polynomial difference and distinguish multiplicity from distinct-root count.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-694fe8baac70e10e",
+      "sourceId": "source-694fe8baac70e10e",
+      "sourceSha256": "2df3c02a2dd137e949975adee26149c7a8e3b6faefe8bc632c22fbb6a10e4b6c",
+      "file": "S4/more about polynomials/S4 polynomials revise.pdf",
+      "number": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-b614b81bd2e8c89a",
+      "skill": "poly-root-nature",
+      "subcategory": "polynomial-equations",
+      "difficulty": "hard",
+      "difficultyReason": "Recover a linear remainder at two roots, use equal quotient/remainder and distinguish irrational from rational roots.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-694fe8baac70e10e",
+      "sourceId": "source-694fe8baac70e10e",
+      "sourceSha256": "2df3c02a2dd137e949975adee26149c7a8e3b6faefe8bc632c22fbb6a10e4b6c",
+      "file": "S4/more about polynomials/S4 polynomials revise.pdf",
+      "number": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-a08b41053c93bbdb",
+      "skill": "poly-root-nature",
+      "subcategory": "polynomial-equations",
+      "difficulty": "hard",
+      "difficultyReason": "Use a known divisor root to fix the remainder, solve quotient coefficients and count distinct repeated roots.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    }
+  ]
+}

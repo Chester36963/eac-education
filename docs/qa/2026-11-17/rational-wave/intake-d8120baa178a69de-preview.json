@@ -1,0 +1,863 @@
+{
+  "errors": [],
+  "pending": [],
+  "ready": true,
+  "counts": {
+    "source": 12,
+    "recorded": 12,
+    "publish": 9,
+    "duplicate": 3,
+    "held": 0
+  },
+  "diff": {
+    "added": [],
+    "updated": [
+      "import-polynomial-0f771244c57ce81f",
+      "import-polynomial-b3ca80e93cb419ba",
+      "import-polynomial-b668e0683e11c648",
+      "import-polynomial-0087f80bd45360cc",
+      "import-polynomial-6d4c054ed4fa0b97",
+      "import-polynomial-7ca98018c1df6095",
+      "import-polynomial-1f451aac9fbab328",
+      "import-polynomial-a84116b6ffd58b93"
+    ],
+    "unchanged": [
+      "import-polynomial-0a80ee10ccd7f47b"
+    ],
+    "chapters": [],
+    "taxonomyChanged": false
+  },
+  "changes": [
+    {
+      "id": "import-polynomial-0f771244c57ce81f",
+      "locator": "2",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "Factor each expression:\n\n\\((u-7)(u+2)\\)\n\n\\((u+2)(2u+7)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=u + 2\\).\n\n\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\].",
+          "after": "Factor each expression:\n\n\\((u-7)(u+2)\\)\n\n\\((u+2)(2u+7)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=u + 2\\).\n\n\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": "先把各式因式分解：\n\n\\((u-7)(u+2)\\)\n\n\\((u+2)(2u+7)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=u + 2\\)。\n\n\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]。",
+          "after": "先把各式因式分解：\n\n\\((u-7)(u+2)\\)\n\n\\((u+2)(2u+7)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=u + 2\\)。\n\n\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor each expression:"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\((u-7)(u+2)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\((u+2)(2u+7)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=u + 2\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "先把各式因式分解："
+              },
+              {
+                "type": "paragraph",
+                "text": "\\((u-7)(u+2)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\((u+2)(2u+7)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=u + 2\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor each expression:"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\((u-7)(u+2)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\((u+2)(2u+7)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=u + 2\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "先把各式因式分解："
+              },
+              {
+                "type": "paragraph",
+                "text": "\\((u-7)(u+2)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\((u+2)(2u+7)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=u + 2\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-b3ca80e93cb419ba",
+      "locator": "5",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "Factor each expression:\n\n\\(5(2m+3)\\)\n\n\\(15(2m+1)^2\\)\n\n\\(5(2m+1)(2m+5)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=5\\).\n\n\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\].",
+          "after": "Factor each expression:\n\n\\(5(2m+3)\\)\n\n\\(15(2m+1)^2\\)\n\n\\(5(2m+1)(2m+5)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=5\\).\n\n\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": "先把各式因式分解：\n\n\\(5(2m+3)\\)\n\n\\(15(2m+1)^2\\)\n\n\\(5(2m+1)(2m+5)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=5\\)。\n\n\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]。",
+          "after": "先把各式因式分解：\n\n\\(5(2m+3)\\)\n\n\\(15(2m+1)^2\\)\n\n\\(5(2m+1)(2m+5)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=5\\)。\n\n\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor each expression:"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(5(2m+3)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(15(2m+1)^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(5(2m+1)(2m+5)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=5\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "先把各式因式分解："
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(5(2m+3)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(15(2m+1)^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(5(2m+1)(2m+5)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=5\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor each expression:"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(5(2m+3)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(15(2m+1)^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(5(2m+1)(2m+5)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=5\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "先把各式因式分解："
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(5(2m+3)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(15(2m+1)^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(5(2m+1)(2m+5)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=5\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L=15(2m+1)^2\\\\{}\\cdot(2m+3)(2m+5)\\end{gathered}\\]"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-b668e0683e11c648",
+      "locator": "6",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "Factor each expression:\n\n\\(9(2x+y)^2\\)\n\n\\(3(2x+y)(4x^2-2xy+y^2)\\)\n\n\\(12(2x+y)(3x+2y)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=6 x + 3 y\\).\n\n\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\].",
+          "after": "Factor each expression:\n\n\\(9(2x+y)^2\\)\n\n\\(3(2x+y)(4x^2-2xy+y^2)\\)\n\n\\(12(2x+y)(3x+2y)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=6 x + 3 y\\).\n\n\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionZh",
+          "before": "先把各式因式分解：\n\n\\(9(2x+y)^2\\)\n\n\\(3(2x+y)(4x^2-2xy+y^2)\\)\n\n\\(12(2x+y)(3x+2y)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=6 x + 3 y\\)。\n\n\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]。",
+          "after": "先把各式因式分解：\n\n\\(9(2x+y)^2\\)\n\n\\(3(2x+y)(4x^2-2xy+y^2)\\)\n\n\\(12(2x+y)(3x+2y)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=6 x + 3 y\\)。\n\n\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor each expression:"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(9(2x+y)^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(3(2x+y)(4x^2-2xy+y^2)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(12(2x+y)(3x+2y)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=6 x + 3 y\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "先把各式因式分解："
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(9(2x+y)^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(3(2x+y)(4x^2-2xy+y^2)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(12(2x+y)(3x+2y)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=6 x + 3 y\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor each expression:"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(9(2x+y)^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(3(2x+y)(4x^2-2xy+y^2)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(12(2x+y)(3x+2y)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=6 x + 3 y\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "先把各式因式分解："
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(9(2x+y)^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(3(2x+y)(4x^2-2xy+y^2)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(12(2x+y)(3x+2y)\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(H=6 x + 3 y\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}L=36(2x+y)^2(3x+2y)\\\\{}\\cdot(4x^2-2xy+y^2)\\end{gathered}\\]"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-0087f80bd45360cc",
+      "locator": "7",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "stem",
+          "before": "Simplify \\[\\begin{gathered}\\frac3{4x+1}\\\\+\\frac{9x}{4x^2+5x+1}\\end{gathered}\\].",
+          "after": "Simplify \\[\\begin{gathered}\\frac3{4x+1}\\\\+\\frac{9x}{4x^2+5x+1}\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": "化簡 \\[\\begin{gathered}\\frac3{4x+1}\\\\+\\frac{9x}{4x^2+5x+1}\\end{gathered}\\]。",
+          "after": "化簡 \\[\\begin{gathered}\\frac3{4x+1}\\\\+\\frac{9x}{4x^2+5x+1}\\end{gathered}\\]"
+        },
+        {
+          "field": "solution",
+          "before": "Factor \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\]. The common-denominator numerator is \\(3(x+1)+9x=3(4x+1)\\).\n\nThus the result is \\(\\frac{3}{x + 1}\\).\n\nKeep the original domain: \\(x\\ne-1,-\\frac14\\). Cancellation does not restore excluded values.",
+          "after": "Factor \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\] The common-denominator numerator is \\(3(x+1)+9x=3(4x+1)\\).\n\nThus the result is \\(\\frac{3}{x + 1}\\).\n\nKeep the original domain: \\(x\\ne-1,-\\frac14\\). Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\]. The common-denominator numerator is \\(3(x+1)+9x=3(4x+1)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{3}{x + 1}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne-1,-\\frac14\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分母分解為 \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\]。通分後分子為 \\(3(x+1)+9x=3(4x+1)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{3}{x + 1}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne-1,-\\frac14\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\] The common-denominator numerator is \\(3(x+1)+9x=3(4x+1)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{3}{x + 1}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne-1,-\\frac14\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分母分解為 \\[\\begin{gathered}4x^2+5x+1\\\\=(4x+1)(x+1)\\end{gathered}\\]。通分後分子為 \\(3(x+1)+9x=3(4x+1)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{3}{x + 1}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne-1,-\\frac14\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-6d4c054ed4fa0b97",
+      "locator": "8",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "stem",
+          "before": "Simplify \\[\\begin{gathered}\\frac{2x-3}{x^3-1}\\\\-\\frac2{x^2-8x+7}\\end{gathered}\\].",
+          "after": "Simplify \\[\\begin{gathered}\\frac{2x-3}{x^3-1}\\\\-\\frac2{x^2-8x+7}\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": "化簡 \\[\\begin{gathered}\\frac{2x-3}{x^3-1}\\\\-\\frac2{x^2-8x+7}\\end{gathered}\\]。",
+          "after": "化簡 \\[\\begin{gathered}\\frac{2x-3}{x^3-1}\\\\-\\frac2{x^2-8x+7}\\end{gathered}\\]"
+        },
+        {
+          "field": "solution",
+          "before": "The denominators factor as \\((x-1)(x^2+x+1)\\) and \\((x-1)(x-7)\\). The combined numerator is \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\].\n\nThus the result is \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\).\n\nKeep the original domain: \\(x\\ne1,7\\) (real variables). Cancellation does not restore excluded values.",
+          "after": "The denominators factor as \\((x-1)(x^2+x+1)\\) and \\((x-1)(x-7)\\). The combined numerator is \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]\n\nThus the result is \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\).\n\nKeep the original domain: \\(x\\ne1,7\\) (real variables). Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionZh",
+          "before": "分母分別分解為 \\((x-1)(x^2+x+1)\\) 及 \\((x-1)(x-7)\\)。通分後分子為 \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]。\n\n所以結果為 \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)。\n\n保留原式定義域：\\(x\\ne1,7\\)（實數變量）。約去因式不能恢復原本排除的值。",
+          "after": "分母分別分解為 \\((x-1)(x^2+x+1)\\) 及 \\((x-1)(x-7)\\)。通分後分子為 \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]\n\n所以結果為 \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)。\n\n保留原式定義域：\\(x\\ne1,7\\)（實數變量）。約去因式不能恢復原本排除的值。"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The denominators factor as \\((x-1)(x^2+x+1)\\) and \\((x-1)(x-7)\\). The combined numerator is \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne1,7\\) (real variables). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分母分別分解為 \\((x-1)(x^2+x+1)\\) 及 \\((x-1)(x-7)\\)。通分後分子為 \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne1,7\\)（實數變量）。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The denominators factor as \\((x-1)(x^2+x+1)\\) and \\((x-1)(x-7)\\). The combined numerator is \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne1,7\\) (real variables). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分母分別分解為 \\((x-1)(x^2+x+1)\\) 及 \\((x-1)(x-7)\\)。通分後分子為 \\[\\begin{gathered}(2x-3)(x-7)\\\\{}-2(x^2+x+1)\\\\=-19(x-1)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne1,7\\)（實數變量）。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-7ca98018c1df6095",
+      "locator": "9",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "Factor \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\], \\(9-25x^2=(3-5x)(3+5x)\\), \\(9x^2+6x+1=(3x+1)^2\\), \\(10x-5=5(2x-1)\\) and \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\]. Cancel common factors in the full product.\n\nThus the result is \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\).\n\nKeep the original domain: \\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]. Cancellation does not restore excluded values.",
+          "after": "Factor \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\] \\(9-25x^2=(3-5x)(3+5x)\\), \\(9x^2+6x+1=(3x+1)^2\\), \\(10x-5=5(2x-1)\\) and \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\] Cancel common factors in the full product.\n\nThus the result is \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\).\n\nKeep the original domain: \\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\] Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\], \\(9-25x^2=(3-5x)(3+5x)\\), \\(9x^2+6x+1=(3x+1)^2\\), \\(10x-5=5(2x-1)\\) and \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\]. Cancel common factors in the full product."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]. Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分解 \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\]、\\(9-25x^2=(3-5x)(3+5x)\\)、\\(9x^2+6x+1=(3x+1)^2\\)、\\(10x-5=5(2x-1)\\) 及 \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\]，再於整個乘積中約去共同因式。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\] \\(9-25x^2=(3-5x)(3+5x)\\), \\(9x^2+6x+1=(3x+1)^2\\), \\(10x-5=5(2x-1)\\) and \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\] Cancel common factors in the full product."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\] Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分解 \\[\\begin{gathered}2x^2-13x+6\\\\=(2x-1)(x-6)\\end{gathered}\\]、\\(9-25x^2=(3-5x)(3+5x)\\)、\\(9x^2+6x+1=(3x+1)^2\\)、\\(10x-5=5(2x-1)\\) 及 \\[\\begin{gathered}3x^2-17x-6\\\\=(3x+1)(x-6)\\end{gathered}\\]，再於整個乘積中約去共同因式。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-1f451aac9fbab328",
+      "locator": "11",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "The common denominator is \\((x-2)(x+2)(x-4)\\). The numerator becomes \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\].\n\nThus the result is \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\).\n\nKeep the original domain: \\(x\\ne2,-2,4\\). Cancellation does not restore excluded values.",
+          "after": "The common denominator is \\((x-2)(x+2)(x-4)\\). The numerator becomes \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]\n\nThus the result is \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\).\n\nKeep the original domain: \\(x\\ne2,-2,4\\). Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionZh",
+          "before": "公分母為 \\((x-2)(x+2)(x-4)\\)，分子化為 \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]。\n\n所以結果為 \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)。\n\n保留原式定義域：\\(x\\ne2,-2,4\\)。約去因式不能恢復原本排除的值。",
+          "after": "公分母為 \\((x-2)(x+2)(x-4)\\)，分子化為 \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]\n\n所以結果為 \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)。\n\n保留原式定義域：\\(x\\ne2,-2,4\\)。約去因式不能恢復原本排除的值。"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The common denominator is \\((x-2)(x+2)(x-4)\\). The numerator becomes \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne2,-2,4\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "公分母為 \\((x-2)(x+2)(x-4)\\)，分子化為 \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne2,-2,4\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The common denominator is \\((x-2)(x+2)(x-4)\\). The numerator becomes \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne2,-2,4\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "公分母為 \\((x-2)(x+2)(x-4)\\)，分子化為 \\[\\begin{gathered}2(x+2)+4(x-4)\\\\{}-5(x-2)=x-2\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne2,-2,4\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-a84116b6ffd58b93",
+      "locator": "12",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "Use \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] and \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\]. The product being subtracted reduces to \\((x-y)/(x+y)\\), exactly the first term.\n\nThus the result is \\(0\\).\n\nKeep the original domain: \\(x+y\\ne0\\), \\(1+2xy\\ne0\\), \\(5x+y\\ne0\\), \\(x-y\\ne0\\). Cancellation does not restore excluded values.",
+          "after": "Use \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] and \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\] The product being subtracted reduces to \\((x-y)/(x+y)\\), exactly the first term.\n\nThus the result is \\(0\\).\n\nKeep the original domain: \\(x+y\\ne0\\), \\(1+2xy\\ne0\\), \\(5x+y\\ne0\\), \\(x-y\\ne0\\). Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Use \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] and \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\]. The product being subtracted reduces to \\((x-y)/(x+y)\\), exactly the first term."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(0\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x+y\\ne0\\), \\(1+2xy\\ne0\\), \\(5x+y\\ne0\\), \\(x-y\\ne0\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "利用 \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] 及 \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\]，被減去的乘積化為 \\((x-y)/(x+y)\\)，與首項相同。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(0\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x+y\\ne0\\)、\\(1+2xy\\ne0\\)、\\(5x+y\\ne0\\)、\\(x-y\\ne0\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Use \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] and \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\] The product being subtracted reduces to \\((x-y)/(x+y)\\), exactly the first term."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(0\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x+y\\ne0\\), \\(1+2xy\\ne0\\), \\(5x+y\\ne0\\), \\(x-y\\ne0\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "利用 \\[\\begin{gathered}x+2xy^2+y+2x^2y\\\\=(x+y)(1+2xy)\\end{gathered}\\] 及 \\[\\begin{gathered}5x^2-4xy-y^2\\\\=(5x+y)(x-y)\\end{gathered}\\]，被減去的乘積化為 \\((x-y)/(x+y)\\)，與首項相同。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(0\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x+y\\ne0\\)、\\(1+2xy\\ne0\\)、\\(5x+y\\ne0\\)、\\(x-y\\ne0\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "locator": "7",
+      "candidateId": "import-polynomial-5688a0aff2597c78",
+      "score": 0.7,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    }
+  ],
+  "digest": "675c424dfec92c4a743b00588b43810877643aac1c58e50ef5063f03be028035",
+  "baseline": "6f52425da18862313d536b8e726abfab2e51b3f0e00d5b71ad2c51d845d80f90"
+}

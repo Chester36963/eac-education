@@ -1,0 +1,981 @@
+{
+  "errors": [],
+  "pending": [],
+  "ready": true,
+  "counts": {
+    "source": 15,
+    "recorded": 15,
+    "publish": 15,
+    "duplicate": 0,
+    "held": 0
+  },
+  "diff": {
+    "added": [],
+    "updated": [
+      "import-polynomial-5c6ccca29569bc78",
+      "import-polynomial-ff807e3c34c3b90f",
+      "import-polynomial-26effab2c839224e",
+      "import-polynomial-7c9c7d5236180af1",
+      "import-polynomial-00b35e4e6c822d20",
+      "import-polynomial-00ec405b684dfff7",
+      "import-polynomial-5688a0aff2597c78",
+      "import-polynomial-7d15d404d8f7cce0",
+      "import-polynomial-89804a008993d220",
+      "import-polynomial-108cd00fe4c49284",
+      "import-polynomial-49eddb5704b5adeb",
+      "import-polynomial-86804a63fa008ec5"
+    ],
+    "unchanged": [
+      "import-polynomial-5b73f6f7e11a5879",
+      "import-polynomial-5eb91d556ece00fe",
+      "import-polynomial-1270e0ea5468a75e"
+    ],
+    "chapters": [],
+    "taxonomyChanged": false
+  },
+  "changes": [
+    {
+      "id": "import-polynomial-5c6ccca29569bc78",
+      "locator": "1",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "Factor \\(a^2-b^2=(a-b)(a+b)\\), \\[\\begin{gathered}a^2-2ab-3b^2\\\\=(a-3b)(a+b)\\end{gathered}\\], \\(a^2+2ab+b^2=(a+b)^2\\) and \\[\\begin{gathered}a^3-b^3=(a-b)\\\\{}\\cdot(a^2+ab+b^2)\\end{gathered}\\]. Multiply by the reciprocal of the divisor and cancel common factors.\n\nThus the result is \\(\\frac{a \\left(a + b\\right)}{a - 3 b}\\).\n\nKeep the original domain: \\(a\\ne0\\), \\(a-b\\ne0\\), \\(a+b\\ne0\\), \\(a-3b\\ne0\\), \\(a^2+ab+b^2\\ne0\\). Cancellation does not restore excluded values.",
+          "after": "Factor \\(a^2-b^2=(a-b)(a+b)\\), \\[\\begin{gathered}a^2-2ab-3b^2\\\\=(a-3b)(a+b)\\end{gathered}\\] \\(a^2+2ab+b^2=(a+b)^2\\) and \\[\\begin{gathered}a^3-b^3=(a-b)\\\\{}\\cdot(a^2+ab+b^2)\\end{gathered}\\] Multiply by the reciprocal of the divisor and cancel common factors.\n\nThus the result is \\(\\frac{a \\left(a + b\\right)}{a - 3 b}\\).\n\nKeep the original domain: \\(a\\ne0\\), \\(a-b\\ne0\\), \\(a+b\\ne0\\), \\(a-3b\\ne0\\), \\(a^2+ab+b^2\\ne0\\). Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor \\(a^2-b^2=(a-b)(a+b)\\), \\[\\begin{gathered}a^2-2ab-3b^2\\\\=(a-3b)(a+b)\\end{gathered}\\], \\(a^2+2ab+b^2=(a+b)^2\\) and \\[\\begin{gathered}a^3-b^3=(a-b)\\\\{}\\cdot(a^2+ab+b^2)\\end{gathered}\\]. Multiply by the reciprocal of the divisor and cancel common factors."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{a \\left(a + b\\right)}{a - 3 b}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(a\\ne0\\), \\(a-b\\ne0\\), \\(a+b\\ne0\\), \\(a-3b\\ne0\\), \\(a^2+ab+b^2\\ne0\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "先分解 \\(a^2-b^2=(a-b)(a+b)\\)、\\[\\begin{gathered}a^2-2ab-3b^2\\\\=(a-3b)(a+b)\\end{gathered}\\]、\\(a^2+2ab+b^2=(a+b)^2\\) 及 \\[\\begin{gathered}a^3-b^3=(a-b)\\\\{}\\cdot(a^2+ab+b^2)\\end{gathered}\\]，再乘除式的倒數及約去共同因式。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{a \\left(a + b\\right)}{a - 3 b}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(a\\ne0\\)、\\(a-b\\ne0\\)、\\(a+b\\ne0\\)、\\(a-3b\\ne0\\)、\\(a^2+ab+b^2\\ne0\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor \\(a^2-b^2=(a-b)(a+b)\\), \\[\\begin{gathered}a^2-2ab-3b^2\\\\=(a-3b)(a+b)\\end{gathered}\\] \\(a^2+2ab+b^2=(a+b)^2\\) and \\[\\begin{gathered}a^3-b^3=(a-b)\\\\{}\\cdot(a^2+ab+b^2)\\end{gathered}\\] Multiply by the reciprocal of the divisor and cancel common factors."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{a \\left(a + b\\right)}{a - 3 b}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(a\\ne0\\), \\(a-b\\ne0\\), \\(a+b\\ne0\\), \\(a-3b\\ne0\\), \\(a^2+ab+b^2\\ne0\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "先分解 \\(a^2-b^2=(a-b)(a+b)\\)、\\[\\begin{gathered}a^2-2ab-3b^2\\\\=(a-3b)(a+b)\\end{gathered}\\]、\\(a^2+2ab+b^2=(a+b)^2\\) 及 \\[\\begin{gathered}a^3-b^3=(a-b)\\\\{}\\cdot(a^2+ab+b^2)\\end{gathered}\\]，再乘除式的倒數及約去共同因式。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{a \\left(a + b\\right)}{a - 3 b}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(a\\ne0\\)、\\(a-b\\ne0\\)、\\(a+b\\ne0\\)、\\(a-3b\\ne0\\)、\\(a^2+ab+b^2\\ne0\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-ff807e3c34c3b90f",
+      "locator": "2",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "stem",
+          "before": "Simplify \\[\\begin{gathered}\\frac1{x-1}\\\\+\\frac1{(x-1)(x-2)}\\end{gathered}\\].",
+          "after": "Simplify \\[\\begin{gathered}\\frac1{x-1}\\\\+\\frac1{(x-1)(x-2)}\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": "化簡 \\[\\begin{gathered}\\frac1{x-1}\\\\+\\frac1{(x-1)(x-2)}\\end{gathered}\\]。",
+          "after": "化簡 \\[\\begin{gathered}\\frac1{x-1}\\\\+\\frac1{(x-1)(x-2)}\\end{gathered}\\]"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-26effab2c839224e",
+      "locator": "3",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "stem",
+          "before": "Simplify \\[\\begin{gathered}\\frac{-3x-1}{x^2+5x+6}\\\\+\\frac{x-3}{x+2}\\end{gathered}\\].",
+          "after": "Simplify \\[\\begin{gathered}\\frac{-3x-1}{x^2+5x+6}\\\\+\\frac{x-3}{x+2}\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": "化簡 \\[\\begin{gathered}\\frac{-3x-1}{x^2+5x+6}\\\\+\\frac{x-3}{x+2}\\end{gathered}\\]。",
+          "after": "化簡 \\[\\begin{gathered}\\frac{-3x-1}{x^2+5x+6}\\\\+\\frac{x-3}{x+2}\\end{gathered}\\]"
+        },
+        {
+          "field": "solution",
+          "before": "Factor \\(x^2+5x+6=(x+2)(x+3)\\). The combined numerator is \\[\\begin{gathered}-3x-1+(x-3)(x+3)\\\\=(x-5)(x+2)\\end{gathered}\\].\n\nThus the result is \\(\\frac{x - 5}{x + 3}\\).\n\nKeep the original domain: \\(x\\ne-2,-3\\). Cancellation does not restore excluded values.",
+          "after": "Factor \\(x^2+5x+6=(x+2)(x+3)\\). The combined numerator is \\[\\begin{gathered}-3x-1+(x-3)(x+3)\\\\=(x-5)(x+2)\\end{gathered}\\]\n\nThus the result is \\(\\frac{x - 5}{x + 3}\\).\n\nKeep the original domain: \\(x\\ne-2,-3\\). Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionZh",
+          "before": "分解 \\(x^2+5x+6=(x+2)(x+3)\\)，通分後分子為 \\[\\begin{gathered}-3x-1+(x-3)(x+3)\\\\=(x-5)(x+2)\\end{gathered}\\]。\n\n所以結果為 \\(\\frac{x - 5}{x + 3}\\)。\n\n保留原式定義域：\\(x\\ne-2,-3\\)。約去因式不能恢復原本排除的值。",
+          "after": "分解 \\(x^2+5x+6=(x+2)(x+3)\\)，通分後分子為 \\[\\begin{gathered}-3x-1+(x-3)(x+3)\\\\=(x-5)(x+2)\\end{gathered}\\]\n\n所以結果為 \\(\\frac{x - 5}{x + 3}\\)。\n\n保留原式定義域：\\(x\\ne-2,-3\\)。約去因式不能恢復原本排除的值。"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor \\(x^2+5x+6=(x+2)(x+3)\\). The combined numerator is \\[\\begin{gathered}-3x-1+(x-3)(x+3)\\\\=(x-5)(x+2)\\end{gathered}\\]."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{x - 5}{x + 3}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne-2,-3\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分解 \\(x^2+5x+6=(x+2)(x+3)\\)，通分後分子為 \\[\\begin{gathered}-3x-1+(x-3)(x+3)\\\\=(x-5)(x+2)\\end{gathered}\\]。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{x - 5}{x + 3}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne-2,-3\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Factor \\(x^2+5x+6=(x+2)(x+3)\\). The combined numerator is \\[\\begin{gathered}-3x-1+(x-3)(x+3)\\\\=(x-5)(x+2)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{x - 5}{x + 3}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne-2,-3\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分解 \\(x^2+5x+6=(x+2)(x+3)\\)，通分後分子為 \\[\\begin{gathered}-3x-1+(x-3)(x+3)\\\\=(x-5)(x+2)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{x - 5}{x + 3}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne-2,-3\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-7c9c7d5236180af1",
+      "locator": "5",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "stem",
+          "before": "Simplify \\[\\begin{gathered}\\frac{1+\\frac1x}{2}\\\\-\\frac1{1-\\frac1x}\\end{gathered}\\].",
+          "after": "Simplify \\[\\begin{gathered}\\frac{1+\\frac1x}{2}\\\\-\\frac1{1-\\frac1x}\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": "化簡 \\[\\begin{gathered}\\frac{1+\\frac1x}{2}\\\\-\\frac1{1-\\frac1x}\\end{gathered}\\]。",
+          "after": "化簡 \\[\\begin{gathered}\\frac{1+\\frac1x}{2}\\\\-\\frac1{1-\\frac1x}\\end{gathered}\\]"
+        },
+        {
+          "field": "solution",
+          "before": "The two terms are \\((x+1)/(2x)\\) and \\(x/(x-1)\\). With denominator \\(2x(x-1)\\), the numerator is \\[\\begin{gathered}(x+1)(x-1)-2x^2\\\\=-x^2-1\\end{gathered}\\].\n\nThus the result is \\(- \\frac{x^{2} + 1}{2 x \\left(x - 1\\right)}\\).\n\nKeep the original domain: \\(x\\ne0,1\\). Cancellation does not restore excluded values.",
+          "after": "The two terms are \\((x+1)/(2x)\\) and \\(x/(x-1)\\). With denominator \\(2x(x-1)\\), the numerator is \\[\\begin{gathered}(x+1)(x-1)-2x^2\\\\=-x^2-1\\end{gathered}\\]\n\nThus the result is \\(- \\frac{x^{2} + 1}{2 x \\left(x - 1\\right)}\\).\n\nKeep the original domain: \\(x\\ne0,1\\). Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionZh",
+          "before": "兩項分別化為 \\((x+1)/(2x)\\) 及 \\(x/(x-1)\\)。以 \\(2x(x-1)\\) 通分，分子為 \\[\\begin{gathered}(x+1)(x-1)-2x^2\\\\=-x^2-1\\end{gathered}\\]。\n\n所以結果為 \\(- \\frac{x^{2} + 1}{2 x \\left(x - 1\\right)}\\)。\n\n保留原式定義域：\\(x\\ne0,1\\)。約去因式不能恢復原本排除的值。",
+          "after": "兩項分別化為 \\((x+1)/(2x)\\) 及 \\(x/(x-1)\\)。以 \\(2x(x-1)\\) 通分，分子為 \\[\\begin{gathered}(x+1)(x-1)-2x^2\\\\=-x^2-1\\end{gathered}\\]\n\n所以結果為 \\(- \\frac{x^{2} + 1}{2 x \\left(x - 1\\right)}\\)。\n\n保留原式定義域：\\(x\\ne0,1\\)。約去因式不能恢復原本排除的值。"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The two terms are \\((x+1)/(2x)\\) and \\(x/(x-1)\\). With denominator \\(2x(x-1)\\), the numerator is \\[\\begin{gathered}(x+1)(x-1)-2x^2\\\\=-x^2-1\\end{gathered}\\]."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(- \\frac{x^{2} + 1}{2 x \\left(x - 1\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne0,1\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "兩項分別化為 \\((x+1)/(2x)\\) 及 \\(x/(x-1)\\)。以 \\(2x(x-1)\\) 通分，分子為 \\[\\begin{gathered}(x+1)(x-1)-2x^2\\\\=-x^2-1\\end{gathered}\\]。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(- \\frac{x^{2} + 1}{2 x \\left(x - 1\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne0,1\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The two terms are \\((x+1)/(2x)\\) and \\(x/(x-1)\\). With denominator \\(2x(x-1)\\), the numerator is \\[\\begin{gathered}(x+1)(x-1)-2x^2\\\\=-x^2-1\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(- \\frac{x^{2} + 1}{2 x \\left(x - 1\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne0,1\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "兩項分別化為 \\((x+1)/(2x)\\) 及 \\(x/(x-1)\\)。以 \\(2x(x-1)\\) 通分，分子為 \\[\\begin{gathered}(x+1)(x-1)-2x^2\\\\=-x^2-1\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(- \\frac{x^{2} + 1}{2 x \\left(x - 1\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne0,1\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-00b35e4e6c822d20",
+      "locator": "6",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "stem",
+          "before": "Let \\(P,Q\\) be constants. If \\(\\frac{9x+3}{(x+7)(x-8)}\\)\n\n\\[\\begin{gathered}\\equiv\\frac P{x+7}\\\\+\\frac Q{x-8}\\end{gathered}\\], find \\(P,Q\\).",
+          "after": "Let \\(P,Q\\) be constants. If \\(\\frac{9x+3}{(x+7)(x-8)}\\)\n\n\\[\\begin{gathered}\\equiv\\frac P{x+7}\\\\+\\frac Q{x-8}\\end{gathered}\\] find \\(P,Q\\)."
+        },
+        {
+          "field": "solution",
+          "before": "Clear the common denominator on \\(x\\ne-7,8\\) to get \\[\\begin{gathered}9x+3\\\\=P(x-8)+Q(x+7)\\end{gathered}\\]. This polynomial identity extends to all \\(x\\). At \\(x=-7\\), \\(-60=-15P\\), so \\(P=4\\). At \\(x=8\\), \\(75=15Q\\), so \\(Q=5\\). Check: \\(4(x-8)+5(x+7)=9x+3\\).",
+          "after": "Clear the common denominator on \\(x\\ne-7,8\\) to get \\[\\begin{gathered}9x+3\\\\=P(x-8)+Q(x+7)\\end{gathered}\\] This polynomial identity extends to all \\(x\\). At \\(x=-7\\), \\(-60=-15P\\), so \\(P=4\\). At \\(x=8\\), \\(75=15Q\\), so \\(Q=5\\). Check: \\(4(x-8)+5(x+7)=9x+3\\)."
+        },
+        {
+          "field": "contentBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(P,Q\\) be constants. If \\(\\frac{9x+3}{(x+7)(x-8)}\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}\\equiv\\frac P{x+7}\\\\+\\frac Q{x-8}\\end{gathered}\\], find \\(P,Q\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(P,Q\\) 為常數。若 \\(\\frac{9x+3}{(x+7)(x-8)}\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}\\equiv\\frac P{x+7}\\\\+\\frac Q{x-8}\\end{gathered}\\]，求 \\(P,Q\\)。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(P,Q\\) be constants. If \\(\\frac{9x+3}{(x+7)(x-8)}\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}\\equiv\\frac P{x+7}\\\\+\\frac Q{x-8}\\end{gathered}\\] find \\(P,Q\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(P,Q\\) 為常數。若 \\(\\frac{9x+3}{(x+7)(x-8)}\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}\\equiv\\frac P{x+7}\\\\+\\frac Q{x-8}\\end{gathered}\\]，求 \\(P,Q\\)。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-00ec405b684dfff7",
+      "locator": "8",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "The three fractions factor as \\(\\frac{(x+6)(x-1)}{(x+3)(x+4)}\\), \\(\\frac{(x-5)(x+3)}{(x-4)(x+2)}\\) and \\(\\frac{(x+6)(x-5)}{(x+2)(x+4)}\\). Invert the third before cancellation; its numerator must remain nonzero.\n\nThus the result is \\(\\frac{x - 1}{x - 4}\\).\n\nKeep the original domain: \\[\\begin{gathered}x\\ne-3,-4,4,\\\\{}-2,-6,5\\end{gathered}\\]. Cancellation does not restore excluded values.",
+          "after": "The three fractions factor as \\(\\frac{(x+6)(x-1)}{(x+3)(x+4)}\\), \\(\\frac{(x-5)(x+3)}{(x-4)(x+2)}\\) and \\(\\frac{(x+6)(x-5)}{(x+2)(x+4)}\\). Invert the third before cancellation; its numerator must remain nonzero.\n\nThus the result is \\(\\frac{x - 1}{x - 4}\\).\n\nKeep the original domain: \\[\\begin{gathered}x\\ne-3,-4,4,\\\\{}-2,-6,5\\end{gathered}\\] Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The three fractions factor as \\(\\frac{(x+6)(x-1)}{(x+3)(x+4)}\\), \\(\\frac{(x-5)(x+3)}{(x-4)(x+2)}\\) and \\(\\frac{(x+6)(x-5)}{(x+2)(x+4)}\\). Invert the third before cancellation; its numerator must remain nonzero."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{x - 1}{x - 4}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\[\\begin{gathered}x\\ne-3,-4,4,\\\\{}-2,-6,5\\end{gathered}\\]. Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "三個分式分別分解為 \\(\\frac{(x+6)(x-1)}{(x+3)(x+4)}\\)、\\(\\frac{(x-5)(x+3)}{(x-4)(x+2)}\\) 及 \\(\\frac{(x+6)(x-5)}{(x+2)(x+4)}\\)。第三個分式先取倒數才約去因式，其原分子亦不可為零。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{x - 1}{x - 4}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\[\\begin{gathered}x\\ne-3,-4,4,\\\\{}-2,-6,5\\end{gathered}\\]。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The three fractions factor as \\(\\frac{(x+6)(x-1)}{(x+3)(x+4)}\\), \\(\\frac{(x-5)(x+3)}{(x-4)(x+2)}\\) and \\(\\frac{(x+6)(x-5)}{(x+2)(x+4)}\\). Invert the third before cancellation; its numerator must remain nonzero."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{x - 1}{x - 4}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\[\\begin{gathered}x\\ne-3,-4,4,\\\\{}-2,-6,5\\end{gathered}\\] Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "三個分式分別分解為 \\(\\frac{(x+6)(x-1)}{(x+3)(x+4)}\\)、\\(\\frac{(x-5)(x+3)}{(x-4)(x+2)}\\) 及 \\(\\frac{(x+6)(x-5)}{(x+2)(x+4)}\\)。第三個分式先取倒數才約去因式，其原分子亦不可為零。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{x - 1}{x - 4}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\[\\begin{gathered}x\\ne-3,-4,4,\\\\{}-2,-6,5\\end{gathered}\\]。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-5688a0aff2597c78",
+      "locator": "9",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "stem",
+          "before": "Simplify \\[\\begin{gathered}\\frac2{x^2+4x+3}\\\\-\\frac1{x^2+5x+6}\\end{gathered}\\].",
+          "after": "Simplify \\[\\begin{gathered}\\frac2{x^2+4x+3}\\\\-\\frac1{x^2+5x+6}\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": "化簡 \\[\\begin{gathered}\\frac2{x^2+4x+3}\\\\-\\frac1{x^2+5x+6}\\end{gathered}\\]。",
+          "after": "化簡 \\[\\begin{gathered}\\frac2{x^2+4x+3}\\\\-\\frac1{x^2+5x+6}\\end{gathered}\\]"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-7d15d404d8f7cce0",
+      "locator": "10",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "The denominators are \\((x-3)(x+2)\\), \\((x-8)(x+2)\\) and \\((x-3)(x-8)\\). Over their common denominator the numerator is \\[\\begin{gathered}2(x-8)-4(x-3)\\\\{}+3(x+2)=x+2\\end{gathered}\\].\n\nThus the result is \\(\\frac{1}{\\left(x - 8\\right) \\left(x - 3\\right)}\\).\n\nKeep the original domain: \\(x\\ne3,-2,8\\). Cancellation does not restore excluded values.",
+          "after": "The denominators are \\((x-3)(x+2)\\), \\((x-8)(x+2)\\) and \\((x-3)(x-8)\\). Over their common denominator the numerator is \\[\\begin{gathered}2(x-8)-4(x-3)\\\\{}+3(x+2)=x+2\\end{gathered}\\]\n\nThus the result is \\(\\frac{1}{\\left(x - 8\\right) \\left(x - 3\\right)}\\).\n\nKeep the original domain: \\(x\\ne3,-2,8\\). Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionZh",
+          "before": "分母為 \\((x-3)(x+2)\\)、\\((x-8)(x+2)\\)、\\((x-3)(x-8)\\)。通分後分子為 \\[\\begin{gathered}2(x-8)-4(x-3)\\\\{}+3(x+2)=x+2\\end{gathered}\\]。\n\n所以結果為 \\(\\frac{1}{\\left(x - 8\\right) \\left(x - 3\\right)}\\)。\n\n保留原式定義域：\\(x\\ne3,-2,8\\)。約去因式不能恢復原本排除的值。",
+          "after": "分母為 \\((x-3)(x+2)\\)、\\((x-8)(x+2)\\)、\\((x-3)(x-8)\\)。通分後分子為 \\[\\begin{gathered}2(x-8)-4(x-3)\\\\{}+3(x+2)=x+2\\end{gathered}\\]\n\n所以結果為 \\(\\frac{1}{\\left(x - 8\\right) \\left(x - 3\\right)}\\)。\n\n保留原式定義域：\\(x\\ne3,-2,8\\)。約去因式不能恢復原本排除的值。"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The denominators are \\((x-3)(x+2)\\), \\((x-8)(x+2)\\) and \\((x-3)(x-8)\\). Over their common denominator the numerator is \\[\\begin{gathered}2(x-8)-4(x-3)\\\\{}+3(x+2)=x+2\\end{gathered}\\]."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{1}{\\left(x - 8\\right) \\left(x - 3\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne3,-2,8\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分母為 \\((x-3)(x+2)\\)、\\((x-8)(x+2)\\)、\\((x-3)(x-8)\\)。通分後分子為 \\[\\begin{gathered}2(x-8)-4(x-3)\\\\{}+3(x+2)=x+2\\end{gathered}\\]。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{1}{\\left(x - 8\\right) \\left(x - 3\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne3,-2,8\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The denominators are \\((x-3)(x+2)\\), \\((x-8)(x+2)\\) and \\((x-3)(x-8)\\). Over their common denominator the numerator is \\[\\begin{gathered}2(x-8)-4(x-3)\\\\{}+3(x+2)=x+2\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{1}{\\left(x - 8\\right) \\left(x - 3\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\(x\\ne3,-2,8\\). Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "分母為 \\((x-3)(x+2)\\)、\\((x-8)(x+2)\\)、\\((x-3)(x-8)\\)。通分後分子為 \\[\\begin{gathered}2(x-8)-4(x-3)\\\\{}+3(x+2)=x+2\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{1}{\\left(x - 8\\right) \\left(x - 3\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\(x\\ne3,-2,8\\)。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-89804a008993d220",
+      "locator": "11",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "The second term is a quotient: factor its parts as \\((2x-5)(x-6)\\), \\((2x-5)(x+4)\\), \\((8x-1)(x-6)\\) and \\(5(x+4)\\). The quotient becomes \\(5/(8x-1)\\). Now subtract from \\(1/(x-2)\\); the new numerator is \\[\\begin{gathered}(8x-1)-5(x-2)\\\\=3(x+3)\\end{gathered}\\].\n\nThus the result is \\(\\frac{3 \\left(x + 3\\right)}{\\left(x - 2\\right) \\left(8 x - 1\\right)}\\).\n\nKeep the original domain: \\[\\begin{gathered}x\\ne2,\\frac52,\\\\-4,\\frac18,6\\end{gathered}\\]. Cancellation does not restore excluded values.",
+          "after": "The second term is a quotient: factor its parts as \\((2x-5)(x-6)\\), \\((2x-5)(x+4)\\), \\((8x-1)(x-6)\\) and \\(5(x+4)\\). The quotient becomes \\(5/(8x-1)\\). Now subtract from \\(1/(x-2)\\); the new numerator is \\[\\begin{gathered}(8x-1)-5(x-2)\\\\=3(x+3)\\end{gathered}\\]\n\nThus the result is \\(\\frac{3 \\left(x + 3\\right)}{\\left(x - 2\\right) \\left(8 x - 1\\right)}\\).\n\nKeep the original domain: \\[\\begin{gathered}x\\ne2,\\frac52,\\\\-4,\\frac18,6\\end{gathered}\\] Cancellation does not restore excluded values."
+        },
+        {
+          "field": "solutionZh",
+          "before": "第二項含除法，相關因式分別為 \\((2x-5)(x-6)\\)、\\((2x-5)(x+4)\\)、\\((8x-1)(x-6)\\)、\\(5(x+4)\\)，相除後得 \\(5/(8x-1)\\)。再從 \\(1/(x-2)\\) 減去它，通分分子為 \\[\\begin{gathered}(8x-1)-5(x-2)\\\\=3(x+3)\\end{gathered}\\]。\n\n所以結果為 \\(\\frac{3 \\left(x + 3\\right)}{\\left(x - 2\\right) \\left(8 x - 1\\right)}\\)。\n\n保留原式定義域：\\[\\begin{gathered}x\\ne2,\\frac52,\\\\-4,\\frac18,6\\end{gathered}\\]。約去因式不能恢復原本排除的值。",
+          "after": "第二項含除法，相關因式分別為 \\((2x-5)(x-6)\\)、\\((2x-5)(x+4)\\)、\\((8x-1)(x-6)\\)、\\(5(x+4)\\)，相除後得 \\(5/(8x-1)\\)。再從 \\(1/(x-2)\\) 減去它，通分分子為 \\[\\begin{gathered}(8x-1)-5(x-2)\\\\=3(x+3)\\end{gathered}\\]\n\n所以結果為 \\(\\frac{3 \\left(x + 3\\right)}{\\left(x - 2\\right) \\left(8 x - 1\\right)}\\)。\n\n保留原式定義域：\\[\\begin{gathered}x\\ne2,\\frac52,\\\\-4,\\frac18,6\\end{gathered}\\]。約去因式不能恢復原本排除的值。"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The second term is a quotient: factor its parts as \\((2x-5)(x-6)\\), \\((2x-5)(x+4)\\), \\((8x-1)(x-6)\\) and \\(5(x+4)\\). The quotient becomes \\(5/(8x-1)\\). Now subtract from \\(1/(x-2)\\); the new numerator is \\[\\begin{gathered}(8x-1)-5(x-2)\\\\=3(x+3)\\end{gathered}\\]."
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{3 \\left(x + 3\\right)}{\\left(x - 2\\right) \\left(8 x - 1\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\[\\begin{gathered}x\\ne2,\\frac52,\\\\-4,\\frac18,6\\end{gathered}\\]. Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "第二項含除法，相關因式分別為 \\((2x-5)(x-6)\\)、\\((2x-5)(x+4)\\)、\\((8x-1)(x-6)\\)、\\(5(x+4)\\)，相除後得 \\(5/(8x-1)\\)。再從 \\(1/(x-2)\\) 減去它，通分分子為 \\[\\begin{gathered}(8x-1)-5(x-2)\\\\=3(x+3)\\end{gathered}\\]。"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{3 \\left(x + 3\\right)}{\\left(x - 2\\right) \\left(8 x - 1\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\[\\begin{gathered}x\\ne2,\\frac52,\\\\-4,\\frac18,6\\end{gathered}\\]。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "The second term is a quotient: factor its parts as \\((2x-5)(x-6)\\), \\((2x-5)(x+4)\\), \\((8x-1)(x-6)\\) and \\(5(x+4)\\). The quotient becomes \\(5/(8x-1)\\). Now subtract from \\(1/(x-2)\\); the new numerator is \\[\\begin{gathered}(8x-1)-5(x-2)\\\\=3(x+3)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "Thus the result is \\(\\frac{3 \\left(x + 3\\right)}{\\left(x - 2\\right) \\left(8 x - 1\\right)}\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "Keep the original domain: \\[\\begin{gathered}x\\ne2,\\frac52,\\\\-4,\\frac18,6\\end{gathered}\\] Cancellation does not restore excluded values."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "第二項含除法，相關因式分別為 \\((2x-5)(x-6)\\)、\\((2x-5)(x+4)\\)、\\((8x-1)(x-6)\\)、\\(5(x+4)\\)，相除後得 \\(5/(8x-1)\\)。再從 \\(1/(x-2)\\) 減去它，通分分子為 \\[\\begin{gathered}(8x-1)-5(x-2)\\\\=3(x+3)\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "所以結果為 \\(\\frac{3 \\left(x + 3\\right)}{\\left(x - 2\\right) \\left(8 x - 1\\right)}\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "保留原式定義域：\\[\\begin{gathered}x\\ne2,\\frac52,\\\\-4,\\frac18,6\\end{gathered}\\]。約去因式不能恢復原本排除的值。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-108cd00fe4c49284",
+      "locator": "13",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "stem",
+          "before": "Let \\(A,B\\) be constants. If \\(\\frac{3x+5}{(x+1)(2x+3)}\\)\n\n\\[\\begin{gathered}\\equiv\\frac A{x+1}\\\\+\\frac B{2x+3}\\end{gathered}\\], find \\(A,B\\).",
+          "after": "Let \\(A,B\\) be constants. If \\(\\frac{3x+5}{(x+1)(2x+3)}\\)\n\n\\[\\begin{gathered}\\equiv\\frac A{x+1}\\\\+\\frac B{2x+3}\\end{gathered}\\] find \\(A,B\\)."
+        },
+        {
+          "field": "solution",
+          "before": "Clearing denominators for \\(x\\ne-1,-\\frac32\\) gives the polynomial identity \\[\\begin{gathered}3x+5\\\\=A(2x+3)+B(x+1)\\end{gathered}\\]. Set \\(x=-1\\) to get \\(A=2\\); set \\(x=-\\frac32\\) to get \\(B=-1\\). Check: \\(2(2x+3)-(x+1)=3x+5\\).",
+          "after": "Clearing denominators for \\(x\\ne-1,-\\frac32\\) gives the polynomial identity \\[\\begin{gathered}3x+5\\\\=A(2x+3)+B(x+1)\\end{gathered}\\] Set \\(x=-1\\) to get \\(A=2\\); set \\(x=-\\frac32\\) to get \\(B=-1\\). Check: \\(2(2x+3)-(x+1)=3x+5\\)."
+        },
+        {
+          "field": "contentBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(A,B\\) be constants. If \\(\\frac{3x+5}{(x+1)(2x+3)}\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}\\equiv\\frac A{x+1}\\\\+\\frac B{2x+3}\\end{gathered}\\], find \\(A,B\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(A,B\\) 為常數。若 \\(\\frac{3x+5}{(x+1)(2x+3)}\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}\\equiv\\frac A{x+1}\\\\+\\frac B{2x+3}\\end{gathered}\\]，求 \\(A,B\\)。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(A,B\\) be constants. If \\(\\frac{3x+5}{(x+1)(2x+3)}\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}\\equiv\\frac A{x+1}\\\\+\\frac B{2x+3}\\end{gathered}\\] find \\(A,B\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(A,B\\) 為常數。若 \\(\\frac{3x+5}{(x+1)(2x+3)}\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\[\\begin{gathered}\\equiv\\frac A{x+1}\\\\+\\frac B{2x+3}\\end{gathered}\\]，求 \\(A,B\\)。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-49eddb5704b5adeb",
+      "locator": "14",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "(a) By the remainder theorem, the remainder is \\(f(-\\frac23)=4\\).\n\n(b) The expression is \\(f(x)-4\\), so it has factor \\(3x+2\\). Division gives \\[\\begin{gathered}x^2-7x+10\\\\=(x-2)(x-5)\\end{gathered}\\]. Thus it factors as \\((3x+2)(x-2)(x-5)\\).\n\n(c) The denominator is \\(3x(3x+2)(x-2)\\). Cancel common factors to obtain \\((x-5)/(3x)\\), retaining \\(x\\ne0,-\\frac23,2\\).",
+          "after": "(a) By the remainder theorem, the remainder is \\(f(-\\frac23)=4\\).\n\n(b) The expression is \\(f(x)-4\\), so it has factor \\(3x+2\\). Division gives \\[\\begin{gathered}x^2-7x+10\\\\=(x-2)(x-5)\\end{gathered}\\] Thus it factors as \\((3x+2)(x-2)(x-5)\\).\n\n(c) The denominator is \\(3x(3x+2)(x-2)\\). Cancel common factors to obtain \\((x-5)/(3x)\\), retaining \\(x\\ne0,-\\frac23,2\\)."
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) By the remainder theorem, the remainder is \\(f(-\\frac23)=4\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) The expression is \\(f(x)-4\\), so it has factor \\(3x+2\\). Division gives \\[\\begin{gathered}x^2-7x+10\\\\=(x-2)(x-5)\\end{gathered}\\]. Thus it factors as \\((3x+2)(x-2)(x-5)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) The denominator is \\(3x(3x+2)(x-2)\\). Cancel common factors to obtain \\((x-5)/(3x)\\), retaining \\(x\\ne0,-\\frac23,2\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 由餘式定理，餘式為 \\(f(-\\frac23)=4\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 該式為 \\(f(x)-4\\)，所以有因式 \\(3x+2\\)；相除得 \\[\\begin{gathered}x^2-7x+10\\\\=(x-2)(x-5)\\end{gathered}\\]，故分解為 \\((3x+2)(x-2)(x-5)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 分母為 \\(3x(3x+2)(x-2)\\)，約去共同因式後得 \\((x-5)/(3x)\\)，保留 \\(x\\ne0,-\\frac23,2\\)。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) By the remainder theorem, the remainder is \\(f(-\\frac23)=4\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) The expression is \\(f(x)-4\\), so it has factor \\(3x+2\\). Division gives \\[\\begin{gathered}x^2-7x+10\\\\=(x-2)(x-5)\\end{gathered}\\] Thus it factors as \\((3x+2)(x-2)(x-5)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) The denominator is \\(3x(3x+2)(x-2)\\). Cancel common factors to obtain \\((x-5)/(3x)\\), retaining \\(x\\ne0,-\\frac23,2\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 由餘式定理，餘式為 \\(f(-\\frac23)=4\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 該式為 \\(f(x)-4\\)，所以有因式 \\(3x+2\\)；相除得 \\[\\begin{gathered}x^2-7x+10\\\\=(x-2)(x-5)\\end{gathered}\\]，故分解為 \\((3x+2)(x-2)(x-5)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 分母為 \\(3x(3x+2)(x-2)\\)，約去共同因式後得 \\((x-5)/(3x)\\)，保留 \\(x\\ne0,-\\frac23,2\\)。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-86804a63fa008ec5",
+      "locator": "15",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "stem",
+          "before": "Let \\(f(x)=x^3-ax^2-2x+4b\\) and \\(g(x)=x^3-bx^2-5ax-18\\), where \\(a,b\\) are constants.\n\nWhen \\(f(x)\\) is divided by \\(x+1\\), the remainder is 20. Also \\(g(x)\\) is divisible by \\(x+1\\).\n\n(a) Find \\(a,b\\). (b) Factorise \\(f(x),g(x)\\).\n\n(c) Simplify \\[\\begin{gathered}\\frac{f(x)}{g(x)}\\\\-\\frac3{x-9}\\end{gathered}\\].",
+          "after": "Let \\(f(x)=x^3-ax^2-2x+4b\\) and \\(g(x)=x^3-bx^2-5ax-18\\), where \\(a,b\\) are constants.\n\nWhen \\(f(x)\\) is divided by \\(x+1\\), the remainder is 20. Also \\(g(x)\\) is divisible by \\(x+1\\).\n\n(a) Find \\(a,b\\). (b) Factorise \\(f(x),g(x)\\).\n\n(c) Simplify \\[\\begin{gathered}\\frac{f(x)}{g(x)}\\\\-\\frac3{x-9}\\end{gathered}\\]"
+        },
+        {
+          "field": "stemZh",
+          "before": "設 \\(f(x)=x^3-ax^2-2x+4b\\) 及 \\(g(x)=x^3-bx^2-5ax-18\\)，其中 \\(a,b\\) 為常數。\n\n\\(f(x)\\) 被 \\(x+1\\) 除時餘式為20，而 \\(g(x)\\) 可被 \\(x+1\\) 整除。\n\n(a) 求 \\(a,b\\)。(b) 因式分解 \\(f(x),g(x)\\)。\n\n(c) 化簡 \\[\\begin{gathered}\\frac{f(x)}{g(x)}\\\\-\\frac3{x-9}\\end{gathered}\\]。",
+          "after": "設 \\(f(x)=x^3-ax^2-2x+4b\\) 及 \\(g(x)=x^3-bx^2-5ax-18\\)，其中 \\(a,b\\) 為常數。\n\n\\(f(x)\\) 被 \\(x+1\\) 除時餘式為20，而 \\(g(x)\\) 可被 \\(x+1\\) 整除。\n\n(a) 求 \\(a,b\\)。(b) 因式分解 \\(f(x),g(x)\\)。\n\n(c) 化簡 \\[\\begin{gathered}\\frac{f(x)}{g(x)}\\\\-\\frac3{x-9}\\end{gathered}\\]"
+        },
+        {
+          "field": "solution",
+          "before": "(a) The conditions give \\(1-a+4b=20\\) and \\(-19-b+5a=0\\). Solving \\(-a+4b=19\\), \\(5a-b=19\\) gives \\(a=5,b=6\\).\n\n(b) Substitute and factor: \\(f(x)=(x+2)(x-3)(x-4)\\); \\(g(x)=(x+1)(x+2)(x-9)\\).\n\n(c) Cancel \\(x+2\\), retaining its original exclusion. The common numerator is \\((x-3)(x-4)-3(x+1)\\), which equals \\[\\begin{gathered}x^2-10x+9\\\\=(x-1)(x-9)\\end{gathered}\\]. The result is \\((x-1)/(x+1)\\), with \\(x\\ne-1,-2,9\\).",
+          "after": "(a) The conditions give \\(1-a+4b=20\\) and \\(-19-b+5a=0\\). Solving \\(-a+4b=19\\), \\(5a-b=19\\) gives \\(a=5,b=6\\).\n\n(b) Substitute and factor: \\(f(x)=(x+2)(x-3)(x-4)\\); \\(g(x)=(x+1)(x+2)(x-9)\\).\n\n(c) Cancel \\(x+2\\), retaining its original exclusion. The common numerator is \\((x-3)(x-4)-3(x+1)\\), which equals \\[\\begin{gathered}x^2-10x+9\\\\=(x-1)(x-9)\\end{gathered}\\] The result is \\((x-1)/(x+1)\\), with \\(x\\ne-1,-2,9\\)."
+        },
+        {
+          "field": "contentBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(f(x)=x^3-ax^2-2x+4b\\) and \\(g(x)=x^3-bx^2-5ax-18\\), where \\(a,b\\) are constants."
+              },
+              {
+                "type": "paragraph",
+                "text": "When \\(f(x)\\) is divided by \\(x+1\\), the remainder is 20. Also \\(g(x)\\) is divisible by \\(x+1\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find \\(a,b\\). (b) Factorise \\(f(x),g(x)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Simplify \\[\\begin{gathered}\\frac{f(x)}{g(x)}\\\\-\\frac3{x-9}\\end{gathered}\\]."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(f(x)=x^3-ax^2-2x+4b\\) 及 \\(g(x)=x^3-bx^2-5ax-18\\)，其中 \\(a,b\\) 為常數。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(f(x)\\) 被 \\(x+1\\) 除時餘式為20，而 \\(g(x)\\) 可被 \\(x+1\\) 整除。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(a,b\\)。(b) 因式分解 \\(f(x),g(x)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 化簡 \\[\\begin{gathered}\\frac{f(x)}{g(x)}\\\\-\\frac3{x-9}\\end{gathered}\\]。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Let \\(f(x)=x^3-ax^2-2x+4b\\) and \\(g(x)=x^3-bx^2-5ax-18\\), where \\(a,b\\) are constants."
+              },
+              {
+                "type": "paragraph",
+                "text": "When \\(f(x)\\) is divided by \\(x+1\\), the remainder is 20. Also \\(g(x)\\) is divisible by \\(x+1\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) Find \\(a,b\\). (b) Factorise \\(f(x),g(x)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Simplify \\[\\begin{gathered}\\frac{f(x)}{g(x)}\\\\-\\frac3{x-9}\\end{gathered}\\]"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "設 \\(f(x)=x^3-ax^2-2x+4b\\) 及 \\(g(x)=x^3-bx^2-5ax-18\\)，其中 \\(a,b\\) 為常數。"
+              },
+              {
+                "type": "paragraph",
+                "text": "\\(f(x)\\) 被 \\(x+1\\) 除時餘式為20，而 \\(g(x)\\) 可被 \\(x+1\\) 整除。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(a) 求 \\(a,b\\)。(b) 因式分解 \\(f(x),g(x)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 化簡 \\[\\begin{gathered}\\frac{f(x)}{g(x)}\\\\-\\frac3{x-9}\\end{gathered}\\]"
+              }
+            ]
+          }
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) The conditions give \\(1-a+4b=20\\) and \\(-19-b+5a=0\\). Solving \\(-a+4b=19\\), \\(5a-b=19\\) gives \\(a=5,b=6\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Substitute and factor: \\(f(x)=(x+2)(x-3)(x-4)\\); \\(g(x)=(x+1)(x+2)(x-9)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Cancel \\(x+2\\), retaining its original exclusion. The common numerator is \\((x-3)(x-4)-3(x+1)\\), which equals \\[\\begin{gathered}x^2-10x+9\\\\=(x-1)(x-9)\\end{gathered}\\]. The result is \\((x-1)/(x+1)\\), with \\(x\\ne-1,-2,9\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 條件給 \\(1-a+4b=20\\)、\\(-19-b+5a=0\\)，聯立 \\(-a+4b=19\\)、\\(5a-b=19\\) 得 \\(a=5,b=6\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 代入並分解得 \\(f(x)=(x+2)(x-3)(x-4)\\)、\\(g(x)=(x+1)(x+2)(x-9)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 約去 \\(x+2\\)，但保留原本排除的值。通分後分子為 \\((x-3)(x-4)-3(x+1)\\)，即 \\[\\begin{gathered}x^2-10x+9\\\\=(x-1)(x-9)\\end{gathered}\\]。結果為 \\((x-1)/(x+1)\\)，其中 \\(x\\ne-1,-2,9\\)。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) The conditions give \\(1-a+4b=20\\) and \\(-19-b+5a=0\\). Solving \\(-a+4b=19\\), \\(5a-b=19\\) gives \\(a=5,b=6\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Substitute and factor: \\(f(x)=(x+2)(x-3)(x-4)\\); \\(g(x)=(x+1)(x+2)(x-9)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) Cancel \\(x+2\\), retaining its original exclusion. The common numerator is \\((x-3)(x-4)-3(x+1)\\), which equals \\[\\begin{gathered}x^2-10x+9\\\\=(x-1)(x-9)\\end{gathered}\\] The result is \\((x-1)/(x+1)\\), with \\(x\\ne-1,-2,9\\)."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 條件給 \\(1-a+4b=20\\)、\\(-19-b+5a=0\\)，聯立 \\(-a+4b=19\\)、\\(5a-b=19\\) 得 \\(a=5,b=6\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 代入並分解得 \\(f(x)=(x+2)(x-3)(x-4)\\)、\\(g(x)=(x+1)(x+2)(x-9)\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 約去 \\(x+2\\)，但保留原本排除的值。通分後分子為 \\((x-3)(x-4)-3(x+1)\\)，即 \\[\\begin{gathered}x^2-10x+9\\\\=(x-1)(x-9)\\end{gathered}\\]。結果為 \\((x-1)/(x+1)\\)，其中 \\(x\\ne-1,-2,9\\)。"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "locator": "3",
+      "candidateId": "import-polynomial-5688a0aff2597c78",
+      "score": 0.8,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "9",
+      "candidateId": "import-polynomial-26effab2c839224e",
+      "score": 0.8,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "9",
+      "candidateId": "import-polynomial-0087f80bd45360cc",
+      "score": 0.7,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    }
+  ],
+  "digest": "a716946fa0e18b51cf6d2a2407ca9fb0d2557b4a7aaa5f2e19e9cd075558f9cc",
+  "baseline": "ec620193f5709bed0fbfc4a99cb1ad47fcb8ffdbdd4ea258a3ea91603a688573",
+  "applied": true,
+  "import": {
+    "at": "2026-11-16T16:44:49.260Z",
+    "baseline": "ec620193f5709bed0fbfc4a99cb1ad47fcb8ffdbdd4ea258a3ea91603a688573",
+    "report": {
+      "added": [],
+      "updated": [
+        "import-polynomial-5c6ccca29569bc78",
+        "import-polynomial-ff807e3c34c3b90f",
+        "import-polynomial-26effab2c839224e",
+        "import-polynomial-7c9c7d5236180af1",
+        "import-polynomial-00b35e4e6c822d20",
+        "import-polynomial-00ec405b684dfff7",
+        "import-polynomial-5688a0aff2597c78",
+        "import-polynomial-7d15d404d8f7cce0",
+        "import-polynomial-89804a008993d220",
+        "import-polynomial-108cd00fe4c49284",
+        "import-polynomial-49eddb5704b5adeb",
+        "import-polynomial-86804a63fa008ec5"
+      ],
+      "unchanged": [
+        "import-polynomial-5b73f6f7e11a5879",
+        "import-polynomial-5eb91d556ece00fe",
+        "import-polynomial-1270e0ea5468a75e"
+      ],
+      "chapters": [],
+      "taxonomyChanged": false
+    },
+    "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1794847489260-intake-98d8641aac7de987"
+  }
+}

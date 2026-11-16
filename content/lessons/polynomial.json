@@ -238,6 +238,43 @@
         "import-polynomial-8335db02511e908d",
         "import-polynomial-pl071"
       ]
+    },
+    {
+      "id": "rational-expressions",
+      "title": {
+        "en": "Factor before combining algebraic fractions",
+        "zh-Hant": "先分解，再處理代數分式"
+      },
+      "intro": {
+        "en": "Factor every denominator before cancelling. For division, first invert the divisor and retain its nonzero condition. For addition and subtraction, use the least common denominator and combine the entire numerators. Clear inner denominators in compound fractions. For partial fractions, clear denominators to obtain a polynomial identity before substituting the roots of the factors.",
+        "zh-Hant": "先分解每個分母，才約去共同因式。除法先把除式倒轉，並保留除式非零的條件。加減法先找最小公分母，再合併整個分子。複分式先消去內層分母；部分分式先同乘分母得到多項式恆等式，再代入因式的根。"
+      },
+      "formulas": [
+        "\\(\\frac{u}{v}\\div\\frac{w}{z}=\\frac{uz}{vw}\\)",
+        "\\(v\\ne0,\\ z\\ne0,\\ w\\ne0\\)",
+        "\\(\\frac{3x+5}{(x+1)(2x+3)}\\)",
+        "\\(=\\frac{2}{x+1}-\\frac{1}{2x+3}\\)"
+      ],
+      "trigger": {
+        "en": "Write the original denominator and divisor exclusions before simplifying. Check the resulting identity by expansion or substitution at an admissible value.",
+        "zh-Hant": "化簡前先寫出原分母及除式的限制，再以展開或代入容許值核對結果。"
+      },
+      "trap": {
+        "en": "Cancel factors, never individual terms in a sum. Cancelled factors still exclude their original zeros. A polynomial identity obtained after clearing denominators may be evaluated at factor roots; the original fractions remain undefined there.",
+        "zh-Hant": "只可約去因式，不可約去和式中的個別項。約去的因式，其零點仍不可代入原式。同乘分母後的多項式恆等式可代入因式的根，但原分式在該處仍沒有定義。"
+      },
+      "skills": [
+        "poly-rational-products",
+        "poly-rational-sums",
+        "poly-complex-fractions",
+        "poly-partial-fractions"
+      ],
+      "exampleIds": [
+        "import-polynomial-5c6ccca29569bc78",
+        "import-polynomial-26effab2c839224e",
+        "import-polynomial-7c9c7d5236180af1",
+        "import-polynomial-108cd00fe4c49284"
+      ]
     }
   ]
 }

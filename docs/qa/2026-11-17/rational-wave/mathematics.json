@@ -1,0 +1,462 @@
+{
+  "sourceRecords": 30,
+  "checks": [
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 1,
+      "check": "factorisation",
+      "original": "5*x**2 + 20*x",
+      "result": "5*x*(x + 4)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 1,
+      "check": "factorisation",
+      "original": "x**2 + 8*x + 16",
+      "result": "(x + 4)**2",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 1,
+      "check": "HCF and LCM independently computed over integer coefficients",
+      "hcf": "x + 4",
+      "lcm": "5*x*(x + 4)**2",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 2,
+      "check": "factorisation",
+      "original": "u**2 - 5*u - 14",
+      "result": "(u - 7)*(u + 2)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 2,
+      "check": "factorisation",
+      "original": "2*u**2 + 11*u + 14",
+      "result": "(u + 2)*(2*u + 7)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 2,
+      "check": "HCF and LCM independently computed over integer coefficients",
+      "hcf": "u + 2",
+      "lcm": "(u - 7)*(u + 2)*(2*u + 7)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 3,
+      "check": "factorisation",
+      "original": "3*v**2 - 9*v*z - 12*z**2",
+      "result": "(v + z)*(3*v - 12*z)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 3,
+      "check": "factorisation",
+      "original": "8*v**2 - 36*v*z + 16*z**2",
+      "result": "(2*v - z)*(4*v - 16*z)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 3,
+      "check": "HCF and LCM independently computed over integer coefficients",
+      "hcf": "v - 4*z",
+      "lcm": "(v + z)*(2*v - z)*(12*v - 48*z)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 4,
+      "check": "factorisation",
+      "original": "8*a**3 + 1",
+      "result": "(2*a + 1)*(4*a**2 - 2*a + 1)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 4,
+      "check": "factorisation",
+      "original": "2*a*b + 2*a*c + b + c",
+      "result": "(2*a + 1)*(b + c)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 4,
+      "check": "HCF and LCM independently computed over integer coefficients",
+      "hcf": "2*a + 1",
+      "lcm": "(2*a + 1)*(b + c)*(4*a**2 - 2*a + 1)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 5,
+      "check": "factorisation",
+      "original": "10*m + 15",
+      "result": "10*m + 15",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 5,
+      "check": "factorisation",
+      "original": "60*m**2 + 60*m + 15",
+      "result": "15*(2*m + 1)**2",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 5,
+      "check": "factorisation",
+      "original": "20*m**2 + 60*m + 25",
+      "result": "(2*m + 5)*(10*m + 5)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 5,
+      "check": "HCF and LCM independently computed over integer coefficients",
+      "hcf": "5",
+      "lcm": "15*(2*m + 1)**2*(2*m + 3)*(2*m + 5)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 6,
+      "check": "factorisation",
+      "original": "36*x**2 + 36*x*y + 9*y**2",
+      "result": "9*(2*x + y)**2",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 6,
+      "check": "factorisation",
+      "original": "24*x**3 + 3*y**3",
+      "result": "(6*x + 3*y)*(4*x**2 - 2*x*y + y**2)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 6,
+      "check": "factorisation",
+      "original": "72*x**2 + 84*x*y + 24*y**2",
+      "result": "(3*x + 2*y)*(24*x + 12*y)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 6,
+      "check": "HCF and LCM independently computed over integer coefficients",
+      "hcf": "6*x + 3*y",
+      "lcm": "36*(2*x + y)**2*(3*x + 2*y)*(4*x**2 - 2*x*y + y**2)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 7,
+      "check": "simplification",
+      "original": "9*x/(4*x**2 + 5*x + 1) + 3/(4*x + 1)",
+      "result": "3/(x + 1)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 8,
+      "check": "simplification",
+      "original": "(2*x - 3)/(x**3 - 1) - 2/(x**2 - 8*x + 7)",
+      "result": "-19/((x - 7)*(x**2 + x + 1))",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 9,
+      "check": "simplification",
+      "original": "(5*x + 3)*(2*x**2 - 13*x + 6)*(9*x**2 + 6*x + 1)/((9 - 25*x**2)*(10*x - 5)*(3*x**2 - 17*x - 6))",
+      "result": "(3*x + 1)/(15 - 25*x)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 10,
+      "check": "simplification",
+      "original": "x**2*(25*x**2 - 9*y**2)*(x**2 - 4*x*y + 4*y**2)/((3*x**2 - 6*x*y)*(5*x**2*y - 3*x*y**2)*(5*x**2 - 2*x*y - 3*y**2))",
+      "result": "(x - 2*y)/(3*y*(x - y))",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 11,
+      "check": "simplification",
+      "original": "-5/(x**2 - 2*x - 8) + 2/(x**2 - 6*x + 8) + 4/(x**2 - 4)",
+      "result": "1/((x - 4)*(x + 2))",
+      "verified": true
+    },
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "number": 12,
+      "check": "simplification",
+      "original": "(x - y)/(x + y) - (5*x + y)*(2*x*y + 1)*(x**2 - 2*x*y + y**2)/((5*x**2 - 4*x*y - y**2)*(2*x**2*y + 2*x*y**2 + x + y))",
+      "result": "0",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 1,
+      "check": "simplification",
+      "original": "a*(a**2 - b**2)*(a**2 + a*b + b**2)*(a**2 + 2*a*b + b**2)/((a + b)*(a**3 - b**3)*(a**2 - 2*a*b - 3*b**2))",
+      "result": "a*(a + b)/(a - 3*b)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 2,
+      "check": "simplification",
+      "original": "1/(x - 1) + 1/((x - 2)*(x - 1))",
+      "result": "1/(x - 2)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 3,
+      "check": "simplification",
+      "original": "(-3*x - 1)/(x**2 + 5*x + 6) + (x - 3)/(x + 2)",
+      "result": "(x - 5)/(x + 3)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 4,
+      "check": "simplification",
+      "original": "15*a*b*(1/(3*b) + 1/(2*a))*(-2*a**2/3 + a*b/3 + b**2)/(-4*a**2 + 9*b**2)",
+      "result": "5*a/6 + 5*b/6",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 5,
+      "check": "simplification",
+      "original": "1/2 - 1/(1 - 1/x) + 1/(2*x)",
+      "result": "(-x**2 - 1)/(2*x*(x - 1))",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 6,
+      "check": "partial fractions numerator identity",
+      "original": "9*x + 3",
+      "result": "9*x + 3",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 7,
+      "check": "simplification",
+      "original": "(24 - 6*x**2)*(x + 3)*(2*x**2 + 13*x - 7)/((3*x + 21)*(8*x**3 - 1)*(x**2 + 5*x + 6))",
+      "result": "(4 - 2*x)/(4*x**2 + 2*x + 1)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 8,
+      "check": "simplification",
+      "original": "(x**2 - 2*x - 15)*(x**2 + 5*x - 6)*(x**2 + 6*x + 8)/((x**2 - 2*x - 8)*(x**2 + x - 30)*(x**2 + 7*x + 12))",
+      "result": "(x - 1)/(x - 4)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 9,
+      "check": "simplification",
+      "original": "-1/(x**2 + 5*x + 6) + 2/(x**2 + 4*x + 3)",
+      "result": "1/((x + 1)*(x + 2))",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 10,
+      "check": "simplification",
+      "original": "2/(x**2 - x - 6) - 4/(x**2 - 6*x - 16) + 3/(x**2 - 11*x + 24)",
+      "result": "1/((x - 8)*(x - 3))",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 11,
+      "check": "simplification",
+      "original": "-(5*x + 20)*(2*x**2 - 17*x + 30)/((2*x**2 + 3*x - 20)*(8*x**2 - 49*x + 6)) + 1/(x - 2)",
+      "result": "(3*x + 9)/((x - 2)*(8*x - 1))",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 12,
+      "check": "simplification",
+      "original": "(1 - y/x)/(x/y - y/x)",
+      "result": "y/(x + y)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 13,
+      "check": "partial fractions numerator identity",
+      "original": "3*x + 5",
+      "result": "3*x + 5",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 14,
+      "check": "remainder",
+      "original": "4",
+      "result": "4",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 14,
+      "check": "factorisation",
+      "original": "3*x**3 - 19*x**2 + 16*x + 20",
+      "result": "(x - 5)*(x - 2)*(3*x + 2)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 14,
+      "check": "rational cancellation",
+      "original": "(3*x**3 - 19*x**2 + 16*x + 20)/(9*x**3 - 12*x**2 - 12*x)",
+      "result": "(x - 5)/(3*x)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 15,
+      "check": "f factorisation",
+      "original": "x**3 - 5*x**2 - 2*x + 24",
+      "result": "(x - 4)*(x - 3)*(x + 2)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 15,
+      "check": "g factorisation",
+      "original": "x**3 - 6*x**2 - 25*x - 18",
+      "result": "(x - 9)*(x + 1)*(x + 2)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 15,
+      "check": "final rational simplification",
+      "original": "(x**3 - 5*x**2 - 2*x + 24)/(x**3 - 6*x**2 - 25*x - 18) - 3/(x - 9)",
+      "result": "(x - 1)/(x + 1)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 1,
+      "check": "coefficient comparison",
+      "original": "6*x**3 - 23*x**2 + 25*x - 6",
+      "result": "(x - 2)*(6*x**2 - 11*x + 3)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 1,
+      "check": "difference factorisation",
+      "original": "6*x**3 - 26*x**2 + 32*x - 8",
+      "result": "2*(x - 2)**2*(3*x - 1)",
+      "verified": true
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 2,
+      "check": "quadratic remainder",
+      "original": "2*x + 1",
+      "result": "2*x + 1",
+      "verified": true
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 2,
+      "check": "first source remainder",
+      "original": "-1",
+      "result": "-1",
+      "verified": true
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 2,
+      "check": "second source remainder",
+      "original": "5",
+      "result": "5",
+      "verified": true
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 3,
+      "check": "quadratic remainder",
+      "original": "25*x + 50",
+      "result": "25*x + 50",
+      "verified": true
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 3,
+      "check": "linear remainder",
+      "original": "12",
+      "result": "12",
+      "verified": true
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 3,
+      "check": "known factor",
+      "original": "0",
+      "result": "0",
+      "verified": true
+    }
+  ],
+  "sourcePagesPersonallyReviewed": {
+    "source-d8120baa178a69de": [
+      1
+    ],
+    "source-98d8641aac7de987": [
+      1,
+      2,
+      3
+    ],
+    "source-694fe8baac70e10e": [
+      1,
+      2,
+      3
+    ]
+  },
+  "diagramQuestions": 0,
+  "sourceClarifications": [
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 1,
+      "finding": "Retain scalar2 in the difference factorisation; root set unchanged."
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "number": 2,
+      "finding": "Original claim says two rational roots; source final agree contradicts its own exact root list. Correct conclusion to disagree."
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "number": 15,
+      "finding": "Answer page mislabels final long answer14; match by original complete equations and values, not displayed answer numbering."
+    }
+  ]
+}

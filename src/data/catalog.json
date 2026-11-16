@@ -578,10 +578,10 @@
                 "poly-transformed-roots",
                 "poly-root-relations"
               ],
-              "questionCount": 47,
+              "questionCount": 50,
               "skillCounts": {
                 "roots": 1,
-                "poly-root-nature": 46,
+                "poly-root-nature": 49,
                 "poly-transformed-roots": 0,
                 "poly-root-relations": 0
               }
@@ -670,37 +670,57 @@
                 "poly-hcf-lcm-factors",
                 "poly-hcf-lcm-recover"
               ],
-              "questionCount": 22,
+              "questionCount": 25,
               "skillCounts": {
-                "poly-hcf-lcm-factors": 15,
+                "poly-hcf-lcm-factors": 18,
                 "poly-hcf-lcm-recover": 7
+              }
+            },
+            {
+              "id": "rational-expressions",
+              "name": {
+                "en": "Algebraic fractions",
+                "zh-Hant": "代數分式"
+              },
+              "skills": [
+                "poly-rational-products",
+                "poly-rational-sums",
+                "poly-complex-fractions",
+                "poly-partial-fractions"
+              ],
+              "questionCount": 21,
+              "skillCounts": {
+                "poly-rational-products": 8,
+                "poly-rational-sums": 9,
+                "poly-complex-fractions": 2,
+                "poly-partial-fractions": 2
               }
             }
           ],
           "topicId": "polynomial",
-          "questionCount": 303,
+          "questionCount": 330,
           "courses": [
             "core"
           ],
           "coverage": {
             "types": {
-              "mcq": 147,
-              "structured": 152,
+              "mcq": 153,
+              "structured": 173,
               "short-answer": 2,
               "dse-long": 1,
               "proof": 1
             },
             "difficulty": {
-              "easy": 93,
-              "medium": 133,
-              "hard": 46,
+              "easy": 94,
+              "medium": 148,
+              "hard": 57,
               "challenging": 31
             },
             "minForm": {
               "1": 89,
               "2": 1,
               "3": 4,
-              "4": 209
+              "4": 236
             }
           }
         },

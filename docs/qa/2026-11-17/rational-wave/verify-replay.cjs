@@ -1,0 +1,4 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),{createPipeline}=require('../../../../tools/editor/pipeline.cjs');
+const qa='docs/qa/2026-11-17/rational-wave',p=createPipeline({root:process.cwd(),sourceRoot:'/Users/chester/Downloads/By topic Review materials'}),result={};
+for(const row of JSON.parse(fs.readFileSync(qa+'/wave.json')).batches){const v=p.preview(row.id);assert.equal(v.ready,true);assert.deepEqual(v.changes,[]);const r=p.apply(row.id,v.digest);assert.equal(r.applied,false);assert.deepEqual(r.diff.added,[]);assert.deepEqual(r.diff.updated,[]);result[row.id]={ready:r.ready,applied:r.applied,added:r.diff.added,updated:r.diff.updated,message:r.message};}
+fs.writeFileSync(qa+'/replay.json',JSON.stringify(result,null,2)+'\n');console.log('PASS all3 source replays:0 additions,0 revisions.');

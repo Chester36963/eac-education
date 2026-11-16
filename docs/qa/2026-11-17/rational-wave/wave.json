@@ -1,0 +1,24 @@
+{
+  "sourceRoot": "/Users/chester/Downloads/By topic Review materials",
+  "output": "docs/qa/2026-11-17/rational-wave/draft",
+  "batches": [
+    {
+      "id": "intake-d8120baa178a69de",
+      "expectedQuestions": 12,
+      "reviewedPath": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "extraction": ".cache/bulk-intake/polynomial-wave/source-d8120baa178a69de/d005e8089348fd21/extraction.json"
+    },
+    {
+      "id": "intake-98d8641aac7de987",
+      "expectedQuestions": 15,
+      "reviewedPath": "S4/more about polynomials/Rational function review.pdf",
+      "extraction": ".cache/bulk-intake/polynomial-wave/source-98d8641aac7de987/0a566c3bd4f2d850/extraction.json"
+    },
+    {
+      "id": "intake-694fe8baac70e10e",
+      "expectedQuestions": 3,
+      "reviewedPath": "S4/more about polynomials/S4 polynomials revise.pdf",
+      "extraction": ".cache/bulk-intake/polynomial-wave/source-694fe8baac70e10e/2df3c02a2dd137e9/extraction.json"
+    }
+  ]
+}

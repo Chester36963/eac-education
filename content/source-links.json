@@ -779,6 +779,63 @@
           3
         ]
       }
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "canonicalId": "import-polynomial-8d1864fe82ad22db",
+      "duplicateQuestionId": "import-polynomial-53d5cbff59aa6b83",
+      "targetQuestionSha256": "ddf9eefb1ec561df9e399869436be4dbb5003f20695630f62370a3687b196fb6",
+      "sourceQuestionSha256": "4235d2ce5765b502edd8e894950499ce0d6412cdac325f820c491d5ad578c2d1",
+      "evidence": "Primary Codex personally matched the entire expression list and both requested HCF/LCM results on source page1; exact values, variables and task match canonical import-polynomial-8d1864fe82ad22db. Retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "1",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "canonicalId": "import-polynomial-ce4b61bb3dd9ff24",
+      "duplicateQuestionId": "import-polynomial-a4d5c07f5becd647",
+      "targetQuestionSha256": "58452f48a8ac61465daec258a9865f539d8bba961bb90dda4afc038770419b5b",
+      "sourceQuestionSha256": "0753905dbfc8b6a4f7809a275c6da8884f04910f65a427bb890065a51af5d954",
+      "evidence": "Primary Codex personally matched the entire expression list and both requested HCF/LCM results on source page1; exact values, variables and task match canonical import-polynomial-ce4b61bb3dd9ff24. Retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "3",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-d8120baa178a69de",
+      "canonicalId": "import-polynomial-09ecedda60d5ccb3",
+      "duplicateQuestionId": "import-polynomial-59b442e72e2a61dd",
+      "targetQuestionSha256": "f8e2a0e55a655fe54bc418c884aa3a9aa775b680b9a90f9aa11f243b8df668f3",
+      "sourceQuestionSha256": "d781dd3d59b98f79959864e66f31db73e6d245cac3d96a2fcc2b2f3411294351",
+      "evidence": "Primary Codex personally matched the entire expression list and both requested HCF/LCM results on source page1; exact values, variables and task match canonical import-polynomial-09ecedda60d5ccb3. Retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "4",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
     }
   ]
 }

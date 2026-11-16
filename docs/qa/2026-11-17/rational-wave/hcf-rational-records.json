@@ -1,0 +1,1256 @@
+[
+  {
+    "locator": "1",
+    "pages": [
+      1
+    ],
+    "disposition": "duplicate",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "difficulty": "medium",
+      "minForm": 4,
+      "course": "core",
+      "subcategory": "hcf-lcm",
+      "skill": "poly-hcf-lcm-factors",
+      "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(5x^2+20x\\)\n\\(x^2+8x+16\\)",
+      "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(5x^2+20x\\)\n\\(x^2+8x+16\\)",
+      "solution": "Factor as \\(5x(x+4)\\) and \\((x+4)^2\\), then compare factor powers.\nH.C.F.: \\(x+4\\).\nL.C.M.: \\(5x(x+4)^2\\).",
+      "solutionZh": "先分解為 \\(5x(x+4)\\) 及 \\((x+4)^2\\)，再比較因式次冪。\n最大公因式：\\(x+4\\)。\n最小公倍式：\\(5x(x+4)^2\\)。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q1",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第1題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "1",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+        "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q5"
+      },
+      "level": "free",
+      "assessmentMode": "solution-comparison",
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(5x^2+20x\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(x^2+8x+16\\)"
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "求以下各式的最大公因式及最小公倍式："
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(5x^2+20x\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(x^2+8x+16\\)"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Factor as \\(5x(x+4)\\) and \\((x+4)^2\\), then compare factor powers."
+          },
+          {
+            "type": "paragraph",
+            "text": "H.C.F.: \\(x+4\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "L.C.M.: \\(5x(x+4)^2\\)."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "先分解為 \\(5x(x+4)\\) 及 \\((x+4)^2\\)，再比較因式次冪。"
+          },
+          {
+            "type": "paragraph",
+            "text": "最大公因式：\\(x+4\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "最小公倍式：\\(5x(x+4)^2\\)。"
+          }
+        ]
+      }
+    },
+    "canonicalId": "import-polynomial-8d1864fe82ad22db",
+    "reason": "Primary Codex personally matched the entire expression list and both requested HCF/LCM results on source page1; exact values, variables and task match canonical import-polynomial-8d1864fe82ad22db. Retain existing student ID."
+  },
+  {
+    "locator": "2",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "assessmentMode": "solution-comparison",
+      "difficulty": "medium",
+      "minForm": 4,
+      "course": "core",
+      "level": "free",
+      "subcategory": "hcf-lcm",
+      "skill": "poly-hcf-lcm-factors",
+      "stem": "Find the H.C.F. and L.C.M. of:\n\n\\(u^2-5u-14\\)\n\n\\(2u^2+11u+14\\)",
+      "stemZh": "求下列各式的最大公因式及最小公倍式：\n\n\\(u^2-5u-14\\)\n\n\\(2u^2+11u+14\\)",
+      "solution": "Factor each expression:\n\n\\((u-7)(u+2)\\)\n\n\\((u+2)(2u+7)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=u + 2\\).\n\n\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\].",
+      "solutionZh": "先把各式因式分解：\n\n\\((u-7)(u+2)\\)\n\n\\((u+2)(2u+7)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=u + 2\\)。\n\n\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q2",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第2題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "2",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor every expression and compare numerical coefficients and minimum/maximum multiplicities.",
+        "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q2"
+      },
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Find the H.C.F. and L.C.M. of:"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(u^2-5u-14\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(2u^2+11u+14\\)"
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "求下列各式的最大公因式及最小公倍式："
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(u^2-5u-14\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(2u^2+11u+14\\)"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Factor each expression:"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\((u-7)(u+2)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\((u+2)(2u+7)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(H=u + 2\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "先把各式因式分解："
+          },
+          {
+            "type": "paragraph",
+            "text": "\\((u-7)(u+2)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\((u+2)(2u+7)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(H=u + 2\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\[\\begin{gathered}L\\\\=\\left(u - 7\\right) \\left(u + 2\\right) \\left(2 u + 7\\right)\\end{gathered}\\]。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "locator": "3",
+    "pages": [
+      1
+    ],
+    "disposition": "duplicate",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "difficulty": "medium",
+      "minForm": 4,
+      "course": "core",
+      "subcategory": "hcf-lcm",
+      "skill": "poly-hcf-lcm-factors",
+      "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(3v^2-9vz-12z^2\\)\n\\(8v^2-36vz+16z^2\\)",
+      "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(3v^2-9vz-12z^2\\)\n\\(8v^2-36vz+16z^2\\)",
+      "solution": "Factor as \\(3(v-4z)(v+z)\\) and \\(4(v-4z)(2v-z)\\). Only \\(v-4z\\) is common; the coefficient lcm is 12.\nH.C.F.: \\(v-4z\\).\nL.C.M.: \\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\].",
+      "solutionZh": "分解為 \\(3(v-4z)(v+z)\\) 及 \\(4(v-4z)(2v-z)\\)。只有 \\(v-4z\\) 共同，係數最小公倍數為 12。\n最大公因式：\\(v-4z\\)。\n最小公倍式：\\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\]。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q3",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第3題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "3",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+        "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q6"
+      },
+      "level": "free",
+      "assessmentMode": "solution-comparison",
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(3v^2-9vz-12z^2\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(8v^2-36vz+16z^2\\)"
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "求以下各式的最大公因式及最小公倍式："
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(3v^2-9vz-12z^2\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(8v^2-36vz+16z^2\\)"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Factor as \\(3(v-4z)(v+z)\\) and \\(4(v-4z)(2v-z)\\). Only \\(v-4z\\) is common; the coefficient lcm is 12."
+          },
+          {
+            "type": "paragraph",
+            "text": "H.C.F.: \\(v-4z\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "L.C.M.: \\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\]."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "分解為 \\(3(v-4z)(v+z)\\) 及 \\(4(v-4z)(2v-z)\\)。只有 \\(v-4z\\) 共同，係數最小公倍數為 12。"
+          },
+          {
+            "type": "paragraph",
+            "text": "最大公因式：\\(v-4z\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "最小公倍式：\\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\]。"
+          }
+        ]
+      }
+    },
+    "canonicalId": "import-polynomial-ce4b61bb3dd9ff24",
+    "reason": "Primary Codex personally matched the entire expression list and both requested HCF/LCM results on source page1; exact values, variables and task match canonical import-polynomial-ce4b61bb3dd9ff24. Retain existing student ID."
+  },
+  {
+    "locator": "4",
+    "pages": [
+      1
+    ],
+    "disposition": "duplicate",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "difficulty": "medium",
+      "minForm": 4,
+      "course": "core",
+      "subcategory": "hcf-lcm",
+      "skill": "poly-hcf-lcm-factors",
+      "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(8a^3+1\\)\n\\(2ab+c+b+2ac\\)",
+      "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(8a^3+1\\)\n\\(2ab+c+b+2ac\\)",
+      "solution": "Use the sum of cubes and grouping: \\((2a+1)(4a^2-2a+1)\\) and \\((2a+1)(b+c)\\).\nH.C.F.: \\(2a+1\\).\nL.C.M.: \\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\].",
+      "solutionZh": "利用立方和及分組，得 \\((2a+1)(4a^2-2a+1)\\) 及 \\((2a+1)(b+c)\\)。\n最大公因式：\\(2a+1\\)。\n最小公倍式：\\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\]。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q4",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第4題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "4",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+        "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q7"
+      },
+      "level": "free",
+      "assessmentMode": "solution-comparison",
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(8a^3+1\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(2ab+c+b+2ac\\)"
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "求以下各式的最大公因式及最小公倍式："
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(8a^3+1\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(2ab+c+b+2ac\\)"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Use the sum of cubes and grouping: \\((2a+1)(4a^2-2a+1)\\) and \\((2a+1)(b+c)\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "H.C.F.: \\(2a+1\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "L.C.M.: \\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\]."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "利用立方和及分組，得 \\((2a+1)(4a^2-2a+1)\\) 及 \\((2a+1)(b+c)\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "最大公因式：\\(2a+1\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "最小公倍式：\\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\]。"
+          }
+        ]
+      }
+    },
+    "canonicalId": "import-polynomial-09ecedda60d5ccb3",
+    "reason": "Primary Codex personally matched the entire expression list and both requested HCF/LCM results on source page1; exact values, variables and task match canonical import-polynomial-09ecedda60d5ccb3. Retain existing student ID."
+  },
+  {
+    "locator": "5",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "assessmentMode": "solution-comparison",
+      "difficulty": "medium",
+      "minForm": 4,
+      "course": "core",
+      "level": "free",
+      "subcategory": "hcf-lcm",
+      "skill": "poly-hcf-lcm-factors",
+      "stem": "Find the H.C.F. and L.C.M. of:\n\n\\(10m+15\\)\n\n\\(60m^2+60m+15\\)\n\n\\(20m^2+60m+25\\)",
+      "stemZh": "求下列各式的最大公因式及最小公倍式：\n\n\\(10m+15\\)\n\n\\(60m^2+60m+15\\)\n\n\\(20m^2+60m+25\\)",
+      "solution": "Factor each expression:\n\n\\(5(2m+3)\\)\n\n\\(15(2m+1)^2\\)\n\n\\(5(2m+1)(2m+5)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=5\\).\n\n\\[\\begin{gathered}L\\\\=15 \\left(2 m + 1\\right)^{2} \\left(2 m + 3\\right) \\left(2 m + 5\\right)\\end{gathered}\\].",
+      "solutionZh": "先把各式因式分解：\n\n\\(5(2m+3)\\)\n\n\\(15(2m+1)^2\\)\n\n\\(5(2m+1)(2m+5)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=5\\)。\n\n\\[\\begin{gathered}L\\\\=15 \\left(2 m + 1\\right)^{2} \\left(2 m + 3\\right) \\left(2 m + 5\\right)\\end{gathered}\\]。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q5",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第5題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "5",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor every expression and compare numerical coefficients and minimum/maximum multiplicities.",
+        "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q5"
+      },
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Find the H.C.F. and L.C.M. of:"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(10m+15\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(60m^2+60m+15\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(20m^2+60m+25\\)"
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "求下列各式的最大公因式及最小公倍式："
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(10m+15\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(60m^2+60m+15\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(20m^2+60m+25\\)"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Factor each expression:"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(5(2m+3)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(15(2m+1)^2\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(5(2m+1)(2m+5)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(H=5\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "\\[\\begin{gathered}L\\\\=15 \\left(2 m + 1\\right)^{2} \\left(2 m + 3\\right) \\left(2 m + 5\\right)\\end{gathered}\\]."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "先把各式因式分解："
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(5(2m+3)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(15(2m+1)^2\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(5(2m+1)(2m+5)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(H=5\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\[\\begin{gathered}L\\\\=15 \\left(2 m + 1\\right)^{2} \\left(2 m + 3\\right) \\left(2 m + 5\\right)\\end{gathered}\\]。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "locator": "6",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "assessmentMode": "solution-comparison",
+      "difficulty": "medium",
+      "minForm": 4,
+      "course": "core",
+      "level": "free",
+      "subcategory": "hcf-lcm",
+      "skill": "poly-hcf-lcm-factors",
+      "stem": "Find the H.C.F. and L.C.M. of:\n\n\\(36x^2+36xy+9y^2\\)\n\n\\(24x^3+3y^3\\)\n\n\\(72x^2+84xy+24y^2\\)",
+      "stemZh": "求下列各式的最大公因式及最小公倍式：\n\n\\(36x^2+36xy+9y^2\\)\n\n\\(24x^3+3y^3\\)\n\n\\(72x^2+84xy+24y^2\\)",
+      "solution": "Factor each expression:\n\n\\(9(2x+y)^2\\)\n\n\\(3(2x+y)(4x^2-2xy+y^2)\\)\n\n\\(12(2x+y)(3x+2y)\\)\n\nFor the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers.\n\n\\(H=6 x + 3 y\\).\n\n\\[\\begin{gathered}L\\\\=36 \\left(2 x + y\\right)^{2} \\left(3 x + 2 y\\right) \\left(4 x^{2} - 2 x y + y^{2}\\right)\\end{gathered}\\].",
+      "solutionZh": "先把各式因式分解：\n\n\\(9(2x+y)^2\\)\n\n\\(3(2x+y)(4x^2-2xy+y^2)\\)\n\n\\(12(2x+y)(3x+2y)\\)\n\n最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。\n\n\\(H=6 x + 3 y\\)。\n\n\\[\\begin{gathered}L\\\\=36 \\left(2 x + y\\right)^{2} \\left(3 x + 2 y\\right) \\left(4 x^{2} - 2 x y + y^{2}\\right)\\end{gathered}\\]。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q6",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第6題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "6",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor every expression and compare numerical coefficients and minimum/maximum multiplicities.",
+        "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q6"
+      },
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Find the H.C.F. and L.C.M. of:"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(36x^2+36xy+9y^2\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(24x^3+3y^3\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(72x^2+84xy+24y^2\\)"
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "求下列各式的最大公因式及最小公倍式："
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(36x^2+36xy+9y^2\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(24x^3+3y^3\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(72x^2+84xy+24y^2\\)"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Factor each expression:"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(9(2x+y)^2\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(3(2x+y)(4x^2-2xy+y^2)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(12(2x+y)(3x+2y)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "For the HCF take the GCD of integer coefficients and minimum common factor powers; for the LCM take their LCM and maximum powers."
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(H=6 x + 3 y\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "\\[\\begin{gathered}L\\\\=36 \\left(2 x + y\\right)^{2} \\left(3 x + 2 y\\right) \\left(4 x^{2} - 2 x y + y^{2}\\right)\\end{gathered}\\]."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "先把各式因式分解："
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(9(2x+y)^2\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(3(2x+y)(4x^2-2xy+y^2)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(12(2x+y)(3x+2y)\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "最大公因式取數字係數的最大公因數及共同因式的最低次方；最小公倍式取數字係數的最小公倍數及各因式的最高次方。"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(H=6 x + 3 y\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\[\\begin{gathered}L\\\\=36 \\left(2 x + y\\right)^{2} \\left(3 x + 2 y\\right) \\left(4 x^{2} - 2 x y + y^{2}\\right)\\end{gathered}\\]。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "locator": "7",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "assessmentMode": "solution-comparison",
+      "difficulty": "medium",
+      "minForm": 4,
+      "course": "core",
+      "level": "free",
+      "subcategory": "rational-expressions",
+      "skill": "poly-rational-sums",
+      "stem": "Simplify \\[\\begin{gathered}\\frac3{4x+1}\\\\+\\frac{9x}{4x^2+5x+1}\\end{gathered}\\].",
+      "stemZh": "化簡 \\[\\begin{gathered}\\frac3{4x+1}\\\\+\\frac{9x}{4x^2+5x+1}\\end{gathered}\\]。",
+      "solution": "Factor \\(4x^2+5x+1=(4x+1)(x+1)\\). The common-denominator numerator is \\(3(x+1)+9x=3(4x+1)\\).\n\nThus the result is \\(\\frac{3}{x + 1}\\).\n\nKeep the original domain: \\(x\\ne-1,-\\frac14\\). Cancellation does not restore excluded values.",
+      "solutionZh": "分母分解為 \\(4x^2+5x+1=(4x+1)(x+1)\\)。通分後分子為 \\(3(x+1)+9x=3(4x+1)\\)。\n\n所以結果為 \\(\\frac{3}{x + 1}\\)。\n\n保留原式定義域：\\(x\\ne-1,-\\frac14\\)。約去因式不能恢復原本排除的值。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q7",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第7題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "7",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+        "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q7"
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Factor \\(4x^2+5x+1=(4x+1)(x+1)\\). The common-denominator numerator is \\(3(x+1)+9x=3(4x+1)\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Thus the result is \\(\\frac{3}{x + 1}\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Keep the original domain: \\(x\\ne-1,-\\frac14\\). Cancellation does not restore excluded values."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "分母分解為 \\(4x^2+5x+1=(4x+1)(x+1)\\)。通分後分子為 \\(3(x+1)+9x=3(4x+1)\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "所以結果為 \\(\\frac{3}{x + 1}\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "保留原式定義域：\\(x\\ne-1,-\\frac14\\)。約去因式不能恢復原本排除的值。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "locator": "8",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "assessmentMode": "solution-comparison",
+      "difficulty": "medium",
+      "minForm": 4,
+      "course": "core",
+      "level": "free",
+      "subcategory": "rational-expressions",
+      "skill": "poly-rational-sums",
+      "stem": "Simplify \\[\\begin{gathered}\\frac{2x-3}{x^3-1}\\\\-\\frac2{x^2-8x+7}\\end{gathered}\\].",
+      "stemZh": "化簡 \\[\\begin{gathered}\\frac{2x-3}{x^3-1}\\\\-\\frac2{x^2-8x+7}\\end{gathered}\\]。",
+      "solution": "The denominators factor as \\((x-1)(x^2+x+1)\\) and \\((x-1)(x-7)\\). The combined numerator is \\[\\begin{gathered}(2x-3)(x-7)-2(x^2+x+1)=\\\\-19(x-1)\\end{gathered}\\].\n\nThus the result is \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\).\n\nKeep the original domain: \\(x\\ne1,7\\) (real variables). Cancellation does not restore excluded values.",
+      "solutionZh": "分母分別分解為 \\((x-1)(x^2+x+1)\\) 及 \\((x-1)(x-7)\\)。通分後分子為 \\[\\begin{gathered}(2x-3)(x-7)-2(x^2+x+1)=\\\\-19(x-1)\\end{gathered}\\]。\n\n所以結果為 \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)。\n\n保留原式定義域：\\(x\\ne1,7\\)（實數變量）。約去因式不能恢復原本排除的值。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q8",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第8題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "8",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+        "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q8"
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "The denominators factor as \\((x-1)(x^2+x+1)\\) and \\((x-1)(x-7)\\). The combined numerator is \\[\\begin{gathered}(2x-3)(x-7)-2(x^2+x+1)=\\\\-19(x-1)\\end{gathered}\\]."
+          },
+          {
+            "type": "paragraph",
+            "text": "Thus the result is \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Keep the original domain: \\(x\\ne1,7\\) (real variables). Cancellation does not restore excluded values."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "分母分別分解為 \\((x-1)(x^2+x+1)\\) 及 \\((x-1)(x-7)\\)。通分後分子為 \\[\\begin{gathered}(2x-3)(x-7)-2(x^2+x+1)=\\\\-19(x-1)\\end{gathered}\\]。"
+          },
+          {
+            "type": "paragraph",
+            "text": "所以結果為 \\(- \\frac{19}{\\left(x - 7\\right) \\left(x^{2} + x + 1\\right)}\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "保留原式定義域：\\(x\\ne1,7\\)（實數變量）。約去因式不能恢復原本排除的值。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "locator": "9",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "assessmentMode": "solution-comparison",
+      "difficulty": "hard",
+      "minForm": 4,
+      "course": "core",
+      "level": "free",
+      "subcategory": "rational-expressions",
+      "skill": "poly-rational-products",
+      "stem": "Simplify \\(\\frac{2x^2-13x+6}{9-25x^2}\\)\n\n\\(\\times\\frac{9x^2+6x+1}{10x-5}\\)\n\n\\(\\times\\frac{5x+3}{3x^2-17x-6}\\).",
+      "stemZh": "化簡 \\(\\frac{2x^2-13x+6}{9-25x^2}\\)\n\n\\(\\times\\frac{9x^2+6x+1}{10x-5}\\)\n\n\\(\\times\\frac{5x+3}{3x^2-17x-6}\\)。",
+      "solution": "Factor \\(2x^2-13x+6=(2x-1)(x-6)\\), \\(9-25x^2=(3-5x)(3+5x)\\), \\(9x^2+6x+1=(3x+1)^2\\), \\(10x-5=5(2x-1)\\) and \\(3x^2-17x-6=(3x+1)(x-6)\\). Cancel common factors in the full product.\n\nThus the result is \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\).\n\nKeep the original domain: \\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]. Cancellation does not restore excluded values.",
+      "solutionZh": "分解 \\(2x^2-13x+6=(2x-1)(x-6)\\)、\\(9-25x^2=(3-5x)(3+5x)\\)、\\(9x^2+6x+1=(3x+1)^2\\)、\\(10x-5=5(2x-1)\\) 及 \\(3x^2-17x-6=(3x+1)(x-6)\\)，再於整個乘積中約去共同因式。\n\n所以結果為 \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)。\n\n保留原式定義域：\\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]。約去因式不能恢復原本排除的值。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q9",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第9題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "9",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+        "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q9"
+      },
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Simplify \\(\\frac{2x^2-13x+6}{9-25x^2}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\times\\frac{9x^2+6x+1}{10x-5}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\times\\frac{5x+3}{3x^2-17x-6}\\)."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "化簡 \\(\\frac{2x^2-13x+6}{9-25x^2}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\times\\frac{9x^2+6x+1}{10x-5}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\times\\frac{5x+3}{3x^2-17x-6}\\)。"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Factor \\(2x^2-13x+6=(2x-1)(x-6)\\), \\(9-25x^2=(3-5x)(3+5x)\\), \\(9x^2+6x+1=(3x+1)^2\\), \\(10x-5=5(2x-1)\\) and \\(3x^2-17x-6=(3x+1)(x-6)\\). Cancel common factors in the full product."
+          },
+          {
+            "type": "paragraph",
+            "text": "Thus the result is \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Keep the original domain: \\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]. Cancellation does not restore excluded values."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "分解 \\(2x^2-13x+6=(2x-1)(x-6)\\)、\\(9-25x^2=(3-5x)(3+5x)\\)、\\(9x^2+6x+1=(3x+1)^2\\)、\\(10x-5=5(2x-1)\\) 及 \\(3x^2-17x-6=(3x+1)(x-6)\\)，再於整個乘積中約去共同因式。"
+          },
+          {
+            "type": "paragraph",
+            "text": "所以結果為 \\(- \\frac{3 x + 1}{5 \\left(5 x - 3\\right)}\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "保留原式定義域：\\[\\begin{gathered}x\\ne\\frac35,\\\\-\\frac35,\\frac12,6,\\\\-\\frac13\\end{gathered}\\]。約去因式不能恢復原本排除的值。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "locator": "10",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "assessmentMode": "solution-comparison",
+      "difficulty": "hard",
+      "minForm": 4,
+      "course": "core",
+      "level": "free",
+      "subcategory": "rational-expressions",
+      "skill": "poly-rational-products",
+      "stem": "Simplify \\(\\frac{25x^2-9y^2}{3x^2-6xy}\\)\n\n\\(\\times\\frac{x^2}{5x^2-2xy-3y^2}\\)\n\n\\(\\div\\frac{5x^2y-3xy^2}{x^2-4xy+4y^2}\\).",
+      "stemZh": "化簡 \\(\\frac{25x^2-9y^2}{3x^2-6xy}\\)\n\n\\(\\times\\frac{x^2}{5x^2-2xy-3y^2}\\)\n\n\\(\\div\\frac{5x^2y-3xy^2}{x^2-4xy+4y^2}\\)。",
+      "solution": "Factor the first numerator as \\((5x-3y)(5x+3y)\\); the other denominator factors are \\(3x(x-2y)\\), \\((5x+3y)(x-y)\\) and \\((x-2y)^2\\). Invert the last fraction, whose numerator is \\(xy(5x-3y)\\), then cancel.\n\nThus the result is \\(\\frac{x - 2 y}{3 y \\left(x - y\\right)}\\).\n\nKeep the original domain: \\(x\\ne0\\), \\(y\\ne0\\), \\(x-2y\\ne0\\), \\(x-y\\ne0\\), \\(5x+3y\\ne0\\), \\(5x-3y\\ne0\\). Cancellation does not restore excluded values.",
+      "solutionZh": "首個分子為 \\((5x-3y)(5x+3y)\\)；各分母的因式分解為 \\(3x(x-2y)\\)、\\((5x+3y)(x-y)\\)、\\((x-2y)^2\\)。最後分式的分子為 \\(xy(5x-3y)\\)，除以它須先取倒數，再約去因式。\n\n所以結果為 \\(\\frac{x - 2 y}{3 y \\left(x - y\\right)}\\)。\n\n保留原式定義域：\\(x\\ne0\\)、\\(y\\ne0\\)、\\(x-2y\\ne0\\)、\\(x-y\\ne0\\)、\\(5x+3y\\ne0\\)、\\(5x-3y\\ne0\\)。約去因式不能恢復原本排除的值。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q10",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第10題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "10",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+        "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q10"
+      },
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Simplify \\(\\frac{25x^2-9y^2}{3x^2-6xy}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\times\\frac{x^2}{5x^2-2xy-3y^2}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\div\\frac{5x^2y-3xy^2}{x^2-4xy+4y^2}\\)."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "化簡 \\(\\frac{25x^2-9y^2}{3x^2-6xy}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\times\\frac{x^2}{5x^2-2xy-3y^2}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\div\\frac{5x^2y-3xy^2}{x^2-4xy+4y^2}\\)。"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Factor the first numerator as \\((5x-3y)(5x+3y)\\); the other denominator factors are \\(3x(x-2y)\\), \\((5x+3y)(x-y)\\) and \\((x-2y)^2\\). Invert the last fraction, whose numerator is \\(xy(5x-3y)\\), then cancel."
+          },
+          {
+            "type": "paragraph",
+            "text": "Thus the result is \\(\\frac{x - 2 y}{3 y \\left(x - y\\right)}\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Keep the original domain: \\(x\\ne0\\), \\(y\\ne0\\), \\(x-2y\\ne0\\), \\(x-y\\ne0\\), \\(5x+3y\\ne0\\), \\(5x-3y\\ne0\\). Cancellation does not restore excluded values."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "首個分子為 \\((5x-3y)(5x+3y)\\)；各分母的因式分解為 \\(3x(x-2y)\\)、\\((5x+3y)(x-y)\\)、\\((x-2y)^2\\)。最後分式的分子為 \\(xy(5x-3y)\\)，除以它須先取倒數，再約去因式。"
+          },
+          {
+            "type": "paragraph",
+            "text": "所以結果為 \\(\\frac{x - 2 y}{3 y \\left(x - y\\right)}\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "保留原式定義域：\\(x\\ne0\\)、\\(y\\ne0\\)、\\(x-2y\\ne0\\)、\\(x-y\\ne0\\)、\\(5x+3y\\ne0\\)、\\(5x-3y\\ne0\\)。約去因式不能恢復原本排除的值。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "locator": "11",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "assessmentMode": "solution-comparison",
+      "difficulty": "medium",
+      "minForm": 4,
+      "course": "core",
+      "level": "free",
+      "subcategory": "rational-expressions",
+      "skill": "poly-rational-sums",
+      "stem": "Simplify \\[\\begin{gathered}\\frac2{x^2-6x+8}\\\\+\\frac4{x^2-4}\\end{gathered}\\]\n\n\\(-\\frac5{x^2-2x-8}\\).",
+      "stemZh": "化簡 \\[\\begin{gathered}\\frac2{x^2-6x+8}\\\\+\\frac4{x^2-4}\\end{gathered}\\]\n\n\\(-\\frac5{x^2-2x-8}\\)。",
+      "solution": "The common denominator is \\((x-2)(x+2)(x-4)\\). The numerator becomes \\(2(x+2)+4(x-4)-5(x-2)=x-2\\).\n\nThus the result is \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\).\n\nKeep the original domain: \\(x\\ne2,-2,4\\). Cancellation does not restore excluded values.",
+      "solutionZh": "公分母為 \\((x-2)(x+2)(x-4)\\)，分子化為 \\(2(x+2)+4(x-4)-5(x-2)=x-2\\)。\n\n所以結果為 \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)。\n\n保留原式定義域：\\(x\\ne2,-2,4\\)。約去因式不能恢復原本排除的值。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q11",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第11題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "11",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor denominators, use a common denominator, simplify the combined numerator and retain exclusions.",
+        "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q11"
+      },
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Simplify \\[\\begin{gathered}\\frac2{x^2-6x+8}\\\\+\\frac4{x^2-4}\\end{gathered}\\]"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(-\\frac5{x^2-2x-8}\\)."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "化簡 \\[\\begin{gathered}\\frac2{x^2-6x+8}\\\\+\\frac4{x^2-4}\\end{gathered}\\]"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(-\\frac5{x^2-2x-8}\\)。"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "The common denominator is \\((x-2)(x+2)(x-4)\\). The numerator becomes \\(2(x+2)+4(x-4)-5(x-2)=x-2\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Thus the result is \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Keep the original domain: \\(x\\ne2,-2,4\\). Cancellation does not restore excluded values."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "公分母為 \\((x-2)(x+2)(x-4)\\)，分子化為 \\(2(x+2)+4(x-4)-5(x-2)=x-2\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "所以結果為 \\(\\frac{1}{\\left(x - 4\\right) \\left(x + 2\\right)}\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "保留原式定義域：\\(x\\ne2,-2,4\\)。約去因式不能恢復原本排除的值。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "locator": "12",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "category": "calculation",
+    "question": {
+      "questionType": "structured",
+      "assessmentMode": "solution-comparison",
+      "difficulty": "hard",
+      "minForm": 4,
+      "course": "core",
+      "level": "free",
+      "subcategory": "rational-expressions",
+      "skill": "poly-rational-products",
+      "stem": "Simplify \\(\\frac{x-y}{x+y}\\)\n\n\\(-\\frac{(2xy+1)(5x+y)}{x+2xy^2+y+2x^2y}\\)\n\n\\(\\times\\frac{x^2-2xy+y^2}{5x^2-4xy-y^2}\\).",
+      "stemZh": "化簡 \\(\\frac{x-y}{x+y}\\)\n\n\\(-\\frac{(2xy+1)(5x+y)}{x+2xy^2+y+2x^2y}\\)\n\n\\(\\times\\frac{x^2-2xy+y^2}{5x^2-4xy-y^2}\\)。",
+      "solution": "Use \\[\\begin{gathered}x+2xy^2+y+2x^2y=(x+y)\\\\{}\\cdot(1+2xy)\\end{gathered}\\] and \\(5x^2-4xy-y^2=(5x+y)(x-y)\\). The product being subtracted reduces to \\((x-y)/(x+y)\\), exactly the first term.\n\nThus the result is \\(0\\).\n\nKeep the original domain: \\(x+y\\ne0\\), \\(1+2xy\\ne0\\), \\(5x+y\\ne0\\), \\(x-y\\ne0\\). Cancellation does not restore excluded values.",
+      "solutionZh": "利用 \\[\\begin{gathered}x+2xy^2+y+2x^2y=(x+y)\\\\{}\\cdot(1+2xy)\\end{gathered}\\] 及 \\(5x^2-4xy-y^2=(5x+y)(x-y)\\)，被減去的乘積化為 \\((x-y)/(x+y)\\)，與首項相同。\n\n所以結果為 \\(0\\)。\n\n保留原式定義域：\\(x+y\\ne0\\)、\\(1+2xy\\ne0\\)、\\(5x+y\\ne0\\)、\\(x-y\\ne0\\)。約去因式不能恢復原本排除的值。",
+      "solutionStatus": "independently-rederived",
+      "source": "S4/more about polynomials/HCF LCM rational function review.pdf · Q12",
+      "sourceZh": "S4/more about polynomials/HCF LCM rational function review.pdf · 第12題",
+      "provenance": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d8120baa178a69de",
+        "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+        "file": "S4/more about polynomials/HCF LCM rational function review.pdf",
+        "number": "12",
+        "page": 1,
+        "attributionStatus": "not-supplied"
+      },
+      "classification": {
+        "version": "solving-method-v1",
+        "basis": "reviewed-decisive-solving-method",
+        "status": "editor-pipeline-reviewed",
+        "difficultyReason": "Factor each numerator/denominator, invert the divisor where required, cancel factors and retain every original exclusion.",
+        "evidence": "docs/qa/2026-11-17/rational-wave/mathematics.json#source-d8120baa178a69de-Q12"
+      },
+      "contentBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Simplify \\(\\frac{x-y}{x+y}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(-\\frac{(2xy+1)(5x+y)}{x+2xy^2+y+2x^2y}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\times\\frac{x^2-2xy+y^2}{5x^2-4xy-y^2}\\)."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "化簡 \\(\\frac{x-y}{x+y}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(-\\frac{(2xy+1)(5x+y)}{x+2xy^2+y+2x^2y}\\)"
+          },
+          {
+            "type": "paragraph",
+            "text": "\\(\\times\\frac{x^2-2xy+y^2}{5x^2-4xy-y^2}\\)。"
+          }
+        ]
+      },
+      "solutionBlocks": {
+        "en": [
+          {
+            "type": "paragraph",
+            "text": "Use \\[\\begin{gathered}x+2xy^2+y+2x^2y=(x+y)\\\\{}\\cdot(1+2xy)\\end{gathered}\\] and \\(5x^2-4xy-y^2=(5x+y)(x-y)\\). The product being subtracted reduces to \\((x-y)/(x+y)\\), exactly the first term."
+          },
+          {
+            "type": "paragraph",
+            "text": "Thus the result is \\(0\\)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Keep the original domain: \\(x+y\\ne0\\), \\(1+2xy\\ne0\\), \\(5x+y\\ne0\\), \\(x-y\\ne0\\). Cancellation does not restore excluded values."
+          }
+        ],
+        "zh-Hant": [
+          {
+            "type": "paragraph",
+            "text": "利用 \\[\\begin{gathered}x+2xy^2+y+2x^2y=(x+y)\\\\{}\\cdot(1+2xy)\\end{gathered}\\] 及 \\(5x^2-4xy-y^2=(5x+y)(x-y)\\)，被減去的乘積化為 \\((x-y)/(x+y)\\)，與首項相同。"
+          },
+          {
+            "type": "paragraph",
+            "text": "所以結果為 \\(0\\)。"
+          },
+          {
+            "type": "paragraph",
+            "text": "保留原式定義域：\\(x+y\\ne0\\)、\\(1+2xy\\ne0\\)、\\(5x+y\\ne0\\)、\\(x-y\\ne0\\)。約去因式不能恢復原本排除的值。"
+          }
+        ]
+      }
+    }
+  }
+]
