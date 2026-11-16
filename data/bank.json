@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "revision": "b18b53fcb329ae48",
-  "totalQuestions": 1337,
+  "revision": "9d7e7165968affe9",
+  "totalQuestions": 1356,
   "chapterCount": 8,
-  "catalog": "data/catalog.c5a8d082b0223872.json",
-  "index": "data/question-index.24a2c81cfc212023.json",
+  "catalog": "data/catalog.22b2d3451af49580.json",
+  "index": "data/question-index.7ab2b06e8323bbd4.json",
   "search": [
     "data/search/four-centres.87b6577506cd23ee.json",
     "data/search/four-centres.7ea64259ee7debde.json",
@@ -13,8 +13,8 @@
     "data/search/locus.fd9d2cbf7ed2a335.json",
     "data/search/circle-equation.214dcf1887b898c3.json",
     "data/search/circle-equation.69c02a8dff1c5568.json",
-    "data/search/polynomial.dcb44560b2a23f0e.json",
-    "data/search/polynomial.9bf2985601eee7e2.json",
+    "data/search/polynomial.cee30946bfe9dc8b.json",
+    "data/search/polynomial.6068037c6347aee5.json",
     "data/search/sequences.c1f1b2789681a32a.json",
     "data/search/linear-programming.cf5843c47f3edb53.json",
     "data/search/mensuration.2c9f75323de6b8af.json",
@@ -70,17 +70,18 @@
     },
     {
       "topicId": "polynomial",
-      "path": "data/chapters/polynomial.14d601db89fcbe3d.json",
+      "path": "data/chapters/polynomial.5eeb4ea075f1c7ac.json",
       "chunks": [
-        "data/chapters/polynomial-chunk.b6d165ad74c9fdd0.json",
-        "data/chapters/polynomial-chunk.97ee577c220d83b0.json",
-        "data/chapters/polynomial-chunk.8c37aeaf36e9a37c.json",
-        "data/chapters/polynomial-chunk.04fd5c96312f1ef8.json",
-        "data/chapters/polynomial-chunk.b8e5ea4a5fa9e1d9.json",
-        "data/chapters/polynomial-chunk.93de4c1763c4abd1.json",
-        "data/chapters/polynomial-chunk.438f3bd25e5fcfd3.json"
+        "data/chapters/polynomial-chunk.4b537e221c0cc44d.json",
+        "data/chapters/polynomial-chunk.765794128cd32b30.json",
+        "data/chapters/polynomial-chunk.671b821d51b13ff8.json",
+        "data/chapters/polynomial-chunk.b5360592e2b06f1b.json",
+        "data/chapters/polynomial-chunk.6c0eba5ab750a0b5.json",
+        "data/chapters/polynomial-chunk.ff05fe51c57f8d31.json",
+        "data/chapters/polynomial-chunk.961cb70c7f695474.json",
+        "data/chapters/polynomial-chunk.b218a363b90fac27.json"
       ],
-      "questionCount": 210
+      "questionCount": 229
     },
     {
       "topicId": "sequences",
