@@ -129,5 +129,9 @@ const skillNames = {
   "poly-index-laws": "Combine powers with index laws / 指數律運算",
   "poly-power-order": "Arrange ascending and descending powers / 升冪及降冪排列",
   "poly-hcf-lcm-factors": "Factor completely and compare minimum/maximum powers / 完全分解及比較最低最高次冪",
-  "poly-hcf-lcm-recover": "Recover expressions from HCF/LCM constraints / 由最大公因式及最小公倍式還原多項式"
+  "poly-hcf-lcm-recover": "Recover expressions from HCF/LCM constraints / 由最大公因式及最小公倍式還原多項式",
+  "poly-rational-products": "Factor, cancel and divide algebraic fractions｜分式因式分解、約分及除法",
+  "poly-rational-sums": "Add/subtract algebraic fractions｜分式通分與加減",
+  "poly-complex-fractions": "Simplify compound fractions｜複分式化簡",
+  "poly-partial-fractions": "Recover partial-fraction constants｜部分分式常數"
 };
