@@ -1,0 +1,37 @@
+{
+  "commit": "8077260038eef6e3d5a9659f251726e4eeb69a82",
+  "revision": "7f750f6ee6e5bd1d",
+  "totalQuestions": 1457,
+  "batches": [
+    {
+      "id": "intake-d8120baa178a69de",
+      "sourceId": "source-d8120baa178a69de",
+      "sourceSha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "sourceRecords": 12,
+      "new": 9,
+      "duplicate": 3
+    },
+    {
+      "id": "intake-98d8641aac7de987",
+      "sourceId": "source-98d8641aac7de987",
+      "sourceSha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "sourceRecords": 15,
+      "new": 15,
+      "duplicate": 0
+    },
+    {
+      "id": "intake-694fe8baac70e10e",
+      "sourceId": "source-694fe8baac70e10e",
+      "sourceSha256": "2df3c02a2dd137e949975adee26149c7a8e3b6faefe8bc632c22fbb6a10e4b6c",
+      "sourceRecords": 3,
+      "new": 3,
+      "duplicate": 0
+    }
+  ],
+  "sourceRecords": 30,
+  "new": 27,
+  "duplicate": 3,
+  "held": 0,
+  "existingCorrection": 0,
+  "coverage": "Shared deployed bank/catalog/chunks/index/search verified byte-for-byte. Live student matrices cover all27 new questions; guide examples use canonical IDs."
+}

@@ -10,7 +10,7 @@
 | RAT-04 | 完成 | New algebraic-fraction subsection with four decisive-method skills; bilingual concept guide and matching example IDs. Difficulty reasons and Core/S4 prerequisite metadata retained. |
 | RAT-05 | 完成 | Final draft 324 language/width/question/solution states + 54 mobile formula checks. Actual student 324 states + 54 mobile formula checks; source-matched screenshots personally inspected. Long formulas split at operation boundaries without reducing font size. Source correction disclosed only in solution. |
 | RAT-06 | 完成 | 1,160 Node checks; study journey including language, wrong-answer retry and pause/resume. `preservation.json`: all 1,430 historical objects unchanged. `replay.json`: all three reimports add/update zero questions. |
-| RAT-07 | 待驗收 | Same main repository deployment and formal live-browser/hash verification; evidence to be recorded in `release/` and `live/`. |
+| RAT-07 | 完成 | main8077260; Deploy43912062585 / Pages43912176398 successful.126 deployed asset hashes +2 guide hashes match;324 live student states,54 mobile formula states and12 guide language/viewport states passed. See `release/` and `live/`. |
 
 ## Source accounting
 
@@ -23,3 +23,5 @@
 No new diagram questions were added. Diagram checking/redrawing remains with primary Codex. No UI/UE animation work is claimed here. `next-wave.json` has 7 prepared PDFs / 64 pages remaining; original question totals remain unconfirmed until source inspection. This is a prepared queue, not the entire collection.
 
 Draft QA, mathematical review, actual student QA and publication are separate evidence. Written answers use solution-comparison self-assessment; the six MCQs use automatic marking.
+
+Final publication verified17 November2026. All RAT work items complete; the remaining source queue is pending. Source content commit8077260; this evidence update makes no student asset changes.
