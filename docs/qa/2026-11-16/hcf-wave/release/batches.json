@@ -1,0 +1,25 @@
+{
+  "commit": "58fb403f4d6bb3d2b58899208d725c84a230b3df",
+  "revision": "099c380c99487148",
+  "batches": [
+    {
+      "id": "intake-a11ea3a915f0b682",
+      "sourceId": "source-a11ea3a915f0b682",
+      "sourceSha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "sourceRecords": 20,
+      "new": 11,
+      "duplicate": 9
+    },
+    {
+      "id": "intake-b34f32147917d1a2",
+      "sourceId": "source-b34f32147917d1a2",
+      "sourceSha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "sourceRecords": 12,
+      "new": 12,
+      "duplicate": 0
+    }
+  ],
+  "sharedBankReceipt": "release.json",
+  "studentEvidence": "../live-student/matrix.json",
+  "scope": "The shared deployed manifest/index/chunk hashes cover both batches. No duplicated network audit needed."
+}

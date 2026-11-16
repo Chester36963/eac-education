@@ -1,5 +1,5 @@
 {
-  "status": "待驗收（正式部署；本機完成）",
+  "status": "完成（本批範圍，正式部署已驗收）",
   "sourceRecords": 32,
   "new": 23,
   "duplicate": 9,
@@ -20,8 +20,8 @@
       "disposition": "publish",
       "skill": "poly-multiple-conditions",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -36,8 +36,8 @@
       "disposition": "publish",
       "skill": "poly-factor-parameters",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -52,8 +52,8 @@
       "disposition": "publish",
       "skill": "poly-substitution",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -68,8 +68,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -84,8 +84,8 @@
       "disposition": "publish",
       "skill": "poly-direct-remainder",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -100,8 +100,8 @@
       "disposition": "publish",
       "skill": "poly-division-identity",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -116,8 +116,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-recover",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -132,8 +132,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-recover",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -148,8 +148,8 @@
       "disposition": "publish",
       "skill": "poly-direct-remainder",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -164,8 +164,8 @@
       "disposition": "duplicate",
       "skill": "poly-quotient-sign",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -180,8 +180,8 @@
       "disposition": "publish",
       "skill": "poly-higher-remainder",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -196,8 +196,8 @@
       "disposition": "publish",
       "skill": "poly-higher-remainder",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -212,8 +212,8 @@
       "disposition": "duplicate",
       "skill": "poly-hcf-lcm-recover",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -228,8 +228,8 @@
       "disposition": "duplicate",
       "skill": "poly-root-nature",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -244,8 +244,8 @@
       "disposition": "duplicate",
       "skill": "poly-root-nature",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -260,8 +260,8 @@
       "disposition": "duplicate",
       "skill": "poly-transformed-roots",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -276,8 +276,8 @@
       "disposition": "duplicate",
       "skill": "poly-division-identity",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -292,8 +292,8 @@
       "disposition": "duplicate",
       "skill": "poly-multiple-conditions",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -308,8 +308,8 @@
       "disposition": "duplicate",
       "skill": "poly-root-nature",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-a11ea3a915f0b682",
@@ -324,8 +324,8 @@
       "disposition": "duplicate",
       "skill": "poly-root-nature",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -340,8 +340,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -356,8 +356,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -372,8 +372,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -388,8 +388,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "easy",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -404,8 +404,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -420,8 +420,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -436,8 +436,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -452,8 +452,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -468,8 +468,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-recover",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -484,8 +484,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-recover",
       "difficulty": "medium",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -500,8 +500,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-factors",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     },
     {
       "sourceId": "source-b34f32147917d1a2",
@@ -516,8 +516,8 @@
       "disposition": "publish",
       "skill": "poly-hcf-lcm-recover",
       "difficulty": "hard",
-      "status": "完成（本機）；待正式部署驗收",
-      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+      "status": "完成",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json + live-student/matrix.json + release/release.json"
     }
   ]
 }

@@ -873,5 +873,3 @@ A cubic polynomial \(f(x)\) is divisible by \(x-2\). Its remainder on division b
 ### Final Answer
 
 Complete subpart answers and all admissible cases are stated in the worked solution.
-
-
