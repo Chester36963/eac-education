@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "source": 30,
+    "recorded": 30,
+    "publish": 19,
+    "duplicate": 11,
+    "held": 0
+  },
+  "import": {
+    "at": "2026-11-16T07:56:04.500Z",
+    "baseline": "736f5f2725921b8da656b6c9fa2911990622c3863cc0590e0fe18e4f0aed70da",
+    "report": {
+      "added": [],
+      "updated": [
+        "import-polynomial-bb3b71019e5d7b9d",
+        "import-polynomial-509a4a95255fc9a0",
+        "import-polynomial-024e2276667b0ba7"
+      ],
+      "unchanged": [
+        "import-polynomial-3f9033f29eab8629",
+        "import-polynomial-b2036cba16339680",
+        "import-polynomial-896aa36f8aabca0a",
+        "import-polynomial-b8ad52c8764077d3",
+        "import-polynomial-59a77e3ccebc1233",
+        "import-polynomial-22121edf87be125a",
+        "import-polynomial-619c23206c465de8",
+        "import-polynomial-ef01494e44ab735b",
+        "import-polynomial-2797ab5db4babfae",
+        "import-polynomial-e0e95c05a310e704",
+        "import-polynomial-42728ca51bccb193",
+        "import-polynomial-4887ed0e559a0601",
+        "import-polynomial-e11a61b21c98d38d",
+        "import-polynomial-8601cac4e328fa10",
+        "import-polynomial-566dc0c64631602f",
+        "import-polynomial-a660c1aa92a313e6"
+      ],
+      "chapters": [],
+      "taxonomyChanged": false
+    },
+    "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1794815764499-intake-1d81eb240582d4e3"
+  }
+}

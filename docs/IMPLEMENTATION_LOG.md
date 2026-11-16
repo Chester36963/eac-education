@@ -508,3 +508,5 @@ POLY-20261115正式驗收：main def6246、Deploy43721485789及Pages43721539266�
 新增資料夾批量抽取／SHA快取及多批來源綁定／變更感知預覽QA，修正手機管理預覽內距。19PDF／119頁快取可沿用；實際新增19題、11重複來源連結，題庫1,337→1,356，全部舊ID保留。上一批S4六題及十個重複關聯曾錯用相近檔名sourceId／SHA，現只修正來源metadata，保留題文／解答／學生ID並清楚記錄歷史錯誤。原review.pdf不再誤列完成。
 
 Node1148項、300草稿、50公式及300真正作答／自評狀態通過，兩批快取重跑通過，build-content／curriculum／asset版本檢查通過。無新增圖資，本輪不是重繪交付。正式發布另記；[完整逐題QA](qa/2026-11-16/intake-wave/README.md)、[內容計劃](CONTENT_EXPANSION_PLAN.md)與[UI／UE路線圖](UI_UX_ROADMAP.md)分開維護；其餘萬題尚未完成。
+
+WAVE補充：第一版cb86bcb已部署並通過122檔hash／300正式作答。額外公式檢查發現手機長選項局部捲動；已用共用手機內距／字級修正，原始公式與revision不變。本機50個真正題面及展開解析的公式狀態、300作答及1148項Node重跑通過；新增可重用verify-student-formula-fit。最終正式版另核對。

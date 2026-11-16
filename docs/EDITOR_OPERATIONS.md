@@ -70,3 +70,5 @@
 5. 所有本輪批次一起執行build-content、build-curriculum、全套Node及actual student matrix，再同一main發布一次；正式資產和作答另核對。修改程式或失敗後按影響範圍重跑。抽取快取不隨學生網站發布；原卷、圖像QA仍保留來源定位。
 
 19PDF／119頁的重跑已實測19次快取命中；兩批300個草稿狀態亦可重用。這降低重複處理成本，沒有宣稱可省略雙語／數學／圖像核對或已完成萬題。
+
+補充：`node scripts/verify-student-formula-fit.cjs <batch-id[,batch-id]> <output.json>` 在隔離browser儲存實際開題／作答／展開解答／結束每組，核對320／390px每個可見MathJax公式的實際寬度（6px字形外溢容差）。可設EAC_BASE_URL查正式站。整頁不溢出不代表選項內公式完整；此工具補足該盲點，不代替數學或原圖核對。

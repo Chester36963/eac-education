@@ -6,7 +6,7 @@
   "sourceSha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
   "topicId": "polynomial",
   "expectedQuestions": 30,
-  "revision": 97,
+  "revision": 149,
   "records": [
     {
       "locator": "1",
@@ -1413,30 +1413,94 @@
       "approvals": {
         "text": {
           "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
-          "evidence": "Personally matched six original pages, every original locator, A-D option and subpart; complete bilingual text: docs/qa/2026-11-16/intake-wave/source-1d81eb240582d4e3.md",
-          "at": "2026-11-16T07:25:00.452Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.178Z"
         },
         "classification": {
           "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
-          "evidence": "Structure, expanded coefficients, power order and common factor classified separately; difficulty reason retained per question. See docs/qa/2026-11-16/intake-wave/mathematics.json",
-          "at": "2026-11-16T07:25:00.453Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.180Z"
         },
         "mathematics": {
           "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
-          "evidence": "Symbolic expansions, term counts, coefficients, true statements and factorizations independently checked; source key matches. See docs/qa/2026-11-16/intake-wave/mathematics.json",
-          "at": "2026-11-16T07:25:00.454Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.182Z"
         },
         "figures": {
           "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
-          "evidence": "Personally inspected all six source pages: no diagram questions. Q13 and Q14 preserve every original table heading and option tuple; no unrelated visual inserted.",
-          "at": "2026-11-16T07:25:00.455Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.184Z"
         },
         "studentView": {
           "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
-          "evidence": "Final draft 228 language/width states and 38 mobile formula-fit states passed; personally viewed new Q13 Q16 Q30; docs/qa/2026-11-16/intake-wave/wave-qa.json",
-          "at": "2026-11-16T07:25:00.456Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.185Z"
         }
-      }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T07:48:51.277Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
+              "evidence": "Personally matched six original pages, every original locator, A-D option and subpart; complete bilingual text: docs/qa/2026-11-16/intake-wave/source-1d81eb240582d4e3.md",
+              "at": "2026-11-16T07:25:00.452Z"
+            },
+            "classification": {
+              "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
+              "evidence": "Structure, expanded coefficients, power order and common factor classified separately; difficulty reason retained per question. See docs/qa/2026-11-16/intake-wave/mathematics.json",
+              "at": "2026-11-16T07:25:00.453Z"
+            },
+            "mathematics": {
+              "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
+              "evidence": "Symbolic expansions, term counts, coefficients, true statements and factorizations independently checked; source key matches. See docs/qa/2026-11-16/intake-wave/mathematics.json",
+              "at": "2026-11-16T07:25:00.454Z"
+            },
+            "figures": {
+              "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
+              "evidence": "Personally inspected all six source pages: no diagram questions. Q13 and Q14 preserve every original table heading and option tuple; no unrelated visual inserted.",
+              "at": "2026-11-16T07:25:00.455Z"
+            },
+            "studentView": {
+              "fingerprint": "e202a4da5a68aae39b7222d7f56fa5bb18ce075f17baa49796ecedc0c348c445",
+              "evidence": "Final draft 228 language/width states and 38 mobile formula-fit states passed; personally viewed new Q13 Q16 Q30; docs/qa/2026-11-16/intake-wave/wave-qa.json",
+              "at": "2026-11-16T07:25:00.456Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T07:54:43.251Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "8bc4598a8bba789bbc76b5e1bfe068a0ca0104db91b5351ef3006faf4e0cc7eb",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.732Z"
+            },
+            "classification": {
+              "fingerprint": "8bc4598a8bba789bbc76b5e1bfe068a0ca0104db91b5351ef3006faf4e0cc7eb",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.735Z"
+            },
+            "mathematics": {
+              "fingerprint": "8bc4598a8bba789bbc76b5e1bfe068a0ca0104db91b5351ef3006faf4e0cc7eb",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.737Z"
+            },
+            "figures": {
+              "fingerprint": "8bc4598a8bba789bbc76b5e1bfe068a0ca0104db91b5351ef3006faf4e0cc7eb",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.738Z"
+            },
+            "studentView": {
+              "fingerprint": "8bc4598a8bba789bbc76b5e1bfe068a0ca0104db91b5351ef3006faf4e0cc7eb",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.739Z"
+            }
+          }
+        }
+      ]
     },
     {
       "locator": "17",
@@ -1494,30 +1558,130 @@
       "approvals": {
         "text": {
           "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
-          "evidence": "Personally matched six original pages, every original locator, A-D option and subpart; complete bilingual text: docs/qa/2026-11-16/intake-wave/source-1d81eb240582d4e3.md",
-          "at": "2026-11-16T07:25:00.457Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.186Z"
         },
         "classification": {
           "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
-          "evidence": "Structure, expanded coefficients, power order and common factor classified separately; difficulty reason retained per question. See docs/qa/2026-11-16/intake-wave/mathematics.json",
-          "at": "2026-11-16T07:25:00.459Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.187Z"
         },
         "mathematics": {
           "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
-          "evidence": "Symbolic expansions, term counts, coefficients, true statements and factorizations independently checked; source key matches. See docs/qa/2026-11-16/intake-wave/mathematics.json",
-          "at": "2026-11-16T07:25:00.460Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.189Z"
         },
         "figures": {
           "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
-          "evidence": "Personally inspected all six source pages: no diagram questions. Q13 and Q14 preserve every original table heading and option tuple; no unrelated visual inserted.",
-          "at": "2026-11-16T07:25:00.461Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.190Z"
         },
         "studentView": {
           "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
-          "evidence": "Final draft 228 language/width states and 38 mobile formula-fit states passed; personally viewed new Q13 Q16 Q30; docs/qa/2026-11-16/intake-wave/wave-qa.json",
-          "at": "2026-11-16T07:25:00.462Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.192Z"
         }
-      }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T07:48:51.278Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
+              "evidence": "Personally matched six original pages, every original locator, A-D option and subpart; complete bilingual text: docs/qa/2026-11-16/intake-wave/source-1d81eb240582d4e3.md",
+              "at": "2026-11-16T07:25:00.457Z"
+            },
+            "classification": {
+              "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
+              "evidence": "Structure, expanded coefficients, power order and common factor classified separately; difficulty reason retained per question. See docs/qa/2026-11-16/intake-wave/mathematics.json",
+              "at": "2026-11-16T07:25:00.459Z"
+            },
+            "mathematics": {
+              "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
+              "evidence": "Symbolic expansions, term counts, coefficients, true statements and factorizations independently checked; source key matches. See docs/qa/2026-11-16/intake-wave/mathematics.json",
+              "at": "2026-11-16T07:25:00.460Z"
+            },
+            "figures": {
+              "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
+              "evidence": "Personally inspected all six source pages: no diagram questions. Q13 and Q14 preserve every original table heading and option tuple; no unrelated visual inserted.",
+              "at": "2026-11-16T07:25:00.461Z"
+            },
+            "studentView": {
+              "fingerprint": "82a0d482acdb1db414a11fafcc81d798f65d808b91b62dbec860eebd664261ab",
+              "evidence": "Final draft 228 language/width states and 38 mobile formula-fit states passed; personally viewed new Q13 Q16 Q30; docs/qa/2026-11-16/intake-wave/wave-qa.json",
+              "at": "2026-11-16T07:25:00.462Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T07:51:04.425Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "11588d117087b882376d8b0cf18ad3ec38f8a40523d1b0187d947c3b8b4993df",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:49:53.619Z"
+            },
+            "classification": {
+              "fingerprint": "11588d117087b882376d8b0cf18ad3ec38f8a40523d1b0187d947c3b8b4993df",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:49:53.620Z"
+            },
+            "mathematics": {
+              "fingerprint": "11588d117087b882376d8b0cf18ad3ec38f8a40523d1b0187d947c3b8b4993df",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:49:53.621Z"
+            },
+            "figures": {
+              "fingerprint": "11588d117087b882376d8b0cf18ad3ec38f8a40523d1b0187d947c3b8b4993df",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:49:53.622Z"
+            },
+            "studentView": {
+              "fingerprint": "11588d117087b882376d8b0cf18ad3ec38f8a40523d1b0187d947c3b8b4993df",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:49:53.625Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T07:53:02.357Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "d39f0adcbb559018a900a375564450888887d95b36c1432543a0a623f6a73447",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.741Z"
+            },
+            "classification": {
+              "fingerprint": "d39f0adcbb559018a900a375564450888887d95b36c1432543a0a623f6a73447",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.742Z"
+            },
+            "mathematics": {
+              "fingerprint": "d39f0adcbb559018a900a375564450888887d95b36c1432543a0a623f6a73447",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.743Z"
+            },
+            "figures": {
+              "fingerprint": "d39f0adcbb559018a900a375564450888887d95b36c1432543a0a623f6a73447",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.744Z"
+            },
+            "studentView": {
+              "fingerprint": "d39f0adcbb559018a900a375564450888887d95b36c1432543a0a623f6a73447",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.745Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T07:54:43.252Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
     },
     {
       "locator": "18",
@@ -1575,30 +1739,99 @@
       "approvals": {
         "text": {
           "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
-          "evidence": "Personally matched six original pages, every original locator, A-D option and subpart; complete bilingual text: docs/qa/2026-11-16/intake-wave/source-1d81eb240582d4e3.md",
-          "at": "2026-11-16T07:25:00.463Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.194Z"
         },
         "classification": {
           "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
-          "evidence": "Structure, expanded coefficients, power order and common factor classified separately; difficulty reason retained per question. See docs/qa/2026-11-16/intake-wave/mathematics.json",
-          "at": "2026-11-16T07:25:00.464Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.196Z"
         },
         "mathematics": {
           "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
-          "evidence": "Symbolic expansions, term counts, coefficients, true statements and factorizations independently checked; source key matches. See docs/qa/2026-11-16/intake-wave/mathematics.json",
-          "at": "2026-11-16T07:25:00.466Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.198Z"
         },
         "figures": {
           "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
-          "evidence": "Personally inspected all six source pages: no diagram questions. Q13 and Q14 preserve every original table heading and option tuple; no unrelated visual inserted.",
-          "at": "2026-11-16T07:25:00.467Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.199Z"
         },
         "studentView": {
           "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
-          "evidence": "Final draft 228 language/width states and 38 mobile formula-fit states passed; personally viewed new Q13 Q16 Q30; docs/qa/2026-11-16/intake-wave/wave-qa.json",
-          "at": "2026-11-16T07:25:00.468Z"
+          "evidence": "Original inline source option factors and answers restored, shared CSS mobile layout gives full reading width. Personally compared every Q16-Q18 factor and draft rendering; final draft 300 and formula 50 states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+          "at": "2026-11-16T07:56:03.200Z"
         }
-      }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T07:48:51.278Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
+              "evidence": "Personally matched six original pages, every original locator, A-D option and subpart; complete bilingual text: docs/qa/2026-11-16/intake-wave/source-1d81eb240582d4e3.md",
+              "at": "2026-11-16T07:25:00.463Z"
+            },
+            "classification": {
+              "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
+              "evidence": "Structure, expanded coefficients, power order and common factor classified separately; difficulty reason retained per question. See docs/qa/2026-11-16/intake-wave/mathematics.json",
+              "at": "2026-11-16T07:25:00.464Z"
+            },
+            "mathematics": {
+              "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
+              "evidence": "Symbolic expansions, term counts, coefficients, true statements and factorizations independently checked; source key matches. See docs/qa/2026-11-16/intake-wave/mathematics.json",
+              "at": "2026-11-16T07:25:00.466Z"
+            },
+            "figures": {
+              "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
+              "evidence": "Personally inspected all six source pages: no diagram questions. Q13 and Q14 preserve every original table heading and option tuple; no unrelated visual inserted.",
+              "at": "2026-11-16T07:25:00.467Z"
+            },
+            "studentView": {
+              "fingerprint": "3724061f99317f2cb13dc7988ecdb12427bf1fcc218be986c7d48b93bad6cfb5",
+              "evidence": "Final draft 228 language/width states and 38 mobile formula-fit states passed; personally viewed new Q13 Q16 Q30; docs/qa/2026-11-16/intake-wave/wave-qa.json",
+              "at": "2026-11-16T07:25:00.468Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T07:53:02.358Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {
+            "text": {
+              "fingerprint": "c691e142aaf30c717dcedb5f3d8e009615d98ff0bb96734a31d48c17c1fdb60b",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.747Z"
+            },
+            "classification": {
+              "fingerprint": "c691e142aaf30c717dcedb5f3d8e009615d98ff0bb96734a31d48c17c1fdb60b",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.748Z"
+            },
+            "mathematics": {
+              "fingerprint": "c691e142aaf30c717dcedb5f3d8e009615d98ff0bb96734a31d48c17c1fdb60b",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.749Z"
+            },
+            "figures": {
+              "fingerprint": "c691e142aaf30c717dcedb5f3d8e009615d98ff0bb96734a31d48c17c1fdb60b",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.750Z"
+            },
+            "studentView": {
+              "fingerprint": "c691e142aaf30c717dcedb5f3d8e009615d98ff0bb96734a31d48c17c1fdb60b",
+              "evidence": "Explicit product line breaks only, factors/options/answer unchanged; personally reviewed all factors and final preview Q16-Q18; final 300 draft and 50 formula states passed. docs/qa/2026-11-16/intake-wave/option-fit-correction.json",
+              "at": "2026-11-16T07:51:42.752Z"
+            }
+          }
+        },
+        {
+          "at": "2026-11-16T07:54:43.252Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
     },
     {
       "locator": "19",
@@ -2494,14 +2727,40 @@
       "at": "2026-11-16T07:16:30.806Z",
       "event": "draft-saved",
       "revision": 1
+    },
+    {
+      "at": "2026-11-16T07:48:51.279Z",
+      "event": "draft-saved",
+      "revision": 98
+    },
+    {
+      "at": "2026-11-16T07:51:04.426Z",
+      "event": "draft-saved",
+      "revision": 115
+    },
+    {
+      "at": "2026-11-16T07:53:02.358Z",
+      "event": "draft-saved",
+      "revision": 132
+    },
+    {
+      "at": "2026-11-16T07:54:43.252Z",
+      "event": "draft-saved",
+      "revision": 133
     }
   ],
   "createdAt": "2026-11-16T07:16:30.801Z",
   "import": {
-    "at": "2026-11-16T07:25:01.732Z",
-    "baseline": "c3e783dc9e1f2fefef2589271c3a36f316850a1e50e9f3351f18d3c4f187791e",
+    "at": "2026-11-16T07:56:04.500Z",
+    "baseline": "736f5f2725921b8da656b6c9fa2911990622c3863cc0590e0fe18e4f0aed70da",
     "report": {
-      "added": [
+      "added": [],
+      "updated": [
+        "import-polynomial-bb3b71019e5d7b9d",
+        "import-polynomial-509a4a95255fc9a0",
+        "import-polynomial-024e2276667b0ba7"
+      ],
+      "unchanged": [
         "import-polynomial-3f9033f29eab8629",
         "import-polynomial-b2036cba16339680",
         "import-polynomial-896aa36f8aabca0a",
@@ -2514,19 +2773,14 @@
         "import-polynomial-e0e95c05a310e704",
         "import-polynomial-42728ca51bccb193",
         "import-polynomial-4887ed0e559a0601",
-        "import-polynomial-bb3b71019e5d7b9d",
-        "import-polynomial-509a4a95255fc9a0",
-        "import-polynomial-024e2276667b0ba7",
         "import-polynomial-e11a61b21c98d38d",
         "import-polynomial-8601cac4e328fa10",
         "import-polynomial-566dc0c64631602f",
         "import-polynomial-a660c1aa92a313e6"
       ],
-      "updated": [],
-      "unchanged": [],
       "chapters": [],
       "taxonomyChanged": false
     },
-    "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1794813901731-intake-1d81eb240582d4e3"
+    "backup": "/Users/chester/Downloads/Chester ip/.cache/editor/transactions/1794815764499-intake-1d81eb240582d4e3"
   }
 }
