@@ -630,10 +630,10 @@
                 "poly-read-structure",
                 "poly-power-order"
               ],
-              "questionCount": 19,
+              "questionCount": 22,
               "skillCounts": {
-                "poly-read-structure": 17,
-                "poly-power-order": 2
+                "poly-read-structure": 19,
+                "poly-power-order": 3
               }
             },
             {
@@ -650,38 +650,38 @@
                 "poly-expanded-structure",
                 "poly-index-laws"
               ],
-              "questionCount": 42,
+              "questionCount": 58,
               "skillCounts": {
-                "poly-collect-terms": 11,
-                "poly-expand-collect": 10,
+                "poly-collect-terms": 15,
+                "poly-expand-collect": 13,
                 "poly-expand-identities": 5,
-                "poly-evaluate-expanded": 3,
-                "poly-expanded-structure": 6,
-                "poly-index-laws": 7
+                "poly-evaluate-expanded": 5,
+                "poly-expanded-structure": 7,
+                "poly-index-laws": 13
               }
             }
           ],
           "topicId": "polynomial",
-          "questionCount": 229,
+          "questionCount": 248,
           "courses": [
             "core"
           ],
           "coverage": {
             "types": {
-              "mcq": 107,
-              "structured": 118,
+              "mcq": 117,
+              "structured": 127,
               "short-answer": 2,
               "dse-long": 1,
               "proof": 1
             },
             "difficulty": {
-              "easy": 55,
-              "medium": 107,
+              "easy": 70,
+              "medium": 111,
               "hard": 36,
               "challenging": 31
             },
             "minForm": {
-              "1": 70,
+              "1": 89,
               "2": 1,
               "3": 4,
               "4": 154
