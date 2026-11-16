@@ -60,3 +60,13 @@
 - `node scripts/verify-editor-release.cjs <batch-id> <main SHA> <Deploy run ID> <Pages run ID> <QA目錄>` 先確認 main 的 Deploy 成功，再查 Pages 使用的 gh-pages commit，其訊息須為 `deploy: <main SHA>`。最後核對 manifest、所有當前章節／搜尋／程式／樣式與今批圖資 SHA256。Pages head SHA 不是 main SHA，不能直接比較兩者。
 
 本機頁圖與提取快取不隨學生網站發布。來源 `questionCount` 未逐題確認時保持未知，支援方格紙不當作一份零題練習卷。每批 QA 的 `review.json` 與工作台記錄才是逐題結果；原始 inventory 是來源快照，不冒充最新入題完成清單。
+
+## WAVE-20261116 · 多來源共用準備（減少每份卷重做）
+
+1. `python3 scripts/prepare-intake-wave.py --prefix S1/polynomials/ --prefix 'S4/more about polynomials/' --output .cache/bulk-intake/polynomial-wave`：只準備已登記的PDF、文字及頁圖；SHA變更直接報錯，不覆寫既有版本。需要pypdf與pdftoppm。最多4workers。文字多也可能缺公式；必須親自看原頁。每頁locatorCandidates只是候選，不作題數／發布資格。
+2. 使用既有canonical草稿／工作台逐題核對；全卷每個原題號填publish／duplicate／hold及原因，穩定ID沿用。此輪 `prepare-polynomial-foundations.py` 是特定來源的已核對轉錄資料，不是可任意套到其他PDF的自動解題器。
+3. 建立wave-spec（例：qa/2026-11-16/intake-wave/wave-spec.json），明確填reviewedPath、extraction及expectedQuestions；`node scripts/verify-intake-wave.cjs <wave-spec.json>` 一次檢查多批。來源檔名／ID／SHA／頁碼與總題數不一致立即停；同內容／模板快取重用，手機公式每次重查。需要本機4174管理服務、Playwright及NODE_PATH。CSS／renderer變動會使快取失效。
+4. 親自完成五項驗收後，使用現有pipeline preview→apply，每批保留差異／恢復版本；duplicate另用`node scripts/register-source-links.cjs <batch-id>`預覽，確認後加`--apply`。不能從綠色browser測試自動推定數學正確。
+5. 所有本輪批次一起執行build-content、build-curriculum、全套Node及actual student matrix，再同一main發布一次；正式資產和作答另核對。修改程式或失敗後按影響範圍重跑。抽取快取不隨學生網站發布；原卷、圖像QA仍保留來源定位。
+
+19PDF／119頁的重跑已實測19次快取命中；兩批300個草稿狀態亦可重用。這降低重複處理成本，沒有宣稱可省略雙語／數學／圖像核對或已完成萬題。

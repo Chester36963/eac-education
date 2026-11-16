@@ -1,0 +1,596 @@
+{
+  "reason": "Questions were visually transcribed from review 2.pdf but intake looked up the source ID of review.pdf. Corrected source path/SHA/id only.",
+  "wrongSourceId": "source-a11ea3a915f0b682",
+  "correctSourceId": "source-471162e6f688f1b3",
+  "correctSourcePath": "S4/more about polynomials/S4 polynomials review 2.pdf",
+  "correctSha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+  "publishedIdsPreserved": true,
+  "sourceAliasesRepaired": 10,
+  "questionMetadataCorrections": [
+    {
+      "id": "import-polynomial-09275c0edfd81f14",
+      "before": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "When a polynomial \\(f(x)\\) is divided by \\(2x+1\\), the remainder is \\(R\\). Find the remainder when \\(f(2x+1)\\) is divided by \\(4x+3\\).",
+        "stemZh": "多項式 \\(f(x)\\) 除以 \\(2x+1\\) 的餘式為 \\(R\\)。求 \\(f(2x+1)\\) 除以 \\(4x+3\\) 的餘式。",
+        "solution": "The given remainder is \\(f(-\\frac12)=R\\). The new divisor vanishes at \\(x=-\\frac34\\), where \\(2x+1=-\\frac12\\). Thus the new remainder is \\(R\\).",
+        "solutionZh": "已知 \\(f(-\\frac12)=R\\)。新除式的零點為 \\(x=-\\frac34\\)，此時 \\(2x+1=-\\frac12\\)，所以新餘式仍為 \\(R\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q3",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第3題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "3",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Follow a linear input substitution through two different divisor roots.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q3"
+        },
+        "options": {
+          "A": "\\(R\\)",
+          "B": "\\(\\frac23R\\)",
+          "C": "\\(4R\\)",
+          "D": "\\(4R+3\\)"
+        },
+        "optionsZh": {
+          "A": "\\(R\\)",
+          "B": "\\(\\frac23R\\)",
+          "C": "\\(4R\\)",
+          "D": "\\(4R+3\\)"
+        },
+        "answer": "A",
+        "id": "import-polynomial-09275c0edfd81f14"
+      },
+      "after": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "When a polynomial \\(f(x)\\) is divided by \\(2x+1\\), the remainder is \\(R\\). Find the remainder when \\(f(2x+1)\\) is divided by \\(4x+3\\).",
+        "stemZh": "多項式 \\(f(x)\\) 除以 \\(2x+1\\) 的餘式為 \\(R\\)。求 \\(f(2x+1)\\) 除以 \\(4x+3\\) 的餘式。",
+        "solution": "The given remainder is \\(f(-\\frac12)=R\\). The new divisor vanishes at \\(x=-\\frac34\\), where \\(2x+1=-\\frac12\\). Thus the new remainder is \\(R\\).",
+        "solutionZh": "已知 \\(f(-\\frac12)=R\\)。新除式的零點為 \\(x=-\\frac34\\)，此時 \\(2x+1=-\\frac12\\)，所以新餘式仍為 \\(R\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q3",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第3題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-471162e6f688f1b3",
+          "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+          "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+          "number": "3",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Follow a linear input substitution through two different divisor roots.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q3"
+        },
+        "options": {
+          "A": "\\(R\\)",
+          "B": "\\(\\frac23R\\)",
+          "C": "\\(4R\\)",
+          "D": "\\(4R+3\\)"
+        },
+        "optionsZh": {
+          "A": "\\(R\\)",
+          "B": "\\(\\frac23R\\)",
+          "C": "\\(4R\\)",
+          "D": "\\(4R+3\\)"
+        },
+        "answer": "A",
+        "id": "import-polynomial-09275c0edfd81f14"
+      }
+    },
+    {
+      "id": "import-polynomial-054f9c6861f38928",
+      "before": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(f(x)\\) be a polynomial with \\(f(2)=-6\\). Which expression must have the factor \\(2x+1\\)?",
+        "stemZh": "設 \\(f(x)\\) 為多項式，且 \\(f(2)=-6\\)。下列哪個式子必定有因式 \\(2x+1\\)？",
+        "solution": "Set \\(x=-\\frac12\\). Then \\(2x+3=2\\), so \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\] By the factor theorem, option D has the factor \\(2x+1\\). The other choices need information about \\(f(0)\\) or give \\(-12\\).",
+        "solutionZh": "代入 \\(x=-\\frac12\\)，得 \\(2x+3=2\\)，所以 \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\]由因式定理，D 必有因式 \\(2x+1\\)。其他選項須知道 \\(f(0)\\) 或得到 \\(-12\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q4",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第4題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "4",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Choose a shifted polynomial that vanishes at the specified divisor root.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q4"
+        },
+        "options": {
+          "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+          "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+          "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+        },
+        "optionsZh": {
+          "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+          "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+          "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+        },
+        "answer": "D",
+        "id": "import-polynomial-054f9c6861f38928"
+      },
+      "after": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(f(x)\\) be a polynomial with \\(f(2)=-6\\). Which expression must have the factor \\(2x+1\\)?",
+        "stemZh": "設 \\(f(x)\\) 為多項式，且 \\(f(2)=-6\\)。下列哪個式子必定有因式 \\(2x+1\\)？",
+        "solution": "Set \\(x=-\\frac12\\). Then \\(2x+3=2\\), so \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\] By the factor theorem, option D has the factor \\(2x+1\\). The other choices need information about \\(f(0)\\) or give \\(-12\\).",
+        "solutionZh": "代入 \\(x=-\\frac12\\)，得 \\(2x+3=2\\)，所以 \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\]由因式定理，D 必有因式 \\(2x+1\\)。其他選項須知道 \\(f(0)\\) 或得到 \\(-12\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q4",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第4題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-471162e6f688f1b3",
+          "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+          "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+          "number": "4",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Choose a shifted polynomial that vanishes at the specified divisor root.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q4"
+        },
+        "options": {
+          "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+          "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+          "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+        },
+        "optionsZh": {
+          "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+          "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+          "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+        },
+        "answer": "D",
+        "id": "import-polynomial-054f9c6861f38928"
+      }
+    },
+    {
+      "id": "import-polynomial-13b1a4fdf43e3a50",
+      "before": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(f(x)=2x^2+3x-5\\) and \\(g(x)=f(x^2+1)\\). Find the remainder when \\(g(x)\\) is divided by \\(x-3\\).",
+        "stemZh": "設 \\(f(x)=2x^2+3x-5\\)、\\(g(x)=f(x^2+1)\\)。求 \\(g(x)\\) 除以 \\(x-3\\) 的餘式。",
+        "solution": "The remainder is \\(g(3)=f(10)\\). Hence \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+        "solutionZh": "餘式為 \\(g(3)=f(10)\\)，所以 \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q5",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第5題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "5",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Evaluate the inner input first, then apply the remainder theorem.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q5"
+        },
+        "options": {
+          "A": "225",
+          "B": "22",
+          "C": "\\(-235\\)",
+          "D": "4"
+        },
+        "optionsZh": {
+          "A": "225",
+          "B": "22",
+          "C": "\\(-235\\)",
+          "D": "4"
+        },
+        "answer": "A",
+        "id": "import-polynomial-13b1a4fdf43e3a50"
+      },
+      "after": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(f(x)=2x^2+3x-5\\) and \\(g(x)=f(x^2+1)\\). Find the remainder when \\(g(x)\\) is divided by \\(x-3\\).",
+        "stemZh": "設 \\(f(x)=2x^2+3x-5\\)、\\(g(x)=f(x^2+1)\\)。求 \\(g(x)\\) 除以 \\(x-3\\) 的餘式。",
+        "solution": "The remainder is \\(g(3)=f(10)\\). Hence \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+        "solutionZh": "餘式為 \\(g(3)=f(10)\\)，所以 \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q5",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第5題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-471162e6f688f1b3",
+          "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+          "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+          "number": "5",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Evaluate the inner input first, then apply the remainder theorem.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q5"
+        },
+        "options": {
+          "A": "225",
+          "B": "22",
+          "C": "\\(-235\\)",
+          "D": "4"
+        },
+        "optionsZh": {
+          "A": "225",
+          "B": "22",
+          "C": "\\(-235\\)",
+          "D": "4"
+        },
+        "answer": "A",
+        "id": "import-polynomial-13b1a4fdf43e3a50"
+      }
+    },
+    {
+      "id": "import-polynomial-51cc94213ae3ba63",
+      "before": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(g(x)\\) be a polynomial divisible by \\(x+1\\). Then \\(g(4x-5)\\) must be divisible by which expression?",
+        "stemZh": "設多項式 \\(g(x)\\) 可被 \\(x+1\\) 整除，則 \\(g(4x-5)\\) 必可被下列哪個式子整除？",
+        "solution": "Since \\(g(-1)=0\\), solve \\(4x-5=-1\\) to get \\(x=1\\). Thus \\(x-1\\) is a factor.",
+        "solutionZh": "由 \\(g(-1)=0\\)，解 \\(4x-5=-1\\) 得 \\(x=1\\)，因此 \\(x-1\\) 為因式。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q6",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第6題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "6",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15",
+          "relatedQuestionId": "import-polynomial-p074"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Solve the transformed input-root condition; the source has a different distractor set from p074.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q6"
+        },
+        "options": {
+          "A": "\\(x-1\\)",
+          "B": "\\(x+1\\)",
+          "C": "\\(4x-1\\)",
+          "D": "\\(4x-5\\)"
+        },
+        "optionsZh": {
+          "A": "\\(x-1\\)",
+          "B": "\\(x+1\\)",
+          "C": "\\(4x-1\\)",
+          "D": "\\(4x-5\\)"
+        },
+        "answer": "A",
+        "id": "import-polynomial-51cc94213ae3ba63"
+      },
+      "after": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(g(x)\\) be a polynomial divisible by \\(x+1\\). Then \\(g(4x-5)\\) must be divisible by which expression?",
+        "stemZh": "設多項式 \\(g(x)\\) 可被 \\(x+1\\) 整除，則 \\(g(4x-5)\\) 必可被下列哪個式子整除？",
+        "solution": "Since \\(g(-1)=0\\), solve \\(4x-5=-1\\) to get \\(x=1\\). Thus \\(x-1\\) is a factor.",
+        "solutionZh": "由 \\(g(-1)=0\\)，解 \\(4x-5=-1\\) 得 \\(x=1\\)，因此 \\(x-1\\) 為因式。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q6",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第6題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-471162e6f688f1b3",
+          "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+          "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+          "number": "6",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15",
+          "relatedQuestionId": "import-polynomial-p074"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Solve the transformed input-root condition; the source has a different distractor set from p074.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q6"
+        },
+        "options": {
+          "A": "\\(x-1\\)",
+          "B": "\\(x+1\\)",
+          "C": "\\(4x-1\\)",
+          "D": "\\(4x-5\\)"
+        },
+        "optionsZh": {
+          "A": "\\(x-1\\)",
+          "B": "\\(x+1\\)",
+          "C": "\\(4x-1\\)",
+          "D": "\\(4x-5\\)"
+        },
+        "answer": "A",
+        "id": "import-polynomial-51cc94213ae3ba63"
+      }
+    },
+    {
+      "id": "import-polynomial-f5b54db82cf1f5e7",
+      "before": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "poly-multiple-conditions",
+        "stem": "Let \\(f(x)=2x^2+ax-2\\), where \\(a\\) is a constant. If \\(f(x)\\) is divisible by \\(2x-1\\), find the remainder when \\(f(x)\\) is divided by \\(x-a\\).",
+        "stemZh": "設 \\(f(x)=2x^2+ax-2\\)，其中 \\(a\\) 為常數。若 \\(f(x)\\) 可被 \\(2x-1\\) 整除，求 \\(f(x)\\) 除以 \\(x-a\\) 的餘式。",
+        "solution": "\\(f(\\frac12)=0\\) gives \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\], hence \\(a=3\\). The required remainder is \\(f(3)=18+9-2=25\\).",
+        "solutionZh": "由 \\(f(\\frac12)=0\\) 得 \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\]，所以 \\(a=3\\)。所求餘式為 \\(f(3)=18+9-2=25\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q7",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第7題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "7",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Determine a parameter from a factor, then use it as the evaluation point for a second division.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q7"
+        },
+        "options": {
+          "A": "50",
+          "B": "45",
+          "C": "25",
+          "D": "\\(-50\\)"
+        },
+        "optionsZh": {
+          "A": "50",
+          "B": "45",
+          "C": "25",
+          "D": "\\(-50\\)"
+        },
+        "answer": "C",
+        "id": "import-polynomial-f5b54db82cf1f5e7"
+      },
+      "after": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "poly-multiple-conditions",
+        "stem": "Let \\(f(x)=2x^2+ax-2\\), where \\(a\\) is a constant. If \\(f(x)\\) is divisible by \\(2x-1\\), find the remainder when \\(f(x)\\) is divided by \\(x-a\\).",
+        "stemZh": "設 \\(f(x)=2x^2+ax-2\\)，其中 \\(a\\) 為常數。若 \\(f(x)\\) 可被 \\(2x-1\\) 整除，求 \\(f(x)\\) 除以 \\(x-a\\) 的餘式。",
+        "solution": "\\(f(\\frac12)=0\\) gives \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\], hence \\(a=3\\). The required remainder is \\(f(3)=18+9-2=25\\).",
+        "solutionZh": "由 \\(f(\\frac12)=0\\) 得 \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\]，所以 \\(a=3\\)。所求餘式為 \\(f(3)=18+9-2=25\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q7",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第7題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-471162e6f688f1b3",
+          "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+          "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+          "number": "7",
+          "page": 1,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Determine a parameter from a factor, then use it as the evaluation point for a second division.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q7"
+        },
+        "options": {
+          "A": "50",
+          "B": "45",
+          "C": "25",
+          "D": "\\(-50\\)"
+        },
+        "optionsZh": {
+          "A": "50",
+          "B": "45",
+          "C": "25",
+          "D": "\\(-50\\)"
+        },
+        "answer": "C",
+        "id": "import-polynomial-f5b54db82cf1f5e7"
+      }
+    },
+    {
+      "id": "import-polynomial-e60f443b345c79e8",
+      "before": {
+        "questionType": "mcq",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "poly-multiple-conditions",
+        "stem": "Let \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\], where \\(p,q\\) are constants. If \\(f(x)\\) is divisible by \\(x-5\\) and \\(2x+1\\), find the remainder when it is divided by \\(x+1\\).",
+        "stemZh": "設 \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\]，其中 \\(p,q\\) 為常數。若 \\(f(x)\\) 可被 \\(x-5\\) 及 \\(2x+1\\) 整除，求它除以 \\(x+1\\) 的餘式。",
+        "solution": "\\(f(5)=0\\) gives \\(5p-2q=-45\\). \\(f(-\\frac12)=0\\) gives \\(p+4q=101\\). Solving yields \\(p=1,q=25\\). Then \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+        "solutionZh": "由 \\(f(5)=0\\) 得 \\(5p-2q=-45\\)；由 \\(f(-\\frac12)=0\\) 得 \\(p+4q=101\\)。聯立解得 \\(p=1,q=25\\)，所以 \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review.pdf · Q8",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第8題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-a11ea3a915f0b682",
+          "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+          "file": "S4/more about polynomials/S4 polynomials review.pdf",
+          "number": "8",
+          "page": 2,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Translate two distinct factor conditions into simultaneous equations before evaluating the final remainder.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q8"
+        },
+        "options": {
+          "A": "\\(-20\\)",
+          "B": "1",
+          "C": "24",
+          "D": "36"
+        },
+        "optionsZh": {
+          "A": "\\(-20\\)",
+          "B": "1",
+          "C": "24",
+          "D": "36"
+        },
+        "answer": "C",
+        "id": "import-polynomial-e60f443b345c79e8"
+      },
+      "after": {
+        "questionType": "mcq",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "poly-multiple-conditions",
+        "stem": "Let \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\], where \\(p,q\\) are constants. If \\(f(x)\\) is divisible by \\(x-5\\) and \\(2x+1\\), find the remainder when it is divided by \\(x+1\\).",
+        "stemZh": "設 \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\]，其中 \\(p,q\\) 為常數。若 \\(f(x)\\) 可被 \\(x-5\\) 及 \\(2x+1\\) 整除，求它除以 \\(x+1\\) 的餘式。",
+        "solution": "\\(f(5)=0\\) gives \\(5p-2q=-45\\). \\(f(-\\frac12)=0\\) gives \\(p+4q=101\\). Solving yields \\(p=1,q=25\\). Then \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+        "solutionZh": "由 \\(f(5)=0\\) 得 \\(5p-2q=-45\\)；由 \\(f(-\\frac12)=0\\) 得 \\(p+4q=101\\)。聯立解得 \\(p=1,q=25\\)，所以 \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q8",
+        "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第8題",
+        "level": "free",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-471162e6f688f1b3",
+          "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+          "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+          "number": "8",
+          "page": 2,
+          "attributionStatus": "not-supplied",
+          "intakeStage": "polynomial-bulk-2026-11-15"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Translate two distinct factor conditions into simultaneous equations before evaluating the final remainder.",
+          "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q8"
+        },
+        "options": {
+          "A": "\\(-20\\)",
+          "B": "1",
+          "C": "24",
+          "D": "36"
+        },
+        "optionsZh": {
+          "A": "\\(-20\\)",
+          "B": "1",
+          "C": "24",
+          "D": "36"
+        },
+        "answer": "C",
+        "id": "import-polynomial-e60f443b345c79e8"
+      }
+    }
+  ],
+  "status": "本機完成；正式部署另驗"
+}

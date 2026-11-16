@@ -502,3 +502,9 @@ POLY-20261113正式驗收：main `0be4ffd`、Deploy43441708920／Pages4344179591
 38來源記錄完整對帳：28新增、10確認重複補來源，0待補；總題庫1,337、revision b18b53fcb329ae48。指數律與升降冪分類／雙語導讀完成；S1 Q22漏常數更正；舊pl049因漏餘式而錯判有理根，已保留ID修正雙語詳解。1,308舊題物件不變，另1題僅修改解答及解答狀態。336草稿、336真正作答、12修正題狀態、58窄屏公式檢查、Node1,146項加新獨立回歸1項、study-journey及build檢查通過。正式發布另記，不將本機測試當正式證據。[本批逐題及驗算](qa/2026-11-15/polynomial-batch/README.md)、[內容進度](CONTENT_EXPANSION_PLAN.md)、[UI／UE路線圖](UI_UX_ROADMAP.md)。
 
 POLY-20261115正式驗收：main def6246、Deploy43721485789及Pages43721539266成功。正式1,337題／revision b18b53fcb329ae48，15檔hash一致；28新題＋1修正題348個正式作答狀態通過。最終全套Node1,147項通過。全部來源、未完成工作及UI／UE路線圖分開保留，見同批release.json。
+
+## WAVE-20261116 · 共用批量工具及多項式完整原卷（本機完成）
+
+新增資料夾批量抽取／SHA快取及多批來源綁定／變更感知預覽QA，修正手機管理預覽內距。19PDF／119頁快取可沿用；實際新增19題、11重複來源連結，題庫1,337→1,356，全部舊ID保留。上一批S4六題及十個重複關聯曾錯用相近檔名sourceId／SHA，現只修正來源metadata，保留題文／解答／學生ID並清楚記錄歷史錯誤。原review.pdf不再誤列完成。
+
+Node1148項、300草稿、50公式及300真正作答／自評狀態通過，兩批快取重跑通過，build-content／curriculum／asset版本檢查通過。無新增圖資，本輪不是重繪交付。正式發布另記；[完整逐題QA](qa/2026-11-16/intake-wave/README.md)、[內容計劃](CONTENT_EXPANSION_PLAN.md)與[UI／UE路線圖](UI_UX_ROADMAP.md)分開維護；其餘萬題尚未完成。

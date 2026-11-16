@@ -38,7 +38,7 @@ canonical={q['id']:q for f in (root/'content/chapters').glob('*.json') for c in 
 inv={r['id']:r for r in json.loads((root/'content/planning/source-inventory.json').read_text())['sources']}
 allrecords={}
 def context(sid):
- r=inv[sid];sha=hashlib.sha256((args.source_root/r['path']).read_bytes()).hexdigest();assert sha==r['sha256'],'Changed source version'
+ r=inv[sid];assert r['path']=={'source-408e6525d1ffcccf':'S1/polynomials/Polynomials review3.pdf','source-471162e6f688f1b3':'S4/more about polynomials/S4 polynomials review 2.pdf'}[sid],'Source label mismatch';sha=hashlib.sha256((args.source_root/r['path']).read_bytes()).hexdigest();assert sha==r['sha256'],'Changed source version'
  return r['path'],sha
 sid='source-408e6525d1ffcccf';source,sha=context(sid);records=[]
 def add(num,en,zh,sol,solzh,skill,sub='basic-operations',difficulty='easy',reason='One direct algebraic operation; track signs and exponents.',opts=None,answer=None,final=None,page=None):
@@ -84,7 +84,7 @@ for num,expr in [(19,'-4*x^3+2*x^2*y^2-5*x*y+8'),(20,'7*x^2+2*x-3*x*y+4'),(21,'x
  checks.append({'question':'S1-Q'+str(num),'terms':count,'numericalMonomialCoefficients':list(map(str,co)),'constant':str(constant),'degree':degree,'sourceAnswerCorrection':num==22})
 allrecords[sid]=records
 # S4: all 16 original locators. Exact duplicate decisions include all subparts/options.
-sid='source-a11ea3a915f0b682';source,sha=context(sid);records=[]
+sid='source-471162e6f688f1b3';source,sha=context(sid);records=[]
 dups={1:'p013',2:'p065',9:'pl003',10:'pl029',11:'pl049',12:'pl028',13:'pl031',14:'pl068',15:'pl004',16:'pl066'}
 for num,target in dups.items():
  q=copy.deepcopy(canonical['import-polynomial-'+target]);q.pop('id');q['source']=source+' · Q'+str(num);q['sourceZh']=source+' · 第'+str(num)+'題';q['provenance']={'collection':'by-topic-review-materials','sourceId':sid,'sha256':sha,'file':source,'number':str(num),'page':1 if num<=7 else 2 if num<=13 else 3,'attributionStatus':'not-supplied'}
@@ -142,5 +142,5 @@ for sid,rows in allrecords.items():
   if q.get('options'):md+=['']+[k+'. '+v for k,v in q['options'].items()]
   md+=['','### 中文詳解','',q['solutionZh'],'','### English Solution','',q['solution'],'','### Final Answer / 最終答案','',q.get('answer') or q.get('reviewedFinalAnswer') or 'See the complete subpart results in the worked solution above.','']
  (qa/(sid+'.md')).write_text('\n'.join(md)+'\n')
-(qa/'mathematics.json').write_text(json.dumps({'checks':checks,'sourcePagesPersonallyReviewed':{'source-408e6525d1ffcccf':[1,2,3,4],'source-a11ea3a915f0b682':[1,2,3,4]},'noDiagramQuestions':True,'sources':{sid:{'sourceRecords':len(rows),'publish':sum(r['disposition']=='publish' for r in rows),'duplicate':sum(r['disposition']=='duplicate' for r in rows),'held':sum(r['disposition']=='hold' for r in rows)} for sid,rows in allrecords.items()}},ensure_ascii=False,indent=2)+'\n')
+(qa/'mathematics.json').write_text(json.dumps({'checks':checks,'sourcePagesPersonallyReviewed':{'source-408e6525d1ffcccf':[1,2,3,4],'source-471162e6f688f1b3':[1,2,3,4]},'noDiagramQuestions':True,'sources':{sid:{'sourceRecords':len(rows),'publish':sum(r['disposition']=='publish' for r in rows),'duplicate':sum(r['disposition']=='duplicate' for r in rows),'held':sum(r['disposition']=='hold' for r in rows)} for sid,rows in allrecords.items()}},ensure_ascii=False,indent=2)+'\n')
 print({sid:{'records':len(rows),'publish':sum(r['disposition']=='publish' for r in rows),'duplicate':sum(r['disposition']=='duplicate' for r in rows)} for sid,rows in allrecords.items()})

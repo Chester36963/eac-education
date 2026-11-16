@@ -1,0 +1,77 @@
+{
+  "before": 1337,
+  "after": 1356,
+  "unchanged": 1331,
+  "added": [
+    "import-polynomial-3f9033f29eab8629",
+    "import-polynomial-b2036cba16339680",
+    "import-polynomial-896aa36f8aabca0a",
+    "import-polynomial-b8ad52c8764077d3",
+    "import-polynomial-59a77e3ccebc1233",
+    "import-polynomial-22121edf87be125a",
+    "import-polynomial-619c23206c465de8",
+    "import-polynomial-ef01494e44ab735b",
+    "import-polynomial-2797ab5db4babfae",
+    "import-polynomial-e0e95c05a310e704",
+    "import-polynomial-42728ca51bccb193",
+    "import-polynomial-4887ed0e559a0601",
+    "import-polynomial-bb3b71019e5d7b9d",
+    "import-polynomial-509a4a95255fc9a0",
+    "import-polynomial-024e2276667b0ba7",
+    "import-polynomial-e11a61b21c98d38d",
+    "import-polynomial-8601cac4e328fa10",
+    "import-polynomial-566dc0c64631602f",
+    "import-polynomial-a660c1aa92a313e6"
+  ],
+  "metadataOnlyCorrections": [
+    {
+      "id": "import-polynomial-09275c0edfd81f14",
+      "fields": [
+        "source",
+        "sourceZh",
+        "provenance"
+      ]
+    },
+    {
+      "id": "import-polynomial-054f9c6861f38928",
+      "fields": [
+        "source",
+        "sourceZh",
+        "provenance"
+      ]
+    },
+    {
+      "id": "import-polynomial-13b1a4fdf43e3a50",
+      "fields": [
+        "source",
+        "sourceZh",
+        "provenance"
+      ]
+    },
+    {
+      "id": "import-polynomial-51cc94213ae3ba63",
+      "fields": [
+        "source",
+        "sourceZh",
+        "provenance"
+      ]
+    },
+    {
+      "id": "import-polynomial-f5b54db82cf1f5e7",
+      "fields": [
+        "source",
+        "sourceZh",
+        "provenance"
+      ]
+    },
+    {
+      "id": "import-polynomial-e60f443b345c79e8",
+      "fields": [
+        "source",
+        "sourceZh",
+        "provenance"
+      ]
+    }
+  ],
+  "missingIds": []
+}

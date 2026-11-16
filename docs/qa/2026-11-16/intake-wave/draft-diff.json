@@ -1,0 +1,3155 @@
+{
+  "errors": [],
+  "pending": [
+    {
+      "locator": "1",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "1",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "1",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "1",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "1",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "2",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "3",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "4",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "5",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "6",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "7",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "10",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "11",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "13",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "14",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "15",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "16",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "17",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "18",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "27",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "27",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "27",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "27",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "27",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "28",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "28",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "28",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "28",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "28",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "29",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "29",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "29",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "29",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "29",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "30",
+      "gate": "text",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "30",
+      "gate": "classification",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "30",
+      "gate": "mathematics",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "30",
+      "gate": "figures",
+      "reason": "Review missing or invalidated"
+    },
+    {
+      "locator": "30",
+      "gate": "studentView",
+      "reason": "Review missing or invalidated"
+    }
+  ],
+  "ready": false,
+  "counts": {
+    "source": 30,
+    "recorded": 30,
+    "publish": 19,
+    "duplicate": 11,
+    "held": 0
+  },
+  "diff": {
+    "added": [
+      "import-polynomial-3f9033f29eab8629",
+      "import-polynomial-b2036cba16339680",
+      "import-polynomial-896aa36f8aabca0a",
+      "import-polynomial-b8ad52c8764077d3",
+      "import-polynomial-59a77e3ccebc1233",
+      "import-polynomial-22121edf87be125a",
+      "import-polynomial-619c23206c465de8",
+      "import-polynomial-ef01494e44ab735b",
+      "import-polynomial-2797ab5db4babfae",
+      "import-polynomial-e0e95c05a310e704",
+      "import-polynomial-42728ca51bccb193",
+      "import-polynomial-4887ed0e559a0601",
+      "import-polynomial-bb3b71019e5d7b9d",
+      "import-polynomial-509a4a95255fc9a0",
+      "import-polynomial-024e2276667b0ba7",
+      "import-polynomial-e11a61b21c98d38d",
+      "import-polynomial-8601cac4e328fa10",
+      "import-polynomial-566dc0c64631602f",
+      "import-polynomial-a660c1aa92a313e6"
+    ],
+    "updated": [],
+    "unchanged": [],
+    "chapters": [],
+    "taxonomyChanged": false
+  },
+  "changes": [
+    {
+      "id": "import-polynomial-3f9033f29eab8629",
+      "locator": "1",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For \\(x+1-2x^2\\), which statements are correct?\nI. There is no constant term.\nII. The coefficient of \\(x^2\\) is 2.\nIII. Its degree is 2."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對 \\(x+1-2x^2\\)，下列哪些敘述正確？\nI. 沒有常數項。\nII. \\(x^2\\) 的係數為 2。\nIII. 多項式的次數為 2。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The constant is 1 and the coefficient of \\(x^2\\) is \\(-2\\). Only III is true."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "常數項為 1，\\(x^2\\) 的係數為 \\(-2\\)。只有 III 正確。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q1"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第1題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "1",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q1"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "II only",
+            "B": "III only",
+            "C": "I and II only",
+            "D": "I and III only"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "只有 II",
+            "B": "只有 III",
+            "C": "只有 I 及 II",
+            "D": "只有 I 及 III"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "For \\(x+1-2x^2\\), which statements are correct?"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. There is no constant term."
+              },
+              {
+                "type": "paragraph",
+                "text": "II. The coefficient of \\(x^2\\) is 2."
+              },
+              {
+                "type": "paragraph",
+                "text": "III. Its degree is 2."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "對 \\(x+1-2x^2\\)，下列哪些敘述正確？"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. 沒有常數項。"
+              },
+              {
+                "type": "paragraph",
+                "text": "II. \\(x^2\\) 的係數為 2。"
+              },
+              {
+                "type": "paragraph",
+                "text": "III. 多項式的次數為 2。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-3f9033f29eab8629"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-b2036cba16339680",
+      "locator": "2",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For \\[\\begin{gathered}2a^3b +7b^2\\div4 \\\\ -a\\times3\\end{gathered}\\], which statements are correct?\nI. There are 5 terms.\nII. The constant term is 4.\nIII. The degree is 7.\nIV. The coefficient of \\(a^3b\\) is 2."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對 \\[\\begin{gathered}2a^3b +7b^2\\div4 \\\\ -a\\times3\\end{gathered}\\]，下列哪些敘述正確？\nI. 有 5 項。\nII. 常數項為 4。\nIII. 次數為 7。\nIV. \\(a^3b\\) 的係數為 2。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The expression is \\[\\begin{gathered}2a^3b +\\frac74b^2 \\\\ -3a\\end{gathered}\\]. It has 3 terms, constant 0 and total degree 4. Only IV is true."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "原式為 \\[\\begin{gathered}2a^3b +\\frac74b^2 \\\\ -3a\\end{gathered}\\]，有 3 項，常數項為 0，總次數為 4。只有 IV 正確。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q2"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第2題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "2",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q2"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "I only",
+            "B": "IV only",
+            "C": "I and III only",
+            "D": "II and IV only"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "只有 I",
+            "B": "只有 IV",
+            "C": "只有 I 及 III",
+            "D": "只有 II 及 IV"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "For \\[\\begin{gathered}2a^3b +7b^2\\div4 \\\\ -a\\times3\\end{gathered}\\], which statements are correct?"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. There are 5 terms."
+              },
+              {
+                "type": "paragraph",
+                "text": "II. The constant term is 4."
+              },
+              {
+                "type": "paragraph",
+                "text": "III. The degree is 7."
+              },
+              {
+                "type": "paragraph",
+                "text": "IV. The coefficient of \\(a^3b\\) is 2."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "對 \\[\\begin{gathered}2a^3b +7b^2\\div4 \\\\ -a\\times3\\end{gathered}\\]，下列哪些敘述正確？"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. 有 5 項。"
+              },
+              {
+                "type": "paragraph",
+                "text": "II. 常數項為 4。"
+              },
+              {
+                "type": "paragraph",
+                "text": "III. 次數為 7。"
+              },
+              {
+                "type": "paragraph",
+                "text": "IV. \\(a^3b\\) 的係數為 2。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-b2036cba16339680"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-e0e95c05a310e704",
+      "locator": "3",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expanded-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Find the coefficient of \\(x^2\\) in \\((2x+1)(1-3x)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "求 \\((2x+1)(1-3x)\\) 展開式的 \\(x^2\\) 係數。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Expansion gives \\(-6x^2-x+1\\), so the requested coefficient is \\(-6\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "展開得 \\(-6x^2-x+1\\)，所求係數為 \\(-6\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q3"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第3題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "3",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q3"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(-6\\)",
+            "B": "\\(-1\\)",
+            "C": "2",
+            "D": "6"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(-6\\)",
+            "B": "\\(-1\\)",
+            "C": "2",
+            "D": "6"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "A"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-e0e95c05a310e704"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-896aa36f8aabca0a",
+      "locator": "4",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Which is a monomial of degree 9?"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "下列哪個是次數為 9 的單項式？"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The respective degrees are 0, 9, 7 and 6. The degree of \\(a^3b^6\\) is \\(3+6=9\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "各式的次數依次為 0、9、7、6；\\(a^3b^6\\) 的次數為 \\(3+6=9\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q4"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第4題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "4",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q4"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "36",
+            "B": "\\(a^3b^6\\)",
+            "C": "\\(3ab^6\\)",
+            "D": "\\(a^3b^3\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "36",
+            "B": "\\(a^3b^6\\)",
+            "C": "\\(3ab^6\\)",
+            "D": "\\(a^3b^3\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-896aa36f8aabca0a"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-b8ad52c8764077d3",
+      "locator": "5",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "If the degree of \\(3x^2y^kz\\) is 6, find \\(k\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "若 \\(3x^2y^kz\\) 的次數為 6，求 \\(k\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The total degree is \\(2+k+1=6\\), so \\(k=3\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "由總次數 \\(2+k+1=6\\)，得 \\(k=3\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q5"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第5題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "5",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q5"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-b8ad52c8764077d3"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-59a77e3ccebc1233",
+      "locator": "6",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Which monomials have the same coefficient?\nI. \\(3x\\)\nII. \\(x^2\\)\nIII. \\(-3x^2\\)\nIV. \\(3y\\)"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "下列哪些單項式的係數相同？\nI. \\(3x\\)\nII. \\(x^2\\)\nIII. \\(-3x^2\\)\nIV. \\(3y\\)"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The coefficients are 3, 1, \\(-3\\) and 3. Only I and IV agree."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "各係數為 3、1、\\(-3\\)、3，只有 I 及 IV 相同。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q6"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第6題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "6",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q6"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "I and IV only",
+            "B": "II and III only",
+            "C": "I, II and III only",
+            "D": "I, III and IV only"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "只有 I 及 IV",
+            "B": "只有 II 及 III",
+            "C": "只有 I、II 及 III",
+            "D": "只有 I、III 及 IV"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "A"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Which monomials have the same coefficient?"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. \\(3x\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "II. \\(x^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "III. \\(-3x^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "IV. \\(3y\\)"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "下列哪些單項式的係數相同？"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. \\(3x\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "II. \\(x^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "III. \\(-3x^2\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "IV. \\(3y\\)"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-59a77e3ccebc1233"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-22121edf87be125a",
+      "locator": "7",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For \\(-2x^3y^2\\), which statements are correct?\nI. There are 2 variables.\nII. The coefficient is 2.\nIII. The degree is 5."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對 \\(-2x^3y^2\\)，下列哪些敘述正確？\nI. 有 2 個變量。\nII. 係數為 2。\nIII. 次數為 5。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "There are two variables; the coefficient is \\(-2\\); the degree is \\(3+2=5\\). I and III are true."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "有兩個變量，係數為 \\(-2\\)，次數為 \\(3+2=5\\)，故 I 及 III 正確。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q7"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第7題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "7",
+            "page": 2,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q7"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "I, II and III"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "只有 I 及 II",
+            "B": "只有 I 及 III",
+            "C": "只有 II 及 III",
+            "D": "I、II 及 III"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "For \\(-2x^3y^2\\), which statements are correct?"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. There are 2 variables."
+              },
+              {
+                "type": "paragraph",
+                "text": "II. The coefficient is 2."
+              },
+              {
+                "type": "paragraph",
+                "text": "III. The degree is 5."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "對 \\(-2x^3y^2\\)，下列哪些敘述正確？"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. 有 2 個變量。"
+              },
+              {
+                "type": "paragraph",
+                "text": "II. 係數為 2。"
+              },
+              {
+                "type": "paragraph",
+                "text": "III. 次數為 5。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-22121edf87be125a"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-619c23206c465de8",
+      "locator": "10",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Which are polynomials?\nI. \\(y^3+x^2y^5-x^4\\)\nII. \\[\\begin{gathered}x^2 -6 \\\\ +\\frac{yz^3}{3}\\end{gathered}\\]\nIII. \\(\\frac7x+\\frac4y\\)"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "下列哪些是多項式？\nI. \\(y^3+x^2y^5-x^4\\)\nII. \\[\\begin{gathered}x^2 -6 \\\\ +\\frac{yz^3}{3}\\end{gathered}\\]\nIII. \\(\\frac7x+\\frac4y\\)"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "I and II have only nonnegative integer variable exponents. In III, the variables occur in denominators, giving exponents \\(-1\\); III is not a polynomial."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "I 及 II 的變量指數均為非負整數；III 的變量出現在分母，指數為 \\(-1\\)，並非多項式。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q10"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第10題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "10",
+            "page": 2,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q10"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "I, II and III"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "只有 I 及 II",
+            "B": "只有 I 及 III",
+            "C": "只有 II 及 III",
+            "D": "I、II 及 III"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "A"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "Which are polynomials?"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. \\(y^3+x^2y^5-x^4\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "II. \\[\\begin{gathered}x^2 -6 \\\\ +\\frac{yz^3}{3}\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "III. \\(\\frac7x+\\frac4y\\)"
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "下列哪些是多項式？"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. \\(y^3+x^2y^5-x^4\\)"
+              },
+              {
+                "type": "paragraph",
+                "text": "II. \\[\\begin{gathered}x^2 -6 \\\\ +\\frac{yz^3}{3}\\end{gathered}\\]"
+              },
+              {
+                "type": "paragraph",
+                "text": "III. \\(\\frac7x+\\frac4y\\)"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-619c23206c465de8"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-ef01494e44ab735b",
+      "locator": "11",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-power-order"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Arrange \\[\\begin{gathered}x^3 +1 +x^2 +4x \\\\ +3x^4\\end{gathered}\\] in descending powers of \\(x\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "把 \\[\\begin{gathered}x^3 +1 +x^2 +4x \\\\ +3x^4\\end{gathered}\\] 按 \\(x\\) 的降冪排列。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "List powers in the order \\(4,3,2,1,0\\): \\[\\begin{gathered}3x^4 +x^3 +x^2 +4x \\\\ +1\\end{gathered}\\]."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "按指數 \\(4,3,2,1,0\\) 排列，得 \\[\\begin{gathered}3x^4 +x^3 +x^2 +4x \\\\ +1\\end{gathered}\\]。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q11"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第11題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "11",
+            "page": 2,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q11"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\[\\begin{gathered}1 +4x \\\\ +x^2 \\\\ +x^3 \\\\ +3x^4\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}3x^4 \\\\ +4x \\\\ +x^3 \\\\ +x^2 +1\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}3x^4 \\\\ +x^3 \\\\ +x^2 \\\\ +4x +1\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}4x \\\\ +3x^4 \\\\ +x^3 \\\\ +x^2 +1\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\[\\begin{gathered}1 +4x \\\\ +x^2 \\\\ +x^3 \\\\ +3x^4\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}3x^4 \\\\ +4x \\\\ +x^3 \\\\ +x^2 +1\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}3x^4 \\\\ +x^3 \\\\ +x^2 \\\\ +4x +1\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}4x \\\\ +3x^4 \\\\ +x^3 \\\\ +x^2 +1\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "C"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-ef01494e44ab735b"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-2797ab5db4babfae",
+      "locator": "13",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "polynomial-structure"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-read-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "For \\[\\begin{gathered}x\\times3 -9y\\div2 \\\\ +9 +8y^2\\end{gathered}\\], which option gives the correct number of terms, coefficient of \\(y\\), and constant term, in that order?"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "對 \\[\\begin{gathered}x\\times3 -9y\\div2 \\\\ +9 +8y^2\\end{gathered}\\]，哪個選項依次正確列出項數、\\(y\\) 的係數及常數項？"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Write the expression as \\[\\begin{gathered}3x -\\frac92y +9 \\\\ +8y^2\\end{gathered}\\]. There are 4 terms, coefficient of \\(y=-4.5\\) and constant 9."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "原式為 \\[\\begin{gathered}3x -\\frac92y +9 \\\\ +8y^2\\end{gathered}\\]，有 4 項，\\(y\\) 的係數為 \\(-4.5\\)，常數項為 9。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q13"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第13題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "13",
+            "page": 3,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q13"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "4; \\(-9\\); 11",
+            "B": "4; \\(-4.5\\); 9",
+            "C": "6; \\(-4.5\\); 3",
+            "D": "6; 4.5; 9"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "4; \\(-9\\); 11",
+            "B": "4; \\(-4.5\\); 9",
+            "C": "6; \\(-4.5\\); 3",
+            "D": "6; 4.5; 9"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-2797ab5db4babfae"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-42728ca51bccb193",
+      "locator": "14",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "basic-operations"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-expanded-structure"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "After expanding \\((4a^2-b+5)(-a+2)\\), which option correctly gives the degree and number of terms, in that order?"
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "展開 \\((4a^2-b+5)(-a+2)\\) 後，哪個選項依次正確列出次數及項數？"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The expansion is \\[\\begin{gathered}-4a^3 +8a^2 +ab -2b \\\\ -5a +10\\end{gathered}\\]. It has degree 3 and 6 terms."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "展開為 \\[\\begin{gathered}-4a^3 +8a^2 +ab -2b \\\\ -5a +10\\end{gathered}\\]，次數為 3，共有 6 項。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q14"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第14題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "14",
+            "page": 3,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Expand and collect the full expression before checking the requested structure.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q14"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "2; 5",
+            "B": "2; 6",
+            "C": "3; 5",
+            "D": "3; 6"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "2; 5",
+            "B": "2; 6",
+            "C": "3; 5",
+            "D": "3; 6"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "D"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-42728ca51bccb193"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-4887ed0e559a0601",
+      "locator": "15",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "factorisation"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "common-factor"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Factorise \\(xy+xz-7y-7z\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "因式分解 \\(xy+xz-7y-7z\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Group as \\(x(y+z)-7(y+z)\\) and factor out \\(y+z\\). The result is \\((y+z)(x-7)\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "分組為 \\(x(y+z)-7(y+z)\\)，提出公因式 \\(y+z\\)，得 \\((y+z)(x-7)\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q15"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第15題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "15",
+            "page": 3,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q15"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\((y-z)(x-7)\\)",
+            "B": "\\((y-z)(x+7)\\)",
+            "C": "\\((y+z)(x-7)\\)",
+            "D": "\\((z-y)(x-7)\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\((y-z)(x-7)\\)",
+            "B": "\\((y-z)(x+7)\\)",
+            "C": "\\((y+z)(x-7)\\)",
+            "D": "\\((z-y)(x-7)\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "C"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-4887ed0e559a0601"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-bb3b71019e5d7b9d",
+      "locator": "16",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "factorisation"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "common-factor"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Factorise \\(5(x+y)^2-10(x+y)z\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "因式分解 \\(5(x+y)^2-10(x+y)z\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The common factor is \\(5(x+y)\\). Dividing each term by it leaves \\((x+y)-2z\\), hence \\(5(x+y)(x+y-2z)\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "公因式為 \\(5(x+y)\\)；各項除以它後餘下 \\((x+y)-2z\\)，因此得 \\(5(x+y)(x+y-2z)\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q16"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第16題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "16",
+            "page": 3,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q16"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(5(x+y)(x+y+2z)\\)",
+            "B": "\\(5(x+y)(x-y-2z)\\)",
+            "C": "\\(5(x+y)(x-y+2z)\\)",
+            "D": "\\(5(x+y)(x+y-2z)\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(5(x+y)(x+y+2z)\\)",
+            "B": "\\(5(x+y)(x-y-2z)\\)",
+            "C": "\\(5(x+y)(x-y+2z)\\)",
+            "D": "\\(5(x+y)(x+y-2z)\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "D"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-bb3b71019e5d7b9d"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-509a4a95255fc9a0",
+      "locator": "17",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "factorisation"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "common-factor"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Factorise \\(14x^4y^3+18x^2y\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "因式分解 \\(14x^4y^3+18x^2y\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Extract the greatest common factor \\(2x^2y\\). The remaining terms are \\(7x^2y^2\\) and 9."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "提出最大公因式 \\(2x^2y\\)，餘下兩項為 \\(7x^2y^2\\) 及 9。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q17"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第17題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "17",
+            "page": 4,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q17"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(2x^2y(7xy^2+9)\\)",
+            "B": "\\(2x^2y(7x^2y^2+9)\\)",
+            "C": "\\(2xy(7xy^2+9)\\)",
+            "D": "\\(2xy(7x^3y^2+9x^2y)\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(2x^2y(7xy^2+9)\\)",
+            "B": "\\(2x^2y(7x^2y^2+9)\\)",
+            "C": "\\(2xy(7xy^2+9)\\)",
+            "D": "\\(2xy(7x^3y^2+9x^2y)\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-509a4a95255fc9a0"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-024e2276667b0ba7",
+      "locator": "18",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "factorisation"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "common-factor"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Factorise \\(-10a^3+14a^2+4a\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "因式分解 \\(-10a^3+14a^2+4a\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Extract \\(-2a\\). Dividing each original term gives \\(5a^2,-7a,-2\\), hence \\(-2a(5a^2-7a-2)\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "提出 \\(-2a\\)，各項相除得 \\(5a^2,-7a,-2\\)，故結果為 \\(-2a(5a^2-7a-2)\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q18"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第18題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "18",
+            "page": 4,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q18"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(-2a^3(5-7a-2a^2)\\)",
+            "B": "\\(-2a^3(5+7a+2a^2)\\)",
+            "C": "\\(-2a(5a^2-7a-2)\\)",
+            "D": "\\(-2a(5a^2+7a+2)\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(-2a^3(5-7a-2a^2)\\)",
+            "B": "\\(-2a^3(5+7a+2a^2)\\)",
+            "C": "\\(-2a(5a^2-7a-2)\\)",
+            "D": "\\(-2a(5a^2+7a+2)\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "C"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-024e2276667b0ba7"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-e11a61b21c98d38d",
+      "locator": "27",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "factorisation"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "common-factor"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Factorise \\(6(a+1)^2-4(a+1)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "因式分解 \\(6(a+1)^2-4(a+1)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Extract \\(2(a+1)\\) to obtain \\(2(a+1)[3(a+1)-2]\\). Simplifying the bracket gives \\(2(a+1)(3a+1)\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "提出 \\(2(a+1)\\) 得 \\(2(a+1)[3(a+1)-2]\\)，化簡括號後得 \\(2(a+1)(3a+1)\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q27"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第27題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "27",
+            "page": 5,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q27"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-e11a61b21c98d38d"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-8601cac4e328fa10",
+      "locator": "28",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "factorisation"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "common-factor"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Factorise \\(m(3n-1)-m^2(1-3n)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "因式分解 \\(m(3n-1)-m^2(1-3n)\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Use \\(1-3n=-(3n-1)\\). The expression becomes \\[\\begin{gathered}m(3n-1) +m^2(3n-1) \\\\ =m(3n-1)(1+m)\\end{gathered}\\]."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "由 \\(1-3n=-(3n-1)\\)，原式變為 \\(m(3n-1)+m^2(3n-1)\\)，提出公因式得 \\(m(3n-1)(1+m)\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q28"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第28題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "28",
+            "page": 5,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q28"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-8601cac4e328fa10"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-566dc0c64631602f",
+      "locator": "29",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "factorisation"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "common-factor"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Factorise \\[\\begin{gathered}3(a-b)^2(a+b) \\\\ -4a^2(b-a)\\end{gathered}\\]."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "因式分解 \\[\\begin{gathered}3(a-b)^2(a+b) \\\\ -4a^2(b-a)\\end{gathered}\\]。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Use \\(b-a=-(a-b)\\), then extract \\(a-b\\). The remaining expression is \\[\\begin{gathered}3(a-b)(a+b) +4a^2 \\\\ =7a^2 -3b^2\\end{gathered}\\]. Thus the factorisation is \\((a-b)(7a^2-3b^2)\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "利用 \\(b-a=-(a-b)\\)，提出 \\(a-b\\)。餘式為 \\[\\begin{gathered}3(a-b)(a+b) +4a^2 \\\\ =7a^2 -3b^2\\end{gathered}\\]，所以得 \\((a-b)(7a^2-3b^2)\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q29"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第29題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "29",
+            "page": 5,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q29"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-566dc0c64631602f"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-a660c1aa92a313e6",
+      "locator": "30",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "structured"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 1
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "factorisation"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "common-factor"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Factorise \\(8ab-2cd-2bc+8ad\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "因式分解 \\(8ab-2cd-2bc+8ad\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Group as \\(8a(b+d)-2c(b+d)\\). Extracting the common binomial gives \\(2(b+d)(4a-c)\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "分組為 \\(8a(b+d)-2c(b+d)\\)，提出共同二項式得 \\(2(b+d)(4a-c)\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · Q30"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S1/polynomials/Polynomials review.pdf · 第30題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-1d81eb240582d4e3",
+            "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+            "file": "S1/polynomials/Polynomials review.pdf",
+            "number": "30",
+            "page": 5,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression.",
+            "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q30"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "assessmentMode",
+          "before": null,
+          "after": "solution-comparison"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-a660c1aa92a313e6"
+        }
+      ]
+    }
+  ],
+  "duplicateCandidates": [],
+  "digest": "56a125b28426308c2ae412f4f332a2168de4a944fb592fe8bcb16e4208fcc4ae",
+  "baseline": "bcd51c28f3d131f05b30235ee7947ae66fda47a88d5e60532a159dd90565a2db"
+}

@@ -1,0 +1,18 @@
+{
+  "sourceRoot": "/Users/chester/Downloads/By topic Review materials",
+  "output": ".cache/qa/2026-11-16/intake-wave",
+  "batches": [
+    {
+      "id": "intake-1d81eb240582d4e3",
+      "reviewedPath": "S1/polynomials/Polynomials review.pdf",
+      "extraction": ".cache/bulk-intake/polynomial-wave/source-1d81eb240582d4e3/377870c2f52ab2ac/extraction.json",
+      "expectedQuestions": 30
+    },
+    {
+      "id": "intake-471162e6f688f1b3",
+      "reviewedPath": "S4/more about polynomials/S4 polynomials review 2.pdf",
+      "extraction": ".cache/bulk-intake/polynomial-wave/source-471162e6f688f1b3/4d16813a11d4e8f1/extraction.json",
+      "expectedQuestions": 16
+    }
+  ]
+}

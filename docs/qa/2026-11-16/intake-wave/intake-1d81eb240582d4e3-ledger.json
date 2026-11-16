@@ -1,0 +1,392 @@
+[
+  {
+    "locator": "1",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-3f9033f29eab8629",
+    "canonicalId": null,
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "2",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-b2036cba16339680",
+    "canonicalId": null,
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "3",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-e0e95c05a310e704",
+    "canonicalId": null,
+    "skill": "poly-expanded-structure",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "4",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-896aa36f8aabca0a",
+    "canonicalId": null,
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "5",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-b8ad52c8764077d3",
+    "canonicalId": null,
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "6",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-59a77e3ccebc1233",
+    "canonicalId": null,
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "7",
+    "pages": [
+      2
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-22121edf87be125a",
+    "canonicalId": null,
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "8",
+    "pages": [
+      2
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-5573aa5f2afde740",
+    "canonicalId": "import-polynomial-6d5ecffc5ec06cb7",
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": "Personally compared source page 2 Q8 with canonical import-polynomial-6d5ecffc5ec06cb7: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "One direct algebraic operation; track signs and exponents."
+  },
+  {
+    "locator": "9",
+    "pages": [
+      2
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-50684505b7e7e4fc",
+    "canonicalId": "import-polynomial-1be5ec96b04c12df",
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": "Personally compared source page 2 Q9 with canonical import-polynomial-1be5ec96b04c12df: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "One direct algebraic operation; track signs and exponents."
+  },
+  {
+    "locator": "10",
+    "pages": [
+      2
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-619c23206c465de8",
+    "canonicalId": null,
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "11",
+    "pages": [
+      2
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-ef01494e44ab735b",
+    "canonicalId": null,
+    "skill": "poly-power-order",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "12",
+    "pages": [
+      3
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-b5620e2ac1620600",
+    "canonicalId": "import-polynomial-76c6072ba4f6acac",
+    "skill": "poly-power-order",
+    "difficulty": "easy",
+    "reason": "Personally compared source page 3 Q12 with canonical import-polynomial-76c6072ba4f6acac: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "One direct algebraic operation; track signs and exponents."
+  },
+  {
+    "locator": "13",
+    "pages": [
+      3
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-2797ab5db4babfae",
+    "canonicalId": null,
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "14",
+    "pages": [
+      3
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-42728ca51bccb193",
+    "canonicalId": null,
+    "skill": "poly-expanded-structure",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Expand and collect the full expression before checking the requested structure."
+  },
+  {
+    "locator": "15",
+    "pages": [
+      3
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-4887ed0e559a0601",
+    "canonicalId": null,
+    "skill": "common-factor",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "16",
+    "pages": [
+      3
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-bb3b71019e5d7b9d",
+    "canonicalId": null,
+    "skill": "common-factor",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "17",
+    "pages": [
+      4
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-509a4a95255fc9a0",
+    "canonicalId": null,
+    "skill": "common-factor",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "18",
+    "pages": [
+      4
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-024e2276667b0ba7",
+    "canonicalId": null,
+    "skill": "common-factor",
+    "difficulty": "easy",
+    "reason": null,
+    "difficultyReason": "Read structure and test each stated condition."
+  },
+  {
+    "locator": "19",
+    "pages": [
+      4
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-baa1d225a7f88422",
+    "canonicalId": "import-polynomial-49b2d2b488b10e26",
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": "Personally compared source page 4 Q19 with canonical import-polynomial-49b2d2b488b10e26: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3."
+  },
+  {
+    "locator": "20",
+    "pages": [
+      4
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-781eb43bd347f714",
+    "canonicalId": "import-polynomial-8228b72483d00248",
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": "Personally compared source page 4 Q20 with canonical import-polynomial-8228b72483d00248: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3."
+  },
+  {
+    "locator": "21",
+    "pages": [
+      4
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-25f37df4fa52d3ec",
+    "canonicalId": "import-polynomial-75769dcce9763181",
+    "skill": "poly-read-structure",
+    "difficulty": "easy",
+    "reason": "Personally compared source page 4 Q21 with canonical import-polynomial-75769dcce9763181: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3."
+  },
+  {
+    "locator": "22",
+    "pages": [
+      4
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-88b4e273a02d904c",
+    "canonicalId": "import-polynomial-4d45d821a2fb3ba8",
+    "skill": "poly-evaluate-expanded",
+    "difficulty": "medium",
+    "reason": "Personally compared source page 4 Q22 with canonical import-polynomial-4d45d821a2fb3ba8: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+  },
+  {
+    "locator": "23",
+    "pages": [
+      4
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-60633d164b197049",
+    "canonicalId": "import-polynomial-a4dd7295524ee648",
+    "skill": "poly-evaluate-expanded",
+    "difficulty": "medium",
+    "reason": "Personally compared source page 4 Q23 with canonical import-polynomial-a4dd7295524ee648: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+  },
+  {
+    "locator": "24",
+    "pages": [
+      4
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-67a9e972d396ae1e",
+    "canonicalId": "import-polynomial-18bbe71cc5e51d82",
+    "skill": "poly-expanded-structure",
+    "difficulty": "medium",
+    "reason": "Personally compared source page 4 Q24 with canonical import-polynomial-18bbe71cc5e51d82: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+  },
+  {
+    "locator": "25",
+    "pages": [
+      5
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-3276c854b9c234ce",
+    "canonicalId": "import-polynomial-0c67556d3e79e44e",
+    "skill": "poly-expanded-structure",
+    "difficulty": "medium",
+    "reason": "Personally compared source page 5 Q25 with canonical import-polynomial-0c67556d3e79e44e: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+  },
+  {
+    "locator": "26",
+    "pages": [
+      5
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-f5278d7c3cf2e129",
+    "canonicalId": "import-polynomial-9d18bbb848f60c90",
+    "skill": "poly-expanded-structure",
+    "difficulty": "medium",
+    "reason": "Personally compared source page 5 Q26 with canonical import-polynomial-9d18bbb848f60c90: original expression, all requested fields/subparts and full A–D options agree. Keep canonical student ID.",
+    "difficultyReason": "Link algebraic expansion to substitution or coefficient/degree interpretation across subparts."
+  },
+  {
+    "locator": "27",
+    "pages": [
+      5
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-e11a61b21c98d38d",
+    "canonicalId": null,
+    "skill": "common-factor",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression."
+  },
+  {
+    "locator": "28",
+    "pages": [
+      5
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-8601cac4e328fa10",
+    "canonicalId": null,
+    "skill": "common-factor",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression."
+  },
+  {
+    "locator": "29",
+    "pages": [
+      5
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-566dc0c64631602f",
+    "canonicalId": null,
+    "skill": "common-factor",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression."
+  },
+  {
+    "locator": "30",
+    "pages": [
+      5
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-a660c1aa92a313e6",
+    "canonicalId": null,
+    "skill": "common-factor",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression."
+  }
+]

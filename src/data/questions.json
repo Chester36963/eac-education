@@ -35217,7 +35217,21 @@
                 "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3.",
                 "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q1"
               },
-              "id": "import-polynomial-49b2d2b488b10e26"
+              "id": "import-polynomial-49b2d2b488b10e26",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "19",
+                  "page": 4,
+                  "pages": [
+                    4
+                  ],
+                  "duplicateQuestionId": "import-polynomial-baa1d225a7f88422"
+                }
+              ]
             },
             {
               "questionType": "structured",
@@ -35253,7 +35267,21 @@
                 "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3.",
                 "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q2"
               },
-              "id": "import-polynomial-8228b72483d00248"
+              "id": "import-polynomial-8228b72483d00248",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "20",
+                  "page": 4,
+                  "pages": [
+                    4
+                  ],
+                  "duplicateQuestionId": "import-polynomial-781eb43bd347f714"
+                }
+              ]
             },
             {
               "questionType": "structured",
@@ -35289,7 +35317,21 @@
                 "difficultyReason": "Read numerical coefficients and count total degree, including a two-variable term in Q3.",
                 "evidence": "docs/qa/2026-11-13/polynomial-revision/mathematics.json#Q3"
               },
-              "id": "import-polynomial-75769dcce9763181"
+              "id": "import-polynomial-75769dcce9763181",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "21",
+                  "page": 4,
+                  "pages": [
+                    4
+                  ],
+                  "duplicateQuestionId": "import-polynomial-25f37df4fa52d3ec"
+                }
+              ]
             },
             {
               "questionType": "mcq",
@@ -35336,7 +35378,21 @@
                 "D": "12"
               },
               "answer": "B",
-              "id": "import-polynomial-1be5ec96b04c12df"
+              "id": "import-polynomial-1be5ec96b04c12df",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "9",
+                  "page": 2,
+                  "pages": [
+                    2
+                  ],
+                  "duplicateQuestionId": "import-polynomial-50684505b7e7e4fc"
+                }
+              ]
             },
             {
               "questionType": "mcq",
@@ -35383,7 +35439,21 @@
                 "D": "8"
               },
               "answer": "A",
-              "id": "import-polynomial-6d5ecffc5ec06cb7"
+              "id": "import-polynomial-6d5ecffc5ec06cb7",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "8",
+                  "page": 2,
+                  "pages": [
+                    2
+                  ],
+                  "duplicateQuestionId": "import-polynomial-5573aa5f2afde740"
+                }
+              ]
             },
             {
               "questionType": "mcq",
@@ -35430,7 +35500,21 @@
                 "D": "\\[\\begin{gathered}10x \\\\ +9x^2 \\\\ +8x^3\\end{gathered}\\]"
               },
               "answer": "D",
-              "id": "import-polynomial-76c6072ba4f6acac"
+              "id": "import-polynomial-76c6072ba4f6acac",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "12",
+                  "page": 3,
+                  "pages": [
+                    3
+                  ],
+                  "duplicateQuestionId": "import-polynomial-b5620e2ac1620600"
+                }
+              ]
             },
             {
               "questionType": "structured",
@@ -35575,6 +35659,626 @@
               "assessmentMode": "solution-comparison",
               "reviewedFinalAnswer": "4; -7,0,-2,\\frac{1}{2}; -6; 3",
               "id": "import-polynomial-a711d3a269220ae7"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "polynomial-structure",
+              "skill": "poly-read-structure",
+              "stem": "For \\(x+1-2x^2\\), which statements are correct?\nI. There is no constant term.\nII. The coefficient of \\(x^2\\) is 2.\nIII. Its degree is 2.",
+              "stemZh": "對 \\(x+1-2x^2\\)，下列哪些敘述正確？\nI. 沒有常數項。\nII. \\(x^2\\) 的係數為 2。\nIII. 多項式的次數為 2。",
+              "solution": "The constant is 1 and the coefficient of \\(x^2\\) is \\(-2\\). Only III is true.",
+              "solutionZh": "常數項為 1，\\(x^2\\) 的係數為 \\(-2\\)。只有 III 正確。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q1",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第1題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "1",
+                "page": 1,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q1"
+              },
+              "level": "free",
+              "options": {
+                "A": "II only",
+                "B": "III only",
+                "C": "I and II only",
+                "D": "I and III only"
+              },
+              "optionsZh": {
+                "A": "只有 II",
+                "B": "只有 III",
+                "C": "只有 I 及 II",
+                "D": "只有 I 及 III"
+              },
+              "answer": "B",
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "For \\(x+1-2x^2\\), which statements are correct?"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. There is no constant term."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. The coefficient of \\(x^2\\) is 2."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. Its degree is 2."
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "對 \\(x+1-2x^2\\)，下列哪些敘述正確？"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. 沒有常數項。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. \\(x^2\\) 的係數為 2。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. 多項式的次數為 2。"
+                  }
+                ]
+              },
+              "id": "import-polynomial-3f9033f29eab8629"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "polynomial-structure",
+              "skill": "poly-read-structure",
+              "stem": "For \\[\\begin{gathered}2a^3b +7b^2\\div4 \\\\ -a\\times3\\end{gathered}\\], which statements are correct?\nI. There are 5 terms.\nII. The constant term is 4.\nIII. The degree is 7.\nIV. The coefficient of \\(a^3b\\) is 2.",
+              "stemZh": "對 \\[\\begin{gathered}2a^3b +7b^2\\div4 \\\\ -a\\times3\\end{gathered}\\]，下列哪些敘述正確？\nI. 有 5 項。\nII. 常數項為 4。\nIII. 次數為 7。\nIV. \\(a^3b\\) 的係數為 2。",
+              "solution": "The expression is \\[\\begin{gathered}2a^3b +\\frac74b^2 \\\\ -3a\\end{gathered}\\]. It has 3 terms, constant 0 and total degree 4. Only IV is true.",
+              "solutionZh": "原式為 \\[\\begin{gathered}2a^3b +\\frac74b^2 \\\\ -3a\\end{gathered}\\]，有 3 項，常數項為 0，總次數為 4。只有 IV 正確。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q2",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第2題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "2",
+                "page": 1,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q2"
+              },
+              "level": "free",
+              "options": {
+                "A": "I only",
+                "B": "IV only",
+                "C": "I and III only",
+                "D": "II and IV only"
+              },
+              "optionsZh": {
+                "A": "只有 I",
+                "B": "只有 IV",
+                "C": "只有 I 及 III",
+                "D": "只有 II 及 IV"
+              },
+              "answer": "B",
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "For \\[\\begin{gathered}2a^3b +7b^2\\div4 \\\\ -a\\times3\\end{gathered}\\], which statements are correct?"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. There are 5 terms."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. The constant term is 4."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. The degree is 7."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "IV. The coefficient of \\(a^3b\\) is 2."
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "對 \\[\\begin{gathered}2a^3b +7b^2\\div4 \\\\ -a\\times3\\end{gathered}\\]，下列哪些敘述正確？"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. 有 5 項。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. 常數項為 4。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. 次數為 7。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "IV. \\(a^3b\\) 的係數為 2。"
+                  }
+                ]
+              },
+              "id": "import-polynomial-b2036cba16339680"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "polynomial-structure",
+              "skill": "poly-read-structure",
+              "stem": "Which is a monomial of degree 9?",
+              "stemZh": "下列哪個是次數為 9 的單項式？",
+              "solution": "The respective degrees are 0, 9, 7 and 6. The degree of \\(a^3b^6\\) is \\(3+6=9\\).",
+              "solutionZh": "各式的次數依次為 0、9、7、6；\\(a^3b^6\\) 的次數為 \\(3+6=9\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q4",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第4題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "4",
+                "page": 1,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q4"
+              },
+              "level": "free",
+              "options": {
+                "A": "36",
+                "B": "\\(a^3b^6\\)",
+                "C": "\\(3ab^6\\)",
+                "D": "\\(a^3b^3\\)"
+              },
+              "optionsZh": {
+                "A": "36",
+                "B": "\\(a^3b^6\\)",
+                "C": "\\(3ab^6\\)",
+                "D": "\\(a^3b^3\\)"
+              },
+              "answer": "B",
+              "id": "import-polynomial-896aa36f8aabca0a"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "polynomial-structure",
+              "skill": "poly-read-structure",
+              "stem": "If the degree of \\(3x^2y^kz\\) is 6, find \\(k\\).",
+              "stemZh": "若 \\(3x^2y^kz\\) 的次數為 6，求 \\(k\\)。",
+              "solution": "The total degree is \\(2+k+1=6\\), so \\(k=3\\).",
+              "solutionZh": "由總次數 \\(2+k+1=6\\)，得 \\(k=3\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q5",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第5題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "5",
+                "page": 1,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q5"
+              },
+              "level": "free",
+              "options": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "6"
+              },
+              "optionsZh": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "6"
+              },
+              "answer": "B",
+              "id": "import-polynomial-b8ad52c8764077d3"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "polynomial-structure",
+              "skill": "poly-read-structure",
+              "stem": "Which monomials have the same coefficient?\nI. \\(3x\\)\nII. \\(x^2\\)\nIII. \\(-3x^2\\)\nIV. \\(3y\\)",
+              "stemZh": "下列哪些單項式的係數相同？\nI. \\(3x\\)\nII. \\(x^2\\)\nIII. \\(-3x^2\\)\nIV. \\(3y\\)",
+              "solution": "The coefficients are 3, 1, \\(-3\\) and 3. Only I and IV agree.",
+              "solutionZh": "各係數為 3、1、\\(-3\\)、3，只有 I 及 IV 相同。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q6",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第6題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "6",
+                "page": 1,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q6"
+              },
+              "level": "free",
+              "options": {
+                "A": "I and IV only",
+                "B": "II and III only",
+                "C": "I, II and III only",
+                "D": "I, III and IV only"
+              },
+              "optionsZh": {
+                "A": "只有 I 及 IV",
+                "B": "只有 II 及 III",
+                "C": "只有 I、II 及 III",
+                "D": "只有 I、III 及 IV"
+              },
+              "answer": "A",
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "Which monomials have the same coefficient?"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. \\(3x\\)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. \\(x^2\\)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. \\(-3x^2\\)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "IV. \\(3y\\)"
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "下列哪些單項式的係數相同？"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. \\(3x\\)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. \\(x^2\\)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. \\(-3x^2\\)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "IV. \\(3y\\)"
+                  }
+                ]
+              },
+              "id": "import-polynomial-59a77e3ccebc1233"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "polynomial-structure",
+              "skill": "poly-read-structure",
+              "stem": "For \\(-2x^3y^2\\), which statements are correct?\nI. There are 2 variables.\nII. The coefficient is 2.\nIII. The degree is 5.",
+              "stemZh": "對 \\(-2x^3y^2\\)，下列哪些敘述正確？\nI. 有 2 個變量。\nII. 係數為 2。\nIII. 次數為 5。",
+              "solution": "There are two variables; the coefficient is \\(-2\\); the degree is \\(3+2=5\\). I and III are true.",
+              "solutionZh": "有兩個變量，係數為 \\(-2\\)，次數為 \\(3+2=5\\)，故 I 及 III 正確。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q7",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第7題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "7",
+                "page": 2,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q7"
+              },
+              "level": "free",
+              "options": {
+                "A": "I and II only",
+                "B": "I and III only",
+                "C": "II and III only",
+                "D": "I, II and III"
+              },
+              "optionsZh": {
+                "A": "只有 I 及 II",
+                "B": "只有 I 及 III",
+                "C": "只有 II 及 III",
+                "D": "I、II 及 III"
+              },
+              "answer": "B",
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "For \\(-2x^3y^2\\), which statements are correct?"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. There are 2 variables."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. The coefficient is 2."
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. The degree is 5."
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "對 \\(-2x^3y^2\\)，下列哪些敘述正確？"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. 有 2 個變量。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. 係數為 2。"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. 次數為 5。"
+                  }
+                ]
+              },
+              "id": "import-polynomial-22121edf87be125a"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "polynomial-structure",
+              "skill": "poly-read-structure",
+              "stem": "Which are polynomials?\nI. \\(y^3+x^2y^5-x^4\\)\nII. \\[\\begin{gathered}x^2 -6 \\\\ +\\frac{yz^3}{3}\\end{gathered}\\]\nIII. \\(\\frac7x+\\frac4y\\)",
+              "stemZh": "下列哪些是多項式？\nI. \\(y^3+x^2y^5-x^4\\)\nII. \\[\\begin{gathered}x^2 -6 \\\\ +\\frac{yz^3}{3}\\end{gathered}\\]\nIII. \\(\\frac7x+\\frac4y\\)",
+              "solution": "I and II have only nonnegative integer variable exponents. In III, the variables occur in denominators, giving exponents \\(-1\\); III is not a polynomial.",
+              "solutionZh": "I 及 II 的變量指數均為非負整數；III 的變量出現在分母，指數為 \\(-1\\)，並非多項式。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q10",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第10題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "10",
+                "page": 2,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q10"
+              },
+              "level": "free",
+              "options": {
+                "A": "I and II only",
+                "B": "I and III only",
+                "C": "II and III only",
+                "D": "I, II and III"
+              },
+              "optionsZh": {
+                "A": "只有 I 及 II",
+                "B": "只有 I 及 III",
+                "C": "只有 II 及 III",
+                "D": "I、II 及 III"
+              },
+              "answer": "A",
+              "contentBlocks": {
+                "en": [
+                  {
+                    "type": "paragraph",
+                    "text": "Which are polynomials?"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. \\(y^3+x^2y^5-x^4\\)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. \\[\\begin{gathered}x^2 -6 \\\\ +\\frac{yz^3}{3}\\end{gathered}\\]"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. \\(\\frac7x+\\frac4y\\)"
+                  }
+                ],
+                "zh-Hant": [
+                  {
+                    "type": "paragraph",
+                    "text": "下列哪些是多項式？"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "I. \\(y^3+x^2y^5-x^4\\)"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "II. \\[\\begin{gathered}x^2 -6 \\\\ +\\frac{yz^3}{3}\\end{gathered}\\]"
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "III. \\(\\frac7x+\\frac4y\\)"
+                  }
+                ]
+              },
+              "id": "import-polynomial-619c23206c465de8"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "polynomial-structure",
+              "skill": "poly-power-order",
+              "stem": "Arrange \\[\\begin{gathered}x^3 +1 +x^2 +4x \\\\ +3x^4\\end{gathered}\\] in descending powers of \\(x\\).",
+              "stemZh": "把 \\[\\begin{gathered}x^3 +1 +x^2 +4x \\\\ +3x^4\\end{gathered}\\] 按 \\(x\\) 的降冪排列。",
+              "solution": "List powers in the order \\(4,3,2,1,0\\): \\[\\begin{gathered}3x^4 +x^3 +x^2 +4x \\\\ +1\\end{gathered}\\].",
+              "solutionZh": "按指數 \\(4,3,2,1,0\\) 排列，得 \\[\\begin{gathered}3x^4 +x^3 +x^2 +4x \\\\ +1\\end{gathered}\\]。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q11",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第11題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "11",
+                "page": 2,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q11"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\[\\begin{gathered}1 +4x \\\\ +x^2 \\\\ +x^3 \\\\ +3x^4\\end{gathered}\\]",
+                "B": "\\[\\begin{gathered}3x^4 \\\\ +4x \\\\ +x^3 \\\\ +x^2 +1\\end{gathered}\\]",
+                "C": "\\[\\begin{gathered}3x^4 \\\\ +x^3 \\\\ +x^2 \\\\ +4x +1\\end{gathered}\\]",
+                "D": "\\[\\begin{gathered}4x \\\\ +3x^4 \\\\ +x^3 \\\\ +x^2 +1\\end{gathered}\\]"
+              },
+              "optionsZh": {
+                "A": "\\[\\begin{gathered}1 +4x \\\\ +x^2 \\\\ +x^3 \\\\ +3x^4\\end{gathered}\\]",
+                "B": "\\[\\begin{gathered}3x^4 \\\\ +4x \\\\ +x^3 \\\\ +x^2 +1\\end{gathered}\\]",
+                "C": "\\[\\begin{gathered}3x^4 \\\\ +x^3 \\\\ +x^2 \\\\ +4x +1\\end{gathered}\\]",
+                "D": "\\[\\begin{gathered}4x \\\\ +3x^4 \\\\ +x^3 \\\\ +x^2 +1\\end{gathered}\\]"
+              },
+              "answer": "C",
+              "id": "import-polynomial-ef01494e44ab735b"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "polynomial-structure",
+              "skill": "poly-read-structure",
+              "stem": "For \\[\\begin{gathered}x\\times3 -9y\\div2 \\\\ +9 +8y^2\\end{gathered}\\], which option gives the correct number of terms, coefficient of \\(y\\), and constant term, in that order?",
+              "stemZh": "對 \\[\\begin{gathered}x\\times3 -9y\\div2 \\\\ +9 +8y^2\\end{gathered}\\]，哪個選項依次正確列出項數、\\(y\\) 的係數及常數項？",
+              "solution": "Write the expression as \\[\\begin{gathered}3x -\\frac92y +9 \\\\ +8y^2\\end{gathered}\\]. There are 4 terms, coefficient of \\(y=-4.5\\) and constant 9.",
+              "solutionZh": "原式為 \\[\\begin{gathered}3x -\\frac92y +9 \\\\ +8y^2\\end{gathered}\\]，有 4 項，\\(y\\) 的係數為 \\(-4.5\\)，常數項為 9。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q13",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第13題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "13",
+                "page": 3,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q13"
+              },
+              "level": "free",
+              "options": {
+                "A": "4; \\(-9\\); 11",
+                "B": "4; \\(-4.5\\); 9",
+                "C": "6; \\(-4.5\\); 3",
+                "D": "6; 4.5; 9"
+              },
+              "optionsZh": {
+                "A": "4; \\(-9\\); 11",
+                "B": "4; \\(-4.5\\); 9",
+                "C": "6; \\(-4.5\\); 3",
+                "D": "6; 4.5; 9"
+              },
+              "answer": "B",
+              "id": "import-polynomial-2797ab5db4babfae"
             }
           ]
         },
@@ -36663,7 +37367,21 @@
                   }
                 ]
               },
-              "id": "import-polynomial-4d45d821a2fb3ba8"
+              "id": "import-polynomial-4d45d821a2fb3ba8",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "22",
+                  "page": 4,
+                  "pages": [
+                    4
+                  ],
+                  "duplicateQuestionId": "import-polynomial-88b4e273a02d904c"
+                }
+              ]
             },
             {
               "questionType": "structured",
@@ -36743,7 +37461,21 @@
                   }
                 ]
               },
-              "id": "import-polynomial-a4dd7295524ee648"
+              "id": "import-polynomial-a4dd7295524ee648",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "23",
+                  "page": 4,
+                  "pages": [
+                    4
+                  ],
+                  "duplicateQuestionId": "import-polynomial-60633d164b197049"
+                }
+              ]
             },
             {
               "questionType": "structured",
@@ -36831,7 +37563,21 @@
                   }
                 ]
               },
-              "id": "import-polynomial-18bbe71cc5e51d82"
+              "id": "import-polynomial-18bbe71cc5e51d82",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "24",
+                  "page": 4,
+                  "pages": [
+                    4
+                  ],
+                  "duplicateQuestionId": "import-polynomial-67a9e972d396ae1e"
+                }
+              ]
             },
             {
               "questionType": "structured",
@@ -36919,7 +37665,21 @@
                   }
                 ]
               },
-              "id": "import-polynomial-0c67556d3e79e44e"
+              "id": "import-polynomial-0c67556d3e79e44e",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "25",
+                  "page": 5,
+                  "pages": [
+                    5
+                  ],
+                  "duplicateQuestionId": "import-polynomial-3276c854b9c234ce"
+                }
+              ]
             },
             {
               "questionType": "structured",
@@ -37007,7 +37767,21 @@
                   }
                 ]
               },
-              "id": "import-polynomial-9d18bbb848f60c90"
+              "id": "import-polynomial-9d18bbb848f60c90",
+              "sourceAliases": [
+                {
+                  "collection": "by-topic-review-materials",
+                  "sourceId": "source-1d81eb240582d4e3",
+                  "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                  "file": "S1/polynomials/Polynomials review.pdf",
+                  "number": "26",
+                  "page": 5,
+                  "pages": [
+                    5
+                  ],
+                  "duplicateQuestionId": "import-polynomial-f5278d7c3cf2e129"
+                }
+              ]
             },
             {
               "questionType": "mcq",
@@ -37970,14 +38744,14 @@
               "solution": "The given remainder is \\(f(-\\frac12)=R\\). The new divisor vanishes at \\(x=-\\frac34\\), where \\(2x+1=-\\frac12\\). Thus the new remainder is \\(R\\).",
               "solutionZh": "已知 \\(f(-\\frac12)=R\\)。新除式的零點為 \\(x=-\\frac34\\)，此時 \\(2x+1=-\\frac12\\)，所以新餘式仍為 \\(R\\)。",
               "solutionStatus": "independently-rederived",
-              "source": "S4/more about polynomials/S4 polynomials review.pdf · Q3",
-              "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第3題",
+              "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q3",
+              "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第3題",
               "level": "free",
               "provenance": {
                 "collection": "by-topic-review-materials",
-                "sourceId": "source-a11ea3a915f0b682",
-                "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                "sourceId": "source-471162e6f688f1b3",
+                "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                 "number": "3",
                 "page": 1,
                 "attributionStatus": "not-supplied",
@@ -38017,14 +38791,14 @@
               "solution": "Set \\(x=-\\frac12\\). Then \\(2x+3=2\\), so \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\] By the factor theorem, option D has the factor \\(2x+1\\). The other choices need information about \\(f(0)\\) or give \\(-12\\).",
               "solutionZh": "代入 \\(x=-\\frac12\\)，得 \\(2x+3=2\\)，所以 \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\]由因式定理，D 必有因式 \\(2x+1\\)。其他選項須知道 \\(f(0)\\) 或得到 \\(-12\\)。",
               "solutionStatus": "independently-rederived",
-              "source": "S4/more about polynomials/S4 polynomials review.pdf · Q4",
-              "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第4題",
+              "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q4",
+              "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第4題",
               "level": "free",
               "provenance": {
                 "collection": "by-topic-review-materials",
-                "sourceId": "source-a11ea3a915f0b682",
-                "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                "sourceId": "source-471162e6f688f1b3",
+                "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                 "number": "4",
                 "page": 1,
                 "attributionStatus": "not-supplied",
@@ -38064,14 +38838,14 @@
               "solution": "The remainder is \\(g(3)=f(10)\\). Hence \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
               "solutionZh": "餘式為 \\(g(3)=f(10)\\)，所以 \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
-              "source": "S4/more about polynomials/S4 polynomials review.pdf · Q5",
-              "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第5題",
+              "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q5",
+              "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第5題",
               "level": "free",
               "provenance": {
                 "collection": "by-topic-review-materials",
-                "sourceId": "source-a11ea3a915f0b682",
-                "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                "sourceId": "source-471162e6f688f1b3",
+                "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                 "number": "5",
                 "page": 1,
                 "attributionStatus": "not-supplied",
@@ -38111,14 +38885,14 @@
               "solution": "Since \\(g(-1)=0\\), solve \\(4x-5=-1\\) to get \\(x=1\\). Thus \\(x-1\\) is a factor.",
               "solutionZh": "由 \\(g(-1)=0\\)，解 \\(4x-5=-1\\) 得 \\(x=1\\)，因此 \\(x-1\\) 為因式。",
               "solutionStatus": "independently-rederived",
-              "source": "S4/more about polynomials/S4 polynomials review.pdf · Q6",
-              "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第6題",
+              "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q6",
+              "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第6題",
               "level": "free",
               "provenance": {
                 "collection": "by-topic-review-materials",
-                "sourceId": "source-a11ea3a915f0b682",
-                "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                "sourceId": "source-471162e6f688f1b3",
+                "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                 "number": "6",
                 "page": 1,
                 "attributionStatus": "not-supplied",
@@ -38159,14 +38933,14 @@
               "solution": "\\(f(\\frac12)=0\\) gives \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\], hence \\(a=3\\). The required remainder is \\(f(3)=18+9-2=25\\).",
               "solutionZh": "由 \\(f(\\frac12)=0\\) 得 \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\]，所以 \\(a=3\\)。所求餘式為 \\(f(3)=18+9-2=25\\)。",
               "solutionStatus": "independently-rederived",
-              "source": "S4/more about polynomials/S4 polynomials review.pdf · Q7",
-              "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第7題",
+              "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q7",
+              "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第7題",
               "level": "free",
               "provenance": {
                 "collection": "by-topic-review-materials",
-                "sourceId": "source-a11ea3a915f0b682",
-                "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                "sourceId": "source-471162e6f688f1b3",
+                "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                 "number": "7",
                 "page": 1,
                 "attributionStatus": "not-supplied",
@@ -38206,14 +38980,14 @@
               "solution": "\\(f(5)=0\\) gives \\(5p-2q=-45\\). \\(f(-\\frac12)=0\\) gives \\(p+4q=101\\). Solving yields \\(p=1,q=25\\). Then \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
               "solutionZh": "由 \\(f(5)=0\\) 得 \\(5p-2q=-45\\)；由 \\(f(-\\frac12)=0\\) 得 \\(p+4q=101\\)。聯立解得 \\(p=1,q=25\\)，所以 \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
               "solutionStatus": "independently-rederived",
-              "source": "S4/more about polynomials/S4 polynomials review.pdf · Q8",
-              "sourceZh": "S4/more about polynomials/S4 polynomials review.pdf · 第8題",
+              "source": "S4/more about polynomials/S4 polynomials review 2.pdf · Q8",
+              "sourceZh": "S4/more about polynomials/S4 polynomials review 2.pdf · 第8題",
               "level": "free",
               "provenance": {
                 "collection": "by-topic-review-materials",
-                "sourceId": "source-a11ea3a915f0b682",
-                "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                "sourceId": "source-471162e6f688f1b3",
+                "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                 "number": "8",
                 "page": 2,
                 "attributionStatus": "not-supplied",
@@ -38240,6 +39014,418 @@
               },
               "answer": "C",
               "id": "import-polynomial-e60f443b345c79e8"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "basic-operations",
+              "skill": "poly-expanded-structure",
+              "stem": "Find the coefficient of \\(x^2\\) in \\((2x+1)(1-3x)\\).",
+              "stemZh": "求 \\((2x+1)(1-3x)\\) 展開式的 \\(x^2\\) 係數。",
+              "solution": "Expansion gives \\(-6x^2-x+1\\), so the requested coefficient is \\(-6\\).",
+              "solutionZh": "展開得 \\(-6x^2-x+1\\)，所求係數為 \\(-6\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q3",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第3題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "3",
+                "page": 1,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q3"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(-6\\)",
+                "B": "\\(-1\\)",
+                "C": "2",
+                "D": "6"
+              },
+              "optionsZh": {
+                "A": "\\(-6\\)",
+                "B": "\\(-1\\)",
+                "C": "2",
+                "D": "6"
+              },
+              "answer": "A",
+              "id": "import-polynomial-e0e95c05a310e704"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "medium",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "basic-operations",
+              "skill": "poly-expanded-structure",
+              "stem": "After expanding \\((4a^2-b+5)(-a+2)\\), which option correctly gives the degree and number of terms, in that order?",
+              "stemZh": "展開 \\((4a^2-b+5)(-a+2)\\) 後，哪個選項依次正確列出次數及項數？",
+              "solution": "The expansion is \\[\\begin{gathered}-4a^3 +8a^2 +ab -2b \\\\ -5a +10\\end{gathered}\\]. It has degree 3 and 6 terms.",
+              "solutionZh": "展開為 \\[\\begin{gathered}-4a^3 +8a^2 +ab -2b \\\\ -5a +10\\end{gathered}\\]，次數為 3，共有 6 項。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q14",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第14題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "14",
+                "page": 3,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Expand and collect the full expression before checking the requested structure.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q14"
+              },
+              "level": "free",
+              "options": {
+                "A": "2; 5",
+                "B": "2; 6",
+                "C": "3; 5",
+                "D": "3; 6"
+              },
+              "optionsZh": {
+                "A": "2; 5",
+                "B": "2; 6",
+                "C": "3; 5",
+                "D": "3; 6"
+              },
+              "answer": "D",
+              "id": "import-polynomial-42728ca51bccb193"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "factorisation",
+              "skill": "common-factor",
+              "stem": "Factorise \\(xy+xz-7y-7z\\).",
+              "stemZh": "因式分解 \\(xy+xz-7y-7z\\)。",
+              "solution": "Group as \\(x(y+z)-7(y+z)\\) and factor out \\(y+z\\). The result is \\((y+z)(x-7)\\).",
+              "solutionZh": "分組為 \\(x(y+z)-7(y+z)\\)，提出公因式 \\(y+z\\)，得 \\((y+z)(x-7)\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q15",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第15題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "15",
+                "page": 3,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q15"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\((y-z)(x-7)\\)",
+                "B": "\\((y-z)(x+7)\\)",
+                "C": "\\((y+z)(x-7)\\)",
+                "D": "\\((z-y)(x-7)\\)"
+              },
+              "optionsZh": {
+                "A": "\\((y-z)(x-7)\\)",
+                "B": "\\((y-z)(x+7)\\)",
+                "C": "\\((y+z)(x-7)\\)",
+                "D": "\\((z-y)(x-7)\\)"
+              },
+              "answer": "C",
+              "id": "import-polynomial-4887ed0e559a0601"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "factorisation",
+              "skill": "common-factor",
+              "stem": "Factorise \\(5(x+y)^2-10(x+y)z\\).",
+              "stemZh": "因式分解 \\(5(x+y)^2-10(x+y)z\\)。",
+              "solution": "The common factor is \\(5(x+y)\\). Dividing each term by it leaves \\((x+y)-2z\\), hence \\(5(x+y)(x+y-2z)\\).",
+              "solutionZh": "公因式為 \\(5(x+y)\\)；各項除以它後餘下 \\((x+y)-2z\\)，因此得 \\(5(x+y)(x+y-2z)\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q16",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第16題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "16",
+                "page": 3,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q16"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(5(x+y)(x+y+2z)\\)",
+                "B": "\\(5(x+y)(x-y-2z)\\)",
+                "C": "\\(5(x+y)(x-y+2z)\\)",
+                "D": "\\(5(x+y)(x+y-2z)\\)"
+              },
+              "optionsZh": {
+                "A": "\\(5(x+y)(x+y+2z)\\)",
+                "B": "\\(5(x+y)(x-y-2z)\\)",
+                "C": "\\(5(x+y)(x-y+2z)\\)",
+                "D": "\\(5(x+y)(x+y-2z)\\)"
+              },
+              "answer": "D",
+              "id": "import-polynomial-bb3b71019e5d7b9d"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "factorisation",
+              "skill": "common-factor",
+              "stem": "Factorise \\(14x^4y^3+18x^2y\\).",
+              "stemZh": "因式分解 \\(14x^4y^3+18x^2y\\)。",
+              "solution": "Extract the greatest common factor \\(2x^2y\\). The remaining terms are \\(7x^2y^2\\) and 9.",
+              "solutionZh": "提出最大公因式 \\(2x^2y\\)，餘下兩項為 \\(7x^2y^2\\) 及 9。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q17",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第17題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "17",
+                "page": 4,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q17"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(2x^2y(7xy^2+9)\\)",
+                "B": "\\(2x^2y(7x^2y^2+9)\\)",
+                "C": "\\(2xy(7xy^2+9)\\)",
+                "D": "\\(2xy(7x^3y^2+9x^2y)\\)"
+              },
+              "optionsZh": {
+                "A": "\\(2x^2y(7xy^2+9)\\)",
+                "B": "\\(2x^2y(7x^2y^2+9)\\)",
+                "C": "\\(2xy(7xy^2+9)\\)",
+                "D": "\\(2xy(7x^3y^2+9x^2y)\\)"
+              },
+              "answer": "B",
+              "id": "import-polynomial-509a4a95255fc9a0"
+            },
+            {
+              "questionType": "mcq",
+              "difficulty": "easy",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "factorisation",
+              "skill": "common-factor",
+              "stem": "Factorise \\(-10a^3+14a^2+4a\\).",
+              "stemZh": "因式分解 \\(-10a^3+14a^2+4a\\)。",
+              "solution": "Extract \\(-2a\\). Dividing each original term gives \\(5a^2,-7a,-2\\), hence \\(-2a(5a^2-7a-2)\\).",
+              "solutionZh": "提出 \\(-2a\\)，各項相除得 \\(5a^2,-7a,-2\\)，故結果為 \\(-2a(5a^2-7a-2)\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q18",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第18題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "18",
+                "page": 4,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Read structure and test each stated condition.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q18"
+              },
+              "level": "free",
+              "options": {
+                "A": "\\(-2a^3(5-7a-2a^2)\\)",
+                "B": "\\(-2a^3(5+7a+2a^2)\\)",
+                "C": "\\(-2a(5a^2-7a-2)\\)",
+                "D": "\\(-2a(5a^2+7a+2)\\)"
+              },
+              "optionsZh": {
+                "A": "\\(-2a^3(5-7a-2a^2)\\)",
+                "B": "\\(-2a^3(5+7a+2a^2)\\)",
+                "C": "\\(-2a(5a^2-7a-2)\\)",
+                "D": "\\(-2a(5a^2+7a+2)\\)"
+              },
+              "answer": "C",
+              "id": "import-polynomial-024e2276667b0ba7"
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "factorisation",
+              "skill": "common-factor",
+              "stem": "Factorise \\(6(a+1)^2-4(a+1)\\).",
+              "stemZh": "因式分解 \\(6(a+1)^2-4(a+1)\\)。",
+              "solution": "Extract \\(2(a+1)\\) to obtain \\(2(a+1)[3(a+1)-2]\\). Simplifying the bracket gives \\(2(a+1)(3a+1)\\).",
+              "solutionZh": "提出 \\(2(a+1)\\) 得 \\(2(a+1)[3(a+1)-2]\\)，化簡括號後得 \\(2(a+1)(3a+1)\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q27",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第27題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "27",
+                "page": 5,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q27"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "id": "import-polynomial-e11a61b21c98d38d"
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "factorisation",
+              "skill": "common-factor",
+              "stem": "Factorise \\(m(3n-1)-m^2(1-3n)\\).",
+              "stemZh": "因式分解 \\(m(3n-1)-m^2(1-3n)\\)。",
+              "solution": "Use \\(1-3n=-(3n-1)\\). The expression becomes \\[\\begin{gathered}m(3n-1) +m^2(3n-1) \\\\ =m(3n-1)(1+m)\\end{gathered}\\].",
+              "solutionZh": "由 \\(1-3n=-(3n-1)\\)，原式變為 \\(m(3n-1)+m^2(3n-1)\\)，提出公因式得 \\(m(3n-1)(1+m)\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q28",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第28題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "28",
+                "page": 5,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q28"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "id": "import-polynomial-8601cac4e328fa10"
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "factorisation",
+              "skill": "common-factor",
+              "stem": "Factorise \\[\\begin{gathered}3(a-b)^2(a+b) \\\\ -4a^2(b-a)\\end{gathered}\\].",
+              "stemZh": "因式分解 \\[\\begin{gathered}3(a-b)^2(a+b) \\\\ -4a^2(b-a)\\end{gathered}\\]。",
+              "solution": "Use \\(b-a=-(a-b)\\), then extract \\(a-b\\). The remaining expression is \\[\\begin{gathered}3(a-b)(a+b) +4a^2 \\\\ =7a^2 -3b^2\\end{gathered}\\]. Thus the factorisation is \\((a-b)(7a^2-3b^2)\\).",
+              "solutionZh": "利用 \\(b-a=-(a-b)\\)，提出 \\(a-b\\)。餘式為 \\[\\begin{gathered}3(a-b)(a+b) +4a^2 \\\\ =7a^2 -3b^2\\end{gathered}\\]，所以得 \\((a-b)(7a^2-3b^2)\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q29",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第29題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "29",
+                "page": 5,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q29"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "id": "import-polynomial-566dc0c64631602f"
+            },
+            {
+              "questionType": "structured",
+              "difficulty": "medium",
+              "minForm": 1,
+              "course": "core",
+              "subcategory": "factorisation",
+              "skill": "common-factor",
+              "stem": "Factorise \\(8ab-2cd-2bc+8ad\\).",
+              "stemZh": "因式分解 \\(8ab-2cd-2bc+8ad\\)。",
+              "solution": "Group as \\(8a(b+d)-2c(b+d)\\). Extracting the common binomial gives \\(2(b+d)(4a-c)\\).",
+              "solutionZh": "分組為 \\(8a(b+d)-2c(b+d)\\)，提出共同二項式得 \\(2(b+d)(4a-c)\\)。",
+              "solutionStatus": "independently-rederived",
+              "source": "S1/polynomials/Polynomials review.pdf · Q30",
+              "sourceZh": "S1/polynomials/Polynomials review.pdf · 第30題",
+              "provenance": {
+                "collection": "by-topic-review-materials",
+                "sourceId": "source-1d81eb240582d4e3",
+                "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+                "file": "S1/polynomials/Polynomials review.pdf",
+                "number": "30",
+                "page": 5,
+                "attributionStatus": "not-supplied"
+              },
+              "classification": {
+                "version": "solving-method-v1",
+                "basis": "reviewed-decisive-solving-method",
+                "status": "editor-pipeline-reviewed",
+                "difficultyReason": "Recognise a shared bracket or opposite bracket, then simplify the remaining expression.",
+                "evidence": "docs/qa/2026-11-16/intake-wave/mathematics.json#Q30"
+              },
+              "level": "free",
+              "assessmentMode": "solution-comparison",
+              "id": "import-polynomial-a660c1aa92a313e6"
             }
           ]
         },
@@ -38878,9 +40064,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "1",
                   "page": 1,
                   "pages": [
@@ -40777,9 +41963,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "2",
                   "page": 1,
                   "pages": [
@@ -41624,9 +42810,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "9",
                   "page": 2,
                   "pages": [
@@ -41674,9 +42860,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "15",
                   "page": 3,
                   "pages": [
@@ -42552,9 +43738,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "12",
                   "page": 2,
                   "pages": [
@@ -42602,9 +43788,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "10",
                   "page": 2,
                   "pages": [
@@ -42688,9 +43874,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "13",
                   "page": 2,
                   "pages": [
@@ -43351,9 +44537,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "11",
                   "page": 2,
                   "pages": [
@@ -43977,9 +45163,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "16",
                   "page": 3,
                   "pages": [
@@ -44063,9 +45249,9 @@
               "sourceAliases": [
                 {
                   "collection": "by-topic-review-materials",
-                  "sourceId": "source-a11ea3a915f0b682",
-                  "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
-                  "file": "S4/more about polynomials/S4 polynomials review.pdf",
+                  "sourceId": "source-471162e6f688f1b3",
+                  "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+                  "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
                   "number": "14",
                   "page": 3,
                   "pages": [

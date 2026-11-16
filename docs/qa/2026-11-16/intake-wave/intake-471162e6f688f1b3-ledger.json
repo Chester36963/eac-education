@@ -1,0 +1,210 @@
+[
+  {
+    "locator": "1",
+    "pages": [
+      1
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-0c0e9ec5983ca55e",
+    "canonicalId": "import-polynomial-p013",
+    "skill": "poly-factor-parameters",
+    "difficulty": "medium",
+    "reason": "Personally compared rendered S4 source question 1 and canonical p013: identical polynomial coefficients, conditions, full requested subparts and complete A–D choices. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  },
+  {
+    "locator": "2",
+    "pages": [
+      1
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-6ddaf769c33db9f4",
+    "canonicalId": "import-polynomial-p065",
+    "skill": "poly-direct-remainder",
+    "difficulty": "medium",
+    "reason": "Personally compared rendered S4 source question 2 and canonical p065: identical polynomial coefficients, conditions, full requested subparts and complete A–D choices. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  },
+  {
+    "locator": "3",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-09275c0edfd81f14",
+    "canonicalId": null,
+    "skill": "poly-substitution",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Follow a linear input substitution through two different divisor roots."
+  },
+  {
+    "locator": "4",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-054f9c6861f38928",
+    "canonicalId": null,
+    "skill": "poly-substitution",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Choose a shifted polynomial that vanishes at the specified divisor root."
+  },
+  {
+    "locator": "5",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-13b1a4fdf43e3a50",
+    "canonicalId": null,
+    "skill": "poly-substitution",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Evaluate the inner input first, then apply the remainder theorem."
+  },
+  {
+    "locator": "6",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-51cc94213ae3ba63",
+    "canonicalId": null,
+    "skill": "poly-substitution",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Solve the transformed input-root condition; the source has a different distractor set from p074."
+  },
+  {
+    "locator": "7",
+    "pages": [
+      1
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-f5b54db82cf1f5e7",
+    "canonicalId": null,
+    "skill": "poly-multiple-conditions",
+    "difficulty": "medium",
+    "reason": null,
+    "difficultyReason": "Determine a parameter from a factor, then use it as the evaluation point for a second division."
+  },
+  {
+    "locator": "8",
+    "pages": [
+      2
+    ],
+    "disposition": "publish",
+    "id": "import-polynomial-e60f443b345c79e8",
+    "canonicalId": null,
+    "skill": "poly-multiple-conditions",
+    "difficulty": "hard",
+    "reason": null,
+    "difficultyReason": "Translate two distinct factor conditions into simultaneous equations before evaluating the final remainder."
+  },
+  {
+    "locator": "9",
+    "pages": [
+      2
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-4e692ede7cd3b2c6",
+    "canonicalId": "import-polynomial-pl003",
+    "skill": "poly-multiple-conditions",
+    "difficulty": "medium",
+    "reason": "Personally compared rendered S4 source question 9 and canonical pl003: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  },
+  {
+    "locator": "10",
+    "pages": [
+      2
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-57ba16fdb03da69e",
+    "canonicalId": "import-polynomial-pl029",
+    "skill": "poly-root-nature",
+    "difficulty": "medium",
+    "reason": "Personally compared rendered S4 source question 10 and canonical pl029: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  },
+  {
+    "locator": "11",
+    "pages": [
+      2
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-7a379671fa201389",
+    "canonicalId": "import-polynomial-pl049",
+    "skill": "poly-direct-remainder",
+    "difficulty": "hard",
+    "reason": "Personally compared rendered S4 source question 11 and canonical pl049: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  },
+  {
+    "locator": "12",
+    "pages": [
+      2
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-385e5728a93939e6",
+    "canonicalId": "import-polynomial-pl028",
+    "skill": "poly-root-nature",
+    "difficulty": "challenging",
+    "reason": "Personally compared rendered S4 source question 12 and canonical pl028: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  },
+  {
+    "locator": "13",
+    "pages": [
+      2
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-55370608dc1d3f59",
+    "canonicalId": "import-polynomial-pl031",
+    "skill": "poly-root-nature",
+    "difficulty": "hard",
+    "reason": "Personally compared rendered S4 source question 13 and canonical pl031: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  },
+  {
+    "locator": "14",
+    "pages": [
+      3
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-efeefab86a2b4516",
+    "canonicalId": "import-polynomial-pl068",
+    "skill": "poly-direct-remainder",
+    "difficulty": "challenging",
+    "reason": "Personally compared rendered S4 source question 14 and canonical pl068: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  },
+  {
+    "locator": "15",
+    "pages": [
+      3
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-49c1e281b44e1ce8",
+    "canonicalId": "import-polynomial-pl004",
+    "skill": "poly-direct-remainder",
+    "difficulty": "medium",
+    "reason": "Personally compared rendered S4 source question 15 and canonical pl004: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  },
+  {
+    "locator": "16",
+    "pages": [
+      3
+    ],
+    "disposition": "duplicate",
+    "id": "import-polynomial-c58e675f37f18d91",
+    "canonicalId": "import-polynomial-pl066",
+    "skill": "poly-root-nature",
+    "difficulty": "hard",
+    "reason": "Personally compared rendered S4 source question 16 and canonical pl066: identical polynomial coefficients, conditions, full requested subparts. Existing canonical ID retained. Source brief answer differences rederived separately in mathematics.json.",
+    "difficultyReason": null
+  }
+]

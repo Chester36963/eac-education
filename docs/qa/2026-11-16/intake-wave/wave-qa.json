@@ -1,0 +1,334 @@
+{
+  "status": "draft-rendering-verified",
+  "batches": [
+    {
+      "id": "intake-471162e6f688f1b3",
+      "source": {
+        "id": "source-471162e6f688f1b3",
+        "path": "S4/more about polynomials/S4 polynomials review 2.pdf",
+        "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+        "pageCount": 4
+      },
+      "fingerprint": "9e166fd5ce9c97dc0b614cf3e6751b0eb7b30ec9cfd3a6c5df61170e4ab9d424",
+      "cached": false,
+      "count": 72
+    },
+    {
+      "id": "intake-1d81eb240582d4e3",
+      "source": {
+        "id": "source-1d81eb240582d4e3",
+        "path": "S1/polynomials/Polynomials review.pdf",
+        "sha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+        "pageCount": 6
+      },
+      "fingerprint": "e8f15a6c3c3919b9ca404946747c26a2bbf08acb2296f522217187b4cdc7285a",
+      "cached": false,
+      "count": 228
+    }
+  ],
+  "previewStates": 300,
+  "formulaFitStates": 50,
+  "formulaFit": [
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "1",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "2",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "3",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "4",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "5",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "6",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "7",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "10",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "11",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "13",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "14",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "15",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "16",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "17",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "18",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "27",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "28",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "29",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "30",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "3",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "4",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "5",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "6",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "7",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "8",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "1",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "2",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "3",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "4",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "5",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "6",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "7",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "10",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "11",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "13",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "14",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "15",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "16",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "17",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "18",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "27",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "28",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "29",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-1d81eb240582d4e3",
+      "locator": "30",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "3",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "4",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "5",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "6",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "7",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-471162e6f688f1b3",
+      "locator": "8",
+      "width": 390,
+      "status": "pass"
+    }
+  ],
+  "boundary": "Source identity and rendering only. Does not grant human text, mathematical, classification or diagram approvals."
+}

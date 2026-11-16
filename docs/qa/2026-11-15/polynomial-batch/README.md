@@ -1,4 +1,5 @@
 # POLY-20261115 · 兩卷完整對帳
+> 2026-11-16 來源更正：此歷史批次的 S4 題文實際出自 `review 2.pdf`，但當時引用了 `review.pdf` 的 source ID／SHA。已修正 6 條題目的來源欄位及 10 條重複來源關聯，原學生 ID／題文／解答不變。正確來源為 `source-471162e6f688f1b3`；原 `source-a11ea3a915f0b682` 的 review.pdf 仍未處理。舊 evidence 保留作審計，不代表正確來源標記；[修復前後及本輪驗收](../../2026-11-16/intake-wave/source-repair.json)。
 
 狀態：完成（main已正式發布，見release.json）。
 
