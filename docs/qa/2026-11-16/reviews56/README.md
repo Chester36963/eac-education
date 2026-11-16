@@ -21,7 +21,7 @@ Bank: 1,398 → 1,430 questions across8 populated topics. All1,398 old IDs retai
 | REV56-05 | 完成 | 384 draft question/solution/language/width states and64 mobile formula states. Existing taxonomy reused; decisive-method classification and individual difficulty reasons attached. Long MCQ products split without altering values. |
 | REV56-06 | 完成 | Final396 actual student states and66 actual mobile formula states passed after line-fit correction; source-aligned Q3/Q7/Q10/Q18, Review6Q4/Q6/Q7 and pl060 screenshot review completed. See `student/`. |
 | REV56-07 | 完成 | Final Node1,155 checks and build/content/curriculum/version checks passed after the layout correction. `preservation.json` verifies original objects; `replay.json` shows both batch imports add/update zero questions on replay. |
-| REV56-08 | 待處理 | Same main repository publication, exact deploy/Pages commit, deployed hashes and live student journeys; evidence will be under `release/` and `live/`. |
+| REV56-08 | 完成 | main7b239a3, Deploy43903663612 / Pages43903777291 succeeded; 125 deployed asset hashes +2 guide files match;396 live student states and66 live mobile formula states passed. See `release/`, `live/`. |
 
 ## Mathematical findings
 
@@ -37,3 +37,5 @@ Bank: 1,398 → 1,430 questions across8 populated topics. All1,398 old IDs retai
 Drafts, applied previews, source links and replay receipts are separate from live publication evidence. Format checks alone are not mathematical approval. Student tests use isolated test storage; written responses are explicitly self-assessed, not automatically marked.
 
 `next-wave.json` is a new snapshot:10 remaining prepared PDFs /71 pages, question counts not yet established. Historic source snapshots remain unchanged. Diagram review and any necessary reconstruction remain with primary Codex. This batch changes no UI/UE roadmap item and does not claim to have finished any outstanding animation work.
+
+Final publication verified on17 November2026. All fixed REV56 work items complete; next-wave sources remain pending. No student UI code or diagram assets changed.

@@ -1,0 +1,40 @@
+{
+  "commit": "7b239a38dc597c927be8c69863cb967648697bb0",
+  "revision": "5062b1991df6ea81",
+  "totalQuestions": 1430,
+  "batches": [
+    {
+      "id": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "sourceRecords": 20,
+      "new": 13,
+      "duplicate": 7
+    },
+    {
+      "id": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "sourceRecords": 20,
+      "new": 19,
+      "duplicate": 1
+    }
+  ],
+  "coverage": "Shared deployed bank/catalog/chapter chunks/index/search assets verified byte-for-byte; live browser and formula-fit matrices include all32 new questions plus pl060.",
+  "sourceRecords": 40,
+  "new": 32,
+  "duplicate": 8,
+  "existingCorrection": 1,
+  "newQuestionClassification": {
+    "questionTypes": {
+      "mcq": 19,
+      "structured": 13
+    },
+    "difficulty": {
+      "easy": 14,
+      "medium": 11,
+      "hard": 7
+    },
+    "distinctSkills": 11
+  }
+}
