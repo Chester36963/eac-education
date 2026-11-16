@@ -11,7 +11,8 @@
     "relationships": "4 right-angle marks; original adjacent-side expressions and cm units; no vertex labels.",
     "standaloneVisual": "pass: primary Codex visually inspected standalone figure raster at 1440 after source page comparison",
     "studentVisual": "pass: primary Codex inspected actual bilingual390px screenshot with all labels, units, MCQ options/self-assessment and solution; actual matrix checks all three languages at320/390/768/1440px; student/intake-211b9446f11be59a-q9-390.png",
-    "draftVisual": "pass: primary Codex inspected bilingual390px question and expanded solution; labels/units visible; no answer or neighbouring question leaks"
+    "draftVisual": "pass: primary Codex inspected bilingual390px question and expanded solution; labels/units visible; no answer or neighbouring question leaks",
+    "publicVerification": "124-file SHA check includes source-derived SVG; required-visible-figure assertions passed all12states perquestion on public site. Primary Codex inspected public Q9 at390px and Q19 at1440px."
   },
   {
     "number": "19",
@@ -25,6 +26,7 @@
     "relationships": "AB=BC follows explicit source statement; A top/B lower-left/C lower-right; AC label preserved. Coordinates A(190,50), B(70,210), C(270,210) give AB=BC=200, AC≈178.885. No invented numerical student labels.",
     "standaloneVisual": "pass: primary Codex visually inspected standalone figure raster at 1440 after source page comparison",
     "studentVisual": "pass: primary Codex inspected actual bilingual390px screenshot with all labels, units, MCQ options/self-assessment and solution; actual matrix checks all three languages at320/390/768/1440px; student/intake-211b9446f11be59a-q19-390.png",
-    "draftVisual": "pass: primary Codex inspected bilingual390px question and expanded solution; labels/units visible; no answer or neighbouring question leaks"
+    "draftVisual": "pass: primary Codex inspected bilingual390px question and expanded solution; labels/units visible; no answer or neighbouring question leaks",
+    "publicVerification": "124-file SHA check includes source-derived SVG; required-visible-figure assertions passed all12states perquestion on public site. Primary Codex inspected public Q9 at390px and Q19 at1440px."
   }
 ]

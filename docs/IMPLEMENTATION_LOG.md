@@ -1,6 +1,6 @@
 ## POLY-APPLIED-20261116 · 2026-11-16
 
-19原題全部完成雙語／分類／詳解，2幅題圖由本Codex親自手寫SVG。修復多小問題圖漏顯示並在草稿及實際學生矩陣加入題圖可見檢查；228草稿、228真正作答、38＋38公式寬度狀態，1148 Node全通過。原1356個物件／ID完全不變，重播不增題。本機1375題、revision01fc122b15571e53；正式部署尚待核對。[逐題、圖像及限制](qa/2026-11-16/polynomial-applied/README.md)，[內容總計劃](CONTENT_EXPANSION_PLAN.md)、[UI／UE路線圖](UI_UX_ROADMAP.md)。
+19原題全部完成雙語／分類／詳解，2幅題圖由本Codex親自手寫SVG。修復多小問題圖漏顯示並在草稿及實際學生矩陣加入題圖可見檢查；228草稿、228真正作答、38＋38公式寬度狀態，1148 Node全通過。原1356個物件／ID完全不變，重播不增題。本機1375題、revision01fc122b15571e53；正式main59c7305已發布，124檔hash、228正式作答及38正式手機公式狀態全通過。[逐題、圖像及限制](qa/2026-11-16/polynomial-applied/README.md)，[內容總計劃](CONTENT_EXPANSION_PLAN.md)、[UI／UE路線圖](UI_UX_ROADMAP.md)。
 
 # Implementation record
 

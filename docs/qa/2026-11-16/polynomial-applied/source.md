@@ -12,7 +12,7 @@ SHA256: `fedf38ca00ae013b328dd18044369b4a7d19b132da9cbd36d857fe2e59c89c44`
 
 ## Q1 · p1 · import-polynomial-125cc242e2221a2f
 
-狀態：完成（本機） | poly-index-laws | easy
+狀態：完成（正式發布已核對） | poly-index-laws | easy
 
 ### 題目
 
@@ -38,7 +38,7 @@ Since \(4^{2a}=2^{4a}\), the product is \(2^{a+4a}=2^{5a}\).
 
 ## Q2 · p1 · import-polynomial-eb0ef20646974e0e
 
-狀態：完成（本機） | poly-index-laws | easy
+狀態：完成（正式發布已核對） | poly-index-laws | easy
 
 ### 題目
 
@@ -64,7 +64,7 @@ The denominator requires \(k\ne0\). Combining equal powers gives \((-1)^{2016}=1
 
 ## Q3 · p1 · import-polynomial-872bb9e36381aaec
 
-狀態：完成（本機） | poly-index-laws | easy
+狀態：完成（正式發布已核對） | poly-index-laws | easy
 
 ### 題目
 
@@ -90,7 +90,7 @@ For \(x\ne0\), \((4x^2)^3=64x^6\). Thus \[\begin{gathered}\frac{64x^7}{8x^4} \\ 
 
 ## Q4 · p1 · import-polynomial-e7a50cf172223117
 
-狀態：完成（本機） | poly-collect-terms | easy
+狀態：完成（正式發布已核對） | poly-collect-terms | easy
 
 ### 題目
 
@@ -116,7 +116,7 @@ First collect like terms: \((3y)(7y)=21y^2\).
 
 ## Q5 · p2 · import-polynomial-d21ad70f1c934fb2
 
-狀態：完成（本機） | poly-expand-collect | easy
+狀態：完成（正式發布已核對） | poly-expand-collect | easy
 
 ### 題目
 
@@ -142,7 +142,7 @@ Distribute to get \[\begin{gathered}2x^3 -2x^2 +x +2x^2 \\ -2x +1\end{gathered}\
 
 ## Q6 · p2 · import-polynomial-bac5467e17ec59c0
 
-狀態：完成（本機） | poly-read-structure | easy
+狀態：完成（正式發布已核對） | poly-read-structure | easy
 
 ### 題目
 
@@ -174,7 +174,7 @@ I and II have nonnegative integer variable exponents. The numerical denominator 
 
 ## Q7 · p2 · import-polynomial-58d76f11c3c1d16d
 
-狀態：完成（本機） | poly-read-structure | easy
+狀態：完成（正式發布已核對） | poly-read-structure | easy
 
 ### 題目
 
@@ -200,7 +200,7 @@ It has 4 terms and total degree 4, with constant 4. The coefficient of \(x^3y\) 
 
 ## Q8 · p2 · import-polynomial-6a5496cb3705d613
 
-狀態：完成（本機） | poly-evaluate-expanded | easy
+狀態：完成（正式發布已核對） | poly-evaluate-expanded | easy
 
 ### 題目
 
@@ -226,7 +226,7 @@ Substitute with brackets: \[\begin{gathered}5(-3)^2(2) \\ +3(-3)(2^2) =90 -36 \\
 
 ## Q9 · p3 · import-polynomial-3f50457292ce1d78
 
-狀態：完成（本機） | poly-collect-terms | easy
+狀態：完成（正式發布已核對） | poly-collect-terms | easy
 
 ### 題目
 
@@ -254,7 +254,7 @@ Figure: `assets/intake/intake-211b9446f11be59a/q9.svg`
 
 ## Q10 · p3 · import-polynomial-f5c734ee2dc80d72
 
-狀態：完成（本機） | poly-collect-terms | easy
+狀態：完成（正式發布已核對） | poly-collect-terms | easy
 
 ### 題目
 
@@ -280,7 +280,7 @@ Subtract the uninstalled number and add the installed number: \[\begin{gathered}
 
 ## Q11 · p3 · import-polynomial-263782095fc574f7
 
-狀態：完成（本機） | poly-index-laws | easy
+狀態：完成（正式發布已核對） | poly-index-laws | easy
 
 ### 題目
 
@@ -296,7 +296,7 @@ The numerator is \(x^{24}y^{30}\) and the denominator is \(x^4y^9\). Subtract ex
 
 ## Q12 · p3 · import-polynomial-a85e6bbe7790e2b3
 
-狀態：完成（本機） | poly-index-laws | easy
+狀態：完成（正式發布已核對） | poly-index-laws | easy
 
 ### 題目
 
@@ -312,7 +312,7 @@ The odd power retains the negative sign: \[\begin{gathered}(-2x^2y^3)^3 = \\ -8x
 
 ## Q13 · p3 · import-polynomial-c3a4e6bcc1eb6d7c
 
-狀態：完成（本機） | poly-index-laws | easy
+狀態：完成（正式發布已核對） | poly-index-laws | easy
 
 ### 題目
 
@@ -328,7 +328,7 @@ Expand the left side as \(x^{5m}y^{10}\). Comparing exponents gives \(5m=10\) an
 
 ## Q14 · p3 · import-polynomial-ef7c03b4bf6aa8ef
 
-狀態：完成（本機） | poly-expand-collect | easy
+狀態：完成（正式發布已核對） | poly-expand-collect | easy
 
 ### 題目
 
@@ -350,7 +350,7 @@ Expand:
 
 ## Q15 · p4 · import-polynomial-c1e8635abda7eba5
 
-狀態：完成（本機） | poly-power-order | medium
+狀態：完成（正式發布已核對） | poly-power-order | medium
 
 ### 題目
 
@@ -378,7 +378,7 @@ Expand:
 
 ## Q16 · p4 · import-polynomial-9d13d10779e8561e
 
-狀態：完成（本機） | poly-expanded-structure | medium
+狀態：完成（正式發布已核對） | poly-expanded-structure | medium
 
 ### 題目
 
@@ -394,7 +394,7 @@ Expanding the bracket product gives \(-x^3+8x^2-16x+8\). Hence the coefficient o
 
 ## Q17 · p4 · import-polynomial-9e763a4652e7c4d2
 
-狀態：完成（本機） | poly-evaluate-expanded | easy
+狀態：完成（正式發布已核對） | poly-evaluate-expanded | easy
 
 ### 題目
 
@@ -414,7 +414,7 @@ Expanding the bracket product gives \(-x^3+8x^2-16x+8\). Hence the coefficient o
 
 ## Q18 · p4 · import-polynomial-05ff1a3af814eb3f
 
-狀態：完成（本機） | poly-expand-collect | medium
+狀態：完成（正式發布已核對） | poly-expand-collect | medium
 
 ### 題目
 
@@ -436,7 +436,7 @@ Mr Pang teaches \((x+2)\) classes, with \((2x+7)\) students in each class. He bu
 
 ## Q19 · p4 · import-polynomial-139ccbc0299dd139
 
-狀態：完成（本機） | poly-collect-terms | medium
+狀態：完成（正式發布已核對） | poly-collect-terms | medium
 
 ### 題目
 

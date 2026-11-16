@@ -1,6 +1,6 @@
 {
   "id": "POLY-APPLIED-20261116",
-  "status": "待驗收",
+  "status": "完成",
   "sourceId": "source-211b9446f11be59a",
   "sourcePath": "S1/polynomials/polynomial review.pdf",
   "sourceSha256": "fedf38ca00ae013b328dd18044369b4a7d19b132da9cbd36d857fe2e59c89c44",
@@ -17,7 +17,7 @@
       "id": "import-polynomial-125cc242e2221a2f",
       "skill": "poly-index-laws",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -28,7 +28,7 @@
       "id": "import-polynomial-eb0ef20646974e0e",
       "skill": "poly-index-laws",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -39,7 +39,7 @@
       "id": "import-polynomial-872bb9e36381aaec",
       "skill": "poly-index-laws",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -50,7 +50,7 @@
       "id": "import-polynomial-e7a50cf172223117",
       "skill": "poly-collect-terms",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -61,7 +61,7 @@
       "id": "import-polynomial-d21ad70f1c934fb2",
       "skill": "poly-expand-collect",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -72,7 +72,7 @@
       "id": "import-polynomial-bac5467e17ec59c0",
       "skill": "poly-read-structure",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -83,7 +83,7 @@
       "id": "import-polynomial-58d76f11c3c1d16d",
       "skill": "poly-read-structure",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -94,7 +94,7 @@
       "id": "import-polynomial-6a5496cb3705d613",
       "skill": "poly-evaluate-expanded",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -105,7 +105,7 @@
       "id": "import-polynomial-3f50457292ce1d78",
       "skill": "poly-collect-terms",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -116,7 +116,7 @@
       "id": "import-polynomial-f5c734ee2dc80d72",
       "skill": "poly-collect-terms",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -127,7 +127,7 @@
       "id": "import-polynomial-263782095fc574f7",
       "skill": "poly-index-laws",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -138,7 +138,7 @@
       "id": "import-polynomial-a85e6bbe7790e2b3",
       "skill": "poly-index-laws",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -149,7 +149,7 @@
       "id": "import-polynomial-c3a4e6bcc1eb6d7c",
       "skill": "poly-index-laws",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -160,7 +160,7 @@
       "id": "import-polynomial-ef7c03b4bf6aa8ef",
       "skill": "poly-expand-collect",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -171,7 +171,7 @@
       "id": "import-polynomial-c1e8635abda7eba5",
       "skill": "poly-power-order",
       "difficulty": "medium",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -182,7 +182,7 @@
       "id": "import-polynomial-9d13d10779e8561e",
       "skill": "poly-expanded-structure",
       "difficulty": "medium",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -193,7 +193,7 @@
       "id": "import-polynomial-9e763a4652e7c4d2",
       "skill": "poly-evaluate-expanded",
       "difficulty": "easy",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -204,7 +204,7 @@
       "id": "import-polynomial-05ff1a3af814eb3f",
       "skill": "poly-expand-collect",
       "difficulty": "medium",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     },
     {
@@ -215,8 +215,9 @@
       "id": "import-polynomial-139ccbc0299dd139",
       "skill": "poly-collect-terms",
       "difficulty": "medium",
-      "status": "完成（本機）",
+      "status": "完成",
       "disposition": "publish"
     }
-  ]
+  ],
+  "release": "release/release.json"
 }
