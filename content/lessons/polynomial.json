@@ -208,6 +208,36 @@
         "poly-quotient-sign"
       ],
       "exampleIds": []
+    },
+    {
+      "id": "hcf-lcm",
+      "title": {
+        "en": "HCF and LCM: compare factor powers",
+        "zh-Hant": "最大公因式與最小公倍式：比較因式次冪"
+      },
+      "intro": {
+        "en": "Factor every expression completely, including its numerical coefficient. The HCF takes shared factors with their smallest powers; the LCM takes every factor with its largest power. For unknown polynomials, enumerate the possible common factors and use the remaining conditions to test each case.",
+        "zh-Hant": "把每個多項式完全分解，數字係數也須處理。最大公因式取共有因式的最低次冪；最小公倍式取所有因式的最高次冪。遇到未知多項式，列出所有可能公因式，再用其餘條件逐個檢查。"
+      },
+      "formulas": [
+        "\\(\\operatorname{HCF}(A,B)\\operatorname{LCM}(A,B)=AB\\quad\\text{(consistent sign convention)}\\)"
+      ],
+      "trigger": {
+        "en": "Start with a factor-power list. If a cubic shares exactly two roots with a known cubic, test every root pair, not just the pair giving integer coefficients.",
+        "zh-Hant": "先列出各因式及次冪。若三次式與已知三次式恰有兩個共同根，須檢查每一組根，不能只選係數為整數的一組。"
+      },
+      "trap": {
+        "en": "Recheck that the common factor has exactly the stated degree. In pl071 the coefficients are real, so all three root pairs are admissible; the source brief answer omitted two cases.",
+        "zh-Hant": "最後核對公因式次數恰好符合題意。pl071 的係數是實數，三組根均可行；來源簡答遺漏了其中兩組。"
+      },
+      "skills": [
+        "poly-hcf-lcm-factors",
+        "poly-hcf-lcm-recover"
+      ],
+      "exampleIds": [
+        "import-polynomial-8335db02511e908d",
+        "import-polynomial-pl071"
+      ]
     }
   ]
 }

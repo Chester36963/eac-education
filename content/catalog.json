@@ -436,6 +436,17 @@
                 "poly-expanded-structure",
                 "poly-index-laws"
               ]
+            },
+            {
+              "id": "hcf-lcm",
+              "name": {
+                "en": "Polynomial HCF and LCM",
+                "zh-Hant": "多項式最大公因式與最小公倍式"
+              },
+              "skills": [
+                "poly-hcf-lcm-factors",
+                "poly-hcf-lcm-recover"
+              ]
             }
           ],
           "topicId": "polynomial"

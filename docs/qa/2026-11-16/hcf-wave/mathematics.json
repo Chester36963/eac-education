@@ -1,0 +1,368 @@
+{
+  "sourcesPersonallyReviewed": {
+    "source-a11ea3a915f0b682": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source-b34f32147917d1a2": [
+      1,
+      2
+    ]
+  },
+  "checks": [
+    {
+      "key": "S4-Q1",
+      "input": "(x - 6)*(x - 3)*(x - 1)",
+      "result": "x**3 - 10*x**2 + 27*x - 18",
+      "verified": true
+    },
+    {
+      "key": "S4-Q2",
+      "input": "0",
+      "result": "0",
+      "verified": true
+    },
+    {
+      "key": "S4-Q3",
+      "proof": "g(k/3)=f(k)=0; source options differ from canonicalp073, so do not merge options blindly.",
+      "verified": true
+    },
+    {
+      "key": "S4-Q4",
+      "expressions": [
+        "x**2 - 6",
+        "(x - 3)*(x + 2)",
+        "(x - 3)*(x**2 - 12*x + 36)"
+      ],
+      "hcf": "1",
+      "lcm": "(x - 6)**2*(x - 3)*(x + 2)*(x**2 - 6)",
+      "verified": true
+    },
+    {
+      "key": "S4-Q5",
+      "input": "2*a - 2*b + 1",
+      "result": "2*a - 2*b + 1",
+      "verified": true
+    },
+    {
+      "key": "S4-Q6",
+      "input": "-a*x**2 + a*(x + 1)**2 - b*x + b*(x + 1)",
+      "result": "a*(2*x + 1) + b",
+      "verified": true
+    },
+    {
+      "key": "S4-Q7-A",
+      "hcf": "6*x*z",
+      "lcm": "108*x**3*y**2*z**2",
+      "satisfiesBoth": true
+    },
+    {
+      "key": "S4-Q7-B",
+      "hcf": "6*x*y*z",
+      "lcm": "216*x**3*y**2*z**2",
+      "satisfiesBoth": false
+    },
+    {
+      "key": "S4-Q7-C",
+      "hcf": "18*x**2*y*z",
+      "lcm": "108*x**3*y**2*z**2",
+      "satisfiesBoth": false
+    },
+    {
+      "key": "S4-Q7-D",
+      "hcf": "18*x*y*z",
+      "lcm": "54*x**3*y**2*z**2",
+      "satisfiesBoth": false
+    },
+    {
+      "key": "S4-Q8",
+      "expressions": [
+        "2*x**3 - x**2 - 2*x + 1",
+        "4*x**3 - 2*x**2 - 2*x"
+      ],
+      "hcf": "x - 1",
+      "lcm": "2*x*(x - 1)*(x + 1)*(2*x - 1)*(2*x + 1)",
+      "verified": true
+    },
+    {
+      "key": "S4-Q9",
+      "input": "4/3",
+      "result": "4/3",
+      "verified": true
+    },
+    {
+      "key": "S4-Q10",
+      "proof": "Both divisors have root2/5; evaluatef(2/5)-3=R-3.",
+      "verified": true
+    },
+    {
+      "key": "S4-Q11",
+      "remainder": "-x+5",
+      "degree": 1,
+      "values": [
+        3,
+        8
+      ]
+    },
+    {
+      "key": "S4-Q12",
+      "remainder": "3x²-x+1",
+      "degree": 2,
+      "values": [
+        1,
+        5,
+        3
+      ]
+    },
+    {
+      "key": "S4-Q13",
+      "exhaustiveCases": [
+        {
+          "commonRoots": [
+            -1,
+            2
+          ],
+          "thirdRoot": "15/2",
+          "a": "-17/2",
+          "b": "11/2",
+          "hcf": "(x - 2)*(x + 1)",
+          "remainder": "-207"
+        },
+        {
+          "commonRoots": [
+            -1,
+            3
+          ],
+          "thirdRoot": "5",
+          "a": "-7",
+          "b": "7",
+          "hcf": "(x - 3)*(x + 1)",
+          "remainder": "-189"
+        },
+        {
+          "commonRoots": [
+            2,
+            3
+          ],
+          "thirdRoot": "-5/2",
+          "a": "-5/2",
+          "b": "-13/2",
+          "hcf": "(x - 3)*(x - 2)",
+          "remainder": "-63"
+        }
+      ],
+      "sourceAnswerStatus": "incomplete: source lists only commonRoots[-1,3]; all3 pairs satisfy the stated real-coefficient condition"
+    },
+    {
+      "key": "S4-Q14-factor",
+      "input": "2*x**3 + 3*x**2 - 18*x + 8",
+      "result": "(x - 2)*(x + 4)*(2*x - 1)",
+      "verified": true
+    },
+    {
+      "key": "S4-Q14-equation",
+      "input": "2*x**3 + 3*x**2 - 7*x - 14",
+      "result": "(x - 2)*(2*x**2 + 7*x + 7)",
+      "verified": true
+    },
+    {
+      "key": "S4-Q15",
+      "input": "x**3 - 6*x**2 + 15*x - 14",
+      "result": "(x - 2)*(x**2 - 4*x + 7)",
+      "verified": true
+    },
+    {
+      "key": "S4-Q16",
+      "input": "x**2*(x + 4) - 9",
+      "result": "(x + 3)*(x**2 + x - 3)",
+      "verified": true
+    },
+    {
+      "key": "S4-Q17-remainder",
+      "input": "5*x - 5",
+      "result": "5*x - 5",
+      "verified": true
+    },
+    {
+      "key": "S4-Q18-remainder",
+      "input": "4*x + 4",
+      "result": "4*x + 4",
+      "verified": true
+    },
+    {
+      "key": "S4-Q19",
+      "quotient": "-4x+12",
+      "quadraticDiscriminant": 12,
+      "rationalRoots": [
+        3
+      ]
+    },
+    {
+      "key": "S4-Q20-remainder",
+      "input": "21*x - 42",
+      "result": "21*x - 42",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q1",
+      "expressions": [
+        "10*a**2*b*c**2",
+        "12*a**3*b**3"
+      ],
+      "hcf": "2*a**2*b",
+      "lcm": "60*a**3*b**3*c**2",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q2",
+      "expressions": [
+        "2*x*y**3*z",
+        "4*x**4*y*z**2",
+        "6*x**2*y**2*z**3"
+      ],
+      "hcf": "2*x*y*z",
+      "lcm": "12*x**4*y**3*z**3",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q3",
+      "expressions": [
+        "9*r*(r - t)**2*(r + 2*t)",
+        "12*t**2*(r - t)*(r + 2*t)**3"
+      ],
+      "hcf": "3*(r - t)*(r + 2*t)",
+      "lcm": "36*r*t**2*(r - t)**2*(r + 2*t)**3",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q4",
+      "expressions": [
+        "7*(h + 1)**2*(h + k)",
+        "4*(h + 1)**3*(h + k)**2",
+        "28*(h + 1)**2*(h + k)**4"
+      ],
+      "hcf": "(h + 1)**2*(h + k)",
+      "lcm": "28*(h + 1)**3*(h + k)**4",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q5",
+      "expressions": [
+        "5*x**2 + 20*x",
+        "x**2 + 8*x + 16"
+      ],
+      "hcf": "x + 4",
+      "lcm": "5*x*(x + 4)**2",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q6",
+      "expressions": [
+        "3*v**2 - 9*v*z - 12*z**2",
+        "8*v**2 - 36*v*z + 16*z**2"
+      ],
+      "hcf": "-v + 4*z",
+      "lcm": "-12*(-2*v + z)*(-v + 4*z)*(v + z)",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q7",
+      "expressions": [
+        "8*a**3 + 1",
+        "2*a*b + 2*a*c + b + c"
+      ],
+      "hcf": "2*a + 1",
+      "lcm": "(2*a + 1)*(b + c)*(4*a**2 - 2*a + 1)",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q8",
+      "expressions": [
+        "8*p**2 - 12*p*q - 8*q**2",
+        "p**3 - p**2*q - 2*p*q**2",
+        "4*p**2*q + 6*p*q**2 + 2*q**3"
+      ],
+      "hcf": "1",
+      "lcm": "4*p*q*(p - 2*q)*(p + q)*(2*p + q)",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q9",
+      "expressions": [
+        "4*(2*x - 1)**2*(2*x + 1)**3",
+        "6*(2*x - 1)**2*(2*x + 3)",
+        "9*(2*x - 1)**3*(2*x + 1)**4*(2*x + 3)**2"
+      ],
+      "hcf": "(2*x - 1)**2",
+      "lcm": "36*(2*x - 1)**3*(2*x + 1)**4*(2*x + 3)**2",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q10",
+      "expressions": [
+        "(2*x + 1)*(3*x - 2)",
+        "(x + 1)*(3*x - 2)"
+      ],
+      "hcf": "3*x - 2",
+      "lcm": "(x + 1)*(2*x + 1)*(3*x - 2)",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q11",
+      "expressions": [
+        "4*x**3 - 24*x**2 + 17*x + 15",
+        "6*x**3 - 35*x**2 + 19*x + 30"
+      ],
+      "hcf": "(x - 5)*(2*x - 3)",
+      "lcm": "(x - 5)*(2*x - 3)*(2*x + 1)*(3*x + 2)",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q12",
+      "expressions": [
+        "12*x**3 + 49*x**2 + 3*x - 4",
+        "24*x**3 - 34*x**2 - 5*x + 3"
+      ],
+      "hcf": "(3*x + 1)*(4*x - 1)",
+      "lcm": "(x + 4)*(2*x - 3)*(3*x + 1)*(4*x - 1)",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q11-f",
+      "input": "4*x**3 - 24*x**2 + 17*x + 15",
+      "result": "(x - 5)*(2*x - 3)*(2*x + 1)",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q11-g",
+      "input": "6*x**3 - 35*x**2 + 19*x + 30",
+      "result": "(x - 5)*(2*x - 3)*(3*x + 2)",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q12-f",
+      "input": "12*x**3 + 49*x**2 + 3*x - 4",
+      "result": "(x + 4)*(3*x + 1)*(4*x - 1)",
+      "verified": true
+    },
+    {
+      "key": "HCF-Q12-g",
+      "input": "24*x**3 - 34*x**2 - 5*x + 3",
+      "result": "(2*x - 3)*(3*x + 1)*(4*x - 1)",
+      "verified": true
+    }
+  ],
+  "sourceAnswerCorrections": [
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "number": "13",
+      "canonicalId": "import-polynomial-pl071",
+      "reason": "All3 admissible real coefficient cases; do not assume integer coefficients."
+    }
+  ],
+  "diagrams": 0
+}

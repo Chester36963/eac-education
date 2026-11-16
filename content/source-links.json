@@ -456,6 +456,177 @@
           5
         ]
       }
+    },
+    {
+      "batchId": "intake-a11ea3a915f0b682",
+      "canonicalId": "import-polynomial-p058",
+      "duplicateQuestionId": "import-polynomial-57ba16fdb03da69e",
+      "targetQuestionSha256": "0a3f3358c493ba18751040ec1a69e85665e07a2705290a9901c084ae2e2f1a04",
+      "sourceQuestionSha256": "2a6f5c05d5d6a453bace668a8d47a9b607c27b0c1e7f6d103aab2a1daddce751",
+      "evidence": "Primary Codex compared source-a11ea3a915f0b682 p3 Q10 against import-polynomial-p058: the complete polynomial, all divisor/value/root constraints, every requested subpart and, for Q10, all A–D choices agree. Re-derived solution checked independently in hcf-wave/mathematics.json. Preserve existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-a11ea3a915f0b682",
+        "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+        "file": "S4/more about polynomials/S4 polynomials review.pdf",
+        "number": "10",
+        "page": 3,
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "batchId": "intake-a11ea3a915f0b682",
+      "canonicalId": "import-polynomial-pl071",
+      "duplicateQuestionId": "import-polynomial-55370608dc1d3f59",
+      "targetQuestionSha256": "c0c1bbe641c6878b8afe7044f2c070cbb42f9d9bc3528b7c528797f132b9aee3",
+      "sourceQuestionSha256": "8ff2e75d90bbfeea9bb1621a981899451e1fc1b5a4fb056ff8631ed921c0c427",
+      "evidence": "Primary Codex compared source-a11ea3a915f0b682 p4 Q13 against import-polynomial-pl071: the complete polynomial, all divisor/value/root constraints, every requested subpart and, for Q10, all A–D choices agree. Re-derived solution checked independently in hcf-wave/mathematics.json. Preserve existing student ID. Existing incomplete solution is explicitly corrected to all3 admissible real-coefficient cases before linking.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-a11ea3a915f0b682",
+        "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+        "file": "S4/more about polynomials/S4 polynomials review.pdf",
+        "number": "13",
+        "page": 4,
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "batchId": "intake-a11ea3a915f0b682",
+      "canonicalId": "import-polynomial-pl012",
+      "duplicateQuestionId": "import-polynomial-efeefab86a2b4516",
+      "targetQuestionSha256": "987ddea1c18307bee8e64797e4d7b6fcc3463a60fec38f56b430adf38896b35b",
+      "sourceQuestionSha256": "7f01984b805b1ae3bc098104ce35a106f212cb58c2aa1828cacc1b3e76dbf6be",
+      "evidence": "Primary Codex compared source-a11ea3a915f0b682 p4 Q14 against import-polynomial-pl012: the complete polynomial, all divisor/value/root constraints, every requested subpart and, for Q10, all A–D choices agree. Re-derived solution checked independently in hcf-wave/mathematics.json. Preserve existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-a11ea3a915f0b682",
+        "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+        "file": "S4/more about polynomials/S4 polynomials review.pdf",
+        "number": "14",
+        "page": 4,
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "batchId": "intake-a11ea3a915f0b682",
+      "canonicalId": "import-polynomial-pl007",
+      "duplicateQuestionId": "import-polynomial-49c1e281b44e1ce8",
+      "targetQuestionSha256": "c1c0936438de4115b2f3d8d77a0c4db327b618eff8e5ac12cde9c223e18517dd",
+      "sourceQuestionSha256": "be90a1506a48cc4106d22276bf29fc6025cf193cf14d470e1cab38da6c3d943d",
+      "evidence": "Primary Codex compared source-a11ea3a915f0b682 p4 Q15 against import-polynomial-pl007: the complete polynomial, all divisor/value/root constraints, every requested subpart and, for Q10, all A–D choices agree. Re-derived solution checked independently in hcf-wave/mathematics.json. Preserve existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-a11ea3a915f0b682",
+        "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+        "file": "S4/more about polynomials/S4 polynomials review.pdf",
+        "number": "15",
+        "page": 4,
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "batchId": "intake-a11ea3a915f0b682",
+      "canonicalId": "import-polynomial-pl074",
+      "duplicateQuestionId": "import-polynomial-c58e675f37f18d91",
+      "targetQuestionSha256": "1e8a3c73423adf1270c17d6cc34e51acf193a5ccdc7a59d67ad920e8c5d4a5f9",
+      "sourceQuestionSha256": "71e2fd89e2631b540aae2c26a455c2cef0e9a10a8cb2ae1343c1917c402d0ee2",
+      "evidence": "Primary Codex compared source-a11ea3a915f0b682 p4 Q16 against import-polynomial-pl074: the complete polynomial, all divisor/value/root constraints, every requested subpart and, for Q10, all A–D choices agree. Re-derived solution checked independently in hcf-wave/mathematics.json. Preserve existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-a11ea3a915f0b682",
+        "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+        "file": "S4/more about polynomials/S4 polynomials review.pdf",
+        "number": "16",
+        "page": 4,
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "batchId": "intake-a11ea3a915f0b682",
+      "canonicalId": "import-polynomial-pl050",
+      "duplicateQuestionId": "import-polynomial-5251bd2f2438142b",
+      "targetQuestionSha256": "633651228bb4f42e4e07f18d4b7fcca63eacb03bcf3fe6b6618981b8420bb6cd",
+      "sourceQuestionSha256": "ad9fab7867c795471999a94c974910a2586bb8fc43d66521dbfdf1364d9148b6",
+      "evidence": "Primary Codex compared source-a11ea3a915f0b682 p5 Q17 against import-polynomial-pl050: the complete polynomial, all divisor/value/root constraints, every requested subpart and, for Q10, all A–D choices agree. Re-derived solution checked independently in hcf-wave/mathematics.json. Preserve existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-a11ea3a915f0b682",
+        "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+        "file": "S4/more about polynomials/S4 polynomials review.pdf",
+        "number": "17",
+        "page": 5,
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "batchId": "intake-a11ea3a915f0b682",
+      "canonicalId": "import-polynomial-pl051",
+      "duplicateQuestionId": "import-polynomial-e81bac7f8df5e387",
+      "targetQuestionSha256": "7cb207187cde4aca40a23de61630fa5fa043ea4d6af1f0f95c584049d5af4138",
+      "sourceQuestionSha256": "76ad05d6eae5ee323312bd5c797b8fa2b0dad9fd1a3727d5d7af279f47129e84",
+      "evidence": "Primary Codex compared source-a11ea3a915f0b682 p5 Q18 against import-polynomial-pl051: the complete polynomial, all divisor/value/root constraints, every requested subpart and, for Q10, all A–D choices agree. Re-derived solution checked independently in hcf-wave/mathematics.json. Preserve existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-a11ea3a915f0b682",
+        "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+        "file": "S4/more about polynomials/S4 polynomials review.pdf",
+        "number": "18",
+        "page": 5,
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "batchId": "intake-a11ea3a915f0b682",
+      "canonicalId": "import-polynomial-pl024",
+      "duplicateQuestionId": "import-polynomial-11fb2091661affa8",
+      "targetQuestionSha256": "f51be0b725ee08abddb812ffde9ab64155d615f55c8873cf636cd32c9a03395b",
+      "sourceQuestionSha256": "f01713487217fa1cbbcffac794b622130dd1ccaec874557e784070d7bc3d0d00",
+      "evidence": "Primary Codex compared source-a11ea3a915f0b682 p5 Q19 against import-polynomial-pl024: the complete polynomial, all divisor/value/root constraints, every requested subpart and, for Q10, all A–D choices agree. Re-derived solution checked independently in hcf-wave/mathematics.json. Preserve existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-a11ea3a915f0b682",
+        "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+        "file": "S4/more about polynomials/S4 polynomials review.pdf",
+        "number": "19",
+        "page": 5,
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "batchId": "intake-a11ea3a915f0b682",
+      "canonicalId": "import-polynomial-pl052",
+      "duplicateQuestionId": "import-polynomial-17ec3dd0151d4ad6",
+      "targetQuestionSha256": "e675dd42158ab42e2150f02e6aae26252dbadc4c70b1aa674c5767bc06bdcb4f",
+      "sourceQuestionSha256": "1099462b08f8ebc4505316cc88b504ac5d2c63d67aab66a408b76b2bc8423b0e",
+      "evidence": "Primary Codex compared source-a11ea3a915f0b682 p5 Q20 against import-polynomial-pl052: the complete polynomial, all divisor/value/root constraints, every requested subpart and, for Q10, all A–D choices agree. Re-derived solution checked independently in hcf-wave/mathematics.json. Preserve existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-a11ea3a915f0b682",
+        "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+        "file": "S4/more about polynomials/S4 polynomials review.pdf",
+        "number": "20",
+        "page": 5,
+        "pages": [
+          5
+        ]
+      }
     }
   ]
 }

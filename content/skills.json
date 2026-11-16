@@ -126,5 +126,7 @@
   "poly-evaluate-expanded": "Simplify then substitute values / 化簡後代入求值",
   "poly-expanded-structure": "Expand then read coefficients and degree / 展開後判讀係數及次數",
   "poly-index-laws": "Combine powers with index laws / 指數律運算",
-  "poly-power-order": "Arrange ascending and descending powers / 升冪及降冪排列"
+  "poly-power-order": "Arrange ascending and descending powers / 升冪及降冪排列",
+  "poly-hcf-lcm-factors": "Factor completely and compare minimum/maximum powers / 完全分解及比較最低最高次冪",
+  "poly-hcf-lcm-recover": "Recover expressions from HCF/LCM constraints / 由最大公因式及最小公倍式還原多項式"
 }

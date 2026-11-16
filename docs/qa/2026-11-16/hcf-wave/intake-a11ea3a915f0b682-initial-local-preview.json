@@ -1,0 +1,1474 @@
+{
+  "errors": [],
+  "pending": [],
+  "ready": true,
+  "counts": {
+    "source": 20,
+    "recorded": 20,
+    "publish": 11,
+    "duplicate": 9,
+    "held": 0
+  },
+  "diff": {
+    "added": [
+      "import-polynomial-0c0e9ec5983ca55e",
+      "import-polynomial-6ddaf769c33db9f4",
+      "import-polynomial-4e692ede7cd3b2c6",
+      "import-polynomial-7a379671fa201389",
+      "import-polynomial-385e5728a93939e6"
+    ],
+    "updated": [
+      "import-polynomial-09275c0edfd81f14",
+      "import-polynomial-054f9c6861f38928",
+      "import-polynomial-13b1a4fdf43e3a50",
+      "import-polynomial-51cc94213ae3ba63",
+      "import-polynomial-f5b54db82cf1f5e7",
+      "import-polynomial-e60f443b345c79e8"
+    ],
+    "unchanged": [],
+    "chapters": [],
+    "taxonomyChanged": true
+  },
+  "changes": [
+    {
+      "id": "import-polynomial-0c0e9ec5983ca55e",
+      "locator": "1",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 4
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "theorems"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-multiple-conditions"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "It is given that \\(f(x)\\) is a polynomial function of degree 3 such that \\(f(2)=4\\) and \\(f(3)=f(6)=0\\). Which statements may be true?\nI. \\(x-3\\) is a factor of \\(f(x)\\).\nII. When \\(f(x)\\) is divided by \\(x-2\\), the remainder is 4.\nIII. \\[\\begin{gathered}f(x) \\\\ =(x-1)(x-3)(x-6)\\end{gathered}\\]."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "已知三次多項式函數 \\(f(x)\\) 滿足 \\(f(2)=4\\) 及 \\(f(3)=f(6)=0\\)。下列哪些敘述可能正確？\nI. \\(x-3\\) 是 \\(f(x)\\) 的因式。\nII. \\(f(x)\\) 被 \\(x-2\\) 除的餘式為 4。\nIII. \\[\\begin{gathered}f(x) \\\\ =(x-1)(x-3)(x-6)\\end{gathered}\\]。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "I follows from the factor theorem and II from the remainder theorem. The cubic in III has zeros 3 and 6 and takes the value \\((2-1)(2-3)(2-6)=4\\) at 2. All three may be true."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "I 由因式定理成立，II 由餘式定理成立。III 的三次式在 3、6 為零，且在 2 的值為 \\((2-1)(2-3)(2-6)=4\\)。三項均可能正確。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q1"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第1題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "1",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q1"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "I and II only",
+            "B": "I and III only",
+            "C": "II and III only",
+            "D": "I, II and III"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "只有 I 及 II",
+            "B": "只有 I 及 III",
+            "C": "只有 II 及 III",
+            "D": "I、II 及 III"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "D"
+        },
+        {
+          "field": "contentBlocks",
+          "before": null,
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "It is given that \\(f(x)\\) is a polynomial function of degree 3 such that \\(f(2)=4\\) and \\(f(3)=f(6)=0\\). Which statements may be true?"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. \\(x-3\\) is a factor of \\(f(x)\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "II. When \\(f(x)\\) is divided by \\(x-2\\), the remainder is 4."
+              },
+              {
+                "type": "paragraph",
+                "text": "III. \\[\\begin{gathered}f(x) \\\\ =(x-1)(x-3)(x-6)\\end{gathered}\\]."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "已知三次多項式函數 \\(f(x)\\) 滿足 \\(f(2)=4\\) 及 \\(f(3)=f(6)=0\\)。下列哪些敘述可能正確？"
+              },
+              {
+                "type": "paragraph",
+                "text": "I. \\(x-3\\) 是 \\(f(x)\\) 的因式。"
+              },
+              {
+                "type": "paragraph",
+                "text": "II. \\(f(x)\\) 被 \\(x-2\\) 除的餘式為 4。"
+              },
+              {
+                "type": "paragraph",
+                "text": "III. \\[\\begin{gathered}f(x) \\\\ =(x-1)(x-3)(x-6)\\end{gathered}\\]。"
+              }
+            ]
+          }
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-0c0e9ec5983ca55e"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-6ddaf769c33db9f4",
+      "locator": "2",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "easy"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 4
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "theorems"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-factor-parameters"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Let \\[\\begin{gathered}f(x) =x^{2015} -6x \\\\ +10k\\end{gathered}\\]. If \\(f(x)\\) is divisible by \\(x+1\\), find \\(k\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "設 \\[\\begin{gathered}f(x) =x^{2015} -6x \\\\ +10k\\end{gathered}\\]。若 \\(f(x)\\) 可被 \\(x+1\\) 整除，求 \\(k\\)。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Use \\(f(-1)=0\\). Since 2015 is odd, \\(-1+6+10k=0\\), so \\(k=-\\frac12\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "由 \\(f(-1)=0\\)，且 2015 為奇數，得 \\(-1+6+10k=0\\)，故 \\(k=-\\frac12\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q2"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第2題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "2",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q2"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(-\\frac7{10}\\)",
+            "B": "\\(-\\frac12\\)",
+            "C": "\\(\\frac12\\)",
+            "D": "2"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(-\\frac7{10}\\)",
+            "B": "\\(-\\frac12\\)",
+            "C": "\\(\\frac12\\)",
+            "D": "2"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-6ddaf769c33db9f4"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-09275c0edfd81f14",
+      "locator": "3",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "difficulty",
+          "before": "medium",
+          "after": "easy"
+        },
+        {
+          "field": "stem",
+          "before": "When a polynomial \\(f(x)\\) is divided by \\(2x+1\\), the remainder is \\(R\\). Find the remainder when \\(f(2x+1)\\) is divided by \\(4x+3\\).",
+          "after": "If a polynomial \\(f(x)\\) is divisible by \\(x-k\\), then \\(f(3x)\\) is divisible by which expression?"
+        },
+        {
+          "field": "stemZh",
+          "before": "多項式 \\(f(x)\\) 除以 \\(2x+1\\) 的餘式為 \\(R\\)。求 \\(f(2x+1)\\) 除以 \\(4x+3\\) 的餘式。",
+          "after": "若多項式 \\(f(x)\\) 可被 \\(x-k\\) 整除，則 \\(f(3x)\\) 可被下列哪式整除？"
+        },
+        {
+          "field": "solution",
+          "before": "The given remainder is \\(f(-\\frac12)=R\\). The new divisor vanishes at \\(x=-\\frac34\\), where \\(2x+1=-\\frac12\\). Thus the new remainder is \\(R\\).",
+          "after": "Let \\(g(x)=f(3x)\\). As \\(f(k)=0\\), \\(g(k/3)=0\\). By the factor theorem, \\(x-\\frac{k}{3}\\) is a factor."
+        },
+        {
+          "field": "solutionZh",
+          "before": "已知 \\(f(-\\frac12)=R\\)。新除式的零點為 \\(x=-\\frac34\\)，此時 \\(2x+1=-\\frac12\\)，所以新餘式仍為 \\(R\\)。",
+          "after": "設 \\(g(x)=f(3x)\\)。由 \\(f(k)=0\\)，得 \\(g(k/3)=0\\)，故 \\(x-\\frac{k}{3}\\) 是因式。"
+        },
+        {
+          "field": "source",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · Q3",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q3"
+        },
+        {
+          "field": "sourceZh",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · 第3題",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第3題"
+        },
+        {
+          "field": "provenance",
+          "before": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-471162e6f688f1b3",
+            "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+            "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+            "number": "3",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "3",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Follow a linear input substitution through two different divisor roots.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q3"
+          },
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q3"
+          }
+        },
+        {
+          "field": "options",
+          "before": {
+            "A": "\\(R\\)",
+            "B": "\\(\\frac23R\\)",
+            "C": "\\(4R\\)",
+            "D": "\\(4R+3\\)"
+          },
+          "after": {
+            "A": "\\(x-k\\)",
+            "B": "\\(x+k\\)",
+            "C": "\\(x-3k\\)",
+            "D": "\\[\\begin{gathered}x \\\\ -\\frac{k}{3}\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": {
+            "A": "\\(R\\)",
+            "B": "\\(\\frac23R\\)",
+            "C": "\\(4R\\)",
+            "D": "\\(4R+3\\)"
+          },
+          "after": {
+            "A": "\\(x-k\\)",
+            "B": "\\(x+k\\)",
+            "C": "\\(x-3k\\)",
+            "D": "\\[\\begin{gathered}x \\\\ -\\frac{k}{3}\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "answer",
+          "before": "A",
+          "after": "D"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-054f9c6861f38928",
+      "locator": "4",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "subcategory",
+          "before": "transformed-polynomials",
+          "after": "hcf-lcm"
+        },
+        {
+          "field": "skill",
+          "before": "poly-substitution",
+          "after": "poly-hcf-lcm-factors"
+        },
+        {
+          "field": "stem",
+          "before": "Let \\(f(x)\\) be a polynomial with \\(f(2)=-6\\). Which expression must have the factor \\(2x+1\\)?",
+          "after": "Find the L.C.M. of \\(x^2-6\\), \\((x-3)(x+2)\\) and \\((x^2-12x+36)(x-3)\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": "設 \\(f(x)\\) 為多項式，且 \\(f(2)=-6\\)。下列哪個式子必定有因式 \\(2x+1\\)？",
+          "after": "求 \\(x^2-6\\)、\\((x-3)(x+2)\\) 及 \\((x^2-12x+36)(x-3)\\) 的最小公倍式。"
+        },
+        {
+          "field": "solution",
+          "before": "Set \\(x=-\\frac12\\). Then \\(2x+3=2\\), so \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\] By the factor theorem, option D has the factor \\(2x+1\\). The other choices need information about \\(f(0)\\) or give \\(-12\\).",
+          "after": "Factor the last expression as \\((x-6)^2(x-3)\\). Include each distinct factor at its greatest power. None of \\(x-3,x+2,x-6\\) divides \\(x^2-6\\), so the L.C.M. is \\[\\begin{gathered}(x-3) \\cdot(x+2) \\\\ \\cdot(x^2-6) \\\\ \\cdot(x-6)^2\\end{gathered}\\]."
+        },
+        {
+          "field": "solutionZh",
+          "before": "代入 \\(x=-\\frac12\\)，得 \\(2x+3=2\\)，所以 \\[\\begin{gathered}f(2x+3) +6 =f(2) +6 \\\\ =0\\end{gathered}\\]由因式定理，D 必有因式 \\(2x+1\\)。其他選項須知道 \\(f(0)\\) 或得到 \\(-12\\)。",
+          "after": "最後一式為 \\((x-6)^2(x-3)\\)。各相異因式取最高次冪；\\(x-3,x+2,x-6\\) 均不是 \\(x^2-6\\) 的因式，故最小公倍式為 \\[\\begin{gathered}(x-3) \\cdot(x+2) \\\\ \\cdot(x^2-6) \\\\ \\cdot(x-6)^2\\end{gathered}\\]。"
+        },
+        {
+          "field": "source",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · Q4",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q4"
+        },
+        {
+          "field": "sourceZh",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · 第4題",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第4題"
+        },
+        {
+          "field": "provenance",
+          "before": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-471162e6f688f1b3",
+            "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+            "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+            "number": "4",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "4",
+            "page": 1,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Choose a shifted polynomial that vanishes at the specified divisor root.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q4"
+          },
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Expand and collect the full expression before checking the requested structure.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q4"
+          }
+        },
+        {
+          "field": "options",
+          "before": {
+            "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+          },
+          "after": {
+            "A": "\\(x-3\\)",
+            "B": "\\[\\begin{gathered}(x-3) \\\\ \\cdot(x+2) \\\\ \\cdot(x-6)^2\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}(x-3) \\\\ \\cdot(x+2) \\\\ \\cdot(x^2-6)\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}(x-3) \\\\ \\cdot(x+2) \\\\ \\cdot(x^2-6) \\\\ \\cdot(x-6)^2\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": {
+            "A": "\\[\\begin{gathered}f(2x+1) \\\\ -6\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}f(2x+1) \\\\ +6\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}f(2x+3) \\\\ -6\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}f(2x+3) \\\\ +6\\end{gathered}\\]"
+          },
+          "after": {
+            "A": "\\(x-3\\)",
+            "B": "\\[\\begin{gathered}(x-3) \\\\ \\cdot(x+2) \\\\ \\cdot(x-6)^2\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}(x-3) \\\\ \\cdot(x+2) \\\\ \\cdot(x^2-6)\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}(x-3) \\\\ \\cdot(x+2) \\\\ \\cdot(x^2-6) \\\\ \\cdot(x-6)^2\\end{gathered}\\]"
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-13b1a4fdf43e3a50",
+      "locator": "5",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "difficulty",
+          "before": "medium",
+          "after": "easy"
+        },
+        {
+          "field": "subcategory",
+          "before": "transformed-polynomials",
+          "after": "theorems"
+        },
+        {
+          "field": "skill",
+          "before": "poly-substitution",
+          "after": "poly-direct-remainder"
+        },
+        {
+          "field": "stem",
+          "before": "Let \\(f(x)=2x^2+3x-5\\) and \\(g(x)=f(x^2+1)\\). Find the remainder when \\(g(x)\\) is divided by \\(x-3\\).",
+          "after": "Let \\[\\begin{gathered}f(x) =x^{2014} +ax \\\\ +b\\end{gathered}\\], where \\(a,b\\) are constants. The remainder when \\(f(x)\\) is divided by \\(x+1\\) is 3. Find \\(2a-2b+1\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": "設 \\(f(x)=2x^2+3x-5\\)、\\(g(x)=f(x^2+1)\\)。求 \\(g(x)\\) 除以 \\(x-3\\) 的餘式。",
+          "after": "設 \\[\\begin{gathered}f(x) =x^{2014} +ax \\\\ +b\\end{gathered}\\]，其中 \\(a,b\\) 為常數。\\(f(x)\\) 被 \\(x+1\\) 除的餘式為 3，求 \\(2a-2b+1\\)。"
+        },
+        {
+          "field": "solution",
+          "before": "The remainder is \\(g(3)=f(10)\\). Hence \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+          "after": "From \\(f(-1)=3\\), \\(1-a+b=3\\), so \\(a-b=-2\\). Thus \\[\\begin{gathered}2a -2b +1 =2(-2) +1 \\\\ = -3\\end{gathered}\\]."
+        },
+        {
+          "field": "solutionZh",
+          "before": "餘式為 \\(g(3)=f(10)\\)，所以 \\[\\begin{gathered}2(10)^2 +3(10) -5 \\\\ =225\\end{gathered}\\]",
+          "after": "由 \\(f(-1)=3\\)，得 \\(1-a+b=3\\)，故 \\(a-b=-2\\)。所以 \\[\\begin{gathered}2a -2b +1 =2(-2) +1 \\\\ = -3\\end{gathered}\\]。"
+        },
+        {
+          "field": "source",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · Q5",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q5"
+        },
+        {
+          "field": "sourceZh",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · 第5題",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第5題"
+        },
+        {
+          "field": "provenance",
+          "before": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-471162e6f688f1b3",
+            "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+            "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+            "number": "5",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "5",
+            "page": 2,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Evaluate the inner input first, then apply the remainder theorem.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q5"
+          },
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q5"
+          }
+        },
+        {
+          "field": "options",
+          "before": {
+            "A": "225",
+            "B": "22",
+            "C": "\\(-235\\)",
+            "D": "4"
+          },
+          "after": {
+            "A": "\\(-7\\)",
+            "B": "\\(-3\\)",
+            "C": "3",
+            "D": "5"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": {
+            "A": "225",
+            "B": "22",
+            "C": "\\(-235\\)",
+            "D": "4"
+          },
+          "after": {
+            "A": "\\(-7\\)",
+            "B": "\\(-3\\)",
+            "C": "3",
+            "D": "5"
+          }
+        },
+        {
+          "field": "answer",
+          "before": "A",
+          "after": "B"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-51cc94213ae3ba63",
+      "locator": "6",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "difficulty",
+          "before": "medium",
+          "after": "easy"
+        },
+        {
+          "field": "subcategory",
+          "before": "transformed-polynomials",
+          "after": "division-identities"
+        },
+        {
+          "field": "skill",
+          "before": "poly-substitution",
+          "after": "poly-division-identity"
+        },
+        {
+          "field": "stem",
+          "before": "Let \\(g(x)\\) be a polynomial divisible by \\(x+1\\). Then \\(g(4x-5)\\) must be divisible by which expression?",
+          "after": "Let \\(f(x)=ax^2+bx+c\\). If \\(f(x+1)-f(x)\\) is divisible by \\(2x+1\\), find \\(b\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": "設多項式 \\(g(x)\\) 可被 \\(x+1\\) 整除，則 \\(g(4x-5)\\) 必可被下列哪個式子整除？",
+          "after": "設 \\(f(x)=ax^2+bx+c\\)。若 \\(f(x+1)-f(x)\\) 可被 \\(2x+1\\) 整除，求 \\(b\\)。"
+        },
+        {
+          "field": "solution",
+          "before": "Since \\(g(-1)=0\\), solve \\(4x-5=-1\\) to get \\(x=1\\). Thus \\(x-1\\) is a factor.",
+          "after": "Expansion gives \\[\\begin{gathered}f(x+1) -f(x) \\\\ =a(2x+1) +b\\end{gathered}\\]. Its remainder on division by \\(2x+1\\) is \\(b\\), hence \\(b=0\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": "由 \\(g(-1)=0\\)，解 \\(4x-5=-1\\) 得 \\(x=1\\)，因此 \\(x-1\\) 為因式。",
+          "after": "展開得 \\[\\begin{gathered}f(x+1) -f(x) \\\\ =a(2x+1) +b\\end{gathered}\\]，故除以 \\(2x+1\\) 的餘式為 \\(b\\)。可整除表示 \\(b=0\\)。"
+        },
+        {
+          "field": "source",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · Q6",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q6"
+        },
+        {
+          "field": "sourceZh",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · 第6題",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第6題"
+        },
+        {
+          "field": "provenance",
+          "before": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-471162e6f688f1b3",
+            "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+            "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+            "number": "6",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15",
+            "relatedQuestionId": "import-polynomial-p074"
+          },
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "6",
+            "page": 2,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Solve the transformed input-root condition; the source has a different distractor set from p074.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q6"
+          },
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Read structure and test each stated condition.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q6"
+          }
+        },
+        {
+          "field": "options",
+          "before": {
+            "A": "\\(x-1\\)",
+            "B": "\\(x+1\\)",
+            "C": "\\(4x-1\\)",
+            "D": "\\(4x-5\\)"
+          },
+          "after": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": {
+            "A": "\\(x-1\\)",
+            "B": "\\(x+1\\)",
+            "C": "\\(4x-1\\)",
+            "D": "\\(4x-5\\)"
+          },
+          "after": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-f5b54db82cf1f5e7",
+      "locator": "7",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "subcategory",
+          "before": "theorems",
+          "after": "hcf-lcm"
+        },
+        {
+          "field": "skill",
+          "before": "poly-multiple-conditions",
+          "after": "poly-hcf-lcm-recover"
+        },
+        {
+          "field": "stem",
+          "before": "Let \\(f(x)=2x^2+ax-2\\), where \\(a\\) is a constant. If \\(f(x)\\) is divisible by \\(2x-1\\), find the remainder when \\(f(x)\\) is divided by \\(x-a\\).",
+          "after": "The H.C.F. and L.C.M. of three expressions are \\(6xz\\) and \\(108x^3y^2z^2\\) respectively. The first two expressions are \\(54x^3yz\\) and \\(18x^2y^2z\\). Which is the third expression?"
+        },
+        {
+          "field": "stemZh",
+          "before": "設 \\(f(x)=2x^2+ax-2\\)，其中 \\(a\\) 為常數。若 \\(f(x)\\) 可被 \\(2x-1\\) 整除，求 \\(f(x)\\) 除以 \\(x-a\\) 的餘式。",
+          "after": "三式的最大公因式及最小公倍式分別為 \\(6xz\\) 及 \\(108x^3y^2z^2\\)。首兩式為 \\(54x^3yz\\) 及 \\(18x^2y^2z\\)，第三式是哪個？"
+        },
+        {
+          "field": "solution",
+          "before": "\\(f(\\frac12)=0\\) gives \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\], hence \\(a=3\\). The required remainder is \\(f(3)=18+9-2=25\\).",
+          "after": "For A, the coefficient gcd is 6 and lcm is 108; minimum variable exponents give \\(xz\\) and maxima give \\(x^3y^2z^2\\). B has coefficient lcm 216; C leaves at least \\(x^2\\) in the H.C.F.; D leaves coefficient 18. Thus only A meets both conditions."
+        },
+        {
+          "field": "solutionZh",
+          "before": "由 \\(f(\\frac12)=0\\) 得 \\[\\begin{gathered}\\frac12 +\\frac a2 \\\\ -2 =0\\end{gathered}\\]，所以 \\(a=3\\)。所求餘式為 \\(f(3)=18+9-2=25\\)。",
+          "after": "選 A 時，係數的最大公因數為 6、最小公倍數為 108；變量最低指數給 \\(xz\\)，最高指數給 \\(x^3y^2z^2\\)。B 的係數最小公倍數為 216；C 的最大公因式含 \\(x^2\\)；D 的公因數係數為 18，均不符。"
+        },
+        {
+          "field": "source",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · Q7",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q7"
+        },
+        {
+          "field": "sourceZh",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · 第7題",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第7題"
+        },
+        {
+          "field": "provenance",
+          "before": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-471162e6f688f1b3",
+            "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+            "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+            "number": "7",
+            "page": 1,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "7",
+            "page": 2,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Determine a parameter from a factor, then use it as the evaluation point for a second division.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q7"
+          },
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Expand and collect the full expression before checking the requested structure.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q7"
+          }
+        },
+        {
+          "field": "options",
+          "before": {
+            "A": "50",
+            "B": "45",
+            "C": "25",
+            "D": "\\(-50\\)"
+          },
+          "after": {
+            "A": "\\(12xz^2\\)",
+            "B": "\\(24xyz^2\\)",
+            "C": "\\(36x^2yz^2\\)",
+            "D": "\\(54xy^2z^2\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": {
+            "A": "50",
+            "B": "45",
+            "C": "25",
+            "D": "\\(-50\\)"
+          },
+          "after": {
+            "A": "\\(12xz^2\\)",
+            "B": "\\(24xyz^2\\)",
+            "C": "\\(36x^2yz^2\\)",
+            "D": "\\(54xy^2z^2\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": "C",
+          "after": "A"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-e60f443b345c79e8",
+      "locator": "8",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "difficulty",
+          "before": "hard",
+          "after": "medium"
+        },
+        {
+          "field": "subcategory",
+          "before": "theorems",
+          "after": "hcf-lcm"
+        },
+        {
+          "field": "skill",
+          "before": "poly-multiple-conditions",
+          "after": "poly-hcf-lcm-recover"
+        },
+        {
+          "field": "stem",
+          "before": "Let \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\], where \\(p,q\\) are constants. If \\(f(x)\\) is divisible by \\(x-5\\) and \\(2x+1\\), find the remainder when it is divided by \\(x+1\\).",
+          "after": "The L.C.M. and H.C.F. of two polynomials are \\(2x(4x^2-1)(x^2-1)\\) and \\(x-1\\) respectively. One polynomial is \\(2x^3-x^2-2x+1\\). Find the other."
+        },
+        {
+          "field": "stemZh",
+          "before": "設 \\[\\begin{gathered}f(x) =2x^3 +px^2 \\\\ -2qx -25\\end{gathered}\\]，其中 \\(p,q\\) 為常數。若 \\(f(x)\\) 可被 \\(x-5\\) 及 \\(2x+1\\) 整除，求它除以 \\(x+1\\) 的餘式。",
+          "after": "兩多項式的最小公倍式及最大公因式分別為 \\(2x(4x^2-1)(x^2-1)\\) 及 \\(x-1\\)。其中一式為 \\(2x^3-x^2-2x+1\\)，求另一式。"
+        },
+        {
+          "field": "solution",
+          "before": "\\(f(5)=0\\) gives \\(5p-2q=-45\\). \\(f(-\\frac12)=0\\) gives \\(p+4q=101\\). Solving yields \\(p=1,q=25\\). Then \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+          "after": "The given polynomial factors as \\((x-1)(x+1)(2x-1)\\). Use product of the two polynomials = H.C.F. × L.C.M. Cancelling gives \\[\\begin{gathered}2x(x-1)(2x+1) =4x^3 \\\\ -2x^2 -2x\\end{gathered}\\]."
+        },
+        {
+          "field": "solutionZh",
+          "before": "由 \\(f(5)=0\\) 得 \\(5p-2q=-45\\)；由 \\(f(-\\frac12)=0\\) 得 \\(p+4q=101\\)。聯立解得 \\(p=1,q=25\\)，所以 \\[\\begin{gathered}f(-1) = -2 +1 +50 \\\\ -25 =24\\end{gathered}\\]",
+          "after": "已知式分解為 \\((x-1)(x+1)(2x-1)\\)。利用「兩式乘積＝最大公因式×最小公倍式」，約去因式後得 \\[\\begin{gathered}2x(x-1)(2x+1) =4x^3 \\\\ -2x^2 -2x\\end{gathered}\\]。"
+        },
+        {
+          "field": "source",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · Q8",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q8"
+        },
+        {
+          "field": "sourceZh",
+          "before": "S4/more about polynomials/S4 polynomials review 2.pdf · 第8題",
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第8題"
+        },
+        {
+          "field": "provenance",
+          "before": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-471162e6f688f1b3",
+            "sha256": "4d16813a11d4e8f1f3fb03c1ccf2a02900ec1f866bccf3ff1fa9f6e1271f67a8",
+            "file": "S4/more about polynomials/S4 polynomials review 2.pdf",
+            "number": "8",
+            "page": 2,
+            "attributionStatus": "not-supplied",
+            "intakeStage": "polynomial-bulk-2026-11-15"
+          },
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "8",
+            "page": 2,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Translate two distinct factor conditions into simultaneous equations before evaluating the final remainder.",
+            "evidence": "docs/qa/2026-11-15/polynomial-batch/mathematics.json#source-a11ea3a915f0b682-Q8"
+          },
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Expand and collect the full expression before checking the requested structure.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q8"
+          }
+        },
+        {
+          "field": "options",
+          "before": {
+            "A": "\\(-20\\)",
+            "B": "1",
+            "C": "24",
+            "D": "36"
+          },
+          "after": {
+            "A": "\\[\\begin{gathered}x^3 \\\\ +x^2 -x\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}x^3 \\\\ -2x^2 \\\\ -2x\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}4x^3 \\\\ +x^2 -x\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}4x^3 \\\\ -2x^2 \\\\ -2x\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": {
+            "A": "\\(-20\\)",
+            "B": "1",
+            "C": "24",
+            "D": "36"
+          },
+          "after": {
+            "A": "\\[\\begin{gathered}x^3 \\\\ +x^2 -x\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}x^3 \\\\ -2x^2 \\\\ -2x\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}4x^3 \\\\ +x^2 -x\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}4x^3 \\\\ -2x^2 \\\\ -2x\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "answer",
+          "before": "C",
+          "after": "D"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-4e692ede7cd3b2c6",
+      "locator": "9",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 4
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "theorems"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-direct-remainder"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "Let \\[\\begin{gathered}g(x) =x^4 +ax^2 +x \\\\ +b\\end{gathered}\\], where \\(a,b\\) are constants. If \\(g(x)\\) is divisible by \\(3x+2\\), find the remainder on division by \\(3x-2\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "設 \\[\\begin{gathered}g(x) =x^4 +ax^2 +x \\\\ +b\\end{gathered}\\]，其中 \\(a,b\\) 為常數。若 \\(g(x)\\) 可被 \\(3x+2\\) 整除，求它被 \\(3x-2\\) 除的餘式。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The even-power terms cancel in \\(g(2/3)-g(-2/3)\\). The difference is \\(4/3\\). Since \\(g(-2/3)=0\\), the required remainder is \\(4/3\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "比較 \\(g(2/3)-g(-2/3)\\)，偶次項及常數項相消，差為 \\(4/3\\)。由 \\(g(-2/3)=0\\)，所求餘式為 \\(4/3\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q9"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第9題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "9",
+            "page": 3,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Expand and collect the full expression before checking the requested structure.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q9"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(-\\frac43\\)",
+            "B": "0",
+            "C": "\\(\\frac43\\)",
+            "D": "\\(2b\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(-\\frac43\\)",
+            "B": "0",
+            "C": "\\(\\frac43\\)",
+            "D": "\\(2b\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "C"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-4e692ede7cd3b2c6"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-7a379671fa201389",
+      "locator": "11",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 4
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "division-identities"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-higher-remainder"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "The remainders when a polynomial \\(f(x)\\) is divided by \\(x-2\\) and \\(x+3\\) are 3 and 8 respectively. Find the remainder when \\(f(x)\\) is divided by \\(x^2+x-6\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "多項式 \\(f(x)\\) 被 \\(x-2\\) 及 \\(x+3\\) 除的餘式分別為 3 及 8。求它被 \\(x^2+x-6\\) 除的餘式。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "Factor the divisor as \\((x-2)(x+3)\\) and let the remainder be \\(ux+v\\). Then \\(2u+v=3\\) and \\(-3u+v=8\\). Solving gives \\(u=-1,v=5\\), so the remainder is \\(-x+5\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "除式為 \\((x-2)(x+3)\\)，設餘式 \\(ux+v\\)。由 \\(2u+v=3\\)、\\(-3u+v=8\\)，解得 \\(u=-1,v=5\\)，故餘式為 \\(-x+5\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q11"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第11題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "11",
+            "page": 3,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Expand and collect the full expression before checking the requested structure.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q11"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\(x-5\\)",
+            "B": "\\(-5x+1\\)",
+            "C": "\\(-x+5\\)",
+            "D": "\\(5x-1\\)"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\(x-5\\)",
+            "B": "\\(-5x+1\\)",
+            "C": "\\(-x+5\\)",
+            "D": "\\(5x-1\\)"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "C"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-7a379671fa201389"
+        }
+      ]
+    },
+    {
+      "id": "import-polynomial-385e5728a93939e6",
+      "locator": "12",
+      "kind": "new",
+      "fields": [
+        {
+          "field": "questionType",
+          "before": null,
+          "after": "mcq"
+        },
+        {
+          "field": "difficulty",
+          "before": null,
+          "after": "medium"
+        },
+        {
+          "field": "minForm",
+          "before": null,
+          "after": 4
+        },
+        {
+          "field": "course",
+          "before": null,
+          "after": "core"
+        },
+        {
+          "field": "subcategory",
+          "before": null,
+          "after": "division-identities"
+        },
+        {
+          "field": "skill",
+          "before": null,
+          "after": "poly-higher-remainder"
+        },
+        {
+          "field": "stem",
+          "before": null,
+          "after": "A degree-4 polynomial \\(f(x)\\) has remainders 1, 5 and 3 when divided by \\(x\\), \\(x+1\\) and \\(x-1\\) respectively. Find the remainder on division by \\(x^3-x\\)."
+        },
+        {
+          "field": "stemZh",
+          "before": null,
+          "after": "四次多項式 \\(f(x)\\) 被 \\(x\\)、\\(x+1\\)、\\(x-1\\) 除的餘式依次為 1、5、3。求它被 \\(x^3-x\\) 除的餘式。"
+        },
+        {
+          "field": "solution",
+          "before": null,
+          "after": "The divisor is \\(x(x-1)(x+1)\\), so let the remainder be \\(ux^2+vx+w\\). At 0, \\(w=1\\); at \\(-1\\), \\(u-v=4\\); at 1, \\(u+v=2\\). Thus \\(u=3,v=-1\\) and the remainder is \\(3x^2-x+1\\)."
+        },
+        {
+          "field": "solutionZh",
+          "before": null,
+          "after": "除式為 \\(x(x-1)(x+1)\\)，設餘式 \\(ux^2+vx+w\\)。代入 0 得 \\(w=1\\)；代入 \\(-1\\) 得 \\(u-v=4\\)；代入 1 得 \\(u+v=2\\)。所以 \\(u=3,v=-1\\)，餘式為 \\(3x^2-x+1\\)。"
+        },
+        {
+          "field": "solutionStatus",
+          "before": null,
+          "after": "independently-rederived"
+        },
+        {
+          "field": "source",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · Q12"
+        },
+        {
+          "field": "sourceZh",
+          "before": null,
+          "after": "S4/more about polynomials/S4 polynomials review.pdf · 第12題"
+        },
+        {
+          "field": "provenance",
+          "before": null,
+          "after": {
+            "collection": "by-topic-review-materials",
+            "sourceId": "source-a11ea3a915f0b682",
+            "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+            "file": "S4/more about polynomials/S4 polynomials review.pdf",
+            "number": "12",
+            "page": 3,
+            "attributionStatus": "not-supplied"
+          }
+        },
+        {
+          "field": "classification",
+          "before": null,
+          "after": {
+            "version": "solving-method-v1",
+            "basis": "reviewed-decisive-solving-method",
+            "status": "editor-pipeline-reviewed",
+            "difficultyReason": "Expand and collect the full expression before checking the requested structure.",
+            "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-a11ea3a915f0b682-Q12"
+          }
+        },
+        {
+          "field": "level",
+          "before": null,
+          "after": "free"
+        },
+        {
+          "field": "options",
+          "before": null,
+          "after": {
+            "A": "\\[\\begin{gathered}3x^2 +x \\\\ +1\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}3x^2 -x \\\\ +1\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}x^2 -3x \\\\ -1\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}x^2 -3x \\\\ +1\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "optionsZh",
+          "before": null,
+          "after": {
+            "A": "\\[\\begin{gathered}3x^2 +x \\\\ +1\\end{gathered}\\]",
+            "B": "\\[\\begin{gathered}3x^2 -x \\\\ +1\\end{gathered}\\]",
+            "C": "\\[\\begin{gathered}x^2 -3x \\\\ -1\\end{gathered}\\]",
+            "D": "\\[\\begin{gathered}x^2 -3x \\\\ +1\\end{gathered}\\]"
+          }
+        },
+        {
+          "field": "answer",
+          "before": null,
+          "after": "B"
+        },
+        {
+          "field": "id",
+          "before": null,
+          "after": "import-polynomial-385e5728a93939e6"
+        }
+      ]
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "locator": "11",
+      "candidateId": "import-polynomial-p039",
+      "score": 0.81,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    },
+    {
+      "locator": "11",
+      "candidateId": "import-polynomial-p038",
+      "score": 0.8,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    }
+  ],
+  "digest": "90d832279d29a8ea097f1c15d7b199f41f23ef61d6bfcea9ef96286a82989cfb",
+  "baseline": "7df4b60c35ff67566b570f669cbdfb624efee642b6a728d7b6344b6ff089867e"
+}

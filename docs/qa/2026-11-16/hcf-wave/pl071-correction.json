@@ -1,0 +1,141 @@
+{
+  "id": "import-polynomial-pl071",
+  "reason": "Original/source brief solution incorrectly excluded2 real-coefficient cases. Keep original English question, source attribution and stable student ID; restore explicit real-constant condition in Chinese and supply all3 cases.",
+  "fieldsChanged": [
+    "stemZh",
+    "hint",
+    "hintZh",
+    "solution",
+    "solutionZh",
+    "subcategory",
+    "skill",
+    "classification",
+    "solutionBlocks",
+    "solutionStatus",
+    "adaptation"
+  ],
+  "before": {
+    "stem": "Let \\(f(x)=x^3+ax^2+bx+15\\), where \\(a\\) and \\(b\\) are real constants. It is given that the highest common factor of \\(f(x)\\) and \\((x+1)(x-2)(x-3)\\) is of degree \\(2\\).\n\n(a) State the highest common factor.\n\n(b) Find the values of \\(a\\) and \\(b\\).\n\n(c) Find the remainder when \\(f(x-1)\\) is divided by \\(x+3\\).",
+    "stemZh": "設 \\(f(x)=x^3+ax^2+bx+15\\)。\\(f(x)\\) 與 \\((x+1)(x-2)(x-3)\\) 的最高公因式（H.C.F.）次數為 \\(2\\)。\n\n(a) 寫出最高公因式。\n\n(b) 求 \\(a,b\\)。\n\n(c) 求 \\(f(x-1)\\) 被 \\(x+3\\) 除的餘式。",
+    "hint": "Read the divisor roots and the degree before calculating; the stated conditions determine the required polynomial structure.",
+    "hintZh": "最高公因式（H.C.F.）次數直接告訴你有幾個共同根（common roots）。",
+    "solution": "Part (a)\n\nSince the H.C.F. has degree \\(2\\), two of \\(-1,2,3\\) are roots of \\(f(x)\\).\n\nThe valid H.C.F. is\n\n\\[\n(x+1)(x-3).\n\\]\n\nPart (b)\n\nHence\n\n\\[\nf(-1)=0,\\qquad f(3)=0.\n\\]\n\nUsing \\(f(-1)=0\\):\n\n\\[\n-1+a-b+15=0\n\\]\n\n\\[\na-b=-14. \\tag{1}\n\\]\n\nUsing \\(f(3)=0\\):\n\n\\[\n27+9a+3b+15=0\n\\]\n\n\\[\n3a+b=-14. \\tag{2}\n\\]\n\nSolving \\(1\\) and \\(2\\),\n\n\\[\na=-7,\\qquad b=7.\n\\]\n\nTherefore\n\n\\[\nf(x)=x^3-7x^2+7x+15.\n\\]\n\nPart (c)\n\nFor \\(f(x-1)\\) divided by \\(x+3\\), put \\(x=-3\\):\n\n\\[\n\\text{remainder}=f(-4).\n\\]\n\n\\[\nf(-4)=(-4)^3-7(-4)^2+7(-4)+15=-64-112-28+15=-189.\n\\]\n\nTherefore the remainder is\n\n\\[\n-189.\n\\]",
+    "solutionZh": "第 (a) 部分\n\n三個候選根（roots）是 \\(-1,2,3\\)，最高公因式（H.C.F.）次數為二；逐一檢查常數項與條件可得公因式 \\((x+1)(x-3)\\)。\n\n第 (b) 部分\n\n故 \\(f(-1)=f(3)=0\\)，聯立得 \\(a=-7,b=7\\)。\n\n第 (c) 部分\n\n求 \\(f(x-1)\\) 被 \\(x+3\\) 除的餘式，要代 \\(x=-3\\)，即求 \\(f(-4)=-189\\)。",
+    "id": "import-polynomial-pl071",
+    "subcategory": "transformed-polynomials",
+    "skill": "poly-substitution",
+    "classification": {
+      "version": "2026-10-21.1",
+      "basis": "polynomial argument substitution",
+      "status": "rule-classified",
+      "originalTopic": "",
+      "sourceLevel": "★★★★☆"
+    },
+    "questionType": "structured",
+    "difficulty": "hard",
+    "minForm": 4,
+    "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+    "source": "Extra PDF · S4 Polynomials Review · P1 Q13",
+    "sourceZh": "來源所列（未獨立核實）：Extra PDF · S4 Polynomials Review · P1 Q13",
+    "provenance": {
+      "collection": "1013-webpage",
+      "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+      "topic": "polynomial",
+      "kind": "long",
+      "sourceId": "PL071",
+      "row": 71,
+      "set": null,
+      "number": null,
+      "attribution": "source-reported-unverified"
+    },
+    "assessmentMode": "solution-comparison"
+  },
+  "after": {
+    "stem": "Let \\(f(x)=x^3+ax^2+bx+15\\), where \\(a\\) and \\(b\\) are real constants. It is given that the highest common factor of \\(f(x)\\) and \\((x+1)(x-2)(x-3)\\) is of degree \\(2\\).\n\n(a) State the highest common factor.\n\n(b) Find the values of \\(a\\) and \\(b\\).\n\n(c) Find the remainder when \\(f(x-1)\\) is divided by \\(x+3\\).",
+    "stemZh": "設 \\(f(x)=x^3+ax^2+bx+15\\)，其中 \\(a,b\\) 為實常數。\\(f(x)\\) 與 \\((x+1)(x-2)(x-3)\\) 的最高公因式（H.C.F.）次數為 \\(2\\)。\n\n(a) 寫出最高公因式。\n\n(b) 求 \\(a,b\\)。\n\n(c) 求 \\(f(x-1)\\) 被 \\(x+3\\) 除的餘式。",
+    "hint": "Exactly two of the three candidate roots are shared. Check all three pairs under the stated real-coefficient condition.",
+    "hintZh": "三個候選根中恰有兩個是共同根。按原題實數條件檢查全部三對，不能自行假設整數係數。",
+    "solution": "The stated real-coefficient condition permits three cases; the source answer lists only one. Because the other polynomial has three distinct roots, exactly two of \\(-1,2,3\\) are roots of \\(f\\). The third root is fixed by the constant 15.\nCase 1: H.C.F. \\((x+1)(x-2)\\). The third root is \\(15/2\\), so \\[\\begin{gathered}f(x) \\\\ =(x+1)(x-2)(x-15/2)\\end{gathered}\\]. Hence \\((a,b)=(-17/2,11/2)\\) and the remainder \\(f(-4)=-207\\).\nCase 2: H.C.F. \\((x+1)(x-3)\\). Then \\[\\begin{gathered}f(x) \\\\ =(x+1)(x-3)(x-5)\\end{gathered}\\], giving \\((a,b)=(-7,7)\\) and \\(f(-4)=-189\\).\nCase 3: H.C.F. \\((x-2)(x-3)\\). Then \\[\\begin{gathered}f(x) \\\\ =(x-2)(x-3)(x+5/2)\\end{gathered}\\], giving \\((a,b)=(-5/2,-13/2)\\) and \\(f(-4)=-63\\).\nIn every case the third root is outside \\(-1,2,3\\), so the H.C.F. has exactly degree 2. These exhaust the three pairs. No integer-coefficient restriction was stated.",
+    "solutionZh": "按題目的實數條件共有三種情況，原簡答只列其中一種。另一多項式有三個相異根，故 \\(-1,2,3\\) 中恰有兩個是 \\(f\\) 的根；第三根由常數項 15 決定。\n情況一：最大公因式 \\((x+1)(x-2)\\)。第三根為 \\(15/2\\)，故 \\[\\begin{gathered}f(x) \\\\ =(x+1)(x-2)(x-15/2)\\end{gathered}\\]，得 \\((a,b)=(-17/2,11/2)\\)，餘式 \\(f(-4)=-207\\)。\n情況二：最大公因式 \\((x+1)(x-3)\\)。此時 \\[\\begin{gathered}f(x) \\\\ =(x+1)(x-3)(x-5)\\end{gathered}\\]，得 \\((a,b)=(-7,7)\\)，餘式 \\(f(-4)=-189\\)。\n情況三：最大公因式 \\((x-2)(x-3)\\)。此時 \\[\\begin{gathered}f(x) \\\\ =(x-2)(x-3)(x+5/2)\\end{gathered}\\]，得 \\((a,b)=(-5/2,-13/2)\\)，餘式 \\(f(-4)=-63\\)。\n各情況第三根均不屬於 \\(-1,2,3\\)，所以最大公因式確為二次。三對根已列盡；原題並沒有要求整數係數。",
+    "id": "import-polynomial-pl071",
+    "subcategory": "hcf-lcm",
+    "skill": "poly-hcf-lcm-recover",
+    "classification": {
+      "version": "solving-method-v1",
+      "basis": "Exhaust all possible shared-root pairs before computing the transformed remainder.",
+      "status": "editor-pipeline-reviewed",
+      "originalTopic": "",
+      "sourceLevel": "★★★★☆",
+      "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#S4-Q13"
+    },
+    "questionType": "structured",
+    "difficulty": "hard",
+    "minForm": 4,
+    "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+    "source": "Extra PDF · S4 Polynomials Review · P1 Q13",
+    "sourceZh": "來源所列（未獨立核實）：Extra PDF · S4 Polynomials Review · P1 Q13",
+    "provenance": {
+      "collection": "1013-webpage",
+      "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+      "topic": "polynomial",
+      "kind": "long",
+      "sourceId": "PL071",
+      "row": 71,
+      "set": null,
+      "number": null,
+      "attribution": "source-reported-unverified"
+    },
+    "assessmentMode": "solution-comparison",
+    "solutionBlocks": {
+      "en": [
+        {
+          "type": "paragraph",
+          "text": "The stated real-coefficient condition permits three cases; the source answer lists only one. Because the other polynomial has three distinct roots, exactly two of \\(-1,2,3\\) are roots of \\(f\\). The third root is fixed by the constant 15."
+        },
+        {
+          "type": "paragraph",
+          "text": "Case 1: H.C.F. \\((x+1)(x-2)\\). The third root is \\(15/2\\), so \\[\\begin{gathered}f(x) \\\\ =(x+1)(x-2)(x-15/2)\\end{gathered}\\]. Hence \\((a,b)=(-17/2,11/2)\\) and the remainder \\(f(-4)=-207\\)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Case 2: H.C.F. \\((x+1)(x-3)\\). Then \\[\\begin{gathered}f(x) \\\\ =(x+1)(x-3)(x-5)\\end{gathered}\\], giving \\((a,b)=(-7,7)\\) and \\(f(-4)=-189\\)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Case 3: H.C.F. \\((x-2)(x-3)\\). Then \\[\\begin{gathered}f(x) \\\\ =(x-2)(x-3)(x+5/2)\\end{gathered}\\], giving \\((a,b)=(-5/2,-13/2)\\) and \\(f(-4)=-63\\)."
+        },
+        {
+          "type": "paragraph",
+          "text": "In every case the third root is outside \\(-1,2,3\\), so the H.C.F. has exactly degree 2. These exhaust the three pairs. No integer-coefficient restriction was stated."
+        }
+      ],
+      "zh-Hant": [
+        {
+          "type": "paragraph",
+          "text": "按題目的實數條件共有三種情況，原簡答只列其中一種。另一多項式有三個相異根，故 \\(-1,2,3\\) 中恰有兩個是 \\(f\\) 的根；第三根由常數項 15 決定。"
+        },
+        {
+          "type": "paragraph",
+          "text": "情況一：最大公因式 \\((x+1)(x-2)\\)。第三根為 \\(15/2\\)，故 \\[\\begin{gathered}f(x) \\\\ =(x+1)(x-2)(x-15/2)\\end{gathered}\\]，得 \\((a,b)=(-17/2,11/2)\\)，餘式 \\(f(-4)=-207\\)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "情況二：最大公因式 \\((x+1)(x-3)\\)。此時 \\[\\begin{gathered}f(x) \\\\ =(x+1)(x-3)(x-5)\\end{gathered}\\]，得 \\((a,b)=(-7,7)\\)，餘式 \\(f(-4)=-189\\)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "情況三：最大公因式 \\((x-2)(x-3)\\)。此時 \\[\\begin{gathered}f(x) \\\\ =(x-2)(x-3)(x+5/2)\\end{gathered}\\]，得 \\((a,b)=(-5/2,-13/2)\\)，餘式 \\(f(-4)=-63\\)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "各情況第三根均不屬於 \\(-1,2,3\\)，所以最大公因式確為二次。三對根已列盡；原題並沒有要求整數係數。"
+        }
+      ]
+    },
+    "solutionStatus": "independently-rederived",
+    "adaptation": {
+      "en": "Answer using the stated real-coefficient condition. The worked solution includes admissible cases omitted by the source brief answer.",
+      "zh-Hant": "按原題實數係數條件作答；詳解包含原簡答未列出的可行情況。"
+    }
+  }
+}

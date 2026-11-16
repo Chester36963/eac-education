@@ -1,0 +1,523 @@
+{
+  "status": "待驗收（正式部署；本機完成）",
+  "sourceRecords": 32,
+  "new": 23,
+  "duplicate": 9,
+  "correctedExisting": 1,
+  "held": 0,
+  "diagramQuestions": 0,
+  "records": [
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "1",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-0c0e9ec5983ca55e",
+      "canonicalId": "import-polynomial-0c0e9ec5983ca55e",
+      "disposition": "publish",
+      "skill": "poly-multiple-conditions",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "2",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-6ddaf769c33db9f4",
+      "canonicalId": "import-polynomial-6ddaf769c33db9f4",
+      "disposition": "publish",
+      "skill": "poly-factor-parameters",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "3",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-3d4c941199956433",
+      "canonicalId": "import-polynomial-3d4c941199956433",
+      "disposition": "publish",
+      "skill": "poly-substitution",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "4",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-11047f74f92f1bf1",
+      "canonicalId": "import-polynomial-11047f74f92f1bf1",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "5",
+      "pages": [
+        2
+      ],
+      "id": "import-polynomial-7048be5f3dc86087",
+      "canonicalId": "import-polynomial-7048be5f3dc86087",
+      "disposition": "publish",
+      "skill": "poly-direct-remainder",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "6",
+      "pages": [
+        2
+      ],
+      "id": "import-polynomial-768d7d580cfad319",
+      "canonicalId": "import-polynomial-768d7d580cfad319",
+      "disposition": "publish",
+      "skill": "poly-division-identity",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "7",
+      "pages": [
+        2
+      ],
+      "id": "import-polynomial-f56710a9207ebc69",
+      "canonicalId": "import-polynomial-f56710a9207ebc69",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-recover",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "8",
+      "pages": [
+        2
+      ],
+      "id": "import-polynomial-46a9741b02ddc1dc",
+      "canonicalId": "import-polynomial-46a9741b02ddc1dc",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-recover",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "9",
+      "pages": [
+        3
+      ],
+      "id": "import-polynomial-4e692ede7cd3b2c6",
+      "canonicalId": "import-polynomial-4e692ede7cd3b2c6",
+      "disposition": "publish",
+      "skill": "poly-direct-remainder",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "10",
+      "pages": [
+        3
+      ],
+      "id": "import-polynomial-57ba16fdb03da69e",
+      "canonicalId": "import-polynomial-p058",
+      "disposition": "duplicate",
+      "skill": "poly-quotient-sign",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "11",
+      "pages": [
+        3
+      ],
+      "id": "import-polynomial-7a379671fa201389",
+      "canonicalId": "import-polynomial-7a379671fa201389",
+      "disposition": "publish",
+      "skill": "poly-higher-remainder",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "12",
+      "pages": [
+        3
+      ],
+      "id": "import-polynomial-385e5728a93939e6",
+      "canonicalId": "import-polynomial-385e5728a93939e6",
+      "disposition": "publish",
+      "skill": "poly-higher-remainder",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "13",
+      "pages": [
+        4
+      ],
+      "id": "import-polynomial-55370608dc1d3f59",
+      "canonicalId": "import-polynomial-pl071",
+      "disposition": "duplicate",
+      "skill": "poly-hcf-lcm-recover",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "14",
+      "pages": [
+        4
+      ],
+      "id": "import-polynomial-efeefab86a2b4516",
+      "canonicalId": "import-polynomial-pl012",
+      "disposition": "duplicate",
+      "skill": "poly-root-nature",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "15",
+      "pages": [
+        4
+      ],
+      "id": "import-polynomial-49c1e281b44e1ce8",
+      "canonicalId": "import-polynomial-pl007",
+      "disposition": "duplicate",
+      "skill": "poly-root-nature",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "16",
+      "pages": [
+        4
+      ],
+      "id": "import-polynomial-c58e675f37f18d91",
+      "canonicalId": "import-polynomial-pl074",
+      "disposition": "duplicate",
+      "skill": "poly-transformed-roots",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "17",
+      "pages": [
+        5
+      ],
+      "id": "import-polynomial-5251bd2f2438142b",
+      "canonicalId": "import-polynomial-pl050",
+      "disposition": "duplicate",
+      "skill": "poly-division-identity",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "18",
+      "pages": [
+        5
+      ],
+      "id": "import-polynomial-e81bac7f8df5e387",
+      "canonicalId": "import-polynomial-pl051",
+      "disposition": "duplicate",
+      "skill": "poly-multiple-conditions",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "19",
+      "pages": [
+        5
+      ],
+      "id": "import-polynomial-11fb2091661affa8",
+      "canonicalId": "import-polynomial-pl024",
+      "disposition": "duplicate",
+      "skill": "poly-root-nature",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-a11ea3a915f0b682",
+      "file": "S4/more about polynomials/S4 polynomials review.pdf",
+      "sha256": "641341ccab25c3ecd24c89de877aa77122fc326ddf7de3bbd74df10a8e926c97",
+      "number": "20",
+      "pages": [
+        5
+      ],
+      "id": "import-polynomial-17ec3dd0151d4ad6",
+      "canonicalId": "import-polynomial-pl052",
+      "disposition": "duplicate",
+      "skill": "poly-root-nature",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "1",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-8335db02511e908d",
+      "canonicalId": "import-polynomial-8335db02511e908d",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "2",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-d5f5cea1a15cccb3",
+      "canonicalId": "import-polynomial-d5f5cea1a15cccb3",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "3",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-74ea8c947fff09eb",
+      "canonicalId": "import-polynomial-74ea8c947fff09eb",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "4",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-cb8eb2f76385b116",
+      "canonicalId": "import-polynomial-cb8eb2f76385b116",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "easy",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "5",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-8d1864fe82ad22db",
+      "canonicalId": "import-polynomial-8d1864fe82ad22db",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "6",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-ce4b61bb3dd9ff24",
+      "canonicalId": "import-polynomial-ce4b61bb3dd9ff24",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "7",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-09ecedda60d5ccb3",
+      "canonicalId": "import-polynomial-09ecedda60d5ccb3",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "8",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-b23d20f9a7a504bd",
+      "canonicalId": "import-polynomial-b23d20f9a7a504bd",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "9",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-5eff83d683024bc3",
+      "canonicalId": "import-polynomial-5eff83d683024bc3",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-recover",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "10",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-c17c8c82840f3f2c",
+      "canonicalId": "import-polynomial-c17c8c82840f3f2c",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-recover",
+      "difficulty": "medium",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "11",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-665a872e20211cd4",
+      "canonicalId": "import-polynomial-665a872e20211cd4",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-factors",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    },
+    {
+      "sourceId": "source-b34f32147917d1a2",
+      "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+      "number": "12",
+      "pages": [
+        1
+      ],
+      "id": "import-polynomial-1f24e34771b1e783",
+      "canonicalId": "import-polynomial-1f24e34771b1e783",
+      "disposition": "publish",
+      "skill": "poly-hcf-lcm-recover",
+      "difficulty": "hard",
+      "status": "完成（本機）；待正式部署驗收",
+      "evidence": "mathematics.json + draft/wave-qa.json + student/matrix.json + student/formula-fit.json"
+    }
+  ]
+}

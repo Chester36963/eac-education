@@ -75,3 +75,9 @@
 
 
 2026-11-16補充：preview-editor-batch及actual student matrix會核對每一個diagram/contentBlocks figure必須實際載入且可見。有contentBlocks的題目，題圖要明確放入各語言有次序區塊（雙語以src去重）；只留舊diagram欄位不足以顯示。題圖審核必須看獨立資產與真正學生頁，不能以JSON有路徑當驗收。
+
+## HC-ID-20261116：跨來源題號衝突
+
+儲存新來源前比對canonical題號的sourceId及原題號。若歷史ID已被另一來源使用，新記錄改用sourceId＋來源SHA＋原題號衍生ID，保留identityResolution；原學生ID不變。既有草稿若撞到其他來源，不自動覆寫或偷偷換號：save／check／preview／apply會拒絕，須明確比對來源、修復草稿及重新五項審核。
+
+本次實例及恢復證據見[HCF批次](qa/2026-11-16/hcf-wave/README.md)與id-collisions.json。大量匯入前後必須對比原ID及物件；已審核舊題修正保留逐欄before／after，禁止重寫歷史baseline來令測試通過。相同來源重播仍應0新增／0修訂。

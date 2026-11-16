@@ -42,7 +42,7 @@ test('verified answer corrections and broken source records cannot silently ente
    else if(q.classification.status==='editor-reviewed'){
     const review=require('../content/intake/sequence-review-2026-10-28/review.json');
     assert.ok(review.questions.some(r=>r.id===q.id&&![10,20].includes(r.number)),'Editorial classification needs a source locator and review manifest');
-   }else if(q.classification.status==='editor-pipeline-reviewed'){const rows=fs.readdirSync(path.join(ROOT,'content/intake/editor')).filter(f=>f.endsWith('.json')).flatMap(f=>JSON.parse(fs.readFileSync(path.join(ROOT,'content/intake/editor',f))).records);assert.ok(rows.some(r=>r.disposition==='publish'&&r.question.id===q.id&&r.approvals.classification));}else assert.equal(q.classification.status,'rule-classified');
+   }else if(q.classification.status==='editor-pipeline-reviewed'){const rows=fs.readdirSync(path.join(ROOT,'content/intake/editor')).filter(f=>f.endsWith('.json')).flatMap(f=>JSON.parse(fs.readFileSync(path.join(ROOT,'content/intake/editor',f))).records);const correction=require('../docs/qa/2026-11-16/hcf-wave/pl071-correction.json');if(q.id===correction.id){assert.deepEqual(q,correction.after);assert.match(q.classification.evidence,/hcf-wave\/mathematics.json#S4-Q13/);}else assert.ok(rows.some(r=>r.disposition==='publish'&&r.question.id===q.id&&r.approvals.classification));}else assert.equal(q.classification.status,'rule-classified');
   }
   if(q.options)assert.deepEqual(Object.keys(q.options),['A','B','C','D']);
  }

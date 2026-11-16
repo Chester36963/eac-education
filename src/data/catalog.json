@@ -557,13 +557,13 @@
                 "poly-factor-parameters",
                 "poly-multiple-conditions"
               ],
-              "questionCount": 83,
+              "questionCount": 87,
               "skillCounts": {
                 "remainder-theorem": 2,
                 "factor-theorem": 4,
-                "poly-direct-remainder": 34,
-                "poly-factor-parameters": 11,
-                "poly-multiple-conditions": 32
+                "poly-direct-remainder": 36,
+                "poly-factor-parameters": 12,
+                "poly-multiple-conditions": 33
               }
             },
             {
@@ -597,11 +597,11 @@
                 "poly-compare-coefficients",
                 "poly-higher-remainder"
               ],
-              "questionCount": 12,
+              "questionCount": 15,
               "skillCounts": {
-                "poly-division-identity": 7,
+                "poly-division-identity": 8,
                 "poly-compare-coefficients": 3,
-                "poly-higher-remainder": 2
+                "poly-higher-remainder": 4
               }
             },
             {
@@ -659,32 +659,48 @@
                 "poly-expanded-structure": 7,
                 "poly-index-laws": 13
               }
+            },
+            {
+              "id": "hcf-lcm",
+              "name": {
+                "en": "Polynomial HCF and LCM",
+                "zh-Hant": "多項式最大公因式與最小公倍式"
+              },
+              "skills": [
+                "poly-hcf-lcm-factors",
+                "poly-hcf-lcm-recover"
+              ],
+              "questionCount": 16,
+              "skillCounts": {
+                "poly-hcf-lcm-factors": 10,
+                "poly-hcf-lcm-recover": 6
+              }
             }
           ],
           "topicId": "polynomial",
-          "questionCount": 248,
+          "questionCount": 271,
           "courses": [
             "core"
           ],
           "coverage": {
             "types": {
-              "mcq": 117,
-              "structured": 127,
+              "mcq": 128,
+              "structured": 139,
               "short-answer": 2,
               "dse-long": 1,
               "proof": 1
             },
             "difficulty": {
-              "easy": 70,
-              "medium": 111,
-              "hard": 36,
+              "easy": 79,
+              "medium": 122,
+              "hard": 39,
               "challenging": 31
             },
             "minForm": {
               "1": 89,
               "2": 1,
               "3": 4,
-              "4": 154
+              "4": 177
             }
           }
         },

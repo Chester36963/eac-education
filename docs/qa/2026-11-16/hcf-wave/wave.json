@@ -1,0 +1,18 @@
+{
+  "sourceRoot": "/Users/chester/Downloads/By topic Review materials",
+  "output": "docs/qa/2026-11-16/hcf-wave/draft",
+  "batches": [
+    {
+      "id": "intake-a11ea3a915f0b682",
+      "expectedQuestions": 20,
+      "reviewedPath": "S4/more about polynomials/S4 polynomials review.pdf",
+      "extraction": ".cache/bulk-intake/polynomial-wave/source-a11ea3a915f0b682/641341ccab25c3ec/extraction.json"
+    },
+    {
+      "id": "intake-b34f32147917d1a2",
+      "expectedQuestions": 12,
+      "reviewedPath": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+      "extraction": ".cache/bulk-intake/polynomial-wave/source-b34f32147917d1a2/c6283b1894a4e3e7/extraction.json"
+    }
+  ]
+}

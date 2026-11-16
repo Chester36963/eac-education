@@ -37,3 +37,24 @@ test('bulk locator registration is repeatable, preserves reviewed records and ca
  assert.throws(()=>f.p.registerRecords(f.b.id,'1 | 2\n4 | 4',revision),/different pages/);assert.equal(f.p.get(f.b.id).records.length,3);
  fs.writeFileSync(path.join(f.sourceRoot,'paper.pdf'),'revised source');assert.throws(()=>f.p.planRegistration(f.b.id,'4 | 4'),/Source changed/);
  }finally{f.clean();}});
+
+test('a legacy deterministic ID owned by another source allocates a stable version-derived ID without changing the old student question',()=>{
+ const f=fixture();try{
+  const oldId='import-sequences-'+digest(f.b.sourceId+':Q1').slice(0,16),topic=structuredClone(f.base.topics[0]);
+  const original=topic.categories[0].questions[0];original.id=oldId;original.provenance={sourceId:'source-0123456789abcdef',sha256:digest('other source'),number:'1',page:1};
+  atomic(path.join(f.root,'content/chapters/sequences.json'),topic);const preserved=structuredClone(original);
+  save(f);const allocated=f.b.records[0].question.id;assert.notEqual(allocated,oldId);assert.equal(f.b.records[0].identityResolution.originalId,oldId);
+  review(f);const preview=f.p.preview(f.b.id);assert.equal(preview.ready,true);assert.equal(preview.diff.added.length,1);assert.equal(preview.diff.updated.length,0);f.p.apply(f.b.id,preview.digest);
+  const qs=readSource(f.root).topics.flatMap(t=>t.categories.flatMap(c=>c.questions));assert.deepEqual(qs.find(q=>q.id===oldId),preserved);assert.ok(qs.some(q=>q.id===allocated));
+  f.b=f.p.get(f.b.id);f.b=f.p.save(f.b.id,f.b,f.b.revision);assert.equal(f.b.records[0].question.id,allocated);assert.equal(f.p.apply(f.b.id,f.p.preview(f.b.id).digest).applied,false);
+ }finally{f.clean();}
+});
+test('an already reviewed draft cannot overwrite an ID reassigned to another source even if all review gates are green',()=>{
+ const f=fixture();try{
+  save(f);review(f);f.p.apply(f.b.id,f.p.preview(f.b.id).digest);f.b=f.p.get(f.b.id);
+  const file=path.join(f.root,'content/chapters/sequences.json'),topic=JSON.parse(fs.readFileSync(file)),q=topic.categories.flatMap(c=>c.questions).find(q=>q.id===f.b.records[0].question.id);
+  q.provenance.sourceId='source-0123456789abcdef';atomic(file,topic);const before=digest(readSource(f.root));
+  assert.throws(()=>f.p.save(f.b.id,f.b,f.b.revision),/belongs to another source/);
+  assert.match(f.p.preview(f.b.id).errors.join(' '),/refusing to overwrite/);assert.throws(()=>f.p.apply(f.b.id,f.p.preview(f.b.id).digest),/incomplete/);assert.equal(digest(readSource(f.root)),before);
+ }finally{f.clean();}
+});

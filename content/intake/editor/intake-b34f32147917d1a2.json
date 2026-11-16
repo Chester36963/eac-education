@@ -1,0 +1,1649 @@
+{
+  "schemaVersion": 1,
+  "id": "intake-b34f32147917d1a2",
+  "sourceId": "source-b34f32147917d1a2",
+  "sourcePath": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+  "sourceSha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+  "topicId": "polynomial",
+  "expectedQuestions": 12,
+  "revision": 64,
+  "records": [
+    {
+      "locator": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(10a^2bc^2\\)\n\\(12a^3b^3\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(10a^2bc^2\\)\n\\(12a^3b^3\\)",
+        "solution": "The coefficient gcd/lcm are 2 and 60. Take minimum/maximum exponents of each variable; \\(c\\) is absent from the second expression.\nH.C.F.: \\(2a^2b\\).\nL.C.M.: \\(60a^3b^3c^2\\).",
+        "solutionZh": "係數的最大公因數／最小公倍數為 2、60，各變量取最低／最高指數；第二式不含 \\(c\\)。\n最大公因式：\\(2a^2b\\)。\n最小公倍式：\\(60a^3b^3c^2\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q1",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第1題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "1",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q1"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(10a^2bc^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(12a^3b^3\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(10a^2bc^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(12a^3b^3\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The coefficient gcd/lcm are 2 and 60. Take minimum/maximum exponents of each variable; \\(c\\) is absent from the second expression."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(2a^2b\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\(60a^3b^3c^2\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "係數的最大公因數／最小公倍數為 2、60，各變量取最低／最高指數；第二式不含 \\(c\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(2a^2b\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\(60a^3b^3c^2\\)。"
+            }
+          ]
+        },
+        "id": "import-polynomial-8335db02511e908d"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "95cb7c7715b4e4e4f9c06c9c8074cadd10893a0266173125b42171405d230f53",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.255Z"
+        },
+        "classification": {
+          "fingerprint": "95cb7c7715b4e4e4f9c06c9c8074cadd10893a0266173125b42171405d230f53",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.256Z"
+        },
+        "mathematics": {
+          "fingerprint": "95cb7c7715b4e4e4f9c06c9c8074cadd10893a0266173125b42171405d230f53",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.257Z"
+        },
+        "figures": {
+          "fingerprint": "95cb7c7715b4e4e4f9c06c9c8074cadd10893a0266173125b42171405d230f53",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.257Z"
+        },
+        "studentView": {
+          "fingerprint": "95cb7c7715b4e4e4f9c06c9c8074cadd10893a0266173125b42171405d230f53",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.258Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T09:04:42.565Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(2xy^3z\\)\n\\(4x^4yz^2\\)\n\\(6x^2y^2z^3\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(2xy^3z\\)\n\\(4x^4yz^2\\)\n\\(6x^2y^2z^3\\)",
+        "solution": "The coefficient gcd/lcm are 2 and 12. Minimum powers of \\(x,y,z\\) are all 1; maxima are 4,3,3.\nH.C.F.: \\(2xyz\\).\nL.C.M.: \\(12x^4y^3z^3\\).",
+        "solutionZh": "係數的最大公因數／最小公倍數為 2、12；\\(x,y,z\\) 的最低指數均為 1，最高依次為 4、3、3。\n最大公因式：\\(2xyz\\)。\n最小公倍式：\\(12x^4y^3z^3\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q2",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第2題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "2",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q2"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(2xy^3z\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(4x^4yz^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(6x^2y^2z^3\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(2xy^3z\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(4x^4yz^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(6x^2y^2z^3\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The coefficient gcd/lcm are 2 and 12. Minimum powers of \\(x,y,z\\) are all 1; maxima are 4,3,3."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(2xyz\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\(12x^4y^3z^3\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "係數的最大公因數／最小公倍數為 2、12；\\(x,y,z\\) 的最低指數均為 1，最高依次為 4、3、3。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(2xyz\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\(12x^4y^3z^3\\)。"
+            }
+          ]
+        },
+        "id": "import-polynomial-d5f5cea1a15cccb3"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "816b30f689cc747ce6cb13b172fa54aa213cb98b281028cb5e4a370cfc350096",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.259Z"
+        },
+        "classification": {
+          "fingerprint": "816b30f689cc747ce6cb13b172fa54aa213cb98b281028cb5e4a370cfc350096",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.260Z"
+        },
+        "mathematics": {
+          "fingerprint": "816b30f689cc747ce6cb13b172fa54aa213cb98b281028cb5e4a370cfc350096",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.260Z"
+        },
+        "figures": {
+          "fingerprint": "816b30f689cc747ce6cb13b172fa54aa213cb98b281028cb5e4a370cfc350096",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.261Z"
+        },
+        "studentView": {
+          "fingerprint": "816b30f689cc747ce6cb13b172fa54aa213cb98b281028cb5e4a370cfc350096",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.262Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T09:04:42.566Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(9r(r-s)^2(r+2s)\\)\n\\(12s^2(r-s)(r+2s)^3\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(9r(r-s)^2(r+2s)\\)\n\\(12s^2(r-s)(r+2s)^3\\)",
+        "solution": "Only the two shared brackets enter the H.C.F., at their minimum power 1. The L.C.M. uses coefficient 36 and all factors at their maximum powers.\nH.C.F.: \\(3(r-s)(r+2s)\\).\nL.C.M.: \\[\\begin{gathered}36rs^2 \\cdot(r-s)^2 \\\\ \\cdot(r+2s)^3\\end{gathered}\\].",
+        "solutionZh": "最大公因式只取共同括號，最低次冪均為 1；最小公倍式取係數 36 及全部因式的最高次冪。\n最大公因式：\\(3(r-s)(r+2s)\\)。\n最小公倍式：\\[\\begin{gathered}36rs^2 \\cdot(r-s)^2 \\\\ \\cdot(r+2s)^3\\end{gathered}\\]。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q3",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第3題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "3",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q3"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(9r(r-s)^2(r+2s)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(12s^2(r-s)(r+2s)^3\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(9r(r-s)^2(r+2s)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(12s^2(r-s)(r+2s)^3\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Only the two shared brackets enter the H.C.F., at their minimum power 1. The L.C.M. uses coefficient 36 and all factors at their maximum powers."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(3(r-s)(r+2s)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\[\\begin{gathered}36rs^2 \\cdot(r-s)^2 \\\\ \\cdot(r+2s)^3\\end{gathered}\\]."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "最大公因式只取共同括號，最低次冪均為 1；最小公倍式取係數 36 及全部因式的最高次冪。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(3(r-s)(r+2s)\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\[\\begin{gathered}36rs^2 \\cdot(r-s)^2 \\\\ \\cdot(r+2s)^3\\end{gathered}\\]。"
+            }
+          ]
+        },
+        "id": "import-polynomial-74ea8c947fff09eb"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "fe295fa06215a930b80da5ab64e5e1255e0cf1d0668c9380de1217287a19c5df",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.263Z"
+        },
+        "classification": {
+          "fingerprint": "fe295fa06215a930b80da5ab64e5e1255e0cf1d0668c9380de1217287a19c5df",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.264Z"
+        },
+        "mathematics": {
+          "fingerprint": "fe295fa06215a930b80da5ab64e5e1255e0cf1d0668c9380de1217287a19c5df",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.264Z"
+        },
+        "figures": {
+          "fingerprint": "fe295fa06215a930b80da5ab64e5e1255e0cf1d0668c9380de1217287a19c5df",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.265Z"
+        },
+        "studentView": {
+          "fingerprint": "fe295fa06215a930b80da5ab64e5e1255e0cf1d0668c9380de1217287a19c5df",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.266Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T09:04:42.566Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(7(h+1)^2(h+k)\\)\n\\(4(h+1)^3(h+k)^2\\)\n\\(28(h+1)^2(h+k)^4\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(7(h+1)^2(h+k)\\)\n\\(4(h+1)^3(h+k)^2\\)\n\\(28(h+1)^2(h+k)^4\\)",
+        "solution": "The coefficient gcd is 1 and lcm is 28. For the two bracket factors the minimum powers are 2,1 and maxima are 3,4.\nH.C.F.: \\((h+1)^2(h+k)\\).\nL.C.M.: \\(28(h+1)^3(h+k)^4\\).",
+        "solutionZh": "係數最大公因數為 1、最小公倍數為 28；兩括號因式的最低指數為 2、1，最高為 3、4。\n最大公因式：\\((h+1)^2(h+k)\\)。\n最小公倍式：\\(28(h+1)^3(h+k)^4\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q4",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第4題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "4",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q4"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(7(h+1)^2(h+k)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(4(h+1)^3(h+k)^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(28(h+1)^2(h+k)^4\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(7(h+1)^2(h+k)\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(4(h+1)^3(h+k)^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(28(h+1)^2(h+k)^4\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The coefficient gcd is 1 and lcm is 28. For the two bracket factors the minimum powers are 2,1 and maxima are 3,4."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\((h+1)^2(h+k)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\(28(h+1)^3(h+k)^4\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "係數最大公因數為 1、最小公倍數為 28；兩括號因式的最低指數為 2、1，最高為 3、4。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\((h+1)^2(h+k)\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\(28(h+1)^3(h+k)^4\\)。"
+            }
+          ]
+        },
+        "id": "import-polynomial-cb8eb2f76385b116"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "4cadfd5cff2d4854f64fc9a60a235203f683c9ac6eda5b1ff19f46f7ee6eea47",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.267Z"
+        },
+        "classification": {
+          "fingerprint": "4cadfd5cff2d4854f64fc9a60a235203f683c9ac6eda5b1ff19f46f7ee6eea47",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.268Z"
+        },
+        "mathematics": {
+          "fingerprint": "4cadfd5cff2d4854f64fc9a60a235203f683c9ac6eda5b1ff19f46f7ee6eea47",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.268Z"
+        },
+        "figures": {
+          "fingerprint": "4cadfd5cff2d4854f64fc9a60a235203f683c9ac6eda5b1ff19f46f7ee6eea47",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.269Z"
+        },
+        "studentView": {
+          "fingerprint": "4cadfd5cff2d4854f64fc9a60a235203f683c9ac6eda5b1ff19f46f7ee6eea47",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.270Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T09:04:42.566Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(5x^2+20x\\)\n\\(x^2+8x+16\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(5x^2+20x\\)\n\\(x^2+8x+16\\)",
+        "solution": "Factor as \\(5x(x+4)\\) and \\((x+4)^2\\), then compare factor powers.\nH.C.F.: \\(x+4\\).\nL.C.M.: \\(5x(x+4)^2\\).",
+        "solutionZh": "先分解為 \\(5x(x+4)\\) 及 \\((x+4)^2\\)，再比較因式次冪。\n最大公因式：\\(x+4\\)。\n最小公倍式：\\(5x(x+4)^2\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q5",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第5題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "5",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q5"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(5x^2+20x\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(x^2+8x+16\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(5x^2+20x\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(x^2+8x+16\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor as \\(5x(x+4)\\) and \\((x+4)^2\\), then compare factor powers."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(x+4\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\(5x(x+4)^2\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "先分解為 \\(5x(x+4)\\) 及 \\((x+4)^2\\)，再比較因式次冪。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(x+4\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\(5x(x+4)^2\\)。"
+            }
+          ]
+        },
+        "id": "import-polynomial-8d1864fe82ad22db"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "461ae8740eb486ee04ae444f70be506513fe40a396e9e06b17616489a96dbf8b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.271Z"
+        },
+        "classification": {
+          "fingerprint": "461ae8740eb486ee04ae444f70be506513fe40a396e9e06b17616489a96dbf8b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.271Z"
+        },
+        "mathematics": {
+          "fingerprint": "461ae8740eb486ee04ae444f70be506513fe40a396e9e06b17616489a96dbf8b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.272Z"
+        },
+        "figures": {
+          "fingerprint": "461ae8740eb486ee04ae444f70be506513fe40a396e9e06b17616489a96dbf8b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.273Z"
+        },
+        "studentView": {
+          "fingerprint": "461ae8740eb486ee04ae444f70be506513fe40a396e9e06b17616489a96dbf8b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.273Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T09:04:42.566Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(3v^2-9vz-12z^2\\)\n\\(8v^2-36vz+16z^2\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(3v^2-9vz-12z^2\\)\n\\(8v^2-36vz+16z^2\\)",
+        "solution": "Factor as \\(3(v-4z)(v+z)\\) and \\(4(v-4z)(2v-z)\\). Only \\(v-4z\\) is common; the coefficient lcm is 12.\nH.C.F.: \\(v-4z\\).\nL.C.M.: \\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\].",
+        "solutionZh": "分解為 \\(3(v-4z)(v+z)\\) 及 \\(4(v-4z)(2v-z)\\)。只有 \\(v-4z\\) 共同，係數最小公倍數為 12。\n最大公因式：\\(v-4z\\)。\n最小公倍式：\\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\]。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q6",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第6題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "6",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q6"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(3v^2-9vz-12z^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8v^2-36vz+16z^2\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(3v^2-9vz-12z^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8v^2-36vz+16z^2\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Factor as \\(3(v-4z)(v+z)\\) and \\(4(v-4z)(2v-z)\\). Only \\(v-4z\\) is common; the coefficient lcm is 12."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(v-4z\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\]."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "分解為 \\(3(v-4z)(v+z)\\) 及 \\(4(v-4z)(2v-z)\\)。只有 \\(v-4z\\) 共同，係數最小公倍數為 12。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(v-4z\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\[\\begin{gathered}12(v-4z) \\cdot(v+z) \\\\ \\cdot(2v-z)\\end{gathered}\\]。"
+            }
+          ]
+        },
+        "id": "import-polynomial-ce4b61bb3dd9ff24"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "8b77c5ef9819271f8f90624fc993b88792b1e7ad56ba7677d8874a27d1676405",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.274Z"
+        },
+        "classification": {
+          "fingerprint": "8b77c5ef9819271f8f90624fc993b88792b1e7ad56ba7677d8874a27d1676405",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.275Z"
+        },
+        "mathematics": {
+          "fingerprint": "8b77c5ef9819271f8f90624fc993b88792b1e7ad56ba7677d8874a27d1676405",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.276Z"
+        },
+        "figures": {
+          "fingerprint": "8b77c5ef9819271f8f90624fc993b88792b1e7ad56ba7677d8874a27d1676405",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.277Z"
+        },
+        "studentView": {
+          "fingerprint": "8b77c5ef9819271f8f90624fc993b88792b1e7ad56ba7677d8874a27d1676405",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.278Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T09:04:42.566Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "7",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(8a^3+1\\)\n\\(2ab+c+b+2ac\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(8a^3+1\\)\n\\(2ab+c+b+2ac\\)",
+        "solution": "Use the sum of cubes and grouping: \\((2a+1)(4a^2-2a+1)\\) and \\((2a+1)(b+c)\\).\nH.C.F.: \\(2a+1\\).\nL.C.M.: \\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\].",
+        "solutionZh": "利用立方和及分組，得 \\((2a+1)(4a^2-2a+1)\\) 及 \\((2a+1)(b+c)\\)。\n最大公因式：\\(2a+1\\)。\n最小公倍式：\\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\]。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q7",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第7題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "7",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q7"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8a^3+1\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(2ab+c+b+2ac\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8a^3+1\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(2ab+c+b+2ac\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Use the sum of cubes and grouping: \\((2a+1)(4a^2-2a+1)\\) and \\((2a+1)(b+c)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(2a+1\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\]."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "利用立方和及分組，得 \\((2a+1)(4a^2-2a+1)\\) 及 \\((2a+1)(b+c)\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(2a+1\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\[\\begin{gathered}(2a+1) \\cdot(b+c) \\\\ \\cdot(4a^2-2a+1)\\end{gathered}\\]。"
+            }
+          ]
+        },
+        "id": "import-polynomial-09ecedda60d5ccb3"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "350676012592fb864d1025f446a657f8e9d56446f14156f7085c57a63315c2ba",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.278Z"
+        },
+        "classification": {
+          "fingerprint": "350676012592fb864d1025f446a657f8e9d56446f14156f7085c57a63315c2ba",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.279Z"
+        },
+        "mathematics": {
+          "fingerprint": "350676012592fb864d1025f446a657f8e9d56446f14156f7085c57a63315c2ba",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.280Z"
+        },
+        "figures": {
+          "fingerprint": "350676012592fb864d1025f446a657f8e9d56446f14156f7085c57a63315c2ba",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.281Z"
+        },
+        "studentView": {
+          "fingerprint": "350676012592fb864d1025f446a657f8e9d56446f14156f7085c57a63315c2ba",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.282Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T09:04:42.566Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "8",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the H.C.F. and L.C.M. of the following expressions:\n\\(8p^2-12pq-8q^2\\)\n\\(p^3-p^2q-2pq^2\\)\n\\(4p^2q+6pq^2+2q^3\\)",
+        "stemZh": "求以下各式的最大公因式及最小公倍式：\n\\(8p^2-12pq-8q^2\\)\n\\(p^3-p^2q-2pq^2\\)\n\\(4p^2q+6pq^2+2q^3\\)",
+        "solution": "The factorizations are \\(4(2p+q)(p-2q)\\), \\(p(p-2q)(p+q)\\) and \\(2q(2p+q)(p+q)\\). No factor is shared by all three. Use every distinct factor once and coefficient lcm 4.\nH.C.F.: \\(1\\).\nL.C.M.: \\[\\begin{gathered}4pq \\cdot(p+q) \\\\ \\cdot(p-2q) \\\\ \\cdot(2p+q)\\end{gathered}\\].",
+        "solutionZh": "三式分別為 \\(4(2p+q)(p-2q)\\)、\\(p(p-2q)(p+q)\\)、\\(2q(2p+q)(p+q)\\)。沒有三式共有的因式；最小公倍式取全部相異因式各一次，係數取 4。\n最大公因式：\\(1\\)。\n最小公倍式：\\[\\begin{gathered}4pq \\cdot(p+q) \\\\ \\cdot(p-2q) \\\\ \\cdot(2p+q)\\end{gathered}\\]。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q8",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第8題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "8",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor completely, then compare numeric and irreducible-factor exponents across every expression.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q8"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Find the H.C.F. and L.C.M. of the following expressions:"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8p^2-12pq-8q^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(p^3-p^2q-2pq^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(4p^2q+6pq^2+2q^3\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "求以下各式的最大公因式及最小公倍式："
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(8p^2-12pq-8q^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(p^3-p^2q-2pq^2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "\\(4p^2q+6pq^2+2q^3\\)"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "The factorizations are \\(4(2p+q)(p-2q)\\), \\(p(p-2q)(p+q)\\) and \\(2q(2p+q)(p+q)\\). No factor is shared by all three. Use every distinct factor once and coefficient lcm 4."
+            },
+            {
+              "type": "paragraph",
+              "text": "H.C.F.: \\(1\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "L.C.M.: \\[\\begin{gathered}4pq \\cdot(p+q) \\\\ \\cdot(p-2q) \\\\ \\cdot(2p+q)\\end{gathered}\\]."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "三式分別為 \\(4(2p+q)(p-2q)\\)、\\(p(p-2q)(p+q)\\)、\\(2q(2p+q)(p+q)\\)。沒有三式共有的因式；最小公倍式取全部相異因式各一次，係數取 4。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最大公因式：\\(1\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "最小公倍式：\\[\\begin{gathered}4pq \\cdot(p+q) \\\\ \\cdot(p-2q) \\\\ \\cdot(2p+q)\\end{gathered}\\]。"
+            }
+          ]
+        },
+        "id": "import-polynomial-b23d20f9a7a504bd"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "bef1f3df940c281a92541fc06314b98cb2cc4cebe435c8a374d1a012ac7d732b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.283Z"
+        },
+        "classification": {
+          "fingerprint": "bef1f3df940c281a92541fc06314b98cb2cc4cebe435c8a374d1a012ac7d732b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.284Z"
+        },
+        "mathematics": {
+          "fingerprint": "bef1f3df940c281a92541fc06314b98cb2cc4cebe435c8a374d1a012ac7d732b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.285Z"
+        },
+        "figures": {
+          "fingerprint": "bef1f3df940c281a92541fc06314b98cb2cc4cebe435c8a374d1a012ac7d732b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.286Z"
+        },
+        "studentView": {
+          "fingerprint": "bef1f3df940c281a92541fc06314b98cb2cc4cebe435c8a374d1a012ac7d732b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.287Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T09:04:42.566Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "9",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-recover",
+        "stem": "The H.C.F. and L.C.M. of three polynomials are \\(4x^2-4x+1\\) and \\[\\begin{gathered}36(2x-1)^3 \\\\ \\cdot(2x+1)^4 \\\\ \\cdot(2x+3)^2\\end{gathered}\\] respectively. Two of them are \\(4(2x-1)^2(2x+1)^3\\) and \\(6(2x-1)^2(2x+3)\\). Find the third.",
+        "stemZh": "三多項式的最大公因式及最小公倍式分別為 \\(4x^2-4x+1\\) 及 \\[\\begin{gathered}36(2x-1)^3 \\\\ \\cdot(2x+1)^4 \\\\ \\cdot(2x+3)^2\\end{gathered}\\]。其中兩式為 \\(4(2x-1)^2(2x+1)^3\\) 及 \\(6(2x-1)^2(2x+3)\\)，求第三式。",
+        "solution": "The H.C.F. is \\((2x-1)^2\\). For coefficients, the third positive coefficient must have lcm 36 with 4 and 6 and gcd 1 with them, hence it is 9. The third expression must supply the missing maximum powers 3,4,2 of the three bracket factors. Thus it is \\[\\begin{gathered}9(2x-1)^3 \\\\ \\cdot(2x+1)^4 \\\\ \\cdot(2x+3)^2\\end{gathered}\\]. Checking all three gives the stated H.C.F. and L.C.M.",
+        "solutionZh": "最大公因式為 \\((2x-1)^2\\)。第三式的正係數與 4、6 的最小公倍數須為 36、最大公因數須為 1，因此為 9。三個括號因式的最高指數 3、4、2 均須由第三式提供，故為 \\[\\begin{gathered}9(2x-1)^3 \\\\ \\cdot(2x+1)^4 \\\\ \\cdot(2x+3)^2\\end{gathered}\\]。代回三式核對可得原定的最大公因式及最小公倍式。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q9",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第9題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "9",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "For three expressions use minimum/maximum prime and polynomial-factor exponents; the two-expression product identity does not apply.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q9"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-5eff83d683024bc3"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "f2c7df2413f07132ad175c6486846c52baaefb555a3d4ba8586c01a7bdde1f2b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.288Z"
+        },
+        "classification": {
+          "fingerprint": "f2c7df2413f07132ad175c6486846c52baaefb555a3d4ba8586c01a7bdde1f2b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.289Z"
+        },
+        "mathematics": {
+          "fingerprint": "f2c7df2413f07132ad175c6486846c52baaefb555a3d4ba8586c01a7bdde1f2b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.290Z"
+        },
+        "figures": {
+          "fingerprint": "f2c7df2413f07132ad175c6486846c52baaefb555a3d4ba8586c01a7bdde1f2b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.291Z"
+        },
+        "studentView": {
+          "fingerprint": "f2c7df2413f07132ad175c6486846c52baaefb555a3d4ba8586c01a7bdde1f2b",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.292Z"
+        }
+      }
+    },
+    {
+      "locator": "10",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-recover",
+        "stem": "Two degree-2 polynomials have H.C.F. \\(3x-2\\) and L.C.M. \\(6x^3+5x^2-3x-2\\).\n(a) Factorise the L.C.M.\n(b) Find the two polynomials.",
+        "stemZh": "兩個二次多項式的最大公因式為 \\(3x-2\\)，最小公倍式為 \\(6x^3+5x^2-3x-2\\)。\n(a) 把最小公倍式因式分解。\n(b) 求兩個多項式。",
+        "solution": "(a) \\[\\begin{gathered}6x^3 +5x^2 -3x -2 \\\\ =(3x-2)(2x+1)(x+1)\\end{gathered}\\].\n(b) Each quadratic contains the common linear factor and one of the other factors. The standard primitive representatives are \\[\\begin{gathered}(3x-2)(2x+1) =6x^2 \\\\ -x -2\\end{gathered}\\] and \\[\\begin{gathered}(3x-2)(x+1) =3x^2 \\\\ +x -2\\end{gathered}\\] (in either order). Nonzero scalar multiples are equivalent if H.C.F./L.C.M. are defined only up to units.",
+        "solutionZh": "(a) \\[\\begin{gathered}6x^3 +5x^2 -3x -2 \\\\ =(3x-2)(2x+1)(x+1)\\end{gathered}\\]。\n(b) 每個二次式包含共同的一次因式及餘下其中一個因式。取標準本原代表，兩式為 \\[\\begin{gathered}(3x-2)(2x+1) =6x^2 \\\\ -x -2\\end{gathered}\\] 及 \\[\\begin{gathered}(3x-2)(x+1) =3x^2 \\\\ +x -2\\end{gathered}\\]，次序可互換。若公因式／公倍式只定義至非零常數倍，則相應常數倍視為等價。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q10",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第10題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "10",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor the cubic LCM, retain the common linear factor and distribute the remaining two factors to keep degree2.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q10"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Two degree-2 polynomials have H.C.F. \\(3x-2\\) and L.C.M. \\(6x^3+5x^2-3x-2\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) Factorise the L.C.M."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Find the two polynomials."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "兩個二次多項式的最大公因式為 \\(3x-2\\)，最小公倍式為 \\(6x^3+5x^2-3x-2\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) 把最小公倍式因式分解。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 求兩個多項式。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) \\[\\begin{gathered}6x^3 +5x^2 -3x -2 \\\\ =(3x-2)(2x+1)(x+1)\\end{gathered}\\]."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Each quadratic contains the common linear factor and one of the other factors. The standard primitive representatives are \\[\\begin{gathered}(3x-2)(2x+1) =6x^2 \\\\ -x -2\\end{gathered}\\] and \\[\\begin{gathered}(3x-2)(x+1) =3x^2 \\\\ +x -2\\end{gathered}\\] (in either order). Nonzero scalar multiples are equivalent if H.C.F./L.C.M. are defined only up to units."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) \\[\\begin{gathered}6x^3 +5x^2 -3x -2 \\\\ =(3x-2)(2x+1)(x+1)\\end{gathered}\\]。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 每個二次式包含共同的一次因式及餘下其中一個因式。取標準本原代表，兩式為 \\[\\begin{gathered}(3x-2)(2x+1) =6x^2 \\\\ -x -2\\end{gathered}\\] 及 \\[\\begin{gathered}(3x-2)(x+1) =3x^2 \\\\ +x -2\\end{gathered}\\]，次序可互換。若公因式／公倍式只定義至非零常數倍，則相應常數倍視為等價。"
+            }
+          ]
+        },
+        "id": "import-polynomial-c17c8c82840f3f2c"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "648501f236f7f8fc78c739da6fd192de68990b18ca66ac51b747e8f0423b36db",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.293Z"
+        },
+        "classification": {
+          "fingerprint": "648501f236f7f8fc78c739da6fd192de68990b18ca66ac51b747e8f0423b36db",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.294Z"
+        },
+        "mathematics": {
+          "fingerprint": "648501f236f7f8fc78c739da6fd192de68990b18ca66ac51b747e8f0423b36db",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.295Z"
+        },
+        "figures": {
+          "fingerprint": "648501f236f7f8fc78c739da6fd192de68990b18ca66ac51b747e8f0423b36db",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.296Z"
+        },
+        "studentView": {
+          "fingerprint": "648501f236f7f8fc78c739da6fd192de68990b18ca66ac51b747e8f0423b36db",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.298Z"
+        }
+      }
+    },
+    {
+      "locator": "11",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Let \\[\\begin{gathered}f(x) =4x^3 -24x^2 \\\\ +17x +15\\end{gathered}\\] and \\[\\begin{gathered}g(x) =6x^3 -35x^2 \\\\ +19x +30\\end{gathered}\\].\n(a) Show that \\(2x-3\\) is a common factor.\n(b) Factorise both polynomials.\n(c) Find their H.C.F. and L.C.M.",
+        "stemZh": "設 \\[\\begin{gathered}f(x) =4x^3 -24x^2 \\\\ +17x +15\\end{gathered}\\] 及 \\[\\begin{gathered}g(x) =6x^3 -35x^2 \\\\ +19x +30\\end{gathered}\\]。\n(a) 證明 \\(2x-3\\) 是公因式。\n(b) 把兩式因式分解。\n(c) 求它們的最大公因式及最小公倍式。",
+        "solution": "(a) Direct substitution gives \\(f(3/2)=g(3/2)=0\\), so \\(2x-3\\) divides both.\n(b) Division gives \\[\\begin{gathered}f(x) \\\\ =(2x-3)(2x^2-9x-5) \\\\ =(2x-3)(x-5)(2x+1)\\end{gathered}\\] and \\[\\begin{gathered}g(x) \\\\ =(2x-3)(3x^2-13x-10) \\\\ =(2x-3)(x-5)(3x+2)\\end{gathered}\\].\n(c) H.C.F. \\((2x-3)(x-5)\\); L.C.M. \\[\\begin{gathered}(2x-3) \\cdot(x-5) \\\\ \\cdot(2x+1) \\\\ \\cdot(3x+2)\\end{gathered}\\].",
+        "solutionZh": "(a) 直接代入得 \\(f(3/2)=g(3/2)=0\\)，故 \\(2x-3\\) 是公因式。\n(b) 相除後得 \\[\\begin{gathered}f(x) \\\\ =(2x-3)(2x^2-9x-5) \\\\ =(2x-3)(x-5)(2x+1)\\end{gathered}\\]，\\[\\begin{gathered}g(x) \\\\ =(2x-3)(3x^2-13x-10) \\\\ =(2x-3)(x-5)(3x+2)\\end{gathered}\\]。\n(c) 最大公因式為 \\((2x-3)(x-5)\\)；最小公倍式為 \\[\\begin{gathered}(2x-3) \\cdot(x-5) \\\\ \\cdot(2x+1) \\\\ \\cdot(3x+2)\\end{gathered}\\]。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q11",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第11題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "11",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Prove a shared factor by substitution, divide and factor both quotients, then compare full factorisations.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q11"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Let \\[\\begin{gathered}f(x) =4x^3 -24x^2 \\\\ +17x +15\\end{gathered}\\] and \\[\\begin{gathered}g(x) =6x^3 -35x^2 \\\\ +19x +30\\end{gathered}\\]."
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) Show that \\(2x-3\\) is a common factor."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Factorise both polynomials."
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) Find their H.C.F. and L.C.M."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "設 \\[\\begin{gathered}f(x) =4x^3 -24x^2 \\\\ +17x +15\\end{gathered}\\] 及 \\[\\begin{gathered}g(x) =6x^3 -35x^2 \\\\ +19x +30\\end{gathered}\\]。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) 證明 \\(2x-3\\) 是公因式。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 把兩式因式分解。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) 求它們的最大公因式及最小公倍式。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) Direct substitution gives \\(f(3/2)=g(3/2)=0\\), so \\(2x-3\\) divides both."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Division gives \\[\\begin{gathered}f(x) \\\\ =(2x-3)(2x^2-9x-5) \\\\ =(2x-3)(x-5)(2x+1)\\end{gathered}\\] and \\[\\begin{gathered}g(x) \\\\ =(2x-3)(3x^2-13x-10) \\\\ =(2x-3)(x-5)(3x+2)\\end{gathered}\\]."
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) H.C.F. \\((2x-3)(x-5)\\); L.C.M. \\[\\begin{gathered}(2x-3) \\cdot(x-5) \\\\ \\cdot(2x+1) \\\\ \\cdot(3x+2)\\end{gathered}\\]."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 直接代入得 \\(f(3/2)=g(3/2)=0\\)，故 \\(2x-3\\) 是公因式。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 相除後得 \\[\\begin{gathered}f(x) \\\\ =(2x-3)(2x^2-9x-5) \\\\ =(2x-3)(x-5)(2x+1)\\end{gathered}\\]，\\[\\begin{gathered}g(x) \\\\ =(2x-3)(3x^2-13x-10) \\\\ =(2x-3)(x-5)(3x+2)\\end{gathered}\\]。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(c) 最大公因式為 \\((2x-3)(x-5)\\)；最小公倍式為 \\[\\begin{gathered}(2x-3) \\cdot(x-5) \\\\ \\cdot(2x+1) \\\\ \\cdot(3x+2)\\end{gathered}\\]。"
+            }
+          ]
+        },
+        "id": "import-polynomial-665a872e20211cd4"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "33dc6748df5e5ea5c47e214b90949706a63e67264638bdd5e78f7cad73350bf0",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.299Z"
+        },
+        "classification": {
+          "fingerprint": "33dc6748df5e5ea5c47e214b90949706a63e67264638bdd5e78f7cad73350bf0",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.300Z"
+        },
+        "mathematics": {
+          "fingerprint": "33dc6748df5e5ea5c47e214b90949706a63e67264638bdd5e78f7cad73350bf0",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.301Z"
+        },
+        "figures": {
+          "fingerprint": "33dc6748df5e5ea5c47e214b90949706a63e67264638bdd5e78f7cad73350bf0",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.302Z"
+        },
+        "studentView": {
+          "fingerprint": "33dc6748df5e5ea5c47e214b90949706a63e67264638bdd5e78f7cad73350bf0",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.303Z"
+        }
+      }
+    },
+    {
+      "locator": "12",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-recover",
+        "stem": "It is given that \\(3x+1\\) is a common factor of \\[\\begin{gathered}f(x) =12x^3 +49x^2 \\\\ +mx -n\\end{gathered}\\] and \\[\\begin{gathered}g(x) =6nx^3 -34x^2 \\\\ -5x +m\\end{gathered}\\], where \\(m,n\\) are constants.\n(a) Find \\(m,n\\).\n(b) Find the H.C.F. and L.C.M. of \\(f(x),g(x)\\).",
+        "stemZh": "已知 \\(3x+1\\) 是 \\[\\begin{gathered}f(x) =12x^3 +49x^2 \\\\ +mx -n\\end{gathered}\\] 及 \\[\\begin{gathered}g(x) =6nx^3 -34x^2 \\\\ -5x +m\\end{gathered}\\] 的公因式，其中 \\(m,n\\) 為常數。\n(a) 求 \\(m,n\\)。\n(b) 求兩式的最大公因式及最小公倍式。",
+        "solution": "(a) Set \\(x=-1/3\\). The equations reduce to \\(m+3n=15\\) and \\(9m-2n=19\\), giving \\(m=3,n=4\\).\n(b) Factor to get \\[\\begin{gathered}f(x) \\\\ =(3x+1)(4x-1)(x+4)\\end{gathered}\\] and \\[\\begin{gathered}g(x) \\\\ =(3x+1)(4x-1)(2x-3)\\end{gathered}\\]. H.C.F. \\((3x+1)(4x-1)\\); L.C.M. \\[\\begin{gathered}(3x+1) \\cdot(4x-1) \\\\ \\cdot(x+4) \\\\ \\cdot(2x-3)\\end{gathered}\\].",
+        "solutionZh": "(a) 代 \\(x=-1/3\\)，兩式化為 \\(m+3n=15\\)、\\(9m-2n=19\\)，得 \\(m=3,n=4\\)。\n(b) 因式分解得 \\[\\begin{gathered}f(x) \\\\ =(3x+1)(4x-1)(x+4)\\end{gathered}\\]、\\[\\begin{gathered}g(x) \\\\ =(3x+1)(4x-1)(2x-3)\\end{gathered}\\]。最大公因式為 \\((3x+1)(4x-1)\\)，最小公倍式為 \\[\\begin{gathered}(3x+1) \\cdot(4x-1) \\\\ \\cdot(x+4) \\\\ \\cdot(2x-3)\\end{gathered}\\]。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · Q12",
+        "sourceZh": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf · 第12題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-b34f32147917d1a2",
+          "sha256": "c6283b1894a4e3e74e314273655a2f678c96afeb095de67fb325fb540639980e",
+          "file": "S4/more about polynomials/H.C.F. and L.C.M revision.pdf",
+          "number": "12",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Use a common linear root to solve simultaneous coefficient conditions, then factor both reconstructed cubics.",
+          "evidence": "docs/qa/2026-11-16/hcf-wave/mathematics.json#source-b34f32147917d1a2-Q12"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "It is given that \\(3x+1\\) is a common factor of \\[\\begin{gathered}f(x) =12x^3 +49x^2 \\\\ +mx -n\\end{gathered}\\] and \\[\\begin{gathered}g(x) =6nx^3 -34x^2 \\\\ -5x +m\\end{gathered}\\], where \\(m,n\\) are constants."
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) Find \\(m,n\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Find the H.C.F. and L.C.M. of \\(f(x),g(x)\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "已知 \\(3x+1\\) 是 \\[\\begin{gathered}f(x) =12x^3 +49x^2 \\\\ +mx -n\\end{gathered}\\] 及 \\[\\begin{gathered}g(x) =6nx^3 -34x^2 \\\\ -5x +m\\end{gathered}\\] 的公因式，其中 \\(m,n\\) 為常數。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) 求 \\(m,n\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 求兩式的最大公因式及最小公倍式。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) Set \\(x=-1/3\\). The equations reduce to \\(m+3n=15\\) and \\(9m-2n=19\\), giving \\(m=3,n=4\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Factor to get \\[\\begin{gathered}f(x) \\\\ =(3x+1)(4x-1)(x+4)\\end{gathered}\\] and \\[\\begin{gathered}g(x) \\\\ =(3x+1)(4x-1)(2x-3)\\end{gathered}\\]. H.C.F. \\((3x+1)(4x-1)\\); L.C.M. \\[\\begin{gathered}(3x+1) \\cdot(4x-1) \\\\ \\cdot(x+4) \\\\ \\cdot(2x-3)\\end{gathered}\\]."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 代 \\(x=-1/3\\)，兩式化為 \\(m+3n=15\\)、\\(9m-2n=19\\)，得 \\(m=3,n=4\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 因式分解得 \\[\\begin{gathered}f(x) \\\\ =(3x+1)(4x-1)(x+4)\\end{gathered}\\]、\\[\\begin{gathered}g(x) \\\\ =(3x+1)(4x-1)(2x-3)\\end{gathered}\\]。最大公因式為 \\((3x+1)(4x-1)\\)，最小公倍式為 \\[\\begin{gathered}(3x+1) \\cdot(4x-1) \\\\ \\cdot(x+4) \\\\ \\cdot(2x-3)\\end{gathered}\\]。"
+            }
+          ]
+        },
+        "id": "import-polynomial-1f24e34771b1e783"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "093a9e271e9af31322fda74d3731cef14f380cab0175750aa326ad7010c87f59",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.304Z"
+        },
+        "classification": {
+          "fingerprint": "093a9e271e9af31322fda74d3731cef14f380cab0175750aa326ad7010c87f59",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.305Z"
+        },
+        "mathematics": {
+          "fingerprint": "093a9e271e9af31322fda74d3731cef14f380cab0175750aa326ad7010c87f59",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.307Z"
+        },
+        "figures": {
+          "fingerprint": "093a9e271e9af31322fda74d3731cef14f380cab0175750aa326ad7010c87f59",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.308Z"
+        },
+        "studentView": {
+          "fingerprint": "093a9e271e9af31322fda74d3731cef14f380cab0175750aa326ad7010c87f59",
+          "evidence": "Primary Codex personally reviewed all source pages/answer keys, complete bilingual fields and classifications, independently verified40 algebraic/structural checks, no figure-required questions in either source;276 draft states+46 mobile formula states passed. Evidence: docs/qa/2026-11-16/hcf-wave/{mathematics.json,draft/wave-qa.json}.",
+          "at": "2026-11-16T09:05:54.309Z"
+        }
+      }
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-11-16T09:01:21.400Z",
+      "event": "draft-saved",
+      "revision": 1
+    },
+    {
+      "at": "2026-11-16T09:04:42.566Z",
+      "event": "draft-saved",
+      "revision": 2
+    }
+  ],
+  "createdAt": "2026-11-16T09:01:21.400Z",
+  "catalog": {
+    "subjects": [
+      {
+        "id": "algebra",
+        "name": {
+          "en": "Algebra",
+          "zh-Hant": "代數"
+        },
+        "chapters": [
+          {
+            "id": "polynomials",
+            "topicId": "polynomial",
+            "name": {
+              "en": "Polynomials",
+              "zh-Hant": "多項式"
+            },
+            "subcategories": [
+              {
+                "id": "hcf-lcm",
+                "name": {
+                  "en": "Polynomial HCF and LCM",
+                  "zh-Hant": "多項式最大公因式與最小公倍式"
+                },
+                "skills": [
+                  "poly-hcf-lcm-factors",
+                  "poly-hcf-lcm-recover"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "poly-hcf-lcm-factors": "Factor completely and compare minimum/maximum powers / 完全分解及比較最低最高次冪",
+    "poly-hcf-lcm-recover": "Recover expressions from HCF/LCM constraints / 由最大公因式及最小公倍式還原多項式"
+  },
+  "import": {
+    "at": "2026-11-16T09:18:06.911Z",
+    "baseline": "dd604dddffd55042deefdde7028236383855a0a033ac2532b278f62e4549577f",
+    "report": {
+      "added": [],
+      "updated": [],
+      "unchanged": [
+        "import-polynomial-8335db02511e908d",
+        "import-polynomial-d5f5cea1a15cccb3",
+        "import-polynomial-74ea8c947fff09eb",
+        "import-polynomial-cb8eb2f76385b116",
+        "import-polynomial-8d1864fe82ad22db",
+        "import-polynomial-ce4b61bb3dd9ff24",
+        "import-polynomial-09ecedda60d5ccb3",
+        "import-polynomial-b23d20f9a7a504bd",
+        "import-polynomial-5eff83d683024bc3",
+        "import-polynomial-c17c8c82840f3f2c",
+        "import-polynomial-665a872e20211cd4",
+        "import-polynomial-1f24e34771b1e783"
+      ],
+      "chapters": [],
+      "taxonomyChanged": false
+    },
+    "mode": "verified-replay",
+    "backup": null
+  }
+}
