@@ -1,0 +1,175 @@
+{
+  "sourceId": "source-211b9446f11be59a",
+  "sourcePagesPersonallyReviewed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "checks": [
+    {
+      "number": 1,
+      "input": "2**a*4**(2*a)",
+      "result": "2**(5*a)",
+      "symbolicEquality": true
+    },
+    {
+      "number": 2,
+      "input": "1",
+      "result": "1",
+      "symbolicEquality": true
+    },
+    {
+      "number": 3,
+      "input": "8*x**3",
+      "result": "8*x**3",
+      "symbolicEquality": true
+    },
+    {
+      "number": 4,
+      "input": "21*y**2",
+      "result": "21*y**2",
+      "symbolicEquality": true
+    },
+    {
+      "number": 5,
+      "input": "(x + 1)*(2*x**2 - 2*x + 1)",
+      "result": "2*x**3 - x + 1",
+      "symbolicEquality": true
+    },
+    {
+      "number": 6,
+      "polynomials": [
+        "I",
+        "II"
+      ],
+      "excluded": "III: variable denominators produce exponent -1",
+      "answer": "A"
+    },
+    {
+      "number": 7,
+      "terms": 4,
+      "degree": 4,
+      "constant": 4,
+      "coefficient_x3y": -1,
+      "answer": "D"
+    },
+    {
+      "number": 8,
+      "input": "54",
+      "result": "54",
+      "symbolicEquality": true
+    },
+    {
+      "number": 9,
+      "input": "6*x**2 + 4*x - 6",
+      "result": "6*x**2 + 4*x - 6",
+      "symbolicEquality": true
+    },
+    {
+      "number": 10,
+      "input": "4*x - 18*y",
+      "result": "4*x - 18*y",
+      "symbolicEquality": true
+    },
+    {
+      "number": 11,
+      "input": "x**20*y**21",
+      "result": "x**20*y**21",
+      "symbolicEquality": true
+    },
+    {
+      "number": 12,
+      "input": "-y**8/x",
+      "result": "-y**8/x",
+      "symbolicEquality": true
+    },
+    {
+      "number": 13,
+      "m": 2,
+      "n": 10,
+      "method": "Compare independent variable exponents in the monomial identity."
+    },
+    {
+      "number": 14,
+      "input": "(x + 1)*(x**2 + 5*x + 6)",
+      "result": "x**3 + 6*x**2 + 11*x + 6",
+      "symbolicEquality": true
+    },
+    {
+      "number": 14,
+      "input": "(x + 3)*(x**2 + 3*x + 2)",
+      "result": "x**3 + 6*x**2 + 11*x + 6",
+      "symbolicEquality": true
+    },
+    {
+      "number": 15,
+      "input": "5*x**2 + 3*x + 9",
+      "result": "5*x**2 + 3*x + 9",
+      "symbolicEquality": true
+    },
+    {
+      "number": 15,
+      "input": "x**3 - 5*x - 10",
+      "result": "x**3 - 5*x - 10",
+      "symbolicEquality": true
+    },
+    {
+      "number": 16,
+      "input": "(2 - x)*(x**2 - 6*x + 4)",
+      "result": "-x**3 + 8*x**2 - 16*x + 8",
+      "symbolicEquality": true
+    },
+    {
+      "number": 17,
+      "input": "a**2*b - 6*a*b**2 - 6*a*b",
+      "result": "a**2*b - 6*a*b**2 - 6*a*b",
+      "symbolicEquality": true
+    },
+    {
+      "number": 17,
+      "input": "38",
+      "result": "38",
+      "symbolicEquality": true
+    },
+    {
+      "number": 18,
+      "input": "2*x*(x + 2)*(2*x + 7)",
+      "result": "4*x**3 + 22*x**2 + 28*x",
+      "symbolicEquality": true
+    },
+    {
+      "number": 18,
+      "input": "1190",
+      "result": "1190",
+      "symbolicEquality": true
+    },
+    {
+      "number": 19,
+      "input": "3*x + 3*y",
+      "result": "3*x + 3*y",
+      "symbolicEquality": true
+    },
+    {
+      "number": 19,
+      "x3y1": {
+        "AB": 12,
+        "BC": 12,
+        "AC": 10
+      },
+      "x1y1": {
+        "AB": 6,
+        "BC": 6,
+        "AC": 6
+      },
+      "equalSides": "AB=BC as explicitly stated; do not change to AB=AC"
+    }
+  ],
+  "allSourceAnswerKeysAgree": true,
+  "duplicateReview": "Compared normalized stems and nearest candidate full expressions/options/subparts against the entire canonical bank; no identical questions found. Similar solving method is not a duplicate.",
+  "sourceQuestions": 19,
+  "new": 19,
+  "duplicate": 0,
+  "held": 0
+}

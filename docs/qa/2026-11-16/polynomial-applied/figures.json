@@ -1,0 +1,30 @@
+[
+  {
+    "number": "9",
+    "sourceId": "source-211b9446f11be59a",
+    "sourcePath": "S1/polynomials/polynomial review.pdf",
+    "sourceSha256": "fedf38ca00ae013b328dd18044369b4a7d19b132da9cbd36d857fe2e59c89c44",
+    "page": 3,
+    "asset": "assets/intake/intake-211b9446f11be59a/q9.svg",
+    "assetSha256": "51c53acd38c1d4659ac8a2a695454fb0b5cad941f1a60d289c7ce9420b6c7f8f",
+    "method": "Personally hand-coded editable source-derived SVG; no delegated drawing, no solution content.",
+    "relationships": "4 right-angle marks; original adjacent-side expressions and cm units; no vertex labels.",
+    "standaloneVisual": "pass: primary Codex visually inspected standalone figure raster at 1440 after source page comparison",
+    "studentVisual": "pass: primary Codex inspected actual bilingual390px screenshot with all labels, units, MCQ options/self-assessment and solution; actual matrix checks all three languages at320/390/768/1440px; student/intake-211b9446f11be59a-q9-390.png",
+    "draftVisual": "pass: primary Codex inspected bilingual390px question and expanded solution; labels/units visible; no answer or neighbouring question leaks"
+  },
+  {
+    "number": "19",
+    "sourceId": "source-211b9446f11be59a",
+    "sourcePath": "S1/polynomials/polynomial review.pdf",
+    "sourceSha256": "fedf38ca00ae013b328dd18044369b4a7d19b132da9cbd36d857fe2e59c89c44",
+    "page": 4,
+    "asset": "assets/intake/intake-211b9446f11be59a/q19.svg",
+    "assetSha256": "f1428aac1b3e2d78548f0d503eeb1edcaccd8195eb1708346b3be8a1502e25f3",
+    "method": "Personally hand-coded editable source-derived SVG; no delegated drawing, no solution content.",
+    "relationships": "AB=BC follows explicit source statement; A top/B lower-left/C lower-right; AC label preserved. Coordinates A(190,50), B(70,210), C(270,210) give AB=BC=200, AC≈178.885. No invented numerical student labels.",
+    "standaloneVisual": "pass: primary Codex visually inspected standalone figure raster at 1440 after source page comparison",
+    "studentVisual": "pass: primary Codex inspected actual bilingual390px screenshot with all labels, units, MCQ options/self-assessment and solution; actual matrix checks all three languages at320/390/768/1440px; student/intake-211b9446f11be59a-q19-390.png",
+    "draftVisual": "pass: primary Codex inspected bilingual390px question and expanded solution; labels/units visible; no answer or neighbouring question leaks"
+  }
+]

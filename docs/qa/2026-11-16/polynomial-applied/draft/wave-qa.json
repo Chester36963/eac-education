@@ -1,0 +1,250 @@
+{
+  "status": "draft-rendering-verified",
+  "batches": [
+    {
+      "id": "intake-211b9446f11be59a",
+      "source": {
+        "id": "source-211b9446f11be59a",
+        "path": "S1/polynomials/polynomial review.pdf",
+        "sha256": "fedf38ca00ae013b328dd18044369b4a7d19b132da9cbd36d857fe2e59c89c44",
+        "pageCount": 5
+      },
+      "fingerprint": "295d98824b2e155d34ecabd38cb8a9309d0c476ba47584d3b2be00dadf5fcf6f",
+      "cached": false,
+      "count": 228
+    }
+  ],
+  "previewStates": 228,
+  "formulaFitStates": 38,
+  "formulaFit": [
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "1",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "2",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "3",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "4",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "5",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "6",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "7",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "8",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "9",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "10",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "11",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "12",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "13",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "14",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "15",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "16",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "17",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "18",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "19",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "1",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "2",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "3",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "4",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "5",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "6",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "7",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "8",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "9",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "10",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "11",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "12",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "13",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "14",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "15",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "16",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "17",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "18",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-211b9446f11be59a",
+      "locator": "19",
+      "width": 390,
+      "status": "pass"
+    }
+  ],
+  "boundary": "Source identity and rendering only. Does not grant human text, mathematical, classification or diagram approvals."
+}

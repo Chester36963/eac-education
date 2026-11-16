@@ -19,6 +19,8 @@ fs.mkdirSync(output,{recursive:true});
      await page.evaluate(({question,batchId,language})=>{delete document.body.dataset.preview;window.postMessage({type:'eac-preview',question,batchId,language},location.origin);},{question:record.question,batchId:id,language});
      await page.waitForFunction(key=>document.body.dataset.preview===key,record.question.id+':'+language);
      await page.locator('main img').evaluateAll(imgs=>Promise.all(imgs.map(i=>i.decode())));
+     const expectedFigures=[...new Set([record.question.diagram,...Object.values(record.question.contentBlocks||{}).flat().filter(b=>b.type==='figure').map(b=>b.diagram)].filter(Boolean).map(d=>d.src))];
+     for(const asset of expectedFigures)assert.equal(await page.locator('#draft-view img').evaluateAll((imgs,src)=>imgs.some(i=>i.src.endsWith(src)&&i.naturalWidth>0&&i.getBoundingClientRect().height>0),asset),true,record.locator+': required question visual not rendered '+asset);
      const solutionAssets=[...new Set(Object.values(record.question.solutionBlocks||{}).flat().filter(b=>b.type==='figure').map(b=>b.diagram.src))];
      for(const asset of solutionAssets)assert.equal(await page.locator('#draft-view img').evaluateAll((imgs,src)=>imgs.some(i=>i.src.endsWith(src)),asset),false,'Solution visual leaked into question');
      await page.locator('details').evaluate(d=>d.open=true);

@@ -72,3 +72,6 @@
 19PDF／119頁的重跑已實測19次快取命中；兩批300個草稿狀態亦可重用。這降低重複處理成本，沒有宣稱可省略雙語／數學／圖像核對或已完成萬題。
 
 補充：`node scripts/verify-student-formula-fit.cjs <batch-id[,batch-id]> <output.json>` 在隔離browser儲存實際開題／作答／展開解答／結束每組，核對320／390px每個可見MathJax公式的實際寬度（6px字形外溢容差）。可設EAC_BASE_URL查正式站。整頁不溢出不代表選項內公式完整；此工具補足該盲點，不代替數學或原圖核對。
+
+
+2026-11-16補充：preview-editor-batch及actual student matrix會核對每一個diagram/contentBlocks figure必須實際載入且可見。有contentBlocks的題目，題圖要明確放入各語言有次序區塊（雙語以src去重）；只留舊diagram欄位不足以顯示。題圖審核必須看獨立資產與真正學生頁，不能以JSON有路徑當驗收。

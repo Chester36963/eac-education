@@ -25,6 +25,8 @@ const results=[];
     else{console.log('SELF '+q.id+' at '+width);await p.locator('#written-answer').fill('Written pilot solution draft');await p.locator('#submit-btn').click();await p.evaluate(()=>EACMath.render(document.getElementById('active-set')));await p.locator('#self-correct-btn').click();await p.waitForFunction(()=>isAnswerSubmitted);assert.equal(await p.evaluate(()=>Storage.getUser().progress.byQuestion[question().id].assessment),'self');}
     for(const language of ['en','zh','bilingual']){
      await p.locator('[data-language="'+language+'"]').click();await active();assert.equal(await p.locator('[data-mjx-error],[data-math-error],mjx-merror').count(),0);assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,q.id+' overflow '+width);
+     const expectedFigures=[...new Set([q.diagram,...Object.values(q.contentBlocks||{}).flat().filter(b=>b.type==='figure').map(b=>b.diagram)].filter(Boolean).map(d=>d.src))];
+     for(const asset of expectedFigures)assert.equal(await p.locator('#active-set img').evaluateAll((imgs,src)=>imgs.some(i=>i.src.endsWith(src)&&i.naturalWidth>0&&i.getBoundingClientRect().height>0),asset),true,q.id+': required question visual not rendered '+asset);
      const residue=await p.locator('#active-set').evaluate(el=>{const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),found=[];let n;while(n=w.nextNode())if(!n.parentElement.closest('mjx-container,svg,script,style,[hidden]')&&/\\[()[\]]|\\(?:frac|sqrt)|cm\^[23]|勾股定理|I只有/.test(n.textContent))found.push(n.textContent);return found});assert.deepEqual(residue,[]);
      results.push({id:q.id,locator:row.locator,width,language,grading:q.options?'automatic':'self',status:'pass'});
     }
