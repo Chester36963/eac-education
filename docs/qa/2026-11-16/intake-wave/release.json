@@ -1,0 +1,531 @@
+{
+  "checkedAt": "2026-11-16T08:04:39.700Z",
+  "base": "https://chester36963.github.io/eac-education/",
+  "batchId": "intake-1d81eb240582d4e3",
+  "sourceId": "source-1d81eb240582d4e3",
+  "sourceSha256": "377870c2f52ab2ac7a1d0bd286178694480bf37b7f5903c26dd7bc6b00d4ce3f",
+  "commit": "2030f03a1aa15c9c5204ce3f3c6e815e275bea54",
+  "deployRunId": 43828040134,
+  "pagesRunId": 43828126263,
+  "pagesCommit": "4e05db1ad660c97b7a44ea0cc34e2561000fc9fd",
+  "revision": "9d7e7165968affe9",
+  "totalQuestions": 1356,
+  "chapters": 8,
+  "counts": {
+    "source": 30,
+    "recorded": 30,
+    "publish": 19,
+    "duplicate": 11,
+    "held": 0
+  },
+  "sha256Files": 122,
+  "checked": [
+    {
+      "path": "app.html",
+      "sha256": "6a136ff51cf4ed1be7fbf006439fe4d03fdc2bc7d5098da8d71467f19b15730f"
+    },
+    {
+      "path": "dashboard.html",
+      "sha256": "2ac51e14531b607d141cb3ab1254d7b778d8a03865d7cad6971941ccee530e48"
+    },
+    {
+      "path": "auth.html",
+      "sha256": "b0b0efe7de89e0afa19e25b860da3c9caa1adb93c86338687e13d63e96062519"
+    },
+    {
+      "path": "index.html",
+      "sha256": "b3d5e129430cab008ee74a05fac5d94b862ccb46deda3cd2da0236c9a8d9d3c6"
+    },
+    {
+      "path": "data/bank.json",
+      "sha256": "6a0358fe845105289d2b1133ca1d41a60b603e1000e55d2fe494d433f0ea9f61"
+    },
+    {
+      "path": "data/catalog.22b2d3451af49580.json",
+      "sha256": "22b2d3451af49580b5cc14418d643833acbd152af6b704c3712b36f861e4d7dd"
+    },
+    {
+      "path": "settings.html",
+      "sha256": "7217736df446a9763448acf8c1654c6a2e2bda9d2a1ef7c85560a079556ef9bb"
+    },
+    {
+      "path": "library.html",
+      "sha256": "d24142bcbb3e95a7779b7070dfab7a7d460468e0ce4d0ab47dad1066dc4377e1"
+    },
+    {
+      "path": "data/question-index.7ab2b06e8323bbd4.json",
+      "sha256": "7ab2b06e8323bbd4632a9bcfe8a34dafacbd81f7425193aa2ddfff54aed1452e"
+    },
+    {
+      "path": "data/search/four-centres.d429c20eae20ee5d.json",
+      "sha256": "d429c20eae20ee5de1fda55c549b9b87a67cc47ed9eb1393a5f4a75027cd4855"
+    },
+    {
+      "path": "data/search/locus.52eeea5df7a7b98a.json",
+      "sha256": "52eeea5df7a7b98a109d462df1fadd4ba8376cdf2f8142310b1b0cdf4fa9376a"
+    },
+    {
+      "path": "data/search/four-centres.7ea64259ee7debde.json",
+      "sha256": "7ea64259ee7debde58e943a164638d7aaf2353937e23419a3f24b55559ce80ae"
+    },
+    {
+      "path": "data/search/four-centres.87b6577506cd23ee.json",
+      "sha256": "87b6577506cd23ee56669747d965ffef465c4644cc372ec8989a53069418245e"
+    },
+    {
+      "path": "data/search/locus.fd9d2cbf7ed2a335.json",
+      "sha256": "fd9d2cbf7ed2a335d647055e54f291cb76458c7fc6105f3d113cbf41ba6c85ce"
+    },
+    {
+      "path": "data/search/circle-equation.214dcf1887b898c3.json",
+      "sha256": "214dcf1887b898c35d74b8bd2e44eb4f81b9eaf7e6b154ec6918f638b61103ab"
+    },
+    {
+      "path": "data/search/circle-equation.69c02a8dff1c5568.json",
+      "sha256": "69c02a8dff1c5568e5f8fe8239038b9c963d8021bbe17fac74147b9106d04e66"
+    },
+    {
+      "path": "data/search/polynomial.cee30946bfe9dc8b.json",
+      "sha256": "cee30946bfe9dc8b1fcd7930e0ece49e0cef1a1b2803be50da2cb879479cbf2b"
+    },
+    {
+      "path": "data/search/polynomial.6068037c6347aee5.json",
+      "sha256": "6068037c6347aee54d9b231c62ea9200c04690deb3eee8a72bca6f6e3e50e8f8"
+    },
+    {
+      "path": "data/search/sequences.c1f1b2789681a32a.json",
+      "sha256": "c1f1b2789681a32af15e3528d5c25e18806c2fa66f8e90449a3fe51e7f6d58f0"
+    },
+    {
+      "path": "data/search/linear-programming.cf5843c47f3edb53.json",
+      "sha256": "cf5843c47f3edb53f0240e3c3c31accaf2499943895c809b06b859420ba429e3"
+    },
+    {
+      "path": "data/search/mensuration.2c9f75323de6b8af.json",
+      "sha256": "2c9f75323de6b8affe8af2f4e83bd7e396883ea03e46786c58af1fcfa79ff00a"
+    },
+    {
+      "path": "data/search/mensuration.41feba679a2cdf02.json",
+      "sha256": "41feba679a2cdf028672e921d326a24a56866767b29795ef78228e5e003a737a"
+    },
+    {
+      "path": "data/search/statistics.f98d3c312fd36bfc.json",
+      "sha256": "f98d3c312fd36bfc7480a6a852bfd9f91c799f29347a50093b66faf11889af42"
+    },
+    {
+      "path": "data/chapters/four-centres.f8542d03f6e70c03.json",
+      "sha256": "f8542d03f6e70c03dfd1ce52ee8b633ad143b1dc601de64530090548c6f0c03f"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.25043db8d2d630b6.json",
+      "sha256": "25043db8d2d630b637c71d06be4d897acf188648cef24ba55cc111c900f14693"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.36bdbac50be61a32.json",
+      "sha256": "36bdbac50be61a32d0ab5e463a7cf420455b0a712f657c3ef31287873627dc49"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.b63a0aee73d69123.json",
+      "sha256": "b63a0aee73d691231dcd71931db9cd2233ab09b1d2345496e91b19a631f05ef1"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.204ffe0b177b293b.json",
+      "sha256": "204ffe0b177b293b2aa32dadb34aa29954c09973c98b15eadf0830a565c721f7"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.cd307039fa581f69.json",
+      "sha256": "cd307039fa581f69a186c323ea925492de48a225dbeef7fdcee970376e0cb0d2"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.3d2d2f9942a5fa55.json",
+      "sha256": "3d2d2f9942a5fa55a7eea8c288925c95a2074b3450fffcf92c2b618293a52d56"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.dded4aa6b17a8b7a.json",
+      "sha256": "dded4aa6b17a8b7a2eb728f40b9369b9bf0231f2a884fc0ba780fc8a034734a4"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.a89b90fc62b5b753.json",
+      "sha256": "a89b90fc62b5b753a0b5e53339a0b2ba312bd5d7f07d476133346352f6f678ea"
+    },
+    {
+      "path": "data/chapters/four-centres-chunk.c2b5cf0cf3a78033.json",
+      "sha256": "c2b5cf0cf3a78033e05e645ec37a79a489262018390f8fd334a898f54c5cf8e6"
+    },
+    {
+      "path": "data/chapters/locus-chunk.f8906ee0387b0f57.json",
+      "sha256": "f8906ee0387b0f575dd3dc1a14436ce18b04a14cce0565e2e271249aaeb6ab06"
+    },
+    {
+      "path": "data/chapters/locus-chunk.beb02589c41afa79.json",
+      "sha256": "beb02589c41afa79a85f3a3ccf58c82ddd65a73ac2f7e5d0a14ba07e344b7d3e"
+    },
+    {
+      "path": "data/chapters/locus.d694622c94fdfa1e.json",
+      "sha256": "d694622c94fdfa1e2068827e629747ea7ec322b5ad5c78afe121251cfa3cb5b7"
+    },
+    {
+      "path": "data/chapters/locus-chunk.fb14d2dd226a2949.json",
+      "sha256": "fb14d2dd226a294914be5afffb50e4e367b2772ff830e87ef1f05ced0372c94b"
+    },
+    {
+      "path": "data/chapters/locus-chunk.c4cc6cbf95c8941a.json",
+      "sha256": "c4cc6cbf95c8941a8d5cf1b1fc2be07519b7d65c9ab4a812829aa66b1808aba7"
+    },
+    {
+      "path": "data/chapters/locus-chunk.9e249576900be271.json",
+      "sha256": "9e249576900be2715b1359dee470359ea790a4118d5df1dbf650e10686b36139"
+    },
+    {
+      "path": "data/chapters/locus-chunk.b9bfe610181f5fd6.json",
+      "sha256": "b9bfe610181f5fd623e28961a70fea8dc358741dbdc2af21301945155ee36682"
+    },
+    {
+      "path": "data/chapters/locus-chunk.0001268726684be7.json",
+      "sha256": "0001268726684be7b37b977b2986830ae21cf882d76bcadc343206d3b10d6a59"
+    },
+    {
+      "path": "data/chapters/locus-chunk.60b2e22e6c5bb0e0.json",
+      "sha256": "60b2e22e6c5bb0e0521cbe892675fafe8eed3b32a35feaf13cff3e46235273df"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.6d3c12c6dd366489.json",
+      "sha256": "6d3c12c6dd366489729eca7b95780e62f8bdc7140f14505a8df1bcbe4bfea091"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.338f86fde18d83f5.json",
+      "sha256": "338f86fde18d83f54dcd8dcfbadb11b4240805baf5dad7d9fb8f13ea85f74bc5"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.1a90f36f0ee4a479.json",
+      "sha256": "1a90f36f0ee4a4799e46c6d9f9629b05157fe749098ad637f3edfb38a5e1d9af"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.4b537e221c0cc44d.json",
+      "sha256": "4b537e221c0cc44d8d1c8a525e13de981e031393c1928f3c0f63f93cdbaf1329"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.d9f8c16f84fdf3bd.json",
+      "sha256": "d9f8c16f84fdf3bd08c8ab8f1ff32d166493c4bf6e4f72ace19597ba4b10e4f6"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.b7ca70659bfb7347.json",
+      "sha256": "b7ca70659bfb7347950ac0becf730256edaaee02cce9eab0a7da93e2c0134f8d"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.1a1af2f44952bf9e.json",
+      "sha256": "1a1af2f44952bf9ea71538c2782ccfbecc0c40637215a33f112ff4c579e42bf6"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.9228dc35a578e2f9.json",
+      "sha256": "9228dc35a578e2f981282f3e79fd22ea2e5f1725a27e9f28637d1129ef2a2190"
+    },
+    {
+      "path": "data/chapters/circle-equation-chunk.035eefe4f53bea43.json",
+      "sha256": "035eefe4f53bea437dd3f72e59b02fec8169dbb62a4a8f3aa180ed6cf5609a3b"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.765794128cd32b30.json",
+      "sha256": "765794128cd32b30c71d6cf6051271d810e4c0e7662158da5aba14ee4fc79f6b"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.671b821d51b13ff8.json",
+      "sha256": "671b821d51b13ff8caba3da15563167014c31ab39bb71332d376862c19bf094f"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.b5360592e2b06f1b.json",
+      "sha256": "b5360592e2b06f1b24de2ffbacf3f811557af3dd34af364af84edc9a736fe7fe"
+    },
+    {
+      "path": "data/chapters/circle-equation.b5bafa7b1c30efd1.json",
+      "sha256": "b5bafa7b1c30efd177cbb8e1065ea8a2be5f75c6ef29a2e5e3ce94c1067eff71"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.6c0eba5ab750a0b5.json",
+      "sha256": "6c0eba5ab750a0b5a2be8b0332cbf2401544cf2a0b125a0d0e776e9fa5006179"
+    },
+    {
+      "path": "data/chapters/polynomial.5eeb4ea075f1c7ac.json",
+      "sha256": "5eeb4ea075f1c7ac4aa9ba6a67f51ab41678b2ec31ef8b46cc94f2f03143c994"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.ff05fe51c57f8d31.json",
+      "sha256": "ff05fe51c57f8d315e1764b59441206e56270cfba15edb6c271e994699bedf06"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.b218a363b90fac27.json",
+      "sha256": "b218a363b90fac271ad21d778f101c61851a367da1f402a10bcac6e0eabd17b5"
+    },
+    {
+      "path": "data/chapters/polynomial-chunk.961cb70c7f695474.json",
+      "sha256": "961cb70c7f695474b1c046e0a6fc28eae1b73c21ac1ead05de4c4df864e89552"
+    },
+    {
+      "path": "data/chapters/sequences.8640df57cb410d61.json",
+      "sha256": "8640df57cb410d61433cfa558e22e4f35f2ed0d349beaef642a352369f4ede4f"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.ea6266b9ffe3c6ab.json",
+      "sha256": "ea6266b9ffe3c6ab6a601716e6c77d5b7d733ab851199a6d1107b47ebe1efa16"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.b0e5b74b4add5434.json",
+      "sha256": "b0e5b74b4add543408c29404fecdb7907a863837605c9593176ef62b99a77cc7"
+    },
+    {
+      "path": "data/chapters/sequences-chunk.a9ad03fad141cf7a.json",
+      "sha256": "a9ad03fad141cf7a1c636139331b9bbe5531eeb0c3c225639f9d2a20ab5d3f26"
+    },
+    {
+      "path": "data/chapters/linear-programming.b6b0c00d6b3da76a.json",
+      "sha256": "b6b0c00d6b3da76a9948d80c83c576a5ebcc41644c47975123118c417a02e68b"
+    },
+    {
+      "path": "data/chapters/linear-programming-chunk.bb25fbc868c5c88c.json",
+      "sha256": "bb25fbc868c5c88cca2da1b7766eb6a8667b0008ed54953aa86056fe663df77b"
+    },
+    {
+      "path": "data/chapters/linear-programming-chunk.cafd9978ffffebde.json",
+      "sha256": "cafd9978ffffebdefba6573df7aa289c03612c24f5e9fd90627c869d8268d286"
+    },
+    {
+      "path": "data/chapters/mensuration.c03e50392cdcef04.json",
+      "sha256": "c03e50392cdcef044bac49ef08233a11e416ba0c5a46990c00403fc9c558ddae"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.48e8de054a67adc2.json",
+      "sha256": "48e8de054a67adc2e7119d7dbf4df6710a44790cab673d51aeb51ecfdd1d3f13"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.682036138afa8841.json",
+      "sha256": "682036138afa8841d9433382c8b1796dc6fc6161aaa478fa35cad938a224ef82"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.0775352123959810.json",
+      "sha256": "0775352123959810e206def20b6ad75b22c7bb05e96d689243b7387a8d87bcd3"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.e7eed03fd237bc1a.json",
+      "sha256": "e7eed03fd237bc1a110ba15be69f246fbcdf0becd58d5730cf139872dc5c592c"
+    },
+    {
+      "path": "js/core/auth.js",
+      "sha256": "8766d5e2f05ba20c917719dfdf7ef685f4e37d9c4cda9ce663680ced43ef4b69"
+    },
+    {
+      "path": "js/core/config.js",
+      "sha256": "b1e1a8f12835bf18ba0a07eb572d80558fc95a6f43e973348130bdcbbb5d965a"
+    },
+    {
+      "path": "js/core/content.js",
+      "sha256": "1402c2ec597a58efe5100c255f15a373e60e32269e2cbfd9b641b2e6286800f3"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.86178a75a62bcce1.json",
+      "sha256": "86178a75a62bcce10c1555da2783a31f594e1616b0f78b8ea42a4c64b9c4696b"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.946871f3e8244647.json",
+      "sha256": "946871f3e8244647fdc3e1d9694e7f432eae1dcded412b9359108b24e275a615"
+    },
+    {
+      "path": "js/core/math-models.js",
+      "sha256": "24789fc6d7908620651280652858eeb885f46fb276addec67a41a0df43109222"
+    },
+    {
+      "path": "js/core/learning.js",
+      "sha256": "5e3b6432a7a1ece9cc4f9b30b3eab1ea206c491678e4de023d7ada125c65480b"
+    },
+    {
+      "path": "js/core/math.js",
+      "sha256": "c8546b6621226ddf1c6e00841aaeeadb65dfc68180f2f908fd50cbab670e1de2"
+    },
+    {
+      "path": "js/core/question-bank.js",
+      "sha256": "13eaa2f39d9dff7613cbbf29e61b6aaf15cb367042d71e6f5f9ee47ffabd335b"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.74361f8889e0b19f.json",
+      "sha256": "74361f8889e0b19f356b030b922564f2bd84252aa1be000ce8b7608ef8ecb19e"
+    },
+    {
+      "path": "js/core/storage.js",
+      "sha256": "ed53ab097b521f4288bd16e238e4aa5b6b5ad11e615d001a08f425a7f620b363"
+    },
+    {
+      "path": "data/chapters/mensuration-chunk.66579812c9e60b7a.json",
+      "sha256": "66579812c9e60b7a5195b9c36af1938c46609a725e4683822bf08bcc829662d5"
+    },
+    {
+      "path": "data/chapters/statistics.d9c5e87ca24de4cc.json",
+      "sha256": "d9c5e87ca24de4cc1c760c2fc60d43be18d290159577756567976dc3a2e9c6f9"
+    },
+    {
+      "path": "data/chapters/statistics-chunk.94190e7ddcdde6b2.json",
+      "sha256": "94190e7ddcdde6b2301af986d046b96d859933a657bbef3ea17b4b9b1a65b22e"
+    },
+    {
+      "path": "data/chapters/statistics-chunk.dde2f0be2960a852.json",
+      "sha256": "dde2f0be2960a852fe77e9c15ffd6758366d6b7031c6e35b47572113e9946396"
+    },
+    {
+      "path": "js/features/gamification.js",
+      "sha256": "933f7b0f7aaad4aa1dc729fde0b8f5fa92fbc2f30c42ba5ac2037a1540a115f2"
+    },
+    {
+      "path": "js/core/papers.js",
+      "sha256": "501401530bac374c5e10721ee58d435163f313bef9f43bfe6df03394f8341aba"
+    },
+    {
+      "path": "js/core/search-worker.js",
+      "sha256": "275b3a9ab6605402ac1168034fa3992f533e3ef59320e809c7cd9d3a64e9fae2"
+    },
+    {
+      "path": "js/core/study-evidence.js",
+      "sha256": "9682c63c26225fa7fc82317c43d59fe8cd66920f12480459d8c0e92f7ed532f1"
+    },
+    {
+      "path": "js/engine/question-engine.js",
+      "sha256": "f068950ac4ee1ffb2d010529754aa8c667a17113ce1eb64f07dbf53461a36d75"
+    },
+    {
+      "path": "js/features/courses.js",
+      "sha256": "cb4bc23ef812a35bb8204be9df49e19c1d472f427c8a2be3fc1b9d5ac3a784bd"
+    },
+    {
+      "path": "js/features/dashboard.js",
+      "sha256": "e4b2d7b5dcc477926cc07e24c62430aa234d27f6f0acf25b7a5265204a3f58d2"
+    },
+    {
+      "path": "js/features/practice.js",
+      "sha256": "1eb8ef2a4249dc3670a062c7374c84ff677c50438dbec17dae4a4ad42857d6c2"
+    },
+    {
+      "path": "js/features/study-instruments.js",
+      "sha256": "1dfa26db0176588fb276a2969d7ee4251e0b21fdcfe84cf9c754e00ea439e994"
+    },
+    {
+      "path": "js/features/study-scenes.js",
+      "sha256": "6a9b1270d2ae8899dcb311725cdfcd2c339216a93f030c9e90cee4682ab3e72e"
+    },
+    {
+      "path": "js/features/exploration.js",
+      "sha256": "18148e21003a973162e4f49c10322c162d96a2048d7f486304596504b7e104a4"
+    },
+    {
+      "path": "js/features/study-ui.js",
+      "sha256": "e808fa8fa069484cf186de045972e6da823ff94e9e657fec526e7acfd7540678"
+    },
+    {
+      "path": "js/features/workspace.js",
+      "sha256": "2bfb682f432c3c4a41144340c5218f52aca5fabb0ca24adcfa954272857bd955"
+    },
+    {
+      "path": "css/base.css",
+      "sha256": "d85295e9aa06ce6ab6c1564e5743be4be6283900401804c65c49a01be09b0273"
+    },
+    {
+      "path": "css/components.css",
+      "sha256": "de178358c341513bbaa55e0a6e1111c4f269e1bcad5ab3a138d62abf4633d78f"
+    },
+    {
+      "path": "js/features/home-journey.js",
+      "sha256": "a377d661dc9d256e648f7d238b53d2110ed6c984b204bf7488ca32d7c71efcab"
+    },
+    {
+      "path": "js/features/lesson.js",
+      "sha256": "9e88797f6b14400e12d05e25d9b15d81f094e683937e4ba117f0a16dcaba63d7"
+    },
+    {
+      "path": "js/features/papers.js",
+      "sha256": "0ed5d0c935f4928a0a2bafc789067898d120d3c25c332680fb38382a7c716c77"
+    },
+    {
+      "path": "js/features/home.js",
+      "sha256": "5a357ec26387a6e438af2a6ba68e77b1e2686e0d50cd8228b40e3fec3b42587f"
+    },
+    {
+      "path": "js/features/library.js",
+      "sha256": "8191e304018022b102202716545ca13577d9c5b046f6bc1d92a0d45278ed5a31"
+    },
+    {
+      "path": "css/journey.css",
+      "sha256": "92248b2da24d02dd623f873382ed7c386a152c9b27a44ac6717b9e8e28210ab1"
+    },
+    {
+      "path": "css/math.css",
+      "sha256": "77c77caaa4f18d66eb37d162ac92ff326c06ace9f98944ecfc2ad3e6be137058"
+    },
+    {
+      "path": "js/features/settings.js",
+      "sha256": "528fc37a02b660b893bfd1ba88ffc8567254ff16a4ebe0079fb6fdd7ca8ee165"
+    },
+    {
+      "path": "css/responsive.css",
+      "sha256": "6bd65f67d1cdd2f3ce5d5b4cc195078a7112f4778154afb58d21933fc5e2f978"
+    },
+    {
+      "path": "css/site.css",
+      "sha256": "28d9a0b0b70966cef9de463185dabcee61e99d4d48c76f67a9a76b64b878a6c4"
+    },
+    {
+      "path": "css/study.css",
+      "sha256": "612d3b7328eef4362eba4e0fd1871004dbc0f27e446544c4c57a42f9a0e6ef95"
+    },
+    {
+      "path": "css/variables.css",
+      "sha256": "12cc8962c9780e2295b4a0bb88a89e2a0f1c8472603383ceed6fcfedbf81a3ab"
+    },
+    {
+      "path": "css/courses.css",
+      "sha256": "353478983a44d09f70cbd6f3fcef65910afd31f140e9140f1fcc04c71b70916f"
+    },
+    {
+      "path": "css/workspace.css",
+      "sha256": "acaf79183c80760378e1773287708a4f2ba2841ed82f575328e762afa5e9d7b6"
+    },
+    {
+      "path": "css/decorations.css",
+      "sha256": "1bb737bde14b52c32409e17d0019c4b36dc11dd342c2b11c2dd363a9e45ac8a9"
+    },
+    {
+      "path": "css/exploration.css",
+      "sha256": "f23c9b6de36688d3be0dec13b00d6b1f69fee7bd459876881438c2c358147e1e"
+    },
+    {
+      "path": "css/lesson.css",
+      "sha256": "dca4c69b5053cdb9421a68ddfe8bbf6a217dbc4d3b79e16bd91c2d901fe3c668"
+    },
+    {
+      "path": "css/home-journey.css",
+      "sha256": "aff6aee90c0c21135098d0b4e9f3c3aa6c1441325c4c0c12649cd7a66dc11f13"
+    },
+    {
+      "path": "css/papers.css",
+      "sha256": "6227f3093ea47ee49aa596fda0d6cae22e3448b2ee343138f26348000012d8cb"
+    },
+    {
+      "path": "css/library.css",
+      "sha256": "c28de94da456a536d5d52d476a4d27f83404bf73f2c3be5076c0b11809a82bff"
+    }
+  ],
+  "errors": [],
+  "limits": "Byte verification and successful deployment only. Browser journeys, source mathematics and graphic review have separate evidence; unprocessed sources are not counted as complete.",
+  "status": "完成",
+  "addedQuestions": 19,
+  "newDuplicateSourceLinks": 11,
+  "repairedPriorQuestionMetadata": 6,
+  "repairedPriorDuplicateSourceLinks": 10,
+  "nodeTests": 1148,
+  "draftStates": 300,
+  "draftFormulaFitStates": 50,
+  "localActualStudentStates": 300,
+  "localActualFormulaFitStates": 50,
+  "liveActualStudentStates": 300,
+  "liveActualFormulaFitStates": 50,
+  "preparedSourceFiles": 19,
+  "preparedPages": 119,
+  "nextPreparedSourceFiles": 15,
+  "nextPreparedPages": 102,
+  "remainingBoundary": "Other sources and the full 10000+ question collection are not complete; cached extraction is not publication."
+}

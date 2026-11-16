@@ -510,3 +510,5 @@ POLY-20261115正式驗收：main def6246、Deploy43721485789及Pages43721539266�
 Node1148項、300草稿、50公式及300真正作答／自評狀態通過，兩批快取重跑通過，build-content／curriculum／asset版本檢查通過。無新增圖資，本輪不是重繪交付。正式發布另記；[完整逐題QA](qa/2026-11-16/intake-wave/README.md)、[內容計劃](CONTENT_EXPANSION_PLAN.md)與[UI／UE路線圖](UI_UX_ROADMAP.md)分開維護；其餘萬題尚未完成。
 
 WAVE補充：第一版cb86bcb已部署並通過122檔hash／300正式作答。額外公式檢查發現手機長選項局部捲動；已用共用手機內距／字級修正，原始公式與revision不變。本機50個真正題面及展開解析的公式狀態、300作答及1148項Node重跑通過；新增可重用verify-student-formula-fit。最終正式版另核對。
+
+WAVE-20261116最終正式完成：main2030f03／Deploy43828040134／Pages43828126263成功；122檔hash、300正式作答狀態及50真正手機公式狀態通過。題庫1,356／revision9d7e7165968affe9。新題19、重複來源11、舊題metadata修正6、舊重複來源修正10；全體舊ID保留。下一批15來源102頁已快取但未核對，不計上架。[完整release](qa/2026-11-16/intake-wave/release.json)。

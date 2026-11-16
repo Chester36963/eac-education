@@ -1,6 +1,6 @@
 # WAVE-20261116 · 批量準備、來源修復與完整原卷入題
 
-狀態：本機驗收完成；正式發布另見 release.json，未有正式證據前不當作已部署。
+狀態：完成（本輪範圍）；正式main `2030f03`，Deploy43828040134／Pages43828126263成功。最終證據見release.json。
 
 | 工作編號 | 狀態 | 實際結果／證據 |
 |---|---|---|
@@ -9,7 +9,7 @@
 | WAVE-03 S1完整原卷 | 完成（本機） | 30原題＝19新增＋11確認重複／來源已連結＋0待補；完整雙語、技巧、難度、詳解。逐題ledger、MD、mathematics.json。 |
 | WAVE-04 S4來源更正 | 完成（本機） | 16舊來源＝6題metadata更正＋10重複來源更正；沒有新增16題。source-repair.json及保留原錯誤批次快照。 |
 | WAVE-05 作答及手機公式 | 完成（本機） | 300草稿狀態、50窄屏公式狀態、300真正作答／自評狀態；320／390／768／1440 × 三語。修正管理預覽雙重內距及真正學生頁手機選項內距／字級；保留原始公式與整個按鈕觸控範圍。 |
-| WAVE-06 正式發布核對 | 待驗收 | 同一main／同一網站；正式資產與作答另驗。 |
+| WAVE-06 正式發布核對 | 完成 | 最終main2030f03；122檔SHA一致、300正式作答狀態及50真正手機公式狀態；release.json。 |
 
 ## 題數與舊記錄
 
@@ -28,3 +28,5 @@ S4真正來源為 `S4/more about polynomials/S4 polynomials review 2.pdf`，sour
 bulk-queue.json保留1,086來源（其中135教科書檔案）；題數未點清仍顯示未點清。其「unlinked」僅表示未接到這份PDF／教科書清單，不表示舊HTML來源題目失效；分類findings亦是metadata待補，不等於已證實數學錯誤。UI／UE後續仍見[路線圖](../../../UI_UX_ROADMAP.md)，本批沒有宣稱完成全站視覺規格。
 
 補充實測：正式cb86bcb版122檔hash／300真正作答已通過（deployment/release.json、live-student/matrix.json）。額外實際公式寬度檢查發現Q16–18手機選項局部捲動，最終以共用workspace.css手機版處理，沒有保留嘗試過的多行公式改寫；canonical revision回復同一9d7e7165968affe9。最終本機50個真正學生頁公式狀態、300作答狀態及Node1148重跑全通過。新verify-student-formula-fit工具可直接重用，避免只靠全頁無溢出的假通過。最終正式驗收另見後續release資料。
+
+最終正式版：main `2030f03a1aa15c9c5204ce3f3c6e815e275bea54`，Deploy43828040134／Pages43828126263均成功；122檔SHA相同，revision9d7e7165968affe9，1,356題。live-final-student-matrix.json的300狀態及live-actual-formula-fit.json的50狀態全通過。next-wave.json明列其餘15份已準備來源／102頁，全部仍為待處理、題數未點清，直接沿用canonical草稿和既有pipeline，不再為每卷另寫匯入器。

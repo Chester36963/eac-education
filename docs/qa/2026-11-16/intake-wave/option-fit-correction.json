@@ -1,5 +1,5 @@
 {
-  "status": "本機完成；待正式部署驗收",
+  "status": "完成；正式驗收見release.json",
   "issue": "At 320px original inline Q16-Q18 factor options required horizontal scrolling although the full document did not overflow.",
   "fix": "Shared mobile option font, inner padding and letter badge width; removes duplicate trailing selection circle on <=390px. Selected border/background and aria-pressed remain; whole button min-height52px.",
   "contentUnchanged": true,
