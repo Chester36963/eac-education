@@ -1,0 +1,132 @@
+{
+  "errors": [],
+  "pending": [],
+  "ready": true,
+  "counts": {
+    "source": 20,
+    "recorded": 20,
+    "publish": 19,
+    "duplicate": 1,
+    "held": 0
+  },
+  "diff": {
+    "added": [],
+    "updated": [
+      "import-polynomial-fa2c16c54df999f3"
+    ],
+    "unchanged": [
+      "import-polynomial-95e266acf82e350c",
+      "import-polynomial-80ca0a6b4422063b",
+      "import-polynomial-0f1f0db791f1fd8d",
+      "import-polynomial-2a44b5e1d983d393",
+      "import-polynomial-c4c5f7199ce46bf3",
+      "import-polynomial-d7e1e22278a4ea38",
+      "import-polynomial-7a5958b016c61ec1",
+      "import-polynomial-62567c91141b5ff5",
+      "import-polynomial-356532277c407355",
+      "import-polynomial-41b024115cdd8ce1",
+      "import-polynomial-23ee40b214a4abe6",
+      "import-polynomial-422712497c3a8728",
+      "import-polynomial-1ab3a29519efae4a",
+      "import-polynomial-ddbef405ed01640f",
+      "import-polynomial-f1944c37b6ec0799",
+      "import-polynomial-93d5eed33156f4fc",
+      "import-polynomial-3e4bc3e1202dae22",
+      "import-polynomial-766c8221ecbe5d9c"
+    ],
+    "chapters": [],
+    "taxonomyChanged": false
+  },
+  "changes": [
+    {
+      "id": "import-polynomial-fa2c16c54df999f3",
+      "locator": "4",
+      "kind": "revision",
+      "fields": [
+        {
+          "field": "solution",
+          "before": "(a) Use \\[\\begin{gathered}f(x) \\\\ =(x^2+x-1)(4x^2+x+4) \\\\ +kx +k -5\\end{gathered}\\]. At \\(x=-2\\), \\(0=18-k-5\\), giving \\(k=13\\).\n(b) Substitute \\(-\\frac14\\) into this identity to get \\(f(-\\frac14)=0\\).\n(c) The two known roots give factors \\(x+2\\) and \\(4x+1\\). Dividing the expanded polynomial \\[\\begin{gathered}4x^4 +5x^3 +x^2 \\\\ +16x +4\\end{gathered}\\] by these factors gives \\(x^2-x+2\\). Hence \\[\\begin{gathered}f(x) \\\\ =(x+2)(4x+1)(x^2-x+2)\\end{gathered}\\]. The last factor has discriminant \\(-7\\), so has no real linear factors.",
+          "after": "(a) Use \\[\\begin{gathered}f(x) \\\\ =(x^2+x-1)(4x^2+x+4) \\\\ +kx +k -5\\end{gathered}\\]. At \\(x=-2\\), \\(0=18-k-5\\), giving \\(k=13\\).\n(b) Substitute \\(-\\frac14\\) into this identity to get \\(f(-\\frac14)=0\\).\n(c) The two known roots give factors \\(x+2\\) and \\(4x+1\\). Dividing the expanded polynomial \\[\\begin{gathered}4x^4 +5x^3 +x^2 \\\\ +16x +4\\end{gathered}\\] by these factors gives \\(x^2-x+2\\). Hence \\[\\begin{gathered}f(x) \\\\ =(x+2)(4x+1)\\\\ {}\\cdot(x^2-x+2)\\end{gathered}\\]. The last factor has discriminant \\(-7\\), so has no real linear factors."
+        },
+        {
+          "field": "solutionZh",
+          "before": "(a) 由除法恆等式 \\[\\begin{gathered}f(x) \\\\ =(x^2+x-1)(4x^2+x+4) \\\\ +kx +k -5\\end{gathered}\\]，代入 \\(-2\\) 得 \\(0=18-k-5\\)，故 \\(k=13\\)。\n(b) 把 \\(-\\frac14\\) 代入該恆等式，得 \\(f(-\\frac14)=0\\)。\n(c) 兩個已知根給出因式 \\(x+2\\) 及 \\(4x+1\\)。把展開式 \\[\\begin{gathered}4x^4 +5x^3 +x^2 \\\\ +16x +4\\end{gathered}\\] 除以兩因式得 \\(x^2-x+2\\)。故 \\[\\begin{gathered}f(x) \\\\ =(x+2)(4x+1)(x^2-x+2)\\end{gathered}\\]。最後的二次式判別式為 \\(-7\\)，不能再分解成實一次因式。",
+          "after": "(a) 由除法恆等式 \\[\\begin{gathered}f(x) \\\\ =(x^2+x-1)(4x^2+x+4) \\\\ +kx +k -5\\end{gathered}\\]，代入 \\(-2\\) 得 \\(0=18-k-5\\)，故 \\(k=13\\)。\n(b) 把 \\(-\\frac14\\) 代入該恆等式，得 \\(f(-\\frac14)=0\\)。\n(c) 兩個已知根給出因式 \\(x+2\\) 及 \\(4x+1\\)。把展開式 \\[\\begin{gathered}4x^4 +5x^3 +x^2 \\\\ +16x +4\\end{gathered}\\] 除以兩因式得 \\(x^2-x+2\\)。故 \\[\\begin{gathered}f(x) \\\\ =(x+2)(4x+1)\\\\ {}\\cdot(x^2-x+2)\\end{gathered}\\]。最後的二次式判別式為 \\(-7\\)，不能再分解成實一次因式。"
+        },
+        {
+          "field": "solutionBlocks",
+          "before": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Use \\[\\begin{gathered}f(x) \\\\ =(x^2+x-1)(4x^2+x+4) \\\\ +kx +k -5\\end{gathered}\\]. At \\(x=-2\\), \\(0=18-k-5\\), giving \\(k=13\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Substitute \\(-\\frac14\\) into this identity to get \\(f(-\\frac14)=0\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) The two known roots give factors \\(x+2\\) and \\(4x+1\\). Dividing the expanded polynomial \\[\\begin{gathered}4x^4 +5x^3 +x^2 \\\\ +16x +4\\end{gathered}\\] by these factors gives \\(x^2-x+2\\). Hence \\[\\begin{gathered}f(x) \\\\ =(x+2)(4x+1)(x^2-x+2)\\end{gathered}\\]. The last factor has discriminant \\(-7\\), so has no real linear factors."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 由除法恆等式 \\[\\begin{gathered}f(x) \\\\ =(x^2+x-1)(4x^2+x+4) \\\\ +kx +k -5\\end{gathered}\\]，代入 \\(-2\\) 得 \\(0=18-k-5\\)，故 \\(k=13\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 把 \\(-\\frac14\\) 代入該恆等式，得 \\(f(-\\frac14)=0\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 兩個已知根給出因式 \\(x+2\\) 及 \\(4x+1\\)。把展開式 \\[\\begin{gathered}4x^4 +5x^3 +x^2 \\\\ +16x +4\\end{gathered}\\] 除以兩因式得 \\(x^2-x+2\\)。故 \\[\\begin{gathered}f(x) \\\\ =(x+2)(4x+1)(x^2-x+2)\\end{gathered}\\]。最後的二次式判別式為 \\(-7\\)，不能再分解成實一次因式。"
+              }
+            ]
+          },
+          "after": {
+            "en": [
+              {
+                "type": "paragraph",
+                "text": "(a) Use \\[\\begin{gathered}f(x) \\\\ =(x^2+x-1)(4x^2+x+4) \\\\ +kx +k -5\\end{gathered}\\]. At \\(x=-2\\), \\(0=18-k-5\\), giving \\(k=13\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) Substitute \\(-\\frac14\\) into this identity to get \\(f(-\\frac14)=0\\)."
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) The two known roots give factors \\(x+2\\) and \\(4x+1\\). Dividing the expanded polynomial \\[\\begin{gathered}4x^4 +5x^3 +x^2 \\\\ +16x +4\\end{gathered}\\] by these factors gives \\(x^2-x+2\\). Hence \\[\\begin{gathered}f(x) \\\\ =(x+2)(4x+1)\\\\ {}\\cdot(x^2-x+2)\\end{gathered}\\]. The last factor has discriminant \\(-7\\), so has no real linear factors."
+              }
+            ],
+            "zh-Hant": [
+              {
+                "type": "paragraph",
+                "text": "(a) 由除法恆等式 \\[\\begin{gathered}f(x) \\\\ =(x^2+x-1)(4x^2+x+4) \\\\ +kx +k -5\\end{gathered}\\]，代入 \\(-2\\) 得 \\(0=18-k-5\\)，故 \\(k=13\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(b) 把 \\(-\\frac14\\) 代入該恆等式，得 \\(f(-\\frac14)=0\\)。"
+              },
+              {
+                "type": "paragraph",
+                "text": "(c) 兩個已知根給出因式 \\(x+2\\) 及 \\(4x+1\\)。把展開式 \\[\\begin{gathered}4x^4 +5x^3 +x^2 \\\\ +16x +4\\end{gathered}\\] 除以兩因式得 \\(x^2-x+2\\)。故 \\[\\begin{gathered}f(x) \\\\ =(x+2)(4x+1)\\\\ {}\\cdot(x^2-x+2)\\end{gathered}\\]。最後的二次式判別式為 \\(-7\\)，不能再分解成實一次因式。"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "locator": "5",
+      "candidateId": "import-polynomial-pl025",
+      "score": 0.686,
+      "note": "Candidate only: compare values, conditions, options and all subparts before merging."
+    }
+  ],
+  "digest": "88ca12c93cb5c0562976f8e9a81b3c43d96999fabcbdbe40f8fbdb769798d12f",
+  "baseline": "fa6db3d86b5ecc7f6a8aead3257cb4696df6d6393176d43c0bec78a7486ed626"
+}

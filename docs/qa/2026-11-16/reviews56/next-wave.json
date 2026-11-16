@@ -1,0 +1,117 @@
+{
+  "status": "待處理",
+  "sourceFiles": 10,
+  "pages": 71,
+  "publicationBoundary": "Prepared sources only; no confirmed question count, draft or mathematical approval inferred. No source-specific importer required: write canonical records, use existing pipeline and wave verification. Diagram review/redraw stays with primary Codex.",
+  "sources": [
+    {
+      "sourceId": "source-d8120baa178a69de",
+      "path": "S4/more about polynomials/HCF LCM rational function review.pdf",
+      "sha256": "d005e8089348fd21761331b0b2c25347779194e797a8f5e2ac8604da84f94e03",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-d8120baa178a69de/d005e8089348fd21/extraction.json",
+      "pages": 1,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    },
+    {
+      "sourceId": "source-6ee039a70be748a0",
+      "path": "S4/more about polynomials/POLYNOMIALS SPCC REVIEW.pdf",
+      "sha256": "0506c49a2ebdf2968fb623769ef7399da4cb84b79e2eed11b49140130a234c11",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-6ee039a70be748a0/0506c49a2ebdf296/extraction.json",
+      "pages": 9,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    },
+    {
+      "sourceId": "source-6ceac9f7154e0d99",
+      "path": "S4/more about polynomials/Polynomials LWMSS.pdf",
+      "sha256": "54b93cddf0af3f5235010753f8b62fcd2b452bca0a8f4952afa433a69d53bc74",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-6ceac9f7154e0d99/54b93cddf0af3f52/extraction.json",
+      "pages": 11,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    },
+    {
+      "sourceId": "source-d286eadf9a1d0b1c",
+      "path": "S4/more about polynomials/Polynomials reviews 4.pdf",
+      "sha256": "9bfd0180f13db034be3f5b098589e86a914d5eb25807dfd4dddcf697428cc640",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-d286eadf9a1d0b1c/9bfd0180f13db034/extraction.json",
+      "pages": 11,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    },
+    {
+      "sourceId": "source-98d8641aac7de987",
+      "path": "S4/more about polynomials/Rational function review.pdf",
+      "sha256": "0a566c3bd4f2d85051d0674bb3ddc12629796b5154ca3fac8d5b15c6730973f8",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-98d8641aac7de987/0a566c3bd4f2d850/extraction.json",
+      "pages": 3,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    },
+    {
+      "sourceId": "source-694fe8baac70e10e",
+      "path": "S4/more about polynomials/S4 polynomials revise.pdf",
+      "sha256": "2df3c02a2dd137e949975adee26149c7a8e3b6faefe8bc632c22fbb6a10e4b6c",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-694fe8baac70e10e/2df3c02a2dd137e9/extraction.json",
+      "pages": 3,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    },
+    {
+      "sourceId": "source-2bb812a1d216cbe3",
+      "path": "S4/more about polynomials/polynomials reviews.pdf",
+      "sha256": "179ec6ba6a2abfa8b5b39c92d5222171e6ae7cc68f82c67a14c4d3be060456a6",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-2bb812a1d216cbe3/179ec6ba6a2abfa8/extraction.json",
+      "pages": 5,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    },
+    {
+      "sourceId": "source-897e7ac56e3c825e",
+      "path": "S4/more about polynomials/polynomials reviews3.pdf",
+      "sha256": "56575d2afeec8704e28994e51406e34c91148c4304aa583be31cf522fd8a34f8",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-897e7ac56e3c825e/56575d2afeec8704/extraction.json",
+      "pages": 15,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    },
+    {
+      "sourceId": "source-ac2684d65f72ebaa",
+      "path": "S4/more about polynomials/polynomials reviewss.pdf",
+      "sha256": "b809edbef72aa474bd351144a4b4e72dcfa2259e3d66effd36cc1ce4709cfe32",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-ac2684d65f72ebaa/b809edbef72aa474/extraction.json",
+      "pages": 7,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    },
+    {
+      "sourceId": "source-97dd229bb4050385",
+      "path": "S4/more about polynomials/polynomials revision.pdf",
+      "sha256": "c11b4bb70dd08d69531628da81fafab23f7aef40b88c155d1ef0d6156850c9bc",
+      "cachePath": ".cache/bulk-intake/polynomial-wave/source-97dd229bb4050385/c11b4bb70dd08d69/extraction.json",
+      "pages": 6,
+      "status": "待處理",
+      "confirmedQuestionCount": null,
+      "approvals": []
+    }
+  ],
+  "previousSnapshot": "../polynomial-applied/next-wave.json",
+  "completedSinceSnapshot": {
+    "sourceFiles": 2,
+    "sourceRecords": 32,
+    "new": 23,
+    "duplicate": 9,
+    "correctedExisting": 1,
+    "evidence": "README.md"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "status": "draft-rendering-verified",
+  "batches": [
+    {
+      "id": "intake-ed72f75ab88da3bf",
+      "source": {
+        "id": "source-ed72f75ab88da3bf",
+        "path": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+        "sha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+        "pageCount": 9
+      },
+      "fingerprint": "4cad7c2314aa8a64487080c689cf0bb8f0bd67bafb3e73766b584ca8a9ad0508",
+      "cached": false,
+      "count": 228
+    }
+  ],
+  "previewStates": 228,
+  "formulaFitStates": 38,
+  "formulaFit": [
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "1",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "2",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "3",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "4",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "5",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "6",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "7",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "8",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "9",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "10",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "11",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "12",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "13",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "14",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "16",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "17",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "18",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "19",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "20",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "1",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "2",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "3",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "4",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "5",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "6",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "7",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "8",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "9",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "10",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "11",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "12",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "13",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "14",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "16",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "17",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "18",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "19",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-ed72f75ab88da3bf",
+      "locator": "20",
+      "width": 390,
+      "status": "pass"
+    }
+  ],
+  "boundary": "Source identity and rendering only. Does not grant human text, mathematical, classification or diagram approvals."
+}

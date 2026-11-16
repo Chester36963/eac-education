@@ -1,0 +1,126 @@
+{
+  "id": "import-polynomial-pl060",
+  "reason": "Review5 Q9 source reconciliation: handle the allowed zero-polynomial difference without adding a condition.",
+  "fieldsChanged": [
+    "adaptation",
+    "solution",
+    "solutionBlocks",
+    "solutionStatus",
+    "solutionZh"
+  ],
+  "before": {
+    "stem": "Let \\(f(x)=6x^3+5x^2+kx-8\\). When \\(f(x)\\) is divided by \\(3x^2+ax+2\\), the quotient and the remainder are \\(2x+b\\) and \\(cx-6\\) respectively, where \\(a,b,c\\) are constants.\n\n(a) Find \\(a\\).\n\n(b) Let \\(g(x)\\) be a cubic polynomial such that when \\(g(x)\\) is divided by \\(3x^2+ax+2\\), the remainder is \\(cx-6\\).\n\n(i) Prove that \\(f(x)-g(x)\\) is divisible by \\(3x^2+ax+2\\).\n\n(ii) Someone claims that all roots of \\(f(x)-g(x)=0\\) are real numbers. Do you agree? Explain your answer.",
+    "stemZh": "設 \\(f(x)=6x^3+5x^2+kx-8\\)。\\(f(x)\\) 被 \\(3x^2+ax+2\\) 除時商式及餘式分別為 \\(2x+b,cx-6\\)。\n\n(a) 求 \\(a\\)。\n\n(b) \\(g(x)\\) 被同一除式後餘式也為 \\(cx-6\\)。\n\n(i) 證明 \\(f-g\\) 可被該除式整除。\n\n(ii) \\(f-g=0\\) 的所有根是否皆為實數？",
+    "hint": "Read the divisor roots and the degree before calculating; the stated conditions determine the required polynomial structure.",
+    "hintZh": "兩個多項式有同一個餘式（remainder），相減後餘式必消失。",
+    "solution": "Part (a)\n\nBy the division algorithm,\n\n\\[\n6x^3+5x^2+kx-8=(3x^2+ax+2)(2x+b)+cx-6.\n\\]\n\nCompare the constant term:\n\n\\[\n2b-6=-8\n\\]\n\n\\[\nb=-1.\n\\]\n\nCompare the \\(x^2\\) coefficient:\n\n\\[\n3b+2a=5.\n\\]\n\nSubstitute \\(b=-1\\):\n\n\\[\n-3+2a=5\n\\]\n\n\\[\na=4.\n\\]\n\nPart (b)(i)\n\nSince \\(g(x)\\) has the same remainder \\(cx-6\\) when divided by \\(3x^2+ax+2\\), let\n\n\\[\ng(x)=(3x^2+ax+2)(px+q)+cx-6\n\\]\n\nfor constants \\(p,q\\). Therefore\n\n\\[\nf(x)-g(x)=(3x^2+ax+2)\\bigl((2x+b)-(px+q)\\bigr),\n\\]\n\nso \\(f(x)-g(x)\\) is divisible by \\(3x^2+ax+2\\).\n\n(ii) From (a), \\(a=4\\). Hence \\(3x^2+ax+2=3x^2+4x+2\\).\n\nFor\n\n\\[\n3x^2+4x+2=0,\n\\]\n\n\\[\n\\Delta=4^2-4(3)(2)=16-24=-8<0.\n\\]\n\nThis quadratic factor has no real roots. Therefore not all roots of \\(f(x)-g(x)=0\\) are real numbers. The claim is disagreed.",
+    "solutionZh": "第 (a) 部分\n\n除法恆等式（division identity）\\(f=(3x^2+ax+2)(2x+b)+cx-6\\)。\n\n常數項給 \\(2b-6=-8\\)，故 \\(b=-1\\)；比較 \\(x^2\\) 係數（coefficient）\\(3b+2a=5\\)，得 \\(a=4\\)。\n\n第 (b)(i) 部分\n\n若 \\(g=(3x^2+ax+2)(px+q)+cx-6\\)，相減即 \\(f-g=(3x^2+ax+2)[(2x+b)-(px+q)]\\)，所以可整除。\n\n第 (b)(ii) 部分\n\n\\(a=4\\) 時二次因式 \\(3x^2+4x+2\\) 的判別式（discriminant）為 \\(-8<0\\)，故不能所有根皆為實數。",
+    "id": "import-polynomial-pl060",
+    "subcategory": "polynomial-equations",
+    "skill": "poly-root-nature",
+    "classification": {
+      "version": "2026-10-21.1",
+      "basis": "factorisation and discriminant/root classification required",
+      "status": "rule-classified",
+      "originalTopic": "",
+      "sourceLevel": "★★★★★"
+    },
+    "questionType": "structured",
+    "difficulty": "challenging",
+    "minForm": 4,
+    "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+    "source": "Extra PDF · Polynomials Reviewss · P1 Q3",
+    "sourceZh": "來源所列（未獨立核實）：Extra PDF · Polynomials Reviewss · P1 Q3",
+    "provenance": {
+      "collection": "1013-webpage",
+      "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+      "topic": "polynomial",
+      "kind": "long",
+      "sourceId": "PL060",
+      "row": 60,
+      "set": null,
+      "number": null,
+      "attribution": "source-reported-unverified"
+    },
+    "assessmentMode": "solution-comparison"
+  },
+  "after": {
+    "stem": "Let \\(f(x)=6x^3+5x^2+kx-8\\). When \\(f(x)\\) is divided by \\(3x^2+ax+2\\), the quotient and the remainder are \\(2x+b\\) and \\(cx-6\\) respectively, where \\(a,b,c\\) are constants.\n\n(a) Find \\(a\\).\n\n(b) Let \\(g(x)\\) be a cubic polynomial such that when \\(g(x)\\) is divided by \\(3x^2+ax+2\\), the remainder is \\(cx-6\\).\n\n(i) Prove that \\(f(x)-g(x)\\) is divisible by \\(3x^2+ax+2\\).\n\n(ii) Someone claims that all roots of \\(f(x)-g(x)=0\\) are real numbers. Do you agree? Explain your answer.",
+    "stemZh": "設 \\(f(x)=6x^3+5x^2+kx-8\\)。\\(f(x)\\) 被 \\(3x^2+ax+2\\) 除時商式及餘式分別為 \\(2x+b,cx-6\\)。\n\n(a) 求 \\(a\\)。\n\n(b) \\(g(x)\\) 被同一除式後餘式也為 \\(cx-6\\)。\n\n(i) 證明 \\(f-g\\) 可被該除式整除。\n\n(ii) \\(f-g=0\\) 的所有根是否皆為實數？",
+    "hint": "Read the divisor roots and the degree before calculating; the stated conditions determine the required polynomial structure.",
+    "hintZh": "兩個多項式有同一個餘式（remainder），相減後餘式必消失。",
+    "solution": "(a) Write the division identity in two lines:\n\\[D(x)=3x^2+ax+2,\\]\n\\[\\begin{gathered}f(x)=D(x)(2x+b)\\\\ {}+cx-6.\\end{gathered}\\]\nComparing constants gives \\(2b-6=-8\\), so \\(b=-1\\). Comparing coefficients of \\(x^2\\) gives \\(3b+2a=5\\), so \\(a=4\\). The coefficient of \\(x\\) then gives \\(c=k\\).\n\n(b)(i) Put \\(D(x)=3x^2+4x+2\\). Since \\(g\\) is cubic and has the same remainder, write\n\\[\\begin{gathered}g(x)=D(x)(px+q)\\\\ {}+kx-6,\\end{gathered}\\]\nwhere \\(p\\ne0\\). Subtracting gives\n\\[f(x)-g(x)=D(x)L(x),\\]\n\\[L(x)=(2-p)x-1-q.\\]\nThus \\(D\\) divides \\(f-g\\), including when the difference is identically zero.\n\n(b)(ii) The claim is not guaranteed. The quadratic \\(D\\) has discriminant \\(4^2-4(3)(2)=-8<0\\). If \\(f-g\\) is a nonzero polynomial, its factor \\(D\\) gives nonreal roots. For a concrete permitted counterexample, take \\(g=f+D\\). This is still cubic and has the same remainder; then \\(f-g=-D\\), whose roots are nonreal.\n\nThe original conditions also allow \\(p=2,q=-1\\), giving \\(g=f\\). In that identity case \\(f-g\\equiv0\\), so every real \\(x\\) solves the equation; the usual root-count argument for a nonzero polynomial does not apply. Do not silently assume \\(g\\ne f\\).",
+    "solutionZh": "(a) 先寫除法恆等式：\n\\[D(x)=3x^2+ax+2,\\]\n\\[\\begin{gathered}f(x)=D(x)(2x+b)\\\\ {}+cx-6.\\end{gathered}\\]\n比較常數項，\\(2b-6=-8\\)，故 \\(b=-1\\)。比較 \\(x^2\\) 係數，\\(3b+2a=5\\)，得 \\(a=4\\)。再比較 \\(x\\) 係數，得 \\(c=k\\)。\n\n(b)(i) 設 \\(D(x)=3x^2+4x+2\\)。由於 \\(g\\) 是三次多項式，而且餘式相同，可寫成\n\\[\\begin{gathered}g(x)=D(x)(px+q)\\\\ {}+kx-6,\\end{gathered}\\]\n其中 \\(p\\ne0\\)。相減得\n\\[f(x)-g(x)=D(x)L(x),\\]\n\\[L(x)=(2-p)x-1-q.\\]\n因此 \\(D\\) 可整除 \\(f-g\\)，即使差式恆等於零亦成立。\n\n(b)(ii) 該聲稱不一定成立。二次式 \\(D\\) 的判別式為 \\(4^2-4(3)(2)=-8<0\\)。若 \\(f-g\\) 並非零多項式，其因式 \\(D\\) 便產生非實根。一個符合原題的反例是取 \\(g=f+D\\)：它仍是三次式，餘式相同，而 \\(f-g=-D\\) 的根並非實數。\n\n但原題亦容許 \\(p=2,q=-1\\)，即 \\(g=f\\)。此時 \\(f-g\\equiv0\\)，每個實數 \\(x\\) 均滿足方程，不能套用非零多項式的根數論證。不可擅自補上 \\(g\\ne f\\) 的限制。",
+    "id": "import-polynomial-pl060",
+    "subcategory": "polynomial-equations",
+    "skill": "poly-root-nature",
+    "classification": {
+      "version": "2026-10-21.1",
+      "basis": "factorisation and discriminant/root classification required",
+      "status": "rule-classified",
+      "originalTopic": "",
+      "sourceLevel": "★★★★★"
+    },
+    "questionType": "structured",
+    "difficulty": "challenging",
+    "minForm": 4,
+    "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+    "source": "Extra PDF · Polynomials Reviewss · P1 Q3",
+    "sourceZh": "來源所列（未獨立核實）：Extra PDF · Polynomials Reviewss · P1 Q3",
+    "provenance": {
+      "collection": "1013-webpage",
+      "sha256": "af56d2daa36f8615eb1f27152fec0951c1a10910ed81dc30f4d3366a6eaebcfd",
+      "topic": "polynomial",
+      "kind": "long",
+      "sourceId": "PL060",
+      "row": 60,
+      "set": null,
+      "number": null,
+      "attribution": "source-reported-unverified"
+    },
+    "assessmentMode": "solution-comparison",
+    "solutionBlocks": {
+      "en": [
+        {
+          "type": "paragraph",
+          "text": "(a) Write the division identity in two lines:\n\\[D(x)=3x^2+ax+2,\\]\n\\[\\begin{gathered}f(x)=D(x)(2x+b)\\\\ {}+cx-6.\\end{gathered}\\]\nComparing constants gives \\(2b-6=-8\\), so \\(b=-1\\). Comparing coefficients of \\(x^2\\) gives \\(3b+2a=5\\), so \\(a=4\\). The coefficient of \\(x\\) then gives \\(c=k\\)."
+        },
+        {
+          "type": "paragraph",
+          "text": "(b)(i) Put \\(D(x)=3x^2+4x+2\\). Since \\(g\\) is cubic and has the same remainder, write\n\\[\\begin{gathered}g(x)=D(x)(px+q)\\\\ {}+kx-6,\\end{gathered}\\]\nwhere \\(p\\ne0\\). Subtracting gives\n\\[f(x)-g(x)=D(x)L(x),\\]\n\\[L(x)=(2-p)x-1-q.\\]\nThus \\(D\\) divides \\(f-g\\), including when the difference is identically zero."
+        },
+        {
+          "type": "paragraph",
+          "text": "(b)(ii) The claim is not guaranteed. The quadratic \\(D\\) has discriminant \\(4^2-4(3)(2)=-8<0\\). If \\(f-g\\) is a nonzero polynomial, its factor \\(D\\) gives nonreal roots. For a concrete permitted counterexample, take \\(g=f+D\\). This is still cubic and has the same remainder; then \\(f-g=-D\\), whose roots are nonreal."
+        },
+        {
+          "type": "paragraph",
+          "text": "The original conditions also allow \\(p=2,q=-1\\), giving \\(g=f\\). In that identity case \\(f-g\\equiv0\\), so every real \\(x\\) solves the equation; the usual root-count argument for a nonzero polynomial does not apply. Do not silently assume \\(g\\ne f\\)."
+        }
+      ],
+      "zh-Hant": [
+        {
+          "type": "paragraph",
+          "text": "(a) 先寫除法恆等式：\n\\[D(x)=3x^2+ax+2,\\]\n\\[\\begin{gathered}f(x)=D(x)(2x+b)\\\\ {}+cx-6.\\end{gathered}\\]\n比較常數項，\\(2b-6=-8\\)，故 \\(b=-1\\)。比較 \\(x^2\\) 係數，\\(3b+2a=5\\)，得 \\(a=4\\)。再比較 \\(x\\) 係數，得 \\(c=k\\)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "(b)(i) 設 \\(D(x)=3x^2+4x+2\\)。由於 \\(g\\) 是三次多項式，而且餘式相同，可寫成\n\\[\\begin{gathered}g(x)=D(x)(px+q)\\\\ {}+kx-6,\\end{gathered}\\]\n其中 \\(p\\ne0\\)。相減得\n\\[f(x)-g(x)=D(x)L(x),\\]\n\\[L(x)=(2-p)x-1-q.\\]\n因此 \\(D\\) 可整除 \\(f-g\\)，即使差式恆等於零亦成立。"
+        },
+        {
+          "type": "paragraph",
+          "text": "(b)(ii) 該聲稱不一定成立。二次式 \\(D\\) 的判別式為 \\(4^2-4(3)(2)=-8<0\\)。若 \\(f-g\\) 並非零多項式，其因式 \\(D\\) 便產生非實根。一個符合原題的反例是取 \\(g=f+D\\)：它仍是三次式，餘式相同，而 \\(f-g=-D\\) 的根並非實數。"
+        },
+        {
+          "type": "paragraph",
+          "text": "但原題亦容許 \\(p=2,q=-1\\)，即 \\(g=f\\)。此時 \\(f-g\\equiv0\\)，每個實數 \\(x\\) 均滿足方程，不能套用非零多項式的根數論證。不可擅自補上 \\(g\\ne f\\) 的限制。"
+        }
+      ]
+    },
+    "solutionStatus": "independently-rederived",
+    "adaptation": {
+      "en": "Independent solution adds the permitted identity case g=f and an explicit cubic counterexample, omitted by the source brief solution. Original question conditions retained.",
+      "zh-Hant": "獨立推導補回來源簡答遺漏的 g=f 恆等情況及明確三次式反例；保留原題條件。"
+    }
+  }
+}

@@ -1,0 +1,931 @@
+{
+  "sourceRecords": 40,
+  "counts": {
+    "new": 32,
+    "duplicate": 8,
+    "held": 0,
+    "existingSolutionCorrections": 1
+  },
+  "records": [
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl007",
+      "skill": "poly-root-nature",
+      "subcategory": "polynomial-equations",
+      "difficulty": "hard",
+      "difficultyReason": "Existing canonical difficulty retained; source question fully matched.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-b17be01ff768109d",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Factor a quadratic and a cubic before comparing repeated-factor powers.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-596b5941b594abb4",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "hard",
+      "difficultyReason": "Connect division identity to full factorisation, rational subtraction and retained excluded values.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl067",
+      "skill": "poly-higher-remainder",
+      "subcategory": "division-identities",
+      "difficulty": "challenging",
+      "difficultyReason": "Existing canonical difficulty retained; source question fully matched.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl041",
+      "skill": "poly-compare-coefficients",
+      "subcategory": "division-identities",
+      "difficulty": "hard",
+      "difficultyReason": "Existing canonical difficulty retained; source question fully matched.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl027",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "challenging",
+      "difficultyReason": "Existing canonical difficulty retained; source question fully matched.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "7",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-f54b8ade01fb7e7b",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "hard",
+      "difficultyReason": "Prove and factor a cubic, simplify a rational quotient and complete the square while checking its domain.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "8",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl034",
+      "skill": "poly-compare-coefficients",
+      "subcategory": "division-identities",
+      "difficulty": "challenging",
+      "difficultyReason": "Existing canonical difficulty retained; source question fully matched.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "9",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl060",
+      "skill": "poly-root-nature",
+      "subcategory": "polynomial-equations",
+      "difficulty": "challenging",
+      "difficultyReason": "Existing canonical difficulty retained; source question fully matched.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "10",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-15489917bf4d5b9c",
+      "skill": "poly-root-nature",
+      "subcategory": "polynomial-equations",
+      "difficulty": "hard",
+      "difficultyReason": "Use two remainder conditions to parameterise a cubic, distinguish quadratic repeated roots from overlap with an existing root.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "11",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-ccd8725ca24c8b91",
+      "skill": "poly-read-structure",
+      "subcategory": "polynomial-structure",
+      "difficulty": "easy",
+      "difficultyReason": "Compare degrees of products and powers without expansion.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "12",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-p057",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "medium",
+      "difficultyReason": "Existing canonical difficulty retained; source question fully matched.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "13",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-05d942db62b35d45",
+      "skill": "poly-factor-parameters",
+      "subcategory": "theorems",
+      "difficulty": "medium",
+      "difficultyReason": "Use the remainder condition to derive k cubed equals k; retain k=0 before evaluating the requested remainder.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "14",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-fffa96237eaf9083",
+      "skill": "factor-theorem",
+      "subcategory": "theorems",
+      "difficulty": "easy",
+      "difficultyReason": "Factor the cubic and match every listed factor, including scalar-equivalent expressions.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "15",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-1e57c1240cc17dcc",
+      "skill": "poly-substitution",
+      "subcategory": "transformed-polynomials",
+      "difficulty": "easy",
+      "difficultyReason": "Choose the transformed input giving the known zero and apply the factor theorem.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "16",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-c7829ac4afe2dda2",
+      "skill": "poly-factor-parameters",
+      "subcategory": "theorems",
+      "difficulty": "easy",
+      "difficultyReason": "Eliminate linked coefficients using the given quadratic divisor condition.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "17",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-0f65add4fdf90eb6",
+      "skill": "poly-hcf-lcm-recover",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Recover missing repeated-factor powers from both the HCF and LCM.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "18",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-1a9ad26af86ceb10",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Factor both polynomials and take the greatest power of each distinct factor.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "19",
+      "pages": [
+        4
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-2b9d690313ce9904",
+      "skill": "poly-direct-remainder",
+      "subcategory": "theorems",
+      "difficulty": "easy",
+      "difficultyReason": "Evaluate the quotient identity at the zero of the divisor.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-c7958114decf991b",
+      "sourceId": "source-c7958114decf991b",
+      "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+      "number": "20",
+      "pages": [
+        4
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-ac70e54a951479cc",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "easy",
+      "difficultyReason": "Reconstruct dividend as divisor times quotient plus remainder.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review5-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-95e266acf82e350c",
+      "skill": "poly-compare-coefficients",
+      "subcategory": "division-identities",
+      "difficulty": "hard",
+      "difficultyReason": "Compare coefficients containing linked parameters, then factor and classify every root.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-80ca0a6b4422063b",
+      "skill": "poly-factor-parameters",
+      "subcategory": "theorems",
+      "difficulty": "hard",
+      "difficultyReason": "Solve two linked remainder conditions, then factor the transformed equation instead of solving f(x)=0.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-0f1f0db791f1fd8d",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "medium",
+      "difficultyReason": "Use a linear quotient and two evaluated conditions, then count real roots by discriminant.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-fa2c16c54df999f3",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "hard",
+      "difficultyReason": "Reconstruct a quartic from its division identity and exploit a newly evaluated root to factor it.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-2a44b5e1d983d393",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "medium",
+      "difficultyReason": "Recover the unknown quotient from two conditions, then distinguish irrational roots from nonreal roots.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-c4c5f7199ce46bf3",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "medium",
+      "difficultyReason": "Solve the linear remainder, verify a rational root and classify the quadratic roots.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "7",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-d7e1e22278a4ea38",
+      "skill": "poly-root-nature",
+      "subcategory": "polynomial-equations",
+      "difficulty": "hard",
+      "difficultyReason": "Exhaust discriminant-zero and root-overlap cases, distinguishing multiplicity from distinct-root count.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "8",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-7a5958b016c61ec1",
+      "skill": "poly-factor-parameters",
+      "subcategory": "theorems",
+      "difficulty": "medium",
+      "difficultyReason": "Solve coefficient conditions, then factor the shifted equation with a known root.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "9",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-62567c91141b5ff5",
+      "skill": "poly-division-identity",
+      "subcategory": "division-identities",
+      "difficulty": "medium",
+      "difficultyReason": "Evaluate the division identity at two known roots without assuming an unstated polynomial degree.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "10",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-356532277c407355",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "medium",
+      "difficultyReason": "Factor both expressions and compare common factors with minimum multiplicities.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "11",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-41b024115cdd8ce1",
+      "skill": "poly-multiple-conditions",
+      "subcategory": "theorems",
+      "difficulty": "medium",
+      "difficultyReason": "Use both opposite-input remainder conditions to solve coefficients before evaluating a new remainder.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "12",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-23ee40b214a4abe6",
+      "skill": "poly-factor-parameters",
+      "subcategory": "theorems",
+      "difficulty": "easy",
+      "difficultyReason": "Substitute the root of a parameter-dependent linear factor; cancellation leaves a linear condition.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "13",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-422712497c3a8728",
+      "skill": "poly-direct-remainder",
+      "subcategory": "theorems",
+      "difficulty": "easy",
+      "difficultyReason": "Subtract evaluations at opposite inputs to eliminate the even-power coefficient.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "14",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-1ab3a29519efae4a",
+      "skill": "poly-substitution",
+      "subcategory": "transformed-polynomials",
+      "difficulty": "easy",
+      "difficultyReason": "Solve the transformed input giving the known zero before selecting a linear factor.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "15",
+      "pages": [
+        3
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-05d942db62b35d45",
+      "skill": "poly-factor-parameters",
+      "subcategory": "theorems",
+      "difficulty": "medium",
+      "difficultyReason": "Expand and collect the full expression before checking the requested structure.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "16",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-ddbef405ed01640f",
+      "skill": "poly-factor-parameters",
+      "subcategory": "theorems",
+      "difficulty": "easy",
+      "difficultyReason": "Determine the constant from the given factor, then evaluate a different remainder.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "17",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-f1944c37b6ec0799",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "easy",
+      "difficultyReason": "Take the minimum exponent of each variable across three monomials.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "18",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-93d5eed33156f4fc",
+      "skill": "poly-direct-remainder",
+      "subcategory": "theorems",
+      "difficulty": "easy",
+      "difficultyReason": "Determine the quadratic coefficient from one remainder, then evaluate at a fractional input.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "19",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-3e4bc3e1202dae22",
+      "skill": "poly-hcf-lcm-factors",
+      "subcategory": "hcf-lcm",
+      "difficulty": "easy",
+      "difficultyReason": "Combine the LCM of numerical coefficients with maximum variable exponents.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    },
+    {
+      "batchId": "intake-ed72f75ab88da3bf",
+      "sourceId": "source-ed72f75ab88da3bf",
+      "sourceSha256": "150c863aa115a30655a1ee302e414e213bc96e61cbb99da2ddc2141bc00cb3d9",
+      "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 6.pdf",
+      "number": "20",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "canonicalId": "import-polynomial-766c8221ecbe5d9c",
+      "skill": "poly-factor-parameters",
+      "subcategory": "theorems",
+      "difficulty": "easy",
+      "difficultyReason": "Evaluate at the parameter-dependent divisor root; leading terms cancel.",
+      "status": "完成",
+      "evidence": {
+        "sourceAndMathematics": "mathematics.json",
+        "draft": "review6-wave.json",
+        "student": "student/matrix.json"
+      },
+      "publicationStatus": "待驗收"
+    }
+  ]
+}

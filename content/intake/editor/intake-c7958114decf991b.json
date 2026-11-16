@@ -1,0 +1,1811 @@
+{
+  "schemaVersion": 1,
+  "id": "intake-c7958114decf991b",
+  "sourceId": "source-c7958114decf991b",
+  "sourcePath": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+  "sourceSha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+  "topicId": "polynomial",
+  "expectedQuestions": 20,
+  "revision": 72,
+  "records": [
+    {
+      "locator": "1",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl007",
+      "reason": "Personally matched complete question, all values, conditions, subparts against source page 1. Retain canonical student ID and attach this source locator.",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=x^{3}+ax^{2}+bx-14\\), where \\(a\\) and \\(b\\) are constants. When \\(f(x)\\) is divided by \\(x+1\\), the remainder is \\(-36\\). It is given that \\(f(x)\\) is divisible by \\(x-2\\).\n\n(a) Find \\(a\\) and \\(b\\).\n\n(b) A student claims that all the roots of the equation \\(f(x)=0\\) are real. Do you agree? Explain your answer.",
+        "stemZh": "設 \\(f(x)=x^3+ax^2+bx-14\\)，其中 \\(a,b\\) 為常數。當 \\(f(x)\\) 被 \\(x+1\\) 除時，餘式為 \\(-36\\)。已知 \\(f(x)\\) 可被 \\(x-2\\) 整除。\n\n(a) 求 \\(a,b\\)。\n\n(b) 有學生聲稱方程 \\(f(x)=0\\) 的所有根都是實數。你是否同意？解釋你的答案。",
+        "hint": "One non-zero remainder and one factor condition give two equations; the root claim is a separate final task.",
+        "hintZh": "一個非零餘式和一個因式條件正好給兩條線性方程；找完參數後仍須審核根。",
+        "solution": "Part (a)\n\nSince the remainder when divided by \\(x+1\\) is \\(-36\\),\n\n\\[\nf(-1)=-36.\n\\]\n\n\\[\n-1+a-b-14=-36\n\\]\n\n\\[\na-b=-21. \\tag{1}\n\\]\n\nSince \\(f(x)\\) is divisible by \\(x-2\\),\n\n\\[\nf(2)=0.\n\\]\n\n\\[\n8+4a+2b-14=0\n\\]\n\n\\[\n2a+b=3. \\tag{2}\n\\]\n\nSolving \\(1\\) and \\(2\\),\n\n\\[\na=-6,\\qquad b=15.\n\\]\n\nPart (b)\n\nThen\n\n\\[\nf(x)=x^3-6x^2+15x-14.\n\\]\n\nSince \\(x-2\\) is a factor,\n\n\\[\nf(x)=(x-2)(x^2-4x+7).\n\\]\n\nFor \\(x^2-4x+7=0\\),\n\n\\[\n\\Delta=(-4)^2-4(1)(7)=16-28=-12<0.\n\\]\n\nThe quadratic factor has no real roots. Therefore not all roots of \\(f(x)=0\\) are real. The claim is disagreed.",
+        "solutionZh": "第 (a) 部分\n\n餘式條件給出 \\(f(-1)=-36\\)：\n\n\\[\n-1+a-b-14=-36,\\qquad a-b=-21. \\tag{1}\n\\]\n\n因式條件給出 \\(f(2)=0\\)：\n\n\\[\n8+4a+2b-14=0,\\qquad 2a+b=3. \\tag{2}\n\\]\n\n聯立 \\(1\\)、\\(2\\)，得\n\n\\[\na=-6,\\qquad b=15.\n\\]\n\n第 (b) 部分\n\n\\[\nf(x)=x^3-6x^2+15x-14.\n\\]\n\n因為 \\(x-2\\) 是因式，\n\n\\[\nf(x)=(x-2)(x^2-4x+7).\n\\]\n\n剩餘二次式的判別式為\n\n\\[\n\\Delta=(-4)^2-4(1)(7)=-12<0.\n\\]\n\n它沒有實根，所以不同意該聲稱。",
+        "subcategory": "polynomial-equations",
+        "skill": "poly-root-nature",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "factorisation and discriminant/root classification required",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★☆"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q1",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第1題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "1",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-d6163849f1e8c219"
+      },
+      "approvals": {}
+    },
+    {
+      "locator": "2",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Given \\(P(x)=x^2-x-6\\) and \\[\\begin{gathered}Q(x) =x^3 -4x^2 -3x \\\\ +18\\end{gathered}\\].\n(a) Factorise \\(P(x)\\) and \\(Q(x)\\).\n(b) Find their G.C.D. and L.C.M.",
+        "stemZh": "已知 \\(P(x)=x^2-x-6\\) 及 \\[\\begin{gathered}Q(x) =x^3 -4x^2 -3x \\\\ +18\\end{gathered}\\]。\n(a) 把 \\(P(x)\\) 及 \\(Q(x)\\) 因式分解。\n(b) 求兩式的最大公因式及最小公倍式。",
+        "solution": "(a) \\(P(x)=(x-3)(x+2)\\). As \\(Q(-2)=0\\), division by \\(x+2\\) gives \\(x^2-6x+9\\), so \\(Q(x)=(x+2)(x-3)^2\\).\n(b) Take minimum factor powers for the G.C.D. and maximum powers for the L.C.M.: G.C.D. \\((x-3)(x+2)\\); L.C.M. \\((x+2)(x-3)^2\\).",
+        "solutionZh": "(a) \\(P(x)=(x-3)(x+2)\\)。由 \\(Q(-2)=0\\)，除以 \\(x+2\\) 得 \\(x^2-6x+9\\)，故 \\(Q(x)=(x+2)(x-3)^2\\)。\n(b) 公因式取最低次冪，公倍式取最高次冪：最大公因式 \\((x-3)(x+2)\\)；最小公倍式 \\((x+2)(x-3)^2\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q2",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第2題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "2",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor a quadratic and a cubic before comparing repeated-factor powers.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q2"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Given \\(P(x)=x^2-x-6\\) and \\[\\begin{gathered}Q(x) =x^3 -4x^2 -3x \\\\ +18\\end{gathered}\\]."
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) Factorise \\(P(x)\\) and \\(Q(x)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Find their G.C.D. and L.C.M."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "已知 \\(P(x)=x^2-x-6\\) 及 \\[\\begin{gathered}Q(x) =x^3 -4x^2 -3x \\\\ +18\\end{gathered}\\]。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) 把 \\(P(x)\\) 及 \\(Q(x)\\) 因式分解。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 求兩式的最大公因式及最小公倍式。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) \\(P(x)=(x-3)(x+2)\\). As \\(Q(-2)=0\\), division by \\(x+2\\) gives \\(x^2-6x+9\\), so \\(Q(x)=(x+2)(x-3)^2\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Take minimum factor powers for the G.C.D. and maximum powers for the L.C.M.: G.C.D. \\((x-3)(x+2)\\); L.C.M. \\((x+2)(x-3)^2\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) \\(P(x)=(x-3)(x+2)\\)。由 \\(Q(-2)=0\\)，除以 \\(x+2\\) 得 \\(x^2-6x+9\\)，故 \\(Q(x)=(x+2)(x-3)^2\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 公因式取最低次冪，公倍式取最高次冪：最大公因式 \\((x-3)(x+2)\\)；最小公倍式 \\((x+2)(x-3)^2\\)。"
+            }
+          ]
+        },
+        "id": "import-polynomial-b17be01ff768109d"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "0558b25640ece7033401e1d5f2143652afee1837c528c8217f2e1cb1fbb10401",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.853Z"
+        },
+        "classification": {
+          "fingerprint": "0558b25640ece7033401e1d5f2143652afee1837c528c8217f2e1cb1fbb10401",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.856Z"
+        },
+        "mathematics": {
+          "fingerprint": "0558b25640ece7033401e1d5f2143652afee1837c528c8217f2e1cb1fbb10401",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.857Z"
+        },
+        "figures": {
+          "fingerprint": "0558b25640ece7033401e1d5f2143652afee1837c528c8217f2e1cb1fbb10401",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.859Z"
+        },
+        "studentView": {
+          "fingerprint": "0558b25640ece7033401e1d5f2143652afee1837c528c8217f2e1cb1fbb10401",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.860Z"
+        }
+      }
+    },
+    {
+      "locator": "3",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "division-identities",
+        "skill": "poly-division-identity",
+        "stem": "(a) Write down the quotient and remainder when \\(2x^3-x^2-6x-4\\) is divided by \\(2x^2-3x-9\\).\n(b) Let \\[\\begin{gathered}g(x) \\\\ =(2x^3-x^2-6x-4) \\\\ -(ax+b)\\end{gathered}\\], where \\(a,b\\) are constants. It is given that \\(g(x)\\) is divisible by \\(2x^2-3x-9\\).\n(i) Write down \\(a,b\\).\n(ii) Factorise \\(g(x)\\).\n(iii) Let \\(f(x)=x^3-7x-6\\). Simplify \\[\\begin{gathered}\\frac1{f(x)} \\\\ -\\frac1{g(x)}\\end{gathered}\\].",
+        "stemZh": "(a) 寫出 \\(2x^3-x^2-6x-4\\) 被 \\(2x^2-3x-9\\) 除的商及餘式。\n(b) 設 \\[\\begin{gathered}g(x) \\\\ =(2x^3-x^2-6x-4) \\\\ -(ax+b)\\end{gathered}\\]，其中 \\(a,b\\) 為常數。已知 \\(g(x)\\) 可被 \\(2x^2-3x-9\\) 整除。\n(i) 寫出 \\(a,b\\)。\n(ii) 把 \\(g(x)\\) 因式分解。\n(iii) 設 \\(f(x)=x^3-7x-6\\)，化簡 \\[\\begin{gathered}\\frac1{f(x)} \\\\ -\\frac1{g(x)}\\end{gathered}\\]。",
+        "solution": "(a) Long division gives quotient \\(x+1\\) and remainder \\(6x+5\\).\n(b)(i) Subtract the entire remainder: \\(a=6,b=5\\).\n(ii) \\[\\begin{gathered}g(x) \\\\ =(2x^2-3x-9)(x+1) \\\\ =(2x+3)(x-3)(x+1)\\end{gathered}\\].\n(iii) \\[\\begin{gathered}f(x) \\\\ =(x+1)(x+2)(x-3)\\end{gathered}\\]. Taking a common denominator leaves numerator \\((2x+3)-(x+2)=x+1\\). Cancel this factor to obtain \\(\\frac1{(x-3)(x+2)(2x+3)}\\).\nThe original expression requires \\[\\begin{gathered}x\\ne -2, -\\frac32, \\\\ -1,3\\end{gathered}\\]; cancellation does not restore \\(x=-1\\).",
+        "solutionZh": "(a) 用長除法得商 \\(x+1\\)，餘式 \\(6x+5\\)。\n(b)(i) 須減去整個餘式，故 \\(a=6,b=5\\)。\n(ii) \\[\\begin{gathered}g(x) \\\\ =(2x^2-3x-9)(x+1) \\\\ =(2x+3)(x-3)(x+1)\\end{gathered}\\]。\n(iii) \\[\\begin{gathered}f(x) \\\\ =(x+1)(x+2)(x-3)\\end{gathered}\\]。通分後分子為 \\((2x+3)-(x+2)=x+1\\)，約去後得 \\(\\frac1{(x-3)(x+2)(2x+3)}\\)。\n原式須滿足 \\[\\begin{gathered}x\\ne -2, -\\frac32, \\\\ -1,3\\end{gathered}\\]；約去因式不能恢復 \\(x=-1\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q3",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第3題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "3",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Connect division identity to full factorisation, rational subtraction and retained excluded values.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q3"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) Write down the quotient and remainder when \\(2x^3-x^2-6x-4\\) is divided by \\(2x^2-3x-9\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Let \\[\\begin{gathered}g(x) \\\\ =(2x^3-x^2-6x-4) \\\\ -(ax+b)\\end{gathered}\\], where \\(a,b\\) are constants. It is given that \\(g(x)\\) is divisible by \\(2x^2-3x-9\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(i) Write down \\(a,b\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(ii) Factorise \\(g(x)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(iii) Let \\(f(x)=x^3-7x-6\\). Simplify \\[\\begin{gathered}\\frac1{f(x)} \\\\ -\\frac1{g(x)}\\end{gathered}\\]."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 寫出 \\(2x^3-x^2-6x-4\\) 被 \\(2x^2-3x-9\\) 除的商及餘式。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 設 \\[\\begin{gathered}g(x) \\\\ =(2x^3-x^2-6x-4) \\\\ -(ax+b)\\end{gathered}\\]，其中 \\(a,b\\) 為常數。已知 \\(g(x)\\) 可被 \\(2x^2-3x-9\\) 整除。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(i) 寫出 \\(a,b\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(ii) 把 \\(g(x)\\) 因式分解。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(iii) 設 \\(f(x)=x^3-7x-6\\)，化簡 \\[\\begin{gathered}\\frac1{f(x)} \\\\ -\\frac1{g(x)}\\end{gathered}\\]。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) Long division gives quotient \\(x+1\\) and remainder \\(6x+5\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b)(i) Subtract the entire remainder: \\(a=6,b=5\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(ii) \\[\\begin{gathered}g(x) \\\\ =(2x^2-3x-9)(x+1) \\\\ =(2x+3)(x-3)(x+1)\\end{gathered}\\]."
+            },
+            {
+              "type": "paragraph",
+              "text": "(iii) \\[\\begin{gathered}f(x) \\\\ =(x+1)(x+2)(x-3)\\end{gathered}\\]. Taking a common denominator leaves numerator \\((2x+3)-(x+2)=x+1\\). Cancel this factor to obtain \\(\\frac1{(x-3)(x+2)(2x+3)}\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "The original expression requires \\[\\begin{gathered}x\\ne -2, -\\frac32, \\\\ -1,3\\end{gathered}\\]; cancellation does not restore \\(x=-1\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 用長除法得商 \\(x+1\\)，餘式 \\(6x+5\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b)(i) 須減去整個餘式，故 \\(a=6,b=5\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(ii) \\[\\begin{gathered}g(x) \\\\ =(2x^2-3x-9)(x+1) \\\\ =(2x+3)(x-3)(x+1)\\end{gathered}\\]。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(iii) \\[\\begin{gathered}f(x) \\\\ =(x+1)(x+2)(x-3)\\end{gathered}\\]。通分後分子為 \\((2x+3)-(x+2)=x+1\\)，約去後得 \\(\\frac1{(x-3)(x+2)(2x+3)}\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "原式須滿足 \\[\\begin{gathered}x\\ne -2, -\\frac32, \\\\ -1,3\\end{gathered}\\]；約去因式不能恢復 \\(x=-1\\)。"
+            }
+          ]
+        },
+        "id": "import-polynomial-596b5941b594abb4"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "0db08d1872ca399cefc71def3fa087c94ff22ef085bd43e9d6846e58833c1095",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.861Z"
+        },
+        "classification": {
+          "fingerprint": "0db08d1872ca399cefc71def3fa087c94ff22ef085bd43e9d6846e58833c1095",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.863Z"
+        },
+        "mathematics": {
+          "fingerprint": "0db08d1872ca399cefc71def3fa087c94ff22ef085bd43e9d6846e58833c1095",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.863Z"
+        },
+        "figures": {
+          "fingerprint": "0db08d1872ca399cefc71def3fa087c94ff22ef085bd43e9d6846e58833c1095",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.864Z"
+        },
+        "studentView": {
+          "fingerprint": "0db08d1872ca399cefc71def3fa087c94ff22ef085bd43e9d6846e58833c1095",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.865Z"
+        }
+      }
+    },
+    {
+      "locator": "4",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl067",
+      "reason": "Personally matched complete question, all values, conditions, subparts against source page 1. Retain canonical student ID and attach this source locator.",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=2x^3-x^2+ax+b\\), where \\(a\\) and \\(b\\) are real constants. It is given that \\(f(x)\\) is divisible by \\(x+2\\). When \\(f(x)\\) is divided by \\(x+1\\), the remainder is \\(10\\).\n\n(a) Find the values of \\(a\\) and \\(b\\).\n\n(b) Susan claims that \\(f(n)f(n+1)\\) is even for any integer \\(n\\). Do you agree? Explain your answer.",
+        "stemZh": "設 \\(f(x)=2x^3-x^2+ax+b\\)，其中 \\(a,b\\) 為實數。已知 \\(f(x)\\) 可被 \\(x+2\\) 整除，而 \\(f(x)\\) 被 \\(x+1\\) 除時餘式為 \\(10\\)。\n\n(a) 求 \\(a,b\\)。\n\n(b) Susan 聲稱：對任何整數 \\(n\\)，\\(f(n)f(n+1)\\) 必為偶數。你是否同意？解釋你的答案。",
+        "hint": "Use the factor and remainder conditions to determine \\(a,b\\), then switch to parity rather than testing sample integers.",
+        "hintZh": "先把因式和餘式翻成兩個函數值找 \\(a,b\\)。第 (b) 部分不是再代一堆整數，而是要看模 \\(2\\) 的奇偶性。",
+        "solution": "Part (a)\n\nSince \\(x+2\\) is a factor,\n\n\\[\nf(-2)=0.\n\\]\n\n\\[\n-16-4-2a+b=0\n\\]\n\n\\[\nb=20+2a. \\tag{1}\n\\]\n\nSince the remainder when divided by \\(x+1\\) is \\(10\\),\n\n\\[\nf(-1)=10.\n\\]\n\n\\[\n-2-1-a+b=10\n\\]\n\n\\[\nb-a=13. \\tag{2}\n\\]\n\nSolving \\(1\\) and \\(2\\),\n\n\\[\na=-7,\\qquad b=6.\n\\]\n\nPart (b)\n\n\\[\nf(x)=2x^3-x^2-7x+6.\n\\]\n\nFor any integer \\(n\\), consider \\(f(n)\\) modulo 2:\n\n\\[\nf(n)\\equiv -n^2-n \\equiv n^2+n=n(n+1)\\pmod 2.\n\\]\n\nSince \\(n(n+1)\\) is always even,\n\n\\[\nf(n)\n\\]\n\nis even for every integer \\(n\\). Hence \\(f(n)f(n+1)\\) is even. Susan's claim is agreed.",
+        "solutionZh": "第 (a) 部分\n\n\\(x+2\\) 是因式，所以\n\n\\[\nf(-2)=0.\n\\]\n\n\\[\n-16-4-2a+b=0\n\\Rightarrow b=20+2a. \\tag{1}\n\\]\n\n又因除以 \\(x+1\\) 的餘式為 \\(10\\)，\n\n\\[\nf(-1)=10.\n\\]\n\n\\[\n-2-1-a+b=10\n\\Rightarrow b-a=13. \\tag{2}\n\\]\n\n聯立 \\(1\\)、\\(2\\)，得\n\n\\[\na=-7,\\qquad b=6.\n\\]\n\n第 (b) 部分\n\n因此\n\n\\[\nf(x)=2x^3-x^2-7x+6.\n\\]\n\n不需要逐個代入整數。\n\n對任何整數 \\(n\\)，模 \\(2\\) 下有\n\n\\[\nf(n)\\equiv-n^2-n\\equiv n^2+n=n(n+1)\\equiv0\\pmod2.\n\\]\n\n因為相鄰整數 \\(n,n+1\\) 其中一個必為偶數，故 \\(f(n)\\) 已經是偶數；所以 \\(f(n)f(n+1)\\) 必為偶數。\n\nSusan 的聲稱正確。",
+        "subcategory": "division-identities",
+        "skill": "poly-higher-remainder",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "linear remainder for quadratic divisor",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★★"
+        },
+        "questionType": "structured",
+        "difficulty": "challenging",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q4",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第4題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "4",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-79e26fe7abc2aa77"
+      },
+      "approvals": {}
+    },
+    {
+      "locator": "5",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl041",
+      "reason": "Personally matched complete question, all values, conditions, subparts against source page 1. Retain canonical student ID and attach this source locator.",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=3x^3+8x^2+ax+b\\), where \\(a\\) and \\(b\\) are constants. When \\(f(x)\\) is divided by \\(x^2-3x+10\\), the remainder is \\(-12x-160\\).\n\n(a) Find \\(a\\) and \\(b\\).\n\n(b) Is \\(3x-1\\) a factor of \\(f(x)\\)? Explain your answer.\n\n(c) Someone claims that all the roots of \\(f(x)=0\\) are positive. Do you agree? Explain your answer.",
+        "stemZh": "設 \\(f(x)=3x^3+8x^2+ax+b\\)，其中 \\(a,b\\) 為常數。當 \\(f(x)\\) 被 \\(x^2-3x+10\\) 除時，餘式為 \\(-12x-160\\)。\n\n(a) 求 \\(a,b\\)。\n\n(b) \\(3x-1\\) 是否 \\(f(x)\\) 的因式？解釋你的答案。\n\n(c) 有人聲稱方程 \\(f(x)=0\\) 的所有根都是正數。你是否同意？解釋你的答案。",
+        "hint": "A quadratic divisor triggers the degree gate: the quotient is linear. The complete division data then forms an identity for coefficient comparison.",
+        "hintZh": "二次除式 (quadratic divisor) 先觸發次方 關口（gate） (degree gate)：商式是一次式；題目給完整除法資料，所以之後要用恆等式 (identity) 比較係數。",
+        "solution": "Part (a)\n\nLet the quotient be \\(3x+d\\). Then\n\n\\[\nf(x)=(x^2-3x+10)(3x+d)-12x-160.\n\\]\n\nExpanding,\n\n\\[\nf(x)=3x^3+(d-9)x^2+(30-3d-12)x+(10d-160).\n\\]\n\nCompare the \\(x^2\\) coefficient:\n\n\\[\nd-9=8\n\\]\n\n\\[\nd=17.\n\\]\n\nThus\n\n\\[\na=18-3(17)=-33,\\qquad b=10(17)-160=10.\n\\]\n\nPart (b)\n\n\\[\nf(x)=3x^3+8x^2-33x+10.\n\\]\n\nCheck \\(x=\\frac{1}{3}\\):\n\n\\[\nf\\left(\\frac{1}{3}\\right)=\\frac{1}{9}+\\frac{8}{9}-11+10=0.\n\\]\n\nTherefore \\(3x-1\\) is a factor of \\(f(x)\\).\n\nPart (c)\n\nFactorizing,\n\n\\[\nf(x)=(3x-1)(x+5)(x-2).\n\\]\n\nThe roots are\n\n\\[\n\\frac{1}{3},\\ -5,\\ 2.\n\\]\n\nSince \\(-5\\) is negative, not all roots are positive. The claim is disagreed.",
+        "solutionZh": "第 (a) 部分\n\n三次被二次式除，商式必是一次式；又因 \\(f(x)\\) 的首項是 \\(3x^3\\)，先設\n\n\\[\nQ(x)=3x+d.\n\\]\n\n寫出除法恆等式：\n\n\\[\nf(x)=(x^2-3x+10)(3x+d)-12x-160.\n\\]\n\n展開右方：\n\n\\[\nf(x)=3x^3+(d-9)x^2+(18-3d)x+(10d-160).\n\\]\n\n比較 \\(x^2\\) 係數，\\(d-9=8\\)，所以 \\(d=17\\)。\n\n因此\n\n\\[\na=18-3(17)=-33,\\qquad b=10(17)-160=10.\n\\]\n\n第 (b) 部分\n\n因式 \\(3x-1\\) 的根是 \\(x=\\frac{1}{3}\\)。\n\n\\[\nf\\left(\\frac{1}{3}\\right)=\\frac{1}{9}+\\frac{8}{9}-11+10=0.\n\\]\n\n所以 \\(3x-1\\) 是 \\(f(x)\\) 的因式。\n\n第 (c) 部分\n\n代入 \\(a=-33,b=10\\) 並完成因式分解：\n\n\\[\nf(x)=3x^3+8x^2-33x+10=(3x-1)(x+5)(x-2).\n\\]\n\n根為 \\(\\frac{1}{3},-5,2\\)。\n\n其中兩個是負數，所以不同意該聲稱。",
+        "subcategory": "division-identities",
+        "skill": "poly-compare-coefficients",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "solution explicitly compares coefficients",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★☆"
+        },
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q5",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第5題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "5",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-59dba0b0372b2f31"
+      },
+      "approvals": {}
+    },
+    {
+      "locator": "6",
+      "pages": [
+        1
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl027",
+      "reason": "Personally matched complete question, all values, conditions, subparts against source page 1. Retain canonical student ID and attach this source locator.",
+      "category": "calculation",
+      "question": {
+        "stem": "The cubic polynomial \\(f(x)\\) is divisible by \\(x+5\\). When \\(f(x)\\) is divided by \\(x-2\\) and \\(x^2+3x+5\\), the remainders are \\(28\\) and \\(-26x+170\\) respectively.\n\n(a) Let the quotient be \\(Ax+B\\) when \\(f(x)\\) is divided by \\(x^2+3x+5\\), where \\(A\\) and \\(B\\) are constants. Find \\(A\\) and \\(B\\). Hence, find \\(f(0)\\).\n\n(b) Factorize \\(f(x)\\) completely.",
+        "stemZh": "三次多項式 \\(f(x)\\) 可被 \\(x+5\\) 整除。當 \\(f(x)\\) 被 \\(x-2\\) 及 \\(x^2+3x+5\\) 除時，餘式分別為 \\(28\\) 及 \\(-26x+170\\)。\n\n(a) 當 \\(f(x)\\) 被 \\(x^2+3x+5\\) 除時，設商式為 \\(Ax+B\\)，其中 \\(A,B\\) 為常數。求 \\(A,B\\)，並求 \\(f(0)\\)。\n\n(b) 完全因式分解 \\(f(x)\\)。",
+        "hint": "A cubic divided by a quadratic has a linear quotient. The two linear-divisor conditions determine \\(A,B\\).",
+        "hintZh": "二次除式配三次被除式，商式先設為一次式。兩個一次除式條件剛好給兩條方程，決定 \\(A,B\\)。",
+        "solution": "Part (a)\n\nLet\n\n\\[\nf(x)=(x^2+3x+5)(Ax+B)-26x+170.\n\\]\n\nSince the remainder when divided by \\(x-2\\) is \\(28\\),\n\n\\[\nf(2)=28.\n\\]\n\n\\[\n15(2A+B)-52+170=28\n\\]\n\n\\[\n2A+B=-6. \\tag{1}\n\\]\n\nSince \\(x+5\\) is a factor,\n\n\\[\nf(-5)=0.\n\\]\n\n\\[\n15(-5A+B)+130+170=0\n\\]\n\n\\[\n-5A+B=-20. \\tag{2}\n\\]\n\nSolving \\(1\\) and \\(2\\),\n\n\\[\nA=2,\\qquad B=-10.\n\\]\n\nThen\n\n\\[\nf(0)=5(-10)+170=120.\n\\]\n\nPart (b)\n\n\\[\nf(x)=(x^2+3x+5)(2x-10)-26x+170.\n\\]\n\nExpanding,\n\n\\[\nf(x)=2x^3-4x^2-46x+120.\n\\]\n\nFactorizing,\n\n\\[\nf(x)=2(x+5)(x-3)(x-4).\n\\]",
+        "solutionZh": "第 (a) 部分\n\n三次式除二次式，商式必為一次式。\n\n因此\n\n\\[\nf(x)=(x^2+3x+5)(Ax+B)-26x+170.\n\\]\n\n由除以 \\(x-2\\) 的餘式為 \\(28\\)，\n\n\\[\nf(2)=28.\n\\]\n\n\\[\n15(2A+B)-52+170=28\n\\Rightarrow2A+B=-6. \\tag{1}\n\\]\n\n又因 \\(x+5\\) 是因式，\n\n\\[\nf(-5)=0.\n\\]\n\n\\[\n15(-5A+B)+130+170=0\n\\Rightarrow-5A+B=-20. \\tag{2}\n\\]\n\n聯立 \\(1\\)、\\(2\\)，得\n\n\\[\nA=2,\\qquad B=-10.\n\\]\n\n因此\n\n\\[\nf(0)=5(-10)+170=120.\n\\]\n\n第 (b) 部分\n\n\\[\nf(x)=(x^2+3x+5)(2x-10)-26x+170.\n\\]\n\n展開：\n\n\\[\nf(x)=2x^3-4x^2-46x+120.\n\\]\n\n完全因式分解為\n\n\\[\nf(x)=2(x+5)(x-3)(x-4).\n\\]",
+        "subcategory": "division-identities",
+        "skill": "poly-division-identity",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "dividend/divisor/quotient/remainder identity",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★★"
+        },
+        "questionType": "structured",
+        "difficulty": "challenging",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q6",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第6題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "6",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-4a13979c47c376e4"
+      },
+      "approvals": {}
+    },
+    {
+      "locator": "7",
+      "pages": [
+        1
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "division-identities",
+        "skill": "poly-division-identity",
+        "stem": "Let \\(f(x)=4x^3-7x-3\\).\n(a) Show that \\(2x+1\\) is a factor of \\(f(x)\\).\n(b) It is given that \\[\\begin{gathered}g(x) \\\\ =f(x)\\div(15-10x)\\end{gathered}\\].\n(i) Express \\(g(x)\\) in terms of \\(x\\).\n(ii) Hence find the minimum value of \\(1-g(x)\\).",
+        "stemZh": "設 \\(f(x)=4x^3-7x-3\\)。\n(a) 證明 \\(2x+1\\) 是 \\(f(x)\\) 的因式。\n(b) 已知 \\[\\begin{gathered}g(x) \\\\ =f(x)\\div(15-10x)\\end{gathered}\\]。\n(i) 以 \\(x\\) 表示 \\(g(x)\\)。\n(ii) 從而求 \\(1-g(x)\\) 的最小值。",
+        "solution": "(a) \\[\\begin{gathered}f(-\\frac12) = \\\\ -\\frac12 +\\frac72 \\\\ -3 =0\\end{gathered}\\], so the factor theorem applies.\n(b)(i) Division and factorisation give \\[\\begin{gathered}f(x) \\\\ =(2x+1)(2x-3)(x+1)\\end{gathered}\\]. Since \\(15-10x=-5(2x-3)\\), \\[\\begin{gathered}g(x) = \\\\ -\\frac15(2x+1)(x+1)\\end{gathered}\\], with \\(x\\ne\\frac32\\).\n(ii) Complete the square: \\[\\begin{gathered}1 -g(x) \\\\ =\\frac25(x+\\frac34)^2 \\\\ +\\frac{39}{40}\\end{gathered}\\]. Its minimum is \\(\\frac{39}{40}\\), attained at \\(x=-\\frac34\\), which is allowed.",
+        "solutionZh": "(a) \\[\\begin{gathered}f(-\\frac12) = \\\\ -\\frac12 +\\frac72 \\\\ -3 =0\\end{gathered}\\]，由因式定理得證。\n(b)(i) 相除及分解得 \\[\\begin{gathered}f(x) \\\\ =(2x+1)(2x-3)(x+1)\\end{gathered}\\]。由 \\(15-10x=-5(2x-3)\\)，得 \\[\\begin{gathered}g(x) = \\\\ -\\frac15(2x+1)(x+1)\\end{gathered}\\]，其中 \\(x\\ne\\frac32\\)。\n(ii) 配方得 \\[\\begin{gathered}1 -g(x) \\\\ =\\frac25(x+\\frac34)^2 \\\\ +\\frac{39}{40}\\end{gathered}\\]。最小值為 \\(\\frac{39}{40}\\)，在容許值 \\(x=-\\frac34\\) 取得。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q7",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第7題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "7",
+          "page": 1,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Prove and factor a cubic, simplify a rational quotient and complete the square while checking its domain.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q7"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Let \\(f(x)=4x^3-7x-3\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) Show that \\(2x+1\\) is a factor of \\(f(x)\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) It is given that \\[\\begin{gathered}g(x) \\\\ =f(x)\\div(15-10x)\\end{gathered}\\]."
+            },
+            {
+              "type": "paragraph",
+              "text": "(i) Express \\(g(x)\\) in terms of \\(x\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(ii) Hence find the minimum value of \\(1-g(x)\\)."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "設 \\(f(x)=4x^3-7x-3\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) 證明 \\(2x+1\\) 是 \\(f(x)\\) 的因式。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 已知 \\[\\begin{gathered}g(x) \\\\ =f(x)\\div(15-10x)\\end{gathered}\\]。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(i) 以 \\(x\\) 表示 \\(g(x)\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(ii) 從而求 \\(1-g(x)\\) 的最小值。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) \\[\\begin{gathered}f(-\\frac12) = \\\\ -\\frac12 +\\frac72 \\\\ -3 =0\\end{gathered}\\], so the factor theorem applies."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b)(i) Division and factorisation give \\[\\begin{gathered}f(x) \\\\ =(2x+1)(2x-3)(x+1)\\end{gathered}\\]. Since \\(15-10x=-5(2x-3)\\), \\[\\begin{gathered}g(x) = \\\\ -\\frac15(2x+1)(x+1)\\end{gathered}\\], with \\(x\\ne\\frac32\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(ii) Complete the square: \\[\\begin{gathered}1 -g(x) \\\\ =\\frac25(x+\\frac34)^2 \\\\ +\\frac{39}{40}\\end{gathered}\\]. Its minimum is \\(\\frac{39}{40}\\), attained at \\(x=-\\frac34\\), which is allowed."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) \\[\\begin{gathered}f(-\\frac12) = \\\\ -\\frac12 +\\frac72 \\\\ -3 =0\\end{gathered}\\]，由因式定理得證。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b)(i) 相除及分解得 \\[\\begin{gathered}f(x) \\\\ =(2x+1)(2x-3)(x+1)\\end{gathered}\\]。由 \\(15-10x=-5(2x-3)\\)，得 \\[\\begin{gathered}g(x) = \\\\ -\\frac15(2x+1)(x+1)\\end{gathered}\\]，其中 \\(x\\ne\\frac32\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(ii) 配方得 \\[\\begin{gathered}1 -g(x) \\\\ =\\frac25(x+\\frac34)^2 \\\\ +\\frac{39}{40}\\end{gathered}\\]。最小值為 \\(\\frac{39}{40}\\)，在容許值 \\(x=-\\frac34\\) 取得。"
+            }
+          ]
+        },
+        "id": "import-polynomial-f54b8ade01fb7e7b"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "e801ab3025f2137c9774a714341f12402f067b02899c8d33a4753ff8b464cdc0",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.866Z"
+        },
+        "classification": {
+          "fingerprint": "e801ab3025f2137c9774a714341f12402f067b02899c8d33a4753ff8b464cdc0",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.867Z"
+        },
+        "mathematics": {
+          "fingerprint": "e801ab3025f2137c9774a714341f12402f067b02899c8d33a4753ff8b464cdc0",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.868Z"
+        },
+        "figures": {
+          "fingerprint": "e801ab3025f2137c9774a714341f12402f067b02899c8d33a4753ff8b464cdc0",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.869Z"
+        },
+        "studentView": {
+          "fingerprint": "e801ab3025f2137c9774a714341f12402f067b02899c8d33a4753ff8b464cdc0",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.870Z"
+        }
+      }
+    },
+    {
+      "locator": "8",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl034",
+      "reason": "Personally matched complete question, all values, conditions, subparts against source page 2. Retain canonical student ID and attach this source locator.",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=2x^3+kx^2+5x+6\\), where \\(k\\) is a constant. It is given that when \\(f(x)\\) is divided by \\(ax^2-4x-1\\), the quotient is \\(x-2\\) and the remainder is \\(bx+c\\), where \\(a,b,c\\) are constants.\n\n(a) Find \\(a,b\\) and \\(c\\).\n\n(b) It is given that \\(g(x)=f(x)-x^2+2x\\). Factorize \\(g(x)\\).",
+        "stemZh": "設 \\(f(x)=2x^3+kx^2+5x+6\\)，其中 \\(k\\) 為常數。已知當 \\(f(x)\\) 被 \\(ax^2-4x-1\\) 除時，商式為 \\(x-2\\)，餘式為 \\(bx+c\\)，其中 \\(a,b,c\\) 為常數。\n\n(a) 求 \\(a,b,c\\)。\n\n(b) 已知 \\(g(x)=f(x)-x^2+2x\\)。因式分解 \\(g(x)\\)。",
+        "hint": "The quotient and remainder are complete, so write the division identity and compare coefficients rather than using trial substitutions.",
+        "hintZh": "商式和餘式已完整給出，直接寫除法恆等式；這是比較係數題，不需要先代多個數值。",
+        "solution": "Part (a)\n\nBy the division algorithm,\n\n\\[\n2x^3+kx^2+5x+6=(ax^2-4x-1)(x-2)+bx+c.\n\\]\n\nExpand:\n\n\\[\n(ax^2-4x-1)(x-2)=ax^3+(-2a-4)x^2+7x+2.\n\\]\n\nCompare coefficients:\n\n\\[\na=2,\\qquad 7+b=5,\\qquad 2+c=6.\n\\]\n\nHence\n\n\\[\na=2,  b=-2,  c=4.\n\\]\n\nAlso\n\n\\[\nk=-2a-4=-8.\n\\]\n\nPart (b)\n\n\\[\nf(x)=2x^3-8x^2+5x+6.\n\\]\n\nTherefore\n\n\\[\ng(x)=f(x)-x^2+2x=2x^3-9x^2+7x+6.\n\\]\n\nFactorizing,\n\n\\[\ng(x)=(x-2)(x-3)(2x+1).\n\\]",
+        "solutionZh": "第 (a) 部分\n\n由除法恆等式，\n\n\\[\n2x^3+kx^2+5x+6=(ax^2-4x-1)(x-2)+bx+c.\n\\]\n\n先展開已知的除式乘商式：\n\n\\[\n(ax^2-4x-1)(x-2)=ax^3+(-2a-4)x^2+7x+2.\n\\]\n\n比較兩邊係數：\n\n\\[\na=2,\\qquad 7+b=5,\\qquad 2+c=6.\n\\]\n\n故\n\n\\[\na=2,\\qquad b=-2,\\qquad c=4.\n\\]\n\n同時由 \\(x^2\\) 項，\n\n\\[\nk=-2a-4=-8.\n\\]\n\n第 (b) 部分\n\n\\[\nf(x)=2x^3-8x^2+5x+6.\n\\]\n\n因此\n\n\\[\ng(x)=f(x)-x^2+2x=2x^3-9x^2+7x+6.\n\\]\n\n因式分解得\n\n\\[\ng(x)=(x-2)(x-3)(2x+1).\n\\]",
+        "subcategory": "division-identities",
+        "skill": "poly-compare-coefficients",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "solution explicitly compares coefficients",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★★"
+        },
+        "questionType": "structured",
+        "difficulty": "challenging",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q8",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第8題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "8",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-19f29216176510b5"
+      },
+      "approvals": {}
+    },
+    {
+      "locator": "9",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-pl060",
+      "reason": "Personally matched complete question, all values and subparts against source page 2. Retain canonical student ID and attach this source locator; Q9 identity case is separately audited in pl060-correction.json.",
+      "category": "calculation",
+      "question": {
+        "stem": "Let \\(f(x)=6x^3+5x^2+kx-8\\). When \\(f(x)\\) is divided by \\(3x^2+ax+2\\), the quotient and the remainder are \\(2x+b\\) and \\(cx-6\\) respectively, where \\(a,b,c\\) are constants.\n\n(a) Find \\(a\\).\n\n(b) Let \\(g(x)\\) be a cubic polynomial such that when \\(g(x)\\) is divided by \\(3x^2+ax+2\\), the remainder is \\(cx-6\\).\n\n(i) Prove that \\(f(x)-g(x)\\) is divisible by \\(3x^2+ax+2\\).\n\n(ii) Someone claims that all roots of \\(f(x)-g(x)=0\\) are real numbers. Do you agree? Explain your answer.",
+        "stemZh": "設 \\(f(x)=6x^3+5x^2+kx-8\\)。\\(f(x)\\) 被 \\(3x^2+ax+2\\) 除時商式及餘式分別為 \\(2x+b,cx-6\\)。\n\n(a) 求 \\(a\\)。\n\n(b) \\(g(x)\\) 被同一除式後餘式也為 \\(cx-6\\)。\n\n(i) 證明 \\(f-g\\) 可被該除式整除。\n\n(ii) \\(f-g=0\\) 的所有根是否皆為實數？",
+        "hint": "Read the divisor roots and the degree before calculating; the stated conditions determine the required polynomial structure.",
+        "hintZh": "兩個多項式有同一個餘式（remainder），相減後餘式必消失。",
+        "solution": "Part (a)\n\nBy the division algorithm,\n\n\\[\n6x^3+5x^2+kx-8=(3x^2+ax+2)(2x+b)+cx-6.\n\\]\n\nCompare the constant term:\n\n\\[\n2b-6=-8\n\\]\n\n\\[\nb=-1.\n\\]\n\nCompare the \\(x^2\\) coefficient:\n\n\\[\n3b+2a=5.\n\\]\n\nSubstitute \\(b=-1\\):\n\n\\[\n-3+2a=5\n\\]\n\n\\[\na=4.\n\\]\n\nPart (b)(i)\n\nSince \\(g(x)\\) has the same remainder \\(cx-6\\) when divided by \\(3x^2+ax+2\\), let\n\n\\[\ng(x)=(3x^2+ax+2)(px+q)+cx-6\n\\]\n\nfor constants \\(p,q\\). Therefore\n\n\\[\nf(x)-g(x)=(3x^2+ax+2)\\bigl((2x+b)-(px+q)\\bigr),\n\\]\n\nso \\(f(x)-g(x)\\) is divisible by \\(3x^2+ax+2\\).\n\n(ii) From (a), \\(a=4\\). Hence \\(3x^2+ax+2=3x^2+4x+2\\).\n\nFor\n\n\\[\n3x^2+4x+2=0,\n\\]\n\n\\[\n\\Delta=4^2-4(3)(2)=16-24=-8<0.\n\\]\n\nThis quadratic factor has no real roots. Therefore not all roots of \\(f(x)-g(x)=0\\) are real numbers. The claim is disagreed.",
+        "solutionZh": "第 (a) 部分\n\n除法恆等式（division identity）\\(f=(3x^2+ax+2)(2x+b)+cx-6\\)。\n\n常數項給 \\(2b-6=-8\\)，故 \\(b=-1\\)；比較 \\(x^2\\) 係數（coefficient）\\(3b+2a=5\\)，得 \\(a=4\\)。\n\n第 (b)(i) 部分\n\n若 \\(g=(3x^2+ax+2)(px+q)+cx-6\\)，相減即 \\(f-g=(3x^2+ax+2)[(2x+b)-(px+q)]\\)，所以可整除。\n\n第 (b)(ii) 部分\n\n\\(a=4\\) 時二次因式 \\(3x^2+4x+2\\) 的判別式（discriminant）為 \\(-8<0\\)，故不能所有根皆為實數。",
+        "subcategory": "polynomial-equations",
+        "skill": "poly-root-nature",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "factorisation and discriminant/root classification required",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": "★★★★★"
+        },
+        "questionType": "structured",
+        "difficulty": "challenging",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q9",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第9題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "9",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "assessmentMode": "solution-comparison",
+        "id": "import-polynomial-e7786e744b6d0cec"
+      },
+      "approvals": {}
+    },
+    {
+      "locator": "10",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "structured",
+        "difficulty": "hard",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "polynomial-equations",
+        "skill": "poly-root-nature",
+        "stem": "A cubic polynomial \\(f(x)\\) has factor \\(x+1\\). When \\(f(x)\\) is divided by \\(x^2-1\\), the remainder is \\(4x+k\\), where \\(k\\) is an integer.\n(a) Find \\(k\\).\n(b) When \\(f(x)\\) is divided by \\(-x\\), the remainder is \\(-4\\). Someone claims that \\(f(x)=0\\) cannot have repeated roots different from \\(-1\\). Is the claim correct? Explain.",
+        "stemZh": "三次多項式 \\(f(x)\\) 有因式 \\(x+1\\)。\\(f(x)\\) 被 \\(x^2-1\\) 除的餘式為 \\(4x+k\\)，其中 \\(k\\) 為整數。\n(a) 求 \\(k\\)。\n(b) \\(f(x)\\) 被 \\(-x\\) 除的餘式為 \\(-4\\)。有人聲稱 \\(f(x)=0\\) 不可能有異於 \\(-1\\) 的重根。此說法正確嗎？解釋。",
+        "solution": "(a) Evaluate at \\(-1\\): \\(0=-4+k\\), so \\(k=4\\).\n(b) Write \\[\\begin{gathered}f(x) =(x^2-1)(ax+b) \\\\ +4x +4\\end{gathered}\\], where \\(a\\ne0\\) because the polynomial is cubic. Since \\(f(0)=-4\\), \\(-b+4=-4\\) gives \\(b=8\\).\nThen \\[\\begin{gathered}f(x) \\\\ =(x+1)[ax^2+(8-a)x-4]\\end{gathered}\\]. The quadratic discriminant is \\[\\begin{gathered}(8-a)^2 +16a =a^2 \\\\ +64>0\\end{gathered}\\] for real \\(a\\), so its two roots are distinct. A repeated root could only arise when one coincides with the existing root \\(-1\\) (this happens at \\(a=6\\)). Thus no repeated root different from \\(-1\\) is possible; the claim is correct.",
+        "solutionZh": "(a) 代入 \\(-1\\) 得 \\(0=-4+k\\)，故 \\(k=4\\)。\n(b) 寫成 \\[\\begin{gathered}f(x) =(x^2-1)(ax+b) \\\\ +4x +4\\end{gathered}\\]；因為是三次式，所以 \\(a\\ne0\\)。由 \\(f(0)=-4\\)，得 \\(-b+4=-4\\)，故 \\(b=8\\)。\n於是 \\[\\begin{gathered}f(x) \\\\ =(x+1)[ax^2+(8-a)x-4]\\end{gathered}\\]。二次式的判別式為 \\[\\begin{gathered}(8-a)^2 +16a =a^2 \\\\ +64>0\\end{gathered}\\]，所以兩根相異。重根只可能來自其中一根與已有的 \\(-1\\) 重合（此時 \\(a=6\\)）。因此不可能有異於 \\(-1\\) 的重根，聲稱正確。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q10",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第10題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "10",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Use two remainder conditions to parameterise a cubic, distinguish quadratic repeated roots from overlap with an existing root.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q10"
+        },
+        "level": "free",
+        "assessmentMode": "solution-comparison",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "A cubic polynomial \\(f(x)\\) has factor \\(x+1\\). When \\(f(x)\\) is divided by \\(x^2-1\\), the remainder is \\(4x+k\\), where \\(k\\) is an integer."
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) Find \\(k\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) When \\(f(x)\\) is divided by \\(-x\\), the remainder is \\(-4\\). Someone claims that \\(f(x)=0\\) cannot have repeated roots different from \\(-1\\). Is the claim correct? Explain."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "三次多項式 \\(f(x)\\) 有因式 \\(x+1\\)。\\(f(x)\\) 被 \\(x^2-1\\) 除的餘式為 \\(4x+k\\)，其中 \\(k\\) 為整數。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a) 求 \\(k\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) \\(f(x)\\) 被 \\(-x\\) 除的餘式為 \\(-4\\)。有人聲稱 \\(f(x)=0\\) 不可能有異於 \\(-1\\) 的重根。此說法正確嗎？解釋。"
+            }
+          ]
+        },
+        "solutionBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "(a) Evaluate at \\(-1\\): \\(0=-4+k\\), so \\(k=4\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) Write \\[\\begin{gathered}f(x) =(x^2-1)(ax+b) \\\\ +4x +4\\end{gathered}\\], where \\(a\\ne0\\) because the polynomial is cubic. Since \\(f(0)=-4\\), \\(-b+4=-4\\) gives \\(b=8\\)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Then \\[\\begin{gathered}f(x) \\\\ =(x+1)[ax^2+(8-a)x-4]\\end{gathered}\\]. The quadratic discriminant is \\[\\begin{gathered}(8-a)^2 +16a =a^2 \\\\ +64>0\\end{gathered}\\] for real \\(a\\), so its two roots are distinct. A repeated root could only arise when one coincides with the existing root \\(-1\\) (this happens at \\(a=6\\)). Thus no repeated root different from \\(-1\\) is possible; the claim is correct."
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "(a) 代入 \\(-1\\) 得 \\(0=-4+k\\)，故 \\(k=4\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "(b) 寫成 \\[\\begin{gathered}f(x) =(x^2-1)(ax+b) \\\\ +4x +4\\end{gathered}\\]；因為是三次式，所以 \\(a\\ne0\\)。由 \\(f(0)=-4\\)，得 \\(-b+4=-4\\)，故 \\(b=8\\)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "於是 \\[\\begin{gathered}f(x) \\\\ =(x+1)[ax^2+(8-a)x-4]\\end{gathered}\\]。二次式的判別式為 \\[\\begin{gathered}(8-a)^2 +16a =a^2 \\\\ +64>0\\end{gathered}\\]，所以兩根相異。重根只可能來自其中一根與已有的 \\(-1\\) 重合（此時 \\(a=6\\)）。因此不可能有異於 \\(-1\\) 的重根，聲稱正確。"
+            }
+          ]
+        },
+        "id": "import-polynomial-15489917bf4d5b9c"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "991b3cb2309e54e7d463070e68f18c759f6a4793cc2b05954bfcea4dbd99019b",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.870Z"
+        },
+        "classification": {
+          "fingerprint": "991b3cb2309e54e7d463070e68f18c759f6a4793cc2b05954bfcea4dbd99019b",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.872Z"
+        },
+        "mathematics": {
+          "fingerprint": "991b3cb2309e54e7d463070e68f18c759f6a4793cc2b05954bfcea4dbd99019b",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.873Z"
+        },
+        "figures": {
+          "fingerprint": "991b3cb2309e54e7d463070e68f18c759f6a4793cc2b05954bfcea4dbd99019b",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.874Z"
+        },
+        "studentView": {
+          "fingerprint": "991b3cb2309e54e7d463070e68f18c759f6a4793cc2b05954bfcea4dbd99019b",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.875Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:41:43.354Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "11",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "category": "conceptual",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "polynomial-structure",
+        "skill": "poly-read-structure",
+        "stem": "Which polynomial has degree 5?",
+        "stemZh": "下列哪個多項式的次數為 5？",
+        "solution": "For nonzero leading coefficients, degrees add in a product and multiply under powers. The four degrees are \\(2+3=5\\), \\(3\\times2=6\\), \\(5\\times2=10\\) and \\(1+2+3=6\\). Only A has degree 5.",
+        "solutionZh": "非零首項係數的多項式相乘時次數相加，乘方時次數相乘。四個選項的次數依次為 \\(2+3=5\\)、\\(3\\times2=6\\)、\\(5\\times2=10\\)、\\(1+2+3=6\\)，故選 A。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q11",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第11題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "11",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Compare degrees of products and powers without expansion.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q11"
+        },
+        "level": "free",
+        "options": {
+          "A": "\\[\\begin{gathered}(1+x+2x^2)\\\\ {}\\cdot(1+3x^3)\\end{gathered}\\]",
+          "B": "\\((1+x+x^3)^2\\)",
+          "C": "\\((1+x+x^5)^2\\)",
+          "D": "\\[\\begin{gathered}(1+x)(1+x^2)\\\\ {}\\cdot(1+x^3)\\end{gathered}\\]"
+        },
+        "optionsZh": {
+          "A": "\\[\\begin{gathered}(1+x+2x^2)\\\\ {}\\cdot(1+3x^3)\\end{gathered}\\]",
+          "B": "\\((1+x+x^3)^2\\)",
+          "C": "\\((1+x+x^5)^2\\)",
+          "D": "\\[\\begin{gathered}(1+x)(1+x^2)\\\\ {}\\cdot(1+x^3)\\end{gathered}\\]"
+        },
+        "answer": "A",
+        "id": "import-polynomial-ccd8725ca24c8b91"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "790c6df776c74ffd3af5057adc55d2d6c280aa36e9ee907166b84fb411d8a7e2",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.876Z"
+        },
+        "classification": {
+          "fingerprint": "790c6df776c74ffd3af5057adc55d2d6c280aa36e9ee907166b84fb411d8a7e2",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.878Z"
+        },
+        "mathematics": {
+          "fingerprint": "790c6df776c74ffd3af5057adc55d2d6c280aa36e9ee907166b84fb411d8a7e2",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.879Z"
+        },
+        "figures": {
+          "fingerprint": "790c6df776c74ffd3af5057adc55d2d6c280aa36e9ee907166b84fb411d8a7e2",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.880Z"
+        },
+        "studentView": {
+          "fingerprint": "790c6df776c74ffd3af5057adc55d2d6c280aa36e9ee907166b84fb411d8a7e2",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.881Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:46:30.195Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "12",
+      "pages": [
+        2
+      ],
+      "disposition": "duplicate",
+      "canonicalId": "import-polynomial-p057",
+      "reason": "Personally matched complete question, all values, conditions, subparts and A–D options against source page 2. Retain canonical student ID and attach this source locator.",
+      "category": "calculation",
+      "question": {
+        "stem": "When \\(F(x)\\) is divided by \\(3x-1\\), the quotient and remainder are \\(Q(x)\\) and \\(R\\). When \\(F(x)\\) is divided by \\(1-3x\\), what are the quotient and remainder?",
+        "stemZh": "多項式 \\(F(x)\\) 被 \\(3x-1\\) 除的商式及餘式分別為 \\(Q(x)\\) 及 \\(R\\)。若 \\(F(x)\\) 被 \\(1-3x\\) 除，商式及餘式分別為甚麼？",
+        "hint": "Since \\(1-3x=-(3x-1)\\), \\(F=(3x-1)Q+R=(1-3x)(-Q)+R\\).",
+        "hintZh": "\\(1-3x=-(3x-1)\\)，所以 \\(F=(3x-1)Q+R=(1-3x)(-Q)+R\\)",
+        "solution": "Since \\(1-3x=-(3x-1)\\), \\(F=(3x-1)Q+R=(1-3x)(-Q)+R\\).",
+        "solutionZh": "\\(1-3x=-(3x-1)\\)，所以 \\(F=(3x-1)Q+R=(1-3x)(-Q)+R\\)。。",
+        "subcategory": "division-identities",
+        "skill": "poly-division-identity",
+        "classification": {
+          "version": "2026-10-21.1",
+          "basis": "dividend/divisor/quotient/remainder identity",
+          "status": "rule-classified",
+          "originalTopic": "",
+          "sourceLevel": null
+        },
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "formBasis": "Editorial prerequisite recommendation, not a source grade or syllabus certification.",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q12",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第12題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "12",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "answer": "C",
+        "options": {
+          "A": "\\(Q(x)\\) and \\(R\\)",
+          "B": "\\(Q(x)\\) and \\(-R\\)",
+          "C": "\\(-Q(x)\\) and \\(R\\)",
+          "D": "\\(-Q(x)\\) and \\(-R\\)"
+        },
+        "optionsZh": {
+          "A": "\\(Q(x)\\) 及 \\(R\\)",
+          "B": "\\(Q(x)\\) 及 \\(-R\\)",
+          "C": "\\(-Q(x)\\) 及 \\(R\\)",
+          "D": "\\(-Q(x)\\) 及 \\(-R\\)"
+        },
+        "id": "import-polynomial-d2c01c09f90ee960"
+      },
+      "approvals": {}
+    },
+    {
+      "locator": "13",
+      "pages": [
+        2
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "poly-factor-parameters",
+        "stem": "Let \\(f(x)=3x^3-4x+k\\). If \\(f(x)\\) is divisible by \\(x-k\\), find the remainder when \\(f(x)\\) is divided by \\(x+k\\).",
+        "stemZh": "設 \\(f(x)=3x^3-4x+k\\)。若 \\(f(x)\\) 可被 \\(x-k\\) 整除，求它被 \\(x+k\\) 除的餘式。",
+        "solution": "From \\(f(k)=0\\), \\(3k^3-3k=0\\), hence \\(k^3=k\\). The required remainder is \\[\\begin{gathered}f(-k) = -3k^3 +5k \\\\ =2k\\end{gathered}\\]. This also holds when \\(k=0\\); do not divide by \\(k\\).",
+        "solutionZh": "由 \\(f(k)=0\\) 得 \\(3k^3-3k=0\\)，故 \\(k^3=k\\)。所求餘式為 \\[\\begin{gathered}f(-k) = -3k^3 +5k \\\\ =2k\\end{gathered}\\]。\\(k=0\\) 時亦成立，不可直接除以 \\(k\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q13",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第13題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "13",
+          "page": 2,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Use the remainder condition to derive k cubed equals k; retain k=0 before evaluating the requested remainder.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q13"
+        },
+        "level": "free",
+        "options": {
+          "A": "\\(2k\\)",
+          "B": "\\(k\\)",
+          "C": "0",
+          "D": "\\(-k\\)"
+        },
+        "optionsZh": {
+          "A": "\\(2k\\)",
+          "B": "\\(k\\)",
+          "C": "0",
+          "D": "\\(-k\\)"
+        },
+        "answer": "A",
+        "id": "import-polynomial-05d942db62b35d45"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "936862c86682277c37ee773a680d44fc9995aeaa41576af4faeaaa72fa92828e",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.882Z"
+        },
+        "classification": {
+          "fingerprint": "936862c86682277c37ee773a680d44fc9995aeaa41576af4faeaaa72fa92828e",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.883Z"
+        },
+        "mathematics": {
+          "fingerprint": "936862c86682277c37ee773a680d44fc9995aeaa41576af4faeaaa72fa92828e",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.884Z"
+        },
+        "figures": {
+          "fingerprint": "936862c86682277c37ee773a680d44fc9995aeaa41576af4faeaaa72fa92828e",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.885Z"
+        },
+        "studentView": {
+          "fingerprint": "936862c86682277c37ee773a680d44fc9995aeaa41576af4faeaaa72fa92828e",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.887Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:46:30.196Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "14",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "factor-theorem",
+        "stem": "Which are factors of \\(x^3-2x^2-5x+6\\)?\nI. \\(x-1\\)\nII. \\(x+1\\)\nIII. \\(x-2\\)\nIV. \\(x+2\\)\nV. \\(x-3\\)\nVI. \\(x+3\\)",
+        "stemZh": "下列哪些是 \\(x^3-2x^2-5x+6\\) 的因式？\nI. \\(x-1\\)\nII. \\(x+1\\)\nIII. \\(x-2\\)\nIV. \\(x+2\\)\nV. \\(x-3\\)\nVI. \\(x+3\\)",
+        "solution": "The factorisation is \\((x-1)(x+2)(x-3)\\), so precisely I, IV and V are factors.",
+        "solutionZh": "因式分解得 \\((x-1)(x+2)(x-3)\\)，故只有 I、IV、V 是因式。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q14",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第14題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "14",
+          "page": 3,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor the cubic and match every listed factor, including scalar-equivalent expressions.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q14"
+        },
+        "level": "free",
+        "options": {
+          "A": "I, III and IV only",
+          "B": "I, IV and V only",
+          "C": "I, IV and VI only",
+          "D": "II, III and V only"
+        },
+        "optionsZh": {
+          "A": "只有 I、III 及 IV",
+          "B": "只有 I、IV 及 V",
+          "C": "只有 I、IV 及 VI",
+          "D": "只有 II、III 及 V"
+        },
+        "answer": "B",
+        "contentBlocks": {
+          "en": [
+            {
+              "type": "paragraph",
+              "text": "Which are factors of \\(x^3-2x^2-5x+6\\)?"
+            },
+            {
+              "type": "paragraph",
+              "text": "I. \\(x-1\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "II. \\(x+1\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "III. \\(x-2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "IV. \\(x+2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "V. \\(x-3\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "VI. \\(x+3\\)"
+            }
+          ],
+          "zh-Hant": [
+            {
+              "type": "paragraph",
+              "text": "下列哪些是 \\(x^3-2x^2-5x+6\\) 的因式？"
+            },
+            {
+              "type": "paragraph",
+              "text": "I. \\(x-1\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "II. \\(x+1\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "III. \\(x-2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "IV. \\(x+2\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "V. \\(x-3\\)"
+            },
+            {
+              "type": "paragraph",
+              "text": "VI. \\(x+3\\)"
+            }
+          ]
+        },
+        "id": "import-polynomial-fffa96237eaf9083"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "a4541ca88afd3d7c6bf117054542eef1b0393257026860736924a4f3e302d76e",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.888Z"
+        },
+        "classification": {
+          "fingerprint": "a4541ca88afd3d7c6bf117054542eef1b0393257026860736924a4f3e302d76e",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.889Z"
+        },
+        "mathematics": {
+          "fingerprint": "a4541ca88afd3d7c6bf117054542eef1b0393257026860736924a4f3e302d76e",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.890Z"
+        },
+        "figures": {
+          "fingerprint": "a4541ca88afd3d7c6bf117054542eef1b0393257026860736924a4f3e302d76e",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.891Z"
+        },
+        "studentView": {
+          "fingerprint": "a4541ca88afd3d7c6bf117054542eef1b0393257026860736924a4f3e302d76e",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.891Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:46:30.196Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "15",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "transformed-polynomials",
+        "skill": "poly-substitution",
+        "stem": "Let \\(f(x)\\) be a polynomial. If \\(f(x)\\) is divisible by \\(x-1\\), which must be a factor of \\(f(2x+1)\\)?",
+        "stemZh": "設 \\(f(x)\\) 為多項式。若 \\(f(x)\\) 可被 \\(x-1\\) 整除，下列哪式必為 \\(f(2x+1)\\) 的因式？",
+        "solution": "We know \\(f(1)=0\\). For \\(h(x)=f(2x+1)\\), \\(h(0)=f(1)=0\\), so \\(x\\) is a factor.",
+        "solutionZh": "已知 \\(f(1)=0\\)。設 \\(h(x)=f(2x+1)\\)，則 \\(h(0)=f(1)=0\\)，所以 \\(x\\) 是因式。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q15",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第15題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "15",
+          "page": 3,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Choose the transformed input giving the known zero and apply the factor theorem.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q15"
+        },
+        "level": "free",
+        "options": {
+          "A": "\\(x\\)",
+          "B": "\\(x-3\\)",
+          "C": "\\(2x-1\\)",
+          "D": "\\(2x+1\\)"
+        },
+        "optionsZh": {
+          "A": "\\(x\\)",
+          "B": "\\(x-3\\)",
+          "C": "\\(2x-1\\)",
+          "D": "\\(2x+1\\)"
+        },
+        "answer": "A",
+        "id": "import-polynomial-1e57c1240cc17dcc"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "a4c52f14e78ed616fe04260d2bc1e406cc7101de8517f90148c2bae8b8262a21",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.892Z"
+        },
+        "classification": {
+          "fingerprint": "a4c52f14e78ed616fe04260d2bc1e406cc7101de8517f90148c2bae8b8262a21",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.893Z"
+        },
+        "mathematics": {
+          "fingerprint": "a4c52f14e78ed616fe04260d2bc1e406cc7101de8517f90148c2bae8b8262a21",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.895Z"
+        },
+        "figures": {
+          "fingerprint": "a4c52f14e78ed616fe04260d2bc1e406cc7101de8517f90148c2bae8b8262a21",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.896Z"
+        },
+        "studentView": {
+          "fingerprint": "a4c52f14e78ed616fe04260d2bc1e406cc7101de8517f90148c2bae8b8262a21",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.897Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:46:30.196Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "16",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "poly-factor-parameters",
+        "stem": "If \\(2x-1\\) is a factor of \\(ax^2+5x-b\\), find \\(4b-a+5\\).",
+        "stemZh": "若 \\(2x-1\\) 是 \\(ax^2+5x-b\\) 的因式，求 \\(4b-a+5\\)。",
+        "solution": "Substitute \\(x=\\frac12\\): \\[\\begin{gathered}\\frac a4 +\\frac52 \\\\ -b =0\\end{gathered}\\]. Thus \\(4b-a=10\\) and \\(4b-a+5=15\\).",
+        "solutionZh": "代入 \\(x=\\frac12\\)，得 \\[\\begin{gathered}\\frac a4 +\\frac52 \\\\ -b =0\\end{gathered}\\]，故 \\(4b-a=10\\)，所以 \\(4b-a+5=15\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q16",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第16題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "16",
+          "page": 3,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Eliminate linked coefficients using the given quadratic divisor condition.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q16"
+        },
+        "level": "free",
+        "options": {
+          "A": "20",
+          "B": "15",
+          "C": "10",
+          "D": "5"
+        },
+        "optionsZh": {
+          "A": "20",
+          "B": "15",
+          "C": "10",
+          "D": "5"
+        },
+        "answer": "B",
+        "id": "import-polynomial-c7829ac4afe2dda2"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "7bed9cec8eb2a5439be44884abab2e54a4eee17922ffa8cffb886201068fb05f",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.898Z"
+        },
+        "classification": {
+          "fingerprint": "7bed9cec8eb2a5439be44884abab2e54a4eee17922ffa8cffb886201068fb05f",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.898Z"
+        },
+        "mathematics": {
+          "fingerprint": "7bed9cec8eb2a5439be44884abab2e54a4eee17922ffa8cffb886201068fb05f",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.899Z"
+        },
+        "figures": {
+          "fingerprint": "7bed9cec8eb2a5439be44884abab2e54a4eee17922ffa8cffb886201068fb05f",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.900Z"
+        },
+        "studentView": {
+          "fingerprint": "7bed9cec8eb2a5439be44884abab2e54a4eee17922ffa8cffb886201068fb05f",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.901Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:46:30.196Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "17",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-recover",
+        "stem": "The H.C.F. and L.C.M. of two expressions are \\(x+1\\) and \\((x-2)(x+1)^2(x-3)^2\\) respectively. One is \\((x+1)^2(x-2)\\). Find the other.",
+        "stemZh": "兩式的最大公因式及最小公倍式分別為 \\(x+1\\) 及 \\((x-2)(x+1)^2(x-3)^2\\)。其中一式是 \\((x+1)^2(x-2)\\)，求另一式。",
+        "solution": "Use the product identity and cancel common factors: the other expression is \\((x+1)(x-3)^2\\). Its minimum/maximum powers with the given expression reproduce the stated H.C.F./L.C.M.",
+        "solutionZh": "利用兩式乘積等於最大公因式乘最小公倍式，約去共有因式後得 \\((x+1)(x-3)^2\\)。與已知式比較最低及最高次冪，可核對原定公因式及公倍式。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q17",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第17題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "17",
+          "page": 3,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Recover missing repeated-factor powers from both the HCF and LCM.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q17"
+        },
+        "level": "free",
+        "options": {
+          "A": "\\((x+1)(x-3)^2\\)",
+          "B": "\\((x+1)^2(x-3)\\)",
+          "C": "\\((x+1)^2(x-3)^2\\)",
+          "D": "\\((x+1)(x-2)(x-3)\\)"
+        },
+        "optionsZh": {
+          "A": "\\((x+1)(x-3)^2\\)",
+          "B": "\\((x+1)^2(x-3)\\)",
+          "C": "\\((x+1)^2(x-3)^2\\)",
+          "D": "\\((x+1)(x-2)(x-3)\\)"
+        },
+        "answer": "A",
+        "id": "import-polynomial-0f65add4fdf90eb6"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "bbc6bdfcb18f695585c0ddf33ff33f88652d562fb26b187256c9b0191ed42446",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.903Z"
+        },
+        "classification": {
+          "fingerprint": "bbc6bdfcb18f695585c0ddf33ff33f88652d562fb26b187256c9b0191ed42446",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.904Z"
+        },
+        "mathematics": {
+          "fingerprint": "bbc6bdfcb18f695585c0ddf33ff33f88652d562fb26b187256c9b0191ed42446",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.905Z"
+        },
+        "figures": {
+          "fingerprint": "bbc6bdfcb18f695585c0ddf33ff33f88652d562fb26b187256c9b0191ed42446",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.906Z"
+        },
+        "studentView": {
+          "fingerprint": "bbc6bdfcb18f695585c0ddf33ff33f88652d562fb26b187256c9b0191ed42446",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.907Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:46:30.196Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "18",
+      "pages": [
+        3
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "medium",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "hcf-lcm",
+        "skill": "poly-hcf-lcm-factors",
+        "stem": "Find the L.C.M. of \\(x^3+4x^2-3x-18\\) and \\(x^2+10x+21\\).",
+        "stemZh": "求 \\(x^3+4x^2-3x-18\\) 及 \\(x^2+10x+21\\) 的最小公倍式。",
+        "solution": "The factorizations are \\((x-2)(x+3)^2\\) and \\((x+3)(x+7)\\). Taking each highest power gives \\((x-2)(x+3)^2(x+7)\\).",
+        "solutionZh": "兩式分解為 \\((x-2)(x+3)^2\\) 及 \\((x+3)(x+7)\\)。各因式取最高次冪，得 \\((x-2)(x+3)^2(x+7)\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q18",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第18題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "18",
+          "page": 3,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Factor both polynomials and take the greatest power of each distinct factor.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q18"
+        },
+        "level": "free",
+        "options": {
+          "A": "\\((x-2)(x+3)(x+7)\\)",
+          "B": "\\((x-2)(x+3)^2\\)",
+          "C": "\\[\\begin{gathered}(x-2)(x+3)^2\\\\ {}\\cdot(x+7)\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}(x-2)^2(x+3)\\\\ {}\\cdot(x+7)\\end{gathered}\\]"
+        },
+        "optionsZh": {
+          "A": "\\((x-2)(x+3)(x+7)\\)",
+          "B": "\\((x-2)(x+3)^2\\)",
+          "C": "\\[\\begin{gathered}(x-2)(x+3)^2\\\\ {}\\cdot(x+7)\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}(x-2)^2(x+3)\\\\ {}\\cdot(x+7)\\end{gathered}\\]"
+        },
+        "answer": "C",
+        "id": "import-polynomial-1a9ad26af86ceb10"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "6fd496e88dd9afb09ce42c8ddb0da69ef711377159c2eb4491149720f12f3f05",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.909Z"
+        },
+        "classification": {
+          "fingerprint": "6fd496e88dd9afb09ce42c8ddb0da69ef711377159c2eb4491149720f12f3f05",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.910Z"
+        },
+        "mathematics": {
+          "fingerprint": "6fd496e88dd9afb09ce42c8ddb0da69ef711377159c2eb4491149720f12f3f05",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.911Z"
+        },
+        "figures": {
+          "fingerprint": "6fd496e88dd9afb09ce42c8ddb0da69ef711377159c2eb4491149720f12f3f05",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.913Z"
+        },
+        "studentView": {
+          "fingerprint": "6fd496e88dd9afb09ce42c8ddb0da69ef711377159c2eb4491149720f12f3f05",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.914Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:46:30.196Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        },
+        {
+          "at": "2026-11-16T15:48:21.481Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "19",
+      "pages": [
+        4
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "theorems",
+        "skill": "poly-direct-remainder",
+        "stem": "When \\(f(x)\\) is divided by \\(x+a\\), the remainder is \\(-r\\). Find the remainder when \\([f(x)]^2\\) is divided by \\(x+a\\).",
+        "stemZh": "\\(f(x)\\) 被 \\(x+a\\) 除的餘式為 \\(-r\\)。求 \\([f(x)]^2\\) 被 \\(x+a\\) 除的餘式。",
+        "solution": "The remainder theorem gives \\(f(-a)=-r\\). For the square, the remainder is \\[\\begin{gathered}[f(-a)]^2 =(-r)^2 \\\\ =r^2\\end{gathered}\\].",
+        "solutionZh": "由餘式定理，\\(f(-a)=-r\\)。平方後的餘式為 \\[\\begin{gathered}[f(-a)]^2 =(-r)^2 \\\\ =r^2\\end{gathered}\\]。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q19",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第19題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "19",
+          "page": 4,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Evaluate the quotient identity at the zero of the divisor.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q19"
+        },
+        "level": "free",
+        "options": {
+          "A": "\\(-r\\)",
+          "B": "\\(-r^2\\)",
+          "C": "\\(r\\)",
+          "D": "\\(r^2\\)"
+        },
+        "optionsZh": {
+          "A": "\\(-r\\)",
+          "B": "\\(-r^2\\)",
+          "C": "\\(r\\)",
+          "D": "\\(r^2\\)"
+        },
+        "answer": "D",
+        "id": "import-polynomial-2b9d690313ce9904"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "bb028775560746dee404c04bc3530b64db2be13a4c0a44d39ae83efcef7049f4",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.915Z"
+        },
+        "classification": {
+          "fingerprint": "bb028775560746dee404c04bc3530b64db2be13a4c0a44d39ae83efcef7049f4",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.916Z"
+        },
+        "mathematics": {
+          "fingerprint": "bb028775560746dee404c04bc3530b64db2be13a4c0a44d39ae83efcef7049f4",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.917Z"
+        },
+        "figures": {
+          "fingerprint": "bb028775560746dee404c04bc3530b64db2be13a4c0a44d39ae83efcef7049f4",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.918Z"
+        },
+        "studentView": {
+          "fingerprint": "bb028775560746dee404c04bc3530b64db2be13a4c0a44d39ae83efcef7049f4",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.919Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:46:30.196Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    },
+    {
+      "locator": "20",
+      "pages": [
+        4
+      ],
+      "disposition": "publish",
+      "category": "calculation",
+      "question": {
+        "questionType": "mcq",
+        "difficulty": "easy",
+        "minForm": 4,
+        "course": "core",
+        "subcategory": "division-identities",
+        "skill": "poly-division-identity",
+        "stem": "A polynomial is divided by \\(x^2-3x+1\\). The quotient and remainder are \\(2x+3\\) and \\(6x+5\\) respectively. Find the polynomial.",
+        "stemZh": "一多項式被 \\(x^2-3x+1\\) 除，商及餘式分別為 \\(2x+3\\) 及 \\(6x+5\\)。求該多項式。",
+        "solution": "Use dividend = divisor × quotient + remainder. Expanding \\[\\begin{gathered}(x^2-3x+1)(2x+3) \\\\ +(6x+5)\\end{gathered}\\] gives \\(2x^3-3x^2-x+8\\).",
+        "solutionZh": "利用「被除式＝除式×商＋餘式」，展開 \\[\\begin{gathered}(x^2-3x+1)(2x+3) \\\\ +(6x+5)\\end{gathered}\\] 得 \\(2x^3-3x^2-x+8\\)。",
+        "solutionStatus": "independently-rederived",
+        "source": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · Q20",
+        "sourceZh": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf · 第20題",
+        "provenance": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "20",
+          "page": 4,
+          "attributionStatus": "not-supplied"
+        },
+        "classification": {
+          "version": "solving-method-v1",
+          "basis": "reviewed-decisive-solving-method",
+          "status": "editor-pipeline-reviewed",
+          "difficultyReason": "Reconstruct dividend as divisor times quotient plus remainder.",
+          "evidence": "docs/qa/2026-11-16/reviews56/mathematics.json#review5-Q20"
+        },
+        "level": "free",
+        "options": {
+          "A": "\\[\\begin{gathered}2x^3 \\\\ -3x^2 \\\\ -x +8\\end{gathered}\\]",
+          "B": "\\[\\begin{gathered}2x^3 \\\\ -3x^2 \\\\ -7x +3\\end{gathered}\\]",
+          "C": "\\[\\begin{gathered}6x^3 \\\\ -13x^2 \\\\ -7x +8\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}2x^3 \\\\ -3x^2 \\\\ -13x -2\\end{gathered}\\]"
+        },
+        "optionsZh": {
+          "A": "\\[\\begin{gathered}2x^3 \\\\ -3x^2 \\\\ -x +8\\end{gathered}\\]",
+          "B": "\\[\\begin{gathered}2x^3 \\\\ -3x^2 \\\\ -7x +3\\end{gathered}\\]",
+          "C": "\\[\\begin{gathered}6x^3 \\\\ -13x^2 \\\\ -7x +8\\end{gathered}\\]",
+          "D": "\\[\\begin{gathered}2x^3 \\\\ -3x^2 \\\\ -13x -2\\end{gathered}\\]"
+        },
+        "answer": "A",
+        "id": "import-polynomial-ac70e54a951479cc"
+      },
+      "approvals": {
+        "text": {
+          "fingerprint": "2dac3c8f4a95a88b71020f203cf6f3d15e563a50eb5d54d64253d01abd864f9d",
+          "evidence": "Primary Codex personally reviewed all9 source pages and matched original question numbers, every subpart and option. Complete bilingual fields retained. See mathematics.json and source Markdown in docs/qa/2026-11-16/reviews56",
+          "at": "2026-11-16T15:51:16.920Z"
+        },
+        "classification": {
+          "fingerprint": "2dac3c8f4a95a88b71020f203cf6f3d15e563a50eb5d54d64253d01abd864f9d",
+          "evidence": "Decisive solving method mapped to existing catalog skills; source-specific difficultyReason reviewed for every new row. All topics Core, S4 prerequisite recommendation. See docs/qa/2026-11-16/reviews56/review5-wave.json",
+          "at": "2026-11-16T15:51:16.921Z"
+        },
+        "mathematics": {
+          "fingerprint": "2dac3c8f4a95a88b71020f203cf6f3d15e563a50eb5d54d64253d01abd864f9d",
+          "evidence": "Independent symbolic/manual review across40 original records,91 checks; domains, repeated roots, all admissible parameter cases and source-key typo checked. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.923Z"
+        },
+        "figures": {
+          "fingerprint": "2dac3c8f4a95a88b71020f203cf6f3d15e563a50eb5d54d64253d01abd864f9d",
+          "evidence": "All18 source pages personally inspected. Both sources contain algebra-only questions; no figure-required questions and no borrowed diagrams. See docs/qa/2026-11-16/reviews56/mathematics.json",
+          "at": "2026-11-16T15:51:16.924Z"
+        },
+        "studentView": {
+          "fingerprint": "2dac3c8f4a95a88b71020f203cf6f3d15e563a50eb5d54d64253d01abd864f9d",
+          "evidence": "Final bilingual draft renderer at320,390,768,1440px, all3 languages and separate mobile formula-fit checks passed. Relevant screenshots visually reviewed. See docs/qa/2026-11-16/reviews56/draft-review5/wave-qa.json",
+          "at": "2026-11-16T15:51:16.925Z"
+        }
+      },
+      "history": [
+        {
+          "at": "2026-11-16T15:46:30.196Z",
+          "reason": "Content changed; previous reviews retained but invalid",
+          "approvals": {}
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-11-16T15:38:56.151Z",
+      "event": "draft-saved",
+      "revision": 1
+    },
+    {
+      "at": "2026-11-16T15:41:43.355Z",
+      "event": "draft-saved",
+      "revision": 2
+    },
+    {
+      "at": "2026-11-16T15:46:30.196Z",
+      "event": "draft-saved",
+      "revision": 3
+    },
+    {
+      "at": "2026-11-16T15:48:21.482Z",
+      "event": "draft-saved",
+      "revision": 4
+    }
+  ],
+  "createdAt": "2026-11-16T15:38:56.100Z",
+  "import": {
+    "at": "2026-11-16T16:01:22.472Z",
+    "baseline": "8a8146ca7c72c397272b2ce93de2e674a79ea3027e04e7def40384d849fb7385",
+    "report": {
+      "added": [],
+      "updated": [],
+      "unchanged": [
+        "import-polynomial-b17be01ff768109d",
+        "import-polynomial-596b5941b594abb4",
+        "import-polynomial-f54b8ade01fb7e7b",
+        "import-polynomial-15489917bf4d5b9c",
+        "import-polynomial-05d942db62b35d45",
+        "import-polynomial-fffa96237eaf9083",
+        "import-polynomial-1e57c1240cc17dcc",
+        "import-polynomial-c7829ac4afe2dda2",
+        "import-polynomial-0f65add4fdf90eb6",
+        "import-polynomial-1a9ad26af86ceb10",
+        "import-polynomial-2b9d690313ce9904",
+        "import-polynomial-ac70e54a951479cc",
+        "import-polynomial-ccd8725ca24c8b91"
+      ],
+      "chapters": [],
+      "taxonomyChanged": false
+    },
+    "mode": "verified-replay",
+    "backup": null
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "status": "draft-rendering-verified",
+  "batches": [
+    {
+      "id": "intake-c7958114decf991b",
+      "source": {
+        "id": "source-c7958114decf991b",
+        "path": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+        "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+        "pageCount": 9
+      },
+      "fingerprint": "e212a93dd9fa21f0f11f05383287d616ac03d2f66f5e7efc66d787dcf8c5fb20",
+      "cached": false,
+      "count": 156
+    }
+  ],
+  "previewStates": 156,
+  "formulaFitStates": 26,
+  "formulaFit": [
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "2",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "3",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "7",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "10",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "11",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "13",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "14",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "15",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "16",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "17",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "18",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "19",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "20",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "2",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "3",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "7",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "10",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "11",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "13",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "14",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "15",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "16",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "17",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "18",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "19",
+      "width": 390,
+      "status": "pass"
+    },
+    {
+      "batch": "intake-c7958114decf991b",
+      "locator": "20",
+      "width": 390,
+      "status": "pass"
+    }
+  ],
+  "boundary": "Source identity and rendering only. Does not grant human text, mathematical, classification or diagram approvals."
+}

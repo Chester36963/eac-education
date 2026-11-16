@@ -1,0 +1,51 @@
+{
+  "questionIds": [
+    "import-polynomial-fa2c16c54df999f3",
+    "import-polynomial-pl060"
+  ],
+  "mathematicalChanges": false,
+  "reason": "Actual320px student solution containers are narrower than the draft renderer. Split products/sums at operation boundaries, retaining all mathematical content.",
+  "sourceLinkUpdates": [
+    {
+      "before": {
+        "batchId": "intake-c7958114decf991b",
+        "canonicalId": "import-polynomial-pl060",
+        "duplicateQuestionId": "import-polynomial-e7786e744b6d0cec",
+        "targetQuestionSha256": "ec1dfb26bb47d2ccaeae609265931d27ed04ef4c1c49e859e676a022e5db6b91",
+        "sourceQuestionSha256": "cb975e2e6daf610ecbe5bd3918880f7ffee7a6763b26e694e51b1b3eee5b2ce8",
+        "evidence": "Personally matched complete question, all values and subparts against source page 2. Retain canonical student ID and attach this source locator; Q9 identity case is separately audited in pl060-correction.json.",
+        "source": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "9",
+          "page": 2,
+          "pages": [
+            2
+          ]
+        }
+      },
+      "after": {
+        "batchId": "intake-c7958114decf991b",
+        "canonicalId": "import-polynomial-pl060",
+        "duplicateQuestionId": "import-polynomial-e7786e744b6d0cec",
+        "targetQuestionSha256": "63513b8f129fe8fe3bc1a5307a360f8bc5e2ec6c0eb7c429b08790914e56ba56",
+        "sourceQuestionSha256": "cb975e2e6daf610ecbe5bd3918880f7ffee7a6763b26e694e51b1b3eee5b2ce8",
+        "evidence": "Personally matched complete question, all values and subparts against source page 2. Retain canonical student ID and attach this source locator; Q9 identity case is separately audited in pl060-correction.json.",
+        "source": {
+          "collection": "by-topic-review-materials",
+          "sourceId": "source-c7958114decf991b",
+          "sha256": "a341cd7e03bdfd9d5f6d953c07fa72acfe9a87b3aec0e93a95fb0f521fa9568c",
+          "file": "S4/more about polynomials/POLYNOMIALS REVIEWS 5.pdf",
+          "number": "9",
+          "page": 2,
+          "pages": [
+            2
+          ]
+        }
+      },
+      "reason": "Same mathematical solution and question; split two display lines after actual320px formula QA."
+    }
+  ]
+}
