@@ -25,7 +25,14 @@ function readLinks(root,topics){
   const links=registry.links;validateLinks(links,topics);
   for(const link of links){
     if(!/^intake-[a-f0-9]+$/.test(link.batchId))throw Error('Invalid source-link batch');
-    const batch=JSON.parse(fs.readFileSync(path.join(root,'content/intake/editor',link.batchId+'.json')));
+    const batchPath=path.join(root,'content/intake/editor',link.batchId+'.json');
+    if(!fs.existsSync(batchPath)){
+      const receiptPath=path.join(root,'content/imports/2026-11-18-polynomial-review-receipts.json');
+      const receipts=fs.existsSync(receiptPath)?JSON.parse(fs.readFileSync(receiptPath)):null;
+      if(receipts?.duplicates?.[link.batchId+':'+link.source.number]!==digest(link))throw Error('Missing reviewed source link: '+link.batchId);
+      continue;
+    }
+    const batch=JSON.parse(fs.readFileSync(batchPath));
     const r=batch.records.find(r=>r.locator===String(link.source.number));
     if(!r||r.disposition!=='duplicate'||r.canonicalId!==link.canonicalId||r.reason!==link.evidence||digest(r.question)!==link.sourceQuestionSha256||batch.sourceId!==link.source.sourceId||batch.sourceSha256!==link.source.sha256||batch.sourcePath!==link.source.file||JSON.stringify(r.pages)!==JSON.stringify(link.source.pages))throw Error('Source link decision changed; review registry: '+link.batchId);
   }

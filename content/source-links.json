@@ -836,6 +836,424 @@
           1
         ]
       }
+    },
+    {
+      "batchId": "intake-d286eadf9a1d0b1c",
+      "canonicalId": "import-polynomial-p037",
+      "duplicateQuestionId": "import-polynomial-68dcb207cc90109d",
+      "targetQuestionSha256": "61c797bff7053748325d84661b1292bb942f7b60b731a3348d0b43b4ee9cde4d",
+      "sourceQuestionSha256": "56eaee7cad999b6fa3aeb8cd2bc1549ec79cb91563fce51c58d064892efbdd28",
+      "evidence": "Primary Codex personally compared complete original statement, values, all options/subparts and independently checked solution against import-polynomial-p037. Exact same question; retain existing student ID and register additional source.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d286eadf9a1d0b1c",
+        "sha256": "9bfd0180f13db034be3f5b098589e86a914d5eb25807dfd4dddcf697428cc640",
+        "file": "S4/more about polynomials/Polynomials reviews 4.pdf",
+        "number": "3",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-d286eadf9a1d0b1c",
+      "canonicalId": "import-polynomial-41b024115cdd8ce1",
+      "duplicateQuestionId": "import-polynomial-bdf6aa2a14617fb3",
+      "targetQuestionSha256": "3bbff33ba878d069e45c1bfb1498dfa722e88cf2ef0cf6eb3bc8099a2b67e549",
+      "sourceQuestionSha256": "3b379faf7c0d26b706ef4186575684dfa0fe1c884187f1f519e7dbd14822b87b",
+      "evidence": "Primary Codex compared the complete original question, all A–D choices and answer. Same data, task and options; retain existing canonical student ID and register this additional source.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d286eadf9a1d0b1c",
+        "sha256": "9bfd0180f13db034be3f5b098589e86a914d5eb25807dfd4dddcf697428cc640",
+        "file": "S4/more about polynomials/Polynomials reviews 4.pdf",
+        "number": "12",
+        "page": 3,
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "batchId": "intake-d286eadf9a1d0b1c",
+      "canonicalId": "import-polynomial-pl056",
+      "duplicateQuestionId": "import-polynomial-67552066ecfc51d9",
+      "targetQuestionSha256": "4bfdeb6a928d7c4d912534217277fc46a35ec261ef9f3ab0a168f04b50a43e6c",
+      "sourceQuestionSha256": "42c342a8960cb1a64984bee1f43257b2ffcb220d38429e6e5215be1ba4c06770",
+      "evidence": "Primary Codex personally compared complete original statement, values, all options/subparts and independently checked solution against import-polynomial-pl056. Exact same question; retain existing student ID and register additional source.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d286eadf9a1d0b1c",
+        "sha256": "9bfd0180f13db034be3f5b098589e86a914d5eb25807dfd4dddcf697428cc640",
+        "file": "S4/more about polynomials/Polynomials reviews 4.pdf",
+        "number": "13",
+        "page": 3,
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "batchId": "intake-d286eadf9a1d0b1c",
+      "canonicalId": "import-polynomial-pl070",
+      "duplicateQuestionId": "import-polynomial-a60ea8a3704b5742",
+      "targetQuestionSha256": "9fa9cb704b1550acdb069c6f5e949e3b727e991bb06e517f2c684b756ecf484d",
+      "sourceQuestionSha256": "b0897cd66f2979a1a347dddfd642aa5f82e51c147f32fa5dc9643b15118b0eb2",
+      "evidence": "Primary Codex personally compared complete original statement, values, all options/subparts and independently checked solution against import-polynomial-pl070. Exact same question; retain existing student ID and register additional source.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d286eadf9a1d0b1c",
+        "sha256": "9bfd0180f13db034be3f5b098589e86a914d5eb25807dfd4dddcf697428cc640",
+        "file": "S4/more about polynomials/Polynomials reviews 4.pdf",
+        "number": "16",
+        "page": 3,
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "batchId": "intake-d286eadf9a1d0b1c",
+      "canonicalId": "import-polynomial-pl059",
+      "duplicateQuestionId": "import-polynomial-5376a264d7a41a62",
+      "targetQuestionSha256": "b7aab24ac2fdad0e0ac108f85d2e057ae86106a09e3b46dfd52d008adb0c12db",
+      "sourceQuestionSha256": "b5d6b6a0469464f8a91e357c9e5a1cf11431e4f455f2e711ca2a65d615a3237e",
+      "evidence": "Primary Codex personally compared complete original statement, values, all options/subparts and independently checked solution against import-polynomial-pl059. Exact same question; retain existing student ID and register additional source.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-d286eadf9a1d0b1c",
+        "sha256": "9bfd0180f13db034be3f5b098589e86a914d5eb25807dfd4dddcf697428cc640",
+        "file": "S4/more about polynomials/Polynomials reviews 4.pdf",
+        "number": "18",
+        "page": 3,
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "batchId": "intake-2bb812a1d216cbe3",
+      "canonicalId": "import-polynomial-p066",
+      "duplicateQuestionId": "import-polynomial-5c50ba26c10c9866",
+      "targetQuestionSha256": "d20bbce1cf94652cc15ae5b7c4d7356e6e0153e0e46175a824a406f373d3a0a6",
+      "sourceQuestionSha256": "d2b3fbd502c8f148477383f7d4477be049d32a56b8de574f4837fd6ea019524d",
+      "evidence": "Primary Codex compared the complete original question, all A–D choices and answer. Same data, task and options; retain existing canonical student ID and register this additional source.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-2bb812a1d216cbe3",
+        "sha256": "179ec6ba6a2abfa8b5b39c92d5222171e6ae7cc68f82c67a14c4d3be060456a6",
+        "file": "S4/more about polynomials/polynomials reviews.pdf",
+        "number": "3",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-2bb812a1d216cbe3",
+      "canonicalId": "import-polynomial-pl065",
+      "duplicateQuestionId": "import-polynomial-4d28213f93b4a467",
+      "targetQuestionSha256": "c24627f1466a25c88078caa8c466c1a0af590b07c2354838f563e847acb3fc79",
+      "sourceQuestionSha256": "d9615b80311dc297379fffe9ae3cf4b931f1bf289943fae012a3b26eca9b6a95",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-2bb812a1d216cbe3",
+        "sha256": "179ec6ba6a2abfa8b5b39c92d5222171e6ae7cc68f82c67a14c4d3be060456a6",
+        "file": "S4/more about polynomials/polynomials reviews.pdf",
+        "number": "15",
+        "page": 3,
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "batchId": "intake-2bb812a1d216cbe3",
+      "canonicalId": "import-polynomial-pl011",
+      "duplicateQuestionId": "import-polynomial-4f80830352b44924",
+      "targetQuestionSha256": "f47478a77eba9303521aad50d8e88c5306f2a748dbd4d7fa098ba360bc46f43b",
+      "sourceQuestionSha256": "810a5fbf742d5616c18c922bf5a1e84aa0fc23a3455e77c2964be77fb1849dd8",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-2bb812a1d216cbe3",
+        "sha256": "179ec6ba6a2abfa8b5b39c92d5222171e6ae7cc68f82c67a14c4d3be060456a6",
+        "file": "S4/more about polynomials/polynomials reviews.pdf",
+        "number": "17",
+        "page": 4,
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "batchId": "intake-897e7ac56e3c825e",
+      "canonicalId": "import-polynomial-7ec1a2b704b2fa4b",
+      "duplicateQuestionId": "import-polynomial-8b268f9129e7cb6f",
+      "targetQuestionSha256": "21ba090bb0bd2614fd3bdcba6b9549c4b2d63ff9e5d1ebdb25973b56764b514e",
+      "sourceQuestionSha256": "b8f1c6df198d5308ffd3c1a5633bb6e3141a06bf316693044773075b6aef8d0b",
+      "evidence": "Same conditions and complete subparts as Q20 in S4/more about polynomials/polynomials reviews.pdf. Apply that reviewed target batch before linking this locator.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-897e7ac56e3c825e",
+        "sha256": "56575d2afeec8704e28994e51406e34c91148c4304aa583be31cf522fd8a34f8",
+        "file": "S4/more about polynomials/polynomials reviews3.pdf",
+        "number": "2",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-897e7ac56e3c825e",
+      "canonicalId": "import-polynomial-pl065",
+      "duplicateQuestionId": "import-polynomial-bc0f6c091155762b",
+      "targetQuestionSha256": "c24627f1466a25c88078caa8c466c1a0af590b07c2354838f563e847acb3fc79",
+      "sourceQuestionSha256": "967706c91a97a88da0665e9121d1a5ea4364d3dc84f278aa292795d51ba3ff0c",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-897e7ac56e3c825e",
+        "sha256": "56575d2afeec8704e28994e51406e34c91148c4304aa583be31cf522fd8a34f8",
+        "file": "S4/more about polynomials/polynomials reviews3.pdf",
+        "number": "3",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-897e7ac56e3c825e",
+      "canonicalId": "import-polynomial-6e084e4c10d1e3c5",
+      "duplicateQuestionId": "import-polynomial-c1733e65130e306a",
+      "targetQuestionSha256": "ceefffbad095e8815a0788a05a42847121ba7bf34a0ca758d89163f39828dc37",
+      "sourceQuestionSha256": "153b2ee59f64924e7693754baf6248c0b75e20ab92533b990f566d28d3aeba65",
+      "evidence": "Same conditions and complete subparts as Q4 in S4/more about polynomials/polynomials reviewss.pdf. Apply that reviewed target batch before linking this locator.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-897e7ac56e3c825e",
+        "sha256": "56575d2afeec8704e28994e51406e34c91148c4304aa583be31cf522fd8a34f8",
+        "file": "S4/more about polynomials/polynomials reviews3.pdf",
+        "number": "10",
+        "page": 2,
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "batchId": "intake-897e7ac56e3c825e",
+      "canonicalId": "import-polynomial-p038",
+      "duplicateQuestionId": "import-polynomial-4582117b2fa07dd2",
+      "targetQuestionSha256": "5f108e3867c22850fa73a79e517b1b9fb42dc319c31ec7e123d21f9828f3f20c",
+      "sourceQuestionSha256": "0febd7d9f682b5b2e7c6637efdf689ecd5581e96198116b7cb7d248f0b926c73",
+      "evidence": "Primary Codex compared the complete original question, all A–D choices and answer. Same data, task and options; retain existing canonical student ID and register this additional source.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-897e7ac56e3c825e",
+        "sha256": "56575d2afeec8704e28994e51406e34c91148c4304aa583be31cf522fd8a34f8",
+        "file": "S4/more about polynomials/polynomials reviews3.pdf",
+        "number": "24",
+        "page": 5,
+        "pages": [
+          5
+        ]
+      }
+    },
+    {
+      "batchId": "intake-897e7ac56e3c825e",
+      "canonicalId": "import-polynomial-5c6ccca29569bc78",
+      "duplicateQuestionId": "import-polynomial-c700db104d89f58e",
+      "targetQuestionSha256": "a7792a35a3dbf888badccdc6e8bcf26a4ab9e7d8eaa4cec3f627f5d669d8de8a",
+      "sourceQuestionSha256": "8d5b9fc8e09682d7f3dba6cecc6fb1f1cbddd54c8bfbdab5064e7ef88faf0718",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-897e7ac56e3c825e",
+        "sha256": "56575d2afeec8704e28994e51406e34c91148c4304aa583be31cf522fd8a34f8",
+        "file": "S4/more about polynomials/polynomials reviews3.pdf",
+        "number": "27",
+        "page": 6,
+        "pages": [
+          6
+        ]
+      }
+    },
+    {
+      "batchId": "intake-ac2684d65f72ebaa",
+      "canonicalId": "import-polynomial-pl034",
+      "duplicateQuestionId": "import-polynomial-36ee3d23decef34b",
+      "targetQuestionSha256": "d2633910e4ae3c088d89f76fffcc7bf7b338ca5276b43d33bbdf8232342a5d59",
+      "sourceQuestionSha256": "ff3f817da9175eb4f498f358d73bf821c843f3cbdbe5610a52ef0bd03779d911",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-ac2684d65f72ebaa",
+        "sha256": "b809edbef72aa474bd351144a4b4e72dcfa2259e3d66effd36cc1ce4709cfe32",
+        "file": "S4/more about polynomials/polynomials reviewss.pdf",
+        "number": "1",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-ac2684d65f72ebaa",
+      "canonicalId": "import-polynomial-pl008",
+      "duplicateQuestionId": "import-polynomial-3f60d6ac34bee952",
+      "targetQuestionSha256": "b7b886b1c72ad11af166c1a519f1a45c4e6e27617f8b086b63c5e4a7fa084f45",
+      "sourceQuestionSha256": "6dff4b91f2e0257b18be287926e4ad629c628146ab937a8ea7cc671c019891ab",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-ac2684d65f72ebaa",
+        "sha256": "b809edbef72aa474bd351144a4b4e72dcfa2259e3d66effd36cc1ce4709cfe32",
+        "file": "S4/more about polynomials/polynomials reviewss.pdf",
+        "number": "2",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-ac2684d65f72ebaa",
+      "canonicalId": "import-polynomial-pl060",
+      "duplicateQuestionId": "import-polynomial-5a5fdbe76ce8dbd1",
+      "targetQuestionSha256": "63513b8f129fe8fe3bc1a5307a360f8bc5e2ec6c0eb7c429b08790914e56ba56",
+      "sourceQuestionSha256": "ad2493acb663b4861ac0ed5246ed803bad72e6fb940380ef3b1b8745e78e9716",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-ac2684d65f72ebaa",
+        "sha256": "b809edbef72aa474bd351144a4b4e72dcfa2259e3d66effd36cc1ce4709cfe32",
+        "file": "S4/more about polynomials/polynomials reviewss.pdf",
+        "number": "3",
+        "page": 1,
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "batchId": "intake-ac2684d65f72ebaa",
+      "canonicalId": "import-polynomial-pl051",
+      "duplicateQuestionId": "import-polynomial-a1ed2e2e2679e9c7",
+      "targetQuestionSha256": "7cb207187cde4aca40a23de61630fa5fa043ea4d6af1f0f95c584049d5af4138",
+      "sourceQuestionSha256": "fa18d7260571162966f232c0e1094e8e8c3edf5fff6684e61946a394451f0bbf",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-ac2684d65f72ebaa",
+        "sha256": "b809edbef72aa474bd351144a4b4e72dcfa2259e3d66effd36cc1ce4709cfe32",
+        "file": "S4/more about polynomials/polynomials reviewss.pdf",
+        "number": "5",
+        "page": 2,
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "batchId": "intake-ac2684d65f72ebaa",
+      "canonicalId": "import-polynomial-pl019",
+      "duplicateQuestionId": "import-polynomial-6cc86d9854768782",
+      "targetQuestionSha256": "b040228297eac4fa6dafb23d6f1aa54b2eb7776dd989ecb4dbd9e7c57b8ff65b",
+      "sourceQuestionSha256": "3d4b0fd3a411c3e3918394c1a3ec88d9cca78a9a8b3d2c380ab366713caa89ed",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-ac2684d65f72ebaa",
+        "sha256": "b809edbef72aa474bd351144a4b4e72dcfa2259e3d66effd36cc1ce4709cfe32",
+        "file": "S4/more about polynomials/polynomials reviewss.pdf",
+        "number": "6",
+        "page": 2,
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "batchId": "intake-ac2684d65f72ebaa",
+      "canonicalId": "import-polynomial-pl025",
+      "duplicateQuestionId": "import-polynomial-1bdf70ef2d1f361c",
+      "targetQuestionSha256": "846fa70899ca5ff865b04bfa7449931ed4216bbdd6913da430abff8cc50c1969",
+      "sourceQuestionSha256": "c362621566e29f4458df193f1f64dc3140d6ad77ad8a9c28645ff22ee620acfe",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-ac2684d65f72ebaa",
+        "sha256": "b809edbef72aa474bd351144a4b4e72dcfa2259e3d66effd36cc1ce4709cfe32",
+        "file": "S4/more about polynomials/polynomials reviewss.pdf",
+        "number": "7",
+        "page": 2,
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "batchId": "intake-ac2684d65f72ebaa",
+      "canonicalId": "import-polynomial-pl044",
+      "duplicateQuestionId": "import-polynomial-9614b911d507df16",
+      "targetQuestionSha256": "9074361799837271e85e70f0574842cc38e69f2b0e3443019b1a8c1950292ac2",
+      "sourceQuestionSha256": "d05fc79f4b3254b608845675e5c5b17618a6d6983d89ab5d0b786fe1c22d1137",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-ac2684d65f72ebaa",
+        "sha256": "b809edbef72aa474bd351144a4b4e72dcfa2259e3d66effd36cc1ce4709cfe32",
+        "file": "S4/more about polynomials/polynomials reviewss.pdf",
+        "number": "8",
+        "page": 2,
+        "pages": [
+          2
+        ]
+      }
+    },
+    {
+      "batchId": "intake-97dd229bb4050385",
+      "canonicalId": "import-polynomial-pl009",
+      "duplicateQuestionId": "import-polynomial-4f9d9cc39dc60a36",
+      "targetQuestionSha256": "49372ad6578b4834913b9ff2e7aafe8ff82c10295c5ec35a716668a19f7ad189",
+      "sourceQuestionSha256": "29330ac61f7430f589c8e382684b6a87b05234a82c95b7b66b7d8369e75ef044",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-97dd229bb4050385",
+        "sha256": "c11b4bb70dd08d69531628da81fafab23f7aef40b88c155d1ef0d6156850c9bc",
+        "file": "S4/more about polynomials/polynomials revision.pdf",
+        "number": "18",
+        "page": 4,
+        "pages": [
+          4
+        ]
+      }
+    },
+    {
+      "batchId": "intake-97dd229bb4050385",
+      "canonicalId": "import-polynomial-pl023",
+      "duplicateQuestionId": "import-polynomial-bc55676a8e17fc6a",
+      "targetQuestionSha256": "86485c5496d733b81833f26bc2c7c98156c515df9c9a26f97373afc2ecc5da9f",
+      "sourceQuestionSha256": "a68296faae19292951dde38817865c2290cf9b1d077029afce58109931c9e349",
+      "evidence": "Primary Codex personally compared original source page with full canonical statement, conditions, all subparts/options and solution. Exact same question. Independent algebra checks recorded; retain existing student ID.",
+      "source": {
+        "collection": "by-topic-review-materials",
+        "sourceId": "source-97dd229bb4050385",
+        "sha256": "c11b4bb70dd08d69531628da81fafab23f7aef40b88c155d1ef0d6156850c9bc",
+        "file": "S4/more about polynomials/polynomials revision.pdf",
+        "number": "19",
+        "page": 5,
+        "pages": [
+          5
+        ]
+      }
     }
   ]
 }

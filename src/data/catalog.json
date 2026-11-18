@@ -557,13 +557,13 @@
                 "poly-factor-parameters",
                 "poly-multiple-conditions"
               ],
-              "questionCount": 99,
+              "questionCount": 145,
               "skillCounts": {
                 "remainder-theorem": 2,
-                "factor-theorem": 5,
-                "poly-direct-remainder": 39,
-                "poly-factor-parameters": 19,
-                "poly-multiple-conditions": 34
+                "factor-theorem": 12,
+                "poly-direct-remainder": 50,
+                "poly-factor-parameters": 33,
+                "poly-multiple-conditions": 48
               }
             },
             {
@@ -578,10 +578,10 @@
                 "poly-transformed-roots",
                 "poly-root-relations"
               ],
-              "questionCount": 50,
+              "questionCount": 66,
               "skillCounts": {
-                "roots": 1,
-                "poly-root-nature": 49,
+                "roots": 2,
+                "poly-root-nature": 64,
                 "poly-transformed-roots": 0,
                 "poly-root-relations": 0
               }
@@ -597,11 +597,11 @@
                 "poly-compare-coefficients",
                 "poly-higher-remainder"
               ],
-              "questionCount": 24,
+              "questionCount": 42,
               "skillCounts": {
-                "poly-division-identity": 16,
-                "poly-compare-coefficients": 4,
-                "poly-higher-remainder": 4
+                "poly-division-identity": 23,
+                "poly-compare-coefficients": 10,
+                "poly-higher-remainder": 9
               }
             },
             {
@@ -614,9 +614,9 @@
                 "poly-substitution",
                 "poly-quotient-sign"
               ],
-              "questionCount": 17,
+              "questionCount": 30,
               "skillCounts": {
-                "poly-substitution": 16,
+                "poly-substitution": 29,
                 "poly-quotient-sign": 1
               }
             },
@@ -670,10 +670,10 @@
                 "poly-hcf-lcm-factors",
                 "poly-hcf-lcm-recover"
               ],
-              "questionCount": 25,
+              "questionCount": 41,
               "skillCounts": {
-                "poly-hcf-lcm-factors": 18,
-                "poly-hcf-lcm-recover": 7
+                "poly-hcf-lcm-factors": 30,
+                "poly-hcf-lcm-recover": 11
               }
             },
             {
@@ -688,39 +688,39 @@
                 "poly-complex-fractions",
                 "poly-partial-fractions"
               ],
-              "questionCount": 21,
+              "questionCount": 33,
               "skillCounts": {
-                "poly-rational-products": 8,
-                "poly-rational-sums": 9,
-                "poly-complex-fractions": 2,
-                "poly-partial-fractions": 2
+                "poly-rational-products": 10,
+                "poly-rational-sums": 14,
+                "poly-complex-fractions": 3,
+                "poly-partial-fractions": 6
               }
             }
           ],
           "topicId": "polynomial",
-          "questionCount": 330,
+          "questionCount": 451,
           "courses": [
             "core"
           ],
           "coverage": {
             "types": {
-              "mcq": 153,
-              "structured": 173,
+              "mcq": 228,
+              "structured": 219,
               "short-answer": 2,
               "dse-long": 1,
               "proof": 1
             },
             "difficulty": {
-              "easy": 94,
-              "medium": 148,
-              "hard": 57,
+              "easy": 96,
+              "medium": 236,
+              "hard": 88,
               "challenging": 31
             },
             "minForm": {
               "1": 89,
               "2": 1,
               "3": 4,
-              "4": 236
+              "4": 357
             }
           }
         },
