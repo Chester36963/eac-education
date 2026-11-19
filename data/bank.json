@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "revision": "bfabef84abecc042",
-  "totalQuestions": 1578,
-  "chapterCount": 8,
-  "catalog": "data/catalog.6843bbd6961bd5c1.json",
-  "index": "data/question-index.5f77fde116b473db.json",
+  "revision": "fbf86ad62353fa85",
+  "totalQuestions": 1592,
+  "chapterCount": 9,
+  "catalog": "data/catalog.4f57353f6c2defdf.json",
+  "index": "data/question-index.9be58d44ed6332ed.json",
   "search": [
     "data/search/four-centres.87b6577506cd23ee.json",
     "data/search/four-centres.7ea64259ee7debde.json",
@@ -19,6 +19,7 @@
     "data/search/polynomial.ae0fbd48dd27fc36.json",
     "data/search/sequences.c1f1b2789681a32a.json",
     "data/search/linear-programming.cf5843c47f3edb53.json",
+    "data/search/exponentials-logarithms.5741d60bd76f057a.json",
     "data/search/mensuration.2c9f75323de6b8af.json",
     "data/search/mensuration.41feba679a2cdf02.json",
     "data/search/statistics.f98d3c312fd36bfc.json"
@@ -110,6 +111,14 @@
         "data/chapters/linear-programming-chunk.cafd9978ffffebde.json"
       ],
       "questionCount": 39
+    },
+    {
+      "topicId": "exponentials-logarithms",
+      "path": "data/chapters/exponentials-logarithms.7a323bb64fb68849.json",
+      "chunks": [
+        "data/chapters/exponentials-logarithms-chunk.5699c17812ae39ad.json"
+      ],
+      "questionCount": 14
     },
     {
       "topicId": "mensuration",

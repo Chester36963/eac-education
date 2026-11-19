@@ -68373,6 +68373,565 @@
       ]
     },
     {
+      "id": "exponentials-logarithms",
+      "categories": [
+        {
+          "type": "calculation",
+          "questions": [
+            {
+              "stem": "If \\(a>0\\), simplify \\(\\frac{\\sqrt[4]{a^{2/3}}\\cdot a^{-9/8}}{(a^{1/2})^{-4}}\\).",
+              "stemZh": "若 \\(a>0\\)，化簡 \\(\\frac{\\sqrt[4]{a^{2/3}}\\cdot a^{-9/8}}{(a^{1/2})^{-4}}\\)。",
+              "solution": "The fourth root contributes an exponent of \\(1/6\\). The denominator has exponent \\(-2\\). The resulting exponent is \\(1/6-9/8+2=25/24\\).",
+              "solutionZh": "四次根式的指數為 \\(1/6\\)，分母指數為 \\(-2\\)，故結果的指數為 \\(1/6-9/8+2=25/24\\)。",
+              "questionType": "mcq",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "easy",
+              "skill": "exp-fractional-indices",
+              "subcategory": "index-laws",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q1",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第1題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "1",
+                "page": 1,
+                "collection": "by-topic-review-materials"
+              },
+              "options": {
+                "A": "\\(1/a^{71/24}\\)",
+                "B": "\\(a^{3/32}\\)",
+                "C": "\\(a^{25/24}\\)",
+                "D": "\\(a^{79/24}\\)"
+              },
+              "optionsZh": {
+                "A": "\\(1/a^{71/24}\\)",
+                "B": "\\(a^{3/32}\\)",
+                "C": "\\(a^{25/24}\\)",
+                "D": "\\(a^{79/24}\\)"
+              },
+              "answer": "C",
+              "id": "import-exponentials-logarithms-540807842b6ebb91",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q1"
+              }
+            },
+            {
+              "stem": "For rational \\(n\\), evaluate \\(\\frac{14^{2n+1}}{2^{2n+3}7^{2n+1}-7^{2n+2}2^{2n}}\\).",
+              "stemZh": "設 \\(n\\) 為有理數，求 \\(\\frac{14^{2n+1}}{2^{2n+3}7^{2n+1}-7^{2n+2}2^{2n}}\\) 的值。",
+              "solution": "Divide numerator and denominator by \\(2^{2n}7^{2n+1}\\). The quotient becomes \\(2/(8-7)=2\\).",
+              "solutionZh": "分子分母同除以 \\(2^{2n}7^{2n+1}\\)，得 \\(2/(8-7)=2\\)。",
+              "questionType": "mcq",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "medium",
+              "skill": "exp-common-power",
+              "subcategory": "index-laws",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q2",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第2題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "2",
+                "page": 1,
+                "collection": "by-topic-review-materials"
+              },
+              "options": {
+                "A": "\\(1/2730\\)",
+                "B": "\\(1/14\\)",
+                "C": "\\(2\\)",
+                "D": "\\(2744\\)"
+              },
+              "optionsZh": {
+                "A": "\\(1/2730\\)",
+                "B": "\\(1/14\\)",
+                "C": "\\(2\\)",
+                "D": "\\(2744\\)"
+              },
+              "answer": "C",
+              "id": "import-exponentials-logarithms-0e7ec77839e8860a",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q2"
+              }
+            },
+            {
+              "stem": "Given \\(6^p=x\\) and \\(3^{2p}=y\\) for rational \\(p\\), express \\(324^p\\) in terms of \\(x,y\\).",
+              "stemZh": "設 \\(p\\) 為有理數，已知 \\(6^p=x\\) 及 \\(3^{2p}=y\\)。以 \\(x,y\\) 表示 \\(324^p\\)。",
+              "solution": "Since \\(324=6^2\\cdot3^2\\), raise both sides to the power \\(p\\) and substitute to obtain \\(x^2y\\).",
+              "solutionZh": "由 \\(324=6^2\\cdot3^2\\)，兩邊取 \\(p\\) 次冪再代入，得 \\(x^2y\\)。",
+              "questionType": "mcq",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "easy",
+              "skill": "exp-power-rewrite",
+              "subcategory": "index-laws",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q3",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第3題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "3",
+                "page": 1,
+                "collection": "by-topic-review-materials"
+              },
+              "options": {
+                "A": "\\(2xy\\)",
+                "B": "\\(x^2y/3\\)",
+                "C": "\\(x^2\\sqrt y\\)",
+                "D": "\\(x^2y\\)"
+              },
+              "optionsZh": {
+                "A": "\\(2xy\\)",
+                "B": "\\(x^2y/3\\)",
+                "C": "\\(x^2\\sqrt y\\)",
+                "D": "\\(x^2y\\)"
+              },
+              "answer": "D",
+              "id": "import-exponentials-logarithms-f965aa69e18a6017",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q3"
+              }
+            },
+            {
+              "stem": "Solve \\[\\begin{gathered}(1/2)^x(1/4)^{2x/3}(1/8)^{5x/6}\\\\{}=2^{-1015}\\end{gathered}\\].",
+              "stemZh": "解方程 \\[\\begin{gathered}(1/2)^x(1/4)^{2x/3}(1/8)^{5x/6}\\\\{}=2^{-1015}\\end{gathered}\\]。",
+              "solution": "Convert each power to base 2. The exponent equation is \\(-x-4x/3-5x/2=-1015\\), so \\(-29x/6=-1015\\) and \\(x=210\\).",
+              "solutionZh": "各項化為底數 2，比較指數得 \\(-x-4x/3-5x/2=-1015\\)，即 \\(-29x/6=-1015\\)，所以 \\(x=210\\)。",
+              "questionType": "mcq",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "medium",
+              "skill": "exp-same-base",
+              "subcategory": "exponential-equations",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q4",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第4題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "4",
+                "page": 1,
+                "collection": "by-topic-review-materials"
+              },
+              "options": {
+                "A": "\\(-630\\)",
+                "B": "\\(-210\\)",
+                "C": "\\(210\\)",
+                "D": "\\(630\\)"
+              },
+              "optionsZh": {
+                "A": "\\(-630\\)",
+                "B": "\\(-210\\)",
+                "C": "\\(210\\)",
+                "D": "\\(630\\)"
+              },
+              "answer": "C",
+              "id": "import-exponentials-logarithms-664ce60c38f536b1",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q4"
+              }
+            },
+            {
+              "stem": "The figure shows \\(y=n^x-m\\), where \\(m,n\\) are constants. The y-intercept is \\(-1\\). Which statement must be true?",
+              "stemZh": "圖中顯示 \\(y=n^x-m\\)，其中 \\(m,n\\) 為常數。縱截距為 \\(-1\\)。哪項陳述必定正確？",
+              "solution": "At \\(x=0\\), \\(1-m=-1\\), so \\(m=2\\). The curve decreases, so \\(0<n<1\\).",
+              "solutionZh": "代入 \\(x=0\\)，得 \\(1-m=-1\\)，所以 \\(m=2\\)。圖像遞減，故 \\(0<n<1\\)。",
+              "questionType": "mcq",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "easy",
+              "skill": "exp-intercepts-monotonicity",
+              "subcategory": "exponential-graphs",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q5",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第5題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "5",
+                "page": 2,
+                "collection": "by-topic-review-materials"
+              },
+              "options": {
+                "A": "\\(m=1,\\;0<n<1\\)",
+                "B": "\\(m=1,\\;n>1\\)",
+                "C": "\\(m=2,\\;0<n<1\\)",
+                "D": "\\(m=2,\\;n>1\\)"
+              },
+              "optionsZh": {
+                "A": "\\(m=1,\\;0<n<1\\)",
+                "B": "\\(m=1,\\;n>1\\)",
+                "C": "\\(m=2,\\;0<n<1\\)",
+                "D": "\\(m=2,\\;n>1\\)"
+              },
+              "answer": "C",
+              "diagram": {
+                "src": "assets/intake/exponential-log/q5.svg",
+                "alt": "Decreasing exponential curve / 遞減指數曲線",
+                "caption": "按原題重繪 / Redrawn from the source",
+                "qa": {
+                  "questionId": "import-exponentials-logarithms-485556eba4963e32",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-18",
+                  "evidence": "Primary Codex compared source-3a0f5e97b37ba844 page 2 Q5 with the rendered SVG in figures/review.png. Student page preview remains pending."
+                }
+              },
+              "id": "import-exponentials-logarithms-485556eba4963e32",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q5"
+              }
+            },
+            {
+              "stem": "The figure shows \\(y=-a^x\\), \\(y=-b^x\\) and \\(y=-c^x\\). All bases are positive and different from 1. Which statement must be true?",
+              "stemZh": "圖中顯示 \\(y=-a^x\\)、\\(y=-b^x\\) 及 \\(y=-c^x\\)。各底數均為正數且不等於 1。哪項陳述必定正確？",
+              "solution": "At \\(x=1\\), the ordinates from bottom to top are \\(-c\\), \\(-a\\) and \\(-b\\). Reversing the inequality after multiplying by \\(-1\\) gives \\(c>a>b\\).",
+              "solutionZh": "在 \\(x=1\\) 時，縱坐標從低至高為 \\(-c\\)、\\(-a\\)、\\(-b\\)。各項同乘 \\(-1\\) 時不等號須反向，故 \\(c>a>b\\)。",
+              "questionType": "mcq",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "medium",
+              "skill": "exp-compare-bases",
+              "subcategory": "exponential-graphs",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q6",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第6題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "6",
+                "page": 2,
+                "collection": "by-topic-review-materials"
+              },
+              "options": {
+                "A": "\\(a>b>c\\)",
+                "B": "\\(c>a>b\\)",
+                "C": "\\(c>b>a\\)",
+                "D": "\\(b>a>c\\)"
+              },
+              "optionsZh": {
+                "A": "\\(a>b>c\\)",
+                "B": "\\(c>a>b\\)",
+                "C": "\\(c>b>a\\)",
+                "D": "\\(b>a>c\\)"
+              },
+              "answer": "B",
+              "diagram": {
+                "src": "assets/intake/exponential-log/q6.svg",
+                "alt": "Three labelled exponential curves / 三條有標示的指數曲線",
+                "caption": "按原題重繪 / Redrawn from the source",
+                "qa": {
+                  "questionId": "import-exponentials-logarithms-3e2017b21db3a0b8",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-18",
+                  "evidence": "Primary Codex compared source-3a0f5e97b37ba844 page 2 Q6 with the rendered SVG in figures/review.png. Student page preview remains pending."
+                }
+              },
+              "id": "import-exponentials-logarithms-3e2017b21db3a0b8",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q6"
+              }
+            },
+            {
+              "stem": "The figure shows \\(y=a^x\\), where \\(a>1\\). Find \\(\\frac{1}{a^{4/5}}\\) to one decimal place.",
+              "stemZh": "圖中顯示 \\(y=a^x\\)，其中 \\(a>1\\)。求 \\(\\frac{1}{a^{4/5}}\\)，答案準確至小數點後一位。",
+              "solution": "Since \\(\\frac{1}{a^{4/5}}=a^{-0.8}\\), read the ordinate at \\(x=-0.8\\). It is approximately 0.3.",
+              "solutionZh": "由 \\(\\frac{1}{a^{4/5}}=a^{-0.8}\\)，在 \\(x=-0.8\\) 讀取縱坐標，約為 0.3。",
+              "questionType": "mcq",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "easy",
+              "skill": "exp-read-reciprocal",
+              "subcategory": "exponential-graphs",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q7",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第7題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "7",
+                "page": 2,
+                "collection": "by-topic-review-materials"
+              },
+              "options": {
+                "A": "\\(0.2\\)",
+                "B": "\\(0.3\\)",
+                "C": "\\(3.0\\)",
+                "D": "\\(5.3\\)"
+              },
+              "optionsZh": {
+                "A": "\\(0.2\\)",
+                "B": "\\(0.3\\)",
+                "C": "\\(3.0\\)",
+                "D": "\\(5.3\\)"
+              },
+              "answer": "B",
+              "diagram": {
+                "src": "assets/intake/exponential-log/q7.svg",
+                "alt": "Exponential graph on a coordinate grid / 坐標網格上的指數圖像",
+                "caption": "按原題重繪 / Redrawn from the source",
+                "qa": {
+                  "questionId": "import-exponentials-logarithms-a6fba9daf4928786",
+                  "status": "reviewed",
+                  "reviewedAt": "2026-11-18",
+                  "evidence": "Primary Codex compared source-3a0f5e97b37ba844 page 2 Q7 with the rendered SVG in figures/review.png. Student page preview remains pending."
+                }
+              },
+              "id": "import-exponentials-logarithms-a6fba9daf4928786",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q7"
+              }
+            },
+            {
+              "stem": "Given \\(3^y81^x/27^{2y}=1\\) with \\(x,y>0\\), find \\(x:y\\).",
+              "stemZh": "已知 \\(3^y81^x/27^{2y}=1\\)，且 \\(x,y>0\\)。求 \\(x:y\\)。",
+              "solution": "In base 3 the exponent is \\(y+4x-6y=0\\). Hence \\(4x=5y\\) and \\(x:y=5:4\\).",
+              "solutionZh": "化為底數 3 得 \\(y+4x-6y=0\\)。故 \\(4x=5y\\)，所以 \\(x:y=5:4\\)。",
+              "questionType": "mcq",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "medium",
+              "skill": "exp-same-base",
+              "subcategory": "exponential-equations",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q8",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第8題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "8",
+                "page": 3,
+                "collection": "by-topic-review-materials"
+              },
+              "options": {
+                "A": "\\(1:1\\)",
+                "B": "\\(1:4\\)",
+                "C": "\\(4:5\\)",
+                "D": "\\(5:4\\)"
+              },
+              "optionsZh": {
+                "A": "\\(1:1\\)",
+                "B": "\\(1:4\\)",
+                "C": "\\(4:5\\)",
+                "D": "\\(5:4\\)"
+              },
+              "answer": "D",
+              "id": "import-exponentials-logarithms-af8ebe706719c7bb",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q8"
+              }
+            },
+            {
+              "stem": "For \\(a,b>0\\), simplify \\(\\sqrt{(a^2b^{-3})^5}\\div\\frac{(2ab^{-1})^3}{ab}\\times4ab^2\\) and use positive indices.",
+              "stemZh": "設 \\(a,b>0\\)，化簡 \\(\\sqrt{(a^2b^{-3})^5}\\div\\frac{(2ab^{-1})^3}{ab}\\times4ab^2\\)，並以正指數表示。",
+              "solution": "The radical is \\(a^5b^{-15/2}\\) and the divisor is \\(8a^2b^{-4}\\). Multiply by the reciprocal and then by \\(4ab^2\\). The result is \\(\\frac{a^4}{2b^{3/2}}\\).",
+              "solutionZh": "根式為 \\(a^5b^{-15/2}\\)，除式為 \\(8a^2b^{-4}\\)。乘以除式的倒數，再乘以 \\(4ab^2\\)，得 \\(\\frac{a^4}{2b^{3/2}}\\)。",
+              "questionType": "structured",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "medium",
+              "skill": "exp-fractional-indices",
+              "subcategory": "index-laws",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q9",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第9題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "9",
+                "page": 3,
+                "collection": "by-topic-review-materials"
+              },
+              "assessmentMode": "solution-comparison",
+              "id": "import-exponentials-logarithms-f367c0f79fe89044",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q9"
+              }
+            },
+            {
+              "stem": "Solve \\(4^x+2^{2x+1}+2^{2x-1}=7/8\\).",
+              "stemZh": "解方程 \\(4^x+2^{2x+1}+2^{2x-1}=7/8\\)。",
+              "solution": "Factor out \\(4^x\\) to obtain \\((1+2+1/2)4^x=7/8\\). Thus \\(4^x=1/4\\) and \\(x=-1\\).",
+              "solutionZh": "提取公因式 \\(4^x\\)，得 \\((1+2+1/2)4^x=7/8\\)，故 \\(4^x=1/4\\)，即 \\(x=-1\\)。",
+              "questionType": "structured",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "medium",
+              "skill": "exp-common-power",
+              "subcategory": "index-laws",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q10",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第10題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "10",
+                "page": 3,
+                "collection": "by-topic-review-materials"
+              },
+              "assessmentMode": "solution-comparison",
+              "id": "import-exponentials-logarithms-f748d7b849510f4a",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q10"
+              }
+            },
+            {
+              "stem": "Solve \\(2^{2x-3y}4^{3x-4}=8^{1-x}32^{6y}=128\\).",
+              "stemZh": "解聯立方程 \\(2^{2x-3y}4^{3x-4}=8^{1-x}32^{6y}=128\\)。",
+              "solution": "Equate each base-2 exponent to 7: \\(8x-3y=15\\) and \\(-3x+30y=4\\). Multiply the first by 10 and add the second to obtain \\(77x=154\\). Therefore \\(x=2\\) and \\(y=1/3\\).",
+              "solutionZh": "兩式化為底數 2 並比較指數，得 \\(8x-3y=15\\) 及 \\(-3x+30y=4\\)。第一式乘 10 後與第二式相加，得 \\(77x=154\\)，故 \\(x=2\\) 及 \\(y=1/3\\)。",
+              "questionType": "structured",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "medium",
+              "skill": "exp-linear-system",
+              "subcategory": "exponential-equations",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q11",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第11題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "11",
+                "page": 3,
+                "collection": "by-topic-review-materials"
+              },
+              "assessmentMode": "solution-comparison",
+              "id": "import-exponentials-logarithms-656215da6e9f1426",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q11"
+              }
+            },
+            {
+              "stem": "Solve \\(2x^{-2/3}+13x^{-1/3}-7=0\\).",
+              "stemZh": "解方程 \\(2x^{-2/3}+13x^{-1/3}-7=0\\)。",
+              "solution": "Let \\(u=x^{-1/3}\\). Then \\((2u-1)(u+7)=0\\), giving \\(u=1/2\\) or \\(u=-7\\). The printed key gives \\(x=8\\), the sole solution for positive bases. If negative bases with odd-denominator real powers are allowed, \\(x=-1/343\\) also works by direct substitution.",
+              "solutionZh": "設 \\(u=x^{-1/3}\\)，則 \\((2u-1)(u+7)=0\\)，故 \\(u=1/2\\) 或 \\(u=-7\\)。原卷答案為 \\(x=8\\)，這是限於正底數時的唯一解；若容許以實數立方根定義負底數的冪，代入可驗得 \\(x=-1/343\\) 亦成立。",
+              "questionType": "structured",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "hard",
+              "skill": "exp-reciprocal-substitution",
+              "subcategory": "exponential-equations",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q12",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第12題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "12",
+                "page": 3,
+                "collection": "by-topic-review-materials"
+              },
+              "assessmentMode": "solution-comparison",
+              "id": "import-exponentials-logarithms-23deb06e86192355",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q12"
+              }
+            },
+            {
+              "stem": "A city has 365400 vehicles this year. Its vehicle count increases by 5% annually.\n\n(a) Find the count after 7 years to 3 significant figures.\n\n(b) Will the count after 14 years be twice this year’s count? Explain.\n\n(c) Winnie claims the percentage increase over the first 7 years is half the percentage increase over the first 14 years. Do you agree? Explain.",
+              "stemZh": "某市今年有 365400 輛汽車，數目每年增加 5%。\n\n(a) 求 7 年後的數目，取三位有效數字。\n\n(b) 14 年後的數目會是今年的兩倍嗎？解釋。\n\n(c) Winnie 認為首 7 年的百分增幅是首 14 年的一半。你同意嗎？解釋。",
+              "solution": "(a) \\(365400(1.05)^7\\) gives 514000 vehicles to 3 significant figures.\n\n(b) No. The multiplier \\(1.05^{14}\\) is approximately 1.980, below 2.\n\n(c) Let \\(g=1.05^7-1>0\\). The 14-year fractional increase is \\((1+g)^2-1=2g+g^2>2g\\). So the claim is false.",
+              "solutionZh": "(a) \\(365400(1.05)^7\\) 取三位有效數字為 514000 輛。\n\n(b) 否。倍數 \\(1.05^{14}\\) 約為 1.980，少於 2。\n\n(c) 設 \\(g=1.05^7-1>0\\)。14 年的增幅比例是 \\((1+g)^2-1=2g+g^2>2g\\)，故不同意。",
+              "questionType": "structured",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "medium",
+              "skill": "exp-growth-periods",
+              "subcategory": "growth",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q13",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第13題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "13",
+                "page": 3,
+                "collection": "by-topic-review-materials"
+              },
+              "assessmentMode": "solution-comparison",
+              "id": "import-exponentials-logarithms-1a78378b3069da66",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q13"
+              }
+            },
+            {
+              "stem": "An antique was worth 200000 dollars at the beginning of 2000. Its value in dollars after \\(t\\) years is \\(W=ka^t\\), where \\(a,k\\) are constants. At the beginning of 2010 it was worth 600000 dollars.\n\n(a) Find \\(k\\).\n\n(b) Will its value at the beginning of 2020 be nine times its value at the beginning of 2000? Explain.",
+              "stemZh": "一件古董在 2000 年初值 200000 元，\\(t\\) 年後的價值（元）為 \\(W=ka^t\\)，其中 \\(a,k\\) 為常數。它在 2010 年初值 600000 元。\n\n(a) 求 \\(k\\)。\n\n(b) 在 2020 年初的價值會是 2000 年初的九倍嗎？解釋。",
+              "solution": "(a) At \\(t=0\\), \\(W=k=200000\\).\n\n(b) Yes. The multiplier over the first decade is \\(a^{10}=600000/200000=3\\). The same multiplier applies over the next decade. Thus \\(a^{20}=9\\).",
+              "solutionZh": "(a) 當 \\(t=0\\)，\\(W=k=200000\\)。\n\n(b) 會。首十年的倍數為 \\(a^{10}=600000/200000=3\\)，第二個十年期的倍數相同，所以 \\(a^{20}=9\\)。",
+              "questionType": "structured",
+              "minForm": 4,
+              "course": "core",
+              "level": "free",
+              "difficulty": "medium",
+              "skill": "exp-growth-periods",
+              "subcategory": "growth",
+              "source": "S4/exponential and logarithm/exponential function review.pdf · Q14",
+              "sourceZh": "S4/exponential and logarithm/exponential function review.pdf · 第14題",
+              "provenance": {
+                "sourceId": "source-3a0f5e97b37ba844",
+                "sha256": "13fd3860b31fd748832ea74d0a4f1c8b0d20c6ed8c29646d9c0518ca76a8e1e8",
+                "file": "S4/exponential and logarithm/exponential function review.pdf",
+                "number": "14",
+                "page": 3,
+                "collection": "by-topic-review-materials"
+              },
+              "assessmentMode": "solution-comparison",
+              "id": "import-exponentials-logarithms-ae52a5daff6de71b",
+              "classification": {
+                "status": "editor-pipeline-reviewed",
+                "basis": "reviewed-decisive-solving-method",
+                "evidence": "docs/qa/2026-11-18/exponential-log/exponential-function-review.md#q14"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "mensuration",
       "name": "Mensuration",
       "nameZh": "度量",
