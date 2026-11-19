@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "topicId": "exponentials-logarithms",
+  "chapterId": "exponentials-logarithms",
+  "course": "core",
+  "name": {
+    "en": "Exponentials and Logarithms",
+    "zh-Hant": "指數與對數"
+  },
+  "purpose": {
+    "en": "Connect index laws, exponential graphs, equations and compound growth.",
+    "zh-Hant": "連結指數定律、指數圖像、指數方程和複合增長。"
+  },
+  "prerequisites": {
+    "en": "Integer powers, roots and solving linear and quadratic equations.",
+    "zh-Hant": "整數指數、根式、一次及二次方程。"
+  },
+  "scopeNote": {
+    "en": "This guide covers the exponential part of the chapter.",
+    "zh-Hant": "本導讀涵蓋本章的指數部分。"
+  },
+  "sections": [
+    {
+      "id": "index-laws",
+      "title": {
+        "en": "Check the base before simplifying",
+        "zh-Hant": "化簡前先檢查底數"
+      },
+      "intro": {
+        "en": "Rewrite roots as fractional powers for positive bases. Factor out the common power when terms are added or subtracted.",
+        "zh-Hant": "正底數的根式可寫成分數指數。遇到同底冪相加或相減，先提出公因冪。"
+      },
+      "trigger": {
+        "en": "Recognise powers of the same base.",
+        "zh-Hant": "辨認同底冪。"
+      },
+      "trap": {
+        "en": "Adding powers does not mean adding their exponents.",
+        "zh-Hant": "同底冪相加時，不可直接相加指數。"
+      },
+      "skills": [
+        "exp-fractional-indices",
+        "exp-common-power",
+        "exp-power-rewrite"
+      ],
+      "formulas": [],
+      "exampleIds": [
+        "import-exponentials-logarithms-540807842b6ebb91",
+        "import-exponentials-logarithms-0e7ec77839e8860a",
+        "import-exponentials-logarithms-f965aa69e18a6017"
+      ]
+    },
+    {
+      "id": "exponential-graphs",
+      "title": {
+        "en": "Read intercepts and compare curves",
+        "zh-Hant": "讀取截距及比較曲線"
+      },
+      "intro": {
+        "en": "At zero, a positive base raised to the power zero gives 1. To compare negative exponential graphs, read at x = 1 and reverse the order when changing signs.",
+        "zh-Hant": "正底數的零次冪等於 1。比較負指數曲線時，可讀取橫坐標為 1 的縱坐標，變號後須反轉大小次序。"
+      },
+      "trigger": {
+        "en": "Use a common x-coordinate or read a reciprocal as a negative power.",
+        "zh-Hant": "使用同一橫坐標，或把倒數寫成負指數。"
+      },
+      "trap": {
+        "en": "A reciprocal does not mean reflecting across the horizontal axis.",
+        "zh-Hant": "取倒數並不是把圖像沿橫軸反射。"
+      },
+      "skills": [
+        "exp-intercepts-monotonicity",
+        "exp-compare-bases",
+        "exp-read-reciprocal"
+      ],
+      "formulas": [],
+      "exampleIds": [
+        "import-exponentials-logarithms-485556eba4963e32",
+        "import-exponentials-logarithms-3e2017b21db3a0b8",
+        "import-exponentials-logarithms-a6fba9daf4928786"
+      ]
+    },
+    {
+      "id": "exponential-equations",
+      "title": {
+        "en": "Choose a common base or substitute",
+        "zh-Hant": "化同底或換元"
+      },
+      "intro": {
+        "en": "Convert to a common positive base other than 1 before equating exponents. A repeated reciprocal power can become a single variable.",
+        "zh-Hant": "先化為同一個不等於 1 的正底數，再比較指數。遇到重複出現的倒數冪，可用一個變量代替。"
+      },
+      "trigger": {
+        "en": "Look for linear equations in the exponents or a quadratic in a repeated power.",
+        "zh-Hant": "留意指數能否化為一次方程，或換元後能否得到二次方程。"
+      },
+      "trap": {
+        "en": "Check the domain when converting a solution back to the original variable.",
+        "zh-Hant": "把換元所得的解代回原變量時，要核對定義域。"
+      },
+      "skills": [
+        "exp-same-base",
+        "exp-linear-system",
+        "exp-reciprocal-substitution"
+      ],
+      "formulas": [],
+      "exampleIds": [
+        "import-exponentials-logarithms-664ce60c38f536b1",
+        "import-exponentials-logarithms-656215da6e9f1426",
+        "import-exponentials-logarithms-23deb06e86192355"
+      ]
+    },
+    {
+      "id": "growth",
+      "title": {
+        "en": "Compare growth by multiplying",
+        "zh-Hant": "以倍數比較增長"
+      },
+      "intro": {
+        "en": "Each period multiplies the current quantity, so consecutive growth factors multiply.",
+        "zh-Hant": "每一期都按當時數量乘上增長倍數，因此連續各期的倍數須相乘。"
+      },
+      "trigger": {
+        "en": "Identify the period and its multiplier.",
+        "zh-Hant": "先找出增長期及每期倍數。"
+      },
+      "trap": {
+        "en": "Doubling the time does not usually double the percentage increase.",
+        "zh-Hant": "時間加倍，百分增幅通常不會剛好加倍。"
+      },
+      "skills": [
+        "exp-growth-periods"
+      ],
+      "formulas": [],
+      "exampleIds": [
+        "import-exponentials-logarithms-1a78378b3069da66"
+      ]
+    }
+  ]
+}

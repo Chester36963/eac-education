@@ -132,5 +132,15 @@
   "poly-rational-products": "Factor, cancel and divide algebraic fractions｜分式因式分解、約分及除法",
   "poly-rational-sums": "Add/subtract algebraic fractions｜分式通分與加減",
   "poly-complex-fractions": "Simplify compound fractions｜複分式化簡",
-  "poly-partial-fractions": "Recover partial-fraction constants｜部分分式常數"
+  "poly-partial-fractions": "Recover partial-fraction constants｜部分分式常數",
+  "exp-fractional-indices": "Fractional indices · 分數指數",
+  "exp-common-power": "Factor out a common power · 提取公因冪",
+  "exp-power-rewrite": "Express powers using given values · 以已知量表示冪",
+  "exp-intercepts-monotonicity": "Intercepts and monotonicity · 截距與單調性",
+  "exp-compare-bases": "Compare bases from graphs · 從圖像比較底數",
+  "exp-read-reciprocal": "Read reciprocal powers from graphs · 由圖像讀取倒數冪",
+  "exp-same-base": "Equate exponents · 化同底比較指數",
+  "exp-linear-system": "Reduce to simultaneous linear equations · 化為聯立一次方程",
+  "exp-reciprocal-substitution": "Substitute a reciprocal power · 倒數冪換元",
+  "exp-growth-periods": "Compare growth periods · 比較增長期"
 }

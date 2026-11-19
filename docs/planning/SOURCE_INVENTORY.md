@@ -25,7 +25,7 @@
 
 ## 課題候選對照
 
-61 個課題容器，按學生用途初步整理；並非官方課綱認證。表中來源數可跨列重疊，不能相加當檔案總數。現有 8 個已綁定容器沿用題號；其他容器不產生空白學生入口。
+61 個課題容器，按學生用途初步整理；並非官方課綱認證。表中來源數可跨列重疊，不能相加當檔案總數。現有 9 個已綁定容器沿用題號；其他容器不產生空白學生入口。
 
 | ID | 軌道 | 課題 | 來源階段候選 | 實體來源候選 | 已有題庫 |
 |---|---|---|---|---:|---|
@@ -46,7 +46,7 @@
 | functions-quadratics | CORE | 函數與二次方程 / Functions and quadratic equations | S4 | 36 | 待建立 |
 | equation-systems | CORE | 進階方程 / Further equations | S4 | 9 | 待建立 |
 | complex-numbers | CORE | 複數 / Complex numbers | S4 | 11 | 待建立 |
-| exponentials-logarithms | CORE | 指數與對數函數 / Exponential and logarithmic functions | S4 | 24 | 待建立 |
+| exponentials-logarithms | CORE | 指數與對數函數 / Exponential and logarithmic functions | S4 | 24 | exponentials-logarithms |
 | variation | CORE | 變分 / Variation | S5 | 7 | 待建立 |
 | sequences | CORE | 數列與級數 / Sequences and series | S6 | 17 | sequences |
 | geometry-foundations | CORE | 幾何入門 / Geometry foundations | S1 | 2 | 待建立 |

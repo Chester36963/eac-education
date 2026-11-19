@@ -1007,8 +1007,12 @@
           "skillStatus": "requires-question-level-review"
         }
       ],
-      "bankBinding": null,
-      "publicationGate": "new-topic-review",
+      "bankBinding": {
+        "topicId": "exponentials-logarithms",
+        "chapterId": "exponentials-logarithms",
+        "subjectId": "algebra"
+      },
+      "publicationGate": "existing-bank-expansion",
       "templateId": "eac-study-v1"
     },
     {

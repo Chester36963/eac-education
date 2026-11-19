@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "curriculumHash": "e36a7f91e6529ed69e56e767ad743f539f5344657b3d000493d233b9c79335a0",
+  "curriculumHash": "6ace02ba63f8d55552c29902a1d15f6753ef22c0f4d867942627b7bfe25377d0",
   "inventoryHash": "aa6c93abaacab6917603ec20365ada4992737da50ef369bc4020da413d697180",
   "routes": [
     {
@@ -18232,7 +18232,11 @@
       "sourceStageCandidates": [
         "S4"
       ],
-      "publishedBinding": null,
+      "publishedBinding": {
+        "topicId": "exponentials-logarithms",
+        "chapterId": "exponentials-logarithms",
+        "subjectId": "algebra"
+      },
       "importedQuestionCount": 0
     },
     {
